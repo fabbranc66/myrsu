@@ -112,6 +112,8 @@ Protocol register access:
 
 ## Development Rules
 
+Regole complete: `DEVELOPMENT_RULES.md`
+
 - Una cosa alla volta
 - API-first JSON
 - Backend controlla validazioni e permessi
