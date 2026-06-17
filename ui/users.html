@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Users</title>
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <main>
+    <section class="panel" id="loginPanel">
+      <h1>MyRSU</h1>
+      <form id="loginForm">
+        <input name="email" type="email" value="admin@myrsu.local" required>
+        <input name="password" type="password" value="admin123" required>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section class="panel hidden" id="userPanel">
+      <header>
+        <h1>Users</h1>
+        <button id="logoutButton" type="button">Logout</button>
+      </header>
+
+      <form id="createForm" class="grid">
+        <input name="name" placeholder="Name" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="password" type="password" placeholder="Password" minlength="8" required>
+        <select name="role" id="roleSelect" required></select>
+        <button type="submit">Create</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Status</th>
+            <th>Role</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="usersTable"></tbody>
+      </table>
+    </section>
+
+    <pre id="message"></pre>
+
+    <section class="panel hidden" id="consentPanel">
+      <header>
+        <h1>GDPR Consents</h1>
+        <button id="closeConsents" type="button">Close</button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Version</th>
+            <th>Accepted</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="consentsTable"></tbody>
+      </table>
+    </section>
+
+    <section class="panel hidden" id="activityPanel">
+      <header>
+        <h1>Activity Logs</h1>
+        <button id="closeActivity" type="button">Close</button>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Who</th>
+            <th>Where</th>
+            <th>Metadata</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="activityTable"></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="users.js"></script>
+</body>
+</html>
