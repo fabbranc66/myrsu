@@ -24,16 +24,13 @@
         <button type="submit">Login</button>
       </form>
 
-      <form id="protocolForm" class="grid hidden">
-        <select name="direction" required>
+      <div class="grid">
+        <label>List filter<select id="directionFilter">
+          <option value="">All</option>
           <option value="IN">IN</option>
           <option value="OUT">OUT</option>
-        </select>
-        <input name="type_code" value="DOC" required>
-        <input name="subject" placeholder="Subject" required>
-        <input name="document_id" type="number" placeholder="Document ID">
-        <button type="submit">Create</button>
-      </form>
+        </select></label>
+      </div>
 
       <div id="protocolTable" class="register-list"></div>
 

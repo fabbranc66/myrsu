@@ -231,15 +231,12 @@ function activityRow(log) {
     <tr>
       <td>${formatAction(log)}</td>
       <td>${log.actor_name || ''}</td>
-      <td>${formatTarget(log)}</td>
+      <td>${formatWhere(log)}</td>
+      <td>${formatSection(log.metadata_json)}</td>
       <td>${formatMetadata(log.metadata_json)}</td>
       <td>${log.created_at}</td>
     </tr>
   `;
-}
-
-function formatTarget(log) {
-  return log.target_name || '';
 }
 
 function formatAction(log) {
@@ -256,6 +253,12 @@ function formatAction(log) {
   return actions[log.action] || log.action;
 }
 
+function formatWhere(log) {
+  const section = formatSection(log.metadata_json);
+  if (section === 'protocol') return '';
+  return log.target_name || 'user';
+}
+
 function formatMetadata(value) {
   if (!value) return '';
 
@@ -267,10 +270,21 @@ function formatMetadata(value) {
     }
 
     return Object.entries(data)
+      .filter(([key]) => key !== 'section')
       .map(([key, item]) => `${key}: ${Array.isArray(item) ? item.join(', ') : item}`)
       .join(' | ');
   } catch {
     return value;
+  }
+}
+
+function formatSection(value) {
+  if (!value) return '';
+
+  try {
+    return JSON.parse(value).section || '';
+  } catch {
+    return '';
   }
 }
 

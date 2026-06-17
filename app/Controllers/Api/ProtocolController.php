@@ -46,6 +46,7 @@ final class ProtocolController
 
         $entry = $this->app->protocols->create($direction, $typeCode, (string)$data['subject'], (int)$user['id']);
         $this->app->activityLogs->write((int)$user['id'], 'protocol.create', [
+            'section' => 'protocol',
             'protocol_number' => $entry['protocol_number'],
         ]);
 
@@ -66,6 +67,7 @@ final class ProtocolController
         );
 
         $this->app->activityLogs->write((int)$user['id'], 'protocol.update', [
+            'section' => 'protocol',
             'protocol_number' => $entry['protocol_number'],
         ]);
 
@@ -78,6 +80,7 @@ final class ProtocolController
         $entry = $this->app->protocols->cancel((int)$params['id'], (int)$user['id']);
 
         $this->app->activityLogs->write((int)$user['id'], 'protocol.cancel', [
+            'section' => 'protocol',
             'protocol_number' => $entry['protocol_number'],
         ]);
 

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Protocol Edit</title>
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <header>
+        <h1>Protocol Edit</h1>
+        <a class="button" href="protocol-test.html">Protocol</a>
+      </header>
+      <form id="editForm" class="grid">
+        <label>Number<input name="protocol_number" readonly></label>
+        <label>Subject<input name="subject" required></label>
+        <label>Document ID<input name="document_id" type="number"></label>
+        <button type="submit">Save</button>
+      </form>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="protocol-edit.js"></script>
+</body>
+</html>

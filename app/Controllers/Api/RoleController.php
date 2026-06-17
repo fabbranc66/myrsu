@@ -50,6 +50,7 @@ final class RoleController
         $userId = (int)$params['id'];
         $this->app->roles->replaceUserRoles($userId, $data['roles']);
         $this->app->activityLogs->write((int)$actor['id'], 'roles.user_replaced', [
+            'section' => 'registry',
             'target_user_id' => $userId,
             'roles' => $data['roles'],
         ]);

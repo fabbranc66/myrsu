@@ -180,3 +180,18 @@ pre {
 .is-canceled {
   opacity: .62;
 }
+
+dl {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 8px 14px;
+}
+
+dt {
+  color: #64748b;
+  font-weight: 700;
+}
+
+dd {
+  margin: 0;
+}

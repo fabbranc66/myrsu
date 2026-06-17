@@ -60,7 +60,10 @@ final class UserController
             (string)$data['password']
         );
         $this->app->roles->assignRole($userId, (string)$data['role']);
-        $this->app->activityLogs->write((int)$actor['id'], 'users.create', ['created_user_id' => $userId]);
+        $this->app->activityLogs->write((int)$actor['id'], 'users.create', [
+            'section' => 'registry',
+            'created_user_id' => $userId,
+        ]);
 
         return Response::json(['data' => $this->app->users->findById($userId)], 201);
     }
@@ -102,6 +105,7 @@ final class UserController
         }
 
         $this->app->activityLogs->write((int)$actor['id'], 'users.update', [
+            'section' => 'registry',
             'updated_user_id' => $userId,
             'changes' => $changes,
         ]);
@@ -123,7 +127,10 @@ final class UserController
         }
 
         $this->app->users->delete($userId);
-        $this->app->activityLogs->write((int)$actor['id'], 'users.delete', ['deleted_user_id' => $userId]);
+        $this->app->activityLogs->write((int)$actor['id'], 'users.delete', [
+            'section' => 'registry',
+            'deleted_user_id' => $userId,
+        ]);
 
         return Response::json(['data' => ['deleted' => true]]);
     }

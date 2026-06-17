@@ -37,6 +37,7 @@ final class ProfileController
         ]);
 
         $this->app->activityLogs->write((int)$user['id'], 'profile.update', [
+            'section' => 'registry',
             'updated_user_id' => (int)$user['id'],
         ]);
 
@@ -59,6 +60,7 @@ final class ProfileController
         ]);
 
         $this->app->activityLogs->write((int)$user['id'], 'profile.password', [
+            'section' => 'registry',
             'updated_user_id' => (int)$user['id'],
             'changes' => ['password' => 'changed'],
         ]);
