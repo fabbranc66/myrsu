@@ -77,6 +77,24 @@ CREATE TABLE activity_logs (
   CONSTRAINT activity_logs_user_id_fk FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE SET NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+CREATE TABLE protocol_entries (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  protocol_number VARCHAR(40) NOT NULL UNIQUE,
+  direction ENUM('IN', 'OUT') NOT NULL,
+  type_code VARCHAR(20) NOT NULL,
+  year SMALLINT UNSIGNED NOT NULL,
+  sequence INT UNSIGNED NOT NULL,
+  subject VARCHAR(255) NOT NULL,
+  document_id BIGINT UNSIGNED NULL,
+  created_by BIGINT UNSIGNED NOT NULL,
+  created_at DATETIME NOT NULL,
+  canceled_at DATETIME NULL,
+  canceled_by BIGINT UNSIGNED NULL,
+  UNIQUE KEY protocol_sequence_unique (direction, type_code, year, sequence),
+  CONSTRAINT protocol_entries_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id),
+  CONSTRAINT protocol_entries_canceled_by_fk FOREIGN KEY (canceled_by) REFERENCES users(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 INSERT INTO roles (name, label) VALUES
   ('membro', 'Membro'),
   ('delegato', 'Delegato'),
@@ -90,12 +108,22 @@ INSERT INTO permissions (name, label) VALUES
   ('users.delete', 'Eliminare utenti'),
   ('roles.manage', 'Gestire ruoli e permessi'),
   ('gdpr.view_all', 'Vedere consensi GDPR di tutti'),
-  ('activity.view', 'Vedere log attivita');
+  ('activity.view', 'Vedere log attivita'),
+  ('protocol.view', 'Vedere registro protocollo'),
+  ('protocol.create', 'Creare protocollo'),
+  ('protocol.update', 'Modificare protocollo'),
+  ('protocol.cancel', 'Annullare protocollo');
 
 INSERT INTO permission_role (permission_id, role_id)
 SELECT p.id, r.id
 FROM permissions p
 JOIN roles r ON r.name = 'admin';
+
+INSERT INTO permission_role (permission_id, role_id)
+SELECT p.id, r.id
+FROM permissions p
+JOIN roles r ON r.name = 'delegato'
+WHERE p.name IN ('protocol.view', 'protocol.create', 'protocol.update', 'protocol.cancel');
 
 INSERT INTO permission_role (permission_id, role_id)
 SELECT p.id, r.id

@@ -6,6 +6,7 @@ namespace App\Core;
 
 use App\Repositories\ActivityLogRepository;
 use App\Repositories\GdprConsentRepository;
+use App\Repositories\ProtocolRepository;
 use App\Repositories\RolePermissionRepository;
 use App\Repositories\TokenRepository;
 use App\Repositories\UserRepository;
@@ -21,6 +22,7 @@ final class Application
     public readonly TokenRepository $tokens;
     public readonly RolePermissionRepository $roles;
     public readonly GdprConsentRepository $gdprConsents;
+    public readonly ProtocolRepository $protocols;
     public readonly ActivityLogRepository $activityLogs;
     public readonly AuthService $authService;
 
@@ -37,6 +39,7 @@ final class Application
         $this->tokens = new TokenRepository($pdo);
         $this->roles = new RolePermissionRepository($pdo);
         $this->gdprConsents = new GdprConsentRepository($pdo);
+        $this->protocols = new ProtocolRepository($pdo);
         $this->activityLogs = new ActivityLogRepository($pdo);
         $this->auth = new Auth($this->users, $this->tokens, $this->roles);
         $this->authService = new AuthService($this->users, $this->tokens, $this->activityLogs);

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Profile Test</title>
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <h1>Profile Test</h1>
+      <form id="loginForm" class="grid">
+        <input name="email" type="email" value="admin@myrsu.local" required>
+        <input name="password" type="password" value="admin123" required>
+        <button type="submit">Login</button>
+      </form>
+
+      <form id="profileForm" class="grid hidden">
+        <input name="name" required>
+        <input name="email" type="email" required>
+        <button type="submit">Save Profile</button>
+      </form>
+
+      <form id="passwordForm" class="grid hidden">
+        <input name="password" type="password" placeholder="New password" minlength="8" required>
+        <button type="submit">Save Password</button>
+      </form>
+
+      <section id="gdprBox" class="hidden">
+        <h2>Privacy</h2>
+        <p class="muted">Privacy policy version 2026-06-18</p>
+        <button id="acceptGdpr" type="button">Accept GDPR</button>
+      </section>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="profile-test.js"></script>
+</body>
+</html>

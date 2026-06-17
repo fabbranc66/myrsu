@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU User Edit</title>
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <header>
+        <div>
+          <h1>Edit User</h1>
+          <p class="muted" id="subtitle"></p>
+        </div>
+        <a class="button" href="users.html">Users</a>
+      </header>
+
+      <h2>Account</h2>
+      <form id="editForm" class="grid">
+        <label>ID<input name="id" readonly></label>
+        <label>Name<input name="name" required></label>
+        <label>Email<input name="email" type="email" required></label>
+        <label>Password<input name="password" type="password" placeholder="New password" minlength="8"></label>
+        <label>Role<select name="role" id="roleSelect" required></select></label>
+        <label>Status<select name="status" required>
+            <option value="active">active</option>
+            <option value="suspended">suspended</option>
+          </select></label>
+        <label>Created at<input name="created_at" readonly></label>
+        <label>Updated at<input name="updated_at" readonly></label>
+        <button type="submit">Save</button>
+      </form>
+
+      <h2>GDPR</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Version</th>
+            <th>Accepted</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="gdprTable"></tbody>
+      </table>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="user-edit.js"></script>
+</body>
+</html>

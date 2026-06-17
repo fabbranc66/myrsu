@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Protocol Test</title>
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <header class="register-head">
+        <div>
+          <h1>Protocol Register</h1>
+          <p class="muted">Incoming and outgoing registered items.</p>
+        </div>
+        <span id="protocolCount" class="register-count">0</span>
+        <a class="button" href="users.html">Users</a>
+      </header>
+
+      <form id="loginForm" class="grid">
+        <input name="email" type="email" value="admin@myrsu.local" required>
+        <input name="password" type="password" value="admin123" required>
+        <button type="submit">Login</button>
+      </form>
+
+      <form id="protocolForm" class="grid hidden">
+        <select name="direction" required>
+          <option value="IN">IN</option>
+          <option value="OUT">OUT</option>
+        </select>
+        <input name="type_code" value="DOC" required>
+        <input name="subject" placeholder="Subject" required>
+        <input name="document_id" type="number" placeholder="Document ID">
+        <button type="submit">Create</button>
+      </form>
+
+      <div id="protocolTable" class="register-list"></div>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="protocol-test.js"></script>
+</body>
+</html>

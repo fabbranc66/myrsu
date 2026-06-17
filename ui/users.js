@@ -12,6 +12,8 @@ const consentPanel = document.querySelector('#consentPanel');
 const consentsTable = document.querySelector('#consentsTable');
 const activityPanel = document.querySelector('#activityPanel');
 const activityTable = document.querySelector('#activityTable');
+const gdprBox = document.querySelector('#gdprBox');
+const jsonOutput = document.querySelector('#jsonOutput');
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -22,7 +24,14 @@ async function api(path, options = {}) {
   const payload = text ? JSON.parse(text) : {};
 
   if (!response.ok) throw new Error(payload.error?.message || 'Request failed');
+  renderJson(payload);
   return payload.data;
+}
+
+function renderJson(payload) {
+  if (jsonOutput) {
+    jsonOutput.textContent = JSON.stringify(payload, null, 2);
+  }
 }
 
 function showError(error) {
@@ -57,6 +66,17 @@ async function loadRoles() {
     .join('');
 }
 
+async function checkGdpr() {
+  const consents = await api('/gdpr/consents');
+  const accepted = consents.some((consent) => (
+    consent.consent_type === 'privacy_policy'
+    && consent.document_version === '2026-06-18'
+    && Number(consent.accepted) === 1
+  ));
+
+  gdprBox.classList.toggle('hidden', accepted);
+}
+
 async function loadUsers() {
   const users = await api('/users');
   usersTable.innerHTML = users.map(row).join('');
@@ -81,6 +101,7 @@ function row(user) {
         </select>
       </td>
       <td>
+        <a class="button" href="user-edit.html?id=${user.id}">Edit</a>
         <button data-save="${user.id}">Save</button>
         <button data-consents="${user.id}">GDPR</button>
         <button data-activity="${user.id}">Logs</button>
@@ -109,6 +130,7 @@ loginForm.addEventListener('submit', async (event) => {
     sessionStorage.setItem('token', state.token);
     setAuthView();
     await loadRoles();
+    await checkGdpr();
     await loadUsers();
   } catch (error) {
     showError(error);
@@ -291,5 +313,18 @@ document.querySelector('#logoutButton').addEventListener('click', async () => {
   setAuthView();
 });
 
+document.querySelector('#acceptGdpr').addEventListener('click', async () => {
+  await api('/gdpr/consents', {
+    method: 'POST',
+    body: JSON.stringify({
+      consent_type: 'privacy_policy',
+      document_version: '2026-06-18',
+      accepted: true,
+    }),
+  });
+  gdprBox.classList.add('hidden');
+  showMessage('GDPR accepted');
+});
+
 setAuthView();
-if (state.token) loadRoles().then(loadUsers).catch(showError);
+if (state.token) loadRoles().then(checkGdpr).then(loadUsers).catch(showError);

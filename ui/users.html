@@ -20,8 +20,15 @@
     <section class="panel hidden" id="userPanel">
       <header>
         <h1>Users</h1>
+        <a class="button" href="profile-test.html">Profile</a>
         <button id="logoutButton" type="button">Logout</button>
       </header>
+
+      <section id="gdprBox" class="hidden">
+        <h2>Privacy</h2>
+        <p class="muted">Privacy policy version 2026-06-18</p>
+        <button id="acceptGdpr" type="button">Accept GDPR</button>
+      </section>
 
       <form id="createForm" class="grid">
         <input name="name" placeholder="Name" required>
@@ -47,6 +54,7 @@
     </section>
 
     <pre id="message"></pre>
+    <pre id="jsonOutput" class="json-output"></pre>
 
     <section class="panel hidden" id="consentPanel">
       <header>
