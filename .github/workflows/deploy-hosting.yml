@@ -31,11 +31,13 @@ jobs:
         run: |
           FTP_HOST="${FTP_SERVER#ftp://}"
           FTP_HOST="${FTP_HOST%/}"
+          FTP_TARGET_DIR="myrsu"
 
           echo "FTP host: $FTP_HOST"
-          curl --fail --show-error --ftp-method nocwd \
+          echo "FTP target: /$FTP_TARGET_DIR/"
+          curl --fail --show-error --ftp-create-dirs --ftp-method nocwd \
             --user "$FTP_USERNAME:$FTP_PASSWORD" \
-            "ftp://$FTP_HOST/"
+            "ftp://$FTP_HOST/$FTP_TARGET_DIR/"
 
           find . -type f \
             ! -path './.git/*' \
@@ -50,5 +52,5 @@ jobs:
               curl --fail --silent --show-error --ftp-create-dirs \
                 --user "$FTP_USERNAME:$FTP_PASSWORD" \
                 --upload-file "$file" \
-                "ftp://$FTP_HOST/$remote"
+                "ftp://$FTP_HOST/$FTP_TARGET_DIR/$remote"
             done
