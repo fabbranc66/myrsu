@@ -29,10 +29,14 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
+          FTP_HOST="${FTP_SERVER#ftp://}"
+          FTP_HOST="${FTP_HOST%/}"
+
           find . -type f \
             ! -path './.git/*' \
             ! -path './.github/*' \
             ! -path './.env' \
+            ! -path './.gitignore' \
             ! -path './public/documents/*' \
             ! -path './storage/private/*' \
             -print0 | while IFS= read -r -d '' file; do
@@ -41,5 +45,5 @@ jobs:
               curl --fail --silent --show-error --ftp-create-dirs \
                 --user "$FTP_USERNAME:$FTP_PASSWORD" \
                 --upload-file "$file" \
-                "ftp://$FTP_SERVER/$remote"
+                "ftp://$FTP_HOST/$remote"
             done
