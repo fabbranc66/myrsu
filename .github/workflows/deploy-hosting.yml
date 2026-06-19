@@ -32,6 +32,11 @@ jobs:
           FTP_HOST="${FTP_SERVER#ftp://}"
           FTP_HOST="${FTP_HOST%/}"
 
+          echo "FTP host: $FTP_HOST"
+          curl --fail --show-error --ftp-method nocwd \
+            --user "$FTP_USERNAME:$FTP_PASSWORD" \
+            "ftp://$FTP_HOST/"
+
           find . -type f \
             ! -path './.git/*' \
             ! -path './.github/*' \
