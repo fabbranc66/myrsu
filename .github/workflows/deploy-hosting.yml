@@ -23,26 +23,23 @@ jobs:
       - name: Install dependencies
         run: composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
 
-      - name: Install lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
       - name: Deploy via FTP
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
-          lftp -u "$FTP_USERNAME","$FTP_PASSWORD" "$FTP_SERVER" <<EOF
-          set cmd:fail-exit yes
-          set ftp:ssl-allow no
-          set net:timeout 20
-          set net:max-retries 2
-          mirror --reverse --verbose --only-newer \
-            --exclude-glob .git/ \
-            --exclude-glob .github/ \
-            --exclude-glob .env \
-            --exclude-glob public/documents/ \
-            --exclude-glob storage/private/ \
-            ./ .
-          bye
-          EOF
+          find . -type f \
+            ! -path './.git/*' \
+            ! -path './.github/*' \
+            ! -path './.env' \
+            ! -path './public/documents/*' \
+            ! -path './storage/private/*' \
+            -print0 | while IFS= read -r -d '' file; do
+              remote="${file#./}"
+              echo "Uploading $remote"
+              curl --fail --silent --show-error --ftp-create-dirs \
+                --user "$FTP_USERNAME:$FTP_PASSWORD" \
+                --upload-file "$file" \
+                "ftp://$FTP_SERVER/$remote"
+            done
