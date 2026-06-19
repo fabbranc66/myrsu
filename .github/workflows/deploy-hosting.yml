@@ -44,6 +44,8 @@ jobs:
             ! -path './.github/*' \
             ! -path './.env' \
             ! -path './.gitignore' \
+            ! -path './.htaccess' \
+            ! -path './storage/.htaccess' \
             ! -path './README.md' \
             ! -path './DEVELOPMENT_RULES.md' \
             ! -path './composer.json' \
