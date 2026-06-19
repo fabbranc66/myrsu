@@ -83,6 +83,22 @@ final class DocumentStorageService
         }
     }
 
+    public function uploadPdfToHosting(array $document): void
+    {
+        $this->hostingUpload->uploadPdf(
+            $this->pdfPath((string)$document['pdf_public_path']),
+            (string)$document['pdf_public_path'],
+            (string)$document['category'],
+            (string)$document['pdf_checksum_sha256'],
+            [
+                'document_id' => (string)$document['id'],
+                'original_name' => (string)$document['original_name'],
+                'signature' => (string)$document['signature'],
+                'signed_at' => (string)$document['signed_at'],
+            ]
+        );
+    }
+
     private function assertUpload(array $file): void
     {
         if (($file['error'] ?? UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_OK) {
@@ -127,7 +143,6 @@ final class DocumentStorageService
 
         $publicPath = 'public/documents/' . $category . '/' . $pdfName;
         $checksum = hash_file('sha256', $pdfPath);
-        $this->hostingUpload->uploadPdf($pdfPath, $publicPath, $category, $checksum);
 
         return [
             'path' => $publicPath,

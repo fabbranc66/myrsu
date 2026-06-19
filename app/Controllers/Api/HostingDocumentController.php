@@ -21,7 +21,8 @@ final class HostingDocumentController
         $result = $this->app->hostingDocumentReceive->receive(
             $_FILES['file'] ?? [],
             (string)($_POST['category'] ?? ''),
-            (string)($_POST['checksum_sha256'] ?? '')
+            (string)($_POST['checksum_sha256'] ?? ''),
+            json_decode((string)($_POST['metadata_json'] ?? '[]'), true) ?: []
         );
 
         return Response::json(['data' => $result], 201);

@@ -17,7 +17,7 @@ final class HostingDocumentUploadService
         return $this->endpoint() !== '' && $this->token() !== '';
     }
 
-    public function uploadPdf(string $pdfPath, string $publicPath, string $category, string $checksum): void
+    public function uploadPdf(string $pdfPath, string $publicPath, string $category, string $checksum, array $metadata = []): void
     {
         if (!$this->enabled()) {
             return;
@@ -39,6 +39,7 @@ final class HostingDocumentUploadService
                 'category' => $category,
                 'public_path' => $publicPath,
                 'checksum_sha256' => $checksum,
+                'metadata_json' => json_encode($metadata, JSON_UNESCAPED_SLASHES),
                 'file' => new \CURLFile($pdfPath, 'application/pdf', basename($publicPath)),
             ],
         ]);

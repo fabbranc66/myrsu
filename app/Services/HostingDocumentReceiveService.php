@@ -14,7 +14,7 @@ final class HostingDocumentReceiveService
     ) {
     }
 
-    public function receive(array $file, string $category, string $checksum): array
+    public function receive(array $file, string $category, string $checksum, array $metadata): array
     {
         $this->assertEnabled();
         $this->assertCategory($category);
@@ -37,10 +37,13 @@ final class HostingDocumentReceiveService
             throw new HttpException(422, 'Checksum non valido.');
         }
 
-        return [
+        $result = [
             'path' => 'public/documents/' . $category . '/' . $fileName,
             'checksum_sha256' => $checksum,
         ];
+        $this->writeMetadata($metadata, $result['path'], $checksum);
+
+        return $result;
     }
 
     public function assertToken(?string $token): void
@@ -79,6 +82,28 @@ final class HostingDocumentReceiveService
     {
         $name = preg_replace('/[^A-Za-z0-9._-]/', '_', basename($name)) ?: 'document.pdf';
         return str_ends_with(strtolower($name), '.pdf') ? $name : $name . '.pdf';
+    }
+
+    private function writeMetadata(array $metadata, string $pdfPath, string $checksum): void
+    {
+        $id = (int)($metadata['document_id'] ?? 0);
+        if ($id <= 0) {
+            return;
+        }
+
+        $dir = $this->basePath . '/public/documents/metadata';
+        if (!is_dir($dir)) {
+            mkdir($dir, 0775, true);
+        }
+
+        file_put_contents($dir . '/' . $id . '.json', json_encode([
+            'id' => $id,
+            'original_name' => (string)($metadata['original_name'] ?? ''),
+            'pdf_public_path' => $pdfPath,
+            'pdf_checksum_sha256' => $checksum,
+            'signature' => (string)($metadata['signature'] ?? ''),
+            'signed_at' => (string)($metadata['signed_at'] ?? ''),
+        ], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
     }
 
     private function token(): string

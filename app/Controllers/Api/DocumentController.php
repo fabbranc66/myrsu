@@ -78,6 +78,7 @@ final class DocumentController
             filesize($pdfPath),
             hash_file('sha256', $pdfPath)
         );
+        $this->app->documentStorage->uploadPdfToHosting($document);
 
         $this->app->activityLogs->write((int)$user['id'], 'documents.upload', [
             'section' => 'documents',

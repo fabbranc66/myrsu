@@ -16,6 +16,7 @@ use App\Services\DocumentHeaderService;
 use App\Services\DocumentSignatureService;
 use App\Services\DocumentStorageService;
 use App\Services\DocumentVerificationPageService;
+use App\Services\DocumentVerificationMetadataService;
 use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
 use App\Services\PdfConversionService;
@@ -43,6 +44,7 @@ final class Application
     public readonly DocumentHeaderService $documentHeader;
     public readonly DocumentSignatureService $documentSignature;
     public readonly DocumentVerificationPageService $documentVerificationPage;
+    public readonly DocumentVerificationMetadataService $documentVerificationMetadata;
     public readonly DocumentStorageService $documentStorage;
     public readonly HostingDocumentReceiveService $hostingDocumentReceive;
 
@@ -56,6 +58,7 @@ final class Application
         $this->documentHeader = new DocumentHeaderService();
         $this->documentSignature = new DocumentSignatureService($this->signingConfig);
         $this->documentVerificationPage = new DocumentVerificationPageService();
+        $this->documentVerificationMetadata = new DocumentVerificationMetadataService($this->basePath);
         $this->documentStorage = new DocumentStorageService(
             $this->basePath,
             new PdfConversionService(new PdfWatermarkService()),
@@ -96,7 +99,10 @@ final class Application
             $app = $this;
             $request = Request::capture();
 
-            if (!in_array($request->path(), ['/api/v1/health', '/api/v1/hosting/documents'], true)) {
+            if (
+                !in_array($request->path(), ['/api/v1/health', '/api/v1/hosting/documents'], true)
+                && !preg_match('#^/api/v1/documents/[0-9]+/verify(-file)?$#', $request->path())
+            ) {
                 $this->bootDatabase();
             }
 

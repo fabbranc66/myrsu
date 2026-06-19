@@ -8,6 +8,7 @@ use App\Core\Application;
 use App\Core\HttpException;
 use App\Core\Request;
 use App\Core\Response;
+use Throwable;
 
 final class DocumentVerificationController
 {
@@ -18,7 +19,7 @@ final class DocumentVerificationController
     public function show(Request $request, array $params): Response
     {
         $signature = (string)$request->query('sig', '');
-        $document = $this->app->documents->findById((int)$params['id']);
+        $document = $this->findDocument((int)$params['id']);
 
         if ($document === null) {
             throw new HttpException(404, 'Documento non trovato.');
@@ -26,7 +27,8 @@ final class DocumentVerificationController
 
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
         $realChecksum = is_file($pdfPath) ? hash_file('sha256', $pdfPath) : null;
-        $valid = $this->app->documentSignature->valid($document, $signature, $realChecksum);
+        $checksumOk = $realChecksum === (string)$document['pdf_checksum_sha256'];
+        $valid = $checksumOk && hash_equals((string)$document['signature'], strtoupper(trim($signature)));
 
         return Response::json([
             'data' => [
@@ -35,9 +37,9 @@ final class DocumentVerificationController
                 'original_name' => $document['original_name'],
                 'signature' => $signature,
                 'expected_signature' => $document['signature'],
-                'checksum_ok' => $realChecksum === (string)$document['pdf_checksum_sha256'],
+                'checksum_ok' => $checksumOk,
                 'mode' => 'server_file',
-                'signed_at' => $document['signed_at'],
+                'signed_at' => $document['signed_at'] ?? null,
             ],
         ]);
     }
@@ -45,7 +47,7 @@ final class DocumentVerificationController
     public function file(Request $request, array $params): Response
     {
         $signature = (string)($_POST['sig'] ?? '');
-        $document = $this->app->documents->findById((int)$params['id']);
+        $document = $this->findDocument((int)$params['id']);
 
         if ($document === null) {
             throw new HttpException(404, 'Documento non trovato.');
@@ -57,7 +59,8 @@ final class DocumentVerificationController
         }
 
         $uploadedChecksum = hash_file('sha256', (string)$file['tmp_name']);
-        $valid = $this->app->documentSignature->valid($document, $signature, $uploadedChecksum);
+        $checksumOk = $uploadedChecksum === (string)$document['pdf_checksum_sha256'];
+        $valid = $checksumOk && hash_equals((string)$document['signature'], strtoupper(trim($signature)));
 
         return Response::json([
             'data' => [
@@ -65,9 +68,28 @@ final class DocumentVerificationController
                 'document_id' => (int)$document['id'],
                 'signature' => $signature,
                 'expected_signature' => $document['signature'],
-                'checksum_ok' => $uploadedChecksum === (string)$document['pdf_checksum_sha256'],
+                'checksum_ok' => $checksumOk,
                 'mode' => 'uploaded_file',
             ],
         ]);
+    }
+
+    private function findDocument(int $id): ?array
+    {
+        $metadata = $this->app->documentVerificationMetadata->find($id);
+        if ($metadata !== null) {
+            return $metadata;
+        }
+
+        if (isset($this->app->documents)) {
+            return $this->app->documents->findById($id);
+        }
+
+        try {
+            $this->app->bootDatabase();
+            return $this->app->documents->findById($id);
+        } catch (Throwable) {
+            return null;
+        }
     }
 }
