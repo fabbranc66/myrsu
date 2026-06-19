@@ -44,6 +44,7 @@ jobs:
             ! -path './.github/*' \
             ! -path './.env' \
             ! -path './.gitignore' \
+            ! -path './vendor/*' \
             ! -path './public/documents/*' \
             ! -path './storage/private/*' \
             -print0 | while IFS= read -r -d '' file; do
