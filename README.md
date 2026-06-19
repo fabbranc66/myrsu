@@ -45,6 +45,19 @@ $env:HOSTING_DOCUMENTS_TOKEN="secret-token"
 $env:MYRSU_SIGNING_SECRET="secret-token"
 ```
 
+## Deploy Hosting
+
+GitHub secrets richiesti:
+
+```text
+FTP_SERVER
+FTP_USERNAME
+FTP_PASSWORD
+FTP_SERVER_DIR
+```
+
+Deploy automatico su `main`: `.github/workflows/deploy-hosting.yml`
+
 ## UI Test
 
 - Users: `http://localhost/myrsu/ui/users.html`
