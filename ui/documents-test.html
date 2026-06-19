@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Documents Test</title>
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <header>
+        <h1>Documents</h1>
+        <a class="button" href="users.html">Users</a>
+      </header>
+
+      <form id="loginForm" class="grid">
+        <input name="email" type="email" value="admin@myrsu.local" required>
+        <input name="password" type="password" value="admin123" required>
+        <button type="submit">Login</button>
+      </form>
+
+      <form id="uploadForm" class="grid hidden">
+        <input name="file" type="file" required>
+        <select name="category">
+          <option value="documenti">documenti</option>
+          <option value="comunicati">comunicati</option>
+          <option value="segnalazioni">segnalazioni</option>
+        </select>
+        <select name="visibility">
+          <option value="rsu">rsu</option>
+          <option value="members">members</option>
+          <option value="public">public</option>
+        </select>
+        <button type="submit">Upload</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Visibility</th>
+            <th>Status</th>
+            <th>Size</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="documentsTable"></tbody>
+      </table>
+
+      <dialog id="documentModal">
+        <header>
+          <h2>Document</h2>
+          <button id="closeDocumentModal" type="button">Close</button>
+        </header>
+        <iframe id="documentPreview" title="Document preview"></iframe>
+      </dialog>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="documents-test.js"></script>
+</body>
+</html>

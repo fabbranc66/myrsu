@@ -66,6 +66,31 @@ CREATE TABLE gdpr_consents (
   CONSTRAINT gdpr_consents_user_id_fk FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+CREATE TABLE documents (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  original_name VARCHAR(255) NOT NULL,
+  stored_name VARCHAR(80) NOT NULL UNIQUE,
+  mime_type VARCHAR(120) NOT NULL,
+  size_bytes BIGINT UNSIGNED NOT NULL,
+  checksum_sha256 CHAR(64) NOT NULL,
+  original_stored_name VARCHAR(80) NULL,
+  original_mime_type VARCHAR(120) NULL,
+  original_size_bytes BIGINT UNSIGNED NULL,
+  original_checksum_sha256 CHAR(64) NULL,
+  category VARCHAR(40) NOT NULL DEFAULT 'documenti',
+  pdf_public_path VARCHAR(255) NULL,
+  pdf_size_bytes BIGINT UNSIGNED NULL,
+  pdf_checksum_sha256 CHAR(64) NULL,
+  conversion_status ENUM('ready', 'pending', 'failed') NOT NULL DEFAULT 'ready',
+  signature CHAR(24) NULL,
+  signed_at DATETIME NULL,
+  visibility ENUM('public', 'members', 'rsu') NOT NULL DEFAULT 'rsu',
+  uploaded_by BIGINT UNSIGNED NOT NULL,
+  created_at DATETIME NOT NULL,
+  CONSTRAINT documents_uploaded_by_fk FOREIGN KEY (uploaded_by) REFERENCES users(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
 CREATE TABLE activity_logs (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   user_id BIGINT UNSIGNED NULL,
@@ -109,6 +134,11 @@ INSERT INTO permissions (name, label) VALUES
   ('roles.manage', 'Gestire ruoli e permessi'),
   ('gdpr.view_all', 'Vedere consensi GDPR di tutti'),
   ('activity.view', 'Vedere log attivita'),
+  ('documents.view', 'Vedere documenti'),
+  ('documents.upload', 'Caricare documenti'),
+  ('documents.update', 'Modificare documenti'),
+  ('documents.download', 'Scaricare documenti'),
+  ('documents.delete', 'Eliminare documenti'),
   ('protocol.view', 'Vedere registro protocollo'),
   ('protocol.create', 'Creare protocollo'),
   ('protocol.update', 'Modificare protocollo'),
@@ -124,6 +154,7 @@ SELECT p.id, r.id
 FROM permissions p
 JOIN roles r ON r.name = 'delegato'
 WHERE p.name IN ('protocol.view', 'protocol.create', 'protocol.update', 'protocol.cancel');
+
 
 INSERT INTO permission_role (permission_id, role_id)
 SELECT p.id, r.id

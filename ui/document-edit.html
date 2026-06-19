@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Document Edit</title>
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <header>
+        <h1>Document Edit</h1>
+        <a class="button" href="documents-test.html">Documents</a>
+      </header>
+      <form id="editForm" class="grid">
+        <input name="original_name" readonly>
+        <input name="category" readonly>
+        <select name="visibility">
+          <option value="rsu">rsu</option>
+          <option value="members">members</option>
+          <option value="public">public</option>
+        </select>
+        <button type="submit">Save</button>
+      </form>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="document-edit.js"></script>
+</body>
+</html>

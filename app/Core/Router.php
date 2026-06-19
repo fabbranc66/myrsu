@@ -37,7 +37,7 @@ final class Router
         ];
     }
 
-    public function dispatch(Request $request): Response
+    public function dispatch(Request $request): object
     {
         foreach ($this->routes as $route) {
             if ($route['method'] !== $request->method()) {

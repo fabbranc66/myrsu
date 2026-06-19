@@ -255,7 +255,7 @@ function formatAction(log) {
 
 function formatWhere(log) {
   const section = formatSection(log.metadata_json);
-  if (section === 'protocol') return '';
+  if (section !== 'registry') return '';
   return log.target_name || 'user';
 }
 

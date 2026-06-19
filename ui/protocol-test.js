@@ -7,6 +7,9 @@ const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
 const protocolCount = document.querySelector('#protocolCount');
 const directionFilter = document.querySelector('#directionFilter');
+const documentModal = document.querySelector('#documentModal');
+const documentPreview = document.querySelector('#documentPreview');
+const closeDocumentModal = document.querySelector('#closeDocumentModal');
 let protocolEntries = [];
 
 async function api(path, options = {}) {
@@ -16,6 +19,11 @@ async function api(path, options = {}) {
   const response = await fetch(`${apiBase}${path}`, { ...options, headers });
   const text = await response.text();
   const payload = text ? JSON.parse(text) : {};
+
+  if (response.status === 401) {
+    sessionStorage.removeItem('token');
+    token = null;
+  }
 
   if (!response.ok) throw new Error(payload.error?.message || 'Request failed');
   renderJson(payload);
@@ -58,7 +66,7 @@ function row(entry) {
       <div class="register-meta">${entry.document_id || '-'}</div>
       <div class="register-meta">${status}</div>
       <div class="register-actions">
-        <a class="button" href="protocol-view.html?id=${entry.id}">View</a>
+        <button data-view="${entry.document_id || ''}" ${entry.document_id ? '' : 'disabled'}>View</button>
         <a class="button" href="protocol-edit.html?id=${entry.id}">Edit</a>
         <button data-cancel="${entry.id}" ${canceled ? 'disabled' : ''}>Delete</button>
       </div>
@@ -68,27 +76,45 @@ function row(entry) {
 
 loginForm.addEventListener('submit', async (event) => {
   event.preventDefault();
-  const form = new FormData(loginForm);
-  const data = await api('/auth/login', {
-    method: 'POST',
-    body: JSON.stringify({
-      email: form.get('email'),
-      password: form.get('password'),
-      device_name: 'protocol-test',
-    }),
-  });
-  token = data.access_token;
-  sessionStorage.setItem('token', token);
-  await loadProtocol();
+  try {
+    const form = new FormData(loginForm);
+    const data = await api('/auth/login', {
+      method: 'POST',
+      body: JSON.stringify({
+        email: form.get('email'),
+        password: form.get('password'),
+        device_name: 'protocol-test',
+      }),
+    });
+    token = data.access_token;
+    sessionStorage.setItem('token', token);
+    await loadProtocol();
+  } catch (error) {
+    message.textContent = error.message;
+  }
 });
 
 directionFilter.addEventListener('change', renderProtocol);
 
 protocolTable.addEventListener('click', async (event) => {
   const button = event.target.closest('button');
-  if (!button || !button.dataset.cancel) return;
-  await api(`/protocol/${button.dataset.cancel}`, { method: 'DELETE' });
-  await loadProtocol();
+  if (!button) return;
+
+  if (button.dataset.view) {
+    documentPreview.src = `${apiBase}/documents/${button.dataset.view}/preview?token=${encodeURIComponent(token)}`;
+    documentModal.showModal();
+    return;
+  }
+
+  if (button.dataset.cancel) {
+    await api(`/protocol/${button.dataset.cancel}`, { method: 'DELETE' });
+    await loadProtocol();
+  }
+});
+
+closeDocumentModal.addEventListener('click', () => {
+  documentPreview.src = '';
+  documentModal.close();
 });
 
 if (token) loadProtocol().catch((error) => {

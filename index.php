@@ -20,6 +20,10 @@ spl_autoload_register(static function (string $class): void {
 });
 
 require BASE_PATH . '/app/Core/helpers.php';
+load_env(BASE_PATH . '/.env');
+if (is_file(BASE_PATH . '/vendor/autoload.php')) {
+    require BASE_PATH . '/vendor/autoload.php';
+}
 
 $app = new App\Core\Application(BASE_PATH);
 $app->run();

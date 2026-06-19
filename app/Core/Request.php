@@ -31,7 +31,7 @@ final class Request
             strtoupper($_SERVER['REQUEST_METHOD'] ?? 'GET'),
             '/' . trim($uri, '/'),
             self::headers(),
-            $_GET,
+            self::parseQuery(),
             is_array($jsonBody) ? $jsonBody : $_POST
         );
     }
@@ -56,12 +56,17 @@ final class Request
         return $this->body;
     }
 
+    public function query(string $key, mixed $default = null): mixed
+    {
+        return $this->query[$key] ?? $default;
+    }
+
     public function bearerToken(): ?string
     {
         $authorization = $this->headers['authorization'] ?? '';
 
         if (!str_starts_with($authorization, 'Bearer ')) {
-            return null;
+            return isset($this->query['token']) ? (string)$this->query['token'] : null;
         }
 
         return trim(substr($authorization, 7)) ?: null;
@@ -87,5 +92,12 @@ final class Request
         }
 
         return $headers;
+    }
+
+    private static function parseQuery(): array
+    {
+        parse_str((string)parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_QUERY), $query);
+
+        return array_merge($_GET, $query);
     }
 }

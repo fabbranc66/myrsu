@@ -1,4 +1,4 @@
-# MyRSU API
+﻿# MyRSU API
 
 Backend API-first custom PHP per gestione RSU.
 
@@ -11,6 +11,7 @@ Backend API-first custom PHP per gestione RSU.
 - GDPR consents
 - Activity logs
 - Protocol register IN/OUT
+- Documents upload/download
 - UI test collegate alle API
 
 ## Principi
@@ -36,12 +37,21 @@ Backend API-first custom PHP per gestione RSU.
 }
 ```
 
+## Hosting Upload
+
+```powershell
+$env:HOSTING_DOCUMENTS_ENDPOINT="https://www.kr-solutions.it/myrsu/api/v1/hosting/documents"
+$env:HOSTING_DOCUMENTS_TOKEN="secret-token"
+$env:MYRSU_SIGNING_SECRET="secret-token"
+```
+
 ## UI Test
 
 - Users: `http://localhost/myrsu/ui/users.html`
 - User edit: `http://localhost/myrsu/ui/user-edit.html?id=1`
 - Profile: `http://localhost/myrsu/ui/profile-test.html`
 - Protocol: `http://localhost/myrsu/ui/protocol-test.html`
+- Documents: `http://localhost/myrsu/ui/documents-test.html`
 
 Ogni UI test mostra anche la risposta JSON dell'ultima chiamata API.
 
@@ -82,6 +92,16 @@ Ogni UI test mostra anche la risposta JSON dell'ultima chiamata API.
 ### Activity
 
 - `GET /api/v1/users/{id}/activity`
+
+### Documents
+
+- `GET /api/v1/documents`
+- `POST /api/v1/documents`
+- `GET /api/v1/documents/{id}`
+- `GET /api/v1/documents/{id}/download`
+- `GET /api/v1/documents/{id}/verify?sig=SIGNATURE`
+- `DELETE /api/v1/documents/{id}`
+- `POST /api/v1/hosting/documents`
 
 ### Protocol
 

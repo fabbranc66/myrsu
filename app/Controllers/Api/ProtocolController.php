@@ -45,6 +45,10 @@ final class ProtocolController
         }
 
         $entry = $this->app->protocols->create($direction, $typeCode, (string)$data['subject'], (int)$user['id']);
+        if (isset($data['document_id'])) {
+            $entry = $this->app->protocols->update((int)$entry['id'], (string)$data['subject'], (int)$data['document_id']);
+        }
+
         $this->app->activityLogs->write((int)$user['id'], 'protocol.create', [
             'section' => 'protocol',
             'protocol_number' => $entry['protocol_number'],
