@@ -31,19 +31,9 @@ jobs:
         run: |
           FTP_HOST="${FTP_SERVER#ftp://}"
           FTP_HOST="${FTP_HOST%/}"
-          FTP_TARGET_DIR="myrsu"
+          FTP_TARGET_DIR="www.kr-solutions.it/myrsu"
 
           echo "FTP host: $FTP_HOST"
-          echo "FTP root list:"
-          curl --fail --show-error --list-only \
-            --user "$FTP_USERNAME:$FTP_PASSWORD" \
-            "ftp://$FTP_HOST/"
-
-          echo "FTP target list:"
-          curl --fail --show-error --list-only \
-            --user "$FTP_USERNAME:$FTP_PASSWORD" \
-            "ftp://$FTP_HOST/$FTP_TARGET_DIR/"
-
           echo "FTP target: /$FTP_TARGET_DIR/"
 
           find . -type f \
