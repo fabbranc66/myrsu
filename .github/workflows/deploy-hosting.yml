@@ -34,10 +34,17 @@ jobs:
           FTP_TARGET_DIR="myrsu"
 
           echo "FTP host: $FTP_HOST"
-          echo "FTP target: /$FTP_TARGET_DIR/"
-          curl --fail --show-error --ftp-create-dirs --ftp-method nocwd \
+          echo "FTP root list:"
+          curl --fail --show-error --list-only \
+            --user "$FTP_USERNAME:$FTP_PASSWORD" \
+            "ftp://$FTP_HOST/"
+
+          echo "FTP target list:"
+          curl --fail --show-error --list-only \
             --user "$FTP_USERNAME:$FTP_PASSWORD" \
             "ftp://$FTP_HOST/$FTP_TARGET_DIR/"
+
+          echo "FTP target: /$FTP_TARGET_DIR/"
 
           find . -type f \
             ! -path './.git/*' \
