@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>MyRSU - Verify document file</title>
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>Verify document file</h1>
+      <p>Verifica QR e, se vuoi, carica la copia PDF da controllare byte per byte.</p>
+
+      <div id="serverResult"></div>
+
+      <form id="verifyForm">
+        <label>
+          Document ID
+          <input id="documentId" type="number" min="1" required>
+        </label>
+        <label>
+          Signature
+          <input id="signature" type="text" required>
+        </label>
+        <label>
+          PDF file
+          <input id="file" type="file" accept="application/pdf" required>
+        </label>
+        <button type="submit">Verify uploaded file</button>
+      </form>
+
+      <div id="result"></div>
+    </section>
+
+    <section class="card">
+      <h2>JSON</h2>
+      <pre id="jsonOutput">{}</pre>
+    </section>
+  </main>
+
+  <script src="document-verify.js"></script>
+</body>
+</html>

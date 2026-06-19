@@ -128,7 +128,7 @@ final class DocumentVerificationPageService
     private function verifyUrl(int $id, string $signature): string
     {
         $baseUrl = rtrim((string)(getenv('APP_URL') ?: 'http://localhost/myrsu'), '/');
-        return $baseUrl . '/api/v1/documents/' . $id . '/verify?sig=' . urlencode($signature);
+        return $baseUrl . '/ui/document-verify.html?id=' . $id . '&sig=' . urlencode($signature);
     }
 
     private function row(string $label, string $value): string

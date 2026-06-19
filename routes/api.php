@@ -63,6 +63,7 @@ $app->router->get('/api/v1/documents/{id}/preview', [$documents, 'preview']);
 $app->router->get('/api/v1/documents/{id}/download', [$documents, 'download']);
 $app->router->delete('/api/v1/documents/{id}', [$documents, 'destroy']);
 $app->router->get('/api/v1/documents/{id}/verify', [$documentVerification, 'show']);
+$app->router->post('/api/v1/documents/{id}/verify-file', [$documentVerification, 'file']);
 $app->router->post('/api/v1/hosting/documents', [$hostingDocuments, 'store']);
 
 $app->router->get('/api/v1/protocol', [$protocol, 'index']);
