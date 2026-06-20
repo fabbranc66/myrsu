@@ -85,6 +85,35 @@ jobs:
             ! -path './vendor/*' \
             ! -path './public/documents/*' \
             ! -path './storage/private/*' \
+            -printf '%h\n' | sort -u | while IFS= read -r dir; do
+              [ "$dir" = "." ] && continue
+              remote_dir="${dir#./}"
+              echo "Ensuring $remote_dir/"
+              curl --fail --silent --show-error --ftp-create-dirs --ftp-method nocwd \
+                --user "$FTP_USERNAME:$FTP_PASSWORD" \
+                "ftp://$FTP_HOST/$FTP_TARGET_DIR/$remote_dir/" > /dev/null
+            done
+
+          find . -type f \
+            ! -path './.agents/*' \
+            ! -path './.git/*' \
+            ! -path './.github/*' \
+            ! -path './.env' \
+            ! -path './.deploy.env' \
+            ! -path './.env.example' \
+            ! -path './.gitignore' \
+            ! -path './.htaccess' \
+            ! -path './storage/.htaccess' \
+            ! -path './database/*' \
+            ! -path './README.md' \
+            ! -path './DEVELOPMENT_RULES.md' \
+            ! -path './scripts/*' \
+            ! -path './composer.json' \
+            ! -path './composer.lock' \
+            ! -path './ui/templates/*' \
+            ! -path './vendor/*' \
+            ! -path './public/documents/*' \
+            ! -path './storage/private/*' \
             -print0 | while IFS= read -r -d '' file; do
               remote="${file#./}"
               echo "Uploading $remote"
