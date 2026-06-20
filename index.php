@@ -28,8 +28,11 @@ if (is_file(BASE_PATH . '/vendor/autoload.php')) {
 $requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
 $scriptDir = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '')), '/');
 $appPath = $scriptDir === '' ? '/' : $scriptDir;
+$baseName = '/' . trim(basename(BASE_PATH), '/');
 
-if ($requestPath === $appPath || $requestPath === $appPath . '/' || $requestPath === $appPath . '/index.php') {
+if (
+    in_array($requestPath, [$appPath, $appPath . '/', $appPath . '/index.php', $baseName, $baseName . '/', $baseName . '/index.php'], true)
+) {
     header('Location: ' . $appPath . '/ui/app/index.html');
     exit;
 }
