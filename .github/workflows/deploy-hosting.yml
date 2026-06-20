@@ -75,6 +75,7 @@ jobs:
             ! -path './storage/.htaccess' \
             ! -path './README.md' \
             ! -path './DEVELOPMENT_RULES.md' \
+            ! -path './scripts/*' \
             ! -path './composer.json' \
             ! -path './composer.lock' \
             ! -path './vendor/*' \
