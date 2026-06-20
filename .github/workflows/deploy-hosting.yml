@@ -64,8 +64,11 @@ jobs:
           set net:max-retries 2
           set net:timeout 20
           mirror -R . /$FTP_TARGET_DIR \
-            --verbose \
+            --verbose=1 \
             --delete \
+            --only-newer \
+            --no-perms \
+            --parallel=2 \
             --exclude-glob .git/ \
             --exclude-glob .github/ \
             --exclude-glob .agents/ \
