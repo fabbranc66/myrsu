@@ -23,6 +23,29 @@ jobs:
       - name: Install dependencies
         run: composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
 
+      - name: Build hosting env
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_USERNAME: ${{ secrets.DB_USERNAME }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_CHARSET: ${{ secrets.DB_CHARSET }}
+          HOSTING_DOCUMENTS_ENDPOINT: ${{ secrets.HOSTING_DOCUMENTS_ENDPOINT }}
+          HOSTING_DOCUMENTS_TOKEN: ${{ secrets.HOSTING_DOCUMENTS_TOKEN }}
+          MYRSU_SIGNING_SECRET: ${{ secrets.MYRSU_SIGNING_SECRET }}
+          APP_URL: ${{ secrets.APP_URL }}
+        run: |
+          cat > .deploy.env <<EOF
+          DB_HOST=${DB_HOST}
+          DB_DATABASE=Sql1874742_5
+          DB_USERNAME=${DB_USERNAME}
+          DB_PASSWORD=${DB_PASSWORD}
+          DB_CHARSET=${DB_CHARSET:-utf8mb4}
+          HOSTING_DOCUMENTS_ENDPOINT=${HOSTING_DOCUMENTS_ENDPOINT}
+          HOSTING_DOCUMENTS_TOKEN=${HOSTING_DOCUMENTS_TOKEN}
+          MYRSU_SIGNING_SECRET=${MYRSU_SIGNING_SECRET}
+          APP_URL=${APP_URL:-https://www.kr-solutions.it/myrsu}
+          EOF
+
       - name: Deploy via FTP
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
@@ -36,10 +59,17 @@ jobs:
           echo "FTP host: $FTP_HOST"
           echo "FTP target: /$FTP_TARGET_DIR/"
 
+          echo "Uploading .env"
+          curl --fail --silent --show-error --ftp-create-dirs --ftp-method nocwd \
+            --user "$FTP_USERNAME:$FTP_PASSWORD" \
+            --upload-file ".deploy.env" \
+            "ftp://$FTP_HOST/$FTP_TARGET_DIR/.env"
+
           find . -type f \
             ! -path './.git/*' \
             ! -path './.github/*' \
             ! -path './.env' \
+            ! -path './.deploy.env' \
             ! -path './.gitignore' \
             ! -path './.htaccess' \
             ! -path './storage/.htaccess' \
