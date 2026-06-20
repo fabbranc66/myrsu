@@ -28,9 +28,6 @@ jobs:
 
       - name: Build hosting env
         env:
-          DB_HOST: ${{ secrets.DB_HOST }}
-          DB_USERNAME: ${{ secrets.DB_USERNAME }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           DB_CHARSET: ${{ secrets.DB_CHARSET }}
           HOSTING_DOCUMENTS_ENDPOINT: ${{ secrets.HOSTING_DOCUMENTS_ENDPOINT }}
           HOSTING_DOCUMENTS_TOKEN: ${{ secrets.HOSTING_DOCUMENTS_TOKEN }}
@@ -38,10 +35,10 @@ jobs:
           APP_URL: ${{ secrets.APP_URL }}
         run: |
           cat > .deploy.env <<EOF
-          DB_HOST=${DB_HOST}
+          DB_HOST=31.11.39.231
           DB_DATABASE=Sql1874742_5
-          DB_USERNAME=${DB_USERNAME}
-          DB_PASSWORD=${DB_PASSWORD}
+          DB_USERNAME=Sql1874742
+          DB_PASSWORD=@GenniH264rgnm
           DB_CHARSET=${DB_CHARSET:-utf8mb4}
           HOSTING_DOCUMENTS_ENDPOINT=${HOSTING_DOCUMENTS_ENDPOINT}
           HOSTING_DOCUMENTS_TOKEN=${HOSTING_DOCUMENTS_TOKEN}
