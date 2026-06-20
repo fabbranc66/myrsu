@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -66,18 +66,22 @@ jobs:
             "ftp://$FTP_HOST/$FTP_TARGET_DIR/.env"
 
           find . -type f \
+            ! -path './.agents/*' \
             ! -path './.git/*' \
             ! -path './.github/*' \
             ! -path './.env' \
             ! -path './.deploy.env' \
+            ! -path './.env.example' \
             ! -path './.gitignore' \
             ! -path './.htaccess' \
             ! -path './storage/.htaccess' \
+            ! -path './database/*' \
             ! -path './README.md' \
             ! -path './DEVELOPMENT_RULES.md' \
             ! -path './scripts/*' \
             ! -path './composer.json' \
             ! -path './composer.lock' \
+            ! -path './ui/templates/*' \
             ! -path './vendor/*' \
             ! -path './public/documents/*' \
             ! -path './storage/private/*' \
