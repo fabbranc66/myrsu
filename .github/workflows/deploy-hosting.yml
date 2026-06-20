@@ -65,6 +65,20 @@ jobs:
             --upload-file ".deploy.env" \
             "ftp://$FTP_HOST/$FTP_TARGET_DIR/.env"
 
+          ensure_remote_dir() {
+            local target="$1"
+            local current="$FTP_TARGET_DIR"
+            IFS='/' read -ra parts <<< "$target"
+            for part in "${parts[@]}"; do
+              [ -z "$part" ] && continue
+              current="$current/$part"
+              curl --silent --show-error --ftp-method nocwd \
+                --user "$FTP_USERNAME:$FTP_PASSWORD" \
+                --quote "MKD $current" \
+                "ftp://$FTP_HOST/" > /dev/null || true
+            done
+          }
+
           find . -type f \
             ! -path './.agents/*' \
             ! -path './.git/*' \
@@ -89,9 +103,7 @@ jobs:
               [ "$dir" = "." ] && continue
               remote_dir="${dir#./}"
               echo "Ensuring $remote_dir/"
-              curl --fail --silent --show-error --ftp-create-dirs --ftp-method nocwd \
-                --user "$FTP_USERNAME:$FTP_PASSWORD" \
-                "ftp://$FTP_HOST/$FTP_TARGET_DIR/$remote_dir/" > /dev/null
+              ensure_remote_dir "$remote_dir"
             done
 
           find . -type f \
