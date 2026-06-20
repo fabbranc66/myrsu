@@ -4,43 +4,78 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU User Edit</title>
+  <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="users.css">
 </head>
 <body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">MyRSU</p>
+      <h1>Modifica utente</h1>
+    </div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group active">
+        <span>Anagrafica</span>
+        <div class="submenu">
+          <a class="active" href="users.html">Utenti</a>
+          <a href="profile.html">Profilo</a>
+        </div>
+      </div>
+      <div class="menu-group">
+        <span>Protocollo</span>
+        <div class="submenu">
+          <a href="protocol.html">Registro</a>
+        </div>
+      </div>
+      <div class="menu-group">
+        <span>Archivio</span>
+        <div class="submenu">
+          <a href="documents.html">Documenti</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <main>
     <section class="panel">
       <header>
         <div>
-          <h1>Edit User</h1>
+          <h1>Modifica utente</h1>
           <p class="muted" id="subtitle"></p>
         </div>
-        <a class="button" href="users.html">Users</a>
       </header>
 
       <h2>Account</h2>
       <form id="editForm" class="grid">
         <label>ID<input name="id" readonly></label>
-        <label>Name<input name="name" required></label>
+        <label>Nome completo<input name="name" required></label>
+        <label>Nome<input name="first_name"></label>
+        <label>Cognome<input name="last_name"></label>
         <label>Email<input name="email" type="email" required></label>
-        <label>Password<input name="password" type="password" placeholder="New password" minlength="8"></label>
-        <label>Role<select name="role" id="roleSelect" required></select></label>
-        <label>Status<select name="status" required>
-            <option value="active">active</option>
-            <option value="suspended">suspended</option>
+        <label>Telefono<input name="phone"></label>
+        <label>Cellulare<input name="mobile"></label>
+        <label>Citta<input name="city"></label>
+        <label>Paese<input name="country"></label>
+        <label>Password<input name="password" type="password" placeholder="Nuova password" minlength="8"></label>
+        <label>Ruolo<select name="role" id="roleSelect" required></select></label>
+        <label>Stato<select name="status" required>
+            <option value="active">attivo</option>
+            <option value="suspended">sospeso</option>
           </select></label>
-        <label>Created at<input name="created_at" readonly></label>
-        <label>Updated at<input name="updated_at" readonly></label>
-        <button type="submit">Save</button>
+        <label>Creato il<input name="created_at" readonly></label>
+        <label>Aggiornato il<input name="updated_at" readonly></label>
+        <button type="submit">Salva</button>
       </form>
 
       <h2>GDPR</h2>
       <table>
         <thead>
           <tr>
-            <th>Type</th>
-            <th>Version</th>
-            <th>Accepted</th>
-            <th>Date</th>
+            <th>Tipo</th>
+            <th>Versione</th>
+            <th>Accettato</th>
+            <th>Data</th>
           </tr>
         </thead>
         <tbody id="gdprTable"></tbody>

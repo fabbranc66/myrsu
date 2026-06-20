@@ -12,6 +12,7 @@ use App\Repositories\RolePermissionRepository;
 use App\Repositories\TokenRepository;
 use App\Repositories\UserRepository;
 use App\Services\AuthService;
+use App\Services\ComunicatoPdfService;
 use App\Services\DocumentHeaderService;
 use App\Services\DocumentSignatureService;
 use App\Services\DocumentStorageService;
@@ -41,6 +42,7 @@ final class Application
     public readonly ProtocolRepository $protocols;
     public readonly ActivityLogRepository $activityLogs;
     public readonly AuthService $authService;
+    public readonly ComunicatoPdfService $comunicatoPdf;
     public readonly DocumentHeaderService $documentHeader;
     public readonly DocumentSignatureService $documentSignature;
     public readonly DocumentVerificationPageService $documentVerificationPage;
@@ -55,6 +57,7 @@ final class Application
         $this->signingConfig = require $this->basePath . '/config/signing.php';
 
         $this->router = new Router();
+        $this->comunicatoPdf = new ComunicatoPdfService($this->basePath);
         $this->documentHeader = new DocumentHeaderService();
         $this->documentSignature = new DocumentSignatureService($this->signingConfig);
         $this->documentVerificationPage = new DocumentVerificationPageService();

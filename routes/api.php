@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use App\Controllers\Api\ActivityController;
 use App\Controllers\Api\AuthController;
+use App\Controllers\Api\ComunicatoController;
 use App\Controllers\Api\DocumentController;
 use App\Controllers\Api\DocumentVerificationController;
 use App\Controllers\Api\GdprConsentController;
@@ -16,6 +17,7 @@ use App\Core\Response;
 
 $auth = new AuthController($app);
 $activity = new ActivityController($app);
+$comunicati = new ComunicatoController($app);
 $documents = new DocumentController($app);
 $documentVerification = new DocumentVerificationController($app);
 $hostingDocuments = new HostingDocumentController($app);
@@ -57,6 +59,7 @@ $app->router->get('/api/v1/users/{id}/activity', [$activity, 'userIndex']);
 
 $app->router->get('/api/v1/documents', [$documents, 'index']);
 $app->router->post('/api/v1/documents', [$documents, 'store']);
+$app->router->post('/api/v1/comunicati', [$comunicati, 'store']);
 $app->router->get('/api/v1/documents/{id}', [$documents, 'show']);
 $app->router->patch('/api/v1/documents/{id}', [$documents, 'update']);
 $app->router->get('/api/v1/documents/{id}/preview', [$documents, 'preview']);

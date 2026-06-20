@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Comunicati</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Comunicati</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a></div></div>
+      <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a class="active" href="comunicati-create.html">Comunicati</a></div></div>
+    </nav>
+  </header>
+  <main><section class="panel"><header><h1>Nuovo comunicato</h1></header>
+    <form id="comunicatoForm" class="grid">
+      <textarea name="title" placeholder="Oggetto" required style="min-height:120px;grid-column:span 2;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
+      <select name="visibility" required><option value="public">pubblico</option><option value="members">membri</option><option value="rsu">rsu</option></select>
+      <textarea name="body" placeholder="Testo comunicato" required style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;"></textarea>
+      <button type="submit">Genera PDF</button>
+    </form>
+    <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
+  </section></main>
+  <script src="comunicati-create.js"></script>
+</body>
+</html>

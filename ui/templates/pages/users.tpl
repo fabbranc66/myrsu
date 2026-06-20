@@ -1,44 +1,4 @@
-<!doctype html>
-<html lang="it">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MyRSU Users</title>
-  <link rel="stylesheet" href="menu.css">
-  <link rel="stylesheet" href="users.css">
-</head>
-<body>
-  <header class="app-header">
-  <div>
-    <p class="eyebrow">MyRSU</p>
-    <h1>Anagrafica utenti</h1>
-  </div>
-  <nav class="app-nav">
-  <a href="app/index.html">Dashboard</a>
-  <div class="menu-group active">
-    <span>Anagrafica</span>
-    <div class="submenu">
-      <a class="active" href="users.html">Utenti</a>
-      <a href="profile.html">Profilo</a>
-    </div>
-  </div>
-  <div class="menu-group">
-    <span>Protocollo</span>
-    <div class="submenu">
-      <a href="protocol.html">Registro</a>
-    </div>
-  </div>
-  <div class="menu-group">
-    <span>Archivio</span>
-    <div class="submenu">
-      <a href="documents.html">Documenti</a>
-    </div>
-  </div>
-</nav>
-
-</header>
-
-  <main>
+<main>
   <section class="panel" id="loginPanel">
     <h2>Accesso</h2>
     <form id="loginForm">
@@ -131,10 +91,3 @@
     </table>
   </section>
 </main>
-
-  <script src="icons.js"></script>
-  <script src="user-row.js"></script>
-  <script src="users-helpers.js"></script>
-  <script src="users.js"></script>
-</body>
-</html>

@@ -36,7 +36,13 @@ async function loadProfile() {
   const profile = await api('/profile');
   const consents = await api('/gdpr/consents');
   profileForm.name.value = profile.name;
+  profileForm.first_name.value = profile.first_name || '';
+  profileForm.last_name.value = profile.last_name || '';
   profileForm.email.value = profile.email;
+  profileForm.phone.value = profile.phone || '';
+  profileForm.mobile.value = profile.mobile || '';
+  profileForm.city.value = profile.city || '';
+  profileForm.country.value = profile.country || '';
   profileForm.classList.remove('hidden');
   passwordForm.classList.remove('hidden');
 
@@ -57,13 +63,13 @@ loginForm.addEventListener('submit', async (event) => {
     body: JSON.stringify({
       email: form.get('email'),
       password: form.get('password'),
-      device_name: 'profile-test',
+      device_name: 'profile',
     }),
   });
   token = data.access_token;
   sessionStorage.setItem('profile_token', token);
   await loadProfile();
-  setMessage('Login OK');
+  setMessage('Accesso riuscito');
 });
 
 profileForm.addEventListener('submit', async (event) => {
@@ -73,7 +79,7 @@ profileForm.addEventListener('submit', async (event) => {
     method: 'PATCH',
     body: JSON.stringify(Object.fromEntries(form.entries())),
   });
-  setMessage('Profile saved');
+  setMessage('Profilo salvato');
 });
 
 passwordForm.addEventListener('submit', async (event) => {
@@ -84,7 +90,7 @@ passwordForm.addEventListener('submit', async (event) => {
     body: JSON.stringify({ password: form.get('password') }),
   });
   passwordForm.reset();
-  setMessage('Password saved');
+  setMessage('Password salvata');
 });
 
 acceptGdpr.addEventListener('click', async () => {
@@ -97,7 +103,7 @@ acceptGdpr.addEventListener('click', async () => {
     }),
   });
   gdprBox.classList.add('hidden');
-  setMessage('GDPR accepted');
+  setMessage('GDPR accettato');
 });
 
 if (token) loadProfile().catch((error) => setMessage(error.message));

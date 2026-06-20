@@ -1,0 +1,100 @@
+.app-header {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  background: #172033;
+  color: #fff;
+  padding: 22px 32px;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #9fb1d1;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.app-nav {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.app-nav a,
+.menu-group > span {
+  color: #fff;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.app-nav a.active,
+.menu-group.active > span,
+.menu-group:hover > span,
+.menu-group:focus-within > span {
+  color: #93c5fd;
+}
+
+.menu-group {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submenu {
+  display: none;
+}
+
+.menu-group:hover .submenu,
+.menu-group:focus-within .submenu {
+  display: grid;
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px 0;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, .18);
+}
+
+.menu-group:hover::after,
+.menu-group:focus-within::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 16px;
+  z-index: 9;
+}
+
+.submenu a {
+  display: block;
+  min-width: max-content;
+  padding: 10px 12px;
+  color: #172033;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.submenu a.active {
+  color: #084298;
+}
+
+.submenu a:hover {
+  background: #eaf1ff;
+}

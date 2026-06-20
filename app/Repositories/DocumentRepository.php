@@ -37,7 +37,7 @@ final class DocumentRepository
         );
         $stmt->execute([
             $data['original_name'],
-            $data['pdf_public_path'],
+            basename((string)$data['pdf_public_path']),
             'application/pdf',
             $data['pdf_size_bytes'],
             $data['pdf_checksum_sha256'],
@@ -85,6 +85,32 @@ final class DocumentRepository
             'UPDATE documents SET size_bytes = ?, checksum_sha256 = ?, pdf_size_bytes = ?, pdf_checksum_sha256 = ? WHERE id = ?'
         );
         $stmt->execute([$size, $checksum, $size, $checksum, $id]);
+
+        return $this->findById($id);
+    }
+
+    public function updateComunicato(int $id, array $data): ?array
+    {
+        $stmt = $this->pdo->prepare(
+            'UPDATE documents
+             SET original_name = ?, original_mime_type = ?, original_size_bytes = ?, original_checksum_sha256 = ?,
+                 size_bytes = ?, checksum_sha256 = ?, pdf_size_bytes = ?, pdf_checksum_sha256 = ?, conversion_status = ?,
+                 visibility = ?
+             WHERE id = ?'
+        );
+        $stmt->execute([
+            $data['original_name'],
+            $data['original_mime_type'],
+            $data['original_size_bytes'],
+            $data['original_checksum_sha256'],
+            $data['pdf_size_bytes'],
+            $data['pdf_checksum_sha256'],
+            $data['pdf_size_bytes'],
+            $data['pdf_checksum_sha256'],
+            $data['conversion_status'],
+            $data['visibility'],
+            $id,
+        ]);
 
         return $this->findById($id);
     }

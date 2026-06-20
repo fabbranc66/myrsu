@@ -4,6 +4,8 @@ const id = new URLSearchParams(window.location.search).get('id');
 const editForm = document.querySelector('#editForm');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
+const titleField = document.querySelector('#titleField');
+const bodyField = document.querySelector('#bodyField');
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -19,6 +21,12 @@ api(`/documents/${id}`).then((document) => {
   editForm.original_name.value = document.original_name;
   editForm.category.value = document.category || '';
   editForm.visibility.value = document.visibility;
+  if (document.category === 'comunicati' && document.comunicato) {
+    titleField.classList.remove('hidden');
+    bodyField.classList.remove('hidden');
+    titleField.value = document.comunicato.title || '';
+    bodyField.value = document.comunicato.body || '';
+  }
 });
 
 editForm.addEventListener('submit', async (event) => {
@@ -26,7 +34,11 @@ editForm.addEventListener('submit', async (event) => {
   const form = new FormData(editForm);
   await api(`/documents/${id}`, {
     method: 'PATCH',
-    body: JSON.stringify({ visibility: form.get('visibility') }),
+    body: JSON.stringify({
+      visibility: form.get('visibility'),
+      title: form.get('title'),
+      body: form.get('body'),
+    }),
   });
-  message.textContent = 'Document saved';
+  message.textContent = 'Documento salvato';
 });

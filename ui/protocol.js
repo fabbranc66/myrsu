@@ -1,7 +1,6 @@
 const apiBase = '../api/v1';
 let token = sessionStorage.getItem('token');
 
-const loginForm = document.querySelector('#loginForm');
 const protocolTable = document.querySelector('#protocolTable');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
@@ -54,8 +53,8 @@ function renderProtocol() {
 function row(entry) {
   const canceled = Boolean(entry.canceled_at);
   const status = canceled
-    ? `Canceled ${entry.canceled_at} by ${entry.canceled_by_name || '-'}`
-    : `Active · by ${entry.created_by_name || '-'}`;
+    ? `Annullato ${entry.canceled_at} da ${entry.canceled_by_name || '-'}`
+    : `Attivo - da ${entry.created_by_name || '-'}`;
 
   return `
     <article class="register-row ${canceled ? 'is-canceled' : ''}">
@@ -66,33 +65,13 @@ function row(entry) {
       <div class="register-meta">${entry.document_id || '-'}</div>
       <div class="register-meta">${status}</div>
       <div class="register-actions">
-        <button data-view="${entry.document_id || ''}" ${entry.document_id ? '' : 'disabled'}>View</button>
-        <a class="button" href="protocol-edit.html?id=${entry.id}">Edit</a>
-        <button data-cancel="${entry.id}" ${canceled ? 'disabled' : ''}>Delete</button>
+        <button class="icon-action" data-view="${entry.preview_document_id || ''}" title="Anteprima" ${entry.preview_document_id ? '' : 'disabled'}>${MyRsuIcons.get('eye')}</button>
+        <a class="icon-action" href="protocol-edit.html?id=${entry.id}" title="Modifica">${MyRsuIcons.get('edit')}</a>
+        <button class="icon-action danger" data-cancel="${entry.id}" title="Annulla protocollo" ${canceled ? 'disabled' : ''}>${MyRsuIcons.get('protocolDelete')}</button>
       </div>
     </article>
   `;
 }
-
-loginForm.addEventListener('submit', async (event) => {
-  event.preventDefault();
-  try {
-    const form = new FormData(loginForm);
-    const data = await api('/auth/login', {
-      method: 'POST',
-      body: JSON.stringify({
-        email: form.get('email'),
-        password: form.get('password'),
-        device_name: 'protocol-test',
-      }),
-    });
-    token = data.access_token;
-    sessionStorage.setItem('token', token);
-    await loadProtocol();
-  } catch (error) {
-    message.textContent = error.message;
-  }
-});
 
 directionFilter.addEventListener('change', renderProtocol);
 
@@ -107,7 +86,9 @@ protocolTable.addEventListener('click', async (event) => {
   }
 
   if (button.dataset.cancel) {
+    if (!confirm('Annullare protocollo?')) return;
     await api(`/protocol/${button.dataset.cancel}`, { method: 'DELETE' });
+    message.textContent = 'Protocollo annullato';
     await loadProtocol();
   }
 });
@@ -117,6 +98,10 @@ closeDocumentModal.addEventListener('click', () => {
   documentModal.close();
 });
 
-if (token) loadProtocol().catch((error) => {
-  message.textContent = error.message;
-});
+if (!token) {
+  window.location.href = 'app/index.html';
+} else {
+  loadProtocol().catch((error) => {
+    message.textContent = error.message;
+  });
+}

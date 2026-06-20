@@ -9,6 +9,7 @@ use App\Core\FileResponse;
 use App\Core\HttpException;
 use App\Core\Request;
 use App\Core\Response;
+use App\Core\Validator;
 
 final class DocumentController
 {
@@ -25,28 +26,76 @@ final class DocumentController
 
     public function show(Request $request, array $params): Response
     {
-        $this->app->auth->requirePermission($request, 'documents.view');
+        $document = $this->findDocument((int)$params['id']);
+        $this->authorizeDocumentAccess($request, $document, 'documents.view');
+        if ((string)$document['category'] === 'comunicati') {
+            $html = @file_get_contents($this->app->documentStorage->originalPath((string)$document['original_stored_name'])) ?: '';
+            $document['comunicato'] = $this->app->comunicatoPdf->parse($html);
+        }
 
-        return Response::json(['data' => $this->findDocument((int)$params['id'])]);
+        return Response::json(['data' => $document]);
     }
 
     public function update(Request $request, array $params): Response
     {
-        $user = $this->app->auth->requirePermission($request, 'documents.update');
+        $user = $this->app->auth->requireUser($request);
         $data = $request->all();
-        $visibility = (string)($data['visibility'] ?? '');
+        $document = $this->findDocument((int)$params['id']);
+        $this->authorizeDocumentAccess($request, $document, 'documents.update');
+        $visibility = (string)($data['visibility'] ?? $document['visibility']);
 
         if (!in_array($visibility, ['public', 'members', 'rsu'], true)) {
             throw new HttpException(422, 'Visibility non valida.');
         }
 
-        $document = $this->findDocument((int)$params['id']);
+        if ((string)$document['category'] === 'comunicati' && isset($data['title'], $data['body'])) {
+            return $this->regenerateComunicato($user, $document, $visibility, $data);
+        }
+
         $updated = $this->app->documents->update((int)$document['id'], $visibility);
 
         $this->app->activityLogs->write((int)$user['id'], 'documents.update', [
             'section' => 'documents',
             'document_id' => $document['id'],
             'changes' => ['visibility' => ['from' => $document['visibility'], 'to' => $visibility]],
+        ]);
+
+        return Response::json(['data' => $updated]);
+    }
+
+    private function regenerateComunicato(array $user, array $document, string $visibility, array $data): Response
+    {
+        Validator::required($data, ['title', 'body']);
+        $protocol = $this->app->protocols->findActiveByDocumentId((int)$document['id']);
+        if ($protocol === null) {
+            throw new HttpException(422, 'Protocollo comunicato non trovato.');
+        }
+
+        $html = $this->app->comunicatoPdf->html(
+            (string)$data['title'],
+            (string)$data['body'],
+            (string)$protocol['protocol_number'],
+            (string)$protocol['created_at']
+        );
+        $meta = $this->app->documentStorage->rewriteHtmlDocument(
+            $document,
+            $html,
+            'comunicato-' . date('Ymd-His', strtotime((string)$protocol['created_at'])) . '.html'
+        );
+        $updated = $this->app->documents->updateComunicato((int)$document['id'], $meta + ['visibility' => $visibility]);
+        $updated = $this->app->documents->updateSignature(
+            (int)$updated['id'],
+            $this->app->documentSignature->sign($updated)
+        );
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$updated['pdf_public_path']);
+        $this->app->documentVerificationPage->append($pdfPath, $updated, (string)$updated['signature']);
+        $updated = $this->app->documents->updatePdfMetadata((int)$updated['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
+        $this->app->protocols->update((int)$protocol['id'], (string)$data['title'], (int)$updated['id']);
+        $this->app->documentStorage->uploadPdfToHosting($updated);
+        $this->app->activityLogs->write((int)$user['id'], 'documents.regenerate', [
+            'section' => 'documents',
+            'document_id' => $updated['id'],
+            'changes' => ['title' => ['from' => $protocol['subject'], 'to' => (string)$data['title']], 'body' => 'changed'],
         ]);
 
         return Response::json(['data' => $updated]);
@@ -91,8 +140,9 @@ final class DocumentController
 
     public function download(Request $request, array $params): FileResponse
     {
-        $user = $this->app->auth->requirePermission($request, 'documents.download');
         $document = $this->findDocument((int)$params['id']);
+        $user = $this->app->auth->requireUser($request);
+        $this->authorizeDocumentAccess($request, $document, 'documents.download');
         $path = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
 
         if (!is_file($path)) {
@@ -109,8 +159,9 @@ final class DocumentController
 
     public function preview(Request $request, array $params): FileResponse
     {
-        $user = $this->app->auth->requirePermission($request, 'documents.download');
         $document = $this->findDocument((int)$params['id']);
+        $user = $this->app->auth->requireUser($request);
+        $this->authorizeDocumentAccess($request, $document, 'documents.download');
         $path = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
 
         if (!is_file($path)) {
@@ -148,5 +199,23 @@ final class DocumentController
         }
 
         return $document;
+    }
+
+    private function authorizeDocumentAccess(Request $request, array $document, string $permission): void
+    {
+        $user = $this->app->auth->requireUser($request);
+
+        if ($this->app->roles->userHasPermission((int)$user['id'], $permission)) {
+            return;
+        }
+
+        if (
+            (string)$document['category'] === 'comunicati'
+            && (int)$document['uploaded_by'] === (int)$user['id']
+        ) {
+            return;
+        }
+
+        throw new HttpException(403, 'Permesso insufficiente.');
     }
 }

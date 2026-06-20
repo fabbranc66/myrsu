@@ -15,7 +15,8 @@ final class UserRepository
     public function findById(int $id): ?array
     {
         $stmt = $this->pdo->prepare(
-            'SELECT id, name, email, status, created_at, updated_at FROM users WHERE id = ? LIMIT 1'
+            'SELECT id, name, email, first_name, last_name, phone, mobile, city, country, status, created_at, updated_at
+             FROM users WHERE id = ? LIMIT 1'
         );
         $stmt->execute([$id]);
 
@@ -35,6 +36,7 @@ final class UserRepository
         return $this->pdo
             ->query(
                 "SELECT u.id, u.name, u.email, u.status, u.created_at, u.updated_at,
+                        u.first_name, u.last_name, u.phone, u.mobile, u.city, u.country,
                         GROUP_CONCAT(r.name ORDER BY r.name) AS roles
                  FROM users u
                  LEFT JOIN role_user ru ON ru.user_id = u.id
@@ -45,16 +47,23 @@ final class UserRepository
             ->fetchAll();
     }
 
-    public function create(string $name, string $email, string $password, string $status = 'active'): int
+    public function create(array $data, string $status = 'active'): int
     {
         $stmt = $this->pdo->prepare(
-            'INSERT INTO users (name, email, password_hash, status, created_at, updated_at)
-             VALUES (?, ?, ?, ?, NOW(), NOW())'
+            'INSERT INTO users (
+                name, email, password_hash, first_name, last_name, phone, mobile, city, country, status, created_at, updated_at
+             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())'
         );
         $stmt->execute([
-            $name,
-            $email,
-            password_hash($password, PASSWORD_DEFAULT),
+            $data['name'],
+            $data['email'],
+            password_hash((string)$data['password'], PASSWORD_DEFAULT),
+            $data['first_name'] ?: null,
+            $data['last_name'] ?: null,
+            $data['phone'] ?: null,
+            $data['mobile'] ?: null,
+            $data['city'] ?: null,
+            $data['country'] ?: null,
             $status,
         ]);
 
@@ -66,10 +75,10 @@ final class UserRepository
         $fields = [];
         $values = [];
 
-        foreach (['name', 'email', 'status'] as $field) {
+        foreach (['name', 'email', 'first_name', 'last_name', 'phone', 'mobile', 'city', 'country', 'status'] as $field) {
             if (array_key_exists($field, $data)) {
                 $fields[] = "{$field} = ?";
-                $values[] = $data[$field];
+                $values[] = $data[$field] === '' ? null : $data[$field];
             }
         }
 

@@ -12,6 +12,8 @@ use App\Core\Validator;
 
 final class UserController
 {
+    private const OPTIONAL_FIELDS = ['first_name', 'last_name', 'phone', 'mobile', 'city', 'country'];
+
     public function __construct(private readonly Application $app)
     {
     }
@@ -54,11 +56,17 @@ final class UserController
             throw new HttpException(422, 'Ruolo non valido.');
         }
 
-        $userId = $this->app->users->create(
-            (string)$data['name'],
-            (string)$data['email'],
-            (string)$data['password']
-        );
+        $payload = [
+            'name' => (string)$data['name'],
+            'email' => (string)$data['email'],
+            'password' => (string)$data['password'],
+        ];
+
+        foreach (self::OPTIONAL_FIELDS as $field) {
+            $payload[$field] = trim((string)($data[$field] ?? ''));
+        }
+
+        $userId = $this->app->users->create($payload);
         $this->app->roles->assignRole($userId, (string)$data['role']);
         $this->app->activityLogs->write((int)$actor['id'], 'users.create', [
             'section' => 'registry',
@@ -91,7 +99,7 @@ final class UserController
         $updated = $this->app->users->update($userId, $data);
         $changes = [];
 
-        foreach (['name', 'email', 'status'] as $field) {
+        foreach (array_merge(['name', 'email', 'status'], self::OPTIONAL_FIELDS) as $field) {
             if (array_key_exists($field, $data) && (string)$before[$field] !== (string)$updated[$field]) {
                 $changes[$field] = [
                     'from' => $before[$field],

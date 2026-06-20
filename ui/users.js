@@ -28,32 +28,6 @@ async function api(path, options = {}) {
   return payload.data;
 }
 
-function renderJson(payload) {
-  if (jsonOutput) {
-    jsonOutput.textContent = JSON.stringify(payload, null, 2);
-  }
-}
-
-function showError(error) {
-  message.textContent = error.message;
-}
-
-function showMessage(text) {
-  message.textContent = text;
-}
-
-function assertEmail(value) {
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
-    throw new Error('Invalid email');
-  }
-}
-
-function assertPassword(value, required = false) {
-  if ((required || value) && value.length < 8) {
-    throw new Error('Password min 8 chars');
-  }
-}
-
 function setAuthView() {
   loginPanel.classList.toggle('hidden', Boolean(state.token));
   userPanel.classList.toggle('hidden', !state.token);
@@ -79,36 +53,7 @@ async function checkGdpr() {
 
 async function loadUsers() {
   const users = await api('/users');
-  usersTable.innerHTML = users.map(row).join('');
-}
-
-function row(user) {
-  const nextStatus = user.status === 'active' ? 'suspended' : 'active';
-  const currentRole = String(user.roles || '').split(',')[0] || '';
-  const options = state.roles
-    .map((role) => `<option value="${role.name}" ${role.name === currentRole ? 'selected' : ''}>${role.label}</option>`)
-    .join('');
-
-  return `
-    <tr>
-      <td><input data-name="${user.id}" value="${user.name}"></td>
-      <td><input data-email="${user.id}" type="email" value="${user.email}"></td>
-      <td><input data-password="${user.id}" type="password" placeholder="New password"></td>
-      <td><button data-status="${nextStatus}" data-id="${user.id}">${user.status}</button></td>
-      <td>
-        <select data-role="${user.id}">
-          ${options}
-        </select>
-      </td>
-      <td>
-        <a class="button" href="user-edit.html?id=${user.id}">Edit</a>
-        <button data-save="${user.id}">Save</button>
-        <button data-consents="${user.id}">GDPR</button>
-        <button data-activity="${user.id}">Logs</button>
-        <button data-delete="${user.id}">Delete</button>
-      </td>
-    </tr>
-  `;
+  usersTable.innerHTML = users.map((user) => renderUserRow(user, state.roles)).join('');
 }
 
 loginForm.addEventListener('submit', async (event) => {
@@ -166,7 +111,7 @@ usersTable.addEventListener('click', async (event) => {
         method: 'PATCH',
         body: JSON.stringify({ status: button.dataset.status }),
       });
-      showMessage('Status saved');
+      showMessage('Stato salvato');
     }
 
     if (button.dataset.save) {
@@ -188,13 +133,13 @@ usersTable.addEventListener('click', async (event) => {
         method: 'PATCH',
         body: JSON.stringify(body),
       });
-      showMessage('User saved');
+      showMessage('Utente salvato');
     }
 
     if (button.dataset.delete) {
-      if (!confirm('Delete user?')) return;
+      if (!confirm('Eliminare utente?')) return;
       await api(`/users/${button.dataset.delete}`, { method: 'DELETE' });
-      showMessage('User deleted');
+      showMessage('Utente eliminato');
     }
 
     if (button.dataset.consents) {
@@ -243,10 +188,10 @@ function formatAction(log) {
   const actions = {
     'auth.login': 'Login',
     'auth.logout': 'Logout',
-    'users.create': 'User created',
-    'users.update': 'User updated',
-    'users.delete': 'User deleted',
-    'roles.user_replaced': 'Role changed',
+    'users.create': 'Utente creato',
+    'users.update': 'Utente aggiornato',
+    'users.delete': 'Utente eliminato',
+    'roles.user_replaced': 'Ruolo cambiato',
     'gdpr.consent.recorded': 'GDPR consent recorded',
   };
 
@@ -314,7 +259,7 @@ usersTable.addEventListener('change', async (event) => {
       method: 'POST',
       body: JSON.stringify({ roles: [select.value] }),
     });
-    showMessage('Role saved');
+    showMessage('Ruolo salvato');
   } catch (error) {
     showError(error);
   }

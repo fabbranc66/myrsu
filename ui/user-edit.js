@@ -38,13 +38,19 @@ async function load() {
     .join('');
 
   editForm.name.value = data.user.name;
+  editForm.first_name.value = data.user.first_name || '';
+  editForm.last_name.value = data.user.last_name || '';
   editForm.email.value = data.user.email;
+  editForm.phone.value = data.user.phone || '';
+  editForm.mobile.value = data.user.mobile || '';
+  editForm.city.value = data.user.city || '';
+  editForm.country.value = data.user.country || '';
   editForm.status.value = data.user.status;
   editForm.id.value = data.user.id;
   editForm.created_at.value = data.user.created_at;
   editForm.updated_at.value = data.user.updated_at;
   roleSelect.value = data.roles[0] || '';
-  subtitle.textContent = `${data.user.name} · ${data.user.email}`;
+  subtitle.textContent = `${data.user.name} - ${data.user.email}`;
   gdprTable.innerHTML = consents.map(consentRow).join('');
 }
 
@@ -53,7 +59,7 @@ function consentRow(consent) {
     <tr>
       <td>${consent.consent_type}</td>
       <td>${consent.document_version}</td>
-      <td>${Number(consent.accepted) === 1 ? 'yes' : 'no'}</td>
+      <td>${Number(consent.accepted) === 1 ? 'si' : 'no'}</td>
       <td>${consent.created_at}</td>
     </tr>
   `;
@@ -84,7 +90,7 @@ editForm.addEventListener('submit', async (event) => {
     body: JSON.stringify({ roles: [role] }),
   });
 
-  message.textContent = 'User saved';
+  message.textContent = 'Utente salvato';
 });
 
 load().catch((error) => {

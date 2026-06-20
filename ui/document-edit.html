@@ -4,14 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Document Edit</title>
+  <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="users.css">
 </head>
 <body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">MyRSU</p>
+      <h1>Modifica documento</h1>
+    </div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group">
+        <span>Anagrafica</span>
+        <div class="submenu">
+          <a href="users.html">Utenti</a>
+          <a href="profile.html">Profilo</a>
+        </div>
+      </div>
+      <div class="menu-group">
+        <span>Protocollo</span>
+        <div class="submenu">
+          <a href="protocol.html">Registro</a>
+        </div>
+      </div>
+      <div class="menu-group active">
+        <span>Archivio</span>
+        <div class="submenu">
+          <a class="active" href="documents.html">Documenti</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <main>
     <section class="panel">
       <header>
         <h1>Document Edit</h1>
-        <a class="button" href="documents-test.html">Documents</a>
       </header>
       <form id="editForm" class="grid">
         <input name="original_name" readonly>
@@ -21,7 +50,9 @@
           <option value="members">members</option>
           <option value="public">public</option>
         </select>
-        <button type="submit">Save</button>
+        <textarea name="title" id="titleField" class="hidden" placeholder="Oggetto" style="min-height:120px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
+        <textarea name="body" id="bodyField" class="hidden" placeholder="Contenuto" style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
+        <button type="submit">Salva</button>
       </form>
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>

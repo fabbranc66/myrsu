@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MyRSU Protocol View</title>
+  <title>MyRSU Protocol Test</title>
   <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="users.css">
 </head>
@@ -11,7 +11,7 @@
   <header class="app-header">
     <div>
       <p class="eyebrow">MyRSU</p>
-      <h1>Visualizza protocollo</h1>
+      <h1>Protocollo</h1>
     </div>
     <nav class="app-nav">
       <a href="app/index.html">Dashboard</a>
@@ -39,13 +39,37 @@
 
   <main>
     <section class="panel">
-      <header>
-        <h1>Protocol View</h1>
+      <header class="register-head">
+        <div>
+          <h1>Registro protocollo</h1>
+          <p class="muted">Entrata e uscita documenti protocollati.</p>
+        </div>
+        <span id="protocolCount" class="register-count">0</span>
       </header>
-      <dl id="details"></dl>
+
+      <div class="grid">
+        <label>Filtro elenco<select id="directionFilter">
+          <option value="">Tutti</option>
+          <option value="IN">IN</option>
+          <option value="OUT">OUT</option>
+        </select></label>
+      </div>
+
+      <div id="protocolTable" class="register-list"></div>
+
+      <dialog id="documentModal">
+        <header>
+          <h2>Documento</h2>
+          <button id="closeDocumentModal" type="button">Chiudi</button>
+        </header>
+        <iframe id="documentPreview" title="Document preview"></iframe>
+      </dialog>
+
+      <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="protocol-view.js"></script>
+  <script src="icons.js"></script>
+  <script src="protocol.js"></script>
 </body>
 </html>

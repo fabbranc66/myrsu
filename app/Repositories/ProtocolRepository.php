@@ -17,9 +17,11 @@ final class ProtocolRepository
         return $this->pdo
             ->query(
                 'SELECT pe.*, creator.name AS created_by_name, canceler.name AS canceled_by_name
+                 , d.id AS preview_document_id
                  FROM protocol_entries pe
                  LEFT JOIN users creator ON creator.id = pe.created_by
                  LEFT JOIN users canceler ON canceler.id = pe.canceled_by
+                 LEFT JOIN documents d ON d.id = pe.document_id
                  ORDER BY pe.id DESC'
             )
             ->fetchAll();
@@ -29,9 +31,11 @@ final class ProtocolRepository
     {
         $stmt = $this->pdo->prepare(
             'SELECT pe.*, creator.name AS created_by_name, canceler.name AS canceled_by_name
+             , d.id AS preview_document_id
              FROM protocol_entries pe
              LEFT JOIN users creator ON creator.id = pe.created_by
              LEFT JOIN users canceler ON canceler.id = pe.canceled_by
+             LEFT JOIN documents d ON d.id = pe.document_id
              WHERE pe.id = ?'
         );
         $stmt->execute([$id]);
@@ -87,5 +91,23 @@ final class ProtocolRepository
         $stmt->execute([$userId, $id]);
 
         return $this->findById($id);
+    }
+
+    public function findActiveByDocumentId(int $documentId): ?array
+    {
+        $stmt = $this->pdo->prepare(
+            'SELECT pe.*, creator.name AS created_by_name, canceler.name AS canceled_by_name
+             , d.id AS preview_document_id
+             FROM protocol_entries pe
+             LEFT JOIN users creator ON creator.id = pe.created_by
+             LEFT JOIN users canceler ON canceler.id = pe.canceled_by
+             LEFT JOIN documents d ON d.id = pe.document_id
+             WHERE pe.document_id = ? AND pe.canceled_at IS NULL
+             ORDER BY pe.id DESC
+             LIMIT 1'
+        );
+        $stmt->execute([$documentId]);
+
+        return $stmt->fetch() ?: null;
     }
 }

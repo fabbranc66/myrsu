@@ -25,5 +25,14 @@ if (is_file(BASE_PATH . '/vendor/autoload.php')) {
     require BASE_PATH . '/vendor/autoload.php';
 }
 
+$requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$scriptDir = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '')), '/');
+$appPath = $scriptDir === '' ? '/' : $scriptDir;
+
+if ($requestPath === $appPath || $requestPath === $appPath . '/' || $requestPath === $appPath . '/index.php') {
+    header('Location: ' . $appPath . '/ui/app/index.html');
+    exit;
+}
+
 $app = new App\Core\Application(BASE_PATH);
 $app->run();

@@ -9,6 +9,12 @@ CREATE TABLE users (
   name VARCHAR(120) NOT NULL,
   email VARCHAR(190) NOT NULL UNIQUE,
   password_hash VARCHAR(255) NOT NULL,
+  first_name VARCHAR(120) NULL,
+  last_name VARCHAR(120) NULL,
+  phone VARCHAR(40) NULL,
+  mobile VARCHAR(40) NULL,
+  city VARCHAR(120) NULL,
+  country VARCHAR(120) NULL,
   status ENUM('active', 'suspended') NOT NULL DEFAULT 'active',
   created_at DATETIME NOT NULL,
   updated_at DATETIME NOT NULL

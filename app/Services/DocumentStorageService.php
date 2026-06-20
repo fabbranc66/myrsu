@@ -66,9 +66,69 @@ final class DocumentStorageService
         ];
     }
 
+    public function storeHtml(string $html, string $originalName, string $category): array
+    {
+        $this->assertCategory($category);
+        $originalStoredName = bin2hex(random_bytes(20)) . '.html';
+        $originalPath = $this->originalsPath . '/' . $originalStoredName;
+
+        if (file_put_contents($originalPath, $html) === false) {
+            throw new HttpException(500, 'Salvataggio comunicato fallito.');
+        }
+
+        try {
+            $pdf = $this->createPdf($originalPath, $originalName, 'text/html', $category);
+        } catch (Throwable $exception) {
+            if (is_file($originalPath)) {
+                unlink($originalPath);
+            }
+
+            throw $exception;
+        }
+
+        return [
+            'original_name' => $originalName,
+            'original_stored_name' => $originalStoredName,
+            'original_mime_type' => 'text/html',
+            'original_size_bytes' => filesize($originalPath),
+            'original_checksum_sha256' => hash_file('sha256', $originalPath),
+            'category' => $category,
+            'pdf_public_path' => $pdf['path'],
+            'pdf_size_bytes' => $pdf['size'],
+            'pdf_checksum_sha256' => $pdf['checksum'],
+            'conversion_status' => $pdf['status'],
+        ];
+    }
+
     public function pdfPath(string $publicPath): string
     {
         return $this->basePath . '/' . ltrim($publicPath, '/');
+    }
+
+    public function originalPath(string $storedName): string
+    {
+        return $this->originalsPath . '/' . basename($storedName);
+    }
+
+    public function rewriteHtmlDocument(array $document, string $html, string $originalName): array
+    {
+        $originalPath = $this->originalPath((string)$document['original_stored_name']);
+        if (file_put_contents($originalPath, $html) === false) {
+            throw new HttpException(500, 'Aggiornamento comunicato fallito.');
+        }
+
+        $pdfPath = $this->pdfPath((string)$document['pdf_public_path']);
+        $this->pdfConversion->convert($originalPath, $originalName, $pdfPath, 'text/html');
+
+        return [
+            'original_name' => $originalName,
+            'original_mime_type' => 'text/html',
+            'original_size_bytes' => filesize($originalPath),
+            'original_checksum_sha256' => hash_file('sha256', $originalPath),
+            'pdf_size_bytes' => filesize($pdfPath),
+            'pdf_checksum_sha256' => hash_file('sha256', $pdfPath),
+            'conversion_status' => 'ready',
+        ];
     }
 
     public function delete(array $document): void
@@ -124,7 +184,7 @@ final class DocumentStorageService
             mkdir($categoryPath, 0775, true);
         }
 
-        $pdfName = pathinfo($originalName, PATHINFO_FILENAME) . '-' . bin2hex(random_bytes(6)) . '.pdf';
+        $pdfName = $this->safePdfBaseName($originalName) . '-' . bin2hex(random_bytes(6)) . '.pdf';
         $pdfPath = $categoryPath . '/' . $pdfName;
 
         if (is_file($pdfPath)) {
@@ -150,6 +210,13 @@ final class DocumentStorageService
             'checksum' => $checksum,
             'status' => 'ready',
         ];
+    }
+
+    private function safePdfBaseName(string $originalName): string
+    {
+        $base = pathinfo($originalName, PATHINFO_FILENAME);
+        $safe = preg_replace('/[^A-Za-z0-9_-]+/', '-', strtolower($base)) ?: 'document';
+        return substr(trim($safe, '-'), 0, 40) ?: 'document';
     }
 
 }

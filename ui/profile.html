@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Profile Test</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">MyRSU</p>
+      <h1>Profilo</h1>
+    </div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group active">
+        <span>Anagrafica</span>
+        <div class="submenu">
+          <a href="users.html">Utenti</a>
+          <a class="active" href="profile.html">Profilo</a>
+        </div>
+      </div>
+      <div class="menu-group">
+        <span>Protocollo</span>
+        <div class="submenu">
+          <a href="protocol.html">Registro</a>
+        </div>
+      </div>
+      <div class="menu-group">
+        <span>Archivio</span>
+        <div class="submenu">
+          <a href="documents.html">Documenti</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h1>Profilo</h1>
+      <form id="loginForm" class="grid">
+        <input name="email" type="email" value="admin@myrsu.local" required>
+        <input name="password" type="password" value="admin123" required>
+        <button type="submit">Accedi</button>
+      </form>
+
+      <form id="profileForm" class="grid hidden">
+        <input name="name" placeholder="Nome completo" required>
+        <input name="first_name" placeholder="Nome">
+        <input name="last_name" placeholder="Cognome">
+        <input name="email" type="email" required>
+        <input name="phone" placeholder="Telefono">
+        <input name="mobile" placeholder="Cellulare">
+        <input name="city" placeholder="Citta">
+        <input name="country" placeholder="Paese">
+        <button type="submit">Salva profilo</button>
+      </form>
+
+      <form id="passwordForm" class="grid hidden">
+        <input name="password" type="password" placeholder="Nuova password" minlength="8" required>
+        <button type="submit">Salva password</button>
+      </form>
+
+      <section id="gdprBox" class="hidden">
+        <h2>Privacy</h2>
+        <p class="muted">Versione privacy policy 2026-06-18</p>
+        <button id="acceptGdpr" type="button">Accetta GDPR</button>
+      </section>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="profile.js"></script>
+</body>
+</html>

@@ -12,6 +12,8 @@ use App\Core\Validator;
 
 final class ProfileController
 {
+    private const PROFILE_FIELDS = ['name', 'email', 'first_name', 'last_name', 'phone', 'mobile', 'city', 'country'];
+
     public function __construct(private readonly Application $app)
     {
     }
@@ -31,10 +33,15 @@ final class ProfileController
         Validator::required($data, ['name', 'email']);
         Validator::email((string)$data['email']);
 
-        $updated = $this->app->users->update((int)$user['id'], [
-            'name' => (string)$data['name'],
-            'email' => (string)$data['email'],
-        ]);
+        $payload = [];
+
+        foreach (self::PROFILE_FIELDS as $field) {
+            if (array_key_exists($field, $data)) {
+                $payload[$field] = trim((string)$data[$field]);
+            }
+        }
+
+        $updated = $this->app->users->update((int)$user['id'], $payload);
 
         $this->app->activityLogs->write((int)$user['id'], 'profile.update', [
             'section' => 'registry',

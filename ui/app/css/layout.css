@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #eef3f8;
+  color: #172033;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.shell {
+  min-height: 100vh;
+}
+
+.topbar h2 {
+  margin: 0;
+}
+
+.app-header button {
+  border-radius: 999px;
+  background: #25334d;
+  padding: 9px 12px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 32px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #7c8aa5;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.badge {
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 8px 12px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.cards article {
+  min-height: 140px;
+  border: 1px solid #d8e0ec;
+  border-radius: 16px;
+  background: #fff;
+  padding: 20px;
+}
+
+.cards h3 {
+  margin: 0 0 10px;
+}
+
+.cards p {
+  margin: 0;
+  color: #64748b;
+}
+
+.message {
+  margin: 16px;
+  color: #b91c1c;
+  white-space: pre-wrap;
+}
+
+.hidden {
+  display: none !important;
+}

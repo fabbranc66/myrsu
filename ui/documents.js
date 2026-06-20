@@ -1,7 +1,6 @@
 const apiBase = '../api/v1';
 let token = sessionStorage.getItem('token');
 
-const loginForm = document.querySelector('#loginForm');
 const uploadForm = document.querySelector('#uploadForm');
 const documentsTable = document.querySelector('#documentsTable');
 const message = document.querySelector('#message');
@@ -34,41 +33,34 @@ function row(document) {
     <tr>
       <td>${document.original_name}</td>
       <td>${document.category || '-'}</td>
-      <td>${document.visibility}</td>
-      <td>${document.conversion_status || '-'}</td>
+      <td>${translateVisibility(document.visibility)}</td>
+      <td>${translateStatus(document.conversion_status)}</td>
       <td>${document.pdf_size_bytes || document.size_bytes}</td>
-      <td>
-        <button data-view="${document.id}">View</button>
-        <a class="button" href="document-edit.html?id=${document.id}">Edit</a>
-        <button data-download="${document.id}">Download</button>
-        <button data-protocol-in="${document.id}">Protocol IN</button>
-        <button data-delete="${document.id}">Delete</button>
+      <td class="actions-cell">
+        <button class="icon-action" data-view="${document.id}" title="Anteprima">${MyRsuIcons.get('eye')}</button>
+        <a class="icon-action" href="document-edit.html?id=${document.id}" title="Modifica">${MyRsuIcons.get('edit')}</a>
+        <button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
+        <button class="icon-action" data-protocol-in="${document.id}" title="Protocolla in entrata">${MyRsuIcons.get('protocolIn')}</button>
+        <button class="icon-action danger" data-delete="${document.id}" title="Elimina">${MyRsuIcons.get('trash')}</button>
       </td>
     </tr>
   `;
 }
 
-loginForm.addEventListener('submit', async (event) => {
-  event.preventDefault();
-  const form = new FormData(loginForm);
-  const data = await api('/auth/login', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      email: form.get('email'),
-      password: form.get('password'),
-      device_name: 'documents-test',
-    }),
-  });
-  token = data.access_token;
-  sessionStorage.setItem('token', token);
-  await loadDocuments();
-});
+function translateVisibility(value) {
+  const map = { public: 'pubblico', members: 'membri', rsu: 'rsu' };
+  return map[value] || value || '-';
+}
+
+function translateStatus(value) {
+  const map = { ready: 'pronto', pending: 'in attesa', failed: 'errore' };
+  return map[value] || value || '-';
+}
 
 uploadForm.addEventListener('submit', async (event) => {
   event.preventDefault();
   await api('/documents', { method: 'POST', body: new FormData(uploadForm) });
-  message.textContent = 'Document uploaded';
+  message.textContent = 'Documento caricato';
   uploadForm.reset();
   await loadDocuments();
 });
@@ -93,7 +85,9 @@ documentsTable.addEventListener('click', async (event) => {
     return;
   }
 
+  if (!confirm('Eliminare documento?')) return;
   await api(`/documents/${button.dataset.delete}`, { method: 'DELETE' });
+  message.textContent = 'Documento eliminato';
   await loadDocuments();
 });
 
@@ -114,7 +108,7 @@ async function protocolIn(id) {
       document_id: Number(id),
     }),
   });
-  message.textContent = 'Document protocol created';
+  message.textContent = 'Protocollo in entrata creato';
 }
 
 closeDocumentModal.addEventListener('click', () => {
@@ -127,7 +121,7 @@ async function downloadDocument(id) {
     headers: { Authorization: `Bearer ${token}` },
   });
 
-  if (!response.ok) throw new Error('Download failed');
+  if (!response.ok) throw new Error('Download fallito');
 
   const blob = await response.blob();
   const url = URL.createObjectURL(blob);
@@ -138,6 +132,10 @@ async function downloadDocument(id) {
   URL.revokeObjectURL(url);
 }
 
-if (token) loadDocuments().catch((error) => {
-  message.textContent = error.message;
-});
+if (!token) {
+  window.location.href = 'app/index.html';
+} else {
+  loadDocuments().catch((error) => {
+    message.textContent = error.message;
+  });
+}

@@ -1,0 +1,9 @@
+USE myrsu;
+
+ALTER TABLE users
+  ADD COLUMN first_name VARCHAR(120) NULL AFTER password_hash,
+  ADD COLUMN last_name VARCHAR(120) NULL AFTER first_name,
+  ADD COLUMN phone VARCHAR(40) NULL AFTER last_name,
+  ADD COLUMN mobile VARCHAR(40) NULL AFTER phone,
+  ADD COLUMN city VARCHAR(120) NULL AFTER mobile,
+  ADD COLUMN country VARCHAR(120) NULL AFTER city;
