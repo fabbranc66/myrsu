@@ -126,6 +126,24 @@ CREATE TABLE protocol_entries (
   CONSTRAINT protocol_entries_canceled_by_fk FOREIGN KEY (canceled_by) REFERENCES users(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+CREATE TABLE reports (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  tracking_code VARCHAR(40) NOT NULL UNIQUE,
+  subject VARCHAR(255) NOT NULL,
+  message TEXT NOT NULL,
+  contact VARCHAR(255) NULL,
+  user_id BIGINT UNSIGNED NULL,
+  origin ENUM('anonymous', 'member') NOT NULL DEFAULT 'anonymous',
+  document_id BIGINT UNSIGNED NULL,
+  status ENUM('pending', 'approved', 'rejected') NOT NULL DEFAULT 'pending',
+  reply TEXT NULL,
+  created_at DATETIME NOT NULL,
+  updated_at DATETIME NOT NULL,
+  INDEX reports_status_idx (status),
+  CONSTRAINT reports_user_id_fk FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE SET NULL,
+  CONSTRAINT reports_document_id_fk FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 INSERT INTO roles (name, label) VALUES
   ('membro', 'Membro'),
   ('delegato', 'Delegato'),
@@ -148,7 +166,8 @@ INSERT INTO permissions (name, label) VALUES
   ('protocol.view', 'Vedere registro protocollo'),
   ('protocol.create', 'Creare protocollo'),
   ('protocol.update', 'Modificare protocollo'),
-  ('protocol.cancel', 'Annullare protocollo');
+  ('protocol.cancel', 'Annullare protocollo'),
+  ('reports.moderate', 'Moderare segnalazioni');
 
 INSERT INTO permission_role (permission_id, role_id)
 SELECT p.id, r.id
@@ -167,6 +186,12 @@ SELECT p.id, r.id
 FROM permissions p
 JOIN roles r ON r.name IN ('delegato', 'rls')
 WHERE p.name IN ('users.view');
+
+INSERT INTO permission_role (permission_id, role_id)
+SELECT p.id, r.id
+FROM permissions p
+JOIN roles r ON r.name IN ('delegato', 'rls')
+WHERE p.name IN ('reports.moderate');
 
 INSERT INTO users (name, email, password_hash, status, created_at, updated_at)
 VALUES (

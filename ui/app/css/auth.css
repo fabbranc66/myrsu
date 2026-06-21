@@ -1,40 +1,76 @@
 .login-page {
   min-height: 100vh;
-  padding: 28px;
 }
 
-.login-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 980px;
-  margin: 0 auto;
+.public-header {
+  width: 100%;
 }
 
-.login-header h1 {
-  margin: 0;
+.public-nav a,
+.public-nav .menu-group > span {
+  color: #fff;
 }
 
-.login-header span {
-  border-radius: 999px;
-  background: #dbeafe;
-  color: #1d4ed8;
-  padding: 8px 12px;
+.public-nav a.active,
+.public-nav .menu-group:hover > span,
+.public-nav .menu-group:focus-within > span {
+  color: #93c5fd;
 }
 
-.login-card {
+.public-home {
   display: grid;
   gap: 22px;
-  width: min(420px, calc(100% - 32px));
-  margin: 8vh auto;
+  width: min(760px, calc(100% - 32px));
+  margin: 12vh auto;
   border: 1px solid #d8e0ec;
   border-radius: 18px;
   background: #fff;
-  padding: 28px;
+  padding: 42px;
 }
 
-.login-card h2 {
-  margin: 0;
+.public-home h2 {
+  margin: 0 0 14px;
+  font-size: 34px;
+}
+
+.public-home p {
+  margin: 0 0 22px;
+  color: #64748b;
+}
+
+.public-cta {
+  display: inline-flex;
+  border-radius: 999px;
+  background: #172033;
+  color: #fff;
+  padding: 12px 18px;
+  text-decoration: none;
+}
+
+.login-submenu {
+  position: absolute;
+  right: 32px;
+  top: 78px;
+  z-index: 20;
+  display: block;
+  min-width: 320px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, .22);
+}
+
+.login-menu {
+  position: relative;
+}
+
+.login-menu:hover .login-submenu,
+.login-menu:focus-within .login-submenu {
+  display: block !important;
+}
+
+.public-nav .nav-button {
+  color: #fff;
 }
 
 .form {

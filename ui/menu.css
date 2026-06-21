@@ -31,17 +31,23 @@
 }
 
 .app-nav a,
-.menu-group > span {
+.menu-group > span,
+.nav-button {
   color: #fff;
   padding: 0;
   text-decoration: none;
   cursor: pointer;
+  border: 0;
+  background: transparent;
+  font: inherit;
 }
 
 .app-nav a.active,
 .menu-group.active > span,
 .menu-group:hover > span,
-.menu-group:focus-within > span {
+.menu-group:focus-within > span,
+.nav-button:hover,
+.nav-button:focus {
   color: #93c5fd;
 }
 

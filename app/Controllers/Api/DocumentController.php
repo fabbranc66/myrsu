@@ -24,6 +24,16 @@ final class DocumentController
         return Response::json(['data' => $this->app->documents->all()]);
     }
 
+    public function privateIndex(Request $request): Response
+    {
+        $user = $this->app->auth->requireUser($request);
+        if (!in_array('admin', $this->app->roles->rolesForUser((int)$user['id']), true)) {
+            throw new HttpException(403, 'Permesso insufficiente.');
+        }
+
+        return Response::json(['data' => $this->app->documents->all()]);
+    }
+
     public function show(Request $request, array $params): Response
     {
         $document = $this->findDocument((int)$params['id']);
@@ -182,6 +192,16 @@ final class DocumentController
         return new FileResponse($path, pathinfo((string)$document['original_name'], PATHINFO_FILENAME) . '.pdf', 'application/pdf', true);
     }
 
+    public function privatePreview(Request $request, array $params): FileResponse
+    {
+        return $this->privateOriginal($request, (int)$params['id'], true);
+    }
+
+    public function privateDownload(Request $request, array $params): FileResponse
+    {
+        return $this->privateOriginal($request, (int)$params['id'], false);
+    }
+
     public function destroy(Request $request, array $params): Response
     {
         $user = $this->app->auth->requirePermission($request, 'documents.delete');
@@ -205,6 +225,32 @@ final class DocumentController
         }
 
         return $document;
+    }
+
+    private function privateOriginal(Request $request, int $id, bool $inline): FileResponse
+    {
+        $user = $this->app->auth->requireUser($request);
+        if (!in_array('admin', $this->app->roles->rolesForUser((int)$user['id']), true)) {
+            throw new HttpException(403, 'Permesso insufficiente.');
+        }
+
+        $document = $this->findDocument($id);
+        $storedName = (string)($document['original_stored_name'] ?? '');
+        if ($storedName === '') {
+            throw new HttpException(404, 'Originale non trovato.');
+        }
+
+        $path = $this->app->documentStorage->originalPath($storedName);
+        if (!is_file($path)) {
+            throw new HttpException(404, 'File originale non trovato.');
+        }
+
+        return new FileResponse(
+            $path,
+            (string)$document['original_name'],
+            (string)($document['original_mime_type'] ?: 'application/octet-stream'),
+            $inline
+        );
     }
 
     private function authorizeDocumentAccess(Request $request, array $document, string $permission): void

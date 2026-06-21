@@ -17,6 +17,9 @@
     <span>Archivio</span>
     <div class="submenu">
       <a{{documents_class}} href="documents.html">Documenti</a>
+      <a href="private-documents.html">Privato</a>
+      <a{{reports_class}} href="reports.html">Segnalazioni</a>
+      <a href="reports-moderation.html">Moderazione</a>
     </div>
   </div>
 </nav>

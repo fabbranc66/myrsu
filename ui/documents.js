@@ -76,7 +76,7 @@ async function loadDocuments() {
 function row(document) {
   return `
     <tr>
-      <td>${document.original_name}</td>
+      <td><span class="doc-type-tag">${documentsSystemType(document)}</span> ${document.original_name}</td>
       <td>${document.category || '-'}</td>
       <td>${translateVisibility(document.visibility)}</td>
       <td>${translateStatus(document.conversion_status)}</td>
@@ -91,6 +91,24 @@ function row(document) {
     </tr>
   `;
 }
+
+function documentsSystemType(document) {
+  const mime = String(document.mime_type || '');
+  if (mime === 'application/pdf') return 'PDF';
+  return mime.startsWith('image/') ? 'IMG' : 'FILE';
+}
+
+function originalType(document) {
+  const name = String(document.original_name || '');
+  const extension = name.includes('.') ? name.split('.').pop().toUpperCase() : '';
+  if (extension) return extension;
+  const mime = String(document.original_mime_type || document.mime_type || '');
+  if (mime === 'application/pdf') return 'PDF';
+  if (mime.startsWith('image/')) return 'IMG';
+  if (mime.startsWith('text/')) return 'TXT';
+  return 'DOC';
+}
+
 
 function translateVisibility(value) {
   const map = { public: 'pubblico', members: 'membri', rsu: 'rsu' };

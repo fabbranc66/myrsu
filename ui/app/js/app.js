@@ -1,6 +1,8 @@
 const loginView = document.querySelector('#loginView');
 const appView = document.querySelector('#appView');
 const loginForm = document.querySelector('#loginForm');
+const loginToggle = document.querySelector('#loginToggle');
+const loginPanel = document.querySelector('#loginPanel');
 const logoutButton = document.querySelector('#logoutButton');
 const message = document.querySelector('#message');
 const userName = document.querySelector('#userName');
@@ -12,6 +14,10 @@ const queueCardText = document.querySelector('#queueCardText');
 const queueProcessButton = document.querySelector('#queueProcessButton');
 const queueCard = document.querySelector('#queueCard');
 const pendingQueueLink = document.querySelector('#pendingQueueLink');
+const reportsCard = document.querySelector('#reportsCard');
+const reportsPendingCount = document.querySelector('#reportsPendingCount');
+const privateDocumentsLink = document.querySelector('#privateDocumentsLink');
+const privateDocumentsCard = document.querySelector('#privateDocumentsCard');
 
 function showMessage(text = '') {
   message.textContent = text;
@@ -20,6 +26,7 @@ function showMessage(text = '') {
 function setView(authenticated) {
   loginView.classList.toggle('hidden', authenticated);
   appView.classList.toggle('hidden', !authenticated);
+  if (loginPanel) loginPanel.classList.add('hidden');
 }
 
 function renderUser(user) {
@@ -69,6 +76,18 @@ function isAdmin(user) {
   return roles.includes('admin');
 }
 
+function canModerateReports(user) {
+  const roles = Array.isArray(user.roles) ? user.roles : [];
+  return roles.includes('admin') || roles.includes('delegato') || roles.includes('rls');
+}
+
+async function loadReportStats() {
+  const data = await MyRsuApi.request('/reports/stats');
+  if (reportsPendingCount) {
+    reportsPendingCount.textContent = String(data.pending || 0);
+  }
+}
+
 function toggleAdminQueue(enabled) {
   if (queuePanel) {
     queuePanel.classList.toggle('hidden', !enabled);
@@ -80,6 +99,20 @@ function toggleAdminQueue(enabled) {
 
   if (pendingQueueLink) {
     pendingQueueLink.classList.toggle('hidden', !enabled);
+  }
+
+  if (privateDocumentsLink) {
+    privateDocumentsLink.classList.toggle('hidden', !enabled);
+  }
+
+  if (privateDocumentsCard) {
+    privateDocumentsCard.classList.toggle('hidden', !enabled);
+  }
+}
+
+function toggleReportsBadge(enabled) {
+  if (reportsCard) {
+    reportsCard.classList.toggle('hidden', !enabled);
   }
 }
 
@@ -93,8 +126,12 @@ async function boot() {
     const me = await MyRsuAuth.me();
     renderUser(me);
     toggleAdminQueue(isAdmin(me));
+    toggleReportsBadge(canModerateReports(me));
     if (isAdmin(me)) {
       await loadQueueStatus();
+    }
+    if (canModerateReports(me)) {
+      await loadReportStats();
     }
     setView(true);
   } catch (error) {
@@ -103,7 +140,7 @@ async function boot() {
   }
 }
 
-loginForm.addEventListener('submit', async (event) => {
+if (loginForm) loginForm.addEventListener('submit', async (event) => {
   event.preventDefault();
   showMessage();
 
@@ -113,8 +150,12 @@ loginForm.addEventListener('submit', async (event) => {
     const me = await MyRsuAuth.me();
     renderUser(me);
     toggleAdminQueue(isAdmin(me));
+    toggleReportsBadge(canModerateReports(me));
     if (isAdmin(me)) {
       await loadQueueStatus();
+    }
+    if (canModerateReports(me)) {
+      await loadReportStats();
     }
     setView(true);
   } catch (error) {
@@ -122,7 +163,12 @@ loginForm.addEventListener('submit', async (event) => {
   }
 });
 
-logoutButton.addEventListener('click', async () => {
+if (loginToggle && loginPanel) loginToggle.addEventListener('click', (event) => {
+  event.preventDefault();
+  loginPanel.classList.toggle('hidden');
+});
+
+if (logoutButton) logoutButton.addEventListener('click', async () => {
   try {
     await MyRsuAuth.logout();
   } catch (error) {

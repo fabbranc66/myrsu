@@ -347,3 +347,51 @@ dialog {
   font-size: 13px;
   font-weight: 700;
 }
+
+.wide {
+  grid-column: 1 / -1;
+}
+
+.doc-type-tag {
+  display: inline-flex;
+  align-items: center;
+  min-width: 36px;
+  justify-content: center;
+  margin-right: 7px;
+  border-radius: 999px;
+  background: #eaf1ff;
+  color: #084298;
+  border: 1px solid #c9d8ff;
+  padding: 3px 7px;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .03em;
+}
+
+.doc-origin-tag {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 7px;
+  border-radius: 999px;
+  padding: 3px 7px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.doc-origin-tag.converted {
+  background: #ecfdf5;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+
+.doc-origin-tag.native {
+  background: #f8fafc;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+}
+
+#reportModalMessage {
+  max-width: 760px;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}

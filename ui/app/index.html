@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8">
@@ -11,29 +11,48 @@
 <body>
   <main class="app">
     <section id="loginView" class="login-page">
-      <header class="login-header">
+      <header class="app-header public-header">
         <div>
           <p class="eyebrow">MyRSU</p>
           <h1>Piattaforma RSU</h1>
         </div>
-        <span>API-first</span>
+        <nav class="app-nav public-nav">
+          <a class="active" href="index.html">Home</a>
+          <a href="../reports.html">Segnalazione anonima</a>
+          <div class="menu-group">
+            <span>Archivio</span>
+            <div class="submenu">
+              <a href="../documents.html">Documenti</a>
+              <a id="privateDocumentsLink" class="hidden" href="../private-documents.html">Privato</a>
+              <a href="../comunicati-create.html">Comunicati</a>
+              <a href="../reports.html">Segnalazioni</a>
+              <a href="../reports-moderation.html">Moderazione</a>
+            </div>
+          </div>
+          <div class="login-menu">
+            <button id="loginToggle" class="nav-button" type="button">Login</button>
+            <div id="loginPanel" class="login-submenu hidden">
+              <form id="loginForm" class="form">
+                <label>Email
+                  <input name="email" type="email" autocomplete="email" required>
+                </label>
+                <label>Password
+                  <input name="password" type="password" autocomplete="current-password" required>
+                </label>
+                <button type="submit">Entra</button>
+              </form>
+            </div>
+          </div>
+        </nav>
       </header>
 
-      <section class="login-card">
+      <section class="public-home">
         <div>
-          <p class="eyebrow">Accesso</p>
-          <h2>Entra nella piattaforma</h2>
+          <p class="eyebrow">RSU</p>
+          <h2>Segnalazioni e documenti RSU</h2>
+          <p>Puoi inviare una segnalazione anonima senza effettuare l'accesso.</p>
+          <a class="public-cta" href="../reports.html">Invia segnalazione anonima</a>
         </div>
-
-        <form id="loginForm" class="form">
-          <label>Email
-            <input name="email" type="email" autocomplete="email" required>
-          </label>
-          <label>Password
-            <input name="password" type="password" autocomplete="current-password" required>
-          </label>
-          <button type="submit">Entra</button>
-        </form>
       </section>
     </section>
 
@@ -63,11 +82,12 @@
             <div class="submenu">
               <a href="../documents.html">Documenti</a>
               <a href="../comunicati-create.html">Comunicati</a>
+              <a href="../reports.html">Segnalazioni</a>
               <a id="pendingQueueLink" class="hidden" href="../pending-queue.html">Coda PDF</a>
             </div>
           </div>
+          <button id="logoutButton" class="nav-button" type="button">Esci</button>
         </nav>
-        <button id="logoutButton" type="button">Esci</button>
       </header>
 
       <section class="content">
@@ -104,6 +124,19 @@
             <h3>Documenti</h3>
             <p>Archivio PDF, verifica e anteprima.</p>
           </article>
+          <article id="privateDocumentsCard" class="hidden">
+            <h3>Archivio privato</h3>
+            <p>Originali private e stato conversione.</p>
+            <a class="dashboard-badge neutral" href="../private-documents.html">Apri</a>
+          </article>
+          <article id="reportsCard" class="hidden dashboard-link-card">
+            <h3>Segnalazioni</h3>
+            <p>Moderazione e protocollo in entrata.</p>
+            <a class="dashboard-badge" href="../reports-moderation.html?status=pending">
+              <span id="reportsPendingCount">0</span>
+              <span>pendenti</span>
+            </a>
+          </article>
           <article id="queueCard" class="hidden">
             <h3>Coda PDF</h3>
             <p id="queueCardText">Operazioni pendenti da processare in locale.</p>
@@ -120,3 +153,4 @@
   <script src="js/app.js"></script>
 </body>
 </html>
+

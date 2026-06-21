@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Moderazione Segnalazioni</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Moderazione segnalazioni</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a></div></div>
+      <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a href="reports.html">Segnalazioni</a><a class="active" href="reports-moderation.html">Moderazione</a><a href="pending-queue.html">Coda PDF</a></div></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <header>
+        <div>
+          <h1>Moderazione segnalazioni</h1>
+          <p class="muted">Approvazione, respinta e protocollo in entrata.</p>
+        </div>
+        <select id="statusFilter">
+          <option value="pending">Da moderare</option>
+          <option value="approved">Approvate</option>
+          <option value="rejected">Respinte</option>
+          <option value="all">Tutte</option>
+        </select>
+      </header>
+
+      <table>
+        <thead><tr><th>Codice</th><th>Oggetto</th><th>Origine</th><th>Stato</th><th>Protocollo</th><th>Azioni</th></tr></thead>
+        <tbody id="reportsTable"></tbody>
+      </table>
+
+      <dialog id="reportModal">
+        <header>
+          <h2 id="reportModalTitle">Segnalazione</h2>
+          <button id="closeReportModal" type="button">Chiudi</button>
+        </header>
+        <p id="reportModalMeta" class="muted"></p>
+        <pre id="reportModalMessage"></pre>
+      </dialog>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js"></script>
+  <script src="reports-moderation.js"></script>
+  <script src="auth-menu.js"></script>
+</body>
+</html>
+
+

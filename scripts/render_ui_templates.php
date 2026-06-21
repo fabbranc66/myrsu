@@ -58,6 +58,7 @@ $html = fill($layout, [
         '<script src="user-row.js"></script>',
         '<script src="users-helpers.js"></script>',
         '<script src="users.js"></script>',
+        '<script src="auth-menu.js"></script>',
     ]),
 ]);
 

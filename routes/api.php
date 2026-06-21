@@ -12,6 +12,7 @@ use App\Controllers\Api\HostingDocumentController;
 use App\Controllers\Api\PendingComunicatoQueueController;
 use App\Controllers\Api\ProfileController;
 use App\Controllers\Api\ProtocolController;
+use App\Controllers\Api\ReportController;
 use App\Controllers\Api\RoleController;
 use App\Controllers\Api\UserController;
 use App\Core\Response;
@@ -25,6 +26,7 @@ $hostingDocuments = new HostingDocumentController($app);
 $pendingQueue = new PendingComunicatoQueueController($app);
 $profile = new ProfileController($app);
 $protocol = new ProtocolController($app);
+$reports = new ReportController($app);
 $users = new UserController($app);
 $roles = new RoleController($app);
 $gdpr = new GdprConsentController($app);
@@ -60,12 +62,15 @@ $app->router->get('/api/v1/users/{id}/gdpr/consents', [$gdpr, 'userIndex']);
 $app->router->get('/api/v1/users/{id}/activity', [$activity, 'userIndex']);
 
 $app->router->get('/api/v1/documents', [$documents, 'index']);
+$app->router->get('/api/v1/documents/private', [$documents, 'privateIndex']);
 $app->router->post('/api/v1/documents', [$documents, 'store']);
 $app->router->post('/api/v1/comunicati', [$comunicati, 'store']);
 $app->router->get('/api/v1/documents/{id}', [$documents, 'show']);
 $app->router->patch('/api/v1/documents/{id}', [$documents, 'update']);
 $app->router->get('/api/v1/documents/{id}/preview', [$documents, 'preview']);
 $app->router->get('/api/v1/documents/{id}/download', [$documents, 'download']);
+$app->router->get('/api/v1/documents/{id}/private-preview', [$documents, 'privatePreview']);
+$app->router->get('/api/v1/documents/{id}/private-download', [$documents, 'privateDownload']);
 $app->router->delete('/api/v1/documents/{id}', [$documents, 'destroy']);
 $app->router->get('/api/v1/documents/{id}/verify', [$documentVerification, 'show']);
 $app->router->post('/api/v1/documents/{id}/verify-file', [$documentVerification, 'file']);
@@ -75,6 +80,11 @@ $app->router->get('/api/v1/hosting/comunicati/{id}', [$hostingDocuments, 'showPe
 $app->router->post('/api/v1/hosting/comunicati/{id}/complete', [$hostingDocuments, 'completeComunicato']);
 $app->router->get('/api/v1/local/comunicati/pending', [$pendingQueue, 'index']);
 $app->router->post('/api/v1/local/comunicati/process', [$pendingQueue, 'process']);
+
+$app->router->get('/api/v1/reports', [$reports, 'index']);
+$app->router->get('/api/v1/reports/stats', [$reports, 'stats']);
+$app->router->post('/api/v1/reports', [$reports, 'store']);
+$app->router->patch('/api/v1/reports/{id}/moderation', [$reports, 'moderate']);
 
 $app->router->get('/api/v1/protocol', [$protocol, 'index']);
 $app->router->post('/api/v1/protocol', [$protocol, 'store']);

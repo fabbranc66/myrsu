@@ -8,6 +8,7 @@ use App\Repositories\ActivityLogRepository;
 use App\Repositories\DocumentRepository;
 use App\Repositories\GdprConsentRepository;
 use App\Repositories\ProtocolRepository;
+use App\Repositories\ReportRepository;
 use App\Repositories\RolePermissionRepository;
 use App\Repositories\TokenRepository;
 use App\Repositories\UserRepository;
@@ -23,6 +24,7 @@ use App\Services\HostingDocumentUploadService;
 use App\Services\PendingComunicatoQueueService;
 use App\Services\PdfConversionService;
 use App\Services\PdfWatermarkService;
+use App\Services\ReportService;
 use Throwable;
 
 final class Application
@@ -41,9 +43,11 @@ final class Application
     public readonly DocumentRepository $documents;
     public readonly GdprConsentRepository $gdprConsents;
     public readonly ProtocolRepository $protocols;
+    public readonly ReportRepository $reports;
     public readonly ActivityLogRepository $activityLogs;
     public readonly AuthService $authService;
     public readonly ComunicatoPdfService $comunicatoPdf;
+    public readonly ReportService $reportService;
     public readonly DocumentHeaderService $documentHeader;
     public readonly DocumentSignatureService $documentSignature;
     public readonly DocumentVerificationPageService $documentVerificationPage;
@@ -60,6 +64,7 @@ final class Application
 
         $this->router = new Router();
         $this->comunicatoPdf = new ComunicatoPdfService($this->basePath);
+        $this->reportService = new ReportService();
         $this->documentHeader = new DocumentHeaderService();
         $this->documentSignature = new DocumentSignatureService($this->signingConfig);
         $this->documentVerificationPage = new DocumentVerificationPageService();
@@ -95,6 +100,7 @@ final class Application
         $this->documents = new DocumentRepository($pdo);
         $this->gdprConsents = new GdprConsentRepository($pdo);
         $this->protocols = new ProtocolRepository($pdo);
+        $this->reports = new ReportRepository($pdo);
         $this->activityLogs = new ActivityLogRepository($pdo);
         $this->auth = new Auth($this->users, $this->tokens, $this->roles);
         $this->authService = new AuthService($this->users, $this->tokens, $this->activityLogs);

@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Segnalazioni</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Segnalazioni</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a></div></div>
+      <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a class="active" href="reports.html">Segnalazioni</a><a href="pending-queue.html">Coda PDF</a></div></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <header>
+        <div>
+          <h1>Nuova segnalazione</h1>
+          <p class="muted">Invio riservato con archiviazione PDF in Segnalazioni.</p>
+        </div>
+      </header>
+
+      <form id="reportForm" class="grid">
+        <label class="wide">Oggetto<textarea name="subject" rows="3" maxlength="255" required></textarea></label>
+        <label>Contatto opzionale<input name="contact" maxlength="255"></label>
+        <label class="wide">Messaggio<textarea name="message" rows="8" required></textarea></label>
+        <button type="submit">Invia segnalazione</button>
+      </form>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js"></script>
+  <script src="reports.js"></script>
+  <script src="auth-menu.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Archivio Privato</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Archivio privato</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a></div></div>
+      <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a class="active" href="private-documents.html">Privato</a><a href="comunicati-create.html">Comunicati</a><a href="reports.html">Segnalazioni</a><a href="reports-moderation.html">Moderazione</a><a href="pending-queue.html">Coda PDF</a></div></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <header>
+        <div>
+          <h1>Archivio documenti privato</h1>
+          <p class="muted">Originali in private e stato conversione PDF.</p>
+        </div>
+      </header>
+
+      <table>
+        <thead>
+          <tr><th>Documento</th><th>Originale</th><th>Sistema</th><th>Conversione</th><th>Categoria</th><th>Data</th><th>Azioni</th></tr>
+        </thead>
+        <tbody id="privateDocumentsTable"></tbody>
+      </table>
+
+      <dialog id="documentModal">
+        <header>
+          <h2>Documento</h2>
+          <button id="closeDocumentModal" type="button">Chiudi</button>
+        </header>
+        <iframe id="documentPreview" title="Document preview"></iframe>
+      </dialog>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js"></script>
+  <script src="private-documents.js"></script>
+  <script src="auth-menu.js"></script>
+</body>
+</html>
+
+
