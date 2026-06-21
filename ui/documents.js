@@ -8,6 +8,9 @@ const jsonOutput = document.querySelector('#jsonOutput');
 const documentModal = document.querySelector('#documentModal');
 const documentPreview = document.querySelector('#documentPreview');
 const closeDocumentModal = document.querySelector('#closeDocumentModal');
+const uploadProgress = document.querySelector('#uploadProgress');
+const uploadProgressFill = document.querySelector('#uploadProgressFill');
+const uploadProgressText = document.querySelector('#uploadProgressText');
 
 async function api(path, options = {}) {
   const headers = options.headers || {};
@@ -20,6 +23,48 @@ async function api(path, options = {}) {
 
   if (!response.ok) throw new Error(payload.error?.message || 'Request failed');
   return payload.data;
+}
+
+function setUploadProgress(value) {
+  if (!uploadProgress || !uploadProgressFill || !uploadProgressText) return;
+  uploadProgressFill.style.width = `${value}%`;
+  uploadProgressText.textContent = `${value}%`;
+}
+
+function resetUploadProgress() {
+  if (!uploadProgress || !uploadProgressFill || !uploadProgressText) return;
+  uploadProgress.classList.add('hidden');
+  uploadProgressFill.style.width = '0%';
+  uploadProgressText.textContent = '0%';
+}
+
+function uploadDocument(formData) {
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', `${apiBase}/documents`);
+    if (token) {
+      xhr.setRequestHeader('Authorization', `Bearer ${token}`);
+    }
+
+    xhr.upload.addEventListener('progress', (event) => {
+      if (!event.lengthComputable) return;
+      const value = Math.max(1, Math.min(95, Math.round((event.loaded / event.total) * 95)));
+      setUploadProgress(value);
+    });
+
+    xhr.addEventListener('load', () => {
+      const payload = xhr.responseText ? JSON.parse(xhr.responseText) : {};
+      jsonOutput.textContent = JSON.stringify(payload, null, 2);
+      if (xhr.status < 200 || xhr.status >= 300) {
+        reject(new Error(payload.error?.message || 'Upload fallito'));
+        return;
+      }
+      resolve(payload.data);
+    });
+
+    xhr.addEventListener('error', () => reject(new Error('Upload fallito')));
+    xhr.send(formData);
+  });
 }
 
 async function loadDocuments() {
@@ -59,10 +104,23 @@ function translateStatus(value) {
 
 uploadForm.addEventListener('submit', async (event) => {
   event.preventDefault();
-  await api('/documents', { method: 'POST', body: new FormData(uploadForm) });
-  message.textContent = 'Documento caricato';
-  uploadForm.reset();
-  await loadDocuments();
+  message.textContent = '';
+  if (uploadProgress) {
+    uploadProgress.classList.remove('hidden');
+  }
+  setUploadProgress(0);
+  try {
+    await uploadDocument(new FormData(uploadForm));
+    setUploadProgress(100);
+    await new Promise((resolve) => window.setTimeout(resolve, 250));
+    message.textContent = 'Documento caricato';
+    uploadForm.reset();
+    await loadDocuments();
+  } catch (error) {
+    message.textContent = error.message;
+  } finally {
+    window.setTimeout(resetUploadProgress, 500);
+  }
 });
 
 documentsTable.addEventListener('click', async (event) => {

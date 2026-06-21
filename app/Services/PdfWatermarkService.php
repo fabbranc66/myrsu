@@ -13,69 +13,217 @@ final class PdfWatermarkService
         $tempDir = sys_get_temp_dir() . '/myrsu_watermark_' . bin2hex(random_bytes(8));
         mkdir($tempDir, 0775, true);
 
-        $postScriptPath = $tempDir . '/watermark.ps';
-        $trimmedPath = $sourcePath;
-        file_put_contents($postScriptPath, $this->postScript($header));
-        $runWatermark = '(' . str_replace('\\', '/', $postScriptPath) . ') run';
+        try {
+            $renderedPages = $this->renderPages($sourcePath, $tempDir);
+            if ($renderedPages === []) {
+                throw new HttpException(422, 'PDF senza contenuto utile.');
+            }
 
-        $command = escapeshellarg($this->ghostscriptPath())
-            . ' -dNOSAFER -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=' . escapeshellarg($targetPath)
-            . ' -c ' . escapeshellarg($runWatermark)
-            . ' -f'
-            . ' ' . escapeshellarg($trimmedPath);
+            $jpegPages = [];
+            foreach ($renderedPages as $index => $pagePath) {
+                $jpegPath = $tempDir . '/final-' . ($index + 1) . '.jpg';
+                $this->composePage($pagePath, $jpegPath, $header);
+                $jpegPages[] = $jpegPath;
+            }
 
-        exec($command, $output, $exitCode);
-        $this->deleteDirectory($tempDir);
-
-        if ($exitCode !== 0 || !is_file($targetPath)) {
-            throw new HttpException(422, 'Watermark PDF fallito.');
+            $this->writePdf($jpegPages, $targetPath);
+        } finally {
+            $this->deleteDirectory($tempDir);
         }
 
-        $this->keepContentPages($targetPath);
+        if (!is_file($targetPath) || filesize($targetPath) === 0) {
+            throw new HttpException(422, 'Watermark PDF fallito.');
+        }
     }
 
-    private function postScript(array $header): string
+    private function renderPages(string $sourcePath, string $tempDir): array
     {
-        $title = $this->postScriptText((string)($header['title'] ?? 'Documento RSU'));
-        $date = $this->postScriptText((string)($header['date'] ?? date('Y-m-d H:i')));
+        $pages = [];
+        $pageCount = $this->pageCount($sourcePath);
 
-        return <<<PS
-<< /BeginPage {
-  pop
-  gsave
-  currentpagedevice /PageSize get aload pop /pageHeight exch def /pageWidth exch def
-  pageWidth 2 div pageHeight 2 div translate
-  -28 rotate
-  0.92 setgray
-  4 setlinewidth
-  -260 -90 520 180 rectstroke
-  /Helvetica-Bold findfont 120 scalefont setfont
-  (RSU) dup stringwidth pop -0.5 mul 18 moveto show
-  /Helvetica-Bold findfont 34 scalefont setfont
-  (Sitem Canegrate) dup stringwidth pop -0.5 mul -42 moveto show
-  grestore
-} bind /EndPage {
-  pop pop
-  gsave
-  currentpagedevice /PageSize get aload pop /pageHeight exch def /pageWidth exch def
-  0 setgray
-  0.8 setlinewidth
-  1 setgray 28 pageHeight 42 sub 540 30 rectfill
-  0 setgray 28 pageHeight 42 sub 540 30 rectstroke
-  /Helvetica-Bold findfont 15 scalefont setfont
-  42 pageHeight 32 sub moveto (RSU) show
-  /Helvetica findfont 8 scalefont setfont
-  96 pageHeight 24 sub moveto (Documento: {$title}) show
-  96 pageHeight 35 sub moveto (Data: {$date}) show
-  grestore
-  true
-} bind >> setpagedevice
-PS;
+        for ($page = 1; $page <= $pageCount; $page++) {
+            $pngPath = $tempDir . '/page-' . $page . '.png';
+            $command = escapeshellarg($this->ghostscriptPath())
+                . ' -dBATCH -dNOPAUSE -q -sDEVICE=png16m -r150'
+                . ' -dFirstPage=' . $page . ' -dLastPage=' . $page
+                . ' -sOutputFile=' . escapeshellarg($pngPath)
+                . ' ' . escapeshellarg($sourcePath);
+
+            exec($command, $output, $exitCode);
+            if ($exitCode === 0 && is_file($pngPath) && !$this->isBlankImage($pngPath)) {
+                $pages[] = $pngPath;
+            }
+        }
+
+        return $pages;
     }
 
-    private function postScriptText(string $value): string
+    private function composePage(string $sourcePng, string $targetJpeg, array $header): void
     {
-        return str_replace(['\\', '(', ')'], ['\\\\', '\\(', '\\)'], $value);
+        $canvasWidth = 1240;
+        $canvasHeight = 1754;
+        $canvas = imagecreatetruecolor($canvasWidth, $canvasHeight);
+        $source = imagecreatefrompng($sourcePng);
+
+        if ($canvas === false || $source === false) {
+            throw new HttpException(422, 'Composizione PDF fallita.');
+        }
+
+        $white = imagecolorallocate($canvas, 255, 255, 255);
+        imagefill($canvas, 0, 0, $white);
+
+        $sourceWidth = imagesx($source);
+        $sourceHeight = imagesy($source);
+        $maxWidth = (int)($canvasWidth * 0.94);
+        $maxHeight = (int)($canvasHeight * 0.9);
+        $scale = min($maxWidth / $sourceWidth, $maxHeight / $sourceHeight);
+        $drawWidth = (int)($sourceWidth * $scale);
+        $drawHeight = (int)($sourceHeight * $scale);
+        $drawX = (int)(($canvasWidth - $drawWidth) / 2);
+        $drawY = (int)(($canvasHeight - $drawHeight) / 2);
+
+        imagecopyresampled($canvas, $source, $drawX, $drawY, 0, 0, $drawWidth, $drawHeight, $sourceWidth, $sourceHeight);
+        $this->drawWatermark($canvas);
+        $this->drawHeader($canvas, $header);
+        imagejpeg($canvas, $targetJpeg, 92);
+
+        imagedestroy($source);
+        imagedestroy($canvas);
+    }
+
+    private function drawWatermark(\GdImage $canvas): void
+    {
+        $font = $this->fontPath(true);
+        $gray = imagecolorallocatealpha($canvas, 120, 120, 120, 63);
+        $this->drawWatermarkBlock($canvas, 360, 600, $gray, $font);
+        $this->drawWatermarkBlock($canvas, 360, 1290, $gray, $font);
+    }
+
+    private function drawWatermarkBlock(\GdImage $canvas, int $x, int $y, int $color, string $font): void
+    {
+        imagettftext($canvas, 140, -28, $x, $y, $color, $font, 'RSU');
+        imagettftext($canvas, 40, -28, $x - 10, $y + 95, $color, $font, 'Sitem Canegrate');
+    }
+
+    private function drawHeader(\GdImage $canvas, array $header): void
+    {
+        $title = substr((string)($header['title'] ?? 'Documento RSU'), 0, 100);
+        $date = (string)($header['date'] ?? date('Y-m-d H:i'));
+        $font = $this->fontPath();
+        $bold = $this->fontPath(true);
+        $black = imagecolorallocate($canvas, 0, 0, 0);
+        $white = imagecolorallocate($canvas, 255, 255, 255);
+        $left = 62;
+        $top = 36;
+        $width = 1116;
+        $height = 92;
+
+        imagefilledrectangle($canvas, $left, $top, $left + $width, $top + $height, $white);
+        imagerectangle($canvas, $left, $top, $left + $width, $top + $height, $black);
+        imagettftext($canvas, 32, 0, $left + 18, $top + 58, $black, $bold, 'RSU');
+        imagettftext($canvas, 18, 0, $left + 150, $top + 34, $black, $font, 'Documento: ' . $title);
+        imagettftext($canvas, 18, 0, $left + 150, $top + 68, $black, $font, 'Data: ' . $date);
+    }
+
+    private function writePdf(array $jpegPages, string $targetPath): void
+    {
+        $pageWidth = 595.28;
+        $pageHeight = 841.89;
+        $objects = ["1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n"];
+        $pageRefs = [];
+        $nextObject = 3;
+
+        foreach ($jpegPages as $jpegPath) {
+            [$imageWidth, $imageHeight] = getimagesize($jpegPath) ?: [0, 0];
+            $imageData = (string)file_get_contents($jpegPath);
+            $pageObject = $nextObject++;
+            $imageObject = $nextObject++;
+            $contentObject = $nextObject++;
+            $pageRefs[] = $pageObject . ' 0 R';
+            $content = "q {$pageWidth} 0 0 {$pageHeight} 0 0 cm /Im1 Do Q\n";
+
+            $objects[] = "{$pageObject} 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 {$pageWidth} {$pageHeight}] /Resources << /XObject << /Im1 {$imageObject} 0 R >> >> /Contents {$contentObject} 0 R >>\nendobj\n";
+            $objects[] = "{$imageObject} 0 obj\n<< /Type /XObject /Subtype /Image /Width {$imageWidth} /Height {$imageHeight} /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length " . strlen($imageData) . " >>\nstream\n{$imageData}\nendstream\nendobj\n";
+            $objects[] = "{$contentObject} 0 obj\n<< /Length " . strlen($content) . " >>\nstream\n{$content}endstream\nendobj\n";
+        }
+
+        array_splice($objects, 1, 0, "2 0 obj\n<< /Type /Pages /Kids [" . implode(' ', $pageRefs) . "] /Count " . count($pageRefs) . " >>\nendobj\n");
+        $this->writeObjects($objects, $targetPath);
+    }
+
+    private function writeObjects(array $objects, string $targetPath): void
+    {
+        $pdf = "%PDF-1.4\n%\xE2\xE3\xCF\xD3\n";
+        $offsets = [0];
+
+        foreach ($objects as $object) {
+            preg_match('/^(\d+) 0 obj/', $object, $match);
+            $offsets[(int)$match[1]] = strlen($pdf);
+            $pdf .= $object;
+        }
+
+        $xref = strlen($pdf);
+        $size = max(array_keys($offsets)) + 1;
+        $pdf .= "xref\n0 {$size}\n0000000000 65535 f \n";
+        for ($index = 1; $index < $size; $index++) {
+            $pdf .= sprintf("%010d 00000 n \n", $offsets[$index] ?? 0);
+        }
+
+        $pdf .= "trailer\n<< /Size {$size} /Root 1 0 R >>\nstartxref\n{$xref}\n%%EOF";
+        file_put_contents($targetPath, $pdf);
+    }
+
+    private function isBlankImage(string $pngPath): bool
+    {
+        $image = imagecreatefrompng($pngPath);
+        if ($image === false) {
+            return false;
+        }
+
+        $width = imagesx($image);
+        $height = imagesy($image);
+        $darkPixels = 0;
+        $limit = max(8, (int)(($width / 8) * ($height / 8) * 0.0005));
+
+        for ($y = 0; $y < $height; $y += 8) {
+            for ($x = 0; $x < $width; $x += 8) {
+                $rgb = imagecolorat($image, $x, $y);
+                if ((($rgb >> 16) & 255) < 235 || (($rgb >> 8) & 255) < 235 || ($rgb & 255) < 235) {
+                    $darkPixels++;
+                    if ($darkPixels > $limit) {
+                        imagedestroy($image);
+                        return false;
+                    }
+                }
+            }
+        }
+
+        imagedestroy($image);
+        return true;
+    }
+
+    private function pageCount(string $path): int
+    {
+        $command = escapeshellarg($this->ghostscriptPath())
+            . ' -q -dNOSAFER -dNODISPLAY -c '
+            . escapeshellarg('(' . str_replace('\\', '/', $path) . ') (r) file runpdfbegin pdfpagecount = quit');
+
+        exec($command, $output, $exitCode);
+        return $exitCode === 0 ? max(1, (int)($output[0] ?? 1)) : 1;
+    }
+
+    private function fontPath(bool $bold = false): string
+    {
+        foreach ([
+            $bold ? 'C:/Windows/Fonts/arialbd.ttf' : 'C:/Windows/Fonts/arial.ttf',
+            $bold ? 'C:/Windows/Fonts/calibrib.ttf' : 'C:/Windows/Fonts/calibri.ttf',
+        ] as $path) {
+            if (is_file($path)) {
+                return $path;
+            }
+        }
+
+        throw new HttpException(500, 'Font PDF non trovato.');
     }
 
     private function ghostscriptPath(): string
@@ -94,141 +242,14 @@ PS;
         throw new HttpException(500, 'Ghostscript non trovato.');
     }
 
-    private function trimLeadingBlankPages(string $sourcePath, string $tempDir): string
-    {
-        $pageCount = $this->pageCount($sourcePath);
-        $firstPage = 1;
-
-        for ($page = 1; $page <= $pageCount; $page++) {
-            if (!$this->isBlankPage($sourcePath, $page)) {
-                $firstPage = $page;
-                break;
-            }
-        }
-
-        if ($firstPage <= 1) {
-            return $sourcePath;
-        }
-
-        $targetPath = $tempDir . '/trimmed.pdf';
-        $command = escapeshellarg($this->ghostscriptPath())
-            . ' -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dFirstPage=' . $firstPage
-            . ' -sOutputFile=' . escapeshellarg($targetPath)
-            . ' ' . escapeshellarg($sourcePath);
-
-        exec($command, $output, $exitCode);
-        return $exitCode === 0 && is_file($targetPath) ? $targetPath : $sourcePath;
-    }
-
-    private function pageCount(string $path): int
-    {
-        $command = escapeshellarg($this->ghostscriptPath())
-            . ' -q -dNOSAFER -dNODISPLAY -c '
-            . escapeshellarg('(' . str_replace('\\', '/', $path) . ') (r) file runpdfbegin pdfpagecount = quit');
-
-        exec($command, $output, $exitCode);
-        return $exitCode === 0 ? max(1, (int)($output[0] ?? 1)) : 1;
-    }
-
-    private function keepContentPages(string $path): void
-    {
-        $pageCount = $this->pageCount($path);
-        $contentPages = $this->contentPages($path, $pageCount);
-
-        if (count($contentPages) === 0 || count($contentPages) === $pageCount) {
-            return;
-        }
-
-        $pageFiles = [];
-        foreach ($contentPages as $page) {
-            $pagePath = $path . '.page-' . $page . '.pdf';
-            $command = escapeshellarg($this->ghostscriptPath())
-                . ' -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dFirstPage=' . $page
-                . ' -dLastPage=' . $page
-                . ' -sOutputFile=' . escapeshellarg($pagePath)
-                . ' ' . escapeshellarg($path);
-            exec($command, $output, $exitCode);
-            if ($exitCode === 0 && is_file($pagePath)) {
-                $pageFiles[] = $pagePath;
-            }
-        }
-
-        if (count($pageFiles) === 0) {
-            return;
-        }
-
-        $trimmedPath = $path . '.content.pdf';
-        $command = escapeshellarg($this->ghostscriptPath())
-            . ' -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=' . escapeshellarg($trimmedPath)
-            . ' ' . implode(' ', array_map('escapeshellarg', $pageFiles));
-
-        exec($command, $output, $exitCode);
-        if ($exitCode === 0 && is_file($trimmedPath)) {
-            copy($trimmedPath, $path);
-            unlink($trimmedPath);
-        }
-
-        foreach ($pageFiles as $pageFile) {
-            if (is_file($pageFile)) {
-                unlink($pageFile);
-            }
-        }
-    }
-
-    private function contentPages(string $path, int $pageCount): array
-    {
-        $pages = [];
-        for ($page = 1; $page <= $pageCount; $page++) {
-            $text = $this->pageText($path, $page);
-            $clean = preg_replace('/\\b(RSU|Sitem Canegrate|Documento:.*|Data:.*)\\b/u', '', $text);
-            if (trim((string)$clean) !== '') {
-                $pages[] = $page;
-            }
-        }
-
-        return $pages;
-    }
-
-    private function isBlankPage(string $path, int $page): bool
-    {
-        $text = $this->pageText($path, $page);
-        if (trim($text) === '') {
-            return true;
-        }
-
-        $bboxCommand = escapeshellarg($this->ghostscriptPath())
-            . ' -dBATCH -dNOPAUSE -q -sDEVICE=bbox -dFirstPage=' . $page . ' -dLastPage=' . $page
-            . ' ' . escapeshellarg($path) . ' 2>&1';
-
-        exec($bboxCommand, $output);
-        $bbox = implode("\n", $output);
-
-        return str_contains($bbox, '%%BoundingBox: 0 0 0 0');
-    }
-
-    private function pageText(string $path, int $page): string
-    {
-        $textPath = sys_get_temp_dir() . '/myrsu_page_text_' . bin2hex(random_bytes(6)) . '.txt';
-        $textCommand = escapeshellarg($this->ghostscriptPath())
-            . ' -dBATCH -dNOPAUSE -q -sDEVICE=txtwrite -dFirstPage=' . $page . ' -dLastPage=' . $page
-            . ' -sOutputFile=' . escapeshellarg($textPath)
-            . ' ' . escapeshellarg($path);
-
-        exec($textCommand);
-        $text = is_file($textPath) ? trim((string)file_get_contents($textPath)) : '';
-        if (is_file($textPath)) {
-            unlink($textPath);
-        }
-
-        return $text;
-    }
-
     private function deleteDirectory(string $path): void
     {
         foreach (glob($path . '/*') ?: [] as $file) {
             is_dir($file) ? $this->deleteDirectory($file) : unlink($file);
         }
 
-        rmdir($path);
+        if (is_dir($path)) {
+            rmdir($path);
+        }
     }
 }
