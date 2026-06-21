@@ -100,6 +100,32 @@ final class DocumentStorageService
         ];
     }
 
+    public function storePendingHtml(string $html, string $originalName, string $category): array
+    {
+        $this->assertCategory($category);
+        $originalStoredName = bin2hex(random_bytes(20)) . '.html';
+        $originalPath = $this->originalsPath . '/' . $originalStoredName;
+
+        if (file_put_contents($originalPath, $html) === false) {
+            throw new HttpException(500, 'Salvataggio comunicato fallito.');
+        }
+
+        $reserved = $this->reservePdf($originalName, $category);
+
+        return [
+            'original_name' => $originalName,
+            'original_stored_name' => $originalStoredName,
+            'original_mime_type' => 'text/html',
+            'original_size_bytes' => filesize($originalPath),
+            'original_checksum_sha256' => hash_file('sha256', $originalPath),
+            'category' => $category,
+            'pdf_public_path' => $reserved['path'],
+            'pdf_size_bytes' => 0,
+            'pdf_checksum_sha256' => str_repeat('0', 64),
+            'conversion_status' => 'pending',
+        ];
+    }
+
     public function pdfPath(string $publicPath): string
     {
         return $this->basePath . '/' . ltrim($publicPath, '/');
@@ -108,6 +134,11 @@ final class DocumentStorageService
     public function originalPath(string $storedName): string
     {
         return $this->originalsPath . '/' . basename($storedName);
+    }
+
+    public function converterAvailable(): bool
+    {
+        return $this->pdfConversion->available();
     }
 
     public function rewriteHtmlDocument(array $document, string $html, string $originalName): array
@@ -179,13 +210,8 @@ final class DocumentStorageService
 
     private function createPdf(string $originalPath, string $originalName, string $mimeType, string $category): array
     {
-        $categoryPath = $this->publicDocumentsPath . '/' . $category;
-        if (!is_dir($categoryPath)) {
-            mkdir($categoryPath, 0775, true);
-        }
-
-        $pdfName = $this->safePdfBaseName($originalName) . '-' . bin2hex(random_bytes(6)) . '.pdf';
-        $pdfPath = $categoryPath . '/' . $pdfName;
+        $reserved = $this->reservePdf($originalName, $category);
+        $pdfPath = $this->pdfPath($reserved['path']);
 
         if (is_file($pdfPath)) {
             unlink($pdfPath);
@@ -201,14 +227,28 @@ final class DocumentStorageService
             throw $exception;
         }
 
-        $publicPath = 'public/documents/' . $category . '/' . $pdfName;
         $checksum = hash_file('sha256', $pdfPath);
 
         return [
-            'path' => $publicPath,
+            'path' => $reserved['path'],
             'size' => filesize($pdfPath),
             'checksum' => $checksum,
             'status' => 'ready',
+        ];
+    }
+
+    private function reservePdf(string $originalName, string $category): array
+    {
+        $categoryPath = $this->publicDocumentsPath . '/' . $category;
+        if (!is_dir($categoryPath)) {
+            mkdir($categoryPath, 0775, true);
+        }
+
+        $pdfName = $this->safePdfBaseName($originalName) . '-' . bin2hex(random_bytes(6)) . '.pdf';
+
+        return [
+            'path' => 'public/documents/' . $category . '/' . $pdfName,
+            'name' => $pdfName,
         ];
     }
 

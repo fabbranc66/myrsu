@@ -62,6 +62,8 @@
             <span>Archivio</span>
             <div class="submenu">
               <a href="../documents.html">Documenti</a>
+              <a href="../comunicati-create.html">Comunicati</a>
+              <a id="pendingQueueLink" class="hidden" href="../pending-queue.html">Coda PDF</a>
             </div>
           </div>
         </nav>
@@ -77,6 +79,18 @@
           <span id="userRole" class="badge"></span>
         </header>
 
+        <section id="queuePanel" class="queue-panel hidden">
+          <div>
+            <p class="eyebrow">Coda PDF</p>
+            <h3 id="queueTitle">Nessuna operazione pendente</h3>
+            <p id="queueText">Nessun comunicato da processare.</p>
+          </div>
+          <div class="queue-actions">
+            <a href="../pending-queue.html">Apri coda</a>
+            <button id="queueProcessButton" type="button">Processa ora</button>
+          </div>
+        </section>
+
         <section class="cards">
           <article>
             <h3>Utenti</h3>
@@ -89,6 +103,10 @@
           <article>
             <h3>Documenti</h3>
             <p>Archivio PDF, verifica e anteprima.</p>
+          </article>
+          <article id="queueCard" class="hidden">
+            <h3>Coda PDF</h3>
+            <p id="queueCardText">Operazioni pendenti da processare in locale.</p>
           </article>
         </section>
       </section>

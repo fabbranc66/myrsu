@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Repositories;
 
 use PDO;
+use PDOException;
 
 final class TokenRepository
 {
@@ -14,11 +15,19 @@ final class TokenRepository
 
     public function create(int $userId, string $plainToken, ?string $deviceName = null): void
     {
-        $stmt = $this->pdo->prepare(
-            'INSERT INTO api_tokens (user_id, token_hash, device_name, created_at)
-             VALUES (?, ?, ?, NOW())'
-        );
-        $stmt->execute([$userId, hash('sha256', $plainToken), $deviceName]);
+        try {
+            $stmt = $this->pdo->prepare(
+                'INSERT INTO api_tokens (user_id, token_hash, device_name, created_at)
+                 VALUES (?, ?, ?, NOW())'
+            );
+            $stmt->execute([$userId, hash('sha256', $plainToken), $deviceName]);
+        } catch (PDOException) {
+            $stmt = $this->pdo->prepare(
+                'INSERT INTO api_tokens (user_id, token_hash, created_at)
+                 VALUES (?, ?, NOW())'
+            );
+            $stmt->execute([$userId, hash('sha256', $plainToken)]);
+        }
     }
 
     public function findValidByHash(string $hash): ?array

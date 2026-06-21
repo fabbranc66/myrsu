@@ -39,6 +39,58 @@ body {
   margin-bottom: 24px;
 }
 
+.queue-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 18px 20px;
+  border: 1px solid #d8e0ec;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.queue-panel h3 {
+  margin: 0 0 8px;
+}
+
+.queue-panel p {
+  margin: 0;
+  color: #64748b;
+}
+
+.queue-panel-alert {
+  background: #fff7ed;
+  border-color: #fdba74;
+}
+
+.queue-panel-ok {
+  background: #ecfdf5;
+  border-color: #86efac;
+}
+
+.queue-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.queue-actions a,
+.queue-actions button {
+  min-height: 36px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font: inherit;
+}
+
+.queue-actions a {
+  background: #fff;
+  color: #172033;
+  text-decoration: none;
+}
+
 .eyebrow {
   margin: 0 0 6px;
   color: #7c8aa5;

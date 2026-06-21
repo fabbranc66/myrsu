@@ -143,6 +143,9 @@ final class DocumentController
         $document = $this->findDocument((int)$params['id']);
         $user = $this->app->auth->requireUser($request);
         $this->authorizeDocumentAccess($request, $document, 'documents.download');
+        if ((string)$document['conversion_status'] === 'pending') {
+            throw new HttpException(409, 'Documento in elaborazione.');
+        }
         $path = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
 
         if (!is_file($path)) {
@@ -162,6 +165,9 @@ final class DocumentController
         $document = $this->findDocument((int)$params['id']);
         $user = $this->app->auth->requireUser($request);
         $this->authorizeDocumentAccess($request, $document, 'documents.download');
+        if ((string)$document['conversion_status'] === 'pending') {
+            throw new HttpException(409, 'Documento in elaborazione.');
+        }
         $path = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
 
         if (!is_file($path)) {

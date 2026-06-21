@@ -12,6 +12,16 @@ final class PdfConversionService
     {
     }
 
+    public function available(): bool
+    {
+        try {
+            $this->sofficePath();
+            return true;
+        } catch (HttpException) {
+            return false;
+        }
+    }
+
     public function convert(string $sourcePath, string $originalName, string $targetPath, string $mimeType): void
     {
         if ($mimeType === 'application/pdf') {

@@ -10,27 +10,36 @@ use chillerlan\QRCode\QROptions;
 
 final class DocumentVerificationPageService
 {
-    public function append(string $pdfPath, array $document, string $signature): void
+    public function append(string $pdfPath, array $document, string $signature, ?string $pdfChecksum = null): void
     {
         $tempDir = sys_get_temp_dir() . '/myrsu_verify_' . bin2hex(random_bytes(8));
         mkdir($tempDir, 0775, true);
 
         $url = $this->verifyUrl((int)$document['id'], $signature);
+        $basePdf = $tempDir . '/base.pdf';
         $htmlPath = $tempDir . '/verify.html';
         $pagePdf = $tempDir . '/verify.pdf';
         $mergedPdf = $tempDir . '/merged.pdf';
+        $finalHtmlPath = $tempDir . '/verify-final.html';
+        $finalPagePdf = $tempDir . '/verify-final.pdf';
+        $finalMergedPdf = $tempDir . '/merged-final.pdf';
 
         $qrPng = (new QRCode(new QROptions(['outputType' => QRCode::OUTPUT_IMAGE_PNG, 'scale' => 8])))->render($url);
+        copy($pdfPath, $basePdf);
 
-        file_put_contents($htmlPath, $this->html($document, $signature, $url, $qrPng));
+        file_put_contents($htmlPath, $this->html($document, $signature, $url, $qrPng, $pdfChecksum));
         $this->printHtml($htmlPath, $pagePdf);
-        $this->merge([$pdfPath, $pagePdf], $mergedPdf);
-        copy($mergedPdf, $pdfPath);
-        $this->addQrLink($pdfPath, $url, $tempDir);
+        $this->merge([$basePdf, $pagePdf], $mergedPdf);
+
+        $finalChecksum = $pdfChecksum ?? hash_file('sha256', $mergedPdf);
+        file_put_contents($finalHtmlPath, $this->html($document, $signature, $url, $qrPng, $finalChecksum));
+        $this->printHtml($finalHtmlPath, $finalPagePdf);
+        $this->merge([$basePdf, $finalPagePdf], $finalMergedPdf);
+        copy($finalMergedPdf, $pdfPath);
         $this->deleteDirectory($tempDir);
     }
 
-    private function html(array $document, string $signature, string $url, string $qrPng): string
+    private function html(array $document, string $signature, string $url, string $qrPng, ?string $pdfChecksum): string
     {
         $qrUrl = str_starts_with($qrPng, 'data:image/')
             ? $qrPng
@@ -39,14 +48,18 @@ final class DocumentVerificationPageService
         return '<!doctype html><html><head><meta charset="utf-8"><style>'
             . 'body{font-family:Arial,sans-serif;padding:34px;color:#111}.box{border:1px solid #111;padding:22px}'
             . 'h1{font-size:22px;margin:0 0 14px}.row{margin:8px 0}.label{font-weight:700}'
-            . 'a.qr{display:inline-block;margin-top:16px}.qr img{width:180px;height:180px}'
+            . 'a.verify-link{color:#084298;font-weight:700;text-decoration:underline}'
+            . '.qr{display:inline-block;margin-top:16px}.qr img{width:180px;height:180px}'
             . '</style></head><body><div class="box">'
             . '<h1>Verifica documento RSU</h1>'
             . $this->row('Documento', (string)$document['original_name'])
             . $this->row('ID documento', (string)$document['id'])
             . $this->row('Firma digitale', $signature)
-            . $this->row('Hash PDF', (string)$document['pdf_checksum_sha256'])
-            . $this->row('URL verifica', $url)
+            . $this->row('Hash PDF', $pdfChecksum ?? (string)$document['pdf_checksum_sha256'])
+            . $this->rowHtml(
+                'URL verifica',
+                '<a class="verify-link" href="' . $this->escape($url) . '">' . $this->escape($url) . '</a>'
+            )
             . '<a class="qr" href="' . $this->escape($url) . '"><img src="' . $this->escape($qrUrl) . '" alt="QR verifica"></a>'
             . '</div></body></html>';
     }
@@ -91,40 +104,6 @@ final class DocumentVerificationPageService
         }
     }
 
-    private function addQrLink(string $pdfPath, string $url, string $tempDir): void
-    {
-        $linkedPdf = $tempDir . '/linked.pdf';
-        $pdfmarkPath = $tempDir . '/qr-link.ps';
-        $page = $this->pageCount($pdfPath);
-        $escapedUrl = str_replace(['\\', '(', ')'], ['\\\\', '\\(', '\\)'], $url);
-
-        file_put_contents(
-            $pdfmarkPath,
-            '[ /Rect [55 360 310 615] /Border [0 0 0] /Page ' . $page
-            . ' /Action << /Subtype /URI /URI (' . $escapedUrl . ') >> /Subtype /Link /ANN pdfmark'
-        );
-
-        $command = escapeshellarg($this->ghostscriptPath())
-            . ' -dNOSAFER -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=' . escapeshellarg($linkedPdf)
-            . ' -c ' . escapeshellarg('(' . str_replace('\\', '/', $pdfmarkPath) . ') run')
-            . ' -f ' . escapeshellarg($pdfPath);
-
-        exec($command, $output, $exitCode);
-        if ($exitCode === 0 && is_file($linkedPdf)) {
-            copy($linkedPdf, $pdfPath);
-        }
-    }
-
-    private function pageCount(string $pdfPath): int
-    {
-        $command = escapeshellarg($this->ghostscriptPath())
-            . ' -q -dNOSAFER -dNODISPLAY -c '
-            . escapeshellarg('(' . str_replace('\\', '/', $pdfPath) . ') (r) file runpdfbegin pdfpagecount = quit');
-
-        exec($command, $output, $exitCode);
-        return $exitCode === 0 ? max(1, (int)($output[0] ?? 1)) : 1;
-    }
-
     private function verifyUrl(int $id, string $signature): string
     {
         $baseUrl = rtrim((string)(getenv('APP_URL') ?: 'http://localhost/myrsu'), '/');
@@ -134,6 +113,11 @@ final class DocumentVerificationPageService
     private function row(string $label, string $value): string
     {
         return '<div class="row"><span class="label">' . $this->escape($label) . ':</span> ' . $this->escape($value) . '</div>';
+    }
+
+    private function rowHtml(string $label, string $html): string
+    {
+        return '<div class="row"><span class="label">' . $this->escape($label) . ':</span> ' . $html . '</div>';
     }
 
     private function sofficePath(): string

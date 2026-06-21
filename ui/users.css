@@ -179,6 +179,26 @@ pre {
   padding: 12px;
 }
 
+.status-box {
+  margin: 16px 0;
+  padding: 12px 14px;
+  border: 1px solid #d8dee9;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.status-alert {
+  background: #fff7ed;
+  border-color: #fdba74;
+  color: #9a3412;
+}
+
+.status-ok {
+  background: #ecfdf5;
+  border-color: #86efac;
+  color: #166534;
+}
+
 .register-head {
   background: linear-gradient(135deg, #f8fbfd 0%, #eef4ff 100%);
   margin: -20px -20px 18px;

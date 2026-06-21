@@ -17,6 +17,19 @@ final class DocumentRepository
         return $this->pdo->query('SELECT * FROM documents ORDER BY id DESC')->fetchAll();
     }
 
+    public function pendingComunicati(): array
+    {
+        return $this->pdo
+            ->query(
+                "SELECT d.*, pe.protocol_number, pe.subject, pe.created_at AS protocol_created_at
+                 FROM documents d
+                 INNER JOIN protocol_entries pe ON pe.document_id = d.id AND pe.canceled_at IS NULL
+                 WHERE d.category = 'comunicati' AND d.conversion_status = 'pending'
+                 ORDER BY d.id ASC"
+            )
+            ->fetchAll();
+    }
+
     public function findById(int $id): ?array
     {
         $stmt = $this->pdo->prepare('SELECT * FROM documents WHERE id = ? LIMIT 1');
@@ -82,9 +95,24 @@ final class DocumentRepository
     public function updatePdfMetadata(int $id, int $size, string $checksum): ?array
     {
         $stmt = $this->pdo->prepare(
-            'UPDATE documents SET size_bytes = ?, checksum_sha256 = ?, pdf_size_bytes = ?, pdf_checksum_sha256 = ? WHERE id = ?'
+            "UPDATE documents
+             SET size_bytes = ?, checksum_sha256 = ?, pdf_size_bytes = ?, pdf_checksum_sha256 = ?, conversion_status = 'ready'
+             WHERE id = ?"
         );
         $stmt->execute([$size, $checksum, $size, $checksum, $id]);
+
+        return $this->findById($id);
+    }
+
+    public function completePendingComunicato(int $id, string $signature, int $size, string $checksum): ?array
+    {
+        $stmt = $this->pdo->prepare(
+            "UPDATE documents
+             SET signature = ?, signed_at = NOW(), size_bytes = ?, checksum_sha256 = ?, pdf_size_bytes = ?, pdf_checksum_sha256 = ?,
+                 conversion_status = 'ready'
+             WHERE id = ? AND category = 'comunicati'"
+        );
+        $stmt->execute([$signature, $size, $checksum, $size, $checksum, $id]);
 
         return $this->findById($id);
     }

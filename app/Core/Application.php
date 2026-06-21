@@ -20,6 +20,7 @@ use App\Services\DocumentVerificationPageService;
 use App\Services\DocumentVerificationMetadataService;
 use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
+use App\Services\PendingComunicatoQueueService;
 use App\Services\PdfConversionService;
 use App\Services\PdfWatermarkService;
 use Throwable;
@@ -48,7 +49,8 @@ final class Application
     public readonly DocumentVerificationPageService $documentVerificationPage;
     public readonly DocumentVerificationMetadataService $documentVerificationMetadata;
     public readonly DocumentStorageService $documentStorage;
-    public readonly HostingDocumentReceiveService $hostingDocumentReceive;
+    public HostingDocumentReceiveService $hostingDocumentReceive;
+    public readonly PendingComunicatoQueueService $pendingComunicatoQueue;
 
     public function __construct(private readonly string $basePath)
     {
@@ -68,6 +70,13 @@ final class Application
             new HostingDocumentUploadService($this->hostingConfig)
         );
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
+        $this->pendingComunicatoQueue = new PendingComunicatoQueueService(
+            $this->hostingConfig,
+            $this->documentStorage,
+            $this->documentSignature,
+            $this->documentVerificationPage,
+            $this->comunicatoPdf
+        );
     }
 
     public function bootDatabase(): void
@@ -89,6 +98,7 @@ final class Application
         $this->activityLogs = new ActivityLogRepository($pdo);
         $this->auth = new Auth($this->users, $this->tokens, $this->roles);
         $this->authService = new AuthService($this->users, $this->tokens, $this->activityLogs);
+        $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig, $this->documents);
         $this->databaseReady = true;
     }
 

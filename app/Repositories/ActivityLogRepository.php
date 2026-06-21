@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Repositories;
 
 use PDO;
+use Throwable;
 
 final class ActivityLogRepository
 {
@@ -14,15 +15,26 @@ final class ActivityLogRepository
 
     public function write(?int $userId, string $action, array $metadata = []): void
     {
-        $stmt = $this->pdo->prepare(
-            'INSERT INTO activity_logs (user_id, action, metadata_json, created_at)
-             VALUES (?, ?, ?, NOW())'
-        );
-        $stmt->execute([
-            $userId,
-            $action,
-            json_encode($metadata, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE),
-        ]);
+        try {
+            $stmt = $this->pdo->prepare(
+                'INSERT INTO activity_logs (user_id, action, metadata_json, created_at)
+                 VALUES (?, ?, ?, NOW())'
+            );
+            $stmt->execute([
+                $userId,
+                $action,
+                json_encode($metadata, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE),
+            ]);
+        } catch (Throwable) {
+            try {
+                $stmt = $this->pdo->prepare(
+                    'INSERT INTO activity_logs (user_id, action, created_at)
+                     VALUES (?, ?, NOW())'
+                );
+                $stmt->execute([$userId, $action]);
+            } catch (Throwable) {
+            }
+        }
     }
 
     public function allForUser(int $userId): array

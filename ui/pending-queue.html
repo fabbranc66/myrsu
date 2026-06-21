@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MyRSU Document Edit</title>
+  <title>MyRSU Coda PDF</title>
   <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="users.css">
 </head>
@@ -11,7 +11,7 @@
   <header class="app-header">
     <div>
       <p class="eyebrow">MyRSU</p>
-      <h1>Modifica documento</h1>
+      <h1>Coda PDF</h1>
     </div>
     <nav class="app-nav">
       <a href="app/index.html">Dashboard</a>
@@ -31,9 +31,9 @@
       <div class="menu-group active">
         <span>Archivio</span>
         <div class="submenu">
-          <a class="active" href="documents.html">Documenti</a>
+          <a href="documents.html">Documenti</a>
           <a href="comunicati-create.html">Comunicati</a>
-          <a href="pending-queue.html">Coda PDF</a>
+          <a class="active" href="pending-queue.html">Coda PDF</a>
         </div>
       </div>
     </nav>
@@ -42,24 +42,32 @@
   <main>
     <section class="panel">
       <header>
-        <h1>Document Edit</h1>
+        <h1>Operazioni pendenti</h1>
+        <div class="actions-cell">
+          <button id="refreshButton" type="button">Aggiorna</button>
+          <button id="processButton" type="button">Processa</button>
+        </div>
       </header>
-      <form id="editForm" class="grid">
-        <input name="original_name" readonly>
-        <input name="category" readonly>
-        <select name="visibility">
-          <option value="rsu">rsu</option>
-          <option value="members">members</option>
-          <option value="public">public</option>
-        </select>
-        <textarea name="title" id="titleField" class="hidden" placeholder="Oggetto" style="min-height:120px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
-        <textarea name="body" id="bodyField" class="hidden" placeholder="Contenuto" style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
-        <button type="submit">Salva</button>
-      </form>
+
+      <div id="alertBox" class="status-box"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Protocollo</th>
+            <th>Oggetto</th>
+            <th>Data</th>
+            <th>Stato</th>
+          </tr>
+        </thead>
+        <tbody id="queueTable"></tbody>
+      </table>
+
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="document-edit.js"></script>
+  <script src="pending-queue.js"></script>
 </body>
 </html>

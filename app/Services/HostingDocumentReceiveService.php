@@ -5,12 +5,14 @@ declare(strict_types=1);
 namespace App\Services;
 
 use App\Core\HttpException;
+use App\Repositories\DocumentRepository;
 
 final class HostingDocumentReceiveService
 {
     public function __construct(
         private readonly string $basePath,
-        private readonly array $config
+        private readonly array $config,
+        private readonly ?DocumentRepository $documents = null
     ) {
     }
 
@@ -44,6 +46,52 @@ final class HostingDocumentReceiveService
         $this->writeMetadata($metadata, $result['path'], $checksum);
 
         return $result;
+    }
+
+    public function receivePendingComunicato(array $file, int $documentId, string $checksum, string $signature): array
+    {
+        $this->assertEnabled();
+        $this->assertUpload($file);
+
+        if ($this->documents === null) {
+            throw new HttpException(500, 'Repository documenti non disponibile.');
+        }
+
+        $document = $this->documents->findById($documentId);
+        if ($document === null || (string)$document['category'] !== 'comunicati') {
+            throw new HttpException(404, 'Documento non trovato.');
+        }
+
+        $targetPath = $this->basePath . '/' . ltrim((string)$document['pdf_public_path'], '/');
+        $targetDir = dirname($targetPath);
+        if (!is_dir($targetDir)) {
+            mkdir($targetDir, 0775, true);
+        }
+
+        if (!move_uploaded_file((string)$file['tmp_name'], $targetPath)) {
+            throw new HttpException(500, 'Salvataggio hosting fallito.');
+        }
+
+        if (hash_file('sha256', $targetPath) !== $checksum) {
+            unlink($targetPath);
+            throw new HttpException(422, 'Checksum non valido.');
+        }
+
+        $updated = $this->documents->completePendingComunicato(
+            $documentId,
+            $signature,
+            filesize($targetPath),
+            $checksum
+        );
+
+        $this->writeMetadata([
+            'document_id' => (string)$documentId,
+            'original_name' => (string)$document['original_name'],
+            'signature' => $signature,
+            'signed_at' => (string)($updated['signed_at'] ?? ''),
+        ], (string)$document['pdf_public_path'], $checksum);
+
+        return $updated ?? [];
     }
 
     public function assertToken(?string $token): void
