@@ -245,7 +245,7 @@ body {
   width: min(620px, 92vw);
   max-height: 72vh;
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto minmax(0, 1fr) auto;
   overflow: hidden;
   border-radius: 14px;
   background: #fff;
@@ -266,6 +266,7 @@ body {
   width: min(980px, 96vw);
   height: 86vh;
   max-height: 86vh;
+  grid-template-rows: auto minmax(0, 1fr) auto;
 }
 
 .file-modal header {
@@ -316,6 +317,74 @@ body {
   padding: 18px 20px;
   white-space: pre-wrap;
   line-height: 1.65;
+}
+
+.comments-box {
+  display: grid;
+  gap: 10px;
+  border-top: 1px solid #e5e7eb;
+  max-height: 220px;
+  overflow: auto;
+  padding: 12px 20px;
+  background: #f8fafc;
+}
+
+.comments-box h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.comment-row {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.comment-row p {
+  margin: 6px 0;
+  white-space: pre-wrap;
+}
+
+.comment-reply {
+  border-left: 3px solid #1d4ed8;
+  margin-top: 8px;
+  padding-left: 10px;
+}
+
+.comment-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+}
+
+.comment-form textarea {
+  grid-column: 1 / -1;
+}
+
+.comment-form input,
+.comment-form textarea {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px;
+  font: inherit;
+}
+
+@media (max-width: 720px) {
+  .comment-form {
+    grid-template-columns: 1fr;
+  }
+
+  .comments-box {
+    max-height: 260px;
+  }
+}
+
+.bot-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
 }
 
 .dashboard-link-card {

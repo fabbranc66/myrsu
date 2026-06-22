@@ -42,6 +42,11 @@
             <input name="attachments[]" type="file" accept="video/*" capture="environment">
           </label>
         </div>
+        <input class="bot-field" name="website" autocomplete="off" tabindex="-1">
+        <input id="antibotA" name="antibot_a" type="hidden">
+        <input id="antibotB" name="antibot_b" type="hidden">
+        <input id="antibotErrors" name="antibot_errors" type="hidden" value="0">
+        <label id="antibotLabel">Controllo antibot<input name="antibot_answer" inputmode="numeric" required></label>
         <button type="submit">Invia segnalazione</button>
       </form>
 

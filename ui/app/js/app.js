@@ -291,6 +291,7 @@ document.addEventListener('click', (event) => {
   document.querySelector(`#comunicatoModalTitle${suffix}`).textContent = item?.title || '';
   document.querySelector(`#comunicatoModalBody${suffix}`).textContent = item?.body || '';
   modal.classList.remove('hidden');
+  loadComments(button.dataset.comunicato, `#comunicatoComments${suffix}`);
 });
 
 document.addEventListener('click', (event) => {
@@ -303,7 +304,94 @@ document.addEventListener('click', (event) => {
   document.querySelector(`#documentModalTitle${suffix}`).textContent = item?.title || '';
   frame.src = item?.url || '';
   modal.classList.remove('hidden');
+  loadComments(button.dataset.document, `#documentComments${suffix}`);
 });
+
+async function loadComments(documentId, targetSelector) {
+  const target = document.querySelector(targetSelector);
+  if (!target) return;
+  const response = await fetch(`${appRoot}/api/v1/documents/${documentId}/comments`);
+  const payload = await response.json();
+  target.innerHTML = commentsHtml(documentId, response.ok ? payload.data : []);
+}
+
+function commentsHtml(documentId, comments) {
+  const antibot = newAntiBot();
+  const rows = comments.length > 0
+    ? comments.map((comment) => {
+      const reply = comment.reply ? `<div class="comment-reply"><strong>Risposta RSU</strong><p>${escapeHtml(comment.reply)}</p></div>` : '';
+      return `<article class="comment-row"><p>${escapeHtml(comment.message)}</p>${reply}<small>${escapeHtml(comment.created_at || '')}</small></article>`;
+    }).join('')
+    : '<p class="muted">Nessun commento approvato.</p>';
+
+  return `<h3>Commenti</h3>${rows}<form class="comment-form" data-comment-form="${documentId}">
+    <textarea name="message" placeholder="Commento" rows="3" required></textarea>
+    <input name="contact" placeholder="Contatto opzionale" maxlength="255">
+    <input class="bot-field" name="website" autocomplete="off" tabindex="-1">
+    <input name="antibot_a" type="hidden" value="${antibot.a}">
+    <input name="antibot_b" type="hidden" value="${antibot.b}">
+    <input name="antibot_answer" inputmode="numeric" placeholder="Quanto fa ${antibot.a} + ${antibot.b}?" required>
+    <input name="antibot_errors" type="hidden" value="0">
+    <button type="submit">Invia commento</button>
+  </form>`;
+}
+
+function newAntiBot() {
+  return {
+    a: Math.floor(Math.random() * 8) + 2,
+    b: Math.floor(Math.random() * 8) + 2,
+  };
+}
+
+function resetCommentAntiBot(form) {
+  const antibot = newAntiBot();
+  form.antibot_a.value = String(antibot.a);
+  form.antibot_b.value = String(antibot.b);
+  form.antibot_answer.value = '';
+  form.antibot_answer.placeholder = `Quanto fa ${antibot.a} + ${antibot.b}?`;
+}
+
+document.addEventListener('submit', async (event) => {
+  const form = event.target.closest('[data-comment-form]');
+  if (!form) return;
+  event.preventDefault();
+  const headers = { 'Content-Type': 'application/json' };
+  const token = sessionStorage.getItem('token');
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const response = await fetch(`${appRoot}/api/v1/documents/${form.dataset.commentForm}/comments`, {
+    method: 'POST',
+    headers,
+    body: JSON.stringify(Object.fromEntries(new FormData(form).entries())),
+  });
+  const payload = await response.json();
+  showMessage(response.ok ? 'Commento inviato in moderazione' : payload.error?.message || 'Errore commento');
+  if (response.ok) {
+    form.reset();
+    form.antibot_errors.value = '0';
+    resetCommentAntiBot(form);
+    closeParentModal(form);
+    return;
+  }
+
+  if ((payload.error?.message || '').includes('antibot')) {
+    const errors = Number(form.antibot_errors.value || 0) + 1;
+    form.antibot_errors.value = String(errors);
+    if (errors >= 3) {
+      closeParentModal(form);
+      return;
+    }
+  }
+  resetCommentAntiBot(form);
+});
+
+function closeParentModal(element) {
+  const modal = element.closest('.document-modal');
+  if (modal) {
+    modal.classList.add('hidden');
+    const frame = modal.querySelector('iframe');
+    if (frame) frame.src = '';
+  }
+}
 
 ['Guest', 'User'].forEach((suffix) => {
   const closeButton = document.querySelector(`#closeComunicatoModal${suffix}`);

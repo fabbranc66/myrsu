@@ -6,6 +6,7 @@ namespace App\Core;
 
 use App\Repositories\ActivityLogRepository;
 use App\Repositories\DocumentRepository;
+use App\Repositories\DocumentCommentRepository;
 use App\Repositories\GdprConsentRepository;
 use App\Repositories\ProtocolRepository;
 use App\Repositories\ReportAttachmentRepository;
@@ -14,6 +15,7 @@ use App\Repositories\RolePermissionRepository;
 use App\Repositories\TokenRepository;
 use App\Repositories\UserRepository;
 use App\Services\AuthService;
+use App\Services\AntiBotService;
 use App\Services\ComunicatoPdfService;
 use App\Services\DocumentHeaderService;
 use App\Services\DocumentSignatureService;
@@ -44,12 +46,14 @@ final class Application
     public readonly TokenRepository $tokens;
     public readonly RolePermissionRepository $roles;
     public readonly DocumentRepository $documents;
+    public readonly DocumentCommentRepository $documentComments;
     public readonly GdprConsentRepository $gdprConsents;
     public readonly ProtocolRepository $protocols;
     public readonly ReportRepository $reports;
     public readonly ReportAttachmentRepository $reportAttachments;
     public readonly ActivityLogRepository $activityLogs;
     public readonly AuthService $authService;
+    public readonly AntiBotService $antiBot;
     public readonly ComunicatoPdfService $comunicatoPdf;
     public readonly ReportService $reportService;
     public readonly ReportAttachmentStorageService $reportAttachmentStorage;
@@ -69,6 +73,7 @@ final class Application
         $this->signingConfig = require $this->basePath . '/config/signing.php';
 
         $this->router = new Router();
+        $this->antiBot = new AntiBotService();
         $this->comunicatoPdf = new ComunicatoPdfService($this->basePath);
         $this->reportService = new ReportService();
         $this->reportAttachmentStorage = new ReportAttachmentStorageService($this->basePath);
@@ -106,6 +111,7 @@ final class Application
         $this->tokens = new TokenRepository($pdo);
         $this->roles = new RolePermissionRepository($pdo);
         $this->documents = new DocumentRepository($pdo);
+        $this->documentComments = new DocumentCommentRepository($pdo);
         $this->gdprConsents = new GdprConsentRepository($pdo);
         $this->protocols = new ProtocolRepository($pdo);
         $this->reports = new ReportRepository($pdo);

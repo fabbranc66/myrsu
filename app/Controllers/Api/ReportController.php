@@ -46,6 +46,7 @@ final class ReportController
     {
         $data = $request->all();
         Validator::required($data, ['subject', 'message']);
+        $this->app->antiBot->validate($data);
 
         $user = $this->app->auth->user($request);
         $trackingCode = $this->app->reportService->trackingCode();

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Moderazione Commenti</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Moderazione commenti</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a></div></div>
+      <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a href="reports.html">Segnalazioni</a><a href="reports-moderation.html">Moderazione segnalazioni</a><a class="active" href="comments-moderation.html">Moderazione commenti</a></div></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <header>
+        <div>
+          <h1>Moderazione commenti</h1>
+          <p class="muted">Commenti su comunicati e documenti pubblici.</p>
+        </div>
+        <select id="statusFilter">
+          <option value="pending">Da moderare</option>
+          <option value="approved">Approvati</option>
+          <option value="rejected">Respinti</option>
+          <option value="all">Tutti</option>
+        </select>
+      </header>
+
+      <table>
+        <thead><tr><th>Soggetto</th><th>Tipo</th><th>Commenti</th><th>Azioni</th></tr></thead>
+        <tbody id="commentsTable"></tbody>
+      </table>
+
+      <dialog id="commentModal">
+        <header>
+          <h2 id="commentModalTitle">Commenti</h2>
+          <button id="closeCommentModal" type="button">Chiudi</button>
+        </header>
+        <iframe id="commentDocumentPreview" title="Anteprima documento"></iframe>
+        <div id="commentModalList"></div>
+      </dialog>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js"></script>
+  <script src="comments-moderation.js"></script>
+  <script src="auth-menu.js"></script>
+</body>
+</html>

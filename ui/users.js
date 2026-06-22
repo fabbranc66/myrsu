@@ -12,6 +12,10 @@ const consentPanel = document.querySelector('#consentPanel');
 const consentsTable = document.querySelector('#consentsTable');
 const activityPanel = document.querySelector('#activityPanel');
 const activityTable = document.querySelector('#activityTable');
+const logObjectModal = document.querySelector('#logObjectModal');
+const logObjectTitle = document.querySelector('#logObjectTitle');
+const logObjectFrame = document.querySelector('#logObjectFrame');
+const closeLogObjectModal = document.querySelector('#closeLogObjectModal');
 const gdprBox = document.querySelector('#gdprBox');
 const jsonOutput = document.querySelector('#jsonOutput');
 
@@ -178,7 +182,7 @@ function activityRow(log) {
       <td>${log.actor_name || ''}</td>
       <td>${formatWhere(log)}</td>
       <td>${formatSection(log.metadata_json)}</td>
-      <td>${formatMetadata(log.metadata_json)}</td>
+      <td>${formatObjectLink(log.metadata_json)}${formatMetadata(log.metadata_json)}</td>
       <td>${log.created_at}</td>
     </tr>
   `;
@@ -193,25 +197,62 @@ function formatAction(log) {
     'users.delete': 'Utente eliminato',
     'roles.user_replaced': 'Ruolo cambiato',
     'gdpr.consent.recorded': 'GDPR consent recorded',
+    'comments.create': 'Commento inviato',
+    'comments.moderate': 'Commento moderato / risposta RSU',
+    'reports.create': 'Segnalazione inviata',
+    'reports.moderate': 'Segnalazione moderata',
+    'documents.preview': 'Documento visualizzato',
+    'documents.download': 'Documento scaricato',
+    'documents.upload': 'Documento caricato',
+    'documents.delete': 'Documento eliminato',
   };
 
   return actions[log.action] || log.action;
 }
 
 function formatWhere(log) {
-  const section = formatSection(log.metadata_json);
+  const section = rawSection(log.metadata_json);
   if (section !== 'registry') return '';
   return log.target_name || 'user';
+}
+
+function formatObjectLink(value) {
+  const data = parseMetadata(value);
+  if (!data) return '';
+
+  if (data.document_id) {
+    return `<button class="log-object-link" data-log-modal="document-view.html?id=${data.document_id}" data-log-title="Documento">apri documento</button> `;
+  }
+
+  if (data.report_id) {
+    return `<button class="log-object-link" data-log-modal="reports-moderation.html?status=all" data-log-title="Segnalazioni">apri segnalazioni</button> `;
+  }
+
+  if (data.comment_id) {
+    return `<button class="log-object-link" data-log-modal="comments-moderation.html?status=all" data-log-title="Commenti">apri commenti</button> `;
+  }
+
+  const userId = data.created_user_id || data.updated_user_id || data.target_user_id;
+  if (userId) {
+    return `<button class="log-object-link" data-log-modal="user-edit.html?id=${userId}" data-log-title="Utente">apri utente</button> `;
+  }
+
+  return '';
 }
 
 function formatMetadata(value) {
   if (!value) return '';
 
   try {
-    const data = JSON.parse(value);
+    const data = parseMetadata(value);
+    if (!data) return '';
 
     if (data.changes) {
       return formatChanges(data.changes);
+    }
+
+    if (data.section === 'comments') {
+      return formatCommentMetadata(data);
     }
 
     return Object.entries(data)
@@ -223,13 +264,48 @@ function formatMetadata(value) {
   }
 }
 
+function formatCommentMetadata(data) {
+  const parts = [];
+  if (data.comment_id) parts.push(`commento: ${data.comment_id}`);
+  if (data.document_id) parts.push(`documento: ${data.document_id}`);
+  if (data.status) parts.push(`stato: ${translateCommentStatus(data.status)}`);
+  if (data.reply_changed) parts.push('risposta RSU aggiornata');
+  if (data.reply) parts.push(`risposta: ${data.reply}`);
+  return parts.join(' | ');
+}
+
+function translateCommentStatus(status) {
+  return { pending: 'da moderare', approved: 'approvato', rejected: 'respinto' }[status] || status;
+}
+
 function formatSection(value) {
   if (!value) return '';
 
   try {
-    return JSON.parse(value).section || '';
+    const section = parseMetadata(value)?.section || '';
+    return { comments: 'commenti', reports: 'segnalazioni', documents: 'documenti', registry: 'anagrafica' }[section] || section;
   } catch {
     return '';
+  }
+}
+
+function rawSection(value) {
+  if (!value) return '';
+
+  try {
+    return parseMetadata(value)?.section || '';
+  } catch {
+    return '';
+  }
+}
+
+function parseMetadata(value) {
+  if (!value) return null;
+
+  try {
+    return JSON.parse(value);
+  } catch {
+    return null;
   }
 }
 
@@ -248,6 +324,19 @@ document.querySelector('#closeConsents').addEventListener('click', () => {
 
 document.querySelector('#closeActivity').addEventListener('click', () => {
   activityPanel.classList.add('hidden');
+});
+
+activityTable.addEventListener('click', (event) => {
+  const button = event.target.closest('[data-log-modal]');
+  if (!button) return;
+  logObjectTitle.textContent = button.dataset.logTitle || 'Oggetto log';
+  logObjectFrame.src = button.dataset.logModal;
+  logObjectModal.showModal();
+});
+
+closeLogObjectModal.addEventListener('click', () => {
+  logObjectFrame.src = '';
+  logObjectModal.close();
 });
 
 usersTable.addEventListener('change', async (event) => {
