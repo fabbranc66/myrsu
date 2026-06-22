@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Controllers\Api;
 
 use App\Core\Application;
+use App\Core\FileResponse;
 use App\Core\HttpException;
 use App\Core\Request;
 use App\Core\Response;
@@ -24,7 +25,12 @@ final class ReportController
             throw new HttpException(422, 'Stato non valido.');
         }
 
-        return Response::json(['data' => $this->app->reports->all($status)]);
+        $reports = array_map(function (array $report): array {
+            $report['attachments'] = $this->app->reportAttachments->forReport((int)$report['id']);
+            return $report;
+        }, $this->app->reports->all($status));
+
+        return Response::json(['data' => $reports]);
     }
 
     public function stats(Request $request): Response
@@ -51,13 +57,37 @@ final class ReportController
             'user_id' => $user['id'] ?? null,
             'origin' => $user === null ? 'anonymous' : 'member',
         ]);
+        $attachments = [];
+        foreach ($this->uploadedAttachments() as $file) {
+            $attachments[] = $this->app->reportAttachments->create(
+                (int)$report['id'],
+                $this->app->reportAttachmentStorage->store($file)
+            );
+        }
 
         $this->app->activityLogs->write($user['id'] ?? null, 'reports.create', [
             'section' => 'reports',
             'report_id' => $report['id'],
+            'attachments' => count($attachments),
         ]);
 
-        return Response::json(['data' => ['report' => $report]], 201);
+        return Response::json(['data' => ['report' => $report, 'attachments' => $attachments]], 201);
+    }
+
+    public function attachment(Request $request, array $params): FileResponse
+    {
+        $this->app->auth->requirePermission($request, 'reports.moderate');
+        $attachment = $this->app->reportAttachments->findById((int)$params['id']);
+        if ($attachment === null) {
+            throw new HttpException(404, 'Allegato non trovato.');
+        }
+
+        $path = $this->app->reportAttachmentStorage->path((string)$attachment['stored_name']);
+        if (!is_file($path)) {
+            throw new HttpException(404, 'File non trovato.');
+        }
+
+        return new FileResponse($path, (string)$attachment['original_name'], (string)$attachment['mime_type'], true);
     }
 
     public function moderate(Request $request, array $params): Response
@@ -101,6 +131,34 @@ final class ReportController
         }
 
         return $report;
+    }
+
+    private function uploadedAttachments(): array
+    {
+        $files = $_FILES['attachments'] ?? null;
+        if (!is_array($files) || !isset($files['name'])) {
+            return [];
+        }
+
+        if (!is_array($files['name'])) {
+            return [$files];
+        }
+
+        $normalized = [];
+        foreach ($files['name'] as $index => $name) {
+            if (($files['error'][$index] ?? UPLOAD_ERR_NO_FILE) === UPLOAD_ERR_NO_FILE) {
+                continue;
+            }
+            $normalized[] = [
+                'name' => $name,
+                'type' => $files['type'][$index] ?? '',
+                'tmp_name' => $files['tmp_name'][$index] ?? '',
+                'error' => $files['error'][$index] ?? UPLOAD_ERR_NO_FILE,
+                'size' => $files['size'][$index] ?? 0,
+            ];
+        }
+
+        return $normalized;
     }
 
     private function signDocument(array $document): array

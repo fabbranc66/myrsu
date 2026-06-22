@@ -34,7 +34,7 @@
       </header>
 
       <table>
-        <thead><tr><th>Codice</th><th>Oggetto</th><th>Origine</th><th>Stato</th><th>Protocollo</th><th>Azioni</th></tr></thead>
+        <thead><tr><th>Codice</th><th>Oggetto</th><th>Origine</th><th>Stato</th><th>Allegati</th><th>Protocollo</th><th>Azioni</th></tr></thead>
         <tbody id="reportsTable"></tbody>
       </table>
 
@@ -45,6 +45,15 @@
         </header>
         <p id="reportModalMeta" class="muted"></p>
         <pre id="reportModalMessage"></pre>
+        <div id="reportModalAttachments" class="attachment-list"></div>
+      </dialog>
+
+      <dialog id="attachmentModal">
+        <header>
+          <h2 id="attachmentModalTitle">Allegato</h2>
+          <button id="closeAttachmentModal" type="button">Chiudi</button>
+        </header>
+        <div id="attachmentModalBody"></div>
       </dialog>
 
       <pre id="message"></pre>

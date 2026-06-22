@@ -17,6 +17,19 @@ final class DocumentRepository
         return $this->pdo->query('SELECT * FROM documents ORDER BY id DESC')->fetchAll();
     }
 
+    public function publicReady(): array
+    {
+        return $this->pdo
+            ->query(
+                "SELECT id, original_name, original_stored_name, category, pdf_size_bytes, created_at
+                 FROM documents
+                 WHERE visibility = 'public' AND conversion_status = 'ready'
+                   AND category IN ('documenti', 'comunicati')
+                 ORDER BY category, created_at DESC, id DESC"
+            )
+            ->fetchAll();
+    }
+
     public function pendingComunicati(): array
     {
         return $this->pdo

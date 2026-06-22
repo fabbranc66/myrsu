@@ -19,16 +19,6 @@
         <nav class="app-nav public-nav">
           <a class="active" href="index.html">Home</a>
           <a href="../reports.html">Segnalazione anonima</a>
-          <div class="menu-group">
-            <span>Archivio</span>
-            <div class="submenu">
-              <a href="../documents.html">Documenti</a>
-              <a id="privateDocumentsLink" class="hidden" href="../private-documents.html">Privato</a>
-              <a href="../comunicati-create.html">Comunicati</a>
-              <a href="../reports.html">Segnalazioni</a>
-              <a href="../reports-moderation.html">Moderazione</a>
-            </div>
-          </div>
           <div class="login-menu">
             <button id="loginToggle" class="nav-button" type="button">Login</button>
             <div id="loginPanel" class="login-submenu hidden">
@@ -49,11 +39,45 @@
       <section class="public-home">
         <div>
           <p class="eyebrow">RSU</p>
-          <h2>Segnalazioni e documenti RSU</h2>
-          <p>Puoi inviare una segnalazione anonima senza effettuare l'accesso.</p>
-          <a class="public-cta" href="../reports.html">Invia segnalazione anonima</a>
+          <h2>Bacheca elettronica RSU</h2>
+          <p>Comunicati, documenti pubblici e canale riservato per segnalazioni anonime.</p>
+          <div class="quick-actions quick-actions-guest">
+            <a class="quick-link quick-link-primary" href="../reports.html"><span>✎</span><strong>Segnalazione anonima</strong></a>
+            <a class="quick-link" href="#publicBoardGuest"><span>📣</span><strong>Comunicati</strong></a>
+            <a class="quick-link" href="#publicBoardGuest"><span>📄</span><strong>Documenti</strong></a>
+          </div>
         </div>
       </section>
+
+      <section id="publicBoardGuest" class="content public-board">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Bacheca elettronica</p>
+            <h2>Documenti pubblici</h2>
+          </div>
+        </header>
+        <div id="publicBoardGuestContent" class="board-sections"></div>
+      </section>
+
+      <div id="comunicatoModalGuest" class="document-modal hidden">
+        <div class="document-modal-content text-modal">
+          <header>
+            <h2 id="comunicatoModalTitleGuest"></h2>
+            <button id="closeComunicatoModalGuest" type="button">×</button>
+          </header>
+          <div class="text-modal-body" id="comunicatoModalBodyGuest"></div>
+        </div>
+      </div>
+
+      <div id="documentModalGuest" class="document-modal hidden">
+        <div class="document-modal-content file-modal">
+          <header>
+            <h2 id="documentModalTitleGuest"></h2>
+            <button id="closeDocumentModalGuest" type="button">×</button>
+          </header>
+          <iframe id="documentModalFrameGuest" title="Anteprima documento"></iframe>
+        </div>
+      </div>
     </section>
 
     <section id="appView" class="shell hidden">
@@ -77,12 +101,13 @@
               <a href="../protocol.html">Registro</a>
             </div>
           </div>
-          <div class="menu-group">
+          <div id="archiveMenu" class="menu-group hidden">
             <span>Archivio</span>
             <div class="submenu">
               <a href="../documents.html">Documenti</a>
               <a href="../comunicati-create.html">Comunicati</a>
               <a href="../reports.html">Segnalazioni</a>
+              <a href="../reports-moderation.html">Moderazione</a>
               <a id="pendingQueueLink" class="hidden" href="../pending-queue.html">Coda PDF</a>
             </div>
           </div>
@@ -120,10 +145,6 @@
             <h3>Protocollo</h3>
             <p>Entrata, uscita e documenti collegati.</p>
           </article>
-          <article>
-            <h3>Documenti</h3>
-            <p>Archivio PDF, verifica e anteprima.</p>
-          </article>
           <article id="privateDocumentsCard" class="hidden">
             <h3>Archivio privato</h3>
             <p>Originali private e stato conversione.</p>
@@ -142,7 +163,43 @@
             <p id="queueCardText">Operazioni pendenti da processare in locale.</p>
           </article>
         </section>
+
+        <section class="quick-actions quick-actions-member">
+          <a class="quick-link quick-link-primary" href="../reports.html"><span>✎</span><strong>Nuova segnalazione</strong></a>
+          <a class="quick-link" href="#publicBoardUser"><span>📣</span><strong>Comunicati</strong></a>
+          <a class="quick-link" href="#publicBoardUser"><span>📄</span><strong>Documenti</strong></a>
+        </section>
+
+        <section id="publicBoardUser" class="public-board">
+          <header class="topbar">
+            <div>
+              <p class="eyebrow">Bacheca elettronica</p>
+              <h2>Documenti pubblici</h2>
+            </div>
+          </header>
+          <div id="publicBoardUserContent" class="board-sections"></div>
+        </section>
       </section>
+
+      <div id="comunicatoModalUser" class="document-modal hidden">
+        <div class="document-modal-content text-modal">
+          <header>
+            <h2 id="comunicatoModalTitleUser"></h2>
+            <button id="closeComunicatoModalUser" type="button">×</button>
+          </header>
+          <div class="text-modal-body" id="comunicatoModalBodyUser"></div>
+        </div>
+      </div>
+
+      <div id="documentModalUser" class="document-modal hidden">
+        <div class="document-modal-content file-modal">
+          <header>
+            <h2 id="documentModalTitleUser"></h2>
+            <button id="closeDocumentModalUser" type="button">×</button>
+          </header>
+          <iframe id="documentModalFrameUser" title="Anteprima documento"></iframe>
+        </div>
+      </div>
     </section>
 
     <pre id="message" class="message"></pre>

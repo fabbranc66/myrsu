@@ -17,11 +17,10 @@ async function api(path, options = {}) {
 
 reportForm.addEventListener('submit', async (event) => {
   event.preventDefault();
-  const data = Object.fromEntries(new FormData(reportForm).entries());
+  message.textContent = '';
   const result = await api('/reports', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
+    body: new FormData(reportForm),
   });
   message.textContent = `Segnalazione inviata: ${result.report.tracking_code}`;
   reportForm.reset();

@@ -13,14 +13,86 @@ const queueText = document.querySelector('#queueText');
 const queueCardText = document.querySelector('#queueCardText');
 const queueProcessButton = document.querySelector('#queueProcessButton');
 const queueCard = document.querySelector('#queueCard');
+const archiveMenu = document.querySelector('#archiveMenu');
 const pendingQueueLink = document.querySelector('#pendingQueueLink');
 const reportsCard = document.querySelector('#reportsCard');
 const reportsPendingCount = document.querySelector('#reportsPendingCount');
 const privateDocumentsLink = document.querySelector('#privateDocumentsLink');
 const privateDocumentsCard = document.querySelector('#privateDocumentsCard');
+const publicBoardGuest = document.querySelector('#publicBoardGuestContent');
+const publicBoardUser = document.querySelector('#publicBoardUserContent');
+const appRoot = window.location.pathname.split('/ui/')[0];
+const publicComunicati = new Map();
+const publicDocuments = new Map();
 
 function showMessage(text = '') {
   message.textContent = text;
+}
+
+async function loadPublicBoard(target) {
+  if (!target) return;
+  const response = await fetch(`${appRoot}/api/v1/public/documents`);
+  const payload = await response.json();
+  if (!response.ok) throw new Error(payload.error?.message || 'Errore bacheca');
+  target.innerHTML = publicBoardHtml(payload.data.sections || {});
+}
+
+function publicBoardHtml(sections) {
+  return ['comunicati', 'documenti']
+    .map((category) => {
+      const rows = sections[category] || [];
+      const content = rows.length > 0
+        ? rows.map(publicDocumentRow).join('')
+        : '<p class="muted">Nessun contenuto pubblicato.</p>';
+      return `<article class="board-card"><div class="board-card-head"><span>${categoryIcon(category)}</span><h3>${categoryLabel(category)}</h3></div>${content}</article>`;
+    })
+    .join('');
+}
+
+function publicDocumentRow(document) {
+  if (document.category === 'comunicati') {
+    const title = document.comunicato?.title || document.original_name;
+    const body = document.comunicato?.body || '';
+    publicComunicati.set(String(document.id), { title, body });
+    return `<button class="board-document board-comunicato" type="button" data-comunicato="${document.id}">
+      <strong>${escapeHtml(title)}</strong>
+      <span>${escapeHtml(truncateText(body, 100))}</span>
+      <small>${escapeHtml(document.created_at || '')}</small>
+    </button>`;
+  }
+
+  publicDocuments.set(String(document.id), {
+    title: document.original_name,
+    url: `${appRoot}/api/v1/documents/${document.id}/preview`,
+  });
+
+  return `<button class="board-document board-file" type="button" data-document="${document.id}">
+    <strong>${escapeHtml(document.original_name)}</strong>
+    <img class="board-file-preview" src="${appRoot}/api/v1/documents/${document.id}/thumbnail" alt="Anteprima ${escapeHtml(document.original_name)}">
+    <small>${escapeHtml(document.created_at || '')}</small>
+  </button>`;
+}
+
+function truncateText(text, limit) {
+  const value = String(text || '').replace(/\s+/g, ' ').trim();
+  return value.length > limit ? `${value.slice(0, limit)}...` : value;
+}
+
+function escapeHtml(value) {
+  return String(value || '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
+}
+
+function categoryLabel(category) {
+  return { comunicati: 'Comunicati', documenti: 'Documenti' }[category] || category;
+}
+
+function categoryIcon(category) {
+  return { comunicati: '📣', documenti: '📄' }[category] || '📌';
 }
 
 function setView(authenticated) {
@@ -76,9 +148,14 @@ function isAdmin(user) {
   return roles.includes('admin');
 }
 
+function canAccessArchive(user) {
+  const roles = Array.isArray(user.roles) ? user.roles : [];
+  return roles.includes('admin') || roles.includes('delegato');
+}
+
 function canModerateReports(user) {
   const roles = Array.isArray(user.roles) ? user.roles : [];
-  return roles.includes('admin') || roles.includes('delegato') || roles.includes('rls');
+  return roles.includes('admin') || roles.includes('delegato');
 }
 
 async function loadReportStats() {
@@ -110,6 +187,12 @@ function toggleAdminQueue(enabled) {
   }
 }
 
+function toggleArchiveMenu(enabled) {
+  if (archiveMenu) {
+    archiveMenu.classList.toggle('hidden', !enabled);
+  }
+}
+
 function toggleReportsBadge(enabled) {
   if (reportsCard) {
     reportsCard.classList.toggle('hidden', !enabled);
@@ -119,12 +202,14 @@ function toggleReportsBadge(enabled) {
 async function boot() {
   if (!sessionStorage.getItem('token')) {
     setView(false);
+    await loadPublicBoard(publicBoardGuest);
     return;
   }
 
   try {
     const me = await MyRsuAuth.me();
     renderUser(me);
+    toggleArchiveMenu(canAccessArchive(me));
     toggleAdminQueue(isAdmin(me));
     toggleReportsBadge(canModerateReports(me));
     if (isAdmin(me)) {
@@ -133,6 +218,7 @@ async function boot() {
     if (canModerateReports(me)) {
       await loadReportStats();
     }
+    await loadPublicBoard(publicBoardUser);
     setView(true);
   } catch (error) {
     sessionStorage.removeItem('token');
@@ -149,6 +235,7 @@ if (loginForm) loginForm.addEventListener('submit', async (event) => {
     await MyRsuAuth.login(String(form.get('email')), String(form.get('password')));
     const me = await MyRsuAuth.me();
     renderUser(me);
+    toggleArchiveMenu(canAccessArchive(me));
     toggleAdminQueue(isAdmin(me));
     toggleReportsBadge(canModerateReports(me));
     if (isAdmin(me)) {
@@ -157,6 +244,7 @@ if (loginForm) loginForm.addEventListener('submit', async (event) => {
     if (canModerateReports(me)) {
       await loadReportStats();
     }
+    await loadPublicBoard(publicBoardUser);
     setView(true);
   } catch (error) {
     showMessage(error.message);
@@ -193,5 +281,53 @@ if (queueProcessButton) {
     }
   });
 }
+
+document.addEventListener('click', (event) => {
+  const button = event.target.closest('[data-comunicato]');
+  if (!button) return;
+  const item = publicComunicati.get(String(button.dataset.comunicato));
+  const suffix = appView.classList.contains('hidden') ? 'Guest' : 'User';
+  const modal = document.querySelector(`#comunicatoModal${suffix}`);
+  document.querySelector(`#comunicatoModalTitle${suffix}`).textContent = item?.title || '';
+  document.querySelector(`#comunicatoModalBody${suffix}`).textContent = item?.body || '';
+  modal.classList.remove('hidden');
+});
+
+document.addEventListener('click', (event) => {
+  const button = event.target.closest('[data-document]');
+  if (!button) return;
+  const item = publicDocuments.get(String(button.dataset.document));
+  const suffix = appView.classList.contains('hidden') ? 'Guest' : 'User';
+  const modal = document.querySelector(`#documentModal${suffix}`);
+  const frame = document.querySelector(`#documentModalFrame${suffix}`);
+  document.querySelector(`#documentModalTitle${suffix}`).textContent = item?.title || '';
+  frame.src = item?.url || '';
+  modal.classList.remove('hidden');
+});
+
+['Guest', 'User'].forEach((suffix) => {
+  const closeButton = document.querySelector(`#closeComunicatoModal${suffix}`);
+  const modal = document.querySelector(`#comunicatoModal${suffix}`);
+  if (closeButton && modal) closeButton.addEventListener('click', () => modal.classList.add('hidden'));
+  if (modal) modal.addEventListener('click', (event) => {
+    if (event.target === modal) modal.classList.add('hidden');
+  });
+});
+
+['Guest', 'User'].forEach((suffix) => {
+  const closeButton = document.querySelector(`#closeDocumentModal${suffix}`);
+  const modal = document.querySelector(`#documentModal${suffix}`);
+  const frame = document.querySelector(`#documentModalFrame${suffix}`);
+  if (closeButton && modal) closeButton.addEventListener('click', () => {
+    modal.classList.add('hidden');
+    if (frame) frame.src = '';
+  });
+  if (modal) modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      modal.classList.add('hidden');
+      if (frame) frame.src = '';
+    }
+  });
+});
 
 boot();

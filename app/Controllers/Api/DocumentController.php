@@ -19,9 +19,24 @@ final class DocumentController
 
     public function index(Request $request): Response
     {
-        $this->app->auth->requirePermission($request, 'documents.view');
+        $this->requireDocumentViewer($request);
 
         return Response::json(['data' => $this->app->documents->all()]);
+    }
+
+    public function publicIndex(Request $request): Response
+    {
+        $sections = [];
+        foreach ($this->app->documents->publicReady() as $document) {
+            if ((string)$document['category'] === 'comunicati') {
+                $html = @file_get_contents($this->app->documentStorage->originalPath((string)$document['original_stored_name'])) ?: '';
+                $document['comunicato'] = $this->app->comunicatoPdf->parse($html);
+            }
+            unset($document['original_stored_name']);
+            $sections[(string)$document['category']][] = $document;
+        }
+
+        return Response::json(['data' => ['sections' => $sections]]);
     }
 
     public function privateIndex(Request $request): Response
@@ -53,6 +68,9 @@ final class DocumentController
         $document = $this->findDocument((int)$params['id']);
         $this->authorizeDocumentAccess($request, $document, 'documents.update');
         $visibility = (string)($data['visibility'] ?? $document['visibility']);
+        if (!in_array((string)$document['category'], ['documenti', 'comunicati'], true)) {
+            $visibility = 'rsu';
+        }
 
         if (!in_array($visibility, ['public', 'members', 'rsu'], true)) {
             throw new HttpException(422, 'Visibility non valida.');
@@ -116,6 +134,9 @@ final class DocumentController
         $user = $this->app->auth->requirePermission($request, 'documents.upload');
         $visibility = (string)($_POST['visibility'] ?? 'rsu');
         $category = (string)($_POST['category'] ?? 'documenti');
+        if (!in_array($category, ['documenti', 'comunicati'], true)) {
+            $visibility = 'rsu';
+        }
 
         if (!in_array($visibility, ['public', 'members', 'rsu'], true)) {
             throw new HttpException(422, 'Visibility non valida.');
@@ -173,8 +194,7 @@ final class DocumentController
     public function preview(Request $request, array $params): FileResponse
     {
         $document = $this->findDocument((int)$params['id']);
-        $user = $this->app->auth->requireUser($request);
-        $this->authorizeDocumentAccess($request, $document, 'documents.download');
+        $user = $this->authorizePublicOrDownload($request, $document);
         if ((string)$document['conversion_status'] === 'pending') {
             throw new HttpException(409, 'Documento in elaborazione.');
         }
@@ -184,12 +204,28 @@ final class DocumentController
             throw new HttpException(404, 'File non trovato.');
         }
 
-        $this->app->activityLogs->write((int)$user['id'], 'documents.preview', [
-            'section' => 'documents',
-            'document_id' => $document['id'],
-        ]);
+        if ($user !== null) {
+            $this->app->activityLogs->write((int)$user['id'], 'documents.preview', [
+                'section' => 'documents',
+                'document_id' => $document['id'],
+            ]);
+        }
 
         return new FileResponse($path, pathinfo((string)$document['original_name'], PATHINFO_FILENAME) . '.pdf', 'application/pdf', true);
+    }
+
+    public function thumbnail(Request $request, array $params): FileResponse
+    {
+        $document = $this->findDocument((int)$params['id']);
+        $this->authorizePublicOrDownload($request, $document);
+        if ((string)$document['conversion_status'] === 'pending') {
+            throw new HttpException(409, 'Documento in elaborazione.');
+        }
+
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        $thumbnailPath = $this->app->documentThumbnail->firstPage($document, $pdfPath);
+
+        return new FileResponse($thumbnailPath, 'document-' . (int)$document['id'] . '.png', 'image/png', true);
     }
 
     public function privatePreview(Request $request, array $params): FileResponse
@@ -261,6 +297,11 @@ final class DocumentController
             return;
         }
 
+        $roles = $this->app->roles->rolesForUser((int)$user['id']);
+        if (in_array($permission, ['documents.view', 'documents.download'], true) && array_intersect($roles, ['admin', 'delegato'])) {
+            return;
+        }
+
         if (
             (string)$document['category'] === 'comunicati'
             && (int)$document['uploaded_by'] === (int)$user['id']
@@ -269,5 +310,28 @@ final class DocumentController
         }
 
         throw new HttpException(403, 'Permesso insufficiente.');
+    }
+
+    private function authorizePublicOrDownload(Request $request, array $document): ?array
+    {
+        $user = $this->app->auth->user($request);
+        $isPublicBoardDocument = (string)$document['visibility'] === 'public'
+            && in_array((string)$document['category'], ['documenti', 'comunicati'], true);
+        if (!$isPublicBoardDocument) {
+            $this->authorizeDocumentAccess($request, $document, 'documents.download');
+        }
+
+        return $user;
+    }
+
+    private function requireDocumentViewer(Request $request): array
+    {
+        $user = $this->app->auth->requireUser($request);
+        $roles = $this->app->roles->rolesForUser((int)$user['id']);
+        if (!$this->app->roles->userHasPermission((int)$user['id'], 'documents.view') && !array_intersect($roles, ['admin', 'delegato'])) {
+            throw new HttpException(403, 'Permesso insufficiente.');
+        }
+
+        return $user;
     }
 }

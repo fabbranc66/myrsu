@@ -62,18 +62,20 @@ $app->router->get('/api/v1/users/{id}/gdpr/consents', [$gdpr, 'userIndex']);
 $app->router->get('/api/v1/users/{id}/activity', [$activity, 'userIndex']);
 
 $app->router->get('/api/v1/documents', [$documents, 'index']);
+$app->router->get('/api/v1/public/documents', [$documents, 'publicIndex']);
 $app->router->get('/api/v1/documents/private', [$documents, 'privateIndex']);
 $app->router->post('/api/v1/documents', [$documents, 'store']);
 $app->router->post('/api/v1/comunicati', [$comunicati, 'store']);
-$app->router->get('/api/v1/documents/{id}', [$documents, 'show']);
-$app->router->patch('/api/v1/documents/{id}', [$documents, 'update']);
+$app->router->get('/api/v1/documents/{id}/thumbnail', [$documents, 'thumbnail']);
 $app->router->get('/api/v1/documents/{id}/preview', [$documents, 'preview']);
 $app->router->get('/api/v1/documents/{id}/download', [$documents, 'download']);
 $app->router->get('/api/v1/documents/{id}/private-preview', [$documents, 'privatePreview']);
 $app->router->get('/api/v1/documents/{id}/private-download', [$documents, 'privateDownload']);
-$app->router->delete('/api/v1/documents/{id}', [$documents, 'destroy']);
 $app->router->get('/api/v1/documents/{id}/verify', [$documentVerification, 'show']);
 $app->router->post('/api/v1/documents/{id}/verify-file', [$documentVerification, 'file']);
+$app->router->get('/api/v1/documents/{id}', [$documents, 'show']);
+$app->router->patch('/api/v1/documents/{id}', [$documents, 'update']);
+$app->router->delete('/api/v1/documents/{id}', [$documents, 'destroy']);
 $app->router->post('/api/v1/hosting/documents', [$hostingDocuments, 'store']);
 $app->router->get('/api/v1/hosting/comunicati/pending', [$hostingDocuments, 'pendingComunicati']);
 $app->router->get('/api/v1/hosting/comunicati/{id}', [$hostingDocuments, 'showPendingComunicato']);
@@ -84,6 +86,7 @@ $app->router->post('/api/v1/local/comunicati/process', [$pendingQueue, 'process'
 $app->router->get('/api/v1/reports', [$reports, 'index']);
 $app->router->get('/api/v1/reports/stats', [$reports, 'stats']);
 $app->router->post('/api/v1/reports', [$reports, 'store']);
+$app->router->get('/api/v1/reports/attachments/{id}/preview', [$reports, 'attachment']);
 $app->router->patch('/api/v1/reports/{id}/moderation', [$reports, 'moderate']);
 
 $app->router->get('/api/v1/protocol', [$protocol, 'index']);

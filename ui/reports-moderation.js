@@ -8,9 +8,15 @@ const reportModal = document.querySelector('#reportModal');
 const reportModalTitle = document.querySelector('#reportModalTitle');
 const reportModalMeta = document.querySelector('#reportModalMeta');
 const reportModalMessage = document.querySelector('#reportModalMessage');
+const reportModalAttachments = document.querySelector('#reportModalAttachments');
 const closeReportModal = document.querySelector('#closeReportModal');
+const attachmentModal = document.querySelector('#attachmentModal');
+const attachmentModalTitle = document.querySelector('#attachmentModalTitle');
+const attachmentModalBody = document.querySelector('#attachmentModalBody');
+const closeAttachmentModal = document.querySelector('#closeAttachmentModal');
 const initialStatus = new URLSearchParams(window.location.search).get('status');
 let reports = [];
+const attachmentMap = new Map();
 
 if (!token) window.location.href = 'app/index.html';
 if (initialStatus) statusFilter.value = initialStatus;
@@ -37,6 +43,7 @@ function row(report) {
     <td>${report.subject}</td>
     <td>${report.origin === 'member' ? (report.author_name || 'membro') : 'anonima'}</td>
     <td>${translateStatus(report.status)}</td>
+    <td>${attachmentBadge(report.attachments || [])}</td>
     <td>${report.protocol_number || '-'}</td>
     <td class="actions-cell">
       <button class="icon-action" data-approve="${report.id}" title="Approva">${MyRsuIcons.get('active')}</button>
@@ -45,6 +52,11 @@ function row(report) {
       ${report.document_id ? `<a class="icon-action" href="document-view.html?id=${report.document_id}" title="Documento">${MyRsuIcons.get('download')}</a>` : ''}
     </td>
   </tr>`;
+}
+
+function attachmentBadge(attachments) {
+  const count = attachments.length;
+  return count > 0 ? `<span class="doc-origin-tag converted">${count} allegati</span>` : '-';
 }
 
 function translateStatus(status) {
@@ -75,11 +87,63 @@ function showReport(id) {
   reportModalTitle.textContent = report.subject;
   reportModalMeta.textContent = `${report.tracking_code} - ${translateStatus(report.status)}`;
   reportModalMessage.textContent = report.message;
+  reportModalAttachments.innerHTML = attachmentsHtml(report.attachments || []);
   reportModal.showModal();
+}
+
+function attachmentsHtml(attachments) {
+  if (attachments.length === 0) {
+    return '<p class="muted">Nessun allegato.</p>';
+  }
+
+  return `<h3>Allegati privati (${attachments.length})</h3>${attachments.map((attachment) => {
+    const url = `${apiBase}/reports/attachments/${attachment.id}/preview?token=${encodeURIComponent(token)}`;
+    attachmentMap.set(String(attachment.id), { ...attachment, url });
+    if (String(attachment.mime_type).startsWith('image/')) {
+      return `<button class="attachment-preview" type="button" data-attachment="${attachment.id}">
+        <img src="${url}" alt="${escapeHtml(attachment.original_name)}">
+        <span>${escapeHtml(attachment.original_name)}</span>
+      </button>`;
+    }
+
+    return `<button class="attachment-preview attachment-video" type="button" data-attachment="${attachment.id}">
+      <span class="video-placeholder">▶</span>
+      <span>${escapeHtml(attachment.original_name)}</span>
+    </button>`;
+  }).join('')}`;
+}
+
+function showAttachment(id) {
+  const attachment = attachmentMap.get(String(id));
+  if (!attachment) return;
+  attachmentModalTitle.textContent = attachment.original_name;
+  attachmentModalBody.innerHTML = String(attachment.mime_type).startsWith('image/')
+    ? `<img class="attachment-modal-media" src="${attachment.url}" alt="${escapeHtml(attachment.original_name)}">`
+    : `<video class="attachment-modal-media" src="${attachment.url}" controls></video>`;
+  attachmentModal.showModal();
+}
+
+function escapeHtml(value) {
+  return String(value || '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
 }
 
 closeReportModal.addEventListener('click', () => {
   reportModal.close();
+});
+
+reportModalAttachments.addEventListener('click', (event) => {
+  const button = event.target.closest('[data-attachment]');
+  if (button) showAttachment(button.dataset.attachment);
+});
+
+closeAttachmentModal.addEventListener('click', () => {
+  attachmentModal.close();
+  attachmentModalBody.innerHTML = '';
 });
 
 statusFilter.addEventListener('change', loadReports);

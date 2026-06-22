@@ -24,6 +24,14 @@
       <textarea name="body" placeholder="Testo comunicato" required style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;"></textarea>
       <button type="submit">Genera PDF</button>
     </form>
+
+    <div id="uploadProgress" class="upload-progress hidden">
+      <div class="upload-progress-bar">
+        <div id="uploadProgressFill" class="upload-progress-fill"></div>
+      </div>
+      <div id="uploadProgressText" class="upload-progress-text">0%</div>
+    </div>
+
     <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
   </section></main>
   <script src="comunicati-create.js"></script>

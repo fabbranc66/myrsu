@@ -8,6 +8,7 @@ use App\Repositories\ActivityLogRepository;
 use App\Repositories\DocumentRepository;
 use App\Repositories\GdprConsentRepository;
 use App\Repositories\ProtocolRepository;
+use App\Repositories\ReportAttachmentRepository;
 use App\Repositories\ReportRepository;
 use App\Repositories\RolePermissionRepository;
 use App\Repositories\TokenRepository;
@@ -17,6 +18,7 @@ use App\Services\ComunicatoPdfService;
 use App\Services\DocumentHeaderService;
 use App\Services\DocumentSignatureService;
 use App\Services\DocumentStorageService;
+use App\Services\DocumentThumbnailService;
 use App\Services\DocumentVerificationPageService;
 use App\Services\DocumentVerificationMetadataService;
 use App\Services\HostingDocumentReceiveService;
@@ -25,6 +27,7 @@ use App\Services\PendingComunicatoQueueService;
 use App\Services\PdfConversionService;
 use App\Services\PdfWatermarkService;
 use App\Services\ReportService;
+use App\Services\ReportAttachmentStorageService;
 use Throwable;
 
 final class Application
@@ -44,12 +47,15 @@ final class Application
     public readonly GdprConsentRepository $gdprConsents;
     public readonly ProtocolRepository $protocols;
     public readonly ReportRepository $reports;
+    public readonly ReportAttachmentRepository $reportAttachments;
     public readonly ActivityLogRepository $activityLogs;
     public readonly AuthService $authService;
     public readonly ComunicatoPdfService $comunicatoPdf;
     public readonly ReportService $reportService;
+    public readonly ReportAttachmentStorageService $reportAttachmentStorage;
     public readonly DocumentHeaderService $documentHeader;
     public readonly DocumentSignatureService $documentSignature;
+    public readonly DocumentThumbnailService $documentThumbnail;
     public readonly DocumentVerificationPageService $documentVerificationPage;
     public readonly DocumentVerificationMetadataService $documentVerificationMetadata;
     public readonly DocumentStorageService $documentStorage;
@@ -65,8 +71,10 @@ final class Application
         $this->router = new Router();
         $this->comunicatoPdf = new ComunicatoPdfService($this->basePath);
         $this->reportService = new ReportService();
+        $this->reportAttachmentStorage = new ReportAttachmentStorageService($this->basePath);
         $this->documentHeader = new DocumentHeaderService();
         $this->documentSignature = new DocumentSignatureService($this->signingConfig);
+        $this->documentThumbnail = new DocumentThumbnailService($this->basePath);
         $this->documentVerificationPage = new DocumentVerificationPageService();
         $this->documentVerificationMetadata = new DocumentVerificationMetadataService($this->basePath);
         $this->documentStorage = new DocumentStorageService(
@@ -101,6 +109,7 @@ final class Application
         $this->gdprConsents = new GdprConsentRepository($pdo);
         $this->protocols = new ProtocolRepository($pdo);
         $this->reports = new ReportRepository($pdo);
+        $this->reportAttachments = new ReportAttachmentRepository($pdo);
         $this->activityLogs = new ActivityLogRepository($pdo);
         $this->auth = new Auth($this->users, $this->tokens, $this->roles);
         $this->authService = new AuthService($this->users, $this->tokens, $this->activityLogs);
