@@ -3,6 +3,7 @@ const appView = document.querySelector('#appView');
 const loginForm = document.querySelector('#loginForm');
 const loginToggle = document.querySelector('#loginToggle');
 const loginPanel = document.querySelector('#loginPanel');
+const loginError = document.querySelector('#loginError');
 const logoutButton = document.querySelector('#logoutButton');
 const message = document.querySelector('#message');
 const userName = document.querySelector('#userName');
@@ -27,6 +28,12 @@ const publicDocuments = new Map();
 
 function showMessage(text = '') {
   message.textContent = text;
+}
+
+function showLoginError(text = '') {
+  if (!loginError) return;
+  loginError.textContent = text;
+  loginError.classList.toggle('hidden', text === '');
 }
 
 async function loadPublicBoard(target) {
@@ -229,6 +236,7 @@ async function boot() {
 if (loginForm) loginForm.addEventListener('submit', async (event) => {
   event.preventDefault();
   showMessage();
+  showLoginError();
 
   try {
     const form = new FormData(loginForm);
@@ -247,7 +255,7 @@ if (loginForm) loginForm.addEventListener('submit', async (event) => {
     await loadPublicBoard(publicBoardUser);
     setView(true);
   } catch (error) {
-    showMessage(error.message);
+    showLoginError(error.message || 'Login non riuscito.');
   }
 });
 
