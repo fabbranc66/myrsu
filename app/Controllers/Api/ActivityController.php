@@ -22,4 +22,12 @@ final class ActivityController
             'data' => $this->app->activityLogs->allForUser((int)$params['id']),
         ]);
     }
+
+    public function destroy(Request $request, array $params): Response
+    {
+        $this->app->auth->requirePermission($request, 'activity.view');
+        $this->app->activityLogs->deleteById((int)$params['id']);
+
+        return Response::json(['data' => ['deleted' => true]]);
+    }
 }

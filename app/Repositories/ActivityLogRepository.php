@@ -64,4 +64,10 @@ final class ActivityLogRepository
 
         return $stmt->fetchAll();
     }
+
+    public function deleteById(int $id): void
+    {
+        $stmt = $this->pdo->prepare('DELETE FROM activity_logs WHERE id = ?');
+        $stmt->execute([$id]);
+    }
 }

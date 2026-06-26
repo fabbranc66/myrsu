@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Incontri sindacali</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Incontri sindacali</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a><a href="contacts.html">Contatti</a></div></div>
+      <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a href="union-meetings.html" class="active">Incontri sindacali</a><a href="reports.html">Segnalazioni</a><a href="reports-moderation.html">Moderazione segnalazioni</a><a href="comments-moderation.html">Moderazione commenti</a><a href="pending-queue.html">Coda PDF</a></div></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <header>
+        <div>
+          <h1>Incontri sindacali</h1>
+          <p class="muted">Gestione incontri e collegamento pratiche.</p>
+        </div>
+      </header>
+
+      <form id="meetingForm" class="grid">
+        <label>Titolo<input name="title" required></label>
+        <label>Data e ora<input name="meeting_date" type="datetime-local" required></label>
+        <label>Luogo<input name="location" required></label>
+        <label>Stato<select name="status"><option value="scheduled">programmato</option><option value="done">svolto</option><option value="cancelled">annullato</option></select></label>
+        <label>Visibilita<select name="visibility"><option value="rsu">rsu</option><option value="members">membri</option><option value="public">pubblico</option></select></label>
+        <div class="full-width contact-picker">
+          <label>Partecipanti<input id="participantSearch" type="text" autocomplete="off" placeholder="Cerca o scrivi nuovo contatto"></label>
+          <input id="participantsText" name="participants" type="hidden" required>
+          <div id="participantTags" class="tag-list"></div>
+          <div id="participantResults" class="contact-results hidden"></div>
+        </div>
+        <label class="full-width">Ordine del giorno<textarea name="agenda" required></textarea></label>
+        <label class="full-width">Descrizione<textarea name="description" required></textarea></label>
+        <button type="submit">Crea incontro</button>
+      </form>
+
+      <table>
+        <thead><tr><th>Titolo</th><th>Data</th><th>Luogo</th><th>Stato</th><th>Visibilita</th><th>Documento</th><th>Azioni</th></tr></thead>
+        <tbody id="meetingsTable"></tbody>
+      </table>
+
+      <dialog id="practiceLinkModal">
+        <header><h2>Collega a pratica</h2><button id="closePracticeLinkModal" type="button">Chiudi</button></header>
+        <form id="practiceLinkForm" class="grid">
+          <input name="meeting_id" type="hidden">
+          <select name="practice_id" required></select>
+          <button type="submit">Collega</button>
+        </form>
+      </dialog>
+
+      <dialog id="contactModal">
+        <header><h2>Nuovo contatto</h2><button id="closeContactModal" type="button">Chiudi</button></header>
+        <form id="contactForm" class="grid">
+          <label>Origine<select name="source"><option value="institutional">istituzionale</option><option value="user">interno</option></select></label>
+          <label>Tipo<select name="type"><option value="aziendale">aziendale</option><option value="sindacale">sindacale</option><option value="esterno">esterno</option></select></label>
+          <label>Nome<input name="name" required></label>
+          <label>Ruolo<input name="role"></label>
+          <label>Organizzazione<input name="organization"></label>
+          <label>Email<input name="email" type="email"></label>
+          <label>Telefono<input name="phone"></label>
+          <label>Ruolo interno<select name="user_role"><option value="membro">membro</option><option value="delegato">delegato</option><option value="rls">rls</option><option value="admin">admin</option></select></label>
+          <label>Password interno<input name="password" type="password"></label>
+          <label class="full-width">Note<textarea name="notes"></textarea></label>
+          <button type="submit">Salva contatto</button>
+        </form>
+      </dialog>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js"></script>
+  <script src="union-meetings.js"></script>
+  <script src="auth-menu.js"></script>
+</body>
+</html>

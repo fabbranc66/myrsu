@@ -96,6 +96,89 @@ CREATE TABLE documents (
   CONSTRAINT documents_uploaded_by_fk FOREIGN KEY (uploaded_by) REFERENCES users(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+CREATE TABLE practices (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  status ENUM('open', 'closed', 'archived') NOT NULL DEFAULT 'open',
+  created_by BIGINT UNSIGNED NULL,
+  created_at DATETIME NOT NULL,
+  updated_at DATETIME NOT NULL,
+  INDEX practices_status_idx (status),
+  CONSTRAINT practices_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE practice_links (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  practice_id BIGINT UNSIGNED NOT NULL,
+  entity_type ENUM('document', 'report', 'comment', 'protocol', 'attachment', 'meeting') NOT NULL,
+  entity_id BIGINT UNSIGNED NOT NULL,
+  created_by BIGINT UNSIGNED NULL,
+  created_at DATETIME NOT NULL,
+  UNIQUE KEY practice_links_unique (practice_id, entity_type, entity_id),
+  INDEX practice_links_entity_idx (entity_type, entity_id),
+  CONSTRAINT practice_links_practice_id_fk FOREIGN KEY (practice_id) REFERENCES practices(id) ON DELETE CASCADE,
+  CONSTRAINT practice_links_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE union_meetings (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL,
+  participants TEXT NOT NULL,
+  agenda TEXT NOT NULL,
+  meeting_date DATETIME NOT NULL,
+  location VARCHAR(255) NOT NULL,
+  status ENUM('scheduled', 'done', 'cancelled') NOT NULL DEFAULT 'scheduled',
+  visibility ENUM('public', 'members', 'rsu') NOT NULL DEFAULT 'rsu',
+  public_document_id BIGINT UNSIGNED NULL,
+  created_by BIGINT UNSIGNED NOT NULL,
+  created_at DATETIME NOT NULL,
+  updated_at DATETIME NOT NULL,
+  INDEX union_meetings_date_idx (meeting_date),
+  INDEX union_meetings_status_idx (status),
+  CONSTRAINT union_meetings_public_document_fk FOREIGN KEY (public_document_id) REFERENCES documents(id) ON DELETE SET NULL,
+  CONSTRAINT union_meetings_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE union_meeting_notes (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  meeting_id BIGINT UNSIGNED NOT NULL,
+  note_type ENUM('content', 'answer', 'idea', 'proposal') NOT NULL DEFAULT 'content',
+  body TEXT NOT NULL,
+  created_by BIGINT UNSIGNED NOT NULL,
+  created_at DATETIME NOT NULL,
+  INDEX union_meeting_notes_meeting_idx (meeting_id),
+  CONSTRAINT union_meeting_notes_meeting_fk FOREIGN KEY (meeting_id) REFERENCES union_meetings(id) ON DELETE CASCADE,
+  CONSTRAINT union_meeting_notes_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE institutional_contacts (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  type ENUM('aziendale', 'sindacale', 'esterno') NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  role VARCHAR(255) NULL,
+  organization VARCHAR(255) NULL,
+  email VARCHAR(255) NULL,
+  phone VARCHAR(80) NULL,
+  notes TEXT NULL,
+  created_by BIGINT UNSIGNED NULL,
+  created_at DATETIME NOT NULL,
+  updated_at DATETIME NOT NULL,
+  INDEX institutional_contacts_type_idx (type),
+  CONSTRAINT institutional_contacts_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE union_meeting_participants (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  meeting_id BIGINT UNSIGNED NOT NULL,
+  participant_type ENUM('user', 'institutional_contact') NOT NULL,
+  participant_id BIGINT UNSIGNED NOT NULL,
+  label VARCHAR(255) NOT NULL,
+  created_at DATETIME NOT NULL,
+  UNIQUE KEY union_meeting_participants_unique (meeting_id, participant_type, participant_id),
+  INDEX union_meeting_participants_meeting_idx (meeting_id),
+  CONSTRAINT union_meeting_participants_meeting_fk FOREIGN KEY (meeting_id) REFERENCES union_meetings(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE activity_logs (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,

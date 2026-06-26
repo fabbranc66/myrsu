@@ -15,6 +15,7 @@ const queueCardText = document.querySelector('#queueCardText');
 const queueProcessButton = document.querySelector('#queueProcessButton');
 const queueCard = document.querySelector('#queueCard');
 const archiveMenu = document.querySelector('#archiveMenu');
+const restrictedMenus = document.querySelectorAll('.restricted-menu');
 const pendingQueueLink = document.querySelector('#pendingQueueLink');
 const reportsCard = document.querySelector('#reportsCard');
 const reportsPendingCount = document.querySelector('#reportsPendingCount');
@@ -33,6 +34,7 @@ function showMessage(text = '') {
 function showLoginError(text = '') {
   if (!loginError) return;
   loginError.textContent = text;
+  loginError.hidden = text === '';
   loginError.classList.toggle('hidden', text === '');
 }
 
@@ -195,6 +197,7 @@ function toggleAdminQueue(enabled) {
 }
 
 function toggleArchiveMenu(enabled) {
+  restrictedMenus.forEach((menu) => menu.classList.toggle('hidden', !enabled));
   if (archiveMenu) {
     archiveMenu.classList.toggle('hidden', !enabled);
   }
@@ -255,7 +258,10 @@ if (loginForm) loginForm.addEventListener('submit', async (event) => {
     await loadPublicBoard(publicBoardUser);
     setView(true);
   } catch (error) {
-    showLoginError(error.message || 'Login non riuscito.');
+    const errorMessage = error.message || 'Login non riuscito.';
+    if (loginPanel) loginPanel.classList.remove('hidden');
+    showLoginError(errorMessage);
+    showMessage(errorMessage);
   }
 });
 

@@ -14,10 +14,13 @@ const activityPanel = document.querySelector('#activityPanel');
 const activityTable = document.querySelector('#activityTable');
 const logObjectModal = document.querySelector('#logObjectModal');
 const logObjectTitle = document.querySelector('#logObjectTitle');
-const logObjectFrame = document.querySelector('#logObjectFrame');
+const logObjectBody = document.querySelector('#logObjectBody');
 const closeLogObjectModal = document.querySelector('#closeLogObjectModal');
+const deleteOrphanLogs = document.querySelector('#deleteOrphanLogs');
 const gdprBox = document.querySelector('#gdprBox');
 const jsonOutput = document.querySelector('#jsonOutput');
+let currentActivityUserId = null;
+let currentOrphanLogIds = [];
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -153,8 +156,9 @@ usersTable.addEventListener('click', async (event) => {
     }
 
     if (button.dataset.activity) {
+      currentActivityUserId = button.dataset.activity;
       const logs = await api(`/users/${button.dataset.activity}/activity`);
-      activityTable.innerHTML = logs.map(activityRow).join('');
+      activityTable.innerHTML = await renderActivityRows(logs);
       activityPanel.classList.remove('hidden');
     }
 
@@ -182,10 +186,14 @@ function activityRow(log) {
       <td>${log.actor_name || ''}</td>
       <td>${formatWhere(log)}</td>
       <td>${formatSection(log.metadata_json)}</td>
-      <td>${formatObjectLink(log.metadata_json)}${formatMetadata(log.metadata_json)}</td>
+      <td>${formatOrphan(log)}${formatObjectLink(log.metadata_json)}${formatMetadata(log.metadata_json)}</td>
       <td>${log.created_at}</td>
     </tr>
   `;
+}
+
+function formatOrphan(log) {
+  return log.orphan ? `<span class="log-warning">oggetto non trovato</span> <button class="log-object-link danger" data-delete-log="${log.id}">cancella</button> ` : '';
 }
 
 function formatAction(log) {
@@ -205,6 +213,13 @@ function formatAction(log) {
     'documents.download': 'Documento scaricato',
     'documents.upload': 'Documento caricato',
     'documents.delete': 'Documento eliminato',
+    'practices.link': 'Oggetto collegato a pratica',
+    'contacts.create': 'Contatto creato',
+    'meetings.create': 'Incontro creato',
+    'meetings.update': 'Incontro aggiornato',
+    'meetings.public_comunicato': 'Comunicato incontro creato',
+    'meetings.note_create': 'Nota incontro aggiunta',
+    'contacts.update': 'Contatto aggiornato',
   };
 
   return actions[log.action] || log.action;
@@ -216,28 +231,166 @@ function formatWhere(log) {
   return log.target_name || 'user';
 }
 
+async function renderActivityRows(logs) {
+  const orphanIds = await orphanLogIds(logs);
+  currentOrphanLogIds = [...orphanIds];
+  updateOrphanButton();
+  return logs.map((log) => activityRow({ ...log, orphan: orphanIds.has(Number(log.id)) })).join('');
+}
+
 function formatObjectLink(value) {
   const data = parseMetadata(value);
   if (!data) return '';
 
   if (data.document_id) {
-    return `<button class="log-object-link" data-log-modal="document-view.html?id=${data.document_id}" data-log-title="Documento">apri documento</button> `;
+    return `<button class="log-object-link" data-log-type="document" data-log-id="${data.document_id}" data-log-title="Documento">apri documento</button> `;
   }
 
   if (data.report_id) {
-    return `<button class="log-object-link" data-log-modal="reports-moderation.html?status=all" data-log-title="Segnalazioni">apri segnalazioni</button> `;
+    return `<button class="log-object-link" data-log-type="reports" data-log-id="${data.report_id}" data-log-title="Segnalazione">apri segnalazione</button> `;
   }
 
   if (data.comment_id) {
-    return `<button class="log-object-link" data-log-modal="comments-moderation.html?status=all" data-log-title="Commenti">apri commenti</button> `;
+    return `<button class="log-object-link" data-log-type="comments" data-log-id="${data.comment_id}" data-log-title="Commento">apri commento</button> `;
+  }
+
+  if (data.meeting_id) {
+    return `<button class="log-object-link" data-log-type="meeting" data-log-id="${data.meeting_id}" data-log-title="Incontro">apri incontro</button> `;
+  }
+
+  if (data.contact_id) {
+    return `<button class="log-object-link" data-log-type="contacts" data-log-id="${data.contact_id}" data-log-title="Contatto">apri contatto</button> `;
+  }
+
+  if (data.practice_id) {
+    return `<button class="log-object-link" data-log-type="practice" data-log-id="${data.practice_id}" data-log-title="Pratica">apri pratica</button> `;
   }
 
   const userId = data.created_user_id || data.updated_user_id || data.target_user_id;
   if (userId) {
-    return `<button class="log-object-link" data-log-modal="user-edit.html?id=${userId}" data-log-title="Utente">apri utente</button> `;
+    return `<button class="log-object-link" data-log-type="user" data-log-id="${userId}" data-log-title="Utente">apri utente</button> `;
   }
 
   return '';
+}
+
+async function openLogObject(type, id, title) {
+  logObjectTitle.textContent = title;
+  logObjectBody.innerHTML = '<p class="muted">Caricamento...</p>';
+  logObjectModal.showModal();
+
+  try {
+    const data = await loadLogObject(type, id);
+    logObjectBody.innerHTML = renderLogObject(type, data);
+  } catch (error) {
+    logObjectBody.innerHTML = `<p class="log-warning">${escapeHtml(error.message)}</p>`;
+  }
+}
+
+async function loadLogObject(type, id) {
+  if (type === 'document') return api(`/documents/${id}`);
+  if (type === 'meeting') return api(`/union-meetings/${id}`);
+  if (type === 'user') return api(`/users/${id}`);
+  if (type === 'contacts') return (await api('/contacts')).institutional.find((item) => Number(item.id) === Number(id));
+  if (type === 'reports') return (await api('/reports?status=all')).find((item) => Number(item.id) === Number(id));
+  if (type === 'comments') return (await api('/comments?status=all')).find((item) => Number(item.id) === Number(id));
+  throw new Error('Oggetto log non gestito.');
+}
+
+function renderLogObject(type, data) {
+  if (!data) return '<p class="log-warning">Oggetto non trovato</p>';
+  if (type === 'document') return logEditForm('document', data.id, {
+    visibility: data.visibility,
+  }, {
+    Nome: data.original_name,
+    Categoria: data.category,
+    Stato: data.conversion_status,
+  });
+  if (type === 'meeting') return logEditForm('meeting', data.id, {
+    title: data.title,
+    location: data.location,
+    meeting_date: data.meeting_date?.replace(' ', 'T').slice(0, 16),
+    participants: data.participants,
+    agenda: data.agenda,
+    description: data.description,
+    status: data.status,
+    visibility: data.visibility,
+  });
+  if (type === 'user') return logEditForm('user', data.user?.id, {
+    name: data.user?.name,
+    email: data.user?.email,
+    status: data.user?.status,
+  }, { Ruoli: (data.roles || []).join(', ') });
+  if (type === 'contacts') return logEditForm('contacts', data.id, {
+    type: data.contact_type,
+    name: data.label,
+    role: data.role,
+    organization: data.organization,
+    email: data.email,
+    phone: data.phone,
+    notes: data.notes,
+  });
+  if (type === 'reports') return logDefinitionList({
+    Codice: data.tracking_code,
+    Oggetto: data.subject,
+    Stato: data.status,
+    Testo: data.message,
+  });
+  if (type === 'comments') return logDefinitionList({
+    Documento: data.document_id,
+    Stato: data.status,
+    Commento: data.message,
+    Risposta: data.reply,
+  });
+  return `<pre>${escapeHtml(JSON.stringify(data, null, 2))}</pre>`;
+}
+
+function logDefinitionList(items) {
+  return `<dl class="log-object-list">${Object.entries(items)
+    .map(([key, value]) => `<dt>${escapeHtml(key)}</dt><dd>${escapeHtml(value || '-')}</dd>`)
+    .join('')}</dl>`;
+}
+
+function logEditForm(type, id, fields, readonly = {}) {
+  const inputs = Object.entries(fields).map(([key, value]) => logInput(key, value)).join('');
+  const fixed = Object.keys(readonly).length ? logDefinitionList(readonly) : '';
+  return `${fixed}<form class="log-edit-form" data-log-edit-type="${type}" data-log-edit-id="${id}">${inputs}<button type="submit">Salva modifiche</button></form>`;
+}
+
+function logInput(name, value) {
+  if (['description', 'participants', 'agenda', 'notes'].includes(name)) {
+    return `<label>${labelField(name)}<textarea name="${name}">${escapeHtml(value || '')}</textarea></label>`;
+  }
+  if (name === 'status') {
+    return `<label>Stato<select name="status">${option(value, 'scheduled', 'programmato')}${option(value, 'done', 'svolto')}${option(value, 'cancelled', 'annullato')}${option(value, 'active', 'attivo')}${option(value, 'suspended', 'sospeso')}</select></label>`;
+  }
+  if (name === 'visibility') {
+    return `<label>Visibilita<select name="visibility">${option(value, 'rsu', 'rsu')}${option(value, 'members', 'membri')}${option(value, 'public', 'pubblico')}</select></label>`;
+  }
+  if (name === 'type') {
+    return `<label>Tipo<select name="type">${option(value, 'aziendale', 'aziendale')}${option(value, 'sindacale', 'sindacale')}${option(value, 'esterno', 'esterno')}</select></label>`;
+  }
+  const inputType = name === 'meeting_date' ? 'datetime-local' : 'text';
+  return `<label>${labelField(name)}<input name="${name}" type="${inputType}" value="${escapeHtml(value || '')}"></label>`;
+}
+
+function option(current, value, label) {
+  return `<option value="${value}" ${current === value ? 'selected' : ''}>${label}</option>`;
+}
+
+function labelField(name) {
+  return {
+    title: 'Titolo', location: 'Luogo', meeting_date: 'Data e ora', participants: 'Partecipanti',
+    agenda: 'Ordine del giorno', description: 'Descrizione', name: 'Nome', email: 'Email',
+    role: 'Ruolo', organization: 'Organizzazione', phone: 'Telefono', notes: 'Note',
+    visibility: 'Visibilita',
+  }[name] || name;
+}
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, (char) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;',
+  }[char]));
 }
 
 function formatMetadata(value) {
@@ -255,6 +408,18 @@ function formatMetadata(value) {
       return formatCommentMetadata(data);
     }
 
+    if (data.section === 'practices') {
+      return `pratica: ${data.practice_id} | ${data.entity_type}: ${data.entity_id}`;
+    }
+
+    if (data.section === 'meetings') {
+      return formatMeetingMetadata(data);
+    }
+
+    if (data.section === 'contacts') {
+      return formatContactMetadata(data);
+    }
+
     return Object.entries(data)
       .filter(([key]) => key !== 'section')
       .map(([key, item]) => `${key}: ${Array.isArray(item) ? item.join(', ') : item}`)
@@ -262,6 +427,55 @@ function formatMetadata(value) {
   } catch {
     return value;
   }
+}
+
+async function orphanLogIds(logs) {
+  const missing = new Set();
+  for (const log of logs) {
+    const object = logObjectFromMetadata(parseMetadata(log.metadata_json));
+    if (!object) continue;
+    try {
+      const data = await loadLogObject(object.type, object.id);
+      if (!data) missing.add(Number(log.id));
+    } catch {
+      missing.add(Number(log.id));
+    }
+  }
+
+  return missing;
+}
+
+function logObjectFromMetadata(data) {
+  if (!data) return null;
+  if (data.document_id) return { type: 'document', id: data.document_id };
+  if (data.report_id) return { type: 'reports', id: data.report_id };
+  if (data.comment_id) return { type: 'comments', id: data.comment_id };
+  if (data.meeting_id) return { type: 'meeting', id: data.meeting_id };
+  if (data.contact_id) return { type: 'contacts', id: data.contact_id };
+  const userId = data.created_user_id || data.updated_user_id || data.target_user_id;
+  if (userId) return { type: 'user', id: userId };
+  return null;
+}
+
+function formatMeetingMetadata(data) {
+  const parts = [];
+  if (data.meeting_id) parts.push(`incontro: ${data.meeting_id}`);
+  if (data.note_type) parts.push(`tipo nota: ${translateMeetingNoteType(data.note_type)}`);
+  if (data.document_id) parts.push(`documento: ${data.document_id}`);
+  if (data.protocol_number) parts.push(`protocollo: ${data.protocol_number}`);
+  if (data.title) parts.push(`titolo: ${data.title}`);
+  return parts.join(' | ');
+}
+
+function formatContactMetadata(data) {
+  const parts = [];
+  if (data.contact_id) parts.push(`contatto: ${data.contact_id}`);
+  if (data.type) parts.push(`tipo: ${data.type}`);
+  return parts.join(' | ');
+}
+
+function translateMeetingNoteType(type) {
+  return { content: 'contenuto', answer: 'risposta', idea: 'idea', proposal: 'proposta' }[type] || type;
 }
 
 function formatCommentMetadata(data) {
@@ -283,7 +497,7 @@ function formatSection(value) {
 
   try {
     const section = parseMetadata(value)?.section || '';
-    return { comments: 'commenti', reports: 'segnalazioni', documents: 'documenti', registry: 'anagrafica' }[section] || section;
+    return { comments: 'commenti', reports: 'segnalazioni', documents: 'documenti', practices: 'pratiche', registry: 'anagrafica', meetings: 'incontri', contacts: 'anagrafica' }[section] || section;
   } catch {
     return '';
   }
@@ -326,18 +540,68 @@ document.querySelector('#closeActivity').addEventListener('click', () => {
   activityPanel.classList.add('hidden');
 });
 
-activityTable.addEventListener('click', (event) => {
-  const button = event.target.closest('[data-log-modal]');
-  if (!button) return;
-  logObjectTitle.textContent = button.dataset.logTitle || 'Oggetto log';
-  logObjectFrame.src = button.dataset.logModal;
-  logObjectModal.showModal();
+deleteOrphanLogs.addEventListener('click', async () => {
+  if (currentOrphanLogIds.length === 0) return;
+  await Promise.all(currentOrphanLogIds.map((id) => api(`/activity/${id}`, { method: 'DELETE' })));
+  await refreshActivityLogs();
 });
 
+activityTable.addEventListener('click', (event) => {
+  const deleteButton = event.target.closest('[data-delete-log]');
+  if (deleteButton) {
+    api(`/activity/${deleteButton.dataset.deleteLog}`, { method: 'DELETE' })
+      .then(refreshActivityLogs)
+      .catch(showError);
+    return;
+  }
+
+  const button = event.target.closest('[data-log-type]');
+  if (!button) return;
+  openLogObject(button.dataset.logType, button.dataset.logId, button.dataset.logTitle || 'Oggetto log');
+});
+
+async function refreshActivityLogs() {
+  if (!currentActivityUserId) return;
+  const logs = await api(`/users/${currentActivityUserId}/activity`);
+  activityTable.innerHTML = await renderActivityRows(logs);
+  activityPanel.classList.remove('hidden');
+}
+
+function updateOrphanButton() {
+  if (!deleteOrphanLogs) return;
+  deleteOrphanLogs.textContent = `Cancella orfani (${currentOrphanLogIds.length})`;
+  deleteOrphanLogs.disabled = currentOrphanLogIds.length === 0;
+}
+
 closeLogObjectModal.addEventListener('click', () => {
-  logObjectFrame.src = '';
+  logObjectBody.innerHTML = '';
   logObjectModal.close();
 });
+
+logObjectBody.addEventListener('submit', async (event) => {
+  const form = event.target.closest('[data-log-edit-type]');
+  if (!form) return;
+  event.preventDefault();
+  const type = form.dataset.logEditType;
+  const id = form.dataset.logEditId;
+  const data = Object.fromEntries(new FormData(form).entries());
+
+  try {
+    await saveLogObject(type, id, data);
+    const fresh = await loadLogObject(type, id);
+    logObjectBody.innerHTML = renderLogObject(type, fresh);
+  } catch (error) {
+    message.textContent = error.message;
+  }
+});
+
+async function saveLogObject(type, id, data) {
+  if (type === 'document') return api(`/documents/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
+  if (type === 'meeting') return api(`/union-meetings/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
+  if (type === 'user') return api(`/users/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
+  if (type === 'contacts') return api(`/institutional-contacts/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
+  throw new Error('Modifica non disponibile.');
+}
 
 usersTable.addEventListener('change', async (event) => {
   const select = event.target.closest('select[data-role]');

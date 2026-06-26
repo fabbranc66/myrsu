@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Contatti</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Contatti istituzionali</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group active"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a><a href="contacts.html" class="active">Contatti</a></div></div><div class="menu-group"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a href="union-meetings.html">Incontri sindacali</a></div></div>
+    </nav>
+  </header>
+  <main>
+    <section class="panel">
+      <header><div><h1>Contatti istituzionali</h1><p class="muted">Figure aziendali, sindacali ed esterne.</p></div></header>
+      <form id="contactForm" class="grid">
+        <label>Tipo<select name="type"><option value="aziendale">aziendale</option><option value="sindacale">sindacale</option><option value="esterno">esterno</option></select></label>
+        <label>Nome<input name="name" required></label>
+        <label>Ruolo<input name="role"></label>
+        <label>Organizzazione<input name="organization"></label>
+        <label>Email<input name="email" type="email"></label>
+        <label>Telefono<input name="phone"></label>
+        <label class="full-width">Note<textarea name="notes"></textarea></label>
+        <button type="submit">Salva</button>
+      </form>
+      <table>
+        <thead><tr><th>Nome</th><th>Tipo</th><th>Ruolo</th><th>Organizzazione</th><th>Email</th><th>Telefono</th></tr></thead>
+        <tbody id="contactsTable"></tbody>
+      </table>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="contacts.js"></script>
+  <script src="auth-menu.js"></script>
+</body>
+</html>

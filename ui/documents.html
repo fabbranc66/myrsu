@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8">
@@ -19,7 +19,7 @@
         <span>Anagrafica</span>
         <div class="submenu">
           <a href="users.html">Utenti</a>
-          <a href="profile.html">Profilo</a>
+          <a href="profile.html">Profilo</a><a href="contacts.html">Contatti</a>
         </div>
       </div>
       <div class="menu-group">
@@ -33,7 +33,7 @@
         <div class="submenu">
           <a class="active" href="documents.html">Documenti</a>
           <a href="private-documents.html">Privato</a>
-          <a href="comunicati-create.html">Comunicati</a>
+          <a href="comunicati-create.html">Comunicati</a><a href="union-meetings.html">Incontri sindacali</a>
           <a href="reports.html">Segnalazioni</a>
           <a href="reports-moderation.html">Moderazione</a>
           <a href="pending-queue.html">Coda PDF</a>
@@ -91,6 +91,18 @@
           <button id="closeDocumentModal" type="button">Chiudi</button>
         </header>
         <iframe id="documentPreview" title="Document preview"></iframe>
+      </dialog>
+
+      <dialog id="practiceLinkModal">
+        <header>
+          <h2>Collega a pratica</h2>
+          <button id="closePracticeLinkModal" type="button">Chiudi</button>
+        </header>
+        <form id="practiceLinkForm" class="grid">
+          <input name="document_id" type="hidden">
+          <select name="practice_id" required></select>
+          <button type="submit">Collega</button>
+        </form>
       </dialog>
 
       <pre id="message"></pre>

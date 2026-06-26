@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8">
@@ -116,8 +116,8 @@
 
   <section class="panel hidden" id="activityPanel">
     <header>
-      <h1>Log attivitÃ </h1>
-      <button id="closeActivity" type="button">Chiudi</button>
+      <h1>Log attività</h1>
+      <div class="actions-cell"><button id="deleteOrphanLogs" type="button">Cancella orfani (0)</button><button id="closeActivity" type="button">Chiudi</button></div>
     </header>
     <table>
       <thead>
@@ -139,7 +139,7 @@
       <h2 id="logObjectTitle">Oggetto log</h2>
       <button id="closeLogObjectModal" type="button">Chiudi</button>
     </header>
-    <iframe id="logObjectFrame" title="Oggetto log"></iframe>
+    <div id="logObjectBody" class="log-object-body"></div>
   </dialog>
 </main>
 

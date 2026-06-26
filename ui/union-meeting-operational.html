@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Operativa incontro</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Operativa incontro</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a href="union-meetings.html" class="active">Incontri sindacali</a></div></div>
+    </nav>
+  </header>
+  <main>
+    <section class="panel">
+      <header><div><h1 id="meetingTitle">Incontro</h1><p id="meetingMeta" class="muted"></p></div></header>
+      <form id="noteForm" class="grid">
+        <label>Tipo<select name="note_type"><option value="content">contenuto</option><option value="answer">risposta</option><option value="idea">idea</option><option value="proposal">proposta</option></select></label>
+        <label class="full-width">Testo<textarea name="body" required></textarea></label>
+        <button type="submit">Aggiungi</button>
+      </form>
+      <div id="notesList" class="meeting-notes"></div>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="union-meeting-operational.js"></script>
+  <script src="auth-menu.js"></script>
+</body>
+</html>

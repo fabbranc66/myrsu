@@ -71,6 +71,150 @@ header {
   width: 100%;
 }
 
+.grid > .full-width {
+  grid-column: 1 / -1;
+}
+
+textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.meeting-notes {
+  display: grid;
+  gap: 10px;
+}
+
+.meeting-note {
+  border: 1px solid #d8dee9;
+  border-radius: 8px;
+  padding: 12px;
+  background: #f8fafc;
+}
+
+.meeting-note p {
+  white-space: pre-wrap;
+}
+
+.contact-picker {
+  position: relative;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.tag {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  border-radius: 999px;
+  background: #eaf1ff;
+  color: #084298;
+  padding: 6px 10px;
+  font-weight: 700;
+}
+
+.tag button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.contact-results {
+  position: absolute;
+  z-index: 20;
+  display: grid;
+  width: min(100%, 520px);
+  margin-top: 4px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, .18);
+}
+
+.contact-results.hidden {
+  display: none;
+}
+
+.contact-results button {
+  border: 0;
+  background: #fff;
+  color: #172033;
+  padding: 10px 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.contact-results button:hover {
+  background: #eaf1ff;
+  color: #084298;
+}
+
+.contact-results .contact-internal {
+  color: #111827;
+}
+
+.contact-results .contact-institutional {
+  color: #b91c1c;
+}
+
+.contact-results small {
+  color: #64748b;
+}
+
+.log-warning {
+  display: inline-block;
+  border-radius: 999px;
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.log-object-body {
+  min-width: min(680px, 80vw);
+}
+
+.log-object-list {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 10px 14px;
+}
+
+.log-object-list dt {
+  font-weight: 700;
+  color: #475569;
+}
+
+.log-object-list dd {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.log-edit-form {
+  display: grid;
+  gap: 10px;
+}
+
+.log-edit-form label {
+  display: grid;
+  gap: 5px;
+  color: #475569;
+  font-size: 13px;
+}
+
+.log-edit-form input,
+.log-edit-form select,
+.log-edit-form textarea {
+  width: 100%;
+}
+
 input,
 select,
 button {

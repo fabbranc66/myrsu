@@ -11,6 +11,10 @@ const closeDocumentModal = document.querySelector('#closeDocumentModal');
 const uploadProgress = document.querySelector('#uploadProgress');
 const uploadProgressFill = document.querySelector('#uploadProgressFill');
 const uploadProgressText = document.querySelector('#uploadProgressText');
+const practiceLinkModal = document.querySelector('#practiceLinkModal');
+const practiceLinkForm = document.querySelector('#practiceLinkForm');
+const closePracticeLinkModal = document.querySelector('#closePracticeLinkModal');
+let practices = [];
 
 async function api(path, options = {}) {
   const headers = options.headers || {};
@@ -68,9 +72,18 @@ function uploadDocument(formData) {
 }
 
 async function loadDocuments() {
-  const documents = await api('/documents');
+  const [documents, practiceRows] = await Promise.all([api('/documents'), loadPractices()]);
+  practices = practiceRows;
   uploadForm.classList.remove('hidden');
   documentsTable.innerHTML = documents.map(row).join('');
+}
+
+async function loadPractices() {
+  try {
+    return await api('/practices');
+  } catch {
+    return [];
+  }
 }
 
 function row(document) {
@@ -85,6 +98,7 @@ function row(document) {
         <button class="icon-action" data-view="${document.id}" title="Anteprima">${MyRsuIcons.get('eye')}</button>
         <a class="icon-action" href="document-edit.html?id=${document.id}" title="Modifica">${MyRsuIcons.get('edit')}</a>
         <button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
+        <button class="icon-action" data-practice-link="${document.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button>
         <button class="icon-action" data-protocol-in="${document.id}" title="Protocolla in entrata">${MyRsuIcons.get('protocolIn')}</button>
         <button class="icon-action danger" data-delete="${document.id}" title="Elimina">${MyRsuIcons.get('trash')}</button>
       </td>
@@ -161,6 +175,11 @@ documentsTable.addEventListener('click', async (event) => {
     return;
   }
 
+  if (button.dataset.practiceLink) {
+    openPracticeLink(button.dataset.practiceLink);
+    return;
+  }
+
   if (!confirm('Eliminare documento?')) return;
   await api(`/documents/${button.dataset.delete}`, { method: 'DELETE' });
   message.textContent = 'Documento eliminato';
@@ -190,6 +209,35 @@ async function protocolIn(id) {
 closeDocumentModal.addEventListener('click', () => {
   documentPreview.src = '';
   documentModal.close();
+});
+
+function openPracticeLink(documentId) {
+  practiceLinkForm.document_id.value = documentId;
+  practiceLinkForm.practice_id.innerHTML = practices.length > 0
+    ? practices.map((practice) => `<option value="${practice.id}">${practice.title}</option>`).join('')
+    : '<option value="">Nessuna pratica disponibile</option>';
+  practiceLinkForm.querySelector('button').disabled = practices.length === 0;
+  practiceLinkModal.showModal();
+}
+
+closePracticeLinkModal.addEventListener('click', () => {
+  practiceLinkModal.close();
+});
+
+practiceLinkForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const data = Object.fromEntries(new FormData(practiceLinkForm).entries());
+  await api('/practice-links', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      practice_id: Number(data.practice_id),
+      entity_type: 'document',
+      entity_id: Number(data.document_id),
+    }),
+  });
+  message.textContent = 'Documento collegato alla pratica';
+  practiceLinkModal.close();
 });
 
 async function downloadDocument(id) {

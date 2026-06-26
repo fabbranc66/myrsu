@@ -17,8 +17,7 @@
           <h1>Piattaforma RSU</h1>
         </div>
         <nav class="app-nav public-nav">
-          <a class="active" href="index.html">Home</a>
-          <a href="../reports.html">Segnalazione anonima</a>
+          <a class="active" href="index.html">Dashboard</a>
           <div class="login-menu">
             <button id="loginToggle" class="nav-button" type="button">Login</button>
             <div id="loginPanel" class="login-submenu hidden">
@@ -29,7 +28,7 @@
                 <label>Password
                   <input name="password" type="password" autocomplete="current-password" required>
                 </label>
-                <p id="loginError" class="login-error hidden"></p>
+                <p id="loginError" class="login-error hidden" role="alert" aria-live="polite"></p>
                 <button type="submit">Entra</button>
               </form>
             </div>
@@ -91,14 +90,15 @@
         </div>
         <nav class="app-nav">
           <a class="active" href="index.html">Dashboard</a>
-          <div class="menu-group">
+          <div class="menu-group restricted-menu">
             <span>Anagrafica</span>
             <div class="submenu">
               <a href="../users.html">Utenti</a>
               <a href="../profile.html">Profilo</a>
+              <a href="../contacts.html">Contatti</a>
             </div>
           </div>
-          <div class="menu-group">
+          <div class="menu-group restricted-menu">
             <span>Protocollo</span>
             <div class="submenu">
               <a href="../protocol.html">Registro</a>
@@ -109,6 +109,7 @@
             <div class="submenu">
               <a href="../documents.html">Documenti</a>
               <a href="../comunicati-create.html">Comunicati</a>
+              <a href="../union-meetings.html">Incontri sindacali</a>
               <a href="../reports.html">Segnalazioni</a>
               <a href="../reports-moderation.html">Moderazione</a>
               <a href="../comments-moderation.html">Commenti</a>

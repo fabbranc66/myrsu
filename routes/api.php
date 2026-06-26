@@ -5,6 +5,7 @@ declare(strict_types=1);
 use App\Controllers\Api\ActivityController;
 use App\Controllers\Api\AuthController;
 use App\Controllers\Api\ComunicatoController;
+use App\Controllers\Api\ContactController;
 use App\Controllers\Api\DocumentController;
 use App\Controllers\Api\DocumentCommentController;
 use App\Controllers\Api\DocumentVerificationController;
@@ -12,23 +13,28 @@ use App\Controllers\Api\GdprConsentController;
 use App\Controllers\Api\HostingDocumentController;
 use App\Controllers\Api\PendingComunicatoQueueController;
 use App\Controllers\Api\ProfileController;
+use App\Controllers\Api\PracticeController;
 use App\Controllers\Api\ProtocolController;
 use App\Controllers\Api\ReportController;
 use App\Controllers\Api\RoleController;
+use App\Controllers\Api\UnionMeetingController;
 use App\Controllers\Api\UserController;
 use App\Core\Response;
 
 $auth = new AuthController($app);
 $activity = new ActivityController($app);
 $comunicati = new ComunicatoController($app);
+$contacts = new ContactController($app);
 $documents = new DocumentController($app);
 $comments = new DocumentCommentController($app);
 $documentVerification = new DocumentVerificationController($app);
 $hostingDocuments = new HostingDocumentController($app);
 $pendingQueue = new PendingComunicatoQueueController($app);
 $profile = new ProfileController($app);
+$practices = new PracticeController($app);
 $protocol = new ProtocolController($app);
 $reports = new ReportController($app);
+$unionMeetings = new UnionMeetingController($app);
 $users = new UserController($app);
 $roles = new RoleController($app);
 $gdpr = new GdprConsentController($app);
@@ -62,6 +68,7 @@ $app->router->get('/api/v1/gdpr/consents', [$gdpr, 'index']);
 $app->router->post('/api/v1/gdpr/consents', [$gdpr, 'store']);
 $app->router->get('/api/v1/users/{id}/gdpr/consents', [$gdpr, 'userIndex']);
 $app->router->get('/api/v1/users/{id}/activity', [$activity, 'userIndex']);
+$app->router->delete('/api/v1/activity/{id}', [$activity, 'destroy']);
 
 $app->router->get('/api/v1/documents', [$documents, 'index']);
 $app->router->get('/api/v1/public/documents', [$documents, 'publicIndex']);
@@ -96,6 +103,21 @@ $app->router->patch('/api/v1/reports/{id}/moderation', [$reports, 'moderate']);
 $app->router->get('/api/v1/comments', [$comments, 'index']);
 $app->router->get('/api/v1/comments/stats', [$comments, 'stats']);
 $app->router->patch('/api/v1/comments/{id}/moderation', [$comments, 'moderate']);
+
+$app->router->get('/api/v1/practices', [$practices, 'index']);
+$app->router->post('/api/v1/practice-links', [$practices, 'link']);
+
+$app->router->get('/api/v1/contacts', [$contacts, 'index']);
+$app->router->post('/api/v1/institutional-contacts', [$contacts, 'storeInstitutional']);
+$app->router->patch('/api/v1/institutional-contacts/{id}', [$contacts, 'updateInstitutional']);
+
+$app->router->get('/api/v1/union-meetings', [$unionMeetings, 'index']);
+$app->router->post('/api/v1/union-meetings', [$unionMeetings, 'store']);
+$app->router->get('/api/v1/union-meetings/{id}', [$unionMeetings, 'show']);
+$app->router->patch('/api/v1/union-meetings/{id}', [$unionMeetings, 'update']);
+$app->router->post('/api/v1/union-meetings/{id}/public-comunicato', [$unionMeetings, 'publicComunicato']);
+$app->router->get('/api/v1/union-meetings/{id}/notes', [$unionMeetings, 'notes']);
+$app->router->post('/api/v1/union-meetings/{id}/notes', [$unionMeetings, 'storeNote']);
 
 $app->router->get('/api/v1/protocol', [$protocol, 'index']);
 $app->router->post('/api/v1/protocol', [$protocol, 'store']);
