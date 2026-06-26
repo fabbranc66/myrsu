@@ -6,6 +6,7 @@
   <title>MyRSU Incontri sindacali</title>
   <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="users.css">
+  <link rel="stylesheet" href="app/css/layout.css">
 </head>
 <body>
   <header class="app-header">
@@ -14,7 +15,7 @@
       <a href="app/index.html">Dashboard</a>
       <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a><a href="contacts.html">Contatti</a></div></div>
       <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
-      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a href="union-meetings.html" class="active">Incontri sindacali</a><a href="reports.html">Segnalazioni</a><a href="reports-moderation.html">Moderazione segnalazioni</a><a href="comments-moderation.html">Moderazione commenti</a><a href="pending-queue.html">Coda PDF</a></div></div>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a href="union-meetings.html" class="active">Incontri sindacali</a><a href="calls.html">Telefonate</a><a href="reports.html">Segnalazioni</a><a href="reports-moderation.html">Moderazione segnalazioni</a><a href="comments-moderation.html">Moderazione commenti</a><a href="pending-queue.html">Coda PDF</a></div></div>
     </nav>
   </header>
 
@@ -58,6 +59,27 @@
         </form>
       </dialog>
 
+      <dialog id="meetingEditModal">
+        <header><h2>Modifica incontro</h2><button id="closeMeetingEditModal" type="button">Chiudi</button></header>
+        <form id="meetingEditForm" class="grid">
+          <input name="id" type="hidden">
+          <label>Titolo<input name="title" required></label>
+          <label>Data e ora<input name="meeting_date" type="datetime-local" required></label>
+          <label>Luogo<input name="location" required></label>
+          <label>Stato<select name="status"><option value="scheduled">programmato</option><option value="done">svolto</option><option value="cancelled">annullato</option></select></label>
+          <label>Visibilita<select name="visibility"><option value="rsu">rsu</option><option value="members">membri</option><option value="public">pubblico</option></select></label>
+          <div class="full-width contact-picker">
+            <label>Partecipanti<input id="editParticipantSearch" type="text" autocomplete="off" placeholder="Cerca o scrivi nuovo contatto"></label>
+            <input id="editParticipantsText" name="participants" type="hidden" required>
+            <div id="editParticipantTags" class="tag-list"></div>
+            <div id="editParticipantResults" class="contact-results hidden"></div>
+          </div>
+          <label class="full-width">Ordine del giorno<textarea name="agenda" required></textarea></label>
+          <label class="full-width">Descrizione<textarea name="description" required></textarea></label>
+          <button type="submit">Salva modifica</button>
+        </form>
+      </dialog>
+
       <dialog id="contactModal">
         <header><h2>Nuovo contatto</h2><button id="closeContactModal" type="button">Chiudi</button></header>
         <form id="contactForm" class="grid">
@@ -79,6 +101,17 @@
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
+
+  <div id="convocationModal" class="document-modal hidden">
+    <div class="document-modal-content file-modal">
+      <header>
+        <h2>Convocazione</h2>
+        <button id="closeConvocationModal" type="button">×</button>
+      </header>
+      <iframe id="convocationPreview" title="Anteprima convocazione"></iframe>
+    </div>
+  </div>
+
   <script src="icons.js"></script>
   <script src="union-meetings.js"></script>
   <script src="auth-menu.js"></script>

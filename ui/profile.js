@@ -1,7 +1,6 @@
 const apiBase = '../api/v1';
-let token = sessionStorage.getItem('profile_token');
+let token = sessionStorage.getItem('token');
 
-const loginForm = document.querySelector('#loginForm');
 const profileForm = document.querySelector('#profileForm');
 const passwordForm = document.querySelector('#passwordForm');
 const message = document.querySelector('#message');
@@ -43,9 +42,6 @@ async function loadProfile() {
   profileForm.mobile.value = profile.mobile || '';
   profileForm.city.value = profile.city || '';
   profileForm.country.value = profile.country || '';
-  profileForm.classList.remove('hidden');
-  passwordForm.classList.remove('hidden');
-
   const accepted = consents.some((consent) => (
     consent.consent_type === 'privacy_policy'
     && consent.document_version === '2026-06-18'
@@ -54,23 +50,6 @@ async function loadProfile() {
 
   gdprBox.classList.toggle('hidden', accepted);
 }
-
-loginForm.addEventListener('submit', async (event) => {
-  event.preventDefault();
-  const form = new FormData(loginForm);
-  const data = await api('/auth/login', {
-    method: 'POST',
-    body: JSON.stringify({
-      email: form.get('email'),
-      password: form.get('password'),
-      device_name: 'profile',
-    }),
-  });
-  token = data.access_token;
-  sessionStorage.setItem('profile_token', token);
-  await loadProfile();
-  setMessage('Accesso riuscito');
-});
 
 profileForm.addEventListener('submit', async (event) => {
   event.preventDefault();
@@ -106,4 +85,13 @@ acceptGdpr.addEventListener('click', async () => {
   setMessage('GDPR accettato');
 });
 
-if (token) loadProfile().catch((error) => setMessage(error.message));
+if (!token) {
+  window.location.href = 'app/index.html';
+} else {
+  loadProfile().catch((error) => {
+    sessionStorage.removeItem('token');
+    token = null;
+    setMessage(error.message);
+    window.location.href = 'app/index.html';
+  });
+}

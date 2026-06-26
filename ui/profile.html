@@ -20,6 +20,7 @@
         <div class="submenu">
           <a href="users.html">Utenti</a>
           <a class="active" href="profile.html">Profilo</a>
+          <a href="contacts.html">Contatti</a>
         </div>
       </div>
       <div class="menu-group">
@@ -32,8 +33,14 @@
         <span>Archivio</span>
         <div class="submenu">
           <a href="documents.html">Documenti</a>
+          <a href="private-documents.html">Privato</a>
+          <a href="comunicati-create.html">Comunicati</a>
+          <a href="union-meetings.html">Incontri sindacali</a>
+          <a href="calls.html">Telefonate</a>
           <a href="reports.html">Segnalazioni</a>
           <a href="reports-moderation.html">Moderazione</a>
+          <a href="comments-moderation.html">Commenti</a>
+          <a href="pending-queue.html">Coda PDF</a>
         </div>
       </div>
     </nav>
@@ -42,13 +49,7 @@
   <main>
     <section class="panel">
       <h1>Profilo</h1>
-      <form id="loginForm" class="grid">
-        <input name="email" type="email" value="admin@myrsu.local" required>
-        <input name="password" type="password" value="admin123" required>
-        <button type="submit">Accedi</button>
-      </form>
-
-      <form id="profileForm" class="grid hidden">
+      <form id="profileForm" class="grid">
         <input name="name" placeholder="Nome completo" required>
         <input name="first_name" placeholder="Nome">
         <input name="last_name" placeholder="Cognome">
@@ -60,7 +61,7 @@
         <button type="submit">Salva profilo</button>
       </form>
 
-      <form id="passwordForm" class="grid hidden">
+      <form id="passwordForm" class="grid">
         <input name="password" type="password" placeholder="Nuova password" minlength="8" required>
         <button type="submit">Salva password</button>
       </form>

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Core;
 
 use App\Repositories\ActivityLogRepository;
+use App\Repositories\CallRepository;
 use App\Repositories\DocumentRepository;
 use App\Repositories\DocumentCommentRepository;
 use App\Repositories\GdprConsentRepository;
@@ -33,7 +34,9 @@ use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
 use App\Services\PendingComunicatoQueueService;
 use App\Services\PdfConversionService;
+use App\Services\PdfLinkPageService;
 use App\Services\PdfWatermarkService;
+use App\Services\ReportPdfService;
 use App\Services\ReportService;
 use App\Services\ReportAttachmentStorageService;
 use Throwable;
@@ -51,6 +54,7 @@ final class Application
     public readonly UserRepository $users;
     public readonly TokenRepository $tokens;
     public readonly RolePermissionRepository $roles;
+    public readonly CallRepository $calls;
     public readonly DocumentRepository $documents;
     public readonly DocumentCommentRepository $documentComments;
     public readonly GdprConsentRepository $gdprConsents;
@@ -77,6 +81,8 @@ final class Application
     public readonly DocumentStorageService $documentStorage;
     public HostingDocumentReceiveService $hostingDocumentReceive;
     public readonly PendingComunicatoQueueService $pendingComunicatoQueue;
+    public readonly PdfLinkPageService $pdfLinkPage;
+    public readonly ReportPdfService $reportPdf;
 
     public function __construct(private readonly string $basePath)
     {
@@ -99,6 +105,8 @@ final class Application
             new PdfConversionService(new PdfWatermarkService()),
             new HostingDocumentUploadService($this->hostingConfig)
         );
+        $this->pdfLinkPage = new PdfLinkPageService();
+        $this->reportPdf = new ReportPdfService();
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
         $this->pendingComunicatoQueue = new PendingComunicatoQueueService(
             $this->hostingConfig,
@@ -122,6 +130,7 @@ final class Application
         $this->users = new UserRepository($pdo);
         $this->tokens = new TokenRepository($pdo);
         $this->roles = new RolePermissionRepository($pdo);
+        $this->calls = new CallRepository($pdo);
         $this->documents = new DocumentRepository($pdo);
         $this->documentComments = new DocumentCommentRepository($pdo);
         $this->gdprConsents = new GdprConsentRepository($pdo);

@@ -91,6 +91,27 @@ final class ReportController
         return new FileResponse($path, (string)$attachment['original_name'], (string)$attachment['mime_type'], true);
     }
 
+    public function sharedAttachment(Request $request, array $params): FileResponse
+    {
+        $attachment = $this->app->reportAttachments->findById((int)$params['id']);
+        if ($attachment === null) {
+            throw new HttpException(404, 'Allegato non trovato.');
+        }
+
+        $reportId = (int)$request->query('report_id', 0);
+        $signature = (string)$request->query('signature', '');
+        if ($reportId !== (int)$attachment['report_id'] || !$this->validSharedAttachmentSignature($attachment, $signature)) {
+            throw new HttpException(403, 'Link allegato non valido.');
+        }
+
+        $path = $this->app->reportAttachmentStorage->path((string)$attachment['stored_name']);
+        if (!is_file($path)) {
+            throw new HttpException(404, 'File non trovato.');
+        }
+
+        return new FileResponse($path, (string)$attachment['original_name'], (string)$attachment['mime_type'], true);
+    }
+
     public function moderate(Request $request, array $params): Response
     {
         $user = $this->app->auth->requirePermission($request, 'reports.moderate');
@@ -107,11 +128,12 @@ final class ReportController
         $protocol = null;
         $document = null;
         if ($status === 'approved') {
-            $document = $this->approvedDocument($report, (int)$user['id']);
+            $document = $this->approvedDocument($report, (int)$user['id'], $this->appBaseUrl());
             $updated = $this->app->reports->attachDocument((int)$report['id'], (int)$document['id']);
             $protocol = $this->app->protocols->findActiveByDocumentId((int)$document['id'])
                 ?? $this->app->protocols->create('IN', 'SEG', (string)$report['subject'], (int)$user['id']);
             $protocol = $this->app->protocols->update((int)$protocol['id'], (string)$report['subject'], (int)$document['id']);
+            $updated['protocol_number'] = $protocol['protocol_number'];
         }
 
         $this->app->activityLogs->write((int)$user['id'], 'reports.moderate', [
@@ -122,6 +144,15 @@ final class ReportController
         ]);
 
         return Response::json(['data' => ['report' => $updated, 'document' => $document, 'protocol' => $protocol]]);
+    }
+
+    public function show(Request $request, array $params): Response
+    {
+        $this->app->auth->requirePermission($request, 'reports.moderate');
+        $report = $this->findReport((int)$params['id']);
+        $report['attachments'] = $this->app->reportAttachments->forReport((int)$report['id']);
+
+        return Response::json(['data' => $report]);
     }
 
     private function findReport(int $id): array
@@ -162,7 +193,7 @@ final class ReportController
         return $normalized;
     }
 
-    private function signDocument(array $document): array
+    private function signDocument(array $document, ?int $reportId = null, ?string $baseUrl = null): array
     {
         $document = $this->app->documents->updateSignature((int)$document['id'], $this->app->documentSignature->sign($document));
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
@@ -171,7 +202,7 @@ final class ReportController
         return $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
     }
 
-    private function approvedDocument(array $report, int $userId): array
+    private function approvedDocument(array $report, int $userId, string $baseUrl): array
     {
         if (!empty($report['document_id'])) {
             $document = $this->app->documents->findById((int)$report['document_id']);
@@ -180,18 +211,90 @@ final class ReportController
             }
         }
 
+        $attachments = array_map(function (array $attachment) use ($baseUrl): array {
+            $path = $this->app->reportAttachmentStorage->path((string)$attachment['stored_name']);
+            $attachment['path'] = $path;
+            if (str_starts_with((string)$attachment['mime_type'], 'image/') && is_file($path)) {
+                $attachment['kind'] = 'image';
+                return $attachment;
+            }
+
+            $attachment['kind'] = 'video';
+            $attachment['shared_url'] = $this->sharedAttachmentUrl($attachment, $baseUrl);
+            return $attachment;
+        }, $this->app->reportAttachments->forReport((int)$report['id']));
         $html = $this->app->reportService->html(
             (string)$report['subject'],
             (string)$report['message'],
             (string)($report['contact'] ?? ''),
-            (string)$report['tracking_code']
+            (string)$report['tracking_code'],
+            $attachments
         );
-        $stored = $this->app->documentStorage->storeHtml($html, 'segnalazione-' . $report['tracking_code'] . '.html', 'segnalazioni');
+        $stored = $this->app->documentStorage->storeGeneratedPdf(
+            $html,
+            'segnalazione-' . $report['tracking_code'] . '.html',
+            'segnalazioni',
+            fn (string $pdfPath) => $this->app->reportPdf->write($pdfPath, $report, $attachments, null, null)
+        );
         $document = $this->app->documents->create($stored + [
             'visibility' => 'rsu',
             'uploaded_by' => $userId,
         ]);
 
-        return $this->signDocument($document);
+        $signature = $this->app->documentSignature->sign($document);
+        $verifyUrl = $baseUrl . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode($signature);
+        $document = $this->app->documents->updateSignature((int)$document['id'], $signature);
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        $this->app->reportPdf->write($pdfPath, $report, $attachments, $signature, $verifyUrl);
+
+        return $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
     }
+
+    private function sharedAttachmentUrl(array $attachment, string $baseUrl): string
+    {
+        $id = (int)$attachment['id'];
+        $reportId = (int)$attachment['report_id'];
+        $signature = $this->sharedAttachmentSignature($attachment);
+
+        return $baseUrl . '/api/v1/reports/attachments/' . $id . '/shared?report_id=' . $reportId . '&signature=' . $signature;
+    }
+
+    private function sharedAttachmentSignature(array $attachment): string
+    {
+        return hash_hmac(
+            'sha256',
+            implode('|', [
+                'report-attachment',
+                (string)$attachment['id'],
+                (string)$attachment['report_id'],
+                (string)$attachment['stored_name'],
+                (string)$attachment['checksum_sha256'],
+            ]),
+            $this->sharedAttachmentSecret()
+        );
+    }
+
+    private function validSharedAttachmentSignature(array $attachment, string $signature): bool
+    {
+        return hash_equals($this->sharedAttachmentSignature($attachment), $signature);
+    }
+
+    private function sharedAttachmentSecret(): string
+    {
+        $secret = trim((string)env_value('MYRSU_SIGNING_SECRET', ''));
+        return $secret !== '' ? $secret : hash('sha256', 'MYRSU_REPORT_ATTACHMENT_V1');
+    }
+
+    private function appBaseUrl(): string
+    {
+        $host = (string)($_SERVER['HTTP_HOST'] ?? '');
+        if ($host !== '') {
+            $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+            $dir = rtrim(str_replace('\\', '/', dirname((string)($_SERVER['SCRIPT_NAME'] ?? ''))), '/');
+            return $scheme . '://' . $host . ($dir === '' ? '' : $dir);
+        }
+
+        return rtrim((string)env_value('APP_URL', 'http://localhost/myrsu'), '/');
+    }
+
 }

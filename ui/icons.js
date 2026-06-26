@@ -1,6 +1,7 @@
 const MyRsuIcons = (() => {
   const icons = {
     active: '<svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-5"/><circle cx="12" cy="12" r="9"/></svg>',
+    call: '<svg viewBox="0 0 24 24"><path d="M6 4h4l2 5-2 2a14 14 0 0 0 5 5l2-2 5 2v4a2 2 0 0 1-2 2C11 22 2 13 2 6a2 2 0 0 1 2-2z"/></svg>',
     document: '<svg viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg>',
     download: '<svg viewBox="0 0 24 24"><path d="M12 4v10"/><path d="M8 10l4 4 4-4"/><path d="M5 19h14"/></svg>',
     edit: '<svg viewBox="0 0 24 24"><path d="M4 20h4l11-11-4-4L4 16v4z"/><path d="M13 7l4 4"/></svg>',

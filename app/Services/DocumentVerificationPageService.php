@@ -95,7 +95,7 @@ final class DocumentVerificationPageService
     private function merge(array $pdfPaths, string $targetPath): void
     {
         $command = escapeshellarg($this->ghostscriptPath())
-            . ' -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=' . escapeshellarg($targetPath)
+            . ' -dBATCH -dNOPAUSE -dPreserveAnnots=true -q -sDEVICE=pdfwrite -sOutputFile=' . escapeshellarg($targetPath)
             . ' ' . implode(' ', array_map('escapeshellarg', $pdfPaths));
 
         exec($command, $output, $exitCode);

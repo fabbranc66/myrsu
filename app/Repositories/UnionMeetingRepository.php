@@ -58,6 +58,12 @@ final class UnionMeetingRepository
         return $this->findById($id);
     }
 
+    public function clearPublicDocumentByDocumentId(int $documentId): void
+    {
+        $stmt = $this->pdo->prepare('UPDATE union_meetings SET public_document_id = NULL, updated_at = NOW() WHERE public_document_id = ?');
+        $stmt->execute([$documentId]);
+    }
+
     public function update(int $id, array $data): ?array
     {
         $stmt = $this->pdo->prepare(

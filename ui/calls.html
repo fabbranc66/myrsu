@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU Telefonate</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="users.css">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Telefonate</h1></div>
+    <nav class="app-nav">
+      <a href="app/index.html">Dashboard</a>
+      <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a><a href="contacts.html">Contatti</a></div></div>
+      <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
+      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a href="comunicati-create.html">Comunicati</a><a href="union-meetings.html">Incontri sindacali</a><a class="active" href="calls.html">Telefonate</a><a href="reports.html">Segnalazioni</a><a href="reports-moderation.html">Moderazione segnalazioni</a><a href="comments-moderation.html">Moderazione commenti</a><a href="pending-queue.html">Coda PDF</a></div></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <header>
+        <div>
+          <h1>Registro telefonate</h1>
+          <p class="muted">Timeline cronologica delle telefonate in ingresso e uscita.</p>
+        </div>
+      </header>
+
+      <form id="callForm" class="grid">
+        <label>Direzione<select name="direction" required><option value="incoming">incoming</option><option value="outgoing">outgoing</option></select></label>
+        <div class="full-width contact-picker">
+          <label>Interlocutore<input id="interlocutorSearch" type="text" autocomplete="off" placeholder="Cerca o scrivi interlocutore"></label>
+          <input id="interlocutorName" name="interlocutor_name" type="hidden" required>
+          <div id="interlocutorTag" class="tag-list"></div>
+          <div id="interlocutorResults" class="contact-results hidden"></div>
+        </div>
+        <label>Ruolo<input name="interlocutor_role"></label>
+        <label>Organizzazione<input name="interlocutor_org"></label>
+        <label>Data<input name="call_date" type="date" required></label>
+        <label>Ora<input name="call_time" type="time" required></label>
+        <label>Esito<input name="outcome" placeholder="info, richiesta, accordo, criticita"></label>
+        <label>Pratica<select id="practiceSelect" name="practice_id"><option value="">non associata</option></select></label>
+        <label class="full-width">Contenuto<textarea name="content" required></textarea></label>
+        <button type="submit">Salva telefonata</button>
+      </form>
+
+      <form id="filterForm" class="grid">
+        <label>Filtro pratica<select id="practiceFilter" name="practice_id"><option value="">tutte</option></select></label>
+        <button type="submit">Filtra</button>
+      </form>
+
+      <table>
+        <thead><tr><th>Data/ora</th><th>Direzione</th><th>Interlocutore</th><th>Esito</th><th>Pratica</th><th>Azioni</th></tr></thead>
+        <tbody id="callsTable"></tbody>
+      </table>
+
+      <dialog id="practiceLinkModal">
+        <header><h2>Collega a pratica</h2><button id="closePracticeLinkModal" type="button">Chiudi</button></header>
+        <form id="practiceLinkForm" class="grid">
+          <input name="call_id" type="hidden">
+          <select name="practice_id" required></select>
+          <button type="submit">Collega</button>
+        </form>
+      </dialog>
+
+      <dialog id="callEditModal">
+        <header><h2>Modifica telefonata</h2><button id="closeCallEditModal" type="button">Chiudi</button></header>
+        <form id="callEditForm" class="grid">
+          <input name="id" type="hidden">
+          <label>Direzione<select name="direction" required><option value="incoming">incoming</option><option value="outgoing">outgoing</option></select></label>
+          <label>Interlocutore<input name="interlocutor_name" required></label>
+          <label>Ruolo<input name="interlocutor_role"></label>
+          <label>Organizzazione<input name="interlocutor_org"></label>
+          <label>Data<input name="call_date" type="date" required></label>
+          <label>Ora<input name="call_time" type="time" required></label>
+          <label>Esito<input name="outcome"></label>
+          <label class="full-width">Contenuto<textarea name="content" required></textarea></label>
+          <button type="submit">Salva modifiche</button>
+        </form>
+      </dialog>
+
+      <dialog id="contactModal">
+        <header><h2>Nuovo contatto</h2><button id="closeContactModal" type="button">Chiudi</button></header>
+        <form id="contactForm" class="grid">
+          <label>Origine<select name="source"><option value="institutional">istituzionale</option><option value="user">interno</option></select></label>
+          <label>Tipo<select name="type"><option value="aziendale">aziendale</option><option value="sindacale">sindacale</option><option value="esterno">esterno</option></select></label>
+          <label>Nome<input name="name" required></label>
+          <label>Ruolo<input name="role"></label>
+          <label>Organizzazione<input name="organization"></label>
+          <label>Email<input name="email" type="email"></label>
+          <label>Telefono<input name="phone"></label>
+          <label>Ruolo interno<select name="user_role"><option value="membro">membro</option><option value="delegato">delegato</option><option value="rls">rls</option><option value="admin">admin</option></select></label>
+          <label>Password interno<input name="password" type="password"></label>
+          <label class="full-width">Note<textarea name="notes"></textarea></label>
+          <button type="submit">Salva contatto</button>
+        </form>
+      </dialog>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js"></script>
+  <script src="calls.js"></script>
+  <script src="auth-menu.js"></script>
+</body>
+</html>

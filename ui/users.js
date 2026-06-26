@@ -1,9 +1,7 @@
 const apiBase = '../api/v1';
 const state = { token: sessionStorage.getItem('token'), roles: [] };
 
-const loginPanel = document.querySelector('#loginPanel');
 const userPanel = document.querySelector('#userPanel');
-const loginForm = document.querySelector('#loginForm');
 const createForm = document.querySelector('#createForm');
 const usersTable = document.querySelector('#usersTable');
 const roleSelect = document.querySelector('#roleSelect');
@@ -36,8 +34,12 @@ async function api(path, options = {}) {
 }
 
 function setAuthView() {
-  loginPanel.classList.toggle('hidden', Boolean(state.token));
-  userPanel.classList.toggle('hidden', !state.token);
+  if (!state.token) {
+    window.location.href = 'app/index.html';
+    return;
+  }
+
+  userPanel.classList.remove('hidden');
 }
 
 async function loadRoles() {
@@ -62,32 +64,6 @@ async function loadUsers() {
   const users = await api('/users');
   usersTable.innerHTML = users.map((user) => renderUserRow(user, state.roles)).join('');
 }
-
-loginForm.addEventListener('submit', async (event) => {
-  event.preventDefault();
-  message.textContent = '';
-
-  try {
-    const form = new FormData(loginForm);
-    const data = await api('/auth/login', {
-      method: 'POST',
-      body: JSON.stringify({
-        email: form.get('email'),
-        password: form.get('password'),
-        device_name: 'users-ui',
-      }),
-    });
-
-    state.token = data.access_token;
-    sessionStorage.setItem('token', state.token);
-    setAuthView();
-    await loadRoles();
-    await checkGdpr();
-    await loadUsers();
-  } catch (error) {
-    showError(error);
-  }
-});
 
 createForm.addEventListener('submit', async (event) => {
   event.preventDefault();
@@ -213,6 +189,8 @@ function formatAction(log) {
     'documents.download': 'Documento scaricato',
     'documents.upload': 'Documento caricato',
     'documents.delete': 'Documento eliminato',
+    'calls.create': 'Telefonata registrata',
+    'calls.link_practice': 'Telefonata collegata a pratica',
     'practices.link': 'Oggetto collegato a pratica',
     'contacts.create': 'Contatto creato',
     'meetings.create': 'Incontro creato',
@@ -244,6 +222,10 @@ function formatObjectLink(value) {
 
   if (data.document_id) {
     return `<button class="log-object-link" data-log-type="document" data-log-id="${data.document_id}" data-log-title="Documento">apri documento</button> `;
+  }
+
+  if (data.call_id) {
+    return `<button class="log-object-link" data-log-type="call" data-log-id="${data.call_id}" data-log-title="Telefonata">apri telefonata</button> `;
   }
 
   if (data.report_id) {
@@ -289,6 +271,7 @@ async function openLogObject(type, id, title) {
 
 async function loadLogObject(type, id) {
   if (type === 'document') return api(`/documents/${id}`);
+  if (type === 'call') return api(`/calls/${id}`);
   if (type === 'meeting') return api(`/union-meetings/${id}`);
   if (type === 'user') return api(`/users/${id}`);
   if (type === 'contacts') return (await api('/contacts')).institutional.find((item) => Number(item.id) === Number(id));
@@ -335,6 +318,16 @@ function renderLogObject(type, data) {
     Oggetto: data.subject,
     Stato: data.status,
     Testo: data.message,
+  });
+  if (type === 'call') return logDefinitionList({
+    Direzione: data.direction,
+    Interlocutore: data.interlocutor?.name,
+    Ruolo: data.interlocutor?.role,
+    Organizzazione: data.interlocutor?.org,
+    Data: data.datetime?.replace('T', ' '),
+    Esito: data.outcome,
+    Pratica: data.practice_id,
+    Contenuto: data.content,
   });
   if (type === 'comments') return logDefinitionList({
     Documento: data.document_id,
@@ -416,8 +409,12 @@ function formatMetadata(value) {
       return formatMeetingMetadata(data);
     }
 
-    if (data.section === 'contacts') {
+  if (data.section === 'contacts') {
       return formatContactMetadata(data);
+    }
+
+    if (data.section === 'calls') {
+      return formatCallMetadata(data);
     }
 
     return Object.entries(data)
@@ -448,6 +445,7 @@ async function orphanLogIds(logs) {
 function logObjectFromMetadata(data) {
   if (!data) return null;
   if (data.document_id) return { type: 'document', id: data.document_id };
+  if (data.call_id) return { type: 'call', id: data.call_id };
   if (data.report_id) return { type: 'reports', id: data.report_id };
   if (data.comment_id) return { type: 'comments', id: data.comment_id };
   if (data.meeting_id) return { type: 'meeting', id: data.meeting_id };
@@ -474,6 +472,13 @@ function formatContactMetadata(data) {
   return parts.join(' | ');
 }
 
+function formatCallMetadata(data) {
+  const parts = [];
+  if (data.call_id) parts.push(`telefonata: ${data.call_id}`);
+  if (data.practice_id) parts.push(`pratica: ${data.practice_id}`);
+  return parts.join(' | ');
+}
+
 function translateMeetingNoteType(type) {
   return { content: 'contenuto', answer: 'risposta', idea: 'idea', proposal: 'proposta' }[type] || type;
 }
@@ -497,7 +502,7 @@ function formatSection(value) {
 
   try {
     const section = parseMetadata(value)?.section || '';
-    return { comments: 'commenti', reports: 'segnalazioni', documents: 'documenti', practices: 'pratiche', registry: 'anagrafica', meetings: 'incontri', contacts: 'anagrafica' }[section] || section;
+    return { comments: 'commenti', reports: 'segnalazioni', documents: 'documenti', practices: 'pratiche', registry: 'anagrafica', meetings: 'incontri', contacts: 'anagrafica', calls: 'telefonate' }[section] || section;
   } catch {
     return '';
   }
@@ -639,4 +644,11 @@ document.querySelector('#acceptGdpr').addEventListener('click', async () => {
 });
 
 setAuthView();
-if (state.token) loadRoles().then(checkGdpr).then(loadUsers).catch(showError);
+if (state.token) {
+  loadRoles().then(checkGdpr).then(loadUsers).catch((error) => {
+    sessionStorage.removeItem('token');
+    state.token = null;
+    showError(error);
+    window.location.href = 'app/index.html';
+  });
+}

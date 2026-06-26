@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use App\Controllers\Api\ActivityController;
 use App\Controllers\Api\AuthController;
+use App\Controllers\Api\CallController;
 use App\Controllers\Api\ComunicatoController;
 use App\Controllers\Api\ContactController;
 use App\Controllers\Api\DocumentController;
@@ -23,6 +24,7 @@ use App\Core\Response;
 
 $auth = new AuthController($app);
 $activity = new ActivityController($app);
+$calls = new CallController($app);
 $comunicati = new ComunicatoController($app);
 $contacts = new ContactController($app);
 $documents = new DocumentController($app);
@@ -70,6 +72,13 @@ $app->router->get('/api/v1/users/{id}/gdpr/consents', [$gdpr, 'userIndex']);
 $app->router->get('/api/v1/users/{id}/activity', [$activity, 'userIndex']);
 $app->router->delete('/api/v1/activity/{id}', [$activity, 'destroy']);
 
+$app->router->get('/api/v1/calls', [$calls, 'index']);
+$app->router->post('/api/v1/calls', [$calls, 'store']);
+$app->router->get('/api/v1/calls/{id}', [$calls, 'show']);
+$app->router->patch('/api/v1/calls/{id}', [$calls, 'update']);
+$app->router->delete('/api/v1/calls/{id}', [$calls, 'destroy']);
+$app->router->post('/api/v1/calls/{id}/link-practice', [$calls, 'linkPractice']);
+
 $app->router->get('/api/v1/documents', [$documents, 'index']);
 $app->router->get('/api/v1/public/documents', [$documents, 'publicIndex']);
 $app->router->get('/api/v1/documents/private', [$documents, 'privateIndex']);
@@ -98,6 +107,8 @@ $app->router->get('/api/v1/reports', [$reports, 'index']);
 $app->router->get('/api/v1/reports/stats', [$reports, 'stats']);
 $app->router->post('/api/v1/reports', [$reports, 'store']);
 $app->router->get('/api/v1/reports/attachments/{id}/preview', [$reports, 'attachment']);
+$app->router->get('/api/v1/reports/attachments/{id}/shared', [$reports, 'sharedAttachment']);
+$app->router->get('/api/v1/reports/{id}', [$reports, 'show']);
 $app->router->patch('/api/v1/reports/{id}/moderation', [$reports, 'moderate']);
 
 $app->router->get('/api/v1/comments', [$comments, 'index']);

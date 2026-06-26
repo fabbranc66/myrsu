@@ -81,7 +81,23 @@ final class ProtocolController
     public function destroy(Request $request, array $params): Response
     {
         $user = $this->app->auth->requirePermission($request, 'protocol.cancel');
+        $entry = $this->app->protocols->findById((int)$params['id']);
+        if (!$entry) {
+            throw new HttpException(404, 'Protocollo non trovato.');
+        }
+
+        $documentId = (int)($entry['document_id'] ?? 0);
+        $isComunicato = strtoupper((string)($entry['type_code'] ?? '')) === 'COM';
         $entry = $this->app->protocols->cancel((int)$params['id'], (int)$user['id']);
+
+        if ($isComunicato && $documentId > 0) {
+            $document = $this->app->documents->findById($documentId);
+            if ($document !== null) {
+                $this->app->documentStorage->delete($document);
+                $this->app->documents->delete($documentId);
+            }
+            $this->app->unionMeetings->clearPublicDocumentByDocumentId($documentId);
+        }
 
         $this->app->activityLogs->write((int)$user['id'], 'protocol.cancel', [
             'section' => 'protocol',

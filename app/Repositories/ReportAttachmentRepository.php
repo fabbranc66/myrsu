@@ -34,7 +34,7 @@ final class ReportAttachmentRepository
     public function forReport(int $reportId): array
     {
         $stmt = $this->pdo->prepare(
-            'SELECT id, report_id, original_name, mime_type, size_bytes, created_at
+            'SELECT id, report_id, original_name, stored_name, mime_type, size_bytes, checksum_sha256, created_at
              FROM report_attachments WHERE report_id = ? ORDER BY id ASC'
         );
         $stmt->execute([$reportId]);

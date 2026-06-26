@@ -88,6 +88,7 @@ final class UnionMeetingController
             'status' => (string)($data['status'] ?? $meeting['status']),
             'visibility' => (string)($data['visibility'] ?? $meeting['visibility']),
         ]);
+        $this->app->unionMeetingParticipants->replace((int)$meeting['id'], $data['selected_participants'] ?? []);
         $this->app->activityLogs->write((int)$user['id'], 'meetings.update', [
             'section' => 'meetings',
             'meeting_id' => $updated['id'],

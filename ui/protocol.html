@@ -20,6 +20,7 @@
         <div class="submenu">
           <a href="users.html">Utenti</a>
           <a href="profile.html">Profilo</a>
+          <a href="contacts.html">Contatti</a>
         </div>
       </div>
       <div class="menu-group active">
@@ -32,8 +33,14 @@
         <span>Archivio</span>
         <div class="submenu">
           <a href="documents.html">Documenti</a>
+          <a href="private-documents.html">Privato</a>
+          <a href="comunicati-create.html">Comunicati</a>
+          <a href="union-meetings.html">Incontri sindacali</a>
+          <a href="calls.html">Telefonate</a>
           <a href="reports.html">Segnalazioni</a>
-          <a href="reports-moderation.html">Moderazione</a>
+          <a href="reports-moderation.html">Moderazione segnalazioni</a>
+          <a href="comments-moderation.html">Moderazione commenti</a>
+          <a href="pending-queue.html">Coda PDF</a>
         </div>
       </div>
     </nav>
@@ -67,12 +74,31 @@
         <iframe id="documentPreview" title="Document preview"></iframe>
       </dialog>
 
+      <dialog id="reportModal">
+        <header>
+          <h2 id="reportModalTitle">Segnalazione</h2>
+          <button id="closeReportModal" type="button">Chiudi</button>
+        </header>
+        <p id="reportModalMeta" class="muted"></p>
+        <pre id="reportModalMessage"></pre>
+        <div id="reportModalDocument" class="attachment-list"></div>
+        <div id="reportModalAttachments" class="attachment-list"></div>
+      </dialog>
+
+      <dialog id="attachmentModal">
+        <header>
+          <h2 id="attachmentModalTitle">Allegato</h2>
+          <button id="closeAttachmentModal" type="button">Chiudi</button>
+        </header>
+        <div id="attachmentModalBody"></div>
+      </dialog>
+
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
   <script src="icons.js"></script>
-  <script src="protocol.js"></script>
+  <script src="protocol.js?v=20260626-3"></script>
   <script src="auth-menu.js"></script>
 </body>
 </html>

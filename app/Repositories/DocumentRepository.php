@@ -21,11 +21,24 @@ final class DocumentRepository
     {
         return $this->pdo
             ->query(
-                "SELECT id, original_name, original_stored_name, category, pdf_size_bytes, created_at
-                 FROM documents
+                "SELECT d.id, d.original_name, d.original_stored_name, d.category, d.pdf_size_bytes, d.created_at
+                 FROM documents d
                  WHERE visibility = 'public' AND conversion_status = 'ready'
                    AND category IN ('documenti', 'comunicati')
-                 ORDER BY category, created_at DESC, id DESC"
+                   AND (
+                     NOT EXISTS (
+                       SELECT 1
+                       FROM protocol_entries pe_any
+                       WHERE pe_any.document_id = d.id
+                     )
+                     OR EXISTS (
+                       SELECT 1
+                       FROM protocol_entries pe_active
+                       WHERE pe_active.document_id = d.id
+                         AND pe_active.canceled_at IS NULL
+                     )
+                   )
+                 ORDER BY d.category, d.created_at DESC, d.id DESC"
             )
             ->fetchAll();
     }

@@ -31,7 +31,13 @@ final class ReportRepository
 
     public function findById(int $id): ?array
     {
-        $stmt = $this->pdo->prepare('SELECT * FROM reports WHERE id = ? LIMIT 1');
+        $stmt = $this->pdo->prepare(
+            'SELECT r.*, pe.protocol_number
+             FROM reports r
+             LEFT JOIN protocol_entries pe ON pe.document_id = r.document_id AND pe.canceled_at IS NULL
+             WHERE r.id = ?
+             LIMIT 1'
+        );
         $stmt->execute([$id]);
 
         return $stmt->fetch() ?: null;

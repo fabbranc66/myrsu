@@ -18,10 +18,12 @@ final class ProtocolRepository
             ->query(
                 'SELECT pe.*, creator.name AS created_by_name, canceler.name AS canceled_by_name
                  , d.id AS preview_document_id
+                 , r.id AS report_id, r.tracking_code AS report_tracking_code, r.subject AS report_subject
                  FROM protocol_entries pe
                  LEFT JOIN users creator ON creator.id = pe.created_by
                  LEFT JOIN users canceler ON canceler.id = pe.canceled_by
                  LEFT JOIN documents d ON d.id = pe.document_id
+                 LEFT JOIN reports r ON r.document_id = d.id
                  ORDER BY pe.id DESC'
             )
             ->fetchAll();
@@ -32,10 +34,12 @@ final class ProtocolRepository
         $stmt = $this->pdo->prepare(
             'SELECT pe.*, creator.name AS created_by_name, canceler.name AS canceled_by_name
              , d.id AS preview_document_id
+             , r.id AS report_id, r.tracking_code AS report_tracking_code, r.subject AS report_subject
              FROM protocol_entries pe
              LEFT JOIN users creator ON creator.id = pe.created_by
              LEFT JOIN users canceler ON canceler.id = pe.canceled_by
              LEFT JOIN documents d ON d.id = pe.document_id
+             LEFT JOIN reports r ON r.document_id = d.id
              WHERE pe.id = ?'
         );
         $stmt->execute([$id]);
@@ -98,10 +102,12 @@ final class ProtocolRepository
         $stmt = $this->pdo->prepare(
             'SELECT pe.*, creator.name AS created_by_name, canceler.name AS canceled_by_name
              , d.id AS preview_document_id
+             , r.id AS report_id, r.tracking_code AS report_tracking_code, r.subject AS report_subject
              FROM protocol_entries pe
              LEFT JOIN users creator ON creator.id = pe.created_by
              LEFT JOIN users canceler ON canceler.id = pe.canceled_by
              LEFT JOIN documents d ON d.id = pe.document_id
+             LEFT JOIN reports r ON r.document_id = d.id
              WHERE pe.document_id = ? AND pe.canceled_at IS NULL
              ORDER BY pe.id DESC
              LIMIT 1'
