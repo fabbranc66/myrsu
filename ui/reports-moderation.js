@@ -14,8 +14,12 @@ const attachmentModal = document.querySelector('#attachmentModal');
 const attachmentModalTitle = document.querySelector('#attachmentModalTitle');
 const attachmentModalBody = document.querySelector('#attachmentModalBody');
 const closeAttachmentModal = document.querySelector('#closeAttachmentModal');
+const practiceLinkModal = document.querySelector('#practiceLinkModal');
+const practiceLinkForm = document.querySelector('#practiceLinkForm');
+const closePracticeLinkModal = document.querySelector('#closePracticeLinkModal');
 const initialStatus = new URLSearchParams(window.location.search).get('status');
 let reports = [];
+let practices = [];
 const attachmentMap = new Map();
 
 if (!token) window.location.href = 'app/index.html';
@@ -33,7 +37,10 @@ async function api(path, options = {}) {
 }
 
 async function loadReports() {
-  reports = await api(`/reports?status=${encodeURIComponent(statusFilter.value)}`);
+  [reports, practices] = await Promise.all([
+    api(`/reports?status=${encodeURIComponent(statusFilter.value)}`),
+    api('/practices').catch(() => []),
+  ]);
   reportsTable.innerHTML = reports.map(row).join('');
 }
 
@@ -49,6 +56,7 @@ function row(report) {
       <button class="icon-action" data-approve="${report.id}" title="Approva">${MyRsuIcons.get('active')}</button>
       <button class="icon-action danger" data-reject="${report.id}" title="Respingi">${MyRsuIcons.get('suspended')}</button>
       <button class="icon-action" data-view="${report.id}" title="Visualizza">${MyRsuIcons.get('eye')}</button>
+      <button class="icon-action" data-practice-link="${report.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button>
       ${report.document_id ? `<a class="icon-action" href="document-view.html?id=${report.document_id}" title="Documento">${MyRsuIcons.get('download')}</a>` : ''}
     </td>
   </tr>`;
@@ -66,6 +74,10 @@ function translateStatus(status) {
 reportsTable.addEventListener('click', async (event) => {
   const button = event.target.closest('button');
   if (!button) return;
+  if (button.dataset.practiceLink) {
+    openPracticeLink(button.dataset.practiceLink);
+    return;
+  }
   if (button.dataset.view) {
     showReport(Number(button.dataset.view));
     return;
@@ -80,6 +92,33 @@ reportsTable.addEventListener('click', async (event) => {
   message.textContent = status === 'approved' ? 'Segnalazione approvata e protocollata' : 'Segnalazione respinta';
   await loadReports();
 });
+
+function openPracticeLink(reportId) {
+  practiceLinkForm.report_id.value = reportId;
+  practiceLinkForm.practice_id.innerHTML = practices.length
+    ? practices.map((practice) => `<option value="${practice.id}">${escapeHtml(practice.title)}</option>`).join('')
+    : '<option value="">Nessuna pratica disponibile</option>';
+  practiceLinkForm.querySelector('button[type="submit"]').disabled = practices.length === 0;
+  practiceLinkModal.showModal();
+}
+
+practiceLinkForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const data = Object.fromEntries(new FormData(practiceLinkForm).entries());
+  await api('/practice-links', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      practice_id: Number(data.practice_id),
+      entity_type: 'report',
+      entity_id: Number(data.report_id),
+    }),
+  });
+  message.textContent = 'Segnalazione collegata alla pratica';
+  practiceLinkModal.close();
+});
+
+closePracticeLinkModal.addEventListener('click', () => practiceLinkModal.close());
 
 function showReport(id) {
   const report = reports.find((item) => Number(item.id) === id);

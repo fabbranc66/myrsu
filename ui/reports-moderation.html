@@ -56,6 +56,18 @@
         <div id="attachmentModalBody"></div>
       </dialog>
 
+      <dialog id="practiceLinkModal">
+        <header>
+          <h2>Collega a pratica</h2>
+          <button id="closePracticeLinkModal" type="button">Chiudi</button>
+        </header>
+        <form id="practiceLinkForm" class="grid">
+          <input type="hidden" name="report_id">
+          <select name="practice_id" required></select>
+          <button type="submit">Collega</button>
+        </form>
+      </dialog>
+
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
