@@ -439,17 +439,3 @@ body {
 .hidden {
   display: none !important;
 }
-
-.nav-button {
-  border: 0;
-  background: transparent;
-  color: #fff;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-}
-
-.nav-button:hover,
-.nav-button:focus {
-  color: #93c5fd;
-}

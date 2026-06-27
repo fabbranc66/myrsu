@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU</title>
-  <link rel="stylesheet" href="../menu.css">
+  <link rel="stylesheet" href="../menu.css?v=20260627-1">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/auth.css">
 </head>
@@ -90,15 +90,15 @@
         </div>
         <nav class="app-nav">
           <a class="active" href="index.html">Dashboard</a>
-          <div class="menu-group restricted-menu">
+          <div id="anagraphicsMenu" class="menu-group hidden">
             <span>Anagrafica</span>
             <div class="submenu">
-              <a href="../users.html">Utenti</a>
-              <a href="../profile.html">Profilo</a>
-              <a href="../contacts.html">Contatti</a>
+              <a id="usersMenuLink" href="../users.html">Utenti</a>
+              <a id="profileMenuLink" href="../profile.html">Profilo</a>
+              <a id="contactsMenuLink" href="../contacts.html">Contatti</a>
             </div>
           </div>
-          <div class="menu-group restricted-menu">
+          <div id="protocolMenu" class="menu-group hidden">
             <span>Protocollo</span>
             <div class="submenu">
               <a href="../protocol.html">Registro</a>
@@ -108,7 +108,7 @@
             <span>Archivio</span>
             <div class="submenu">
               <a href="../documents.html">Documenti</a>
-              <a href="../private-documents.html">Privato</a>
+              <a id="privateDocumentsLink" class="hidden" href="../private-documents.html">Privato</a>
               <a href="../comunicati-create.html">Comunicati</a>
               <a href="../union-meetings.html">Incontri sindacali</a>
               <a href="../calls.html">Telefonate</a>
@@ -216,7 +216,7 @@
 
   <script src="js/api.js"></script>
   <script src="js/auth.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=20260627-4"></script>
 </body>
 </html>
 

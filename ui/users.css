@@ -697,6 +697,59 @@ dialog {
   border: 1px solid #cbd5e1;
 }
 
+.doc-origin-tag.draft,
+.doc-type-tag.draft {
+  border: 1px solid #fbbf24;
+  background: #fffbeb;
+  color: #92400e;
+}
+
+.draft-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.draft-generate-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid #2563eb;
+  border-radius: 7px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  padding: 7px 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.draft-generate-button svg {
+  width: 17px;
+  height: 17px;
+}
+
+.success-message,
+.error-message {
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+
+.success-message {
+  border: 1px solid #86efac;
+  background: #f0fdf4;
+  color: #166534;
+}
+
+.error-message {
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  color: #991b1b;
+}
+
 #reportModalMessage {
   max-width: 760px;
   white-space: pre-wrap;

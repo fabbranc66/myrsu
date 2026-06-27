@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Document Edit</title>
-  <link rel="stylesheet" href="menu.css">
-  <link rel="stylesheet" href="users.css">
+  <link rel="stylesheet" href="menu.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260627-2">
 </head>
 <body>
   <header class="app-header">
@@ -56,14 +56,14 @@
         </select>
         <textarea name="title" id="titleField" class="hidden" placeholder="Oggetto" style="min-height:120px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
         <textarea name="body" id="bodyField" class="hidden" placeholder="Contenuto" style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
-        <button type="submit">Salva</button>
+        <button id="saveButton" type="submit">Salva</button>
       </form>
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="document-edit.js"></script>
-  <script src="auth-menu.js"></script>
+  <script src="document-edit.js?v=20260627-2"></script>
+  <script src="auth-menu.js?v=20260627-4"></script>
 </body>
 </html>
 

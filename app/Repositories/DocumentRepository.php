@@ -130,6 +130,14 @@ final class DocumentRepository
         return $this->findById($id);
     }
 
+    public function updatePublicPath(int $id, string $publicPath): ?array
+    {
+        $stmt = $this->pdo->prepare('UPDATE documents SET stored_name = ?, pdf_public_path = ? WHERE id = ?');
+        $stmt->execute([basename($publicPath), $publicPath, $id]);
+
+        return $this->findById($id);
+    }
+
     public function completePendingComunicato(int $id, string $signature, int $size, string $checksum): ?array
     {
         $stmt = $this->pdo->prepare(

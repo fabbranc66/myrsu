@@ -20,14 +20,14 @@ final class UserController
 
     public function index(Request $request): Response
     {
-        $this->app->auth->requirePermission($request, 'users.view');
+        $this->requireRegistryViewer($request);
 
         return Response::json(['data' => $this->app->users->all()]);
     }
 
     public function show(Request $request, array $params): Response
     {
-        $this->app->auth->requirePermission($request, 'users.view');
+        $this->requireRegistryViewer($request);
 
         $user = $this->app->users->findById((int)$params['id']);
 
@@ -42,6 +42,17 @@ final class UserController
                 'permissions' => $this->app->roles->permissionsForUser((int)$user['id']),
             ],
         ]);
+    }
+
+    private function requireRegistryViewer(Request $request): array
+    {
+        $user = $this->app->auth->requireUser($request);
+        $roles = $this->app->roles->rolesForUser((int)$user['id']);
+        if (!array_intersect($roles, ['admin', 'delegato', 'rls'])) {
+            throw new HttpException(403, 'Permesso insufficiente.');
+        }
+
+        return $user;
     }
 
     public function store(Request $request): Response

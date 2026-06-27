@@ -124,12 +124,18 @@ final class UnionMeetingController
                 (string)$protocol['created_at']
             )
         );
+        $officialPublicPath = $this->app->protocolDocumentName->publicPath('comunicati', (string)$protocol['protocol_number']);
+        $this->app->protocolDocumentName->move(
+            $this->app->documentStorage->pdfPath((string)$stored['pdf_public_path']),
+            $this->app->documentStorage->pdfPath($officialPublicPath)
+        );
+        $stored['pdf_public_path'] = $officialPublicPath;
         $document = $this->app->documents->create($stored + ['visibility' => 'public', 'uploaded_by' => (int)$user['id']]);
         $protocol = $this->app->protocols->update((int)$protocol['id'], $title, (int)$document['id']);
         $document = $this->app->documents->updateSignature((int)$document['id'], $this->app->documentSignature->sign($document));
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
         $verifyUrl = $this->appBaseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode((string)$document['signature']);
-        $this->app->comunicatoDirectPdf->write($pdfPath, $title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at'], (string)$document['id'], $verifyUrl, (string)$document['signature']);
+        $this->app->comunicatoDirectPdf->write($pdfPath, $title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at'], null, $verifyUrl, (string)$document['signature']);
         $document = $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
         $this->app->documentStorage->uploadPdfToHosting($document);
         $meeting = $this->app->unionMeetings->attachPublicDocument((int)$meeting['id'], (int)$document['id']);
@@ -182,7 +188,7 @@ final class UnionMeetingController
     {
         $user = $this->app->auth->requireUser($request);
         $roles = $this->app->roles->rolesForUser((int)$user['id']);
-        if (!array_intersect($roles, ['admin', 'delegato'])) {
+        if (!array_intersect($roles, ['admin', 'delegato', 'rls'])) {
             throw new HttpException(403, 'Permesso insufficiente.');
         }
 

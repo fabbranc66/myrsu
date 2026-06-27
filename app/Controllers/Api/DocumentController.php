@@ -98,6 +98,13 @@ final class DocumentController
         if ($protocol === null) {
             throw new HttpException(422, 'Protocollo comunicato non trovato.');
         }
+        $revisionAt = date('Y-m-d H:i:s') . ' - ' . trim((string)$user['name']);
+        $officialPublicPath = $this->app->protocolDocumentName->publicPath('comunicati', (string)$protocol['protocol_number']);
+        $this->app->protocolDocumentName->move(
+            $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']),
+            $this->app->documentStorage->pdfPath($officialPublicPath)
+        );
+        $document = $this->app->documents->updatePublicPath((int)$document['id'], $officialPublicPath);
 
         $original = $this->app->comunicatoDirectPdf->textOriginal(
             (string)$data['title'],
@@ -109,15 +116,17 @@ final class DocumentController
             $document,
             $original,
             'comunicato-' . date('Ymd-His', strtotime((string)$protocol['created_at'])) . '.txt',
-            function (string $pdfPath) use ($data, $protocol, $document): void {
+            function (string $pdfPath) use ($data, $protocol, $document, $revisionAt): void {
                 $this->app->comunicatoDirectPdf->write(
                     $pdfPath,
                     (string)$data['title'],
                     (string)$data['body'],
                     (string)$protocol['protocol_number'],
                     (string)$protocol['created_at'],
-                    (string)$document['id'],
-                    $this->baseUrl() . '/ui/document-verify.html?id=' . (int)$document['id']
+                    null,
+                    $this->baseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'],
+                    null,
+                    $revisionAt
                 );
             }
         );
@@ -134,9 +143,10 @@ final class DocumentController
             (string)$data['body'],
             (string)$protocol['protocol_number'],
             (string)$protocol['created_at'],
-            (string)$updated['id'],
+            null,
             $verifyUrl,
-            (string)$updated['signature']
+            (string)$updated['signature'],
+            $revisionAt
         );
         $updated = $this->app->documents->updatePdfMetadata((int)$updated['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
         $this->app->protocols->update((int)$protocol['id'], (string)$data['title'], (int)$updated['id']);
@@ -230,7 +240,7 @@ final class DocumentController
             'document_id' => $document['id'],
         ]);
 
-        return new FileResponse($path, pathinfo((string)$document['original_name'], PATHINFO_FILENAME) . '.pdf', 'application/pdf');
+        return new FileResponse($path, basename((string)$document['pdf_public_path']), 'application/pdf');
     }
 
     public function preview(Request $request, array $params): FileResponse
@@ -253,7 +263,7 @@ final class DocumentController
             ]);
         }
 
-        return new FileResponse($path, pathinfo((string)$document['original_name'], PATHINFO_FILENAME) . '.pdf', 'application/pdf', true);
+        return new FileResponse($path, basename((string)$document['pdf_public_path']), 'application/pdf', true);
     }
 
     public function thumbnail(Request $request, array $params): FileResponse
@@ -340,7 +350,7 @@ final class DocumentController
         }
 
         $roles = $this->app->roles->rolesForUser((int)$user['id']);
-        if (in_array($permission, ['documents.view', 'documents.download'], true) && array_intersect($roles, ['admin', 'delegato'])) {
+        if (in_array($permission, ['documents.view', 'documents.download'], true) && array_intersect($roles, ['admin', 'delegato', 'rls'])) {
             return;
         }
 
@@ -370,7 +380,7 @@ final class DocumentController
     {
         $user = $this->app->auth->requireUser($request);
         $roles = $this->app->roles->rolesForUser((int)$user['id']);
-        if (!$this->app->roles->userHasPermission((int)$user['id'], 'documents.view') && !array_intersect($roles, ['admin', 'delegato'])) {
+        if (!$this->app->roles->userHasPermission((int)$user['id'], 'documents.view') && !array_intersect($roles, ['admin', 'delegato', 'rls'])) {
             throw new HttpException(403, 'Permesso insufficiente.');
         }
 

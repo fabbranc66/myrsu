@@ -45,6 +45,16 @@ async function loadDocuments() {
   table.innerHTML = documents.map(row).join('');
 }
 
+async function boot() {
+  const user = await api('/me');
+  const roles = Array.isArray(user.roles) ? user.roles : [];
+  if (!roles.includes('admin')) {
+    window.location.replace('app/index.html');
+    return;
+  }
+  await loadDocuments();
+}
+
 table.addEventListener('click', async (event) => {
   const button = event.target.closest('button');
   if (!button) return;
@@ -80,4 +90,4 @@ closeDocumentModal.addEventListener('click', () => {
   documentModal.close();
 });
 
-loadDocuments().catch((error) => { message.textContent = error.message; });
+boot().catch((error) => { message.textContent = error.message; });

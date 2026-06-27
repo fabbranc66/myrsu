@@ -88,7 +88,7 @@ final class ContactController
     {
         $user = $this->app->auth->requireUser($request);
         $roles = $this->app->roles->rolesForUser((int)$user['id']);
-        if (!array_intersect($roles, ['admin', 'delegato'])) {
+        if (!array_intersect($roles, ['admin', 'delegato', 'rls'])) {
             throw new HttpException(403, 'Permesso insufficiente.');
         }
 

@@ -23,6 +23,7 @@ final class UploadedDocumentPdfService
         string $verifyUrl,
         string $signature
     ): void {
+        $document['public_name'] = pathinfo($convertedPdfPath, PATHINFO_FILENAME);
         $mimeType = (string)($document['original_mime_type'] ?? '');
 
         if ($mimeType === 'application/pdf') {
@@ -59,7 +60,7 @@ final class UploadedDocumentPdfService
             foreach ($this->renderPages($sourcePath, $tempDir) as $index => $imagePath) {
                 $pages[] = $this->documentPage($imagePath, $index, $document, $protocol, $verifyUrl);
             }
-            $pages[] = $this->verificationPage($document, $protocol, $verifyUrl, $signature);
+            $pages[] = $this->verificationPage($document, $protocol, $verifyUrl, $signature, count($pages) + 1);
             $this->writer->write($targetPath, $pages);
         } finally {
             $this->deleteDirectory($tempDir);
@@ -79,7 +80,7 @@ final class UploadedDocumentPdfService
             $page = $this->documentPage($jpegPath, 0, $document, $protocol, $verifyUrl);
             $this->writer->write($targetPath, [
                 $page,
-                $this->verificationPage($document, $protocol, $verifyUrl, $signature),
+                $this->verificationPage($document, $protocol, $verifyUrl, $signature, 2),
             ]);
         } finally {
             if (is_file($jpegPath)) {
@@ -103,7 +104,7 @@ final class UploadedDocumentPdfService
 
         foreach ($lines as $line) {
             if ($y < 72) {
-                $pages[] = $this->pageWithHeader($content, $document, $protocol, $verifyUrl);
+                $pages[] = $this->pageWithHeader($content, $document, $protocol, $verifyUrl, count($pages) + 1);
                 $content = '';
                 $y = PdfLayoutService::BODY_TOP;
             }
@@ -111,8 +112,8 @@ final class UploadedDocumentPdfService
             $y -= 13;
         }
 
-        $pages[] = $this->pageWithHeader($content, $document, $protocol, $verifyUrl);
-        $pages[] = $this->verificationPage($document, $protocol, $verifyUrl, $signature);
+        $pages[] = $this->pageWithHeader($content, $document, $protocol, $verifyUrl, count($pages) + 1);
+        $pages[] = $this->verificationPage($document, $protocol, $verifyUrl, $signature, count($pages) + 1);
         $this->writer->write($targetPath, $pages);
     }
 
@@ -132,7 +133,7 @@ final class UploadedDocumentPdfService
         $y = 70 + (($maxHeight - $drawHeight) / 2);
 
         $page = $this->layout->page($index === 0 ? $this->title($document) : '', [
-            'number' => (string)$document['id'],
+            'number' => $this->pageReference($document, $index + 1),
             'protocol' => (string)($protocol['protocol_number'] ?? '-'),
             'date' => (string)($protocol['created_at'] ?? $document['created_at'] ?? date('Y-m-d H:i')),
             'verify_text' => 'Verifica autenticita copia digitale',
@@ -151,12 +152,12 @@ final class UploadedDocumentPdfService
         return $page;
     }
 
-    private function verificationPage(array $document, ?array $protocol, string $verifyUrl, string $signature): array
+    private function verificationPage(array $document, ?array $protocol, string $verifyUrl, string $signature, int $pageNumber): array
     {
         $content = $this->layout->text(42, PdfLayoutService::BODY_TOP, 18, PdfLayoutService::FONT_BOLD, 'Verifica documento');
         $verification = $this->layout->verificationBlock(PdfLayoutService::BODY_TOP - 48, $signature, $verifyUrl);
         $page = $this->layout->page($content . $verification['content'], [
-            'number' => (string)$document['id'],
+            'number' => $this->pageReference($document, $pageNumber),
             'protocol' => (string)($protocol['protocol_number'] ?? '-'),
             'date' => (string)($protocol['created_at'] ?? $document['created_at'] ?? date('Y-m-d H:i')),
             'verify_text' => 'Verifica autenticita copia digitale',
@@ -169,10 +170,10 @@ final class UploadedDocumentPdfService
         return $page;
     }
 
-    private function pageWithHeader(string $content, array $document, ?array $protocol, string $verifyUrl): array
+    private function pageWithHeader(string $content, array $document, ?array $protocol, string $verifyUrl, int $pageNumber): array
     {
         $page = $this->layout->page($content, [
-            'number' => (string)$document['id'],
+            'number' => $this->pageReference($document, $pageNumber),
             'protocol' => (string)($protocol['protocol_number'] ?? '-'),
             'date' => (string)($protocol['created_at'] ?? $document['created_at'] ?? date('Y-m-d H:i')),
             'verify_text' => 'Verifica autenticita copia digitale',
@@ -182,6 +183,12 @@ final class UploadedDocumentPdfService
         $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
 
         return $page;
+    }
+
+    private function pageReference(array $document, int $pageNumber): string
+    {
+        return (string)($document['public_name'] ?? pathinfo((string)$document['pdf_public_path'], PATHINFO_FILENAME))
+            . ' / ' . $pageNumber;
     }
 
     private function textLines(string $text): array

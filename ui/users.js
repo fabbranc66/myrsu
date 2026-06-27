@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const state = { token: sessionStorage.getItem('token'), roles: [] };
+const state = { token: sessionStorage.getItem('token'), roles: [], permissions: [] };
 
 const userPanel = document.querySelector('#userPanel');
 const createForm = document.querySelector('#createForm');
@@ -28,7 +28,11 @@ async function api(path, options = {}) {
   const text = await response.text();
   const payload = text ? JSON.parse(text) : {};
 
-  if (!response.ok) throw new Error(payload.error?.message || 'Request failed');
+  if (!response.ok) {
+    const error = new Error(payload.error?.message || 'Request failed');
+    error.status = response.status;
+    throw error;
+  }
   renderJson(payload);
   return payload.data;
 }
@@ -43,6 +47,7 @@ function setAuthView() {
 }
 
 async function loadRoles() {
+  if (!state.permissions.includes('roles.manage')) return;
   state.roles = await api('/roles');
   roleSelect.innerHTML = state.roles
     .map((role) => `<option value="${role.name}">${role.label}</option>`)
@@ -62,7 +67,23 @@ async function checkGdpr() {
 
 async function loadUsers() {
   const users = await api('/users');
-  usersTable.innerHTML = users.map((user) => renderUserRow(user, state.roles)).join('');
+  usersTable.innerHTML = users.map((user) => renderUserRow(user, state.roles, {
+    canUpdate: state.permissions.includes('users.update'),
+    canDelete: state.permissions.includes('users.delete'),
+    canManageRoles: state.permissions.includes('roles.manage'),
+    canViewGdpr: state.permissions.includes('gdpr.view_all'),
+    canViewActivity: state.permissions.includes('activity.view'),
+  })).join('');
+}
+
+function configureAccess(me) {
+  const roles = Array.isArray(me.roles) ? me.roles : [];
+  if (!roles.some((role) => ['admin', 'delegato', 'rls'].includes(role))) {
+    window.location.replace('app/index.html');
+    return;
+  }
+  state.permissions = Array.isArray(me.permissions) ? me.permissions : [];
+  createForm.classList.toggle('hidden', !state.permissions.includes('users.create'));
 }
 
 createForm.addEventListener('submit', async (event) => {
@@ -189,6 +210,8 @@ function formatAction(log) {
     'documents.download': 'Documento scaricato',
     'documents.upload': 'Documento caricato',
     'documents.delete': 'Documento eliminato',
+    'documents.comunicato_draft_create': 'Bozza comunicato salvata',
+    'documents.comunicato_generate': 'Documento ufficiale generato',
     'calls.create': 'Telefonata registrata',
     'calls.link_practice': 'Telefonata collegata a pratica',
     'practices.link': 'Oggetto collegato a pratica',
@@ -645,10 +668,12 @@ document.querySelector('#acceptGdpr').addEventListener('click', async () => {
 
 setAuthView();
 if (state.token) {
-  loadRoles().then(checkGdpr).then(loadUsers).catch((error) => {
-    sessionStorage.removeItem('token');
-    state.token = null;
+  api('/me').then(configureAccess).then(loadRoles).then(checkGdpr).then(loadUsers).catch((error) => {
     showError(error);
-    window.location.href = 'app/index.html';
+    if (error.status === 401) {
+      sessionStorage.removeItem('token');
+      state.token = null;
+      window.location.href = 'app/index.html';
+    }
   });
 }

@@ -59,10 +59,19 @@ processButton.addEventListener('click', async () => {
   await loadQueue();
 });
 
-if (!token) {
-  window.location.href = 'app/index.html';
-} else {
-  loadQueue().catch((error) => {
-    message.textContent = error.message;
-  });
+async function boot() {
+  if (!token) {
+    window.location.replace('app/index.html');
+    return;
+  }
+
+  const user = await api('/me');
+  const roles = Array.isArray(user.roles) ? user.roles : [];
+  if (!roles.includes('admin')) {
+    window.location.replace('app/index.html');
+    return;
+  }
+  await loadQueue();
 }
+
+boot().catch((error) => { message.textContent = error.message; });

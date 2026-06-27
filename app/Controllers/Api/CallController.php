@@ -18,7 +18,7 @@ final class CallController
 
     public function index(Request $request): Response
     {
-        $this->app->auth->requireUser($request);
+        $this->requireOperator($request);
         $practiceId = $request->query('practice_id');
 
         return Response::json([
@@ -31,14 +31,14 @@ final class CallController
 
     public function show(Request $request, array $params): Response
     {
-        $this->app->auth->requireUser($request);
+        $this->requireOperator($request);
 
         return Response::json(['data' => $this->transform($this->findCall((string)$params['id']))]);
     }
 
     public function store(Request $request): Response
     {
-        $user = $this->app->auth->requireUser($request);
+        $user = $this->requireOperator($request);
         $call = $this->app->calls->create($this->validated($request->all()) + [
             'id' => $this->uuid(),
             'created_by' => (int)$user['id'],
@@ -55,7 +55,7 @@ final class CallController
 
     public function linkPractice(Request $request, array $params): Response
     {
-        $user = $this->app->auth->requireUser($request);
+        $user = $this->requireOperator($request);
         $data = $request->all();
         Validator::required($data, ['practice_id']);
         $call = $this->findCall((string)$params['id']);
@@ -80,7 +80,7 @@ final class CallController
 
     public function update(Request $request, array $params): Response
     {
-        $user = $this->app->auth->requireUser($request);
+        $user = $this->requireOperator($request);
         $call = $this->findCall((string)$params['id']);
         if ($call['practice_id'] !== null) {
             throw new HttpException(422, 'Telefonata collegata a pratica: modifica non consentita.');
@@ -99,7 +99,7 @@ final class CallController
 
     public function destroy(Request $request, array $params): Response
     {
-        $user = $this->app->auth->requireUser($request);
+        $user = $this->requireOperator($request);
         $call = $this->findCall((string)$params['id']);
         if ($call['practice_id'] !== null) {
             throw new HttpException(422, 'Telefonata collegata a pratica: cancellazione non consentita.');
@@ -146,6 +146,17 @@ final class CallController
             'content' => trim((string)$data['content']),
             'outcome' => trim((string)($data['outcome'] ?? '')) ?: null,
         ];
+    }
+
+    private function requireOperator(Request $request): array
+    {
+        $user = $this->app->auth->requireUser($request);
+        $roles = $this->app->roles->rolesForUser((int)$user['id']);
+        if (!array_intersect($roles, ['admin', 'delegato', 'rls'])) {
+            throw new HttpException(403, 'Permesso insufficiente.');
+        }
+
+        return $user;
     }
 
     private function findCall(string $id): array

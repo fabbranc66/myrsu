@@ -9,30 +9,30 @@
     {
       label: 'Anagrafica',
       pages: [
-        ['users.html', 'Utenti'],
-        ['profile.html', 'Profilo'],
-        ['contacts.html', 'Contatti'],
+        ['users.html', 'Utenti', ['admin']],
+        ['profile.html', 'Profilo', ['admin', 'delegato', 'rls', 'membro']],
+        ['contacts.html', 'Contatti', ['admin', 'delegato', 'rls']],
       ],
     },
     {
       label: 'Protocollo',
       pages: [
-        ['protocol.html', 'Registro'],
+        ['protocol.html', 'Registro', ['admin', 'delegato', 'rls']],
       ],
       match: ['protocol.html', 'protocol-view.html', 'protocol-edit.html'],
     },
     {
       label: 'Archivio',
       pages: [
-        ['documents.html', 'Documenti'],
-        ['private-documents.html', 'Privato'],
-        ['comunicati-create.html', 'Comunicati'],
-        ['union-meetings.html', 'Incontri sindacali'],
-        ['calls.html', 'Telefonate'],
-        ['reports.html', 'Segnalazioni'],
-        ['reports-moderation.html', 'Moderazione segnalazioni'],
-        ['comments-moderation.html', 'Moderazione commenti'],
-        ['pending-queue.html', 'Coda PDF'],
+        ['documents.html', 'Documenti', ['admin', 'delegato', 'rls']],
+        ['private-documents.html', 'Privato', ['admin']],
+        ['comunicati-create.html', 'Comunicati', ['admin', 'delegato', 'rls']],
+        ['union-meetings.html', 'Incontri sindacali', ['admin', 'delegato', 'rls']],
+        ['calls.html', 'Telefonate', ['admin', 'delegato', 'rls']],
+        ['reports.html', 'Segnalazioni', ['admin', 'delegato', 'rls']],
+        ['reports-moderation.html', 'Moderazione segnalazioni', ['admin', 'delegato', 'rls']],
+        ['comments-moderation.html', 'Moderazione commenti', ['admin', 'delegato', 'rls']],
+        ['pending-queue.html', 'Coda PDF', ['admin']],
       ],
       match: [
         'documents.html',
@@ -55,9 +55,11 @@
     nav.innerHTML = '<a href="app/index.html">Dashboard</a>';
     sections.forEach((section) => {
       const activeSection = (section.match || section.pages.map((page) => page[0])).includes(currentPage);
-      const links = section.pages.map(([href, label]) => {
+      const links = section.pages.map(([href, label, allowedRoles]) => {
         const active = href === currentPage ? ' class="active"' : '';
-        return `<a${active} href="${href}">${label}</a>`;
+        const roles = Array.isArray(allowedRoles) ? allowedRoles.join(',') : '';
+        const access = roles ? ` data-roles="${roles}" class="hidden"` : active;
+        return `<a${access} href="${href}">${label}</a>`;
       }).join('');
       nav.insertAdjacentHTML('beforeend', `<div class="menu-group${activeSection ? ' active' : ''}"><span>${section.label}</span><div class="submenu">${links}</div></div>`);
     });
@@ -108,8 +110,21 @@
       });
       const payload = await response.json();
       const roles = payload.data?.roles || [];
-      if (!response.ok || roles.includes('membro')) {
+      if (!response.ok) {
         hidePrivateMenus();
+        return;
+      }
+
+      nav.querySelectorAll('[data-roles]').forEach((item) => {
+        const allowed = item.dataset.roles.split(',');
+        item.classList.toggle('hidden', !roles.some((role) => allowed.includes(role)));
+      });
+      nav.querySelectorAll('.menu-group').forEach((group) => {
+        group.classList.toggle('hidden', !group.querySelector('.submenu a:not(.hidden)'));
+      });
+      const currentLink = nav.querySelector(`a[href="${currentPage}"]`);
+      if (currentLink?.classList.contains('hidden')) {
+        window.location.replace('app/index.html');
       }
     } catch {
       hidePrivateMenus();

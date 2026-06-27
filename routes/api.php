@@ -84,6 +84,7 @@ $app->router->get('/api/v1/public/documents', [$documents, 'publicIndex']);
 $app->router->get('/api/v1/documents/private', [$documents, 'privateIndex']);
 $app->router->post('/api/v1/documents', [$documents, 'store']);
 $app->router->post('/api/v1/comunicati', [$comunicati, 'store']);
+$app->router->post('/api/v1/comunicati/{id}/generate', [$comunicati, 'generate']);
 $app->router->get('/api/v1/documents/{id}/thumbnail', [$documents, 'thumbnail']);
 $app->router->get('/api/v1/documents/{id}/comments', [$comments, 'publicIndex']);
 $app->router->post('/api/v1/documents/{id}/comments', [$comments, 'store']);

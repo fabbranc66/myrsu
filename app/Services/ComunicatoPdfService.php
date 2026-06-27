@@ -25,18 +25,32 @@ final class ComunicatoPdfService
 
     private function parseTextOriginal(string $text): array
     {
-        preg_match('/^Titolo:\s*(.*?)\RProtocollo:/s', $text, $titleMatch);
-        $body = trim($text);
+        $text = trim($text);
+        if (preg_match('/^Titolo:\s*(.*?)\RProtocollo:.*?\RData e ora:.*?\R\R(.*)$/s', $text, $matches)) {
+            return [
+                'title' => trim((string)$matches[1]),
+                'body' => $this->cleanRepeatedHeaders((string)$matches[2]),
+            ];
+        }
+
+        [$header, $body] = array_pad(preg_split('/\R\R/', $text, 2) ?: [], 2, '');
+        $title = preg_replace('/^Titolo:\s*/', '', $header) ?? $header;
+
+        return [
+            'title' => trim($title),
+            'body' => $this->cleanRepeatedHeaders($body),
+        ];
+    }
+
+    private function cleanRepeatedHeaders(string $body): string
+    {
         do {
             $cleaned = preg_replace('/^Titolo:.*?\RProtocollo:.*?\RData e ora:.*?\R\R/s', '', $body) ?? $body;
             $changed = $cleaned !== $body;
             $body = trim($cleaned);
         } while ($changed);
 
-        return [
-            'title' => trim((string)($titleMatch[1] ?? '')),
-            'body' => trim($body),
-        ];
+        return trim($body);
     }
 
     private function parsedTitle(?string $comment, ?string $html): string

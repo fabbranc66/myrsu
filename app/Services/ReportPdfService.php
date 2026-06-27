@@ -28,16 +28,17 @@ final class ReportPdfService
         ?string $protocolNumber = null
     ): void
     {
+        $documentNumber = pathinfo($targetPath, PATHINFO_FILENAME);
         $images = array_values(array_filter($attachments, fn (array $item): bool => ($item['kind'] ?? '') === 'image'));
         $videos = array_values(array_filter($attachments, fn (array $item): bool => ($item['kind'] ?? '') === 'video'));
-        $pages = [$this->coverPage($report, $videos, $verifyUrl, $documentNumber, $protocolNumber)];
+        $pages = [$this->coverPage($report, $videos, $verifyUrl, $documentNumber, $protocolNumber, 1)];
 
         foreach ($images as $image) {
-            $pages[] = $this->imagePage($image);
+            $pages[] = $this->imagePage($image, $report, $verifyUrl, $documentNumber, $protocolNumber, count($pages) + 1);
         }
 
         if ($signature !== null && $signature !== '') {
-            $pages[] = $this->verificationPage($report, $signature, $verifyUrl, $documentNumber, $protocolNumber);
+            $pages[] = $this->verificationPage($report, $signature, $verifyUrl, $documentNumber, $protocolNumber, count($pages) + 1);
         }
 
         $this->writePdf($targetPath, $pages);
@@ -48,7 +49,8 @@ final class ReportPdfService
         array $videos,
         ?string $verifyUrl,
         ?string $documentNumber,
-        ?string $protocolNumber
+        ?string $protocolNumber,
+        int $pageNumber
     ): array
     {
         $lines = [];
@@ -86,7 +88,7 @@ final class ReportPdfService
         }
 
         $page = $this->layout->page(implode('', $lines), [
-            'number' => $documentNumber ?? '-',
+            'number' => ($documentNumber ?? '-') . ' / ' . $pageNumber,
             'protocol' => $protocolNumber ?? '-',
             'date' => (string)($report['created_at'] ?? date('Y-m-d H:i')),
             'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
@@ -108,12 +110,13 @@ final class ReportPdfService
         string $signature,
         ?string $verifyUrl,
         ?string $documentNumber,
-        ?string $protocolNumber
+        ?string $protocolNumber,
+        int $pageNumber
     ): array {
         $content = $this->text(42, PdfLayoutService::BODY_TOP, 18, 'F2', 'Verifica documento');
         $verification = $this->layout->verificationBlock(PdfLayoutService::BODY_TOP - 48, $signature, $verifyUrl);
         $page = $this->layout->page($content . $verification['content'], [
-            'number' => $documentNumber ?? '-',
+            'number' => ($documentNumber ?? '-') . ' / ' . $pageNumber,
             'protocol' => $protocolNumber ?? '-',
             'date' => (string)($report['created_at'] ?? date('Y-m-d H:i')),
             'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
@@ -129,7 +132,7 @@ final class ReportPdfService
         return $page;
     }
 
-    private function imagePage(array $image): array
+    private function imagePage(array $image, array $report, ?string $verifyUrl, ?string $documentNumber, ?string $protocolNumber, int $pageNumber): array
     {
         $jpeg = $this->jpegFromImage((string)$image['path']);
         $caption = (string)($image['original_name'] ?? 'immagine');
@@ -141,17 +144,26 @@ final class ReportPdfService
         $x = ($this->pageWidth - $drawWidth) / 2;
         $y = ($this->pageHeight - $drawHeight) / 2 - 20;
 
-        return [
-            'content' => $this->text(42, 790, 15, 'F2', $caption),
-            'images' => [[
+        $page = $this->layout->page($this->text(42, PdfLayoutService::BODY_TOP, 15, 'F2', $caption), [
+            'number' => ($documentNumber ?? '-') . ' / ' . $pageNumber,
+            'protocol' => $protocolNumber ?? '-',
+            'date' => (string)($report['created_at'] ?? date('Y-m-d H:i')),
+            'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
+        ]);
+        $page['images'][] = [
                 'name' => 'Im1',
                 'data' => $jpeg['data'],
                 'width' => $jpeg['width'],
                 'height' => $jpeg['height'],
                 'rect' => [$x, $y, $drawWidth, $drawHeight],
-            ]],
-            'links' => [],
         ];
+        if ($verifyUrl !== null && $verifyUrl !== '') {
+            $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
+            $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+            $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
+        }
+
+        return $page;
     }
 
     private function jpegFromImage(string $path): array

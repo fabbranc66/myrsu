@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Comunicati</title>
-  <link rel="stylesheet" href="menu.css">
-  <link rel="stylesheet" href="users.css">
+  <link rel="stylesheet" href="menu.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260627-1">
 </head>
 <body>
   <header class="app-header">
@@ -22,8 +22,13 @@
       <textarea name="title" placeholder="Oggetto" required style="min-height:120px;grid-column:span 2;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
       <select name="visibility" required><option value="public">pubblico</option><option value="members">membri</option><option value="rsu">rsu</option></select>
       <textarea name="body" placeholder="Testo comunicato" required style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;"></textarea>
-      <button type="submit">Genera PDF</button>
+      <button type="submit">Salva bozza</button>
     </form>
+
+    <div id="draftActions" class="draft-actions hidden">
+      <span class="doc-origin-tag draft">Bozza salvata</span>
+      <button id="generateButton" type="button">Genera documento ufficiale</button>
+    </div>
 
     <div id="uploadProgress" class="upload-progress hidden">
       <div class="upload-progress-bar">
@@ -34,8 +39,8 @@
 
     <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
   </section></main>
-  <script src="comunicati-create.js"></script>
-  <script src="auth-menu.js"></script>
+  <script src="comunicati-create.js?v=20260627-1"></script>
+  <script src="auth-menu.js?v=20260627-4"></script>
 </body>
 </html>
 

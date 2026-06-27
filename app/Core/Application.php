@@ -32,6 +32,7 @@ use App\Services\DocumentVerificationMetadataService;
 use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
 use App\Services\PendingComunicatoQueueService;
+use App\Services\ProtocolDocumentNameService;
 use App\Services\PdfConversionService;
 use App\Services\PdfLayoutService;
 use App\Services\PdfImageFitService;
@@ -83,6 +84,7 @@ final class Application
     public readonly DocumentStorageService $documentStorage;
     public HostingDocumentReceiveService $hostingDocumentReceive;
     public readonly PendingComunicatoQueueService $pendingComunicatoQueue;
+    public readonly ProtocolDocumentNameService $protocolDocumentName;
     public readonly PdfLayoutService $pdfLayout;
     public readonly PdfImageFitService $pdfImageFit;
     public readonly PdfQrService $pdfQr;
@@ -113,6 +115,7 @@ final class Application
         $this->pdfImageFit = new PdfImageFitService();
         $this->pdfQr = new PdfQrService();
         $this->pdfWriter = new PdfWriterService();
+        $this->protocolDocumentName = new ProtocolDocumentNameService();
         $this->comunicatoDirectPdf = new ComunicatoDirectPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
         $this->reportPdf = new ReportPdfService($this->pdfLayout, $this->pdfQr);
         $this->uploadedDocumentPdf = new UploadedDocumentPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);

@@ -47,6 +47,7 @@ final class ProtocolController
         $entry = $this->app->protocols->create($direction, $typeCode, (string)$data['subject'], (int)$user['id']);
         if (isset($data['document_id'])) {
             $entry = $this->app->protocols->update((int)$entry['id'], (string)$data['subject'], (int)$data['document_id']);
+            $this->applyOfficialDocumentName($entry);
         }
 
         $this->app->activityLogs->write((int)$user['id'], 'protocol.create', [
@@ -69,6 +70,7 @@ final class ProtocolController
             (string)$data['subject'],
             isset($data['document_id']) ? (int)$data['document_id'] : null
         );
+        $this->applyOfficialDocumentName($entry);
 
         $this->app->activityLogs->write((int)$user['id'], 'protocol.update', [
             'section' => 'protocol',
@@ -76,6 +78,55 @@ final class ProtocolController
         ]);
 
         return Response::json(['data' => $entry]);
+    }
+
+    private function applyOfficialDocumentName(array $entry): void
+    {
+        $documentId = (int)($entry['document_id'] ?? 0);
+        if ($documentId === 0) {
+            return;
+        }
+
+        $document = $this->app->documents->findById($documentId);
+        if ($document === null || (string)$document['category'] !== 'documenti' || (string)$document['conversion_status'] !== 'ready') {
+            return;
+        }
+
+        $publicPath = $this->app->protocolDocumentName->publicPath('documenti', (string)$entry['protocol_number']);
+        $this->app->protocolDocumentName->move(
+            $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']),
+            $this->app->documentStorage->pdfPath($publicPath)
+        );
+        $document = $this->app->documents->updatePublicPath($documentId, $publicPath);
+        $signature = (string)($document['signature'] ?? '');
+        if ($signature === '') {
+            $signature = $this->app->documentSignature->sign($document);
+            $document = $this->app->documents->updateSignature($documentId, $signature);
+        }
+        $verifyUrl = $this->baseUrl() . '/ui/document-verify.html?id=' . $documentId . '&sig=' . urlencode($signature);
+        $pdfPath = $this->app->documentStorage->pdfPath($publicPath);
+        $this->app->uploadedDocumentPdf->write(
+            $this->app->documentStorage->originalPath((string)$document['original_stored_name']),
+            $pdfPath,
+            $document,
+            $entry,
+            $verifyUrl,
+            $signature
+        );
+        $document = $this->app->documents->updatePdfMetadata($documentId, filesize($pdfPath), hash_file('sha256', $pdfPath));
+        $this->app->documentStorage->uploadPdfToHosting($document);
+    }
+
+    private function baseUrl(): string
+    {
+        $host = (string)($_SERVER['HTTP_HOST'] ?? '');
+        if ($host !== '') {
+            $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+            $dir = rtrim(str_replace('\\', '/', dirname((string)($_SERVER['SCRIPT_NAME'] ?? ''))), '/');
+            return $scheme . '://' . $host . ($dir === '' ? '' : $dir);
+        }
+
+        return rtrim((string)env_value('APP_URL', 'http://localhost/myrsu'), '/');
     }
 
     public function destroy(Request $request, array $params): Response

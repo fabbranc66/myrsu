@@ -306,32 +306,7 @@ INSERT INTO permissions (name, label) VALUES
 INSERT INTO permission_role (permission_id, role_id)
 SELECT p.id, r.id
 FROM permissions p
-JOIN roles r ON r.name = 'admin';
-
-INSERT INTO permission_role (permission_id, role_id)
-SELECT p.id, r.id
-FROM permissions p
-JOIN roles r ON r.name = 'delegato'
-WHERE p.name IN ('protocol.view', 'protocol.create', 'protocol.update', 'protocol.cancel');
-
-
-INSERT INTO permission_role (permission_id, role_id)
-SELECT p.id, r.id
-FROM permissions p
-JOIN roles r ON r.name IN ('delegato', 'rls')
-WHERE p.name IN ('users.view');
-
-INSERT INTO permission_role (permission_id, role_id)
-SELECT p.id, r.id
-FROM permissions p
-JOIN roles r ON r.name = 'delegato'
-WHERE p.name IN ('reports.moderate');
-
-INSERT INTO permission_role (permission_id, role_id)
-SELECT p.id, r.id
-FROM permissions p
-JOIN roles r ON r.name = 'delegato'
-WHERE p.name IN ('comments.moderate');
+JOIN roles r ON r.name IN ('admin', 'delegato', 'rls');
 
 INSERT INTO users (name, email, password_hash, status, created_at, updated_at)
 VALUES (

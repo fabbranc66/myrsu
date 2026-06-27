@@ -15,7 +15,11 @@ const queueCardText = document.querySelector('#queueCardText');
 const queueProcessButton = document.querySelector('#queueProcessButton');
 const queueCard = document.querySelector('#queueCard');
 const archiveMenu = document.querySelector('#archiveMenu');
-const restrictedMenus = document.querySelectorAll('.restricted-menu');
+const anagraphicsMenu = document.querySelector('#anagraphicsMenu');
+const protocolMenu = document.querySelector('#protocolMenu');
+const profileMenuLink = document.querySelector('#profileMenuLink');
+const contactsMenuLink = document.querySelector('#contactsMenuLink');
+const usersMenuLink = document.querySelector('#usersMenuLink');
 const pendingQueueLink = document.querySelector('#pendingQueueLink');
 const reportsCard = document.querySelector('#reportsCard');
 const reportsPendingCount = document.querySelector('#reportsPendingCount');
@@ -152,6 +156,11 @@ async function loadQueueStatus() {
   }
 }
 
+function isOperator(user) {
+  const roles = Array.isArray(user.roles) ? user.roles : [];
+  return roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
+}
+
 function isAdmin(user) {
   const roles = Array.isArray(user.roles) ? user.roles : [];
   return roles.includes('admin');
@@ -159,12 +168,12 @@ function isAdmin(user) {
 
 function canAccessArchive(user) {
   const roles = Array.isArray(user.roles) ? user.roles : [];
-  return roles.includes('admin') || roles.includes('delegato');
+  return roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
 }
 
 function canModerateReports(user) {
   const roles = Array.isArray(user.roles) ? user.roles : [];
-  return roles.includes('admin') || roles.includes('delegato');
+  return roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
 }
 
 async function loadReportStats() {
@@ -191,15 +200,24 @@ function toggleAdminQueue(enabled) {
     privateDocumentsLink.classList.toggle('hidden', !enabled);
   }
 
+
   if (privateDocumentsCard) {
     privateDocumentsCard.classList.toggle('hidden', !enabled);
   }
 }
 
-function toggleArchiveMenu(enabled) {
-  restrictedMenus.forEach((menu) => menu.classList.toggle('hidden', !enabled));
+function toggleRoleMenus(user) {
+  const roles = Array.isArray(user.roles) ? user.roles : [];
+  const operationalEnabled = roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
+  const adminEnabled = roles.includes('admin');
+  const profileEnabled = operationalEnabled || roles.includes('membro');
+  anagraphicsMenu?.classList.toggle('hidden', !profileEnabled);
+  usersMenuLink?.classList.toggle('hidden', !adminEnabled);
+  profileMenuLink?.classList.toggle('hidden', !profileEnabled);
+  contactsMenuLink?.classList.toggle('hidden', !operationalEnabled);
+  protocolMenu?.classList.toggle('hidden', !operationalEnabled);
   if (archiveMenu) {
-    archiveMenu.classList.toggle('hidden', !enabled);
+    archiveMenu.classList.toggle('hidden', !operationalEnabled);
   }
 }
 
@@ -219,7 +237,7 @@ async function boot() {
   try {
     const me = await MyRsuAuth.me();
     renderUser(me);
-    toggleArchiveMenu(canAccessArchive(me));
+    toggleRoleMenus(me);
     toggleAdminQueue(isAdmin(me));
     toggleReportsBadge(canModerateReports(me));
     if (isAdmin(me)) {
@@ -246,7 +264,7 @@ if (loginForm) loginForm.addEventListener('submit', async (event) => {
     await MyRsuAuth.login(String(form.get('email')), String(form.get('password')));
     const me = await MyRsuAuth.me();
     renderUser(me);
-    toggleArchiveMenu(canAccessArchive(me));
+    toggleRoleMenus(me);
     toggleAdminQueue(isAdmin(me));
     toggleReportsBadge(canModerateReports(me));
     if (isAdmin(me)) {

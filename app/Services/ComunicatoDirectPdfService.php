@@ -21,16 +21,22 @@ final class ComunicatoDirectPdfService
         string $createdAt,
         ?string $documentNumber = null,
         ?string $verifyUrl = null,
-        ?string $signature = null
+        ?string $signature = null,
+        ?string $revisionAt = null
     ): void {
+        $documentNumber = pathinfo($targetPath, PATHINFO_FILENAME);
         $pages = [];
         $y = PdfLayoutService::BODY_TOP;
-        $content = $this->title($title, $y);
-        $y -= 44;
+        $content = '';
+        foreach (explode("\n", wordwrap($title, 42, "\n", true)) as $titleLine) {
+            $content .= $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 18, PdfLayoutService::FONT_BOLD, $titleLine);
+            $y -= 23;
+        }
+        $y -= 20;
 
-        foreach ($this->lines($body) as $line) {
+        foreach ($this->lines($this->withoutClosing($body)) as $line) {
             if ($y < 92) {
-                $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, $verifyUrl);
+                $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt);
                 $content = '';
                 $y = PdfLayoutService::BODY_TOP;
             }
@@ -45,9 +51,9 @@ final class ComunicatoDirectPdfService
         $content .= $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 11, PdfLayoutService::FONT_BOLD, 'Cordiali saluti.');
         $y -= 22;
         $content .= $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, 'RSU');
-        $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, $verifyUrl);
+        $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt);
         if ($signature !== null && $signature !== '') {
-            $pages[] = $this->verificationPage($protocolNumber, $createdAt, $documentNumber, $verifyUrl, $signature);
+            $pages[] = $this->verificationPage($protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $signature, $revisionAt);
         }
         $this->writer->write($targetPath, $pages);
     }
@@ -57,12 +63,18 @@ final class ComunicatoDirectPdfService
         return "Titolo: {$title}\nProtocollo: {$protocolNumber}\nData e ora: {$createdAt}\n\n{$body}";
     }
 
-    private function page(string $content, string $protocolNumber, string $createdAt, ?string $documentNumber, ?string $verifyUrl): array
+    public function draftOriginal(string $title, string $body): string
+    {
+        return "Titolo: {$title}\n\n{$body}";
+    }
+
+    private function page(string $content, string $protocolNumber, string $createdAt, string $documentNumber, int $pageNumber, ?string $verifyUrl, ?string $revisionAt): array
     {
         $page = $this->layout->page($content, [
-            'number' => $documentNumber ?? '-',
+            'number' => $documentNumber . ' / ' . $pageNumber,
             'protocol' => $protocolNumber,
             'date' => $createdAt,
+            'revision' => $revisionAt,
             'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
         ]);
 
@@ -75,19 +87,23 @@ final class ComunicatoDirectPdfService
         return $page;
     }
 
-    private function verificationPage(string $protocolNumber, string $createdAt, ?string $documentNumber, ?string $verifyUrl, string $signature): array
+    private function verificationPage(string $protocolNumber, string $createdAt, string $documentNumber, int $pageNumber, ?string $verifyUrl, string $signature, ?string $revisionAt): array
     {
         $content = $this->layout->text(42, PdfLayoutService::BODY_TOP, 18, PdfLayoutService::FONT_BOLD, 'Verifica documento');
         $verification = $this->layout->verificationBlock(PdfLayoutService::BODY_TOP - 48, $signature, $verifyUrl);
-        $page = $this->page($content . $verification['content'], $protocolNumber, $createdAt, $documentNumber, $verifyUrl);
+        $page = $this->page($content . $verification['content'], $protocolNumber, $createdAt, $documentNumber, $pageNumber, $verifyUrl, $revisionAt);
         $page['links'] = array_merge($page['links'], $verification['links']);
 
         return $page;
     }
 
-    private function title(string $title, float $y): string
+    private function withoutClosing(string $body): string
     {
-        return $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 18, PdfLayoutService::FONT_BOLD, $title);
+        return trim((string)preg_replace(
+            '/\R*Cordiali saluti\.\R+RSU(?:\s+Canegrate)?\s*$/i',
+            '',
+            trim($body)
+        ));
     }
 
     private function lines(string $body): array

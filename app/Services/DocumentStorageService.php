@@ -126,6 +126,32 @@ final class DocumentStorageService
         ];
     }
 
+    public function storeDraftText(string $text, string $originalName, string $category): array
+    {
+        $this->assertCategory($category);
+        $originalStoredName = bin2hex(random_bytes(20)) . '.txt';
+        $originalPath = $this->originalsPath . '/' . $originalStoredName;
+
+        if (file_put_contents($originalPath, $text) === false) {
+            throw new HttpException(500, 'Salvataggio bozza fallito.');
+        }
+
+        $reserved = $this->reservePdf($originalName, $category);
+
+        return [
+            'original_name' => $originalName,
+            'original_stored_name' => $originalStoredName,
+            'original_mime_type' => 'text/plain',
+            'original_size_bytes' => filesize($originalPath),
+            'original_checksum_sha256' => hash_file('sha256', $originalPath),
+            'category' => $category,
+            'pdf_public_path' => $reserved['path'],
+            'pdf_size_bytes' => 0,
+            'pdf_checksum_sha256' => str_repeat('0', 64),
+            'conversion_status' => 'pending',
+        ];
+    }
+
     public function storeGeneratedPdf(string $html, string $originalName, string $category, callable $writer): array
     {
         $this->assertCategory($category);

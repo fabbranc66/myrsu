@@ -55,10 +55,10 @@ final class ProtocolRepository
         $stmt = $this->pdo->prepare(
             'SELECT COALESCE(MAX(sequence), 0) + 1
              FROM protocol_entries
-             WHERE direction = ? AND type_code = ? AND year = ?
+             WHERE type_code = ? AND year = ?
              FOR UPDATE'
         );
-        $stmt->execute([$direction, $typeCode, $year]);
+        $stmt->execute([$typeCode, $year]);
         $sequence = (int)$stmt->fetchColumn();
         $number = sprintf('RSU-%s-%s-%d-%04d', $direction, $typeCode, $year, $sequence);
 

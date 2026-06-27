@@ -133,6 +133,7 @@ final class ReportController
             $protocol = $this->app->protocols->findActiveByDocumentId((int)$document['id'])
                 ?? $this->app->protocols->create('IN', 'SEG', (string)$report['subject'], (int)$user['id']);
             $protocol = $this->app->protocols->update((int)$protocol['id'], (string)$report['subject'], (int)$document['id']);
+            $document = $this->applyOfficialDocumentName($document, $protocol);
             $document = $this->rewriteApprovedDocument($document, $report, $protocol, $this->appBaseUrl());
             $updated['protocol_number'] = $protocol['protocol_number'];
         }
@@ -266,11 +267,25 @@ final class ReportController
             $attachments,
             $signature,
             $verifyUrl,
-            (string)$document['id'],
+            null,
             (string)$protocol['protocol_number']
         );
 
         return $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
+    }
+
+    private function applyOfficialDocumentName(array $document, array $protocol): array
+    {
+        $publicPath = $this->app->protocolDocumentName->publicPath(
+            (string)$document['category'],
+            (string)$protocol['protocol_number']
+        );
+        $this->app->protocolDocumentName->move(
+            $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']),
+            $this->app->documentStorage->pdfPath($publicPath)
+        );
+
+        return $this->app->documents->updatePublicPath((int)$document['id'], $publicPath);
     }
 
     private function sharedAttachmentUrl(array $attachment, string $baseUrl): string

@@ -70,6 +70,9 @@ function row(entry) {
     : `Attivo - da ${entry.created_by_name || '-'}`;
 
   const viewAction = `<button class="icon-action" data-view="${entry.preview_document_id || ''}" title="Anteprima" ${entry.preview_document_id ? '' : 'disabled'}>${MyRsuIcons.get('eye')}</button>`;
+  const communicationEdit = !canceled && entry.type_code === 'COM' && entry.document_id
+    ? `<a class="icon-action" href="document-edit.html?id=${entry.document_id}" title="Modifica comunicato e rigenera PDF">${MyRsuIcons.get('document')}</a>`
+    : '';
 
   return `
     <article class="register-row ${canceled ? 'is-canceled' : ''}">
@@ -81,6 +84,7 @@ function row(entry) {
       <div class="register-meta">${status}</div>
       <div class="register-actions">
         ${viewAction}
+        ${communicationEdit}
         <a class="icon-action" href="protocol-edit.html?id=${entry.id}" title="Modifica">${MyRsuIcons.get('edit')}</a>
         <button class="icon-action danger" data-cancel="${entry.id}" title="Annulla protocollo" ${canceled ? 'disabled' : ''}>${MyRsuIcons.get('protocolDelete')}</button>
       </div>
