@@ -94,6 +94,36 @@ final class HostingDocumentReceiveService
         return $updated ?? [];
     }
 
+    public function receivePendingDocument(array $file, int $documentId, string $checksum, string $signature): array
+    {
+        $this->assertEnabled();
+        $this->assertUpload($file);
+        if ($this->documents === null) throw new HttpException(500, 'Repository documenti non disponibile.');
+        $document = $this->documents->findById($documentId);
+        if ($document === null || (string)$document['category'] !== 'documenti' || (string)$document['conversion_status'] !== 'pending') {
+            throw new HttpException(404, 'Documento pending non trovato.');
+        }
+
+        $targetPath = $this->basePath . '/' . ltrim((string)$document['pdf_public_path'], '/');
+        if (!is_dir(dirname($targetPath))) mkdir(dirname($targetPath), 0775, true);
+        if (!move_uploaded_file((string)$file['tmp_name'], $targetPath)) {
+            throw new HttpException(500, 'Salvataggio hosting fallito.');
+        }
+        if (hash_file('sha256', $targetPath) !== $checksum) {
+            unlink($targetPath);
+            throw new HttpException(422, 'Checksum non valido.');
+        }
+
+        $updated = $this->documents->completePendingDocument($documentId, $signature, filesize($targetPath), $checksum);
+        $this->writeMetadata([
+            'document_id' => (string)$documentId,
+            'original_name' => (string)$document['original_name'],
+            'signature' => $signature,
+            'signed_at' => (string)($updated['signed_at'] ?? ''),
+        ], (string)$document['pdf_public_path'], $checksum);
+        return $updated ?? [];
+    }
+
     public function assertToken(?string $token): void
     {
         if ($token === null || !hash_equals($this->token(), $token)) {

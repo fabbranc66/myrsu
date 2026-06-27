@@ -36,7 +36,10 @@ $service->write(
     'RSU-OUT-COM-2026-0001',
     date('Y-m-d H:i'),
     '100',
-    'https://www.kr-solutions.it/myrsu/ui/document-verify.html?id=100&sig=TEST'
+    'https://www.kr-solutions.it/myrsu/ui/document-verify.html?id=100&sig=TEST',
+    null,
+    '2026-06-27 16:30 - Admin MyRSU',
+    'Admin MyRSU'
 );
 
 echo $targetDir . '/test-comunicato-direct.pdf' . PHP_EOL;

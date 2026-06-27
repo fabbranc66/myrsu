@@ -223,11 +223,13 @@ final class ReportController
             (string)$report['tracking_code'],
             $attachments
         );
+        $creator = $this->app->users->findById($userId);
+        $creatorName = (string)($creator['name'] ?? '');
         $stored = $this->app->documentStorage->storeGeneratedPdf(
             $html,
             'segnalazione-' . $report['tracking_code'] . '.html',
             'segnalazioni',
-            fn (string $pdfPath) => $this->app->reportPdf->write($pdfPath, $report, $attachments, null, null)
+            fn (string $pdfPath) => $this->app->reportPdf->write($pdfPath, $report, $attachments, null, null, null, null, $creatorName)
         );
         $document = $this->app->documents->create($stored + [
             'visibility' => 'rsu',
@@ -238,7 +240,7 @@ final class ReportController
         $verifyUrl = $baseUrl . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode($signature);
         $document = $this->app->documents->updateSignature((int)$document['id'], $signature);
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
-        $this->app->reportPdf->write($pdfPath, $report, $attachments, $signature, $verifyUrl, (string)$document['id'], null);
+        $this->app->reportPdf->write($pdfPath, $report, $attachments, $signature, $verifyUrl, null, null, $creatorName);
 
         return $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
     }
@@ -259,6 +261,8 @@ final class ReportController
         }, $this->app->reportAttachments->forReport((int)$report['id']));
 
         $signature = (string)$document['signature'];
+        $creator = $this->app->users->findById((int)$document['uploaded_by']);
+        $creatorName = (string)($creator['name'] ?? '');
         $verifyUrl = $baseUrl . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode($signature);
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
         $this->app->reportPdf->write(
@@ -268,7 +272,8 @@ final class ReportController
             $signature,
             $verifyUrl,
             null,
-            (string)$protocol['protocol_number']
+            (string)$protocol['protocol_number'],
+            $creatorName
         );
 
         return $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));

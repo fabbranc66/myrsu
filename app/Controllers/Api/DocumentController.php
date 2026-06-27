@@ -99,6 +99,8 @@ final class DocumentController
             throw new HttpException(422, 'Protocollo comunicato non trovato.');
         }
         $revisionAt = date('Y-m-d H:i:s') . ' - ' . trim((string)$user['name']);
+        $creator = $this->app->users->findById((int)$document['uploaded_by']);
+        $creatorName = trim((string)($creator['name'] ?? ''));
         $officialPublicPath = $this->app->protocolDocumentName->publicPath('comunicati', (string)$protocol['protocol_number']);
         $this->app->protocolDocumentName->move(
             $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']),
@@ -116,7 +118,7 @@ final class DocumentController
             $document,
             $original,
             'comunicato-' . date('Ymd-His', strtotime((string)$protocol['created_at'])) . '.txt',
-            function (string $pdfPath) use ($data, $protocol, $document, $revisionAt): void {
+            function (string $pdfPath) use ($data, $protocol, $document, $revisionAt, $creatorName): void {
                 $this->app->comunicatoDirectPdf->write(
                     $pdfPath,
                     (string)$data['title'],
@@ -126,7 +128,8 @@ final class DocumentController
                     null,
                     $this->baseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'],
                     null,
-                    $revisionAt
+                    $revisionAt,
+                    $creatorName
                 );
             }
         );
@@ -146,7 +149,8 @@ final class DocumentController
             null,
             $verifyUrl,
             (string)$updated['signature'],
-            $revisionAt
+            $revisionAt,
+            $creatorName
         );
         $updated = $this->app->documents->updatePdfMetadata((int)$updated['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
         $this->app->protocols->update((int)$protocol['id'], (string)$data['title'], (int)$updated['id']);
@@ -185,11 +189,23 @@ final class DocumentController
             throw new HttpException(422, 'Visibility non valida.');
         }
 
-        $stored = $this->app->documentStorage->store($_FILES['file'] ?? [], $category);
+        $file = $_FILES['file'] ?? [];
+        $renderedPdfPath = $this->app->renderedPdfUpload->path($_FILES['rendered_pdf'] ?? []);
+        $pendingOffice = $this->app->officeFiles->isOffice($file) && !$this->app->pdfConversion->available();
+        $stored = $pendingOffice
+            ? $this->app->documentStorage->storePendingUpload($file, $category)
+            : $this->app->documentStorage->store($file, $category);
         $document = $this->app->documents->create($stored + [
             'visibility' => $visibility,
             'uploaded_by' => (int)$user['id'],
         ]);
+        if ($pendingOffice) {
+            $this->app->activityLogs->write((int)$user['id'], 'documents.office_pending', [
+                'section' => 'documents',
+                'document_id' => $document['id'],
+            ]);
+            return Response::json(['data' => $document], 202);
+        }
         $document = $this->app->documents->updateSignature(
             (int)$document['id'],
             $this->app->documentSignature->sign($document)
@@ -197,10 +213,14 @@ final class DocumentController
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
         $verifyUrl = $this->baseUrl() . '/ui/document-verify.html?id=' . (int)$document['id']
             . '&sig=' . urlencode((string)$document['signature']);
+        $pdfDocument = $document + ['creator_name' => (string)$user['name']];
+        $sourcePath = (string)$document['original_mime_type'] === 'application/pdf' && $renderedPdfPath !== null
+            ? $renderedPdfPath
+            : $this->app->documentStorage->originalPath((string)$document['original_stored_name']);
         $this->app->uploadedDocumentPdf->write(
-            $this->app->documentStorage->originalPath((string)$document['original_stored_name']),
+            $sourcePath,
             $pdfPath,
-            $document,
+            $pdfDocument,
             null,
             $verifyUrl,
             (string)$document['signature']

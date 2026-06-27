@@ -105,6 +105,8 @@ final class ProtocolController
         }
         $verifyUrl = $this->baseUrl() . '/ui/document-verify.html?id=' . $documentId . '&sig=' . urlencode($signature);
         $pdfPath = $this->app->documentStorage->pdfPath($publicPath);
+        $creator = $this->app->users->findById((int)$document['uploaded_by']);
+        $document['creator_name'] = (string)($creator['name'] ?? '');
         $this->app->uploadedDocumentPdf->write(
             $this->app->documentStorage->originalPath((string)$document['original_stored_name']),
             $pdfPath,

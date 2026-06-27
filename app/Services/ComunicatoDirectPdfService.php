@@ -22,7 +22,8 @@ final class ComunicatoDirectPdfService
         ?string $documentNumber = null,
         ?string $verifyUrl = null,
         ?string $signature = null,
-        ?string $revisionAt = null
+        ?string $revisionAt = null,
+        ?string $creator = null
     ): void {
         $documentNumber = pathinfo($targetPath, PATHINFO_FILENAME);
         $pages = [];
@@ -36,7 +37,7 @@ final class ComunicatoDirectPdfService
 
         foreach ($this->lines($this->withoutClosing($body)) as $line) {
             if ($y < 92) {
-                $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt);
+                $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt, $creator);
                 $content = '';
                 $y = PdfLayoutService::BODY_TOP;
             }
@@ -51,9 +52,9 @@ final class ComunicatoDirectPdfService
         $content .= $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 11, PdfLayoutService::FONT_BOLD, 'Cordiali saluti.');
         $y -= 22;
         $content .= $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, 'RSU');
-        $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt);
+        $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt, $creator);
         if ($signature !== null && $signature !== '') {
-            $pages[] = $this->verificationPage($protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $signature, $revisionAt);
+            $pages[] = $this->verificationPage($protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $signature, $revisionAt, $creator);
         }
         $this->writer->write($targetPath, $pages);
     }
@@ -68,30 +69,31 @@ final class ComunicatoDirectPdfService
         return "Titolo: {$title}\n\n{$body}";
     }
 
-    private function page(string $content, string $protocolNumber, string $createdAt, string $documentNumber, int $pageNumber, ?string $verifyUrl, ?string $revisionAt): array
+    private function page(string $content, string $protocolNumber, string $createdAt, string $documentNumber, int $pageNumber, ?string $verifyUrl, ?string $revisionAt, ?string $creator): array
     {
         $page = $this->layout->page($content, [
             'number' => $documentNumber . ' / ' . $pageNumber,
             'protocol' => $protocolNumber,
             'date' => $createdAt,
+            'creator' => $creator,
             'revision' => $revisionAt,
             'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
         ]);
 
         if ($verifyUrl !== null && $verifyUrl !== '') {
             $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
-            $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+            $page['links'][] = ['rect' => PdfLayoutService::VERIFY_LINK_RECT, 'url' => $verifyUrl];
             $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
         }
 
         return $page;
     }
 
-    private function verificationPage(string $protocolNumber, string $createdAt, string $documentNumber, int $pageNumber, ?string $verifyUrl, string $signature, ?string $revisionAt): array
+    private function verificationPage(string $protocolNumber, string $createdAt, string $documentNumber, int $pageNumber, ?string $verifyUrl, string $signature, ?string $revisionAt, ?string $creator): array
     {
         $content = $this->layout->text(42, PdfLayoutService::BODY_TOP, 18, PdfLayoutService::FONT_BOLD, 'Verifica documento');
         $verification = $this->layout->verificationBlock(PdfLayoutService::BODY_TOP - 48, $signature, $verifyUrl);
-        $page = $this->page($content . $verification['content'], $protocolNumber, $createdAt, $documentNumber, $pageNumber, $verifyUrl, $revisionAt);
+        $page = $this->page($content . $verification['content'], $protocolNumber, $createdAt, $documentNumber, $pageNumber, $verifyUrl, $revisionAt, $creator);
         $page['links'] = array_merge($page['links'], $verification['links']);
 
         return $page;

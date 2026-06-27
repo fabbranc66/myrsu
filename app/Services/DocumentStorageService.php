@@ -66,6 +66,33 @@ final class DocumentStorageService
         ];
     }
 
+    public function storePendingUpload(array $file, string $category): array
+    {
+        $this->assertCategory($category);
+        $this->assertUpload($file);
+        $originalName = basename((string)$file['name']);
+        $originalStoredName = bin2hex(random_bytes(20));
+        $originalPath = $this->originalsPath . '/' . $originalStoredName;
+
+        if (!move_uploaded_file((string)$file['tmp_name'], $originalPath)) {
+            throw new HttpException(500, 'Salvataggio file fallito.');
+        }
+
+        $reserved = $this->reservePdf($originalName, $category);
+        return [
+            'original_name' => $originalName,
+            'original_stored_name' => $originalStoredName,
+            'original_mime_type' => mime_content_type($originalPath) ?: 'application/octet-stream',
+            'original_size_bytes' => filesize($originalPath),
+            'original_checksum_sha256' => hash_file('sha256', $originalPath),
+            'category' => $category,
+            'pdf_public_path' => $reserved['path'],
+            'pdf_size_bytes' => 0,
+            'pdf_checksum_sha256' => str_repeat('0', 64),
+            'conversion_status' => 'pending',
+        ];
+    }
+
     public function storeHtml(string $html, string $originalName, string $category): array
     {
         $this->assertCategory($category);

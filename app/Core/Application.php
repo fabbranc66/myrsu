@@ -29,19 +29,22 @@ use App\Services\DocumentSignatureService;
 use App\Services\DocumentStorageService;
 use App\Services\DocumentThumbnailService;
 use App\Services\DocumentVerificationMetadataService;
+use App\Services\FpdiUploadedPdfService;
 use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
+use App\Services\OfficeFileService;
 use App\Services\PendingComunicatoQueueService;
+use App\Services\PendingOfficeQueueService;
 use App\Services\ProtocolDocumentNameService;
 use App\Services\PdfConversionService;
 use App\Services\PdfLayoutService;
 use App\Services\PdfImageFitService;
-use App\Services\PdfWatermarkService;
 use App\Services\PdfQrService;
 use App\Services\PdfWriterService;
 use App\Services\ReportPdfService;
 use App\Services\ReportService;
 use App\Services\ReportAttachmentStorageService;
+use App\Services\RenderedPdfUploadService;
 use App\Services\UploadedDocumentPdfService;
 use Throwable;
 
@@ -78,12 +81,17 @@ final class Application
     public readonly ComunicatoDirectPdfService $comunicatoDirectPdf;
     public readonly ReportService $reportService;
     public readonly ReportAttachmentStorageService $reportAttachmentStorage;
+    public readonly RenderedPdfUploadService $renderedPdfUpload;
     public readonly DocumentSignatureService $documentSignature;
     public readonly DocumentThumbnailService $documentThumbnail;
     public readonly DocumentVerificationMetadataService $documentVerificationMetadata;
     public readonly DocumentStorageService $documentStorage;
+    public readonly OfficeFileService $officeFiles;
+    public readonly PdfConversionService $pdfConversion;
+    public readonly FpdiUploadedPdfService $fpdiUploadedPdf;
     public HostingDocumentReceiveService $hostingDocumentReceive;
     public readonly PendingComunicatoQueueService $pendingComunicatoQueue;
+    public readonly PendingOfficeQueueService $pendingOfficeQueue;
     public readonly ProtocolDocumentNameService $protocolDocumentName;
     public readonly PdfLayoutService $pdfLayout;
     public readonly PdfImageFitService $pdfImageFit;
@@ -103,28 +111,43 @@ final class Application
         $this->comunicatoPdf = new ComunicatoPdfService();
         $this->reportService = new ReportService();
         $this->reportAttachmentStorage = new ReportAttachmentStorageService($this->basePath);
+        $this->renderedPdfUpload = new RenderedPdfUploadService();
         $this->documentSignature = new DocumentSignatureService($this->signingConfig);
         $this->documentThumbnail = new DocumentThumbnailService($this->basePath);
         $this->documentVerificationMetadata = new DocumentVerificationMetadataService($this->basePath);
+        $this->officeFiles = new OfficeFileService();
+        $this->pdfConversion = new PdfConversionService();
         $this->documentStorage = new DocumentStorageService(
             $this->basePath,
-            new PdfConversionService(new PdfWatermarkService()),
+            $this->pdfConversion,
             new HostingDocumentUploadService($this->hostingConfig)
         );
         $this->pdfLayout = new PdfLayoutService();
         $this->pdfImageFit = new PdfImageFitService();
         $this->pdfQr = new PdfQrService();
         $this->pdfWriter = new PdfWriterService();
+        $this->fpdiUploadedPdf = new FpdiUploadedPdfService($this->pdfQr);
         $this->protocolDocumentName = new ProtocolDocumentNameService();
         $this->comunicatoDirectPdf = new ComunicatoDirectPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
         $this->reportPdf = new ReportPdfService($this->pdfLayout, $this->pdfQr);
-        $this->uploadedDocumentPdf = new UploadedDocumentPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
+        $this->uploadedDocumentPdf = new UploadedDocumentPdfService(
+            $this->pdfLayout,
+            $this->pdfWriter,
+            $this->pdfQr,
+            $this->fpdiUploadedPdf
+        );
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
         $this->pendingComunicatoQueue = new PendingComunicatoQueueService(
             $this->hostingConfig,
             $this->documentStorage,
             $this->documentSignature,
             $this->comunicatoDirectPdf
+        );
+        $this->pendingOfficeQueue = new PendingOfficeQueueService(
+            $this->hostingConfig,
+            $this->pdfConversion,
+            $this->uploadedDocumentPdf,
+            $this->documentSignature
         );
     }
 
@@ -183,16 +206,39 @@ final class Application
             $response = $this->router->dispatch($request);
             $response->send();
         } catch (HttpException $exception) {
+            $error = ['message' => $exception->getMessage()];
+            if ($exception->status() >= 500) {
+                $errorId = bin2hex(random_bytes(6));
+                error_log(sprintf(
+                    '[MyRSU %s] %s in %s:%d',
+                    $errorId,
+                    $exception->getMessage(),
+                    $exception->getFile(),
+                    $exception->getLine()
+                ));
+                $error['detail'] = $exception->getMessage();
+                $error['source'] = basename($exception->getFile()) . ':' . $exception->getLine();
+                $error['error_id'] = $errorId;
+            }
             Response::json([
-                'error' => [
-                    'message' => $exception->getMessage(),
-                ],
+                'error' => $error,
             ], $exception->status())->send();
         } catch (Throwable $exception) {
             $debug = (bool)getenv('APP_DEBUG');
+            $errorId = bin2hex(random_bytes(6));
+            error_log(sprintf(
+                '[MyRSU %s] %s in %s:%d',
+                $errorId,
+                $exception->getMessage(),
+                $exception->getFile(),
+                $exception->getLine()
+            ));
             Response::json([
                 'error' => [
                     'message' => $debug ? $exception->getMessage() : 'Errore interno.',
+                    'detail' => $exception->getMessage(),
+                    'source' => basename($exception->getFile()) . ':' . $exception->getLine(),
+                    'error_id' => $errorId,
                 ],
             ], 500)->send();
         }

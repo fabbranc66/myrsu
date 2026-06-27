@@ -47,13 +47,25 @@ final class DocumentRepository
     {
         return $this->pdo
             ->query(
-                "SELECT d.*, pe.protocol_number, pe.subject, pe.created_at AS protocol_created_at
+                "SELECT d.*, pe.protocol_number, pe.subject, pe.created_at AS protocol_created_at, u.name AS creator_name
                  FROM documents d
                  INNER JOIN protocol_entries pe ON pe.document_id = d.id AND pe.canceled_at IS NULL
+                 LEFT JOIN users u ON u.id = d.uploaded_by
                  WHERE d.category = 'comunicati' AND d.conversion_status = 'pending'
                  ORDER BY d.id ASC"
             )
             ->fetchAll();
+    }
+
+    public function pendingOffice(): array
+    {
+        return $this->pdo->query(
+            "SELECT d.*, u.name AS creator_name
+             FROM documents d
+             LEFT JOIN users u ON u.id = d.uploaded_by
+             WHERE d.category = 'documenti' AND d.conversion_status = 'pending'
+             ORDER BY d.id ASC"
+        )->fetchAll();
     }
 
     public function findById(int $id): ?array
@@ -148,6 +160,17 @@ final class DocumentRepository
         );
         $stmt->execute([$signature, $size, $checksum, $size, $checksum, $id]);
 
+        return $this->findById($id);
+    }
+
+    public function completePendingDocument(int $id, string $signature, int $size, string $checksum): ?array
+    {
+        $stmt = $this->pdo->prepare(
+            "UPDATE documents SET signature = ?, signed_at = NOW(), size_bytes = ?, checksum_sha256 = ?,
+             pdf_size_bytes = ?, pdf_checksum_sha256 = ?, conversion_status = 'ready'
+             WHERE id = ? AND category = 'documenti' AND conversion_status = 'pending'"
+        );
+        $stmt->execute([$signature, $size, $checksum, $size, $checksum, $id]);
         return $this->findById($id);
     }
 

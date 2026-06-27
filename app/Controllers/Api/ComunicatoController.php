@@ -81,7 +81,9 @@ final class ComunicatoController
                 (string)$protocol['created_at'],
                 null,
                 $verifyUrl,
-                $signature
+                $signature,
+                null,
+                (string)$user['name']
             );
         } catch (\Throwable $exception) {
             $this->app->protocols->cancel((int)$protocol['id'], (int)$user['id']);

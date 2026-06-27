@@ -53,8 +53,8 @@ final class PdfWriterService
         }
 
         $objects[] = "2 0 obj\n<< /Type /Pages /Kids [" . implode(' ', $pageRefs) . '] /Count ' . count($pageRefs) . " >>\nendobj\n";
-        $objects[] = "{$fontRegular} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>\nendobj\n";
-        $objects[] = "{$fontBold} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>\nendobj\n";
+        $objects[] = "{$fontRegular} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>\nendobj\n";
+        $objects[] = "{$fontBold} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>\nendobj\n";
         $objects[] = "{$extState} 0 obj\n<< /Type /ExtGState /ca 0.45 /CA 0.45 >>\nendobj\n";
         $this->writeObjects($objects, $targetPath);
     }

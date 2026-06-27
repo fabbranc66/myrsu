@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace App\Controllers\Api;
 
 use App\Core\Application;
+use App\Core\FileResponse;
+use App\Core\HttpException;
 use App\Core\Request;
 use App\Core\Response;
 
@@ -62,6 +64,35 @@ final class HostingDocumentController
         );
 
         return Response::json(['data' => $result]);
+    }
+
+    public function pendingOffice(Request $request): Response
+    {
+        $this->app->hostingDocumentReceive->assertToken($request->bearerToken());
+        return Response::json(['data' => $this->app->documents->pendingOffice()]);
+    }
+
+    public function pendingOfficeOriginal(Request $request, array $params): FileResponse
+    {
+        $this->app->hostingDocumentReceive->assertToken($request->bearerToken());
+        $document = $this->app->documents->findById((int)$params['id']);
+        if ($document === null || (string)$document['category'] !== 'documenti' || (string)$document['conversion_status'] !== 'pending') {
+            throw new HttpException(404, 'Documento pending non trovato.');
+        }
+        $path = $this->app->documentStorage->originalPath((string)$document['original_stored_name']);
+        if (!is_file($path)) throw new HttpException(404, 'Originale non trovato.');
+        return new FileResponse($path, (string)$document['original_name'], (string)$document['original_mime_type']);
+    }
+
+    public function completeOffice(Request $request, array $params): Response
+    {
+        $this->app->hostingDocumentReceive->assertToken($request->bearerToken());
+        return Response::json(['data' => $this->app->hostingDocumentReceive->receivePendingDocument(
+            $_FILES['file'] ?? [],
+            (int)$params['id'],
+            (string)($_POST['checksum_sha256'] ?? ''),
+            (string)($_POST['signature'] ?? '')
+        )]);
     }
 
     private function withComunicato(array $document): array

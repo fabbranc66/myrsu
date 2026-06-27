@@ -11,7 +11,8 @@ final class UploadedDocumentPdfService
     public function __construct(
         private readonly PdfLayoutService $layout,
         private readonly PdfWriterService $writer,
-        private readonly PdfQrService $qr
+        private readonly PdfQrService $qr,
+        private readonly FpdiUploadedPdfService $fpdi
     ) {
     }
 
@@ -52,19 +53,7 @@ final class UploadedDocumentPdfService
         string $verifyUrl,
         string $signature
     ): void {
-        $tempDir = sys_get_temp_dir() . '/myrsu_upload_pdf_' . bin2hex(random_bytes(8));
-        mkdir($tempDir, 0775, true);
-
-        try {
-            $pages = [];
-            foreach ($this->renderPages($sourcePath, $tempDir) as $index => $imagePath) {
-                $pages[] = $this->documentPage($imagePath, $index, $document, $protocol, $verifyUrl);
-            }
-            $pages[] = $this->verificationPage($document, $protocol, $verifyUrl, $signature, count($pages) + 1);
-            $this->writer->write($targetPath, $pages);
-        } finally {
-            $this->deleteDirectory($tempDir);
-        }
+        $this->fpdi->write($sourcePath, $targetPath, $document, $protocol, $verifyUrl, $signature);
     }
 
     public function writeFromImage(
@@ -136,6 +125,7 @@ final class UploadedDocumentPdfService
             'number' => $this->pageReference($document, $index + 1),
             'protocol' => (string)($protocol['protocol_number'] ?? '-'),
             'date' => (string)($protocol['created_at'] ?? $document['created_at'] ?? date('Y-m-d H:i')),
+            'creator' => (string)($document['creator_name'] ?? '-'),
             'verify_text' => 'Verifica autenticita copia digitale',
         ]);
         $page['images'][] = [
@@ -146,7 +136,7 @@ final class UploadedDocumentPdfService
             'rect' => [$x, $y, $drawWidth, $drawHeight],
         ];
         $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
-        $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+        $page['links'][] = ['rect' => PdfLayoutService::VERIFY_LINK_RECT, 'url' => $verifyUrl];
         $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
 
         return $page;
@@ -160,10 +150,11 @@ final class UploadedDocumentPdfService
             'number' => $this->pageReference($document, $pageNumber),
             'protocol' => (string)($protocol['protocol_number'] ?? '-'),
             'date' => (string)($protocol['created_at'] ?? $document['created_at'] ?? date('Y-m-d H:i')),
+            'creator' => (string)($document['creator_name'] ?? '-'),
             'verify_text' => 'Verifica autenticita copia digitale',
         ]);
         $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
-        $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+        $page['links'][] = ['rect' => PdfLayoutService::VERIFY_LINK_RECT, 'url' => $verifyUrl];
         $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
         $page['links'] = array_merge($page['links'], $verification['links']);
 
@@ -176,10 +167,11 @@ final class UploadedDocumentPdfService
             'number' => $this->pageReference($document, $pageNumber),
             'protocol' => (string)($protocol['protocol_number'] ?? '-'),
             'date' => (string)($protocol['created_at'] ?? $document['created_at'] ?? date('Y-m-d H:i')),
+            'creator' => (string)($document['creator_name'] ?? '-'),
             'verify_text' => 'Verifica autenticita copia digitale',
         ]);
         $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
-        $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+        $page['links'][] = ['rect' => PdfLayoutService::VERIFY_LINK_RECT, 'url' => $verifyUrl];
         $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
 
         return $page;
@@ -223,53 +215,4 @@ final class UploadedDocumentPdfService
         return $targetPath;
     }
 
-    private function renderPages(string $sourcePath, string $tempDir): array
-    {
-        $pages = [];
-        for ($page = 1; $page <= $this->pageCount($sourcePath); $page++) {
-            $jpegPath = $tempDir . '/page-' . $page . '.jpg';
-            $command = escapeshellarg($this->ghostscriptPath())
-                . ' -dBATCH -dNOPAUSE -q -sDEVICE=jpeg -r144 -dJPEGQ=92'
-                . ' -dFirstPage=' . $page . ' -dLastPage=' . $page
-                . ' -sOutputFile=' . escapeshellarg($jpegPath)
-                . ' ' . escapeshellarg($sourcePath);
-            exec($command, $output, $exitCode);
-            if ($exitCode === 0 && is_file($jpegPath)) {
-                $pages[] = $jpegPath;
-            }
-        }
-
-        return $pages;
-    }
-
-    private function pageCount(string $path): int
-    {
-        $command = escapeshellarg($this->ghostscriptPath())
-            . ' -q -dNOSAFER -dNODISPLAY -c '
-            . escapeshellarg('(' . str_replace('\\', '/', $path) . ') (r) file runpdfbegin pdfpagecount = quit');
-        exec($command, $output, $exitCode);
-
-        return $exitCode === 0 ? max(1, (int)($output[0] ?? 1)) : 1;
-    }
-
-    private function ghostscriptPath(): string
-    {
-        foreach ([(string)getenv('GHOSTSCRIPT_PATH'), 'C:/Program Files/gs/gs10.07.0/bin/gswin64c.exe'] as $path) {
-            if ($path !== '' && is_file($path)) {
-                return $path;
-            }
-        }
-
-        throw new HttpException(500, 'Ghostscript non trovato.');
-    }
-
-    private function deleteDirectory(string $path): void
-    {
-        foreach (glob($path . '/*') ?: [] as $file) {
-            is_dir($file) ? $this->deleteDirectory($file) : unlink($file);
-        }
-        if (is_dir($path)) {
-            rmdir($path);
-        }
-    }
 }

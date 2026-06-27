@@ -12,28 +12,44 @@ final class PdfQrService
 {
     public function image(string $url, string $name, float $x, float $y, float $size): array
     {
-        $png = (new QRCode(new QROptions(['outputType' => QRCode::OUTPUT_IMAGE_PNG, 'scale' => 6])))->render($url);
-        if (str_starts_with($png, 'data:image/')) {
-            $png = base64_decode((string)preg_replace('#^data:image/[^;]+;base64,#', '', $png), true) ?: '';
-        }
-
-        $image = imagecreatefromstring($png);
+        $matrix = (new QRCode(new QROptions()))->addByteSegment($url)->getQRMatrix();
+        $scale = 6;
+        $pixelSize = $matrix->getSize() * $scale;
+        $image = imagecreatetruecolor($pixelSize, $pixelSize);
         if ($image === false) {
             throw new HttpException(500, 'QR non generato.');
         }
+        $white = imagecolorallocate($image, 255, 255, 255);
+        $black = imagecolorallocate($image, 0, 0, 0);
+        imagefill($image, 0, 0, $white);
+
+        for ($row = 0; $row < $matrix->getSize(); $row++) {
+            for ($column = 0; $column < $matrix->getSize(); $column++) {
+                if ($matrix->check($column, $row)) {
+                    imagefilledrectangle(
+                        $image,
+                        $column * $scale,
+                        $row * $scale,
+                        (($column + 1) * $scale) - 1,
+                        (($row + 1) * $scale) - 1,
+                        $black
+                    );
+                }
+            }
+        }
 
         ob_start();
-        imagejpeg($image, null, 92);
+        if (!imagejpeg($image, null, 92)) {
+            ob_end_clean();
+            throw new HttpException(500, 'QR non generato.');
+        }
         $data = (string)ob_get_clean();
-        $width = imagesx($image);
-        $height = imagesy($image);
-        imagedestroy($image);
 
         return [
             'name' => $name,
             'data' => $data,
-            'width' => $width,
-            'height' => $height,
+            'width' => $pixelSize,
+            'height' => $pixelSize,
             'rect' => [$x, $y, $size, $size],
         ];
     }

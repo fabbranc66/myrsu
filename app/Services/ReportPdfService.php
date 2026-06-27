@@ -25,20 +25,21 @@ final class ReportPdfService
         ?string $signature,
         ?string $verifyUrl,
         ?string $documentNumber = null,
-        ?string $protocolNumber = null
+        ?string $protocolNumber = null,
+        ?string $creator = null
     ): void
     {
         $documentNumber = pathinfo($targetPath, PATHINFO_FILENAME);
         $images = array_values(array_filter($attachments, fn (array $item): bool => ($item['kind'] ?? '') === 'image'));
         $videos = array_values(array_filter($attachments, fn (array $item): bool => ($item['kind'] ?? '') === 'video'));
-        $pages = [$this->coverPage($report, $videos, $verifyUrl, $documentNumber, $protocolNumber, 1)];
+        $pages = [$this->coverPage($report, $videos, $verifyUrl, $documentNumber, $protocolNumber, $creator, 1)];
 
         foreach ($images as $image) {
-            $pages[] = $this->imagePage($image, $report, $verifyUrl, $documentNumber, $protocolNumber, count($pages) + 1);
+            $pages[] = $this->imagePage($image, $report, $verifyUrl, $documentNumber, $protocolNumber, $creator, count($pages) + 1);
         }
 
         if ($signature !== null && $signature !== '') {
-            $pages[] = $this->verificationPage($report, $signature, $verifyUrl, $documentNumber, $protocolNumber, count($pages) + 1);
+            $pages[] = $this->verificationPage($report, $signature, $verifyUrl, $documentNumber, $protocolNumber, $creator, count($pages) + 1);
         }
 
         $this->writePdf($targetPath, $pages);
@@ -50,6 +51,7 @@ final class ReportPdfService
         ?string $verifyUrl,
         ?string $documentNumber,
         ?string $protocolNumber,
+        ?string $creator,
         int $pageNumber
     ): array
     {
@@ -91,12 +93,13 @@ final class ReportPdfService
             'number' => ($documentNumber ?? '-') . ' / ' . $pageNumber,
             'protocol' => $protocolNumber ?? '-',
             'date' => (string)($report['created_at'] ?? date('Y-m-d H:i')),
+            'creator' => $creator,
             'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
         ]);
 
         if ($verifyUrl !== null && $verifyUrl !== '') {
             $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
-            $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+            $page['links'][] = ['rect' => PdfLayoutService::VERIFY_LINK_RECT, 'url' => $verifyUrl];
             $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
         }
 
@@ -111,6 +114,7 @@ final class ReportPdfService
         ?string $verifyUrl,
         ?string $documentNumber,
         ?string $protocolNumber,
+        ?string $creator,
         int $pageNumber
     ): array {
         $content = $this->text(42, PdfLayoutService::BODY_TOP, 18, 'F2', 'Verifica documento');
@@ -119,12 +123,13 @@ final class ReportPdfService
             'number' => ($documentNumber ?? '-') . ' / ' . $pageNumber,
             'protocol' => $protocolNumber ?? '-',
             'date' => (string)($report['created_at'] ?? date('Y-m-d H:i')),
+            'creator' => $creator,
             'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
         ]);
 
         if ($verifyUrl !== null && $verifyUrl !== '') {
             $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
-            $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+            $page['links'][] = ['rect' => PdfLayoutService::VERIFY_LINK_RECT, 'url' => $verifyUrl];
             $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
         }
 
@@ -132,7 +137,7 @@ final class ReportPdfService
         return $page;
     }
 
-    private function imagePage(array $image, array $report, ?string $verifyUrl, ?string $documentNumber, ?string $protocolNumber, int $pageNumber): array
+    private function imagePage(array $image, array $report, ?string $verifyUrl, ?string $documentNumber, ?string $protocolNumber, ?string $creator, int $pageNumber): array
     {
         $jpeg = $this->jpegFromImage((string)$image['path']);
         $caption = (string)($image['original_name'] ?? 'immagine');
@@ -148,6 +153,7 @@ final class ReportPdfService
             'number' => ($documentNumber ?? '-') . ' / ' . $pageNumber,
             'protocol' => $protocolNumber ?? '-',
             'date' => (string)($report['created_at'] ?? date('Y-m-d H:i')),
+            'creator' => $creator,
             'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
         ]);
         $page['images'][] = [
@@ -159,7 +165,7 @@ final class ReportPdfService
         ];
         if ($verifyUrl !== null && $verifyUrl !== '') {
             $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
-            $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+            $page['links'][] = ['rect' => PdfLayoutService::VERIFY_LINK_RECT, 'url' => $verifyUrl];
             $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
         }
 
@@ -276,8 +282,8 @@ final class ReportPdfService
 
         $objects[] = "2 0 obj\n<< /Type /Pages /Kids [" . implode(' ', $pageRefs) . "] /Count " . count($pageRefs) . " >>\nendobj\n";
         $objects[] = "{$gstateObject} 0 obj\n<< /Type /ExtGState /ca 0.23 /CA 0.23 >>\nendobj\n";
-        $objects[] = "{$fontRegular} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>\nendobj\n";
-        $objects[] = "{$fontBold} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>\nendobj\n";
+        $objects[] = "{$fontRegular} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>\nendobj\n";
+        $objects[] = "{$fontBold} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>\nendobj\n";
         $this->writeObjects($objects, $targetPath);
     }
 

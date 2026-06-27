@@ -121,7 +121,12 @@ final class UnionMeetingController
                 $title,
                 $body,
                 (string)$protocol['protocol_number'],
-                (string)$protocol['created_at']
+                (string)$protocol['created_at'],
+                null,
+                null,
+                null,
+                null,
+                (string)$user['name']
             )
         );
         $officialPublicPath = $this->app->protocolDocumentName->publicPath('comunicati', (string)$protocol['protocol_number']);
@@ -135,7 +140,7 @@ final class UnionMeetingController
         $document = $this->app->documents->updateSignature((int)$document['id'], $this->app->documentSignature->sign($document));
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
         $verifyUrl = $this->appBaseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode((string)$document['signature']);
-        $this->app->comunicatoDirectPdf->write($pdfPath, $title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at'], null, $verifyUrl, (string)$document['signature']);
+        $this->app->comunicatoDirectPdf->write($pdfPath, $title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at'], null, $verifyUrl, (string)$document['signature'], null, (string)$user['name']);
         $document = $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
         $this->app->documentStorage->uploadPdfToHosting($document);
         $meeting = $this->app->unionMeetings->attachPublicDocument((int)$meeting['id'], (int)$document['id']);

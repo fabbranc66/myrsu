@@ -101,6 +101,9 @@ $app->router->post('/api/v1/hosting/documents', [$hostingDocuments, 'store']);
 $app->router->get('/api/v1/hosting/comunicati/pending', [$hostingDocuments, 'pendingComunicati']);
 $app->router->get('/api/v1/hosting/comunicati/{id}', [$hostingDocuments, 'showPendingComunicato']);
 $app->router->post('/api/v1/hosting/comunicati/{id}/complete', [$hostingDocuments, 'completeComunicato']);
+$app->router->get('/api/v1/hosting/documents/pending-office', [$hostingDocuments, 'pendingOffice']);
+$app->router->get('/api/v1/hosting/documents/{id}/original', [$hostingDocuments, 'pendingOfficeOriginal']);
+$app->router->post('/api/v1/hosting/documents/{id}/complete', [$hostingDocuments, 'completeOffice']);
 $app->router->get('/api/v1/local/comunicati/pending', [$pendingQueue, 'index']);
 $app->router->post('/api/v1/local/comunicati/process', [$pendingQueue, 'process']);
 

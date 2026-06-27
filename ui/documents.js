@@ -43,7 +43,7 @@ function resetUploadProgress() {
   uploadProgressText.textContent = '0%';
 }
 
-function uploadDocument(formData) {
+function uploadDocument(formData, startProgress = 0) {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', `${apiBase}/documents`);
@@ -53,7 +53,8 @@ function uploadDocument(formData) {
 
     xhr.upload.addEventListener('progress', (event) => {
       if (!event.lengthComputable) return;
-      const value = Math.max(1, Math.min(95, Math.round((event.loaded / event.total) * 95)));
+      const uploaded = Math.round((event.loaded / event.total) * (95 - startProgress));
+      const value = Math.max(1, Math.min(95, startProgress + uploaded));
       setUploadProgress(value);
     });
 
@@ -61,7 +62,7 @@ function uploadDocument(formData) {
       const payload = xhr.responseText ? JSON.parse(xhr.responseText) : {};
       jsonOutput.textContent = JSON.stringify(payload, null, 2);
       if (xhr.status < 200 || xhr.status >= 300) {
-        reject(new Error(payload.error?.message || 'Upload fallito'));
+        reject(new Error(payload.error?.detail || payload.error?.message || 'Upload fallito'));
         return;
       }
       resolve(payload.data);
@@ -162,7 +163,17 @@ uploadForm.addEventListener('submit', async (event) => {
   }
   setUploadProgress(0);
   try {
-    await uploadDocument(new FormData(uploadForm));
+    const formData = new FormData(uploadForm);
+    const file = formData.get('file');
+    let startProgress = 0;
+    if (file instanceof File && file.type === 'application/pdf') {
+      message.textContent = 'Preparazione pagine PDF...';
+      const renderedPdf = await MyRsuPdfRasterizer.rasterizePdf(file, setUploadProgress);
+      formData.append('rendered_pdf', renderedPdf, 'rendered-pages.pdf');
+      startProgress = 30;
+      message.textContent = 'Caricamento documento...';
+    }
+    await uploadDocument(formData, startProgress);
     setUploadProgress(100);
     await new Promise((resolve) => window.setTimeout(resolve, 250));
     message.textContent = 'Documento caricato';

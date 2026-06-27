@@ -6,6 +6,8 @@ const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
 const refreshButton = document.querySelector('#refreshButton');
 const processButton = document.querySelector('#processButton');
+const isLocalRuntime = ['localhost', '127.0.0.1', '::1'].includes(window.location.hostname);
+processButton.classList.toggle('hidden', !isLocalRuntime);
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -31,9 +33,9 @@ function row(item) {
     <tr>
       <td>${item.id}</td>
       <td>${item.protocol_number || '-'}</td>
-      <td>${escapeHtml(item.subject || item.comunicato?.title || '-')}</td>
-      <td>${item.protocol_created_at || '-'}</td>
-      <td>in attesa</td>
+      <td>${escapeHtml(item.subject || item.comunicato?.title || item.original_name || '-')}</td>
+      <td>${item.protocol_created_at || item.created_at || '-'}</td>
+      <td>${item.queue_type === 'office' ? 'conversione Office' : 'generazione comunicato'}</td>
     </tr>
   `;
 }

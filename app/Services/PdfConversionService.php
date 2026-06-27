@@ -8,10 +8,6 @@ use App\Core\HttpException;
 
 final class PdfConversionService
 {
-    public function __construct(private readonly PdfWatermarkService $watermark)
-    {
-    }
-
     public function available(): bool
     {
         try {
@@ -25,12 +21,19 @@ final class PdfConversionService
     public function convert(string $sourcePath, string $originalName, string $targetPath, string $mimeType): void
     {
         if ($mimeType === 'application/pdf') {
-            $this->watermark->apply($sourcePath, $targetPath, ['title' => $originalName]);
+            if (!copy($sourcePath, $targetPath)) {
+                throw new HttpException(500, 'Copia PDF fallita.');
+            }
             return;
         }
 
         if (str_starts_with($mimeType, 'image/')) {
             $this->convertImage($sourcePath, $originalName, $targetPath, $mimeType);
+            return;
+        }
+
+        if ($mimeType === 'text/plain') {
+            $this->convertText($sourcePath, $targetPath);
             return;
         }
 
@@ -61,7 +64,9 @@ final class PdfConversionService
             throw new HttpException(422, 'Conversione PDF fallita.');
         }
 
-        $this->watermark->apply($pdfFiles[0], $targetPath, ['title' => $originalName]);
+        if (!copy($pdfFiles[0], $targetPath)) {
+            throw new HttpException(500, 'Copia PDF convertito fallita.');
+        }
         $this->deleteDirectory($tempDir);
         if (is_dir($profileDir)) {
             $this->deleteDirectory($profileDir);
@@ -85,6 +90,32 @@ final class PdfConversionService
         $this->writeImagePdf($jpegPath, $pdfPath, $width, $height, $originalName);
         copy($pdfPath, $targetPath);
         $this->deleteDirectory($tempDir);
+    }
+
+    private function convertText(string $sourcePath, string $targetPath): void
+    {
+        $layout = new PdfLayoutService();
+        $pages = [];
+        $content = '';
+        $y = PdfLayoutService::BODY_TOP;
+
+        foreach (preg_split('/\R/', (string)file_get_contents($sourcePath)) ?: [] as $paragraph) {
+            $lines = $paragraph === '' ? [''] : explode("\n", wordwrap($paragraph, 100, "\n", true));
+            foreach ($lines as $line) {
+                if ($y < 72) {
+                    $pages[] = $layout->page($content);
+                    $content = '';
+                    $y = PdfLayoutService::BODY_TOP;
+                }
+                if ($line !== '') {
+                    $content .= $layout->text(42, $y, 9, PdfLayoutService::FONT_REGULAR, $line);
+                }
+                $y -= $line === '' ? 12 : 13;
+            }
+        }
+
+        $pages[] = $layout->page($content);
+        (new PdfWriterService())->write($targetPath, $pages);
     }
 
     private function writeJpegCopy(string $sourcePath, string $targetPath): void

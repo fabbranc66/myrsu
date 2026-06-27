@@ -18,6 +18,7 @@ final class PdfLayoutService
     public const FOOTER_Y = 36.0;
     public const FONT_REGULAR = 'F1';
     public const FONT_BOLD = 'F2';
+    public const VERIFY_LINK_RECT = [260, 706, 490, 720];
 
     public function page(string $body, array $header = [], string $footer = 'RSU Sitem Canegrate'): array
     {
@@ -33,25 +34,24 @@ final class PdfLayoutService
         $number = (string)($data['number'] ?? '-');
         $protocol = (string)($data['protocol'] ?? '-');
         $date = (string)($data['date'] ?? date('Y-m-d H:i'));
-        $revision = trim((string)($data['revision'] ?? ''));
+        $creator = trim((string)($data['creator'] ?? '')) ?: '-';
+        $revision = trim((string)($data['revision'] ?? '')) ?: '-';
         $verifyText = (string)($data['verify_text'] ?? 'Verifica autenticita copia digitale');
 
         $content = "q 0 g\n";
         $content .= $this->text(42, 774, 30, self::FONT_BOLD, 'RSU');
         $content .= $this->text(44, 755, 12, self::FONT_REGULAR, 'Canegrate');
-        $content .= $this->text(150, 780, 9, self::FONT_BOLD, 'Documento / pagina');
+        $content .= $this->text(150, 780, 9, self::FONT_BOLD, 'Doc/n pag');
         $content .= $this->text(260, 780, 9, self::FONT_REGULAR, $number);
-        $content .= $this->text(150, 762, 9, self::FONT_BOLD, 'Protocollo');
+        $content .= $this->text(150, 762, 9, self::FONT_BOLD, 'Prot');
         $content .= $this->text(260, 762, 9, self::FONT_REGULAR, $protocol);
-        $content .= $this->text(150, 744, 9, self::FONT_BOLD, 'Data e ora');
-        $content .= $this->text(260, 744, 9, self::FONT_REGULAR, $date);
-        $content .= $this->text(150, 726, 9, self::FONT_BOLD, 'Verifica');
-        $content .= $this->text(260, 726, 9, self::FONT_REGULAR, $verifyText);
-        if ($revision !== '') {
-            $content .= $this->text(150, 708, 9, self::FONT_BOLD, 'Ultima revisione');
-            $content .= $this->text(260, 708, 9, self::FONT_REGULAR, $revision);
-        }
-        $lineY = $revision !== '' ? 686 : 696;
+        $content .= $this->text(150, 744, 9, self::FONT_BOLD, 'Data');
+        $content .= $this->text(260, 744, 9, self::FONT_REGULAR, $date . ' - ' . $creator);
+        $content .= $this->text(150, 727, 9, self::FONT_BOLD, 'Rev');
+        $content .= $this->text(260, 727, 9, self::FONT_REGULAR, $revision);
+        $content .= $this->text(150, 710, 9, self::FONT_BOLD, 'Verifica');
+        $content .= $this->text(260, 710, 9, self::FONT_REGULAR, $verifyText);
+        $lineY = 688;
         $content .= "0 G 0.8 w 42 {$lineY} m 553 {$lineY} l S\n";
 
         return $content . "Q\n";
