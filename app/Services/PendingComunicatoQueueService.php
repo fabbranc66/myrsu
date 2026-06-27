@@ -12,8 +12,7 @@ final class PendingComunicatoQueueService
         private readonly array $hostingConfig,
         private readonly DocumentStorageService $documentStorage,
         private readonly DocumentSignatureService $documentSignature,
-        private readonly DocumentVerificationPageService $documentVerificationPage,
-        private readonly ComunicatoPdfService $comunicatoPdf
+        private readonly ComunicatoDirectPdfService $comunicatoPdf
     ) {
     }
 
@@ -25,10 +24,6 @@ final class PendingComunicatoQueueService
 
     public function process(): array
     {
-        if (!$this->documentStorage->converterAvailable()) {
-            throw new HttpException(409, 'Conversione PDF locale non disponibile.');
-        }
-
         $pending = $this->pending();
         $results = [];
 
@@ -61,21 +56,24 @@ final class PendingComunicatoQueueService
                 throw new HttpException(422, 'Contenuto comunicato mancante.');
             }
 
-            $html = $this->comunicatoPdf->html(
-                $title,
-                $body,
-                (string)$document['protocol_number'],
-                (string)$document['protocol_created_at']
-            );
             $pdfPath = $this->documentStorage->pdfPath((string)$document['pdf_public_path']);
             $dir = dirname($pdfPath);
             if (!is_dir($dir)) {
                 mkdir($dir, 0775, true);
             }
 
-            $this->documentStorage->rewriteHtmlDocument($document, $html, (string)$document['original_name']);
             $signature = $this->documentSignature->sign($document);
-            $this->documentVerificationPage->append($pdfPath, $document, $signature);
+            $verifyUrl = $this->verificationUrl((int)$document['id'], $signature);
+            $this->comunicatoPdf->write(
+                $pdfPath,
+                $title,
+                $body,
+                (string)$document['protocol_number'],
+                (string)$document['protocol_created_at'],
+                (string)$document['id'],
+                $verifyUrl,
+                $signature
+            );
 
             $this->postFile(
                 $this->baseEndpoint() . '/comunicati/' . (int)$document['id'] . '/complete',
@@ -172,5 +170,11 @@ final class PendingComunicatoQueueService
     private function token(): string
     {
         return trim((string)($this->hostingConfig['documents_token'] ?? ''));
+    }
+
+    private function verificationUrl(int $documentId, string $signature): string
+    {
+        $baseUrl = preg_replace('#/api/v1/hosting$#', '', $this->baseEndpoint()) ?: '';
+        return rtrim($baseUrl, '/') . '/ui/document-verify.html?id=' . $documentId . '&sig=' . urlencode($signature);
     }
 }

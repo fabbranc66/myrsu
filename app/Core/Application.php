@@ -24,21 +24,24 @@ use App\Repositories\UserRepository;
 use App\Services\AuthService;
 use App\Services\AntiBotService;
 use App\Services\ComunicatoPdfService;
-use App\Services\DocumentHeaderService;
+use App\Services\ComunicatoDirectPdfService;
 use App\Services\DocumentSignatureService;
 use App\Services\DocumentStorageService;
 use App\Services\DocumentThumbnailService;
-use App\Services\DocumentVerificationPageService;
 use App\Services\DocumentVerificationMetadataService;
 use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
 use App\Services\PendingComunicatoQueueService;
 use App\Services\PdfConversionService;
-use App\Services\PdfLinkPageService;
+use App\Services\PdfLayoutService;
+use App\Services\PdfImageFitService;
 use App\Services\PdfWatermarkService;
+use App\Services\PdfQrService;
+use App\Services\PdfWriterService;
 use App\Services\ReportPdfService;
 use App\Services\ReportService;
 use App\Services\ReportAttachmentStorageService;
+use App\Services\UploadedDocumentPdfService;
 use Throwable;
 
 final class Application
@@ -71,18 +74,21 @@ final class Application
     public readonly AuthService $authService;
     public readonly AntiBotService $antiBot;
     public readonly ComunicatoPdfService $comunicatoPdf;
+    public readonly ComunicatoDirectPdfService $comunicatoDirectPdf;
     public readonly ReportService $reportService;
     public readonly ReportAttachmentStorageService $reportAttachmentStorage;
-    public readonly DocumentHeaderService $documentHeader;
     public readonly DocumentSignatureService $documentSignature;
     public readonly DocumentThumbnailService $documentThumbnail;
-    public readonly DocumentVerificationPageService $documentVerificationPage;
     public readonly DocumentVerificationMetadataService $documentVerificationMetadata;
     public readonly DocumentStorageService $documentStorage;
     public HostingDocumentReceiveService $hostingDocumentReceive;
     public readonly PendingComunicatoQueueService $pendingComunicatoQueue;
-    public readonly PdfLinkPageService $pdfLinkPage;
+    public readonly PdfLayoutService $pdfLayout;
+    public readonly PdfImageFitService $pdfImageFit;
+    public readonly PdfQrService $pdfQr;
+    public readonly PdfWriterService $pdfWriter;
     public readonly ReportPdfService $reportPdf;
+    public readonly UploadedDocumentPdfService $uploadedDocumentPdf;
 
     public function __construct(private readonly string $basePath)
     {
@@ -92,28 +98,30 @@ final class Application
 
         $this->router = new Router();
         $this->antiBot = new AntiBotService();
-        $this->comunicatoPdf = new ComunicatoPdfService($this->basePath);
+        $this->comunicatoPdf = new ComunicatoPdfService();
         $this->reportService = new ReportService();
         $this->reportAttachmentStorage = new ReportAttachmentStorageService($this->basePath);
-        $this->documentHeader = new DocumentHeaderService();
         $this->documentSignature = new DocumentSignatureService($this->signingConfig);
         $this->documentThumbnail = new DocumentThumbnailService($this->basePath);
-        $this->documentVerificationPage = new DocumentVerificationPageService();
         $this->documentVerificationMetadata = new DocumentVerificationMetadataService($this->basePath);
         $this->documentStorage = new DocumentStorageService(
             $this->basePath,
             new PdfConversionService(new PdfWatermarkService()),
             new HostingDocumentUploadService($this->hostingConfig)
         );
-        $this->pdfLinkPage = new PdfLinkPageService();
-        $this->reportPdf = new ReportPdfService();
+        $this->pdfLayout = new PdfLayoutService();
+        $this->pdfImageFit = new PdfImageFitService();
+        $this->pdfQr = new PdfQrService();
+        $this->pdfWriter = new PdfWriterService();
+        $this->comunicatoDirectPdf = new ComunicatoDirectPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
+        $this->reportPdf = new ReportPdfService($this->pdfLayout, $this->pdfQr);
+        $this->uploadedDocumentPdf = new UploadedDocumentPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
         $this->pendingComunicatoQueue = new PendingComunicatoQueueService(
             $this->hostingConfig,
             $this->documentStorage,
             $this->documentSignature,
-            $this->documentVerificationPage,
-            $this->comunicatoPdf
+            $this->comunicatoDirectPdf
         );
     }
 

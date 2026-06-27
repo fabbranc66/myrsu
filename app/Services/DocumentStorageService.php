@@ -172,24 +172,19 @@ final class DocumentStorageService
         return $this->originalsPath . '/' . basename($storedName);
     }
 
-    public function converterAvailable(): bool
-    {
-        return $this->pdfConversion->available();
-    }
-
-    public function rewriteHtmlDocument(array $document, string $html, string $originalName): array
+    public function rewriteGeneratedPdf(array $document, string $original, string $originalName, callable $writer): array
     {
         $originalPath = $this->originalPath((string)$document['original_stored_name']);
-        if (file_put_contents($originalPath, $html) === false) {
-            throw new HttpException(500, 'Aggiornamento comunicato fallito.');
+        if (file_put_contents($originalPath, $original) === false) {
+            throw new HttpException(500, 'Aggiornamento documento fallito.');
         }
 
         $pdfPath = $this->pdfPath((string)$document['pdf_public_path']);
-        $this->pdfConversion->convert($originalPath, $originalName, $pdfPath, 'text/html');
+        $writer($pdfPath);
 
         return [
             'original_name' => $originalName,
-            'original_mime_type' => 'text/html',
+            'original_mime_type' => 'text/plain',
             'original_size_bytes' => filesize($originalPath),
             'original_checksum_sha256' => hash_file('sha256', $originalPath),
             'pdf_size_bytes' => filesize($pdfPath),

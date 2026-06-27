@@ -21,6 +21,7 @@ const attachmentModalTitle = document.querySelector('#attachmentModalTitle');
 const attachmentModalBody = document.querySelector('#attachmentModalBody');
 const closeAttachmentModal = document.querySelector('#closeAttachmentModal');
 let protocolEntries = [];
+let documentPreviewUrl = null;
 const attachmentMap = new Map();
 
 async function api(path, options = {}) {
@@ -94,8 +95,12 @@ protocolTable.addEventListener('click', async (event) => {
   if (!button) return;
 
   if (button.dataset.view) {
-    documentPreview.src = `${apiBase}/documents/${button.dataset.view}/preview?token=${encodeURIComponent(token)}`;
-    documentModal.showModal();
+    try {
+      await openDocumentPreview(button.dataset.view);
+      documentModal.showModal();
+    } catch (error) {
+      message.textContent = error.message;
+    }
     return;
   }
 
@@ -108,9 +113,25 @@ protocolTable.addEventListener('click', async (event) => {
 });
 
 closeDocumentModal.addEventListener('click', () => {
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  documentPreviewUrl = null;
   documentPreview.src = '';
   documentModal.close();
 });
+
+async function openDocumentPreview(id) {
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  documentPreviewUrl = null;
+  const headers = {};
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const response = await fetch(`${apiBase}/documents/${id}/preview`, { headers });
+  if (!response.ok) {
+    const payload = await response.json().catch(() => ({}));
+    throw new Error(payload.error?.message || 'Anteprima non disponibile');
+  }
+  documentPreviewUrl = URL.createObjectURL(await response.blob());
+  documentPreview.src = documentPreviewUrl;
+}
 
 async function showReport(id) {
   const report = await api(`/reports/${id}`);

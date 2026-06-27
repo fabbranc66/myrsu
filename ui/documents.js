@@ -15,6 +15,7 @@ const practiceLinkModal = document.querySelector('#practiceLinkModal');
 const practiceLinkForm = document.querySelector('#practiceLinkForm');
 const closePracticeLinkModal = document.querySelector('#closePracticeLinkModal');
 let practices = [];
+let documentPreviewUrl = null;
 
 async function api(path, options = {}) {
   const headers = options.headers || {};
@@ -171,7 +172,11 @@ documentsTable.addEventListener('click', async (event) => {
   }
 
   if (button.dataset.view) {
-    await showDocument(button.dataset.view);
+    try {
+      await showDocument(button.dataset.view);
+    } catch (error) {
+      message.textContent = error.message;
+    }
     return;
   }
 
@@ -187,7 +192,17 @@ documentsTable.addEventListener('click', async (event) => {
 });
 
 async function showDocument(id) {
-  documentPreview.src = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token)}`;
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  documentPreviewUrl = null;
+  const headers = {};
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const response = await fetch(`${apiBase}/documents/${id}/preview`, { headers });
+  if (!response.ok) {
+    const payload = await response.json().catch(() => ({}));
+    throw new Error(payload.error?.message || 'Anteprima non disponibile');
+  }
+  documentPreviewUrl = URL.createObjectURL(await response.blob());
+  documentPreview.src = documentPreviewUrl;
   documentModal.showModal();
 }
 
@@ -207,6 +222,8 @@ async function protocolIn(id) {
 }
 
 closeDocumentModal.addEventListener('click', () => {
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  documentPreviewUrl = null;
   documentPreview.src = '';
   documentModal.close();
 });

@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace App\Services;
 
 use App\Core\HttpException;
-use chillerlan\QRCode\QRCode;
-use chillerlan\QRCode\QROptions;
 
 final class ReportPdfService
 {
@@ -14,27 +12,51 @@ final class ReportPdfService
     private float $pageHeight = 841.89;
     private float $margin = 42.0;
 
-    public function write(string $targetPath, array $report, array $attachments, ?string $signature, ?string $verifyUrl): void
+    public function __construct(
+        private readonly PdfLayoutService $layout,
+        private readonly PdfQrService $qr
+    ) {
+    }
+
+    public function write(
+        string $targetPath,
+        array $report,
+        array $attachments,
+        ?string $signature,
+        ?string $verifyUrl,
+        ?string $documentNumber = null,
+        ?string $protocolNumber = null
+    ): void
     {
         $images = array_values(array_filter($attachments, fn (array $item): bool => ($item['kind'] ?? '') === 'image'));
         $videos = array_values(array_filter($attachments, fn (array $item): bool => ($item['kind'] ?? '') === 'video'));
-        $pages = [$this->coverPage($report, $videos, $signature, $verifyUrl)];
+        $pages = [$this->coverPage($report, $videos, $verifyUrl, $documentNumber, $protocolNumber)];
 
         foreach ($images as $image) {
             $pages[] = $this->imagePage($image);
         }
 
+        if ($signature !== null && $signature !== '') {
+            $pages[] = $this->verificationPage($report, $signature, $verifyUrl, $documentNumber, $protocolNumber);
+        }
+
         $this->writePdf($targetPath, $pages);
     }
 
-    private function coverPage(array $report, array $videos, ?string $signature, ?string $verifyUrl): array
+    private function coverPage(
+        array $report,
+        array $videos,
+        ?string $verifyUrl,
+        ?string $documentNumber,
+        ?string $protocolNumber
+    ): array
     {
         $lines = [];
         $links = [];
         $images = [];
-        $y = 790.0;
+        $y = PdfLayoutService::BODY_TOP;
 
-        $lines[] = $this->text(42, $y, 22, 'F2', 'Segnalazione approvata');
+        $lines[] = $this->text(42, $y, 18, 'F2', 'Segnalazione approvata');
         $y -= 34;
         $lines[] = $this->text(42, $y, 11, 'F2', 'Codice');
         $lines[] = $this->text(120, $y, 11, 'F1', (string)$report['tracking_code']);
@@ -63,21 +85,48 @@ final class ReportPdfService
             $y -= 8;
         }
 
-        if ($signature !== null && $signature !== '') {
-            $lines[] = $this->text(42, $y, 13, 'F2', 'Verifica autenticita');
-            $y -= 18;
-            $lines[] = $this->text(42, $y, 10, 'F1', 'Firma: ' . $signature);
-            $y -= 18;
-            if ($verifyUrl !== null && $verifyUrl !== '') {
-                $lines[] = $this->text(42, $y, 10, 'F1', 'Apri verifica documento');
-                $links[] = ['rect' => [42, $y - 3, 190, $y + 12], 'url' => $verifyUrl];
-                $qr = $this->qrJpeg($verifyUrl);
-                $images[] = ['name' => 'Qr1', 'data' => $qr['data'], 'width' => $qr['width'], 'height' => $qr['height'], 'rect' => [42, $y - 130, 115, 115]];
-                $links[] = ['rect' => [42, $y - 130, 157, $y - 15], 'url' => $verifyUrl];
-            }
+        $page = $this->layout->page(implode('', $lines), [
+            'number' => $documentNumber ?? '-',
+            'protocol' => $protocolNumber ?? '-',
+            'date' => (string)($report['created_at'] ?? date('Y-m-d H:i')),
+            'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
+        ]);
+
+        if ($verifyUrl !== null && $verifyUrl !== '') {
+            $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
+            $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+            $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
         }
 
-        return ['content' => implode('', $lines), 'images' => $images, 'links' => $links];
+        $page['images'] = array_merge($page['images'], $images);
+        $page['links'] = array_merge($page['links'], $links);
+        return $page;
+    }
+
+    private function verificationPage(
+        array $report,
+        string $signature,
+        ?string $verifyUrl,
+        ?string $documentNumber,
+        ?string $protocolNumber
+    ): array {
+        $content = $this->text(42, PdfLayoutService::BODY_TOP, 18, 'F2', 'Verifica documento');
+        $verification = $this->layout->verificationBlock(PdfLayoutService::BODY_TOP - 48, $signature, $verifyUrl);
+        $page = $this->layout->page($content . $verification['content'], [
+            'number' => $documentNumber ?? '-',
+            'protocol' => $protocolNumber ?? '-',
+            'date' => (string)($report['created_at'] ?? date('Y-m-d H:i')),
+            'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
+        ]);
+
+        if ($verifyUrl !== null && $verifyUrl !== '') {
+            $page['images'][] = $this->qr->image($verifyUrl, 'Qr1', 502, 728, 52);
+            $page['links'][] = ['rect' => [260, 723, 430, 738], 'url' => $verifyUrl];
+            $page['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
+        }
+
+        $page['links'] = array_merge($page['links'], $verification['links']);
+        return $page;
     }
 
     private function imagePage(array $image): array
@@ -159,28 +208,6 @@ final class ReportPdfService
         return $rotated;
     }
 
-    private function qrJpeg(string $url): array
-    {
-        $png = (new QRCode(new QROptions(['outputType' => QRCode::OUTPUT_IMAGE_PNG, 'scale' => 6])))->render($url);
-        if (str_starts_with($png, 'data:image/')) {
-            $png = base64_decode((string)preg_replace('#^data:image/[^;]+;base64,#', '', $png), true) ?: '';
-        }
-
-        $image = imagecreatefromstring($png);
-        if ($image === false) {
-            throw new HttpException(500, 'QR non generato.');
-        }
-
-        ob_start();
-        imagejpeg($image, null, 92);
-        $data = (string)ob_get_clean();
-        $width = imagesx($image);
-        $height = imagesy($image);
-        imagedestroy($image);
-
-        return ['data' => $data, 'width' => $width, 'height' => $height];
-    }
-
     private function wrappedText(array &$lines, float $x, float $y, int $size, int $maxChars, string $text): float
     {
         foreach (preg_split("/\R/", trim($text)) ?: [] as $paragraph) {
@@ -204,6 +231,7 @@ final class ReportPdfService
         $objects = ["1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n"];
         $pageRefs = [];
         $next = 3;
+        $gstateObject = $next++;
         $fontRegular = 0;
         $fontBold = 0;
 
@@ -231,23 +259,24 @@ final class ReportPdfService
                 $fontRegular = $next++;
                 $fontBold = $next++;
             }
-            $objects[] = $this->pageObject($pageObject, $contentObject, $imageRefs, $annotRefs, $fontRegular, $fontBold);
+            $objects[] = $this->pageObject($pageObject, $contentObject, $imageRefs, $annotRefs, $fontRegular, $fontBold, $gstateObject);
         }
 
         $objects[] = "2 0 obj\n<< /Type /Pages /Kids [" . implode(' ', $pageRefs) . "] /Count " . count($pageRefs) . " >>\nendobj\n";
+        $objects[] = "{$gstateObject} 0 obj\n<< /Type /ExtGState /ca 0.23 /CA 0.23 >>\nendobj\n";
         $objects[] = "{$fontRegular} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>\nendobj\n";
         $objects[] = "{$fontBold} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>\nendobj\n";
         $this->writeObjects($objects, $targetPath);
     }
 
-    private function pageObject(int $id, int $contentId, array $imageRefs, array $annotRefs, int $fontRegular, int $fontBold): string
+    private function pageObject(int $id, int $contentId, array $imageRefs, array $annotRefs, int $fontRegular, int $fontBold, int $gstateObject): string
     {
         $xobjects = '';
         foreach ($imageRefs as $name => $objectId) {
             $xobjects .= '/' . $name . ' ' . $objectId . ' 0 R ';
         }
         $annots = $annotRefs === [] ? '' : ' /Annots [' . implode(' ', $annotRefs) . ']';
-        return "{$id} 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 {$this->pageWidth} {$this->pageHeight}]{$annots} /Resources << /XObject << {$xobjects} >> /Font << /F1 {$fontRegular} 0 R /F2 {$fontBold} 0 R >> >> /Contents {$contentId} 0 R >>\nendobj\n";
+        return "{$id} 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 {$this->pageWidth} {$this->pageHeight}]{$annots} /Resources << /ExtGState << /GS1 {$gstateObject} 0 R >> /XObject << {$xobjects} >> /Font << /F1 {$fontRegular} 0 R /F2 {$fontBold} 0 R >> >> /Contents {$contentId} 0 R >>\nendobj\n";
     }
 
     private function imageObject(int $id, array $image): string

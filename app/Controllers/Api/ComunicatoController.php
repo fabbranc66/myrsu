@@ -27,34 +27,35 @@ final class ComunicatoController
         }
 
         $protocol = $this->app->protocols->create('OUT', 'COM', (string)$data['title'], (int)$user['id']);
-        $html = $this->app->comunicatoPdf->html(
+        $original = $this->app->comunicatoDirectPdf->textOriginal(
             (string)$data['title'],
             (string)$data['body'],
-            $protocol['protocol_number'],
+            (string)$protocol['protocol_number'],
             (string)$protocol['created_at']
         );
-        $stored = $this->app->documentStorage->converterAvailable()
-            ? $this->app->documentStorage->storeHtml($html, $this->fileName((string)$data['title']), 'comunicati')
-            : $this->app->documentStorage->storePendingHtml($html, $this->fileName((string)$data['title']), 'comunicati');
+        $stored = $this->app->documentStorage->storeGeneratedPdf(
+            $original,
+            $this->fileName((string)$data['title']),
+            'comunicati',
+            fn (string $pdfPath) => $this->app->comunicatoDirectPdf->write(
+                $pdfPath,
+                (string)$data['title'],
+                (string)$data['body'],
+                (string)$protocol['protocol_number'],
+                (string)$protocol['created_at']
+            )
+        );
         $document = $this->app->documents->create($stored + [
             'visibility' => (string)$data['visibility'],
             'uploaded_by' => (int)$user['id'],
         ]);
         $protocol = $this->app->protocols->update((int)$protocol['id'], (string)$data['title'], (int)$document['id']);
-        if ((string)$document['conversion_status'] === 'ready') {
-            $document = $this->app->documents->updateSignature(
-                (int)$document['id'],
-                $this->app->documentSignature->sign($document)
-            );
-            $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
-            $this->app->documentVerificationPage->append($pdfPath, $document, (string)$document['signature']);
-            $document = $this->app->documents->updatePdfMetadata(
-                (int)$document['id'],
-                filesize($pdfPath),
-                hash_file('sha256', $pdfPath)
-            );
-            $this->app->documentStorage->uploadPdfToHosting($document);
-        }
+        $document = $this->app->documents->updateSignature((int)$document['id'], $this->app->documentSignature->sign($document));
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        $verifyUrl = $this->appBaseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode((string)$document['signature']);
+        $this->app->comunicatoDirectPdf->write($pdfPath, (string)$data['title'], (string)$data['body'], (string)$protocol['protocol_number'], (string)$protocol['created_at'], (string)$document['id'], $verifyUrl, (string)$document['signature']);
+        $document = $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
+        $this->app->documentStorage->uploadPdfToHosting($document);
         $this->app->activityLogs->write((int)$user['id'], 'documents.comunicato_create', [
             'section' => 'documents',
             'document_id' => $document['id'],
@@ -69,4 +70,17 @@ final class ComunicatoController
     {
         return 'comunicato-' . date('Ymd-His') . '.html';
     }
+
+    private function appBaseUrl(): string
+    {
+        $host = (string)($_SERVER['HTTP_HOST'] ?? '');
+        if ($host !== '') {
+            $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+            $dir = rtrim(str_replace('\\', '/', dirname((string)($_SERVER['SCRIPT_NAME'] ?? ''))), '/');
+            return $scheme . '://' . $host . ($dir === '' ? '' : $dir);
+        }
+
+        return rtrim((string)env_value('APP_URL', 'http://localhost/myrsu'), '/');
+    }
+
 }

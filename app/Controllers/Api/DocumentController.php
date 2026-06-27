@@ -99,16 +99,27 @@ final class DocumentController
             throw new HttpException(422, 'Protocollo comunicato non trovato.');
         }
 
-        $html = $this->app->comunicatoPdf->html(
+        $original = $this->app->comunicatoDirectPdf->textOriginal(
             (string)$data['title'],
             (string)$data['body'],
             (string)$protocol['protocol_number'],
             (string)$protocol['created_at']
         );
-        $meta = $this->app->documentStorage->rewriteHtmlDocument(
+        $meta = $this->app->documentStorage->rewriteGeneratedPdf(
             $document,
-            $html,
-            'comunicato-' . date('Ymd-His', strtotime((string)$protocol['created_at'])) . '.html'
+            $original,
+            'comunicato-' . date('Ymd-His', strtotime((string)$protocol['created_at'])) . '.txt',
+            function (string $pdfPath) use ($data, $protocol, $document): void {
+                $this->app->comunicatoDirectPdf->write(
+                    $pdfPath,
+                    (string)$data['title'],
+                    (string)$data['body'],
+                    (string)$protocol['protocol_number'],
+                    (string)$protocol['created_at'],
+                    (string)$document['id'],
+                    $this->baseUrl() . '/ui/document-verify.html?id=' . (int)$document['id']
+                );
+            }
         );
         $updated = $this->app->documents->updateComunicato((int)$document['id'], $meta + ['visibility' => $visibility]);
         $updated = $this->app->documents->updateSignature(
@@ -116,7 +127,17 @@ final class DocumentController
             $this->app->documentSignature->sign($updated)
         );
         $pdfPath = $this->app->documentStorage->pdfPath((string)$updated['pdf_public_path']);
-        $this->app->documentVerificationPage->append($pdfPath, $updated, (string)$updated['signature']);
+        $verifyUrl = $this->baseUrl() . '/ui/document-verify.html?id=' . (int)$updated['id'] . '&sig=' . urlencode((string)$updated['signature']);
+        $this->app->comunicatoDirectPdf->write(
+            $pdfPath,
+            (string)$data['title'],
+            (string)$data['body'],
+            (string)$protocol['protocol_number'],
+            (string)$protocol['created_at'],
+            (string)$updated['id'],
+            $verifyUrl,
+            (string)$updated['signature']
+        );
         $updated = $this->app->documents->updatePdfMetadata((int)$updated['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
         $this->app->protocols->update((int)$protocol['id'], (string)$data['title'], (int)$updated['id']);
         $this->app->documentStorage->uploadPdfToHosting($updated);
@@ -127,6 +148,18 @@ final class DocumentController
         ]);
 
         return Response::json(['data' => $updated]);
+    }
+
+    private function baseUrl(): string
+    {
+        $host = (string)($_SERVER['HTTP_HOST'] ?? '');
+        if ($host !== '') {
+            $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+            $dir = rtrim(str_replace('\\', '/', dirname((string)($_SERVER['SCRIPT_NAME'] ?? ''))), '/');
+            return $scheme . '://' . $host . ($dir === '' ? '' : $dir);
+        }
+
+        return rtrim((string)env_value('APP_URL', 'http://localhost/myrsu'), '/');
     }
 
     public function store(Request $request): Response
@@ -152,7 +185,16 @@ final class DocumentController
             $this->app->documentSignature->sign($document)
         );
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
-        $this->app->documentVerificationPage->append($pdfPath, $document, (string)$document['signature']);
+        $verifyUrl = $this->baseUrl() . '/ui/document-verify.html?id=' . (int)$document['id']
+            . '&sig=' . urlencode((string)$document['signature']);
+        $this->app->uploadedDocumentPdf->write(
+            $this->app->documentStorage->originalPath((string)$document['original_stored_name']),
+            $pdfPath,
+            $document,
+            null,
+            $verifyUrl,
+            (string)$document['signature']
+        );
         $document = $this->app->documents->updatePdfMetadata(
             (int)$document['id'],
             filesize($pdfPath),

@@ -133,6 +133,7 @@ final class ReportController
             $protocol = $this->app->protocols->findActiveByDocumentId((int)$document['id'])
                 ?? $this->app->protocols->create('IN', 'SEG', (string)$report['subject'], (int)$user['id']);
             $protocol = $this->app->protocols->update((int)$protocol['id'], (string)$report['subject'], (int)$document['id']);
+            $document = $this->rewriteApprovedDocument($document, $report, $protocol, $this->appBaseUrl());
             $updated['protocol_number'] = $protocol['protocol_number'];
         }
 
@@ -193,15 +194,6 @@ final class ReportController
         return $normalized;
     }
 
-    private function signDocument(array $document, ?int $reportId = null, ?string $baseUrl = null): array
-    {
-        $document = $this->app->documents->updateSignature((int)$document['id'], $this->app->documentSignature->sign($document));
-        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
-        $this->app->documentVerificationPage->append($pdfPath, $document, (string)$document['signature']);
-
-        return $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
-    }
-
     private function approvedDocument(array $report, int $userId, string $baseUrl): array
     {
         if (!empty($report['document_id'])) {
@@ -245,7 +237,38 @@ final class ReportController
         $verifyUrl = $baseUrl . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode($signature);
         $document = $this->app->documents->updateSignature((int)$document['id'], $signature);
         $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
-        $this->app->reportPdf->write($pdfPath, $report, $attachments, $signature, $verifyUrl);
+        $this->app->reportPdf->write($pdfPath, $report, $attachments, $signature, $verifyUrl, (string)$document['id'], null);
+
+        return $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
+    }
+
+    private function rewriteApprovedDocument(array $document, array $report, array $protocol, string $baseUrl): array
+    {
+        $attachments = array_map(function (array $attachment) use ($baseUrl): array {
+            $path = $this->app->reportAttachmentStorage->path((string)$attachment['stored_name']);
+            $attachment['path'] = $path;
+            if (str_starts_with((string)$attachment['mime_type'], 'image/') && is_file($path)) {
+                $attachment['kind'] = 'image';
+                return $attachment;
+            }
+
+            $attachment['kind'] = 'video';
+            $attachment['shared_url'] = $this->sharedAttachmentUrl($attachment, $baseUrl);
+            return $attachment;
+        }, $this->app->reportAttachments->forReport((int)$report['id']));
+
+        $signature = (string)$document['signature'];
+        $verifyUrl = $baseUrl . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode($signature);
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        $this->app->reportPdf->write(
+            $pdfPath,
+            array_replace($report, ['created_at' => $protocol['created_at']]),
+            $attachments,
+            $signature,
+            $verifyUrl,
+            (string)$document['id'],
+            (string)$protocol['protocol_number']
+        );
 
         return $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
     }
