@@ -21,6 +21,7 @@ final class PracticeTimelineRepository
             $this->linked($practiceId, "SELECT 'protocol' type, CAST(pe.id AS CHAR) id, pe.protocol_number title, pe.subject summary, pe.created_at event_at, pe.direction status, pe.document_id FROM practice_links pl JOIN protocol_entries pe ON pe.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'protocol'"),
             $this->linked($practiceId, "SELECT 'attachment' type, CAST(a.id AS CHAR) id, a.original_name title, a.mime_type summary, a.created_at event_at, NULL status, NULL document_id FROM practice_links pl JOIN report_attachments a ON a.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'attachment'"),
             $this->linked($practiceId, "SELECT 'meeting' type, CAST(m.id AS CHAR) id, m.title, m.location summary, m.meeting_date event_at, m.status, m.public_document_id document_id FROM practice_links pl JOIN union_meetings m ON m.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'meeting'"),
+            $this->assemblies($practiceId),
             $this->notes($practiceId),
             $this->calls($practiceId)
         );
@@ -42,6 +43,21 @@ final class PracticeTimelineRepository
             "SELECT 'call' type, id, interlocutor_name title, content summary,
                     TIMESTAMP(call_date, call_time) event_at, outcome status, NULL document_id
              FROM calls_log WHERE practice_id = ?"
+        );
+        $stmt->execute([$practiceId]);
+        return $stmt->fetchAll();
+    }
+
+    private function assemblies(int $practiceId): array
+    {
+        $stmt = $this->pdo->prepare(
+            "SELECT 'assembly' type, CAST(wa.id AS CHAR) id, wa.title, wa.agenda summary,
+                    COALESCE(MIN(TIMESTAMP(was.assembly_date, was.time_start)), wa.created_at) event_at,
+                    wa.status, NULL document_id
+             FROM workers_assemblies wa
+             LEFT JOIN workers_assembly_sessions was ON was.assembly_id = wa.id
+             WHERE wa.practice_id = ?
+             GROUP BY wa.id"
         );
         $stmt->execute([$practiceId]);
         return $stmt->fetchAll();

@@ -3,50 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Editor incontro - MyRSU</title>
+  <title>Editor assemblea - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260627-1">
   <link rel="stylesheet" href="users.css?v=20260718-3">
 </head>
 <body>
   <header class="app-header">
-    <div><p class="eyebrow">MyRSU</p><h1>Editor incontro</h1></div>
+    <div><p class="eyebrow">MyRSU</p><h1>Editor assemblea</h1></div>
     <nav class="app-nav"></nav>
   </header>
-
   <main>
     <section class="panel">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">Incontri sindacali</p>
-          <h1 id="pageTitle">Nuovo incontro</h1>
-        </div>
-        <a class="secondary-link" href="union-meetings.html">Lista incontri</a>
+        <div><p class="eyebrow">Assemblee lavoratori</p><h1 id="pageTitle">Nuova assemblea</h1></div>
+        <a class="secondary-link" href="workers-assemblies.html">Lista assemblee</a>
       </header>
-
-      <form id="meetingForm" class="grid">
-        <label>Titolo<input name="title" required></label>
-        <label>Data e ora<input name="meeting_date" type="datetime-local" required></label>
-        <label>Luogo<input name="location" required></label>
-        <label>Stato<select name="status"><option value="scheduled">programmato</option><option value="done">svolto</option><option value="cancelled">annullato</option></select></label>
-        <label>Visibilita<select name="visibility"><option value="rsu">rsu</option><option value="members">membri</option><option value="public">pubblico</option></select></label>
+      <form id="assemblyForm" class="grid">
+        <label class="full-width">Titolo<input name="title" required></label>
+        <label>Stato<select name="status"><option value="draft">bozza</option><option value="called">convocata</option><option value="done">svolta</option><option value="cancelled">annullata</option></select></label>
+        <label>Visibilita<select name="visibility"><option value="members">membri</option><option value="public">pubblico</option><option value="rsu">rsu</option></select></label>
+        <label>Pratica<select id="practiceSelect" name="practice_id"><option value="">non associata</option></select></label>
+        <label>Votazione futura<select name="voting_enabled"><option value="">no</option><option value="1">predisposta</option></select></label>
+        <label class="full-width">Oggetto votazione futura<input name="voting_subject"></label>
         <div class="full-width contact-picker">
           <label>Partecipanti<input id="participantSearch" type="text" autocomplete="off" placeholder="Cerca o scrivi nuovo contatto"></label>
-          <input id="participantsText" name="participants" type="hidden" required>
           <div id="participantTags" class="tag-list"></div>
           <div id="participantResults" class="contact-results hidden"></div>
         </div>
         <label class="full-width">Ordine del giorno<textarea name="agenda" required></textarea></label>
-        <label class="full-width">Descrizione<textarea name="description" required></textarea></label>
-        <button id="saveButton" type="submit">Salva incontro</button>
+        <label class="full-width">Descrizione<textarea name="description"></textarea></label>
+        <label class="full-width">Chiosa finale<textarea name="final_statement"></textarea></label>
+        <section class="full-width">
+          <header class="topbar"><h2>Turni assemblea</h2><button id="addSession" type="button">Aggiungi turno</button></header>
+          <div id="sessions"></div>
+        </section>
+        <button id="saveButton" type="submit">Salva assemblea</button>
       </form>
-
       <section id="attachmentsPanel" class="content hidden">
-        <header class="topbar">
-          <div>
-            <p class="eyebrow">Allegati</p>
-            <h2>Documenti incontro</h2>
-          </div>
-        </header>
+        <header class="topbar"><div><p class="eyebrow">Allegati</p><h2>Documenti assemblea</h2></div></header>
         <form id="attachmentForm" class="grid">
           <input name="file" type="file" required>
           <button type="submit">Carica allegato</button>
@@ -60,7 +54,8 @@
           <tbody id="attachmentsTable"></tbody>
         </table>
       </section>
-
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
       <dialog id="documentModal" class="preview-modal">
         <header><h2>Allegato</h2><button id="closeDocumentModal" type="button">Chiudi</button></header>
         <iframe id="documentPreview" title="Anteprima allegato"></iframe>
@@ -82,14 +77,10 @@
           <button type="submit">Salva contatto</button>
         </form>
       </dialog>
-
-      <pre id="message"></pre>
-      <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-
   <script src="icons.js?v=20260627-1"></script>
-  <script src="union-meeting-editor.js?v=20260718-3"></script>
+  <script src="workers-assembly-editor.js?v=20260718-2"></script>
   <script src="auth-menu.js?v=20260718-1"></script>
 </body>
 </html>

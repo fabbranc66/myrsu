@@ -3,43 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Incontri sindacali - MyRSU</title>
+  <title>Assemblee lavoratori - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260627-1">
   <link rel="stylesheet" href="app/css/layout.css?v=20260718-2">
   <link rel="stylesheet" href="users.css?v=20260718-3">
 </head>
 <body>
   <header class="app-header">
-    <div><p class="eyebrow">MyRSU</p><h1>Incontri sindacali</h1></div>
+    <div><p class="eyebrow">MyRSU</p><h1>Assemblee lavoratori</h1></div>
     <nav class="app-nav"></nav>
   </header>
-
   <main>
     <section class="panel">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">Archivio</p>
-          <h1>Lista incontri</h1>
-        </div>
-        <a class="secondary-link" href="union-meeting-editor.html">Nuovo incontro</a>
+        <div><p class="eyebrow">Archivio</p><h1>Lista assemblee</h1></div>
+        <a class="secondary-link" href="workers-assembly-editor.html">Nuova assemblea</a>
       </header>
-
       <table>
-        <thead>
-          <tr><th>Titolo</th><th>Data</th><th>Luogo</th><th>Stato</th><th>Visibilita</th><th>Documento</th><th>Azioni</th></tr>
-        </thead>
-        <tbody id="meetingsTable"></tbody>
+        <thead><tr><th>Titolo</th><th>Turni</th><th>Stato</th><th>Visibilita</th><th>Documenti</th><th>Voto</th><th>Azioni</th></tr></thead>
+        <tbody id="assembliesTable"></tbody>
       </table>
-
-      <dialog id="practiceLinkModal">
-        <header><h2>Collega a pratica</h2><button id="closePracticeLinkModal" type="button">Chiudi</button></header>
-        <form id="practiceLinkForm" class="grid">
-          <input name="meeting_id" type="hidden">
-          <select name="practice_id" required></select>
-          <button type="submit">Collega</button>
-        </form>
-      </dialog>
-
       <div id="convocationModal" class="document-modal hidden">
         <div class="document-modal-content file-modal">
           <header>
@@ -49,14 +32,12 @@
           <iframe id="convocationPreview" title="Anteprima convocazione"></iframe>
         </div>
       </div>
-
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-
   <script src="icons.js?v=20260627-1"></script>
-  <script src="union-meetings.js?v=20260718-2"></script>
+  <script src="workers-assemblies.js?v=20260718-1"></script>
   <script src="auth-menu.js?v=20260718-1"></script>
 </body>
 </html>

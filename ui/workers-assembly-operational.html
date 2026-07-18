@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Operativa assemblea - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260718-3">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Operativa assemblea</h1></div>
+    <nav class="app-nav"></nav>
+  </header>
+  <main>
+    <section class="panel">
+      <header class="topbar">
+        <div><h1 id="assemblyTitle">Assemblea</h1><p id="assemblyMeta" class="muted"></p></div>
+        <a class="secondary-link" href="workers-assemblies.html">Lista assemblee</a>
+      </header>
+      <section class="content">
+        <header class="topbar"><div><p class="eyebrow">Turni</p><h2>Sessioni assemblea</h2></div></header>
+        <div id="sessionsList" class="assembly-session-grid"></div>
+      </section>
+      <form id="noteForm" class="grid">
+        <label>Turno<select id="sessionSelect" name="session_id" required></select></label>
+        <label>Tipo<select name="note_type"><option value="discussion">discussione</option><option value="question">domanda/intervento</option><option value="answer">risposta</option><option value="proposal">proposta</option><option value="decision">decisione/mandato</option><option value="note">nota</option></select></label>
+        <label class="full-width">Contenuto<textarea name="body" required></textarea></label>
+        <button type="submit">Aggiungi contenuto</button>
+      </form>
+      <section class="content">
+        <header class="topbar"><div><p class="eyebrow">Contenuti</p><h2>Timeline turno</h2></div></header>
+        <div id="notesList" class="meeting-notes"></div>
+      </section>
+      <form id="finalStatementForm" class="grid">
+        <label class="full-width">Chiosa finale assemblea padre<textarea name="final_statement"></textarea></label>
+        <button type="submit">Salva chiosa finale</button>
+      </form>
+      <section class="content">
+        <header class="topbar"><div><p class="eyebrow">Documenti</p><h2>Allegati assemblea</h2></div></header>
+        <div id="attachmentsList" class="meeting-notes"></div>
+      </section>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+      <dialog id="documentModal" class="preview-modal">
+        <header><h2>Allegato</h2><button id="closeDocumentModal" type="button">Chiudi</button></header>
+        <iframe id="documentPreview" title="Anteprima allegato"></iframe>
+      </dialog>
+    </section>
+  </main>
+  <script src="icons.js?v=20260627-1"></script>
+  <script src="workers-assembly-operational.js?v=20260718-1"></script>
+  <script src="auth-menu.js?v=20260718-1"></script>
+</body>
+</html>

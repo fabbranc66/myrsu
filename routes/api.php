@@ -20,6 +20,7 @@ use App\Controllers\Api\ReportController;
 use App\Controllers\Api\RoleController;
 use App\Controllers\Api\UnionMeetingController;
 use App\Controllers\Api\UserController;
+use App\Controllers\Api\WorkersAssemblyController;
 use App\Core\Response;
 
 $auth = new AuthController($app);
@@ -38,6 +39,7 @@ $protocol = new ProtocolController($app);
 $reports = new ReportController($app);
 $unionMeetings = new UnionMeetingController($app);
 $users = new UserController($app);
+$workersAssemblies = new WorkersAssemblyController($app);
 $roles = new RoleController($app);
 $gdpr = new GdprConsentController($app);
 
@@ -142,6 +144,19 @@ $app->router->patch('/api/v1/union-meetings/{id}', [$unionMeetings, 'update']);
 $app->router->post('/api/v1/union-meetings/{id}/public-comunicato', [$unionMeetings, 'publicComunicato']);
 $app->router->get('/api/v1/union-meetings/{id}/notes', [$unionMeetings, 'notes']);
 $app->router->post('/api/v1/union-meetings/{id}/notes', [$unionMeetings, 'storeNote']);
+
+$app->router->get('/api/v1/workers-assemblies', [$workersAssemblies, 'index']);
+$app->router->post('/api/v1/workers-assemblies', [$workersAssemblies, 'store']);
+$app->router->post('/api/v1/workers-assemblies/{id}/documents', [$workersAssemblies, 'storeDocument']);
+$app->router->post('/api/v1/workers-assemblies/{id}/documents/link', [$workersAssemblies, 'linkDocument']);
+$app->router->delete('/api/v1/workers-assemblies/{id}/documents/{document_id}', [$workersAssemblies, 'destroyDocument']);
+$app->router->post('/api/v1/workers-assemblies/{id}/sessions/{session_id}/notes', [$workersAssemblies, 'storeSessionNote']);
+$app->router->post('/api/v1/workers-assemblies/{id}/public-convocation', [$workersAssemblies, 'publicConvocation']);
+$app->router->post('/api/v1/workers-assemblies/{id}/minutes', [$workersAssemblies, 'minutes']);
+$app->router->patch('/api/v1/workers-assemblies/{id}/final-statement', [$workersAssemblies, 'updateFinalStatement']);
+$app->router->get('/api/v1/workers-assemblies/{id}', [$workersAssemblies, 'show']);
+$app->router->patch('/api/v1/workers-assemblies/{id}', [$workersAssemblies, 'update']);
+$app->router->delete('/api/v1/workers-assemblies/{id}', [$workersAssemblies, 'destroy']);
 
 $app->router->get('/api/v1/protocol', [$protocol, 'index']);
 $app->router->post('/api/v1/protocol', [$protocol, 'store']);
