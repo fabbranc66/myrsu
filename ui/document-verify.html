@@ -3,12 +3,28 @@
 <head>
   <meta charset="utf-8">
   <title>MyRSU - Verify document file</title>
-  <link rel="stylesheet" href="users.css">
+  <link rel="stylesheet" href="users.css?v=20260718-2">
+  <style>
+    body.verify-page{min-height:100vh;margin:0;background:rgba(15,23,42,.78)}
+    .verify-shell{min-height:100vh;display:grid;place-items:center}
+    .verify-modal{width:min(760px,calc(100vw - 28px));max-width:none;border:0;border-radius:18px;padding:22px}
+    .verify-modal::backdrop{background:rgba(15,23,42,.78)}
+    .verify-modal header{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:14px}
+    .verify-modal form{display:grid;gap:12px}
+    .verify-modal label{display:grid;gap:6px}
+  </style>
 </head>
-<body>
-  <main class="page">
-    <section class="card">
-      <h1>Verify document file</h1>
+<body class="verify-page">
+  <main class="verify-shell">
+    <dialog id="verifyModal" class="verify-modal">
+      <header>
+        <div>
+          <p class="eyebrow">MyRSU</p>
+          <h1>Verifica documento</h1>
+        </div>
+        <button id="closeVerifyModal" type="button">Chiudi</button>
+      </header>
+
       <p>Verifica QR e, se vuoi, carica la copia PDF da controllare byte per byte.</p>
 
       <div id="serverResult"></div>
@@ -30,14 +46,13 @@
       </form>
 
       <div id="result"></div>
-    </section>
-
-    <section class="card">
-      <h2>JSON</h2>
-      <pre id="jsonOutput">{}</pre>
-    </section>
+      <section>
+        <h2>JSON</h2>
+        <pre id="jsonOutput">{}</pre>
+      </section>
+    </dialog>
   </main>
 
-  <script src="document-verify.js"></script>
+  <script src="document-verify.js?v=20260718-2"></script>
 </body>
 </html>

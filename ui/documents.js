@@ -8,6 +8,9 @@ const jsonOutput = document.querySelector('#jsonOutput');
 const documentModal = document.querySelector('#documentModal');
 const documentPreview = document.querySelector('#documentPreview');
 const closeDocumentModal = document.querySelector('#closeDocumentModal');
+const verifyFrameModal = document.querySelector('#verifyFrameModal');
+const verifyFrame = document.querySelector('#verifyFrame');
+const closeVerifyFrameModal = document.querySelector('#closeVerifyFrameModal');
 const uploadProgress = document.querySelector('#uploadProgress');
 const uploadProgressFill = document.querySelector('#uploadProgressFill');
 const uploadProgressText = document.querySelector('#uploadProgressText');
@@ -77,7 +80,7 @@ async function loadDocuments() {
   const [documents, practiceRows] = await Promise.all([api('/documents'), loadPractices()]);
   practices = practiceRows;
   uploadForm.classList.remove('hidden');
-  documentsTable.innerHTML = documents.map(row).join('');
+  documentsTable.innerHTML = documents.filter((document) => document.category !== 'comunicati').map(row).join('');
 }
 
 async function loadPractices() {
@@ -98,6 +101,7 @@ function row(document) {
         <td><span class="doc-origin-tag draft">Bozza - documento non generato</span></td>
         <td>-</td>
         <td class="actions-cell">
+          <a class="icon-action" href="comunicati-editor.html?id=${document.id}" title="Modifica bozza">${MyRsuIcons.get('edit')}</a>
           <button class="draft-generate-button" data-generate="${document.id}" title="Genera documento ufficiale">${MyRsuIcons.get('document')} Genera ufficiale</button>
           <button class="icon-action danger" data-delete="${document.id}" title="Elimina">${MyRsuIcons.get('trash')}</button>
         </td>
@@ -246,6 +250,13 @@ async function showDocument(id) {
   documentModal.showModal();
 }
 
+window.addEventListener('message', (event) => {
+  if (typeof event.data !== 'object' || event.data?.type !== 'myrsu:verify-modal') return;
+  if (verifyFrame.src === event.data.url) return;
+  verifyFrame.src = event.data.url;
+  verifyFrameModal.showModal();
+});
+
 async function protocolIn(id) {
   const document = await api(`/documents/${id}`);
   await api('/protocol', {
@@ -266,6 +277,11 @@ closeDocumentModal.addEventListener('click', () => {
   documentPreviewUrl = null;
   documentPreview.src = '';
   documentModal.close();
+});
+
+closeVerifyFrameModal.addEventListener('click', () => {
+  verifyFrame.src = '';
+  verifyFrameModal.close();
 });
 
 function openPracticeLink(documentId) {

@@ -102,6 +102,27 @@ final class PdfLayoutService
         return sprintf("BT /%s %d Tf %.2F %.2F Td (%s) Tj ET\n", $font, $size, $x, $y, $this->pdfString($text));
     }
 
+    public function justifiedText(float $x, float $y, int $size, string $font, string $text, float $width): string
+    {
+        $wordCount = substr_count(trim($text), ' ');
+        if ($wordCount < 1) {
+            return $this->text($x, $y, $size, $font, $text);
+        }
+
+        $textWidth = strlen($text) * $size * 0.48;
+        $wordSpacing = max(0, ($width - $textWidth) / $wordCount);
+
+        return sprintf(
+            "BT /%s %d Tf %.3F Tw %.2F %.2F Td (%s) Tj 0 Tw ET\n",
+            $font,
+            $size,
+            $wordSpacing,
+            $x,
+            $y,
+            $this->pdfString($text)
+        );
+    }
+
     public function wrappedText(float $x, float $y, int $size, int $maxChars, string $text): array
     {
         $content = '';

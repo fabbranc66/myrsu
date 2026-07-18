@@ -246,6 +246,24 @@ final class DocumentStorageService
         ];
     }
 
+    public function rewriteDraftText(array $document, string $text, string $originalName): array
+    {
+        $originalPath = $this->originalPath((string)$document['original_stored_name']);
+        if (file_put_contents($originalPath, $text) === false) {
+            throw new HttpException(500, 'Aggiornamento bozza fallito.');
+        }
+
+        return [
+            'original_name' => $originalName,
+            'original_mime_type' => 'text/plain',
+            'original_size_bytes' => filesize($originalPath),
+            'original_checksum_sha256' => hash_file('sha256', $originalPath),
+            'pdf_size_bytes' => 0,
+            'pdf_checksum_sha256' => str_repeat('0', 64),
+            'conversion_status' => 'pending',
+        ];
+    }
+
     public function delete(array $document): void
     {
         foreach ([

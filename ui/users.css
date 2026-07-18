@@ -479,6 +479,72 @@ dialog {
   border: 1px solid #d8dee9;
 }
 
+.preview-modal {
+  width: min(1180px, calc(100vw - 32px));
+  max-width: none;
+  height: min(92vh, 860px);
+  padding: 14px;
+}
+
+.preview-modal header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.preview-modal #documentPreview {
+  height: calc(92vh - 92px);
+}
+
+.preview-modal #verifyFrame {
+  width: 100%;
+  height: calc(92vh - 92px);
+  border: 1px solid #d8dee9;
+}
+
+.verify-page {
+  min-height: 100vh;
+  background: rgba(15, 23, 42, .78);
+}
+
+.verify-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.verify-modal {
+  width: min(760px, calc(100vw - 28px));
+  max-width: none;
+  border: 0;
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.verify-modal::backdrop {
+  background: rgba(15, 23, 42, .78);
+}
+
+.verify-modal header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+
+.verify-modal form {
+  display: grid;
+  gap: 12px;
+}
+
+.verify-modal label {
+  display: grid;
+  gap: 6px;
+}
+
 .upload-progress {
   display: grid;
   gap: 8px;
@@ -727,6 +793,31 @@ dialog {
 .draft-generate-button svg {
   width: 17px;
   height: 17px;
+}
+
+.inline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.secondary-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  padding: 7px 12px;
+  color: #172033;
+  background: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.secondary-link:hover {
+  background: #eff6ff;
 }
 
 .success-message,

@@ -2,10 +2,28 @@ const form = document.getElementById('verifyForm');
 const result = document.getElementById('result');
 const serverResult = document.getElementById('serverResult');
 const jsonOutput = document.getElementById('jsonOutput');
+const verifyModal = document.getElementById('verifyModal');
+const closeVerifyModal = document.getElementById('closeVerifyModal');
 
 const params = new URLSearchParams(window.location.search);
 document.getElementById('documentId').value = params.get('id') || '';
 document.getElementById('signature').value = params.get('sig') || '';
+
+if (window.self !== window.top && window.parent && window.frameElement?.id !== 'verifyFrame') {
+  window.parent.postMessage({
+    type: 'myrsu:verify-modal',
+    url: window.location.href,
+  }, window.location.origin);
+}
+
+verifyModal.showModal();
+closeVerifyModal.addEventListener('click', () => {
+  if (window.self === window.top && history.length > 1) {
+    history.back();
+    return;
+  }
+  verifyModal.close();
+});
 
 async function verifyServerFile() {
   const id = document.getElementById('documentId').value;

@@ -6,6 +6,11 @@ namespace App\Services;
 
 final class ComunicatoDirectPdfService
 {
+    private const BODY_LEFT = 30.0;
+    private const BODY_WIDTH = 535.0;
+    private const BODY_BOTTOM = 68.0;
+    private const BODY_LINE_HEIGHT = 14.0;
+
     public function __construct(
         private readonly PdfLayoutService $layout,
         private readonly PdfWriterService $writer,
@@ -29,29 +34,45 @@ final class ComunicatoDirectPdfService
         $pages = [];
         $y = PdfLayoutService::BODY_TOP;
         $content = '';
-        foreach (explode("\n", wordwrap($title, 42, "\n", true)) as $titleLine) {
-            $content .= $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 18, PdfLayoutService::FONT_BOLD, $titleLine);
-            $y -= 23;
+        foreach (explode("\n", wordwrap($title, 54, "\n", true)) as $titleLine) {
+            $content .= $this->layout->text(self::BODY_LEFT, $y, 18, PdfLayoutService::FONT_BOLD, $titleLine);
+            $y -= 22;
         }
-        $y -= 20;
+        $y -= 12;
 
-        foreach ($this->lines($this->withoutClosing($body)) as $line) {
-            if ($y < 92) {
+        foreach ($this->paragraphs($this->withoutClosing($body)) as $paragraph) {
+            if ($paragraph === '') {
+                $y -= 8;
+                continue;
+            }
+
+            $lines = explode("\n", wordwrap($paragraph, 108, "\n", true));
+            foreach ($lines as $index => $line) {
+                if ($y < self::BODY_BOTTOM) {
+                    $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt, $creator);
+                    $content = '';
+                    $y = PdfLayoutService::BODY_TOP;
+                }
+
+                $isLastLine = $index === array_key_last($lines);
+                $content .= $isLastLine
+                    ? $this->layout->text(self::BODY_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, $line)
+                    : $this->layout->justifiedText(self::BODY_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, $line, self::BODY_WIDTH);
+                $y -= self::BODY_LINE_HEIGHT;
+            }
+            $y -= 5;
+        }
+
+        if ($y < self::BODY_BOTTOM + 42) {
                 $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt, $creator);
                 $content = '';
                 $y = PdfLayoutService::BODY_TOP;
-            }
-
-            $content .= $line === ''
-                ? ''
-                : $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, $line);
-            $y -= $line === '' ? 12 : 16;
         }
 
-        $y = max(62, $y - 20);
-        $content .= $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 11, PdfLayoutService::FONT_BOLD, 'Cordiali saluti.');
+        $y -= 10;
+        $content .= $this->layout->text(self::BODY_LEFT, $y, 11, PdfLayoutService::FONT_BOLD, 'Cordiali saluti.');
         $y -= 22;
-        $content .= $this->layout->text(PdfLayoutService::MARGIN_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, 'RSU');
+        $content .= $this->layout->text(self::BODY_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, 'RSU');
         $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt, $creator);
         if ($signature !== null && $signature !== '') {
             $pages[] = $this->verificationPage($protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $signature, $revisionAt, $creator);
@@ -108,19 +129,8 @@ final class ComunicatoDirectPdfService
         ));
     }
 
-    private function lines(string $body): array
+    private function paragraphs(string $body): array
     {
-        $lines = [];
-        foreach (preg_split("/\R/", trim($body)) ?: [] as $paragraph) {
-            if (trim($paragraph) === '') {
-                $lines[] = '';
-                continue;
-            }
-            foreach (explode("\n", wordwrap($paragraph, 88, "\n", true)) as $line) {
-                $lines[] = $line;
-            }
-        }
-
-        return $lines;
+        return array_map('trim', preg_split("/\R/", trim($body)) ?: []);
     }
 }

@@ -47,14 +47,12 @@
     <section class="panel">
       <header>
         <h1>Archivio documenti</h1>
-        <a class="button" href="comunicati-create.html">Nuovo comunicato</a>
       </header>
 
       <form id="uploadForm" class="grid hidden">
         <input name="file" type="file" required>
         <select name="category">
           <option value="documenti">documenti</option>
-          <option value="comunicati">comunicati</option>
           <option value="segnalazioni">segnalazioni</option>
         </select>
         <select name="visibility">
@@ -92,6 +90,14 @@
           <button id="closeDocumentModal" type="button">Chiudi</button>
         </header>
         <iframe id="documentPreview" title="Document preview"></iframe>
+      </dialog>
+
+      <dialog id="verifyFrameModal" class="preview-modal">
+        <header>
+          <h2>Verifica autenticità</h2>
+          <button id="closeVerifyFrameModal" type="button">Chiudi</button>
+        </header>
+        <iframe id="verifyFrame" title="Verifica autenticità"></iframe>
       </dialog>
 
       <dialog id="practiceLinkModal">

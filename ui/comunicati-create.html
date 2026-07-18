@@ -3,45 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MyRSU Comunicati</title>
+  <title>Comunicati - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260627-1">
-  <link rel="stylesheet" href="users.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260718-1">
 </head>
 <body>
   <header class="app-header">
     <div><p class="eyebrow">MyRSU</p><h1>Comunicati</h1></div>
-    <nav class="app-nav">
-      <a href="app/index.html">Dashboard</a>
-      <div class="menu-group"><span>Anagrafica</span><div class="submenu"><a href="users.html">Utenti</a><a href="profile.html">Profilo</a><a href="contacts.html">Contatti</a></div></div>
-      <div class="menu-group"><span>Protocollo</span><div class="submenu"><a href="protocol.html">Registro</a></div></div>
-      <div class="menu-group active"><span>Archivio</span><div class="submenu"><a href="documents.html">Documenti</a><a class="active" href="comunicati-create.html">Comunicati</a><a href="union-meetings.html">Incontri sindacali</a><a href="calls.html">Telefonate</a><a href="reports.html">Segnalazioni</a><a href="reports-moderation.html">Moderazione</a><a href="pending-queue.html">Coda PDF</a></div></div>
-    </nav>
+    <nav class="app-nav"></nav>
   </header>
-  <main><section class="panel"><header><h1>Nuovo comunicato</h1></header>
-    <form id="comunicatoForm" class="grid">
-      <textarea name="title" placeholder="Oggetto" required style="min-height:120px;grid-column:span 2;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
-      <select name="visibility" required><option value="public">pubblico</option><option value="members">membri</option><option value="rsu">rsu</option></select>
-      <textarea name="body" placeholder="Testo comunicato" required style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;"></textarea>
-      <button type="submit">Salva bozza</button>
-    </form>
+  <main>
+    <section class="panel">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Archivio</p>
+          <h1>Lista comunicati</h1>
+        </div>
+        <a class="secondary-link" href="comunicati-editor.html">Nuovo comunicato</a>
+      </header>
+      <table>
+        <thead>
+          <tr><th>Documento</th><th>Visibilità</th><th>Stato</th><th>Data</th><th>Azioni</th></tr>
+        </thead>
+        <tbody id="comunicatiTable"></tbody>
+      </table>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
 
-    <div id="draftActions" class="draft-actions hidden">
-      <span class="doc-origin-tag draft">Bozza salvata</span>
-      <button id="generateButton" type="button">Genera documento ufficiale</button>
-    </div>
+      <dialog id="documentModal" class="preview-modal">
+        <header>
+          <h2>Anteprima comunicato</h2>
+          <button id="closeDocumentModal" type="button">Chiudi</button>
+        </header>
+        <iframe id="documentPreview" title="Anteprima comunicato"></iframe>
+      </dialog>
 
-    <div id="uploadProgress" class="upload-progress hidden">
-      <div class="upload-progress-bar">
-        <div id="uploadProgressFill" class="upload-progress-fill"></div>
-      </div>
-      <div id="uploadProgressText" class="upload-progress-text">0%</div>
-    </div>
-
-    <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
-  </section></main>
-  <script src="comunicati-create.js?v=20260627-1"></script>
+      <dialog id="verifyFrameModal" class="preview-modal">
+        <header>
+          <h2>Verifica autenticità</h2>
+          <button id="closeVerifyFrameModal" type="button">Chiudi</button>
+        </header>
+        <iframe id="verifyFrame" title="Verifica autenticità"></iframe>
+      </dialog>
+    </section>
+  </main>
+  <script src="icons.js?v=20260627-1"></script>
+  <script src="comunicati-create.js?v=20260718-4"></script>
   <script src="auth-menu.js?v=20260628-3"></script>
 </body>
 </html>
-
-

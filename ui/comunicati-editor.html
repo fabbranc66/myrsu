@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editor comunicato - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260718-1">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Editor comunicato</h1></div>
+    <nav class="app-nav"></nav>
+  </header>
+  <main><section class="panel"><header class="topbar"><div><p class="eyebrow">Comunicati</p><h1>Editor</h1></div><a class="secondary-link" href="comunicati-create.html">Lista comunicati</a></header>
+    <form id="comunicatoForm" class="grid">
+      <textarea name="title" placeholder="Oggetto" required style="min-height:120px;grid-column:span 2;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
+      <select name="visibility" required><option value="public">pubblico</option><option value="members">membri</option><option value="rsu">rsu</option></select>
+      <textarea name="body" placeholder="Testo comunicato" required style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;"></textarea>
+      <button type="submit">Salva bozza</button>
+    </form>
+
+    <div id="draftActions" class="draft-actions hidden">
+      <span class="doc-origin-tag draft">Bozza salvata</span>
+      <button id="generateButton" type="button">Genera documento ufficiale</button>
+    </div>
+
+    <div id="uploadProgress" class="upload-progress hidden">
+      <div class="upload-progress-bar"><div id="uploadProgressFill" class="upload-progress-fill"></div></div>
+      <div id="uploadProgressText" class="upload-progress-text">0%</div>
+    </div>
+
+    <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
+  </section></main>
+  <script src="comunicati-editor.js?v=20260718-1"></script>
+  <script src="auth-menu.js?v=20260628-3"></script>
+</body>
+</html>

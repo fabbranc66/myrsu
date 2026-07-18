@@ -77,6 +77,9 @@ final class DocumentController
         }
 
         if ((string)$document['category'] === 'comunicati' && isset($data['title'], $data['body'])) {
+            if ((string)$document['conversion_status'] === 'pending') {
+                return $this->updateComunicatoDraft($user, $document, $visibility, $data);
+            }
             return $this->regenerateComunicato($user, $document, $visibility, $data);
         }
 
@@ -86,6 +89,28 @@ final class DocumentController
             'section' => 'documents',
             'document_id' => $document['id'],
             'changes' => ['visibility' => ['from' => $document['visibility'], 'to' => $visibility]],
+        ]);
+
+        return Response::json(['data' => $updated]);
+    }
+
+    private function updateComunicatoDraft(array $user, array $document, string $visibility, array $data): Response
+    {
+        Validator::required($data, ['title', 'body']);
+        $original = $this->app->comunicatoDirectPdf->draftOriginal(
+            (string)$data['title'],
+            (string)$data['body']
+        );
+        $meta = $this->app->documentStorage->rewriteDraftText(
+            $document,
+            $original,
+            'comunicato-' . date('Ymd-His') . '.txt'
+        );
+        $updated = $this->app->documents->updateComunicato((int)$document['id'], $meta + ['visibility' => $visibility]);
+        $this->app->activityLogs->write((int)$user['id'], 'documents.comunicato_draft_update', [
+            'section' => 'documents',
+            'document_id' => $updated['id'],
+            'changes' => ['title' => 'changed', 'body' => 'changed'],
         ]);
 
         return Response::json(['data' => $updated]);

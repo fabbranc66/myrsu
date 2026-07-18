@@ -15,10 +15,11 @@ final class DocumentRepository
     public function all(): array
     {
         return $this->pdo->query(
-            "SELECT d.*,
+            "SELECT d.*, pe.protocol_number, pe.subject AS protocol_subject,
                     (SELECT COUNT(*) FROM document_comments c
                      WHERE c.document_id = d.id AND c.status = 'approved') AS approved_comments_count
              FROM documents d
+             LEFT JOIN protocol_entries pe ON pe.document_id = d.id AND pe.canceled_at IS NULL
              ORDER BY d.id DESC"
         )->fetchAll();
     }

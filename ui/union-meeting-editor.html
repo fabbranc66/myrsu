@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editor incontro - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260718-2">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Editor incontro</h1></div>
+    <nav class="app-nav"></nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Incontri sindacali</p>
+          <h1 id="pageTitle">Nuovo incontro</h1>
+        </div>
+        <a class="secondary-link" href="union-meetings.html">Lista incontri</a>
+      </header>
+
+      <form id="meetingForm" class="grid">
+        <label>Titolo<input name="title" required></label>
+        <label>Data e ora<input name="meeting_date" type="datetime-local" required></label>
+        <label>Luogo<input name="location" required></label>
+        <label>Stato<select name="status"><option value="scheduled">programmato</option><option value="done">svolto</option><option value="cancelled">annullato</option></select></label>
+        <label>Visibilità<select name="visibility"><option value="rsu">rsu</option><option value="members">membri</option><option value="public">pubblico</option></select></label>
+        <div class="full-width contact-picker">
+          <label>Partecipanti<input id="participantSearch" type="text" autocomplete="off" placeholder="Cerca o scrivi nuovo contatto"></label>
+          <input id="participantsText" name="participants" type="hidden" required>
+          <div id="participantTags" class="tag-list"></div>
+          <div id="participantResults" class="contact-results hidden"></div>
+        </div>
+        <label class="full-width">Ordine del giorno<textarea name="agenda" required></textarea></label>
+        <label class="full-width">Descrizione<textarea name="description" required></textarea></label>
+        <button id="saveButton" type="submit">Salva incontro</button>
+      </form>
+
+      <dialog id="contactModal">
+        <header><h2>Nuovo contatto</h2><button id="closeContactModal" type="button">Chiudi</button></header>
+        <form id="contactForm" class="grid">
+          <label>Origine<select name="source"><option value="institutional">istituzionale</option><option value="user">interno</option></select></label>
+          <label>Tipo<select name="type"><option value="aziendale">aziendale</option><option value="sindacale">sindacale</option><option value="esterno">esterno</option></select></label>
+          <label>Nome<input name="name" required></label>
+          <label>Ruolo<input name="role"></label>
+          <label>Organizzazione<input name="organization"></label>
+          <label>Email<input name="email" type="email"></label>
+          <label>Telefono<input name="phone"></label>
+          <label>Ruolo interno<select name="user_role"><option value="membro">membro</option><option value="delegato">delegato</option><option value="rls">rls</option><option value="admin">admin</option></select></label>
+          <label>Password interno<input name="password" type="password"></label>
+          <label class="full-width">Note<textarea name="notes"></textarea></label>
+          <button type="submit">Salva contatto</button>
+        </form>
+      </dialog>
+
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+
+  <script src="union-meeting-editor.js?v=20260718-1"></script>
+  <script src="auth-menu.js?v=20260628-3"></script>
+</body>
+</html>

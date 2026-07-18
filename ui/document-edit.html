@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MyRSU Document Edit</title>
+  <title>Modifica documento - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260627-1">
   <link rel="stylesheet" href="users.css?v=20260627-2">
 </head>
@@ -13,38 +13,21 @@
       <p class="eyebrow">MyRSU</p>
       <h1>Modifica documento</h1>
     </div>
-    <nav class="app-nav">
-      <a href="app/index.html">Dashboard</a>
-      <div class="menu-group">
-        <span>Anagrafica</span>
-        <div class="submenu">
-          <a href="users.html">Utenti</a>
-          <a href="profile.html">Profilo</a><a href="contacts.html">Contatti</a>
-        </div>
-      </div>
-      <div class="menu-group">
-        <span>Protocollo</span>
-        <div class="submenu">
-          <a href="protocol.html">Registro</a>
-        </div>
-      </div>
-      <div class="menu-group active">
-        <span>Archivio</span>
-        <div class="submenu">
-          <a class="active" href="documents.html">Documenti</a>
-          <a href="comunicati-create.html">Comunicati</a><a href="union-meetings.html">Incontri sindacali</a><a href="calls.html">Telefonate</a>
-          <a href="reports.html">Segnalazioni</a>
-          <a href="reports-moderation.html">Moderazione</a>
-          <a href="pending-queue.html">Coda PDF</a>
-        </div>
-      </div>
-    </nav>
+    <nav class="app-nav"></nav>
   </header>
 
   <main>
     <section class="panel">
-      <header>
-        <h1>Document Edit</h1>
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Archivio</p>
+          <h1>Modifica documento</h1>
+        </div>
+        <div class="inline-actions">
+          <a class="secondary-link" href="documents.html">Archivio documenti</a>
+          <a class="secondary-link" href="protocol.html">Registro protocollo</a>
+          <button id="previewButton" class="secondary-link hidden" type="button">Anteprima PDF</button>
+        </div>
       </header>
       <form id="editForm" class="grid">
         <input name="original_name" readonly>
@@ -62,8 +45,8 @@
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="document-edit.js?v=20260627-2"></script>
   <script src="auth-menu.js?v=20260628-3"></script>
+  <script src="document-edit.js?v=20260718-1"></script>
 </body>
 </html>
 

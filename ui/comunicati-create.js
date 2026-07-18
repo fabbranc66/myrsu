@@ -1,102 +1,106 @@
 const apiBase = '../api/v1';
-let token = sessionStorage.getItem('token');
-const form = document.querySelector('#comunicatoForm');
-const message = document.querySelector('#message');
+const token = sessionStorage.getItem('token');
+const table = document.querySelector('#comunicatiTable');
 const jsonOutput = document.querySelector('#jsonOutput');
-const uploadProgress = document.querySelector('#uploadProgress');
-const uploadProgressFill = document.querySelector('#uploadProgressFill');
-const uploadProgressText = document.querySelector('#uploadProgressText');
-const draftActions = document.querySelector('#draftActions');
-const generateButton = document.querySelector('#generateButton');
-let draftId = null;
+const message = document.querySelector('#message');
+const documentModal = document.querySelector('#documentModal');
+const documentPreview = document.querySelector('#documentPreview');
+const closeDocumentModal = document.querySelector('#closeDocumentModal');
+const verifyFrameModal = document.querySelector('#verifyFrameModal');
+const verifyFrame = document.querySelector('#verifyFrame');
+const closeVerifyFrameModal = document.querySelector('#closeVerifyFrameModal');
+let documentPreviewUrl = null;
 
-function setUploadProgress(value) {
-  if (!uploadProgress || !uploadProgressFill || !uploadProgressText) return;
-  uploadProgressFill.style.width = `${value}%`;
-  uploadProgressText.textContent = `${value}%`;
+async function api(path, options = {}) {
+  const headers = options.headers || {};
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const response = await fetch(`${apiBase}${path}`, { ...options, headers });
+  const payload = await response.json();
+  jsonOutput.textContent = JSON.stringify(payload, null, 2);
+  if (!response.ok) throw new Error(payload.error?.message || 'Request failed');
+  return payload.data;
 }
 
-function resetUploadProgress() {
-  if (!uploadProgress || !uploadProgressFill || !uploadProgressText) return;
-  uploadProgress.classList.add('hidden');
-  uploadProgressFill.style.width = '0%';
-  uploadProgressText.textContent = '0%';
+function row(document) {
+  const draft = document.conversion_status === 'pending';
+  const editUrl = draft ? `comunicati-editor.html?id=${document.id}` : `document-edit.html?id=${document.id}`;
+  const title = document.protocol_number || document.protocol_subject || document.original_name;
+  const subject = document.protocol_subject || document.original_name || '';
+  return `<tr>
+    <td title="${escapeHtml(subject)}">${draft ? '<span class="doc-type-tag draft">DRAFT</span>' : '<span class="doc-type-tag">PDF</span>'} ${escapeHtml(title)}</td>
+    <td>${document.visibility}</td>
+    <td>${draft ? 'bozza' : 'ufficiale'}</td>
+    <td>${document.created_at || '-'}</td>
+    <td class="actions-cell">${draft ? '' : `<button class="icon-action" data-view="${document.id}" title="Anteprima">${MyRsuIcons.get('eye')}</button>`}<a class="icon-action" href="${editUrl}" title="Modifica">${MyRsuIcons.get('edit')}</a>${draft ? `<button class="draft-generate-button" data-generate="${document.id}">${MyRsuIcons.get('document')} Genera ufficiale</button>` : ''}</td>
+  </tr>`;
 }
 
-function createComunicato(data) {
-  return new Promise((resolve, reject) => {
-    const xhr = new XMLHttpRequest();
-    xhr.open('POST', `${apiBase}/comunicati`);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    if (token) xhr.setRequestHeader('Authorization', `Bearer ${token}`);
+function escapeHtml(value) {
+  return String(value || '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
+}
 
-    xhr.upload.addEventListener('progress', (event) => {
-      if (!event.lengthComputable) return;
-      const value = Math.max(1, Math.min(95, Math.round((event.loaded / event.total) * 95)));
-      setUploadProgress(value);
-    });
+async function load() {
+  const documents = await api('/documents');
+  table.innerHTML = documents.filter((document) => document.category === 'comunicati').map(row).join('');
+}
 
-    xhr.addEventListener('load', () => {
-      const payload = xhr.responseText ? JSON.parse(xhr.responseText) : {};
-      jsonOutput.textContent = JSON.stringify(payload, null, 2);
-      if (xhr.status < 200 || xhr.status >= 300) {
-        reject(new Error(payload.error?.message || 'Creazione fallita'));
-        return;
-      }
-      resolve(payload.data);
-    });
+document.addEventListener('click', async (event) => {
+  const view = event.target.closest('[data-view]');
+  if (view) {
+    await showDocument(view.dataset.view);
+    return;
+  }
 
-    xhr.addEventListener('error', () => reject(new Error('Creazione fallita')));
-    xhr.send(JSON.stringify(data));
+  const button = event.target.closest('[data-generate]');
+  if (!button) return;
+  try {
+    const data = await api(`/comunicati/${button.dataset.generate}/generate`, { method: 'POST' });
+    message.textContent = `Generato ${data.protocol.protocol_number}`;
+    await load();
+  } catch (error) {
+    message.textContent = error.message;
+  }
+});
+
+async function showDocument(id) {
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  const response = await fetch(`${apiBase}/documents/${id}/preview`, {
+    headers: { Authorization: `Bearer ${token}` },
   });
+  if (!response.ok) throw new Error('Anteprima non disponibile.');
+  documentPreviewUrl = URL.createObjectURL(await response.blob());
+  documentPreview.src = documentPreviewUrl;
+  documentModal.showModal();
 }
 
-form.addEventListener('submit', async (event) => {
-  event.preventDefault();
-  message.textContent = '';
-  if (uploadProgress) uploadProgress.classList.remove('hidden');
-  setUploadProgress(0);
-
-  try {
-    const data = Object.fromEntries(new FormData(form).entries());
-    const result = await createComunicato(data);
-    setUploadProgress(100);
-    await new Promise((resolve) => window.setTimeout(resolve, 250));
-    draftId = Number(result.document.id);
-    draftActions.classList.remove('hidden');
-    message.textContent = 'Bozza salvata. Documento ufficiale non ancora generato.';
-    form.reset();
-  } catch (error) {
-    message.textContent = error.message;
-  } finally {
-    window.setTimeout(resetUploadProgress, 500);
-  }
+closeDocumentModal.addEventListener('click', () => {
+  closePreviewModal();
 });
 
-generateButton.addEventListener('click', async () => {
-  if (!draftId) return;
-  message.textContent = '';
-  uploadProgress.classList.remove('hidden');
-  setUploadProgress(15);
-  try {
-    const response = await fetch(`${apiBase}/comunicati/${draftId}/generate`, {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${token}` },
-    });
-    const payload = await response.json();
-    jsonOutput.textContent = JSON.stringify(payload, null, 2);
-    if (!response.ok) throw new Error(payload.error?.message || 'Generazione fallita');
-    setUploadProgress(100);
-    message.textContent = `Generato ${payload.data.protocol.protocol_number}`;
-    draftActions.classList.add('hidden');
-    draftId = null;
-  } catch (error) {
-    message.textContent = error.message;
-  } finally {
-    window.setTimeout(resetUploadProgress, 500);
-  }
+window.addEventListener('message', (event) => {
+  if (typeof event.data !== 'object' || event.data?.type !== 'myrsu:verify-modal') return;
+  if (verifyFrame.src === event.data.url) return;
+  verifyFrame.src = event.data.url;
+  verifyFrameModal.showModal();
 });
 
-if (!token) {
-  window.location.href = 'app/index.html';
+documentModal.addEventListener('click', (event) => {
+  if (event.target === documentModal) closePreviewModal();
+});
+
+function closePreviewModal() {
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  documentPreviewUrl = null;
+  documentPreview.src = '';
+  documentModal.close();
 }
+
+closeVerifyFrameModal.addEventListener('click', () => {
+  verifyFrame.src = '';
+  verifyFrameModal.close();
+});
+
+if (!token) window.location.href = 'app/index.html';
+load().catch((error) => {
+  message.textContent = error.message;
+});
