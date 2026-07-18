@@ -134,6 +134,9 @@ $app->router->patch('/api/v1/institutional-contacts/{id}', [$contacts, 'updateIn
 
 $app->router->get('/api/v1/union-meetings', [$unionMeetings, 'index']);
 $app->router->post('/api/v1/union-meetings', [$unionMeetings, 'store']);
+$app->router->post('/api/v1/union-meetings/{id}/documents', [$unionMeetings, 'storeDocument']);
+$app->router->post('/api/v1/union-meetings/{id}/documents/link', [$unionMeetings, 'linkDocument']);
+$app->router->delete('/api/v1/union-meetings/{id}/documents/{document_id}', [$unionMeetings, 'destroyDocument']);
 $app->router->get('/api/v1/union-meetings/{id}', [$unionMeetings, 'show']);
 $app->router->patch('/api/v1/union-meetings/{id}', [$unionMeetings, 'update']);
 $app->router->post('/api/v1/union-meetings/{id}/public-comunicato', [$unionMeetings, 'publicComunicato']);

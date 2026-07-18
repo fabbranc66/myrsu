@@ -21,6 +21,7 @@ use App\Repositories\RolePermissionRepository;
 use App\Repositories\TokenRepository;
 use App\Repositories\UnionMeetingRepository;
 use App\Repositories\UnionMeetingNoteRepository;
+use App\Repositories\UnionMeetingDocumentRepository;
 use App\Repositories\UnionMeetingParticipantRepository;
 use App\Repositories\UserRepository;
 use App\Services\AuthService;
@@ -79,6 +80,7 @@ final class Application
     public readonly ReportAttachmentRepository $reportAttachments;
     public readonly UnionMeetingRepository $unionMeetings;
     public readonly UnionMeetingNoteRepository $unionMeetingNotes;
+    public readonly UnionMeetingDocumentRepository $unionMeetingDocuments;
     public readonly UnionMeetingParticipantRepository $unionMeetingParticipants;
     public readonly ActivityLogRepository $activityLogs;
     public readonly AuthService $authService;
@@ -185,6 +187,7 @@ final class Application
         $this->reportAttachments = new ReportAttachmentRepository($pdo);
         $this->unionMeetings = new UnionMeetingRepository($pdo);
         $this->unionMeetingNotes = new UnionMeetingNoteRepository($pdo);
+        $this->unionMeetingDocuments = new UnionMeetingDocumentRepository($pdo);
         $this->unionMeetingParticipants = new UnionMeetingParticipantRepository($pdo);
         $this->activityLogs = new ActivityLogRepository($pdo);
         $this->auth = new Auth($this->users, $this->tokens, $this->roles);

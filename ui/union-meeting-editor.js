@@ -5,6 +5,14 @@ const pageTitle = document.querySelector('#pageTitle');
 const saveButton = document.querySelector('#saveButton');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
+const attachmentsPanel = document.querySelector('#attachmentsPanel');
+const attachmentForm = document.querySelector('#attachmentForm');
+const existingDocumentForm = document.querySelector('#existingDocumentForm');
+const existingDocumentSelect = document.querySelector('#existingDocumentSelect');
+const attachmentsTable = document.querySelector('#attachmentsTable');
+const documentModal = document.querySelector('#documentModal');
+const documentPreview = document.querySelector('#documentPreview');
+const closeDocumentModal = document.querySelector('#closeDocumentModal');
 const participantSearch = document.querySelector('#participantSearch');
 const participantsText = document.querySelector('#participantsText');
 const participantTags = document.querySelector('#participantTags');
@@ -14,7 +22,10 @@ const contactForm = document.querySelector('#contactForm');
 const closeContactModal = document.querySelector('#closeContactModal');
 const meetingId = new URLSearchParams(window.location.search).get('id');
 let contacts = [];
+let existingDocuments = [];
 let selectedParticipants = [];
+let activeMeetingId = meetingId;
+let documentPreviewUrl = null;
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -35,6 +46,8 @@ async function loadContacts() {
 async function loadMeeting() {
   if (!meetingId) return;
   const meeting = await api(`/union-meetings/${meetingId}`);
+  activeMeetingId = meeting.id;
+  attachmentsPanel.classList.remove('hidden');
   pageTitle.textContent = 'Modifica incontro';
   saveButton.textContent = 'Salva modifica';
   meetingForm.elements.title.value = meeting.title || '';
@@ -53,11 +66,14 @@ async function loadMeeting() {
     selectedParticipants = String(meeting.participants).split('\n').filter(Boolean).map((label, index) => ({ type: 'free', id: `free-${index}`, label }));
   }
   renderParticipantTags();
+  renderAttachments(meeting.documents || []);
+  await loadExistingDocuments(meeting.documents || []);
 }
 
 meetingForm.addEventListener('submit', async (event) => {
   event.preventDefault();
   message.textContent = '';
+  saveButton.disabled = true;
   commitParticipantSearch();
   const form = new FormData(meetingForm);
   const data = Object.fromEntries(form.entries());
@@ -67,12 +83,97 @@ meetingForm.addEventListener('submit', async (event) => {
     .map((item) => ({ type: item.type, id: item.id, label: item.label }));
   try {
     const path = meetingId ? `/union-meetings/${meetingId}` : '/union-meetings';
-    await api(path, { method: meetingId ? 'PATCH' : 'POST', body: JSON.stringify(data) });
+    const saved = await api(path, { method: meetingId ? 'PATCH' : 'POST', body: JSON.stringify(data) });
     message.textContent = 'Incontro salvato.';
-    window.setTimeout(() => { window.location.href = 'union-meetings.html'; }, 500);
+    window.setTimeout(() => { window.location.href = `union-meeting-editor.html?id=${saved.id}`; }, 500);
+  } catch (error) {
+    message.textContent = error.message;
+  } finally {
+    saveButton.disabled = false;
+  }
+});
+
+attachmentForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  if (!activeMeetingId) return;
+  const body = new FormData(attachmentForm);
+  try {
+    const response = await fetch(`${apiBase}/union-meetings/${activeMeetingId}/documents`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}` },
+      body,
+    });
+    const payload = await response.json();
+    jsonOutput.textContent = JSON.stringify(payload, null, 2);
+    if (!response.ok) throw new Error(payload.error?.message || 'Upload fallito');
+    attachmentForm.reset();
+    renderAttachments(payload.data.documents || []);
+    renderExistingDocumentOptions(payload.data.documents || []);
   } catch (error) {
     message.textContent = error.message;
   }
+});
+
+existingDocumentForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  if (!activeMeetingId) return;
+  const documentId = existingDocumentSelect.value;
+  try {
+    const data = await api(`/union-meetings/${activeMeetingId}/documents/link`, {
+      method: 'POST',
+      body: JSON.stringify({ document_id: documentId }),
+    });
+    renderAttachments(data.documents || []);
+    renderExistingDocumentOptions(data.documents || []);
+    message.textContent = 'Documento collegato.';
+  } catch (error) {
+    message.textContent = error.message;
+  }
+});
+
+function renderAttachments(documents) {
+  attachmentsTable.innerHTML = documents.length
+    ? documents.map((document) => `<tr><td>${escapeHtml(document.original_name)}</td><td>${escapeHtml(document.conversion_status)}</td><td class="actions-cell"><button class="icon-action" data-view-document="${document.document_id}" title="Anteprima">${MyRsuIcons.get('eye')}</button><button class="icon-action danger" data-remove-document="${document.document_id}" title="Rimuovi">${MyRsuIcons.get('trash')}</button></td></tr>`).join('')
+    : '<tr><td colspan="3">Nessun allegato.</td></tr>';
+}
+
+attachmentsTable.addEventListener('click', async (event) => {
+  const view = event.target.closest('[data-view-document]');
+  if (view) {
+    openDocument(view.dataset.viewDocument);
+    return;
+  }
+  const remove = event.target.closest('[data-remove-document]');
+  if (!remove || !activeMeetingId) return;
+  const data = await api(`/union-meetings/${activeMeetingId}/documents/${remove.dataset.removeDocument}`, { method: 'DELETE' });
+  renderAttachments(data.documents || []);
+  renderExistingDocumentOptions(data.documents || []);
+});
+
+async function loadExistingDocuments(linkedDocuments) {
+  const data = await api('/documents');
+  existingDocuments = (data || []).filter((document) => document.category === 'documenti');
+  renderExistingDocumentOptions(linkedDocuments);
+}
+
+function renderExistingDocumentOptions(linkedDocuments) {
+  const linkedIds = new Set((linkedDocuments || []).map((document) => Number(document.document_id)));
+  const available = existingDocuments.filter((document) => !linkedIds.has(Number(document.id)));
+  existingDocumentSelect.innerHTML = available.length
+    ? available.map((document) => `<option value="${document.id}">${escapeHtml(document.original_name)} - ${escapeHtml(document.conversion_status)}</option>`).join('')
+    : '<option value="">Nessun documento disponibile</option>';
+  existingDocumentSelect.disabled = available.length === 0;
+}
+
+function openDocument(documentId) {
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  documentPreview.src = `${apiBase}/documents/${documentId}/preview?token=${encodeURIComponent(token || '')}`;
+  documentModal.showModal();
+}
+
+closeDocumentModal.addEventListener('click', () => {
+  documentPreview.src = '';
+  documentModal.close();
 });
 
 participantSearch.addEventListener('input', () => showContactResults(participantSearch.value));

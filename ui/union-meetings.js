@@ -34,10 +34,11 @@ async function loadPractices() {
 
 function row(meeting) {
   const documentStatus = meeting.public_document_id ? `doc ${meeting.public_document_id}` : '-';
+  const attachmentCount = Array.isArray(meeting.documents) ? meeting.documents.length : 0;
   const convocation = meeting.public_document_id
     ? `<button class="icon-action" data-view-convocation="${meeting.public_document_id}" title="Visualizza convocazione">${MyRsuIcons.get('eye')}</button>`
     : `<button class="icon-action" disabled title="Convocazione non generata">${MyRsuIcons.get('eye')}</button>`;
-  return `<tr><td>${escapeHtml(meeting.title)}</td><td>${escapeHtml(meeting.meeting_date)}</td><td>${escapeHtml(meeting.location)}</td><td>${translateStatus(meeting.status)}</td><td>${translateVisibility(meeting.visibility)}</td><td>${documentStatus}</td><td class="actions-cell">${convocation}<a class="icon-action" href="union-meeting-editor.html?id=${meeting.id}" title="Modifica incontro">${MyRsuIcons.get('edit')}</a><button class="icon-action" data-public-comunicato="${meeting.id}" title="Comunicato pubblico">${MyRsuIcons.get('document')}</button><a class="icon-action" href="union-meeting-operational.html?id=${meeting.id}" title="Pagina operativa">${MyRsuIcons.get('logs')}</a><button class="icon-action" data-practice-link="${meeting.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button></td></tr>`;
+  return `<tr><td>${escapeHtml(meeting.title)}</td><td>${escapeHtml(meeting.meeting_date)}</td><td>${escapeHtml(meeting.location)}</td><td>${translateStatus(meeting.status)}</td><td>${translateVisibility(meeting.visibility)}</td><td>${documentStatus} | allegati ${attachmentCount}</td><td class="actions-cell">${convocation}<a class="icon-action" href="union-meeting-editor.html?id=${meeting.id}" title="Modifica incontro">${MyRsuIcons.get('edit')}</a><button class="icon-action" data-public-comunicato="${meeting.id}" title="Comunicato pubblico">${MyRsuIcons.get('document')}</button><a class="icon-action" href="union-meeting-operational.html?id=${meeting.id}" title="Pagina operativa">${MyRsuIcons.get('logs')}</a><button class="icon-action" data-practice-link="${meeting.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button></td></tr>`;
 }
 
 function translateStatus(value) {

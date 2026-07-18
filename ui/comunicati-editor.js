@@ -8,6 +8,7 @@ const uploadProgressFill = document.querySelector('#uploadProgressFill');
 const uploadProgressText = document.querySelector('#uploadProgressText');
 const draftActions = document.querySelector('#draftActions');
 const generateButton = document.querySelector('#generateButton');
+const submitButton = form.querySelector('button[type="submit"]');
 const params = new URLSearchParams(window.location.search);
 let draftId = Number(params.get('id') || 0) || null;
 let editingDraft = draftId !== null;
@@ -53,6 +54,7 @@ async function loadDraft() {
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   message.textContent = '';
+  submitButton.disabled = true;
   setUploadProgress(15);
   try {
     const data = Object.fromEntries(new FormData(form).entries());
@@ -67,6 +69,7 @@ form.addEventListener('submit', async (event) => {
   } catch (error) {
     message.textContent = error.message;
   } finally {
+    submitButton.disabled = false;
     window.setTimeout(resetUploadProgress, 500);
   }
 });
@@ -74,6 +77,7 @@ form.addEventListener('submit', async (event) => {
 generateButton.addEventListener('click', async () => {
   if (!draftId) return;
   message.textContent = '';
+  generateButton.disabled = true;
   setUploadProgress(15);
   try {
     const data = await api(`/comunicati/${draftId}/generate`, { method: 'POST' });
@@ -83,6 +87,7 @@ generateButton.addEventListener('click', async () => {
   } catch (error) {
     message.textContent = error.message;
   } finally {
+    generateButton.disabled = false;
     window.setTimeout(resetUploadProgress, 500);
   }
 });

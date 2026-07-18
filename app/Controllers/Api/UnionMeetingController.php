@@ -20,7 +20,7 @@ final class UnionMeetingController
     {
         $this->requireManager($request);
 
-        return Response::json(['data' => array_map([$this, 'withParticipants'], $this->app->unionMeetings->all())]);
+        return Response::json(['data' => array_map(fn (array $meeting): array => $this->withDocuments($this->withParticipants($meeting)), $this->app->unionMeetings->all())]);
     }
 
     public function store(Request $request): Response
@@ -67,6 +67,7 @@ final class UnionMeetingController
         $meeting = $this->findMeeting((int)$params['id']);
         $meeting['notes'] = $this->app->unionMeetingNotes->forMeeting((int)$meeting['id']);
         $meeting = $this->withParticipants($meeting);
+        $meeting = $this->withDocuments($meeting);
 
         return Response::json(['data' => $meeting]);
     }
@@ -163,6 +164,89 @@ final class UnionMeetingController
         return Response::json(['data' => $this->app->unionMeetingNotes->forMeeting((int)$meeting['id'])]);
     }
 
+    public function storeDocument(Request $request, array $params): Response
+    {
+        $user = $this->requireManager($request);
+        $meeting = $this->findMeeting((int)$params['id']);
+        $file = $_FILES['file'] ?? [];
+        $pendingOffice = $this->app->officeFiles->isOffice($file) && !$this->app->pdfConversion->available();
+        $stored = $pendingOffice
+            ? $this->app->documentStorage->storePendingUpload($file, 'documenti')
+            : $this->app->documentStorage->store($file, 'documenti');
+        $document = $this->app->documents->create($stored + [
+            'visibility' => 'rsu',
+            'uploaded_by' => (int)$user['id'],
+        ]);
+        if ($pendingOffice) {
+            $this->app->unionMeetingDocuments->create((int)$meeting['id'], (int)$document['id'], (int)$user['id']);
+            $this->app->activityLogs->write((int)$user['id'], 'meetings.document_pending', [
+                'section' => 'meetings',
+                'meeting_id' => $meeting['id'],
+                'document_id' => $document['id'],
+            ]);
+
+            return Response::json(['data' => ['document' => $document, 'documents' => $this->app->unionMeetingDocuments->forMeeting((int)$meeting['id'])]], 202);
+        }
+        $document = $this->app->documents->updateSignature((int)$document['id'], $this->app->documentSignature->sign($document));
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        $verifyUrl = $this->appBaseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode((string)$document['signature']);
+        $this->app->uploadedDocumentPdf->write(
+            $this->app->documentStorage->originalPath((string)$document['original_stored_name']),
+            $pdfPath,
+            $document + ['creator_name' => (string)$user['name']],
+            null,
+            $verifyUrl,
+            (string)$document['signature']
+        );
+        $document = $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
+        $this->app->unionMeetingDocuments->create((int)$meeting['id'], (int)$document['id'], (int)$user['id']);
+        $this->app->activityLogs->write((int)$user['id'], 'meetings.document_upload', [
+            'section' => 'meetings',
+            'meeting_id' => $meeting['id'],
+            'document_id' => $document['id'],
+        ]);
+
+        return Response::json(['data' => ['document' => $document, 'documents' => $this->app->unionMeetingDocuments->forMeeting((int)$meeting['id'])]], 201);
+    }
+
+    public function linkDocument(Request $request, array $params): Response
+    {
+        $user = $this->requireManager($request);
+        $meeting = $this->findMeeting((int)$params['id']);
+        $data = $request->all();
+        Validator::required($data, ['document_id']);
+        $document = $this->app->documents->findById((int)$data['document_id']);
+        if ($document === null || (string)$document['category'] !== 'documenti') {
+            throw new HttpException(404, 'Documento archivio non trovato.');
+        }
+
+        $this->app->unionMeetingDocuments->create((int)$meeting['id'], (int)$document['id'], (int)$user['id']);
+        $this->app->activityLogs->write((int)$user['id'], 'meetings.document_link', [
+            'section' => 'meetings',
+            'meeting_id' => $meeting['id'],
+            'document_id' => $document['id'],
+        ]);
+
+        return Response::json(['data' => [
+            'document' => $document,
+            'documents' => $this->app->unionMeetingDocuments->forMeeting((int)$meeting['id']),
+        ]]);
+    }
+
+    public function destroyDocument(Request $request, array $params): Response
+    {
+        $user = $this->requireManager($request);
+        $meeting = $this->findMeeting((int)$params['id']);
+        $this->app->unionMeetingDocuments->delete((int)$meeting['id'], (int)$params['document_id']);
+        $this->app->activityLogs->write((int)$user['id'], 'meetings.document_unlink', [
+            'section' => 'meetings',
+            'meeting_id' => $meeting['id'],
+            'document_id' => (int)$params['document_id'],
+        ]);
+
+        return Response::json(['data' => ['documents' => $this->app->unionMeetingDocuments->forMeeting((int)$meeting['id'])]]);
+    }
+
     public function storeNote(Request $request, array $params): Response
     {
         $user = $this->requireManager($request);
@@ -223,6 +307,13 @@ final class UnionMeetingController
     private function withParticipants(array $meeting): array
     {
         $meeting['selected_participants'] = $this->app->unionMeetingParticipants->forMeeting((int)$meeting['id']);
+
+        return $meeting;
+    }
+
+    private function withDocuments(array $meeting): array
+    {
+        $meeting['documents'] = $this->app->unionMeetingDocuments->forMeeting((int)$meeting['id']);
 
         return $meeting;
     }

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Editor incontro - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260627-1">
-  <link rel="stylesheet" href="users.css?v=20260718-2">
+  <link rel="stylesheet" href="users.css?v=20260718-3">
 </head>
 <body>
   <header class="app-header">
@@ -28,7 +28,7 @@
         <label>Data e ora<input name="meeting_date" type="datetime-local" required></label>
         <label>Luogo<input name="location" required></label>
         <label>Stato<select name="status"><option value="scheduled">programmato</option><option value="done">svolto</option><option value="cancelled">annullato</option></select></label>
-        <label>Visibilità<select name="visibility"><option value="rsu">rsu</option><option value="members">membri</option><option value="public">pubblico</option></select></label>
+        <label>Visibilita<select name="visibility"><option value="rsu">rsu</option><option value="members">membri</option><option value="public">pubblico</option></select></label>
         <div class="full-width contact-picker">
           <label>Partecipanti<input id="participantSearch" type="text" autocomplete="off" placeholder="Cerca o scrivi nuovo contatto"></label>
           <input id="participantsText" name="participants" type="hidden" required>
@@ -39,6 +39,32 @@
         <label class="full-width">Descrizione<textarea name="description" required></textarea></label>
         <button id="saveButton" type="submit">Salva incontro</button>
       </form>
+
+      <section id="attachmentsPanel" class="content hidden">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Allegati</p>
+            <h2>Documenti incontro</h2>
+          </div>
+        </header>
+        <form id="attachmentForm" class="grid">
+          <input name="file" type="file" required>
+          <button type="submit">Carica allegato</button>
+        </form>
+        <form id="existingDocumentForm" class="grid">
+          <label class="full-width">Documento da archivio<select id="existingDocumentSelect" name="document_id" required></select></label>
+          <button type="submit">Collega documento</button>
+        </form>
+        <table>
+          <thead><tr><th>Documento</th><th>Stato</th><th>Azioni</th></tr></thead>
+          <tbody id="attachmentsTable"></tbody>
+        </table>
+      </section>
+
+      <dialog id="documentModal" class="preview-modal">
+        <header><h2>Allegato</h2><button id="closeDocumentModal" type="button">Chiudi</button></header>
+        <iframe id="documentPreview" title="Anteprima allegato"></iframe>
+      </dialog>
 
       <dialog id="contactModal">
         <header><h2>Nuovo contatto</h2><button id="closeContactModal" type="button">Chiudi</button></header>
@@ -62,7 +88,8 @@
     </section>
   </main>
 
-  <script src="union-meeting-editor.js?v=20260718-1"></script>
+  <script src="icons.js?v=20260627-1"></script>
+  <script src="union-meeting-editor.js?v=20260718-3"></script>
   <script src="auth-menu.js?v=20260628-3"></script>
 </body>
 </html>

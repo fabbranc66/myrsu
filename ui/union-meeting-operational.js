@@ -6,8 +6,12 @@ const title = document.querySelector('#meetingTitle');
 const meta = document.querySelector('#meetingMeta');
 const noteForm = document.querySelector('#noteForm');
 const notesList = document.querySelector('#notesList');
+const attachmentsList = document.querySelector('#attachmentsList');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
+const documentModal = document.querySelector('#documentModal');
+const documentPreview = document.querySelector('#documentPreview');
+const closeDocumentModal = document.querySelector('#closeDocumentModal');
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -24,7 +28,14 @@ async function loadMeeting() {
   const meeting = await api(`/union-meetings/${meetingId}`);
   title.textContent = meeting.title;
   meta.textContent = `${meeting.location} - ${meeting.meeting_date}`;
+  renderAttachments(meeting.documents || []);
   renderNotes(meeting.notes || []);
+}
+
+function renderAttachments(documents) {
+  attachmentsList.innerHTML = documents.length
+    ? documents.map((document) => `<article class="meeting-note"><strong>${escapeHtml(document.original_name)}</strong><p>${escapeHtml(document.conversion_status)}</p><button class="icon-action" data-view-document="${document.document_id}" title="Anteprima">${MyRsuIcons.get('eye')}</button></article>`).join('')
+    : '<p class="muted">Nessun allegato.</p>';
 }
 
 function renderNotes(notes) {
@@ -52,6 +63,18 @@ noteForm.addEventListener('submit', async (event) => {
   } catch (error) {
     message.textContent = error.message;
   }
+});
+
+attachmentsList.addEventListener('click', (event) => {
+  const view = event.target.closest('[data-view-document]');
+  if (!view) return;
+  documentPreview.src = `${apiBase}/documents/${view.dataset.viewDocument}/preview?token=${encodeURIComponent(token || '')}`;
+  documentModal.showModal();
+});
+
+closeDocumentModal.addEventListener('click', () => {
+  documentPreview.src = '';
+  documentModal.close();
 });
 
 loadMeeting().catch((error) => { message.textContent = error.message; });
