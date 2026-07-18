@@ -117,9 +117,15 @@ $app->router->patch('/api/v1/reports/{id}/moderation', [$reports, 'moderate']);
 
 $app->router->get('/api/v1/comments', [$comments, 'index']);
 $app->router->get('/api/v1/comments/stats', [$comments, 'stats']);
+$app->router->get('/api/v1/comments/document/{id}', [$comments, 'approvedByDocument']);
 $app->router->patch('/api/v1/comments/{id}/moderation', [$comments, 'moderate']);
 
 $app->router->get('/api/v1/practices', [$practices, 'index']);
+$app->router->post('/api/v1/practices', [$practices, 'store']);
+$app->router->get('/api/v1/practices/assignees', [$practices, 'assignees']);
+$app->router->get('/api/v1/practices/{id}', [$practices, 'show']);
+$app->router->patch('/api/v1/practices/{id}', [$practices, 'update']);
+$app->router->post('/api/v1/practices/{id}/notes', [$practices, 'addNote']);
 $app->router->post('/api/v1/practice-links', [$practices, 'link']);
 
 $app->router->get('/api/v1/contacts', [$contacts, 'index']);

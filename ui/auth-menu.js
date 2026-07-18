@@ -29,6 +29,7 @@
         ['comunicati-create.html', 'Comunicati', ['admin', 'delegato', 'rls']],
         ['union-meetings.html', 'Incontri sindacali', ['admin', 'delegato', 'rls']],
         ['calls.html', 'Telefonate', ['admin', 'delegato', 'rls']],
+        ['practices.html', 'Pratiche', ['admin', 'delegato', 'rls']],
         ['reports.html', 'Segnalazioni', ['admin', 'delegato', 'rls']],
         ['reports-moderation.html', 'Moderazione segnalazioni', ['admin', 'delegato', 'rls']],
         ['comments-moderation.html', 'Moderazione commenti', ['admin', 'delegato', 'rls']],
@@ -43,6 +44,8 @@
         'union-meetings.html',
         'union-meeting-operational.html',
         'calls.html',
+        'practices.html',
+        'practice-view.html',
         'reports.html',
         'reports-moderation.html',
         'comments-moderation.html',
@@ -78,7 +81,10 @@
     item.textContent = token ? 'Esci' : 'Login';
 
     if (!token) {
-      item.href = 'app/index.html';
+      item.href = 'login.html';
+      if (currentPage === 'login.html') {
+        item.classList.add('active');
+      }
       nav.appendChild(item);
       return;
     }

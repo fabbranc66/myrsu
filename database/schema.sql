@@ -98,13 +98,25 @@ CREATE TABLE documents (
 
 CREATE TABLE practices (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  code VARCHAR(30) NOT NULL,
   title VARCHAR(255) NOT NULL,
-  status ENUM('open', 'closed', 'archived') NOT NULL DEFAULT 'open',
+  summary TEXT NULL,
+  type ENUM('collective', 'personal', 'personal_restricted') NOT NULL DEFAULT 'collective',
+  status ENUM('new', 'under_review', 'assigned', 'company_discussion', 'awaiting_response', 'suspended', 'resolved', 'closed', 'archived', 'closed_positive', 'closed_negative') NOT NULL DEFAULT 'new',
+  priority ENUM('low', 'medium', 'high', 'urgent') NOT NULL DEFAULT 'medium',
+  source_type ENUM('manual', 'anonymous_report', 'mail', 'member', 'delegate', 'document', 'communication', 'meeting') NOT NULL DEFAULT 'manual',
+  assigned_user_id BIGINT UNSIGNED NULL,
+  visibility ENUM('operators', 'authorized', 'public_summary') NOT NULL DEFAULT 'operators',
+  due_date DATE NULL,
   created_by BIGINT UNSIGNED NULL,
   created_at DATETIME NOT NULL,
   updated_at DATETIME NOT NULL,
+  closed_at DATETIME NULL,
+  UNIQUE KEY practices_code_unique (code),
   INDEX practices_status_idx (status),
-  CONSTRAINT practices_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL
+  INDEX practices_priority_idx (priority),
+  CONSTRAINT practices_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL,
+  CONSTRAINT practices_assigned_user_fk FOREIGN KEY (assigned_user_id) REFERENCES users(id) ON DELETE SET NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE practice_links (
@@ -118,6 +130,17 @@ CREATE TABLE practice_links (
   INDEX practice_links_entity_idx (entity_type, entity_id),
   CONSTRAINT practice_links_practice_id_fk FOREIGN KEY (practice_id) REFERENCES practices(id) ON DELETE CASCADE,
   CONSTRAINT practice_links_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE practice_notes (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  practice_id BIGINT UNSIGNED NOT NULL,
+  body TEXT NOT NULL,
+  created_by BIGINT UNSIGNED NOT NULL,
+  created_at DATETIME NOT NULL,
+  INDEX practice_notes_practice_idx (practice_id),
+  CONSTRAINT practice_notes_practice_fk FOREIGN KEY (practice_id) REFERENCES practices(id) ON DELETE CASCADE,
+  CONSTRAINT practice_notes_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE union_meetings (

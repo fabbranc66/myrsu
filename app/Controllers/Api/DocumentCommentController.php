@@ -34,6 +34,17 @@ final class DocumentCommentController
         return Response::json(['data' => ['pending' => $this->app->documentComments->countByStatus('pending')]]);
     }
 
+    public function approvedByDocument(Request $request, array $params): Response
+    {
+        $this->app->auth->requirePermission($request, 'comments.moderate');
+        $documentId = (int)$params['id'];
+        if ($this->app->documents->findById($documentId) === null) {
+            throw new HttpException(404, 'Documento non trovato.');
+        }
+
+        return Response::json(['data' => $this->app->documentComments->publicForDocument($documentId)]);
+    }
+
     public function publicIndex(Request $request, array $params): Response
     {
         $document = $this->publicDocument((int)$params['id']);

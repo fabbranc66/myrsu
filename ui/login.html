@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accesso - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260627-7">
+  <link rel="stylesheet" href="app/css/auth.css?v=20260628-1">
+</head>
+<body>
+  <main class="page">
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">MyRSU</p>
+        <h1>Accesso</h1>
+      </div>
+      <nav class="app-nav"></nav>
+    </header>
+
+    <section class="content login-content">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Autenticazione</p>
+          <h2>Accedi alla piattaforma</h2>
+        </div>
+      </header>
+
+      <form id="loginForm" class="form login-form">
+        <label>Email
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+        <label>Password
+          <input name="password" type="password" autocomplete="current-password" required>
+        </label>
+        <p id="loginError" class="login-error hidden" role="alert" aria-live="polite"></p>
+        <button type="submit">Entra</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="app/js/api.js"></script>
+  <script src="app/js/auth.js"></script>
+  <script src="auth-menu.js?v=20260628-3"></script>
+  <script src="login.js?v=20260628-1"></script>
+</body>
+</html>

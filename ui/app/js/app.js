@@ -1,9 +1,5 @@
 const loginView = document.querySelector('#loginView');
 const appView = document.querySelector('#appView');
-const loginForm = document.querySelector('#loginForm');
-const loginToggle = document.querySelector('#loginToggle');
-const loginPanel = document.querySelector('#loginPanel');
-const loginError = document.querySelector('#loginError');
 const logoutButton = document.querySelector('#logoutButton');
 const message = document.querySelector('#message');
 const userName = document.querySelector('#userName');
@@ -23,6 +19,8 @@ const usersMenuLink = document.querySelector('#usersMenuLink');
 const pendingQueueLink = document.querySelector('#pendingQueueLink');
 const reportsCard = document.querySelector('#reportsCard');
 const reportsPendingCount = document.querySelector('#reportsPendingCount');
+const commentsCard = document.querySelector('#commentsCard');
+const commentsPendingCount = document.querySelector('#commentsPendingCount');
 const privateDocumentsLink = document.querySelector('#privateDocumentsLink');
 const privateDocumentsCard = document.querySelector('#privateDocumentsCard');
 const publicBoardGuest = document.querySelector('#publicBoardGuestContent');
@@ -33,13 +31,6 @@ const publicDocuments = new Map();
 
 function showMessage(text = '') {
   message.textContent = text;
-}
-
-function showLoginError(text = '') {
-  if (!loginError) return;
-  loginError.textContent = text;
-  loginError.hidden = text === '';
-  loginError.classList.toggle('hidden', text === '');
 }
 
 async function loadPublicBoard(target) {
@@ -111,7 +102,6 @@ function categoryIcon(category) {
 function setView(authenticated) {
   loginView.classList.toggle('hidden', authenticated);
   appView.classList.toggle('hidden', !authenticated);
-  if (loginPanel) loginPanel.classList.add('hidden');
 }
 
 function renderUser(user) {
@@ -183,6 +173,13 @@ async function loadReportStats() {
   }
 }
 
+async function loadCommentStats() {
+  const data = await MyRsuApi.request('/comments/stats');
+  if (commentsPendingCount) {
+    commentsPendingCount.textContent = String(data.pending || 0);
+  }
+}
+
 function toggleAdminQueue(enabled) {
   if (queuePanel) {
     queuePanel.classList.toggle('hidden', !enabled);
@@ -225,6 +222,9 @@ function toggleReportsBadge(enabled) {
   if (reportsCard) {
     reportsCard.classList.toggle('hidden', !enabled);
   }
+  if (commentsCard) {
+    commentsCard.classList.toggle('hidden', !enabled);
+  }
 }
 
 async function boot() {
@@ -244,7 +244,7 @@ async function boot() {
       await loadQueueStatus();
     }
     if (canModerateReports(me)) {
-      await loadReportStats();
+      await Promise.all([loadReportStats(), loadCommentStats()]);
     }
     await loadPublicBoard(publicBoardUser);
     setView(true);
@@ -253,40 +253,6 @@ async function boot() {
     setView(false);
   }
 }
-
-if (loginForm) loginForm.addEventListener('submit', async (event) => {
-  event.preventDefault();
-  showMessage();
-  showLoginError();
-
-  try {
-    const form = new FormData(loginForm);
-    await MyRsuAuth.login(String(form.get('email')), String(form.get('password')));
-    const me = await MyRsuAuth.me();
-    renderUser(me);
-    toggleRoleMenus(me);
-    toggleAdminQueue(isAdmin(me));
-    toggleReportsBadge(canModerateReports(me));
-    if (isAdmin(me)) {
-      await loadQueueStatus();
-    }
-    if (canModerateReports(me)) {
-      await loadReportStats();
-    }
-    await loadPublicBoard(publicBoardUser);
-    setView(true);
-  } catch (error) {
-    const errorMessage = error.message || 'Login non riuscito.';
-    if (loginPanel) loginPanel.classList.remove('hidden');
-    showLoginError(errorMessage);
-    showMessage(errorMessage);
-  }
-});
-
-if (loginToggle && loginPanel) loginToggle.addEventListener('click', (event) => {
-  event.preventDefault();
-  loginPanel.classList.toggle('hidden');
-});
 
 if (logoutButton) logoutButton.addEventListener('click', async () => {
   try {

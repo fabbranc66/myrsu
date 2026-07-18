@@ -14,7 +14,13 @@ final class DocumentRepository
 
     public function all(): array
     {
-        return $this->pdo->query('SELECT * FROM documents ORDER BY id DESC')->fetchAll();
+        return $this->pdo->query(
+            "SELECT d.*,
+                    (SELECT COUNT(*) FROM document_comments c
+                     WHERE c.document_id = d.id AND c.status = 'approved') AS approved_comments_count
+             FROM documents d
+             ORDER BY d.id DESC"
+        )->fetchAll();
     }
 
     public function publicReady(): array

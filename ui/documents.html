@@ -6,6 +6,7 @@
   <title>MyRSU Documents Test</title>
   <link rel="stylesheet" href="menu.css?v=20260627-1">
   <link rel="stylesheet" href="users.css?v=20260627-1">
+  <link rel="stylesheet" href="document-comments.css?v=20260628-1">
 </head>
 <body>
   <header class="app-header">
@@ -105,6 +106,14 @@
         </form>
       </dialog>
 
+      <dialog id="documentCommentsModal">
+        <header>
+          <h2>Commenti approvati</h2>
+          <button id="closeDocumentCommentsModal" type="button">Chiudi</button>
+        </header>
+        <div id="documentCommentsList"></div>
+      </dialog>
+
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
@@ -113,7 +122,8 @@
   <script src="pdf-rasterizer.js?v=20260627-1"></script>
   <script src="icons.js"></script>
   <script src="documents.js?v=20260627-3"></script>
-  <script src="auth-menu.js?v=20260627-4"></script>
+  <script src="document-comments.js?v=20260628-1"></script>
+  <script src="auth-menu.js?v=20260628-3"></script>
 </body>
 </html>
 

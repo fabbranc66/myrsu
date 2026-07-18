@@ -113,6 +113,7 @@ function row(document) {
       <td>${document.pdf_size_bytes || document.size_bytes}</td>
       <td class="actions-cell">
         <button class="icon-action" data-view="${document.id}" title="Anteprima">${MyRsuIcons.get('eye')}</button>
+        <button class="icon-action document-comments-icon ${Number(document.approved_comments_count || 0) > 0 ? 'has-comments' : 'no-comments'}" data-comments="${document.id}" title="${Number(document.approved_comments_count || 0)} commenti approvati" ${Number(document.approved_comments_count || 0) === 0 ? 'disabled' : ''}>${MyRsuIcons.get('note')}</button>
         <a class="icon-action" href="document-edit.html?id=${document.id}" title="${document.category === 'comunicati' ? 'Modifica comunicato e rigenera PDF' : 'Modifica'}">${MyRsuIcons.get('edit')}</a>
         <button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
         <button class="icon-action" data-practice-link="${document.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button>
@@ -189,6 +190,8 @@ uploadForm.addEventListener('submit', async (event) => {
 documentsTable.addEventListener('click', async (event) => {
   const button = event.target.closest('button');
   if (!button) return;
+
+  if (button.dataset.comments) return;
 
   if (button.dataset.download) {
     await downloadDocument(button.dataset.download);

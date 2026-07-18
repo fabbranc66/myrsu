@@ -1,0 +1,21 @@
+.practice-create-box { margin-bottom: 24px; padding: 14px; border: 1px solid #d7dde5; border-radius: 10px; }
+.practice-create-box summary { cursor: pointer; font-weight: 700; }
+.practice-form { display: grid; grid-template-columns: repeat(3, minmax(180px, 1fr)); gap: 14px; margin-top: 16px; }
+.practice-form .wide { grid-column: 1 / -1; }
+.practice-type { display: inline-block; padding: 4px 8px; border-radius: 999px; background: #dbeafe; color: #1d4ed8; font-size: 12px; font-weight: 700; }
+.practice-progress-label { margin-bottom: 5px; font-size: 12px; font-weight: 700; color: #334155; }
+.practice-progress { width: 190px; height: 8px; overflow: hidden; border-radius: 999px; background: #e2e8f0; }
+.practice-progress span { display: block; height: 100%; border-radius: inherit; background: #2563eb; }
+.practice-view-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(320px, .8fr); gap: 20px; }
+.practice-card { padding: 18px; border: 1px solid #d7dde5; border-radius: 10px; background: #fff; }
+.practice-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
+.practice-meta div { padding: 10px; border-radius: 8px; background: #f8fafc; }
+.practice-meta strong { display: block; margin-top: 4px; }
+.practice-timeline { display: grid; gap: 0; }
+.timeline-item { position: relative; margin-left: 14px; padding: 0 0 22px 26px; border-left: 2px solid #cbd5e1; }
+.timeline-item::before { content: ''; position: absolute; top: 4px; left: -7px; width: 12px; height: 12px; border-radius: 50%; background: #2563eb; }
+.timeline-item:last-child { border-left-color: transparent; }
+.timeline-item header { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 5px; }
+.timeline-type { color: #2563eb; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+.timeline-item p { margin: 6px 0; white-space: pre-wrap; }
+@media (max-width: 900px) { .practice-form, .practice-view-grid, .practice-meta { grid-template-columns: 1fr; } .practice-form .wide { grid-column: auto; } }

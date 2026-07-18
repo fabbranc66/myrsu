@@ -18,21 +18,7 @@
         </div>
         <nav class="app-nav public-nav">
           <a class="active" href="index.html">Dashboard</a>
-          <div class="login-menu">
-            <button id="loginToggle" class="nav-button" type="button">Login</button>
-            <div id="loginPanel" class="login-submenu hidden">
-              <form id="loginForm" class="form">
-                <label>Email
-                  <input name="email" type="email" autocomplete="email" required>
-                </label>
-                <label>Password
-                  <input name="password" type="password" autocomplete="current-password" required>
-                </label>
-                <p id="loginError" class="login-error hidden" role="alert" aria-live="polite"></p>
-                <button type="submit">Entra</button>
-              </form>
-            </div>
-          </div>
+          <a href="../login.html">Login</a>
         </nav>
       </header>
 
@@ -112,6 +98,7 @@
               <a href="../comunicati-create.html">Comunicati</a>
               <a href="../union-meetings.html">Incontri sindacali</a>
               <a href="../calls.html">Telefonate</a>
+              <a href="../practices.html">Pratiche</a>
               <a href="../reports.html">Segnalazioni</a>
               <a href="../reports-moderation.html">Moderazione segnalazioni</a>
               <a href="../comments-moderation.html">Moderazione commenti</a>
@@ -162,6 +149,14 @@
             <p>Moderazione e protocollo in entrata.</p>
             <a class="dashboard-badge" href="../reports-moderation.html?status=pending">
               <span id="reportsPendingCount">0</span>
+              <span>pendenti</span>
+            </a>
+          </article>
+          <article id="commentsCard" class="hidden dashboard-link-card">
+            <h3>Commenti</h3>
+            <p>Commenti in attesa di moderazione.</p>
+            <a class="dashboard-badge" href="../comments-moderation.html?status=pending">
+              <span id="commentsPendingCount">0</span>
               <span>pendenti</span>
             </a>
           </article>
@@ -216,7 +211,7 @@
 
   <script src="js/api.js"></script>
   <script src="js/auth.js"></script>
-  <script src="js/app.js?v=20260627-4"></script>
+  <script src="js/app.js?v=20260628-2"></script>
 </body>
 </html>
 

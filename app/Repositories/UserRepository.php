@@ -47,6 +47,18 @@ final class UserRepository
             ->fetchAll();
     }
 
+    public function operators(): array
+    {
+        return $this->pdo->query(
+            "SELECT DISTINCT u.id, u.name
+             FROM users u
+             INNER JOIN role_user ru ON ru.user_id = u.id
+             INNER JOIN roles r ON r.id = ru.role_id
+             WHERE u.status = 'active' AND r.name IN ('admin', 'delegato', 'rls')
+             ORDER BY u.name"
+        )->fetchAll();
+    }
+
     public function create(array $data, string $status = 'active'): int
     {
         $stmt = $this->pdo->prepare(
