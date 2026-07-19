@@ -1,6 +1,5 @@
 const loginView = document.querySelector('#loginView');
 const appView = document.querySelector('#appView');
-const logoutButton = document.querySelector('#logoutButton');
 const message = document.querySelector('#message');
 const userName = document.querySelector('#userName');
 const userRole = document.querySelector('#userRole');
@@ -34,9 +33,21 @@ function showMessage(text = '') {
   message.textContent = text;
 }
 
+function syncPublicAuthMenu() {
+  const link = document.querySelector('#publicAuthLink');
+  const token = sessionStorage.getItem('token');
+  if (!link) return;
+  link.textContent = token ? 'Esci' : 'Login';
+  link.href = token ? '#' : '../login.html';
+}
+
 async function loadPublicBoard(target) {
   if (!target) return;
-  const response = await fetch(`${appRoot}/api/v1/public/documents`);
+  publicComunicati.clear();
+  publicDocuments.clear();
+  const response = await fetch(`${appRoot}/api/v1/public/documents?_=${Date.now()}`, {
+    cache: 'no-store',
+  });
   const payload = await response.json();
   if (!response.ok) throw new Error(payload.error?.message || 'Errore bacheca');
   target.innerHTML = publicBoardHtml(payload.data.sections || {});
@@ -56,8 +67,8 @@ function publicBoardHtml(sections) {
 
 function publicDocumentRow(document) {
   if (document.category === 'comunicati') {
-    const title = document.comunicato?.title || document.original_name;
-    const body = document.comunicato?.body || '';
+    const title = cleanText(document.comunicato?.title || document.original_name);
+    const body = cleanText(document.comunicato?.body || '');
     publicComunicati.set(String(document.id), { title, body });
     return `<button class="board-document board-comunicato" type="button" data-comunicato="${document.id}">
       <strong>${escapeHtml(title)}</strong>
@@ -79,12 +90,33 @@ function publicDocumentRow(document) {
 }
 
 function truncateText(text, limit) {
-  const value = String(text || '').replace(/\s+/g, ' ').trim();
+  const value = cleanText(text).replace(/\s+/g, ' ').trim();
   return value.length > limit ? `${value.slice(0, limit)}...` : value;
 }
 
-function escapeHtml(value) {
+function cleanText(value) {
   return String(value || '')
+    .replaceAll('Ã ', 'à')
+    .replaceAll('Ã¨', 'è')
+    .replaceAll('Ã©', 'é')
+    .replaceAll('Ã¬', 'ì')
+    .replaceAll('Ã²', 'ò')
+    .replaceAll('Ã¹', 'ù')
+    .replaceAll('Ã€', 'À')
+    .replaceAll('Ãˆ', 'È')
+    .replaceAll('Ã‰', 'É')
+    .replaceAll('ÃŒ', 'Ì')
+    .replaceAll('Ã’', 'Ò')
+    .replaceAll('Ã™', 'Ù')
+    .replaceAll('â€™', "'")
+    .replaceAll('â€œ', '"')
+    .replaceAll('â€', '"')
+    .replaceAll('â€“', '-')
+    .replaceAll('â€”', '-');
+}
+
+function escapeHtml(value) {
+  return cleanText(value)
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
@@ -97,19 +129,18 @@ function categoryLabel(category) {
 }
 
 function categoryIcon(category) {
-  return { comunicati: '📣', documenti: '📄' }[category] || '📌';
+  return { comunicati: '&#128227;', documenti: '&#128196;' }[category] || '&#128204;';
 }
 
 function setView(authenticated) {
+  syncPublicAuthMenu();
   loginView.classList.toggle('hidden', authenticated);
   appView.classList.toggle('hidden', !authenticated);
 }
 
 function renderUser(user) {
   const profile = user.user || user;
-  const roles = Array.isArray(user.roles)
-    ? user.roles.map((role) => typeof role === 'string' ? role : role.name).join(', ')
-    : '';
+  const roles = normalizeRoles(user).join(', ');
 
   userName.textContent = profile.name || 'Utente';
   userRole.textContent = roles;
@@ -148,23 +179,34 @@ async function loadQueueStatus() {
 }
 
 function isOperator(user) {
-  const roles = Array.isArray(user.roles) ? user.roles : [];
+  const roles = normalizeRoles(user);
   return roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
 }
 
 function isAdmin(user) {
-  const roles = Array.isArray(user.roles) ? user.roles : [];
+  const roles = normalizeRoles(user);
   return roles.includes('admin');
 }
 
+function isOnlyMember(user) {
+  const roles = normalizeRoles(user);
+  return roles.length === 1 && roles.includes('membro');
+}
+
 function canAccessArchive(user) {
-  const roles = Array.isArray(user.roles) ? user.roles : [];
+  const roles = normalizeRoles(user);
   return roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
 }
 
 function canModerateReports(user) {
-  const roles = Array.isArray(user.roles) ? user.roles : [];
+  const roles = normalizeRoles(user);
   return roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
+}
+
+function normalizeRoles(user) {
+  return Array.isArray(user.roles)
+    ? user.roles.map((role) => typeof role === 'string' ? role : role.name).filter(Boolean)
+    : [];
 }
 
 async function loadReportStats() {
@@ -205,18 +247,33 @@ function toggleAdminQueue(enabled) {
 }
 
 function toggleRoleMenus(user) {
-  const roles = Array.isArray(user.roles) ? user.roles : [];
+  const roles = normalizeRoles(user);
   const operationalEnabled = roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
   const adminEnabled = roles.includes('admin');
   const profileEnabled = operationalEnabled || roles.includes('membro');
-  anagraphicsMenu?.classList.toggle('hidden', !profileEnabled);
-  usersMenuLink?.classList.toggle('hidden', !adminEnabled);
-  profileMenuLink?.classList.toggle('hidden', !profileEnabled);
-  contactsMenuLink?.classList.toggle('hidden', !operationalEnabled);
-  protocolMenu?.classList.toggle('hidden', !operationalEnabled);
-  if (archiveMenu) {
-    archiveMenu.classList.toggle('hidden', !operationalEnabled);
-  }
+  setMenuVisibility({
+    anagraphics: profileEnabled,
+    users: adminEnabled,
+    profile: profileEnabled,
+    contacts: operationalEnabled,
+    protocol: operationalEnabled,
+    archive: operationalEnabled,
+    privateDocuments: adminEnabled,
+    pendingQueue: adminEnabled,
+  });
+}
+
+function setMenuVisibility(permissions) {
+  [
+    [anagraphicsMenu, permissions.anagraphics],
+    [usersMenuLink, permissions.users],
+    [profileMenuLink, permissions.profile],
+    [contactsMenuLink, permissions.contacts],
+    [protocolMenu, permissions.protocol],
+    [archiveMenu, permissions.archive],
+    [privateDocumentsLink, permissions.privateDocuments],
+    [pendingQueueLink, permissions.pendingQueue],
+  ].forEach(([element, visible]) => element?.classList.toggle('hidden', !visible));
 }
 
 function toggleReportsBadge(enabled) {
@@ -233,6 +290,7 @@ function toggleReportsBadge(enabled) {
 
 async function boot() {
   if (!sessionStorage.getItem('token')) {
+    setMenuVisibility({});
     setView(false);
     await loadPublicBoard(publicBoardGuest);
     return;
@@ -240,8 +298,13 @@ async function boot() {
 
   try {
     const me = await MyRsuAuth.me();
-    renderUser(me);
     toggleRoleMenus(me);
+    if (isOnlyMember(me)) {
+      await loadPublicBoard(publicBoardGuest);
+      setView(false);
+      return;
+    }
+    renderUser(me);
     toggleAdminQueue(isAdmin(me));
     toggleReportsBadge(canModerateReports(me));
     if (isAdmin(me)) {
@@ -258,15 +321,16 @@ async function boot() {
   }
 }
 
-if (logoutButton) logoutButton.addEventListener('click', async () => {
+document.querySelector('#publicAuthLink')?.addEventListener('click', async (event) => {
+  if (!sessionStorage.getItem('token')) return;
+  event.preventDefault();
   try {
     await MyRsuAuth.logout();
   } catch (error) {
     showMessage(error.message);
   }
-
   sessionStorage.removeItem('token');
-  setView(false);
+  window.location.replace(`index.html?logout=${Date.now()}`);
 });
 
 if (queueProcessButton) {
@@ -290,8 +354,8 @@ document.addEventListener('click', (event) => {
   const item = publicComunicati.get(String(button.dataset.comunicato));
   const suffix = appView.classList.contains('hidden') ? 'Guest' : 'User';
   const modal = document.querySelector(`#comunicatoModal${suffix}`);
-  document.querySelector(`#comunicatoModalTitle${suffix}`).textContent = item?.title || '';
-  document.querySelector(`#comunicatoModalBody${suffix}`).textContent = item?.body || '';
+  document.querySelector(`#comunicatoModalTitle${suffix}`).textContent = cleanText(item?.title || '');
+  document.querySelector(`#comunicatoModalBody${suffix}`).textContent = cleanText(item?.body || '');
   modal.classList.remove('hidden');
   loadComments(button.dataset.comunicato, `#comunicatoComments${suffix}`);
 });
@@ -420,4 +484,30 @@ function closeParentModal(element) {
   });
 });
 
+function bindMobileMenu() {
+  document.querySelectorAll('.app-nav').forEach((nav) => {
+    nav.addEventListener('click', (event) => {
+      if (window.innerWidth > 760) return;
+      const groupTitle = event.target.closest('.menu-group > span');
+
+      if (event.target === nav) {
+        nav.classList.toggle('menu-open');
+        return;
+      }
+
+      if (groupTitle) {
+        event.preventDefault();
+        groupTitle.parentElement.classList.toggle('submenu-open');
+      }
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (window.innerWidth > 760 || event.target.closest('.app-nav')) return;
+    document.querySelectorAll('.app-nav').forEach((nav) => nav.classList.remove('menu-open'));
+    document.querySelectorAll('.submenu-open').forEach((item) => item.classList.remove('submenu-open'));
+  });
+}
+
+bindMobileMenu();
 boot();

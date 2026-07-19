@@ -112,6 +112,29 @@
     nav.appendChild(item);
   }
 
+  function bindMobileMenu() {
+    nav.addEventListener('click', (event) => {
+      if (window.innerWidth > 760) return;
+      const groupTitle = event.target.closest('.menu-group > span');
+
+      if (event.target === nav) {
+        nav.classList.toggle('menu-open');
+        return;
+      }
+
+      if (groupTitle) {
+        event.preventDefault();
+        groupTitle.parentElement.classList.toggle('submenu-open');
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      if (window.innerWidth > 760 || nav.contains(event.target)) return;
+      nav.classList.remove('menu-open');
+      nav.querySelectorAll('.submenu-open').forEach((item) => item.classList.remove('submenu-open'));
+    });
+  }
+
   async function applyRoleMenu() {
     if (!token) {
       hidePrivateMenus();
@@ -147,6 +170,7 @@
 
   renderMenu();
   appendAuthItem();
+  bindMobileMenu();
   applyRoleMenu();
 })();
 

@@ -4,45 +4,65 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU</title>
-  <link rel="stylesheet" href="../menu.css?v=20260627-1">
-  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="../menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="css/layout.css?v=20260719-dashboard-3">
   <link rel="stylesheet" href="css/auth.css">
 </head>
 <body>
   <main class="app">
-    <section id="loginView" class="login-page">
-      <header class="app-header public-header">
-        <div>
-          <p class="eyebrow">MyRSU</p>
-          <h1>Piattaforma RSU</h1>
-        </div>
-        <nav class="app-nav public-nav">
-          <a class="active" href="index.html">Dashboard</a>
-          <a href="../login.html">Login</a>
-        </nav>
-      </header>
-
-      <section class="public-home">
-        <div>
-          <p class="eyebrow">RSU</p>
-          <h2>Bacheca elettronica RSU</h2>
-          <p>Comunicati, documenti pubblici e canale riservato per segnalazioni anonime.</p>
-          <div class="quick-actions quick-actions-guest">
-            <a class="quick-link quick-link-primary" href="../reports.html"><span>✎</span><strong>Segnalazione anonima</strong></a>
-            <a class="quick-link" href="../votings.html"><span>☑</span><strong>Votazioni</strong></a>
-            <a class="quick-link" href="#publicBoardGuest"><span>📣</span><strong>Comunicati</strong></a>
-            <a class="quick-link" href="#publicBoardGuest"><span>📄</span><strong>Documenti</strong></a>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">MyRSU</p>
+        <h1>Piattaforma RSU</h1>
+      </div>
+      <nav class="app-nav">
+        <a class="active" href="index.html">Dashboard</a>
+        <div id="anagraphicsMenu" class="menu-group hidden">
+          <span>Anagrafica</span>
+          <div class="submenu">
+            <a id="usersMenuLink" class="hidden" href="../users.html">Utenti</a>
+            <a id="profileMenuLink" class="hidden" href="../profile.html">Profilo</a>
+            <a id="contactsMenuLink" class="hidden" href="../contacts.html">Contatti</a>
           </div>
         </div>
-      </section>
+        <div id="protocolMenu" class="menu-group hidden">
+          <span>Protocollo</span>
+          <div class="submenu">
+            <a href="../protocol.html">Registro</a>
+          </div>
+        </div>
+        <div id="archiveMenu" class="menu-group hidden">
+          <span>Archivio</span>
+          <div class="submenu">
+            <a href="../documents.html">Documenti</a>
+            <a id="privateDocumentsLink" class="hidden" href="../private-documents.html">Privato</a>
+            <a href="../comunicati-create.html">Comunicati</a>
+            <a href="../union-meetings.html">Incontri sindacali</a>
+            <a href="../workers-assemblies.html">Assemblee lavoratori</a>
+            <a href="../votings.html">Votazioni</a>
+            <a href="../calls.html">Telefonate</a>
+            <a href="../practices.html">Pratiche</a>
+            <a href="../reports.html">Segnalazioni</a>
+            <a href="../reports-moderation.html">Moderazione segnalazioni</a>
+            <a href="../comments-moderation.html">Moderazione commenti</a>
+            <a id="pendingQueueLink" class="hidden" href="../pending-queue.html">Coda PDF</a>
+          </div>
+        </div>
+        <a id="publicAuthLink" href="../login.html">Login</a>
+      </nav>
+    </header>
+
+    <section id="loginView" class="login-page">
+      <div class="public-title">
+        <h2>Bacheca digitale RSU</h2>
+        <p>Comunicati, documenti pubblici e canale riservato per segnalazioni anonime.</p>
+      </div>
+      <nav class="quick-actions quick-actions-guest">
+        <a class="quick-link quick-link-primary" href="../reports.html"><span>&#9998;</span><strong>Segnalazione anonima</strong></a>
+        <a class="quick-link" href="../votings.html"><span>&#9745;</span><strong>Votazioni</strong></a>
+      </nav>
 
       <section id="publicBoardGuest" class="content public-board">
-        <header class="topbar">
-          <div>
-            <p class="eyebrow">Bacheca elettronica</p>
-            <h2>Documenti pubblici</h2>
-          </div>
-        </header>
         <div id="publicBoardGuestContent" class="board-sections"></div>
       </section>
 
@@ -50,7 +70,7 @@
         <div class="document-modal-content text-modal">
           <header>
             <h2 id="comunicatoModalTitleGuest"></h2>
-            <button id="closeComunicatoModalGuest" type="button">×</button>
+            <button id="closeComunicatoModalGuest" type="button">&times;</button>
           </header>
           <div class="text-modal-body" id="comunicatoModalBodyGuest"></div>
           <div class="comments-box" id="comunicatoCommentsGuest"></div>
@@ -61,7 +81,7 @@
         <div class="document-modal-content file-modal">
           <header>
             <h2 id="documentModalTitleGuest"></h2>
-            <button id="closeDocumentModalGuest" type="button">×</button>
+            <button id="closeDocumentModalGuest" type="button">&times;</button>
           </header>
           <iframe id="documentModalFrameGuest" title="Anteprima documento"></iframe>
           <div class="comments-box" id="documentCommentsGuest"></div>
@@ -70,48 +90,6 @@
     </section>
 
     <section id="appView" class="shell hidden">
-      <header class="app-header">
-        <div>
-          <p class="eyebrow">MyRSU</p>
-          <h1>Gestione RSU</h1>
-        </div>
-        <nav class="app-nav">
-          <a class="active" href="index.html">Dashboard</a>
-          <div id="anagraphicsMenu" class="menu-group hidden">
-            <span>Anagrafica</span>
-            <div class="submenu">
-              <a id="usersMenuLink" href="../users.html">Utenti</a>
-              <a id="profileMenuLink" href="../profile.html">Profilo</a>
-              <a id="contactsMenuLink" href="../contacts.html">Contatti</a>
-            </div>
-          </div>
-          <div id="protocolMenu" class="menu-group hidden">
-            <span>Protocollo</span>
-            <div class="submenu">
-              <a href="../protocol.html">Registro</a>
-            </div>
-          </div>
-          <div id="archiveMenu" class="menu-group hidden">
-            <span>Archivio</span>
-            <div class="submenu">
-              <a href="../documents.html">Documenti</a>
-              <a id="privateDocumentsLink" class="hidden" href="../private-documents.html">Privato</a>
-              <a href="../comunicati-create.html">Comunicati</a>
-              <a href="../union-meetings.html">Incontri sindacali</a>
-              <a href="../workers-assemblies.html">Assemblee lavoratori</a>
-              <a href="../votings.html">Votazioni</a>
-              <a href="../calls.html">Telefonate</a>
-              <a href="../practices.html">Pratiche</a>
-              <a href="../reports.html">Segnalazioni</a>
-              <a href="../reports-moderation.html">Moderazione segnalazioni</a>
-              <a href="../comments-moderation.html">Moderazione commenti</a>
-              <a id="pendingQueueLink" class="hidden" href="../pending-queue.html">Coda PDF</a>
-            </div>
-          </div>
-          <button id="logoutButton" class="nav-button" type="button">Esci</button>
-        </nav>
-      </header>
-
       <section class="content">
         <header class="topbar">
           <div>
@@ -133,15 +111,13 @@
           </div>
         </section>
 
-        <section class="cards">
-          <article>
-            <h3>Utenti</h3>
-            <p>Anagrafica, ruoli, permessi e GDPR.</p>
-          </article>
-          <article>
-            <h3>Protocollo</h3>
-            <p>Entrata, uscita e documenti collegati.</p>
-          </article>
+        <section class="quick-actions quick-actions-member">
+          <a class="quick-link quick-link-primary" href="../reports.html"><span>&#9998;</span><strong>Nuova segnalazione</strong></a>
+          <a class="quick-link" href="#publicBoardUser"><span>&#128227;</span><strong>Comunicati</strong></a>
+          <a class="quick-link" href="#publicBoardUser"><span>&#128196;</span><strong>Documenti</strong></a>
+        </section>
+
+        <section class="cards dashboard-status-grid">
           <article id="privateDocumentsCard" class="hidden">
             <h3>Archivio privato</h3>
             <p>Originali private e stato conversione.</p>
@@ -174,19 +150,7 @@
           </article>
         </section>
 
-        <section class="quick-actions quick-actions-member">
-          <a class="quick-link quick-link-primary" href="../reports.html"><span>✎</span><strong>Nuova segnalazione</strong></a>
-          <a class="quick-link" href="#publicBoardUser"><span>📣</span><strong>Comunicati</strong></a>
-          <a class="quick-link" href="#publicBoardUser"><span>📄</span><strong>Documenti</strong></a>
-        </section>
-
         <section id="publicBoardUser" class="public-board">
-          <header class="topbar">
-            <div>
-              <p class="eyebrow">Bacheca elettronica</p>
-              <h2>Documenti pubblici</h2>
-            </div>
-          </header>
           <div id="publicBoardUserContent" class="board-sections"></div>
         </section>
       </section>
@@ -195,7 +159,7 @@
         <div class="document-modal-content text-modal">
           <header>
             <h2 id="comunicatoModalTitleUser"></h2>
-            <button id="closeComunicatoModalUser" type="button">×</button>
+            <button id="closeComunicatoModalUser" type="button">&times;</button>
           </header>
           <div class="text-modal-body" id="comunicatoModalBodyUser"></div>
           <div class="comments-box" id="comunicatoCommentsUser"></div>
@@ -206,7 +170,7 @@
         <div class="document-modal-content file-modal">
           <header>
             <h2 id="documentModalTitleUser"></h2>
-            <button id="closeDocumentModalUser" type="button">×</button>
+            <button id="closeDocumentModalUser" type="button">&times;</button>
           </header>
           <iframe id="documentModalFrameUser" title="Anteprima documento"></iframe>
           <div class="comments-box" id="documentCommentsUser"></div>
@@ -219,7 +183,46 @@
 
   <script src="js/api.js"></script>
   <script src="js/auth.js"></script>
-  <script src="js/app.js?v=20260719-1"></script>
+  <script src="js/app.js?v=20260719-single-menu-1"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

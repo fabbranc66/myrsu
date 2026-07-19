@@ -22,6 +22,73 @@ main {
   padding: 20px;
 }
 
+.public-form-panel {
+  border-color: #d8e0ec;
+  border-radius: 16px;
+  box-shadow: 0 14px 40px rgba(15, 23, 42, .08);
+}
+
+.public-form-panel header {
+  border-bottom: 1px solid #e5e7eb;
+  margin: -2px 0 16px;
+  padding-bottom: 14px;
+}
+
+.public-form-panel h1,
+.public-form-panel h2 {
+  margin: 0;
+  color: #172033;
+  font-size: clamp(17px, 4vw, 20px);
+  line-height: 1.1;
+  letter-spacing: -.02em;
+}
+
+.public-form-panel .muted {
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.public-form-panel label,
+.public-form-panel #options label {
+  color: #172033;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.public-form-panel input,
+.public-form-panel select,
+.public-form-panel textarea {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #172033;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.public-form-panel textarea {
+  min-height: 90px;
+}
+
+.public-form-panel button[type="submit"] {
+  border-radius: 10px;
+  background: #172033;
+  font-weight: 800;
+}
+
+.public-form-panel #options {
+  display: grid;
+  gap: 10px;
+}
+
+.public-form-panel #options label {
+  border: 1px solid #d8e0ec;
+  border-radius: 12px;
+  background: #f8fafc;
+  padding: 12px 14px;
+}
+
 .hidden {
   display: none;
 }
@@ -887,5 +954,124 @@ dialog {
 @media (max-width: 560px) {
   .assembly-session-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  main {
+    margin: 8px auto;
+    padding: 0 8px;
+  }
+
+  .panel {
+    border-radius: 12px;
+    padding: 10px;
+  }
+
+  header,
+  .topbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin: 10px 0;
+  }
+
+  input,
+  select,
+  button,
+  .button,
+  .secondary-link {
+    min-height: 44px;
+    font-size: 15px;
+  }
+
+  textarea {
+    min-height: 104px;
+    font-size: 15px;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  th,
+  td {
+    padding: 8px 10px;
+  }
+
+  .actions-cell,
+  .inline-actions,
+  .draft-actions {
+    justify-content: flex-start;
+  }
+
+  .icon-action {
+    width: 36px;
+    height: 36px;
+    min-height: 36px;
+  }
+
+  .icon-action svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  dialog,
+  .preview-modal,
+  #commentModal,
+  #logObjectModal {
+    width: calc(100vw - 18px);
+    max-width: none;
+    max-height: calc(100vh - 18px);
+    padding: 12px;
+  }
+
+  #documentPreview,
+  .preview-modal #documentPreview,
+  .preview-modal #verifyFrame,
+  #logObjectFrame {
+    height: 72vh;
+  }
+
+  dl,
+  .log-object-list {
+    grid-template-columns: 1fr;
+  }
+
+  .register-head {
+    margin: -10px -10px 10px;
+    padding: 10px;
+  }
+
+  h2 {
+    margin: 14px 0 6px;
+    font-size: 17px;
+  }
+
+  label {
+    gap: 4px;
+    font-size: 12px;
+  }
+
+  .meeting-note,
+  .comment-moderation-row,
+  .attachment-preview,
+  .assembly-session-card {
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .meeting-notes,
+  .register-list,
+  .attachment-list {
+    gap: 7px;
   }
 }

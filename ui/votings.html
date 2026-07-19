@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Votazioni - MyRSU</title>
-  <link rel="stylesheet" href="menu.css?v=20260627-1">
-  <link rel="stylesheet" href="users.css?v=20260719-1">
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260719-public-pages-2">
 </head>
 <body>
   <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Votazioni</h1></div><nav class="app-nav"></nav></header>
   <main>
-    <section id="voteSection" class="panel hidden">
+    <section id="voteSection" class="panel public-form-panel hidden">
       <div id="warningBox" class="queue-panel queue-panel-alert hidden">
         <div><p class="eyebrow">Votazioni</p><h2>Nessuna votazione online presente</h2><p>Al momento non ci sono votazioni online disponibili.</p></div>
       </div>
@@ -29,7 +29,7 @@
         <label class="full-width">Nome votazione<input name="title" required></label>
         <label>Stato<select name="status"><option value="draft">bozza</option><option value="open">aperta</option><option value="closed">chiusa</option><option value="cancelled">annullata</option></select></label>
         <label>Tipo votazione<select name="vote_mode"><option value="online">online</option><option value="manual">manuale</option></select></label>
-        <label>Anonima<select name="anonymous"><option value="1">sì</option><option value="">no</option></select></label>
+        <label>Anonima<select name="anonymous"><option value="1">sÃ¬</option><option value="">no</option></select></label>
         <label>Apertura<input name="starts_at" type="datetime-local"></label>
         <label>Chiusura<input name="ends_at" type="datetime-local"></label>
         <label class="full-width">Quesito<textarea name="description"></textarea></label>
@@ -62,9 +62,31 @@
     <pre id="message"></pre>
     <pre id="jsonOutput" class="json-output"></pre>
   </main>
-  <script src="icons.js?v=20260719-1"></script>
+  <script src="icons.js?v=20260719-icons-1"></script>
   <script src="votings.js?v=20260719-9"></script>
-  <script src="auth-menu.js?v=20260719-1"></script>
+  <script src="auth-menu.js?v=20260719-mobile-menu-2"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
