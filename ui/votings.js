@@ -21,11 +21,14 @@ const manualParticipants = document.querySelector('#manualParticipants');
 const manualVotes = document.querySelector('#manualVotes');
 const manualCheck = document.querySelector('#manualCheck');
 const manualVoteButton = document.querySelector('#manualVoteButton');
+const closeVotingButton = document.querySelector('#closeVotingButton');
 const closeTokens = document.querySelector('#closeTokens');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
 let voteToken = null;
 let currentVotingId = null;
+let currentRoles = [];
+let currentVoting = null;
 
 async function api(path, requestOptions = {}) {
   const headers = { 'Content-Type': 'application/json', ...(requestOptions.headers || {}) };
@@ -51,7 +54,8 @@ async function boot() {
 async function isManager() {
   try {
     const me = await api('/me');
-    return (me.roles || []).some((role) => ['admin', 'delegato', 'rls'].includes(role));
+    currentRoles = me.roles || [];
+    return currentRoles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
   } catch {
     return false;
   }
@@ -113,9 +117,24 @@ function votingRow(voting) {
   const used = tokens.filter((item) => item.status === 'used').length;
   const cancelled = tokens.filter((item) => item.status === 'cancelled').length;
   const results = (voting.results || []).map((item) => `${escapeHtml(item.label)}: ${item.votes}`).join('<br>');
-  const tokenInfo = voting.vote_mode === 'manual' ? 'scrutinio manuale' : `liberi ${free} / usati ${used} / annullati ${cancelled}`;
-  const actionTitle = voting.vote_mode === 'manual' ? 'Scrutinio' : 'Token';
-  return `<tr><td>${escapeHtml(voting.title)}</td><td>${statusLabel(voting.status)}</td><td>${tokenInfo}</td><td>${results || '-'}</td><td class="actions-cell"><button class="icon-action" data-edit="${voting.id}" title="Modifica">${MyRsuIcons.get('edit')}</button><button class="icon-action" data-tokens="${voting.id}" title="${actionTitle}">${MyRsuIcons.get('link')}</button><button class="icon-action danger" data-delete="${voting.id}" title="Elimina">${MyRsuIcons.get('trash')}</button></td></tr>`;
+  const tokenInfo = voting.vote_mode === 'manual' ? 'scrutinio manuale' : `${modeLabel(voting.vote_mode)} - liberi ${free} / usati ${used} / annullati ${cancelled}`;
+  const actionTitle = voting.vote_mode === 'online' ? 'Token' : 'Token / Scrutinio';
+  const close = canClose(voting) ? `<button class="icon-action" data-close="${voting.id}" title="Chiudi votazione">${MyRsuIcons.get('suspended')}</button>` : '';
+  const reopen = canReopen(voting) ? `<button class="icon-action" data-reopen="${voting.id}" title="Riapri votazione">${MyRsuIcons.get('active')}</button>` : '';
+  const remove = currentRoles.includes('admin') ? `<button class="icon-action danger" data-delete="${voting.id}" title="Elimina votazione">${MyRsuIcons.get('trash')}</button>` : '';
+  return `<tr><td>${escapeHtml(voting.title)}</td><td>${statusLabel(voting.status)}</td><td>${tokenInfo}</td><td>${results || '-'}</td><td class="actions-cell"><button class="icon-action" data-edit="${voting.id}" title="Modifica">${MyRsuIcons.get('edit')}</button><button class="icon-action" data-tokens="${voting.id}" title="${actionTitle}">${MyRsuIcons.get('link')}</button>${close}${reopen}${remove}</td></tr>`;
+}
+
+function canClose(voting) {
+  return String(voting.status || '') === 'open';
+}
+
+function canReopen(voting) {
+  return currentRoles.includes('admin') && ['closed', 'cancelled'].includes(String(voting.status || ''));
+}
+
+function modeLabel(value) {
+  return { online: 'online', manual: 'manuale', mixed: 'ibrida' }[value] || value || '-';
 }
 
 voteForm.addEventListener('submit', async (event) => {
@@ -148,10 +167,31 @@ votingsTable.addEventListener('click', async (event) => {
   if (edit) return fillForm(await api(`/votings/${edit.dataset.edit}`));
   const remove = event.target.closest('[data-delete]');
   if (remove) {
+    if (!confirm('ATTENZIONE: eliminare definitivamente la votazione, token e voti registrati?')) return;
     await api(`/votings/${remove.dataset.delete}`, { method: 'DELETE' });
     votingForm.reset();
     tokensPanel.classList.add('hidden');
     message.textContent = 'Votazione eliminata.';
+    await loadVotings();
+    return;
+  }
+  const reopen = event.target.closest('[data-reopen]');
+  if (reopen) {
+    if (!confirm('ATTENZIONE: stai riaprendo una votazione già chiusa. Procedere?')) return;
+    await api(`/votings/${reopen.dataset.reopen}/reopen`, { method: 'POST', body: '{}' });
+    message.textContent = 'Votazione riaperta.';
+    await loadVotings();
+    return;
+  }
+  const close = event.target.closest('[data-close]');
+  if (close) {
+    const voting = await api(`/votings/${close.dataset.close}`);
+    if (['manual', 'mixed'].includes(voting.vote_mode || '')) {
+      await openTokens(voting.id);
+      message.textContent = 'Verifica riconciliazione prima della chiusura.';
+      return;
+    }
+    await closeVoting(voting.id, null);
     await loadVotings();
     return;
   }
@@ -178,6 +218,17 @@ manualVoteButton.addEventListener('click', async () => {
 
 manualParticipants.addEventListener('input', updateManualCheck);
 manualVotes.addEventListener('input', updateManualCheck);
+closeVotingButton.addEventListener('click', async () => {
+  if (!currentVotingId) return;
+  if (!isReconciled()) {
+    alert('Riconciliazione non valida: partecipanti diversi da voti manuali + voti online.');
+    return;
+  }
+  if (!confirm('Chiudere manualmente la votazione?')) return;
+  await closeVoting(currentVotingId, Number(manualParticipants.value || 0));
+  tokensPanel.classList.add('hidden');
+  await loadVotings();
+});
 
 closeTokens.addEventListener('click', () => tokensPanel.classList.add('hidden'));
 
@@ -192,20 +243,40 @@ tokensTable.addEventListener('click', async (event) => {
 async function openTokens(votingId) {
   const voting = await api(`/votings/${votingId}`);
   currentVotingId = voting.id;
+  currentVoting = voting;
   tokensTitle.textContent = voting.title;
   tokensPanel.classList.remove('hidden');
   toggleModePanels(voting.vote_mode || 'online');
   manualVotes.innerHTML = (voting.options || []).map((option) => `<label>${escapeHtml(option.label)}<input data-manual-option="${option.id}" type="number" min="0" max="5000" value="0"></label>`).join('');
+  const registeredTotal = Number(voting.manual_votes_count || 0) + Number(voting.online_votes_count || 0);
+  manualParticipants.value = String(Math.max(1, registeredTotal));
   updateManualCheck();
   tokensTable.innerHTML = (voting.tokens || []).map(tokenRow).join('');
 }
 
 function updateManualCheck() {
   const participants = Number(manualParticipants.value || 0);
-  const total = Array.from(manualVotes.querySelectorAll('[data-manual-option]')).reduce((sum, input) => sum + Number(input.value || 0), 0);
+  const newManualTotal = Array.from(manualVotes.querySelectorAll('[data-manual-option]')).reduce((sum, input) => sum + Number(input.value || 0), 0);
+  const manualTotal = Number(currentVoting?.manual_votes_count || 0) + newManualTotal;
+  const onlineTotal = Number(currentVoting?.online_votes_count || 0);
+  const total = manualTotal + onlineTotal;
   manualCheck.textContent = total === participants
-    ? `Riconciliazione ok: ${total}/${participants}`
-    : `Da riconciliare: voti ${total} / partecipanti ${participants}`;
+    ? `Riconciliazione ok: manuali ${manualTotal} + online ${onlineTotal} = ${participants}`
+    : `Da riconciliare: manuali ${manualTotal} + online ${onlineTotal} = ${total} / partecipanti ${participants}`;
+}
+
+function isReconciled() {
+  const participants = Number(manualParticipants.value || 0);
+  const newManualTotal = Array.from(manualVotes.querySelectorAll('[data-manual-option]')).reduce((sum, input) => sum + Number(input.value || 0), 0);
+  const manualTotal = Number(currentVoting?.manual_votes_count || 0) + newManualTotal;
+  const onlineTotal = Number(currentVoting?.online_votes_count || 0);
+  return participants > 0 && participants === manualTotal + onlineTotal;
+}
+
+async function closeVoting(votingId, participantsCount) {
+  const body = participantsCount === null ? '{}' : JSON.stringify({ participants_count: participantsCount });
+  await api(`/votings/${votingId}/close`, { method: 'POST', body });
+  message.textContent = 'Votazione chiusa manualmente.';
 }
 
 function tokenRow(row) {
@@ -235,10 +306,11 @@ function fillForm(voting) {
 votingForm.vote_mode.addEventListener('change', () => toggleModePanels(votingForm.vote_mode.value));
 
 function toggleModePanels(mode) {
-  const manual = mode === 'manual';
+  const manual = ['manual', 'mixed'].includes(mode);
+  const online = ['online', 'mixed'].includes(mode);
   manualPanel.classList.toggle('hidden', !manual);
-  onlinePanel.classList.toggle('hidden', manual);
-  tokensTableWrap.classList.toggle('hidden', manual);
+  onlinePanel.classList.toggle('hidden', !online);
+  tokensTableWrap.classList.toggle('hidden', !online);
 }
 
 function getLocalIdentifier() {

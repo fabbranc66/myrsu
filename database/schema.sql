@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS myrsu
+﻿CREATE DATABASE IF NOT EXISTS myrsu
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
@@ -246,7 +246,7 @@ CREATE TABLE workers_assemblies (
   status ENUM('draft', 'called', 'done', 'cancelled') NOT NULL DEFAULT 'draft',
   visibility ENUM('public', 'members', 'rsu') NOT NULL DEFAULT 'members',
   voting_enabled TINYINT(1) NOT NULL DEFAULT 0,
-  voting_mode ENUM('online', 'manual') NOT NULL DEFAULT 'online',
+  voting_mode ENUM('online', 'manual', 'mixed') NOT NULL DEFAULT 'online',
   voting_subject VARCHAR(255) NULL,
   voting_options_json TEXT NULL,
   public_document_id BIGINT UNSIGNED NULL,
@@ -323,7 +323,7 @@ CREATE TABLE votings (
   description TEXT NULL,
   status ENUM('draft', 'open', 'closed', 'cancelled') NOT NULL DEFAULT 'draft',
   anonymous TINYINT(1) NOT NULL DEFAULT 1,
-  vote_mode ENUM('online', 'manual') NOT NULL DEFAULT 'online',
+  vote_mode ENUM('online', 'manual', 'mixed') NOT NULL DEFAULT 'online',
   starts_at DATETIME NULL,
   ends_at DATETIME NULL,
   assembly_id BIGINT UNSIGNED NULL,
@@ -507,3 +507,4 @@ SELECT u.id, r.id
 FROM users u
 JOIN roles r ON r.name = 'admin'
 WHERE u.email = 'admin@myrsu.local';
+

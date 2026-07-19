@@ -329,7 +329,7 @@ final class WorkersAssemblyController
             'status' => $status,
             'visibility' => $visibility,
             'voting_enabled' => !empty($data['voting_enabled']) ? 1 : 0,
-            'voting_mode' => in_array((string)($data['voting_mode'] ?? 'online'), ['online', 'manual'], true) ? (string)($data['voting_mode'] ?? 'online') : 'online',
+            'voting_mode' => in_array((string)($data['voting_mode'] ?? 'online'), ['online', 'manual', 'mixed'], true) ? (string)($data['voting_mode'] ?? 'online') : 'online',
             'voting_subject' => trim((string)($data['voting_subject'] ?? '')) ?: null,
             'voting_options_json' => json_encode($this->validatedVotingOptions($data['voting_options'] ?? []), JSON_UNESCAPED_UNICODE),
             'selected_participants' => is_array($data['selected_participants'] ?? null) ? $data['selected_participants'] : [],
@@ -362,6 +362,7 @@ final class WorkersAssemblyController
             }
 
             return [
+                'id' => isset($session['id']) && $session['id'] !== '' ? (int)$session['id'] : null,
                 'shift_label' => trim((string)$session['shift_label']),
                 'assembly_date' => trim((string)$session['assembly_date']),
                 'time_start' => trim((string)$session['time_start']),
@@ -472,9 +473,10 @@ final class WorkersAssemblyController
         }
         $participants = implode("\n", array_map(static fn (array $participant): string => '- ' . (string)$participant['label'], $assembly['selected_participants'] ?? []));
         $documents = implode("\n", array_map(static fn (array $document): string => '- ' . (string)$document['original_name'], $assembly['documents'] ?? []));
-        $vote = (int)$assembly['voting_enabled'] === 1 ? 'Votazioni per turno riportate nelle sezioni figlie.' : 'Nessuna votazione predisposta.';
+        $votingSetup = $this->votingSetupSummary($assembly);
+        $vote = (int)$assembly['voting_enabled'] === 1 ? $this->aggregateVoteSummary($assembly) : 'Nessuna votazione predisposta.';
 
-        return "Ordine del giorno:\n{$assembly['agenda']}\n\nDescrizione:\n{$assembly['description']}\n\nPartecipanti/convocati:\n{$participants}\n\nContenuti per turno:\n" . implode("\n\n", $sessions) . "\n\nChiosa finale:\n{$assembly['final_statement']}\n\nVotazione:\n{$vote}\n\nAllegati:\n{$documents}";
+        return "Partecipanti/convocati:\n{$participants}\n\nOrdine del giorno:\n{$assembly['agenda']}\n\nDescrizione:\n{$assembly['description']}\n\n{$votingSetup}\n\nContenuti per turno:\n" . implode("\n\n", $sessions) . "\n\nVotazione:\n{$vote}\n\nChiosa finale:\n{$assembly['final_statement']}\n\nAllegati:\n{$documents}";
     }
 
     private function sessionVoteSummary(array $voting): string
@@ -485,6 +487,46 @@ final class WorkersAssemblyController
         );
 
         return (string)$voting['title'] . "\n" . implode("\n", $rows);
+    }
+
+    private function votingSetupSummary(array $assembly): string
+    {
+        if ((int)$assembly['voting_enabled'] !== 1) {
+            return 'Votazione prevista: no';
+        }
+
+        $options = implode("\n", array_map(
+            static fn (string $option): string => '- ' . $option,
+            $assembly['voting_options'] ?? []
+        ));
+
+        return "Quesito votazione:\n{$assembly['voting_subject']}\n\nOpzioni voto:\n{$options}";
+    }
+
+    private function aggregateVoteSummary(array $assembly): string
+    {
+        $totals = [];
+        $totalVotes = 0;
+        foreach ($this->app->votings->forAssembly((int)$assembly['id']) as $voting) {
+            foreach ($this->app->votingBallots->results((int)$voting['id']) as $result) {
+                $label = (string)$result['label'];
+                $votes = (int)$result['votes'];
+                $totals[$label] = ($totals[$label] ?? 0) + $votes;
+                $totalVotes += $votes;
+            }
+        }
+
+        if ($totals === []) {
+            return 'Nessuna votazione registrata.';
+        }
+
+        $rows = array_map(
+            static fn (string $label, int $votes): string => '- ' . $label . ': ' . $votes,
+            array_keys($totals),
+            $totals
+        );
+
+        return "Risultati aggregati:\n" . implode("\n", $rows) . "\nTotale voti: {$totalVotes}";
     }
 
     private function noteLabel(string $type): string

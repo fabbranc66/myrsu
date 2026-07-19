@@ -90,7 +90,7 @@ async function loadAssembly() {
 
 function addSessionRow(session = {}) {
   sessionIndex += 1;
-  sessionsBox.insertAdjacentHTML('beforeend', `<div class="grid session-row">
+  sessionsBox.insertAdjacentHTML('beforeend', `<div class="grid session-row" data-session-id="${escapeAttr(session.id || '')}">
     <label>Turno<input data-field="shift_label" value="${escapeAttr(session.shift_label || `Turno ${sessionIndex}`)}" required></label>
     <label>Data<input data-field="assembly_date" type="date" value="${escapeAttr(session.assembly_date || '')}" required></label>
     <label>Ora inizio<input data-field="time_start" type="time" value="${escapeAttr(String(session.time_start || '').slice(0, 5))}" required></label>
@@ -107,7 +107,7 @@ function addSessionRow(session = {}) {
 
 function collectSessions() {
   return [...sessionsBox.querySelectorAll('.session-row')].map((row) => {
-    const data = {};
+    const data = row.dataset.sessionId ? { id: row.dataset.sessionId } : {};
     row.querySelectorAll('[data-field]').forEach((field) => { data[field.dataset.field] = field.value; });
     return data;
   });

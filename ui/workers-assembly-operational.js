@@ -47,10 +47,22 @@ function renderSessions(sessions) {
       <span>${escapeHtml(String(session.time_start).slice(0, 5))} - ${escapeHtml(String(session.time_end || '').slice(0, 5) || '-')}</span>
       <small>${escapeHtml(session.place || '-')}</small>
       <div>${voteSummary(session.voting)}</div>
-      <a class="secondary-link" href="votings.html?assembly_id=${assemblyId}&session_id=${session.id}">Votazione turno</a>
+      ${voteAction(session)}
     </article>`).join('')
     : '<p class="muted">Nessun turno.</p>';
   syncSelectedSession();
+}
+
+function voteAction(session) {
+  if (isVotingLocked(session.voting)) {
+    return '<span class="secondary-link disabled-link">Scrutinio registrato</span>';
+  }
+  return `<a class="secondary-link" href="votings.html?assembly_id=${assemblyId}&session_id=${session.id}">Votazione turno</a>`;
+}
+
+function isVotingLocked(voting) {
+  if (!voting) return false;
+  return ['closed', 'cancelled'].includes(String(voting.status || ''));
 }
 
 function voteSummary(voting) {

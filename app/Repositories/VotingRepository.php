@@ -57,6 +57,13 @@ final class VotingRepository
         return $this->findById($id);
     }
 
+    public function updateStatus(int $id, string $status): ?array
+    {
+        $stmt = $this->pdo->prepare('UPDATE votings SET status = ?, updated_at = NOW() WHERE id = ?');
+        $stmt->execute([$status, $id]);
+        return $this->findById($id);
+    }
+
     public function delete(int $id): void
     {
         $stmt = $this->pdo->prepare('DELETE FROM votings WHERE id = ?');

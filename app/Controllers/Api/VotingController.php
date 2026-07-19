@@ -35,6 +35,7 @@ final class VotingController
         if ($data['assembly_id'] !== null && $data['session_id'] !== null) {
             $existing = $this->app->votings->findByAssemblySession((int)$data['assembly_id'], (int)$data['session_id']);
             if ($existing !== null) {
+                $this->assertNoVotes((int)$existing['id']);
                 $updated = $this->app->votings->update((int)$existing['id'], $data);
                 $this->app->votingOptions->replace((int)$existing['id'], $data['options']);
                 $this->app->activityLogs->write((int)$user['id'], 'votings.update', ['section' => 'votings', 'voting_id' => $existing['id']]);
@@ -51,6 +52,7 @@ final class VotingController
     {
         $user = $this->requireManager($request);
         $voting = $this->findVoting((int)$params['id']);
+        $this->assertNoVotes((int)$voting['id']);
         $data = $this->validated($request->all());
         $updated = $this->app->votings->update((int)$voting['id'], $data);
         $this->app->votingOptions->replace((int)$voting['id'], $data['options']);
@@ -60,7 +62,7 @@ final class VotingController
 
     public function destroy(Request $request, array $params): Response
     {
-        $user = $this->requireManager($request);
+        $user = $this->requireAdmin($request);
         $voting = $this->findVoting((int)$params['id']);
         $this->app->votings->delete((int)$voting['id']);
         $this->app->activityLogs->write((int)$user['id'], 'votings.delete', ['section' => 'votings', 'voting_id' => $voting['id']]);
@@ -71,7 +73,7 @@ final class VotingController
     {
         $user = $this->requireManager($request);
         $voting = $this->findVoting((int)$params['id']);
-        if ((string)($voting['vote_mode'] ?? 'online') !== 'online') throw new HttpException(403, 'Votazione non online.');
+        if (!in_array((string)($voting['vote_mode'] ?? 'online'), ['online', 'mixed'], true)) throw new HttpException(403, 'Votazione non online.');
         $count = max(1, min(500, (int)($request->all()['count'] ?? 1)));
         $tokens = $this->app->votingTokens->generate((int)$voting['id'], $count);
         $this->app->activityLogs->write((int)$user['id'], 'votings.tokens_generate', ['section' => 'votings', 'voting_id' => $voting['id'], 'count' => $count]);
@@ -90,11 +92,39 @@ final class VotingController
         return Response::json(['data' => ['cancelled' => true]]);
     }
 
+    public function reopen(Request $request, array $params): Response
+    {
+        $user = $this->requireAdmin($request);
+        $voting = $this->findVoting((int)$params['id']);
+        $updated = $this->app->votings->updateStatus((int)$voting['id'], 'open');
+        $this->app->activityLogs->write((int)$user['id'], 'votings.reopen', ['section' => 'votings', 'voting_id' => $voting['id']]);
+        return Response::json(['data' => $this->withDetails($updated ?? $voting)]);
+    }
+
+    public function close(Request $request, array $params): Response
+    {
+        $user = $this->requireManager($request);
+        $voting = $this->findVoting((int)$params['id']);
+        if (in_array((string)($voting['vote_mode'] ?? 'online'), ['manual', 'mixed'], true)) {
+            $data = $request->all();
+            Validator::required($data, ['participants_count']);
+            $participants = max(0, min(5000, (int)$data['participants_count']));
+            $manualTotal = $this->app->votingBallots->countBySource((int)$voting['id'], 'manual');
+            $onlineTotal = $this->app->votingBallots->countBySource((int)$voting['id'], 'token');
+            if ($participants <= 0 || $participants !== ($manualTotal + $onlineTotal)) {
+                throw new HttpException(422, 'Riconciliazione non valida: partecipanti diversi da voti manuali + voti online.');
+            }
+        }
+        $updated = $this->app->votings->updateStatus((int)$voting['id'], 'closed');
+        $this->app->activityLogs->write((int)$user['id'], 'votings.close', ['section' => 'votings', 'voting_id' => $voting['id']]);
+        return Response::json(['data' => $this->withDetails($updated ?? $voting)]);
+    }
+
     public function manualVote(Request $request, array $params): Response
     {
         $user = $this->requireManager($request);
         $voting = $this->findVoting((int)$params['id']);
-        if ((string)($voting['vote_mode'] ?? 'online') !== 'manual') throw new HttpException(403, 'Votazione non manuale.');
+        if (!in_array((string)($voting['vote_mode'] ?? 'online'), ['manual', 'mixed'], true)) throw new HttpException(403, 'Votazione non manuale.');
         $this->assertVotingWindow($voting);
         $data = $request->all();
         Validator::required($data, ['participants_count', 'votes']);
@@ -102,18 +132,21 @@ final class VotingController
         $participants = max(0, min(5000, (int)$data['participants_count']));
         $options = $this->app->votingOptions->forVoting((int)$voting['id']);
         $optionIds = array_map(static fn (array $option): int => (int)$option['id'], $options);
-        $total = 0;
+        $manualTotal = 0;
         foreach ($data['votes'] as $optionId => $quantity) {
             if (!in_array((int)$optionId, $optionIds, true)) throw new HttpException(422, 'Opzione voto non valida.');
-            $total += max(0, (int)$quantity);
+            $manualTotal += max(0, (int)$quantity);
         }
+        $existingManualTotal = $this->app->votingBallots->countBySource((int)$voting['id'], 'manual');
+        $onlineTotal = $this->app->votingBallots->countBySource((int)$voting['id'], 'token');
+        $total = $existingManualTotal + $manualTotal + $onlineTotal;
         if ($participants <= 0) throw new HttpException(422, 'Numero partecipanti non valido.');
-        if ($total !== $participants) throw new HttpException(422, 'Riconciliazione non valida: voti diversi dai partecipanti.');
+        if ($total !== $participants) throw new HttpException(422, 'Riconciliazione non valida: partecipanti diversi da voti manuali + voti online.');
         foreach ($data['votes'] as $optionId => $quantity) {
             $quantity = max(0, (int)$quantity);
             if ($quantity > 0) $this->app->votingBallots->createManual((int)$voting['id'], (int)$optionId, $quantity, (int)$user['id']);
         }
-        $this->app->activityLogs->write((int)$user['id'], 'votings.manual_reconcile', ['section' => 'votings', 'voting_id' => $voting['id'], 'participants' => $participants, 'votes' => $total]);
+        $this->app->activityLogs->write((int)$user['id'], 'votings.manual_reconcile', ['section' => 'votings', 'voting_id' => $voting['id'], 'participants' => $participants, 'manual_votes' => $existingManualTotal + $manualTotal, 'online_votes' => $onlineTotal]);
         return Response::json(['data' => $this->withDetails($this->findVoting((int)$voting['id']))], 201);
     }
 
@@ -130,7 +163,7 @@ final class VotingController
     {
         foreach ($this->app->votings->all() as $voting) {
             if ((string)$voting['status'] !== 'open') continue;
-            if ((string)($voting['vote_mode'] ?? 'online') !== 'online') continue;
+            if (!in_array((string)($voting['vote_mode'] ?? 'online'), ['online', 'mixed'], true)) continue;
             $tokens = $this->app->votingTokens->forVoting((int)$voting['id']);
             $token = array_values(array_filter($tokens, static fn (array $row): bool => (string)$row['status'] === 'unused'))[0] ?? null;
             if ($token === null) continue;
@@ -152,7 +185,7 @@ final class VotingController
         if (trim((string)$params['token']) === '') throw new HttpException(400, 'Token voto assente.');
         $token = $this->findToken((string)$params['token']);
         $voting = $this->findVoting((int)$token['voting_id']);
-        if ((string)($voting['vote_mode'] ?? 'online') !== 'online') throw new HttpException(403, 'Votazione non online.');
+        if (!in_array((string)($voting['vote_mode'] ?? 'online'), ['online', 'mixed'], true)) throw new HttpException(403, 'Votazione non online.');
         $this->assertOpen($voting, $token);
         $data = $request->all();
         Validator::required($data, ['option_id']);
@@ -183,7 +216,7 @@ final class VotingController
             throw new HttpException(422, 'Stato non valido.');
         }
         $voteMode = (string)($data['vote_mode'] ?? 'online');
-        if (!in_array($voteMode, ['online', 'manual'], true)) {
+        if (!in_array($voteMode, ['online', 'manual', 'mixed'], true)) {
             throw new HttpException(422, 'Tipo votazione non valido.');
         }
         return [
@@ -205,8 +238,18 @@ final class VotingController
         $voting['options'] = $this->app->votingOptions->forVoting((int)$voting['id']);
         $voting['tokens'] = $this->app->votingTokens->forVoting((int)$voting['id']);
         $voting['results'] = $this->app->votingBallots->results((int)$voting['id']);
+        $voting['has_votes'] = $this->app->votingBallots->hasVotes((int)$voting['id']);
+        $voting['manual_votes_count'] = $this->app->votingBallots->countBySource((int)$voting['id'], 'manual');
+        $voting['online_votes_count'] = $this->app->votingBallots->countBySource((int)$voting['id'], 'token');
         $voting['session'] = $this->votingSession($voting);
         return $voting;
+    }
+
+    private function assertNoVotes(int $votingId): void
+    {
+        if ($this->app->votingBallots->hasVotes($votingId)) {
+            throw new HttpException(403, 'Scrutinio già registrato per questo turno.');
+        }
     }
 
     private function assertOpen(array $voting, array $token): void
@@ -255,6 +298,14 @@ final class VotingController
         $user = $this->app->auth->requireUser($request);
         $roles = $this->app->roles->rolesForUser((int)$user['id']);
         if (!array_intersect($roles, ['admin', 'delegato', 'rls'])) throw new HttpException(403, 'Permesso insufficiente.');
+        return $user;
+    }
+
+    private function requireAdmin(Request $request): array
+    {
+        $user = $this->app->auth->requireUser($request);
+        $roles = $this->app->roles->rolesForUser((int)$user['id']);
+        if (!in_array('admin', $roles, true)) throw new HttpException(403, 'Solo admin.');
         return $user;
     }
 }

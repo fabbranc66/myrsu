@@ -887,6 +887,14 @@ dialog {
   background: #eff6ff;
 }
 
+.disabled-link,
+.disabled-link:hover {
+  border-color: #cbd5e1;
+  background: #f1f5f9;
+  color: #64748b;
+  cursor: not-allowed;
+}
+
 .success-message,
 .error-message {
   margin-top: 16px;

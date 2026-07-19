@@ -32,6 +32,20 @@ final class VotingBallotRepository
         return (bool)$stmt->fetch();
     }
 
+    public function hasVotes(int $votingId): bool
+    {
+        $stmt = $this->pdo->prepare('SELECT id FROM voting_ballots WHERE voting_id = ? LIMIT 1');
+        $stmt->execute([$votingId]);
+        return (bool)$stmt->fetch();
+    }
+
+    public function countBySource(int $votingId, string $source): int
+    {
+        $stmt = $this->pdo->prepare('SELECT COUNT(*) FROM voting_ballots WHERE voting_id = ? AND source = ?');
+        $stmt->execute([$votingId, $source]);
+        return (int)$stmt->fetchColumn();
+    }
+
     public function results(int $votingId): array
     {
         $stmt = $this->pdo->prepare(

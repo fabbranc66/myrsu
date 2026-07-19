@@ -167,6 +167,8 @@ $app->router->patch('/api/v1/votings/{id}', [$votings, 'update']);
 $app->router->delete('/api/v1/votings/{id}', [$votings, 'destroy']);
 $app->router->post('/api/v1/votings/{id}/tokens', [$votings, 'generateTokens']);
 $app->router->post('/api/v1/votings/{id}/tokens/{tokenId}/cancel', [$votings, 'cancelToken']);
+$app->router->post('/api/v1/votings/{id}/close', [$votings, 'close']);
+$app->router->post('/api/v1/votings/{id}/reopen', [$votings, 'reopen']);
 $app->router->post('/api/v1/votings/{id}/manual-vote', [$votings, 'manualVote']);
 $app->router->get('/api/v1/public/votings/open', [$votings, 'publicOpen']);
 $app->router->get('/api/v1/public/votings/token/{token}', [$votings, 'publicToken']);

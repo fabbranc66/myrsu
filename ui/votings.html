@@ -28,7 +28,7 @@
         <input name="session_id" type="hidden">
         <label class="full-width">Nome votazione<input name="title" required></label>
         <label>Stato<select name="status"><option value="draft">bozza</option><option value="open">aperta</option><option value="closed">chiusa</option><option value="cancelled">annullata</option></select></label>
-        <label>Tipo votazione<select name="vote_mode"><option value="online">online</option><option value="manual">manuale</option></select></label>
+        <label>Tipo votazione<select name="vote_mode"><option value="online">online</option><option value="manual">manuale</option><option value="mixed">ibrida</option></select></label>
         <label>Anonima<select name="anonymous"><option value="1">sÃ¬</option><option value="">no</option></select></label>
         <label>Apertura<input name="starts_at" type="datetime-local"></label>
         <label>Chiusura<input name="ends_at" type="datetime-local"></label>
@@ -54,6 +54,7 @@
           <div id="manualVotes" class="full-width"></div>
           <p id="manualCheck" class="muted full-width"></p>
           <button id="manualVoteButton" type="button">Registra scrutinio manuale</button>
+          <button id="closeVotingButton" type="button">Chiudi votazione</button>
         </div>
         <table id="tokensTableWrap"><thead><tr><th>Token</th><th>Stato</th><th>Usato il</th><th>Azioni</th></tr></thead><tbody id="tokensTable"></tbody></table>
       </section>
@@ -63,10 +64,16 @@
     <pre id="jsonOutput" class="json-output"></pre>
   </main>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="votings.js?v=20260719-9"></script>
+  <script src="votings.js?v=20260720-voting-admin-delete-1"></script>
   <script src="auth-menu.js?v=20260719-mobile-menu-2"></script>
 </body>
 </html>
+
+
+
+
+
+
 
 
 
