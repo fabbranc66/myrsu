@@ -1,6 +1,7 @@
 const apiBase = '../api/v1';
 const token = sessionStorage.getItem('token');
 const assemblyForm = document.querySelector('#assemblyForm');
+const votingPanel = document.querySelector('#votingPanel');
 const sessionsBox = document.querySelector('#sessions');
 const addSession = document.querySelector('#addSession');
 const practiceSelect = document.querySelector('#practiceSelect');
@@ -65,7 +66,14 @@ async function loadAssembly() {
   assemblyForm.visibility.value = assembly.visibility || 'members';
   assemblyForm.practice_id.value = assembly.practice_id || '';
   assemblyForm.voting_enabled.value = Number(assembly.voting_enabled) === 1 ? '1' : '';
+  assemblyForm.voting_mode.value = assembly.voting_mode || 'online';
   assemblyForm.voting_subject.value = assembly.voting_subject || '';
+  const votingOptions = assembly.voting_options || [];
+  assemblyForm.voting_option_1.value = votingOptions[0] || 'Favorevole';
+  assemblyForm.voting_option_2.value = votingOptions[1] || 'Contrario';
+  assemblyForm.voting_option_3.value = votingOptions[2] || 'Astenuto';
+  assemblyForm.voting_option_4.value = votingOptions[3] || '';
+  toggleVotingPanel();
   selectedParticipants = (assembly.selected_participants || []).map((item) => ({
     type: item.participant_type,
     id: item.participant_id,
@@ -112,6 +120,12 @@ assemblyForm.addEventListener('submit', async (event) => {
   data.selected_participants = selectedParticipants
     .filter((item) => item.type !== 'free')
     .map((item) => ({ type: item.type, id: item.id, label: item.label }));
+  data.voting_options = [
+    assemblyForm.voting_option_1.value,
+    assemblyForm.voting_option_2.value,
+    assemblyForm.voting_option_3.value,
+    assemblyForm.voting_option_4.value,
+  ];
   data.sessions = collectSessions();
   try {
     const path = assemblyId ? `/workers-assemblies/${assemblyId}` : '/workers-assemblies';
@@ -122,6 +136,12 @@ assemblyForm.addEventListener('submit', async (event) => {
     message.textContent = error.message;
   }
 });
+
+assemblyForm.voting_enabled.addEventListener('change', toggleVotingPanel);
+
+function toggleVotingPanel() {
+  votingPanel.classList.toggle('hidden', assemblyForm.voting_enabled.value !== '1');
+}
 
 attachmentForm.addEventListener('submit', async (event) => {
   event.preventDefault();

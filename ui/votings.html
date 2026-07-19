@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8">
@@ -12,10 +12,10 @@
   <main>
     <section id="voteSection" class="panel hidden">
       <div id="warningBox" class="queue-panel queue-panel-alert hidden">
-        <div><p class="eyebrow">Votazioni</p><h2>Nessuna votazione aperta</h2><p>Al momento non ci sono votazioni disponibili.</p></div>
+        <div><p class="eyebrow">Votazioni</p><h2>Nessuna votazione online presente</h2><p>Al momento non ci sono votazioni online disponibili.</p></div>
       </div>
       <form id="voteForm" class="grid hidden">
-        <div class="full-width"><p class="eyebrow">Votazione</p><h2 id="title"></h2><p id="description" class="muted"></p></div>
+        <div class="full-width"><p class="eyebrow">Votazione</p><h2 id="title"></h2><p id="voteTurn" class="muted"></p><p id="description" class="muted"></p></div>
         <div id="options" class="full-width"></div>
         <button type="submit">Invia voto</button>
       </form>
@@ -24,12 +24,15 @@
     <section id="manageSection" class="panel hidden">
       <form id="votingForm" class="grid">
         <input name="id" type="hidden">
-        <label class="full-width">Titolo<input name="title" required></label>
+        <input name="assembly_id" type="hidden">
+        <input name="session_id" type="hidden">
+        <label class="full-width">Nome votazione<input name="title" required></label>
         <label>Stato<select name="status"><option value="draft">bozza</option><option value="open">aperta</option><option value="closed">chiusa</option><option value="cancelled">annullata</option></select></label>
+        <label>Tipo votazione<select name="vote_mode"><option value="online">online</option><option value="manual">manuale</option></select></label>
         <label>Anonima<select name="anonymous"><option value="1">sì</option><option value="">no</option></select></label>
         <label>Apertura<input name="starts_at" type="datetime-local"></label>
         <label>Chiusura<input name="ends_at" type="datetime-local"></label>
-        <label class="full-width">Descrizione<textarea name="description"></textarea></label>
+        <label class="full-width">Quesito<textarea name="description"></textarea></label>
         <label>Opzione 1<input name="option_1" value="Favorevole" required></label>
         <label>Opzione 2<input name="option_2" value="Contrario" required></label>
         <label>Opzione 3<input name="option_3" value="Astenuto"></label>
@@ -42,9 +45,17 @@
       </table>
       <section id="tokensPanel" class="panel hidden">
         <header class="topbar"><div><p class="eyebrow">Token voto</p><h2 id="tokensTitle">Gestione token</h2></div><button id="closeTokens" type="button">Chiudi</button></header>
-        <label>Numero token da generare<input id="tokensCount" type="number" min="1" max="500" value="1"></label>
-        <button id="generateTokens" type="button">Genera token</button>
-        <table><thead><tr><th>Token</th><th>Stato</th><th>Usato il</th><th>Azioni</th></tr></thead><tbody id="tokensTable"></tbody></table>
+        <div id="onlinePanel">
+          <label>Numero token da generare<input id="tokensCount" type="number" min="1" max="500" value="1"></label>
+          <button id="generateTokens" type="button">Genera token</button>
+        </div>
+        <div id="manualPanel" class="grid hidden">
+          <label>Partecipanti<input id="manualParticipants" type="number" min="1" max="5000" value="1"></label>
+          <div id="manualVotes" class="full-width"></div>
+          <p id="manualCheck" class="muted full-width"></p>
+          <button id="manualVoteButton" type="button">Registra scrutinio manuale</button>
+        </div>
+        <table id="tokensTableWrap"><thead><tr><th>Token</th><th>Stato</th><th>Usato il</th><th>Azioni</th></tr></thead><tbody id="tokensTable"></tbody></table>
       </section>
     </section>
 
@@ -52,7 +63,8 @@
     <pre id="jsonOutput" class="json-output"></pre>
   </main>
   <script src="icons.js?v=20260719-1"></script>
-  <script src="votings.js?v=20260719-3"></script>
+  <script src="votings.js?v=20260719-9"></script>
   <script src="auth-menu.js?v=20260719-1"></script>
 </body>
 </html>
+

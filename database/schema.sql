@@ -246,7 +246,9 @@ CREATE TABLE workers_assemblies (
   status ENUM('draft', 'called', 'done', 'cancelled') NOT NULL DEFAULT 'draft',
   visibility ENUM('public', 'members', 'rsu') NOT NULL DEFAULT 'members',
   voting_enabled TINYINT(1) NOT NULL DEFAULT 0,
+  voting_mode ENUM('online', 'manual') NOT NULL DEFAULT 'online',
   voting_subject VARCHAR(255) NULL,
+  voting_options_json TEXT NULL,
   public_document_id BIGINT UNSIGNED NULL,
   minutes_document_id BIGINT UNSIGNED NULL,
   created_by BIGINT UNSIGNED NOT NULL,
@@ -321,6 +323,7 @@ CREATE TABLE votings (
   description TEXT NULL,
   status ENUM('draft', 'open', 'closed', 'cancelled') NOT NULL DEFAULT 'draft',
   anonymous TINYINT(1) NOT NULL DEFAULT 1,
+  vote_mode ENUM('online', 'manual') NOT NULL DEFAULT 'online',
   starts_at DATETIME NULL,
   ends_at DATETIME NULL,
   assembly_id BIGINT UNSIGNED NULL,
@@ -330,6 +333,7 @@ CREATE TABLE votings (
   updated_at DATETIME NOT NULL,
   INDEX votings_status_idx (status),
   INDEX votings_assembly_idx (assembly_id),
+  UNIQUE KEY votings_assembly_session_unique (assembly_id, session_id),
   CONSTRAINT votings_assembly_fk FOREIGN KEY (assembly_id) REFERENCES workers_assemblies(id) ON DELETE SET NULL,
   CONSTRAINT votings_session_fk FOREIGN KEY (session_id) REFERENCES workers_assembly_sessions(id) ON DELETE SET NULL,
   CONSTRAINT votings_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id)
@@ -366,6 +370,8 @@ CREATE TABLE voting_ballots (
   voter_user_id BIGINT UNSIGNED NULL,
   ip_hash VARCHAR(64) NULL,
   local_identifier_hash VARCHAR(64) NULL,
+  source ENUM('token', 'manual') NOT NULL DEFAULT 'token',
+  recorded_by BIGINT UNSIGNED NULL,
   created_at DATETIME NOT NULL,
   UNIQUE KEY voting_ballots_token_unique (token_id),
   UNIQUE KEY voting_ballots_local_identifier_unique (voting_id, local_identifier_hash),
@@ -373,7 +379,8 @@ CREATE TABLE voting_ballots (
   CONSTRAINT voting_ballots_voting_fk FOREIGN KEY (voting_id) REFERENCES votings(id) ON DELETE CASCADE,
   CONSTRAINT voting_ballots_option_fk FOREIGN KEY (option_id) REFERENCES voting_options(id) ON DELETE CASCADE,
   CONSTRAINT voting_ballots_token_fk FOREIGN KEY (token_id) REFERENCES voting_tokens(id) ON DELETE SET NULL,
-  CONSTRAINT voting_ballots_user_fk FOREIGN KEY (voter_user_id) REFERENCES users(id) ON DELETE SET NULL
+  CONSTRAINT voting_ballots_user_fk FOREIGN KEY (voter_user_id) REFERENCES users(id) ON DELETE SET NULL,
+  CONSTRAINT voting_ballots_recorded_by_fk FOREIGN KEY (recorded_by) REFERENCES users(id) ON DELETE SET NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE activity_logs (

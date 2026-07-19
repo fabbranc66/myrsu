@@ -12,10 +12,17 @@ final class VotingBallotRepository
     {
     }
 
-    public function create(int $votingId, int $optionId, ?int $tokenId, ?int $userId, ?string $ipHash, ?string $localIdentifierHash): void
+    public function create(int $votingId, int $optionId, ?int $tokenId, ?int $userId, ?string $ipHash, ?string $localIdentifierHash, string $source = 'token', ?int $recordedBy = null): void
     {
-        $stmt = $this->pdo->prepare('INSERT INTO voting_ballots (voting_id, option_id, token_id, voter_user_id, ip_hash, local_identifier_hash, created_at) VALUES (?, ?, ?, ?, ?, ?, NOW())');
-        $stmt->execute([$votingId, $optionId, $tokenId, $userId, $ipHash, $localIdentifierHash]);
+        $stmt = $this->pdo->prepare('INSERT INTO voting_ballots (voting_id, option_id, token_id, voter_user_id, ip_hash, local_identifier_hash, source, recorded_by, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW())');
+        $stmt->execute([$votingId, $optionId, $tokenId, $userId, $ipHash, $localIdentifierHash, $source, $recordedBy]);
+    }
+
+    public function createManual(int $votingId, int $optionId, int $quantity, int $recordedBy): void
+    {
+        for ($index = 0; $index < $quantity; $index++) {
+            $this->create($votingId, $optionId, null, null, null, null, 'manual', $recordedBy);
+        }
     }
 
     public function existsForLocalIdentifier(int $votingId, string $localIdentifierHash): bool

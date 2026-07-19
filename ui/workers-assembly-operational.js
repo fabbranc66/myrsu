@@ -41,14 +41,22 @@ async function loadAssembly() {
 
 function renderSessions(sessions) {
   sessionsList.innerHTML = sessions.length
-    ? sessions.map((session) => `<button class="assembly-session-card" type="button" data-session-card="${session.id}">
+    ? sessions.map((session) => `<article class="assembly-session-card" data-session-card="${session.id}">
       <strong>${escapeHtml(session.shift_label)}</strong>
       <span>${escapeHtml(session.assembly_date)}</span>
       <span>${escapeHtml(String(session.time_start).slice(0, 5))} - ${escapeHtml(String(session.time_end || '').slice(0, 5) || '-')}</span>
       <small>${escapeHtml(session.place || '-')}</small>
-    </button>`).join('')
+      <div>${voteSummary(session.voting)}</div>
+      <a class="secondary-link" href="votings.html?assembly_id=${assemblyId}&session_id=${session.id}">Votazione turno</a>
+    </article>`).join('')
     : '<p class="muted">Nessun turno.</p>';
   syncSelectedSession();
+}
+
+function voteSummary(voting) {
+  if (!voting) return '<small>Nessuna votazione turno.</small>';
+  const results = (voting.results || []).map((item) => `${escapeHtml(item.label)}: ${item.votes}`).join(' · ');
+  return `<small>${escapeHtml(voting.title)}<br>${results || 'Nessun voto'}</small>`;
 }
 
 function renderSessionSelect(sessions) {

@@ -23,8 +23,8 @@ final class WorkersAssemblyRepository
     {
         $stmt = $this->pdo->prepare(
             'INSERT INTO workers_assemblies
-             (practice_id, title, agenda, description, final_statement, status, visibility, voting_enabled, voting_subject, created_by, created_at, updated_at)
-             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())'
+             (practice_id, title, agenda, description, final_statement, status, visibility, voting_enabled, voting_mode, voting_subject, voting_options_json, created_by, created_at, updated_at)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())'
         );
         $stmt->execute([
             $data['practice_id'],
@@ -35,7 +35,9 @@ final class WorkersAssemblyRepository
             $data['status'],
             $data['visibility'],
             $data['voting_enabled'],
+            $data['voting_mode'],
             $data['voting_subject'],
+            $data['voting_options_json'],
             $data['created_by'],
         ]);
 
@@ -55,7 +57,7 @@ final class WorkersAssemblyRepository
         $stmt = $this->pdo->prepare(
             'UPDATE workers_assemblies
              SET practice_id = ?, title = ?, agenda = ?, description = ?, final_statement = ?, status = ?, visibility = ?,
-                 voting_enabled = ?, voting_subject = ?, updated_at = NOW()
+                 voting_enabled = ?, voting_mode = ?, voting_subject = ?, voting_options_json = ?, updated_at = NOW()
              WHERE id = ?'
         );
         $stmt->execute([
@@ -67,7 +69,9 @@ final class WorkersAssemblyRepository
             $data['status'],
             $data['visibility'],
             $data['voting_enabled'],
+            $data['voting_mode'],
             $data['voting_subject'],
+            $data['voting_options_json'],
             $id,
         ]);
 

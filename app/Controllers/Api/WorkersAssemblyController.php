@@ -329,10 +329,19 @@ final class WorkersAssemblyController
             'status' => $status,
             'visibility' => $visibility,
             'voting_enabled' => !empty($data['voting_enabled']) ? 1 : 0,
+            'voting_mode' => in_array((string)($data['voting_mode'] ?? 'online'), ['online', 'manual'], true) ? (string)($data['voting_mode'] ?? 'online') : 'online',
             'voting_subject' => trim((string)($data['voting_subject'] ?? '')) ?: null,
+            'voting_options_json' => json_encode($this->validatedVotingOptions($data['voting_options'] ?? []), JSON_UNESCAPED_UNICODE),
             'selected_participants' => is_array($data['selected_participants'] ?? null) ? $data['selected_participants'] : [],
             'sessions' => $this->validatedSessions($data['sessions']),
         ];
+    }
+
+    private function validatedVotingOptions(mixed $options): array
+    {
+        $rows = is_array($options) ? $options : [];
+        $values = array_values(array_filter(array_map(static fn ($value): string => trim((string)$value), $rows)));
+        return $values !== [] ? array_slice($values, 0, 6) : ['Favorevole', 'Contrario', 'Astenuto'];
     }
 
     private function validatedSessions(mixed $sessions): array
@@ -387,12 +396,36 @@ final class WorkersAssemblyController
 
     private function withSessions(array $assembly): array
     {
+        $assembly['voting_options'] = $this->decodeVotingOptions($assembly['voting_options_json'] ?? null);
         $assembly['sessions'] = $this->app->workersAssemblySessions->forAssembly((int)$assembly['id']);
         $assembly['selected_participants'] = $this->app->workersAssemblyParticipants->forAssembly((int)$assembly['id']);
         $assembly['documents'] = $this->app->workersAssemblyDocuments->forAssembly((int)$assembly['id']);
         $assembly['notes'] = $this->app->workersAssemblySessionNotes->forAssembly((int)$assembly['id']);
+        $assembly['votings'] = $this->assemblyVotings((int)$assembly['id']);
+        foreach ($assembly['sessions'] as &$session) {
+            $session['voting'] = $assembly['votings'][(int)$session['id']] ?? null;
+        }
+        unset($session);
 
         return $assembly;
+    }
+
+    private function decodeVotingOptions(?string $json): array
+    {
+        $options = json_decode((string)$json, true);
+        return is_array($options) && $options !== [] ? $options : ['Favorevole', 'Contrario', 'Astenuto'];
+    }
+
+    private function assemblyVotings(int $assemblyId): array
+    {
+        $rows = [];
+        foreach ($this->app->votings->forAssembly($assemblyId) as $voting) {
+            $voting['options'] = $this->app->votingOptions->forVoting((int)$voting['id']);
+            $voting['results'] = $this->app->votingBallots->results((int)$voting['id']);
+            $rows[(int)$voting['session_id']] = $voting;
+        }
+
+        return $rows;
     }
 
     private function convocationBody(array $assembly): string
@@ -425,21 +458,33 @@ final class WorkersAssemblyController
                 fn (array $note): string => $this->noteLabel((string)$note['note_type']) . ":\n" . (string)$note['body'],
                 $notes
             ));
+            $vote = $session['voting'] === null ? 'Nessuna votazione registrata.' : $this->sessionVoteSummary($session['voting']);
             $sessions[] = sprintf(
-                "TURNO %s | Data: %s | Ora: %s-%s | Luogo: %s\n\n%s",
+                "TURNO %s | Data: %s | Ora: %s-%s | Luogo: %s\n\n%s\n\nVotazione turno:\n%s",
                 (string)$session['shift_label'],
                 (string)$session['assembly_date'],
                 substr((string)$session['time_start'], 0, 5),
                 substr((string)($session['time_end'] ?? ''), 0, 5) ?: '-',
                 (string)($session['place'] ?? '-'),
-                $content !== '' ? $content : 'Nessun contenuto inserito.'
+                $content !== '' ? $content : 'Nessun contenuto inserito.',
+                $vote
             );
         }
         $participants = implode("\n", array_map(static fn (array $participant): string => '- ' . (string)$participant['label'], $assembly['selected_participants'] ?? []));
         $documents = implode("\n", array_map(static fn (array $document): string => '- ' . (string)$document['original_name'], $assembly['documents'] ?? []));
-        $vote = (int)$assembly['voting_enabled'] === 1 ? 'Votazione predisposta: ' . (string)($assembly['voting_subject'] ?? '-') : 'Nessuna votazione predisposta.';
+        $vote = (int)$assembly['voting_enabled'] === 1 ? 'Votazioni per turno riportate nelle sezioni figlie.' : 'Nessuna votazione predisposta.';
 
         return "Ordine del giorno:\n{$assembly['agenda']}\n\nDescrizione:\n{$assembly['description']}\n\nPartecipanti/convocati:\n{$participants}\n\nContenuti per turno:\n" . implode("\n\n", $sessions) . "\n\nChiosa finale:\n{$assembly['final_statement']}\n\nVotazione:\n{$vote}\n\nAllegati:\n{$documents}";
+    }
+
+    private function sessionVoteSummary(array $voting): string
+    {
+        $rows = array_map(
+            static fn (array $result): string => '- ' . (string)$result['label'] . ': ' . (string)$result['votes'],
+            $voting['results'] ?? []
+        );
+
+        return (string)$voting['title'] . "\n" . implode("\n", $rows);
     }
 
     private function noteLabel(string $type): string

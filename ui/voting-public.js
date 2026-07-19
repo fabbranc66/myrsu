@@ -1,6 +1,7 @@
 const apiBase = '../api/v1';
 const voteToken = new URLSearchParams(window.location.search).get('token');
 const title = document.querySelector('#title');
+const voteTurn = document.querySelector('#voteTurn');
 const description = document.querySelector('#description');
 const options = document.querySelector('#options');
 const voteForm = document.querySelector('#voteForm');
@@ -18,14 +19,20 @@ async function api(path, options = {}) {
 }
 
 async function loadVoting() {
+  if (!voteToken) throw new Error('Token voto assente.');
   const voting = await api(`/public/votings/token/${voteToken}`);
   title.textContent = voting.title;
+  voteTurn.textContent = sessionLabel(voting.session);
   description.textContent = voting.description || '';
   options.innerHTML = voting.options.map((option) => `<label><input type="radio" name="option_id" value="${option.id}" required> ${escapeHtml(option.label)}</label>`).join('');
 }
 
 voteForm.addEventListener('submit', async (event) => {
   event.preventDefault();
+  if (!voteToken) {
+    message.textContent = 'Token voto assente.';
+    return;
+  }
   const data = Object.fromEntries(new FormData(voteForm).entries());
   data.local_identifier = localIdentifier;
   try {
@@ -39,6 +46,13 @@ voteForm.addEventListener('submit', async (event) => {
 
 function escapeHtml(value) {
   return String(value || '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char]));
+}
+
+function sessionLabel(session) {
+  if (!session) return '';
+  const start = String(session.time_start || '').slice(0, 5);
+  const end = String(session.time_end || '').slice(0, 5) || '-';
+  return `Turno ${session.shift_label} | ${session.assembly_date} | ${start}-${end}`;
 }
 
 function getLocalIdentifier() {
