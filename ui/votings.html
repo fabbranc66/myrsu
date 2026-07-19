@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Votazioni - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260719-1">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Votazioni</h1></div><nav class="app-nav"></nav></header>
+  <main>
+    <section id="voteSection" class="panel hidden">
+      <div id="warningBox" class="queue-panel queue-panel-alert hidden">
+        <div><p class="eyebrow">Votazioni</p><h2>Nessuna votazione aperta</h2><p>Al momento non ci sono votazioni disponibili.</p></div>
+      </div>
+      <form id="voteForm" class="grid hidden">
+        <div class="full-width"><p class="eyebrow">Votazione</p><h2 id="title"></h2><p id="description" class="muted"></p></div>
+        <div id="options" class="full-width"></div>
+        <button type="submit">Invia voto</button>
+      </form>
+    </section>
+
+    <section id="manageSection" class="panel hidden">
+      <form id="votingForm" class="grid">
+        <input name="id" type="hidden">
+        <label class="full-width">Titolo<input name="title" required></label>
+        <label>Stato<select name="status"><option value="draft">bozza</option><option value="open">aperta</option><option value="closed">chiusa</option><option value="cancelled">annullata</option></select></label>
+        <label>Anonima<select name="anonymous"><option value="1">sì</option><option value="">no</option></select></label>
+        <label>Apertura<input name="starts_at" type="datetime-local"></label>
+        <label>Chiusura<input name="ends_at" type="datetime-local"></label>
+        <label class="full-width">Descrizione<textarea name="description"></textarea></label>
+        <label>Opzione 1<input name="option_1" value="Favorevole" required></label>
+        <label>Opzione 2<input name="option_2" value="Contrario" required></label>
+        <label>Opzione 3<input name="option_3" value="Astenuto"></label>
+        <label>Opzione 4<input name="option_4"></label>
+        <button type="submit">Salva votazione</button>
+      </form>
+      <table>
+        <thead><tr><th>Titolo</th><th>Stato</th><th>Token</th><th>Risultati</th><th>Azioni</th></tr></thead>
+        <tbody id="votingsTable"></tbody>
+      </table>
+      <section id="tokensPanel" class="panel hidden">
+        <header class="topbar"><div><p class="eyebrow">Token voto</p><h2 id="tokensTitle">Gestione token</h2></div><button id="closeTokens" type="button">Chiudi</button></header>
+        <label>Numero token da generare<input id="tokensCount" type="number" min="1" max="500" value="1"></label>
+        <button id="generateTokens" type="button">Genera token</button>
+        <table><thead><tr><th>Token</th><th>Stato</th><th>Usato il</th><th>Azioni</th></tr></thead><tbody id="tokensTable"></tbody></table>
+      </section>
+    </section>
+
+    <pre id="message"></pre>
+    <pre id="jsonOutput" class="json-output"></pre>
+  </main>
+  <script src="icons.js?v=20260719-1"></script>
+  <script src="votings.js?v=20260719-3"></script>
+  <script src="auth-menu.js?v=20260719-1"></script>
+</body>
+</html>

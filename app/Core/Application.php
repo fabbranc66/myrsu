@@ -24,6 +24,10 @@ use App\Repositories\UnionMeetingNoteRepository;
 use App\Repositories\UnionMeetingDocumentRepository;
 use App\Repositories\UnionMeetingParticipantRepository;
 use App\Repositories\UserRepository;
+use App\Repositories\VotingBallotRepository;
+use App\Repositories\VotingOptionRepository;
+use App\Repositories\VotingRepository;
+use App\Repositories\VotingTokenRepository;
 use App\Repositories\WorkersAssemblyRepository;
 use App\Repositories\WorkersAssemblyParticipantRepository;
 use App\Repositories\WorkersAssemblyDocumentRepository;
@@ -117,6 +121,10 @@ final class Application
     public readonly PdfWriterService $pdfWriter;
     public readonly ReportPdfService $reportPdf;
     public readonly UploadedDocumentPdfService $uploadedDocumentPdf;
+    public readonly VotingRepository $votings;
+    public readonly VotingOptionRepository $votingOptions;
+    public readonly VotingTokenRepository $votingTokens;
+    public readonly VotingBallotRepository $votingBallots;
 
     public function __construct(private readonly string $basePath)
     {
@@ -204,6 +212,10 @@ final class Application
         $this->workersAssemblyDocuments = new WorkersAssemblyDocumentRepository($pdo);
         $this->workersAssemblySessions = new WorkersAssemblySessionRepository($pdo);
         $this->workersAssemblySessionNotes = new WorkersAssemblySessionNoteRepository($pdo);
+        $this->votings = new VotingRepository($pdo);
+        $this->votingOptions = new VotingOptionRepository($pdo);
+        $this->votingTokens = new VotingTokenRepository($pdo);
+        $this->votingBallots = new VotingBallotRepository($pdo);
         $this->activityLogs = new ActivityLogRepository($pdo);
         $this->auth = new Auth($this->users, $this->tokens, $this->roles);
         $this->authService = new AuthService($this->users, $this->tokens, $this->activityLogs);

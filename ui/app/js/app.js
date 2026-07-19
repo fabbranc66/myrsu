@@ -21,6 +21,7 @@ const reportsCard = document.querySelector('#reportsCard');
 const reportsPendingCount = document.querySelector('#reportsPendingCount');
 const commentsCard = document.querySelector('#commentsCard');
 const commentsPendingCount = document.querySelector('#commentsPendingCount');
+const votingsCard = document.querySelector('#votingsCard');
 const privateDocumentsLink = document.querySelector('#privateDocumentsLink');
 const privateDocumentsCard = document.querySelector('#privateDocumentsCard');
 const publicBoardGuest = document.querySelector('#publicBoardGuestContent');
@@ -224,6 +225,9 @@ function toggleReportsBadge(enabled) {
   }
   if (commentsCard) {
     commentsCard.classList.toggle('hidden', !enabled);
+  }
+  if (votingsCard) {
+    votingsCard.classList.toggle('hidden', !enabled);
   }
 }
 

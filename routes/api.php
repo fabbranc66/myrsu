@@ -21,6 +21,7 @@ use App\Controllers\Api\RoleController;
 use App\Controllers\Api\UnionMeetingController;
 use App\Controllers\Api\UserController;
 use App\Controllers\Api\WorkersAssemblyController;
+use App\Controllers\Api\VotingController;
 use App\Core\Response;
 
 $auth = new AuthController($app);
@@ -40,6 +41,7 @@ $reports = new ReportController($app);
 $unionMeetings = new UnionMeetingController($app);
 $users = new UserController($app);
 $workersAssemblies = new WorkersAssemblyController($app);
+$votings = new VotingController($app);
 $roles = new RoleController($app);
 $gdpr = new GdprConsentController($app);
 
@@ -157,6 +159,16 @@ $app->router->patch('/api/v1/workers-assemblies/{id}/final-statement', [$workers
 $app->router->get('/api/v1/workers-assemblies/{id}', [$workersAssemblies, 'show']);
 $app->router->patch('/api/v1/workers-assemblies/{id}', [$workersAssemblies, 'update']);
 $app->router->delete('/api/v1/workers-assemblies/{id}', [$workersAssemblies, 'destroy']);
+
+$app->router->get('/api/v1/votings', [$votings, 'index']);
+$app->router->post('/api/v1/votings', [$votings, 'store']);
+$app->router->get('/api/v1/votings/{id}', [$votings, 'show']);
+$app->router->patch('/api/v1/votings/{id}', [$votings, 'update']);
+$app->router->post('/api/v1/votings/{id}/tokens', [$votings, 'generateTokens']);
+$app->router->post('/api/v1/votings/{id}/tokens/{tokenId}/cancel', [$votings, 'cancelToken']);
+$app->router->get('/api/v1/public/votings/open', [$votings, 'publicOpen']);
+$app->router->get('/api/v1/public/votings/token/{token}', [$votings, 'publicToken']);
+$app->router->post('/api/v1/public/votings/token/{token}/vote', [$votings, 'voteByToken']);
 
 $app->router->get('/api/v1/protocol', [$protocol, 'index']);
 $app->router->post('/api/v1/protocol', [$protocol, 'store']);

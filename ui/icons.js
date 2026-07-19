@@ -15,6 +15,7 @@ const MyRsuIcons = (() => {
     shield: '<svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3 8-8 9-5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-5"/></svg>',
     suspended: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 8l8 8"/></svg>',
     trash: '<svg viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M7 7l1 13h8l1-13"/></svg>',
+    vote: '<svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M8 9l3 3 5-6"/><path d="M8 16h8"/></svg>',
   };
 
   function get(name) {

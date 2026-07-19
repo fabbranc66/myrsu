@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
   const nav = document.querySelector('.app-nav');
   if (!nav) return;
 
@@ -29,6 +29,7 @@
         ['comunicati-create.html', 'Comunicati', ['admin', 'delegato', 'rls']],
         ['union-meetings.html', 'Incontri sindacali', ['admin', 'delegato', 'rls']],
         ['workers-assemblies.html', 'Assemblee lavoratori', ['admin', 'delegato', 'rls']],
+        ['votings.html', 'Votazioni', ['admin', 'delegato', 'rls']],
         ['calls.html', 'Telefonate', ['admin', 'delegato', 'rls']],
         ['practices.html', 'Pratiche', ['admin', 'delegato', 'rls']],
         ['reports.html', 'Segnalazioni', ['admin', 'delegato', 'rls']],
@@ -49,6 +50,7 @@
         'workers-assemblies.html',
         'workers-assembly-editor.html',
         'workers-assembly-operational.html',
+        'votings.html',
         'calls.html',
         'practices.html',
         'practice-view.html',
@@ -65,10 +67,10 @@
     sections.forEach((section) => {
       const activeSection = (section.match || section.pages.map((page) => page[0])).includes(currentPage);
       const links = section.pages.map(([href, label, allowedRoles]) => {
-        const active = href === currentPage ? ' class="active"' : '';
         const roles = Array.isArray(allowedRoles) ? allowedRoles.join(',') : '';
-        const access = roles ? ` data-roles="${roles}" class="hidden"` : active;
-        return `<a${access} href="${href}">${label}</a>`;
+        const classes = ['hidden'];
+        if (href === currentPage) classes.push('active');
+        return `<a data-roles="${roles}" class="${classes.join(' ')}" href="${href}">${label}</a>`;
       }).join('');
       nav.insertAdjacentHTML('beforeend', `<div class="menu-group${activeSection ? ' active' : ''}"><span>${section.label}</span><div class="submenu">${links}</div></div>`);
     });
@@ -147,3 +149,4 @@
   appendAuthItem();
   applyRoleMenu();
 })();
+
