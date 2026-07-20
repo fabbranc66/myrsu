@@ -135,6 +135,14 @@ final class DocumentRepository
         return $this->findById($id);
     }
 
+    public function clearSignature(int $id): ?array
+    {
+        $stmt = $this->pdo->prepare('UPDATE documents SET signature = NULL, signed_at = NULL WHERE id = ?');
+        $stmt->execute([$id]);
+
+        return $this->findById($id);
+    }
+
     public function updatePdfMetadata(int $id, int $size, string $checksum): ?array
     {
         $stmt = $this->pdo->prepare(

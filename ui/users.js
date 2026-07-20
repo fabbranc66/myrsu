@@ -5,6 +5,7 @@ const userPanel = document.querySelector('#userPanel');
 const createForm = document.querySelector('#createForm');
 const usersTable = document.querySelector('#usersTable');
 const roleSelect = document.querySelector('#roleSelect');
+const unionCodeInput = createForm.querySelector('[name="union_code"]');
 const message = document.querySelector('#message');
 const consentPanel = document.querySelector('#consentPanel');
 const consentsTable = document.querySelector('#consentsTable');
@@ -52,6 +53,7 @@ async function loadRoles() {
   roleSelect.innerHTML = state.roles
     .map((role) => `<option value="${role.name}">${role.label}</option>`)
     .join('');
+  syncCreateUnionCode();
 }
 
 async function checkGdpr() {
@@ -76,6 +78,12 @@ async function loadUsers() {
   })).join('');
 }
 
+function syncCreateUnionCode() {
+  const enabled = ['delegato', 'rls'].includes(roleSelect.value);
+  unionCodeInput.disabled = !enabled;
+  if (!enabled) unionCodeInput.value = '';
+}
+
 function configureAccess(me) {
   const roles = Array.isArray(me.roles) ? me.roles : [];
   if (!roles.some((role) => ['admin', 'delegato', 'rls'].includes(role))) {
@@ -92,6 +100,9 @@ createForm.addEventListener('submit', async (event) => {
 
   try {
     const form = new FormData(createForm);
+    if (!['delegato', 'rls'].includes(String(form.get('role')))) {
+      form.set('union_code', '');
+    }
     assertEmail(String(form.get('email')));
     assertPassword(String(form.get('password')), true);
     await api('/users', {
@@ -567,6 +578,8 @@ document.querySelector('#closeConsents').addEventListener('click', () => {
 document.querySelector('#closeActivity').addEventListener('click', () => {
   activityPanel.classList.add('hidden');
 });
+
+roleSelect.addEventListener('change', syncCreateUnionCode);
 
 deleteOrphanLogs.addEventListener('click', async () => {
   if (currentOrphanLogIds.length === 0) return;

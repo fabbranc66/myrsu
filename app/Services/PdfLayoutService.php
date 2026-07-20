@@ -31,16 +31,30 @@ final class PdfLayoutService
 
     public function header(array $data): string
     {
+        if (($data['simple_brand'] ?? false) === true) {
+            $brand = array_key_exists('brand', $data) ? trim((string)$data['brand']) : 'RSU';
+            $brandSubtitle = array_key_exists('brand_subtitle', $data) ? trim((string)$data['brand_subtitle']) : 'Canegrate';
+            $date = (string)($data['date'] ?? date('Y-m-d'));
+            $content = "q 0 g\n";
+            $content .= $this->text(42, 774, 30, self::FONT_BOLD, substr($brand, 0, 18));
+            $content .= $this->text(44, 755, 12, self::FONT_REGULAR, substr($brandSubtitle, 0, 28));
+            $content .= $this->text(430, 774, 10, self::FONT_REGULAR, 'Data: ' . substr($date, 0, 10));
+            $content .= "0 G 0.8 w 42 688 m 553 688 l S\n";
+            return $content . "Q\n";
+        }
+
         $number = (string)($data['number'] ?? '-');
         $protocol = (string)($data['protocol'] ?? '-');
         $date = (string)($data['date'] ?? date('Y-m-d H:i'));
         $creator = trim((string)($data['creator'] ?? '')) ?: '-';
         $revision = trim((string)($data['revision'] ?? '')) ?: '-';
         $verifyText = (string)($data['verify_text'] ?? 'Verifica autenticita copia digitale');
+        $brand = array_key_exists('brand', $data) ? trim((string)$data['brand']) : 'RSU';
+        $brandSubtitle = array_key_exists('brand_subtitle', $data) ? trim((string)$data['brand_subtitle']) : 'Canegrate';
 
         $content = "q 0 g\n";
-        $content .= $this->text(42, 774, 30, self::FONT_BOLD, 'RSU');
-        $content .= $this->text(44, 755, 12, self::FONT_REGULAR, 'Canegrate');
+        $content .= $this->text(42, 774, 30, self::FONT_BOLD, substr($brand, 0, 14));
+        $content .= $this->text(44, 755, 12, self::FONT_REGULAR, substr($brandSubtitle, 0, 24));
         $content .= $this->text(150, 780, 9, self::FONT_BOLD, 'Doc/n pag');
         $content .= $this->text(260, 780, 9, self::FONT_REGULAR, $number);
         $content .= $this->text(150, 762, 9, self::FONT_BOLD, 'Prot');

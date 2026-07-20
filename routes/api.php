@@ -70,6 +70,7 @@ $app->router->get('/api/v1/users', [$users, 'index']);
 $app->router->post('/api/v1/users', [$users, 'store']);
 $app->router->get('/api/v1/users/{id}', [$users, 'show']);
 $app->router->patch('/api/v1/users/{id}', [$users, 'update']);
+$app->router->post('/api/v1/users/{id}/union-logo', [$users, 'unionLogo']);
 $app->router->delete('/api/v1/users/{id}', [$users, 'destroy']);
 
 $app->router->get('/api/v1/roles', [$roles, 'roles']);
@@ -142,8 +143,11 @@ $app->router->post('/api/v1/rsu-elections/analyze', [$rsuElections, 'analyze']);
 $app->router->post('/api/v1/union-permits/analyze', [$unionPermits, 'analyze']);
 $app->router->get('/api/v1/union-permits/allocations', [$unionPermitRequests, 'allocations']);
 $app->router->post('/api/v1/union-permits/allocations', [$unionPermitRequests, 'saveAllocation']);
+$app->router->get('/api/v1/union-permits/delegates', [$unionPermitRequests, 'delegates']);
 $app->router->get('/api/v1/union-permits/requests', [$unionPermitRequests, 'requests']);
 $app->router->post('/api/v1/union-permits/requests', [$unionPermitRequests, 'issue']);
+$app->router->patch('/api/v1/union-permits/requests/{id}', [$unionPermitRequests, 'update']);
+$app->router->delete('/api/v1/union-permits/requests/{id}', [$unionPermitRequests, 'destroy']);
 
 $app->router->get('/api/v1/contacts', [$contacts, 'index']);
 $app->router->post('/api/v1/institutional-contacts', [$contacts, 'storeInstitutional']);

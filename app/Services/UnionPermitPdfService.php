@@ -24,15 +24,14 @@ final class UnionPermitPdfService
         $content = '';
         $y = PdfLayoutService::BODY_TOP;
         $lines = [
-            ['Alla cortese attenzione di', 11, PdfLayoutService::FONT_REGULAR],
-            [(string)$request['company_recipient'], 12, PdfLayoutService::FONT_BOLD],
-            ['', 8, PdfLayoutService::FONT_REGULAR],
             ['Oggetto: ' . (string)$request['subject'], 13, PdfLayoutService::FONT_BOLD],
             ['', 8, PdfLayoutService::FONT_REGULAR],
             'La scrivente ' . (string)$request['union_name'] . ' richiede la fruizione di permesso sindacale.',
+            'Ambito richiesta: ' . $this->scopeLabel((string)$request['request_scope']),
             'Delegato/RLS: ' . (string)$delegate['name'],
             'Tipologia permesso: ' . $this->permitLabel((string)$request['permit_type']),
-            'Data richiesta: ' . (string)$request['request_date'],
+            'Oggetto: ' . (string)$request['subject'],
+            'Giorno fruizione: ' . substr((string)$request['start_at'], 0, 10),
             'Dalle ore: ' . substr((string)$request['start_at'], 11, 5) . ' alle ore: ' . substr((string)$request['end_at'], 11, 5),
             'Ore richieste: ' . (string)$request['hours'],
         ];
@@ -56,8 +55,9 @@ final class UnionPermitPdfService
         $content .= $this->layout->text(42, $y - 20, 11, PdfLayoutService::FONT_REGULAR, 'Cordiali saluti.');
         $content .= $this->layout->text(42, $y - 42, 11, PdfLayoutService::FONT_BOLD, (string)$request['union_name']);
 
-        $pages = [$this->page($content, $request, $documentNumber, 1, $verifyUrl)];
-        if ($signature !== null && $signature !== '') {
+        $isExternal = (string)$request['request_scope'] === 'external';
+        $pages = [$this->page($content, $request, $documentNumber, 1, $isExternal ? null : $verifyUrl)];
+        if (!$isExternal && $signature !== null && $signature !== '') {
             $verification = $this->layout->verificationBlock(PdfLayoutService::BODY_TOP - 48, $signature, $verifyUrl);
             $pages[] = $this->page(
                 $this->layout->text(42, PdfLayoutService::BODY_TOP, 18, PdfLayoutService::FONT_BOLD, 'Verifica documento') . $verification['content'],
@@ -76,6 +76,7 @@ final class UnionPermitPdfService
     {
         return implode("\n", [
             'Richiesta permesso sindacale',
+            'Ambito: ' . $this->scopeLabel((string)$request['request_scope']),
             'Delegato/RLS: ' . (string)$delegate['name'],
             'Tipologia: ' . $this->permitLabel((string)$request['permit_type']),
             'Ore: ' . (string)$request['hours'],
@@ -86,9 +87,12 @@ final class UnionPermitPdfService
     private function page(string $content, array $request, string $documentNumber, int $page, ?string $verifyUrl, array $links = []): array
     {
         $pdfPage = $this->layout->page($content, [
+            'simple_brand' => (string)$request['request_scope'] === 'external',
+            'brand' => (string)$request['request_scope'] === 'external' && isset($request['union_logo_image']) ? '' : ((string)$request['request_scope'] === 'external' ? (string)$request['union_name'] : 'RSU'),
+            'brand_subtitle' => (string)$request['request_scope'] === 'external' && isset($request['union_logo_image']) ? '' : ((string)$request['request_scope'] === 'external' ? 'Sigla sindacale' : 'Canegrate'),
             'number' => $documentNumber . ' / ' . $page,
-            'protocol' => '-',
-            'date' => (string)($request['created_at'] ?? date('Y-m-d H:i:s')),
+            'protocol' => (string)($request['protocol_number'] ?? '-'),
+            'date' => (string)($request['protocol_created_at'] ?? $request['created_at'] ?? date('Y-m-d H:i:s')),
             'creator' => (string)($request['creator_name'] ?? ''),
             'revision' => '-',
             'verify_text' => $verifyUrl ? 'Verifica autenticita copia digitale' : '-',
@@ -98,6 +102,9 @@ final class UnionPermitPdfService
             $pdfPage['links'][] = ['rect' => PdfLayoutService::VERIFY_LINK_RECT, 'url' => $verifyUrl];
             $pdfPage['links'][] = ['rect' => [502, 728, 554, 780], 'url' => $verifyUrl];
         }
+        if ((string)$request['request_scope'] === 'external' && isset($request['union_logo_image'])) {
+            $pdfPage['images'][] = $request['union_logo_image'];
+        }
         $pdfPage['links'] = array_merge($pdfPage['links'], $links);
         return $pdfPage;
     }
@@ -105,5 +112,10 @@ final class UnionPermitPdfService
     private function permitLabel(string $type): string
     {
         return $type === 'rls' ? 'RLS - problematica sicurezza' : 'RSU - problematica sindacale';
+    }
+
+    private function scopeLabel(string $scope): string
+    {
+        return $scope === 'external' ? 'esterno - sigla sindacale' : 'interno - RSU aziendale';
     }
 }

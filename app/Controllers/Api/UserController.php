@@ -12,7 +12,7 @@ use App\Core\Validator;
 
 final class UserController
 {
-    private const OPTIONAL_FIELDS = ['first_name', 'last_name', 'phone', 'mobile', 'city', 'country'];
+    private const OPTIONAL_FIELDS = ['first_name', 'last_name', 'phone', 'mobile', 'city', 'country', 'union_code'];
 
     public function __construct(private readonly Application $app)
     {
@@ -76,6 +76,9 @@ final class UserController
         foreach (self::OPTIONAL_FIELDS as $field) {
             $payload[$field] = trim((string)($data[$field] ?? ''));
         }
+        if (!in_array((string)$data['role'], ['delegato', 'rls'], true)) {
+            $payload['union_code'] = '';
+        }
 
         $userId = $this->app->users->create($payload);
         $this->app->roles->assignRole($userId, (string)$data['role']);
@@ -107,6 +110,10 @@ final class UserController
             throw new HttpException(404, 'Utente non trovato.');
         }
 
+        $roles = $this->app->roles->rolesForUser($userId);
+        if (array_key_exists('union_code', $data) && !array_intersect($roles, ['delegato', 'rls'])) {
+            $data['union_code'] = '';
+        }
         $updated = $this->app->users->update($userId, $data);
         $changes = [];
 
@@ -152,5 +159,26 @@ final class UserController
         ]);
 
         return Response::json(['data' => ['deleted' => true]]);
+    }
+
+    public function unionLogo(Request $request, array $params): Response
+    {
+        $actor = $this->app->auth->requirePermission($request, 'users.update');
+        $userId = (int)$params['id'];
+        $user = $this->app->users->findById($userId);
+        if ($user === null) {
+            throw new HttpException(404, 'Utente non trovato.');
+        }
+        $roles = $this->app->roles->rolesForUser($userId);
+        if (!array_intersect($roles, ['delegato', 'rls'])) {
+            throw new HttpException(422, 'Logo sigla consentito solo per delegati/RLS.');
+        }
+        $updated = $this->app->users->updateUnionLogo($userId, $this->app->unionLogoStorage->store($_FILES['logo'] ?? []));
+        $this->app->activityLogs->write((int)$actor['id'], 'users.union_logo_update', [
+            'section' => 'registry',
+            'updated_user_id' => $userId,
+        ]);
+
+        return Response::json(['data' => $updated]);
     }
 }

@@ -67,10 +67,12 @@ final class UnionPermitRepository
 
     public function requests(?int $userId = null): array
     {
-        $sql = "SELECT r.*, u.name AS user_name, d.pdf_public_path, d.signature
+        $sql = "SELECT r.*, u.name AS user_name, d.pdf_public_path, d.signature,
+                       pe.protocol_number
                 FROM union_permit_requests r
                 INNER JOIN users u ON u.id = r.user_id
-                LEFT JOIN documents d ON d.id = r.document_id";
+                LEFT JOIN documents d ON d.id = r.document_id
+                LEFT JOIN protocol_entries pe ON pe.document_id = d.id";
         $values = [];
         if ($userId !== null) {
             $sql .= ' WHERE r.user_id = ?';
@@ -100,13 +102,14 @@ final class UnionPermitRepository
 
             $stmt = $this->pdo->prepare(
                 'INSERT INTO union_permit_requests
-                 (user_id, allocation_id, permit_type, union_name, company_recipient, subject,
+                 (user_id, allocation_id, request_scope, permit_type, union_name, company_recipient, subject,
                   request_date, start_at, end_at, hours, notes, created_by, created_at)
-                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())'
+                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())'
             );
             $stmt->execute([
                 $data['user_id'],
                 $data['allocation_id'],
+                $data['request_scope'],
                 $data['permit_type'],
                 $data['union_name'],
                 $data['company_recipient'],
@@ -132,6 +135,81 @@ final class UnionPermitRepository
         $stmt = $this->pdo->prepare('UPDATE union_permit_requests SET document_id = ? WHERE id = ?');
         $stmt->execute([$documentId, $id]);
         return $this->findRequest($id);
+    }
+
+    public function updateRequest(array $current, array $data): array
+    {
+        $this->pdo->beginTransaction();
+        try {
+            $oldAllocation = (int)$current['allocation_id'];
+            $newAllocation = (int)$data['allocation_id'];
+            $oldHours = (float)$current['hours'];
+            $newHours = (float)$data['hours'];
+
+            $stmt = $this->pdo->prepare('UPDATE union_permit_allocations SET used_hours = GREATEST(0, used_hours - ?) WHERE id = ?');
+            $stmt->execute([$oldHours, $oldAllocation]);
+            $stmt = $this->pdo->prepare(
+                'UPDATE union_permit_allocations
+                 SET used_hours = used_hours + ?
+                 WHERE id = ? AND annual_hours - used_hours >= ?'
+            );
+            $stmt->execute([$newHours, $newAllocation, $newHours]);
+            if ($stmt->rowCount() !== 1) {
+                $this->pdo->rollBack();
+                return [];
+            }
+
+            $stmt = $this->pdo->prepare(
+                'UPDATE union_permit_requests
+                 SET allocation_id = ?, request_scope = ?, permit_type = ?, union_name = ?, company_recipient = ?,
+                     subject = ?, request_date = ?, start_at = ?, end_at = ?, hours = ?, notes = ?
+                 WHERE id = ?'
+            );
+            $stmt->execute([
+                $newAllocation,
+                $data['request_scope'],
+                $data['permit_type'],
+                $data['union_name'],
+                $data['company_recipient'],
+                $data['subject'],
+                $data['request_date'],
+                $data['start_at'],
+                $data['end_at'],
+                $data['hours'],
+                $data['notes'],
+                $current['id'],
+            ]);
+            $this->pdo->commit();
+            return $this->findRequest((int)$current['id']) ?? [];
+        } catch (\Throwable $exception) {
+            $this->pdo->rollBack();
+            throw $exception;
+        }
+    }
+
+    public function cancelRequest(array $request, int $userId, bool $restoreHours): array
+    {
+        $this->pdo->beginTransaction();
+        try {
+            if ($restoreHours) {
+                $stmt = $this->pdo->prepare(
+                    'UPDATE union_permit_allocations SET used_hours = GREATEST(0, used_hours - ?) WHERE id = ?'
+                );
+                $stmt->execute([$request['hours'], $request['allocation_id']]);
+            }
+
+            $stmt = $this->pdo->prepare(
+                "UPDATE union_permit_requests
+                 SET status = 'canceled', canceled_by = ?, canceled_at = NOW()
+                 WHERE id = ? AND status <> 'canceled'"
+            );
+            $stmt->execute([$userId, $request['id']]);
+            $this->pdo->commit();
+            return $this->findRequest((int)$request['id']) ?? [];
+        } catch (\Throwable $exception) {
+            $this->pdo->rollBack();
+            throw $exception;
+        }
     }
 
     public function deleteRequestAndRestore(array $request): void

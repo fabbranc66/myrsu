@@ -15,6 +15,8 @@ CREATE TABLE users (
   mobile VARCHAR(40) NULL,
   city VARCHAR(120) NULL,
   country VARCHAR(120) NULL,
+  union_code VARCHAR(40) NULL,
+  union_logo_stored_name VARCHAR(120) NULL,
   status ENUM('active', 'suspended') NOT NULL DEFAULT 'active',
   created_at DATETIME NOT NULL,
   updated_at DATETIME NOT NULL

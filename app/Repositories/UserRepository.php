@@ -15,7 +15,7 @@ final class UserRepository
     public function findById(int $id): ?array
     {
         $stmt = $this->pdo->prepare(
-            'SELECT id, name, email, first_name, last_name, phone, mobile, city, country, status, created_at, updated_at
+            'SELECT id, name, email, first_name, last_name, phone, mobile, city, country, union_code, union_logo_stored_name, status, created_at, updated_at
              FROM users WHERE id = ? LIMIT 1'
         );
         $stmt->execute([$id]);
@@ -36,7 +36,7 @@ final class UserRepository
         return $this->pdo
             ->query(
                 "SELECT u.id, u.name, u.email, u.status, u.created_at, u.updated_at,
-                        u.first_name, u.last_name, u.phone, u.mobile, u.city, u.country,
+                        u.first_name, u.last_name, u.phone, u.mobile, u.city, u.country, u.union_code, u.union_logo_stored_name,
                         GROUP_CONCAT(r.name ORDER BY r.name) AS roles
                  FROM users u
                  LEFT JOIN role_user ru ON ru.user_id = u.id
@@ -59,12 +59,26 @@ final class UserRepository
         )->fetchAll();
     }
 
+    public function unionDelegates(): array
+    {
+        return $this->pdo->query(
+            "SELECT u.id, u.name, u.email, u.first_name, u.last_name, u.phone, u.mobile, u.union_code, u.union_logo_stored_name,
+                    GROUP_CONCAT(r.name ORDER BY r.name) AS roles
+             FROM users u
+             INNER JOIN role_user ru ON ru.user_id = u.id
+             INNER JOIN roles r ON r.id = ru.role_id
+             WHERE u.status = 'active' AND r.name IN ('delegato', 'rls')
+             GROUP BY u.id
+             ORDER BY u.name"
+        )->fetchAll();
+    }
+
     public function create(array $data, string $status = 'active'): int
     {
         $stmt = $this->pdo->prepare(
             'INSERT INTO users (
-                name, email, password_hash, first_name, last_name, phone, mobile, city, country, status, created_at, updated_at
-             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())'
+                name, email, password_hash, first_name, last_name, phone, mobile, city, country, union_code, status, created_at, updated_at
+             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())'
         );
         $stmt->execute([
             $data['name'],
@@ -76,6 +90,7 @@ final class UserRepository
             $data['mobile'] ?: null,
             $data['city'] ?: null,
             $data['country'] ?: null,
+            $data['union_code'] ?: null,
             $status,
         ]);
 
@@ -87,7 +102,7 @@ final class UserRepository
         $fields = [];
         $values = [];
 
-        foreach (['name', 'email', 'first_name', 'last_name', 'phone', 'mobile', 'city', 'country', 'status'] as $field) {
+        foreach (['name', 'email', 'first_name', 'last_name', 'phone', 'mobile', 'city', 'country', 'union_code', 'status'] as $field) {
             if (array_key_exists($field, $data)) {
                 $fields[] = "{$field} = ?";
                 $values[] = $data[$field] === '' ? null : $data[$field];
@@ -116,5 +131,18 @@ final class UserRepository
     {
         $stmt = $this->pdo->prepare('DELETE FROM users WHERE id = ?');
         $stmt->execute([$id]);
+    }
+
+    public function clearUnionCode(int $id): void
+    {
+        $stmt = $this->pdo->prepare('UPDATE users SET union_code = NULL, union_logo_stored_name = NULL, updated_at = NOW() WHERE id = ?');
+        $stmt->execute([$id]);
+    }
+
+    public function updateUnionLogo(int $id, string $storedName): ?array
+    {
+        $stmt = $this->pdo->prepare('UPDATE users SET union_logo_stored_name = ?, updated_at = NOW() WHERE id = ?');
+        $stmt->execute([$storedName, $id]);
+        return $this->findById($id);
     }
 }

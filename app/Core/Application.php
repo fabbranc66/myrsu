@@ -61,6 +61,7 @@ use App\Services\ReportAttachmentStorageService;
 use App\Services\RenderedPdfUploadService;
 use App\Services\UploadedDocumentPdfService;
 use App\Services\UnionPermitPdfService;
+use App\Services\UnionLogoStorageService;
 use Throwable;
 
 final class Application
@@ -125,6 +126,7 @@ final class Application
     public readonly ReportPdfService $reportPdf;
     public readonly UploadedDocumentPdfService $uploadedDocumentPdf;
     public readonly UnionPermitPdfService $unionPermitPdf;
+    public readonly UnionLogoStorageService $unionLogoStorage;
     public readonly VotingRepository $votings;
     public readonly VotingOptionRepository $votingOptions;
     public readonly VotingTokenRepository $votingTokens;
@@ -167,6 +169,7 @@ final class Application
             $this->fpdiUploadedPdf
         );
         $this->unionPermitPdf = new UnionPermitPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
+        $this->unionLogoStorage = new UnionLogoStorageService($this->basePath);
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
         $this->pendingComunicatoQueue = new PendingComunicatoQueueService(
             $this->hostingConfig,

@@ -45,14 +45,26 @@ async function load() {
   editForm.mobile.value = data.user.mobile || '';
   editForm.city.value = data.user.city || '';
   editForm.country.value = data.user.country || '';
+  editForm.union_code.value = data.user.union_code || '';
   editForm.status.value = data.user.status;
   editForm.id.value = data.user.id;
   editForm.created_at.value = data.user.created_at;
   editForm.updated_at.value = data.user.updated_at;
   roleSelect.value = data.roles[0] || '';
+  syncUnionCodeField();
   subtitle.textContent = `${data.user.name} - ${data.user.email}`;
   gdprTable.innerHTML = consents.map(consentRow).join('');
 }
+
+function syncUnionCodeField() {
+  const enabled = ['delegato', 'rls'].includes(roleSelect.value);
+  editForm.union_code.disabled = !enabled;
+  editForm.union_logo.disabled = !enabled;
+  if (!enabled) editForm.union_code.value = '';
+  if (!enabled) editForm.union_logo.value = '';
+}
+
+roleSelect.addEventListener('change', syncUnionCodeField);
 
 function consentRow(consent) {
   return `
@@ -75,23 +87,43 @@ editForm.addEventListener('submit', async (event) => {
   delete body.role;
   delete body.created_at;
   delete body.updated_at;
+  if (!['delegato', 'rls'].includes(role)) {
+    body.union_code = '';
+  }
 
   if (!body.password) {
     delete body.password;
   }
-
-  await api(`/users/${id}`, {
-    method: 'PATCH',
-    body: JSON.stringify(body),
-  });
 
   await api(`/users/${id}/roles`, {
     method: 'POST',
     body: JSON.stringify({ roles: [role] }),
   });
 
+  await api(`/users/${id}`, {
+    method: 'PATCH',
+    body: JSON.stringify(body),
+  });
+
+  if (editForm.union_logo.files.length > 0 && ['delegato', 'rls'].includes(role)) {
+    await uploadUnionLogo(editForm.union_logo.files[0]);
+  }
+
   message.textContent = 'Utente salvato';
 });
+
+async function uploadUnionLogo(file) {
+  const body = new FormData();
+  body.append('logo', file);
+  const response = await fetch(`${apiBase}/users/${id}/union-logo`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${token}` },
+    body,
+  });
+  const payload = await response.json();
+  renderJson(payload);
+  if (!response.ok) throw new Error(payload.error?.message || 'Upload logo fallito');
+}
 
 load().catch((error) => {
   message.textContent = error.message;

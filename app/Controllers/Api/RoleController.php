@@ -49,6 +49,9 @@ final class RoleController
 
         $userId = (int)$params['id'];
         $this->app->roles->replaceUserRoles($userId, $data['roles']);
+        if (!array_intersect($data['roles'], ['delegato', 'rls'])) {
+            $this->app->users->clearUnionCode($userId);
+        }
         $this->app->activityLogs->write((int)$actor['id'], 'roles.user_replaced', [
             'section' => 'registry',
             'target_user_id' => $userId,
