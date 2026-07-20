@@ -20,6 +20,7 @@ use App\Controllers\Api\ReportController;
 use App\Controllers\Api\RoleController;
 use App\Controllers\Api\RsuElectionController;
 use App\Controllers\Api\UnionPermitController;
+use App\Controllers\Api\UnionPermitRequestController;
 use App\Controllers\Api\UnionMeetingController;
 use App\Controllers\Api\UserController;
 use App\Controllers\Api\WorkersAssemblyController;
@@ -42,6 +43,7 @@ $protocol = new ProtocolController($app);
 $reports = new ReportController($app);
 $rsuElections = new RsuElectionController($app);
 $unionPermits = new UnionPermitController($app);
+$unionPermitRequests = new UnionPermitRequestController($app);
 $unionMeetings = new UnionMeetingController($app);
 $users = new UserController($app);
 $workersAssemblies = new WorkersAssemblyController($app);
@@ -138,6 +140,10 @@ $app->router->post('/api/v1/practice-links', [$practices, 'link']);
 
 $app->router->post('/api/v1/rsu-elections/analyze', [$rsuElections, 'analyze']);
 $app->router->post('/api/v1/union-permits/analyze', [$unionPermits, 'analyze']);
+$app->router->get('/api/v1/union-permits/allocations', [$unionPermitRequests, 'allocations']);
+$app->router->post('/api/v1/union-permits/allocations', [$unionPermitRequests, 'saveAllocation']);
+$app->router->get('/api/v1/union-permits/requests', [$unionPermitRequests, 'requests']);
+$app->router->post('/api/v1/union-permits/requests', [$unionPermitRequests, 'issue']);
 
 $app->router->get('/api/v1/contacts', [$contacts, 'index']);
 $app->router->post('/api/v1/institutional-contacts', [$contacts, 'storeInstitutional']);

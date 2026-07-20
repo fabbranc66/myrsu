@@ -33,11 +33,24 @@
         <button type="submit">Calcola permessi</button>
       </form>
       <div id="result"></div>
+      <hr>
+      <h2>Assegna monte ore individuale</h2>
+      <form id="allocationForm" class="grid">
+        <label>Utente<select name="user_id" required></select></label>
+        <label>Anno<input name="year" type="number" min="2026" required></label>
+        <input name="permit_type" type="hidden" value="rsu">
+        <label>Ore annue da calcolo<input name="annual_hours" type="number" min="0.5" step="0.5" readonly required></label>
+        <button type="submit">Salva monte ore calcolato</button>
+      </form>
+      <table>
+        <thead><tr><th>Utente</th><th>Anno</th><th>Tipo</th><th>Annue</th><th>Usate</th><th>Residue</th></tr></thead>
+        <tbody id="allocationsTable"></tbody>
+      </table>
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="union-permits.js?v=20260720-3"></script>
-  <script src="auth-menu.js?v=20260720-permits-1"></script>
+  <script src="union-permits.js?v=20260720-7"></script>
+  <script src="auth-menu.js?v=20260720-permits-2"></script>
 </body>
 </html>

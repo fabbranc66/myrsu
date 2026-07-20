@@ -305,7 +305,7 @@ final class DocumentStorageService
 
     private function assertCategory(string $category): void
     {
-        if (!in_array($category, ['comunicati', 'documenti', 'segnalazioni'], true)) {
+        if (!in_array($category, ['comunicati', 'documenti', 'segnalazioni', 'permessi'], true)) {
             throw new HttpException(422, 'Category non valida.');
         }
     }

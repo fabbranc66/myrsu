@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Richieste permessi - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260719-mobile-11">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Richieste permessi</h1></div>
+    <nav class="app-nav"></nav>
+  </header>
+  <main>
+    <section class="panel">
+      <header class="topbar"><div><p class="eyebrow">Delegati / RLS</p><h1>Emissione permesso sindacale</h1></div></header>
+      <div id="balances" class="grid"></div>
+      <form id="requestForm" class="grid">
+        <label>Tipo richiesta<select name="permit_type">
+          <option value="rsu">RSU - problematica sindacale</option>
+          <option value="rls">RLS - problematica sicurezza</option>
+        </select></label>
+        <label>Sigla sindacale<input name="union_name" value="RSU" required></label>
+        <label>Azienda destinataria<input name="company_recipient" required></label>
+        <label>Oggetto<textarea name="subject" required></textarea></label>
+        <label>Data richiesta<input name="request_date" type="date" required></label>
+        <label>Inizio<input name="start_at" type="datetime-local" required></label>
+        <label>Fine<input name="end_at" type="datetime-local" required></label>
+        <label>Ore richieste<input name="hours" type="number" min="0.5" step="0.5" required></label>
+        <label>Note<textarea name="notes"></textarea></label>
+        <button type="submit">Genera PDF richiesta</button>
+      </form>
+      <table>
+        <thead><tr><th>Data</th><th>Tipo</th><th>Ore</th><th>Oggetto</th><th>PDF</th></tr></thead>
+        <tbody id="requestsTable"></tbody>
+      </table>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="union-permit-requests.js?v=20260720-2"></script>
+  <script src="auth-menu.js?v=20260720-permits-2"></script>
+</body>
+</html>

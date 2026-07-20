@@ -23,6 +23,7 @@ use App\Repositories\UnionMeetingRepository;
 use App\Repositories\UnionMeetingNoteRepository;
 use App\Repositories\UnionMeetingDocumentRepository;
 use App\Repositories\UnionMeetingParticipantRepository;
+use App\Repositories\UnionPermitRepository;
 use App\Repositories\UserRepository;
 use App\Repositories\VotingBallotRepository;
 use App\Repositories\VotingOptionRepository;
@@ -59,6 +60,7 @@ use App\Services\ReportService;
 use App\Services\ReportAttachmentStorageService;
 use App\Services\RenderedPdfUploadService;
 use App\Services\UploadedDocumentPdfService;
+use App\Services\UnionPermitPdfService;
 use Throwable;
 
 final class Application
@@ -91,6 +93,7 @@ final class Application
     public readonly UnionMeetingNoteRepository $unionMeetingNotes;
     public readonly UnionMeetingDocumentRepository $unionMeetingDocuments;
     public readonly UnionMeetingParticipantRepository $unionMeetingParticipants;
+    public readonly UnionPermitRepository $unionPermits;
     public readonly WorkersAssemblyRepository $workersAssemblies;
     public readonly WorkersAssemblyParticipantRepository $workersAssemblyParticipants;
     public readonly WorkersAssemblyDocumentRepository $workersAssemblyDocuments;
@@ -121,6 +124,7 @@ final class Application
     public readonly PdfWriterService $pdfWriter;
     public readonly ReportPdfService $reportPdf;
     public readonly UploadedDocumentPdfService $uploadedDocumentPdf;
+    public readonly UnionPermitPdfService $unionPermitPdf;
     public readonly VotingRepository $votings;
     public readonly VotingOptionRepository $votingOptions;
     public readonly VotingTokenRepository $votingTokens;
@@ -162,6 +166,7 @@ final class Application
             $this->pdfQr,
             $this->fpdiUploadedPdf
         );
+        $this->unionPermitPdf = new UnionPermitPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
         $this->pendingComunicatoQueue = new PendingComunicatoQueueService(
             $this->hostingConfig,
@@ -207,6 +212,7 @@ final class Application
         $this->unionMeetingNotes = new UnionMeetingNoteRepository($pdo);
         $this->unionMeetingDocuments = new UnionMeetingDocumentRepository($pdo);
         $this->unionMeetingParticipants = new UnionMeetingParticipantRepository($pdo);
+        $this->unionPermits = new UnionPermitRepository($pdo);
         $this->workersAssemblies = new WorkersAssemblyRepository($pdo);
         $this->workersAssemblyParticipants = new WorkersAssemblyParticipantRepository($pdo);
         $this->workersAssemblyDocuments = new WorkersAssemblyDocumentRepository($pdo);

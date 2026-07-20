@@ -1,0 +1,40 @@
+CREATE TABLE union_permit_allocations (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id BIGINT UNSIGNED NOT NULL,
+  year SMALLINT UNSIGNED NOT NULL,
+  permit_type ENUM('rsu', 'rls') NOT NULL,
+  annual_hours DECIMAL(8,2) NOT NULL DEFAULT 0,
+  used_hours DECIMAL(8,2) NOT NULL DEFAULT 0,
+  created_by BIGINT UNSIGNED NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE KEY union_permit_allocations_unique (user_id, year, permit_type),
+  CONSTRAINT union_permit_allocations_user_fk FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT union_permit_allocations_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL
+);
+
+CREATE TABLE union_permit_requests (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id BIGINT UNSIGNED NOT NULL,
+  allocation_id BIGINT UNSIGNED NOT NULL,
+  document_id BIGINT UNSIGNED NULL,
+  permit_type ENUM('rsu', 'rls') NOT NULL,
+  union_name VARCHAR(120) NOT NULL,
+  company_recipient VARCHAR(160) NOT NULL,
+  subject VARCHAR(255) NOT NULL,
+  request_date DATE NOT NULL,
+  start_at DATETIME NOT NULL,
+  end_at DATETIME NOT NULL,
+  hours DECIMAL(8,2) NOT NULL,
+  notes TEXT NULL,
+  status ENUM('issued', 'canceled') NOT NULL DEFAULT 'issued',
+  created_by BIGINT UNSIGNED NOT NULL,
+  canceled_by BIGINT UNSIGNED NULL,
+  canceled_at TIMESTAMP NULL DEFAULT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT union_permit_requests_user_fk FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT union_permit_requests_allocation_fk FOREIGN KEY (allocation_id) REFERENCES union_permit_allocations(id) ON DELETE RESTRICT,
+  CONSTRAINT union_permit_requests_document_fk FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE SET NULL,
+  CONSTRAINT union_permit_requests_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE RESTRICT,
+  CONSTRAINT union_permit_requests_canceled_by_fk FOREIGN KEY (canceled_by) REFERENCES users(id) ON DELETE SET NULL
+);
