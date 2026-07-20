@@ -28,8 +28,11 @@ final class DocumentRepository
     {
         return $this->pdo
             ->query(
-                "SELECT d.id, d.original_name, d.original_stored_name, d.category, d.pdf_size_bytes, d.created_at
+                "SELECT d.id, d.original_name, d.original_stored_name, d.category, d.pdf_public_path,
+                        d.pdf_size_bytes, d.created_at, pe_active.subject AS protocol_subject
                  FROM documents d
+                 LEFT JOIN protocol_entries pe_active
+                   ON pe_active.document_id = d.id AND pe_active.canceled_at IS NULL
                  WHERE visibility = 'public' AND conversion_status = 'ready'
                    AND category IN ('documenti', 'comunicati')
                    AND (
@@ -38,12 +41,7 @@ final class DocumentRepository
                        FROM protocol_entries pe_any
                        WHERE pe_any.document_id = d.id
                      )
-                     OR EXISTS (
-                       SELECT 1
-                       FROM protocol_entries pe_active
-                       WHERE pe_active.document_id = d.id
-                         AND pe_active.canceled_at IS NULL
-                     )
+                     OR pe_active.id IS NOT NULL
                    )
                  ORDER BY d.category, d.created_at DESC, d.id DESC"
             )

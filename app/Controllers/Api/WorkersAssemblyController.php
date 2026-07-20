@@ -156,10 +156,7 @@ final class WorkersAssemblyController
         $user = $this->requireManager($request);
         $assembly = $this->withSessions($this->findAssembly((int)$params['id']));
         if ($assembly['public_document_id'] !== null) {
-            return Response::json(['data' => [
-                'assembly' => $assembly,
-                'document' => $this->app->documents->findById((int)$assembly['public_document_id']),
-            ]]);
+            return Response::json(['data' => $this->regeneratePublicConvocation($assembly, $user)]);
         }
 
         $title = 'Convocazione assemblea lavoratori - ' . $assembly['title'];
@@ -206,6 +203,57 @@ final class WorkersAssemblyController
         ]);
 
         return Response::json(['data' => ['assembly' => $assembly, 'document' => $document, 'protocol' => $protocol]], 201);
+    }
+
+    private function regeneratePublicConvocation(array $assembly, array $user): array
+    {
+        $document = $this->app->documents->findById((int)$assembly['public_document_id']);
+        if ($document === null) {
+            throw new HttpException(404, 'Convocazione non trovata.');
+        }
+        $protocol = $this->app->protocols->findActiveByDocumentId((int)$document['id']);
+        if ($protocol === null) {
+            throw new HttpException(404, 'Protocollo convocazione non trovato.');
+        }
+
+        $title = 'Convocazione assemblea lavoratori - ' . $assembly['title'];
+        $body = $this->convocationBody($assembly);
+        $revisionAt = date('Y-m-d H:i:s') . ' - ' . trim((string)$user['name']);
+        $original = $this->app->comunicatoDirectPdf->textOriginal($title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at']);
+        $meta = $this->app->documentStorage->rewriteGeneratedPdf(
+            $document,
+            $original,
+            'convocazione-assemblea.txt',
+            fn (string $pdfPath) => $this->app->comunicatoDirectPdf->write(
+                $pdfPath,
+                $title,
+                $body,
+                (string)$protocol['protocol_number'],
+                (string)$protocol['created_at'],
+                null,
+                null,
+                null,
+                $revisionAt,
+                (string)$user['name']
+            )
+        );
+        $document = $this->app->documents->updateComunicato((int)$document['id'], $meta + ['visibility' => (string)$document['visibility']]);
+        $signature = $this->app->documentSignature->sign($document);
+        $document = $this->app->documents->updateSignature((int)$document['id'], $signature);
+        $verifyUrl = $this->appBaseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode((string)$signature);
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        $this->app->comunicatoDirectPdf->write($pdfPath, $title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at'], null, $verifyUrl, (string)$signature, $revisionAt, (string)$user['name']);
+        $document = $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
+        $this->app->protocols->update((int)$protocol['id'], $title, (int)$document['id']);
+        $this->app->documentStorage->uploadPdfToHosting($document);
+        $this->app->activityLogs->write((int)$user['id'], 'assemblies.public_convocation_regenerate', [
+            'section' => 'assemblies',
+            'assembly_id' => $assembly['id'],
+            'document_id' => $document['id'],
+            'protocol_number' => $protocol['protocol_number'],
+        ]);
+
+        return ['assembly' => $assembly, 'document' => $document, 'protocol' => $protocol];
     }
 
     public function minutes(Request $request, array $params): Response

@@ -156,6 +156,77 @@ final class UnionMeetingController
         return Response::json(['data' => ['meeting' => $meeting, 'document' => $document, 'protocol' => $protocol]], 201);
     }
 
+    public function minutes(Request $request, array $params): Response
+    {
+        $user = $this->requireManager($request);
+        $meeting = $this->withDocuments($this->withParticipants($this->findMeeting((int)$params['id'])));
+        $meeting['notes'] = $this->app->unionMeetingNotes->forMeeting((int)$meeting['id']);
+        if ($meeting['minutes_document_id'] !== null) {
+            return Response::json(['data' => $this->regenerateMinutes($meeting, $user)]);
+        }
+
+        $title = 'Verbale incontro sindacale - ' . $meeting['title'];
+        $body = $this->minutesBody($meeting);
+        $protocol = $this->app->protocols->create('OUT', 'VER', $title, (int)$user['id']);
+        $original = $this->app->comunicatoDirectPdf->textOriginal($title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at']);
+        $stored = $this->app->documentStorage->storeGeneratedPdf(
+            $original,
+            'verbale-incontro.html',
+            'documenti',
+            fn (string $pdfPath) => $this->app->comunicatoDirectPdf->write($pdfPath, $title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at'], null, null, null, null, (string)$user['name'])
+        );
+        $officialPublicPath = $this->app->protocolDocumentName->publicPath('documenti', (string)$protocol['protocol_number']);
+        $this->app->protocolDocumentName->move($this->app->documentStorage->pdfPath((string)$stored['pdf_public_path']), $this->app->documentStorage->pdfPath($officialPublicPath));
+        $stored['pdf_public_path'] = $officialPublicPath;
+        $document = $this->app->documents->create($stored + ['visibility' => 'rsu', 'uploaded_by' => (int)$user['id']]);
+        $protocol = $this->app->protocols->update((int)$protocol['id'], $title, (int)$document['id']);
+        $document = $this->app->documents->updateSignature((int)$document['id'], $this->app->documentSignature->sign($document));
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        $verifyUrl = $this->appBaseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode((string)$document['signature']);
+        $this->app->comunicatoDirectPdf->write($pdfPath, $title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at'], null, $verifyUrl, (string)$document['signature'], null, (string)$user['name']);
+        $document = $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
+        $this->app->documentStorage->uploadPdfToHosting($document);
+        $meeting = $this->app->unionMeetings->attachMinutesDocument((int)$meeting['id'], (int)$document['id']);
+        $this->app->activityLogs->write((int)$user['id'], 'meetings.minutes_generate', [
+            'section' => 'meetings',
+            'meeting_id' => $meeting['id'],
+            'document_id' => $document['id'],
+            'protocol_number' => $protocol['protocol_number'],
+        ]);
+
+        return Response::json(['data' => ['meeting' => $meeting, 'document' => $document, 'protocol' => $protocol]], 201);
+    }
+
+    private function regenerateMinutes(array $meeting, array $user): array
+    {
+        $document = $this->app->documents->findById((int)$meeting['minutes_document_id']);
+        if ($document === null) {
+            throw new HttpException(404, 'Verbale non trovato.');
+        }
+        $protocol = $this->app->protocols->findActiveByDocumentId((int)$document['id']);
+        if ($protocol === null) {
+            throw new HttpException(404, 'Protocollo verbale non trovato.');
+        }
+
+        $title = 'Verbale incontro sindacale - ' . $meeting['title'];
+        $body = $this->minutesBody($meeting);
+        $pdfPath = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        $signature = $this->app->documentSignature->sign($document);
+        $document = $this->app->documents->updateSignature((int)$document['id'], $signature);
+        $verifyUrl = $this->appBaseUrl() . '/ui/document-verify.html?id=' . (int)$document['id'] . '&sig=' . urlencode((string)$signature);
+        $this->app->comunicatoDirectPdf->write($pdfPath, $title, $body, (string)$protocol['protocol_number'], (string)$protocol['created_at'], null, $verifyUrl, (string)$signature, date('Y-m-d H:i:s'), (string)$user['name']);
+        $document = $this->app->documents->updatePdfMetadata((int)$document['id'], filesize($pdfPath), hash_file('sha256', $pdfPath));
+        $this->app->documentStorage->uploadPdfToHosting($document);
+        $this->app->activityLogs->write((int)$user['id'], 'meetings.minutes_regenerate', [
+            'section' => 'meetings',
+            'meeting_id' => $meeting['id'],
+            'document_id' => $document['id'],
+            'protocol_number' => $protocol['protocol_number'],
+        ]);
+
+        return ['meeting' => $meeting, 'document' => $document, 'protocol' => $protocol];
+    }
+
     public function notes(Request $request, array $params): Response
     {
         $this->requireManager($request);
@@ -302,6 +373,34 @@ final class UnionMeetingController
         }
 
         return "Partecipanti:\n{$participants}\n\nOrdine del giorno:\n{$meeting['agenda']}\n\nLuogo:\n{$meeting['location']}\n\nData e ora:\n{$meeting['meeting_date']}\n\n{$meeting['description']}";
+    }
+
+    private function minutesBody(array $meeting): string
+    {
+        $participants = $this->participantLabels((int)$meeting['id']);
+        if ($participants === '') {
+            $participants = (string)$meeting['participants'];
+        }
+        $notes = implode("\n\n", array_map(
+            fn (array $note): string => $this->noteLabel((string)$note['note_type']) . ":\n" . (string)$note['body'],
+            $meeting['notes'] ?? []
+        ));
+        $documents = implode("\n", array_map(
+            static fn (array $document): string => '- ' . (string)$document['original_name'],
+            $meeting['documents'] ?? []
+        ));
+
+        return "Partecipanti:\n{$participants}\n\nLuogo:\n{$meeting['location']}\n\nData e ora:\n{$meeting['meeting_date']}\n\nOrdine del giorno:\n{$meeting['agenda']}\n\nDescrizione:\n{$meeting['description']}\n\nContenuti incontro:\n" . ($notes !== '' ? $notes : 'Nessun contenuto inserito.') . "\n\nAllegati:\n{$documents}";
+    }
+
+    private function noteLabel(string $type): string
+    {
+        return [
+            'content' => 'Contenuto',
+            'answer' => 'Risposta',
+            'idea' => 'Idea',
+            'proposal' => 'Proposta',
+        ][$type] ?? $type;
     }
 
     private function withParticipants(array $meeting): array

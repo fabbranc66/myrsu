@@ -27,7 +27,7 @@ function row(assembly) {
   const sessions = (assembly.sessions || []).map((item) => `${item.shift_label} ${item.assembly_date} ${String(item.time_start).slice(0, 5)}`).join('<br>');
   const attachmentCount = Array.isArray(assembly.documents) ? assembly.documents.length : 0;
   const convocation = assembly.public_document_id
-    ? `<button class="icon-action" data-view-convocation="${assembly.public_document_id}" title="Visualizza convocazione">${MyRsuIcons.get('eye')}</button>`
+    ? `<button class="icon-action" data-public-convocation="${assembly.id}" title="Visualizza convocazione">${MyRsuIcons.get('eye')}</button>`
     : `<button class="icon-action" data-public-convocation="${assembly.id}" title="Genera convocazione">${MyRsuIcons.get('document')}</button>`;
   const minutes = assembly.minutes_document_id
     ? `<button class="icon-action" data-view-convocation="${assembly.minutes_document_id}" title="Visualizza verbale">${MyRsuIcons.get('note')}</button><button class="icon-action" data-minutes="${assembly.id}" title="Rigenera verbale">${MyRsuIcons.get('save')}</button>`

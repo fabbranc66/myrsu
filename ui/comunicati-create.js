@@ -26,12 +26,15 @@ function row(document) {
   const editUrl = draft ? `comunicati-editor.html?id=${document.id}` : `document-edit.html?id=${document.id}`;
   const title = document.protocol_number || document.protocol_subject || document.original_name;
   const subject = document.protocol_subject || document.original_name || '';
+  const preview = document.pdf_available
+    ? `<button class="icon-action" data-view="${document.id}" title="Anteprima">${MyRsuIcons.get('eye')}</button>`
+    : `<span class="doc-type-tag draft" title="PDF fisico mancante">NO FILE</span>`;
   return `<tr>
     <td title="${escapeHtml(subject)}">${draft ? '<span class="doc-type-tag draft">DRAFT</span>' : '<span class="doc-type-tag">PDF</span>'} ${escapeHtml(title)}</td>
     <td>${document.visibility}</td>
     <td>${draft ? 'bozza' : 'ufficiale'}</td>
     <td>${document.created_at || '-'}</td>
-    <td class="actions-cell">${draft ? '' : `<button class="icon-action" data-view="${document.id}" title="Anteprima">${MyRsuIcons.get('eye')}</button>`}<a class="icon-action" href="${editUrl}" title="Modifica">${MyRsuIcons.get('edit')}</a>${draft ? `<button class="draft-generate-button" data-generate="${document.id}">${MyRsuIcons.get('document')} Genera ufficiale</button>` : ''}</td>
+    <td class="actions-cell">${draft ? '' : preview}<a class="icon-action" href="${editUrl}" title="Modifica">${MyRsuIcons.get('edit')}</a>${draft ? `<button class="draft-generate-button" data-generate="${document.id}">${MyRsuIcons.get('document')} Genera ufficiale</button>` : ''}</td>
   </tr>`;
 }
 

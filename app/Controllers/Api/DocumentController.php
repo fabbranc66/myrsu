@@ -21,18 +21,20 @@ final class DocumentController
     {
         $this->requireDocumentViewer($request);
 
-        return Response::json(['data' => $this->app->documents->all()]);
+        return Response::json(['data' => array_map([$this, 'withFileState'], $this->app->documents->all())]);
     }
 
     public function publicIndex(Request $request): Response
     {
         $sections = [];
         foreach ($this->app->documents->publicReady() as $document) {
-            if ((string)$document['category'] === 'comunicati') {
-                $html = @file_get_contents($this->app->documentStorage->originalPath((string)$document['original_stored_name'])) ?: '';
-                $document['comunicato'] = $this->app->comunicatoPdf->parse($html);
+            if (!is_file($this->app->documentStorage->pdfPath((string)$document['pdf_public_path']))) {
+                continue;
             }
-            unset($document['original_stored_name']);
+            if ((string)$document['category'] === 'comunicati') {
+                $document['comunicato'] = $this->comunicatoContent($document);
+            }
+            unset($document['original_stored_name'], $document['pdf_public_path']);
             $sections[(string)$document['category']][] = $document;
         }
 
@@ -54,11 +56,10 @@ final class DocumentController
         $document = $this->findDocument((int)$params['id']);
         $this->authorizeDocumentAccess($request, $document, 'documents.view');
         if ((string)$document['category'] === 'comunicati') {
-            $html = @file_get_contents($this->app->documentStorage->originalPath((string)$document['original_stored_name'])) ?: '';
-            $document['comunicato'] = $this->app->comunicatoPdf->parse($html);
+            $document['comunicato'] = $this->comunicatoContent($document);
         }
 
-        return Response::json(['data' => $document]);
+        return Response::json(['data' => $this->withFileState($document)]);
     }
 
     public function update(Request $request, array $params): Response
@@ -358,6 +359,23 @@ final class DocumentController
         }
 
         return $document;
+    }
+
+    private function withFileState(array $document): array
+    {
+        $document['pdf_available'] = is_file($this->app->documentStorage->pdfPath((string)$document['pdf_public_path']));
+        return $document;
+    }
+
+    private function comunicatoContent(array $document): array
+    {
+        $path = $this->app->documentStorage->originalPath((string)$document['original_stored_name']);
+        $content = is_file($path) ? $this->app->comunicatoPdf->parse((string)file_get_contents($path)) : ['title' => '', 'body' => ''];
+        if (trim((string)$content['title']) === '') {
+            $content['title'] = (string)($document['protocol_subject'] ?? $document['original_name'] ?? '');
+        }
+
+        return $content;
     }
 
     private function privateOriginal(Request $request, int $id, bool $inline): FileResponse

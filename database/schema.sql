@@ -154,12 +154,14 @@ CREATE TABLE union_meetings (
   status ENUM('scheduled', 'done', 'cancelled') NOT NULL DEFAULT 'scheduled',
   visibility ENUM('public', 'members', 'rsu') NOT NULL DEFAULT 'rsu',
   public_document_id BIGINT UNSIGNED NULL,
+  minutes_document_id BIGINT UNSIGNED NULL,
   created_by BIGINT UNSIGNED NOT NULL,
   created_at DATETIME NOT NULL,
   updated_at DATETIME NOT NULL,
   INDEX union_meetings_date_idx (meeting_date),
   INDEX union_meetings_status_idx (status),
   CONSTRAINT union_meetings_public_document_fk FOREIGN KEY (public_document_id) REFERENCES documents(id) ON DELETE SET NULL,
+  CONSTRAINT union_meetings_minutes_document_fk FOREIGN KEY (minutes_document_id) REFERENCES documents(id) ON DELETE SET NULL,
   CONSTRAINT union_meetings_created_by_fk FOREIGN KEY (created_by) REFERENCES users(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 

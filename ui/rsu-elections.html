@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elezioni RSU - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260719-mobile-11">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Elezioni RSU</h1></div>
+    <nav class="app-nav"></nav>
+  </header>
+  <main>
+    <section class="panel">
+      <header class="topbar"><div><p class="eyebrow">Solo admin</p><h1>Verifica risultati RSU</h1></div></header>
+      <form id="electionForm" class="grid">
+        <label>Aventi diritto<input name="electors" type="number" min="0" required></label>
+        <label>Votanti<input name="voters" type="number" min="0" required></label>
+        <label>Schede valide<input name="valid_votes" type="number" min="0" required></label>
+        <label>Schede bianche<input name="blank_votes" type="number" min="0" value="0" required></label>
+        <label>Schede nulle<input name="null_votes" type="number" min="0" value="0" required></label>
+        <label>Seggi RSU<input name="seats" type="number" min="1" required></label>
+        <div id="lists" class="full-width"></div>
+        <button type="submit">Analizza risultati</button>
+      </form>
+      <div id="result"></div>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="rsu-elections.js?v=20260720-1"></script>
+  <script src="auth-menu.js?v=20260719-mobile-menu-2"></script>
+</body>
+</html>

@@ -38,7 +38,10 @@ function row(meeting) {
   const convocation = meeting.public_document_id
     ? `<button class="icon-action" data-view-convocation="${meeting.public_document_id}" title="Visualizza convocazione">${MyRsuIcons.get('eye')}</button>`
     : `<button class="icon-action" disabled title="Convocazione non generata">${MyRsuIcons.get('eye')}</button>`;
-  return `<tr><td>${escapeHtml(meeting.title)}</td><td>${escapeHtml(meeting.meeting_date)}</td><td>${escapeHtml(meeting.location)}</td><td>${translateStatus(meeting.status)}</td><td>${translateVisibility(meeting.visibility)}</td><td>${documentStatus} | allegati ${attachmentCount}</td><td class="actions-cell">${convocation}<a class="icon-action" href="union-meeting-editor.html?id=${meeting.id}" title="Modifica incontro">${MyRsuIcons.get('edit')}</a><button class="icon-action" data-public-comunicato="${meeting.id}" title="Comunicato pubblico">${MyRsuIcons.get('document')}</button><a class="icon-action" href="union-meeting-operational.html?id=${meeting.id}" title="Pagina operativa">${MyRsuIcons.get('logs')}</a><button class="icon-action" data-practice-link="${meeting.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button></td></tr>`;
+  const minutes = meeting.minutes_document_id
+    ? `<button class="icon-action" data-view-convocation="${meeting.minutes_document_id}" title="Visualizza verbale">${MyRsuIcons.get('note')}</button><button class="icon-action" data-minutes="${meeting.id}" title="Rigenera verbale">${MyRsuIcons.get('save')}</button>`
+    : `<button class="icon-action" data-minutes="${meeting.id}" title="Genera verbale">${MyRsuIcons.get('save')}</button>`;
+  return `<tr><td>${escapeHtml(meeting.title)}</td><td>${escapeHtml(meeting.meeting_date)}</td><td>${escapeHtml(meeting.location)}</td><td>${translateStatus(meeting.status)}</td><td>${translateVisibility(meeting.visibility)}</td><td>${documentStatus} | verbale ${meeting.minutes_document_id || '-'} | allegati ${attachmentCount}</td><td class="actions-cell">${convocation}${minutes}<a class="icon-action" href="union-meeting-editor.html?id=${meeting.id}" title="Modifica incontro">${MyRsuIcons.get('edit')}</a><button class="icon-action" data-public-comunicato="${meeting.id}" title="Comunicato pubblico">${MyRsuIcons.get('document')}</button><a class="icon-action" href="union-meeting-operational.html?id=${meeting.id}" title="Pagina operativa">${MyRsuIcons.get('logs')}</a><button class="icon-action" data-practice-link="${meeting.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button></td></tr>`;
 }
 
 function translateStatus(value) {
@@ -66,6 +69,12 @@ meetingsTable.addEventListener('click', (event) => {
     return;
   }
 
+  const minutesButton = event.target.closest('[data-minutes]');
+  if (minutesButton) {
+    createMinutes(minutesButton.dataset.minutes);
+    return;
+  }
+
   const button = event.target.closest('[data-practice-link]');
   if (!button) return;
   const select = practiceLinkForm.elements.practice_id;
@@ -81,6 +90,18 @@ async function createPublicComunicato(id) {
     const data = await api(`/union-meetings/${id}/public-comunicato`, { method: 'POST', body: '{}' });
     const documentId = data.document?.id || data.meeting?.public_document_id;
     message.textContent = 'Convocazione generata correttamente.';
+    await loadMeetings();
+    if (documentId) openConvocation(documentId);
+  } catch (error) {
+    message.textContent = error.message;
+  }
+}
+
+async function createMinutes(id) {
+  try {
+    const data = await api(`/union-meetings/${id}/minutes`, { method: 'POST', body: '{}' });
+    const documentId = data.document?.id || data.meeting?.minutes_document_id;
+    message.textContent = 'Verbale generato/rigenerato correttamente.';
     await loadMeetings();
     if (documentId) openConvocation(documentId);
   } catch (error) {

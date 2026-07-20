@@ -18,6 +18,7 @@ use App\Controllers\Api\PracticeController;
 use App\Controllers\Api\ProtocolController;
 use App\Controllers\Api\ReportController;
 use App\Controllers\Api\RoleController;
+use App\Controllers\Api\RsuElectionController;
 use App\Controllers\Api\UnionMeetingController;
 use App\Controllers\Api\UserController;
 use App\Controllers\Api\WorkersAssemblyController;
@@ -38,6 +39,7 @@ $profile = new ProfileController($app);
 $practices = new PracticeController($app);
 $protocol = new ProtocolController($app);
 $reports = new ReportController($app);
+$rsuElections = new RsuElectionController($app);
 $unionMeetings = new UnionMeetingController($app);
 $users = new UserController($app);
 $workersAssemblies = new WorkersAssemblyController($app);
@@ -132,6 +134,8 @@ $app->router->patch('/api/v1/practices/{id}', [$practices, 'update']);
 $app->router->post('/api/v1/practices/{id}/notes', [$practices, 'addNote']);
 $app->router->post('/api/v1/practice-links', [$practices, 'link']);
 
+$app->router->post('/api/v1/rsu-elections/analyze', [$rsuElections, 'analyze']);
+
 $app->router->get('/api/v1/contacts', [$contacts, 'index']);
 $app->router->post('/api/v1/institutional-contacts', [$contacts, 'storeInstitutional']);
 $app->router->patch('/api/v1/institutional-contacts/{id}', [$contacts, 'updateInstitutional']);
@@ -144,6 +148,7 @@ $app->router->delete('/api/v1/union-meetings/{id}/documents/{document_id}', [$un
 $app->router->get('/api/v1/union-meetings/{id}', [$unionMeetings, 'show']);
 $app->router->patch('/api/v1/union-meetings/{id}', [$unionMeetings, 'update']);
 $app->router->post('/api/v1/union-meetings/{id}/public-comunicato', [$unionMeetings, 'publicComunicato']);
+$app->router->post('/api/v1/union-meetings/{id}/minutes', [$unionMeetings, 'minutes']);
 $app->router->get('/api/v1/union-meetings/{id}/notes', [$unionMeetings, 'notes']);
 $app->router->post('/api/v1/union-meetings/{id}/notes', [$unionMeetings, 'storeNote']);
 
