@@ -10,6 +10,7 @@ const queueCardText = document.querySelector('#queueCardText');
 const queueProcessButton = document.querySelector('#queueProcessButton');
 const queueCard = document.querySelector('#queueCard');
 const archiveMenu = document.querySelector('#archiveMenu');
+const adminMenu = document.querySelector('#adminMenu');
 const anagraphicsMenu = document.querySelector('#anagraphicsMenu');
 const protocolMenu = document.querySelector('#protocolMenu');
 const profileMenuLink = document.querySelector('#profileMenuLink');
@@ -258,6 +259,7 @@ function toggleRoleMenus(user) {
     contacts: operationalEnabled,
     protocol: operationalEnabled,
     archive: operationalEnabled,
+    admin: adminEnabled,
     privateDocuments: adminEnabled,
     pendingQueue: adminEnabled,
   });
@@ -271,6 +273,7 @@ function setMenuVisibility(permissions) {
     [contactsMenuLink, permissions.contacts],
     [protocolMenu, permissions.protocol],
     [archiveMenu, permissions.archive],
+    [adminMenu, permissions.admin],
     [privateDocumentsLink, permissions.privateDocuments],
     [pendingQueueLink, permissions.pendingQueue],
   ].forEach(([element, visible]) => element?.classList.toggle('hidden', !visible));

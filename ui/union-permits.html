@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Permessi sindacali - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260719-mobile-11">
+</head>
+<body>
+  <header class="app-header">
+    <div><p class="eyebrow">MyRSU</p><h1>Permessi sindacali</h1></div>
+    <nav class="app-nav"></nav>
+  </header>
+  <main>
+    <section class="panel">
+      <header class="topbar"><div><p class="eyebrow">Solo admin</p><h1>Verifica monte ore RSU/RLS</h1></div></header>
+      <form id="permitForm" class="grid">
+        <label>Dipendenti unità produttiva<input name="employees" type="number" min="1" required></label>
+        <label>Componenti RSU<input name="rsu_count" type="number" min="1" value="3" required></label>
+        <label>Di cui RLS<input name="rls_count" type="number" min="0" value="1" required></label>
+        <label>Regola RSU<select name="rsu_rule">
+          <option value="metal_industry">Metalmeccanici Industria</option>
+          <option value="statute">Statuto lavoratori</option>
+        </select></label>
+        <label>Regola RLS<select name="rls_rule">
+          <option value="metal_industry">Metalmeccanici Industria</option>
+          <option value="ai_1996">12 / 30 / 40 ore</option>
+          <option value="ai_2018">24 / 48 / 72 ore</option>
+          <option value="custom">personalizzata</option>
+        </select></label>
+        <label>Ore RLS personalizzate<input name="custom_rls_hours" type="number" min="0" step="0.5" value="0"></label>
+        <button type="submit">Calcola permessi</button>
+      </form>
+      <div id="result"></div>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="union-permits.js?v=20260720-3"></script>
+  <script src="auth-menu.js?v=20260720-permits-1"></script>
+</body>
+</html>

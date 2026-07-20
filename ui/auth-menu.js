@@ -30,7 +30,6 @@
         ['union-meetings.html', 'Incontri sindacali', ['admin', 'delegato', 'rls']],
         ['workers-assemblies.html', 'Assemblee lavoratori', ['admin', 'delegato', 'rls']],
         ['votings.html', 'Votazioni', ['admin', 'delegato', 'rls']],
-        ['rsu-elections.html', 'ELEZIONI RSU', ['admin']],
         ['calls.html', 'Telefonate', ['admin', 'delegato', 'rls']],
         ['practices.html', 'Pratiche', ['admin', 'delegato', 'rls']],
         ['reports.html', 'Segnalazioni', ['admin', 'delegato', 'rls']],
@@ -52,7 +51,6 @@
         'workers-assembly-editor.html',
         'workers-assembly-operational.html',
         'votings.html',
-        'rsu-elections.html',
         'calls.html',
         'practices.html',
         'practice-view.html',
@@ -60,6 +58,13 @@
         'reports-moderation.html',
         'comments-moderation.html',
         'pending-queue.html',
+      ],
+    },
+    {
+      label: 'Admin',
+      pages: [
+        ['rsu-elections.html', 'ELEZIONI RSU', ['admin']],
+        ['union-permits.html', 'Permessi sindacali', ['admin']],
       ],
     },
   ];

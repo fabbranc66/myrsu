@@ -19,6 +19,7 @@ use App\Controllers\Api\ProtocolController;
 use App\Controllers\Api\ReportController;
 use App\Controllers\Api\RoleController;
 use App\Controllers\Api\RsuElectionController;
+use App\Controllers\Api\UnionPermitController;
 use App\Controllers\Api\UnionMeetingController;
 use App\Controllers\Api\UserController;
 use App\Controllers\Api\WorkersAssemblyController;
@@ -40,6 +41,7 @@ $practices = new PracticeController($app);
 $protocol = new ProtocolController($app);
 $reports = new ReportController($app);
 $rsuElections = new RsuElectionController($app);
+$unionPermits = new UnionPermitController($app);
 $unionMeetings = new UnionMeetingController($app);
 $users = new UserController($app);
 $workersAssemblies = new WorkersAssemblyController($app);
@@ -135,6 +137,7 @@ $app->router->post('/api/v1/practices/{id}/notes', [$practices, 'addNote']);
 $app->router->post('/api/v1/practice-links', [$practices, 'link']);
 
 $app->router->post('/api/v1/rsu-elections/analyze', [$rsuElections, 'analyze']);
+$app->router->post('/api/v1/union-permits/analyze', [$unionPermits, 'analyze']);
 
 $app->router->get('/api/v1/contacts', [$contacts, 'index']);
 $app->router->post('/api/v1/institutional-contacts', [$contacts, 'storeInstitutional']);
