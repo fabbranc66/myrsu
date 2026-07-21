@@ -114,6 +114,7 @@ final class FpdiUploadedPdfService
     {
         $pdf->AddPage('P', [PdfLayoutService::PAGE_WIDTH, PdfLayoutService::PAGE_HEIGHT]);
         $this->header($pdf, $document, $protocol, $name, $page, $url, $qrPath);
+        $this->watermark($pdf);
         $pdf->SetFont('Helvetica', 'B', 18);
         $pdf->Text(42, 182, 'Verifica documento');
         $pdf->SetLineWidth(0.45);
@@ -125,19 +126,20 @@ final class FpdiUploadedPdfService
         $pdf->Text(42, 289, 'Checksum verificato sul file PDF conservato dal sistema.');
         $pdf->Text(42, 306, $this->encode('Link verifica: ' . $url));
         $pdf->Link(42, 294, 511, 16, $url);
-        $this->watermark($pdf);
         $this->footer($pdf);
     }
 
     private function watermark(MyRsuFpdi $pdf): void
     {
-        $pdf->SetTextColor(195, 195, 195);
+        $pdf->setAlpha(0.22);
+        $pdf->SetTextColor(120, 120, 120);
         $pdf->SetFont('Helvetica', 'B', 94);
         $pdf->rotatedText(205, 390, 'RSU', 28);
         $pdf->rotatedText(205, 665, 'RSU', 28);
         $pdf->SetFont('Helvetica', 'B', 24);
         $pdf->rotatedText(245, 448, 'Sitem Canegrate', 28);
         $pdf->rotatedText(245, 723, 'Sitem Canegrate', 28);
+        $pdf->setAlpha(1);
         $pdf->SetTextColor(0);
     }
 

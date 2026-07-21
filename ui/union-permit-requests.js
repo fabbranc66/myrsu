@@ -132,15 +132,8 @@ async function deleteRequest(id) {
 
 async function showDocument(id) {
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
-  const response = await fetch(`${apiBase}/documents/${id}/preview`, {
-    headers: { Authorization: `Bearer ${token}` },
-  });
-  if (!response.ok) {
-    const payload = await response.json().catch(() => ({}));
-    throw new Error(payload.error?.message || 'Anteprima non disponibile');
-  }
-  documentPreviewUrl = URL.createObjectURL(await response.blob());
-  documentPreview.src = documentPreviewUrl;
+  documentPreviewUrl = null;
+  documentPreview.src = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token || '')}`;
   documentModal.showModal();
 }
 

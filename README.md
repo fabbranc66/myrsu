@@ -37,6 +37,33 @@ Backend API-first custom PHP per gestione RSU.
 }
 ```
 
+## Ambiente operativo
+
+- Locale: sviluppo e generazione PDF quando hosting non supporta tool server.
+- Hosting: ambiente reale, deploy manuale dei file modificati.
+- Database locale: `myrsu`.
+- Database hosting: `Sql1874742_5`.
+- `.env` locale e hosting possono restare uguali se `APP_URL` punta all’ambiente usato.
+- Non cancellare mai utenti, ruoli, GDPR e contatti istituzionali durante reset operativi.
+
+## Reset operativo standard
+
+Usare solo per azzerare dati di lavoro, mantenendo anagrafiche e permessi.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\reset_operational_db.ps1
+```
+
+Preserva:
+
+- `users`
+- `roles`
+- `permissions`
+- `role_user`
+- `permission_role`
+- `gdpr_consents`
+- `institutional_contacts`
+
 ## Hosting Upload
 
 ```powershell

@@ -126,15 +126,7 @@ closeDocumentModal.addEventListener('click', () => {
 async function openDocumentPreview(id) {
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
   documentPreviewUrl = null;
-  const headers = {};
-  if (token) headers.Authorization = `Bearer ${token}`;
-  const response = await fetch(`${apiBase}/documents/${id}/preview`, { headers });
-  if (!response.ok) {
-    const payload = await response.json().catch(() => ({}));
-    throw new Error(payload.error?.message || 'Anteprima non disponibile');
-  }
-  documentPreviewUrl = URL.createObjectURL(await response.blob());
-  documentPreview.src = documentPreviewUrl;
+  documentPreview.src = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token || '')}`;
 }
 
 async function showReport(id) {

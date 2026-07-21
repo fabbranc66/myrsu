@@ -94,7 +94,7 @@ final class PdfWatermarkService
     private function drawWatermark(\GdImage $canvas): void
     {
         $font = $this->fontPath(true);
-        $gray = imagecolorallocatealpha($canvas, 120, 120, 120, 63);
+        $gray = imagecolorallocatealpha($canvas, 150, 150, 150, 110);
         $this->drawWatermarkBlock($canvas, 360, 600, $gray, $font);
         $this->drawWatermarkBlock($canvas, 360, 1290, $gray, $font);
     }

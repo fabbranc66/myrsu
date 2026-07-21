@@ -1,0 +1,30 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+TRUNCATE TABLE api_tokens;
+TRUNCATE TABLE activity_logs;
+TRUNCATE TABLE document_comments;
+TRUNCATE TABLE report_attachments;
+TRUNCATE TABLE reports;
+TRUNCATE TABLE protocol_entries;
+TRUNCATE TABLE documents;
+TRUNCATE TABLE practice_links;
+TRUNCATE TABLE practice_notes;
+TRUNCATE TABLE practices;
+TRUNCATE TABLE calls_log;
+TRUNCATE TABLE union_meeting_documents;
+TRUNCATE TABLE union_meeting_notes;
+TRUNCATE TABLE union_meeting_participants;
+TRUNCATE TABLE union_meetings;
+TRUNCATE TABLE workers_assembly_documents;
+TRUNCATE TABLE workers_assembly_participants;
+TRUNCATE TABLE workers_assembly_session_notes;
+TRUNCATE TABLE workers_assembly_sessions;
+TRUNCATE TABLE workers_assemblies;
+TRUNCATE TABLE voting_ballots;
+TRUNCATE TABLE voting_tokens;
+TRUNCATE TABLE voting_options;
+TRUNCATE TABLE votings;
+TRUNCATE TABLE union_permit_requests;
+TRUNCATE TABLE union_permit_allocations;
+
+SET FOREIGN_KEY_CHECKS=1;

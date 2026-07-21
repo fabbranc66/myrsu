@@ -23,7 +23,7 @@ final class PdfLayoutService
     public function page(string $body, array $header = [], string $footer = 'RSU Sitem Canegrate'): array
     {
         return [
-            'content' => $this->header($header) . $body . $this->footer($footer) . $this->watermark(),
+            'content' => $this->watermark() . $this->header($header) . $body . $this->footer($footer),
             'images' => [],
             'links' => [],
         ];
@@ -105,9 +105,9 @@ final class PdfLayoutService
 
     public function watermark(): string
     {
-        return "q /GS1 gs 0.48 g 0.8829 0.4695 -0.4695 0.8829 298 625 cm "
+        return "q /GS1 gs 0.72 g 0.8829 0.4695 -0.4695 0.8829 298 625 cm "
             . "BT /F2 105 Tf -98 18 Td (RSU) Tj ET BT /F2 28 Tf -120 -36 Td (Sitem Canegrate) Tj ET Q\n"
-            . "q /GS1 gs 0.48 g 0.8829 0.4695 -0.4695 0.8829 298 310 cm "
+            . "q /GS1 gs 0.72 g 0.8829 0.4695 -0.4695 0.8829 298 310 cm "
             . "BT /F2 105 Tf -98 18 Td (RSU) Tj ET BT /F2 28 Tf -120 -36 Td (Sitem Canegrate) Tj ET Q\n";
     }
 

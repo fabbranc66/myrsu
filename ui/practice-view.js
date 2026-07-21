@@ -4,9 +4,13 @@ const practiceId = Number(new URLSearchParams(window.location.search).get('id'))
 const form = document.querySelector('#practiceEditForm');
 const noteForm = document.querySelector('#practiceNoteForm');
 const timeline = document.querySelector('#practiceTimeline');
+const documentModal = document.querySelector('#documentModal');
+const documentPreview = document.querySelector('#documentPreview');
+const closeDocumentModal = document.querySelector('#closeDocumentModal');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
 let assignees = [];
+let documentPreviewUrl = null;
 
 if (!token || !practiceId) window.location.href = 'practices.html';
 
@@ -46,9 +50,29 @@ function renderTimeline(items) {
 }
 
 function timelineItem(item) {
-  const link = itemLink(item);
-  return `<article class="timeline-item"><header><span class="timeline-type">${typeLabel(item.type)}</span><time>${escapeHtml(item.event_at)}</time></header><strong>${escapeHtml(item.title)}</strong><p>${escapeHtml(item.summary)}</p>${item.status ? `<small>${escapeHtml(item.status)}</small>` : ''}${link ? `<div><a href="${link}">Apri</a></div>` : ''}</article>`;
+  const action = itemAction(item);
+  return `<article class="timeline-item"><header><span class="timeline-type">${typeLabel(item.type)}</span><time>${escapeHtml(item.event_at)}</time></header><strong>${escapeHtml(item.title)}</strong><p>${escapeHtml(item.summary)}</p>${item.status ? `<small>${escapeHtml(item.status)}</small>` : ''}${action ? `<div>${action}</div>` : ''}</article>`;
 }
+
+timeline.addEventListener('click', async (event) => {
+  const button = event.target.closest('[data-document-id]');
+  if (!button) return;
+  await showDocument(button.dataset.documentId);
+});
+
+async function showDocument(id) {
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  documentPreviewUrl = null;
+  documentPreview.src = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token || '')}`;
+  documentModal.showModal();
+}
+
+closeDocumentModal.addEventListener('click', () => {
+  if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
+  documentPreviewUrl = null;
+  documentPreview.src = '';
+  documentModal.close();
+});
 
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
@@ -70,7 +94,12 @@ noteForm.addEventListener('submit', async (event) => {
 function meta(name, value) { return `<div><span class="muted">${name}</span><strong>${escapeHtml(value)}</strong></div>`; }
 function label(group, value) { return MyRsuPracticeOptions.label(MyRsuPracticeOptions[group], value); }
 function typeLabel(type) { return { document: 'documento', report: 'segnalazione', comment: 'commento', protocol: 'protocollo', attachment: 'allegato', meeting: 'incontro', call: 'telefonata', note: 'nota operativa' }[type] || type; }
-function itemLink(item) { if (item.type === 'protocol') return `protocol-view.html?id=${item.id}`; if (item.document_id) return `document-view.html?id=${item.document_id}`; if (item.type === 'meeting') return 'union-meetings.html'; if (item.type === 'call') return 'calls.html'; if (item.type === 'report') return 'reports-moderation.html'; if (item.type === 'comment') return 'comments-moderation.html'; return ''; }
+function itemAction(item) {
+  if (item.document_id) return `<button type="button" class="secondary-link" data-document-id="${item.document_id}">Apri documento</button>`;
+  const link = itemLink(item);
+  return link ? `<a href="${link}">Apri</a>` : '';
+}
+function itemLink(item) { if (item.type === 'protocol') return `protocol-view.html?id=${item.id}`; if (item.type === 'meeting') return 'union-meetings.html'; if (item.type === 'call') return 'calls.html'; if (item.type === 'report') return 'reports-moderation.html'; if (item.type === 'comment') return 'comments-moderation.html'; return ''; }
 function escapeHtml(value) { return String(value || '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;'); }
 
 load().catch((error) => { message.textContent = error.message; });
