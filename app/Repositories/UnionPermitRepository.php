@@ -27,9 +27,15 @@ final class UnionPermitRepository
 
         $sql = "SELECT a.*, u.name AS user_name, u.email AS user_email
                 FROM union_permit_allocations a
-                INNER JOIN users u ON u.id = a.user_id";
+                INNER JOIN users u ON u.id = a.user_id
+                WHERE NOT EXISTS (
+                    SELECT 1
+                    FROM role_user ru
+                    INNER JOIN roles r ON r.id = ru.role_id
+                    WHERE ru.user_id = u.id AND r.name = 'admin'
+                )";
         if ($where !== []) {
-            $sql .= ' WHERE ' . implode(' AND ', $where);
+            $sql .= ' AND ' . implode(' AND ', $where);
         }
         $sql .= ' ORDER BY a.year DESC, u.name, a.permit_type';
 

@@ -100,12 +100,12 @@ function row(document) {
   if (isDraftComunicato(document)) {
     return `
       <tr>
-        <td><span class="doc-type-tag draft">DRAFT</span> ${document.original_name}</td>
-        <td>${document.category || '-'}</td>
-        <td>${translateVisibility(document.visibility)}</td>
-        <td><span class="doc-origin-tag draft">Bozza - documento non generato</span></td>
-        <td>-</td>
-        <td class="actions-cell">
+        <td data-label="Nome"><span class="table-value-title"><span class="doc-type-tag draft">DRAFT</span><span class="truncate-title" title="${escapeHtml(document.original_name)}">${escapeHtml(document.original_name)}</span></span></td>
+        <td data-label="Categoria">${document.category || '-'}</td>
+        <td data-label="Visibilita">${translateVisibility(document.visibility)}</td>
+        <td data-label="Stato"><span class="doc-origin-tag draft">Bozza - documento non generato</span></td>
+        <td data-label="Dimensione">-</td>
+        <td data-label="Azioni" class="actions-cell">
           <a class="icon-action" href="comunicati-editor.html?id=${document.id}" title="Modifica bozza">${MyRsuIcons.get('edit')}</a>
           <button class="draft-generate-button" data-generate="${document.id}" title="Genera documento ufficiale">${MyRsuIcons.get('document')} Genera ufficiale</button>
           <button class="icon-action danger" data-delete="${document.id}" title="Elimina">${MyRsuIcons.get('trash')}</button>
@@ -115,12 +115,12 @@ function row(document) {
 
   return `
     <tr>
-      <td><span class="doc-type-tag">${documentsSystemType(document)}</span> ${document.original_name}</td>
-      <td>${document.category || '-'}</td>
-      <td>${translateVisibility(document.visibility)}</td>
-      <td>${translateStatus(document.conversion_status)}</td>
-      <td>${document.pdf_size_bytes || document.size_bytes}</td>
-      <td class="actions-cell">
+      <td data-label="Nome"><span class="table-value-title"><span class="doc-type-tag">${documentsSystemType(document)}</span><span class="truncate-title" title="${escapeHtml(document.original_name)}">${escapeHtml(document.original_name)}</span></span></td>
+      <td data-label="Categoria">${document.category || '-'}</td>
+      <td data-label="Visibilita">${translateVisibility(document.visibility)}</td>
+      <td data-label="Stato">${translateStatus(document.conversion_status)}</td>
+      <td data-label="Dimensione">${document.pdf_size_bytes || document.size_bytes}</td>
+      <td data-label="Azioni" class="actions-cell">
         <button class="icon-action" data-view="${document.id}" title="Anteprima">${MyRsuIcons.get('eye')}</button>
         <button class="icon-action document-comments-icon ${Number(document.approved_comments_count || 0) > 0 ? 'has-comments' : 'no-comments'}" data-comments="${document.id}" title="${Number(document.approved_comments_count || 0)} commenti approvati" ${Number(document.approved_comments_count || 0) === 0 ? 'disabled' : ''}>${MyRsuIcons.get('note')}</button>
         <a class="icon-action" href="document-edit.html?id=${document.id}" title="${document.category === 'comunicati' ? 'Modifica comunicato e rigenera PDF' : 'Modifica'}">${MyRsuIcons.get('edit')}</a>
@@ -379,6 +379,16 @@ function practiceIds(document) {
     .split(',')
     .map((id) => Number(id))
     .filter(Boolean);
+}
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, (char) => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;',
+  }[char]));
 }
 
 if (!token) {

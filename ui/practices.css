@@ -6,6 +6,7 @@
 .practice-progress-label { margin-bottom: 5px; font-size: 12px; font-weight: 700; color: #334155; }
 .practice-progress { width: 190px; height: 8px; overflow: hidden; border-radius: 999px; background: #e2e8f0; }
 .practice-progress span { display: block; height: 100%; border-radius: inherit; background: #2563eb; }
+.truncate-title { display: block; max-width: 320px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .practice-view-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(320px, .8fr); gap: 20px; }
 .practice-card { padding: 18px; border: 1px solid #d7dde5; border-radius: 10px; background: #fff; }
 .practice-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
@@ -25,3 +26,7 @@
 .timeline-toggle-item:not([open]) > small,
 .timeline-toggle-item:not([open]) > div { display: none; }
 @media (max-width: 900px) { .practice-form, .practice-view-grid, .practice-meta { grid-template-columns: 1fr; } .practice-form .wide { grid-column: auto; } }
+@media (max-width: 760px) {
+  .practices-mobile-table .truncate-title { max-width: 100%; }
+  .practices-mobile-table .practice-progress { width: 100%; max-width: 220px; }
+}

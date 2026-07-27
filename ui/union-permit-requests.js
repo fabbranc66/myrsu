@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const form = document.querySelector('#requestForm');
 const delegateSelect = document.querySelector('#delegateSelect');
 const delegateInfo = document.querySelector('#delegateInfo');
@@ -70,14 +70,14 @@ async function loadDelegate() {
     return `<div class="stat-card"><strong>${permitLabel(row.permit_type)} ${row.year}</strong><span>${remaining.toFixed(2)} ore residue</span></div>`;
   }).join('') || '<p>Nessun monte ore assegnato.</p>';
   requestsTable.innerHTML = requests.map((row) => `<tr>
-    <td>${escapeHtml(row.protocol_number || '-')}</td>
-    <td>${escapeHtml(row.request_date)}</td>
-    <td>${scopeLabel(row.request_scope)}</td>
-    <td>${permitLabel(row.permit_type)}</td>
-    <td>${escapeHtml(row.hours)}</td>
-    <td>${statusLabel(row.status)}</td>
-    <td>${escapeHtml(row.subject)}</td>
-    <td class="actions-cell">${actions(row)}</td>
+    <td data-label="Protocollo">${escapeHtml(row.protocol_number || '-')}</td>
+    <td data-label="Data">${escapeHtml(row.request_date)}</td>
+    <td data-label="Ambito">${scopeLabel(row.request_scope)}</td>
+    <td data-label="Tipo">${permitLabel(row.permit_type)}</td>
+    <td data-label="Ore">${escapeHtml(row.hours)}</td>
+    <td data-label="Stato">${statusLabel(row.status)}</td>
+    <td data-label="Oggetto"><span class="truncate-title" title="${escapeHtml(row.subject)}">${escapeHtml(row.subject)}</span></td>
+    <td data-label="Azioni" class="actions-cell">${actions(row)}</td>
   </tr>`).join('');
 }
 

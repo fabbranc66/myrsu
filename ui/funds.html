@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Fondi</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
-  <link rel="stylesheet" href="users.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260728-mobile-funds-1">
   <link rel="stylesheet" href="funds.css?v=20260727-collapsible-1">
 </head>
 <body>
@@ -30,7 +30,7 @@
           <label class="wide">Note<textarea name="notes" rows="3"></textarea></label>
           <div class="wide"><button type="submit">Salva contratto</button><button id="resetContract" type="button">Nuovo</button></div>
         </form>
-        <table><thead><tr><th>Fornitore</th><th>Contratto</th><th>Periodo</th><th>Stato</th><th>Documento</th><th>Azioni</th></tr></thead><tbody id="contractsTable"></tbody></table>
+        <table class="mobile-card-table funds-mobile-table"><thead><tr><th>Fornitore</th><th>Contratto</th><th>Periodo</th><th>Stato</th><th>Documento</th><th>Azioni</th></tr></thead><tbody id="contractsTable"></tbody></table>
         </div>
       </section>
 
@@ -68,7 +68,7 @@
           <label class="wide">Note<textarea name="notes" rows="3"></textarea></label>
           <div class="wide"><button type="submit">Salva movimento</button><button id="resetMovement" type="button">Nuovo</button></div>
         </form>
-        <table><thead><tr><th>Data</th><th>Tipo</th><th>Importo</th><th>Causale</th><th>Riferimento</th><th>Documento</th><th>Azioni</th></tr></thead><tbody id="movementsTable"></tbody></table>
+        <table class="mobile-card-table funds-mobile-table"><thead><tr><th>Data</th><th>Tipo</th><th>Importo</th><th>Causale</th><th>Riferimento</th><th>Documento</th><th>Azioni</th></tr></thead><tbody id="movementsTable"></tbody></table>
       </section>
 
       <dialog id="documentModal" class="preview-modal">
@@ -82,7 +82,7 @@
   <script src="vendor/jspdf/jspdf.umd.min.js"></script>
   <script src="pdf-rasterizer.js?v=20260627-1"></script>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="funds.js?v=20260727-collapsible-1"></script>
+  <script src="funds.js?v=20260728-mobile-funds-1"></script>
   <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>
 </html>

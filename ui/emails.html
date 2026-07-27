@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>E-mail - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
-  <link rel="stylesheet" href="users.css?v=20260627-1">
+  <link rel="stylesheet" href="users.css?v=20260728-mobile-actions-3">
   <link rel="stylesheet" href="emails.css?v=20260728-practice-select-1">
 </head>
 <body>
@@ -34,7 +34,7 @@
         <select id="statusFilter"><option value="">tutti stati</option><option value="new">nuove</option><option value="in_progress">in lavorazione</option><option value="managed">gestite</option><option value="archived">archiviate</option></select>
       </div>
 
-      <table>
+      <table class="mobile-card-table emails-mobile-table">
         <thead><tr><th>Data</th><th>Tipo</th><th>Oggetto</th><th>Contatto</th><th>Pratica</th><th>Stato</th><th>Azioni</th></tr></thead>
         <tbody id="emailsTable"></tbody>
       </table>
@@ -55,7 +55,7 @@
     </section>
   </main>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="emails.js?v=20260728-actions-2"></script>
+  <script src="emails.js?v=20260728-mobile-table-1"></script>
   <script src="auth-menu.js?v=20260727-token-1"></script>
 </body>
 </html>

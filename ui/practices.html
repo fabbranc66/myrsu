@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Pratiche</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
-  <link rel="stylesheet" href="users.css?v=20260627-1">
-  <link rel="stylesheet" href="practices.css?v=20260628-2">
+  <link rel="stylesheet" href="users.css?v=20260728-truncate-3">
+  <link rel="stylesheet" href="practices.css?v=20260728-mobile-table-1">
 </head>
 <body>
   <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Pratiche</h1></div><nav class="app-nav"></nav></header>
@@ -28,16 +28,32 @@
           <div class="wide"><button type="submit">Crea pratica</button></div>
         </form>
       </details>
-      <table>
+      <table class="mobile-card-table practices-mobile-table">
         <thead><tr><th>Tipo</th><th>Codice</th><th>Titolo</th><th>Avanzamento</th><th>Ultimo movimento</th><th>Priorità</th><th>Assegnata a</th><th></th></tr></thead>
         <tbody id="practicesTable"></tbody>
       </table>
+      <dialog id="practiceDocumentLinkModal">
+        <header><h2>Collega documento</h2><button id="closePracticeDocumentLinkModal" type="button">Chiudi</button></header>
+        <form id="practiceDocumentLinkForm" class="grid">
+          <input name="practice_id" type="hidden">
+          <select name="document_id" required></select>
+          <button type="submit">Collega</button>
+        </form>
+      </dialog>
+      <dialog id="practiceDocumentUnlinkModal">
+        <header><h2>Scollega documento</h2><button id="closePracticeDocumentUnlinkModal" type="button">Chiudi</button></header>
+        <form id="practiceDocumentUnlinkForm" class="grid">
+          <input name="practice_id" type="hidden">
+          <select name="document_id" required></select>
+          <button type="submit">Scollega</button>
+        </form>
+      </dialog>
       <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
   <script src="icons.js?v=20260719-icons-1"></script>
   <script src="practice-options.js?v=20260628-1"></script>
-  <script src="practices.js?v=20260721-actions-1"></script>
+  <script src="practices.js?v=20260728-link-docs-1"></script>
   <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Permessi sindacali - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
-  <link rel="stylesheet" href="users.css?v=20260719-mobile-11">
+  <link rel="stylesheet" href="users.css?v=20260728-mobile-permits-1">
 </head>
 <body>
   <header class="app-header">
@@ -42,7 +42,7 @@
         <label>Ore annue da calcolo<input name="annual_hours" type="number" min="0.5" step="0.5" readonly required></label>
         <button type="submit">Salva monte ore calcolato</button>
       </form>
-      <table>
+      <table class="mobile-card-table permits-mobile-table">
         <thead><tr><th>Utente</th><th>Anno</th><th>Tipo</th><th>Annue</th><th>Usate</th><th>Residue</th></tr></thead>
         <tbody id="allocationsTable"></tbody>
       </table>
@@ -50,7 +50,7 @@
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="union-permits.js?v=20260720-7"></script>
+  <script src="union-permits.js?v=20260728-mobile-permits-1"></script>
   <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>
 </html>

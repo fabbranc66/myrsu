@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const contractForm = document.querySelector('#contractForm');
 const movementForm = document.querySelector('#movementForm');
 const statementForm = document.querySelector('#statementForm');
@@ -53,24 +53,24 @@ function renderSummary(balance) {
 
 function renderContracts() {
   contractsTable.innerHTML = contracts.map((row) => `<tr>
-    <td>${escapeHtml(row.supplier_name)}</td>
-    <td>${escapeHtml(row.contract_number || '-')}</td>
-    <td>${escapeHtml(row.start_date)} / ${escapeHtml(row.end_date || '-')}</td>
-    <td>${statusLabel(row.status)}</td>
-    <td>${documentCell(row.document_id, row.document_name)}</td>
-    <td class="actions-cell">${actions('contract', row.id)}</td>
+    <td data-label="Fornitore"><span class="truncate-title" title="${escapeHtml(row.supplier_name)}">${escapeHtml(row.supplier_name)}</span></td>
+    <td data-label="Contratto">${escapeHtml(row.contract_number || '-')}</td>
+    <td data-label="Periodo">${escapeHtml(row.start_date)} / ${escapeHtml(row.end_date || '-')}</td>
+    <td data-label="Stato">${statusLabel(row.status)}</td>
+    <td data-label="Documento">${documentCell(row.document_id, row.document_name)}</td>
+    <td data-label="Azioni" class="actions-cell">${actions('contract', row.id)}</td>
   </tr>`).join('') || '<tr><td colspan="6">Nessun contratto.</td></tr>';
 }
 
 function renderMovements() {
   movementsTable.innerHTML = movements.map((row) => `<tr>
-    <td>${escapeHtml(row.movement_date)}</td>
-    <td>${typeLabel(row.movement_type)}</td>
-    <td>${money(row.amount)}</td>
-    <td>${escapeHtml(row.reason)}</td>
-    <td>${escapeHtml(row.supplier_name || '-')}</td>
-    <td>${documentCell(row.document_id, row.document_name)}</td>
-    <td class="actions-cell">${actions('movement', row.id)}</td>
+    <td data-label="Data">${escapeHtml(row.movement_date)}</td>
+    <td data-label="Tipo">${typeLabel(row.movement_type)}</td>
+    <td data-label="Importo">${money(row.amount)}</td>
+    <td data-label="Causale"><span class="truncate-title" title="${escapeHtml(row.reason)}">${escapeHtml(row.reason)}</span></td>
+    <td data-label="Riferimento"><span class="truncate-title" title="${escapeHtml(row.supplier_name || '-')}">${escapeHtml(row.supplier_name || '-')}</span></td>
+    <td data-label="Documento">${documentCell(row.document_id, row.document_name)}</td>
+    <td data-label="Azioni" class="actions-cell">${actions('movement', row.id)}</td>
   </tr>`).join('') || '<tr><td colspan="7">Nessun movimento.</td></tr>';
 }
 
@@ -248,7 +248,7 @@ closeDocumentModal.addEventListener('click', () => {
 });
 
 function documentCell(id, name) {
-  return id ? `<button class="icon-action" data-view-document="${id}" title="Visualizza">${MyRsuIcons.get('eye')}</button> ${escapeHtml(name || `doc ${id}`)}` : '-';
+  return id ? `<span class="table-value-title"><button class="icon-action" data-view-document="${id}" title="Visualizza">${MyRsuIcons.get('eye')}</button><span class="truncate-title" title="${escapeHtml(name || `doc ${id}`)}">${escapeHtml(name || `doc ${id}`)}</span></span>` : '-';
 }
 
 function clean(data) {

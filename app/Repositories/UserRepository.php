@@ -68,6 +68,12 @@ final class UserRepository
              INNER JOIN role_user ru ON ru.user_id = u.id
              INNER JOIN roles r ON r.id = ru.role_id
              WHERE u.status = 'active' AND r.name IN ('delegato', 'rls')
+              AND NOT EXISTS (
+                  SELECT 1
+                  FROM role_user admin_ru
+                  INNER JOIN roles admin_role ON admin_role.id = admin_ru.role_id
+                  WHERE admin_ru.user_id = u.id AND admin_role.name = 'admin'
+              )
              GROUP BY u.id
              ORDER BY u.name"
         )->fetchAll();

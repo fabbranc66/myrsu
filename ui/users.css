@@ -22,6 +22,16 @@ main {
   padding: 20px;
 }
 
+.truncate-title {
+  display: inline-block;
+  width: 320px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+
 .public-form-panel {
   border-color: #d8e0ec;
   border-radius: 16px;
@@ -1008,6 +1018,111 @@ dialog {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
+  }
+
+  .mobile-card-table,
+  .mobile-card-table thead,
+  .mobile-card-table tbody,
+  .mobile-card-table tr,
+  .mobile-card-table th,
+  .mobile-card-table td {
+    display: block;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .mobile-card-table thead {
+    display: none;
+  }
+
+  .mobile-card-table {
+    overflow: visible;
+  }
+
+  .mobile-card-table tr {
+    margin: 0 0 12px;
+    padding: 10px;
+    border: 1px solid #d7dde5;
+    border-radius: 12px;
+    background: #fff;
+  }
+
+  .mobile-card-table td {
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr);
+    gap: 8px;
+    align-items: start;
+    padding: 7px 0;
+    border: 0;
+    min-width: 0;
+  }
+
+  .mobile-card-table td::before {
+    content: attr(data-label);
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .mobile-card-table .actions-cell {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .mobile-card-table .actions-cell::before {
+    display: none;
+    content: none;
+  }
+
+  .mobile-card-table .truncate-title {
+    display: block;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .mobile-card-table .table-value-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .mobile-card-table .table-value-title .truncate-title {
+    flex: 1 1 auto;
+  }
+
+  .documents-mobile-table .icon-action,
+  .practices-mobile-table .icon-action,
+  .funds-mobile-table .icon-action,
+  .permits-mobile-table .icon-action {
+    width: 30px;
+    height: 30px;
+    min-height: 30px;
+    padding: 5px;
+  }
+
+  .documents-mobile-table .icon-action svg,
+  .practices-mobile-table .icon-action svg,
+  .funds-mobile-table .icon-action svg,
+  .permits-mobile-table .icon-action svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .documents-mobile-table .actions-cell,
+  .practices-mobile-table .actions-cell,
+  .funds-mobile-table .actions-cell,
+  .permits-mobile-table .actions-cell {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
 
   th,

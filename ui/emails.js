@@ -54,13 +54,13 @@ function fillPractices() {
 
 function render() {
   table.innerHTML = emails.map((email) => `<tr>
-    <td>${escapeHtml(email.message_at)}</td>
-    <td>${directionLabel(email.direction)}</td>
-    <td title="${escapeHtml(email.subject)}">${escapeHtml(email.subject)}</td>
-    <td>${escapeHtml(email.from_name || email.from_email || email.to_emails || '-')}</td>
-    <td>${escapeHtml(email.practice_title || '-')}</td>
-    <td>${statusLabel(email.handling_status)}</td>
-    <td class="actions-cell">
+    <td data-label="Data">${escapeHtml(email.message_at)}</td>
+    <td data-label="Tipo">${directionLabel(email.direction)}</td>
+    <td data-label="Oggetto" title="${escapeHtml(email.subject)}">${escapeHtml(email.subject)}</td>
+    <td data-label="Contatto">${escapeHtml(email.from_name || email.from_email || email.to_emails || '-')}</td>
+    <td data-label="Pratica">${escapeHtml(email.practice_title || '-')}</td>
+    <td data-label="Stato">${statusLabel(email.handling_status)}</td>
+    <td data-label="Azioni" class="actions-cell">
       <button class="icon-action" data-view="${email.id}" title="Visualizza">${MyRsuIcons.get('eye')}</button>
       <button class="icon-action" data-edit="${email.id}" title="Modifica">${MyRsuIcons.get('edit')}</button>
       <button class="icon-action" data-download="${email.id}" title="Scarica">${MyRsuIcons.get('download')}</button>

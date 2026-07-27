@@ -52,7 +52,10 @@ final class UnionPermitRequestController
         if ($type === 'rls' && !in_array('rls', $targetRoles, true)) {
             throw new HttpException(422, 'Ore RLS assegnabili solo a utenti RLS.');
         }
-        if ($type === 'rsu' && !array_intersect($targetRoles, ['admin', 'delegato', 'rls'])) {
+        if (in_array('admin', $targetRoles, true)) {
+            throw new HttpException(422, 'Admin non è RSU/RLS assegnabile.');
+        }
+        if ($type === 'rsu' && !array_intersect($targetRoles, ['delegato', 'rls'])) {
             throw new HttpException(422, 'Ore RSU assegnabili solo a RSU/delegati/RLS.');
         }
 

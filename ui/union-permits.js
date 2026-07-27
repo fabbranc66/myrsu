@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const form = document.querySelector('#permitForm');
 const allocationForm = document.querySelector('#allocationForm');
 const allocationUser = allocationForm.querySelector('[name="user_id"]');
@@ -106,9 +106,8 @@ async function requireAdmin() {
 
 async function loadAdminData() {
   try {
-    const users = await api('/users');
+    const users = await api('/union-permits/delegates');
     allocationUser.innerHTML = users
-      .filter((user) => String(user.roles || '').match(/admin|delegato|rls/))
       .map((user) => `<option value="${user.id}" data-roles="${escapeHtml(user.roles)}">${escapeHtml(user.name)} (${escapeHtml(user.roles)})</option>`)
     .join('');
     fillCalculatedHours();
@@ -137,12 +136,12 @@ async function loadAllocations() {
   allocationsTable.innerHTML = rows.map((row) => {
     const remaining = Number(row.annual_hours) - Number(row.used_hours);
     return `<tr>
-      <td>${escapeHtml(row.user_name)}</td>
-      <td>${row.year}</td>
-      <td>${permitLabel(row.permit_type)}</td>
-      <td>${row.annual_hours}</td>
-      <td>${row.used_hours}</td>
-      <td>${remaining.toFixed(2)}</td>
+      <td data-label="Utente"><span class="truncate-title" title="${escapeHtml(row.user_name)}">${escapeHtml(row.user_name)}</span></td>
+      <td data-label="Anno">${row.year}</td>
+      <td data-label="Tipo">${permitLabel(row.permit_type)}</td>
+      <td data-label="Annue">${row.annual_hours}</td>
+      <td data-label="Usate">${row.used_hours}</td>
+      <td data-label="Residue">${remaining.toFixed(2)}</td>
     </tr>`;
   }).join('');
 }
