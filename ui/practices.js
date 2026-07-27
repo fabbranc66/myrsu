@@ -45,7 +45,9 @@ function row(practice) {
     <td>${escapeHtml(practice.last_activity_at)}</td>
     <td>${MyRsuPracticeOptions.label(MyRsuPracticeOptions.priorities, practice.priority)}</td>
     <td>${escapeHtml(practice.assigned_user_name || '-')}</td>
-    <td><a class="button small" href="practice-view.html?id=${practice.id}">Apri</a></td>
+    <td class="actions-cell">
+      <a class="icon-action" href="practice-view.html?id=${practice.id}" title="Apri pratica">${MyRsuIcons.get('eye')}</a>
+    </td>
   </tr>`;
 }
 

@@ -1,0 +1,40 @@
+.funds-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.fund-card {
+  border: 1px solid #d8dee9;
+  border-radius: 10px;
+  padding: 14px;
+  background: #fff;
+}
+
+.fund-card strong {
+  display: block;
+  font-size: 1.3rem;
+}
+
+.fund-section {
+  margin-top: 18px;
+}
+
+.fund-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.fund-form .wide {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 760px) {
+  .funds-summary,
+  .fund-form {
+    grid-template-columns: 1fr;
+  }
+}

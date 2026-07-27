@@ -26,5 +26,7 @@ TRUNCATE TABLE voting_options;
 TRUNCATE TABLE votings;
 TRUNCATE TABLE union_permit_requests;
 TRUNCATE TABLE union_permit_allocations;
+TRUNCATE TABLE fund_movements;
+TRUNCATE TABLE vending_contracts;
 
 SET FOREIGN_KEY_CHECKS=1;

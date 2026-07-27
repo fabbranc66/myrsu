@@ -28,12 +28,13 @@ async function load() {
   assignees = operatorRows;
   renderPractice(data.practice);
   renderTimeline(data.timeline);
+  if (window.location.hash === '#edit') {
+    form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    form.summary.focus();
+  }
 }
 
 function renderPractice(practice) {
-  document.querySelector('#practiceHeading').textContent = `${practice.code} - ${practice.title}`;
-  document.querySelector('#practiceSummary').textContent = practice.summary || 'Nessuna sintesi.';
-  document.querySelector('#practiceMeta').innerHTML = meta('Stato', label('statuses', practice.status)) + meta('Priorità', label('priorities', practice.priority)) + meta('Assegnata a', practice.assigned_user_name || '-') + meta('Origine', label('sources', practice.source_type)) + meta('Scadenza', practice.due_date || '-') + meta('Ultima modifica', practice.updated_at);
   form.title.value = practice.title;
   form.summary.value = practice.summary || '';
   form.type.innerHTML = MyRsuPracticeOptions.options(MyRsuPracticeOptions.types, practice.type);
@@ -56,8 +57,14 @@ function timelineItem(item) {
 
 timeline.addEventListener('click', async (event) => {
   const button = event.target.closest('[data-document-id]');
-  if (!button) return;
-  await showDocument(button.dataset.documentId);
+  if (button) {
+    await showDocument(button.dataset.documentId);
+    return;
+  }
+
+  const unlinkButton = event.target.closest('[data-unlink-document]');
+  if (!unlinkButton) return;
+  await unlinkDocument(unlinkButton.dataset.unlinkDocument);
 });
 
 async function showDocument(id) {
@@ -95,11 +102,32 @@ function meta(name, value) { return `<div><span class="muted">${name}</span><str
 function label(group, value) { return MyRsuPracticeOptions.label(MyRsuPracticeOptions[group], value); }
 function typeLabel(type) { return { document: 'documento', report: 'segnalazione', comment: 'commento', protocol: 'protocollo', attachment: 'allegato', meeting: 'incontro', call: 'telefonata', note: 'nota operativa' }[type] || type; }
 function itemAction(item) {
-  if (item.document_id) return `<button type="button" class="secondary-link" data-document-id="${item.document_id}">Apri documento</button>`;
+  if (item.document_id) {
+    return `<span class="actions-cell">
+      <button type="button" class="icon-action" data-document-id="${item.document_id}" title="Apri">${MyRsuIcons.get('eye')}</button>
+      <a class="icon-action" href="document-edit.html?id=${item.document_id}" title="Modifica">${MyRsuIcons.get('edit')}</a>
+      <button type="button" class="icon-action danger" data-unlink-document="${item.document_id}" title="Scollega">${MyRsuIcons.get('link')}</button>
+    </span>`;
+  }
   const link = itemLink(item);
   return link ? `<a href="${link}">Apri</a>` : '';
 }
 function itemLink(item) { if (item.type === 'protocol') return `protocol-view.html?id=${item.id}`; if (item.type === 'meeting') return 'union-meetings.html'; if (item.type === 'call') return 'calls.html'; if (item.type === 'report') return 'reports-moderation.html'; if (item.type === 'comment') return 'comments-moderation.html'; return ''; }
 function escapeHtml(value) { return String(value || '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;'); }
+
+async function unlinkDocument(documentId) {
+  if (!confirm('Scollegare documento dalla pratica?')) return;
+  await api('/practice-links', {
+    method: 'DELETE',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      practice_id: practiceId,
+      entity_type: 'document',
+      entity_id: Number(documentId),
+    }),
+  });
+  message.textContent = 'Documento scollegato dalla pratica';
+  await load();
+}
 
 load().catch((error) => { message.textContent = error.message; });

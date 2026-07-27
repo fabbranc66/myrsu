@@ -8,6 +8,7 @@ use App\Repositories\ActivityLogRepository;
 use App\Repositories\CallRepository;
 use App\Repositories\DocumentRepository;
 use App\Repositories\DocumentCommentRepository;
+use App\Repositories\FundRepository;
 use App\Repositories\GdprConsentRepository;
 use App\Repositories\InstitutionalContactRepository;
 use App\Repositories\ProtocolRepository;
@@ -43,6 +44,7 @@ use App\Services\DocumentStorageService;
 use App\Services\DocumentThumbnailService;
 use App\Services\DocumentVerificationMetadataService;
 use App\Services\FpdiUploadedPdfService;
+use App\Services\FundProtocolService;
 use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
 use App\Services\OfficeFileService;
@@ -80,6 +82,7 @@ final class Application
     public readonly CallRepository $calls;
     public readonly DocumentRepository $documents;
     public readonly DocumentCommentRepository $documentComments;
+    public readonly FundRepository $funds;
     public readonly GdprConsentRepository $gdprConsents;
     public readonly InstitutionalContactRepository $institutionalContacts;
     public readonly ProtocolRepository $protocols;
@@ -115,6 +118,7 @@ final class Application
     public readonly OfficeFileService $officeFiles;
     public readonly PdfConversionService $pdfConversion;
     public readonly FpdiUploadedPdfService $fpdiUploadedPdf;
+    public readonly FundProtocolService $fundProtocol;
     public HostingDocumentReceiveService $hostingDocumentReceive;
     public readonly PendingComunicatoQueueService $pendingComunicatoQueue;
     public readonly PendingOfficeQueueService $pendingOfficeQueue;
@@ -159,6 +163,7 @@ final class Application
         $this->pdfQr = new PdfQrService();
         $this->pdfWriter = new PdfWriterService();
         $this->fpdiUploadedPdf = new FpdiUploadedPdfService($this->pdfQr);
+        $this->fundProtocol = new FundProtocolService($this);
         $this->protocolDocumentName = new ProtocolDocumentNameService();
         $this->comunicatoDirectPdf = new ComunicatoDirectPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
         $this->reportPdf = new ReportPdfService($this->pdfLayout, $this->pdfQr);
@@ -201,6 +206,7 @@ final class Application
         $this->calls = new CallRepository($pdo);
         $this->documents = new DocumentRepository($pdo);
         $this->documentComments = new DocumentCommentRepository($pdo);
+        $this->funds = new FundRepository($pdo);
         $this->gdprConsents = new GdprConsentRepository($pdo);
         $this->institutionalContacts = new InstitutionalContactRepository($pdo);
         $this->protocols = new ProtocolRepository($pdo);

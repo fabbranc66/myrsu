@@ -19,5 +19,7 @@ UNION ALL SELECT 'union_meetings', COUNT(*) FROM union_meetings
 UNION ALL SELECT 'workers_assemblies', COUNT(*) FROM workers_assemblies
 UNION ALL SELECT 'votings', COUNT(*) FROM votings
 UNION ALL SELECT 'union_permit_requests', COUNT(*) FROM union_permit_requests
+UNION ALL SELECT 'fund_movements', COUNT(*) FROM fund_movements
+UNION ALL SELECT 'vending_contracts', COUNT(*) FROM vending_contracts
 UNION ALL SELECT 'activity_logs', COUNT(*) FROM activity_logs;
 "

@@ -98,6 +98,29 @@ final class PracticeController
         return Response::json(['data' => ['linked' => true]]);
     }
 
+    public function unlink(Request $request): Response
+    {
+        $user = $this->requireLinkRole($request);
+        $data = $request->all();
+        Validator::required($data, ['practice_id', 'entity_type', 'entity_id']);
+        $this->findPractice((int)$data['practice_id']);
+
+        $unlinked = $this->app->practiceLinks->unlink(
+            (int)$data['practice_id'],
+            (string)$data['entity_type'],
+            (int)$data['entity_id']
+        );
+
+        $this->app->activityLogs->write((int)$user['id'], 'practices.unlink', [
+            'section' => 'practices',
+            'practice_id' => (int)$data['practice_id'],
+            'entity_type' => (string)$data['entity_type'],
+            'entity_id' => (int)$data['entity_id'],
+        ]);
+
+        return Response::json(['data' => ['unlinked' => $unlinked]]);
+    }
+
     private function requireLinkRole(Request $request): array
     {
         $user = $this->app->auth->requireUser($request);

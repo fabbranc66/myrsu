@@ -51,4 +51,18 @@ final class PracticeLinkRepository
 
         return $stmt->fetchAll();
     }
+
+    public function unlink(int $practiceId, string $entityType, int $entityId): bool
+    {
+        if (!in_array($entityType, self::TYPES, true)) {
+            return false;
+        }
+
+        $stmt = $this->pdo->prepare(
+            'DELETE FROM practice_links WHERE practice_id = ? AND entity_type = ? AND entity_id = ?'
+        );
+        $stmt->execute([$practiceId, $entityType, $entityId]);
+
+        return $stmt->rowCount() > 0;
+    }
 }
