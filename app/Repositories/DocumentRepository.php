@@ -16,6 +16,17 @@ final class DocumentRepository
     {
         return $this->pdo->query(
             "SELECT d.*, pe.protocol_number, pe.subject AS protocol_subject,
+                    (
+                        SELECT GROUP_CONCAT(pl.practice_id ORDER BY pl.practice_id)
+                        FROM practice_links pl
+                        WHERE pl.entity_type = 'document' AND pl.entity_id = d.id
+                    ) AS practice_ids,
+                    (
+                        SELECT GROUP_CONCAT(p.title ORDER BY p.title SEPARATOR ', ')
+                        FROM practice_links pl
+                        JOIN practices p ON p.id = pl.practice_id
+                        WHERE pl.entity_type = 'document' AND pl.entity_id = d.id
+                    ) AS practice_titles,
                     (SELECT COUNT(*) FROM document_comments c
                      WHERE c.document_id = d.id AND c.status = 'approved') AS approved_comments_count
              FROM documents d

@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const practiceId = Number(new URLSearchParams(window.location.search).get('id'));
 const form = document.querySelector('#practiceEditForm');
 const noteForm = document.querySelector('#practiceNoteForm');
@@ -52,7 +52,14 @@ function renderTimeline(items) {
 
 function timelineItem(item) {
   const action = itemAction(item);
-  return `<article class="timeline-item"><header><span class="timeline-type">${typeLabel(item.type)}</span><time>${escapeHtml(item.event_at)}</time></header><strong>${escapeHtml(item.title)}</strong><p>${escapeHtml(item.summary)}</p>${item.status ? `<small>${escapeHtml(item.status)}</small>` : ''}${action ? `<div>${action}</div>` : ''}</article>`;
+  return `<details class="timeline-item timeline-toggle-item">
+    <summary><span class="timeline-type">${timelineToggleLabel(item)}</span><time>${escapeHtml(item.event_at)}</time></summary>
+    <strong>${escapeHtml(item.title)}</strong><p>${escapeHtml(item.summary)}</p>${item.status ? `<small>${escapeHtml(item.status)}</small>` : ''}${action ? `<div>${action}</div>` : ''}
+  </details>`;
+}
+
+function timelineToggleLabel(item) {
+  return escapeHtml(item.type === 'document' ? item.summary || 'documento' : typeLabel(item.type));
 }
 
 timeline.addEventListener('click', async (event) => {
@@ -63,8 +70,10 @@ timeline.addEventListener('click', async (event) => {
   }
 
   const unlinkButton = event.target.closest('[data-unlink-document]');
-  if (!unlinkButton) return;
-  await unlinkDocument(unlinkButton.dataset.unlinkDocument);
+  if (unlinkButton) return unlinkDocument(unlinkButton.dataset.unlinkDocument);
+
+  const unlinkEmailButton = event.target.closest('[data-unlink-email]');
+  if (unlinkEmailButton) return unlinkEmail(unlinkEmailButton.dataset.unlinkEmail);
 });
 
 async function showDocument(id) {
@@ -100,7 +109,7 @@ noteForm.addEventListener('submit', async (event) => {
 
 function meta(name, value) { return `<div><span class="muted">${name}</span><strong>${escapeHtml(value)}</strong></div>`; }
 function label(group, value) { return MyRsuPracticeOptions.label(MyRsuPracticeOptions[group], value); }
-function typeLabel(type) { return { document: 'documento', report: 'segnalazione', comment: 'commento', protocol: 'protocollo', attachment: 'allegato', meeting: 'incontro', call: 'telefonata', note: 'nota operativa' }[type] || type; }
+function typeLabel(type) { return { document: 'documento', report: 'segnalazione', comment: 'commento', protocol: 'protocollo', attachment: 'allegato', meeting: 'incontro', call: 'telefonata', email: 'e-mail', note: 'nota operativa' }[type] || type; }
 function itemAction(item) {
   if (item.document_id) {
     return `<span class="actions-cell">
@@ -109,10 +118,17 @@ function itemAction(item) {
       <button type="button" class="icon-action danger" data-unlink-document="${item.document_id}" title="Scollega">${MyRsuIcons.get('link')}</button>
     </span>`;
   }
+  if (item.type === 'email') {
+    return `<span class="actions-cell">
+      <a class="icon-action" href="emails.html?id=${item.id}" title="Visualizza">${MyRsuIcons.get('eye')}</a>
+      <a class="icon-action" href="emails.html?id=${item.id}&edit=1" title="Modifica">${MyRsuIcons.get('edit')}</a>
+      <button type="button" class="icon-action danger" data-unlink-email="${item.id}" title="Scollega">${MyRsuIcons.get('link')}</button>
+    </span>`;
+  }
   const link = itemLink(item);
   return link ? `<a href="${link}">Apri</a>` : '';
 }
-function itemLink(item) { if (item.type === 'protocol') return `protocol-view.html?id=${item.id}`; if (item.type === 'meeting') return 'union-meetings.html'; if (item.type === 'call') return 'calls.html'; if (item.type === 'report') return 'reports-moderation.html'; if (item.type === 'comment') return 'comments-moderation.html'; return ''; }
+function itemLink(item) { if (item.type === 'protocol') return `protocol-view.html?id=${item.id}`; if (item.type === 'meeting') return 'union-meetings.html'; if (item.type === 'call') return 'calls.html'; if (item.type === 'email') return `emails.html?id=${item.id}`; if (item.type === 'report') return 'reports-moderation.html'; if (item.type === 'comment') return 'comments-moderation.html'; return ''; }
 function escapeHtml(value) { return String(value || '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;'); }
 
 async function unlinkDocument(documentId) {
@@ -127,6 +143,13 @@ async function unlinkDocument(documentId) {
     }),
   });
   message.textContent = 'Documento scollegato dalla pratica';
+  await load();
+}
+
+async function unlinkEmail(emailId) {
+  if (!confirm('Scollegare e-mail dalla pratica?')) return;
+  await api(`/emails/${emailId}/link-practice`, { method: 'DELETE' });
+  message.textContent = 'E-mail scollegata dalla pratica';
   await load();
 }
 

@@ -10,12 +10,14 @@ const MyRsuAuth = (() => {
     });
 
     sessionStorage.setItem('token', data.access_token);
+    localStorage.setItem('token', data.access_token);
     return data;
   }
 
   async function logout() {
     await MyRsuApi.request('/auth/logout', { method: 'POST' });
     sessionStorage.removeItem('token');
+    localStorage.removeItem('token');
   }
 
   async function me() {

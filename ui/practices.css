@@ -18,4 +18,10 @@
 .timeline-item header { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 5px; }
 .timeline-type { color: #2563eb; font-size: 12px; font-weight: 700; text-transform: uppercase; }
 .timeline-item p { margin: 6px 0; white-space: pre-wrap; }
+.timeline-toggle-item summary { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 5px; cursor: pointer; list-style-position: inside; }
+.timeline-toggle-item summary .timeline-type { margin-left: 4px; }
+.timeline-toggle-item:not([open]) > strong,
+.timeline-toggle-item:not([open]) > p,
+.timeline-toggle-item:not([open]) > small,
+.timeline-toggle-item:not([open]) > div { display: none; }
 @media (max-width: 900px) { .practice-form, .practice-view-grid, .practice-meta { grid-template-columns: 1fr; } .practice-form .wide { grid-column: auto; } }

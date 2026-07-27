@@ -3,7 +3,7 @@ const MyRsuApi = (() => {
   const baseUrl = `${appRoot}/api/v1`;
 
   async function request(path, options = {}) {
-    const token = sessionStorage.getItem('token');
+    const token = sessionStorage.getItem('token') || localStorage.getItem('token');
     const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
 
     if (token) {

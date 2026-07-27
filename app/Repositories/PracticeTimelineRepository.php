@@ -23,7 +23,8 @@ final class PracticeTimelineRepository
             $this->linked($practiceId, "SELECT 'meeting' type, CAST(m.id AS CHAR) id, m.title, m.location summary, m.meeting_date event_at, m.status, m.public_document_id document_id FROM practice_links pl JOIN union_meetings m ON m.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'meeting'"),
             $this->assemblies($practiceId),
             $this->notes($practiceId),
-            $this->calls($practiceId)
+            $this->calls($practiceId),
+            $this->emails($practiceId)
         );
 
         usort($items, static fn (array $left, array $right): int => strcmp((string)$right['event_at'], (string)$left['event_at']));
@@ -43,6 +44,17 @@ final class PracticeTimelineRepository
             "SELECT 'call' type, id, interlocutor_name title, content summary,
                     TIMESTAMP(call_date, call_time) event_at, outcome status, NULL document_id
              FROM calls_log WHERE practice_id = ?"
+        );
+        $stmt->execute([$practiceId]);
+        return $stmt->fetchAll();
+    }
+
+    private function emails(int $practiceId): array
+    {
+        $stmt = $this->pdo->prepare(
+            "SELECT 'email' type, CAST(id AS CHAR) id, subject title, body summary,
+                    message_at event_at, handling_status status, NULL document_id
+             FROM emails WHERE practice_id = ?"
         );
         $stmt->execute([$practiceId]);
         return $stmt->fetchAll();

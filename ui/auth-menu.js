@@ -2,7 +2,7 @@
   const nav = document.querySelector('.app-nav');
   if (!nav) return;
 
-  const token = sessionStorage.getItem('token');
+  const token = sessionStorage.getItem('token') || localStorage.getItem('token');
   const appRoot = window.location.pathname.split('/ui/')[0];
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   const sections = [
@@ -10,12 +10,13 @@
       label: 'Comunicazioni',
       pages: [
         ['comunicati-create.html', 'Comunicati', ['admin', 'delegato', 'rls']],
+        ['emails.html', 'E-mail', ['admin', 'delegato', 'rls']],
         ['reports.html', 'Segnalazioni', ['admin', 'delegato', 'rls']],
         ['reports-moderation.html', 'Moderazione segnalazioni', ['admin', 'delegato', 'rls']],
         ['comments-moderation.html', 'Moderazione commenti', ['admin', 'delegato', 'rls']],
         ['calls.html', 'Telefonate', ['admin', 'delegato', 'rls']],
       ],
-      match: ['comunicati-create.html', 'comunicati-editor.html', 'reports.html', 'reports-moderation.html', 'comments-moderation.html', 'calls.html'],
+      match: ['comunicati-create.html', 'comunicati-editor.html', 'emails.html', 'reports.html', 'reports-moderation.html', 'comments-moderation.html', 'calls.html'],
     },
     {
       label: 'Incontri',
@@ -106,6 +107,7 @@
         });
       } finally {
         sessionStorage.removeItem('token');
+        localStorage.removeItem('token');
         window.location.href = 'app/index.html';
       }
     });

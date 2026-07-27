@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-let token = sessionStorage.getItem('token');
+let token = sessionStorage.getItem('token') || localStorage.getItem('token');
 
 const uploadForm = document.querySelector('#uploadForm');
 const documentsTable = document.querySelector('#documentsTable');
@@ -17,7 +17,11 @@ const uploadProgressText = document.querySelector('#uploadProgressText');
 const practiceLinkModal = document.querySelector('#practiceLinkModal');
 const practiceLinkForm = document.querySelector('#practiceLinkForm');
 const closePracticeLinkModal = document.querySelector('#closePracticeLinkModal');
+const practiceUnlinkModal = document.querySelector('#practiceUnlinkModal');
+const practiceUnlinkForm = document.querySelector('#practiceUnlinkForm');
+const closePracticeUnlinkModal = document.querySelector('#closePracticeUnlinkModal');
 let practices = [];
+let documents = [];
 let documentPreviewUrl = null;
 
 async function api(path, options = {}) {
@@ -77,10 +81,11 @@ function uploadDocument(formData, startProgress = 0) {
 }
 
 async function loadDocuments() {
-  const [documents, practiceRows] = await Promise.all([api('/documents'), loadPractices()]);
+  const [documentRows, practiceRows] = await Promise.all([api('/documents'), loadPractices()]);
+  documents = documentRows;
   practices = practiceRows;
   uploadForm.classList.remove('hidden');
-  documentsTable.innerHTML = documents.filter((document) => document.category !== 'comunicati').map(row).join('');
+  documentsTable.innerHTML = documentRows.filter((document) => document.category !== 'comunicati').map(row).join('');
 }
 
 async function loadPractices() {
@@ -121,6 +126,7 @@ function row(document) {
         <a class="icon-action" href="document-edit.html?id=${document.id}" title="${document.category === 'comunicati' ? 'Modifica comunicato e rigenera PDF' : 'Modifica'}">${MyRsuIcons.get('edit')}</a>
         <button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
         <button class="icon-action" data-practice-link="${document.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button>
+        <button class="icon-action danger" data-practice-unlink="${document.id}" title="Scollega da pratica">${MyRsuIcons.get('link')}</button>
         <button class="icon-action" data-protocol-in="${document.id}" title="Protocolla in entrata">${MyRsuIcons.get('protocolIn')}</button>
         <button class="icon-action danger" data-delete="${document.id}" title="Elimina">${MyRsuIcons.get('trash')}</button>
       </td>
@@ -229,6 +235,11 @@ documentsTable.addEventListener('click', async (event) => {
     return;
   }
 
+  if (button.dataset.practiceUnlink) {
+    openPracticeUnlink(button.dataset.practiceUnlink);
+    return;
+  }
+
   if (!confirm('Eliminare documento?')) return;
   await api(`/documents/${button.dataset.delete}`, { method: 'DELETE' });
   message.textContent = 'Documento eliminato';
@@ -277,16 +288,35 @@ closeVerifyFrameModal.addEventListener('click', () => {
 });
 
 function openPracticeLink(documentId) {
+  const document = documents.find((item) => Number(item.id) === Number(documentId));
+  const linkedIds = practiceIds(document);
+  const availablePractices = practices.filter((practice) => !linkedIds.includes(Number(practice.id)));
   practiceLinkForm.document_id.value = documentId;
-  practiceLinkForm.practice_id.innerHTML = practices.length > 0
-    ? practices.map((practice) => `<option value="${practice.id}">${practice.title}</option>`).join('')
+  practiceLinkForm.practice_id.innerHTML = availablePractices.length > 0
+    ? availablePractices.map((practice) => `<option value="${practice.id}">${practice.title}</option>`).join('')
     : '<option value="">Nessuna pratica disponibile</option>';
-  practiceLinkForm.querySelector('button').disabled = practices.length === 0;
+  practiceLinkForm.querySelector('button').disabled = availablePractices.length === 0;
   practiceLinkModal.showModal();
 }
 
 closePracticeLinkModal.addEventListener('click', () => {
   practiceLinkModal.close();
+});
+
+function openPracticeUnlink(documentId) {
+  const document = documents.find((item) => Number(item.id) === Number(documentId));
+  const linkedIds = practiceIds(document);
+  const availablePractices = practices.filter((practice) => linkedIds.includes(Number(practice.id)));
+  practiceUnlinkForm.document_id.value = documentId;
+  practiceUnlinkForm.practice_id.innerHTML = availablePractices.length > 0
+    ? availablePractices.map((practice) => `<option value="${practice.id}">${practice.title}</option>`).join('')
+    : '<option value="">Nessuna pratica disponibile</option>';
+  practiceUnlinkForm.querySelector('button').disabled = availablePractices.length === 0;
+  practiceUnlinkModal.showModal();
+}
+
+closePracticeUnlinkModal.addEventListener('click', () => {
+  practiceUnlinkModal.close();
 });
 
 practiceLinkForm.addEventListener('submit', async (event) => {
@@ -303,6 +333,14 @@ practiceLinkForm.addEventListener('submit', async (event) => {
   });
   message.textContent = 'Documento collegato alla pratica';
   practiceLinkModal.close();
+  await loadDocuments();
+});
+
+practiceUnlinkForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const data = Object.fromEntries(new FormData(practiceUnlinkForm).entries());
+  await unlinkPractice(Number(data.document_id), Number(data.practice_id));
+  practiceUnlinkModal.close();
 });
 
 async function downloadDocument(id) {
@@ -319,6 +357,28 @@ async function downloadDocument(id) {
   link.download = `document-${id}`;
   link.click();
   URL.revokeObjectURL(url);
+}
+
+async function unlinkPractice(documentId, practiceId) {
+  if (!confirm('Scollegare documento dalla pratica?')) return;
+  await api('/practice-links', {
+    method: 'DELETE',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      practice_id: Number(practiceId),
+      entity_type: 'document',
+      entity_id: Number(documentId),
+    }),
+  });
+  message.textContent = 'Documento scollegato dalla pratica';
+  await loadDocuments();
+}
+
+function practiceIds(document) {
+  return String(document?.practice_ids || '')
+    .split(',')
+    .map((id) => Number(id))
+    .filter(Boolean);
 }
 
 if (!token) {

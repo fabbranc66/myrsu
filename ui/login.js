@@ -1,7 +1,7 @@
 const loginForm = document.querySelector('#loginForm');
 const loginError = document.querySelector('#loginError');
 
-if (sessionStorage.getItem('token')) {
+if (sessionStorage.getItem('token') || localStorage.getItem('token')) {
   window.location.href = 'app/index.html';
 }
 

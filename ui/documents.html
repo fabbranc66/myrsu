@@ -112,6 +112,18 @@
         </form>
       </dialog>
 
+      <dialog id="practiceUnlinkModal">
+        <header>
+          <h2>Scollega da pratica</h2>
+          <button id="closePracticeUnlinkModal" type="button">Chiudi</button>
+        </header>
+        <form id="practiceUnlinkForm" class="grid">
+          <input name="document_id" type="hidden">
+          <select name="practice_id" required></select>
+          <button type="submit">Scollega</button>
+        </form>
+      </dialog>
+
       <dialog id="documentCommentsModal">
         <header>
           <h2>Commenti approvati</h2>
@@ -127,7 +139,7 @@
   <script src="vendor/jspdf/jspdf.umd.min.js"></script>
   <script src="pdf-rasterizer.js?v=20260627-1"></script>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="documents.js?v=20260721-mobile-pdf-1"></script>
+  <script src="documents.js?v=20260728-unlink-practice-1"></script>
   <script src="document-comments.js?v=20260628-1"></script>
   <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>

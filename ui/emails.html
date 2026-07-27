@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-mail - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260627-1">
+  <link rel="stylesheet" href="emails.css?v=20260728-practice-select-1">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>E-mail</h1></div><nav class="app-nav"></nav></header>
+  <main>
+    <section class="panel">
+      <header><div><h1>Registro e-mail</h1><p class="muted">Ricevute, inviate, bozze e gestione pratica.</p></div></header>
+      <form id="emailForm" class="email-form">
+        <input name="id" type="hidden">
+        <label>Tipo<select name="direction"><option value="incoming">ricevuta</option><option value="outgoing">inviata</option><option value="draft">bozza</option></select></label>
+        <label>Data e ora<input name="message_at" type="datetime-local" required></label>
+        <label>Stato gestione<select name="handling_status"><option value="new">nuova</option><option value="in_progress">in lavorazione</option><option value="managed">gestita</option><option value="archived">archiviata</option></select></label>
+        <label>Mittente nome<input name="from_name"></label>
+        <label>Mittente e-mail<input name="from_email" type="email"></label>
+        <label>Destinatari<input name="to_emails"></label>
+        <label>CC<input name="cc_emails"></label>
+        <label>Pratica<select name="practice_id"><option value="">-</option></select></label>
+        <label class="wide">Oggetto<input name="subject" required></label>
+        <label class="wide">Corpo<textarea name="body" rows="7" required></textarea></label>
+        <div class="wide"><button type="submit">Salva e-mail</button><button id="resetEmail" type="button">Nuova</button></div>
+      </form>
+
+      <div class="email-filters">
+        <button id="syncEmails" type="button">Sincronizza casella</button>
+        <select id="directionFilter"><option value="">tutte</option><option value="incoming">ricevute</option><option value="outgoing">inviate</option><option value="draft">bozze</option></select>
+        <select id="statusFilter"><option value="">tutti stati</option><option value="new">nuove</option><option value="in_progress">in lavorazione</option><option value="managed">gestite</option><option value="archived">archiviate</option></select>
+      </div>
+
+      <table>
+        <thead><tr><th>Data</th><th>Tipo</th><th>Oggetto</th><th>Contatto</th><th>Pratica</th><th>Stato</th><th>Azioni</th></tr></thead>
+        <tbody id="emailsTable"></tbody>
+      </table>
+
+      <dialog id="emailModal" class="email-modal">
+        <header><h2 id="emailModalTitle">E-mail</h2><button id="closeEmailModal" type="button">Chiudi</button></header>
+        <div id="emailModalBody"></div>
+        <form id="emailNoteForm">
+          <label>Nota interna<textarea name="body" rows="3" required></textarea></label>
+          <button type="submit">Aggiungi nota</button>
+        </form>
+      </dialog>
+      <dialog id="attachmentModal" class="email-modal">
+        <header><h2 id="attachmentTitle">Allegato</h2><button id="closeAttachmentModal" type="button">Chiudi</button></header>
+        <iframe id="attachmentFrame" title="Anteprima allegato"></iframe>
+      </dialog>
+      <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js?v=20260719-icons-1"></script>
+  <script src="emails.js?v=20260728-actions-2"></script>
+  <script src="auth-menu.js?v=20260727-token-1"></script>
+</body>
+</html>

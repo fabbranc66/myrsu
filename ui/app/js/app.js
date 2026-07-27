@@ -32,13 +32,22 @@ const appRoot = window.location.pathname.split('/ui/')[0];
 const publicComunicati = new Map();
 const publicDocuments = new Map();
 
+function authToken() {
+  return sessionStorage.getItem('token') || localStorage.getItem('token');
+}
+
+function clearAuthToken() {
+  sessionStorage.removeItem('token');
+  localStorage.removeItem('token');
+}
+
 function showMessage(text = '') {
   message.textContent = text;
 }
 
 function syncPublicAuthMenu() {
   const link = document.querySelector('#publicAuthLink');
-  const token = sessionStorage.getItem('token');
+  const token = authToken();
   if (!link) return;
   link.textContent = token ? 'Esci' : 'Login';
   link.href = token ? '#' : '../login.html';
@@ -298,47 +307,51 @@ function toggleReportsBadge(enabled) {
 }
 
 async function boot() {
-  if (!sessionStorage.getItem('token')) {
+  if (!authToken()) {
     setMenuVisibility({});
     setView(false);
     await loadPublicBoard(publicBoardGuest);
     return;
   }
 
+  let me;
   try {
-    const me = await MyRsuAuth.me();
-    toggleRoleMenus(me);
-    if (isOnlyMember(me)) {
-      await loadPublicBoard(publicBoardGuest);
-      setView(false);
-      return;
-    }
-    renderUser(me);
-    toggleAdminQueue(isAdmin(me));
-    toggleReportsBadge(canModerateReports(me));
-    if (isAdmin(me)) {
-      await loadQueueStatus();
-    }
-    if (canModerateReports(me)) {
-      await Promise.all([loadReportStats(), loadCommentStats()]);
-    }
-    await loadPublicBoard(publicBoardUser);
-    setView(true);
+    me = await MyRsuAuth.me();
   } catch (error) {
-    sessionStorage.removeItem('token');
+    clearAuthToken();
     setView(false);
+    await loadPublicBoard(publicBoardGuest);
+    return;
   }
+
+  toggleRoleMenus(me);
+  if (isOnlyMember(me)) {
+    await loadPublicBoard(publicBoardGuest);
+    setView(false);
+    return;
+  }
+  renderUser(me);
+  toggleAdminQueue(isAdmin(me));
+  toggleReportsBadge(canModerateReports(me));
+  if (isAdmin(me)) {
+    loadQueueStatus().catch((error) => showMessage(error.message));
+  }
+  if (canModerateReports(me)) {
+    Promise.all([loadReportStats(), loadCommentStats()]).catch((error) => showMessage(error.message));
+  }
+  loadPublicBoard(publicBoardUser).catch((error) => showMessage(error.message));
+  setView(true);
 }
 
 document.querySelector('#publicAuthLink')?.addEventListener('click', async (event) => {
-  if (!sessionStorage.getItem('token')) return;
+  if (!authToken()) return;
   event.preventDefault();
   try {
     await MyRsuAuth.logout();
   } catch (error) {
     showMessage(error.message);
   }
-  sessionStorage.removeItem('token');
+  clearAuthToken();
   window.location.replace(`index.html?logout=${Date.now()}`);
 });
 
@@ -431,7 +444,7 @@ document.addEventListener('submit', async (event) => {
   if (!form) return;
   event.preventDefault();
   const headers = { 'Content-Type': 'application/json' };
-  const token = sessionStorage.getItem('token');
+  const token = authToken();
   if (token) headers.Authorization = `Bearer ${token}`;
   const response = await fetch(`${appRoot}/api/v1/documents/${form.dataset.commentForm}/comments`, {
     method: 'POST',
