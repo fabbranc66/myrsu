@@ -67,7 +67,7 @@ final class FundProtocolService
             return $existing;
         }
 
-        $subject = 'Estratto conto fondi distributori al ' . $statementDate;
+        $subject = 'Estratto conto fondi RSU al ' . $statementDate;
         $entry = $this->app->protocols->create('IN', 'FND', $subject, $userId);
         $entry = $this->app->protocols->update((int)$entry['id'], $subject, $documentId);
 

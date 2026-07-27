@@ -6,7 +6,7 @@
   <title>MyRSU Fondi</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
   <link rel="stylesheet" href="users.css?v=20260627-1">
-  <link rel="stylesheet" href="funds.css?v=20260727-1">
+  <link rel="stylesheet" href="funds.css?v=20260727-collapsible-1">
 </head>
 <body>
   <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Fondi</h1></div><nav class="app-nav"></nav></header>
@@ -15,8 +15,9 @@
       <header><div><h1>Fondi distributori automatici</h1><p class="muted">Contratto, entrate, uscite e saldo.</p></div></header>
       <div id="fundsSummary" class="funds-summary"></div>
 
-      <section class="fund-section">
-        <h2>Contratto distributori</h2>
+      <section class="fund-section collapsible collapsed">
+        <h2><button class="section-toggle" type="button">Contratto distributori</button></h2>
+        <div class="section-body">
         <form id="contractForm" class="fund-form">
           <input type="hidden" name="id">
           <label>Fornitore<input name="supplier_name" required></label>
@@ -30,10 +31,12 @@
           <div class="wide"><button type="submit">Salva contratto</button><button id="resetContract" type="button">Nuovo</button></div>
         </form>
         <table><thead><tr><th>Fornitore</th><th>Contratto</th><th>Periodo</th><th>Stato</th><th>Documento</th><th>Azioni</th></tr></thead><tbody id="contractsTable"></tbody></table>
+        </div>
       </section>
 
-      <section class="fund-section">
-        <h2>Estratto conto</h2>
+      <section class="fund-section collapsible collapsed">
+        <h2><button class="section-toggle" type="button">Estratto conto fondi RSU</button></h2>
+        <div class="section-body">
         <form id="statementForm" class="fund-form">
           <label>Data estratto<input name="statement_date" type="date" required></label>
           <label>Saldo estratto<input name="statement_balance" type="number" step="0.01" required></label>
@@ -48,6 +51,7 @@
           <label class="wide">Causale<input name="reason" value="spese gestione conto" required></label>
           <div class="wide"><button type="submit">Registra voce contabile</button></div>
         </form>
+        </div>
       </section>
 
       <section class="fund-section">
@@ -78,7 +82,7 @@
   <script src="vendor/jspdf/jspdf.umd.min.js"></script>
   <script src="pdf-rasterizer.js?v=20260627-1"></script>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="funds.js?v=20260727-reconciliation-1"></script>
+  <script src="funds.js?v=20260727-collapsible-1"></script>
   <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>
 </html>

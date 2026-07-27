@@ -18,6 +18,12 @@ let movements = [];
 
 if (!token) window.location.href = 'login.html';
 
+document.querySelectorAll('.collapsible .section-toggle').forEach((button) => {
+  button.addEventListener('click', () => {
+    button.closest('.collapsible')?.classList.toggle('collapsed');
+  });
+});
+
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}), Authorization: `Bearer ${token}` };
   const response = await fetch(`${apiBase}${path}`, { ...options, headers });
