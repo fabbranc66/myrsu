@@ -56,6 +56,26 @@ final class FundProtocolService
         return $entry;
     }
 
+    public function statement(int $documentId, string $statementDate, int $userId): array
+    {
+        if ($documentId === 0) {
+            throw new HttpException(422, 'Documento estratto conto mancante.');
+        }
+
+        $existing = $this->app->protocols->findActiveByDocumentId($documentId);
+        if ($existing !== null) {
+            return $existing;
+        }
+
+        $subject = 'Estratto conto fondi distributori al ' . $statementDate;
+        $entry = $this->app->protocols->create('IN', 'FND', $subject, $userId);
+        $entry = $this->app->protocols->update((int)$entry['id'], $subject, $documentId);
+
+        $this->applyOfficialDocumentName($entry);
+
+        return $entry;
+    }
+
     private function applyOfficialDocumentName(array $entry): void
     {
         $documentId = (int)($entry['document_id'] ?? 0);

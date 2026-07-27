@@ -150,6 +150,7 @@ $app->router->post('/api/v1/funds/contracts/{id}/protocol', [$funds, 'protocolCo
 $app->router->post('/api/v1/funds/movements', [$funds, 'storeMovement']);
 $app->router->patch('/api/v1/funds/movements/{id}', [$funds, 'updateMovement']);
 $app->router->delete('/api/v1/funds/movements/{id}', [$funds, 'destroyMovement']);
+$app->router->post('/api/v1/funds/statements', [$funds, 'storeStatement']);
 
 $app->router->post('/api/v1/rsu-elections/analyze', [$rsuElections, 'analyze']);
 $app->router->post('/api/v1/union-permits/analyze', [$unionPermits, 'analyze']);

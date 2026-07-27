@@ -2,9 +2,12 @@ const apiBase = '../api/v1';
 const token = sessionStorage.getItem('token');
 const contractForm = document.querySelector('#contractForm');
 const movementForm = document.querySelector('#movementForm');
+const statementForm = document.querySelector('#statementForm');
+const reconciliationForm = document.querySelector('#reconciliationForm');
 const contractsTable = document.querySelector('#contractsTable');
 const movementsTable = document.querySelector('#movementsTable');
 const fundsSummary = document.querySelector('#fundsSummary');
+const statementResult = document.querySelector('#statementResult');
 const documentModal = document.querySelector('#documentModal');
 const documentPreview = document.querySelector('#documentPreview');
 const closeDocumentModal = document.querySelector('#closeDocumentModal');
@@ -67,6 +70,7 @@ function renderMovements() {
 
 function fillContractSelect() {
   movementForm.contract_id.innerHTML = '<option value="">-</option>' + contracts.map((row) => `<option value="${row.id}">${escapeHtml(row.supplier_name)}</option>`).join('');
+  updateMovementContractState();
 }
 
 contractForm.addEventListener('submit', async (event) => {
@@ -96,6 +100,7 @@ contractForm.addEventListener('submit', async (event) => {
 movementForm.addEventListener('submit', async (event) => {
   event.preventDefault();
   const formData = new FormData(movementForm);
+  if (formData.get('movement_type') === 'expense') formData.set('contract_id', '');
   const file = formData.get('file');
   if (file instanceof File && file.size > 0) {
     const upload = new FormData();
@@ -115,10 +120,47 @@ movementForm.addEventListener('submit', async (event) => {
   await loadFunds();
 });
 
+statementForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const formData = new FormData(statementForm);
+  const file = formData.get('file');
+  if (!(file instanceof File) || file.size === 0) throw new Error('Documento estratto conto mancante');
+  const upload = new FormData();
+  upload.append('file', file);
+  upload.append('category', 'documenti');
+  upload.append('visibility', 'rsu');
+  const document = await uploadDocument(upload);
+  const body = clean({
+    statement_date: formData.get('statement_date'),
+    statement_balance: formData.get('statement_balance'),
+    document_id: document.id,
+  });
+  const result = await api('/funds/statements', { method: 'POST', body: JSON.stringify(body) });
+  renderStatementResult(result);
+  message.textContent = `Estratto conto protocollato ${result.protocol.protocol_number}`;
+  statementForm.reset();
+});
+
+reconciliationForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const body = clean(Object.fromEntries(new FormData(reconciliationForm).entries()));
+  body.movement_type = 'expense';
+  body.contract_id = '';
+  await api('/funds/movements', { method: 'POST', body: JSON.stringify(body) });
+  message.textContent = 'Voce contabile registrata';
+  reconciliationForm.classList.add('hidden');
+  reconciliationForm.reset();
+  await loadFunds();
+});
+
 contractsTable.addEventListener('click', tableAction);
 movementsTable.addEventListener('click', tableAction);
 document.querySelector('#resetContract').addEventListener('click', () => contractForm.reset());
-document.querySelector('#resetMovement').addEventListener('click', () => movementForm.reset());
+document.querySelector('#resetMovement').addEventListener('click', () => {
+  movementForm.reset();
+  updateMovementContractState();
+});
+movementForm.movement_type.addEventListener('change', updateMovementContractState);
 
 async function tableAction(event) {
   const button = event.target.closest('button');
@@ -139,6 +181,31 @@ function fillEdit(type, id) {
   Object.keys(row || {}).forEach((key) => {
     if (form[key]) form[key].value = row[key] || '';
   });
+  if (type === 'movement') updateMovementContractState();
+}
+
+function updateMovementContractState() {
+  const isExpense = movementForm.movement_type.value === 'expense';
+  movementForm.contract_id.disabled = isExpense;
+  if (isExpense) movementForm.contract_id.value = '';
+}
+
+function renderStatementResult(result) {
+  const difference = Number(result.reconciliation.difference || 0);
+  statementResult.classList.remove('hidden');
+  statementResult.innerHTML = [
+    `<strong>Riconciliazione al ${escapeHtml(result.statement_date)}</strong>`,
+    `<span>Entrate: ${money(result.reconciliation.income)}</span>`,
+    `<span>Uscite: ${money(result.reconciliation.expense)}</span>`,
+    `<span>Saldo: ${money(result.reconciliation.balance)}</span>`,
+    `<span>Saldo estratto: ${money(result.reconciliation.statement_balance)}</span>`,
+    `<span>Differenza: ${money(difference)}</span>`,
+  ].join('');
+  reconciliationForm.classList.toggle('hidden', difference >= 0);
+  if (difference < 0) {
+    reconciliationForm.movement_date.value = result.statement_date;
+    reconciliationForm.amount.value = Math.abs(difference).toFixed(2);
+  }
 }
 
 function actions(type, id) {

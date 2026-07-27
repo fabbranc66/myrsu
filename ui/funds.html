@@ -33,10 +33,28 @@
       </section>
 
       <section class="fund-section">
+        <h2>Estratto conto</h2>
+        <form id="statementForm" class="fund-form">
+          <label>Data estratto<input name="statement_date" type="date" required></label>
+          <label>Saldo estratto<input name="statement_balance" type="number" step="0.01" required></label>
+          <label>Documento estratto<input name="file" type="file" accept=".pdf,.jpg,.jpeg,.png,.txt,.doc,.docx,.xls,.xlsx" required></label>
+          <input name="document_id" type="hidden">
+          <div><button type="submit">Carica e riconcilia</button></div>
+        </form>
+        <div id="statementResult" class="reconciliation-box hidden"></div>
+        <form id="reconciliationForm" class="fund-form hidden">
+          <label>Data voce<input name="movement_date" type="date" required></label>
+          <label>Importo<input name="amount" type="number" step="0.01" min="0.01" required></label>
+          <label class="wide">Causale<input name="reason" value="spese gestione conto" required></label>
+          <div class="wide"><button type="submit">Registra voce contabile</button></div>
+        </form>
+      </section>
+
+      <section class="fund-section">
         <h2>Movimenti fondi</h2>
         <form id="movementForm" class="fund-form">
           <input type="hidden" name="id">
-          <label>Contratto<select name="contract_id"><option value="">-</option></select></label>
+          <label>Contratto entrata<select name="contract_id"><option value="">-</option></select></label>
           <label>Data<input name="movement_date" type="date" required></label>
           <label>Tipo<select name="movement_type"><option value="income">entrata</option><option value="expense">uscita</option></select></label>
           <label>Importo<input name="amount" type="number" step="0.01" min="0.01" required></label>
@@ -46,7 +64,7 @@
           <label class="wide">Note<textarea name="notes" rows="3"></textarea></label>
           <div class="wide"><button type="submit">Salva movimento</button><button id="resetMovement" type="button">Nuovo</button></div>
         </form>
-        <table><thead><tr><th>Data</th><th>Tipo</th><th>Importo</th><th>Causale</th><th>Contratto</th><th>Documento</th><th>Azioni</th></tr></thead><tbody id="movementsTable"></tbody></table>
+        <table><thead><tr><th>Data</th><th>Tipo</th><th>Importo</th><th>Causale</th><th>Riferimento</th><th>Documento</th><th>Azioni</th></tr></thead><tbody id="movementsTable"></tbody></table>
       </section>
 
       <dialog id="documentModal" class="preview-modal">
@@ -60,7 +78,7 @@
   <script src="vendor/jspdf/jspdf.umd.min.js"></script>
   <script src="pdf-rasterizer.js?v=20260627-1"></script>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="funds.js?v=20260727-auto-protocol-2"></script>
-  <script src="auth-menu.js?v=20260720-permits-2"></script>
+  <script src="funds.js?v=20260727-reconciliation-1"></script>
+  <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>
 </html>

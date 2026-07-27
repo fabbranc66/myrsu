@@ -97,6 +97,34 @@ final class FundController
         return Response::json(['data' => ['deleted' => true]]);
     }
 
+    public function storeStatement(Request $request): Response
+    {
+        $user = $this->requireOperator($request);
+        $data = $request->all();
+        Validator::required($data, ['statement_date', 'statement_balance', 'document_id']);
+        $statementDate = trim((string)$data['statement_date']);
+        $statementBalance = (float)$data['statement_balance'];
+        $documentId = $this->nullableId($data['document_id']);
+        if ($documentId === null) throw new HttpException(422, 'Documento estratto conto mancante.');
+
+        $protocol = $this->app->fundProtocol->statement($documentId, $statementDate, (int)$user['id']);
+        $reconciliation = $this->app->funds->balanceAt($statementDate);
+        $reconciliation['statement_balance'] = $statementBalance;
+        $reconciliation['difference'] = round($statementBalance - (float)$reconciliation['balance'], 2);
+        $this->log((int)$user['id'], 'funds.statement_create', [
+            'document_id' => $documentId,
+            'statement_date' => $statementDate,
+            'statement_balance' => $statementBalance,
+            'protocol_number' => $protocol['protocol_number'],
+        ]);
+
+        return Response::json(['data' => [
+            'statement_date' => $statementDate,
+            'protocol' => $protocol,
+            'reconciliation' => $reconciliation,
+        ]], 201);
+    }
+
     private function contractData(array $data, int $userId): array
     {
         Validator::required($data, ['supplier_name', 'start_date', 'status']);
@@ -121,7 +149,7 @@ final class FundController
         if (!in_array($type, ['income', 'expense'], true)) throw new HttpException(422, 'Tipo movimento non valido.');
         if ((float)$data['amount'] <= 0) throw new HttpException(422, 'Importo non valido.');
         return [
-            'contract_id' => $this->nullableId($data['contract_id'] ?? null),
+            'contract_id' => $type === 'expense' ? null : $this->nullableId($data['contract_id'] ?? null),
             'movement_date' => trim((string)$data['movement_date']),
             'movement_type' => $type,
             'amount' => (float)$data['amount'],

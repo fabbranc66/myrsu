@@ -160,4 +160,23 @@ final class FundRepository
             'balance' => (float)$row['income'] - (float)$row['expense'],
         ];
     }
+
+    public function balanceAt(string $date): array
+    {
+        $stmt = $this->pdo->prepare(
+            "SELECT
+                COALESCE(SUM(CASE WHEN movement_type = 'income' THEN amount ELSE 0 END), 0) income,
+                COALESCE(SUM(CASE WHEN movement_type = 'expense' THEN amount ELSE 0 END), 0) expense
+             FROM fund_movements
+             WHERE movement_date <= ?"
+        );
+        $stmt->execute([$date]);
+        $row = $stmt->fetch();
+
+        return [
+            'income' => (float)$row['income'],
+            'expense' => (float)$row['expense'],
+            'balance' => (float)$row['income'] - (float)$row['expense'],
+        ];
+    }
 }
