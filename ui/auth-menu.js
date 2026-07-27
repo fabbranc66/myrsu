@@ -7,68 +7,57 @@
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   const sections = [
     {
-      label: 'Anagrafica',
+      label: 'Comunicazioni',
+      pages: [
+        ['comunicati-create.html', 'Comunicati', ['admin', 'delegato', 'rls']],
+        ['reports.html', 'Segnalazioni', ['admin', 'delegato', 'rls']],
+        ['reports-moderation.html', 'Moderazione segnalazioni', ['admin', 'delegato', 'rls']],
+        ['comments-moderation.html', 'Moderazione commenti', ['admin', 'delegato', 'rls']],
+        ['calls.html', 'Telefonate', ['admin', 'delegato', 'rls']],
+      ],
+      match: ['comunicati-create.html', 'comunicati-editor.html', 'reports.html', 'reports-moderation.html', 'comments-moderation.html', 'calls.html'],
+    },
+    {
+      label: 'Incontri',
+      pages: [
+        ['union-meetings.html', 'Incontri sindacali', ['admin', 'delegato', 'rls']],
+        ['workers-assemblies.html', 'Assemblee lavoratori', ['admin', 'delegato', 'rls']],
+        ['votings.html', 'Votazioni', ['admin', 'delegato', 'rls']],
+      ],
+      match: ['union-meetings.html', 'union-meeting-editor.html', 'union-meeting-operational.html', 'workers-assemblies.html', 'workers-assembly-editor.html', 'workers-assembly-operational.html', 'votings.html'],
+    },
+    {
+      label: 'Pratiche',
+      pages: [
+        ['practices.html', 'Pratiche', ['admin', 'delegato', 'rls']],
+      ],
+      match: ['practices.html', 'practice-view.html'],
+    },
+    {
+      label: 'Documenti',
+      pages: [
+        ['documents.html', 'Documenti', ['admin', 'delegato', 'rls']],
+        ['protocol.html', 'Registro protocollo', ['admin', 'delegato', 'rls']],
+        ['private-documents.html', 'Privato', ['admin']],
+        ['pending-queue.html', 'Coda PDF', ['admin']],
+      ],
+      match: ['documents.html', 'document-view.html', 'document-edit.html', 'protocol.html', 'protocol-view.html', 'protocol-edit.html', 'private-documents.html', 'pending-queue.html'],
+    },
+    {
+      label: 'RSU / RLS',
+      pages: [
+        ['union-permit-requests.html', 'Richieste permessi', ['admin', 'delegato', 'rls']],
+        ['union-permits.html', 'Permessi sindacali', ['admin']],
+        ['rsu-elections.html', 'ELEZIONI RSU', ['admin']],
+      ],
+    },
+    {
+      label: 'Amministrazione',
       pages: [
         ['users.html', 'Utenti', ['admin']],
         ['profile.html', 'Profilo', ['admin', 'delegato', 'rls', 'membro']],
         ['contacts.html', 'Contatti', ['admin', 'delegato', 'rls']],
-      ],
-    },
-    {
-      label: 'Protocollo',
-      pages: [
-        ['protocol.html', 'Registro', ['admin', 'delegato', 'rls']],
-      ],
-      match: ['protocol.html', 'protocol-view.html', 'protocol-edit.html'],
-    },
-    {
-      label: 'Archivio',
-      pages: [
-        ['documents.html', 'Documenti', ['admin', 'delegato', 'rls']],
-        ['private-documents.html', 'Privato', ['admin']],
-        ['comunicati-create.html', 'Comunicati', ['admin', 'delegato', 'rls']],
-        ['union-meetings.html', 'Incontri sindacali', ['admin', 'delegato', 'rls']],
-        ['workers-assemblies.html', 'Assemblee lavoratori', ['admin', 'delegato', 'rls']],
-        ['votings.html', 'Votazioni', ['admin', 'delegato', 'rls']],
         ['funds.html', 'Fondi', ['admin', 'delegato', 'rls']],
-        ['union-permit-requests.html', 'Richieste permessi', ['admin', 'delegato', 'rls']],
-        ['calls.html', 'Telefonate', ['admin', 'delegato', 'rls']],
-        ['practices.html', 'Pratiche', ['admin', 'delegato', 'rls']],
-        ['reports.html', 'Segnalazioni', ['admin', 'delegato', 'rls']],
-        ['reports-moderation.html', 'Moderazione segnalazioni', ['admin', 'delegato', 'rls']],
-        ['comments-moderation.html', 'Moderazione commenti', ['admin', 'delegato', 'rls']],
-        ['pending-queue.html', 'Coda PDF', ['admin']],
-      ],
-      match: [
-        'documents.html',
-        'document-view.html',
-        'document-edit.html',
-        'private-documents.html',
-        'comunicati-create.html',
-        'comunicati-editor.html',
-        'union-meetings.html',
-        'union-meeting-editor.html',
-        'union-meeting-operational.html',
-        'workers-assemblies.html',
-        'workers-assembly-editor.html',
-        'workers-assembly-operational.html',
-        'votings.html',
-        'funds.html',
-        'union-permit-requests.html',
-        'calls.html',
-        'practices.html',
-        'practice-view.html',
-        'reports.html',
-        'reports-moderation.html',
-        'comments-moderation.html',
-        'pending-queue.html',
-      ],
-    },
-    {
-      label: 'Admin',
-      pages: [
-        ['rsu-elections.html', 'ELEZIONI RSU', ['admin']],
-        ['union-permits.html', 'Permessi sindacali', ['admin']],
       ],
     },
   ];

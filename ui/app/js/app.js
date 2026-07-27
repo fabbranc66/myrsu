@@ -9,10 +9,12 @@ const queueText = document.querySelector('#queueText');
 const queueCardText = document.querySelector('#queueCardText');
 const queueProcessButton = document.querySelector('#queueProcessButton');
 const queueCard = document.querySelector('#queueCard');
-const archiveMenu = document.querySelector('#archiveMenu');
-const adminMenu = document.querySelector('#adminMenu');
-const anagraphicsMenu = document.querySelector('#anagraphicsMenu');
-const protocolMenu = document.querySelector('#protocolMenu');
+const communicationsMenu = document.querySelector('#communicationsMenu');
+const meetingsMenu = document.querySelector('#meetingsMenu');
+const practicesMenu = document.querySelector('#practicesMenu');
+const documentsMenu = document.querySelector('#documentsMenu');
+const rsuMenu = document.querySelector('#rsuMenu');
+const administrationMenu = document.querySelector('#administrationMenu');
 const profileMenuLink = document.querySelector('#profileMenuLink');
 const contactsMenuLink = document.querySelector('#contactsMenuLink');
 const usersMenuLink = document.querySelector('#usersMenuLink');
@@ -253,13 +255,15 @@ function toggleRoleMenus(user) {
   const adminEnabled = roles.includes('admin');
   const profileEnabled = operationalEnabled || roles.includes('membro');
   setMenuVisibility({
-    anagraphics: profileEnabled,
+    communications: operationalEnabled,
+    meetings: operationalEnabled,
+    practices: operationalEnabled,
+    documents: operationalEnabled,
+    rsu: operationalEnabled || adminEnabled,
+    administration: profileEnabled,
     users: adminEnabled,
     profile: profileEnabled,
     contacts: operationalEnabled,
-    protocol: operationalEnabled,
-    archive: operationalEnabled,
-    admin: adminEnabled,
     privateDocuments: adminEnabled,
     pendingQueue: adminEnabled,
   });
@@ -267,13 +271,15 @@ function toggleRoleMenus(user) {
 
 function setMenuVisibility(permissions) {
   [
-    [anagraphicsMenu, permissions.anagraphics],
+    [communicationsMenu, permissions.communications],
+    [meetingsMenu, permissions.meetings],
+    [practicesMenu, permissions.practices],
+    [documentsMenu, permissions.documents],
+    [rsuMenu, permissions.rsu],
+    [administrationMenu, permissions.administration],
     [usersMenuLink, permissions.users],
     [profileMenuLink, permissions.profile],
     [contactsMenuLink, permissions.contacts],
-    [protocolMenu, permissions.protocol],
-    [archiveMenu, permissions.archive],
-    [adminMenu, permissions.admin],
     [privateDocumentsLink, permissions.privateDocuments],
     [pendingQueueLink, permissions.pendingQueue],
   ].forEach(([element, visible]) => element?.classList.toggle('hidden', !visible));
