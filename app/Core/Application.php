@@ -51,8 +51,6 @@ use App\Services\FundProtocolService;
 use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
 use App\Services\OfficeFileService;
-use App\Services\PendingComunicatoQueueService;
-use App\Services\PendingOfficeQueueService;
 use App\Services\ProtocolDocumentNameService;
 use App\Services\PracticeService;
 use App\Services\PdfConversionService;
@@ -126,8 +124,6 @@ final class Application
     public readonly FpdiUploadedPdfService $fpdiUploadedPdf;
     public readonly FundProtocolService $fundProtocol;
     public HostingDocumentReceiveService $hostingDocumentReceive;
-    public readonly PendingComunicatoQueueService $pendingComunicatoQueue;
-    public readonly PendingOfficeQueueService $pendingOfficeQueue;
     public readonly ProtocolDocumentNameService $protocolDocumentName;
     public readonly PdfLayoutService $pdfLayout;
     public readonly PdfImageFitService $pdfImageFit;
@@ -182,18 +178,6 @@ final class Application
         $this->unionPermitPdf = new UnionPermitPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
         $this->unionLogoStorage = new UnionLogoStorageService($this->basePath);
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
-        $this->pendingComunicatoQueue = new PendingComunicatoQueueService(
-            $this->hostingConfig,
-            $this->documentStorage,
-            $this->documentSignature,
-            $this->comunicatoDirectPdf
-        );
-        $this->pendingOfficeQueue = new PendingOfficeQueueService(
-            $this->hostingConfig,
-            $this->pdfConversion,
-            $this->uploadedDocumentPdf,
-            $this->documentSignature
-        );
     }
 
     public function bootDatabase(): void

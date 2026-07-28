@@ -3,7 +3,6 @@ import * as pdfjsLib from './vendor/pdfjs/pdf.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = './vendor/pdfjs/pdf.worker.mjs';
 
 const apiBase = '../api/v1';
-let token = sessionStorage.getItem('token') || localStorage.getItem('token');
 
 const uploadForm = document.querySelector('#uploadForm');
 const documentsTable = document.querySelector('#documentsTable');
@@ -32,13 +31,19 @@ let practices = [];
 let documents = [];
 let documentPreviewUrl = null;
 let activePdfUrl = null;
+let activeVerifyUrl = null;
 let activePdf = null;
 let pdfScale = 1;
 let pinchStartDistance = 0;
 let pinchStartScale = 1;
 
+function authToken() {
+  return sessionStorage.getItem('token') || localStorage.getItem('token');
+}
+
 async function api(path, options = {}) {
   const headers = options.headers || {};
+  const token = authToken();
   if (token) headers.Authorization = `Bearer ${token}`;
 
   const response = await fetch(`${apiBase}${path}`, { ...options, headers });
@@ -67,6 +72,7 @@ function uploadDocument(formData, startProgress = 0) {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', `${apiBase}/documents`);
+    const token = authToken();
     if (token) {
       xhr.setRequestHeader('Authorization', `Bearer ${token}`);
     }
@@ -262,7 +268,12 @@ documentsTable.addEventListener('click', async (event) => {
 async function showDocument(id) {
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
   documentPreviewUrl = null;
+  const token = authToken();
   const previewUrl = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token || '')}`;
+  const documentRow = documents.find((item) => Number(item.id) === Number(id));
+  activeVerifyUrl = documentRow?.signature
+    ? `document-verify.html?id=${encodeURIComponent(id)}&sig=${encodeURIComponent(documentRow.signature)}`
+    : null;
   if (isMobileViewport()) {
     documentMobilePreview.src = '';
     documentMobilePreview.classList.add('hidden');
@@ -271,6 +282,7 @@ async function showDocument(id) {
     pdfCanvasViewer.classList.remove('hidden');
     pdfToolbar.classList.remove('hidden');
     activePdfUrl = previewUrl;
+    activePdf = null;
     pdfScale = 1;
     await renderPdfCanvas();
   } else {
@@ -300,12 +312,43 @@ async function renderPdfCanvas() {
     const page = await activePdf.getPage(pageNumber);
     const viewport = page.getViewport({ scale: pageScale(page) * pdfScale });
     const canvas = document.createElement('canvas');
+    const pageWrap = document.createElement('div');
     canvas.width = Math.floor(viewport.width);
     canvas.height = Math.floor(viewport.height);
     canvas.className = 'pdf-page-canvas';
     await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
-    pdfCanvasViewer.appendChild(canvas);
+    pageWrap.className = 'pdf-page-wrap';
+    pageWrap.style.width = `${canvas.width}px`;
+    pageWrap.style.height = `${canvas.height}px`;
+    pageWrap.appendChild(canvas);
+    await addPdfLinks(page, viewport, pageWrap, pageNumber);
+    pdfCanvasViewer.appendChild(pageWrap);
   }
+}
+
+async function addPdfLinks(page, viewport, pageWrap, pageNumber) {
+  const annotations = await page.getAnnotations({ intent: 'display' });
+  annotations.filter((item) => (item.url || item.unsafeUrl) && item.rect).forEach((item) => {
+    addPdfLink(pageWrap, viewport, item.rect, item.url || item.unsafeUrl);
+  });
+  if (pageNumber === 1 && activeVerifyUrl) {
+    addPdfLink(pageWrap, viewport, [502, 728, 554, 780], activeVerifyUrl);
+  }
+}
+
+function addPdfLink(pageWrap, viewport, rect, url) {
+  const [x1, y1, x2, y2] = viewport.convertToViewportRectangle(rect);
+  const link = document.createElement('a');
+  link.href = url;
+  link.dataset.pdfLink = url;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.className = 'pdf-page-link';
+  link.style.left = `${Math.min(x1, x2)}px`;
+  link.style.top = `${Math.min(y1, y2)}px`;
+  link.style.width = `${Math.abs(x2 - x1)}px`;
+  link.style.height = `${Math.abs(y2 - y1)}px`;
+  pageWrap.appendChild(link);
 }
 
 function pageScale(page) {
@@ -355,9 +398,54 @@ closeDocumentModal.addEventListener('click', () => {
   pdfCanvasViewer.classList.add('hidden');
   pdfToolbar.classList.add('hidden');
   activePdfUrl = null;
+  activeVerifyUrl = null;
   activePdf = null;
   documentModal.close();
 });
+
+pdfCanvasViewer.addEventListener('click', (event) => {
+  const link = event.target.closest('.pdf-page-link');
+  if (!link) return;
+  openPdfLink(event, link);
+});
+
+pdfCanvasViewer.addEventListener('pointerup', (event) => {
+  if (!isMobileViewport()) return;
+  const link = event.target.closest('.pdf-page-link');
+  if (link) {
+    openPdfLink(event, link);
+    return;
+  }
+  if (isQrTap(event)) {
+    openVerifyModal(event);
+  }
+});
+
+function openPdfLink(event, link) {
+  const url = link.dataset.pdfLink || link.href;
+  if (!url.includes('document-verify.html')) return;
+  event.preventDefault();
+  event.stopPropagation();
+  openVerifyModal(event, url);
+}
+
+function openVerifyModal(event, url = activeVerifyUrl) {
+  if (!url) return;
+  event.preventDefault();
+  event.stopPropagation();
+  verifyFrame.src = url;
+  verifyFrameModal.showModal();
+}
+
+function isQrTap(event) {
+  if (!activeVerifyUrl) return false;
+  const firstPage = pdfCanvasViewer.querySelector('.pdf-page-wrap');
+  if (!firstPage || !firstPage.contains(event.target)) return false;
+  const rect = firstPage.getBoundingClientRect();
+  const x = event.clientX - rect.left;
+  const y = event.clientY - rect.top;
+  return x > rect.width * 0.76 && y < rect.height * 0.18;
+}
 
 pdfCanvasViewer.addEventListener('touchstart', (event) => {
   if (!isMobileViewport() || event.touches.length !== 2) return;
@@ -442,6 +530,7 @@ practiceUnlinkForm.addEventListener('submit', async (event) => {
 });
 
 async function downloadDocument(id) {
+  const token = authToken();
   const response = await fetch(`${apiBase}/documents/${id}/download`, {
     headers: { Authorization: `Bearer ${token}` },
   });
@@ -489,7 +578,7 @@ function escapeHtml(value) {
   }[char]));
 }
 
-if (!token) {
+if (!authToken()) {
   window.location.href = 'app/index.html';
 } else {
   loadDocuments().catch((error) => {

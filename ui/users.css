@@ -607,6 +607,19 @@ dialog {
   box-shadow: 0 8px 24px rgba(15, 23, 42, .35);
 }
 
+.pdf-page-wrap {
+  position: relative;
+  max-width: none;
+}
+
+.pdf-page-link {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  pointer-events: auto;
+  touch-action: manipulation;
+}
+
 .preview-modal {
   width: min(1180px, calc(100vw - 32px));
   max-width: none;

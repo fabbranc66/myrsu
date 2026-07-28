@@ -3,12 +3,6 @@ const appView = document.querySelector('#appView');
 const message = document.querySelector('#message');
 const userName = document.querySelector('#userName');
 const userRole = document.querySelector('#userRole');
-const queuePanel = document.querySelector('#queuePanel');
-const queueTitle = document.querySelector('#queueTitle');
-const queueText = document.querySelector('#queueText');
-const queueCardText = document.querySelector('#queueCardText');
-const queueProcessButton = document.querySelector('#queueProcessButton');
-const queueCard = document.querySelector('#queueCard');
 const communicationsMenu = document.querySelector('#communicationsMenu');
 const meetingsMenu = document.querySelector('#meetingsMenu');
 const practicesMenu = document.querySelector('#practicesMenu');
@@ -18,7 +12,6 @@ const administrationMenu = document.querySelector('#administrationMenu');
 const profileMenuLink = document.querySelector('#profileMenuLink');
 const contactsMenuLink = document.querySelector('#contactsMenuLink');
 const usersMenuLink = document.querySelector('#usersMenuLink');
-const pendingQueueLink = document.querySelector('#pendingQueueLink');
 const reportsCard = document.querySelector('#reportsCard');
 const reportsPendingCount = document.querySelector('#reportsPendingCount');
 const commentsCard = document.querySelector('#commentsCard');
@@ -164,38 +157,6 @@ function renderUser(user) {
   userRole.textContent = roles;
 }
 
-async function loadQueueStatus() {
-  const data = await MyRsuApi.request('/local/comunicati/pending');
-  const count = Number(data.count || 0);
-
-  if (queuePanel) {
-    queuePanel.classList.remove('hidden', 'queue-panel-alert', 'queue-panel-ok');
-    queuePanel.classList.add(count > 0 ? 'queue-panel-alert' : 'queue-panel-ok');
-  }
-
-  if (queueTitle) {
-    queueTitle.textContent = count > 0
-      ? `${count} operazioni pendenti`
-      : 'Nessuna operazione pendente';
-  }
-
-  if (queueText) {
-    queueText.textContent = count > 0
-      ? 'Ci sono comunicati hosting da convertire e copiare su hosting.'
-      : 'Nessun comunicato da processare.';
-  }
-
-  if (queueCardText) {
-    queueCardText.textContent = count > 0
-      ? `${count} operazioni pendenti da processare in locale.`
-      : 'Nessuna operazione pendente.';
-  }
-
-  if (queueProcessButton) {
-    queueProcessButton.classList.toggle('hidden', count === 0);
-  }
-}
-
 function isOperator(user) {
   const roles = normalizeRoles(user);
   return roles.some((role) => ['admin', 'delegato', 'rls'].includes(role));
@@ -275,19 +236,7 @@ function showReminderWarning(rows) {
   reminderWarningModal.classList.remove('hidden');
 }
 
-function toggleAdminQueue(enabled) {
-  if (queuePanel) {
-    queuePanel.classList.toggle('hidden', !enabled);
-  }
-
-  if (queueCard) {
-    queueCard.classList.toggle('hidden', !enabled);
-  }
-
-  if (pendingQueueLink) {
-    pendingQueueLink.classList.toggle('hidden', !enabled);
-  }
-
+function toggleAdminPanels(enabled) {
   if (privateDocumentsLink) {
     privateDocumentsLink.classList.toggle('hidden', !enabled);
   }
@@ -314,7 +263,6 @@ function toggleRoleMenus(user) {
     profile: profileEnabled,
     contacts: operationalEnabled,
     privateDocuments: adminEnabled,
-    pendingQueue: adminEnabled,
   });
 }
 
@@ -330,7 +278,6 @@ function setMenuVisibility(permissions) {
     [profileMenuLink, permissions.profile],
     [contactsMenuLink, permissions.contacts],
     [privateDocumentsLink, permissions.privateDocuments],
-    [pendingQueueLink, permissions.pendingQueue],
   ].forEach(([element, visible]) => element?.classList.toggle('hidden', !visible));
 }
 
@@ -374,11 +321,8 @@ async function boot() {
     return;
   }
   renderUser(me);
-  toggleAdminQueue(isAdmin(me));
+  toggleAdminPanels(isAdmin(me));
   toggleReportsBadge(canModerateReports(me));
-  if (isAdmin(me)) {
-    loadQueueStatus().catch((error) => showMessage(error.message));
-  }
   if (canModerateReports(me)) {
     Promise.all([loadReportStats(), loadCommentStats(), loadReminderStats()]).catch((error) => showMessage(error.message));
   }
@@ -397,21 +341,6 @@ document.querySelector('#publicAuthLink')?.addEventListener('click', async (even
   clearAuthToken();
   window.location.replace(`index.html?logout=${Date.now()}`);
 });
-
-if (queueProcessButton) {
-  queueProcessButton.addEventListener('click', async () => {
-    try {
-      const result = await MyRsuApi.request('/local/comunicati/process', {
-        method: 'POST',
-        body: '{}',
-      });
-      showMessage(`Processati: ${result.processed} - Errori: ${result.errors}`);
-      await loadQueueStatus();
-    } catch (error) {
-      showMessage(error.message);
-    }
-  });
-}
 
 document.addEventListener('click', (event) => {
   const button = event.target.closest('[data-comunicato]');

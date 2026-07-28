@@ -14,7 +14,6 @@ use App\Controllers\Api\EmailController;
 use App\Controllers\Api\FundController;
 use App\Controllers\Api\GdprConsentController;
 use App\Controllers\Api\HostingDocumentController;
-use App\Controllers\Api\PendingComunicatoQueueController;
 use App\Controllers\Api\ProfileController;
 use App\Controllers\Api\PracticeController;
 use App\Controllers\Api\ProtocolController;
@@ -41,7 +40,6 @@ $documentVerification = new DocumentVerificationController($app);
 $emails = new EmailController($app);
 $funds = new FundController($app);
 $hostingDocuments = new HostingDocumentController($app);
-$pendingQueue = new PendingComunicatoQueueController($app);
 $profile = new ProfileController($app);
 $practices = new PracticeController($app);
 $protocol = new ProtocolController($app);
@@ -140,8 +138,6 @@ $app->router->post('/api/v1/hosting/comunicati/{id}/complete', [$hostingDocument
 $app->router->get('/api/v1/hosting/documents/pending-office', [$hostingDocuments, 'pendingOffice']);
 $app->router->get('/api/v1/hosting/documents/{id}/original', [$hostingDocuments, 'pendingOfficeOriginal']);
 $app->router->post('/api/v1/hosting/documents/{id}/complete', [$hostingDocuments, 'completeOffice']);
-$app->router->get('/api/v1/local/comunicati/pending', [$pendingQueue, 'index']);
-$app->router->post('/api/v1/local/comunicati/process', [$pendingQueue, 'process']);
 
 $app->router->get('/api/v1/reports', [$reports, 'index']);
 $app->router->get('/api/v1/reports/stats', [$reports, 'stats']);

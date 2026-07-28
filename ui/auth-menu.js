@@ -41,9 +41,8 @@
         ['documents.html', 'Documenti', ['admin', 'delegato', 'rls']],
         ['protocol.html', 'Registro protocollo', ['admin', 'delegato', 'rls']],
         ['private-documents.html', 'Privato', ['admin']],
-        ['pending-queue.html', 'Coda PDF', ['admin']],
       ],
-      match: ['documents.html', 'document-view.html', 'document-edit.html', 'protocol.html', 'protocol-view.html', 'protocol-edit.html', 'private-documents.html', 'pending-queue.html'],
+      match: ['documents.html', 'document-view.html', 'document-edit.html', 'protocol.html', 'protocol-view.html', 'protocol-edit.html', 'private-documents.html'],
     },
     {
       label: 'RSU / RLS',
