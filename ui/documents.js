@@ -1,3 +1,7 @@
+import * as pdfjsLib from './vendor/pdfjs/pdf.mjs';
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = './vendor/pdfjs/pdf.worker.mjs';
+
 const apiBase = '../api/v1';
 let token = sessionStorage.getItem('token') || localStorage.getItem('token');
 
@@ -7,6 +11,10 @@ const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
 const documentModal = document.querySelector('#documentModal');
 const documentPreview = document.querySelector('#documentPreview');
+const documentMobilePreview = document.querySelector('#documentMobilePreview');
+const pdfCanvasViewer = document.querySelector('#pdfCanvasViewer');
+const pdfToolbar = document.querySelector('#pdfToolbar');
+const pdfZoomValue = document.querySelector('#pdfZoomValue');
 const closeDocumentModal = document.querySelector('#closeDocumentModal');
 const verifyFrameModal = document.querySelector('#verifyFrameModal');
 const verifyFrame = document.querySelector('#verifyFrame');
@@ -23,6 +31,11 @@ const closePracticeUnlinkModal = document.querySelector('#closePracticeUnlinkMod
 let practices = [];
 let documents = [];
 let documentPreviewUrl = null;
+let activePdfUrl = null;
+let activePdf = null;
+let pdfScale = 1;
+let pinchStartDistance = 0;
+let pinchStartScale = 1;
 
 async function api(path, options = {}) {
   const headers = options.headers || {};
@@ -249,8 +262,66 @@ documentsTable.addEventListener('click', async (event) => {
 async function showDocument(id) {
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
   documentPreviewUrl = null;
-  documentPreview.src = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token || '')}`;
+  const previewUrl = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token || '')}`;
+  if (isMobileViewport()) {
+    documentMobilePreview.src = '';
+    documentMobilePreview.classList.add('hidden');
+    documentPreview.src = '';
+    documentPreview.classList.add('hidden');
+    pdfCanvasViewer.classList.remove('hidden');
+    pdfToolbar.classList.remove('hidden');
+    activePdfUrl = previewUrl;
+    pdfScale = 1;
+    await renderPdfCanvas();
+  } else {
+    pdfCanvasViewer.classList.add('hidden');
+    pdfToolbar.classList.add('hidden');
+    documentMobilePreview.src = '';
+    documentMobilePreview.classList.add('hidden');
+    documentPreview.src = previewUrl;
+    documentPreview.classList.remove('hidden');
+  }
   documentModal.showModal();
+}
+
+async function renderPdfCanvas() {
+  if (!activePdfUrl) return;
+  pdfCanvasViewer.innerHTML = '<p class="muted">Caricamento PDF...</p>';
+  activePdf = activePdf || await pdfjsLib.getDocument({
+    url: activePdfUrl,
+    cMapUrl: './vendor/pdfjs/cmaps/',
+    cMapPacked: true,
+    standardFontDataUrl: './vendor/pdfjs/standard_fonts/',
+    wasmUrl: './vendor/pdfjs/wasm/',
+  }).promise;
+  pdfCanvasViewer.innerHTML = '';
+  pdfZoomValue.textContent = `${Math.round(pdfScale * 100)}%`;
+  for (let pageNumber = 1; pageNumber <= activePdf.numPages; pageNumber += 1) {
+    const page = await activePdf.getPage(pageNumber);
+    const viewport = page.getViewport({ scale: pageScale(page) * pdfScale });
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.floor(viewport.width);
+    canvas.height = Math.floor(viewport.height);
+    canvas.className = 'pdf-page-canvas';
+    await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+    pdfCanvasViewer.appendChild(canvas);
+  }
+}
+
+function pageScale(page) {
+  const viewport = page.getViewport({ scale: 1 });
+  const availableWidth = Math.max(260, documentModal.clientWidth - 36);
+  return Math.min(2, availableWidth / viewport.width);
+}
+
+function pinchDistance(touches) {
+  const dx = touches[0].clientX - touches[1].clientX;
+  const dy = touches[0].clientY - touches[1].clientY;
+  return Math.hypot(dx, dy);
+}
+
+function isMobileViewport() {
+  return window.matchMedia('(max-width: 760px)').matches;
 }
 
 window.addEventListener('message', (event) => {
@@ -279,7 +350,34 @@ closeDocumentModal.addEventListener('click', () => {
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
   documentPreviewUrl = null;
   documentPreview.src = '';
+  documentMobilePreview.src = '';
+  pdfCanvasViewer.innerHTML = '';
+  pdfCanvasViewer.classList.add('hidden');
+  pdfToolbar.classList.add('hidden');
+  activePdfUrl = null;
+  activePdf = null;
   documentModal.close();
+});
+
+pdfCanvasViewer.addEventListener('touchstart', (event) => {
+  if (!isMobileViewport() || event.touches.length !== 2) return;
+  event.preventDefault();
+  pinchStartDistance = pinchDistance(event.touches);
+  pinchStartScale = pdfScale;
+}, { passive: false });
+
+pdfCanvasViewer.addEventListener('touchmove', (event) => {
+  if (!isMobileViewport() || event.touches.length !== 2 || pinchStartDistance <= 0) return;
+  event.preventDefault();
+  const nextScale = pinchStartScale * (pinchDistance(event.touches) / pinchStartDistance);
+  pdfScale = Math.max(0.6, Math.min(5, nextScale));
+  pdfZoomValue.textContent = `${Math.round(pdfScale * 100)}%`;
+}, { passive: false });
+
+pdfCanvasViewer.addEventListener('touchend', async () => {
+  if (!isMobileViewport() || pinchStartDistance <= 0) return;
+  pinchStartDistance = 0;
+  await renderPdfCanvas();
 });
 
 closeVerifyFrameModal.addEventListener('click', () => {

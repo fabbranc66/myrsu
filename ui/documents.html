@@ -87,9 +87,14 @@
       <dialog id="documentModal">
         <header>
           <h2>Documento</h2>
+          <div id="pdfToolbar" class="pdf-toolbar hidden">
+            <span id="pdfZoomValue">100%</span>
+          </div>
           <button id="closeDocumentModal" type="button">Chiudi</button>
         </header>
-        <iframe id="documentPreview" title="Document preview"></iframe>
+        <iframe id="documentPreview" title="Anteprima documento"></iframe>
+        <div id="pdfCanvasViewer" class="pdf-canvas-viewer hidden"></div>
+        <img id="documentMobilePreview" class="document-mobile-preview hidden" alt="Anteprima documento">
       </dialog>
 
       <dialog id="verifyFrameModal" class="preview-modal">
@@ -139,7 +144,7 @@
   <script src="vendor/jspdf/jspdf.umd.min.js"></script>
   <script src="pdf-rasterizer.js?v=20260627-1"></script>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="documents.js?v=20260728-truncate-4"></script>
+  <script type="module" src="documents.js?v=20260728-pdfjs-scroll-pinch"></script>
   <script src="document-comments.js?v=20260628-1"></script>
   <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>
