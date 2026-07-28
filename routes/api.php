@@ -96,6 +96,7 @@ $app->router->post('/api/v1/calls/{id}/link-practice', [$calls, 'linkPractice'])
 
 $app->router->get('/api/v1/emails', [$emails, 'index']);
 $app->router->post('/api/v1/emails', [$emails, 'store']);
+$app->router->post('/api/v1/emails/send', [$emails, 'send']);
 $app->router->post('/api/v1/emails/sync', [$emails, 'sync']);
 $app->router->get('/api/v1/emails/attachments/{id}/preview', [$emails, 'attachment']);
 $app->router->get('/api/v1/emails/attachments/{id}/download', [$emails, 'downloadAttachment']);

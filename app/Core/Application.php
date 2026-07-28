@@ -46,6 +46,7 @@ use App\Services\DocumentStorageService;
 use App\Services\DocumentThumbnailService;
 use App\Services\DocumentVerificationMetadataService;
 use App\Services\EmailImapSyncService;
+use App\Services\EmailSmtpService;
 use App\Services\FpdiUploadedPdfService;
 use App\Services\FundProtocolService;
 use App\Services\HostingDocumentReceiveService;
@@ -118,6 +119,7 @@ final class Application
     public readonly DocumentThumbnailService $documentThumbnail;
     public readonly DocumentVerificationMetadataService $documentVerificationMetadata;
     public readonly EmailImapSyncService $emailImapSync;
+    public readonly EmailSmtpService $emailSmtp;
     public readonly DocumentStorageService $documentStorage;
     public readonly OfficeFileService $officeFiles;
     public readonly PdfConversionService $pdfConversion;
@@ -177,6 +179,7 @@ final class Application
         );
         $this->unionPermitPdf = new UnionPermitPdfService($this->pdfLayout, $this->pdfWriter, $this->pdfQr);
         $this->unionLogoStorage = new UnionLogoStorageService($this->basePath);
+        $this->emailSmtp = new EmailSmtpService();
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
     }
 

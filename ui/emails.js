@@ -1,8 +1,11 @@
 const apiBase = '../api/v1';
 const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const form = document.querySelector('#emailForm');
+const sendEmailForm = document.querySelector('#sendEmailForm');
 const table = document.querySelector('#emailsTable');
 const practicesSelect = form.practice_id;
+const sendPracticesSelect = sendEmailForm.practice_id;
+const sendDocumentsSelect = sendEmailForm.querySelector('[name="document_ids[]"]');
 const directionFilter = document.querySelector('#directionFilter');
 const statusFilter = document.querySelector('#statusFilter');
 const syncEmails = document.querySelector('#syncEmails');
@@ -19,6 +22,7 @@ const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
 let emails = [];
 let practices = [];
+let documents = [];
 let currentEmailId = null;
 
 if (!token) window.location.href = 'login.html';
@@ -32,17 +36,32 @@ async function api(path, options = {}) {
   return payload.data;
 }
 
+async function apiMultipart(path, data) {
+  const response = await fetch(`${apiBase}${path}`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${token}` },
+    body: data,
+  });
+  const payload = await response.json();
+  jsonOutput.textContent = JSON.stringify(payload, null, 2);
+  if (!response.ok) throw new Error(payload.error?.message || 'Operazione fallita');
+  return payload.data;
+}
+
 async function load() {
   const query = new URLSearchParams();
   if (directionFilter.value) query.set('direction', directionFilter.value);
   if (statusFilter.value) query.set('handling_status', statusFilter.value);
-  const [emailRows, practiceRows] = await Promise.all([
+  const [emailRows, practiceRows, documentRows] = await Promise.all([
     api(`/emails${query.toString() ? `?${query}` : ''}`),
     api('/practices'),
+    api('/documents').catch(() => []),
   ]);
   emails = emailRows;
   practices = practiceRows;
+  documents = documentRows;
   fillPractices();
+  fillDocuments();
   render();
   const params = new URLSearchParams(window.location.search);
   const openId = params.get('id');
@@ -51,7 +70,27 @@ async function load() {
 }
 
 function fillPractices() {
-  practicesSelect.innerHTML = '<option value="">-</option>' + practices.map((practice) => `<option value="${practice.id}">${escapeHtml(practice.title)}</option>`).join('');
+  const options = '<option value="">-</option>' + practices.map((practice) => `<option value="${practice.id}">${escapeHtml(practice.title)}</option>`).join('');
+  practicesSelect.innerHTML = options;
+  sendPracticesSelect.innerHTML = options;
+}
+
+function fillDocuments() {
+  const seen = new Set();
+  sendDocumentsSelect.innerHTML = documents
+    .filter((document) => document.category === 'documenti' && document.conversion_status === 'ready')
+    .filter((document) => {
+      const key = systemDocumentName(document).toLowerCase();
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .map((document) => `<option value="${document.id}">${escapeHtml(systemDocumentName(document))}</option>`)
+    .join('');
+}
+
+function systemDocumentName(document) {
+  return String(document.stored_name || document.pdf_public_path || document.original_name || '').split('/').pop();
 }
 
 function render() {
@@ -94,6 +133,21 @@ form.addEventListener('submit', async (event) => {
   form.reset();
   message.textContent = 'E-mail salvata';
   await load();
+});
+
+sendEmailForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const button = sendEmailForm.querySelector('button[type="submit"]');
+  button.disabled = true;
+  message.textContent = 'Invio e-mail in corso...';
+  try {
+    await apiMultipart('/emails/send', new FormData(sendEmailForm));
+    sendEmailForm.reset();
+    message.textContent = 'E-mail inviata';
+    await load();
+  } finally {
+    button.disabled = false;
+  }
 });
 
 table.addEventListener('click', async (event) => {

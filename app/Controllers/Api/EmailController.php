@@ -48,6 +48,25 @@ final class EmailController
         return Response::json(['data' => ['email' => $email]], 201);
     }
 
+    public function send(Request $request): Response
+    {
+        $user = $this->requireOperator($request);
+        $data = $this->validatedSend($request->all(), $user);
+        $email = $this->app->emails->create($data + ['created_by' => (int)$user['id']]);
+        $attachments = array_merge(
+            $this->storeUploadedAttachments((int)$email['id']),
+            $this->storeDocumentAttachments((int)$email['id'], $request->all())
+        );
+        $this->app->emailSmtp->send($email, array_map(fn (array $item): array => [
+            'path' => $this->attachmentPath($item),
+            'name' => $item['original_name'],
+            'mime_type' => $item['mime_type'] ?: 'application/octet-stream',
+        ], $attachments));
+        $this->log((int)$user['id'], 'emails.send', $email);
+
+        return Response::json(['data' => ['email' => $email, 'attachments' => $attachments]], 201);
+    }
+
     public function sync(Request $request): Response
     {
         $user = $this->requireOperator($request);
@@ -190,6 +209,111 @@ final class EmailController
             'practice_id' => isset($data['practice_id']) && $data['practice_id'] !== '' ? (int)$data['practice_id'] : null,
             'contact_id' => isset($data['contact_id']) && $data['contact_id'] !== '' ? (int)$data['contact_id'] : null,
         ];
+    }
+
+    private function validatedSend(array $data, array $user): array
+    {
+        Validator::required($data, ['to_emails', 'subject', 'body']);
+        $to = trim(is_array($data['to_emails'] ?? null) ? implode(',', $data['to_emails']) : (string)$data['to_emails']);
+        if ($this->validEmails($to) === []) throw new HttpException(422, 'Destinatario non valido.');
+        $cc = trim(is_array($data['cc_emails'] ?? null) ? implode(',', $data['cc_emails']) : (string)($data['cc_emails'] ?? ''));
+        if ($cc !== '' && $this->validEmails($cc) === []) throw new HttpException(422, 'CC non valido.');
+
+        return [
+            'direction' => 'outgoing',
+            'external_id' => null,
+            'import_source' => 'smtp',
+            'read_status' => 'read',
+            'handling_status' => 'managed',
+            'from_name' => $user['name'] ?? null,
+            'from_email' => trim((string)env_value('EMAIL_SMTP_FROM', env_value('EMAIL_SMTP_USER', env_value('EMAIL_IMAP_USER', '')))) ?: null,
+            'to_emails' => implode(', ', $this->validEmails($to)),
+            'cc_emails' => $cc !== '' ? implode(', ', $this->validEmails($cc)) : null,
+            'subject' => mb_substr(trim((string)$data['subject']), 0, 255),
+            'body' => trim((string)$data['body']),
+            'message_at' => date('Y-m-d H:i:s'),
+            'practice_id' => isset($data['practice_id']) && $data['practice_id'] !== '' ? (int)$data['practice_id'] : null,
+            'contact_id' => null,
+        ];
+    }
+
+    private function validEmails(string $value): array
+    {
+        return array_values(array_filter(array_map('trim', preg_split('/[,;]/', $value) ?: []), fn (string $email): bool => filter_var($email, FILTER_VALIDATE_EMAIL) !== false));
+    }
+
+    private function storeUploadedAttachments(int $emailId): array
+    {
+        $files = $this->uploadedFiles('attachments');
+        $saved = [];
+        foreach ($files as $file) {
+            if (($file['error'] ?? UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_OK) continue;
+            $saved[] = $this->saveAttachmentFile($emailId, (string)$file['name'], (string)$file['tmp_name'], true);
+        }
+        return $saved;
+    }
+
+    private function storeDocumentAttachments(int $emailId, array $data): array
+    {
+        $ids = $data['document_ids'] ?? [];
+        if (!is_array($ids)) $ids = preg_split('/[,;]/', (string)$ids) ?: [];
+        $saved = [];
+        foreach (array_unique(array_map('intval', $ids)) as $id) {
+            if ($id <= 0) continue;
+            $document = $this->app->documents->findById($id);
+            if (
+                $document === null
+                || (string)$document['category'] !== 'documenti'
+                || (string)$document['conversion_status'] !== 'ready'
+            ) continue;
+            $path = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+            if (!is_file($path)) continue;
+            $saved[] = $this->saveAttachmentFile($emailId, basename((string)$document['pdf_public_path']), $path, false);
+        }
+        return $saved;
+    }
+
+    private function saveAttachmentFile(int $emailId, string $originalName, string $sourcePath, bool $uploaded): array
+    {
+        $basePath = realpath(dirname(__DIR__, 3)) ?: dirname(__DIR__, 3);
+        $storagePath = 'storage/private/email-attachments/' . $emailId;
+        $dir = $basePath . '/' . $storagePath;
+        if (!is_dir($dir)) mkdir($dir, 0775, true);
+        $storedName = bin2hex(random_bytes(16)) . '-' . preg_replace('/[^a-zA-Z0-9._-]+/', '-', basename($originalName));
+        $target = $dir . '/' . $storedName;
+        $ok = $uploaded ? move_uploaded_file($sourcePath, $target) : copy($sourcePath, $target);
+        if (!$ok) throw new HttpException(500, 'Salvataggio allegato fallito.');
+        return $this->app->emails->addAttachment($emailId, [
+            'original_name' => basename($originalName),
+            'stored_name' => $storedName,
+            'storage_path' => $storagePath,
+            'mime_type' => mime_content_type($target) ?: 'application/octet-stream',
+            'size_bytes' => filesize($target),
+        ]);
+    }
+
+    private function uploadedFiles(string $key): array
+    {
+        if (!isset($_FILES[$key])) return [];
+        $files = $_FILES[$key];
+        if (!is_array($files['name'])) return [$files];
+        $normalized = [];
+        foreach ($files['name'] as $index => $name) {
+            $normalized[] = [
+                'name' => $name,
+                'type' => $files['type'][$index] ?? '',
+                'tmp_name' => $files['tmp_name'][$index] ?? '',
+                'error' => $files['error'][$index] ?? UPLOAD_ERR_NO_FILE,
+                'size' => $files['size'][$index] ?? 0,
+            ];
+        }
+        return $normalized;
+    }
+
+    private function attachmentPath(array $attachment): string
+    {
+        $basePath = realpath(dirname(__DIR__, 3)) ?: dirname(__DIR__, 3);
+        return $basePath . '/' . $attachment['storage_path'] . '/' . $attachment['stored_name'];
     }
 
     private function deleteAttachmentFiles(int $emailId): void

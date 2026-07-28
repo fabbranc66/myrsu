@@ -15,6 +15,19 @@
   margin: 12px 0;
 }
 
+.email-send-panel {
+  margin-bottom: 18px;
+  border: 1px solid #dbe3ef;
+  border-radius: 12px;
+  background: #f8fafc;
+  padding: 12px;
+}
+
+.email-send-panel summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
 .email-practice-link {
   max-width: 160px;
   padding: 6px 8px;

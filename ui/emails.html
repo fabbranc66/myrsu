@@ -13,6 +13,19 @@
   <main>
     <section class="panel">
       <header><div><h1>Registro e-mail</h1><p class="muted">Ricevute, inviate, bozze e gestione pratica.</p></div></header>
+      <details class="email-send-panel">
+        <summary>Scrivi e invia e-mail</summary>
+        <form id="sendEmailForm" class="email-form" enctype="multipart/form-data">
+          <label>Destinatari<input name="to_emails" type="text" placeholder="nome@email.it" required></label>
+          <label>CC<input name="cc_emails" type="text"></label>
+          <label>Pratica<select name="practice_id"><option value="">-</option></select></label>
+          <label class="wide">Oggetto<input name="subject" required></label>
+          <label class="wide">Corpo<textarea name="body" rows="7" required></textarea></label>
+          <label class="wide">Documenti archivio<select name="document_ids[]" multiple></select></label>
+          <label class="wide">Allegati locali<input name="attachments[]" type="file" multiple></label>
+          <div class="wide"><button type="submit">Invia e-mail</button></div>
+        </form>
+      </details>
       <form id="emailForm" class="email-form">
         <input name="id" type="hidden">
         <label>Tipo<select name="direction"><option value="incoming">ricevuta</option><option value="outgoing">inviata</option><option value="draft">bozza</option></select></label>
