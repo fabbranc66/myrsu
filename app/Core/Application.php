@@ -19,6 +19,7 @@ use App\Repositories\PracticeRepository;
 use App\Repositories\PracticeTimelineRepository;
 use App\Repositories\ReportAttachmentRepository;
 use App\Repositories\ReportRepository;
+use App\Repositories\ReminderRepository;
 use App\Repositories\RolePermissionRepository;
 use App\Repositories\TokenRepository;
 use App\Repositories\UnionMeetingRepository;
@@ -96,6 +97,7 @@ final class Application
     public readonly PracticeService $practiceService;
     public readonly ReportRepository $reports;
     public readonly ReportAttachmentRepository $reportAttachments;
+    public readonly ReminderRepository $reminders;
     public readonly UnionMeetingRepository $unionMeetings;
     public readonly UnionMeetingNoteRepository $unionMeetingNotes;
     public readonly UnionMeetingDocumentRepository $unionMeetingDocuments;
@@ -223,6 +225,7 @@ final class Application
         $this->practiceService = new PracticeService($this->practices, $this->users);
         $this->reports = new ReportRepository($pdo);
         $this->reportAttachments = new ReportAttachmentRepository($pdo);
+        $this->reminders = new ReminderRepository($pdo);
         $this->unionMeetings = new UnionMeetingRepository($pdo);
         $this->unionMeetingNotes = new UnionMeetingNoteRepository($pdo);
         $this->unionMeetingDocuments = new UnionMeetingDocumentRepository($pdo);

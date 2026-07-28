@@ -489,6 +489,30 @@ body {
   color: #084298;
 }
 
+.dashboard-warning-card {
+  border-color: #f97316;
+  background: #fff7ed;
+}
+
+.reminder-warning-modal {
+  max-width: 560px;
+}
+
+.reminder-warning-row {
+  display: grid;
+  gap: 4px;
+  margin: 0 0 10px;
+  padding: 10px;
+  border: 1px solid #fed7aa;
+  border-radius: 12px;
+  background: #fff7ed;
+}
+
+.reminder-warning-row span {
+  color: #9a3412;
+  font-size: .92rem;
+}
+
 .message {
   margin: 16px;
   color: #b91c1c;

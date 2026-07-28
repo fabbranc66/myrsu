@@ -20,6 +20,9 @@ const interlocutorResults = document.querySelector('#interlocutorResults');
 const contactModal = document.querySelector('#contactModal');
 const contactForm = document.querySelector('#contactForm');
 const closeContactModal = document.querySelector('#closeContactModal');
+const reminderModal = document.querySelector('#reminderModal');
+const reminderForm = document.querySelector('#reminderForm');
+const closeReminderModal = document.querySelector('#closeReminderModal');
 let practices = [];
 let contacts = [];
 let selectedInterlocutor = null;
@@ -65,19 +68,23 @@ async function loadCalls(practiceId = '') {
 
 function row(call) {
   return `<tr>
-    <td>${escapeHtml(call.datetime.replace('T', ' '))}</td>
-    <td><span class="call-direction ${call.direction}">${escapeHtml(call.direction)}</span></td>
-    <td><strong>${escapeHtml(call.interlocutor.name)}</strong><br><span class="muted">${escapeHtml(call.interlocutor.role || call.interlocutor.org || '-')}</span></td>
-    <td>${escapeHtml(call.outcome || '-')}</td>
-    <td>${practiceLabel(call.practice_id)}</td>
-    <td class="actions-cell">${call.practice_id ? '' : `<button class="icon-action" data-edit-call="${call.id}" title="Modifica">${MyRsuIcons.get('edit')}</button><button class="icon-action" data-link-practice="${call.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button><button class="icon-action danger" data-delete-call="${call.id}" title="Elimina">${MyRsuIcons.get('trash')}</button>`}</td>
+    <td data-label="Data/ora">${escapeHtml(call.datetime.replace('T', ' '))}</td>
+    <td data-label="Direzione"><span class="call-direction ${call.direction}">${escapeHtml(call.direction)}</span></td>
+    <td data-label="Interlocutore"><span class="table-value-title"><span class="truncate-title" title="${escapeHtml(call.interlocutor.name)}"><strong>${escapeHtml(call.interlocutor.name)}</strong></span></span><span class="muted truncate-title" title="${escapeHtml(call.interlocutor.role || call.interlocutor.org || '-')}">${escapeHtml(call.interlocutor.role || call.interlocutor.org || '-')}</span></td>
+    <td data-label="Esito"><span class="truncate-title" title="${escapeHtml(call.outcome || '-')}">${escapeHtml(call.outcome || '-')}</span></td>
+    <td data-label="Pratica"><span class="truncate-title" title="${plainPracticeLabel(call.practice_id)}">${practiceLabel(call.practice_id)}</span></td>
+    <td data-label="Azioni" class="actions-cell"><button class="icon-action" data-reminder-call="${call.id}" data-reminder-title="${escapeHtml(call.interlocutor.name)}" title="Reminder">${MyRsuIcons.get('reminder')}</button>${call.practice_id ? '' : `<button class="icon-action" data-edit-call="${call.id}" title="Modifica">${MyRsuIcons.get('edit')}</button><button class="icon-action" data-link-practice="${call.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button><button class="icon-action danger" data-delete-call="${call.id}" title="Elimina">${MyRsuIcons.get('trash')}</button>`}</td>
   </tr>`;
 }
 
 function practiceLabel(practiceId) {
+  return escapeHtml(plainPracticeLabel(practiceId));
+}
+
+function plainPracticeLabel(practiceId) {
   if (!practiceId) return '-';
   const practice = practices.find((item) => Number(item.id) === Number(practiceId));
-  return practice ? escapeHtml(practice.title) : `pratica ${practiceId}`;
+  return practice ? practice.title : `pratica ${practiceId}`;
 }
 
 function escapeHtml(value) {
@@ -210,6 +217,14 @@ callsTable.addEventListener('click', (event) => {
   }
 
   const deleteButton = event.target.closest('[data-delete-call]');
+  const reminderButton = event.target.closest('[data-reminder-call]');
+  if (reminderButton) {
+    reminderForm.reset();
+    reminderForm.entity_id.value = reminderButton.dataset.reminderCall;
+    reminderForm.title.value = `Richiamare ${reminderButton.dataset.reminderTitle || ''}`.trim();
+    reminderModal.showModal();
+    return;
+  }
   if (!deleteButton) return;
   if (!confirm('Eliminare telefonata?')) return;
   api(`/calls/${deleteButton.dataset.deleteCall}`, { method: 'DELETE' })
@@ -252,6 +267,7 @@ practiceLinkForm.addEventListener('submit', async (event) => {
 
 closePracticeLinkModal.addEventListener('click', () => practiceLinkModal.close());
 closeCallEditModal.addEventListener('click', () => callEditModal.close());
+closeReminderModal.addEventListener('click', () => reminderModal.close());
 
 callEditForm.addEventListener('submit', async (event) => {
   event.preventDefault();
@@ -297,6 +313,13 @@ contactForm.addEventListener('submit', async (event) => {
   } catch (error) {
     message.textContent = error.message;
   }
+});
+
+reminderForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  await api('/reminders', { method: 'POST', body: JSON.stringify(Object.fromEntries(new FormData(reminderForm).entries())) });
+  reminderModal.close();
+  message.textContent = 'Reminder creato';
 });
 
 if (!token) {

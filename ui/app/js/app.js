@@ -23,6 +23,12 @@ const reportsCard = document.querySelector('#reportsCard');
 const reportsPendingCount = document.querySelector('#reportsPendingCount');
 const commentsCard = document.querySelector('#commentsCard');
 const commentsPendingCount = document.querySelector('#commentsPendingCount');
+const remindersCard = document.querySelector('#remindersCard');
+const remindersPendingCount = document.querySelector('#remindersPendingCount');
+const remindersPendingLabel = document.querySelector('#remindersPendingLabel');
+const reminderWarningModal = document.querySelector('#reminderWarningModal');
+const reminderWarningBody = document.querySelector('#reminderWarningBody');
+const closeReminderWarningModal = document.querySelector('#closeReminderWarningModal');
 const votingsCard = document.querySelector('#votingsCard');
 const privateDocumentsLink = document.querySelector('#privateDocumentsLink');
 const privateDocumentsCard = document.querySelector('#privateDocumentsCard');
@@ -235,6 +241,40 @@ async function loadCommentStats() {
   }
 }
 
+async function loadReminderStats() {
+  const rows = await MyRsuApi.request('/reminders?status=pending');
+  const overdue = rows.filter((item) => new Date(String(item.due_at).replace(' ', 'T')) < new Date()).length;
+  const urgent = urgentReminders(rows);
+  if (remindersPendingCount) {
+    remindersPendingCount.textContent = String(rows.length);
+  }
+  if (remindersPendingLabel) {
+    remindersPendingLabel.textContent = overdue > 0 ? `${overdue} scaduti` : 'pendenti';
+  }
+  remindersCard?.classList.toggle('dashboard-warning-card', overdue > 0 || urgent.length > 0);
+  showReminderWarning(urgent);
+}
+
+function urgentReminders(rows) {
+  const now = Date.now();
+  const limit = now + (24 * 60 * 60 * 1000);
+  return rows.filter((item) => {
+    const due = new Date(String(item.due_at).replace(' ', 'T')).getTime();
+    return Number.isFinite(due) && due <= limit;
+  });
+}
+
+function showReminderWarning(rows) {
+  if (!reminderWarningModal || !reminderWarningBody || rows.length === 0) return;
+  reminderWarningBody.innerHTML = rows.slice(0, 6).map((item) => `
+    <article class="reminder-warning-row">
+      <strong>${escapeHtml(item.title)}</strong>
+      <span>${escapeHtml(item.due_at)} - ${escapeHtml(item.entity_type)} #${escapeHtml(item.entity_id)}</span>
+    </article>
+  `).join('');
+  reminderWarningModal.classList.remove('hidden');
+}
+
 function toggleAdminQueue(enabled) {
   if (queuePanel) {
     queuePanel.classList.toggle('hidden', !enabled);
@@ -304,6 +344,9 @@ function toggleReportsBadge(enabled) {
   if (votingsCard) {
     votingsCard.classList.toggle('hidden', !enabled);
   }
+  if (remindersCard) {
+    remindersCard.classList.toggle('hidden', !enabled);
+  }
 }
 
 async function boot() {
@@ -337,7 +380,7 @@ async function boot() {
     loadQueueStatus().catch((error) => showMessage(error.message));
   }
   if (canModerateReports(me)) {
-    Promise.all([loadReportStats(), loadCommentStats()]).catch((error) => showMessage(error.message));
+    Promise.all([loadReportStats(), loadCommentStats(), loadReminderStats()]).catch((error) => showMessage(error.message));
   }
   loadPublicBoard(publicBoardUser).catch((error) => showMessage(error.message));
   setView(true);
@@ -505,6 +548,13 @@ function closeParentModal(element) {
     }
   });
 });
+
+if (closeReminderWarningModal && reminderWarningModal) {
+  closeReminderWarningModal.addEventListener('click', () => reminderWarningModal.classList.add('hidden'));
+  reminderWarningModal.addEventListener('click', (event) => {
+    if (event.target === reminderWarningModal) reminderWarningModal.classList.add('hidden');
+  });
+}
 
 function bindMobileMenu() {
   document.querySelectorAll('.app-nav').forEach((nav) => {

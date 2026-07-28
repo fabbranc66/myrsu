@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Telefonate</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
-  <link rel="stylesheet" href="users.css">
+  <link rel="stylesheet" href="users.css?v=20260728-calls-mobile-1">
 </head>
 <body>
   <header class="app-header">
@@ -50,7 +50,7 @@
         <button type="submit">Filtra</button>
       </form>
 
-      <table>
+      <table class="mobile-card-table calls-mobile-table">
         <thead><tr><th>Data/ora</th><th>Direzione</th><th>Interlocutore</th><th>Esito</th><th>Pratica</th><th>Azioni</th></tr></thead>
         <tbody id="callsTable"></tbody>
       </table>
@@ -97,12 +97,24 @@
         </form>
       </dialog>
 
+      <dialog id="reminderModal">
+        <header><h2>Crea reminder</h2><button id="closeReminderModal" type="button">Chiudi</button></header>
+        <form id="reminderForm" class="grid">
+          <input name="entity_type" type="hidden" value="call">
+          <input name="entity_id" type="hidden">
+          <label>Scadenza<input name="due_at" type="datetime-local" required></label>
+          <label class="full-width">Titolo<input name="title" required></label>
+          <label class="full-width">Note<textarea name="notes"></textarea></label>
+          <button type="submit">Salva reminder</button>
+        </form>
+      </dialog>
+
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="calls.js"></script>
+  <script src="calls.js?v=20260728-reminders-1"></script>
   <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>
 </html>

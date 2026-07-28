@@ -9,6 +9,7 @@ window.MyRsuIcons = (() => {
     logs: '<svg viewBox="0 0 24 24"><path d="M5 5h14M5 12h14M5 19h10"/></svg>',
     link: '<svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-2 2a5 5 0 0 0 7 7l1-1"/></svg>',
     note: '<svg viewBox="0 0 24 24"><path d="M5 3h14v12l-6 6H5z"/><path d="M13 21v-6h6"/><path d="M8 8h8M8 12h6"/></svg>',
+    reminder: '<svg viewBox="0 0 24 24"><path d="M6 10a6 6 0 0 1 12 0c0 7 3 7 3 9H3c0-2 3-2 3-9"/><path d="M10 21h4"/></svg>',
     protocolDelete: '<svg viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M7 7l1 13h8l1-13"/><path d="M10 11v6M14 11v6"/></svg>',
     protocolIn: '<svg viewBox="0 0 24 24"><path d="M12 20V8"/><path d="M8 12l4-4 4 4"/><path d="M5 4h14"/></svg>',
     save: '<svg viewBox="0 0 24 24"><path d="M5 4h12l2 2v14H5z"/><path d="M8 4v6h8M8 20v-6h8"/></svg>',

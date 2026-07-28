@@ -22,6 +22,7 @@
           <div class="submenu">
             <a href="../comunicati-create.html">Comunicati</a>
             <a href="../emails.html">E-mail</a>
+            <a href="../reminders.html">Reminder</a>
             <a href="../reports.html">Segnalazioni</a>
             <a href="../reports-moderation.html">Moderazione segnalazioni</a>
             <a href="../comments-moderation.html">Moderazione commenti</a>
@@ -160,6 +161,14 @@
               <span>pendenti</span>
             </a>
           </article>
+          <article id="remindersCard" class="hidden dashboard-link-card">
+            <h3>Reminder</h3>
+            <p>Promemoria operativi da gestire.</p>
+            <a class="dashboard-badge" href="../reminders.html?status=pending">
+              <span id="remindersPendingCount">0</span>
+              <span id="remindersPendingLabel">pendenti</span>
+            </a>
+          </article>
           <article id="votingsCard" class="hidden dashboard-link-card">
             <h3>Votazioni</h3>
             <p>Nuova votazione e gestione token.</p>
@@ -175,6 +184,17 @@
           <div id="publicBoardUserContent" class="board-sections"></div>
         </section>
       </section>
+
+      <div id="reminderWarningModal" class="document-modal hidden">
+        <div class="document-modal-content reminder-warning-modal">
+          <header>
+            <h2>Reminder in scadenza</h2>
+            <button id="closeReminderWarningModal" type="button">&times;</button>
+          </header>
+          <div id="reminderWarningBody"></div>
+          <a class="dashboard-badge" href="../reminders.html?status=pending">Apri reminder</a>
+        </div>
+      </div>
 
       <div id="comunicatoModalUser" class="document-modal hidden">
         <div class="document-modal-content text-modal">
@@ -204,7 +224,7 @@
 
   <script src="js/api.js?v=20260727-token-1"></script>
   <script src="js/auth.js?v=20260727-token-1"></script>
-  <script src="js/app.js?v=20260727-token-2"></script>
+  <script src="js/app.js?v=20260728-reminder-warning-1"></script>
 </body>
 </html>
 

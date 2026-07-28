@@ -13,6 +13,8 @@ const attachmentModal = document.querySelector('#attachmentModal');
 const attachmentTitle = document.querySelector('#attachmentTitle');
 const attachmentFrame = document.querySelector('#attachmentFrame');
 const noteForm = document.querySelector('#emailNoteForm');
+const reminderModal = document.querySelector('#reminderModal');
+const reminderForm = document.querySelector('#reminderForm');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
 let emails = [];
@@ -62,6 +64,7 @@ function render() {
     <td data-label="Stato">${statusLabel(email.handling_status)}</td>
     <td data-label="Azioni" class="actions-cell">
       <button class="icon-action" data-view="${email.id}" title="Visualizza">${MyRsuIcons.get('eye')}</button>
+      <button class="icon-action" data-reminder="${email.id}" data-reminder-title="${escapeHtml(email.subject)}" title="Reminder">${MyRsuIcons.get('reminder')}</button>
       <button class="icon-action" data-edit="${email.id}" title="Modifica">${MyRsuIcons.get('edit')}</button>
       <button class="icon-action" data-download="${email.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
       ${practiceDropdown(email)}
@@ -97,9 +100,11 @@ table.addEventListener('click', async (event) => {
   const view = event.target.closest('[data-view]');
   const edit = event.target.closest('[data-edit]');
   const download = event.target.closest('[data-download]');
+  const reminder = event.target.closest('[data-reminder]');
   const managed = event.target.closest('[data-managed]');
   const remove = event.target.closest('[data-delete]');
   if (view) return openEmail(view.dataset.view);
+  if (reminder) return openReminder(reminder.dataset.reminder, reminder.dataset.reminderTitle || '');
   if (edit) return fillEdit(edit.dataset.edit);
   if (download) return downloadEmail(download.dataset.download);
   if (remove) return deleteEmail(remove.dataset.delete);
@@ -187,6 +192,21 @@ document.querySelector('#closeEmailModal').addEventListener('click', () => modal
 document.querySelector('#closeAttachmentModal').addEventListener('click', () => {
   attachmentFrame.src = '';
   attachmentModal.close();
+});
+document.querySelector('#closeReminderModal').addEventListener('click', () => reminderModal.close());
+
+function openReminder(id, title) {
+  reminderForm.reset();
+  reminderForm.entity_id.value = id;
+  reminderForm.title.value = `Gestire e-mail: ${title}`.trim();
+  reminderModal.showModal();
+}
+
+reminderForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  await api('/reminders', { method: 'POST', body: JSON.stringify(Object.fromEntries(new FormData(reminderForm).entries())) });
+  reminderModal.close();
+  message.textContent = 'Reminder creato';
 });
 modalBody.addEventListener('click', (event) => {
   const button = event.target.closest('[data-attachment]');

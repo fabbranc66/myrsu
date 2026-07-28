@@ -19,6 +19,7 @@ use App\Controllers\Api\ProfileController;
 use App\Controllers\Api\PracticeController;
 use App\Controllers\Api\ProtocolController;
 use App\Controllers\Api\ReportController;
+use App\Controllers\Api\ReminderController;
 use App\Controllers\Api\RoleController;
 use App\Controllers\Api\RsuElectionController;
 use App\Controllers\Api\UnionPermitController;
@@ -45,6 +46,7 @@ $profile = new ProfileController($app);
 $practices = new PracticeController($app);
 $protocol = new ProtocolController($app);
 $reports = new ReportController($app);
+$reminders = new ReminderController($app);
 $rsuElections = new RsuElectionController($app);
 $unionPermits = new UnionPermitController($app);
 $unionPermitRequests = new UnionPermitRequestController($app);
@@ -106,6 +108,12 @@ $app->router->post('/api/v1/emails/{id}/manage', [$emails, 'manage']);
 $app->router->post('/api/v1/emails/{id}/link-practice', [$emails, 'linkPractice']);
 $app->router->delete('/api/v1/emails/{id}/link-practice', [$emails, 'unlinkPractice']);
 $app->router->post('/api/v1/emails/{id}/notes', [$emails, 'addNote']);
+
+$app->router->get('/api/v1/reminders', [$reminders, 'index']);
+$app->router->post('/api/v1/reminders', [$reminders, 'store']);
+$app->router->patch('/api/v1/reminders/{id}', [$reminders, 'update']);
+$app->router->post('/api/v1/reminders/{id}/done', [$reminders, 'done']);
+$app->router->delete('/api/v1/reminders/{id}', [$reminders, 'destroy']);
 
 $app->router->get('/api/v1/documents', [$documents, 'index']);
 $app->router->get('/api/v1/public/documents', [$documents, 'publicIndex']);

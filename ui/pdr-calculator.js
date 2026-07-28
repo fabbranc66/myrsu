@@ -81,7 +81,7 @@ function objectiveHtml(index, objective) {
     <label>Obiettivo ${index + 1}<input name="name" placeholder="Nome obiettivo" value="${escapeHtml(objective.name)}"></label>
     <label>Peso %<input name="weight" type="number" min="0" step="0.01" value="${objective.weight}"></label>
     <label>Esito<select name="mode">${modeOptions(objective.mode)}</select></label>
-    <label>Valore<input name="value" type="number" min="0" step="0.01" value="${objective.value}"></label>
+    <label>Valore<input name="value" type="number" step="0.01" value="${objective.value}"></label>
   </fieldset>`;
 }
 
@@ -110,7 +110,7 @@ function readObjective(row) {
 }
 
 function readScale(scale) {
-  let minValue = 0;
+  let minValue = -999999999;
   return {
     unit: '',
     rows: Array.from(scale.querySelectorAll('tbody tr')).map((row) => {
@@ -136,7 +136,13 @@ function coefficient(row, scale, index) {
 
 function scaleCoefficient(value, scale, index) {
   if (index > 0 && value <= 0) return 1;
-  const match = scale?.rows.find((row) => value >= Number(row[1]) && (row[2] === '' || value <= Number(row[2])));
+  const rows = scale?.rows || [];
+  const match = rows.find((row) => value >= Number(row[1]) && (row[2] === '' || value <= Number(row[2])));
+  if (!match && rows.length > 0) {
+    return value < Number(rows[0][1])
+      ? Number(rows[0][3]) / 100
+      : Number(rows[rows.length - 1][3]) / 100;
+  }
   return match ? Number(match[3]) / 100 : 0;
 }
 

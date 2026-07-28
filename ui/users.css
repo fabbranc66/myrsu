@@ -262,6 +262,10 @@ textarea {
   color: #991b1b;
 }
 
+.reminder-overdue {
+  background: #fff7ed;
+}
+
 .log-warning {
   display: inline-block;
   border-radius: 999px;
@@ -1147,7 +1151,9 @@ dialog {
   .documents-mobile-table .icon-action,
   .practices-mobile-table .icon-action,
   .funds-mobile-table .icon-action,
-  .permits-mobile-table .icon-action {
+  .permits-mobile-table .icon-action,
+  .calls-mobile-table .icon-action,
+  .reminders-mobile-table .icon-action {
     width: 30px;
     height: 30px;
     min-height: 30px;
@@ -1157,7 +1163,9 @@ dialog {
   .documents-mobile-table .icon-action svg,
   .practices-mobile-table .icon-action svg,
   .funds-mobile-table .icon-action svg,
-  .permits-mobile-table .icon-action svg {
+  .permits-mobile-table .icon-action svg,
+  .calls-mobile-table .icon-action svg,
+  .reminders-mobile-table .icon-action svg {
     width: 17px;
     height: 17px;
   }
@@ -1165,11 +1173,17 @@ dialog {
   .documents-mobile-table .actions-cell,
   .practices-mobile-table .actions-cell,
   .funds-mobile-table .actions-cell,
-  .permits-mobile-table .actions-cell {
+  .permits-mobile-table .actions-cell,
+  .calls-mobile-table .actions-cell,
+  .reminders-mobile-table .actions-cell {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .calls-mobile-table td[data-label="Interlocutore"] {
+    gap: 4px;
   }
 
   th,

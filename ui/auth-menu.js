@@ -11,12 +11,13 @@
       pages: [
         ['comunicati-create.html', 'Comunicati', ['admin', 'delegato', 'rls']],
         ['emails.html', 'E-mail', ['admin', 'delegato', 'rls']],
+        ['reminders.html', 'Reminder', ['admin', 'delegato', 'rls']],
         ['reports.html', 'Segnalazioni', ['admin', 'delegato', 'rls']],
         ['reports-moderation.html', 'Moderazione segnalazioni', ['admin', 'delegato', 'rls']],
         ['comments-moderation.html', 'Moderazione commenti', ['admin', 'delegato', 'rls']],
         ['calls.html', 'Telefonate', ['admin', 'delegato', 'rls']],
       ],
-      match: ['comunicati-create.html', 'comunicati-editor.html', 'emails.html', 'reports.html', 'reports-moderation.html', 'comments-moderation.html', 'calls.html'],
+      match: ['comunicati-create.html', 'comunicati-editor.html', 'emails.html', 'reminders.html', 'reports.html', 'reports-moderation.html', 'comments-moderation.html', 'calls.html'],
     },
     {
       label: 'Incontri',

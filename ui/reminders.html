@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reminder - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260728-reminders-1">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Reminder</h1></div><nav class="app-nav"></nav></header>
+  <main>
+    <section class="panel">
+      <header><div><h1>Promemoria</h1><p class="muted">Reminder collegati a telefonate ed e-mail.</p></div></header>
+      <form id="reminderForm" class="grid">
+        <input name="id" type="hidden">
+        <label>Tipo<select name="entity_type" required><option value="call">telefonata</option><option value="email">e-mail</option></select></label>
+        <label>ID collegato<input name="entity_id" required></label>
+        <label>Scadenza<input name="due_at" type="datetime-local" required></label>
+        <label>Stato<select name="status"><option value="pending">pendente</option><option value="done">completato</option><option value="cancelled">annullato</option></select></label>
+        <label class="full-width">Titolo<input name="title" required></label>
+        <label class="full-width">Note<textarea name="notes"></textarea></label>
+        <button type="submit">Salva reminder</button>
+        <button id="resetReminder" type="button">Nuovo</button>
+      </form>
+      <form id="filterForm" class="grid">
+        <label>Stato<select id="statusFilter"><option value="">tutti</option><option value="pending">pendenti</option><option value="done">completati</option><option value="cancelled">annullati</option></select></label>
+        <label>Tipo<select id="typeFilter"><option value="">tutti</option><option value="call">telefonate</option><option value="email">e-mail</option></select></label>
+        <button type="submit">Filtra</button>
+      </form>
+      <table class="mobile-card-table reminders-mobile-table">
+        <thead><tr><th>Scadenza</th><th>Tipo</th><th>Titolo</th><th>Stato</th><th>Azioni</th></tr></thead>
+        <tbody id="remindersTable"></tbody>
+      </table>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js?v=20260728-reminder-1"></script>
+  <script src="reminders.js?v=20260728-1"></script>
+  <script src="auth-menu.js?v=20260728-reminders-1"></script>
+</body>
+</html>
