@@ -1,25 +1,36 @@
-.pdr-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.pdr-form .wide { grid-column: 1 / -1; }
-.pdr-objective { display: grid; grid-template-columns: 1.4fr .6fr .8fr .8fr; gap: 10px; margin-bottom: 10px; padding: 12px; border: 1px solid #d7dde5; border-radius: 10px; background: #f8fafc; }
-.pdr-result { display: grid; gap: 10px; margin-top: 18px; }
-.pdr-row { display: flex; justify-content: space-between; gap: 12px; padding: 10px 12px; border: 1px solid #d7dde5; border-radius: 10px; background: #fff; }
-.pdr-total { border-color: #2563eb; font-weight: 700; }
-.pdr-legend { padding: 14px; border: 1px solid #d7dde5; border-radius: 12px; background: #f8fafc; }
-.pdr-legend h2 { margin: 0 0 4px; font-size: 1rem; }
-.pdr-legend p { margin: 0 0 10px; color: #64748b; }
-.pdr-legend table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; }
-.pdr-legend th, .pdr-legend td { padding: 6px 8px; border-bottom: 1px solid #e5e7eb; text-align: left; }
-.pdr-legend th { background: #eaf1ff; color: #1e3a8a; }
-.pdr-legend td:last-child, .pdr-legend th:last-child { text-align: right; font-weight: 700; }
-.pdr-scales { display: grid; grid-template-columns: repeat(3, minmax(180px, 1fr)); gap: 10px; }
+.pdr-form { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.pdr-form .wide { grid-column: auto; }
+.pdr-form label { min-width: 0; }
+.pdr-form input, .pdr-form select { width: 100%; min-width: 0; }
+.pdr-objective { display: grid; grid-template-columns: 1fr 72px 1fr 86px; gap: 8px; margin-bottom: 8px; padding: 10px; border: 1px solid #d7dde5; border-radius: 10px; background: #f8fafc; }
+.pdr-objective label { font-size: .82rem; }
+.pdr-objective input, .pdr-objective select { padding: 7px; font-size: .88rem; }
+.pdr-legend { padding: 10px; border: 1px solid #d7dde5; border-radius: 12px; background: #f8fafc; }
+.pdr-legend h2 { margin: 0 0 4px; font-size: .98rem; }
+.pdr-legend p { margin: 0 0 10px; color: #64748b; font-size: .86rem; }
+.pdr-scales { display: grid; grid-template-columns: 1fr; gap: 10px; }
 .pdr-scale { min-width: 0; padding: 10px; border: 1px solid #d7dde5; border-radius: 12px; background: #fff; }
-.pdr-scale h2 { margin: 0 0 6px; font-size: .95rem; color: #0f172a; }
-.pdr-scale input { width: 100%; min-width: 0; padding: 5px 6px; border: 1px solid #cbd5e1; border-radius: 7px; background: #fff; color: #0f172a; font-size: .86rem; }
-.pdr-scale input[type="number"] { text-align: right; font-weight: 700; }
-.pdr-scale th { font-size: .78rem; white-space: nowrap; }
-.pdr-scale td { vertical-align: middle; }
-.pdr-scale td { width: 50%; }
-@media (max-width: 760px) {
-  .pdr-form, .pdr-objective, .pdr-scales { grid-template-columns: 1fr; }
-  .pdr-form .wide { grid-column: auto; }
+.pdr-scale h2 { margin: 0 0 6px; font-size: .92rem; color: #0f172a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pdr-scale table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.pdr-scale th, .pdr-scale td { padding: 5px; border-bottom: 1px solid #e5e7eb; }
+.pdr-scale th { background: #eaf1ff; color: #1e3a8a; font-size: .76rem; text-align: right; }
+.pdr-scale input { width: 100%; min-width: 0; padding: 6px; border: 1px solid #cbd5e1; border-radius: 7px; background: #fff; color: #0f172a; font-size: .86rem; text-align: right; font-weight: 700; }
+.pdr-result { display: grid; gap: 8px; margin-top: 14px; }
+.pdr-row { display: flex; justify-content: space-between; gap: 10px; padding: 9px 10px; border: 1px solid #d7dde5; border-radius: 10px; background: #fff; font-size: .9rem; }
+.pdr-row span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.pdr-total { border-color: #2563eb; font-weight: 700; }
+
+@media (max-width: 520px) {
+  main { padding: 8px; }
+  .panel { padding: 10px; }
+  .pdr-objective { grid-template-columns: 1fr 68px; }
+  .pdr-objective label:nth-child(3) { grid-column: 1 / -1; }
+  .pdr-form button { width: 100%; }
+}
+
+@media (min-width: 900px) {
+  .pdr-form { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .pdr-form .wide { grid-column: 1 / -1; }
+  .pdr-objective { grid-template-columns: 1.4fr .6fr .8fr .8fr; }
+  .pdr-scales { grid-template-columns: repeat(3, minmax(180px, 1fr)); }
 }

@@ -35,7 +35,7 @@ form.addEventListener('submit', (event) => {
   const data = currentData();
   localStorage.setItem(storageKey, JSON.stringify(data));
   const calculated = data.objectives
-    .map((row, index) => ({ ...row, index, coefficient: coefficient(row, data.scales[index]), amount: data.base * (row.weight / 100) * coefficient(row, data.scales[index]) }))
+    .map((row, index) => ({ ...row, index, coefficient: coefficient(row, data.scales[index], index), amount: data.base * (row.weight / 100) * coefficient(row, data.scales[index], index) }))
     .filter((row) => row.name || row.weight > 0 || row.value > 0);
   const totalWeight = calculated.reduce((sum, row) => sum + row.weight, 0);
   const total = calculated.reduce((sum, row) => sum + row.amount, 0);
@@ -44,11 +44,15 @@ form.addEventListener('submit', (event) => {
   jsonOutput.textContent = JSON.stringify({ ...data, total_weight: totalWeight, objectives: calculated, total }, null, 2);
 });
 
-form.addEventListener('input', () => {
+form.addEventListener('input', persistData);
+form.addEventListener('change', persistData);
+form.addEventListener('focusout', persistData);
+window.addEventListener('beforeunload', persistData);
+
+function persistData() {
   syncScaleTitles();
   localStorage.setItem(storageKey, JSON.stringify(currentData()));
-});
-form.addEventListener('change', () => localStorage.setItem(storageKey, JSON.stringify(currentData())));
+}
 
 document.querySelector('#resetPdr').addEventListener('click', () => {
   localStorage.removeItem(storageKey);
@@ -123,14 +127,15 @@ function readScale(scale) {
   };
 }
 
-function coefficient(row, scale) {
-  if (row.mode === 'scale') return scaleCoefficient(row.value, scale);
+function coefficient(row, scale, index) {
+  if (row.mode === 'scale') return scaleCoefficient(row.value, scale, index);
   if (row.mode === 'over') return 1 + (row.value / 100);
   if (row.mode === 'under') return Math.max(0, 1 - ((row.value * 2) / 100));
   return 1;
 }
 
-function scaleCoefficient(value, scale) {
+function scaleCoefficient(value, scale, index) {
+  if (index > 0 && value <= 0) return 1;
   const match = scale?.rows.find((row) => value >= Number(row[1]) && (row[2] === '' || value <= Number(row[2])));
   return match ? Number(match[3]) / 100 : 0;
 }
