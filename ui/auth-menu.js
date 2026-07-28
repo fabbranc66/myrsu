@@ -59,6 +59,7 @@
         ['profile.html', 'Profilo', ['admin', 'delegato', 'rls', 'membro']],
         ['contacts.html', 'Contatti', ['admin', 'delegato', 'rls']],
         ['funds.html', 'Fondi', ['admin', 'delegato', 'rls']],
+        ['pdr-calculator.html', 'Calcolo PDR', ['admin']],
       ],
     },
   ];

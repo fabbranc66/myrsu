@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calcolo PDR - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260728-mobile-permits-1">
+  <link rel="stylesheet" href="pdr-calculator.css?v=20260728-scaglioni-1">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Calcolo PDR</h1></div><nav class="app-nav"></nav></header>
+  <main>
+    <section class="panel">
+      <header><div><h1>Premio di risultato</h1><p class="muted">Simulazione su PDR base e massimo 5 obiettivi.</p></div></header>
+      <form id="pdrForm" class="pdr-form">
+        <label>PDR base €<input name="base" type="number" min="0" step="0.01" value="1220" required></label>
+        <div id="objectives" class="wide"></div>
+        <section class="pdr-legend wide">
+          <h2>Tabelle scaglioni</h2>
+          <p>I titoli seguono i nomi dei primi tre obiettivi. Nel campo valore inserisci il KPI da verificare.</p>
+          <div id="pdrScales" class="pdr-scales"></div>
+        </section>
+        <button type="submit">Calcola</button>
+        <button id="resetPdr" type="button">Pulisci</button>
+      </form>
+      <div id="pdrResult" class="pdr-result"></div>
+      <pre id="message"></pre>
+      <pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="pdr-calculator.js?v=20260728-scaglioni-1"></script>
+  <script src="auth-menu.js?v=20260728-pdr-1"></script>
+</body>
+</html>
