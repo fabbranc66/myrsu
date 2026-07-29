@@ -43,6 +43,7 @@ final class EmailController
     {
         $user = $this->requireOperator($request);
         $email = $this->app->emails->create($this->validated($request->all()) + ['created_by' => (int)$user['id']]);
+        $this->app->emailContacts->storeMissing($email, (int)$user['id']);
         $this->log((int)$user['id'], 'emails.create', $email);
 
         return Response::json(['data' => ['email' => $email]], 201);
@@ -53,6 +54,7 @@ final class EmailController
         $user = $this->requireOperator($request);
         $data = $this->validatedSend($request->all(), $user);
         $email = $this->app->emails->create($data + ['created_by' => (int)$user['id']]);
+        $this->app->emailContacts->storeMissing($email, (int)$user['id']);
         $attachments = array_merge(
             $this->storeUploadedAttachments((int)$email['id']),
             $this->storeDocumentAttachments((int)$email['id'], $request->all())
@@ -85,6 +87,7 @@ final class EmailController
         $user = $this->requireOperator($request);
         $this->findEmail((int)$params['id']);
         $email = $this->app->emails->update((int)$params['id'], $this->validated($request->all()));
+        $this->app->emailContacts->storeMissing($email ?? [], (int)$user['id']);
         $this->log((int)$user['id'], 'emails.update', $email);
 
         return Response::json(['data' => ['email' => $email]]);
@@ -203,6 +206,7 @@ final class EmailController
             'from_email' => trim((string)($data['from_email'] ?? '')) ?: null,
             'to_emails' => trim((string)($data['to_emails'] ?? '')) ?: null,
             'cc_emails' => trim((string)($data['cc_emails'] ?? '')) ?: null,
+            'bcc_emails' => trim((string)($data['bcc_emails'] ?? '')) ?: null,
             'subject' => mb_substr(trim((string)$data['subject']), 0, 255),
             'body' => trim((string)$data['body']),
             'message_at' => trim((string)$data['message_at']),
@@ -218,6 +222,8 @@ final class EmailController
         if ($this->validEmails($to) === []) throw new HttpException(422, 'Destinatario non valido.');
         $cc = trim(is_array($data['cc_emails'] ?? null) ? implode(',', $data['cc_emails']) : (string)($data['cc_emails'] ?? ''));
         if ($cc !== '' && $this->validEmails($cc) === []) throw new HttpException(422, 'CC non valido.');
+        $bcc = trim(is_array($data['bcc_emails'] ?? null) ? implode(',', $data['bcc_emails']) : (string)($data['bcc_emails'] ?? ''));
+        if ($bcc !== '' && $this->validEmails($bcc) === []) throw new HttpException(422, 'CCN non valido.');
 
         return [
             'direction' => 'outgoing',
@@ -229,6 +235,7 @@ final class EmailController
             'from_email' => trim((string)env_value('EMAIL_SMTP_FROM', env_value('EMAIL_SMTP_USER', env_value('EMAIL_IMAP_USER', '')))) ?: null,
             'to_emails' => implode(', ', $this->validEmails($to)),
             'cc_emails' => $cc !== '' ? implode(', ', $this->validEmails($cc)) : null,
+            'bcc_emails' => $bcc !== '' ? implode(', ', $this->validEmails($bcc)) : null,
             'subject' => mb_substr(trim((string)$data['subject']), 0, 255),
             'body' => trim((string)$data['body']),
             'message_at' => date('Y-m-d H:i:s'),

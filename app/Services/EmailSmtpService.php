@@ -37,7 +37,7 @@ final class EmailSmtpService
         $this->command($socket, base64_encode($user), [334]);
         $this->command($socket, base64_encode($password), [235]);
         $this->command($socket, 'MAIL FROM:<' . $from . '>', [250]);
-        foreach ($this->addresses((string)$email['to_emails'] . ',' . (string)($email['cc_emails'] ?? '')) as $address) {
+        foreach ($this->addresses((string)$email['to_emails'] . ',' . (string)($email['cc_emails'] ?? '') . ',' . (string)($email['bcc_emails'] ?? '')) as $address) {
             $this->command($socket, 'RCPT TO:<' . $address . '>', [250, 251]);
         }
         $this->command($socket, 'DATA', [354]);

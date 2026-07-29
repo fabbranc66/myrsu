@@ -7,6 +7,7 @@ CREATE TABLE emails (
   from_email VARCHAR(255) NULL,
   to_emails TEXT NULL,
   cc_emails TEXT NULL,
+  bcc_emails TEXT NULL,
   subject VARCHAR(255) NOT NULL,
   body MEDIUMTEXT NOT NULL,
   message_at DATETIME NOT NULL,

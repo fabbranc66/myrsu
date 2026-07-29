@@ -6,6 +6,17 @@ const table = document.querySelector('#emailsTable');
 const practicesSelect = form.practice_id;
 const sendPracticesSelect = sendEmailForm.practice_id;
 const sendDocumentsSelect = sendEmailForm.querySelector('[name="document_ids[]"]');
+const toSearch = document.querySelector('#toSearch');
+const ccSearch = document.querySelector('#ccSearch');
+const bccSearch = document.querySelector('#bccSearch');
+const toTags = document.querySelector('#toTags');
+const ccTags = document.querySelector('#ccTags');
+const bccTags = document.querySelector('#bccTags');
+const toResults = document.querySelector('#toResults');
+const ccResults = document.querySelector('#ccResults');
+const bccResults = document.querySelector('#bccResults');
+const contactModal = document.querySelector('#contactModal');
+const contactForm = document.querySelector('#contactForm');
 const directionFilter = document.querySelector('#directionFilter');
 const statusFilter = document.querySelector('#statusFilter');
 const syncEmails = document.querySelector('#syncEmails');
@@ -23,7 +34,12 @@ const jsonOutput = document.querySelector('#jsonOutput');
 let emails = [];
 let practices = [];
 let documents = [];
+let contacts = [];
+let selectedTo = [];
+let selectedCc = [];
+let selectedBcc = [];
 let currentEmailId = null;
+let contactTarget = null;
 
 if (!token) window.location.href = 'login.html';
 
@@ -52,14 +68,16 @@ async function load() {
   const query = new URLSearchParams();
   if (directionFilter.value) query.set('direction', directionFilter.value);
   if (statusFilter.value) query.set('handling_status', statusFilter.value);
-  const [emailRows, practiceRows, documentRows] = await Promise.all([
+  const [emailRows, practiceRows, documentRows, contactRows] = await Promise.all([
     api(`/emails${query.toString() ? `?${query}` : ''}`),
     api('/practices'),
     api('/documents').catch(() => []),
+    api('/contacts').catch(() => ({ users: [], institutional: [] })),
   ]);
   emails = emailRows;
   practices = practiceRows;
   documents = documentRows;
+  contacts = [...(contactRows.users || []), ...(contactRows.institutional || [])];
   fillPractices();
   fillDocuments();
   render();
@@ -137,18 +155,133 @@ form.addEventListener('submit', async (event) => {
 
 sendEmailForm.addEventListener('submit', async (event) => {
   event.preventDefault();
+  syncRecipientInputs();
   const button = sendEmailForm.querySelector('button[type="submit"]');
   button.disabled = true;
   message.textContent = 'Invio e-mail in corso...';
   try {
     await apiMultipart('/emails/send', new FormData(sendEmailForm));
     sendEmailForm.reset();
+    selectedTo = [];
+    selectedCc = [];
+    selectedBcc = [];
+    renderRecipientTags();
     message.textContent = 'E-mail inviata';
     await load();
   } finally {
     button.disabled = false;
   }
 });
+
+[toSearch, ccSearch, bccSearch].forEach((input) => {
+  const kind = input === toSearch ? 'to' : (input === ccSearch ? 'cc' : 'bcc');
+  input.addEventListener('input', () => showRecipientResults(kind, input.value));
+  input.addEventListener('focus', () => showRecipientResults(kind, input.value));
+  input.addEventListener('click', () => showRecipientResults(kind, input.value));
+  input.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter') return;
+    event.preventDefault();
+    addTypedRecipient(kind, input.value);
+  });
+});
+
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.contact-picker')) {
+    toResults.classList.add('hidden');
+    ccResults.classList.add('hidden');
+    bccResults.classList.add('hidden');
+  }
+});
+
+[toResults, ccResults, bccResults].forEach((box) => {
+  box.addEventListener('click', (event) => {
+    const kind = box === toResults ? 'to' : (box === ccResults ? 'cc' : 'bcc');
+    const item = event.target.closest('[data-contact-index]');
+    const create = event.target.closest('[data-create-contact]');
+    if (item) addRecipient(kind, contacts[Number(item.dataset.contactIndex)]);
+    if (create) openContactModal(create.dataset.email || '', create.dataset.email || '', kind);
+  });
+});
+
+function showRecipientResults(kind, query) {
+  const box = kind === 'to' ? toResults : (kind === 'cc' ? ccResults : bccResults);
+  const value = query.trim().toLowerCase();
+  const rows = contacts.map((contact, index) => ({ contact, index }))
+    .filter((item) => !value || `${item.contact.label} ${item.contact.email}`.toLowerCase().includes(value))
+    .slice(0, 12);
+  box.innerHTML = rows.map((item) => `<button class="${item.contact.type === 'user' ? 'contact-internal' : 'contact-institutional'}" type="button" data-contact-index="${item.index}">
+    ${escapeHtml(item.contact.label)} <small>${escapeHtml(item.contact.email || item.contact.organization || item.contact.type)}</small>
+  </button>`).join('') + (query.trim() ? `<button type="button" data-create-contact="1" data-email="${escapeHtml(query.trim())}">+ crea "${escapeHtml(query.trim())}"</button>` : '');
+  box.classList.remove('hidden');
+}
+
+function addRecipient(kind, contact) {
+  if (!contact?.email) return;
+  const list = kind === 'to' ? selectedTo : (kind === 'cc' ? selectedCc : selectedBcc);
+  if (!list.some((item) => item.email.toLowerCase() === contact.email.toLowerCase())) list.push(contact);
+  (kind === 'to' ? toSearch : (kind === 'cc' ? ccSearch : bccSearch)).value = '';
+  renderRecipientTags();
+  showRecipientResults(kind, '');
+  (kind === 'to' ? toSearch : (kind === 'cc' ? ccSearch : bccSearch)).focus();
+}
+
+function addTypedRecipient(kind, value) {
+  const text = value.trim();
+  if (!text) return;
+  const match = contacts.find((contact) => contact.email?.toLowerCase() === text.toLowerCase() || contact.label.toLowerCase() === text.toLowerCase());
+  if (match) return addRecipient(kind, match);
+  if (text.includes('@')) return openContactModal(text, text, kind);
+}
+
+function renderRecipientTags() {
+  toTags.innerHTML = selectedTo.map((item, index) => tagHtml(item, index, 'to')).join('');
+  ccTags.innerHTML = selectedCc.map((item, index) => tagHtml(item, index, 'cc')).join('');
+  bccTags.innerHTML = selectedBcc.map((item, index) => tagHtml(item, index, 'bcc')).join('');
+  syncRecipientInputs();
+}
+
+function tagHtml(item, index, kind) {
+  return `<span class="tag">${escapeHtml(item.label || item.email)} <small>${escapeHtml(item.email)}</small> <button type="button" data-remove-recipient="${kind}:${index}">x</button></span>`;
+}
+
+document.addEventListener('click', (event) => {
+  const button = event.target.closest('[data-remove-recipient]');
+  if (!button) return;
+  const [kind, index] = button.dataset.removeRecipient.split(':');
+  (kind === 'to' ? selectedTo : (kind === 'cc' ? selectedCc : selectedBcc)).splice(Number(index), 1);
+  renderRecipientTags();
+});
+
+function syncRecipientInputs() {
+  sendEmailForm.querySelector('[name="to_emails"]').value = selectedTo.map((item) => item.email).join(', ');
+  sendEmailForm.querySelector('[name="cc_emails"]').value = selectedCc.map((item) => item.email).join(', ');
+  sendEmailForm.querySelector('[name="bcc_emails"]').value = selectedBcc.map((item) => item.email).join(', ');
+}
+
+function contactExists(email) {
+  return contacts.some((contact) => String(contact.email || '').toLowerCase() === String(email || '').toLowerCase());
+}
+
+function openContactModal(email, name, target) {
+  contactTarget = target;
+  contactForm.reset();
+  contactForm.name.value = name || email;
+  contactForm.email.value = email;
+  if (!contactModal.open) contactModal.showModal();
+}
+
+contactForm.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const data = clean(Object.fromEntries(new FormData(contactForm).entries()));
+  delete data.source;
+  const contact = await api('/institutional-contacts', { method: 'POST', body: JSON.stringify(data) });
+  contacts.push(contact);
+  if (contactTarget) addRecipient(contactTarget, contact);
+  contactModal.close();
+  message.textContent = 'Contatto salvato';
+});
+
+document.querySelector('#closeContactModal').addEventListener('click', () => contactModal.close());
 
 table.addEventListener('click', async (event) => {
   const view = event.target.closest('[data-view]');
@@ -190,6 +323,7 @@ function downloadEmail(id) {
     `Da: ${email.from_name || ''} ${email.from_email || ''}`.trim(),
     `A: ${email.to_emails || ''}`,
     `CC: ${email.cc_emails || ''}`,
+    `CCN: ${email.bcc_emails || ''}`,
     `Data: ${email.message_at || ''}`,
     '',
     email.body || '',
@@ -220,10 +354,15 @@ async function openEmail(id) {
   modalBody.innerHTML = `<dl class="email-meta">
     <dt>Da</dt><dd>${escapeHtml(email.from_name || '')} ${escapeHtml(email.from_email || '')}</dd>
     <dt>A</dt><dd>${escapeHtml(email.to_emails || '-')}</dd>
+    <dt>CC</dt><dd>${escapeHtml(email.cc_emails || '-')}</dd>
+    <dt>CCN</dt><dd>${escapeHtml(email.bcc_emails || '-')}</dd>
     <dt>Data</dt><dd>${escapeHtml(email.message_at)}</dd>
     <dt>Stato</dt><dd>${statusLabel(email.handling_status)}</dd>
   </dl><pre class="email-body">${escapeHtml(email.body)}</pre>${attachmentsHtml(data.attachments || [])}${notesHtml(data.notes)}`;
   modal.showModal();
+  if (email.direction === 'incoming' && email.from_email && !contactExists(email.from_email)) {
+    setTimeout(() => openContactModal(email.from_email, email.from_name || email.from_email, null), 150);
+  }
 }
 
 function fillEdit(id) {

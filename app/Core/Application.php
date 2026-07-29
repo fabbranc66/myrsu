@@ -45,6 +45,7 @@ use App\Services\DocumentSignatureService;
 use App\Services\DocumentStorageService;
 use App\Services\DocumentThumbnailService;
 use App\Services\DocumentVerificationMetadataService;
+use App\Services\EmailContactService;
 use App\Services\EmailImapSyncService;
 use App\Services\EmailSmtpService;
 use App\Services\FpdiUploadedPdfService;
@@ -118,6 +119,7 @@ final class Application
     public readonly DocumentSignatureService $documentSignature;
     public readonly DocumentThumbnailService $documentThumbnail;
     public readonly DocumentVerificationMetadataService $documentVerificationMetadata;
+    public readonly EmailContactService $emailContacts;
     public readonly EmailImapSyncService $emailImapSync;
     public readonly EmailSmtpService $emailSmtp;
     public readonly DocumentStorageService $documentStorage;
@@ -200,10 +202,11 @@ final class Application
         $this->documents = new DocumentRepository($pdo);
         $this->documentComments = new DocumentCommentRepository($pdo);
         $this->emails = new EmailRepository($pdo);
-        $this->emailImapSync = new EmailImapSyncService($this->basePath, $this->emails);
         $this->funds = new FundRepository($pdo);
         $this->gdprConsents = new GdprConsentRepository($pdo);
         $this->institutionalContacts = new InstitutionalContactRepository($pdo);
+        $this->emailContacts = new EmailContactService($this->institutionalContacts, $this->users);
+        $this->emailImapSync = new EmailImapSyncService($this->basePath, $this->emails, $this->emailContacts);
         $this->protocols = new ProtocolRepository($pdo);
         $this->practiceLinks = new PracticeLinkRepository($pdo);
         $this->practiceNotes = new PracticeNoteRepository($pdo);

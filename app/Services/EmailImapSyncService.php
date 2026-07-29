@@ -9,8 +9,11 @@ use App\Repositories\EmailRepository;
 
 final class EmailImapSyncService
 {
-    public function __construct(private readonly string $basePath, private readonly EmailRepository $emails)
-    {
+    public function __construct(
+        private readonly string $basePath,
+        private readonly EmailRepository $emails,
+        private readonly EmailContactService $emailContacts
+    ) {
     }
 
     public function sync(int $userId): array

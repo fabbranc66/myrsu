@@ -63,14 +63,14 @@ final class EmailRepository
     {
         $stmt = $this->pdo->prepare(
             'INSERT INTO emails
-             (external_id, import_source, direction, read_status, handling_status, from_name, from_email, to_emails, cc_emails,
+             (external_id, import_source, direction, read_status, handling_status, from_name, from_email, to_emails, cc_emails, bcc_emails,
               subject, body, message_at, practice_id, contact_id, created_by, created_at, updated_at)
-             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())'
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())'
         );
         $stmt->execute([
             $data['external_id'] ?? null, $data['import_source'] ?? 'manual',
             $data['direction'], $data['read_status'], $data['handling_status'], $data['from_name'],
-            $data['from_email'], $data['to_emails'], $data['cc_emails'], $data['subject'],
+            $data['from_email'], $data['to_emails'], $data['cc_emails'], $data['bcc_emails'] ?? null, $data['subject'],
             $data['body'], $data['message_at'], $data['practice_id'], $data['contact_id'], $data['created_by'],
         ]);
 
@@ -81,13 +81,13 @@ final class EmailRepository
     {
         $stmt = $this->pdo->prepare(
             'UPDATE emails SET direction = ?, read_status = ?, handling_status = ?, from_name = ?,
-              from_email = ?, to_emails = ?, cc_emails = ?, subject = ?, body = ?, message_at = ?,
+              from_email = ?, to_emails = ?, cc_emails = ?, bcc_emails = ?, subject = ?, body = ?, message_at = ?,
               practice_id = ?, contact_id = ?, updated_at = NOW()
              WHERE id = ?'
         );
         $stmt->execute([
             $data['direction'], $data['read_status'], $data['handling_status'], $data['from_name'],
-            $data['from_email'], $data['to_emails'], $data['cc_emails'], $data['subject'],
+            $data['from_email'], $data['to_emails'], $data['cc_emails'], $data['bcc_emails'] ?? null, $data['subject'],
             $data['body'], $data['message_at'], $data['practice_id'], $data['contact_id'], $id,
         ]);
 

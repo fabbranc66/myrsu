@@ -16,8 +16,24 @@
       <details class="email-send-panel">
         <summary>Scrivi e invia e-mail</summary>
         <form id="sendEmailForm" class="email-form" enctype="multipart/form-data">
-          <label>Destinatari<input name="to_emails" type="text" placeholder="nome@email.it" required></label>
-          <label>CC<input name="cc_emails" type="text"></label>
+          <div class="wide contact-picker" data-recipient-picker="to">
+            <label>Destinatari<input id="toSearch" type="text" autocomplete="off" placeholder="Cerca contatto o scrivi e-mail"></label>
+            <input name="to_emails" type="hidden" required>
+            <div id="toTags" class="tag-list"></div>
+            <div id="toResults" class="contact-results hidden"></div>
+          </div>
+          <div class="wide contact-picker" data-recipient-picker="cc">
+            <label>CC<input id="ccSearch" type="text" autocomplete="off" placeholder="Cerca contatto o scrivi e-mail"></label>
+            <input name="cc_emails" type="hidden">
+            <div id="ccTags" class="tag-list"></div>
+            <div id="ccResults" class="contact-results hidden"></div>
+          </div>
+          <div class="wide contact-picker" data-recipient-picker="bcc">
+            <label>CCN<input id="bccSearch" type="text" autocomplete="off" placeholder="Cerca contatto o scrivi e-mail"></label>
+            <input name="bcc_emails" type="hidden">
+            <div id="bccTags" class="tag-list"></div>
+            <div id="bccResults" class="contact-results hidden"></div>
+          </div>
           <label>Pratica<select name="practice_id"><option value="">-</option></select></label>
           <label class="wide">Oggetto<input name="subject" required></label>
           <label class="wide">Corpo<textarea name="body" rows="7" required></textarea></label>
@@ -35,6 +51,7 @@
         <label>Mittente e-mail<input name="from_email" type="email"></label>
         <label>Destinatari<input name="to_emails"></label>
         <label>CC<input name="cc_emails"></label>
+        <label>CCN<input name="bcc_emails"></label>
         <label>Pratica<select name="practice_id"><option value="">-</option></select></label>
         <label class="wide">Oggetto<input name="subject" required></label>
         <label class="wide">Corpo<textarea name="body" rows="7" required></textarea></label>
@@ -73,6 +90,20 @@
           <label class="wide">Titolo<input name="title" required></label>
           <label class="wide">Note<textarea name="notes"></textarea></label>
           <button type="submit">Salva reminder</button>
+        </form>
+      </dialog>
+      <dialog id="contactModal">
+        <header><h2>Nuovo contatto</h2><button id="closeContactModal" type="button">Chiudi</button></header>
+        <form id="contactForm" class="grid">
+          <input name="source" type="hidden" value="institutional">
+          <label>Tipo<select name="type"><option value="esterno">esterno</option><option value="aziendale">aziendale</option><option value="sindacale">sindacale</option></select></label>
+          <label>Nome<input name="name" required></label>
+          <label>Ruolo<input name="role"></label>
+          <label>Organizzazione<input name="organization"></label>
+          <label>E-mail<input name="email" type="email" required></label>
+          <label>Telefono<input name="phone"></label>
+          <label class="wide">Note<textarea name="notes"></textarea></label>
+          <button type="submit">Salva contatto</button>
         </form>
       </dialog>
       <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
