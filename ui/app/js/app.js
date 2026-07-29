@@ -24,7 +24,6 @@ const reminderWarningBody = document.querySelector('#reminderWarningBody');
 const closeReminderWarningModal = document.querySelector('#closeReminderWarningModal');
 const votingsCard = document.querySelector('#votingsCard');
 const privateDocumentsLink = document.querySelector('#privateDocumentsLink');
-const privateDocumentsCard = document.querySelector('#privateDocumentsCard');
 const publicBoardGuest = document.querySelector('#publicBoardGuestContent');
 const publicBoardUser = document.querySelector('#publicBoardUserContent');
 const appRoot = window.location.pathname.split('/ui/')[0];
@@ -242,9 +241,6 @@ function toggleAdminPanels(enabled) {
   }
 
 
-  if (privateDocumentsCard) {
-    privateDocumentsCard.classList.toggle('hidden', !enabled);
-  }
 }
 
 function toggleRoleMenus(user) {
