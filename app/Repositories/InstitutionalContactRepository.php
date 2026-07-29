@@ -68,4 +68,10 @@ final class InstitutionalContactRepository
 
         return $this->findById($id);
     }
+
+    public function delete(int $id): void
+    {
+        $stmt = $this->pdo->prepare('DELETE FROM institutional_contacts WHERE id = ?');
+        $stmt->execute([$id]);
+    }
 }

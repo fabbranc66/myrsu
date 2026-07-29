@@ -4,8 +4,8 @@ function renderUserRow(user, roles, access = {}) {
   const options = roles
     .map((role) => `<option value="${role.name}" ${role.name === currentRole ? 'selected' : ''}>${role.label}</option>`)
     .join('');
-  const name = access.canUpdate ? `<input data-name="${user.id}" value="${user.name}">` : user.name;
-  const email = access.canUpdate ? `<input data-email="${user.id}" type="email" value="${user.email}">` : user.email;
+  const name = access.canUpdate ? `<input data-name="${user.id}" value="${escapeAttr(user.name)}">` : `<span class="truncate-title" title="${escapeAttr(user.name)}">${escapeHtml(user.name)}</span>`;
+  const email = access.canUpdate ? `<input data-email="${user.id}" type="email" value="${escapeAttr(user.email)}">` : `<span class="truncate-title" title="${escapeAttr(user.email)}">${escapeHtml(user.email)}</span>`;
   const password = access.canUpdate ? `<input data-password="${user.id}" type="password" placeholder="New password">` : '-';
   const status = access.canUpdate
     ? `<button class="icon-action status-action" data-status="${nextStatus}" data-id="${user.id}" title="Change status">${MyRsuIcons.status(user.status)}</button>`
@@ -26,12 +26,12 @@ function renderUserRow(user, roles, access = {}) {
 
   return `
     <tr>
-      <td>${name}</td>
-      <td>${email}</td>
-      <td>${password}</td>
-      <td>${status}</td>
-      <td>${role}</td>
-      <td class="actions-cell">
+      <td data-label="Nome">${name}</td>
+      <td data-label="Email">${email}</td>
+      <td data-label="Password">${password}</td>
+      <td data-label="Stato">${status}</td>
+      <td data-label="Ruolo">${role}</td>
+      <td data-label="Azioni" class="actions-cell">
         ${editActions}
         ${gdprAction}
         ${activityAction}
@@ -39,4 +39,12 @@ function renderUserRow(user, roles, access = {}) {
       </td>
     </tr>
   `;
+}
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char]));
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value).replace(/`/g, '&#096;');
 }

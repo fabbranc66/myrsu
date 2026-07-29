@@ -373,6 +373,39 @@ textarea {
   height: 15px;
 }
 
+.contacts-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.contacts-table th:nth-child(1),
+.contacts-table td:nth-child(1) { width: 23%; }
+
+.contacts-table th:nth-child(2),
+.contacts-table td:nth-child(2) { width: 10%; }
+
+.contacts-table th:nth-child(3),
+.contacts-table td:nth-child(3) { width: 14%; }
+
+.contacts-table th:nth-child(4),
+.contacts-table td:nth-child(4) { width: 18%; }
+
+.contacts-table th:nth-child(5),
+.contacts-table td:nth-child(5) { width: 20%; }
+
+.contacts-table th:nth-child(6),
+.contacts-table td:nth-child(6) { width: 8%; }
+
+.contacts-table th:nth-child(7),
+.contacts-table td:nth-child(7) { width: 7%; }
+
+.contacts-table .truncate-title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .call-direction {
   display: inline-block;
   border-radius: 999px;
@@ -1303,7 +1336,10 @@ dialog {
   .workers-assemblies-mobile-table .icon-action,
   .assembly-attachments-mobile-table .icon-action,
   .votings-mobile-table .icon-action,
-  .voting-tokens-mobile-table .icon-action {
+  .voting-tokens-mobile-table .icon-action,
+  .private-documents-mobile-table .icon-action,
+  .users-mobile-table .icon-action,
+  .contacts-mobile-table .icon-action {
     width: 30px;
     height: 30px;
     min-height: 30px;
@@ -1323,7 +1359,10 @@ dialog {
   .workers-assemblies-mobile-table .icon-action svg,
   .assembly-attachments-mobile-table .icon-action svg,
   .votings-mobile-table .icon-action svg,
-  .voting-tokens-mobile-table .icon-action svg {
+  .voting-tokens-mobile-table .icon-action svg,
+  .private-documents-mobile-table .icon-action svg,
+  .users-mobile-table .icon-action svg,
+  .contacts-mobile-table .icon-action svg {
     width: 17px;
     height: 17px;
   }
@@ -1341,7 +1380,10 @@ dialog {
   .workers-assemblies-mobile-table .actions-cell,
   .assembly-attachments-mobile-table .actions-cell,
   .votings-mobile-table .actions-cell,
-  .voting-tokens-mobile-table .actions-cell {
+  .voting-tokens-mobile-table .actions-cell,
+  .private-documents-mobile-table .actions-cell,
+  .users-mobile-table .actions-cell,
+  .contacts-mobile-table .actions-cell {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
@@ -1470,7 +1512,10 @@ dialog {
   .workers-assemblies-mobile-table td,
   .assembly-attachments-mobile-table td,
   .votings-mobile-table td,
-  .voting-tokens-mobile-table td {
+  .voting-tokens-mobile-table td,
+  .private-documents-mobile-table td,
+  .users-mobile-table td,
+  .contacts-mobile-table td {
     width: 100% !important;
     grid-template-columns: 82px minmax(0, 1fr);
     gap: 6px;
@@ -1486,7 +1531,10 @@ dialog {
   .workers-assemblies-mobile-table .truncate-title,
   .assembly-attachments-mobile-table .truncate-title,
   .votings-mobile-table .truncate-title,
-  .voting-tokens-mobile-table .truncate-title {
+  .voting-tokens-mobile-table .truncate-title,
+  .private-documents-mobile-table .truncate-title,
+  .users-mobile-table .truncate-title,
+  .contacts-mobile-table .truncate-title {
     color: inherit;
     display: block;
     max-width: 100%;

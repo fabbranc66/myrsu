@@ -84,6 +84,25 @@ final class ContactController
         return Response::json(['data' => $this->institutionalContact($contact)]);
     }
 
+    public function destroyInstitutional(Request $request, array $params): Response
+    {
+        $user = $this->requireManager($request);
+        $contact = $this->app->institutionalContacts->findById((int)$params['id']);
+        if ($contact === null) {
+            throw new HttpException(404, 'Contatto non trovato.');
+        }
+
+        $this->app->institutionalContacts->delete((int)$params['id']);
+        $this->app->activityLogs->write((int)$user['id'], 'contacts.delete', [
+            'section' => 'contacts',
+            'contact_id' => $params['id'],
+            'type' => $contact['type'],
+        ]);
+
+        return Response::json(['data' => ['deleted' => true]]);
+    }
+
+
     private function requireManager(Request $request): array
     {
         $user = $this->app->auth->requireUser($request);
@@ -119,6 +138,7 @@ final class ContactController
             'organization' => (string)($contact['organization'] ?? ''),
             'email' => (string)($contact['email'] ?? ''),
             'phone' => (string)($contact['phone'] ?? ''),
+            'notes' => (string)($contact['notes'] ?? ''),
         ];
     }
 }

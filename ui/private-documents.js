@@ -37,7 +37,23 @@ function conversionLabel(document) {
 }
 
 function row(document) {
-  return `<tr><td>${document.original_name}</td><td><span class="doc-type-tag">${originalType(document)}</span></td><td><span class="doc-type-tag">${systemType(document)}</span></td><td><span class="doc-origin-tag ${conversionLabel(document) === 'convertito' ? 'converted' : 'native'}">${conversionLabel(document)}</span></td><td>${document.category || '-'}</td><td>${document.created_at || '-'}</td><td class="actions-cell"><button class="icon-action" data-view="${document.id}" title="Visualizza">${MyRsuIcons.get('eye')}</button><button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button><button class="icon-action danger" data-delete="${document.id}" title="Cancella">${MyRsuIcons.get('trash')}</button></td></tr>`;
+  return `<tr>
+    <td data-label="Documento"><span class="truncate-title" title="${escapeAttr(document.original_name)}">${escapeHtml(document.original_name)}</span></td>
+    <td data-label="Originale"><span class="doc-type-tag">${originalType(document)}</span></td>
+    <td data-label="Sistema"><span class="doc-type-tag">${systemType(document)}</span></td>
+    <td data-label="Conversione"><span class="doc-origin-tag ${conversionLabel(document) === 'convertito' ? 'converted' : 'native'}">${conversionLabel(document)}</span></td>
+    <td data-label="Categoria">${escapeHtml(document.category || '-')}</td>
+    <td data-label="Data">${escapeHtml(document.created_at || '-')}</td>
+    <td data-label="Azioni" class="actions-cell"><button class="icon-action" data-view="${document.id}" title="Visualizza">${MyRsuIcons.get('eye')}</button><button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button><button class="icon-action danger" data-delete="${document.id}" title="Cancella">${MyRsuIcons.get('trash')}</button></td>
+  </tr>`;
+}
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char]));
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value).replace(/`/g, '&#096;');
 }
 
 async function loadDocuments() {

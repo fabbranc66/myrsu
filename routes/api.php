@@ -185,6 +185,7 @@ $app->router->delete('/api/v1/union-permits/requests/{id}', [$unionPermitRequest
 $app->router->get('/api/v1/contacts', [$contacts, 'index']);
 $app->router->post('/api/v1/institutional-contacts', [$contacts, 'storeInstitutional']);
 $app->router->patch('/api/v1/institutional-contacts/{id}', [$contacts, 'updateInstitutional']);
+$app->router->delete('/api/v1/institutional-contacts/{id}', [$contacts, 'destroyInstitutional']);
 
 $app->router->get('/api/v1/union-meetings', [$unionMeetings, 'index']);
 $app->router->post('/api/v1/union-meetings', [$unionMeetings, 'store']);

@@ -227,6 +227,7 @@ function formatAction(log) {
     'calls.link_practice': 'Telefonata collegata a pratica',
     'practices.link': 'Oggetto collegato a pratica',
     'contacts.create': 'Contatto creato',
+    'contacts.delete': 'Contatto eliminato',
     'meetings.create': 'Incontro creato',
     'meetings.update': 'Incontro aggiornato',
     'meetings.public_comunicato': 'Comunicato incontro creato',
