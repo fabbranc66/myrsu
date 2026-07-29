@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const form = document.querySelector('#electionForm');
 const listsBox = document.querySelector('#lists');
 const result = document.querySelector('#result');

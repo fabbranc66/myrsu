@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const callForm = document.querySelector('#callForm');
 const filterForm = document.querySelector('#filterForm');
 const callsTable = document.querySelector('#callsTable');
@@ -63,12 +63,12 @@ async function loadContacts() {
 async function loadCalls(practiceId = '') {
   const query = practiceId ? `?practice_id=${encodeURIComponent(practiceId)}` : '';
   const calls = await api(`/calls${query}`);
-  callsTable.innerHTML = calls.map(row).join('');
+  callsTable.innerHTML = calls.length ? calls.map(row).join('') : '<tr><td colspan="6">Nessuna telefonata.</td></tr>';
 }
 
 function row(call) {
   return `<tr>
-    <td data-label="Data/ora">${escapeHtml(call.datetime.replace('T', ' '))}</td>
+    <td data-label="Data/ora"><span class="truncate-title" title="${escapeHtml(call.datetime.replace('T', ' '))}">${escapeHtml(call.datetime.replace('T', ' '))}</span></td>
     <td data-label="Direzione"><span class="call-direction ${call.direction}">${escapeHtml(call.direction)}</span></td>
     <td data-label="Interlocutore"><span class="table-value-title"><span class="truncate-title" title="${escapeHtml(call.interlocutor.name)}"><strong>${escapeHtml(call.interlocutor.name)}</strong></span></span><span class="muted truncate-title" title="${escapeHtml(call.interlocutor.role || call.interlocutor.org || '-')}">${escapeHtml(call.interlocutor.role || call.interlocutor.org || '-')}</span></td>
     <td data-label="Esito"><span class="truncate-title" title="${escapeHtml(call.outcome || '-')}">${escapeHtml(call.outcome || '-')}</span></td>

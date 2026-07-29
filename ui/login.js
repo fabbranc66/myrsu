@@ -3,9 +3,7 @@ const loginError = document.querySelector('#loginError');
 const jsonOutput = document.querySelector('#jsonOutput');
 const apiBase = `${window.location.pathname.split('/ui/')[0]}/api/v1`;
 
-if (sessionStorage.getItem('token') || localStorage.getItem('token')) {
-  window.location.href = 'app/index.html';
-}
+validateExistingToken();
 
 function showLoginError(text = '') {
   loginError.textContent = text;
@@ -39,4 +37,21 @@ async function login(email, password) {
   jsonOutput.textContent = JSON.stringify(payload, null, 2);
   if (!response.ok) throw new Error(payload.error?.message || 'Login non riuscito.');
   return payload;
+}
+
+async function validateExistingToken() {
+  const token = sessionStorage.getItem('token') || localStorage.getItem('token');
+  if (!token) return;
+  try {
+    const response = await fetch(`${apiBase}/me`, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    if (response.ok) {
+      window.location.href = 'app/index.html';
+      return;
+    }
+  } catch {
+  }
+  sessionStorage.removeItem('token');
+  localStorage.removeItem('token');
 }

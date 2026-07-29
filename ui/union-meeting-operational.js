@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const params = new URLSearchParams(window.location.search);
 const meetingId = params.get('id');
 const title = document.querySelector('#meetingTitle');

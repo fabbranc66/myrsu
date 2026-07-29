@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-let token = sessionStorage.getItem('token');
+let token = sessionStorage.getItem('token') || localStorage.getItem('token');
 
 const profileForm = document.querySelector('#profileForm');
 const passwordForm = document.querySelector('#passwordForm');

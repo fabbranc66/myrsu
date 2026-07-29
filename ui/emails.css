@@ -3,6 +3,8 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   margin-bottom: 16px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .email-form .wide {
@@ -21,6 +23,8 @@
   border-radius: 12px;
   background: #f8fafc;
   padding: 12px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .email-send-panel summary {
@@ -94,7 +98,86 @@
 }
 
 @media (max-width: 760px) {
+  main,
+  .panel {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .email-form {
     grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .email-form label,
+  .email-form input,
+  .email-form select,
+  .email-form textarea,
+  .email-form button,
+  .contact-picker {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .email-form select[multiple] {
+    min-height: 96px;
+  }
+
+  .contact-results {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tag-list {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .tag {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .tag small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .email-filters {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .emails-mobile-table td {
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 6px;
+    padding: 6px 0;
+  }
+
+  .emails-mobile-table td[data-label="Tipo"],
+  .emails-mobile-table td[data-label="Stato"] {
+    display: inline-grid;
+    grid-template-columns: 76px auto;
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .emails-mobile-table .email-practice-link {
+    width: 132px;
+    max-width: 132px;
+    min-height: 30px;
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+
+  .email-modal {
+    width: min(96vw, 760px);
+  }
+
+  .email-meta {
+    grid-template-columns: 74px 1fr;
   }
 }

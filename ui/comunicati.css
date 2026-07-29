@@ -1,0 +1,102 @@
+#comunicatoForm {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#comunicatoForm textarea,
+#comunicatoForm select,
+#comunicatoForm button {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.comunicati-mobile-table .table-value-title {
+  min-width: 0;
+}
+
+#documentModal.preview-modal {
+  width: min(1180px, calc(100vw - 32px));
+  max-width: none;
+  height: min(92vh, 860px);
+}
+
+#documentModal #documentPreview {
+  width: 100%;
+  height: 76vh;
+  border: 1px solid #d8dee9;
+}
+
+@media (max-width: 760px) {
+  main,
+  .panel {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  #comunicatoForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  #comunicatoForm textarea,
+  #comunicatoForm select,
+  #comunicatoForm button {
+    width: 100%;
+    min-width: 0;
+    grid-column: 1 / -1 !important;
+  }
+
+  #comunicatoForm textarea[name="title"] {
+    min-height: 96px !important;
+  }
+
+  #comunicatoForm textarea[name="body"] {
+    min-height: 260px !important;
+  }
+
+  .draft-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .draft-actions.hidden {
+    display: none;
+  }
+
+  .comunicati-mobile-table .icon-action {
+    width: 30px;
+    height: 30px;
+    min-height: 30px;
+    padding: 5px;
+  }
+
+  .comunicati-mobile-table .icon-action svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .comunicati-mobile-table .actions-cell {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .draft-generate-button {
+    width: auto;
+    min-width: max-content;
+  }
+
+  #documentModal.preview-modal {
+    width: calc(100vw - 18px);
+    max-width: none;
+    max-height: calc(100vh - 18px);
+    padding: 12px;
+  }
+
+  #documentModal .pdf-canvas-viewer {
+    height: 74vh;
+  }
+}

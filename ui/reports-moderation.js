@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const reportsTable = document.querySelector('#reportsTable');
 const statusFilter = document.querySelector('#statusFilter');
 const message = document.querySelector('#message');
@@ -36,23 +36,37 @@ async function api(path, options = {}) {
   return payload.data;
 }
 
+async function apiSilent(path, options = {}) {
+  const headers = options.headers || {};
+  headers.Authorization = `Bearer ${token}`;
+  const response = await fetch(`${apiBase}${path}`, { ...options, headers });
+  const text = await response.text();
+  const payload = text ? JSON.parse(text) : {};
+  if (!response.ok) throw new Error(payload.error?.message || 'Request failed');
+  return payload.data;
+}
+
 async function loadReports() {
-  [reports, practices] = await Promise.all([
+  const [reportRows, practiceRows] = await Promise.all([
     api(`/reports?status=${encodeURIComponent(statusFilter.value)}`),
-    api('/practices').catch(() => []),
+    apiSilent('/practices').catch(() => []),
   ]);
-  reportsTable.innerHTML = reports.map(row).join('');
+  reports = Array.isArray(reportRows) ? reportRows : [];
+  practices = Array.isArray(practiceRows) ? practiceRows : [];
+  reportsTable.innerHTML = reports.length
+    ? reports.map(row).join('')
+    : '<tr><td colspan="7">Nessuna segnalazione.</td></tr>';
 }
 
 function row(report) {
   return `<tr>
-    <td>${report.tracking_code}</td>
-    <td>${report.subject}</td>
-    <td>${report.origin === 'member' ? (report.author_name || 'membro') : 'anonima'}</td>
-    <td>${translateStatus(report.status)}</td>
-    <td>${attachmentBadge(report.attachments || [])}</td>
-    <td>${report.protocol_number || '-'}</td>
-    <td class="actions-cell">
+    <td data-label="Codice"><span class="truncate-title" title="${escapeHtml(report.tracking_code)}">${escapeHtml(report.tracking_code)}</span></td>
+    <td data-label="Oggetto"><span class="truncate-title" title="${escapeHtml(report.subject)}">${escapeHtml(report.subject)}</span></td>
+    <td data-label="Origine">${escapeHtml(report.origin === 'member' ? (report.author_name || 'membro') : 'anonima')}</td>
+    <td data-label="Stato">${translateStatus(report.status)}</td>
+    <td data-label="Allegati">${attachmentBadge(report.attachments || [])}</td>
+    <td data-label="Protocollo"><span class="truncate-title" title="${escapeHtml(report.protocol_number || '-')}">${escapeHtml(report.protocol_number || '-')}</span></td>
+    <td data-label="Azioni" class="actions-cell">
       <button class="icon-action" data-approve="${report.id}" title="Approva">${MyRsuIcons.get('active')}</button>
       <button class="icon-action danger" data-reject="${report.id}" title="Respingi">${MyRsuIcons.get('suspended')}</button>
       <button class="icon-action" data-view="${report.id}" title="Visualizza">${MyRsuIcons.get('eye')}</button>
@@ -186,4 +200,7 @@ closeAttachmentModal.addEventListener('click', () => {
 });
 
 statusFilter.addEventListener('change', loadReports);
-loadReports().catch((error) => { message.textContent = error.message; });
+loadReports().catch((error) => {
+  reportsTable.innerHTML = '<tr><td colspan="7">Errore caricamento segnalazioni.</td></tr>';
+  message.textContent = error.message;
+});

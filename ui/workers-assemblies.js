@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const assembliesTable = document.querySelector('#assembliesTable');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
@@ -24,7 +24,7 @@ async function loadAssemblies() {
 }
 
 function row(assembly) {
-  const sessions = (assembly.sessions || []).map((item) => `${item.shift_label} ${item.assembly_date} ${String(item.time_start).slice(0, 5)}`).join('<br>');
+  const sessions = (assembly.sessions || []).map((item) => `${escapeHtml(item.shift_label)} ${escapeHtml(item.assembly_date)} ${escapeHtml(String(item.time_start).slice(0, 5))}`).join('<br>');
   const attachmentCount = Array.isArray(assembly.documents) ? assembly.documents.length : 0;
   const convocation = assembly.public_document_id
     ? `<button class="icon-action" data-public-convocation="${assembly.id}" title="Visualizza convocazione">${MyRsuIcons.get('eye')}</button>`
@@ -34,13 +34,13 @@ function row(assembly) {
     : `<button class="icon-action" data-minutes="${assembly.id}" title="Genera verbale">${MyRsuIcons.get('save')}</button>`;
   const vote = Number(assembly.voting_enabled) === 1 ? escapeHtml(assembly.voting_subject || 'predisposto') : '-';
   return `<tr>
-    <td>${escapeHtml(assembly.title)}</td>
-    <td>${sessions || '-'}</td>
-    <td>${translateStatus(assembly.status)}</td>
-    <td>${translateVisibility(assembly.visibility)}</td>
-    <td>allegati ${attachmentCount}</td>
-    <td>${vote}</td>
-    <td class="actions-cell">${convocation}${minutes}<a class="icon-action" href="workers-assembly-editor.html?id=${assembly.id}" title="Modifica">${MyRsuIcons.get('edit')}</a><a class="icon-action" href="workers-assembly-operational.html?id=${assembly.id}" title="Pagina operativa">${MyRsuIcons.get('logs')}</a><button class="icon-action danger" data-delete="${assembly.id}" title="Elimina">${MyRsuIcons.get('trash')}</button></td>
+    <td data-label="Titolo"><span class="truncate-title" title="${escapeAttr(assembly.title)}">${escapeHtml(assembly.title)}</span></td>
+    <td data-label="Turni"><span class="truncate-title" title="${escapeAttr((assembly.sessions || []).map((item) => `${item.shift_label} ${item.assembly_date} ${String(item.time_start).slice(0, 5)}`).join(' | '))}">${sessions || '-'}</span></td>
+    <td data-label="Stato">${translateStatus(assembly.status)}</td>
+    <td data-label="Visibilita">${translateVisibility(assembly.visibility)}</td>
+    <td data-label="Documenti">allegati ${attachmentCount}</td>
+    <td data-label="Voto"><span class="truncate-title" title="${escapeAttr(vote)}">${vote}</span></td>
+    <td data-label="Azioni" class="actions-cell"><span class="assembly-actions-inner">${convocation}${minutes}<a class="icon-action" href="workers-assembly-editor.html?id=${assembly.id}" title="Modifica">${MyRsuIcons.get('edit')}</a><a class="icon-action" href="workers-assembly-operational.html?id=${assembly.id}" title="Pagina operativa">${MyRsuIcons.get('logs')}</a><button class="icon-action danger" data-delete="${assembly.id}" title="Elimina">${MyRsuIcons.get('trash')}</button></span></td>
   </tr>`;
 }
 
@@ -54,6 +54,10 @@ function translateVisibility(value) {
 
 function escapeHtml(value) {
   return String(value || '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char]));
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value).replace(/`/g, '&#096;');
 }
 
 assembliesTable.addEventListener('click', async (event) => {

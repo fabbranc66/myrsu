@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const id = new URLSearchParams(window.location.search).get('id');
 const details = document.querySelector('#details');
 const jsonOutput = document.querySelector('#jsonOutput');

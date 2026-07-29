@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const params = new URLSearchParams(window.location.search);
 const assemblyId = params.get('assembly_id');
 const sessionId = params.get('session_id');
@@ -116,13 +116,20 @@ function votingRow(voting) {
   const free = tokens.filter((item) => item.status === 'unused').length;
   const used = tokens.filter((item) => item.status === 'used').length;
   const cancelled = tokens.filter((item) => item.status === 'cancelled').length;
+  const resultsText = (voting.results || []).map((item) => `${item.label}: ${item.votes}`).join(' | ');
   const results = (voting.results || []).map((item) => `${escapeHtml(item.label)}: ${item.votes}`).join('<br>');
   const tokenInfo = voting.vote_mode === 'manual' ? 'scrutinio manuale' : `${modeLabel(voting.vote_mode)} - liberi ${free} / usati ${used} / annullati ${cancelled}`;
   const actionTitle = voting.vote_mode === 'online' ? 'Token' : 'Token / Scrutinio';
   const close = canClose(voting) ? `<button class="icon-action" data-close="${voting.id}" title="Chiudi votazione">${MyRsuIcons.get('suspended')}</button>` : '';
   const reopen = canReopen(voting) ? `<button class="icon-action" data-reopen="${voting.id}" title="Riapri votazione">${MyRsuIcons.get('active')}</button>` : '';
   const remove = currentRoles.includes('admin') ? `<button class="icon-action danger" data-delete="${voting.id}" title="Elimina votazione">${MyRsuIcons.get('trash')}</button>` : '';
-  return `<tr><td>${escapeHtml(voting.title)}</td><td>${statusLabel(voting.status)}</td><td>${tokenInfo}</td><td>${results || '-'}</td><td class="actions-cell"><button class="icon-action" data-edit="${voting.id}" title="Modifica">${MyRsuIcons.get('edit')}</button><button class="icon-action" data-tokens="${voting.id}" title="${actionTitle}">${MyRsuIcons.get('link')}</button>${close}${reopen}${remove}</td></tr>`;
+  return `<tr>
+    <td data-label="Titolo"><span class="truncate-title" title="${escapeAttr(voting.title)}">${escapeHtml(voting.title)}</span></td>
+    <td data-label="Stato">${statusLabel(voting.status)}</td>
+    <td data-label="Token"><span class="truncate-title" title="${escapeAttr(tokenInfo)}">${escapeHtml(tokenInfo)}</span></td>
+    <td data-label="Risultati"><span class="truncate-title" title="${escapeAttr(resultsText || '-')}">${results || '-'}</span></td>
+    <td data-label="Azioni" class="actions-cell"><button class="icon-action" data-edit="${voting.id}" title="Modifica">${MyRsuIcons.get('edit')}</button><button class="icon-action" data-tokens="${voting.id}" title="${actionTitle}">${MyRsuIcons.get('link')}</button>${close}${reopen}${remove}</td>
+  </tr>`;
 }
 
 function canClose(voting) {
@@ -282,7 +289,7 @@ async function closeVoting(votingId, participantsCount) {
 function tokenRow(row) {
   const vote = row.status === 'unused' ? `<a class="icon-action" href="voting-public.html?token=${row.token}" target="_blank" title="Vota">${MyRsuIcons.get('vote')}</a>` : '';
   const cancel = row.status === 'unused' ? `<button class="icon-action" data-cancel-token="${row.id}" title="Annulla">${MyRsuIcons.get('trash')}</button>` : '';
-  return `<tr><td>${row.token}</td><td>${tokenLabel(row.status)}</td><td>${row.used_at || '-'}</td><td class="actions-cell">${vote}${cancel}</td></tr>`;
+  return `<tr><td data-label="Token">${row.token}</td><td data-label="Stato">${tokenLabel(row.status)}</td><td data-label="Usato il">${row.used_at || '-'}</td><td data-label="Azioni" class="actions-cell">${vote}${cancel}</td></tr>`;
 }
 
 function fillForm(voting) {
@@ -340,6 +347,10 @@ function sessionLabel(session) {
 
 function escapeHtml(value) {
   return String(value || '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char]));
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value).replace(/`/g, '&#096;');
 }
 
 boot().catch((error) => { message.textContent = error.message; });

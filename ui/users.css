@@ -244,6 +244,135 @@ textarea {
   color: #64748b;
 }
 
+.meetings-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  min-width: 0;
+}
+
+.meetings-table th:nth-child(1),
+.meetings-table td:nth-child(1) { width: 20%; }
+
+.meetings-table th:nth-child(2),
+.meetings-table td:nth-child(2) { width: 12%; }
+
+.meetings-table th:nth-child(3),
+.meetings-table td:nth-child(3) { width: 11%; }
+
+.meetings-table th:nth-child(4),
+.meetings-table td:nth-child(4) { width: 10%; }
+
+.meetings-table th:nth-child(5),
+.meetings-table td:nth-child(5) { width: 10%; }
+
+.meetings-table th:nth-child(6),
+.meetings-table td:nth-child(6) { width: 14%; }
+
+.meetings-table th:nth-child(7),
+.meetings-table td:nth-child(7) { width: 21%; }
+
+.meetings-table th:nth-child(4),
+.meetings-table td:nth-child(4),
+.meetings-table th:nth-child(5),
+.meetings-table td:nth-child(5) {
+  text-align: center;
+}
+
+.meetings-table .truncate-title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.meetings-table td.actions-cell {
+  display: table-cell;
+}
+
+.meetings-table .meeting-actions-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3px;
+  overflow: visible;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.meetings-table .icon-action {
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  padding: 3px;
+}
+
+.meetings-table .icon-action svg {
+  width: 15px;
+  height: 15px;
+}
+
+.workers-assemblies-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  min-width: 0;
+}
+
+.workers-assemblies-table th:nth-child(1),
+.workers-assemblies-table td:nth-child(1) { width: 28%; }
+
+.workers-assemblies-table th:nth-child(2),
+.workers-assemblies-table td:nth-child(2) { width: 25%; }
+
+.workers-assemblies-table th:nth-child(3),
+.workers-assemblies-table td:nth-child(3) { width: 8%; }
+
+.workers-assemblies-table th:nth-child(4),
+.workers-assemblies-table td:nth-child(4) { width: 8%; }
+
+.workers-assemblies-table th:nth-child(5),
+.workers-assemblies-table td:nth-child(5) { width: 8%; }
+
+.workers-assemblies-table th:nth-child(6),
+.workers-assemblies-table td:nth-child(6) { width: 6%; }
+
+.workers-assemblies-table th:nth-child(7),
+.workers-assemblies-table td:nth-child(7) { width: 17%; }
+
+.workers-assemblies-table .truncate-title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.workers-assemblies-table td.actions-cell {
+  display: table-cell;
+}
+
+.workers-assemblies-table .assembly-actions-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3px;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: visible;
+}
+
+.workers-assemblies-table .icon-action {
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  padding: 3px;
+}
+
+.workers-assemblies-table .icon-action svg {
+  width: 15px;
+  height: 15px;
+}
+
 .call-direction {
   display: inline-block;
   border-radius: 999px;
@@ -1166,7 +1295,15 @@ dialog {
   .funds-mobile-table .icon-action,
   .permits-mobile-table .icon-action,
   .calls-mobile-table .icon-action,
-  .reminders-mobile-table .icon-action {
+  .reminders-mobile-table .icon-action,
+  .emails-mobile-table .icon-action,
+  .reports-mobile-table .icon-action,
+  .meetings-mobile-table .icon-action,
+  .meeting-attachments-mobile-table .icon-action,
+  .workers-assemblies-mobile-table .icon-action,
+  .assembly-attachments-mobile-table .icon-action,
+  .votings-mobile-table .icon-action,
+  .voting-tokens-mobile-table .icon-action {
     width: 30px;
     height: 30px;
     min-height: 30px;
@@ -1178,7 +1315,15 @@ dialog {
   .funds-mobile-table .icon-action svg,
   .permits-mobile-table .icon-action svg,
   .calls-mobile-table .icon-action svg,
-  .reminders-mobile-table .icon-action svg {
+  .reminders-mobile-table .icon-action svg,
+  .emails-mobile-table .icon-action svg,
+  .reports-mobile-table .icon-action svg,
+  .meetings-mobile-table .icon-action svg,
+  .meeting-attachments-mobile-table .icon-action svg,
+  .workers-assemblies-mobile-table .icon-action svg,
+  .assembly-attachments-mobile-table .icon-action svg,
+  .votings-mobile-table .icon-action svg,
+  .voting-tokens-mobile-table .icon-action svg {
     width: 17px;
     height: 17px;
   }
@@ -1188,16 +1333,165 @@ dialog {
   .funds-mobile-table .actions-cell,
   .permits-mobile-table .actions-cell,
   .calls-mobile-table .actions-cell,
-  .reminders-mobile-table .actions-cell {
+  .reminders-mobile-table .actions-cell,
+  .emails-mobile-table .actions-cell,
+  .reports-mobile-table .actions-cell,
+  .meetings-mobile-table .actions-cell,
+  .meeting-attachments-mobile-table .actions-cell,
+  .workers-assemblies-mobile-table .actions-cell,
+  .assembly-attachments-mobile-table .actions-cell,
+  .votings-mobile-table .actions-cell,
+  .voting-tokens-mobile-table .actions-cell {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
 
+  .meetings-mobile-table .meeting-actions-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 6px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .workers-assemblies-mobile-table .assembly-actions-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 6px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .calls-mobile-table td[data-label="Interlocutore"] {
     gap: 4px;
   }
+
+  #callForm,
+  #filterForm,
+  #callEditForm,
+  #practiceLinkForm,
+  #reminderForm {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  #callForm label,
+  #filterForm label,
+  #callEditForm label,
+  #practiceLinkForm label,
+  #reminderForm label,
+  #callForm input,
+  #callForm select,
+  #callForm textarea,
+  #filterForm select,
+  #callEditForm input,
+  #callEditForm select,
+  #callEditForm textarea,
+  #practiceLinkForm select,
+  #reminderForm input,
+  #reminderForm textarea,
+  #callForm button,
+  #filterForm button,
+  #callEditForm button,
+  #practiceLinkForm button,
+  #reminderForm button,
+  #callForm .contact-picker {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  #callForm .contact-results {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #callForm .tag {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  #callForm .tag button {
+    flex: 0 0 auto;
+  }
+
+  .calls-mobile-table td {
+    grid-template-columns: 82px minmax(0, 1fr);
+    gap: 6px;
+    padding: 6px 0;
+  }
+
+  #meetingForm,
+  #attachmentForm,
+  #existingDocumentForm,
+  #contactForm {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  #meetingForm label,
+  #attachmentForm label,
+  #existingDocumentForm label,
+  #contactForm label,
+  #meetingForm input,
+  #meetingForm select,
+  #meetingForm textarea,
+  #attachmentForm input,
+  #existingDocumentForm select,
+  #contactForm input,
+  #contactForm select,
+  #contactForm textarea,
+  #meetingForm button,
+  #attachmentForm button,
+  #existingDocumentForm button,
+  #contactForm button,
+  #meetingForm .contact-picker {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  #meetingForm .contact-results {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #meetingForm .tag {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .meetings-mobile-table td,
+  .meeting-attachments-mobile-table td,
+  .workers-assemblies-mobile-table td,
+  .assembly-attachments-mobile-table td,
+  .votings-mobile-table td,
+  .voting-tokens-mobile-table td {
+    width: 100% !important;
+    grid-template-columns: 82px minmax(0, 1fr);
+    gap: 6px;
+    padding: 6px 0;
+  }
+
+  .meetings-mobile-table,
+  .workers-assemblies-mobile-table {
+    table-layout: auto;
+  }
+
+  .meetings-mobile-table .truncate-title,
+  .workers-assemblies-mobile-table .truncate-title,
+  .assembly-attachments-mobile-table .truncate-title,
+  .votings-mobile-table .truncate-title,
+  .voting-tokens-mobile-table .truncate-title {
+    color: inherit;
+    display: block;
+    max-width: 100%;
+  }
+
 
   th,
   td {

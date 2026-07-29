@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const meetingForm = document.querySelector('#meetingForm');
 const pageTitle = document.querySelector('#pageTitle');
 const saveButton = document.querySelector('#saveButton');
@@ -133,7 +133,11 @@ existingDocumentForm.addEventListener('submit', async (event) => {
 
 function renderAttachments(documents) {
   attachmentsTable.innerHTML = documents.length
-    ? documents.map((document) => `<tr><td>${escapeHtml(document.original_name)}</td><td>${escapeHtml(document.conversion_status)}</td><td class="actions-cell"><button class="icon-action" data-view-document="${document.document_id}" title="Anteprima">${MyRsuIcons.get('eye')}</button><button class="icon-action danger" data-remove-document="${document.document_id}" title="Rimuovi">${MyRsuIcons.get('trash')}</button></td></tr>`).join('')
+    ? documents.map((document) => `<tr>
+      <td data-label="Documento"><span class="truncate-title" title="${escapeHtml(document.original_name)}">${escapeHtml(document.original_name)}</span></td>
+      <td data-label="Stato">${escapeHtml(document.conversion_status)}</td>
+      <td data-label="Azioni" class="actions-cell"><button class="icon-action" data-view-document="${document.document_id}" title="Anteprima">${MyRsuIcons.get('eye')}</button><button class="icon-action danger" data-remove-document="${document.document_id}" title="Rimuovi">${MyRsuIcons.get('trash')}</button></td>
+    </tr>`).join('')
     : '<tr><td colspan="3">Nessun allegato.</td></tr>';
 }
 

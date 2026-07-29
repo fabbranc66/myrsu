@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const state = { token: sessionStorage.getItem('token'), roles: [], permissions: [] };
+const state = { token: sessionStorage.getItem('token') || localStorage.getItem('token'), roles: [], permissions: [] };
 
 const userPanel = document.querySelector('#userPanel');
 const createForm = document.querySelector('#createForm');

@@ -6,6 +6,7 @@
   <title>Comunicati - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
   <link rel="stylesheet" href="users.css?v=20260719-mobile-11">
+  <link rel="stylesheet" href="comunicati.css?v=20260729-mobile-1">
 </head>
 <body>
   <header class="app-header">
@@ -21,7 +22,7 @@
         </div>
         <a class="secondary-link" href="comunicati-editor.html">Nuovo comunicato</a>
       </header>
-      <table>
+      <table class="mobile-card-table comunicati-mobile-table">
         <thead>
           <tr><th>Documento</th><th>VisibilitÃ </th><th>Stato</th><th>Data</th><th>Azioni</th></tr>
         </thead>
@@ -33,9 +34,11 @@
       <dialog id="documentModal" class="preview-modal">
         <header>
           <h2>Anteprima comunicato</h2>
+          <div id="pdfToolbar" class="pdf-toolbar hidden"><span id="pdfZoomValue">100%</span></div>
           <button id="closeDocumentModal" type="button">Chiudi</button>
         </header>
         <iframe id="documentPreview" title="Anteprima comunicato"></iframe>
+        <div id="pdfCanvasViewer" class="pdf-canvas-viewer hidden"></div>
       </dialog>
 
       <dialog id="verifyFrameModal" class="preview-modal">
@@ -48,7 +51,7 @@
     </section>
   </main>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="comunicati-create.js?v=20260718-5"></script>
+  <script type="module" src="comunicati-create.js?v=20260729-mobile-preview-1"></script>
   <script src="auth-menu.js?v=20260727-funds-1"></script>
 </body>
 </html>

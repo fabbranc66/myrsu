@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const assemblyId = new URLSearchParams(window.location.search).get('id');
 const title = document.querySelector('#assemblyTitle');
 const meta = document.querySelector('#assemblyMeta');

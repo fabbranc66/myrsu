@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const meetingsTable = document.querySelector('#meetingsTable');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
@@ -25,7 +25,7 @@ async function api(path, options = {}) {
 async function loadMeetings() {
   const [meetings, practiceRows] = await Promise.all([api('/union-meetings'), loadPractices()]);
   practices = practiceRows;
-  meetingsTable.innerHTML = meetings.map(row).join('');
+  meetingsTable.innerHTML = meetings.length ? meetings.map(row).join('') : '<tr><td colspan="7">Nessun incontro.</td></tr>';
 }
 
 async function loadPractices() {
@@ -33,7 +33,7 @@ async function loadPractices() {
 }
 
 function row(meeting) {
-  const documentStatus = meeting.public_document_id ? `doc ${meeting.public_document_id}` : '-';
+  const documentStatus = meeting.public_document_id ? `conv. ${meeting.public_document_id}` : 'conv. -';
   const attachmentCount = Array.isArray(meeting.documents) ? meeting.documents.length : 0;
   const convocation = meeting.public_document_id
     ? `<button class="icon-action" data-view-convocation="${meeting.public_document_id}" title="Visualizza convocazione">${MyRsuIcons.get('eye')}</button>`
@@ -41,7 +41,15 @@ function row(meeting) {
   const minutes = meeting.minutes_document_id
     ? `<button class="icon-action" data-view-convocation="${meeting.minutes_document_id}" title="Visualizza verbale">${MyRsuIcons.get('note')}</button><button class="icon-action" data-minutes="${meeting.id}" title="Rigenera verbale">${MyRsuIcons.get('save')}</button>`
     : `<button class="icon-action" data-minutes="${meeting.id}" title="Genera verbale">${MyRsuIcons.get('save')}</button>`;
-  return `<tr><td>${escapeHtml(meeting.title)}</td><td>${escapeHtml(meeting.meeting_date)}</td><td>${escapeHtml(meeting.location)}</td><td>${translateStatus(meeting.status)}</td><td>${translateVisibility(meeting.visibility)}</td><td>${documentStatus} | verbale ${meeting.minutes_document_id || '-'} | allegati ${attachmentCount}</td><td class="actions-cell">${convocation}${minutes}<a class="icon-action" href="union-meeting-editor.html?id=${meeting.id}" title="Modifica incontro">${MyRsuIcons.get('edit')}</a><button class="icon-action" data-public-comunicato="${meeting.id}" title="Comunicato pubblico">${MyRsuIcons.get('document')}</button><a class="icon-action" href="union-meeting-operational.html?id=${meeting.id}" title="Pagina operativa">${MyRsuIcons.get('logs')}</a><button class="icon-action" data-practice-link="${meeting.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button></td></tr>`;
+  return `<tr>
+    <td data-label="Titolo"><span class="truncate-title" title="${escapeHtml(meeting.title)}">${escapeHtml(meeting.title)}</span></td>
+    <td data-label="Data"><span class="truncate-title" title="${escapeHtml(meeting.meeting_date)}">${escapeHtml(meeting.meeting_date)}</span></td>
+    <td data-label="Luogo"><span class="truncate-title" title="${escapeHtml(meeting.location)}">${escapeHtml(meeting.location)}</span></td>
+    <td data-label="Stato">${translateStatus(meeting.status)}</td>
+    <td data-label="Visibilita">${translateVisibility(meeting.visibility)}</td>
+    <td data-label="Documento"><span class="truncate-title" title="${escapeHtml(`${documentStatus} | verb. ${meeting.minutes_document_id || '-'} | all. ${attachmentCount}`)}">${documentStatus} | verb. ${meeting.minutes_document_id || '-'} | all. ${attachmentCount}</span></td>
+    <td data-label="Azioni" class="actions-cell meeting-actions"><span class="meeting-actions-inner">${convocation}${minutes}<a class="icon-action" href="union-meeting-editor.html?id=${meeting.id}" title="Modifica incontro">${MyRsuIcons.get('edit')}</a><button class="icon-action" data-public-comunicato="${meeting.id}" title="Comunicato pubblico">${MyRsuIcons.get('document')}</button><a class="icon-action" href="union-meeting-operational.html?id=${meeting.id}" title="Pagina operativa">${MyRsuIcons.get('logs')}</a><button class="icon-action" data-practice-link="${meeting.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button></span></td>
+  </tr>`;
 }
 
 function translateStatus(value) {

@@ -113,11 +113,11 @@ function systemDocumentName(document) {
 
 function render() {
   table.innerHTML = emails.map((email) => `<tr>
-    <td data-label="Data">${escapeHtml(email.message_at)}</td>
+    <td data-label="Data"><span class="truncate-title" title="${escapeHtml(email.message_at)}">${escapeHtml(email.message_at)}</span></td>
     <td data-label="Tipo">${directionLabel(email.direction)}</td>
-    <td data-label="Oggetto" title="${escapeHtml(email.subject)}">${escapeHtml(email.subject)}</td>
-    <td data-label="Contatto">${escapeHtml(email.from_name || email.from_email || email.to_emails || '-')}</td>
-    <td data-label="Pratica">${escapeHtml(email.practice_title || '-')}</td>
+    <td data-label="Oggetto"><span class="truncate-title" title="${escapeHtml(email.subject)}">${escapeHtml(email.subject)}</span></td>
+    <td data-label="Contatto"><span class="truncate-title" title="${escapeHtml(email.from_name || email.from_email || email.to_emails || '-')}">${escapeHtml(email.from_name || email.from_email || email.to_emails || '-')}</span></td>
+    <td data-label="Pratica"><span class="truncate-title" title="${escapeHtml(email.practice_title || '-')}">${escapeHtml(email.practice_title || '-')}</span></td>
     <td data-label="Stato">${statusLabel(email.handling_status)}</td>
     <td data-label="Azioni" class="actions-cell">
       <button class="icon-action" data-view="${email.id}" title="Visualizza">${MyRsuIcons.get('eye')}</button>

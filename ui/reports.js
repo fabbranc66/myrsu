@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const reportForm = document.querySelector('#reportForm');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');

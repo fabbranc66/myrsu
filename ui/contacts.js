@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const token = sessionStorage.getItem('token');
+const token = sessionStorage.getItem('token') || localStorage.getItem('token');
 const contactForm = document.querySelector('#contactForm');
 const contactsTable = document.querySelector('#contactsTable');
 const message = document.querySelector('#message');
