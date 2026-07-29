@@ -31,10 +31,10 @@ async function loadGroups() {
 
 function row(group) {
   return `<tr>
-    <td>${escapeHtml(group.document_name)}</td>
-    <td>${escapeHtml(group.category)}</td>
-    <td><span class="doc-origin-tag converted">${group.count} commenti</span></td>
-    <td class="actions-cell">
+    <td data-label="Soggetto"><span class="truncate-title" title="${escapeAttr(group.document_name)}">${escapeHtml(group.document_name)}</span></td>
+    <td data-label="Tipo">${escapeHtml(group.category)}</td>
+    <td data-label="Commenti"><span class="doc-origin-tag converted">${group.count} commenti</span></td>
+    <td data-label="Azioni" class="actions-cell">
       <button class="icon-action" data-view="${group.document_id}" title="Apri">${MyRsuIcons.get('eye')}</button>
     </td>
   </tr>`;
@@ -97,6 +97,10 @@ function translateStatus(status) {
 
 function escapeHtml(value) {
   return String(value || '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value).replace(/`/g, '&#096;');
 }
 
 closeCommentModal.addEventListener('click', () => {

@@ -406,6 +406,57 @@ textarea {
   white-space: nowrap;
 }
 
+.reports-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.reports-table th:nth-child(1),
+.reports-table td:nth-child(1) { width: 18%; }
+
+.reports-table th:nth-child(2),
+.reports-table td:nth-child(2) { width: 27%; }
+
+.reports-table th:nth-child(3),
+.reports-table td:nth-child(3) { width: 10%; }
+
+.reports-table th:nth-child(4),
+.reports-table td:nth-child(4) { width: 9%; }
+
+.reports-table th:nth-child(5),
+.reports-table td:nth-child(5) { width: 9%; }
+
+.reports-table th:nth-child(6),
+.reports-table td:nth-child(6) { width: 13%; }
+
+.reports-table th:nth-child(7),
+.reports-table td:nth-child(7) { width: 14%; }
+
+.reports-table .truncate-title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reports-table td.actions-cell {
+  display: table-cell;
+  white-space: nowrap;
+}
+
+.reports-table .icon-action {
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  padding: 3px;
+}
+
+.reports-table .icon-action svg {
+  width: 15px;
+  height: 15px;
+}
+
 .call-direction {
   display: inline-block;
   border-radius: 999px;
@@ -1311,6 +1362,10 @@ dialog {
     white-space: nowrap;
   }
 
+  .mobile-card-table td.actions-cell {
+    display: flex;
+  }
+
   .mobile-card-table .table-value-title {
     display: flex;
     align-items: center;
@@ -1339,7 +1394,8 @@ dialog {
   .voting-tokens-mobile-table .icon-action,
   .private-documents-mobile-table .icon-action,
   .users-mobile-table .icon-action,
-  .contacts-mobile-table .icon-action {
+  .contacts-mobile-table .icon-action,
+  .comments-moderation-mobile-table .icon-action {
     width: 30px;
     height: 30px;
     min-height: 30px;
@@ -1362,7 +1418,8 @@ dialog {
   .voting-tokens-mobile-table .icon-action svg,
   .private-documents-mobile-table .icon-action svg,
   .users-mobile-table .icon-action svg,
-  .contacts-mobile-table .icon-action svg {
+  .contacts-mobile-table .icon-action svg,
+  .comments-moderation-mobile-table .icon-action svg {
     width: 17px;
     height: 17px;
   }
@@ -1383,7 +1440,8 @@ dialog {
   .voting-tokens-mobile-table .actions-cell,
   .private-documents-mobile-table .actions-cell,
   .users-mobile-table .actions-cell,
-  .contacts-mobile-table .actions-cell {
+  .contacts-mobile-table .actions-cell,
+  .comments-moderation-mobile-table .actions-cell {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
@@ -1515,11 +1573,32 @@ dialog {
   .voting-tokens-mobile-table td,
   .private-documents-mobile-table td,
   .users-mobile-table td,
-  .contacts-mobile-table td {
+  .contacts-mobile-table td,
+  .comments-moderation-mobile-table td {
     width: 100% !important;
     grid-template-columns: 82px minmax(0, 1fr);
     gap: 6px;
     padding: 6px 0;
+  }
+
+  .reports-mobile-table td {
+    display: grid !important;
+    width: 100% !important;
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 14px;
+    align-items: start;
+    padding: 8px 0;
+  }
+
+  .reports-mobile-table td.actions-cell {
+    display: flex !important;
+    width: 100% !important;
+    padding-top: 10px;
+  }
+
+  .reports-mobile-table td.actions-cell::before {
+    display: none;
+    content: none;
   }
 
   .meetings-mobile-table,
@@ -1534,7 +1613,8 @@ dialog {
   .voting-tokens-mobile-table .truncate-title,
   .private-documents-mobile-table .truncate-title,
   .users-mobile-table .truncate-title,
-  .contacts-mobile-table .truncate-title {
+  .contacts-mobile-table .truncate-title,
+  .comments-moderation-mobile-table .truncate-title {
     color: inherit;
     display: block;
     max-width: 100%;
@@ -1571,6 +1651,25 @@ dialog {
     max-width: none;
     max-height: calc(100vh - 18px);
     padding: 12px;
+    overflow: auto;
+  }
+
+  #commentModal {
+    height: calc(100vh - 18px);
+  }
+
+  #commentDocumentPreview {
+    display: none;
+  }
+
+  #commentModalList {
+    margin-top: 10px;
+    padding-bottom: 12px;
+  }
+
+  .comment-moderation-row p {
+    max-height: 160px;
+    overflow: auto;
   }
 
   #documentPreview,
