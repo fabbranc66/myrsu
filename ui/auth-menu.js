@@ -60,6 +60,7 @@
         ['contacts.html', 'Contatti', ['admin', 'delegato', 'rls']],
         ['funds.html', 'Fondi', ['admin', 'delegato', 'rls']],
         ['pdr-calculator.html', 'Calcolo PDR', ['admin']],
+        ['normativa-editor.html', 'Editor normativa', ['admin']],
       ],
     },
   ];

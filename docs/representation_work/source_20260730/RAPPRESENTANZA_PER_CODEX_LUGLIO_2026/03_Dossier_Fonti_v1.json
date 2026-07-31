@@ -1,0 +1,92 @@
+{
+  "titolo": "Rappresentanza sindacale - testo coordinato di lavoro",
+  "aggiornamento": "luglio 2026",
+  "obiettivo": "Costruire un corpus coordinato 1993 -> 2011 -> 2013 -> 2014 -> 2017 -> 2018 -> disciplina metalmeccanici -> 2025/2026.",
+  "metodo": {
+    "principio": "La fonte più recente non cancella automaticamente la precedente: si coordinano solo le disposizioni effettivamente sostituite, modificate o integrate.",
+    "stati": [
+      "vigente",
+      "modificato",
+      "sostituito",
+      "storico",
+      "da verificare"
+    ],
+    "output_finale": [
+      "PDF testo coordinato",
+      "registro modifiche",
+      "JSON per Codex/MyRSU"
+    ]
+  },
+  "fonti": [
+    {
+      "ordine": 1,
+      "fonte": "Accordo interconfederale 20 dicembre 1993",
+      "ruolo": "Base storica della disciplina RSU nel settore industria",
+      "stato": "DA COORDINARE",
+      "nota": "Regola originaria su costituzione, composizione, durata, elezioni, commissione, scrutinio, ricorsi."
+    },
+    {
+      "ordine": 2,
+      "fonte": "Accordo interconfederale 28 giugno 2011",
+      "ruolo": "Riforma della rappresentanza e della contrattazione",
+      "stato": "DA INTEGRARE",
+      "nota": "È espressamente recepito dal TU 2014."
+    },
+    {
+      "ordine": 3,
+      "fonte": "Protocollo 31 maggio 2013",
+      "ruolo": "Misurazione/rappresentatività e regole per la contrattazione",
+      "stato": "DA INTEGRARE",
+      "nota": "È espressamente recepito dal TU 2014."
+    },
+    {
+      "ordine": 4,
+      "fonte": "Testo Unico sulla Rappresentanza 10 gennaio 2014",
+      "ruolo": "Testo unificante che aggiorna l'accordo RSU 1993",
+      "stato": "FONTE CENTRALE",
+      "nota": "Riprende la disciplina 1993 con gli adeguamenti derivanti dalle intese 2011 e 2013."
+    },
+    {
+      "ordine": 5,
+      "fonte": "Accordo 4 luglio 2017 sulla misurazione e certificazione",
+      "ruolo": "Integrazione applicativa del TU 2014",
+      "stato": "DA INTEGRARE",
+      "nota": "Incide soprattutto su raccolta, ponderazione e certificazione dei dati di rappresentanza."
+    },
+    {
+      "ordine": 6,
+      "fonte": "Accordo Federmeccanica-Assistal / FIM-FIOM-UILM 5 luglio 2017",
+      "ruolo": "Disciplina RSU specifica metalmeccanici - Allegato 3 CCNL 2021",
+      "stato": "ACQUISITO",
+      "nota": "Integra e specifica il TU 2014; decorrenza 1 settembre 2017."
+    },
+    {
+      "ordine": 7,
+      "fonte": "Patto per la Fabbrica 9 marzo 2018",
+      "ruolo": "Relazioni industriali, contrattazione e rappresentanza",
+      "stato": "DA VALUTARE PER PERTINENZA",
+      "nota": "Va incluso solo nelle parti che incidono sul corpus rappresentanza."
+    },
+    {
+      "ordine": 8,
+      "fonte": "Accordo 12 dicembre 2018 - Salute e sicurezza / rappresentanza luoghi di lavoro",
+      "ruolo": "RLS e sistema partecipativo",
+      "stato": "COLLEGATO",
+      "nota": "Da tenere separato dal nucleo RSU, ma collegato per RLS."
+    },
+    {
+      "ordine": 9,
+      "fonte": "CCNL Metalmeccanici 5 febbraio 2021",
+      "ruolo": "Recepisce Allegato 3 2017 e disciplina diritti sindacali di settore",
+      "stato": "ACQUISITO",
+      "nota": "La Sezione Seconda richiama TU 2014 e Allegato 3; contiene anche permessi, tutele e contributi sindacali."
+    },
+    {
+      "ordine": 10,
+      "fonte": "Rinnovo CCNL 22 novembre 2025",
+      "ruolo": "Verifica aggiornamenti settoriali 2025",
+      "stato": "PRIMO CONTROLLO ESEGUITO",
+      "nota": "Nel rinnovo firmato non è stata individuata una riscrittura dell'Allegato 3; sono però presenti modifiche a informazioni sindacali, deleghe e altri istituti di relazioni industriali da collegare al corpus."
+    }
+  ]
+}

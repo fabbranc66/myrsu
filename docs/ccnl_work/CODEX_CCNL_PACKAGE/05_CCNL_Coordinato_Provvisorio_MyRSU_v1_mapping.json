@@ -1,0 +1,154 @@
+{
+  "document": "CCNL Metalmeccanici - Coordinato provvisorio MyRSU v1",
+  "base_2021_pages": 288,
+  "renewal_2025_pages": 51,
+  "front_pages": 4,
+  "renewal_start_pdf_page_0_based": 293,
+  "changes": [
+    {
+      "materia": "Trattamento economico - minimi",
+      "fonte_2025": "2025 p. 2",
+      "raccordo_2021": "2021: Titolo IV / tabelle minimi, ca. pp. 186-187",
+      "effetto": "Nuovi valori 1/6/2026, 1/6/2027, 1/6/2028"
+    },
+    {
+      "materia": "Distribuzione del contratto",
+      "fonte_2025": "2025 p. 4",
+      "raccordo_2021": "2021 p. PDF 47 / pag. contr. 43",
+      "effetto": "Distribuzione ottobre-dicembre 2026"
+    },
+    {
+      "materia": "Campo di applicazione",
+      "fonte_2025": "2025 pp. 6-10",
+      "raccordo_2021": "2021: Sezione Prima - campo di applicazione",
+      "effetto": "Estensioni incl. fotovoltaico, Facility Management Tecnologico, ESCO"
+    },
+    {
+      "materia": "Osservatorio / partecipazione",
+      "fonte_2025": "2025 pp. 10-12",
+      "raccordo_2021": "2021: Sezione Prima",
+      "effetto": "Aggiornamenti a osservatori e comitato consultivo"
+    },
+    {
+      "materia": "Salute e sicurezza - commissione nazionale",
+      "fonte_2025": "2025 pp. 13-14",
+      "raccordo_2021": "2021: Sezione Prima",
+      "effetto": "Gestione integrata, formazione, DPI innovativi; soppressioni visibili"
+    },
+    {
+      "materia": "Formazione professionale",
+      "fonte_2025": "2025 pp. 15-17",
+      "raccordo_2021": "2021: Sezione Prima, art. 6",
+      "effetto": "MetApprendo, AI, soglia commissione aziendale 500->300"
+    },
+    {
+      "materia": "Pari opportunita / molestie",
+      "fonte_2025": "2025 pp. 18-20",
+      "raccordo_2021": "2021: Sezione Prima, art. 7",
+      "effetto": "Nuovi compiti, certificazione di genere, iniziative formative"
+    },
+    {
+      "materia": "Informazioni aziendali",
+      "fonte_2025": "2025 pp. 21-23",
+      "raccordo_2021": "2021: Sezione Prima",
+      "effetto": "Rafforzate informative, dati retributivi/occupazionali, schema standard"
+    },
+    {
+      "materia": "Contributi/deleghe sindacali",
+      "fonte_2025": "2025 pp. 24-25",
+      "raccordo_2021": "2021: Sezione Seconda",
+      "effetto": "Nuove modalita informative e periodicita"
+    },
+    {
+      "materia": "Appalti e cambio appalto",
+      "fonte_2025": "2025 pp. 26-28",
+      "raccordo_2021": "2021: disciplina appalti",
+      "effetto": "Informativa >400 dip., cambio appalto e tutele"
+    },
+    {
+      "materia": "Tempo determinato",
+      "fonte_2025": "2025 p. 29",
+      "raccordo_2021": "2021: Sez. IV Titolo I, pp. PDF 53-56 circa",
+      "effetto": "Nuove causali, stabilizzazione 20% dal 2027, durata 24 mesi"
+    },
+    {
+      "materia": "Somministrazione / stabilizzazione",
+      "fonte_2025": "2025 p. 30",
+      "raccordo_2021": "2021: Sez. IV Titolo I, pp. PDF 55-60 circa",
+      "effetto": "Nuova lett. D: >48 mesi dal 1/1/2026, escluso pregresso fino 31/12/2025"
+    },
+    {
+      "materia": "Mansioni superiori",
+      "fonte_2025": "2025 p. 31",
+      "raccordo_2021": "2021 p. PDF 84 / pag. contr. 80",
+      "effetto": "60/120 giorni e 4 mesi per livelli B1-B3-A1"
+    },
+    {
+      "materia": "Orario plurisettimanale",
+      "fonte_2025": "2025 p. 32",
+      "raccordo_2021": "2021 pp. PDF 151-154",
+      "effetto": "Nuovi massimali combinati e maggiorazione dall'81a ora"
+    },
+    {
+      "materia": "PAR / turnisti / permessi",
+      "fonte_2025": "2025 pp. 33-34",
+      "raccordo_2021": "2021 pp. PDF 155-157 circa",
+      "effetto": "4h aggiuntive dal 2027/2028; nuove regole fruizione e conto ore"
+    },
+    {
+      "materia": "Straordinario",
+      "fonte_2025": "2025 p. 35",
+      "raccordo_2021": "2021 p. PDF 160 e seguenti",
+      "effetto": "Quote esenti per aree aziendali e nuovi massimali"
+    },
+    {
+      "materia": "Ferie / permessi specifici",
+      "fonte_2025": "2025 p. 36",
+      "raccordo_2021": "2021 p. PDF 165 e seguenti",
+      "effetto": "Integrazioni e raccordi; omissis da base 2021"
+    },
+    {
+      "materia": "Ambiente, salute e sicurezza",
+      "fonte_2025": "2025 pp. 37-39",
+      "raccordo_2021": "2021 p. PDF 192 e seguenti",
+      "effetto": "Post-incidente, break formativi, RLS, quasi infortuni"
+    },
+    {
+      "materia": "Malattia / disabilita / congedi",
+      "fonte_2025": "2025 pp. 40-41",
+      "raccordo_2021": "2021 pp. PDF 199-205",
+      "effetto": "Congedo fino 24 mesi in casi previsti; estensione comporto disabilita; malattia figli"
+    },
+    {
+      "materia": "Formazione continua / MetApprendo",
+      "fonte_2025": "2025 pp. 42-44",
+      "raccordo_2021": "2021: Titolo VI art. 7, pp. PDF 207+ circa",
+      "effetto": "24h, platea estesa, +4h al rientro, informativa annuale, contributo 1,50 euro"
+    },
+    {
+      "materia": "Doveri / inclusivita / molestie",
+      "fonte_2025": "2025 pp. 46-47",
+      "raccordo_2021": "2021: disciplina generale rapporto individuale",
+      "effetto": "Riscritture e nuove clausole inclusive"
+    },
+    {
+      "materia": "Apprendistato",
+      "fonte_2025": "2025 pp. 48-49",
+      "raccordo_2021": "2021 pp. PDF 274-279 circa",
+      "effetto": "Nuove percentuali e modalita retributive"
+    },
+    {
+      "materia": "Quota una tantum / allegati",
+      "fonte_2025": "2025 p. 50",
+      "raccordo_2021": "2021: Allegati",
+      "effetto": "Aggiornamento istruzioni contributive"
+    },
+    {
+      "materia": "Osservatorio - temi di approfondimento",
+      "fonte_2025": "2025 p. 51",
+      "raccordo_2021": "2021: Sezione Prima / osservatorio",
+      "effetto": "Tecnologie digitali, ferie aggiuntive, diritti sindacali"
+    }
+  ],
+  "consolidation_rule": "Omissis 2025 -> keep corresponding 2021 text unless expressly modified/replaced/suppressed."
+}

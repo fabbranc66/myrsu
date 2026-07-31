@@ -2,3 +2,5 @@
 vendor/
 public/documents/
 storage/private/
+tmp/
+scripts/__pycache__/

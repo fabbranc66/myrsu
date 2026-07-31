@@ -1,0 +1,58 @@
+{
+  "status": "verificato_visuale_e_fonti_sindacali",
+  "effective_date": "2026-06-01",
+  "minimi_tabellari": {
+    "D1": "1784.94",
+    "D2": "1979.37",
+    "C1": "2022.12",
+    "C2": "2064.88",
+    "C3": "2211.43",
+    "B1": "2370.33",
+    "B2": "2542.98",
+    "B3": "2838.99",
+    "A1": "2907.01"
+  },
+  "ipca_quote_tranche": {
+    "D1": "33.10",
+    "D2": "36.70",
+    "C1": "37.50",
+    "C2": "38.29",
+    "C3": "41.01",
+    "B1": "43.95",
+    "B2": "47.15",
+    "B3": "52.64",
+    "A1": "53.91"
+  },
+  "trasferta": {
+    "intera": "51.29",
+    "pasto_meridiano": "13.13",
+    "pasto_serale": "13.13",
+    "pernottamento": "25.03"
+  },
+  "reperibilita": {
+    "D1_D2_C1": {
+      "16h_lavorato": "5.87",
+      "24h_libero": "8.83",
+      "24h_festivo": "9.55",
+      "6_giorni": "38.18",
+      "6_giorni_con_festivo": "38.90",
+      "6_giorni_con_festivo_e_libero": "41.86"
+    },
+    "C2_C3": {
+      "16h_lavorato": "7.00",
+      "24h_libero": "10.98",
+      "24h_festivo": "11.78",
+      "6_giorni": "45.98",
+      "6_giorni_con_festivo": "46.78",
+      "6_giorni_con_festivo_e_libero": "50.76"
+    },
+    "B1_superiore": {
+      "16h_lavorato": "8.03",
+      "24h_libero": "13.23",
+      "24h_festivo": "13.92",
+      "6_giorni": "53.38",
+      "6_giorni_con_festivo": "54.07",
+      "6_giorni_con_festivo_e_libero": "59.27"
+    }
+  }
+}

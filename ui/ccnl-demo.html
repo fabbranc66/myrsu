@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyRSU - Demo CCNL</title>
+  <link rel="stylesheet" href="ccnl-demo.css">
+</head>
+<body>
+  <header class="demo-header">
+    <div>
+      <p class="eyebrow">MyRSU</p>
+      <h1>Demo CCNL coordinato</h1>
+    </div>
+    <a href="app/index.html">Dashboard</a>
+  </header>
+
+  <main class="demo-layout">
+    <aside class="demo-sidebar">
+      <h2>Blocchi</h2>
+      <div id="blocksList" class="blocks-list"></div>
+    </aside>
+
+    <section class="demo-content">
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="Cerca nel blocco...">
+        <button id="clearSearch" type="button">Pulisci</button>
+      </div>
+      <article id="documentView" class="document-view">
+        <p>Seleziona un blocco CCNL.</p>
+      </article>
+      <pre id="jsonView" class="json-view"></pre>
+    </section>
+  </main>
+
+  <div id="resultModal" class="modal" hidden>
+    <div class="modal-panel">
+      <button id="closeModal" class="modal-close" type="button">×</button>
+      <article id="modalContent" class="document-view"></article>
+    </div>
+  </div>
+
+  <script src="ccnl-demo.js"></script>
+</body>
+</html>

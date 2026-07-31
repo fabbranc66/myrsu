@@ -14,6 +14,7 @@ use App\Repositories\GdprConsentRepository;
 use App\Repositories\InstitutionalContactRepository;
 use App\Repositories\ProtocolRepository;
 use App\Repositories\PracticeLinkRepository;
+use App\Repositories\PracticeCcnlLinkRepository;
 use App\Repositories\PracticeNoteRepository;
 use App\Repositories\PracticeRepository;
 use App\Repositories\PracticeTimelineRepository;
@@ -53,6 +54,7 @@ use App\Services\FundProtocolService;
 use App\Services\HostingDocumentReceiveService;
 use App\Services\HostingDocumentUploadService;
 use App\Services\OfficeFileService;
+use App\Services\NormativaFileService;
 use App\Services\ProtocolDocumentNameService;
 use App\Services\PracticeService;
 use App\Services\PdfConversionService;
@@ -91,6 +93,7 @@ final class Application
     public readonly InstitutionalContactRepository $institutionalContacts;
     public readonly ProtocolRepository $protocols;
     public readonly PracticeLinkRepository $practiceLinks;
+    public readonly PracticeCcnlLinkRepository $practiceCcnlLinks;
     public readonly PracticeNoteRepository $practiceNotes;
     public readonly PracticeRepository $practices;
     public readonly PracticeTimelineRepository $practiceTimeline;
@@ -124,6 +127,7 @@ final class Application
     public readonly EmailSmtpService $emailSmtp;
     public readonly DocumentStorageService $documentStorage;
     public readonly OfficeFileService $officeFiles;
+    public readonly NormativaFileService $normativaFiles;
     public readonly PdfConversionService $pdfConversion;
     public readonly FpdiUploadedPdfService $fpdiUploadedPdf;
     public readonly FundProtocolService $fundProtocol;
@@ -158,6 +162,7 @@ final class Application
         $this->documentThumbnail = new DocumentThumbnailService($this->basePath);
         $this->documentVerificationMetadata = new DocumentVerificationMetadataService($this->basePath);
         $this->officeFiles = new OfficeFileService();
+        $this->normativaFiles = new NormativaFileService($this->basePath);
         $this->pdfConversion = new PdfConversionService();
         $this->documentStorage = new DocumentStorageService(
             $this->basePath,
@@ -209,6 +214,7 @@ final class Application
         $this->emailImapSync = new EmailImapSyncService($this->basePath, $this->emails, $this->emailContacts);
         $this->protocols = new ProtocolRepository($pdo);
         $this->practiceLinks = new PracticeLinkRepository($pdo);
+        $this->practiceCcnlLinks = new PracticeCcnlLinkRepository($pdo);
         $this->practiceNotes = new PracticeNoteRepository($pdo);
         $this->practices = new PracticeRepository($pdo);
         $this->practiceTimeline = new PracticeTimelineRepository($pdo);

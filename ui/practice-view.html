@@ -21,18 +21,58 @@
         </form>
         <h2>Nota operativa</h2>
         <form id="practiceNoteForm"><label>Testo<textarea name="body" rows="4" required></textarea></label><button type="submit">Aggiungi nota</button></form>
+        <div class="practice-tools"><button id="openCcnlModal" type="button">Normativa rapida</button></div>
       </section>
       <section class="practice-card"><h2>Timeline cronologica</h2><div id="practiceTimeline" class="practice-timeline"></div></section>
     </div>
     <dialog id="documentModal" class="preview-modal">
-      <header><h2>Documento</h2><button id="closeDocumentModal" type="button">Chiudi</button></header>
+      <header>
+        <h2>Documento</h2>
+        <div id="pdfToolbar" class="pdf-toolbar hidden"><span id="pdfZoomValue">100%</span></div>
+        <button id="closeDocumentModal" type="button">Chiudi</button>
+      </header>
       <iframe id="documentPreview" title="Anteprima documento"></iframe>
+      <div id="pdfCanvasViewer" class="pdf-canvas-viewer hidden"></div>
+    </dialog>
+    <dialog id="ccnlModal" class="preview-modal ccnl-practice-modal">
+      <header><h2>Normativa rapida</h2><button id="closeCcnlModal" type="button">Chiudi</button></header>
+      <label class="ccnl-scope-row">Ambito ricerca
+        <select id="ccnlScopeSelect">
+          <option value="all">Tutte le normative</option>
+          <option value="ccnl">CCNL</option>
+          <option value="representation">Testo Unico Rappresentanza</option>
+          <option value="safety">Sicurezza 81/08</option>
+        </select>
+      </label>
+        <div class="ccnl-search-row">
+          <input id="ccnlSearchInput" placeholder="Cerca nel CCNL">
+          <button id="ccnlQuestionToggle" class="hidden" type="button">Domanda Codex</button>
+          <button id="ccnlResetVocabulary" type="button">Reset termini</button>
+          <button id="ccnlClearSearch" type="button">Pulisci</button>
+        </div>
+      <form id="ccnlQuestionForm" class="ccnl-question-form hidden">
+        <label>Domanda<textarea name="question" rows="3" placeholder="Es. Il RLS può chiedere copia del DVR?"></textarea></label>
+        <button type="submit">Cerca risposta</button>
+      </form>
+      <div id="ccnlQuestionAnswer" class="ccnl-question-answer hidden"></div>
+      <div id="ccnlResults" class="ccnl-results"></div>
+      <div id="ccnlSectionView" class="ccnl-section-view"></div>
+      <form id="ccnlEditForm" class="ccnl-edit-form hidden">
+        <input name="source_path" type="hidden">
+        <textarea name="content" rows="16"></textarea>
+        <div><button type="submit">Salva testo</button><button id="ccnlCancelEdit" type="button">Annulla</button></div>
+      </form>
+    </dialog>
+    <dialog id="ccnlViewModal" class="preview-modal ccnl-practice-modal">
+      <header><h2>Riferimento normativo</h2><button id="closeCcnlViewModal" type="button">Chiudi</button></header>
+      <div id="ccnlLinkedView" class="ccnl-section-view"></div>
     </dialog>
     <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
   </section></main>
-  <script src="icons.js?v=20260719-icons-1"></script><script src="practice-options.js?v=20260628-1"></script><script src="practice-view.js?v=20260728-email-actions-1"></script><script src="auth-menu.js?v=20260727-funds-1"></script>
+  <script src="icons.js?v=20260719-icons-1"></script><script src="practice-options.js?v=20260628-1"></script><script src="practice-view.js?v=20260730-ccnl-1"></script><script src="normativa-vocabulary.js?v=20260731-normativa-2"></script><script src="ccnl-practice.js?v=20260731-normativa-2"></script><script src="ccnl-question.js?v=20260731-normativa-2"></script><script src="auth-menu.js?v=20260730-normativa-1"></script>
 </body>
 </html>
+
 
 
 

@@ -1,0 +1,2376 @@
+{
+  "generated_at": "2026-07-30",
+  "count": 158,
+  "items": [
+    {
+      "id": "CCNL2021-001",
+      "section": "",
+      "title_group": "",
+      "kind": "premessa",
+      "number": "",
+      "title": "PREMESSA",
+      "page_2021": 1,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-002",
+      "section": "",
+      "title_group": "",
+      "kind": "voce",
+      "number": "",
+      "title": "CAMPO DI APPLICAZIONE DEL CONTRATTO",
+      "page_2021": 4,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-14",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-003",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "voce",
+      "number": "",
+      "title": "Sistema di Relazioni Sindacali",
+      "page_2021": 11,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-14",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-004",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Osservatorio paritetico nazionale sull’industria metalmeccanica e della installazione di impianti",
+      "page_2021": 12,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-14",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-005",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Osservatori paritetici territoriali sull’industria metalmeccanica",
+      "page_2021": 13,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-14",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-006",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Comitato consultivo di partecipazione",
+      "page_2021": 14,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-14",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-007",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Commissione nazionale su salute e sicurezza",
+      "page_2021": 14,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-03",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-008",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Commissione nazionale sulle Politiche attive",
+      "page_2021": 16,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-05",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-009",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Formazione professionale",
+      "page_2021": 16,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-05",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-010",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "dichiarazione",
+      "number": "",
+      "title": "Dichiarazione Comune – Collaborazione Scuola Impresa",
+      "page_2021": 19,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-05",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-011",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Pari opportunità",
+      "page_2021": 20,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-10",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-012",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Commissione nazionale per l’integrazione dei lavoratori migranti",
+      "page_2021": 23,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-09",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-013",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9. – Informazione e consultazione in sede aziendale",
+      "page_2021": 24,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-11",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-014",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "10",
+      "title": "Art. 10 - Iniziative di coinvolgimento e partecipazione dei lavoratori nell’impresa",
+      "page_2021": 27,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-14",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-015",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "11",
+      "title": "Art. 11. – Informazione e consultazione dei lavoratori nelle imprese di dimensione comunitaria",
+      "page_2021": 28,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-11",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-016",
+      "section": "SEZIONE PRIMA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "12",
+      "title": "Art. 12. – Istituzioni interne a carattere sociale",
+      "page_2021": 29,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-017",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "premessa",
+      "number": "",
+      "title": "PREMESSA",
+      "page_2021": 33,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-018",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Assemblea",
+      "page_2021": 33,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-019",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Diritto di affissione",
+      "page_2021": 34,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-020",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Locali",
+      "page_2021": 34,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-021",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Strumenti informatici",
+      "page_2021": 34,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-022",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Permessi per motivi sindacali e cariche elettive",
+      "page_2021": 34,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-023",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Tutela dei componenti delle Rappresentanze sindacali unitarie",
+      "page_2021": 35,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-024",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Versamento dei contributi sindacali",
+      "page_2021": 36,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-13",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-025",
+      "section": "SEZIONE SECONDA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Affissione del Contratto",
+      "page_2021": 37,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-026",
+      "section": "SEZIONE TERZA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Inscindibilità delle disposizioni contrattuali e condizioni di miglior favore",
+      "page_2021": 41,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-15",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-027",
+      "section": "SEZIONE TERZA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Decorrenza e durata",
+      "page_2021": 41,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-15",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-028",
+      "section": "SEZIONE TERZA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Procedura di rinnovo del Contratto collettivo nazionale di lavoro",
+      "page_2021": 41,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-15",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-029",
+      "section": "SEZIONE TERZA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Contrattazione aziendale",
+      "page_2021": 42,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-15",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-030",
+      "section": "SEZIONE TERZA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Intese modificative del CCNL",
+      "page_2021": 42,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-15",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-031",
+      "section": "SEZIONE TERZA",
+      "title_group": "",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Distribuzione del Contratto",
+      "page_2021": 43,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-15",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-032",
+      "section": "SEZIONE TERZA",
+      "title_group": "",
+      "kind": "disposizione",
+      "number": "",
+      "title": "Disposizione Finale",
+      "page_2021": 43,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-15",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-033",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Assunzione",
+      "page_2021": 47,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-034",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Periodo di prova",
+      "page_2021": 47,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-035",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Documenti, residenza e domicilio",
+      "page_2021": 49,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-036",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Tipologie contrattuali",
+      "page_2021": 49,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-04",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-037",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Apprendistato",
+      "page_2021": 56,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-05",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-038",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Lavoro dei minori e dei soggetti aventi diritto ad assunzione obbligatoria",
+      "page_2021": 56,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-039",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Trasferta",
+      "page_2021": 57,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-01",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-040",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Trasferimenti",
+      "page_2021": 62,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-041",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9. – Appalti",
+      "page_2021": 62,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-12",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-042",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "10",
+      "title": "Art. 10. – Contratti Pubblici di servizi",
+      "page_2021": 63,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-12",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-043",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO I – COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE",
+      "kind": "articolo",
+      "number": "11",
+      "title": "Art. 11. – Cessione, trasformazione e trapasso di azienda",
+      "page_2021": 64,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-044",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Classificazione dei lavoratori",
+      "page_2021": 65,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-08",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-045",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Iniziative sperimentali",
+      "page_2021": 79,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-08",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-046",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Passaggio temporaneo di mansioni",
+      "page_2021": 80,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-08",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-047",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Nuove mansioni",
+      "page_2021": 80,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-08",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-048",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Cumulo di mansioni",
+      "page_2021": 80,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-08",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-049",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Addetti a mansioni discontinue o di semplice attesa o custodia",
+      "page_2021": 81,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-26",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-050",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Lavori indirettamente produttivi negli stabilimenti siderurgici",
+      "page_2021": 83,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-26",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-051",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Variazioni nelle squadre ai forni ed ai treni negli stabilimenti siderurgici",
+      "page_2021": 84,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-26",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-052",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9 . – Sostituzione di personale di squadra assente negli stabilimenti siderurgici",
+      "page_2021": 84,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-26",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-053",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "articolo",
+      "number": "10",
+      "title": "Art. 10 – Commissione Nazionale sull’Inquadramento Professionale",
+      "page_2021": 85,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-08",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-054",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO II – CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI",
+      "kind": "voce",
+      "number": "",
+      "title": "Esemplificazione profili di Area fuzionale",
+      "page_2021": 86,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-08",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-055",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Entrata ed uscita in azienda",
+      "page_2021": 146,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-06",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-056",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Contrazione temporanea dell’orario di lavoro",
+      "page_2021": 146,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-06",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-057",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Sospensione ed interruzione del lavoro",
+      "page_2021": 146,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-16",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-058",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Recuperi",
+      "page_2021": 147,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-16",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-059",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Orario di lavoro",
+      "page_2021": 147,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-06",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-060",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Reperibilità",
+      "page_2021": 154,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-01",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-061",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Lavoro straordinario, notturno e festivo",
+      "page_2021": 156,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-06",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-062",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Riposo settimanale",
+      "page_2021": 159,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-06",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-063",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9. – Festività",
+      "page_2021": 160,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-06",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-064",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "10",
+      "title": "Art. 10. – Ferie",
+      "page_2021": 161,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-09",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-065",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO III – ORARIO DI LAVORO",
+      "kind": "articolo",
+      "number": "11",
+      "title": "Art. 11. – Linee guida per l’applicazione della banca ore solidale",
+      "page_2021": 163,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-25",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-066",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Forme di retribuzione",
+      "page_2021": 165,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-067",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Regolamentazione del lavoro a cottimo",
+      "page_2021": 165,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-068",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Mensilizzazione",
+      "page_2021": 169,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-069",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Corresponsione della retribuzione",
+      "page_2021": 170,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-070",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Minimi tabellari e determinazione della quota di retribuzione oraria",
+      "page_2021": 170,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-01",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-071",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Aumenti periodici di anzianità",
+      "page_2021": 171,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-072",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Tredicesima mensilità",
+      "page_2021": 174,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-073",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Mense aziendali e indennità di mensa",
+      "page_2021": 175,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-074",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9. – Indennità di alta montagna e di sottosuolo",
+      "page_2021": 175,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-075",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "10",
+      "title": "Art 10. – Indennità per disagiata sede",
+      "page_2021": 175,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-076",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "11",
+      "title": "Art. 11. – Indennità maneggio denaro. Cauzione",
+      "page_2021": 175,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-077",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "12",
+      "title": "Art. 12. – Premio di risultato",
+      "page_2021": 175,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-02",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-078",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "13",
+      "title": "Art. 13. – Elemento perequativo",
+      "page_2021": 177,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-21",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-079",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "14",
+      "title": "Art. 14. – Reclami sulla retribuzione",
+      "page_2021": 178,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-080",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "15",
+      "title": "Art. 15. – Previdenza Complementare",
+      "page_2021": 178,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-02",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-081",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "16",
+      "title": "Art. 16. – Assistenza Sanitaria Integrativa",
+      "page_2021": 180,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-16",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-082",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "articolo",
+      "number": "17",
+      "title": "Art. 17. – Welfare",
+      "page_2021": 181,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-02",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-083",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO IV – RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI",
+      "kind": "tabella",
+      "number": "",
+      "title": "Tabelle dei minimi contrattuali",
+      "page_2021": 186,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-01",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-084",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO V – AMBIENTE DI LAVORO",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Ambiente di lavoro – Salute e sicurezza",
+      "page_2021": 188,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-03",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-085",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO V – AMBIENTE DI LAVORO",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Indumenti di lavoro",
+      "page_2021": 193,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-03",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-086",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Infortuni sul lavoro e malattie professionali",
+      "page_2021": 194,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-22",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-087",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Trattamento in caso di malattia ed infortunio non sul lavoro",
+      "page_2021": 195,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-07",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-088",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Congedo matrimoniale",
+      "page_2021": 199,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-22",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-089",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Trattamento in caso di gravidanza e puerperio",
+      "page_2021": 200,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-22",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-090",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Congedi parentali",
+      "page_2021": 200,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-07",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-091",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Servizio militare, servizio di volontariato civile e di cooperazione allo sviluppo",
+      "page_2021": 202,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-22",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-092",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Formazione Continua",
+      "page_2021": 203,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-05",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-093",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Diritto allo studio",
+      "page_2021": 213,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-22",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-094",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9. – Congedi per la formazione",
+      "page_2021": 217,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-07",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-095",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "10",
+      "title": "Art. 10. – Permessi per eventi e cause particolari ed ex articolo 33, legge n. 104/1992",
+      "page_2021": 218,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-07",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-096",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "11",
+      "title": "Art. 11. – Aspettativa e congedi per eventi e cause particolari",
+      "page_2021": 219,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-07",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-097",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "12",
+      "title": "Art. 12. – Misure per le donne vittime di violenza di genere",
+      "page_2021": 221,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-10",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-098",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "13",
+      "title": "Art. 13. – Conservazione del posto di lavoro in caso di accesso ai programmi terapeutici e di riabilitazione per gli stati di accertata tossicodipendenza",
+      "page_2021": 221,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-22",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-099",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "14",
+      "title": "Art. 14. – Assenze e permessi",
+      "page_2021": 222,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-22",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-100",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VI – ASSENZE, PERMESSI E TUTELE",
+      "kind": "articolo",
+      "number": "15",
+      "title": "Art. 15. – Anzianità dei lavoratori",
+      "page_2021": 222,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-22",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-101",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Rapporti in azienda",
+      "page_2021": 224,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-10",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-102",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Commissione paritetica nazionale di studio sull’utilizzo dei sistemi informatici aziendali e tutela della privacy",
+      "page_2021": 225,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-23",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-103",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Divieti",
+      "page_2021": 225,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-23",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-104",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Vendita di libri e riviste",
+      "page_2021": 225,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-23",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-105",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Visite di inventario e di controllo",
+      "page_2021": 226,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-23",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-106",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Norme speciali",
+      "page_2021": 226,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-23",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-107",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Reclami e controversie",
+      "page_2021": 226,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-23",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-108",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Provvedimenti disciplinari",
+      "page_2021": 226,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-16",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-109",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9. – Ammonizioni scritte, multe e sospensioni",
+      "page_2021": 227,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-16",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-110",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "10",
+      "title": "Art. 10. – Licenziamenti per mancanze",
+      "page_2021": 228,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-16",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-111",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VII – RAPPORTI IN AZIENDA",
+      "kind": "articolo",
+      "number": "11",
+      "title": "Art. 11. – Sospensione cautelare non disciplinare",
+      "page_2021": 229,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-16",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-112",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VIII – RISOLUZIONE DEL RAPPORTO DI LAVORO",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. - Preavviso di licenziamento e di dimissioni",
+      "page_2021": 230,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-24",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-113",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VIII – RISOLUZIONE DEL RAPPORTO DI LAVORO",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Consegna dei documenti alla cessazionedel rapporto di lavoro",
+      "page_2021": 231,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-24",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-114",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VIII – RISOLUZIONE DEL RAPPORTO DI LAVORO",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Certificato di lavoro",
+      "page_2021": 231,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-24",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-115",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VIII – RISOLUZIONE DEL RAPPORTO DI LAVORO",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Indennità in caso di morte",
+      "page_2021": 231,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-24",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-116",
+      "section": "SEZIONE QUARTA",
+      "title_group": "TITOLO VIII – RISOLUZIONE DEL RAPPORTO DI LAVORO",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Trattamento di fine rapporto",
+      "page_2021": 231,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-24",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-117",
+      "section": "ALLEGATI",
+      "title_group": "",
+      "kind": "allegato",
+      "number": "1",
+      "title": "Allegato 1 – Accordo 31 ottobre 1973 sulle Categorie speciali",
+      "page_2021": 235,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-27",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-118",
+      "section": "ALLEGATI",
+      "title_group": "",
+      "kind": "allegato",
+      "number": "2",
+      "title": "Allegato 2 – Quota di contribuzione straordinaria",
+      "page_2021": 237,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-15",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-119",
+      "section": "ALLEGATI",
+      "title_group": "",
+      "kind": "allegato",
+      "number": "3",
+      "title": "Allegato 3 – Accordo 5 luglio 2017 per la costituzione delle Rappresentanze Sindacali Unitarie",
+      "page_2021": 238,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-27",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-120",
+      "section": "ALLEGATI",
+      "title_group": "",
+      "kind": "allegato",
+      "number": "4",
+      "title": "Allegato 4 – Accordo 5 luglio 2017 per l’elezione dei Rappresentanti dei Lavoratori per la Sicurezza (RLS)",
+      "page_2021": 248,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-03",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-121",
+      "section": "ALLEGATI",
+      "title_group": "",
+      "kind": "allegato",
+      "number": "5",
+      "title": "Allegato 5 – Linee guida per la diffusione del Premio di risultato",
+      "page_2021": 250,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-02",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-122",
+      "section": "ALLEGATI",
+      "title_group": "",
+      "kind": "allegato",
+      "number": "6",
+      "title": "Allegato 6 – Osservatorio Paritetico Nazionale – Sessione Covid-19 Linee guida agibilità sindacali",
+      "page_2021": 254,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-14",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-123",
+      "section": "ALLEGATI",
+      "title_group": "",
+      "kind": "allegato",
+      "number": "7",
+      "title": "Allegato 7 – Verbale 8 ottobre 2018 - Commissione Nazionale Salute e Sicurezza",
+      "page_2021": 256,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-27",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-124",
+      "section": "ALLEGATI",
+      "title_group": "",
+      "kind": "allegato",
+      "number": "8",
+      "title": "Allegato 8 – Dichiarazione Comune – Comparto della installazione di impianti tecnologici, dei servizi di efficienza energetica ESCo e del facility management",
+      "page_2021": 262,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-27",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-125",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "premessa",
+      "number": "",
+      "title": "Premessa",
+      "page_2021": 263,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-126",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Norme generali",
+      "page_2021": 263,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-127",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Durata del contratto",
+      "page_2021": 263,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-128",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Valorizzazione di precedenti periodi di apprendistato",
+      "page_2021": 264,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-05",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-129",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Formazione",
+      "page_2021": 264,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-130",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Organismi paritetici",
+      "page_2021": 265,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-131",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Assunzione",
+      "page_2021": 266,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-132",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Periodo di prova",
+      "page_2021": 266,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-133",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Inquadramento e retribuzione",
+      "page_2021": 266,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-134",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9. – Tredicesima mensilità",
+      "page_2021": 267,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-20",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-135",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "10",
+      "title": "Art. 10. – Malattia ed infortunio",
+      "page_2021": 267,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-07",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-136",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "11",
+      "title": "Art. 11. – Prolungamento del periodo di apprendistato",
+      "page_2021": 267,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-05",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-137",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "12",
+      "title": "Art. 12. – Previdenza complementare - Assistenza sanitaria – Welfare",
+      "page_2021": 267,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-02",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-138",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "13",
+      "title": "Art. 13. – Recesso o attribuzione della qualificazione",
+      "page_2021": 268,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-139",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PROFESSIONALIZZANTE NELL’INDUSTRIA",
+      "kind": "articolo",
+      "number": "14",
+      "title": "Art. 14. – Decorrenza",
+      "page_2021": 268,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-140",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "premessa",
+      "number": "",
+      "title": "Premessa",
+      "page_2021": 269,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-141",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Norme generali",
+      "page_2021": 269,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-142",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Durata",
+      "page_2021": 269,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-143",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Piano formativo individuale e formazione interna ed esterna",
+      "page_2021": 270,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-144",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Periodo di prova",
+      "page_2021": 270,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-145",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Inquadramento e Retribuzione",
+      "page_2021": 270,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-146",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Ferie",
+      "page_2021": 271,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-09",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-147",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Recesso",
+      "page_2021": 272,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-148",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Trasformazione in contratto di apprendistato professionalizzante",
+      "page_2021": 272,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-05",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-149",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA",
+      "kind": "articolo",
+      "number": "9",
+      "title": "Art. 9. – Decorrenza",
+      "page_2021": 272,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-150",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "premessa",
+      "number": "",
+      "title": "Premessa",
+      "page_2021": 273,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-18",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-151",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "articolo",
+      "number": "1",
+      "title": "Art. 1. – Norme generali",
+      "page_2021": 273,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-152",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "articolo",
+      "number": "2",
+      "title": "Art. 2. – Durata",
+      "page_2021": 273,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-153",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "articolo",
+      "number": "3",
+      "title": "Art. 3. – Piano formativo individuale e formazione interna ed sterna",
+      "page_2021": 273,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-154",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "articolo",
+      "number": "4",
+      "title": "Art. 4. – Periodo di prova",
+      "page_2021": 274,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-19",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-155",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "articolo",
+      "number": "5",
+      "title": "Art. 5. – Inquadramento e Retribuzione",
+      "page_2021": 274,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-156",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "articolo",
+      "number": "6",
+      "title": "Art. 6. – Previdenza complementare - Assistenza sanitaria – Welfare",
+      "page_2021": 274,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-02",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-157",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "articolo",
+      "number": "7",
+      "title": "Art. 7. – Recesso",
+      "page_2021": 274,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    },
+    {
+      "id": "CCNL2021-158",
+      "section": "ALLEGATI",
+      "title_group": "DISCIPLINA DELL’APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA",
+      "kind": "articolo",
+      "number": "8",
+      "title": "Art. 8. – Decorrenza",
+      "page_2021": 275,
+      "status": "consolidato_blocco_tematico",
+      "sources": [
+        "CCNL 05-02-2021"
+      ],
+      "consolidated_block": "CONS-28",
+      "notes": ""
+    }
+  ]
+}

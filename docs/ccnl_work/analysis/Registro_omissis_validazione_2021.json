@@ -1,0 +1,91 @@
+{
+  "status": "registro_base_integrato",
+  "source": "04_Registro_Omissis_CCNL_2025_v1.json + CCNL_2021_testo_estratto.txt",
+  "note": "Omissis non equivale a cancellazione: identifica parti del CCNL 2021 non riportate nel rinnovo 2025 e da mantenere salvo modifica espressa.",
+  "items": [
+    {
+      "id": "OM-01",
+      "article_area": "Sistema di relazioni sindacali",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-02",
+      "article_area": "Commissioni / osservatori / formazione",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-03",
+      "article_area": "Appalti / legalita / responsabilita sociale",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-04",
+      "article_area": "Salute e sicurezza - parti non modificate",
+      "page_2021": "testo 2021 trovato area Art. 1 e Art. 4",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-05",
+      "article_area": "Tipologie contrattuali - parti non modificate",
+      "page_2021": "testo 2021 trovato area stabilizzazione/somministrazione",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-06",
+      "article_area": "Classificazione / inquadramento - parti non modificate",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-07",
+      "article_area": "Orario / conto ore / straordinario - parti non modificate",
+      "page_2021": "testo 2021 trovato area orario/conto ore/straordinario",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-08",
+      "article_area": "Malattia / infortunio / congedi - parti non modificate",
+      "page_2021": "testo 2021 trovato area malattia e congedi",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-09",
+      "article_area": "Apprendistato - parti non modificate",
+      "page_2021": "testo 2021 trovato area apprendistato",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-10",
+      "article_area": "Retribuzione / indennita - parti non modificate",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-11",
+      "article_area": "Previdenza / assistenza / welfare - parti non modificate",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-12",
+      "article_area": "Disciplina / provvedimenti / controversie",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-13",
+      "article_area": "Decorrenza / durata / norme finali",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    },
+    {
+      "id": "OM-14",
+      "article_area": "Allegati / protocolli / dichiarazioni comuni",
+      "page_2021": "da registro",
+      "status": "keep_2021_text"
+    }
+  ]
+}

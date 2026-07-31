@@ -1,0 +1,118 @@
+{
+  "titolo": "Rappresentanza Sindacale - Testo coordinato provvisorio di lavoro",
+  "versione": "v1 - luglio 2026",
+  "fonti_base": [
+    "Accordo interconfederale 20 dicembre 1993",
+    "Accordo interconfederale 28 giugno 2011",
+    "Protocollo 31 maggio 2013",
+    "Testo Unico sulla Rappresentanza 10 gennaio 2014",
+    "Accordo di modifica 4 luglio 2017",
+    "Accordo metalmeccanici RSU 5 luglio 2017 - Allegato 3 CCNL",
+    "Patto per la Fabbrica 9 marzo 2018 (solo parti pertinenti)",
+    "CCNL Metalmeccanici 5 febbraio 2021",
+    "Rinnovo CCNL Metalmeccanici 22 novembre 2025",
+    "verifica aggiornamenti fino a luglio 2026"
+  ],
+  "criterio": "Le regole più recenti sostituiscono quelle precedenti solo dove incompatibili o espressamente modificate; le specifiche di categoria metalmeccanica integrano il TU interconfederale.",
+  "sezioni": [
+    {
+      "tema": "Ambito e iniziativa RSU",
+      "1993": "RSU costituibili nelle unità produttive con più di 15 dipendenti; iniziativa delle organizzazioni abilitate e, per i rinnovi, anche della RSU uscente.",
+      "tu2014": "Conferma la soglia >15 e aggiorna i soggetti legittimati richiamando gli accordi 2011/2013 e l'adesione al TU.",
+      "metal2017": "Integra la disciplina nel settore metalmeccanico senza cambiare la soglia generale.",
+      "stato": "VIGENTE COORDINATO"
+    },
+    {
+      "tema": "Composizione RSU",
+      "1993": "Sistema 2/3 eletti + 1/3 riservato alle organizzazioni firmatarie del CCNL.",
+      "tu2014": "Supera il terzo riservato: elezione a suffragio universale e scrutinio segreto tra liste concorrenti.",
+      "metal2017": "Conferma elezione e introduce regole di collegio operai / impiegati-quadri in funzione della consistenza numerica.",
+      "stato": "1993 SUPERATO"
+    },
+    {
+      "tema": "Numero componenti",
+      "1993": "Minimo 3 fino a 200 dipendenti; progressione per fasce superiori.",
+      "tu2014": "Conferma i minimi generali.",
+      "metal2017": "Mantiene il quadro e disciplina il doppio collegio nel settore.",
+      "stato": "VIGENTE"
+    },
+    {
+      "tema": "Durata",
+      "1993": "Tre anni; decadenza automatica alla scadenza.",
+      "tu2014": "Conferma tre anni e decadenza automatica.",
+      "metal2017": "Specifica: tre anni dalla data di elezione, poi decadenza automatica.",
+      "stato": "VIGENTE - SPECIFICA METALMECCANICI"
+    },
+    {
+      "tema": "Sostituzioni / cambio sigla",
+      "1993": "Dimissionario eletto sostituito dal primo non eletto della stessa lista; oltre il 50% di sostituzioni decade la RSU.",
+      "tu2014": "Conferma e aggiunge decadenza in caso di cambio di appartenenza sindacale.",
+      "metal2017": "Recepisce e specifica la disciplina settoriale.",
+      "stato": "VIGENTE"
+    },
+    {
+      "tema": "Indizione elezioni",
+      "1993": "Almeno tre mesi prima della scadenza; iniziativa delle organizzazioni abilitate o della RSU uscente.",
+      "tu2014": "Conferma il meccanismo e il termine di 15 giorni per le liste.",
+      "metal2017": "Prevede l'avvio del rinnovo già dal 30° mese e comunque almeno tre mesi prima della scadenza.",
+      "stato": "VIGENTE - REGOLA SETTORIALE PIU' DETTAGLIATA"
+    },
+    {
+      "tema": "Elettorato",
+      "1993": "Voto a operai, impiegati e quadri non in prova; disciplina di categoria per non-indeterminati.",
+      "tu2014": "Include espressamente apprendisti e lavoratori a termine in forza al momento del voto; demanda parte dell'elettorato passivo alla categoria.",
+      "metal2017": "Si applicano le specifiche del regolamento metalmeccanico.",
+      "stato": "VIGENTE"
+    },
+    {
+      "tema": "Presentazione liste",
+      "1993": "Liste delle organizzazioni firmatarie/aderenti e di associazioni formalmente costituite con firme pari al 5%.",
+      "tu2014": "Conferma, ma per aziende 16-59 dipendenti prevede almeno 3 firme; oltre 60 resta il 5%.",
+      "metal2017": "Modulo specifico per raccolta firme certificate e Comitato di garanzia FIM-FIOM-UILM.",
+      "stato": "VIGENTE - INTEGRATO"
+    },
+    {
+      "tema": "Commissione elettorale",
+      "1993": "Riceve liste, verifica, organizza seggi, scrutinio, ricorsi e risultati.",
+      "tu2014": "Conferma e formula espressamente il compito di proclamare i risultati e comunicarli ai soggetti interessati.",
+      "metal2017": "Aggiunge disciplina dei ricorsi di categoria e del Comitato nazionale/provinciale dei garanti.",
+      "stato": "VIGENTE"
+    },
+    {
+      "tema": "Quorum elettorale",
+      "1993": "Validità con partecipazione di più della metà degli aventi diritto; se non raggiunto, valutazione della Commissione e delle organizzazioni.",
+      "tu2014": "Mantiene la stessa impostazione generale.",
+      "metal2017": "Regolazione settoriale da applicare insieme al TU.",
+      "stato": "VIGENTE"
+    },
+    {
+      "tema": "Titolarità contrattazione aziendale",
+      "1993": "RSU insieme alle competenti strutture territoriali delle organizzazioni firmatarie del CCNL.",
+      "tu2014": "Accordi aziendali efficaci se approvati dalla maggioranza dei componenti RSU; raccordo con la parte III del TU.",
+      "metal2017": "Da leggere insieme al CCNL metalmeccanici e alla sua disciplina di contrattazione aziendale.",
+      "stato": "VIGENTE COORDINATO"
+    },
+    {
+      "tema": "RSA / clausola di salvaguardia",
+      "1993": "Chi partecipa alla procedura RSU rinuncia a costituire RSA.",
+      "tu2014": "Conferma e rafforza il principio di una sola forma di rappresentanza nell'unità produttiva.",
+      "metal2017": "Applicazione nel settore tramite Allegato 3 e CCNL.",
+      "stato": "VIGENTE"
+    },
+    {
+      "tema": "Misurazione rappresentanza",
+      "1993": "Non contiene il sistema moderno di misurazione nazionale associativo-elettorale.",
+      "tu2014": "Media 50/50 tra dato associativo e dato elettorale; soglia 5% per partecipare alla contrattazione nazionale.",
+      "metal2017": "Il 4 luglio 2017 viene modificata/integrata la procedura di raccolta, misurazione e certificazione; il 5 luglio il settore disciplina le RSU.",
+      "stato": "VIGENTE CON AGGIORNAMENTI OPERATIVI"
+    },
+    {
+      "tema": "Aggiornamenti 2025-2026",
+      "1993": "-",
+      "tu2014": "Resta il riferimento interconfederale del sistema Confindustria.",
+      "metal2017": "Il rinnovo metalmeccanici 22/11/2025 non riscrive l'Allegato 3. Nel 2026 è aperto un confronto per un nuovo accordo quadro, ma alla data di lavoro non risulta ancora un accordo sindacale sostitutivo firmato.",
+      "stato": "NESSUNA SOSTITUZIONE ACCERTATA"
+    }
+  ],
+  "nota_2026": "La piattaforma CGIL-CISL-UIL del 17 giugno 2026 e il confronto avviato a luglio 2026 sono proposte/negoziato, non un testo sostitutivo già sottoscritto del TU 2014."
+}

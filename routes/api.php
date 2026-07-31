@@ -14,6 +14,7 @@ use App\Controllers\Api\EmailController;
 use App\Controllers\Api\FundController;
 use App\Controllers\Api\GdprConsentController;
 use App\Controllers\Api\HostingDocumentController;
+use App\Controllers\Api\NormativaController;
 use App\Controllers\Api\ProfileController;
 use App\Controllers\Api\PracticeController;
 use App\Controllers\Api\ProtocolController;
@@ -40,6 +41,7 @@ $documentVerification = new DocumentVerificationController($app);
 $emails = new EmailController($app);
 $funds = new FundController($app);
 $hostingDocuments = new HostingDocumentController($app);
+$normativa = new NormativaController($app);
 $profile = new ProfileController($app);
 $practices = new PracticeController($app);
 $protocol = new ProtocolController($app);
@@ -114,6 +116,9 @@ $app->router->patch('/api/v1/reminders/{id}', [$reminders, 'update']);
 $app->router->post('/api/v1/reminders/{id}/done', [$reminders, 'done']);
 $app->router->delete('/api/v1/reminders/{id}', [$reminders, 'destroy']);
 
+$app->router->get('/api/v1/normativa/file', [$normativa, 'show']);
+$app->router->post('/api/v1/normativa/file', [$normativa, 'update']);
+
 $app->router->get('/api/v1/documents', [$documents, 'index']);
 $app->router->get('/api/v1/public/documents', [$documents, 'publicIndex']);
 $app->router->get('/api/v1/documents/private', [$documents, 'privateIndex']);
@@ -159,6 +164,9 @@ $app->router->get('/api/v1/practices/assignees', [$practices, 'assignees']);
 $app->router->get('/api/v1/practices/{id}', [$practices, 'show']);
 $app->router->patch('/api/v1/practices/{id}', [$practices, 'update']);
 $app->router->post('/api/v1/practices/{id}/notes', [$practices, 'addNote']);
+$app->router->post('/api/v1/practices/{id}/ccnl-links', [$practices, 'addCcnlLink']);
+$app->router->get('/api/v1/practices/{id}/ccnl-links/{linkId}', [$practices, 'showCcnlLink']);
+$app->router->delete('/api/v1/practices/{id}/ccnl-links/{linkId}', [$practices, 'deleteCcnlLink']);
 $app->router->post('/api/v1/practice-links', [$practices, 'link']);
 $app->router->delete('/api/v1/practice-links', [$practices, 'unlink']);
 

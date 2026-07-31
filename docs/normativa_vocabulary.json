@@ -1,0 +1,5601 @@
+{
+  "version": "2026-07-31",
+  "description": "Vocabolario strutturato MyRSU per Normativa Rapida, pratiche e ricerca AI.",
+  "entries": [
+    {
+      "canonical": "RSU",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Rappresentanza Sindacale Unitaria",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "RSA",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Rappresentanza Sindacale Aziendale",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "RLS",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Rappresentante dei Lavoratori per la Sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "RLSA",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Rappresentante dei Lavoratori per la Sicurezza e l’Ambiente",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "OO.SS.",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Organizzazioni sindacali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "organizzazione sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "delega sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trattenuta sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "monte ore sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "permesso sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "assemblea sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "diritto di affissione",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "bacheca sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "esame congiunto",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "confronto sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "informazione preventiva",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "consultazione preventiva",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accordo aziendale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accordo di secondo livello",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "contrattazione aziendale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "piattaforma rivendicativa",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "verbale di incontro",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "verbale di accordo",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "verbale di mancato accordo",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "procedura di raffreddamento",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "conciliazione",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rappresentatività sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "testo unico sulla rappresentanza",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Protocollo 23 luglio 1993",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Accordo interconfederale 28 giugno 2011",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Protocollo 31 maggio 2013",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Testo Unico Rappresentanza 10 gennaio 2014",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Accordo metalmeccanici 5 luglio 2017",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "legittimazione interna della RSU",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trasparenza sindacale",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rendicontazione RSU",
+      "variants": [],
+      "category": "Relazioni sindacali e rappresentanza",
+      "definition": "Termine di dominio: Relazioni sindacali e rappresentanza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "CCNL",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "CCNL Metalmeccanici Industria",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Federmeccanica",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Assistal",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "FIM-CISL",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "FIOM-CGIL",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "UILM-UIL",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "contratto collettivo nazionale",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rinnovo contrattuale",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "testo coordinato",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "testo consolidato",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "testo vigente",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "testo previgente",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accordo di rinnovo",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "decorrenza",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "scadenza contrattuale",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ultrattività",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "clausola di miglior favore",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "disciplina transitoria",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "norma transitoria",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "dichiarazione a verbale",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "nota a verbale",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rinvio contrattuale",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fonte primaria",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fonte secondaria",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "testo ufficiale",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "testo coordinato provvisorio",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "omissis",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "integrazione omissis",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "articolo modificato",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "articolo sostituito",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "articolo abrogato",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "articolo invariato",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "mappatura normativa",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "vigenza",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "data di efficacia",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "versione documentale",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "needs_review",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "source_page",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "source_date",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "source_version",
+      "variants": [],
+      "category": "Contratto e fonti normative",
+      "definition": "Termine di dominio: Contratto e fonti normative",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "retribuzione globale di fatto",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "retribuzione ordinaria",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "normale retribuzione",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "minimo tabellare",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "paga base",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "superminimo",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "superminimo assorbibile",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "superminimo non assorbibile",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "scatti di anzianità",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "aumenti periodici di anzianità",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "elemento distinto della retribuzione",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "EDR",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "elemento perequativo",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "premio di risultato",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "PDR",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "premio di produzione",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "premio aziendale",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "welfare contrattuale",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "flexible benefit",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "tredicesima mensilità",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "quattordicesima mensilità",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "mensilità aggiuntiva",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trattamento individuale di miglior favore",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "gratifica",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "arretrati",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "differenze retributive",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "conguaglio",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "acconto",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trattenuta",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "imponibile previdenziale",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "imponibile fiscale",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "netto in busta",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "divisore 173",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "retribuzione oraria",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "retribuzione mensile",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "retribuzione differita",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "TFR",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trattamento di fine rapporto",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "indennità sostitutiva del preavviso",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "indennità di mensa",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "maggiorazione",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "maggiorazione onnicomprensiva",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "compenso accidentale",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "compenso continuativo",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "compenso strutturale",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trattamento economico complessivo netto",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trattamento globale più favorevole",
+      "variants": [],
+      "category": "Retribuzione e busta paga",
+      "definition": "Termine di dominio: Retribuzione e busta paga",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "orario normale",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "orario giornaliero",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "orario settimanale",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lavoro a turni",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "turnista",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "primo turno",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "secondo turno",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "turno notturno",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "turno 22–6",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ciclo continuo",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "turnazione H24",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lavoro notturno",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lavoro festivo",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lavoro straordinario",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "straordinario notturno",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "straordinario festivo",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "straordinario notturno festivo",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "riposo compensativo",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "banca ore",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "conto ore individuale",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ore accantonate",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ore in scadenza",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "PAR",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "permessi annui retribuiti",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ROL",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "riduzione orario di lavoro",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ex festività",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fruizione collettiva",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fruizione individuale",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "programmazione collettiva",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "preavviso di 7 giorni",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "tasso di assenza contemporanea",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "soglia del 6%",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "soglia complessiva dell’11%",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "gruppi di 2 ore",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ferie",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "maturazione ferie",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fruizione ferie",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ferie collettive",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ferie residue",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "retribuzione ferie",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "maggiorazione notturna media",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "orario plurisettimanale",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "flessibilità oraria",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "reperibilità",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "chiamata",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "intervento da remoto",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "riposo giornaliero",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "riposo settimanale",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "quote esenti di straordinario",
+      "variants": [],
+      "category": "Orario, turni, ferie e permessi",
+      "definition": "Termine di dominio: Orario, turni, ferie e permessi",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello di inquadramento",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "mansione",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "mansione effettiva",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "mansione prevalente",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "mansione promiscua",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "professionalità",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "declaratoria",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "profilo professionale",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello D1",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello D2",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello C1",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello C2",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello C3",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello B1",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello B2",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello B3",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "livello A1",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "QEQ",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "equivalenza professionale",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "demansionamento",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "adibizione a mansioni superiori",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "riconoscimento del livello",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "anzianità aziendale",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "anzianità di servizio",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "continuità lavorativa",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "passaggio di livello",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "superminimo sostitutivo",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "assunzione diretta",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "somministrazione",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "appalto",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cooperativa",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "interposizione illecita",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "eterodirezione",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "inserimento stabile nell’organizzazione aziendale",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lavoro a tempo indeterminato",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "part-time",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trasformazione a tempo parziale",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "apprendistato",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "periodo di prova",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trasferimento",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cambio mansione",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cambio reparto",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trattamento personale acquisito",
+      "variants": [],
+      "category": "Inquadramento e rapporto di lavoro",
+      "definition": "Termine di dominio: Inquadramento e rapporto di lavoro",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "codice disciplinare",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "contestazione disciplinare",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "addebito disciplinare",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "giustificazioni",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "termine di 5 giorni",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "assistenza sindacale",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "richiamo verbale",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ammonizione scritta",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "multa",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sospensione disciplinare",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "licenziamento per mancanze",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "licenziamento disciplinare",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sospensione cautelare",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "recidiva",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "proporzionalità della sanzione",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "tempestività della contestazione",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "specificità della contestazione",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "immutabilità della contestazione",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "precedenti disciplinari",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "biennio disciplinare",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "impugnazione della sanzione",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "dimissioni",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "licenziamento",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "preavviso",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "comporto",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "superamento del comporto",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "conservazione del posto",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "aspettativa non retribuita",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "risoluzione del rapporto",
+      "variants": [],
+      "category": "Disciplina e cessazione",
+      "definition": "Termine di dominio: Disciplina e cessazione",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "D.Lgs. 81/2008",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Testo Unico Sicurezza",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "D.L. 146/2021",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Legge 215/2021",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "datore di lavoro",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "dirigente",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "preposto",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "individuazione del preposto",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "obbligo di vigilanza",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "interruzione dell’attività",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "RSPP",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ASPP",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "medico competente",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sorveglianza sanitaria",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "giudizio di idoneità",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "idoneità con prescrizioni",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "idoneità con limitazioni",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "inidoneità temporanea",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "inidoneità permanente",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "DVR",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "DUVRI",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "POS",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "valutazione dei rischi",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "aggiornamento DVR",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "riunione periodica",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "art. 35 D.Lgs. 81/2008",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accesso del RLS",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "consultazione del RLS",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "consegna del DVR",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "segreto industriale",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cartella sanitaria e di rischio",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "protocollo sanitario",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "formazione generale",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "formazione specifica",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "aggiornamento sicurezza",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "addestramento",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "formazione preposti",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "formazione dirigenti",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "formazione datore di lavoro",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "informazione ai lavoratori",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "DPI",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "DPC",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "dispositivo di protezione individuale",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "dispositivo di protezione collettiva",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "procedura operativa",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "istruzione di lavoro",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "permesso di lavoro",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "LOTO",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lockout/tagout",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "blocco delle energie",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "messa in sicurezza",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "emergenza",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "evacuazione",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "primo soccorso",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "antincendio",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "registro antincendio",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "manutenzione impianti antincendio",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "preallarme",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "allarme",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "prova di evacuazione",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "near miss",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "quasi infortunio",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "incidente",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "infortunio",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "indice di frequenza",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "indice di gravità",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "azione correttiva",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "azione preventiva",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "non conformità",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "audit di sicurezza",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sopralluogo",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "segnalazione RLS",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rischio residuo",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rischio interferenziale",
+      "variants": [],
+      "category": "Salute e sicurezza",
+      "definition": "Termine di dominio: Salute e sicurezza",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rischio meccanico",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rischio elettrico",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rischio termico",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "microclima",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "stress termico",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rumore",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "vibrazioni",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "vibrazioni mano-braccio",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "vibrazioni corpo intero",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "movimentazione manuale dei carichi",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "MMC",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sovraccarico biomeccanico",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "movimenti ripetitivi",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "posture incongrue",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rischio chimico",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "polveri",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "polveri di alluminio",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "polveri metalliche",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fumi metallici",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "nebbie oleose",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sostanze pericolose",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "SDS",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "scheda dati di sicurezza",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cancerogeni",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "mutageni",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "registro esposti",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "atmosfere esplosive",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ATEX",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "elettricità statica",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sorgenti di innesco",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "aspirazione localizzata",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ventilazione",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "confinamento",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "incendio",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "esplosione",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "contatto con metallo fuso",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "proiezione di materiale",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ustione",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "schiacciamento",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cesoiamento",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trascinamento",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "intrappolamento",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "caduta dall’alto",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "caduta a livello",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "investimento da carrello",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "viabilità interna",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "interferenza uomo-mezzo",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "radiazioni ottiche artificiali",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "valori limite di esposizione",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "illuminazione",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rischio organizzativo",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "carico di lavoro",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ritmi di lavoro",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "carenza di organico",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "straordinario strutturale",
+      "variants": [],
+      "category": "Rischi specifici",
+      "definition": "Termine di dominio: Rischi specifici",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "INAIL",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "PAT",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "voce di tariffa",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "premio assicurativo",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "denuncia di infortunio",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "comunicazione di infortunio",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "certificato medico",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "certificato definitivo",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "guarigione clinica",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "inabilità temporanea assoluta",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ITA",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "danno biologico",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "menomazione permanente",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "indennizzo in capitale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rendita INAIL",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "malattia professionale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "tecnopatia",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "malattia tabellata",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "malattia non tabellata",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "nesso causale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "nesso concausale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "esposizione professionale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rischio lavorativo",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "anamnesi lavorativa",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "denuncia di malattia professionale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "certificato di malattia professionale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "istruttoria INAIL",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "visita medico-legale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "riconoscimento INAIL",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rigetto INAIL",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "opposizione amministrativa",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "collegiale medica",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ricorso giudiziario",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "integrazione aziendale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "anticipazione aziendale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "conguaglio INAIL",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trattamento assicurativo",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "conservazione del posto",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "capacità lavorativa residua",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "reinserimento lavorativo",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accomodamento ragionevole",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cambio mansione per motivi sanitari",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "azione di regresso",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "danno differenziale",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Cruscotto infortuni",
+      "variants": [],
+      "category": "Infortuni e malattie professionali",
+      "definition": "Termine di dominio: Infortuni e malattie professionali",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pressofusione alluminio",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "reparto pressofusione",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "isola di pressofusione",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "isole TOSCA",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pressa di pressofusione",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pressa oleodinamica",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "forno fusorio",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "forno di attesa",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "forno di transito",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "metallo fuso",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "benna per metallo fuso",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "crogiolo",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "siviera",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "caricamento forno",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "scarico forno",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pulizia forno",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rifusione",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "matarozza",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "scarto di pressofusione",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "tranciatura",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "tranciatura lamierini",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lamierino magnetico",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pressa di tranciatura",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "linea automatica",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "linea a catena",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "catena di montaggio",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "impaccaggio rotori",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rotore",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pressofusione rotori",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sabbiatura",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sabbiatrice a grappolo",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "grappolo",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "turbina",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "graniglia",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "graniglia stainless steel 0.40",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "aspiratore Donaldson",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "filtro Donaldson",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "valvola a stella",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "tramoggia",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "contenitore polveri",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "big bag",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "polveri abrasive",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "bave di alluminio",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "residuo di sabbiatura",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "CER 12.10.17",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "rifiuto speciale",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "umidità nelle polveri",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "acqua nel contenitore polveri",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "carrello elevatore",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "muletto elettrico",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "trasporto metallo fuso",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "logistica interna",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "manutenzione",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "uffici",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "reparto forni",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fornista",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "operatore sabbiatura",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "addetto presse",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "addetto tranciatura",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "capoturno",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "responsabile di reparto",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cambio formato",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "attrezzaggio",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "avviamento impianto",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fermata impianto",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pulizia tecnica",
+      "variants": [],
+      "category": "Reparti, impianti e lavorazioni SITEM",
+      "definition": "Termine di dominio: Reparti, impianti e lavorazioni SITEM",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "MetApprendo",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "formazione continua",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "formazione obbligatoria",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "dossier formativo",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fabbisogno formativo",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "piano formativo",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "24 ore di formazione",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "triennio contrattuale",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "adesione aziendale",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "registrazione lavoratore",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "aggiornamento dossier",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "versamento contributivo",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lavoratore eleggibile",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lavoratore escluso",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "criterio di esclusione",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "corso attrezzature",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "carrello elevatore",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "gru",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "PLE",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ATEX",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "qualità",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "tempi e metodi",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "informatica di base",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "soft skills",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "manutenzione impianti",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "formazione di reparto",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "break formativo",
+      "variants": [],
+      "category": "Formazione e MetApprendo",
+      "definition": "Termine di dominio: Formazione e MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pratica collettiva",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pratica personale",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pratica personale riservata",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ambito pratica",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "categoria pratica",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "stato pratica",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pratica aperta",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pratica in istruttoria",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pratica sospesa",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pratica chiusa",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "pratica archiviata",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "priorità",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "referente",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "controparte",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "lavoratore interessato",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "reparto interessato",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "documenti allegati",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "fonte normativa",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "articolo collegato",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "cronologia",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "aggiornamento pratica",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "nota interna",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "nota riservata",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "attività",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "scadenza",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "promemoria",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "richiesta documentale",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "risposta aziendale",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "mancata risposta",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "sollecito",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "verbale allegato",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "busta paga allegata",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "anonimizzazione",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "dato sanitario",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "dato sensibile",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accesso admin",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accesso RSU",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accesso RLS",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Normativa Rapida",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ricerca testuale",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ricerca AI",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "macroarea",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "microarea",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "capitolo",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "argomento",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "articolo",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "collegamento norma-pratica",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "documento ufficiale",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "documento aziendale",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "documento sindacale",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "Conviene aggiungere anche un dizionario di normalizzazione:",
+      "variants": [],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Termine di dominio: Gestione delle pratiche in MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "RSU",
+      "variants": [
+        "rsu",
+        "Rsu",
+        "RSU"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: RSU",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "RLS",
+      "variants": [
+        "rls",
+        "Rls",
+        "RLS"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: RLS",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "RSPP",
+      "variants": [
+        "rspp",
+        "RSPP"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: RSPP",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "CCNL",
+      "variants": [
+        "ccnl",
+        "CCNL"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: CCNL",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "PDR",
+      "variants": [
+        "pdr",
+        "PdR",
+        "P.D.R."
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: PDR",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "PAR",
+      "variants": [
+        "par",
+        "PAR",
+        "permessi annui"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: PAR",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "ROL",
+      "variants": [
+        "rol",
+        "ROL"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: ROL",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "INAIL",
+      "variants": [
+        "inail",
+        "INAIL"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: INAIL",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "DVR",
+      "variants": [
+        "dvr",
+        "DVR"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: DVR",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "DUVRI",
+      "variants": [
+        "duvri",
+        "DUVRI"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: DUVRI",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "ATEX",
+      "variants": [
+        "atex",
+        "ATEX"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: ATEX",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "quasi infortunio",
+      "variants": [
+        "near miss",
+        "near-miss",
+        "quasi infortunio"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: quasi infortunio",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "termini collegati, non sostituzione cieca",
+      "variants": [
+        "malattia professionale",
+        "tecnopatia"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: termini collegati, non sostituzione cieca",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "D.Lgs. 81/2008",
+      "variants": [
+        "81",
+        "98",
+        "81",
+        "08",
+        "dlgs 81",
+        "D.Lgs.81",
+        "2008"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: D.Lgs. 81/2008",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "verificare e proporre Legge 17 dicembre 2021, n. 215",
+      "variants": [
+        "legge 215",
+        "DL 215",
+        "decreto 215"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: verificare e proporre Legge 17 dicembre 2021, n. 215",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "D.L. 21 ottobre 2021, n. 146",
+      "variants": [
+        "146",
+        "21",
+        "DL 146"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: D.L. 21 ottobre 2021, n. 146",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "quattordicesima mensilità",
+      "variants": [
+        "14°",
+        "14ª",
+        "quattordicesima"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: quattordicesima mensilità",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "tredicesima mensilità",
+      "variants": [
+        "13°",
+        "13ª",
+        "tredicesima"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: tredicesima mensilità",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "Banca ore",
+      "variants": [
+        "bancaore",
+        "banca ore"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: Banca ore",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "Conto ore",
+      "variants": [
+        "contoore",
+        "conto ore"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: Conto ore",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "superminimo",
+      "variants": [
+        "super minimo"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: superminimo",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "non assorbibile",
+      "variants": [
+        "nn assorbibile"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: non assorbibile",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "matarozze",
+      "variants": [
+        "matarozze",
+        "materozze"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: matarozze",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "addetto ai forni / fornista",
+      "variants": [
+        "fornista",
+        "fornisti"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: addetto ai forni / fornista",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "isole TOSCA",
+      "variants": [
+        "Tosca",
+        "TOSCA"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: isole TOSCA",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "Donaldson",
+      "variants": [
+        "Donaldson",
+        "donalson",
+        "donaldson"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: Donaldson",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "MetApprendo",
+      "variants": [
+        "Metapprendo",
+        "MetApprendo",
+        "meta apprendo"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: MetApprendo",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "MyRSU",
+      "variants": [
+        "myrsu",
+        "MyRsu",
+        "MYRSU"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: MyRSU",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "mantenere distinti i due ruoli",
+      "variants": [
+        "preposto",
+        "RLS"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: mantenere distinti i due ruoli",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "non considerarli sinonimi",
+      "variants": [
+        "PAT e MAT"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Normalizzazione controllata: non considerarli sinonimi",
+      "synonyms": [],
+      "links": [],
+      "type": "normalization"
+    },
+    {
+      "canonical": "zona ATEX 21",
+      "variants": [
+        "zona atex 21",
+        "atex 21",
+        "zona 21",
+        "area atex 21"
+      ],
+      "category": "Rischi specifici",
+      "definition": "Area con possibile presenza di atmosfera esplosiva sotto forma di nube di polvere combustibile in aria durante il normale funzionamento occasionalmente.",
+      "synonyms": [
+        "ATEX",
+        "atmosfere esplosive",
+        "polveri combustibili",
+        "rischio esplosione",
+        "sorgenti di innesco"
+      ],
+      "links": [
+        "D.Lgs. 81/2008",
+        "rischio chimico",
+        "incendio",
+        "esplosione"
+      ],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "accortezze operative ATEX",
+      "variants": [
+        "accortezze atex",
+        "precauzioni atex",
+        "attenzioni atex"
+      ],
+      "category": "Rischi specifici",
+      "definition": "Misure operative e comportamentali per ridurre il rischio di innesco o esplosione in area classificata ATEX.",
+      "synonyms": [
+        "procedura operativa",
+        "istruzione di lavoro",
+        "messa in sicurezza",
+        "sorgenti di innesco",
+        "manutenzione",
+        "pulizia tecnica"
+      ],
+      "links": [
+        "zona ATEX 21",
+        "DPI",
+        "DPC",
+        "rischio esplosione"
+      ],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ISO 45001",
+      "variants": [
+        "iso45001",
+        "iso 45001",
+        "sistema gestione sicurezza",
+        "sistema gestione ssl"
+      ],
+      "category": "Salute e sicurezza",
+      "definition": "Norma ISO per sistemi di gestione salute e sicurezza sul lavoro.",
+      "synonyms": [
+        "sistema di gestione sicurezza",
+        "SSL",
+        "OH&S",
+        "audit sicurezza",
+        "non conformit?",
+        "azione correttiva"
+      ],
+      "links": [
+        "D.Lgs. 81/2008",
+        "DVR",
+        "RLS",
+        "preposto"
+      ],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "ISO 14001",
+      "variants": [
+        "iso14001",
+        "iso 14001",
+        "sistema gestione ambientale",
+        "sga"
+      ],
+      "category": "Rischi specifici",
+      "definition": "Norma ISO per sistemi di gestione ambientale.",
+      "synonyms": [
+        "ambiente",
+        "aspetti ambientali",
+        "impatti ambientali",
+        "audit ambientale",
+        "non conformit? ambientale"
+      ],
+      "links": [
+        "rifiuti",
+        "emissioni",
+        "sostanze pericolose",
+        "ISO 45001"
+      ],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "audit sicurezza",
+      "variants": [
+        "audit ssl",
+        "verifica sicurezza",
+        "audit 45001"
+      ],
+      "category": "Salute e sicurezza",
+      "definition": "Verifica sistematica del sistema di gestione salute e sicurezza.",
+      "synonyms": [
+        "audit",
+        "ispezione interna",
+        "non conformit?",
+        "azione correttiva"
+      ],
+      "links": [
+        "ISO 45001",
+        "RLS",
+        "DVR"
+      ],
+      "type": "domain_term"
+    },
+    {
+      "canonical": "non conformit?",
+      "variants": [
+        "non conformita",
+        "nc",
+        "non conformit? sicurezza",
+        "non conformit? ambientale"
+      ],
+      "category": "Gestione delle pratiche in MyRSU",
+      "definition": "Scostamento da requisito, procedura o obbligo applicabile.",
+      "synonyms": [
+        "anomalia",
+        "rilievo audit",
+        "azione correttiva"
+      ],
+      "links": [
+        "ISO 45001",
+        "ISO 14001",
+        "miglioramento continuo"
+      ],
+      "type": "domain_term"
+    }
+  ]
+}

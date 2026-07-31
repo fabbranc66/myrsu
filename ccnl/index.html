@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Normativa Rapida</title>
+  <link rel="stylesheet" href="ccnl.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <h1>Normativa Rapida</h1>
+      <p>Ricerca semplice nei testi disponibili.</p>
+    </header>
+
+    <section class="search-panel">
+      <label>Ambito
+        <select id="scope">
+          <option value="all">Tutte le normative</option>
+          <option value="ccnl">CCNL Metalmeccanici</option>
+          <option value="representation">Testo Unico Rappresentanza</option>
+          <option value="safety">Sicurezza 81/08</option>
+        </select>
+      </label>
+      <label>Ricerca
+        <input id="query" type="search" placeholder="Es. permessi, elezioni, sicurezza">
+      </label>
+      <button id="resetVocabulary" type="button">Reset termini</button>
+      <button id="clear" type="button">Pulisci</button>
+    </section>
+
+    <section id="codexPanel" class="codex-panel hidden">
+      <h2>Domanda Codex</h2>
+      <form id="codexQuestionForm">
+        <label>Domanda
+          <textarea name="question" rows="3" placeholder="Es. Il RLS può chiedere copia del DVR?"></textarea>
+        </label>
+        <button type="submit">Cerca risposta</button>
+      </form>
+      <div id="codexAnswer"></div>
+    </section>
+
+    <section id="results" class="results"></section>
+    <dialog id="modal">
+      <header><h2 id="modalTitle"></h2><button id="close" type="button">Chiudi</button></header>
+      <article id="modalBody"></article>
+    </dialog>
+  </main>
+  <script src="../myrsu/ui/normativa-vocabulary.js?v=20260731-normativa-2"></script>
+  <script src="ccnl.js?v=20260731-normativa-2"></script>
+</body>
+</html>

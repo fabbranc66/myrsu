@@ -1,0 +1,537 @@
+{
+  "status": "FASE_1_ANALISI_INIZIALE",
+  "sources": {
+    "base_2021": "01_CCNL_05-02-2021_COMPLETO_288p.pdf",
+    "renewal_2025": "02_RINNOVO_22-11-2025_FIRMATO_51p.pdf",
+    "uilm_2026": "08_UILM_20260616_IPCA_MINIMI_TRASFERTA_REPERIBILITA.pdf"
+  },
+  "changes_2025": [
+    {
+      "materia": "Trattamento economico - minimi",
+      "fonte_2025": "2025 p. 2",
+      "raccordo_2021": "2021: Titolo IV / tabelle minimi, ca. pp. 186-187",
+      "effetto": "Nuovi valori 1/6/2026, 1/6/2027, 1/6/2028"
+    },
+    {
+      "materia": "Distribuzione del contratto",
+      "fonte_2025": "2025 p. 4",
+      "raccordo_2021": "2021 p. PDF 47 / pag. contr. 43",
+      "effetto": "Distribuzione ottobre-dicembre 2026"
+    },
+    {
+      "materia": "Campo di applicazione",
+      "fonte_2025": "2025 pp. 6-10",
+      "raccordo_2021": "2021: Sezione Prima - campo di applicazione",
+      "effetto": "Estensioni incl. fotovoltaico, Facility Management Tecnologico, ESCO"
+    },
+    {
+      "materia": "Osservatorio / partecipazione",
+      "fonte_2025": "2025 pp. 10-12",
+      "raccordo_2021": "2021: Sezione Prima",
+      "effetto": "Aggiornamenti a osservatori e comitato consultivo"
+    },
+    {
+      "materia": "Salute e sicurezza - commissione nazionale",
+      "fonte_2025": "2025 pp. 13-14",
+      "raccordo_2021": "2021: Sezione Prima",
+      "effetto": "Gestione integrata, formazione, DPI innovativi; soppressioni visibili"
+    },
+    {
+      "materia": "Formazione professionale",
+      "fonte_2025": "2025 pp. 15-17",
+      "raccordo_2021": "2021: Sezione Prima, art. 6",
+      "effetto": "MetApprendo, AI, soglia commissione aziendale 500->300"
+    },
+    {
+      "materia": "Pari opportunita / molestie",
+      "fonte_2025": "2025 pp. 18-20",
+      "raccordo_2021": "2021: Sezione Prima, art. 7",
+      "effetto": "Nuovi compiti, certificazione di genere, iniziative formative"
+    },
+    {
+      "materia": "Informazioni aziendali",
+      "fonte_2025": "2025 pp. 21-23",
+      "raccordo_2021": "2021: Sezione Prima",
+      "effetto": "Rafforzate informative, dati retributivi/occupazionali, schema standard"
+    },
+    {
+      "materia": "Contributi/deleghe sindacali",
+      "fonte_2025": "2025 pp. 24-25",
+      "raccordo_2021": "2021: Sezione Seconda",
+      "effetto": "Nuove modalita informative e periodicita"
+    },
+    {
+      "materia": "Appalti e cambio appalto",
+      "fonte_2025": "2025 pp. 26-28",
+      "raccordo_2021": "2021: disciplina appalti",
+      "effetto": "Informativa >400 dip., cambio appalto e tutele"
+    },
+    {
+      "materia": "Tempo determinato",
+      "fonte_2025": "2025 p. 29",
+      "raccordo_2021": "2021: Sez. IV Titolo I, pp. PDF 53-56 circa",
+      "effetto": "Nuove causali, stabilizzazione 20% dal 2027, durata 24 mesi"
+    },
+    {
+      "materia": "Somministrazione / stabilizzazione",
+      "fonte_2025": "2025 p. 30",
+      "raccordo_2021": "2021: Sez. IV Titolo I, pp. PDF 55-60 circa",
+      "effetto": "Nuova lett. D: >48 mesi dal 1/1/2026, escluso pregresso fino 31/12/2025"
+    },
+    {
+      "materia": "Mansioni superiori",
+      "fonte_2025": "2025 p. 31",
+      "raccordo_2021": "2021 p. PDF 84 / pag. contr. 80",
+      "effetto": "60/120 giorni e 4 mesi per livelli B1-B3-A1"
+    },
+    {
+      "materia": "Orario plurisettimanale",
+      "fonte_2025": "2025 p. 32",
+      "raccordo_2021": "2021 pp. PDF 151-154",
+      "effetto": "Nuovi massimali combinati e maggiorazione dall'81a ora"
+    },
+    {
+      "materia": "PAR / turnisti / permessi",
+      "fonte_2025": "2025 pp. 33-34",
+      "raccordo_2021": "2021 pp. PDF 155-157 circa",
+      "effetto": "4h aggiuntive dal 2027/2028; nuove regole fruizione e conto ore"
+    },
+    {
+      "materia": "Straordinario",
+      "fonte_2025": "2025 p. 35",
+      "raccordo_2021": "2021 p. PDF 160 e seguenti",
+      "effetto": "Quote esenti per aree aziendali e nuovi massimali"
+    },
+    {
+      "materia": "Ferie / permessi specifici",
+      "fonte_2025": "2025 p. 36",
+      "raccordo_2021": "2021 p. PDF 165 e seguenti",
+      "effetto": "Integrazioni e raccordi; omissis da base 2021"
+    },
+    {
+      "materia": "Ambiente, salute e sicurezza",
+      "fonte_2025": "2025 pp. 37-39",
+      "raccordo_2021": "2021 p. PDF 192 e seguenti",
+      "effetto": "Post-incidente, break formativi, RLS, quasi infortuni"
+    },
+    {
+      "materia": "Malattia / disabilita / congedi",
+      "fonte_2025": "2025 pp. 40-41",
+      "raccordo_2021": "2021 pp. PDF 199-205",
+      "effetto": "Congedo fino 24 mesi in casi previsti; estensione comporto disabilita; malattia figli"
+    },
+    {
+      "materia": "Formazione continua / MetApprendo",
+      "fonte_2025": "2025 pp. 42-44",
+      "raccordo_2021": "2021: Titolo VI art. 7, pp. PDF 207+ circa",
+      "effetto": "24h, platea estesa, +4h al rientro, informativa annuale, contributo 1,50 euro"
+    },
+    {
+      "materia": "Doveri / inclusivita / molestie",
+      "fonte_2025": "2025 pp. 46-47",
+      "raccordo_2021": "2021: disciplina generale rapporto individuale",
+      "effetto": "Riscritture e nuove clausole inclusive"
+    },
+    {
+      "materia": "Apprendistato",
+      "fonte_2025": "2025 pp. 48-49",
+      "raccordo_2021": "2021 pp. PDF 274-279 circa",
+      "effetto": "Nuove percentuali e modalita retributive"
+    },
+    {
+      "materia": "Quota una tantum / allegati",
+      "fonte_2025": "2025 p. 50",
+      "raccordo_2021": "2021: Allegati",
+      "effetto": "Aggiornamento istruzioni contributive"
+    },
+    {
+      "materia": "Osservatorio - temi di approfondimento",
+      "fonte_2025": "2025 p. 51",
+      "raccordo_2021": "2021: Sezione Prima / osservatorio",
+      "effetto": "Tecnologie digitali, ferie aggiuntive, diritti sindacali"
+    }
+  ],
+  "omissis": [
+    {
+      "n": 1,
+      "p2025": 4,
+      "contesto": "Dopo Art. 6 - Distribuzione del Contratto",
+      "p2021": "47 (pag. contrattuale 43)",
+      "esito": "TROVATO",
+      "azione": "Mantenere dal 2021 tutto il raccordo non modificato dopo Art. 6; aggiornare solo decorrenza/distribuzione dove il 2025 interviene."
+    },
+    {
+      "n": 2,
+      "p2025": 29,
+      "contesto": "Tipologie contrattuali - prima di B) Stabilizzazione",
+      "p2021": "55-56 (Titolo I)",
+      "esito": "TROVATO",
+      "azione": "Ricostruire il testo invariato precedente alla stabilizzazione; applicare le modifiche 2025 a durata/causali senza eliminare le parti omesse."
+    },
+    {
+      "n": 3,
+      "p2025": 30,
+      "contesto": "Nota a verbale 05/02/2021 / passaggio a lavoro in somministrazione",
+      "p2021": "56 e seguenti",
+      "esito": "TROVATO - CON SOPPRESSIONE",
+      "azione": "La nota 05/02/2021 è rintracciata. Nel 2025 risulta barrata: non va mantenuta come testo vigente. Verificare contestualmente rinumerazione delle lettere."
+    },
+    {
+      "n": 4,
+      "p2025": 31,
+      "contesto": "Sez. Quarta - Titolo II, prima di Art. 3 Passaggio temporaneo di mansioni",
+      "p2021": "84 (pag. contrattuale 80)",
+      "esito": "TROVATO",
+      "azione": "Mantenere Art. 1, Art. 2 e raccordi non modificati; sostituire solo i passaggi dell'Art. 3 effettivamente modificati nel 2025."
+    },
+    {
+      "n": 5,
+      "p2025": 32,
+      "contesto": "Art. 5 - Orario di lavoro, prima di Orario plurisettimanale",
+      "p2021": "151-153 (pag. contrattuale 147-149)",
+      "esito": "TROVATO",
+      "azione": "Mantenere la disciplina generale dell'orario; coordinare le nuove quantità e procedure dell'orario plurisettimanale."
+    },
+    {
+      "n": 6,
+      "p2025": 35,
+      "contesto": "Dopo Conto ore / prima di Art. 7",
+      "p2021": "156-160 circa",
+      "esito": "TROVATO",
+      "azione": "Mantenere le parti intermedie non modificate. Integrare la nuova gestione temporale del Conto ore/PAR dove espressamente prevista."
+    },
+    {
+      "n": 7,
+      "p2025": 35,
+      "contesto": "Art. 7 - Lavoro straordinario, notturno e festivo",
+      "p2021": "160 e seguenti (pag. contrattuale 156+)",
+      "esito": "TROVATO",
+      "azione": "Conservare definizioni e disciplina non toccata; applicare esclusivamente le nuove quote/limiti/procedure evidenziate nel rinnovo."
+    },
+    {
+      "n": 8,
+      "p2025": 36,
+      "contesto": "Art. 10 - Ferie",
+      "p2021": "165 e seguenti (pag. contrattuale 161+)",
+      "esito": "TROVATO",
+      "azione": "Mantenere maturazione, anzianità e disciplina generale; inserire solo l'integrazione 2025 relativa ai lavoratori migranti e ogni altra modifica espressa."
+    },
+    {
+      "n": 9,
+      "p2025": 37,
+      "contesto": "Titolo V - Art. 1 Ambiente di lavoro - Salute e sicurezza",
+      "p2021": "192 e seguenti (pag. contrattuale 188+)",
+      "esito": "TROVATO",
+      "azione": "Mantenere il corpus sicurezza 2021; integrare break formativi, quasi infortuni, analisi post-incidente e nuovi obblighi 2025."
+    },
+    {
+      "n": 10,
+      "p2025": 40,
+      "contesto": "Titolo VI - Art. 2 Trattamento in caso di malattia",
+      "p2021": "199 e seguenti (pag. contrattuale 195+)",
+      "esito": "TROVATO",
+      "azione": "Mantenere comunicazione, certificazione, comporto e trattamento economico 2021 salvo modifiche; inserire i nuovi permessi/tutele dal 2026."
+    },
+    {
+      "n": 11,
+      "p2025": 40,
+      "contesto": "Art. 2 Malattia - dopo congedo/lavoro agile",
+      "p2021": "199-203",
+      "esito": "TROVATO PER RACCORDO",
+      "azione": "Il raccordo è interno all'Art. 2. Inserire le nuove previsioni 2025 senza sopprimere automaticamente il testo tra i blocchi."
+    },
+    {
+      "n": 12,
+      "p2025": 40,
+      "contesto": "Art. 2 Malattia - dopo estensione comporto per disabilità",
+      "p2021": "200-203",
+      "esito": "TROVATO PER STRUTTURA",
+      "azione": "La nuova tutela disabilità è aggiuntiva rispetto alla struttura 2021. Riprendere il testo successivo invariato fino all'articolo seguente."
+    },
+    {
+      "n": 13,
+      "p2025": 41,
+      "contesto": "Congedi parentali / malattia figli",
+      "p2021": "204 e seguenti (Art. 5 nel 2021)",
+      "esito": "TROVATO - NUMERAZIONE DA COORDINARE",
+      "azione": "Nel testo 2021 i Congedi parentali sono Art. 5 del Titolo VI; l'OCR 2025 legge Art. 9. Verificare visivamente la numerazione del rinnovo prima del consolidamento."
+    },
+    {
+      "n": 14,
+      "p2025": 48,
+      "contesto": "Apprendistato qualifica/diploma - prima di Art. 5 Inquadramento e Retribuzione",
+      "p2021": "274-275 (pag. contrattuale 270+)",
+      "esito": "TROVATO",
+      "azione": "Mantenere artt. precedenti non modificati; coordinare il nuovo riferimento di livello/retribuzione previsto dal rinnovo."
+    }
+  ],
+  "updates_2026": {
+    "reserve_release": {
+      "date": "2026-02-23",
+      "source": "FIM-CISL",
+      "note": "approvazione 93,13% e scioglimento riserva"
+    },
+    "minimum_wages_2026": {
+      "effective_from": "2026-06-01",
+      "C3_increase": "53,17",
+      "values": {
+        "D1": "1784,94",
+        "D2": "1979,37",
+        "C1": "2022,12",
+        "C2": "2064,88",
+        "C3": "2211,43",
+        "B1": "2370,33",
+        "B2": "2542,98",
+        "B3": "2838,99",
+        "A1": "2907,01"
+      }
+    },
+    "travel_on_call": "DA_VERIFICARE_DA_PDF_UILM_2026"
+  },
+  "open_issues": [
+    "PDF 2025 image-only",
+    "PDF UILM 2026 image-only",
+    "barrature da censire visivamente",
+    "omissis #13 numerazione da coordinare"
+  ],
+  "consolidated_blocks": [
+    {
+      "id": "CONS-01",
+      "title": "Blocco economico, trasferta e reperibilit? - luglio 2026",
+      "status": "UPDATED_2026",
+      "path": "docs/ccnl_work/consolidato/01_blocco_economico_trasferta_reperibilita_luglio_2026.md",
+      "sources": [
+        "CCNL 05-02-2021",
+        "Rinnovo 22-11-2025",
+        "Documento IPCA/minimi/trasferta/reperibilit? 16-06-2026"
+      ],
+      "notes": "Primo blocco consolidato controllato; non include welfare, PDR o altri istituti economici."
+    },
+    {
+      "id": "CONS-02",
+      "title": "Blocco welfare, flexible benefits e PDR - luglio 2026",
+      "status": "UPDATED_2026_PARTIAL",
+      "path": "docs/ccnl_work/consolidato/02_blocco_welfare_flexible_benefits_pdr_luglio_2026.md",
+      "sources": [
+        "CCNL 05-02-2021",
+        "Rinnovo 22-11-2025",
+        "FIM flexible benefits 2026"
+      ],
+      "notes": "Welfare aggiornato a 250 euro; disciplina PDR nazionale mantenuta come base 2021 salvo accordi aziendali."
+    },
+    {
+      "id": "CONS-03",
+      "title": "Blocco salute, sicurezza e RLS - luglio 2026",
+      "status": "MODIFIED_2025_PARTIAL",
+      "path": "docs/ccnl_work/consolidato/03_blocco_salute_sicurezza_rls_luglio_2026.md",
+      "sources": [
+        "CCNL 05-02-2021",
+        "Rinnovo 22-11-2025",
+        "Registro barrature 2025"
+      ],
+      "notes": "Recepite barrature verificate su Commissione nazionale salute e sicurezza; RLS mantenuto da testo 2021 salvo aggiornamenti espressi."
+    },
+    {
+      "id": "CONS-04",
+      "title": "Blocco tipologie contrattuali - luglio 2026",
+      "status": "MODIFIED_2025",
+      "path": "docs/ccnl_work/consolidato/04_blocco_tipologie_contrattuali_luglio_2026.md",
+      "sources": [
+        "CCNL 05-02-2021",
+        "Rinnovo 22-11-2025",
+        "Registro barrature 2025"
+      ],
+      "notes": "Recepita stabilizzazione termine/somministrazione oltre 48 mesi dal 1 gennaio 2026; soppressa soglia 44 mesi e nota 2021."
+    },
+    {
+      "id": "CONS-05",
+      "title": "Blocco formazione, MetApprendo e apprendistato - luglio 2026",
+      "status": "MODIFIED_2025",
+      "path": "docs/ccnl_work/consolidato/05_blocco_formazione_metapprendo_apprendistato_luglio_2026.md",
+      "sources": [
+        "CCNL 05-02-2021",
+        "Rinnovo 22-11-2025",
+        "Mappa integrazione 2021-2025"
+      ],
+      "notes": "Confermate 24 ore pro-capite per triennio; integrato riferimento MetApprendo dal 1 gennaio 2026; apprendistato mantenuto come struttura 2021."
+    },
+    {
+      "id": "CONS-06",
+      "title": "Blocco orario, PAR, conto ore e straordinario - luglio 2026",
+      "status": "MODIFIED_2025",
+      "path": "docs/ccnl_work/consolidato/06_blocco_orario_par_conto_ore_straordinario_luglio_2026.md",
+      "sources": [
+        "CCNL 05-02-2021",
+        "Rinnovo 22-11-2025",
+        "Mappa integrazione 2021-2025"
+      ],
+      "notes": "Recepite modifiche 2025 verificate visualmente su plurisettimanale, PAR, conto ore e quote esenti."
+    },
+    {
+      "id": "CONS-07",
+      "title": "Blocco malattia, infortunio, congedi e tutele - luglio 2026",
+      "status": "MODIFIED_2025",
+      "path": "docs/ccnl_work/consolidato/07_blocco_malattia_infortunio_congedi_tutele_luglio_2026.md",
+      "sources": [
+        "CCNL 05-02-2021",
+        "Rinnovo 22-11-2025",
+        "Registro barrature 2025"
+      ],
+      "notes": "Recepite nuove tutele 2026 per patologie oncologiche/invalidanti/croniche, disabilit? certificata e malattia figli."
+    },
+    {
+      "id": "CONS-08",
+      "title": "Classificazione, inquadramento e professionalit?",
+      "file": "docs/ccnl_work/consolidato/08_blocco_classificazione_inquadramento_professionalita_luglio_2026.md",
+      "status": "MODIFIED_2025",
+      "notes": "Integrati nuovi termini 2025 per mansioni superiori; confermata struttura 2021 del sistema di inquadramento."
+    },
+    {
+      "id": "CONS-09",
+      "title": "Ferie e permessi specifici",
+      "file": "docs/ccnl_work/consolidato/09_blocco_ferie_permessi_specifici_luglio_2026.md",
+      "status": "MODIFIED_2025",
+      "notes": "Integrata aspettativa non retribuita 2025 per lavoratori migranti; mantenuta disciplina generale ferie 2021."
+    },
+    {
+      "id": "CONS-10",
+      "title": "Pari opportunit?, inclusivit? e molestie",
+      "file": "docs/ccnl_work/consolidato/10_blocco_pari_opportunita_inclusivita_molestie_luglio_2026.md",
+      "status": "MODIFIED_2025",
+      "notes": "Integrate modifiche 2025 su commissioni, certificazione di genere, trasparenza salariale, inclusivit? e molestie."
+    },
+    {
+      "id": "CONS-11",
+      "title": "Informazione e consultazione aziendale",
+      "file": "docs/ccnl_work/consolidato/11_blocco_informazione_consultazione_aziendale_luglio_2026.md",
+      "status": "MODIFIED_2025",
+      "notes": "Integrati dati 2025 su informativa aziendale, lavoro agile, genere, consultazione, riservatezza e schema standard."
+    },
+    {
+      "id": "CONS-12",
+      "title": "Appalti e cambio appalto",
+      "file": "docs/ccnl_work/consolidato/12_blocco_appalti_cambio_appalto_luglio_2026.md",
+      "status": "MODIFIED_2025",
+      "notes": "Integrate modifiche 2025 su legalit? appalti, informativa >400 dipendenti, Osservatorio appalti e cambio appalto."
+    },
+    {
+      "id": "CONS-13",
+      "title": "Contributi e deleghe sindacali",
+      "file": "docs/ccnl_work/consolidato/13_blocco_contributi_deleghe_sindacali_luglio_2026.md",
+      "status": "MODIFIED_2025",
+      "notes": "Integrate regole 2025 su dati deleghe, circolare INPS 100/2024, elenco nominativo annuale e riscontro entro 30 giorni."
+    },
+    {
+      "id": "CONS-14",
+      "title": "Campo di applicazione, osservatorio e partecipazione",
+      "file": "docs/ccnl_work/consolidato/14_blocco_campo_applicazione_osservatorio_partecipazione_luglio_2026.md",
+      "status": "MODIFIED_2025",
+      "notes": "Integrate modifiche 2025 su perimetro CCNL, ATECO, Osservatorio e Comitato consultivo >600 dipendenti."
+    },
+    {
+      "id": "CONS-15",
+      "title": "Decorrenza, distribuzione, una tantum e commissioni finali",
+      "file": "docs/ccnl_work/consolidato/15_blocco_decorrenza_distribuzione_una_tantum_commissioni_luglio_2026.md",
+      "status": "MODIFIED_2025",
+      "notes": "Integrate decorrenza 2025-2028, distribuzione contratto, quota una tantum e commissioni finali."
+    },
+    {
+      "id": "CONS-16",
+      "title": "Sospensioni, CIG e provvedimenti disciplinari",
+      "file": "docs/ccnl_work/consolidato/16_blocco_sospensioni_cig_provvedimenti_disciplinari_luglio_2026.md",
+      "status": "UNCHANGED_2021",
+      "notes": "Blocco ricostruito da testo 2021 per rendere ricercabili sospensioni attivit?, CIG, sospensioni disciplinari e cautelari."
+    },
+    {
+      "id": "CONS-17",
+      "title": "Mappatura completa articoli CCNL 2021-2025-2026",
+      "file": "docs/ccnl_work/consolidato/17_MAPPATURA_COMPLETA_ARTICOLI_CCNL_2021_2025_2026.md",
+      "status": "COMPLETE_MAP",
+      "notes": "Censite 158 voci da indice generale CCNL 2021 con primo collegamento ai blocchi consolidati."
+    },
+    {
+      "id": "FULL-2021",
+      "title": "Testo completo CCNL 2021 ricercabile",
+      "file": "docs/ccnl_work/processed/ccnl_2021_testo_completo_ricercabile.md",
+      "status": "SEARCHABLE_SOURCE",
+      "notes": "Testo base completo usato per ricerca e recupero delle parti non ancora consolidate articolo per articolo."
+    },
+    {
+      "id": "CONS-18",
+      "title": "Diritti sindacali, assemblea, affissione e permessi RSU",
+      "file": "docs/ccnl_work/consolidato/18_blocco_diritti_sindacali_assemblea_permessi_rsu_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-19",
+      "title": "Assunzione, periodo di prova, documenti, trasferimenti e modifiche rapporto",
+      "file": "docs/ccnl_work/consolidato/19_blocco_assunzione_prova_documenti_trasferimenti_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-20",
+      "title": "Retribuzione, mensilizzazione, scatti e indennit?",
+      "file": "docs/ccnl_work/consolidato/20_blocco_retribuzione_mensilizzazione_scatti_indennita_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-21",
+      "title": "Previdenza complementare, sanit? integrativa, welfare ed elemento perequativo",
+      "file": "docs/ccnl_work/consolidato/21_blocco_previdenza_sanita_welfare_elemento_perequativo_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-22",
+      "title": "Assenze, permessi, studio, aspettative e tutele personali",
+      "file": "docs/ccnl_work/consolidato/22_blocco_assenze_permessi_studio_aspettative_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-23",
+      "title": "Rapporti in azienda, reclami, privacy e controlli",
+      "file": "docs/ccnl_work/consolidato/23_blocco_rapporti_azienda_reclami_privacy_controlli_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-24",
+      "title": "Risoluzione rapporto, preavviso, TFR e documenti finali",
+      "file": "docs/ccnl_work/consolidato/24_blocco_risoluzione_rapporto_preavviso_tfr_documenti_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-25",
+      "title": "Banca ore solidale, PAR e ferie residue",
+      "file": "docs/ccnl_work/consolidato/25_blocco_banca_ore_solidale_par_ferie_residue_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-26",
+      "title": "Mansioni discontinue e specificit? siderurgiche",
+      "file": "docs/ccnl_work/consolidato/26_blocco_siderurgia_mansioni_discontinue_squadre_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-27",
+      "title": "Allegati RSU, RLS, PDR, agibilit? sindacali e scioperi",
+      "file": "docs/ccnl_work/consolidato/27_blocco_allegati_rsu_rls_pdr_scioperi_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    },
+    {
+      "id": "CONS-28",
+      "title": "Apprendistato completo",
+      "file": "docs/ccnl_work/consolidato/28_blocco_apprendistato_completo_luglio_2026.md",
+      "status": "COMPLETE_2021",
+      "notes": "Blocco tematico creato per copertura completa del CCNL 2021."
+    }
+  ]
+}

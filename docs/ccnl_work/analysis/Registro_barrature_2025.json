@@ -1,0 +1,351 @@
+{
+  "status": "fase_1b_verifica_visiva_parziale_completata",
+  "source": "02_RINNOVO_22-11-2025_FIRMATO_51p.pdf",
+  "note": "PDF 2025 image-only: verifiche eseguite su render PNG ad alta risoluzione delle pagine critiche.",
+  "items": [
+    {
+      "page_2025": 13,
+      "article_area": "Art. 4 - Commissione nazionale salute e sicurezza",
+      "type": "barratura",
+      "effect": "testo eliminato/sostituito",
+      "summary": "Eliminato il riferimento alla predisposizione iniziale della banca dati; resta l'aggiornamento della banca dati salute/sicurezza.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 13,
+      "article_area": "Art. 4 - Commissione nazionale salute e sicurezza",
+      "type": "barratura",
+      "effect": "testo eliminato",
+      "summary": "Eliminato il blocco esemplificativo su Root Cause Analysis; introdotti/rafforzati riferimenti a gestione integrata sicurezza, fondi interprofessionali, DPI innovativi, norme UNI e quasi infortuni.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 14,
+      "article_area": "Art. 4 - Commissione nazionale salute e sicurezza",
+      "type": "barratura",
+      "effect": "testo eliminato/sostituito",
+      "summary": "Eliminata formulazione precedente sul Vademecum; resta il richiamo al Vademecum contrattuale messo a punto nel 2023.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 14,
+      "article_area": "Art. 4 - Commissione nazionale salute e sicurezza",
+      "type": "barratura",
+      "effect": "testo eliminato",
+      "summary": "Eliminato il riferimento specifico a direttiva distacco e trasferte in luoghi disagiati/pericolosi nel blocco finale verificato.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 30,
+      "article_area": "Tipologie contrattuali - somministrazione/stabilizzazione",
+      "type": "barratura",
+      "effect": "testo eliminato",
+      "summary": "Eliminato il precedente blocco su stabilizzazione oltre 44 mesi e la nota a verbale del 5 febbraio 2021.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 30,
+      "article_area": "Tipologie contrattuali - somministrazione/stabilizzazione",
+      "type": "nuovo_testo",
+      "effect": "testo aggiunto",
+      "summary": "Inserita nuova disciplina D) Stabilizzazione a tempo indeterminato del rapporto di lavoro: soglia oltre 48 mesi dal 1 gennaio 2026, con esclusione dei periodi fino al 31 dicembre 2025.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 32,
+      "article_area": "Orario - plurisettimanale",
+      "type": "barratura/nuovo_testo",
+      "effect": "valori aggiornati",
+      "summary": "Massimo annuo orario plurisettimanale da 80 a 96 ore; tetto combinato con quote esenti da 120/128 a 128/136 ore; maggiorazione +8% dalla 81? ora.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 33,
+      "article_area": "Orario - PAR turnisti",
+      "type": "barratura/nuovo_testo",
+      "effect": "permessi aggiuntivi turnazioni",
+      "summary": "Per 15+ turni resta turno notturno; aggiunti 4 ore dal 2027 per 18+ turni notturni e 4 ore dal 2028 per 21+ turni notturni non siderurgici.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 33,
+      "article_area": "Orario - PAR collettivi/individuali",
+      "type": "barratura/nuovo_testo",
+      "effect": "limiti e preavvisi aggiornati",
+      "summary": "Quota PAR collettivi da 5 a 7; preavviso individuale da 10 a 7 giorni; assenza contemporanea 6%; rotazione fino a 11%; previo esame urgente ridotto a 3 giorni.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 34,
+      "article_area": "Orario - Conto ore",
+      "type": "nuovo_testo",
+      "effect": "programmazione ore in scadenza",
+      "summary": "Entro primo trimestre del secondo anno l?azienda pu? chiedere programmazione entro 30 giugno; riscontro entro 15 giorni; in mancanza programma il datore nei 6 mesi residui.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 35,
+      "article_area": "Orario - straordinario quote esenti",
+      "type": "barratura/nuovo_testo",
+      "effect": "quote esenti aggiornate",
+      "summary": "Straordinario disponibile per aree aziendali; eliminato riferimento a produzione; tetto combinato 128/136 ore; comunicazione quadrimestrale senza aggettivo produttivo.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 40,
+      "article_area": "Malattia - patologie oncologiche, invalidanti o croniche",
+      "type": "nuovo_testo",
+      "effect": "nuove tutele dal 2026",
+      "summary": "Dal 1 gennaio 2026, per invalidit? pari o superiore al 74%, introdotte 10 ore annue per visite/cure, congedo fino a 24 mesi e priorit? lavoro agile al rientro.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 40,
+      "article_area": "Malattia - disabilit? certificata",
+      "type": "nuovo_testo",
+      "effect": "prolungamento comporto",
+      "summary": "Dal 1 gennaio 2026, al superamento del comporto riconosciuti ulteriori 30/45/60 giorni in base all?anzianit?, con integrazione aziendale all?80%.",
+      "status": "confirmed_visual"
+    },
+    {
+      "page_2025": 41,
+      "article_area": "Congedi parentali - malattia figli",
+      "type": "nuovo_testo",
+      "effect": "nuovi permessi annui",
+      "summary": "Dal 1 gennaio 2026 introdotti 3 giorni annui per malattia figli fino a 4 anni, indennizzati all?80%, non cumulabili tra madre e padre nella stessa giornata.",
+      "status": "confirmed_visual"
+    }
+  ],
+  "entries": [
+    {
+      "id": "2025-P031-MANSIONI-01",
+      "source_page": 31,
+      "topic": "mansioni_superiori",
+      "type": "replacement",
+      "old_text": "30 giorni continuativi; 75 giorni non continuativi nell?anno",
+      "new_text": "60 giorni continuativi; 120 giorni non continuativi nell?anno",
+      "consolidation_status": "integrated",
+      "target_file": "08_blocco_classificazione_inquadramento_professionalita_luglio_2026.md"
+    },
+    {
+      "id": "2025-P031-MANSIONI-02",
+      "source_page": 31,
+      "topic": "mansioni_superiori_livelli_b_a",
+      "type": "replacement",
+      "old_text": "3 mesi continuativi per B1, B2, B3 e A1",
+      "new_text": "4 mesi continuativi per B1, B2, B3 e A1",
+      "consolidation_status": "integrated",
+      "target_file": "08_blocco_classificazione_inquadramento_professionalita_luglio_2026.md"
+    },
+    {
+      "id": "2025-P036-FERIE-01",
+      "source_page": 36,
+      "topic": "ferie_lavoratori_migranti",
+      "type": "addition",
+      "old_text": "Disciplina 2021 su ricongiungimento tramite ferie e permessi disponibili",
+      "new_text": "Aspettativa non retribuita 1-2 mesi, non frazionabile, una volta ogni triennio, per lavoratori migranti con oltre 5 anni di anzianit? in aziende >150 dipendenti",
+      "consolidation_status": "integrated",
+      "target_file": "09_blocco_ferie_permessi_specifici_luglio_2026.md"
+    },
+    {
+      "id": "2025-P018-PARI-01",
+      "source_page": 18,
+      "topic": "pari_opportunita_commissione_nazionale",
+      "type": "addition",
+      "old_text": "Prevenzione molestie sessuali nei luoghi di lavoro",
+      "new_text": "Indicazioni per sensibilizzazione sulla dignit? della persona e strumenti di segnalazione anche in raccordo con whistleblowing",
+      "consolidation_status": "integrated",
+      "target_file": "10_blocco_pari_opportunita_inclusivita_molestie_luglio_2026.md"
+    },
+    {
+      "id": "2025-P019-PARI-02",
+      "source_page": 19,
+      "topic": "commissione_aziendale_pari_opportunita",
+      "type": "replacement",
+      "old_text": "Aziende oltre 1000 dipendenti, almeno 300 nella stessa unit? produttiva",
+      "new_text": "Aziende oltre 500 dipendenti, almeno 200 nella stessa unit? produttiva",
+      "consolidation_status": "integrated",
+      "target_file": "10_blocco_pari_opportunita_inclusivita_molestie_luglio_2026.md"
+    },
+    {
+      "id": "2025-P020-PARI-03",
+      "source_page": 20,
+      "topic": "parita_genere_trasparenza_salariale",
+      "type": "addition",
+      "old_text": "Non presente come dichiarazione autonoma nel 2021",
+      "new_text": "Nuova dichiarazione su parit? di genere, inclusivit?, Direttiva UE 2023/970 e trasparenza salariale",
+      "consolidation_status": "integrated",
+      "target_file": "10_blocco_pari_opportunita_inclusivita_molestie_luglio_2026.md"
+    },
+    {
+      "id": "2025-P046-INCLUSIVITA-01",
+      "source_page": 46,
+      "topic": "rapporti_in_azienda_molestie_inclusivita",
+      "type": "replacement",
+      "old_text": "Clausola precedente su comportamenti riferiti alla condizione sessuale",
+      "new_text": "Disciplina aggiornata su inclusivit?, affermazione di genere, molestie, molestie sessuali e trattamenti meno favorevoli",
+      "consolidation_status": "integrated",
+      "target_file": "10_blocco_pari_opportunita_inclusivita_molestie_luglio_2026.md"
+    },
+    {
+      "id": "2025-P021-INFO-01",
+      "source_page": 21,
+      "topic": "informazione_aziendale_annuale",
+      "type": "addition",
+      "old_text": "Informazioni annuali aziendali generali",
+      "new_text": "Aggiunti Bilancio di Sostenibilit? anche al RLS, dati formazione e dati lavoro agile",
+      "consolidation_status": "integrated",
+      "target_file": "11_blocco_informazione_consultazione_aziendale_luglio_2026.md"
+    },
+    {
+      "id": "2025-P021-INFO-02",
+      "source_page": 21,
+      "topic": "dati_personale_genere",
+      "type": "addition",
+      "old_text": "Rapporto biennale personale maschile e femminile",
+      "new_text": "Incontro su dati occupati, retribuzioni e saldo assunzioni/cessazioni con dato riferito al personale femminile",
+      "consolidation_status": "integrated",
+      "target_file": "11_blocco_informazione_consultazione_aziendale_luglio_2026.md"
+    },
+    {
+      "id": "2025-P022-INFO-03",
+      "source_page": 22,
+      "topic": "consultazione_cambiamenti_organizzativi",
+      "type": "replacement",
+      "old_text": "Rinvio a procedure precedenti assorbenti",
+      "new_text": "Procedura con richiesta entro 5 giorni, parere sindacale, risposta motivata e chiusura consultazione dopo 15 giorni",
+      "consolidation_status": "integrated",
+      "target_file": "11_blocco_informazione_consultazione_aziendale_luglio_2026.md"
+    },
+    {
+      "id": "2025-P023-INFO-04",
+      "source_page": 23,
+      "topic": "schema_informativa_standard",
+      "type": "addition",
+      "old_text": "Valutazione opportunit? schema informativa",
+      "new_text": "Predisposizione di uno schema di informativa standard da utilizzare in sede aziendale",
+      "consolidation_status": "integrated",
+      "target_file": "11_blocco_informazione_consultazione_aziendale_luglio_2026.md"
+    },
+    {
+      "id": "2025-P026-APPALTI-01",
+      "source_page": 26,
+      "topic": "appalti_legalita_informativa",
+      "type": "addition",
+      "old_text": "Disciplina generale appalti 2021",
+      "new_text": "Legalit? appalto, CCNL comparativamente rappresentativo, informativa almeno 2 volte l?anno per aziende >400 dipendenti",
+      "consolidation_status": "integrated",
+      "target_file": "12_blocco_appalti_cambio_appalto_luglio_2026.md"
+    },
+    {
+      "id": "2025-P026-APPALTI-02",
+      "source_page": 26,
+      "topic": "osservatorio_appalti",
+      "type": "replacement",
+      "old_text": "Commissione con poteri negoziali sugli appalti",
+      "new_text": "Sezione Osservatorio nazionale appalti e banca dati appaltatori con standard minimi sociali, retributivi e di genere",
+      "consolidation_status": "integrated",
+      "target_file": "12_blocco_appalti_cambio_appalto_luglio_2026.md"
+    },
+    {
+      "id": "2025-P027-APPALTI-03",
+      "source_page": 27,
+      "topic": "contratti_pubblici_servizi_cambio_appalto",
+      "type": "replacement",
+      "old_text": "Riferimenti normativi appalti pubblici 2016",
+      "new_text": "Riferimenti aggiornati a Legge 78/2022 e D.Lgs. 36/2023; procedura 30 giorni, 5 giorni, 15 giorni",
+      "consolidation_status": "integrated",
+      "target_file": "12_blocco_appalti_cambio_appalto_luglio_2026.md"
+    },
+    {
+      "id": "2025-P024-DELEGHE-01",
+      "source_page": 24,
+      "topic": "deleghe_sindacali_rappresentativita",
+      "type": "addition",
+      "old_text": "Trattenuta contributi sindacali e deleghe permanenti",
+      "new_text": "Fornitura dati deleghe attive secondo circolare INPS n. 100 del 27 novembre 2024 per certificazione rappresentativit?",
+      "consolidation_status": "integrated",
+      "target_file": "13_blocco_contributi_deleghe_sindacali_luglio_2026.md"
+    },
+    {
+      "id": "2025-P024-DELEGHE-02",
+      "source_page": 24,
+      "topic": "elenco_nominativo_deleghe",
+      "type": "replacement",
+      "old_text": "Indicazione numerica aggregata semestrale degli iscritti e somme",
+      "new_text": "Richiesta annuale entro marzo dell?elenco nominativo deleghe, con riscontro di norma entro 30 giorni e rispetto privacy",
+      "consolidation_status": "integrated",
+      "target_file": "13_blocco_contributi_deleghe_sindacali_luglio_2026.md"
+    },
+    {
+      "id": "2025-P006-CAMPO-01",
+      "source_page": 6,
+      "topic": "campo_applicazione",
+      "type": "addition",
+      "old_text": "Campo metalmeccanico/meccatronico 2021",
+      "new_text": "Esplicitate sedi operative/cantieri impianti tecnologici, ESCO, servizi efficienza energetica/ecologica e Facility Management tecnologico",
+      "consolidation_status": "integrated",
+      "target_file": "14_blocco_campo_applicazione_osservatorio_partecipazione_luglio_2026.md"
+    },
+    {
+      "id": "2025-P010-CAMPO-02",
+      "source_page": 10,
+      "topic": "codici_ateco_perimetro_ccnl",
+      "type": "addition",
+      "old_text": "Elenco descrittivo attivit?",
+      "new_text": "Dichiarazione comune su legenda codici ATECO e tutela perimetri contrattazione collettiva",
+      "consolidation_status": "integrated",
+      "target_file": "14_blocco_campo_applicazione_osservatorio_partecipazione_luglio_2026.md"
+    },
+    {
+      "id": "2025-P011-OSSERVATORIO-01",
+      "source_page": 11,
+      "topic": "osservatorio_paritetico",
+      "type": "addition",
+      "old_text": "Osservatorio industria metalmeccanica e installazione impianti",
+      "new_text": "Approfondimenti di comparto partendo dall?Automotive; funzione propositiva su cuneo fiscale, welfare aziendale e crescita dimensionale",
+      "consolidation_status": "integrated",
+      "target_file": "14_blocco_campo_applicazione_osservatorio_partecipazione_luglio_2026.md"
+    },
+    {
+      "id": "2025-P012-PARTECIPAZIONE-01",
+      "source_page": 12,
+      "topic": "comitato_consultivo_partecipazione",
+      "type": "replacement",
+      "old_text": "Aziende oltre 1000 dipendenti e unit? produttiva oltre 500 dipendenti",
+      "new_text": "Aziende oltre 600 dipendenti; eliminato requisito unit? produttiva oltre 500 dipendenti",
+      "consolidation_status": "integrated",
+      "target_file": "14_blocco_campo_applicazione_osservatorio_partecipazione_luglio_2026.md"
+    },
+    {
+      "id": "2025-P004-DECORRENZA-01",
+      "source_page": 4,
+      "topic": "decorrenza_durata_distribuzione",
+      "type": "replacement",
+      "old_text": "Decorrenza e distribuzione CCNL precedente",
+      "new_text": "Decorrenza 22 novembre 2025, scadenza 30 giugno 2028; distribuzione ottobre-dicembre 2026",
+      "consolidation_status": "integrated",
+      "target_file": "15_blocco_decorrenza_distribuzione_una_tantum_commissioni_luglio_2026.md"
+    },
+    {
+      "id": "2025-P050-UNA-TANTUM-01",
+      "source_page": 50,
+      "topic": "quota_contributo_una_tantum",
+      "type": "addition",
+      "old_text": "Non presente nel testo 2021 come quota 2026-2028",
+      "new_text": "Quota straordinaria 30 euro per anni 2026, 2027 e 2028; affissione, modulo aprile, riconsegna 15 maggio, trattenuta giugno",
+      "consolidation_status": "integrated",
+      "target_file": "15_blocco_decorrenza_distribuzione_una_tantum_commissioni_luglio_2026.md"
+    },
+    {
+      "id": "2025-P051-COMMISSIONI-01",
+      "source_page": 51,
+      "topic": "commissioni_finali_osservatorio",
+      "type": "addition",
+      "old_text": "Non presente come dichiarazione finale nel 2021",
+      "new_text": "Commissioni partecipazione, inquadramento, orario; approfondimento strumenti digitali e diritti sindacali",
+      "consolidation_status": "integrated",
+      "target_file": "15_blocco_decorrenza_distribuzione_una_tantum_commissioni_luglio_2026.md"
+    }
+  ]
+}

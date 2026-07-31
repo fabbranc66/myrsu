@@ -1,0 +1,120 @@
+{
+  "titolo": "Registro omissis rinnovo CCNL Metalmeccanici 22 novembre 2025",
+  "base": "CCNL 5 febbraio 2021, testo completo 288 pagine",
+  "stato": "verifica preliminare completata sui 14 omissis individuati",
+  "regola": "Un omissis non equivale a soppressione. Il testo 2021 viene mantenuto salvo modifica, sostituzione o abrogazione espressa.",
+  "omissis": [
+    {
+      "n": 1,
+      "p2025": 4,
+      "contesto": "Dopo Art. 6 - Distribuzione del Contratto",
+      "p2021": "47 (pag. contrattuale 43)",
+      "esito": "TROVATO",
+      "azione": "Mantenere dal 2021 tutto il raccordo non modificato dopo Art. 6; aggiornare solo decorrenza/distribuzione dove il 2025 interviene."
+    },
+    {
+      "n": 2,
+      "p2025": 29,
+      "contesto": "Tipologie contrattuali - prima di B) Stabilizzazione",
+      "p2021": "55-56 (Titolo I)",
+      "esito": "TROVATO",
+      "azione": "Ricostruire il testo invariato precedente alla stabilizzazione; applicare le modifiche 2025 a durata/causali senza eliminare le parti omesse."
+    },
+    {
+      "n": 3,
+      "p2025": 30,
+      "contesto": "Nota a verbale 05/02/2021 / passaggio a lavoro in somministrazione",
+      "p2021": "56 e seguenti",
+      "esito": "TROVATO - CON SOPPRESSIONE",
+      "azione": "La nota 05/02/2021 è rintracciata. Nel 2025 risulta barrata: non va mantenuta come testo vigente. Verificare contestualmente rinumerazione delle lettere."
+    },
+    {
+      "n": 4,
+      "p2025": 31,
+      "contesto": "Sez. Quarta - Titolo II, prima di Art. 3 Passaggio temporaneo di mansioni",
+      "p2021": "84 (pag. contrattuale 80)",
+      "esito": "TROVATO",
+      "azione": "Mantenere Art. 1, Art. 2 e raccordi non modificati; sostituire solo i passaggi dell'Art. 3 effettivamente modificati nel 2025."
+    },
+    {
+      "n": 5,
+      "p2025": 32,
+      "contesto": "Art. 5 - Orario di lavoro, prima di Orario plurisettimanale",
+      "p2021": "151-153 (pag. contrattuale 147-149)",
+      "esito": "TROVATO",
+      "azione": "Mantenere la disciplina generale dell'orario; coordinare le nuove quantità e procedure dell'orario plurisettimanale."
+    },
+    {
+      "n": 6,
+      "p2025": 35,
+      "contesto": "Dopo Conto ore / prima di Art. 7",
+      "p2021": "156-160 circa",
+      "esito": "TROVATO",
+      "azione": "Mantenere le parti intermedie non modificate. Integrare la nuova gestione temporale del Conto ore/PAR dove espressamente prevista."
+    },
+    {
+      "n": 7,
+      "p2025": 35,
+      "contesto": "Art. 7 - Lavoro straordinario, notturno e festivo",
+      "p2021": "160 e seguenti (pag. contrattuale 156+)",
+      "esito": "TROVATO",
+      "azione": "Conservare definizioni e disciplina non toccata; applicare esclusivamente le nuove quote/limiti/procedure evidenziate nel rinnovo."
+    },
+    {
+      "n": 8,
+      "p2025": 36,
+      "contesto": "Art. 10 - Ferie",
+      "p2021": "165 e seguenti (pag. contrattuale 161+)",
+      "esito": "TROVATO",
+      "azione": "Mantenere maturazione, anzianità e disciplina generale; inserire solo l'integrazione 2025 relativa ai lavoratori migranti e ogni altra modifica espressa."
+    },
+    {
+      "n": 9,
+      "p2025": 37,
+      "contesto": "Titolo V - Art. 1 Ambiente di lavoro - Salute e sicurezza",
+      "p2021": "192 e seguenti (pag. contrattuale 188+)",
+      "esito": "TROVATO",
+      "azione": "Mantenere il corpus sicurezza 2021; integrare break formativi, quasi infortuni, analisi post-incidente e nuovi obblighi 2025."
+    },
+    {
+      "n": 10,
+      "p2025": 40,
+      "contesto": "Titolo VI - Art. 2 Trattamento in caso di malattia",
+      "p2021": "199 e seguenti (pag. contrattuale 195+)",
+      "esito": "TROVATO",
+      "azione": "Mantenere comunicazione, certificazione, comporto e trattamento economico 2021 salvo modifiche; inserire i nuovi permessi/tutele dal 2026."
+    },
+    {
+      "n": 11,
+      "p2025": 40,
+      "contesto": "Art. 2 Malattia - dopo congedo/lavoro agile",
+      "p2021": "199-203",
+      "esito": "TROVATO PER RACCORDO",
+      "azione": "Il raccordo è interno all'Art. 2. Inserire le nuove previsioni 2025 senza sopprimere automaticamente il testo tra i blocchi."
+    },
+    {
+      "n": 12,
+      "p2025": 40,
+      "contesto": "Art. 2 Malattia - dopo estensione comporto per disabilità",
+      "p2021": "200-203",
+      "esito": "TROVATO PER STRUTTURA",
+      "azione": "La nuova tutela disabilità è aggiuntiva rispetto alla struttura 2021. Riprendere il testo successivo invariato fino all'articolo seguente."
+    },
+    {
+      "n": 13,
+      "p2025": 41,
+      "contesto": "Congedi parentali / malattia figli",
+      "p2021": "204 e seguenti (Art. 5 nel 2021)",
+      "esito": "TROVATO - NUMERAZIONE DA COORDINARE",
+      "azione": "Nel testo 2021 i Congedi parentali sono Art. 5 del Titolo VI; l'OCR 2025 legge Art. 9. Verificare visivamente la numerazione del rinnovo prima del consolidamento."
+    },
+    {
+      "n": 14,
+      "p2025": 48,
+      "contesto": "Apprendistato qualifica/diploma - prima di Art. 5 Inquadramento e Retribuzione",
+      "p2021": "274-275 (pag. contrattuale 270+)",
+      "esito": "TROVATO",
+      "azione": "Mantenere artt. precedenti non modificati; coordinare il nuovo riferimento di livello/retribuzione previsto dal rinnovo."
+    }
+  ]
+}

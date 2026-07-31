@@ -23,6 +23,7 @@ final class PracticeTimelineRepository
             $this->linked($practiceId, "SELECT 'meeting' type, CAST(m.id AS CHAR) id, m.title, m.location summary, m.meeting_date event_at, m.status, m.public_document_id document_id FROM practice_links pl JOIN union_meetings m ON m.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'meeting'"),
             $this->assemblies($practiceId),
             $this->notes($practiceId),
+            $this->ccnlLinks($practiceId),
             $this->calls($practiceId),
             $this->emails($practiceId)
         );
@@ -81,6 +82,17 @@ final class PracticeTimelineRepository
             "SELECT 'note' type, CAST(pn.id AS CHAR) id, u.name title, pn.body summary,
                     pn.created_at event_at, NULL status, NULL document_id
              FROM practice_notes pn JOIN users u ON u.id = pn.created_by WHERE pn.practice_id = ?"
+        );
+        $stmt->execute([$practiceId]);
+        return $stmt->fetchAll();
+    }
+
+    private function ccnlLinks(int $practiceId): array
+    {
+        $stmt = $this->pdo->prepare(
+            "SELECT 'ccnl' type, CAST(id AS CHAR) id, section_title title, excerpt summary,
+                    created_at event_at, block_code status, NULL document_id
+             FROM practice_ccnl_links WHERE practice_id = ?"
         );
         $stmt->execute([$practiceId]);
         return $stmt->fetchAll();

@@ -75,6 +75,58 @@ final class PracticeController
         return Response::json(['data' => ['note' => $note]], 201);
     }
 
+    public function addCcnlLink(Request $request, array $params): Response
+    {
+        $user = $this->requireLinkRole($request);
+        $practice = $this->findPractice((int)$params['id']);
+        $data = $request->all();
+        Validator::required($data, ['block_code', 'block_title', 'section_title', 'source_path', 'excerpt']);
+
+        $link = $this->app->practiceCcnlLinks->create((int)$practice['id'], [
+            'block_code' => substr(trim((string)$data['block_code']), 0, 10),
+            'block_title' => substr(trim((string)$data['block_title']), 0, 255),
+            'section_title' => substr(trim((string)$data['section_title']), 0, 255),
+            'source_path' => substr(trim((string)$data['source_path']), 0, 255),
+            'excerpt' => trim((string)$data['excerpt']),
+        ], (int)$user['id']);
+
+        $this->app->activityLogs->write((int)$user['id'], 'practices.ccnl_link', [
+            'section' => 'practices',
+            'practice_id' => $practice['id'],
+            'ccnl_link_id' => $link['id'],
+            'ccnl_section' => $link['section_title'],
+        ]);
+
+        return Response::json(['data' => ['link' => $link]], 201);
+    }
+
+    public function showCcnlLink(Request $request, array $params): Response
+    {
+        $this->requireLinkRole($request);
+        $practice = $this->findPractice((int)$params['id']);
+        $link = $this->app->practiceCcnlLinks->find((int)$params['linkId']);
+        if (!$link || (int)$link['practice_id'] !== (int)$practice['id']) {
+            throw new HttpException(404, 'Riferimento CCNL non trovato.');
+        }
+
+        return Response::json(['data' => ['link' => $link]]);
+    }
+
+    public function deleteCcnlLink(Request $request, array $params): Response
+    {
+        $user = $this->requireLinkRole($request);
+        $practice = $this->findPractice((int)$params['id']);
+        $deleted = $this->app->practiceCcnlLinks->delete((int)$practice['id'], (int)$params['linkId']);
+
+        $this->app->activityLogs->write((int)$user['id'], 'practices.ccnl_unlink', [
+            'section' => 'practices',
+            'practice_id' => $practice['id'],
+            'ccnl_link_id' => (int)$params['linkId'],
+        ]);
+
+        return Response::json(['data' => ['deleted' => $deleted]]);
+    }
+
     public function link(Request $request): Response
     {
         $user = $this->requireLinkRole($request);

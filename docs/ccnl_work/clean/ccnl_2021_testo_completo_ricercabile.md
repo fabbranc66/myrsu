@@ -1,0 +1,3771 @@
+﻿# CCNL 2021 - Testo completo ricercabile
+
+Contratto collettivo nazionale di lavoro 5 febbraio 2021 per i lavoratori addetti all'industria metalmeccanica privata e alla installazione di impianti
+
+La presente edizione a stampa del Contratto collettivo nazionale di lavoro per l'industria metalmeccanica privata e della installazione di impianti 5 febbraio 2021, è stata autorizzata dalle organizzazioni sindacali firmatarie - Federmeccanica, Assistal e Fim, Fiom e Uilm - che ne hanno verificato la conformità  al testo originale in loro esclusivo possesso.
+L'Editore
+
+
+CONTRATTO COLLETTIVO NAZIONALE DI LAVORO PER I LAVORATORI ADDETTI ALL'INDUSTRIA METALMECCANICA PRIVATA E ALLA INSTALLAZIONE DI IMPIANTI
+
+In Roma, addì 5 febbraio 2021
+
+Fra la Federmeccanica - Federazione sindacale dell'industria metalmeccanica italiana - rappresentata dal Presidente Alberto Dal Poz e dai Vice Presidenti: Diego Andreis, Fabio Astori, Simona Capasso, Carlo Cremona, Simonetta Iarlori, Fabio Tarozzi, Federico Visentin, assistiti dal Direttore Generale Stefano Franchi, dal Direttore Relazioni Industriali Daniela Dario e dal Vice Direttore Angelo Michele Megaro, con la collaborazione tecnica di Sabrina De Santis e di Antonio Pescosolido e da una Delegazione per le Relazioni Industriali composta da: Giorgio Airoldi, Franco Beltrame, Marco Bernini, Giuseppe Bisceglie, Massimo Bottelli, Mauro Brega, Ruben Campagner, Carmine Candeloro, Paola Casarino, Paolo Centofanti, Roberto Ceroni, Cristina Cofacci, Claudio Colombi, Valentina Crespi, Paolo Cuniberti, Luca Fabbri, Paola Fabbrini, Alessandro Fantino, Paolo Ferrari, Elio Fovanna, Carlo Frighetto, Alessandro Fusco, Andrea Garetti, Massimo Gasparato, Simone Gradellini, Roberto Guseo, Gualtiero Mago, Stefano Malandrini, Renato Mannozzi, Andrea Marsonet, Umberto Mazzoleni, Gabriele Meroni, Mario Morgese, Riccardo Napoleone, Giuseppe Nardacchione, Marcello Orifici, Alessandro Parma, Stefano Passerini, Filippo Pighin, Antonio Pozzoli, Fulgenzio Razio, Massimo Richetti, Marco Romussi, Stefano Sancio, Cristina Schianchi, Giuseppe Sorrentino, Umberto Tossini, Carmine Trerotola, Federico Valtolina, Luca Valerio Villa, Walter Villa, Giorgio Volpe, Roberto Zecchino, e di: Francesca Brudaglio, Ilenia Cordova, Carlo Di Berto Mancini, Elena Falcone, Maurizio Pascucci, Francesca Polli, Livia Pomicino, Erica Roic;
+
+l'Assistal - Associazione nazionale costruttori di impianti - rappresentata dal Presidente Angelo Carlini, dai Vice Presidenti Rosario Calandruccio, Marco Decio, Marco Di Domenica, Roberto Galli, Andrea Monticolo, Pasquale Ranieri, Roberto Rossi, Antonio Romano Spartaco, dal Direttore Giancarlo Ricciardi, assistiti dal Vice Direttore Responsabile del Servizio Sindacale Antonio Pozzoli e dalla Responsabile dell'Area Formazione Maria Francesca Battisti, con la partecipazione della Commissione Sindacale formata da: Elisa Anfossi, Teodoro Birondi, Alessandro Brunelli, Francesco Donelli, Andrea Farioli, Roberta Giulivi, Sergio Lucherini, Marzia Ramella, Roberta Ripani, Antonella Rosa, Simona Sovran;
+
+con l'assistenza della Confindustria - Confederazione generale dell'industria italiana;
+e la Fim - Federazione italiana metalmeccanici - rappresentata dal Segretario Generale Roberto Benaglia e dai segretari nazionali Valerio D'Alà², Massimiliano Nobis, Ferdinando Uliano, Michele Zanocco, e da una delegazione composta da Carlo Anelli, Marco Angioni, Raffaele Apetino, Barbara Arsieni, Ciro Bacci, Leonardo
+
+Bartolucci, Alessandro Beccastrini, Fabio Bernardini, Augusto Bisegna, Domenico Bologna, Stefano Boschini, Paolo Cagol, Agatino Camerano, Maurizio Cantagalli, Vittorio Cantoni, Giovanni Caruso, Roberta Castronuovo, Stefano Chemello, Giuseppe Crisafulli, Sergio De Salve, Andrea Donegà , Gerardo Evangelista, Giacomo Fabbroni, Vincenzo Ferrara, Daniele Fippi, Luigi Galano, Christian Gambarelli, Gianfranco Gasbarro, Luca Gazzabin, Antonello Gisotti, Rosario Iaccarino, Luciano Landini, Nicodemo Lanzetta, Maurizio Longo, Alessio Lovisotto, Mauro Masci, Riccardo Mascolo, Gianfranco Nicola Micchetti, Andrea Minniti, Luca Mori, Pietro Nicastro, Luca Nieri, Antonio Nobile, Stefano Olivari, Salvatore Pafundi, Nicola Panarella, Ilaria Paoletti, Donato Pascazio, Giovanna Petrasso, Adolfo Pierotti, Alessio Pistritto, Davide Provenzano, Luciano Remorini, Fausto Renna, Sandra Rizzo, Romina Rossi, Giuseppe Rossi, Mario Sacco, Angelo Sardella, Davide Tagliaferri, Michele Tamburrano, Gianluca Tartaglia, Monica Tonghini, Biagio Trapani, Giampiero Turus, Andreas Unterfrauner, Giorgio Uriti, Enrico Vacca, Caterina Valsecchi, Alessandro Vella, Christian Venzano;
+
+assistita dalla Segreteria della Cisl - Confederazione italiana sindacati lavoratori;
+
+La Fiom - Federazione impiegati operai metallurgici - rappresentata dalla Segretaria Generale Francesca Re David, dai segretari nazionali: Michele De Palma, Barbara Tibaldi, Luca Trevisan, Giovanni Venturi e da una delegazione composta da: Andrea Agazzi, Giuseppe Amendola, Daniele Baiesi, Laura Baldi, Aldo Barbera, Fabrizio Bassotti, Tiziano Beldomenico, Angela Biondi, Enrico Botter, Massimo Braccini, Augustin Breda, Paolo Brini, Michele Bulgarelli, Daniele Calosi, Luigi Camposano, Mariano Carboni, Giovanni Cartosio, Claudio Cesari, Eliana Como, Marcello Corti, Gianni Cotugno, Massimo Covello, Rosi Cuomo, Ciro D'Alessio, Roberto D'Andrea, Vittorio De Martino, Francesca D'Elia, Barbara Di Staso, Badara Diop, Elena Duina, Alfredo Fegatelli, Stefania Ferrari, Claudia Laura Ferri, Barbara Ficorilli, Roberto Forresu, Claudio Franceschetti, Giovanni Fusco, Rosita Galdiero, Donato Gatti, Armando Generali, Adriana Geppert, Antonio Ghirardi, Claudio Gonzato, Fabrizio Graziola, Federico Grondona, Massimiliano Guglielmi, Erika Innendorfer, Edmondo Lazzi, Nina Leone, Pietro Locatelli, Samuele Lodi, Pasquale Loiacono, Marco Lombardi, Luximan Madnack, Emanuele Magro, Bruno Manganaro, Valentino Marcià², Maurizio Marcon, Simone Marinelli, Stefano Maruca, Emanuela Mascalzoni, Marco Massari, Roberto Mastrosimone, Giorgio Mauro, Ivan Missiroli, Alberto Monti, Annarita Morea, Abdoulaye Ndiaye, Pietro Occhiuto, Valentina Orazzini, Maurizio Oreggia, Alessandro Pagano, Fabio Palmieri, Simone Pampanelli, Alessandro Pellegrini, Giuseppe Picconi, Anna Poggio, Fabrizio Potetti, Morgan Prebianca, Alessandro Rampiconi, Rosario Rappa, Gaetano Ricotta, Mohamed Rizki, David Romagnani, Giuseppe Romano, Mirco Rota, Stefano Ruggenini, Primo Sacchetti, Antonio Santorelli, Loris Scarpa, Mamadou Seck, Maria Lucia Semeraro, Marzia Serafini, Nicoletta Serina, Antonio Silvestri, Simone Sitta, Michela Spera, Donatella Tassinari, Manuela Terragnolo, Cecilia Tintori, Mattia Tivegna, Valeria Tizzoni, Angela Torchi, Alessandro Tracchi, Cinzia Turello, Roberta Turi, Michele Valentini, Simone Vecchi, Giovanni Verla, Isabella Zagra, Daniela Zanfini;
+
+assistita dalla Segreteria della Cgil - Confederazione generale italiana del lavoro;
+
+La Uilm - Unione italiana lavoratori metalmeccanici - rappresentata dal Segretario Generale Rocco Palombella, dai Segretari Nazionali Bruno Cantonetti, Luca Maria Colonna, Gianluca Ficco, Eros Panicali, Roberto Toigo e da una delegazione composta da Antonello Accurso, Gaetano Altieri, Gianmartino Amadio, Cosimo Amatomaggi, Alessandro Andreatta, Dario Antonini, Antonio Apa, Crescienzo Auriemma, Enrico Azzaro, Boris Marco Basti, Carmelo Bellè, Vito Benevento, Luigi Bennardi, Gianni Carlo Biasin, Francesco Bighi, Mirco Bolognesi, Stefano Bragagnolo, Daniele Brizi, Sergio Busca, Giuseppe Caramanna, Francesco Caruso, Armando Castellano, Vincenzo Comella, Roberto Costantini, Davide Crepaldi, Paolo Da Lan, Fabio Dell'Angelo, Lisa Destro, Monica Di Cola, Ciro Di Dato, Luciano Di Pardo, Giuseppe Di Stefano, Alessandro D'Isabella, Riccardo Falcetta, Alberto Fanessi, Andrea Farinazzo, Roberto Ferrari, Fabrizio Fiorito, Luca Francia, Lorenzo Fusco, Giovanni Galgano, Guglielmo Gambardella, Santo Genovese, Vincenzo Gentilucci, Francesco Giangrande, Simona Gigetti, Donato Giuliani, Gianbruno Gosmar, Giuliano Gritti, Francesco Guida, Ariel Hassan, Luigi Ippoliti, Ilaria Landi, Antonino Laurendi, Graziano Leonardi, Emilio Lollio, Marco Lomio, Simone Lucchetti, Giancarlo Magrino, Alberto Mancino, Nicola Manzi, Francesco Manzo, Aloisio Marasco, William Maruccia, Davide Materazzi, Giovanni Mazziotta, Marcellino Miroballo, Aniello Montella, Claudio Mor, Samuele Nacci, Anastasio Nespolino, Davide Nettis, Gabriele Noto, Luigi Oddo, Gennaro Oliva, Michele Paliani, Pietro Pallini, Diego Panisson, Luigi Paone, Alberto Pastorello, Gianluigi Pecoraro, Dajana Pede, Giuseppe Pelella, Giovanni Pesce, Ciro Pistone, Rosa Pugliese, Giovanni Rao, Vincenzo Renda, Marco Riciputi, Pasqualino Rizzo, Antonio Rodà , Luca Rodeghiero, Chiara Romanazzi, Paolo Rossini, Giuseppe Russo, Giacomo Saisi, Maria Teresa Sant'Angelo, Vittorio Sarti, Jacopo Scialla, Franco Scotto, Marco Secci, Patricia Spallanzani, Davide Sperti, Antonio Talà², Loretta Tani, Ezio Tesan, Giacomo Tinti, Nicola Trotta, Domenico Vacchiano, Daniele Valentini, Antonio Veneri, Gianfranco Verdini, Silvio Vicari, Alessandra Vivian, Roberto Zaami, Alberto Zanetti, Alfio Zaurito e con la collaborazione tecnica di Filippo Maria Giorgi;
+
+assistita dalla Segreteria della Uil - Unione italiana del lavoro;
+
+è stato stipulato il presente Contratto collettivo nazionale di lavoro per le aziende metalmeccaniche private e di installazione impianti ed i lavoratori dalle stesse dipendenti.
+
+
+PREMESSA
+
+1) Il presente Contratto collettivo nazionale di lavoro ha introdotto significative innovazioni nelle relazioni industriali e contrattuali e nei rapporti tra le parti in coerenza con la situazione economica del Paese e le repentine trasformazioni in atto e con gli obiettivi di competitività  delle imprese, di valorizzazione del lavoro industriale e di miglioramento dell'occupazione e delle condizioni di lavoro:
+- assumendo il metodo della sperimentalità  e del monitoraggio dell'applicazione delle innovazioni definite;
+- attribuendo alla autonomia collettiva delle parti una funzione primaria per la gestione delle relazioni di lavoro mediante lo sviluppo del metodo partecipativo, ai diversi livelli e con diversi strumenti, al quale le parti riconoscono un ruolo essenziale nella prevenzione del conflitto;
+- confermando l'assetto della contrattazione collettiva su due livelli: il CCNL che ha la funzione di garantire la certezza dei trattamenti economici e normativi comuni per tutti i lavoratori del settore ovunque impiegati nel territorio nazionale e la contrattazione aziendale orientata al miglioramento della competitività  aziendale e delle condizioni di lavoro;
+- realizzando un sistema di relazioni sindacali e contrattuali in grado di dare certezza riguardo ai soggetti, ai tempi ed ai contenuti della contrattazione collettiva attraverso l'attuazione ed il rispetto delle regole.
+
+2) A questi fini le parti si impegnano in nome proprio e per conto degli organismi territoriali a loro collegati, nonchà© delle imprese aderenti e delle Rappresentanze sindacali unitarie costituite e regolate ai sensi degli Accordi interconfederali vigenti a che il funzionamento del sistema di relazioni sindacali e contrattuali pià¹ avanti descritto, si svolga secondo i termini e le procedure specificamente indicate, dandosi nel contempo atto che la loro puntuale applicazione è condizione indispensabile per mantenere le relazioni sindacali nelle sedi previste dal presente Contratto, entro le regole fissate.
+A tale proposito le parti confermano che, come regola generale, anche laddovenon espr essamente previsto, nelle sedi e nelle occasioni disciplinate dal presente Contratto in cui siano rappresentate le Organizzazioni sindacali dei lavoratori esterne all'azienda debba essere rappresentata anche l'Organizzazione sindacale a cui l'azienda è iscritta o conferisce mandato e viceversa.
+
+3) Al sistema contrattuale cosà¬ disciplinato corrisponde l'impegno delle parti di rispettare e far rispettare ai propri iscritti per il periodo di loro validità il Contratto generale, le norme integrative di settore e quelle aziendali da esso previste.
+A tal fine le Associazioni industriali sono impegnate ad adoperarsi per l'osservanza delle condizioni pattuite da parte delle aziende associate mentre le Organizzazioni dei lavoratori si impegnano a non promuovere e ad intervenire perchè siano evitate azioni o rivendicazioni intese a modificare, integrare, innovare quanto ha formato oggetto di accordo ai vari livelli.
+
+4) La contrattazione a livello aziendale riguarderà  le materie delegate dal Contratto collettivo nazionale di lavoro o dalla legge in conformità  ai criteri ed alle procedure ivi indicate.
+
+5) La contrattazione aziendale è prevista nello spirito dell'attuale prassi negoziale con particolare riguardo alle piccole imprese.
+
+6) La titolarità  della negoziazione in sede aziendale, negli ambiti, per le materie e con le procedure e i criteri stabiliti dal presente Contratto, è regolata dagli Accordi interconfederali vigenti. Le aziende sono assistite dalle Associazioni industriali territoriali.
+
+
+COMMISSIONE NAZIONALE PER L'ALLINEAMENTO E ARMONIZZAZIONE DEL C.C.N.L. 26 NOVEMBRE 2016 CON IL T.U. 10 GENNAIO 2014
+
+Le parti al fine di allineare e armonizzare le prescrizioni contrattuali del C.c.n.l. con quelle del Testo Unico 10 gennaio 2014 sulla rappresentanza costituiscono una Commissione nazionale con il compito di definire, nell'arco di vigenza del C.c.n.l., le regole contrattuali di attuazione di tutte le parti demandate alla regolamentazione contrattuale dal T.U. 10 gennaio 2014 e successivi Accordi Interconfederali.
+La Commissione è composta da 6 rappresentanti di Federmeccanica, Assistal e da 6 rappresentanti di Fim, Fiom, Uilm.
+
+DICHIARAZIONE A VERBALE DI FIM, FIOM, UILM Tale Commissione lavorerà , nell'ambito di tale armonizzazione, allo scopo di favorire il massimo coinvolgimento dei lavoratori, di valorizzazione degli iscritti e del ruolo della R.s.u..
+
+***
+
+Il presente Contratto di lavoro è da valere in tutto il territorio nazionale per gli stabilimenti, cantiere, unità  produttive e di servizio come indicati nel Campo di applicazione del contratto ed i lavoratori dagli stessi dipendenti.
+
+
+CAMPO DI APPLICAZIONE DEL CONTRATTO Il presente Contratto si applica:
+
+A) Agli stabilimenti di produzione, progettazione sviluppo e servizio appartenenti al settore metalmeccanico e meccatronico nei quali l'utilizzo dei metalli, semimetalli ed assimilabili abbia una presenza caratteristica, esclusiva, prevalente o quantitativamente rilevante.
+B) Agli stabilimenti siderurgici.
+C) Agli stabilimenti, alle unità  produttive e di servizio tradizionalmente considerati affini ai metalmeccanici e ai meccatronici.
+D) Alle unità  produttive e/o operative e di servizio, ricerca, progettazione e sviluppo che abbiano con il settore metalmeccanico e meccatronico interconnessioni di significativa rilevanza e alle imprese costruttrici di impianti tecnologici, di servizi di efficienza energetica (ESCO) ed ecologica e di Facility management.
+
+A titolo indicativo ed esemplificativo, rientrano fra gli stabilimenti metalmeccanici regolati dal presente Contratto, qualora abbiano i requisiti previsti nelle definizioni di cui sopra, i seguenti stabilimenti, imprese e cantieri per:
+- la produzione di metalli non ferrosi (alluminio, magnesio, rame, piombo, zinco, argento ed altri);
+- la trasformazione plastica dell'alluminio, magnesio, rame, piombo, zinco, argento e loro leghe sotto forma di laminati, estrusi, trafilati, imbutiti, stampati, fucinati e tranciati;
+- la fusione di rame, alluminio, magnesio, nichel, piombo, zinco ed altri metalli non fer rosi e loro leghe (bronzo, ottone, ecc.);
+- la fusione di ghisa in getti;
+- la fusione di acciaio in getti semprechà© lo stabilimento non proceda alla produzione dell'acciaio relativo;
+- la forgiatura e stampaggio a freddo e a caldo del ferro e dell'acciaio;
+- la laminazione e trafilatura a freddo del ferro e dell'acciaio;
+- la costruzione, montaggio, riparazione e manutenzione di:
+- - navi da carico, da passeggeri e da guerra, galleggianti, pontoni e chiatte;
+- - materiale mobile e fisso per ferrovie, filovie, tramvie, teleferiche e funivie;
+- - automobili, autobus, autocarri, rimorchi, carrozzerie e loro parti staccate;
+- - motocicli e motofurgoni, carrozzerie relative, biciclette e loro parti ed affini;
+- - aeromobili, veicoli spaziali e loro parti; aeromobili ad ala fissa e rotante, veicoli e tecnologie, inclusi i sistemi di comunicazione, spaziali, loro parti;
+- - radar sensori, produzioni balistiche e tecnologie di integrazione, hardware, software e i servizi connessi di sicurezza fisica e tecnologica e le attività  di ricerca, sviluppo, progettazione, produzione, montaggio, riparazione e servizio connessi;
+- l'alaggio, l'allestimento, il recupero, la riparazione e demolizione di navi e loro parti;
+- l'esercizio di bacini di carenaggio;
+- la produzione di carpenteria, infissi, serrande, mobili, casseforti e simili e arredi metallici;
+- attività  di lavorazione, confezione, fornitura del ferro tondo per cemento armato e della  sua posa in opera;
+- vasellame, stoviglie, posate, coltelleria ed affini, utensili e apparecchi da cucina;
+- articoli vari, ferramenta e minuterie metalliche;
+- bullonerie, viterie, chiodi, broccame, molle;
+- reti e tele metalliche, tubi flessibili, fili, corde, funi e trecce metalliche, catene;
+- strumenti musicali metallici compresi elettrofoni, digitali e a tecnologia mista, e relativi accessori;
+- oggetti in ferro battuto;
+- scatolame ed imballaggi metallici;
+- la produzione, ricerca, progettazione, sviluppo, costruzione, montaggio, riparazione e attività  di servizio di:
+- - motrici idrauliche a vapore ed a combustione interna, loro parti staccate ed accessori caratteristici;
+- - organi di trasmissione e cuscinetti a sfere;
+- - macchine ed apparecchi per la generazione, trasformazione, l'accumulo, la trasmissione, la misura ed utilizzazione dell'energia di qualsiasi natura ed origine, comprese tra le altre l'energia meccanica, termica, elettrica, magnetica, chimica, nucleare, energie da fonti rinnovabili;
+- - apparecchi e complessi, analogici e digitali, per elettroacustica, registrazione e diffusione sonora ed audiovisiva, radio e televisione;
+- - apparecchi e complessi, analogici e digitali, per elaborazione e trasmissione voce e dati, telefonia, e telecomunicazioni e gestione di servizi relativi;
+- - apparecchi per la generazione ed utilizzazione dell'energia termica per uso industriale, domestico e medicale;
+- - apparecchi per illuminazione e segnalazioni luminose con energia elettrica o di altra natura;
+- - apparecchi, utensili e strumenti per la medicina, chirurgia, ortopedia o odontoiatria e le applicazioni biotecnologiche in genere;
+- - macchine ed apparecchi per scavi, perforazione, trivellazione di terreni, rocce, ecc.;
+per il trattamento meccanico di minerali e pietre; per la lavorazione di marmi e pietre e per la fabbricazione di laterizi, conglomerati, ceramiche, grès ed affini;
+- - macchine ed apparecchi per cantieri edili e stradali;
+- - macchine operatrici e relativi accessori per la lavorazione dei metalli, del legno, del sughero e di materie sintetiche (resine);
+- - macchine, apparecchi ed accessori per fabbricare carta, cartoni, per cartotecnica, legatoria, stampa;
+- - macchine, apparecchi ed accessori per l'industria tessile dell'abbigliamento;
+- - macchine, trattori ed apparecchi per l'agricoltura e per le industrie agricole, alimentari, olearie, enologiche e del freddo; macchine ed apparecchi per industrie chimiche e della gomma;
+- - utensili per macchine operatrici; strumenti di officina;
+- - utensili ed attrezzi per arti e mestieri, ferri da taglio ed armi bianche;
+- - pompe, compressori, macchine pneumatiche, ventilatori, aspiratori, macchine ed apparecchi affini, organi di chiusura e di regolazione per condotte di vapore e di fluidi in genere;
+- - apparecchi ed attrezzature per impianti igienico-sanitari e di riscaldamento;
+- - macchine ed apparecchi per disinfezione, condizionamento di aria, lavanderia e stireria;
+- - macchine ed impianti per posta pneumatica e distributori automatici;
+- - armi e materiale per uso bellico e da caccia e sportivo;
+- macchine ed apparecchi per lavorazioni e produzioni di meccanica varia e di meccanica affine, la meccatronica e le applicazioni digitali, come: macchine e apparecchi per la prova, misura e controllo; apparecchi geofisici e topografici; macchine fotografiche, cinematografiche e di riproduzione, macchine da scrivere, calcolatrici, contabili, affrancatrici e simili; lavorazioni ottiche in genere; orologi in genere;
+- modelli meccanici per fonderia;
+- la deposizione galvanica, ossidazione anodica, piombatura, stagnatura, zincatura, smaltatura e simili;
+- i sistemi di stampa tridimensionale, sinterizzazione e di additive manufacturing;
+- la produzione, l'implementazione e la manutenzione di hardware e software informatici e tutti i servizi correlati;
+- la produzione di componentistica microelettronica, nonchà© di parti staccate che utilizzano tale componentistica;
+- la fornitura di servizi generali, logistici, tecnologici comprese le pulizie tecnologiche e industriali, e di trasporto alle imprese;
+- attività  di progettazione, fornitura, installazione, gestione e manutenzione ed ogni attività accessoria e sussidiaria alla realizzazione di quanto elencato comprese le opere di assistenza edili, la logistica, ed i trasporti di:
+- - Impianti termici di climatizzazione, ventilazione e trattamento aria;
+- - Impianti idrici e sanitari;
+- - Impianti di refrigerazione;
+- - Impianti di protezione antincendio;
+- - Impianti e reti di trasporto e distribuzione dei fluidi;
+- - Impianti e reti di telecomunicazione, telefonia e trasmissione dati;
+- - Impianti di produzione, trasformazione, trasporto, distribuzione e utilizzazione dell'energia elettrica;
+- - Impianti di illuminazione;
+- - Impianti di cogenerazione, trigenerazione e teleriscaldamento;
+- - Impianti di produzione, trasformazione, trasporto, distribuzione e utilizzazione dell'energia termica;
+- - Impianti di sollevamento di persone o di cose per mezzo di ascensori, di montacarichi, di scale mobili e simili;
+- - Impianti di sicurezza, antintrusione e videosorveglianza;
+- - Sistemi per l'automazione e il controllo degli accessi quali porte, barriere e cancelli;
+- - Impianti ecologici, trattamento acque e rifiuti;
+- - Impianti radiotelevisivi, antenne;
+- - Impianti speciali;
+- - Impianti di segnalamento e di segnaletica stradale e ferroviaria;
+- - Facility Management;
+- - Servizi di Efficienza Energetica (ESCO);
+- l'esecuzione presso terzi delle attività  regolate dal presente Contratto.
+
+CHIARIMENTO A VERBALE.
+Le parti confermano che le aziende che svolgono attività  di costruzione, ampliamento ed estensione di linee e reti telefoniche, elettriche, di distribuzione di energia, gas, acqua secondo i principi generali e la comune esperienza, svolgono un'attività  che appartiene tradizionalmente al settore meccanico.
+
+DEFINIZIONE DI SPECIFICHE ATTIVITà€.
+Siderurgico: comprende gli stabilimenti siderurgici che agli effetti del Contratto sono quelli per la produzione di:
+a) ghisa di prima fusione;
+b) acciaio anche se colato in getti;
+c) ferroleghe;
+d) semiprodotti (blumi, billette, bidoni, grossi e medi fucinati);
+e) laminati e trafilati con processo iniziale a caldo;
+f) tubi laminati e trafilati con processo iniziale a caldo;
+g) latta.
+La produzione dei grossi e medi fucinati è considerata siderurgica quando il processo produttivo ha inizio dal lingotto o dal blumo per cui i fucinati costituiscono semiprodotto per ulteriori lavorazioni.
+La produzione dei laminati, trafilati, tubi e latta è considerata siderurgica quando il processo produttivo si inizia a caldo e prosegue anche a freddo senza soluzione di continuità .
+Alle produzioni di cui alle voci a), b), c), d), e), f) e g) si intendono connessi i procedimenti preliminari e complementari delle stesse e cioè DRI/preridotto, cokeria, agglomerazione, trattamento termico.
+Le parti concordano che con la definizione di fucinatura siderurgica grossa e media che inizia dal lingotto o dal blumo, di cui alla voce d), non hanno inteso ampliare il concetto tradizionale di attività  siderurgica, nà© hanno inteso restringerlo con la dizione di ghisa di prima fusione di cui alla voce a) stesso comma.
+
+Autoavio: sono compresi gli stabilimenti addetti alla costruzione in serie delle autovetture ed autocarri nel loro totale complesso e degli aeromobili, nonchà© quelli addetti alla costruzione in serie di carrozzerie con esclusione delle aziende che esercitano la loro attività  nella costruzione di parti, accessori e simili e nella riparazione di autovetture, autocarri e carrozzerie. Sono compresi nel settore autoavio gli stabilimenti che producono trattori agricoli che appartengono alle aziende inquadrate nello stesso settore in quanto producono autoveicoli.
+Elettromeccanico ed elettronico: sono compresi gli stabilimenti fabbricanti esclusivamente o prevalentemente prodotti complessi che utilizzino energie e segnali elettrici e magnetici e nei quali la parte elettrica/elettronica sia caratterizzante e di importanza fondamentale.
+Tra le produzioni elettromeccaniche ed elettroniche sono comprese:
+- macchine elettriche, nel senso tradizionale dell'espressione;
+- apparecchiature elettriche complesse;
+- i componenti e sistemi di propulsione elettrica per veicoli terrestri, natanti ed aeromobili inclusi i sistemi di generazione ed accumulo per l'energia;
+- strumenti di misura elettrici, elettronici anche digitali;
+- apparecchi per telefonia, telegrafia e radiotelegrafia, radio-tecnica, ripresa, elaborazione e trasmissione audio video;
+- apparati elettronici di acquisizione, memorizzazione, elaborazione e trasmissione di dati, le applicazioni dell'elettronica di potenza e l'applicazione delle tecnologie elettroniche a macchine operatrici, dispositivi, attrezzature;
+- elettrodomestici (fabbricazione completa ed in grandi serie).
+Fonderie di seconda fusione: comprende gli stabilimenti che effettuano:
+- la fusione di ghisa in getti;
+- la fusione di acciaio in getti.
+
+Cantieristica navale: comprende gli stabilimenti che svolgono la loro attività nella costruzione, riparazione e demolizione di navi, nonchà© nell'esercizio di bacini di carenaggio.
+
+NORMA COMUNE.
+In ciascuno stabilimento si considera prevalente l'attività  alla quale è addetto il maggior numero di dipendenti; nel caso di pià¹ di due attività  la prevalenza è determinata dalla maggioranza relativa dei lavoratori addetti.
+Nel caso in cui in una azienda sono esplicate due o pià¹ attività , tutte inquadrate nel Contratto meccanici, al personale addetto alla Direzione generale e alle Filiali, con esclusione dei negozi, si applicheranno le norme relative all'attività  alla quale è addetto il maggior numero di lavoratori.
+
+COMMISSIONE PARITETICA NAZIONALE DI STUDIO SUI COMPARTI.
+Le parti convengono di costituire un Gruppo di lavoro paritetico con il compito di individuare comparti omogenei per caratteristiche organizzative, tecnologiche e di mercato.
+La Commissione potrà  selezionare nei comparti individuati (per esempio informatica) le aree tematiche che necessitano di discipline specifiche.
+I risultati dei lavori della Commissione saranno presentati alle parti.
+
+SEZIONE PRIMA
+
+SISTEMA DI RELAZIONI SINDACALI
+
+Federmeccanica, Assistal e Fim, Fiom, Uilm intendendo consolidare e dare ulteriore sviluppo alla scelta del metodo partecipativo contenuta nella Premessa al Contratto convengono sulla necessità  di rafforzare il sistema di Osservatori congiunti e Commissioni paritetiche quali sedi di analisi e di confronto costruttivo e positivo per individuare e promuovere iniziative e per perseguire soluzioni, in una logica di integrazione e coordinamento tra i diversi livelli.
+Le attività , i dati e le informazioni prodotte dal sistema degli Osservatori e delle Commissioni rappresenteranno una base comune e condivisa, utile all'attività  delle parti.
+Le Relazioni Industriali potranno anche tradursi in momenti di approfondimento congiunti per gli operatori di entrambe le parti al fine di perseguire un miglioramento dell'insieme dei rapporti, dei comportamenti e delle pratiche.
+
+ORGANISMO BILATERALE NAZIONALE PER IL SETTORE METALMECCANICO E DELLA INSTALLAZIONE D'IMPIANTI
+
+Le parti, nel convenire sulla necessità  di rafforzare il sistema di relazioni sindacali in sede di categoria attraverso la costruzione di un compiuto sistema partecipativo fondato su una qualificata bilateralità , concordano di avviare la costituzione dell'Organismo Bilaterale Nazionale (O.B.N.) per il settore Metalmeccanico e dell'Installazione di impianti.
+Un'apposita Commissione composta da 6 componenti per ciascuna delle due parti provvederà  a definire gli aspetti costitutivi, organizzativi e funzionali dell'O.B.N..
+La Commissione provvederà  altresà¬ agli adempimenti necessari alla costituzione dell'O.B.N..
+
+DICHIARAZIONE A VERBALE
+
+Le parti convengono che fino alla costituzione dell'Organismo Bilaterale Nazionale le attività  previste continueranno ad essere svolte dall'Osservatorio paritetico nazionale.
+
+12 Sez. Prima - Sistema di relazioni sindacali
+
+Art. 1. - Osservatorio paritetico nazionale sull'industria metalmeccanica e della installazione di impianti.
+L'Osservatorio svolgerà  i propri compiti articolandosi nelle seguenti aree tematiche.
+1.1 Sviluppo industriale e situazione economico-sociale dell'industria metalmeccanica.
+Analisi e approfondimento delle dinamiche economiche, produttive, sociali ed occupazionali anche in relazione agli interventi organizzativi e alle evoluzioni connesse a Industry 4.0.
+A tal fine, sarà  elaborata una base dati periodicamente aggiornata con riferimento alle divisioni e gruppi di attività  metalmeccaniche e impiantistiche come definiti nella classificazione delle attività  economiche Ateco 2007 che consentirà di monitorare l'andamento dei singoli comparti.
+Saranno condotti approfondimenti specifici con riferimento ai comparti che di volta in volta saranno individuati di comune accordo tra le parti - anche in relazione alle evidenziazioni delle competenti Organizzazioni di categoria - per poter sostanziare attraverso analisi strutturate proposte orientate allo sviluppo ed alla crescita del settore metalmeccanico e dell'installazione di impianti.
+Sulla base delle analisi sviluppate nell'Osservatorio, le parti si attiveranno per evidenziare presso le sedi istituzionali competenti le tematiche pià¹ significative per la politica industriale relativa al settore anche con riferimento al Mezzogiorno ed alla realtà  delle piccole imprese.
+1.2 Sviluppo analisi e monitoraggio degli accordi aziendali.
+Analisi e monitoraggio degli accordi stipulati nelle aziende metalmeccaniche anche con riferimento a quanto previsto dagli Accordi Interconfederali in vigore finalizzato a promuovere e favorire la diffusione della contrattazione di secondo livello avente come obiettivo incrementi di produttività , redditività , qualità , efficienza ed innovazione e consentire la fruizione delle agevolazioni previste dalla legge.
+Sulla base delle risultanze dello studio le Parti valuteranno l'opportunità  di aggiornare le Linee Guida per la diffusione del Premio di risultato di cui all'allegato 5 del presente contratto nazionale.
+In tale ambito saranno altresà¬ analizzate e monitorate le esperienze di welfare aziendale e di coinvolgimento paritetico dei lavoratori nell'organizzazione del lavoro in relazione alle innovazioni legislative in materia nonchà© i miglioramenti delle condizioni di lavoro.
+1.3 Sistemi di partecipazione nelle aziende metalmeccaniche in Italia e in Europa e Dialogo sociale europeo.
+La presente area tematica, allo scopo di promuovere sistemi di relazioni industriali di tipo partecipativo all'interno del settore, sarà  dedicata al monitoraggio
+
+ed all'analisi delle esperienze pià¹ significative in materia realizzate sia in Italia che in Europa.
+Le parti esamineranno e valuteranno le sperimentazioni aziendali in materia di coinvolgimento e partecipazione dei lavoratori di cui all'articolo 10.
+1.4 Sessione Covid-19.
+L'attività  dell'Osservatorio paritetico nazionale sull'industria metalmeccanica e della installazione di impianti - Sessione Covid-19, proseguirà  fino al termine della pandemia.
+Le Linee guida per lo svolgimento delle agibilità  sindacali durante l'emergenza sanitaria determinata dal Covid-19 sottoscritte il 18 giugno 2020 nell'ambito dell'Osservatorio Paritetico Nazionale sono riportate nell'Allegato n. 6.
+
+Art. 2. - Osservatori paritetici territoriali sull'industria metalmeccanica.
+Laddove non già  costituiti, le Associazioni territoriali imprenditoriali promuoveranno d'intesa con le analoghe istanze territoriali di Fim, Fiom e Uilm, la costituzione di Osservatori congiunti che, con riferimento alla situazione riferita al settore metalmeccanico, considerata globalmente nel territorio interessato, svolgeranno i propri compiti approfondendo le seguenti aree tematiche.
+- Situazione economico-sociale dell'industria metalmeccanica anche in riferimento agli effetti determinati dalla pandemia Covid-19 ed alle esperienze maturate nei comitati aziendali;
+- Evoluzione della struttura organizzativa e produttiva dell'industria metalmeccanica;
+- Analisi e monitoraggio degli accordi aziendali sul Premio di risultato anche con riferimento a quanto previsto dagli Accordi Interconfederali in vigore;
+a tali fini le parti valuteranno congiuntamente la possibilità  di iniziative di promozione, anche mediante la costituzione di un apposito gruppo di lavoro;
+- Analisi e monitoraggio degli accordi aziendali relativi alla prestazione lavorativa e alle condizioni di lavoro.
+Gli Osservatori si riuniranno di norma due volte all'anno (rispettivamente entro il 28 febbraio ed entro il 31 ottobre).
+Le parti convengono che gli incontri degli Osservatori paritetici congiunti avranno sede presso l'Associazione territoriale imprenditoriale che fornirà  i servizi di segreteria.
+L'Osservatorio nazionale avrà  il compito di monitorare le attività  degli Osservatori territoriali e, nel caso di riscontrati ritardi nella costituzione o nell'avvio dell'attività , si attiverà  al fine di rimuovere le eventuali condizioni ostative.
+
+14 Sez. Prima - Sistema di relazioni sindacali
+
+Art. 3. - Comitato consultivo di partecipazione.
+Nelle aziende che occupano complessivamente pià¹ di 1.000 dipendenti e con almeno una unità  produttiva con pià¹ di 500 dipendenti è costituito, su richiesta di una delle parti, il Comitato consultivo di partecipazione composto da 3 a 6 Rappresentanti dell'impresa e da un uguale numero di componenti in rappresentanza congiunta delle Organizzazioni sindacali, nazionali o territoriali, di Fim, Fiom e Uilm e della Rappresentanza sindacale unitaria.
+Il comitato consultivo di partecipazione si riunisce almeno una volta all'anno o su richiesta di parte motivata da circostanze rilevanti concernenti il complesso aziendale per esaminare:
+3.1 Struttura e tendenze dei mercati su cui opera l'azienda.
+3.2 Strategie industriali anche con riferimento a eventuali modifiche organizzative.
+3.3 Andamento dell'occupazione con riferimento alle possibili tipologie di assunzione.
+Il comitato consultivo di partecipazione è inoltre convocato dall'azienda in caso di scelte strategiche rilevanti riguardanti l'assetto industriale e le prospettive dell'occupazione anche al fine di consentire ai rappresentanti sindacali di esprimere un parere.
+I partecipanti alle riunioni sono tenuti alla riservatezza sulle informazioni di carattere confidenziale ed al rigoroso rispetto del segreto industriale su fatti e dati di cui vengono a conoscenza.
+Le parti in sede aziendale potranno concordare di dare corso, in occasione degli incontri agli adempimenti di cui all'articolo 9, Sezione prima, del presente CCNL.
+Sono fatti salvi gli eventuali accordi aziendali esistenti in materia.
+
+Art. 4. - Commissione nazionale su salute e sicurezza.
+Federmeccanica, Assistal e Fim, Fiom, Uilm allo scopo di promuovere la cultura della sicurezza e della prevenzione nei luoghi di lavoro e consolidare l'obiettivo del miglioramento continuo quali valori condivisi e obiettivi comuni delle imprese, dei lavoratori e delle parti a tutti i livelli convengono di costituire la Commissione nazionale per la salute e sicurezza.
+La Commissione ha il compito di gestire e proseguire il rapporto di collaborazione avviato con l'INAIL con la stipula del Protocollo 8 giugno 2018 sia per quanto riguarda la predisposizione di una banca dati statistica degli infortuni sul lavoro e delle malattie professionali nei vari settori dell'industria metalmeccanica sia sviluppando, d'intesa con l'Istituto, campagne informative sulla prevenzione e sui rischi trasversali a tutti i comparti.
+La Commissione, con cadenza annuale, anche nell'ambito della settimana nazionale della Sicurezza, organizzerà  un evento nazionale tematico le cui modalità e contenuti saranno definiti sulla base delle valutazioni condivise; in tale occasione potrà  essere approfondita, di anno in anno, una tematica di rischio specifico tipico del settore.
+Nella giornata nazionale per la sicurezza e la salute dei lavoratori metalmeccanici, anche al fine di valorizzare e diffondere le buone pratiche saranno premiate le migliori esperienze realizzate in azienda. Le modalità  di promozione, partecipazione e di selezione delle esperienze pià¹ significative saranno definite dalla Commissione nazionale.
+Inoltre, la Commissione ha il compito di monitorare e verificare la possibilità di implementare le Linee Guida sottoscritte l'8 ottobre 2018 (allegato n. 7) che potranno essere aggiornate alla luce delle esperienze che si svilupperanno nei territori e nelle aziende, di diffondere la conoscenza dei break formativi attraverso la raccolta e la diffusione delle buone pratiche sia con l'organizzazione di eventi congiunti pluri-regionali sia attraverso una pubblicazione condivisa sul tema (preferibilmente elettronica) da mettere a disposizione delle aziende e delle strutture sindacali.
+In tale contesto la Commissione potrà  sviluppare Linee guida, declinate anche in relazione alle dimensioni aziendali, da fornire alle Commissioni territoriali su formazione congiunta RLS-RSPP-Responsabili di linea sul DVR, DUVRI, e sul ruolo dei diversi soggetti riguardo il controllo, la prevenzione, e gli interventi possibili per diminuire la frequenza e la gravità  degli incidenti e l'insorgenza delle malattie professionali.
+La Commissione nazionale, prendendo lo spunto da esperienze già  realizzate nei territori, potrà  predisporre e diffondere la conoscenza di esempi virtuosi di sviluppo della formazione in materia di sicurezza, ad esempio, approfondire e diffondere la Root Cause Analysis quale strumento per aiutare a identificare non solo cosa e come si è verificato un evento, ma anche perchà© è successo attraverso la tecnica c.d. dei â€œ5 perchà©â€ che permette di risalire alla causa ultima per la quale è avvenuto l'infortunio sul lavoro.
+La Commissione oltre a quanto sopra riportato in relazione alle Linee guida per la formazione congiunta RSPP/RLS sottoscritte l'8 ottobre 2018, proseguirà la propria attività  predisponendo moduli per la formazione congiunta RSPP/preposti/RLS sui sistemi e modalità  di segnalazione e rilevazione dei â€œquasi infortuniâ€ e comportamenti insicuri.
+Predisporrà , inoltre, apposite indicazioni operative per la realizzazione dei break formativi anche su tematiche pià¹ particolari quali, ad esempio:
+- come segnalare i quasi infortuni, i comportamenti insicuri, le condizioni di insicurezza;
+- come verificare il corretto utilizzo dei dispositivi di sicurezza da parte dei lavoratori ecc.;
+- la formazione per la gestione dei fermi macchina durante la manutenzione o per interventi su guasti.
+Le parti riconoscono l'opportunità  della realizzazione di iniziative convenute a livello territoriale, in relazione ad evidenze emergenti, ricercando il maggior coinvolgimento possibile dei soggetti interessati alla gestione della salute e della
+
+16 Sez. Prima - Sistema di relazioni sindacali
+
+sicurezza nei luoghi di lavoro.
+La Commissione nazionale salute e sicurezza, infine, ha il compito di elaborare un â€œVademecum per l'invio dei lavoratori all'esteroâ€ che tenga conto anche degli obblighi derivanti dal recepimento della Direttiva 2018/957 sul distacco. In tale ambito, si porrà  particolare attenzione alle trasferte in luoghi disagiati o pericolosi.
+
+Art. 5. - Commissione nazionale sulle Politiche attive.
+Federmeccanica, Assistal e Fim, Fiom, Uilm, ritenendo strategico il ruolo che puà² essere svolto dalle politiche attive per promuovere l'occupabilità  e favorire la riqualificazione ed il reinserimento lavorativo, convengono sulla necessità  di impegnarsi per quanto riguarda il settore metalmeccanico e dell'installazione di impianti ad individuare iniziative efficaci in stretta collaborazione con gli osservatori territoriali e ricercando interazioni con l'ANPAL e i soggetti di cui alla rete dei servizi per le politiche del lavoro.
+A tal fine convengono di costituire la Commissione nazionale per le Politiche attive con i seguenti compiti:
+- predisposizione e promozione di linee guida per la definizione di specifiche iniziative formative per la riqualificazione e l'aggiornamento professionale dei lavoratori interessati dal ricorso agli ammortizzatori sociali favorendo, a tali fini, anche la promozione dell'adozione del bilancio delle competenze;
+- anche al fine di quanto sopra si punterà  a sviluppare la raccolta dei dati riguardanti le competenze richieste sul territorio per acquisire elementi di orientamento per la riqualificazione professionale del personale.
+
+Art. 6. - Formazione professionale Federmeccanica, Assistal e Fim, Fiom, Uilm convengono sull'importanza della formazione continua quale strumento fondamentale per la valorizzazione delle persone e per l'indispensabile incremento della competitività  dell'impresa e la considerano, anche in virtà¹ dell'introduzione del diritto soggettivo alla formazione continua di cui all'articolo 7, sez. IV, Titolo VI, un valore condiviso la cui realizzazione rappresenta un impegno partecipativo secondo quanto di seguito definito.
+In particolare la formazione continua sarà  fattore necessario per fronteggiare i cambiamenti relativi alla trasformazione del lavoro introdotti dalle innovazioni tecnologiche, di processo e di prodotto, in considerazione soprattutto del recupero del gap delle competenze digitali.
+6.1. Commissione nazionale per la formazione professionale e l'apprendistato.
+Federmeccanica, Assistal e Fim, Fiom, Uilm convengono di affidare alla Commissione nazionale per la formazione professionale e l'apprendistato oltre a quelli ad essa attribuiti dall'articolo 5 della disciplina dell'Apprendistato professionalizzante che è parte integrante del vigente CCNL, i seguenti compiti:
+a) promuovere presso Fondimpresa, o attivando altri canali di finanziamento, azioni di sistema finalizzate alla formazione delle parti sociali anche relativamente all'analisi del fabbisogno, promozione e monitoraggio della formazione continua dei lavoratori;
+b) valutare, anche al fine di un loro aggiornamento, i criteri e le procedure di condivisione dei piani settoriali a valere sugli avvisi di Fondimpresa;
+c) individuare le specifiche esigenze formative del settore metalmeccanico e della installazione di impianti, analizzando in particolare i dati dei piani settoriali presentati a Fondimpresa e utilizzando le indicazioni fornite dalle Commissioni territoriali di cui al successivo punto 6.2.;
+d) promuovere, congiuntamente, come nel caso dei progetti â€œFormazione per l'apprendistatoâ€ e â€œ@pprendoâ€, iniziative formative capaci di rispondere ai fabbisogni sopra rilevati con particolare riguardo a progetti finalizzati all'inserimento, all'aggiornamento e alla riqualificazione dei lavoratori in relazione a quanto imposto dall'innovazione tecnologica e organizzativa;
+e) promuovere iniziative formative, anche per il tramite di Fondimpresa, destinate ai componenti dei Comitati di Pilotaggio indicati negli accordi di condivisione dei Piani formativi settoriali;
+f) promuovere, d'intesa con le Commissioni territoriali, presso Fondimpresa iniziative formative congiunte per i componenti del Comitato consultivo di partecipazione di cui all'articolo 3, Sezione prima.
+6.2. Commissioni territoriali per la formazione professionale e l'apprendistato.
+Laddove non già  costituite, le Associazioni territoriali imprenditoriali promuoveranno d'intesa con le analoghe istanze territoriali delle Organizzazioni sindacali stipulanti, la costituzione di Commissioni paritetiche sulla formazione professionale e l'apprendistato, formate da massimo 6 rappresentanti per ciascuno dei due gruppi di sindacati stipulanti.
+Le Commissioni paritetiche territoriali, oltre a quanto previsto dall'articolo 5 del vigente Contratto collettivo per la disciplina dell'apprendistato, hanno il compito di:
+a) monitorare la normativa vigente in materia, con particolare riguardo a quella emanata a livello territoriale, al fine, tra l'altro, di cogliere tempestivamente tutte le opportunità  di volta in volta consentite dal sistema formativo e scolastico;
+b) individuare congiuntamente le specifiche esigenze formative del settore metalmeccanico e della installazione di impianti, con riferimento all'evoluzione delle tecnologie impiegate, per un maggiore allineamento delle competenze dei lavoratori con quelle richieste dal mercato anche utilizzando i risultati emersi da rilevazioni â€œad hocâ€ predisposte nel territorio, con riferimento ad iniziative di formazione continua eventualmente poste in essere dalle Aziende e da progetti interaziendali, ovvero anche da Academy
+
+18 Sez. Prima - Sistema di relazioni sindacali
+
+aziendali presenti sul territorio, Università , Competence Center, centri di formazione, ecc.
+c) condividere e proporre aree tematiche (anche declinate in corsi) da trasferire a imprese e lavoratori per orientarli alla definizione di piani formativi;
+d) valutare, ai fini di una semplificazione, i processi di condivisione dei piani da presentare a Fondimpresa per le aziende che non hanno rappresentanza interna;
+e) monitorare i piani condivisi in commissione e diffondere le buone pratiche;
+f) promuovere la sperimentazione di specifiche iniziative formative in materia ambientale e di sicurezza;
+g) prestare particolare attenzione alla promozione di iniziative formative a favore delle fasce deboli, delle donne in un'ottica di una piena attuazione degli obiettivi di parità  di genere nonchà© a favore delle lavoratrici al rientro dalla maternità .
+Le Commissioni paritetiche territoriali si riuniscono di norma trimestralmente o su richiesta di una delle parti, presiedute a turno da un componente dei due gruppi che le hanno costituite, deliberano all'unanimità  per l'attuazione dei compiti sopraindicati e annualmente riferiranno sull'attività  svolta alla Commissione paritetica nazionale di cui al precedente punto 4.1.
+Le parti convengono che gli incontri della Commissione avranno sede presso l'Associazione territoriale che fornirà  i servizi di segreteria.
+Le parti assicureranno un comune impegno di interlocuzione con le Istituzioni regionali competenti in materia di formazione professionale.
+6.3. Commissioni aziendali per la formazione professionale.
+Nelle Aziende che occupano almeno 500 dipendenti occupati presso una stessa unità  produttiva, sarà  costituita, su richiesta di una delle parti, una Commissione paritetica sulla formazione professionale, formata da non pià¹ di 3 componenti rispettivamente in rappresentanza della Direzione e della Rappresentanza sindacale unitaria.
+Tale Commissione, tenuto conto di quanto previsto all'articolo 7, Sez. IV, Titolo VI, avrà  il compito di:
+a) verificare a consuntivo il numero di iniziative di formazione continua realizzate nell'anno solare precedente, la loro tipologia, il numero delle giornate di formazione e quello complessivo dei dipendenti coinvolti;
+b) valutare la realizzabilità , in funzione delle specifiche esigenze aziendali, di progetti formativi per i lavoratori non coinvolti nelle iniziative formative realizzate precedentemente;
+c) contribuire a diffondere, in accordo con l'Azienda, la conoscenza tra i lavoratori delle iniziative di formazione continua offerte dal territorio;
+d) esaminare le specifiche esigenze formative dei lavoratori con riferimento all'evoluzione delle tecnologie impiegate in Azienda ed al fine di rispondere in modo pià¹ adeguato ed efficace alle necessità  di mercato e di qualità del prodotto;
+e) segnalare i fabbisogni formativi, il numero dei lavoratori potenzialmente interessati nonchà© ogni altra notizia ritenuta utile, alle Commissioni territoriali competenti.
+Sono fatti salvi gli eventuali accordi aziendali esistenti in materia.
+6.4. Referente per la formazione professionale.
+Nelle unità  produttive con oltre 300 dipendenti, al fine di rendere pià¹ efficiente ed efficace il confronto tra azienda e RSU circa la definizione di piani aziendali finanziabili anche da Fondimpresa, la RSU potrà  individuare al proprio interno un componente delegato alla formazione, che sarà  referente specialistico dell'azienda sulla materia in coerenza con le norme previste per il funzionamento di Fondimpresa e dei fondi interprofessionali per la formazione.
+L'azienda consentirà  al referente per la formazione la frequenza a corsi formativi inerenti al ruolo che saranno attivati utilizzando il conto di sistema di Fondimpresa, fatte salve le eventuali esigenze di carattere tecnico e produttivo.
+
+DICHIARAZIONE COMUNE Collaborazione Scuola Impresa nei percorsi di Istruzione Alternanza scuola lavoro, Istruzione Tecnica Superiore, Apprendistato Le parti riconoscono l'esigenza di rafforzare ed accrescere le reti di collaborazione tra il mondo della formazione e quello del lavoro oggi attive in alcune iniziative spesso non in connessione tra loro. In questo ambito si presenta l'occasione per promuovere il senso di responsabilità  sociale delle imprese che in coordinamento con le istituzioni scolastiche possono contribuire ad integrare i curricula scolastici offrendo esperienze formative sul lavoro e di orientamento, cosà¬ da sviluppare nei giovani le competenze utili ad affrontare in modo consapevole il mondo del lavoro.
+In tal senso le parti riconoscono l'importanza dello sviluppo di un sistema di attestazione delle competenze acquisite dai giovani in ambito lavorativo come strumento che garantisca la serietà  dell'esperienza formativa on the job e che valorizzi il curriculum dei giovani.
+Le parti intendono monitorare e diffondere congiuntamente gli strumenti di collaborazione formativa tra scuola e impresa esistenti nel nostro ordinamento, ossia: l'alternanza scuola lavoro, gli ITS, l'apprendistato duale.
+Alternanza scuola lavoro. Le parti intendono sostenere l'alternanza scuola lavoro in quanto modalità  didattica adottata per sviluppare e valorizzare le attitudini degli studenti e, quindi, parte integrante del curricolo scolastico degli studenti dell'ultimo triennio delle scuole superiori. Essa ha la finalità  di completare alcune delle competenze formate a scuola e di svilupparne altre, attraverso le conoscenze
+
+20 Sez. Prima - Sistema di relazioni sindacali
+
+e le esperienze che si possono acquisire in ambito lavorativo, di far conoscere e sperimentare, anche con il coinvolgimento della RSU, la dimensione di relazione, la rappresentanza dei diversi interessi e dei diversi modelli organizzativi all'interno delle aziende e di orientare gli studenti, superando tradizionali orientamenti di genere, a futuri percorsi di istruzione o all'inserimento nel mondo del lavoro.
+Affinchà© l'alternanza scuola lavoro possa espletare compiutamente tali finalità  e possa, quindi, definirsi un'esperienza di qualità , le parti individuano quali capisaldi necessari: un percorso congruo per uno sviluppo delle competenze obiettivo in relazione alle caratteristiche delle aziende e del progetto da realizzare; la progettazione congiunta tra scuola e impresa dell'esperienza in alternanza; la valutazione congiunta dell'esperienza medesima; l'attestazione delle competenze acquisite dai ragazzi in ambito lavorativo.
+Istituti Tecnici Superiori. Le parti intendono diffondere la conoscenza dei percorsi post diploma ITS che offrono una formazione tecnica altamente qualificata che agevola l'accesso dei giovani nel mondo del lavoro. I corsi di istruzione terziaria, ITS, sono realizzati in collaborazione con imprese, università , centri di ricerca ed enti locali per sviluppare nuove competenze in aree tecnologiche importanti per lo sviluppo economico e per la competitività  del Paese. Al fine di monitorare la diffusione della conoscenza di tale percorso formativo, i risultati in termini occupazionali degli studenti diplomati e l'attestazione delle competenze acquisite in ambito lavorativo, la Commissione Nazionale Formazione Professionale e Apprendistato attiverà  una collaborazione a partire dalla rete tra ITS di area meccanica e meccatronica costituita con accordo del 2015, prevedendo con la stessa incontri periodici.
+Apprendistato. Le parti sostengono l'apprendistato professionalizzante quale canale privilegiato di accesso al lavoro e l'apprendistato duale (cioè di I e III livello) quale strumento di formazione che combina il percorso di istruzione con un contratto di lavoro. Le parti intendono promuovere l'apprendistato duale, che è ancora poco sviluppato e coinvolge un numero limitato di studenti e imprese, supportando la progettazione di ulteriori e nuovi percorsi di apprendistato diffondendo le buone pratiche di progettazione presenti nel territorio nazionale tra scuole, università  e imprese, i risultati in termini occupazionali dei giovani e monitorando l'attestazione delle competenze acquisite in ambito lavorativo.
+
+Art. 7. - Pari opportunità .
+7.1 Commissione nazionale per le pari opportunità .
+Federmeccanica, Assistal e Fim, Fiom, Uilm convengono di costituire la â€œCommissione paritetica per le pari opportunità â€ con lo scopo di svolgere attività di studio, ricerca e promozione delle pari opportunità  tra uomo e donna con particolare attenzione:
+a) all'andamento dell'occupazione, alle caratteristiche della presenza femminile nel settore anche con riferimento ai ruoli connessi alle nuove tecnologie;
+b) alle iniziative di azioni positive, in particolare quelle per la flessibilità dell'orario e per la promozione di comportamenti coerenti con i principi di pari opportunità  nel lavoro;
+c) alla prevenzione di forme di molestie sessuali nei luoghi di lavoro anche attraverso ricerche sulla diffusione e le caratteristiche del fenomeno; a tal fine promuoverà , inoltre, iniziative di sensibilizzazione finalizzate allo sviluppo della cultura del rispetto della dignità  della donna.
+La Commissione opererà  in coordinamento con le Commissioni territoriali di cui al successivo punto 7.2..
+La Commissione si riunisce di norma trimestralmente o su richiesta di una delle parti, presieduta a turno da un componente dei due gruppi, delibera all'unanimità  per l'attuazione dei compiti sopraindicati.
+Essa si potrà  avvalere, per lo svolgimento dei propri compiti, del contributo di esperti/e nominati di comune accordo.
+Tre mesi prima della scadenza del presente Contratto, la Commissione terminerà  i lavori presentando un rapporto conclusivo completo dei materiali raccolti ed elaborati: in questa sede verranno presentate tanto le proposte sulle quali sia stata raggiunta l'unanimità  di pareri della Commissione, quanto le valutazioni che costituiscono le posizioni di una delle componenti.
+7.2 Commissioni territoriali per le pari opportunità .
+Laddove non già  costituite, le Associazioni territoriali imprenditoriali promuoveranno di intesa con le analoghe istanze territoriali di Fim, Fiom, Uilm la costituzione di Commissioni paritetiche per le pari opportunità .
+Le Commissioni cosà¬ costituite hanno il compito di svolgere, con specifico riferimento alla realtà  locale ed in collaborazione con gli organismi territoriali di cui all'articolo 2, attività  di studio, ricerca e promozione sui principi di parità  di cui al Decreto legislativo 11 aprile 2006, n. 198 e successive modificazioni, Codice delle pari opportunità  tra uomo e donna, e di individuare gli eventuali ostacoli che non consentono un'effettiva parità  di opportunità  tra donne e uomini nel lavoro nonchà© le modalità  per un loro superamento.
+In particolare:
+a) analizzare il mercato del lavoro e le specificità  territoriali dell'andamento dell'occupazione femminile nel settore;
+b) promuovere la sperimentazione di azioni positive anche in materia di flessibilità  d'orario nonchà© interventi volti a facilitare il reinserimento delle lavoratrici dopo l'assenza per maternità ;
+c) promuovere, in collegamento con l'attività  della Commissione nazionale di cui alla lettera c) del punto 7.1., comportamenti coerenti con gli obiettivi di tutela della dignità  degli uomini e delle donne nell'ambiente di lavoro.
+Le Commissioni operano in stretto collegamento con la Commissione nazio22 Sez. Prima - Sistema di relazioni sindacali
+
+nale sulla base delle informazioni, dei dati, delle ricerche e delle proposte fornite dalla stessa.
+Le Commissioni paritetiche territoriali si riuniscono di norma trimestralmente o su richiesta di una delle parti, presiedute a turno da un componente dei due gruppi che le hanno costituite, deliberano all'unanimità  per l'attuazione dei compiti sopraindicati e, dopo il primo anno, riferiranno sull'attività  svolta alla Commissione paritetica nazionale di cui al precedente punto 7.1..
+Le parti convengono che gli incontri della Commissione avranno sede presso l'Associazione territoriale imprenditoriale che fornirà  i servizi di segreteria.
+7.3 Commissioni aziendali per le pari opportunità .
+Nelle Aziende che occupano complessivamente pià¹ di 1000 dipendenti, di cui almeno 300 occupati presso una stessa unità  produttiva, sarà  costituita, su richiesta di una delle parti, una Commissione paritetica per le pari opportunità , formata da non pià¹ di 3 componenti rispettivamente in rappresentanza della Direzione e della Rappresentanza sindacale unitaria.
+La Commissione:
+a) valuta la possibilità  di realizzare le iniziative e gli interventi individuati dalla Commissione nazionale con specifico riferimento agli obiettivi di:
+- promuovere comportamenti coerenti con i principi di pari opportunità  nel lavoro;
+- facilitare il reinserimento delle lavoratrici dopo l'assenza per maternità ;
+- favorire l'occupazione femminile in ruoli connessi alle nuove tecnologie;
+- prevenire forme di molestie sessuali nei luoghi di lavoro.
+La eventuale realizzazione delle iniziative avverrà  in collaborazione con la Commissione territoriale.
+b) Esamina le eventuali controversie circa l'applicazione in azienda dei principi di parità  di cui al Capo II, Divieti di discriminazione, artt. 27 e seguenti, Decreto legislativo 11 aprile 2006, n. 198 e successive modificazioni, Codice delle pari opportunità  tra uomo e donna con l'obiettivo di promuovere una loro pacifica composizione, al fine di evitare il ricorso ad altre forme di tutela.
+Sono fatti salvi gli eventuali accordi aziendali esistenti in materia.
+7.4 Informazioni in materia di pari opportunità .
+Le aziende tenute a redigere, ai sensi dell'articolo 46, Decreto legislativo 11 aprile 2006, n. 198, Codice delle pari opportunità  tra uomo e donna, il rapporto biennale sulla situazione del personale maschile e femminile, presenteranno i dati elaborati alle Rappresentanze sindacali unitarie in occasione di un apposito incontro da tenersi nel mese in cui il rapporto viene trasmesso nel rispetto delle disposizioni di legge.
+
+7.5 Azioni per la prevenzione di molestie e violenze nei luoghi di lavoro.
+Allo scopo di perseguire l'obiettivo di tutelare la dignità  delle lavoratrici e dei lavoratori nell'ambiente di lavoro quale luogo in cui ogni azione contraria deve essere considerata inaccettabile, le aziende sono tenute ad adottare la Dichiarazione di cui all'Allegato B dell'Accordo quadro sulle molestie e la violenza nei luoghi di lavoro sottoscritto da Confindustria e Cgil, Cisl e Uil il 25 gennaio 20161.
+Inoltre, le aziende, al fine di promuovere comportamenti consoni e a favorire relazioni interpersonali improntate al rispetto ed alla correttezza reciproca, si attiveranno per sensibilizzare i lavoratori e le lavoratrici sul tema e migliorare il livello di consapevolezza con iniziative formative-informative mirate, anche sulla base delle indicazioni elaborate dalla Commissione nazionale per le pari opportunità  nell'ambito della propria attività  di promozione.
+
+Art. 8. - Commissione nazionale per l'integrazione dei lavoratori migranti.
+Federmeccanica, Assistal e Fim, Fiom, Uilm, convengono di costituire in sede nazionale la â€œCommissione per l'integrazione dei lavoratori migrantiâ€ formata da 6 rappresentanti per ciascuno dei due gruppi di sindacati stipulanti con lo scopo di individuare iniziative dirette a promuovere presso le aziende l'integrazione e la comprensione culturale dei lavoratori migranti.
+In particolare, la Commissione ha il compito di:
+a) proporre, sulla scorta delle esperienze già  maturate, interventi diretti a favorire l'organizzazione delle mense aziendali nel rispetto delle differenze di culto religioso;
+b) promuovere l'applicazione di quanto già  indicato nella Dichiarazione Comune posta in calce alla disciplina contrattuale delle ferie volto a permettere ai singoli lavoratori di fruire di periodi continuativi di assenza dal 1) L'azienda â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦ ritiene inaccettabile ogni atto o comportamento che si configuri come molestie o violenza nel luogo di lavoro, e si impegna ad adottare misure adeguate nei confronti di colui o coloro che le hanno poste in essere. Per molestie o violenza si intende quanto stabilito dalle definizioni previste dall'Accordo e qui di seguito riportato:
+â€œLe molestie si verificano quando uno o pià¹ individui subiscono ripetutamente e deliberatamente abusi, minacce e/o umiliazioni in contesto di lavoro. La violenza si verifica quando uno o pià¹ individui vengono aggrediti in contesto di lavoro. Le molestie e la violenza possono essere esercitate da uno o pià¹ superiori, o da uno o pià¹ lavoratori o lavoratrici, con lo scopo o l'effetto di violare la dignità  della persona, di nuocere alla salute e/o di creare un ambiente di lavoro ostileâ€.
+Riconosce, inoltre, il principio che la dignità  degli individui non puà² essere violata da atti o comportamenti che configurano molestie o violenza e che vanno denunciati i comportamenti molesti o la violenza subite sul luogo di lavoro.
+Nell'azienda tutti hanno il dovere di collaborare al mantenimento di un ambiente di lavoro in cui sia rispettata la dignità  di ognuno e siano favorite le relazioni interpersonali, basate su principi di eguaglianza e di reciproca correttezza, anche in attuazione dell'Accordo delle parti sociali europee del 26 aprile 2007 e della dichiarazione congiunta del 25 gennaio 2016.
+Firma del datore di lavoro
+
+24 Sez. Prima - Sistema di relazioni sindacali
+
+lavoro attraverso l'utilizzo oltre che delle ferie anche degli altri permessi retribuiti previsti dal Contratto al fine di favorire il ricongiungimento familiare nei paesi d'origine;
+c) segnalare le esperienze di organizzazione dell'attività  aziendale volte a favorire l'integrazione dei lavoratori migranti con l'indicazione dei risultati che ne sono conseguiti.
+La Commissione ha altresà¬ il compito di:
+d) valutare la fattibilità , avvalendosi della collaborazione dell'Organismo bilaterale nazionale, di progetti di traduzione in lingua straniera delle norme di sicurezza con riferimento alle tipologie aziendali caratterizzate da una significativa presenza di lavoratori stranieri.
+
+DICHIARAZIONE COMUNE Le parti affidano all'Organismo Bilaterale Nazionale il compito di approntare, entro 6 mesi dal suo insediamento, materiale informativo in lingua inglese e francese che le aziende potranno fornire ai lavoratori stranieri all'atto dell'assunzione.
+Il materiale predisposto avrà  la sua base nei moduli didattici â€œDisciplina del Rapporto di Lavoro e Sicurezza sul Lavoroâ€ già  condivisi dalle parti nell'ambito della Commissione nazionale per la formazione professionale e l'apprendistato ed utilizzati per il Progetto Apprendo.
+
+Art. 9. - Informazione e consultazione in sede aziendale.
+Le Direzioni delle aziende che occupano almeno 50 dipendenti forniranno annualmente alle Rappresentanze sindacali unitarie e alle Organizzazioni sindacali territoriali dei sindacati stipulanti tramite l'Associazione territoriale di competenza, su richiesta delle stesse, informazioni su:
+a) l'andamento recente e quello prevedibile dell'attività  dell'impresa e la situazione economica con riferimento:
+- ai pià¹ significativi indicatori di bilancio - alle scelte e alle previsioni dell'attività  produttiva, ai programmi che comportino, anche all'estero, nuovi insediamenti industriali o rilevanti ampliamenti di quelli esistenti e le prevedibili implicazioni degli investimenti predetti sull'occupazione;
+- i criteri di localizzazione e le prevedibili implicazioni sulle condizioni ambientali ed ecologiche dei programmi che comportino, anche all'estero, nuovi insediamenti industriali o rilevanti ampliamenti di quelli esistenti;
+- alle normali operazioni di istituzione, chiusura, spostamento, ampliamento o riduzione di cantiere poste in essere dalle aziende di installazione e di montaggio in relazione al carico di lavoro acquisito
+
+nell'ambito della loro tipica attività ;
+- le caratteristiche generali del decentramento produttivo avente carattere permanente e/o ricorrente nonchà© la articolazione per tipologie dell'attività  decentrata e la sua localizzazione indicata per grandi aree. Nei contratti relativi al decentramento produttivo avente tali caratteristiche, le aziende committenti chiederanno alle aziende esecutrici di dichiarare l'osservanza delle norme contrattuali del settore merceologico cui esse appartengono e di quelle relative alla tutela del lavoro;
+- gli interventi posti in essere per favorire il superamento e l'eliminazione delle â€œbarriere architettonicheâ€;
+- le iniziative realizzate e/o l'attuazione dei progetti finalizzati alla tutela ed al miglioramento dell'ambiente interno ed esterno;
+- i temi attinenti la formazione professionale; in particolare la Direzione aziendale fornirà  indicazioni preventive sulle politiche formative prescelte con riferimento alle diverse figure professionali interessate, nonchà© dati consuntivi riguardanti le tipologie dei corsi, il numero complessivo dei dipendenti coinvolti e delle giornate di formazione dell'anno precedente anche relativamente all'attuazione del diritto soggettivo.
+b) la situazione, la struttura e l'andamento prevedibile dell'occupazione anche in relazione all'andamento della domanda e dei conseguenti carichi di lavoro nonchà© in caso di previsioni di rischio per i livelli occupazionali le eventuali misure di contrasto previste al fine di evitare o attenuarne le conseguenze.
+Saranno altresà¬ fornite informazioni riguardanti i dati sulle dimensioni quantitative delle tipologie contrattuali utilizzate e la qualifica dei lavoratori interessati nonchà© il numero dei lavoratori in modalità  agile.
+Le Direzioni delle aziende che occupano almeno 50 dipendenti forniranno alle Rappresentanze sindacali unitarie e alle Organizzazioni sindacali territoriali dei sindacati stipulanti tramite l'Associazione territoriale di competenza, nel corso di un apposito incontro, informazioni sulle decisioni che siano suscettibili di comportare rilevanti cambiamenti dell'organizzazione del lavoro e dei contratti di lavoro con riferimento a:
+- le sostanziali modifiche del sistema produttivo che investano in modo determinante le tecnologie adottate o l'organizzazione complessiva del lavoro, o il tipo di produzione in atto ed influiscano complessivamente sull'occupazione o che abbiano rilevanti conseguenze sulle condizioni prestative; le disposizioni di questo punto non riguardano le ricorrenti modifiche dell'organizzazione del lavoro e dei mezzi di produzione che attengono al normale miglioramento dei risultati dell'attività  imprenditoriale;
+- le operazioni di scorporo e di decentramento permanente al di fuori dello stabilimento di importanti fasi dell'attività  produttiva in atto qualora esse influiscano complessivamente sull'occupazione.
+
+26 Sez. Prima - Sistema di relazioni sindacali
+
+- i rilevanti processi di esternalizzazione comportanti conseguenze sui livelli occupazionali o sulle modalità  di effettuazione della prestazione.
+- gli spostamenti non temporanei nell'ambito dello stabilimento che interessino significative aliquote di lavoratori, nei casi in cui tali spostamenti non rientrino nelle necessità  collegate alle normali esigenze tecniche, organizzative e produttive dell'attività  aziendale, ivi comprese quelle delle aziende di installazione e di montaggio nell'ambito della loro peculiare attività .
+Le Parti si danno atto che le procedure previste dalla legge 23 luglio 1991, n.
+223, dalla legge 29 dicembre 1990, n. 428 nonchà© dal D.P.R. n. 218 del 2000, assorbono e sostituiscono le procedure di informazione e consultazione in materia.
+Su richiesta scritta delle Rappresentanze sindacali unitarie o, in mancanza, delle Organizzazioni sindacali territoriali dei sindacati stipulanti, presentata entro 5 giorni dal ricevimento delle informazioni di cui alle lettere che precedono, il datore di lavoro è tenuto ad avviare un esame congiunto nel livello pertinente di direzione e rappresentanza in funzione dell'argomento trattato.
+I rappresentanti sindacali possono formalizzare un proprio parere al quale il datore di lavoro darà  risposta motivata.
+La consultazione si intende in ogni caso esaurita decorsi 15 giorni dalla data fissata per il primo incontro.
+I partecipanti alle riunioni sono tenuti alla riservatezza sulle informazioni che siano state loro espressamente fornite in via riservata e qualificate come tali ed al rigoroso rispetto del segreto industriale su fatti e dati di cui vengono a conoscenza.
+La Direzione puà² autorizzare i rappresentanti dei lavoratori a trasmettere le informazioni riservate, nei limiti che saranno espressamente indicati, a lavoratori o a terzi, anch'essi vincolati dall'obbligo di riservatezza. Eventuali contestazioni circa la qualificazione di riservatezza delle informazioni da parte della direzione aziendale sono demandate alla Commissione di conciliazione di seguito definita.
+Le Parti procederanno alla costituzione della Commissione di conciliazione che sarà  composta da 7 membri di cui 6 designati dalle organizzazioni sindacali stipulanti e dalla Federmeccanica e Assistal ed 1 di comune accordo.
+I componenti la Commissione definiranno le modalità  operative per un corretto funzionamento della commissione.
+Ai sensi di quanto previsto dall'articolo 5, del D. Lgs. 6 febbraio 2007, n. 25, alla Commissione è demandato il compito di risolvere le controversie relative alla natura riservata delle notizie fornite e qualificate come tali dal datore di lavoro.
+La Commissione dovrà  esprimere il proprio parere entro 10 giorni dalla data di ricezione del ricorso da parte dei soggetti interessati.
+Inoltre procederà  a definire quanto rinviato dal D. Lgs. 6 febbraio 2007 n. 25 in ordine alla concreta determinazione delle esigenze tecniche, organizzative e produttive per l'individuazione delle informazioni suscettibili di creare notevoli difficoltà  al funzionamento dell'impresa o da arrecarle danno e che escludono l'obbligo per il datore di lavoro a procedere a consultazioni o a comunicare informazioni.
+La Commissione, sulla scorta delle esperienze aziendali acquisite, avrà  inoltre
+
+il compito di individuare le modalità  riguardanti l'autorizzazione dei rappresentanti dei lavoratori o eventuali consulenti a trasmettere informazioni riservate a lavoratori o a terzi vincolati da un obbligo di riservatezza che saranno recepite dal CCNL.
+Le previsioni che precedono costituiscono attuazione della disciplina di cui al D. Lgs. 6 febbraio 2007, n. 25.
+Nel caso di eventuali accordi aziendali in materia, le parti si incontreranno per verificare ed eventualmente armonizzare gli accordi esistenti.
+Sono fatti salvi gli eventuali accordi in materia I partecipanti alle riunioni sono tenuti alla riservatezza sulle informazioni che siano state loro espressamente fornite in via riservata e qualificate come tali ed al rigoroso rispetto del segreto industriale su fatti e dati di cui vengono a conoscenza.
+Sono fatti salvi gli eventuali accordi aziendali in materia.
+
+DICHIARAZIONE A VERBALE Le parti, sulla scorta dell'esperienza maturata, valuteranno l'opportunità  di individuare uno schema di informativa standard da utilizzare in sede aziendale.
+
+Art. 10 - Iniziative di coinvolgimento e partecipazione dei lavoratori nell'impresa.
+Federmeccanica, Assistal e Fim, Fiom, Uilm, concordano di istituire una Commissione che fornirà  indirizzi al fine di promuovere - anche attraverso attività svolte in accordo con le rispettive strutture territoriali - la sperimentazione di iniziative di coinvolgimento e partecipazione dei lavoratori nell'impresa anche in relazione alle innovazioni legislative in materia.
+Sperimentazione Le Parti convengono sull'opportunità  di proporre la realizzazione di iniziative sperimentali in materia di partecipazione nella convinzione che valori quali la condivisione, la trasparenza, la fiducia e il riconoscimento rivestano primaria importanza, tantopià¹ in un contesto fluido e complesso come l'attuale. àˆ infatti su questi pilastri valoriali che puà² essere perseguito un progetto evolutivo delle relazioni industriali che abbia l'ambizione di migliorare la funzionalità  organizzativa dell'azienda a vantaggio dell'andamento dell'impresa e dei lavoratori. Consapevolezza delle responsabilità , programmazione condivisa e riconoscimento del valore sono le mete verso cui indirizzarsi, anche attraverso la promozione di percorsi di formazione e reciproco apprendimento collaborativo tra le parti, anche nell'intento di ricercare un sistema di relazioni pià¹ rispondente alle nuove esigenze.
+Il modello sperimentale sarà  implementato dalle Aziende su base volontaria e in accordo con la RSU, con la possibilità  di trovare la sua formalizzazione all'interno di un Â«Protocollo sulla partecipazioneÂ», da definirsi con l'assistenza delle rispettive Organizzazioni.
+
+28 Sez. Prima - Sistema di relazioni sindacali
+
+Tale sistema partecipativo si fonderà  su quei principi di condivisione operativa già  presenti all'interno dei moderni assetti organizzativi nelle Imprese.
+Il nuovo modo di lavorare presuppone una continua interazione tra i diversi livelli aziendali ed una piena collaborazione di tutte le parti.
+Operare in team, nei gruppi di lavoro e dare un contributo per realizzare insieme, come squadra, quel â€œvalore aggiuntoâ€ che il singolo da solo non sarebbe in grado di apportare.
+Questi concetti che già  sono presenti nelle Aziende possono costituire il fondamento di un modello sperimentale di partecipazione.
+Si tratta della condivisione di soluzioni e processi a monte, fin dall'inizio, per riuscire poi nel prosieguo a risolvere i problemi e a cogliere le opportunità  in maniera immediata e tempestiva.
+La partecipazione dovrà  concretizzarsi nella quotidianità , nelle diverse fasi operative.
+Sarà  garantita la presenza di un rappresentante dei lavoratori nei gruppi di lavoro (o team) cross - funzionali, con la presenza cioè delle varie funzioni aziendali, chiamati di volta in volta ad affrontare le varie questioni, di natura produttiva o organizzativa.
+Questa forma di partecipazione avanzata, che si fonda su una piena condivisione e sulla collaborazione ab origine nella individuazione delle soluzioni pià¹ adeguate, puà² portare ad un'evoluzione del modello dei Comitati di Partecipazione e dei processi di informazione e consultazione, fornendo nuovi elementi all'implementazione di rapporti orientati alla condivisione di obiettivi.
+Tutti gli aspetti della vita aziendale - in particolare nelle PMI - possono costituire oggetto della sperimentazione partecipativa ma appare particolarmente opportuno che la sua attuazione sia presa in considerazione nel caso di piani o progetti aziendali - come quelli rivolti ad aspetti quali l'innovazione, il miglioramento continuo ma anche per la miglior gestione e superamento di situazioni critiche - che meglio potrebbero trovare attuazione con il coinvolgimento e la partecipazione diretta dei lavoratori.
+L'eventuale adozione del modello di partecipazione cosà¬ delineato potrà  essere meglio definito a livello aziendale anche sul piano delle modalità  operative.
+
+Art. 11. - Informazione e consultazione dei lavoratori nelle imprese di dimensione comunitaria.
+Le parti condividono l'avviso comune tra Cgil-Cisl-Uil e Confindustria del 12 aprile 2011 e assumono il D. Lgs. 22 giugno 2012, n. 113, di attuazione della Direttiva 2009/38/CE del 6 maggio 2009, riguardante l'istituzione di un comitato aziendale europeo o di una procedura per l'informazione e la consultazione dei lavoratori nelle imprese o nei gruppi di imprese di dimensioni comunitarie, con l'obiettivo di sviluppare un'attitudine costruttiva al cambiamento fondata su un effettivo dialogo sociale.
+
+Le imprese di dimensioni comunitarie interessate e definite dal D. Lgs. 22 giugno 2012, n. 113, sono gli stabilimenti o le unità  produttive di un'impresa o di un gruppo di imprese che impiega almeno 1.000 lavoratori negli Stati membri e almeno 150 lavoratori per Stato membro in almeno due Stati membri.
+Le parti condividono le finalità  di migliorare l'ambito dell'informazione e della consultazione, con riferimento alle questioni transnazionali, e di regolare le modalità  con le procedure nazionali, assegnando un ruolo preminente alle intese a livello aziendale, in piena coerenza anche con i principi congiuntamente espressi dalle parti sociali europee.
+Le parti riconoscono che l'informazione e la consultazione che si svolgono nell'ambito dei Comitati aziendali europei, costituiscono un elemento di successo per affrontare tempestivamente i processi di adattamento alle nuove condizioni indotte dalla globalizzazione dell'economia, perchà© favoriscono un clima di reciproca fiducia e rispetto tra impresa e lavoratori.
+L'informazione e la consultazione del Cae sono coordinate con quelle degli organi nazionali di rappresentanza dei lavoratori, nel rispetto delle competenze e degli ambiti di intervento di ciascuno e dei principi di cui all'articolo 1, sesto comma, del D. Lgs. 22 giugno 2012, n. 113, secondo cui l'informazione e la consultazione dei lavoratori avvengono al livello pertinente di direzione e di rappresentanza, in funzione della questione trattata. A tale scopo la competenza del Cae e la portata della procedura per l'informazione e la consultazione dei lavoratori disciplinata dal decreto legislativo sono limitate alle questioni transnazionali.
+Ai sensi dell'articolo 9 del D. Lgs. 22 giugno 2012, n. 113, al fine di coordinare l'articolazione tra l'informazione e la consultazione del Cae e quella degli organi nazionali di rappresentanza dei lavoratori, le parti convengono che nelle imprese di dimensione comunitaria, verranno costituiti appositi organismi denominati â€œcomitati aziendaliâ€ che, a richiesta di parte potranno approfondire le informazioni fornite in sede di CAE riguardanti i siti italiani.
+
+Art. 12. - Istituzioni interne a carattere sociale.
+L'azienda tramite la Rappresentanza sindacale unitaria comunicherà  ai Sindacati provinciali di categoria, gli Statuti o regolamenti delle istituzioni aziendali di carattere sociale, ove tali Statuti o regolamenti esistano.
+
+SEZIONE SECONDA
+
+DIRITTI SINDACALI
+
+SEZIONE SECONDA DIRITTI SINDACALI
+
+PREMESSA Le rappresentanze dei lavoratori in azienda sono costituite dalle Rappresentanze sindacali unitarie nel rispetto dei principi e della disciplina stabiliti dal T.U.
+sulla Rappresentanza del 10 gennaio 2014 e dall'accordo di categoria per la costituzione delle Rappresentanze sindacali unitarie allegato al presente Contratto (Allegato n. 3).
+Le parti si danno reciprocamente atto che le funzioni attribuite per legge alle Rappresentanze sindacali aziendali vengono esercitate dalle Rappresentanze sindacali unitarie. Le stesse risultano pertanto titolari di tutti i relativi diritti, poteri e tutele.
+Le parti stipulanti si incontreranno per armonizzare ed adeguare le normative contrattuali con eventuali interventi legislativi in materia.
+
+Art. 1. - Assemblea.
+L'esercizio del diritto di assemblea di cui all'articolo 20 della legge n. 300 del 20 maggio 1970 avrà  corso nel rispetto delle seguenti modalità 1) la convocazione sarà  comunicata alla Direzione con preavviso di 2 giorni e con l'indicazione specifica dell'ordine del giorno;
+2) le Organizzazioni sindacali stipulanti e/o la Rappresentanza sindacale unitaria convocheranno l'assemblea retribuita possibilmente alla fine o all'inizio dei periodi di lavorazione, fermo restando quanto previsto alla lettera a), punto 4, Parte seconda, Sezione seconda del T.U. 10 gennaio 2014;
+3) le Organizzazioni sindacali stipulanti e/o la Rappresentanza sindacale unitaria nel convocare assemblee retribuite di gruppi di lavoratori da tenersi durante l'orario di lavoro dovranno tenere conto delle esigenze afferenti la continuazione della normale attività  degli altri lavoratori non interessati all'assemblea stessa;
+4) quando nell'unità  produttiva il lavoro si svolge a turni l'assemblea puà² essere articolata in pià¹ riunioni nella medesima giornata;
+5) lo svolgimento delle riunioni durante l'orario di lavoro dovrà  aver luogo comunque con modalità  che tengano conto della esigenza di garantire la sicurezza delle persone e la salvaguardia degli impianti.
+Saranno definite a livello aziendale le particolarità  di svolgimento e di attua34 Sez. Seconda - Diritti sindacali
+
+zione in relazione ai punti 4) e 5).
+Dovranno essere preventivamente comunicati all'azienda, i nominativi dei dirigenti esterni del Sindacato che si intenda eventualmente far partecipare all'assemblea.
+Analogo diritto di assemblea viene riconosciuto anche nelle unità  produttive con almeno 10 dipendenti nel limite massimo di 8 ore annue retribuite, salvo che non ricorra l'ipotesi di cui al secondo comma dell'articolo 35 della legge 20 maggio 1970, n. 300.
+Tali assemblee saranno tenute, di norma, fuori dalle unità  produttive medesime, con le modalità  di cui sopra in quanto compatibili.
+
+Art. 2. - Diritto di affissione.
+Il diritto di affissione viene regolato dall'articolo 25 della legge 20 maggio 1970, n. 300 e dal punto 4, lettera c), Sezione seconda del T.U. 10 gennaio 2014.
+
+Art. 3. - Locali.
+In adempimento all'articolo 27, legge 20 maggio 1970, n. 300, il datore di lavoro nelle unità  produttive con almeno 200 dipendenti porrà  a disposizione un idoneo locale comune all'interno dell'unità  produttiva o nelle immediate vicinanze di essa; nelle unità  produttive con un numero inferiore a 200 dipendenti il diritto riguarderà  l'uso di un locale idoneo alle riunioni.
+
+Art. 4. - Strumenti informatici.
+Nelle unità  produttive con oltre 350 addetti, sarà  messo a disposizione della Rappresentanza sindacale unitaria un personal computer con accesso ad Internet che sarà  utilizzato secondo le modalità  definite in sede aziendale.
+L'utilizzo del personal computer dovrà  essere comunque strettamente connesso con l'attività  sindacale, fermo restando la responsabilità  anche penale degli utilizzatori per un eventuale uso improprio.
+
+Art. 5. - Permessi per motivi sindacali e cariche elettive.
+Ai lavoratori che siano membri degli organi direttivi nazionali e provinciali delle Confederazioni sindacali, dei Comitati direttivi delle Federazioni nazionali di categoria e dei Sindacati provinciali metalmeccanici, potranno essere concessi brevi permessi retribuiti fino a 24 ore per ciascun trimestre solare, per il disimpegno delle loro funzioni, quando l'assenza dal lavoro venga espressamente richiesta per iscritto dalle Organizzazioni predette e garantito comunque in ogni reparto lo svolgimento dell'attività  produttiva.
+
+Le qualifiche sopra menzionate e le variazioni relative dovranno essere comunicate per iscritto dalle Organizzazioni sindacali alle Associazioni industriali territoriali, che provvederanno a comunicarle all'azienda cui il lavoratore appartiene.
+Per l'aspettativa dei lavoratori chiamati a funzioni pubbliche elettive o a ricoprire cariche sindacali provinciali e nazionali si applicano le disposizioni di cui all'articolo 31 della legge n. 300 del 20 maggio 1970.
+Ai lavoratori chiamati a funzioni pubbliche elettive, si applica la normativa, in tema di permessi, di cui all'articolo 32 della legge n. 300 del 20 maggio 1970.
+I componenti delle Rappresentanze sindacali unitarie per l'espletamento del loro mandato hanno diritto a permessi in conformità  a quanto previsto dagli artt.
+23 e 24 della legge n. 300 del 20 maggio 1970.
+Per quanto riguarda le unità  produttive che occupano fino a 200 dipendenti, le ore di permesso retribuite non potranno essere inferiori complessivamente ad 1 ora e 30 minuti all'anno per ciascun dipendente.
+I nominativi dei componenti delle Rappresentanze sindacali unitarie e le relative variazioni dovranno essere comunicati per iscritto dalle Organizzazioni predette alle Associazioni industriali territoriali che provvederanno a comunicarli all'azienda cui il lavoratore appartiene.
+I permessi di cui al presente articolo non sono cumulabili con quelli eventualmente stabiliti allo stesso titolo da accordi aziendali, nonchà© con quelli che dovessero derivare da disposizioni di legge.
+Le ore di permesso sindacale retribuite saranno liquidate in base alla retribuzione globale di fatto.
+
+DICHIARAZIONE CONGIUNTA In relazione a quanto previsto dal primo comma del presente articolo, le Organizzazioni sindacali stipulanti si impegnano affinchà© la nomina dei componenti degli organi direttivi nazionali e provinciali venga esercitata, nei singoli territori, tenendo conto della rappresentatività  di ciascuna organizzazione sindacale e delle dimensioni delle unità  produttive interessate.
+Qualora si riscontrino comportamenti in contrasto con tale impegno, su richiesta della Direzione dell'unità  produttiva interessata per il tramite dell'Associazione territoriale di competenza, sarà  svolto un incontro di verifica con le Organizzazioni sindacali territoriali al fine di ricondurre a normalità  la situazione.
+In caso di mancato accordo la questione verrà  esaminata a livello nazionale dalle parti stipulanti.
+
+Art. 6. - Tutela dei componenti delle Rappresentanze sindacali unitarie.
+La tutela prevista dall'articolo 14 dell'Accordo interconfederale 18 aprile 1966 sulle Commissioni interne viene estesa in caso di licenziamento per giusta causa
+
+36 Sez. Seconda - Diritti sindacali
+
+o giustificato motivo soggettivo, limitatamente al periodo di durata dell'incarico, ai componenti delle Rappresentanze sindacali unitarie di cui all'articolo 5.
+I nominativi dei componenti delle Rappresentanze sindacali unitarie di cui sopra dovranno essere trasmessi alla Direzione aziendale per il tramite delle Associazioni industriali territoriali.
+Ogni sostituzione sarà  tempestivamente comunicata con le stesse modalità .
+In caso di mobilità  interna non meramente temporanea limitata a singoli componenti delle Rappresentanze sindacali unitarie, lo spostamento degli stessi sarà subordinato, nel caso di loro richiesta, ad un esame preventivo con la Rappresentanza sindacale unitaria.
+
+Art. 7. - Versamento dei contributi sindacali.
+L'azienda provvederà  alla trattenuta dei contributi sindacali, a favore delle Organizzazioni sindacali stipulanti ovvero aderenti al T.U. 10 gennaio 2014, ai dipendenti che ne facciano richiesta mediante delega debitamente sottoscritta dal lavoratore e consegnata o fatta pervenire all'azienda dal lavoratore stesso.
+Le deleghe avranno validità  permanente, con verifica annuale e salvo revoca che puà² intervenire in qualsiasi momento.
+Con la retribuzione del mese di febbraio di ogni anno, le Direzioni aziendali provvederanno ad inserire nella busta paga di tutti i dipendenti un modulo di delega per la riscossione dei contributi sindacali.
+La delega conterrà  l'indicazione delle Organizzazioni sindacali cui l'azienda dovrà  versare il contributo che sarà  commisurato alla percentuale dell'1% del minimo tabellare in vigore nel mese di giugno di ciascun anno, per tredici mensilità all'anno.
+Il contributo cosà¬ determinato per ciascun anno, avrà  decorrenza dal successivo mese di luglio.
+Restano salve le condizioni in atto che prevedano contributi sindacali di importo superiore.
+Il lavoratore che intende revocare la delega dovrà  dichiararlo in calce a tale modulo. Se lo stesso indicherà  una diversa Organizzazione sindacale, si intenderà revocata la delega precedente.
+Su richiesta congiunta delle Organizzazioni sindacali, la raccolta delle deleghe potrà  avvenire mediante l'utilizzazione di un modulo - da inserire nella busta paga - suddiviso in due parti, la prima delle quali, contenente l'indicazione del sindacato beneficiario del contributo, sarà  trasmessa al datore di lavoro e la seconda rimessa al medesimo sindacato.
+L'importo delle trattenute sarà  versato secondo le indicazioni che verranno fornite nel mese di giugno di ciascun anno dalle Organizzazioni sindacali interessate tramite le Associazioni industriali. Eventuali variazioni nel corso dell'anno delle modalità  di versamento dovranno essere comunicate per iscritto con preavviso di almeno tre mesi.
+Eventuali diversi sistemi di riscossione delle quote sindacali, già  concordati ed in atto in sede aziendale, restano invariati.
+Con cadenza semestrale, le aziende forniranno tramite l'Associazione territoriale imprenditoriale, a ciascuna Organizzazione sindacale, l'indicazione numerica, aggregata per livelli di inquadramento, dei rispettivi iscritti e di quelli con delega F.L.M., e le relative somme.
+
+NORMA TRANSITORIA.
+Al fine di consentire il graduale adeguamento alla clausola di cui al 4Â° comma, di contributi sindacali eventualmente inferiori, entro la vigenza del presente Contratto collettivo nazionale di lavoro, fra le Associazioni territoriali e le Organizzazioni sindacali potranno essere determinati importi di ammontare inferiore all'1%.
+
+Art. 8. - Affissione del Contratto.
+Il presente Contratto di lavoro e l'eventuale regolamento interno saranno affissi in ogni stabilimento.
+
+SEZIONE TERZA
+
+SISTEMA DI REGOLE CONTRATTUALI
+
+SEZIONE TERZA SISTEMA DI REGOLE CONTRATTUALI
+
+Art. 1. - Inscindibilità  delle disposizioni contrattuali e condizioni di miglior favore.
+Le disposizioni del presente Contratto, nell'ambito di ogni istituto, sono correlative ed inscindibili fra loro e non sono cumulabili con alcun altro trattamento.
+Agli effetti del precedente comma si considerano costituenti un unico istituto il complesso degli istituti individuali e collettivi di carattere normativo-regolamentare.
+Ferma restando la inscindibilità  di cui sopra, le parti, col presente Contratto, non hanno inteso sostituire le condizioni, anche di fatto, pià¹ favorevoli al lavoratore attualmente in servizio non derivanti da accordi nazionali, le quali continueranno ad essere mantenute ad personam.
+
+Art. 2. - Decorrenza e durata.
+Salve le decorrenze previste per singoli istituti, il presente Contratto decorre dal 5 febbraio 2021 ed avrà  vigore fino a tutto il 30 giugno 2024. Il presente Contratto è stato validato in ottemperanza a quanto previsto dal T.U. 10 gennaio 2014.
+Il CCNL 26 novembre 2016 ha operato in regime di ultrattività  dal 1Â° gennaio 2020 fino alla data di stipula del presente Contratto.
+Il Contratto si intenderà  rinnovato per un periodo pari a quello di cui al primo comma se non disdetto, sei mesi prima della scadenza, con raccomandata a.r.. In caso di disdetta il presente Contratto resterà  in vigore fino a che non sia stato sostituito dal successivo Contratto nazionale.
+
+Art. 3. - Procedura di rinnovo del Contratto collettivo nazionale di lavoro.
+Le proposte per un nuovo accordo saranno presentate secondo i criteri e le modalità  di cui al T.U. 10 gennaio 2014 e in tempo utile per consentire l'apertura delle trattative sei mesi prima della scadenza del Contratto.
+La parte che ha ricevuto le proposte di rinnovo dovrà  dare riscontro entro 20 giorni decorrenti dalla data di ricevimento delle stesse.
+Durante i sei mesi antecedenti e nel mese successivo alla scadenza del Contratto e comunque per un periodo complessivamente pari a sette mesi dalla data
+
+42 Sez. Terza - Sistema di regole contrattuali
+
+di presentazione della piattaforma di rinnovo, le parti non assumeranno iniziative unilaterali nà© procederanno ad azioni dirette.
+
+Art. 4. - Contrattazione aziendale.
+Le parti si danno atto che la contrattazione a livello aziendale si esercita, ha efficacia e impegna le parti secondo quanto previsto dal CCNL e dal T.U. 10 gennaio 2014.
+Gli accordi aziendali sono negoziabili in considerazione del principio dell'autonomia dei cicli negoziali al fine di prevenire sovrapposizioni con i tempi di rinnovo del Contratto collettivo nazionale.
+In coerenza con quanto previsto al punto 6) della Premessa al Contratto, le richieste di rinnovo dell'accordo aziendale dovranno essere sottoscritte dalla Rappresentanza sindacale unitaria e dalle strutture territoriali delle Organizzazioni sindacali stipulanti ovvero, per le aziende pià¹ complesse e secondo la prassi esistente, dalla Rappresentanza sindacale unitaria e dalle Organizzazioni sindacali nazionali, e presentate all'azienda e contestualmente all'Associazione industriale territoriale, in tempo utile al fine di consentire l'apertura delle trattative due mesi prima della scadenza dell'accordo. La parte che ha ricevuto le proposte di rinnovo dovrà  dare riscontro entro venti giorni decorrenti dalla data di ricevimento delle stesse.
+Durante i due mesi dalla data di presentazione della piattaforma e per il mese successivo alla scadenza dell'accordo e comunque per un periodo complessivamente pari a tre mesi dalla data di presentazione delle richieste, le parti non assumeranno iniziative unilaterali nà© procederanno ad azioni dirette.
+
+Art. 5. - Intese modificative del CCNL.
+Al fine di favorire lo sviluppo economico ed occupazionale mediante la creazione di condizioni utili a nuovi investimenti o all'avvio di nuove iniziative ovvero per contenere gli effetti economici e occupazionali derivanti da situazioni di crisi aziendale, possono essere realizzate specifiche intese modificative, anche in via sperimentale o temporanea, di uno o pià¹ istituti disciplinati dal presente CCNL.
+Tali intese sono definite a livello aziendale con le Rappresentanze sindacali unitarie d'intesa con le strutture territoriali delle Parti stipulanti.
+Le intese modificative dovranno indicare: gli obiettivi che si intendono conseguire, la durata (qualora di natura sperimentale o temporanea), i riferimenti agli articoli del CCNL oggetto di modifica, le modalità  a garanzia dell'esigibilità  dell'accordo.
+Le intese modificative non potranno riguardare i minimi tabellari, gli aumenti periodici d'anzianità  e l'elemento perequativo oltrechà© i diritti individuali derivanti da norme inderogabili di legge.
+
+Le intese sottoscritte sono trasmesse alle parti stipulanti il CCNL dalle rispettive strutture territoriali ai fini del necessario monitoraggio in sede nazionale degli accordi realizzati.
+
+Art. 6. - Distribuzione del Contratto.
+Le aziende a partire dal mese di ottobre 2021 ed entro il mese di dicembre 2021 distribuiranno a ciascun lavoratore in forza a tempo indeterminato una copia del presente Contratto collettivo di lavoro.
+
+DISPOSIZIONE FINALE Qualora le sottoscritte Organizzazioni dei lavoratori dovessero, con altre Associazioni di datori di lavoro o di artigiani, concordare condizioni meno onerose di quelle previste dal presente Contratto, tali condizioni, dopo che siano state accertate nella loro sfera di applicazione con verbale redatto fra le Organizzazioni interessate, si intendono estese alle aziende che abbiano le medesime caratteristiche e che siano rappresentate dalla Federmeccanica o dall'Assistal.
+
+SEZIONE QUARTA
+
+DISCIPLINA DEL RAPPORTO INDIVIDUALE DI LAVORO
+
+SEZIONE QUARTA
+
+DISCIPLINA DEL RAPPORTO INDIVIDUALE DI LAVORO
+
+Titolo I - Costituzione, tipologie, luogo della prestazione e modifiche del rapporto di lavoro
+
+Art. 1. - Assunzione.
+L'assunzione dei lavoratori è fatta in conformità  alle norme di legge.
+All'atto dell'assunzione l'azienda comunicherà  al lavoratore per iscritto:
+1) la tipologia del contratto di assunzione;
+2) la data di inizio del rapporto di lavoro e la sua durata se si tratta di rapporto di lavoro a tempo determinato;
+3) la sede di lavoro in cui presterà  la sua opera;
+4) il livello della classificazione unica cui viene assegnato, le caratteristiche o la descrizione sommaria del lavoro e la retribuzione;
+5) la categoria giuridica di appartenenza, per i soli fini previsti dalla legislazione vigente (compresa quella riguardante l'assicurazione malattia e il congedo matrimoniale);
+6) l'indicazione dell'applicazione del presente Contratto collettivo di lavoro;
+7) la durata dell'eventuale periodo di prova;
+8) le condizioni connesse alla tipologia del contratto di assunzione e tutte le altre eventuali condizioni concordate.
+
+Al lavoratore sarà  consegnata una copia del presente Contratto collettivo di lavoro, la modulistica riguardante l'iscrizione a Cometa e la scheda informativa di cui all'articolo 15, Sezione quarta, Titolo IV, i moduli per l'autorizzazione al trattamento dei dati personali, ed ogni altra modulistica prevista dagli obblighi di legge.
+Al lavoratore sarà  altresà¬ fornita adeguata informazione sui rischi e sulle misure di prevenzione e protezione adottate secondo quanto previsto dall'articolo 1, Sezione quarta, Titolo V.
+
+Art. 2. - Periodo di prova.
+L'assunzione puà² avvenire con un periodo di prova non superiore a:
+
+48 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+Livello Durata ordinaria Durata ridotta
+
+D1, D2 e C1 1 mese e Â½ 1 mese
+
+C2, C3 e B1 3 mesi 2 mesi
+
+B2, B3 e A1 6 mesi 3 mesi
+
+I periodi di prova sono ridotti nelle misure sopra indicate per i lavoratori:
+a) che con identiche mansioni abbiano prestato servizio per almeno un biennio presso altre aziende;
+b) che abbiano completato presso altre aziende il periodo complessivo di apprendistato professionalizzante con riferimento allo stesso profilo professionale di assunzione.
+Nel caso di assunzione entro 12 mesi dalla scadenza dell'ultimo contratto, ovvero di trasformazione a tempo indeterminato, di lavoratori che abbiano prestato presso la stessa azienda attività  lavorativa per lo svolgimento delle medesime mansioni sia in esecuzione di uno o pià¹ rapporti a termine che di uno o pià¹ contratti di somministrazione di manodopera, per un periodo complessivamente superiore al periodo di prova stabilito per il rispettivo livello di inquadramento non puà² essere previsto il periodo di prova. Nel caso di periodi pià¹ brevi la durata della prova è ridotta nella stessa misura.
+Al fine di poter usufruire delle riduzioni sopra riportate i lavoratori di cui ai punti a) e b) dovranno presentare all'azienda, al momento dell'assunzione, gli attestati o i certificati di lavoro atti a documentare i compiti e le funzioni svolte nelle precedenti occupazioni.
+Comunque per quanto concerne l'obbligo e la durata del periodo di prova fa testo soltanto la lettera di assunzione, fermi restando i limiti massimi previsti dal primo comma del presente articolo.
+L'obbligo del periodo di prova deve risultare dalla lettera di assunzione di cui all'articolo 1 del presente Titolo, e non è ammessa nà© la protrazione, nà© la rinnovazione, salvo quanto previsto dal comma successivo.
+Nel caso in cui il periodo di prova venga interrotto per causa di malattia o di infortunio il lavoratore sarà  ammesso a completare il periodo di prova stesso qualora sia in grado di riprendere il servizio entro tre mesi.
+Nel corso del periodo di prova la risoluzione del rapporto di lavoro puà² aver luogo in qualsiasi momento ad iniziativa di ciascuna delle due parti, e non fa ricorrere il reciproco obbligo del preavviso nà© della relativa indennità  sostitutiva.
+Scaduto il periodo di prova senza che sia intervenuta la disdetta, l'assunzione del lavoratore diviene definitiva e l'anzianità  di servizio decorrerà  a tutti gli effetti dal giorno dell'assunzione.
+Durante il periodo di prova sussistono fra le parti i diritti e gli obblighi previsti dal presente Contratto, salvo che non sia diversamente disposto dal contratto stesso.
+
+Qualora la risoluzione del rapporto di lavoro avvenga per dimissioni o per licenziamento durante il periodo di prova, ovvero alla fine del periodo stesso, l'azienda è tenuta a retribuire il solo periodo di servizio prestato integrando tale trattamento, in caso di lavorazione a cottimo, con il guadagno spettante per il lavoro eseguito.
+
+Art. 3. - Documenti, residenza e domicilio.
+All'atto dell'assunzione il lavoratore dovrà  presentare i seguenti documenti:
+a) carta di identità  o documento equipollente;
+b) libretto di lavoro o documento equipollente;
+c) tessere e libretti delle assicurazioni sociali, ove ne sia già  provvisto;
+d) certificato di residenza di data non anteriore a 3 mesi (l'interessato dovrà comunicare anche l'eventuale domicilio, ove questo sia diverso dalla residenza).
+Ai sensi dell'articolo 689 del Codice di procedura penale e nei limiti di cui all'articolo 8 della legge n. 300 del 20 maggio 1970, il datore di lavoro potrà  richiedere il certificato penale del lavoratore.
+All'atto dell'assunzione il lavoratore esibirà , ove ne sia in possesso, la sezione del libretto personale sanitario e di rischio da compilarsi a cura dell'azienda.
+Il datore di lavoro dovrà  rilasciare ricevuta dei documenti che trattiene.
+Il lavoratore dovrà  comunicare gli eventuali successivi mutamenti di residenza e di domicilio.
+
+Art. 4. - Tipologie contrattuali.
+Il contratto di lavoro subordinato è stipulato di regola a tempo indeterminato.
+A) Contratto di lavoro a tempo determinato.
+Norme generali Ferme restando le disposizioni legislative in materia, ai lavoratori con contratto a tempo determinato spettano tutti i trattamenti previsti dal presente contratto collettivo ed ogni altro trattamento in atto in azienda, che siano compatibili con la natura del contratto a termine, in proporzione al periodo lavorativo prestato. Per i contratti con durata fino a 36 mesi, nell'ambito della durata dei contratti medesimi, i periodi di conservazione del posto e di trattamento economico previsti dall'articolo 2, Sezione Quarta - Titolo VI per i lavoratori con anzianità  di servizio fino a 3 anni compiuti si applicano secondo il principio di proporzionalità  diretta.
+Gli accordi aziendali riguardanti il Premio di risultato stabiliscono modalità  e criteri per la determinazione e corresponsione di tale Premio; in assenza di disciplina contrattuale aziendale il Premio di risultato sarà  riconosciuto ai lavoratori a tempo determinato in forza alla data di erogazione ovvero di comunicazione dei
+
+50 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+risultati di cui al quarto comma dell'articolo 12, Sezione quarta, Titolo IV, in proporzione diretta al periodo di servizio complessivamente prestato nell'anno di riferimento del premio stesso, ancorchà© in virtà¹ di pià¹ contratti a termine.
+I lavoratori con contratto a tempo determinato saranno formati in modo sufficiente ed adeguato in materia di sicurezza e di salute, con particolare riferimento al proprio posto di lavoro ed alle proprie mansioni, cosà¬ come previsto dall'articolo 1, Sezione quarta, Titolo V.
+Le imprese informano i lavoratori operanti a tempo determinato nonchà© la RSU dei posti vacanti a tempo indeterminato che si rendessero disponibili nell'ambito dell'unità  produttiva di appartenenza. Tali informazioni possono essere fornite anche mediante affissione in luogo accessibile a tutti i lavoratori.
+L'assunzione di lavoratori a termine per la sostituzione di lavoratori in congedo di maternità , paternità  o parentale puà² essere anticipata fino a due mesi prima dell'inizio del congedo, secondo quanto previsto dall'articolo 4, secondo comma, D. Lgs. 26 marzo 2001, n. 151.
+Nel caso di trasformazione a tempo indeterminato o di successiva assunzione a tempo indeterminato di lavoratore già  impiegato a termine ovvero in somministrazione si terrà  conto complessivamente di tutti i periodi di lavoro effettuati dal lavoratore presso la medesima azienda per lo svolgimento di mansioni equivalenti, ai fini dell'applicazione delle discipline di cui agli aumenti periodici d'anzianità e alla mobilità  professionale, purchà© non interrotti da periodi di non lavoro superiori a 12 mesi.
+
+DICHIARAZIONI DELLE PARTI Ai fini dell'estensione della clausola contrattuale, si considerano le trasformazioni o le assunzioni a tempo indeterminato dei lavoratori già  impiegati in somministrazione, effettuate a partire dalla data del 6 aprile 2021, fermo restando che, ai fini dell'applicazione delle discipline di cui agli aumenti periodici d'anzianità  e alla mobilità  professionale, si devono computare tutti i periodi di lavoro precedentemente effettuati dal lavoratore presso la medesima azienda per lo svolgimento di mansioni equivalenti purchà© non interrotti da periodi di non lavoro superiori a 12 mesi.
+Stagionalità Ai sensi e per gli effetti dell'articolo 21, secondo comma, D. Lgs. n. 81/2015 oltre alle attività  stagionali definite dal D.P.R. 7 ottobre 1963, n. 1525 e successive modifiche e integrazione, le parti concordano che sono attività  stagionali le attività caratterizzate dalla necessità  ricorrente di intensificazione dell'attività  lavorativa in determinati e limitati periodi dell'anno.
+L'individuazione della stagionalità  cosà¬ definita nonchà© la determinazione dei periodi di intensificazione dell'attività  produttiva, che non possono in ogni caso superare complessivamente i 6 mesi nell'arco dell'anno solare, saranno concordate dalla Direzione aziendale con la Rappresentanza sindacale unitaria d'intesa
+
+con le strutture territoriali delle Organizzazioni sindacali stipulanti.
+Diritto di precedenza Il lavoratore che, nell'esecuzione di uno o pià¹ contratti a termine presso la stessa azienda, abbia prestato attività  lavorativa per un periodo superiore a 6 mesi, ha diritto di precedenza nelle assunzioni a tempo indeterminato effettuate dal datore di lavoro entro i 12 mesi successivi alla scadenza del contratto a termine con riferimento alle mansioni già  espletate in esecuzione dei rapporti a termine.
+Il lavoratore assunto a termine per lo svolgimento di attività  stagionale come sopra definita, ha diritto di precedenza rispetto a nuove assunzioni a termine da parte dello stesso datore di lavoro per le medesime attività .
+Il diritto di precedenza di cui ai due commi precedenti puà² essere esercitato a condizione che il lavoratore manifesti in forma scritta al datore di lavoro la propria volontà  in tal senso entro rispettivamente sei mesi e tre mesi dalla data di cessazione del rapporto di lavoro stesso e si estingue entro un anno dalla data di cessazione del rapporto di lavoro.
+Nel caso di una concomitanza di pià¹ aspiranti che abbiano maturato i requisiti e manifestato nei termini previsti la volontà  di avvalersi del diritto di precedenza, sarà  data priorità  ai lavoratori che abbiano cumulato il maggior periodo di lavoro a termine; in caso di parità  si farà  riferimento alla maggiore età  anagrafica.
+Informazioni Di norma, semestralmente, la Direzione fornisce alla Rappresentanza sindacale unitaria e alle strutture territoriali delle Organizzazioni sindacali stipulanti il presente Contratto tramite l'Associazione territoriale di competenza, i dati sulle dimensioni quantitative e i motivi del ricorso ai contratti a termine anche con specifico riferimento alle esigenze stagionali, la durata dei contratti medesimi e la qualifica dei lavoratori interessati nonchà© i dati sulle trasformazioni a tempo indeterminato di lavoratori già  assunti con contratto a termine e l'eventuale esercizio del diritto di precedenza.
+Saranno altresà¬ fornite informazioni riguardanti i dati sulle dimensioni quantitative dei lavoratori in somministrazione e la qualifica dei lavoratori interessati.
+B) Stabilizzazione a tempo indeterminato del rapporto di lavoro.
+I lavoratori che abbiano svolto presso la stessa azienda, con mansioni equivalenti, sia periodi di lavoro con contratto di lavoro a termine che periodi di missione con contratto di somministrazione, qualora la somma dei periodi di lavoro nelle due tipologie citate superi i 44 mesi complessivi anche non consecutivi comprensivi dell'eventuale proroga in deroga assistita, acquisiscono il diritto ad essere assunti a tempo indeterminato laddove siano impiegati in forza di un contratto di lavoro a tempo determinato.
+Le parti confermano che a tali fini, cosà¬ come previsto dalla legge, non si compu52 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+tano i periodi di lavoro svolto con contratto di lavoro a tempo determinato per attività  stagionale.
+
+NOTA A VERBALE DEL 5 FEBBRAIO 2021
+
+Fermo restando quanto condiviso nella Clausola di salvaguardia posta in calce al presente articolo, le parti confermano che le previsioni di cui alla lettera B), definite con il CCNL 20 gennaio 2008, non costituiscono una modifica, ai sensi del secondo comma dell'art. 19, D. Lgs. n. 81 del 2015, dei limiti di durata stabiliti dalla medesima legge in caso di successione di pià¹ contratti a termine.
+
+C) Part-time.
+
+Norme generali Le parti stipulanti convengono sul principio che il lavoro a tempo parziale puà² costituire uno strumento funzionale alla flessibilità  ed alla articolazione della prestazione di lavoro, in quanto applicato in rapporto alle esigenze dell'impresa ed all'interesse del lavoratore. Il lavoratore a tempo parziale beneficia dei medesimi diritti di un lavoratore a tempo pieno comparabile e di un trattamento riproporzionato in ragione della ridotta entità  della prestazione lavorativa.
+Il rapporto di lavoro ad orario ridotto puà² prevedere una riduzione dell'orario normale giornaliero di lavoro (c.d. orizzontale), ovvero lo svolgimento dell'attività lavorativa a tempo pieno limitatamente a periodi predeterminati nel corso della settimana, del mese, o dell'anno (c.d. verticale), oppure attraverso una combinazione delle precedenti modalità  giornate ad orario ridotto limitatamente a periodi predeterminati nel corso della settimana, del mese o dell'anno (c.d. misto).
+Contratti di lavoro a tempo parziale con superamento dell'orario normale giornaliero ma inferiore a quello contrattuale settimanale, potranno essere stipulati anche al fine di consentire una maggiore utilizzazione degli impianti; in tale ultimo caso e nel caso in cui il part-time c.d. verticale comprenda i giorni del fine settimana, l'attivazione sarà  oggetto di esame preventivo con la Rappresentanza sindacale unitaria.
+Il contratto di lavoro a tempo parziale deve essere stipulato per iscritto. In esso devono essere indicati, oltre quanto previsto dall'articolo 1, del presente titolo, la durata della prestazione lavorativa e la collocazione temporale dell'orario di lavoro con riferimento al giorno, alla settimana, al mese e all'anno cosà¬ come previsto dalle norme vigenti, nonchà© le altre eventuali condizioni concordate.
+In caso di assunzione di personale a tempo pieno è riconosciuto il diritto di precedenza nei confronti dei lavoratori con contratto a tempo parziale, a parità  di mansioni, fatte salve le esigenze tecnico-organizzative.
+
+Clausole elastiche Possono essere concordate clausole relative alla variazione della collocazione temporale della prestazione di lavoro e, nei rapporti di lavoro a tempo parziale di tipo verticale o misto, anche clausole relative alla variazione in aumento della durata della prestazione, nel rispetto di quanto di seguito previsto. In tali casi il consenso del lavoratore deve essere formalizzato attraverso uno specifico atto scritto;
+il lavoratore puà² farsi assistere da un componente la Rappresentanza sindacale unitaria o, in assenza, a livello territoriale, da un rappresentante delle organizzazioni sindacali stipulanti il CCNL.
+La facoltà  di procedere alla variazione della prestazione lavorativa ai sensi del comma precedente deve essere esercitata dal datore di lavoro con un preavviso di almeno 7 giorni lavorativi.
+Nel caso di variazione della collocazione temporale della prestazione al lavoratore sarà  corrisposta per le ore oggetto di modifica una maggiorazione della retribuzione nella misura onnicomprensiva pari al 10% da computare sugli elementi utili al calcolo delle maggiorazioni per lavoro straordinario, notturno e festivo.
+La variazione in aumento della durata della prestazione lavorativa è consentita per una quantità  annua non superiore al 25 per cento della normale prestazione annua a tempo parziale e per le ore di lavoro prestate in aumento dovrà  essere corrisposta una maggiorazione della retribuzione nella misura onnicomprensiva pari al 15% da computare su gli elementi utili al calcolo delle maggiorazioni per lavoro straordinario, notturno e festivo.
+Il lavoratore che abbia aderito alle clausole elastiche, previa comunicazione scritta da presentare con un preavviso di almeno 7 giorni lavorativi corredata da adeguata documentazione, è esonerato dal relativo adempimento nei casi di cui al paragrafo â€œRichiesta del lavoratore di trasformazione del rapporto da tempo pieno a tempo parzialeâ€ e nei seguenti casi sopravvenuti e per il periodo di tempo in cui essi sussistano:
+- altra attività  lavorativa subordinata o che comunque impegni il lavoratore in orari definiti incompatibili con le variazioni d'orario;
+- necessità  di sottoporsi in orari non compatibili con le variazioni pattuite a terapie o cicli di cura;
+- altre fattispecie di impossibilità  all'adempimento, di analoga valenza sociale rispetto a quelle sopra riportate, e come tali congiuntamente riconosciute in sede aziendale tra Direzione e RSU ovvero tra azienda e lavoratore interessato.
+Lavoro supplementare e straordinario Tutte le volte che l'orario concordato sia inferiore all'orario normale settimanale, è consentita la prestazione di lavoro supplementare in riferimento a specifiche esigenze tecniche o organizzative o produttive o amministrative, previa
+
+54 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+comunicazione alle Rappresentanze sindacali unitarie e salvo comprovati impedimenti individuali.
+Il lavoro supplementare è consentito fino al raggiungimento delle 40 ore settimanali e per una quantità  annua non superiore al 50 per cento della normale prestazione annua a tempo parziale ed è compensato con una maggiorazione onnicomprensiva del 10% da computare su gli elementi utili al calcolo delle maggiorazioni per lavoro straordinario, notturno e festivo. Per le prestazioni eccedenti tale limite annuo la maggiorazione onnicomprensiva sarà  pari al 20%.
+Per lo svolgimento di prestazioni lavorative straordinarie si applica la disciplina contrattuale di cui all'articolo 7, Sezione quarta, Titolo III.
+Richiesta del lavoratore di trasformazione del rapporto da tempo pieno a tempo parziale I lavoratori affetti da patologie gravi che richiedono terapie salvavita che comportano una discontinuità  nella prestazione lavorativa certificata dall'unità  sanitaria locale territorialmente competente, hanno diritto alla trasformazione del rapporto di lavoro a tempo pieno in lavoro a tempo parziale. Il rapporto di lavoro a tempo parziale è trasformato nuovamente in rapporto di lavoro a tempo pieno previa richiesta del lavoratore.
+Nelle aziende con pià¹ di 100 dipendenti, l'azienda, nell'ambito della percentuale massima complessiva del 4 per cento del personale in forza a tempo pieno (con arrotondamento all'unità  superiore):
+a) accoglierà  le richieste motivate, e debitamente documentate, da:
+- necessità  di assistere genitori, coniuge o convivente, figli, e altri familiari conviventi senza alcuna possibilità  alternativa di assistenza, gravemente ammalati o portatori di handicap;
+- necessità  di accudire i figli fino al compimento dei 13 anni; ove la suddetta percentuale sia stata raggiunta, eventuali richieste motivate dalla necessità  di accudire i figli fino al compimento di 3 anni saranno accolte fino ad una percentuale massima complessiva del 5 per cento del personale in forza a tempo pieno;
+b) valuterà  positivamente, in funzione della fungibilità  del lavoratore interessato, le richieste motivate e debitamente documentate, da:
+- necessità  di assistere familiari conviventi senza alcuna possibilità  alternativa di assistenza che accedano a programmi terapeutici e di riabilitazione per tossicodipendenti;
+- necessità  di studio connesse al conseguimento della scuola dell'obbligo, del titolo di studio di secondo grado o del diploma universitario o di laurea;
+c) valuterà  l'accoglimento delle richieste motivate da ragioni diverse da quelle precedentemente indicate tenuto conto delle esigenze tecnico-organizzative.
+Nelle aziende fino a 100 dipendenti, l'azienda, nell'ambito della percentuale massima complessiva del 3 per cento dei lavoratori in forza a tempo pieno (con
+
+arrotondamento all'unità  superiore):
+- valuterà  positivamente, in funzione della fungibilità  del lavoratore interessato, le richieste motivate e debitamente documentate, dalle ragioni indicate al comma precedente alle lettere a) e b); i casi di cui alla lettera a) hanno la priorità  alla trasformazione del contratto di lavoro da tempo pieno a parttime; ove la suddetta percentuale sia stata raggiunta, eventuali richieste motivate dalla necessità  di accudire i figli fino al compimento di 3 anni saranno accolte fino ad una percentuale massima complessiva del 4 per cento del personale in forza a tempo pieno;
+- valuterà  l'accoglimento delle richieste motivate da ragioni diverse da quelle precedentemente indicate tenuto conto delle esigenze tecnico-organizzative.
+Nel caso di valutazione negativa da parte dell'azienda in relazione alla infungibilità  o allo scostamento dalla percentuale massima complessiva, sarà  svolto un confronto con la Rappresentanza sindacale unitaria per individuare una idonea soluzione.
+Nel caso di valutazione negativa da parte dell'azienda in relazione alle esigenze tecnico-organizzative, l'azienda, su richiesta della Rappresentanza sindacale unitaria, informerà  la medesima sui motivi del diniego della richiesta avanzata dal lavoratore.
+In caso di trasformazione del rapporto di lavoro da tempo pieno in rapporto di lavoro a tempo parziale su richiesta del lavoratore per le suddette motivazioni, le medesime motivazioni costituiscono comprovato impedimento individuale alle clausole flessibili.
+In caso di trasformazione del rapporto di lavoro da tempo pieno in rapporto di lavoro a tempo parziale, lo stesso potrà  anche avere durata predeterminata che, di norma non sarà  inferiore a 6 mesi e superiore a 24 mesi. La relativa comunicazione all'interessato sarà  fornita entro 30 giorni dalla richiesta.
+Informazioni La direzione comunicherà  annualmente alla Rappresentanza sindacale unitaria i dati a consuntivo sull'andamento delle assunzioni a tempo parziale e sulle richieste di trasformazione a part-time da parte di lavoratori assunti a tempo pieno.
+L'applicazione delle clausole elastiche per gruppi omogenei di lavoratori sarà oggetto di informazione preventiva alla Rappresentanza sindacale unitaria.
+
+DICHIARAZIONE COMUNE Le parti ritengono che il part-time possa costituire un efficace strumento per consentire la transizione intergenerazionale finalizzata ad incentivare l'assunzione di giovani a fronte della disponibilità  dei lavoratori pià¹ anziani a ridurre il proprio orario di lavoro in prossimità  del pensionamento.
+A tal fine le parti sollecitano coerenti provvedimenti di legge necessari a consentirne la realizzazione.
+
+56 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+D) Lavoro in somministrazione I lavoratori in somministrazione hanno diritto, per tutta la durata della missione, a parità  di mansioni svolte, a condizioni economiche e normative complessivamente non inferiori a quelle dei lavoratori di pari livello dell'azienda secondo quanto previsto dall'articolo 35, del D. Lgs. n. 81/2015.
+Gli accordi aziendali riguardanti il Premio di risultato stabiliscono modalità  e criteri per la determinazione e corresponsione di tale Premio; in assenza di disciplina contrattuale aziendale il Premio di risultato sarà  riconosciuto ai lavoratori somministrati in missione alla data di erogazione ovvero di comunicazione dei risultati di cui al quarto comma dell'articolo 12, Sezione quarta, Titolo IV, in proporzione diretta al periodo di missione complessivamente prestato nell'anno di riferimento del premio stesso, ancorchà© in virtà¹ di pià¹ missioni a termine.
+E) Lavoro a domicilio Fatta salva la disciplina prevista dalla legge 18 dicembre 1973, n. 877, entro tre mesi dalla stipulazione del presente Contratto le Associazioni territoriali imprenditoriali di competenza trasmetteranno al Sindacato provinciale di categoria un elenco delle aziende metalmeccaniche associate che si avvalgono di prestazioni di lavoro subordinato a domicilio. Ogni sei mesi la stessa Associazione territoriale imprenditoriale di competenza trasmetterà  le eventuali variazioni del suddetto elenco.
+DICHIARAZIONE COMUNE Ai lavoratori a domicilio si applicano le discipline di cui agli artt. 15, 16 e 17, Sezione quarta, Titolo IV.
+
+CLAUSOLA DI SALVAGUARDIA Le parti si danno reciprocamente atto che laddove dovessero intervenire modifiche al quadro legislativo di riferimento del presente articolo, previa verifica delle compatibilità  e coerenze con il dettato contrattuale, procederanno ad una armonizzazione.
+
+Art. 5. - Apprendistato.
+Per la disciplina dell'apprendistato professionalizzante, dell'apprendistato per la qualifica e per il diploma professionale, il diploma di istruzione secondaria superiore e il certificato di specializzazione tecnica superiore e dell'apprendistato di alta formazione e di ricerca, si fa rinvio alle rispettive discipline allegate che fanno parte integrante del presente Contratto.
+
+Art. 6. - Lavoro dei minori e dei soggetti aventi diritto ad assunzione obbligatoria.
+Il lavoro dei minori e dei soggetti aventi diritto ad assunzione obbligatoria è
+
+regolato dalle disposizioni di legge vigenti in materia.
+
+NOTA A VERBALE Le aziende considereranno con la maggiore attenzione, nell'ambito delle proprie possibilità  tecnico-organizzative, il problema dell'inserimento degli invalidi e dei lavoratori diversamente abili nelle proprie strutture, in funzione della capacità  lavorativa e del conseguente sviluppo professionale delle varie categorie degli stessi, anche su segnalazione e partecipazione delle Rappresentanze sindacali unitarie.
+Per quanto riguarda l'adeguatezza delle condizioni di lavoro alle capacità  lavorative di questa speciale categoria di lavoratori, le parti stipulanti, in considerazione del problema sociale che essi rappresentano, dichiarano che si adopereranno congiuntamente per la realizzazione delle iniziative e dei provvedimenti necessari per dare attuazione ai Â«sistemi di lavoro protettoÂ» di cui all'articolo 25 della legge 30 marzo 1971, n. 118. In tale spirito convengono di intervenire congiuntamente presso i competenti Ministeri del Lavoro e della Sanità  affinchà© il problema venga considerato ed affrontato con la maggiore sensibilità .
+Inoltre in sede territoriale le Associazioni imprenditoriali e le Organizzazioni sindacali promuoveranno congiuntamente opportune iniziative di studio per esaminare le problematiche concernenti le Â«barriere architettonicheÂ» nei luoghi di lavoro al fine di favorirne il superamento compatibilmente con le esigenze impiantistiche e/o tecnico-organizzative, anche attivando idonee iniziative per accedere a fonti di finanziamento previste dalle leggi vigenti.
+Nella stessa sede le parti potranno promuovere congiuntamente iniziative di studio e di ricerca finalizzate ad offrire alle aziende interessate sostegni di natura tecnico-organizzativa per favorire il proficuo inserimento lavorativo delle persone soggette al collocamento obbligatorio.
+Specifiche informazioni intorno agli interventi eseguiti - anche in esito alle suddette iniziative congiunte - per favorire il superamento e l'eliminazione delle Â«barriere architettonicheÂ», verranno rese in sede territoriale ovvero in sede aziendale cosà¬ come previsto dall'articolo 9, Sezione prima.
+
+Art. 7. - Trasferta.
+Rimborso spese A) Ai lavoratori comandati a prestare la propria opera fuori dalla sede, dallo stabilimento, dal laboratorio o cantiere per il quale sono stati assunti o nel quale fossero stati effettivamente trasferiti, compete un rimborso delle spese dagli stessi sostenute nell'interesse del datore di lavoro.
+Spetterà  il rimborso delle spese relative ai pasti e pernottamento secondo le regole che seguono:
+a) il rimborso del pasto meridiano è dovuto quando il lavoratore venga inviato
+
+58 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+in trasferta ad una distanza superiore ai 20 Km. dalla sede, stabilimento, laboratorio o cantiere per il quale è stato assunto o sia stato effettivamente trasferito;
+b) il rimborso del pasto serale è dovuto al lavoratore che, usando dei normali mezzi di trasporto oppure i mezzi messi a disposizione dall'azienda, non possa rientrare nella propria abitazione entro le ore 21 oppure entro le ore successive alle quali rientrerebbe partendo dalla sede o stabilimento di origine, alla fine del proprio orario normale di lavoro;
+c) il rimborso delle spese di pernottamento è dovuto al lavoratore che, per ragioni di servizio usando dei normali mezzi di trasporto oppure i mezzi messi a disposizione dall'azienda, non possa rientrare nella propria abitazione entro le ore 22. Tale rimborso non sarà  erogato nel caso in cui risulti in modo inconfutabile, ad esempio dai documenti di viaggio, che il lavoratore non ha sopportato spese nell'interesse del datore di lavoro relative al pernottamento.
+Il rimborso per il pasto meridiano è dovuto, indipendentemente dalla distanza chilometrica della trasferta, quando il lavoratore, durante la pausa non retribuita, non possa rientrare nella sede o stabilimento di origine e consumare il pasto usando i normali mezzi di trasporto oppure i mezzi messi a disposizione dall'azienda.
+Non si darà  luogo al rimborso delle spese dei pasti qualora il lavoratore possa usufruire dei servizi messi a disposizione dall'azienda quali: buoni pasto, convenzioni con ristoratori o possa consumare il pasto presso la propria mensa aziendale o quella del cliente in cui sia stato comandato a prestare il proprio lavoro; in quest'ultimo caso, ove sia stata sostenuta una spesa maggiore rispetto a quella della mensa di provenienza, si provvederà  al rimborso della differenza.
+Gli importi dei suddetti rimborsi spese saranno riferiti ai trattamenti aziendali in atto.
+Le spese effettive di viaggio, corrispondenti ai mezzi di trasporto forniti o autorizzati dall'azienda, saranno dalla stessa anticipate. Saranno corrisposti adeguati anticipi sulle prevedibili spese vive necessarie per l'espletamento della trasferta ed il saldo verrà  effettuato unitamente alla corresponsione della retribuzione come disciplinato dall'articolo 4, Sezione quarta Titolo IV.
+B) In alternativa al rimborso delle spese come sopra specificato, è possibile sostituire, anche in modo parziale, il rimborso con un'indennità  di trasferta forfettaria per ciascun pasto, meridiano o serale e per il pernottamento i cui importi sono pari a:
+
+Misura dell'indennità  dal 1Â° giugno 2021
+
+Trasferta intera 44,12
+
+Quota per il pasto meridiano o serale 11,92
+
+Quota per il pernottamento 20,28
+
+Gli incrementi dell'indennità  di trasferta sono ripartiti in ragione del 15 per cento per le quote relative ai pasti e per il 70 per cento per il pernottamento.
+Ai lavoratori comandati in trasferta in alta montagna o in sottosuolo gli importi di cui alla precedente tabella sono maggiorati del 10 per cento.
+Il lavoratore non ha alcun obbligo di presentare documentazione al fine di ottenere il rimborso forfettario.
+Le parti confermano che l'indennità  cosà¬ come disciplinata dalla presente lettera continua ad essere esclusa dal calcolo della retribuzione spettante per tutti gli istituti di legge e/o di Contratto.
+Sia nell'ipotesi A) che nell'ipotesi B) le parti confermano che non saranno erogati rimborsi nel caso in cui risulti in modo inconfutabile, ad esempio dai documenti di viaggio, che il lavoratore non ha sopportato spese nell'interesse del datore di lavoro relative al pernottamento ed ai pasti.
+Il lavoratore in trasferta dovrà  attenersi alle norme contrattuali per quanto riguarda la disciplina sul lavoro e alle istruzioni impartite dall'azienda per quanto riguarda l'esecuzione del lavoro cui sia adibito; inoltre, secondo le disposizioni impartite dall'azienda, dovrà  provvedere alla registrazione del materiale avuto in consegna e delle ore di lavoro compiute, ad inviare rapporti periodici che fossero richiesti dall'azienda sull'andamento del lavoro e ad attuare tutto quanto necessario per la sua buona esecuzione.
+Il lavoratore in trasferta non dovrà  effettuare prestazioni straordinarie, notturne e festive se non sia stato esplicitamente autorizzato dall'azienda o da coloro cui l'azienda abbia conferito detto potere.
+Le parti convengono che con il presente articolo hanno inteso fissare un trattamento minimo e non già  ammettere riduzioni delle condizioni nel complesso pià¹ favorevoli godute dai singoli o derivanti da accordi aziendali o provinciali, le quali in ogni caso assorbono fino a concorrenza i miglioramenti discendenti dal presente articolo rispetto alle situazioni in atto.
+Trattamento per il tempo di viaggio Al fine di prevedere lo svolgimento del normale orario di lavoro presso il luogo in cui è richiesta la prestazione lavorativa, al lavoratore comandato in trasferta, ad esclusione del personale direttivo, spetta un compenso per il tempo di viaggio, preventivamente approvato dall'azienda, in base ai mezzi di trasporto dalla stessa autorizzati per raggiungere la località  di destinazione e viceversa, nelle seguenti
+
+60 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+misure:
+a) la corresponsione della normale retribuzione per tutto il tempo coincidente col normale orario giornaliero di lavoro in atto nello stabilimento o cantiere di origine;
+b) la corresponsione di un importo pari all'85 per cento per le ore eccedenti il normale orario di lavoro di cui al punto a) con esclusione di qualsiasi maggiorazione di cui all'articolo 7, Sezione quarta, Titolo III (lavoro straordinario, notturno e festivo).
+Il tempo di viaggio dovrà  essere comunicato all'azienda per il necessario riscontro agli effetti del compenso.
+àˆ facoltà  della contrattazione aziendale prevedere la forfetizzazione dei tempi di viaggio e/o del trattamento economico.
+Le parti confermano che il compenso per il tempo di viaggio effettuato al di fuori del normale orario di lavoro continua ad essere escluso dal calcolo della retribuzione spettante per tutti gli istituti contrattuali e/o di legge.
+Le aziende porranno attenzione al rispetto del tempo minimo di riposo giornaliero di cui all'articolo 7 del D. Lgs. 8 aprile 2003 n. 66.
+Trasferte con pernottamento Resta salva la facoltà  della Direzione aziendale di disporre per esigenze tecniche, produttive ed organizzative, la permanenza del lavoratore nel luogo presso il quale è stato comandato.
+Il rimborso delle spese o l'indennità  forfettaria di trasferta sono dovuti ininterrottamente per tutto l'arco temporale fra l'inizio ed il termine della trasferta, compresi anche i giorni festivi nonchà© per i giorni di eventuale sospensione del lavoro per cause indipendenti dalla volontà  del lavoratore.
+La permanenza in trasferta del lavoratore potrà  di norma continuare per tutta la durata del cantiere o dell'opera presso il quale o per la quale lo stesso è stato comandato dall'azienda.
+Il lavoratore in trasferta conserverà  il normale trattamento economico della sede, stabilimento o cantiere di origine. Nel caso di lavorazione a cottimo, qualora in trasferta il lavoratore operi ad economia avrà  diritto alla sua paga base maggiorata della media di cottimo realizzata nel trimestre precedente all'invio in trasferta.
+Le aziende comunicheranno al lavoratore, con un preavviso minimo di 7 giorni, salvo casi imprevedibili ed eccezionali, la destinazione e la presumibile durata della trasferta, ove la stessa sia prevista superiore a 4 mesi. Resta salva la facoltà dell'azienda di destinare a diverso luogo di lavoro/cantiere il lavoratore interessato ogniqualvolta ricorrano esigenze tecniche od organizzative.
+In caso di infortunio o malattia, il trattamento di trasferta è dovuto per un periodo massimo di giorni 10, al termine dei quali il lavoratore potrà  richiedere di tornare in sede, con diritto al rimborso delle spese di viaggio con i mezzi di trasporto occorrenti e delle spese di vitto e pernottamento. Resta salva la facoltà  per
+
+l'azienda di disporre il rientro del lavoratore in qualsiasi momento.
+Qualora il lavoratore sia ricoverato in ospedale o istituto di cura il trattamento di trasferta è dovuto sino al giorno del ricovero. Durante il periodo di degenza saranno riconosciute le sole spese di pernottamento, fino ad un massimo di 15 giorni.
+Particolari situazioni di lavoratori dichiarati non trasportabili dietro certificazione medica o non ricoverabili per carenze di strutture ospedaliere saranno esaminati caso per caso, ai fini dell'eventuale estensione del trattamento di trasferta.
+Resta salva la facoltà  per l'azienda di provvedere a proprie spese, al rientro del lavoratore, dichiarato trasportabile dal medico, fino alla di lui abitazione. Ove il rientro sia stato richiesto dal lavoratore, al medesimo è dovuto il rimborso delle spese di viaggio con i mezzi di trasporto occorrenti e delle eventuali spese sostenute di vitto e pernottamento.
+Al lavoratore che durante la trasferta usufruisca delle ferie collettive e continuative, verranno rimborsate le spese di viaggio qualora egli rientri nella sede normale di lavoro oppure, ma sempre con il limite di spese di cui sopra, qualora rientri nella propria abitazione. In tal caso verrà  inoltre riconosciuto il trattamento relativo al tempo di viaggio.
+Al lavoratore in trasferta che ne faccia richiesta potranno essere concessi, compatibilmente con le esigenze del lavoro, dei permessi durante i quali cesserà ogni forma di retribuzione e di trattamento economico di trasferta.
+Quando la permanenza in trasferta del lavoratore abbia durata superiore a 4 mesi continuativi l'azienda concederà , a richiesta scritta del lavoratore, una licenza minima di tre giorni dei quali uno retribuito, saranno altresà¬ riconosciuti il tempo di viaggio, il rimborso delle spese per i mezzi di trasporto autorizzati occorrenti per raggiungere lo stabilimento o cantiere di origine e per il ritorno e il rimborso dei pasti consumati durante il viaggio.
+Il lavoratore avrà  la facoltà  di recuperare - secondo le necessità  produttive aziendali - un giorno di permesso non retribuito nei 60 giorni successivi alla data di godimento della licenza sopraddetta.
+àˆ fatto obbligo al lavoratore, pena la decadenza dal diritto di cui sopra, di effettuare la suddetta richiesta entro e non oltre 30 giorni dalla maturazione del diritto medesimo. L'azienda, compatibilmente con le esigenze del lavoro, concederà la licenza medesima entro un periodo non superiore a 30 giorni dalla data della richiesta avanzata.
+In caso di richiesta di permessi per eventi o cause particolari di cui all'articolo 4 della legge 8 marzo 2000, n. 53, l'azienda rimborserà  le spese per i mezzi di trasporto occorrenti e con esclusione di ogni altro rimborso spese.
+Aziende di manutenzione e di installazione di impianti Le aziende di manutenzione e di installazione di impianti comunicheranno su richiesta delle Rappresentanze sindacali unitarie o delle strutture territoriali delle Organizzazioni stipulanti la dislocazione dei cantieri quando essi occupino almeno
+
+62 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+25 dipendenti per oltre 4 mesi.
+Nelle aziende di installazione di impianti con pià¹ unità  produttive le Rappresentanze sindacali unitarie possono istituire organi di coordinamento.
+I permessi sindacali di cui i suddetti organi di coordinamento potranno usufruire sono regolamentati dalla vigente normativa in materia.
+
+DICHIARAZIONI A VERBALE Il lavoratore non si esimerà , salvo motivati e comprovati impedimenti, dal prestare la propria opera in trasferta, nel rispetto delle norme del presente Contratto e con particolare riferimento a quelle dettate nella Sezione seconda Â«Diritti sindacaliÂ».
+Le aziende che abbiano una prassi applicativa della previgente disciplina contrattuale prevista al punto XI), in alternativa alla disciplina di cui al presente articolo, continueranno nella sua applicazione.
+
+Art. 8. - Trasferimenti.
+I lavoratori di età  superiore ai 52 anni se uomini e 48 se donne, potranno essere trasferiti in altra sede solo in casi eccezionali da esaminare, a richiesta del lavoratore, in sede sindacale.
+In caso di altri trasferimenti individuali dovrà  tenersi conto delle obiettive e comprovate ragioni che il lavoratore dovesse addurre contro il trasferimento, direttamente ovvero tramite i componenti delle Rappresentanze sindacali unitarie.
+In ogni caso il trasferimento deve essere preceduto da un preavviso non inferiore a 20 giorni.
+I trasferimenti collettivi formeranno oggetto di preventiva comunicazione alle Organizzazioni sindacali dei lavoratori e, a richiesta delle stesse, di esame congiunto.
+La presente disciplina non si applica ai trasferimenti che vengono disposti nell'ambito di un raggio di 25 Km dalla sede, dallo stabilimento, dal laboratorio o cantiere per il quale i lavoratori sono stati assunti o nel quale fossero stati effettivamente trasferiti.
+Quanto sopra non si cumula con le eventuali regolamentazioni in materia derivanti da accordi aziendali.
+
+Art. 9. - Appalti.
+I contratti di appalto di opere e servizi sono disciplinati dalle norme di legge in materia.
+Sono esclusi dagli appalti i lavori svolti in azienda direttamente pertinenti le attività  di trasformazione proprie dell'azienda stessa, nonchà© quelle di manutenzione ordinaria continuativa, ad eccezione di quelle che necessariamente debbono essere svolte al di fuori dei normali turni di lavoro.
+
+Opportune disposizioni saranno esaminate per i lavoratori già  facenti parte dell'azienda appaltatrice.
+I contratti di appalto continuativi svolti in azienda - stipulati durante il periodo di vigenza del presente Contratto - saranno limitati ai casi imposti da esigenze tecniche, organizzative, gestionali ed economiche che, su richiesta delle Rappresentanze sindacali unitarie, potranno formare oggetto di verifica con la Direzione.
+Restano comunque salvi gli appalti aventi carattere di continuità , ma che siano relativi ad attività  diverse da quelle proprie dell'azienda appaltante, e quelli propri delle attività  navalmeccaniche e di installazione e montaggio in cantiere.
+Le aziende appaltanti devono esigere dalle aziende appaltatrici il rispetto delle norme contrattuali del settore merceologico a cui appartengono le aziende appaltatrici stesse, e quello di tutte le norme previdenziali e antinfortunistiche.
+I lavoratori di aziende appaltatrici operanti in azienda possono fruire dei servizi di mensa con opportune intese tra azienda appaltante e azienda appaltatrice.
+
+DICHIARAZIONE COMUNE Le parti concordano di istituire una Commissione con poteri negoziali sugli Appalti finalizzata a realizzare una modifica della normativa contrattuale anche alla luce delle novità  introdotte dai recenti interventi legislativi con conclusione dei lavori entro 6 mesi dall'avvio.
+
+Art. 10. - Contratti pubblici di servizi.
+I comparti della installazione di impianti tecnologici, dei servizi di efficienza energetica e del facility management sono caratterizzati da significative quote di mercato che comprendono la gestione degli impianti affidata tramite appalti di durata predeterminata nel tempo.
+Con riferimento all'ambito degli appalti pubblici di servizi come individuato alle lettere fff) e ggg), articolo 1, legge 28 gennaio 2016 n. 11 ed dall'articolo 50 D. Lgs. 18 aprile 2016 n. 50, le parti, nel rispetto della libera concorrenza tra aziende, intendono valorizzare principi etici e comportamenti di responsabilità sociale volti a salvaguardare l'occupazione compatibilmente con le esigenze organizzative delle imprese coinvolte ed anche al fine di contrastare fenomeni distorsivi della concorrenza.
+Nei casi di cessazione di appalto, l'azienda uscente ne darà  preventiva comunicazione alla Rappresentanza sindacale unitaria e alle organizzazioni sindacali territorialmente competenti con un preavviso, fatti salvi casi imprevedibili, di norma non inferiore a 30 giorni antecedenti la data di cessazione.
+Nella comunicazione di attivazione, che sarà  inviata anche all'impresa subentrante, sarà  fornito l'elenco dei lavoratori subordinati impiegati nell'appalto alla data della comunicazione, del rispettivo orario di lavoro, inquadramento contrattuale e mansioni.
+
+64 Sez. Quarta - Titolo I - Costituzione, tipologie, luogo e modifiche del rapporto
+
+Entro cinque giorni dalla data del ricevimento della comunicazione di cui al comma precedente ciascun destinatario potrà  chiedere un esame congiunto coinvolgendo, a richiesta, le rispettive organizzazioni di rappresentanza.
+La procedura di esame congiunto si intenderà  comunque utilmente esperita entro 15 giorni dal primo incontro.
+Nel confronto saranno valutate le attività  prestate dall'impresa uscente in ottemperanza al contratto di appalto eseguito con l'oggetto del nuovo bando di gara.
+L'impresa subentrante illustrerà  eventuali necessità  occupazionali correlate alla propria organizzazione ed alle condizioni dell'appalto.
+In caso di cambio appalto possono verificarsi due casi:
+a) cessazione di appalto a parità  di termini, modalità  e prestazione contrattuali; in questo caso l'azienda subentrante si impegna all'assunzione del personale come di seguito individuato;
+b) cessazione di appalto con modifiche di termini, modalità  e prestazione contrattuali; le parti, nel corso dell'esame congiunto, si attiveranno per armonizzare le mutate esigenze tecnico organizzative dell'appalto con il mantenimento dei livelli occupazionali facendo a ricorso a quanto messo a disposizione da norme legislative e/o contrattuali.
+Sono interessati al cambio appalto i lavoratori con contratto di lavoro subordinato a tempo indeterminato impiegati in via continuativa ed esclusiva nell'appalto che risultino in forza alla scadenza del contratto di appalto da almeno 6 mesi prima della predetta scadenza; il suddetto limite temporale non si applica esclusivamente per il personale in forza sull'appalto che è stato inserito in sostituzione di dipendenti che hanno interrotto, nel corso dei 6 mesi precedenti la scadenza del contratto di appalto, il rapporto di lavoro con la società  uscente.
+L'impresa uscente fornirà  alla subentrante ogni informazione e documentazione utile per perfezionare l'eventuale assunzione del personale compresi gli attestati professionali e quelli di sicurezza di cui al D.lgs. 81/2008.
+L'azienda uscente, non è tenuta al pagamento del preavviso, di cui all'articolo 1, Sezione Quarta - Titolo VIII - nonchà© la sua indennità  sostitutiva, ai lavoratori assunti dall'impresa subentrante.
+
+Art. 11. - Cessione, trasformazione e trapasso di azienda.
+La cessione o trasformazione dell'azienda non determina normalmente la risoluzione del rapporto di lavoro ed in tal caso il lavoratore conserva, nei confronti del nuovo titolare, i diritti acquisiti (anzianità  di servizio, livello, mansioni, ecc.) e gli obblighi derivanti dal presente Contratto di lavoro.
+
+Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+Art. 1. - Classificazione dei lavoratori.
+A decorrere dal 1Â° giugno 2021, le Parti concordano di adottare il seguente sistema di inquadramento dei lavoratori.
+I profondi cambiamenti dei fattori e dei modelli di organizzazione del lavoro intervenuti in questi anni in funzione dell'evoluzione dei mercati, delle filiere, dei processi di creazione del valore interni alle imprese e dell'evoluzione tecnologica, caratterizzata dalla crescente digitalizzazione e dalle innovazioni connesse ad Industria 4.0., comportano una trasformazione della prestazione lavorativa e delle professionalità . In questo contesto, il sistema di inquadramento intende valorizzare il contributo atteso del lavoratore in termini di responsabilità  ed autonomia proprie dei diversi ruoli aziendali attualizzando i contenuti di professionalità  e la terminologia dell'attuale sistema di inquadramento, prendendo atto delle innovazioni tecnologiche ed organizzative e della trasformazione digitale dell'industria e della società  dal 1973 ad oggi, tenendo conto dell'internazionalizzazione delle organizzazioni e dei sistemi professionali anche con riferimento al sistema europeo QEQ, garantendo compatibilità  con il quadro normativo e di certificazione generali e di comparto/filiera dei sistemi aziendali.
+I lavoratori rientranti nelle diverse categorie legali di quadri, impiegati e operai sono inquadrati in una classificazione unica articolata in nove livelli di inquadramento ricompresi in quattro campi di responsabilità  di ruolo:
+D. Ruoli Operativi: Livelli D1 e D2;
+C. Ruoli Tecnico Specifici: Livelli C1, C2 e C3;
+B. Ruoli Specialistici e Gestionali: Livelli B1, B2 e B3;
+A. Ruoli di Gestione del cambiamento e Innovazione: Livello A1.
+Ai nove livelli di inquadramento corrispondono eguali valori dei minimi tabellari secondo le tabelle riportate nella Sezione Quarta - Titolo IV. I livelli retributivi indicati sono quelli ragguagliati a mese (173 ore) e sono uguali per tutti i lavoratori indipendentemente dalla differenza di età .
+L'inquadramento dei lavoratori nei nove livelli previsti è effettuato sulla base delle declaratorie generali di cui al successivo punto 1.1. che definiscono i criteri di professionalità  in termini generali ed uniformi per tutti i comparti in cui si articola l'industria metalmeccanica e dell'installazione d'impianti.
+Al punto 1.5. è riportata una elencazione esemplificativa di famiglie professionali aggregate per aree funzionali desunte dai pià¹ diffusi modelli di organizzazione per funzioni e, al punto 1.6., una nota metodologica delle esemplificazioni di descrizione di profili professionali riportati in calce all'art. 10 del presente titolo, quali strumenti da utilizzare ai fini dell'implementazione operativa del sistema di inquadramento che saranno integrati dai materiali che la Commissione Nazionale sull'Inquadramento Professionale ha il compito di elaborare.
+
+66 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+DICHIARAZIONE DELLE PARTI L'apprendistato costituisce il contratto di lavoro da privilegiare per l'inserimento lavorativo dei giovani. Le discipline contrattuali per l'apprendistato professionalizzante, l'apprendistato per la qualifica e per il diploma professionale, il diploma di istruzione secondaria superiore e il certificato di specializzazione tecnica superiore e l'apprendistato di alta formazione e ricerca sono allegate al presente CCNL di cui sono parte integrante.
+1.1. DECLARATORIE GENERALI.
+Le declaratorie sono definite sulla base dei seguenti criteri di professionalità :
+autonomia - responsabilità  gerarchico/funzionale, competenza tecnico-specifica, competenze trasversali, polivalenza, polifunzionalità , miglioramento continuo ed innovazione correlati ai nuovi sistemi integrati di gestione.
+Gli elementi di professionalità  elencati sono precisati ed esemplificati nelle diverse possibili applicazioni determinate dal contesto aziendale nel glossario riportato al punto 1.4. e vanno riferiti al ruolo effettivamente svolto dal lavoratore nell'ambito dell'organizzazione aziendale.
+Le declaratorie individuano le competenze, le relative intensità  e le aree di autonomia e responsabilità  distintive dei ruoli che afferiscono allo stesso livello di inquadramento selezionate e graduate in funzione del contesto aziendale.
+I criteri di professionalità  in cui sono articolate le declaratorie non sono necessariamente compresenti e concorrono tutti o in parte o con diverso peso, in funzione dello specifico contesto organizzativo e tecnologico che caratterizza l'impresa o la singola unità  operativa/funzionale, tenendo conto dell'ampia articolazione su pià¹ comparti e varietà  dimensionale del settore metalmeccanico e dell'installazione d'impianti.
+Ai fini della classificazione nelle categorie legali di operaio ed impiegato, si considera la prevalenza di attività  manuale o operativa nell'esercizio del ruolo, indipendentemente dal livello di inquadramento.
+Ai lavoratori c.d. intermedi continuano ad essere applicati i trattamenti in atto.
+Per lavoratori direttivi si intendono i lavoratori con funzioni gerarchiche o dotati di autonomia tecnica organizzativa in funzione del relativo livello di inquadramento.
+Campo D - Ruoli operativi: livelli D1 e D2 Livello D1 Appartengono a questo livello:
+i lavoratori che svolgono attività  produttive, amministrative o di servizio elementari relative a un limitato numero di posizioni di lavoro di uno specifico ambito operativo/funzionale secondo istruzioni di lavoro definite. Per questo ruolo non sono richieste conoscenze e/o abilità  professionali specifiche ma competenze digitali, aritmetiche e di comunicazione di base.
+
+In funzione dei contesti aziendali tali lavoratori sono coordinati nella partecipazione alle iniziative di miglioramento aziendale.
+Livello D2 Appartengono a questo livello:
+i lavoratori che con limitata autonomia svolgono attività  produttive, tecniche, amministrative o di servizio ordinarie in un'area di lavoro determinata di uno specifico ambito operativo/produttivo o funzionale. Sono richieste conoscenze e abilità  specifiche adeguate all'applicazione di istruzioni e procedure di lavoro utilizzando strumenti e sistemi, anche digitali, preimpostati.
+In funzione dei contesti aziendali esercitano una limitata iniziativa di adattamento, manutenzione e regolazione su attività  e strumenti, interagiscono col proprio gruppo di lavoro, riportano autonomamente gli avanzamenti operativi e le anomalie identificate, utilizzando rapporti preimpostati o informatizzati e semplici strumenti di comunicazione digitale, adottando la corretta terminologia tecnica di base anche di origine straniera. Tali lavoratori sono normalmente coinvolti utilizzando le metodologie prescritte nelle eventuali iniziative o sistemi di miglioramento aziendale.
+Campo C - Ruoli tecnico specifici: livelli C1, C2 e C3 Livello C1 Appartengono a questo livello:
+i lavoratori con le caratteristiche di cui alla declaratoria del livello precedente che svolgono le attività  di un'area di lavoro determinata di uno specifico ambito operativo funzionale con polivalenza, riconosciuta autonomia, con capacità  di diagnosi tecnico-specifiche e di comunicazione e lavoro in gruppo.
+In funzione dei contesti aziendali svolgono con carattere di continuità  attività di collegamento operativo non gerarchico all'interno del team o con i team connessi, di tutoraggio e formazione in affiancamento ai colleghi secondo piani e modalità  definiti. Propongono interventi di semplici modifiche e adattamenti e forniscono un apporto attivo ai processi di miglioramento con autonomia nell' applicazione delle metodologie disponibili.
+Livello C2 Appartengono a questo livello:
+i lavoratori che apportano, con normale autonomia nella scelta esecutiva dei procedimenti, il contributo individuale nell'ambito di attività  produttive, tecniche, amministrative o di servizio ricorrenti, complesse e di elevata precisione, sulla base di conoscenze ed abilità  complete della tecnologia e della disciplina specifica con la capacità  di interpretare istruzioni, disegni, schemi, modelli di normale utilizzo e di applicare nell'ambito di procedure generali, le pià¹ opportune tecniche e strumenti, anche digitali, di analisi ed intervento, con la responsabilità  della cor68 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+retta esecuzione.
+Nell'ambito di tale autonomia esecutiva, in base alle definizioni organizzative guidano un gruppo di altri lavoratori.
+In funzione dei contesti aziendali, contribuiscono all'adattamento, manutenzione e regolazione dei processi relativi al proprio gruppo di lavoro, comunicando gli avanzamenti operativi e le anomalie identificate nelle modalità  prescritte, anche utilizzando strumenti di comunicazione e semplice ricerca ed elaborazione digitale dei dati e delle informazioni, con utilizzo elementare di terminologia nella lingua straniera rilevante. Operano in un ampio ambito operativo o funzionale e con consapevolezza interdisciplinare sono capaci di interagire con altre funzioni aziendali e con i clienti e fornitori, anche esterni.
+I lavoratori partecipano attivamente alle iniziative o sistemi di miglioramento assicurando il corretto utilizzo delle metodologie adottate e coordinando operativamente i gruppi di lavoro e miglioramento.
+Livello C3 Appartengono a questo livello:
+i lavoratori che hanno responsabilità  sullo svolgimento ed i risultati di specifiche attività  produttive, tecniche, amministrative o di servizio con le opportune autonomie di iniziativa nell'ambito delle previsioni aziendali a fronte delle variabilità  dei processi.
+Nell'ambito di tale autonomia di iniziativa, in base alle definizioni organizzative guidano e controllano gruppi o squadre articolate di altri lavoratori con eventuale interfaccia verso altre unità  e funzioni.
+Possiedono complete ed articolate competenze delle tecnologie e delle discipline specifiche che permettono di affrontare autonomamente operazioni e lavori complessi e di elevata difficoltà , anche non ricorrenti, ed effettuano diagnosi e definiscono metodi e strumenti nell'ambito di direttive generali, con l'utilizzo di dispositivi ed applicazioni digitali, specialistiche e complesse non predeterminate.
+Svolgono con autonomo contributo di diagnosi ed analisi, adattamento, manutenzione e regolazione di sistemi complessi, comunicando gli avanzamenti operativi, le anomalie e le soluzioni identificate nei modi adeguati anche utilizzando strumenti di comunicazione, reperimento dell'informazione ed elaborazione digitale.
+In funzione dei contesti aziendali coordinano le attività  con definizione delle priorità  operative a fronte delle esigenze di clienti e fornitori, anche esterni, con adeguato utilizzo della lingua straniera in uso. Operano su una famiglia di processi con elevata consapevolezza interdisciplinare ed in interazione con altre funzioni aziendali e con i clienti e fornitori esterni. Tali lavoratori guidano iniziative o attività  riferite ai sistemi di miglioramento assicurando la scelta ed il corretto utilizzo delle metodologie nell'ambito delle direttive generali.
+
+Campo B - Ruoli specialistici e gestionali: livelli B1, B2 e B3 Livello B1 Appartengono a questo livello:
+i lavoratori che nell'ambito di importanti funzioni o aree di specializzazione, con ampia autonomia operativa e responsabilità  dei risultati svolgono attività  produttive, tecniche, amministrative o di servizio di elevato livello tecnico. Possiedono competenza e perizia tecnico-specifiche elevate derivanti da articolati percorsi di esperienza e formazione.
+In base alle definizioni organizzative guidano, coordinano e conducono con apporto di elevata competenza tecnico-pratica un gruppo di altri lavoratori.
+In funzione dei contesti aziendali propongono e realizzano, in fase di esecuzione e nel rispetto delle procedure e dei livelli di responsabilità , modifiche e varianti, con autonomia di diagnosi, analisi, definizione e regolazione dei processi e degli strumenti, con autonomia nella presentazione delle attività  e dei problemi utilizzando con perizia strumenti di comunicazione ed elaborazione digitale, esprimendosi adeguatamente nella lingua straniera in uso.
+Contribuiscono con competenze ed attività  riferite ad ambiti funzionali anche in diverse aree operative aziendali e con i clienti e fornitori esterni e interni.
+Sono supportati nello sviluppo di un proprio percorso di apprendimento continuo e contribuiscono allo sviluppo di competenza dei propri collaboratori.
+Guidano in funzione di significativi obiettivi iniziative o sistemi di miglioramento aziendale.
+Livello B2 Appartengono a questo livello:
+i lavoratori direttivi dotati di competenze specialistiche rilevanti per l'efficienza e la continuità  tecnico produttiva dell'azienda. In base alle definizioni organizzative esercitano, con discrezionalità  di decisione nell'ambito di direttive generali, responsabilità  autonoma di unità  e/o progetti, assicurando la gestione organizzativa ed economica delle risorse assegnate. Sono in grado di svolgere e coordinare con definizione delle priorità  operative attività  complesse in condizioni normalmente prevedibili ma soggette a cambiamento, diagnosticando le soluzioni e scegliendo l'utilizzo dei metodi e degli strumenti specialistici e generali pertinenti. Sviluppano attivamente il proprio percorso di apprendimento continuo. Sono dotati di un'avanzata capacità  di reperire e trattare tutte le informazioni tecnico economiche necessarie e di impostare analisi e presentazioni complesse coordinando contributi utilizzando con perizia strumenti di comunicazione ed elaborazione digitale, comunicando nella lingua straniera in uso.
+In funzione dei contesti aziendali, guidano lo sviluppo di competenza dei colleghi nelle aree di propria specializzazione e la motivazione dei propri collaboratori, stabilendo con le parti rilevanti le risorse di mezzi e tempi. Contribuiscono su ampie famiglie di tecnologie e funzioni, in diverse aree operative aziendali ed
+
+70 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ambiti in relazione con altre funzioni aziendali e clienti e fornitori esterni in autonomia nell'ambito delle direttive generali. Promuovono e validano le modifiche ed innovazioni tecniche, metodologiche ed organizzative, e contribuendo con autonomia ai progetti di investimento, rappresentano la propria area in attività  interfunzionali di miglioramento e progetto.
+Livello B3 Appartengono a questo livello:
+i lavoratori che, oltre alle caratteristiche indicate nella declaratoria del livello precedente, presidiano competenze distintive ed, in funzione dei contesti aziendali, assicurano attività  di gestione e supervisione di funzioni, servizi, enti produttivi e/o progetti fondamentali per l'azienda. Possiedono alta specializzazione sostenuta da percorsi di formazione avanzata ed esperienza specifica con la capacità  di gestire anche cambiamenti o problemi non determinabili a priori, sviluppando soluzioni innovative in risposta a problemi complessi e negoziando autonomamente in contesti articolati e di incertezza.
+In funzione dei contesti aziendali pianificano e perseguono lo sviluppo di competenza e motivazione dei propri collaboratori, svolgono attività  di coordinamento, integrazione e innovazione, organizzano e governano processi di modifica ed innovazione tecnica, metodologica ed organizzativa, contribuiscono alla configurazione dei progetti di investimento e rappresentano la propria area in ambiti interfunzionali di miglioramento e innovazione.
+Campo A - Ruoli di gestione del cambiamento e dell'innovazione: livello A1 Livello A1 Appartengono a questo livello:
+i lavoratori con qualifica di quadro che, oltre alle caratteristiche indicate nella declaratoria del livello precedente, con carattere di continuità  e limitate deleghe di poteri e rappresentanza esercitano ampia autonomia nell'ambito degli obiettivi generali dell'impresa per il presidio di importanti aree di competenza specialistica e per la conduzione di uno o pià¹ servizi, unità  e/o progetti, anche di grandi dimensioni e complessità  e rilievo strategico, coordinando funzioni diverse ed assicurando la gestione dei fattori tecnologici, umani, organizzativi ed economici del perimetro assegnato proponendo obiettivi specifici e contribuendo alla definizione degli stessi obiettivi generali in un contesto di cambiamento non determinabile a priori. Possiedono elevate capacità  tecniche, gestionali, organizzative ed avanzata conoscenza del settore in cui operano e delle connessioni con i settori correlati. Sono in grado di operare e gestire per obiettivi nell'ambito di complessi processi aziendali governando le strategie di ottimizzazione e sviluppo delle risorse: umane, materiali ed immateriali. Promuovono ed orientano processi di cambiamento strutturale tecnico ed organizzativo utilizzando un articolato portafoglio di competenze tecnologiche, organizzative, personali e sociali.
+
+Normativa Quadri.
+L'azienda ai sensi del combinato disposto dell'articolo 2049 del Codice civile e dell'articolo 5 della legge 13 maggio 1985, n. 190 è responsabile per i danni conseguenti a colpa arrecati dal quadro nello svolgimento della sua attività .
+La suddetta responsabilità  puà² essere garantita anche mediante la sottoscrizione di apposita polizza assicurativa.
+L'azienda garantirà  al quadro dipendente, anche attraverso eventuale polizza assicurativa, l'assistenza legale fino alla sentenza definitiva, per i procedimenti civili e penali nei confronti del quadro medesimo per fatti che siano direttamente connessi all'esercizio delle funzioni attribuitegli.
+Previa autorizzazione aziendale, ai quadri è riconosciuta la possibilità  di pubblicazione nominativa, di ricerche o lavori relativi alle attività  svolte e di utilizzazione dei dati e delle informazioni acquisite nell'ambito dell'attività  lavorativa medesima.
+In relazione alle loro esigenze, le aziende di norma promuoveranno, anche avvalendosi delle Commissioni territoriali per la formazione professionale, la partecipazione dei quadri a iniziative di formazione finalizzate al miglioramento delle capacità  professionali.
+La partecipazione dei singoli a corsi, seminari o altre iniziative formative sarà concordata tra l'azienda ed il lavoratore interessato.
+1.2. CRITERI DI INSERIMENTO E MOBILITà€.
+L'applicazione del sistema sarà  basato sul riconoscimento e la valorizzazione delle capacità  professionali dei lavoratori in base alle declaratorie professionali nell'ambito del contesto aziendale.
+Nel comune interesse di un equilibrato evolversi delle tecnologie, delle organizzazioni, della produttività , e delle capacità  professionali stesse, puà² essere valutata compatibilmente con le specifiche esigenze tecniche e con le esigenze organizzative ed economico produttive l'opportunità  di sperimentare in sede aziendale, in accordo con la RSU d'intesa con le strutture territoriali delle Organizzazioni sindacali stipulanti, nell'ambito dei principi di riferimento comune individuati dal Ccnl e dalle Linee guida elaborate dalla Commissione nazionale, interventi di adattamento inquadramentale, secondo quanto previsto dal successivo art. 3, fermi restando gli accordi aziendali già  in atto.
+L'evoluzione professionale dei lavoratori si svolgerà  nell'ambito delle esigenze organizzative ed economico-produttive dell'azienda e, pertanto, non darà luogo ad una dinamica automatica ed illimitata.
+Fatti salvi gli accordi aziendali in materia, le parti convengono, limitatamente ai passaggi di cui alla successiva lettera A) ed ai criteri di inserimento e di mobilità di cui alla successiva lettera B), la seguente disciplina.
+
+72 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+A) Lavoratori con la qualifica giuridica di operaio.
+I passaggi dal livello D1 al Livello D2 avverranno come segue:
+a) i lavoratori senza specifica pratica di lavoro, provenienti da scuole professionali ed in possesso del relativo titolo di studio (livello 4 QEQ) saranno inseriti nel livello D2 dopo 3 mesi dall'assunzione;
+b) per i lavoratori inseriti in figure professionali articolate su pià¹ livelli, l'assegnazione al livello D2 avverrà  entro il termine di 18 mesi di svolgimento della prestazione; per i lavoratori che abbiano acquisito conoscenze e capacità  in corsi professionali specifici di Livello 3 QEQ l'inserimento in D2 avverrà  entro il termine di 9 mesi;
+c) per i lavoratori del livello D1 connessi al ciclo produttivo, il cui sviluppo nei livelli superiori è collegato a modifiche di carattere organizzativo o tecnologico comportanti un cambio di ruolo, il passaggio al livello D2 avverrà  comunque entro il termine di 36 mesi di svolgimento della prestazione. Tali passaggi non comporteranno necessariamente un cambiamento di mansioni.
+d) Per i lavoratori del livello D1 addetti alle linee a catena o a cadenza si darà luogo al passaggio al Livello D2 al termine dei 36 mesi di svolgimento della prestazione in linee di montaggio. Tale passaggio non presuppone necessariamente un cambiamento delle mansioni. Il lavoratore, anche dopo l'acquisizione del livello D2 non potrà  rifiutarsi di ruotare su qualsiasi postazione di lavoro dell'attività  produttiva stessa.
+Si considerano linee a cadenza, ivi comprese le linee a catena, i sistemi o le linee di produzione di serie costituite da una successione di posti di lavoro (stazioni) su ciascuno dei quali si effettua sempre la stessa operazione tecnologica su parti ed insiemi che si spostano tra le postazioni o lungo le linee a mezzo di sistema automatico (di tecnologia meccanica, pneumatica, elettrico-elettronica, ecc..), di trasporto con cadenze determinate dal sistema di supervisione della linea, determinando il tempo a disposizione di ciascun posto per eseguire il lavoro assegnato uguale alla Â«cadenzaÂ», cioè al tempo di spostamento del prodotto da una stazione ad una stazione successiva.
+B) Lavoratori con qualifica giuridica di impiegato.
+A questi lavoratori saranno applicati i seguenti criteri di inserimento in azienda e di mobilità :
+a) i lavoratori in possesso di laurea (anche triennale) o diploma ITS (Livello QEQ 5, 6 e 7) in fase di inserimento nell'azienda, verranno inquadrati nel Livello C3, sempre che svolgano attività  inerenti alla laurea o al diploma conseguiti;
+b) i lavoratori in possesso di diploma di scuole medie superiori (Livello QEQ 4 - limitatamente a percorsi quinquennali), in fase di inserimento nell'azienda, verranno inquadrati nel Livello C2.
+Tali lavoratori passeranno in ogni caso al Livello C3 dopo 24 mesi di ininterrotta permanenza in attività  inerenti al diploma conseguito;
+
+c) i lavoratori inquadrati nel Livello D1 dopo 18 mesi di ininterrotta permanenza passeranno al Livello D2.
+1.3. NORME TRANSITORIE.
+Le aziende procederanno entro il 31 maggio 2021 a riclassificare i lavoratori in forza secondo la seguente tabella di comparazione fra le previgenti categorie e i nuovi livelli di professionalità .
+La riclassificazione definita in base alla tabella di comparazione e alle precedenti clausole individua esattamente la corrispondenza tra le previgenti categorie e i nuovi livelli di inquadramento e non puà² di per sà© comportare un inquadramento dei lavoratori in livelli diversi rispetto a quelli risultanti dalla applicazione della stessa.
+
+TABELLA DI COMPARAZIONE
+
+MINIMI al MINIMI al CATEGORIE CAMPI PROFESSIONALI LIVELLI 31/05/2021 01/06/2021
+
+1 1.330,54 Eliminazione 1a categoria 2 1.468,71 D D1 1.488,89 3 1.628,69 Ruoli operativi D2 1.651,07 3S 1.663,88 C1 1.686,74 C 4 1.699,07 C2 1.722,41 Ruoli tecnico specifici 5 1.819,64 C3 1.844,64 5S 1.950,39 B1 1.977,19 B 6 2.092,45 Ruoli specialistici e gestionali B2 2.121,20 7 2.336,02 B3 2.368,12 A 8 2.392,00 Ruoli di gestione del A1 2.424,86 cambiamento e innovazione
+
+A far data dal 1Â° giugno 2021 è eliminata la 1a categoria. I lavoratori già  in forza al 31 maggio 2021 e inquadrati in 1a categoria sono riclassificati nel livello D1 a decorrere dal 1Â° giugno 2021.
+I lavoratori già  in forza al 31 maggio 2021, interessati dalla riclassificazione secondo la precedente tabella di comparazione, conservano l'anzianità  di servizio già  maturata a tale data a tutti gli effetti contrattuali nonchà© i periodi di attività già  svolti secondo quanto previsto ai punti II, III e IV, lettera B) Mobilità  professionale dell'art. 1 e all'art. 3, Sezione Quarta, Titolo II, CCNL 26 novembre 2016 che saranno considerati utili ai fini della riclassificazione nei nuovi livelli di pro74 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+fessionalità .
+Entro il 31 maggio 2021, al lavoratore già  in forza alla medesima data, sarà comunicata la riclassificazione definita in applicazione delle norme transitorie e, laddove non siano stati ancora completati i periodi di attività  richiamati al comma precedente, saranno altresà¬ comunicati i periodi di attività  ancora da svolgere ai fini del passaggio al livello di inquadramento di riferimento.
+Laddove già  presenti in azienda specifici adattamenti inquadramentali l'adozione del nuovo sistema di inquadramento contrattuale non potrà  comportare nà© perdite nà© vantaggi per le aziende e i lavoratori.
+1.4. GLOSSARIO ED ESEMPLIFICAZIONI DEI CRITERI DI PROFESSIONALITà€ 1) Autonomia-Responsabilità  gerarchico/funzionale: è l'ampiezza di impatto e di influenza gerarchica o tecnico/funzionale e/o il grado di autonomia e discrezionalità  esecutiva e d'iniziativa sulle attività  attribuite in un determinato contesto organizzativo. Tale contributo puà² essere riferito alla propria attività  individuale o anche altre attività  e risorse (umane, tecnologiche, economiche, materiali, informative etc.).
+Esemplificazioni:
+- Tipi di responsabilità  di budget/conto economico/risultato etc.
+- Dimensione e qualificazione dei riporti in termini di ampiezza del controllo gerarchico funzionale - Area organizzativa e complessità  del prodotto/processo su cui si esercita l'influenza (tecnica, economica, organizzativa e geografica)
+
+2) Competenza tecnica specifica: sono le conoscenze e le capacità  tecniche operative, di processo, di prodotto e di prerequisiti di certificazione, studio e/o esperienza, direttamente connesse allo specifico ambito di azione nel contesto aziendale.
+Esemplificazioni:
+- Controllo e regolazione - Qualità  per precisione, dimensione, valore, complessità , natura dei materiali e dei componenti, natura ed intensità  dei rischi: di deterioramento del prodotto, di sicurezza, ambientali, di continuità  del processo - Autonomia di diagnostica ed adattamento nell'esecuzione dei compiti professionali in condizioni variabili - Reperibilità  di mercato - Rilevanza competitiva aziendale - Perimetro di influenza: attività  personale, del gruppo, aziendale, di settore - Indicatori di misura della prestazione
+
+3) Competenze trasversali e partecipazione al miglioramento: sono i saperi ed i saper fare che il lavoratore puà² applicare e trasportare su differenti ambiti
+
+funzionali e di processo e che abilitano i risultati delle competenze tecnico specifiche in termini di efficacia ed efficienza. Esse comprendono competenze relazionali di ascolto e comunicazione, di lavoro individuale e collaborazione in gruppo, di problem solving per la partecipazione al miglioramento continuo, competenze digitali generali, di apprendimento permanente e di adattamento multiculturale e linguistico.
+Esemplificazioni:
+- Ascolto comunicazione e relazione - Partecipazione al miglioramento continuo e suggerimenti - Partecipazione e coordinamento del lavoro di gruppo - Esposizione al cliente ed al fornitore - Agilità  ed adattabilità - Pianificazione e gestione - Apprendimento continuo e formazione di sè - Supporto e formazione di altri - Lingue straniere - Utilizzo degli strumenti informatici e digitali
+
+4) Polivalenza: è la capacità  di effettuare, in un perimetro definito dell'organizzazione, prestazioni analoghe: diverse posizioni sulla stessa linea/ufficio o la stessa posizione su pià¹ linee, uffici, unità  organizzative.
+Esemplificazioni:
+- Capacità  di ricoprire posizioni diverse di complessità  ed onerosità  equivalente nella stessa unità  organizzativa o disimpegnare la stessa posizione in diverse unità  organizzative e contesti operativi diversi
+
+5) Polifunzionalità : è la capacità  del lavoratore di svolgere attività  accessorie normalmente riferibili a diverse aree di mestiere/funzionali ed esercitare la responsabilità  in aree funzionali diverse.
+Esemplificazioni:
+- Capacità  di esercizio della propria attività /responsabilità  in integrazione con ruoli tecnici diversi, o di attingere ad altri saperi tecnico/disciplinari per svolgere attività  o presidiare pià¹ funzioni in posizioni composite
+
+6) Miglioramento continuo e innovazione: partecipazione ai nuovi sistemi integrati di gestione operativa e di organizzazione del lavoro ad esempio di tipo ISO 9000, 14000, 18000/45000 o normativo che richiedono capacità  di contribuire ai cicli di miglioramento continuo e processi di innovazione a fronte delle evoluzioni della tecnologia e dei mercati, per il miglioramento delle condizioni di lavoro, dell'efficienza.
+Esemplificazioni:
+- Attitudine cliente/fornitore interno lungo il processo
+
+76 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+- Capacità  di contribuire all'implementazione delle soluzioni tecniche, di prodotto e processo, ed organizzative - Capacità  di utilizzare, sviluppare individualmente e/o collaborativamente, metodologie e strumenti, anche digitali, previsti nell'ambito dei modelli organizzativi - Capacità  di guidare/orientare il miglioramento e/o l'innovazione - Capacità  di diffusione delle pratiche e di elaborare proposte innovative 1.5. ESEMPLIFICAZIONE DI FAMIGLIE PROFESSIONALI AGGREGATE PER AREE FUNZIONALI Le seguenti esemplificazioni di famiglie professionali individuano una selezione di possibili esempi rappresentativi delle diverse funzioni/ruoli aziendali e ricomprendono oltre a figure professionali già  presenti nei precedenti CCNL nuove figure professionali connesse all'evoluzione delle tecnologie, dei modelli di organizzazione e nella prospettiva dei sistemi integrati di gestione e miglioramento e degli impatti della digitalizzazione.
+Le aree in cui sono organizzate le famiglie professionali hanno un valore indicativo e sono desunte dai pià¹ diffusi e diversi modelli di organizzazione per funzioni.
+Le famiglie professionali esemplificate potranno essere poi declinate in figure professionali articolate su diversi livelli contrattuali, in funzione degli effettivi contenuti di ruolo e dei contesti aziendali sulla base delle declaratorie generali.
+Per ciascuna area funzionale possono poi essere considerati ruoli â€œgeneralistiâ€ con riferimento a quelle famiglie professionali trasversali rispetto all'insieme delle attività  e delle competenze specifiche dell'area funzionale che in base ai contesti aziendali si possono articolare sui diversi livelli di inquadramento.
+I quattro campi di ruolo: Ruoli Operativi, Ruoli Tecnico Specifici, Ruoli Specialistici e Gestionali, Ruoli di Gestione del cambiamento e Innovazione sono un riferimento utile per uniformare le terminologie da adottare in azienda ai fini dell'organizzazione delle figure professionali nei livelli di inquadramento, fermo restando che gli stessi termini di addetto, responsabile, specialista, tecnico possono rappresentare in funzione dei contesti aziendali contenuti di ruolo diversi o essere sostituiti da denominazioni derivanti dalla necessità  di inquadrare l'organizzazione in standard di nomenclatura internazionali, ad esempio quando si utilizzino termini quali manager, supervisor, specialist, leader.
+
+ESEMPI DI ESEMPI DI AREA FUNZIONALE FAMIGLIE PROFESSIONALI
+
+- Acquisti diretti/indiretti - Collaudo e laboratori - Miglioramento continuo ed efficienza organizzativa - Qualità  cliente ACQUISTI, QUALITà€, SICUREZZA-AMBIENTE - Qualità  prodotto processo - Responsabili/addetti servizio prevenzione protezione - Servizi pulizia e smaltimento - Servizi salute e prevenzione - Sistemi e metodi qualità
+
+- Contabilità - Controllo di gestione AMMINISTRAZIONE E - Finanza CONTROLLO GESTIONE - Fiscalità - Servizi ausiliari amministrazione - Tesoreria
+
+- Addetti commessa/cantiere - Attrezzisti/stampisti - Conduzione impianti di servizio - Costruzione/manutenzione stampi ed attrezzature - Guardiafili-giuntista e installatori impianti telecomunicazione MANUTENZIONE, - Installatori/manutentori impianti termotecnici INSTALLAZIONE E - Installatori/manutentori impianti elettrici TECNOLOGIE - Manutentore meccanico-elettrico-elettronico-software - Manutenzione macchine e impianti - Montaggio/installazione di grandi impianti - Servizi ausiliari di manutenzione e cantiere - Tecnici di assistenza - Tecnici programmatori di assistenza e installazione - Tecnologi/installatori sistemi alta automazione - Tubisti
+
+- Amministrazione paghe e contributi, controllo costi - Comunicazione PERSONALE E - Formazione e sviluppo ORGANIZZAZIONE - Relazioni industriali e responsabilità  sociale d'impresa - Selezione - Sicurezza e servizi ausiliari
+
+- Addetti/conduttori linee cadenza/impianti/sistemi automatizzati PRODUZIONE - Addetti laminatoi LOGISTICA - Addetti lavorazioni avanzate e non convenzionali - Addetti macchina/guidamacchine - Addetti macchine a controllo numerico - Addetti preparazioni ed imballaggi
+
+78 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+- Addetti unità  produttiva autonoma - Analisti tempi-metodi, processi, cicli - Assemblaggi e montaggi - Conduttore mezzi di trasporto interni/esterni - Costruttori al banco - Costruttori su macchine - Gruisti - Logistica di produzione - Logistica trasporti - Metodisti di macchine a controllo numerico PRODUZIONE - Modellista LOGISTICA - Programmazione produzione ed approvvigionamenti - Saldatore - Servizi ausiliari di produzione e pulizie tecnologiche - Stampaggi - Tecnologie di formatura e animisteria - Tecnologie di fusione e colata - Tecnologi di sistemi automatizzati e robotizzati - Tecnologi di sistemi di lavorazione avanzati e non convenzionale - Trattamenti termici e di rivestimento
+
+- Addetti prove e laboratori - Addetti/responsabili progetto/commessa - Addetti servizi ausiliari di progettazione e sperimentazione - Disegnatori e progettisti metodi, processi/impianti RICERCA&SVILUPPO E GESTIONE PROGETTI - Disegnatori e progettisti prodotto - Progettisti metodi di produzione - Prototipazione nuovi prodotti - Specialisti di calcolo e modellizzazione - Specialisti tecnologie di prodotto/processo, ricercatori
+
+- Marketing e comunicazione - Responsabile prodotto/mercato SERVIZI - Servizio cliente COMMERCIALI - Tecnico commerciale - Vendite e gestione cliente
+
+- Amministratore database e sistemi - Analista funzionale - Consulente cliente process/business/solution - Data analyst SERVIZI - Gestione progetti sistemi informativi INFORMATICI - Progettazione e gestione web - Servizi informatici interni - Sicurezza informatica - Sviluppo e testing - System engineer
+
+1.6. NOTA METODOLOGICA DELLE ESEMPLIFICAZIONI DI PROFILI PROFESSIONALI.
+Gli esempi di profili professionali, che sono riportati in calce al successivo art. 10 relativo alla Commissione Nazionale per l'Inquadramento professionale, sono raccolti per aree funzionali di riferimento in coerenza con la precedente esemplificazione di famiglie professionali.
+Il formato tabellare mette in evidenza l'utilizzo dei 6 criteri di professionalità per la definizione del corretto inquadramento nel livello applicandoli a figure professionali specifiche dell'area con funzione di pura esemplificazione che non puà² avere pretese di completezza e non ha carattere prescrittivo vista la varietà  di contesti aziendali, per organizzazione, tecnologie e dimensioni che devono essere affrontati direttamente attraverso le declaratorie generali.
+Di norma gli esempi di profili professionali sono implicitamente riferiti ad ipotesi di contesto aziendale specifico e quindi l'espressione â€œin funzione dei contesti aziendaliâ€ non è riportata sistematicamente nelle tabelle di esemplificazione.
+Solo in casi particolari si è reso necessario esplicitarla a fini di generalità  per introdurre opzioni quali ad esempio, relative alla conduzione di collaboratori, ai perimetri di polivalenza, alle competenze tecnico-specifiche e trasversali.
+Il metodo esemplificato puà² essere per analogia di supporto nello sviluppo dei profili professionali e del loro corretto inquadramento nel reale contesto organizzativo e tecnologico che caratterizza l'impresa, secondo quanto precisato al precedente punto 1.1.
+
+Art. 2. - Iniziative sperimentali.
+Al fine di cogliere le specificità  e sviluppare le professionalità , le competenze e l'impiegabilità  dei lavoratori in coerenza con gli ambiti tecnologici e i modelli di organizzazione attraverso i quali le diverse imprese producono valore, puà² essere valutata l'opportunità  di sperimentare interventi di adattamento inquadramentale nell'ambito dei principi di riferimento comune individuati dal Ccnl e dalle Linee guida elaborate dalla Commissione nazionale, fermi restando gli accordi aziendali già  in atto.
+Gli approfondimenti inquadramentali dovranno essere condivisi in sede aziendale con la RSU d'intesa con le strutture territoriali delle Organizzazioni sindacali stipulanti anche con riferimento ai tempi di realizzazione, e potranno riguardare anche specifiche aree professionali e/o di attività  aziendale.
+Per rendere operativi tali adattamenti potranno essere considerate le seguenti iniziative:
+- approfondimento della valutazione di fattori di professionalità , specifici, trasversali, di polivalenza e di competenza espressa attraverso matrici improntate ad oggettività  e trasparenza;
+- individuazione di percorsi di ricomposizione delle posizioni e di arricchimento dei contenuti professionali di specifiche professionalità  in funzione
+
+80 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+delle innovazioni organizzative e tecnico-operative;
+- individuazione di sistemi di valutazione del contributo individuale o di team o di specifiche aree professionali alla catena di creazione del valore ed al differenziale competitivo dell'impresa;
+- individuazione di sistemi di bilancio delle competenze individuali, di team, di specifiche aree professionali in coerenza con i fabbisogni di formazione ed apprendimento continuo e piani di sviluppo definiti attraverso un portafoglio di azioni, adeguatamente articolato per metodologia anche in ambito digitale, interne ed esterne, individuali e collettive anche tenendo conto del diritto soggettivo alla formazione.
+
+Art. 3. - Passaggio temporaneo di mansioni.
+Il prestatore di lavoro deve essere adibito alle mansioni per le quali è stato assunto o a quelle corrispondenti al livello superiore che abbia successivamente acquisito ovvero a mansioni equivalenti, in coerenza con i criteri di professionalità di riferimento, alle ultime effettivamente svolte, senza alcuna diminuzione della retribuzione.
+I lavoratori avranno diritto al passaggio al livello superiore se disimpegnano le mansioni superiori per un periodo pari a:
+- 30 giorni continuativi, ovvero 75 giorni non continuativi nell'arco di un anno o 6 mesi non continuativi nell'arco di tre anni;
+- 3 mesi continuativi, ovvero 9 mesi non continuativi nell'arco di tre anni, per l'acquisizione dei livelli B1, B2, B3 e A1.
+L'esplicazione di mansioni di livello superiore in sostituzione di altro lavoratore assente per permesso o congedo, malattia, gravidanza e puerperio, infortunio, ferie, servizio militare di leva o richiamo di durata non superiore a 6 mesi, aspettativa, non dà  luogo a passaggio di livello, salvo il caso della mancata riammissione del lavoratore sostituito nelle sue precedenti mansioni.
+Al lavoratore assegnato a compiere mansioni inerenti al livello superiore a quello di appartenenza deve essere corrisposto, in aggiunta alla sua normale retribuzione, un adeguato compenso non inferiore alla differenza tra la predetta sua normale retribuzione e quella che gli sarebbe spettata in caso di passaggio definitivo al livello superiore.
+
+Art. 4. - Nuove mansioni.
+Per ruoli non richiamati nelle esemplificazioni delle famiglie professionali di cui al punto 1.5. l'azienda darà  comunicazione alla RSU che potrà  formulare i suoi rilievi al riguardo.
+
+Art. 5. - Cumulo di mansioni.
+Ai lavoratori che sono assegnati alla esplicazione di mansioni di diversi livelli
+
+sarà  attribuito il livello corrispondente alla mansione superiore, semprechà© quest'ultima abbia carattere di prevalenza o almeno carattere di equivalenza di tempo, fermo restando quanto stabilito dal precedente articolo 3 e dal precedente articolo 1, punto 1.2..
+Di casi particolari che non rientrino fra quelli sopra indicati si terrà  conto nella retribuzione.
+
+Art. 6. - Addetti a mansioni discontinue o di semplice attesa o custodia.
+Sono lavoratori discontinui gli addetti a mansioni che non richiedono un impegno lavorativo assiduo e continuativo, ma che consentono intervalli pià¹ o meno ampi di inoperosità , secondo quanto previsto dall'art. 16, lett. d), del D. Lgs. 8 aprile 2003, n. 66.
+I) Si considerano rientranti fra detti lavoratori esclusivamente i seguenti: autisti, motoscafisti, infermieri, addetti alle cabine di produzione e di trasformazione dell'energia elettrica, addetti alla sorveglianza, al presidio e/o conduzione di apparecchiature ed impianti (ad esempio di climatizzazione e del calore, distribuzione fluidi, linee e condotte di gas ed acqua, segnaletica stradale e ferroviaria, allarme, ecc.) anche con sporadici interventi di manutenzione, addetti al servizio estinzione incendi, fattorini, uscieri, inservienti, custodi, portinai, guardiani diurni e notturni.
+II) I lavoratori discontinui possono essere assunti per un orario di lavoro normale settimanale di 40, di 44 o di 48 ore. Nel caso di lavoratori assunti con un orario di lavoro normale pari a 48 ore settimanali l'orario di lavoro sarà  computato come durata media in un periodo non superiore a 12 mesi.
+Per i lavoratori discontinui già  assunti con un orario giornaliero di 10 ore, l'orario normale settimanale rimane fissato in 48 ore.
+Per i lavoratori discontinui già  assunti con un orario giornaliero di 9 ore, l'orario normale settimanale rimane fissato in 44 ore.
+Per i lavoratori discontinui già  assunti con un orario giornaliero di 8 ore, l'orario normale settimanale rimane fissato in 40 ore.
+Si intende che il periodo di attesa di questi lavoratori è comprensivo della pausa per la refezione.
+III) Nei casi di cui ai commi secondo e terzo del punto II), fermo restando che le ore prestate oltre la quarantesima ora e fino al normale orario individuale saranno retribuite senza le maggiorazioni previste dall'articolo 7, Sezione quarta, Titolo III per il lavoro straordinario, ai fini di tutti gli istituti contrattuali si applica il principio della proporzionalità  diretta.
+IV) Fermo quanto previsto al comma primo del punto III), ai fini del presente articolo si considera lavoro straordinario quello eseguito oltre l'orario giornaliero fissato nella suddivisione degli orari settimanali di cui al punto II).
+Il lavoro straordinario deve essere compensato con le maggiorazioni previste dall'articolo 7, fermo restando che non si applicano ai discontinui i limiti e le modalità  per la effettuazione del lavoro straordinario previsti nel suddetto articolo,
+
+82 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+salvo le limitazioni di legge.
+V) I lavoratori di cui al precedente punto I) sono suddivisi nei seguenti raggruppamenti:
+A) (corrispondente al livello C3):
+- infermieri professionali, addetti cabine di produzione e trasformazione di energia elettrica ed addetti alla sorveglianza, presidio e/o conduzione di apparecchiature ed impianti che eseguono lavori di riparazione;
+B) (corrispondente al livello C2):
+- infermieri professionali, autisti esterni meccanici, motoscafisti, addetti cabine di produzione e trasformazione di energia elettrica, addetti alla sorveglianza, presidio e/o conduzione di apparecchiature ed impianti ed addetti servizio estinzione incendi con interventi di manutenzione ordinaria, portieri;
+C) (corrispondente al livello D2):
+- infermieri , autisti non meccanici, addetti alla sorveglianza, presidio e/o conduzione di apparecchiature ed impianti, addetti al servizio di estinzione di incendi, custodi, fattorini, uscieri, lavoratori con compiti di vigilanza o di sorveglianza del patrimonio aziendale, portieri;
+D) (corrispondente al livello D1):
+- inservienti e simili, custodi, fattorini, uscieri, lavoratori con compiti di vigilanza o di sorveglianza del patrimonio aziendale.
+Eventuali contestazioni riguardanti tali classificazioni saranno esaminate tra la Direzione e la Rappresentanza sindacale unitaria ed in caso di disaccordo verrà seguita la procedura prevista dall'articolo 7, Sezione quarta, Titolo VII, del presente Contratto.
+VI)All'atto dell'assunzione o del passaggio a mansioni discontinue l'azienda, oltre a quanto previsto dall'articolo 1, Sezione quarta, Titolo I, deve comunicare per iscritto ai lavoratori di cui al punto I) del presente articolo l'orario normale di lavoro e la relativa paga.
+VII) In riferimento all'articolo 2, Sezione quarta, Titolo V, ai lavoratori che devono svolgere le proprie mansioni esposti alle intemperie l'azienda dovrà  dare in dotazione appositi indumenti protettivi.
+VIII) Per gli autisti adibiti alla consegna in altre località  dei veicoli da essi condotti o trasportati, saranno stabilite, mediante accordi aziendali, per le giornate di servizio fuori del comune sede dello stabilimento, paghe giornaliere comprensive di un forfait di lavoro straordinario.
+IX) Le condizioni di lavoro dei portinai e custodi con alloggio di fabbrica nello stabilimento o nelle immediate vicinanze in relazione alle mansioni svolte, continueranno ad essere regolate da accordi particolari; gli interessati possono chiedere l'assistenza delle rispettive Organizzazioni sindacali.
+X) Fermo restando l'articolo 1 della Sezione terza, il presente articolo non modifica le eventuali situazioni di diritto derivanti da accordi o regolamenti pià¹ favorevoli ai lavoratori.
+
+DICHIARAZIONE A VERBALE SUL PUNTO V).
+Con la norma di cui alla lettera C) del punto V), le parti non hanno inteso innovare nella situazione di fatto dei portieri, capiturno e fattorini che in relazione a particolari compiti fruissero attualmente di una classificazione pià¹ favorevole.
+
+Art. 7. - Lavori indirettamente produttivi negli stabilimenti siderurgici.
+Agli effetti del presente articolo sono considerati lavori indirettamente produttivi le seguenti operazioni:
+ai gassogeni, forni di distillazione, forni di fusione e forni di riscaldo:
+1) riparazioni; 2) riscaldo od alimento; 3) pulizia di valvole, di tubazioni, di collettori, di griglie, di pozzetti, di condotti di alimento del carbone o lignite;
+ai treni di laminazione:
+1) cambio di cilindri; 2) cambio di gabbie; 3) cambio di cuscinetti, manicotti ed allunghe; 4) pulizia generale;
+alla trafilatura a caldo:
+1) riparazione;
+alla fucinatura:
+1) attrezzaggio; 2) riparazione;
+alla stagnatura e piombatura:
+1) riparazioni; 2) pulizia generale.
+
+1.A) Qualora durante un turno di lavoro il processo produttivo venga interrotto per la esecuzione delle operazioni sopra elencate, i lavoratori ad esse addetti, semprechà© componenti la stessa squadra di produzione, percepiranno, oltre alla paga base oraria di fatto, un compenso la cui misura non dovrà  essere inferiore all'85 per cento dell'utile medio orario di cottimo, realizzato nel periodo di paga in corso nel posto di lavoro cui erano addetti al momento in cui sono stati comandati ad eseguire le operazioni stesse.
+1.B) Qualora gli stessi lavori vengono eseguiti nel periodo di normale fermata della produzione nell'intervallo tra il termine di una successione settimanale di turni e la ripresa di quella seguente, i lavoratori addetti, semprechà© appartenenti alle squadre dello stesso mezzo di produzione al quale si eseguono le operazioni di cui sopra, verranno retribuiti con una retribuzione pari a quella media oraria realizzata per le ore ordinarie (escluse quindi le maggiorazioni corrisposte per le
+
+84 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ore notturne, straordinarie, festive) nel periodo di paga nel quale si verificano le prestazioni suddette.
+2) Qualora per la esecuzione dei lavori stessi il personale di squadra necessario debba fare ore in pià¹ del turno normale giornaliero indispensabili al regolare andamento del lavoro stesso, tali ore saranno retribuite con una retribuzione oraria uguale a quella media realizzata nel periodo di paga in corso per le ore di lavoro ordinarie (escluse quindi le maggiorazioni corrisposte per le ore notturne, straordinarie, festive) maggiorata di un compenso pari a quello fissato dall'articolo 7, Sezione quarta, Titolo III, per il lavoro straordinario e che non sarà  con questo cumulabile.
+Tale maggiorazione sarà  calcolata con gli stessi criteri stabiliti dal predetto articolo 7, Sezione quarta, Titolo III.
+
+Art. 8. - Variazioni nelle squadre ai forni ed ai treni negli stabilimenti siderurgici.
+Qualora in conseguenza di modifiche apportate alla composizione di una squadra, il guadagno dei suoi componenti dovesse diminuire o non fosse pià¹ adeguato alla prestazione che viene richiesta ai componenti stessi, si seguirà  la procedura stabilita dall'articolo 7, Sezione quarta, Titolo VII.
+
+Art. 9. - Sostituzione di personale di squadra assente negli stabilimenti siderurgici.
+L'azienda deve provvedere alla sostituzione del lavoratore componente la squadra di produzione (laminatoi, forni, fucinatura), che fosse assente.
+Ove cià² eccezionalmente non possa avvenire ed i restanti lavoratori della squadra provvedano a ripartirsi il lavoro dell'assente, la retribuzione globale di fatto che sarebbe spettata allo stesso verrà  ripartita tra i lavoratori della squadra che hanno partecipato al lavoro in sostituzione del lavoratore assente.
+
+CHIARIMENTO A VERBALE.
+
+L'eccezionale impossibilità  di cui al secondo comma del presente articolo non puà² protrarsi, per lo stesso lavoratore, oltre il giorno di lavoro in cui si verifica l'assenza.
+
+DICHIARAZIONE A VERBALE.
+
+Considerato che l'obiettivo di una migliore utilizzazione degli impianti nell'intero settore siderurgico corrisponde agli intendimenti delle parti, si stabilisce che, laddove le esigenze aziendali richiedano una pià¹ ampia utilizzazione, le Direzioni di stabilimento e le Rappresentanze sindacali unitarie si incontreranno per concordare le condizioni e le misure necessarie a perseguire l'obiettivo sopra ricordato.
+
+Art. 10. - Commissione Nazionale sull'Inquadramento Professionale Federmeccanica, Assistal e Fim, Fiom, Uilm, ritenendo che il nuovo sistema di inquadramento professionale costituisca uno strumento fondamentale per la valorizzazione del lavoro delle persone in coerenza con i profondi cambiamenti dei fattori e dei modelli di organizzazione del lavoro intervenuti in questi anni, convengono di costituire la Commissione nazionale sull'Inquadramento professionale con il compito di:
+- monitorare l'applicazione del nuovo sistema di inquadramento professionale;
+- elaborare una raccolta di profili professionali rilevanti tenendo conto delle specificità  dei comparti, filiere e bacini (installazione d'impianti, informatica, automotive eccâ€¦) che sarà  gestita e condivisa secondo quanto definito di comune accordo dalle Parti; le esemplificazioni di profili professionali riportate in calce al presente articolo, costituiscono esempi guida per la Commissione per definire gli ulteriori profili professionali;
+- fornire valutazioni ed indirizzi qualora si verifichino contenziosi sull'applicazione del nuovo sistema di inquadramento su richiesta delle parti;
+- proporre alle Parti stipulanti aggiornamenti dell'esemplificazione delle figure professionali e progressione nei livelli di professionalità  in funzione dell'evoluzione tecnologica e organizzativa dell'industria metalmeccanica e dell'installazione d'impianti;
+- elaborare Linee guida per le sperimentazioni di interventi di adattamento inquadramentale finalizzati a valorizzare le professionalità  dei lavoratori in coerenza con le specificità  degli ambiti tecnologici e dei modelli di organizzazione aziendale di cui al precedente art. 2;
+- monitorare le sperimentazioni che si realizzeranno e, a richiesta congiunta, fornire supporto alla sperimentazione; il monitoraggio delle sperimentazioni che si realizzeranno consentirà  di aggiornare ed implementare le suddette Linee guida;
+- elaborare valutazioni e proposte, sulla base delle sperimentazioni realizzate, dei casi aziendali, dei risultati conseguiti e delle eventuali problematicità , circa l'eventuale necessità  di apportare correttivi, implementazioni o modifiche al sistema di classificazione dei lavoratori, nel corso del prossimo rinnovo del CCNL.
+La Commissione si avvarrà  del supporto tecnico-scientifico dei Centri di Competenza guidati da Politecnici e da Università , da individuare di comune accordo, per sviluppare approfondimenti sull'evoluzione delle competenze e dei processi di cambiamento delle imprese.
+
+86 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE ACQUISTI, QUALITà€, SICUREZZA-AMBIENTE
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Tecnico Qualità Professionalità  ausiliari Qualità  ausiliari Qualità  Qualità  Fornitori / Tecnico qualità  produzione D1 D2 C1 C2
+
+autonomia- svolge con progressivo autonomia limitata su puà² svolgere ruoli di applica con normale auresponsabilità  sviluppo compiti di or- compiti di ordine ed au- collegamento/ affianca- tonomia le istruzioni quagerarchico- dine ausiliari nell'ambito siliari dell'area qualità  mento operativo senza lità  per il controllo ed il funzionale del servizio qualità  in interazione con il te- responsabilità  gerarchica benestare di materiali, am di tipo "team leader" componenti, semilavorati e prodotti nel perimetro di competenza ed interfacciando sulla base delle procedure aziendali i colleghi di produzione, logistica e gli enti tecnici, in funzione del contesto organizzativo, guidando un team di addetti qualità per il perimetro di assegnazione
+
+competenza segue semplici istruzioni compiti ordinari e ricor- come per il D2 con ri- possiede una completa tecnico-specifica operative che compor- renti nell'applicazione conosciuta autonomia conoscenza dei principi tano abilità  manuali e di istruzioni di controllo, e dei metodi di qualità , sensoriali elementari non selezione, rimessa in nozioni rilevanti del specifiche; utilizza di- conformità  che richie- prodotto / processo, caspositivi e sistemi anche dono abilità  manuali e pacità  di lettura ed indigitali preimpostati sulla sensoriali generiche o terpretazioni di disegni, base di capacità  elemen- acquisibili sulla base di schemi e specifiche, catari di riconoscimento semplice esperienza ope- pacità  tecnico pratiche di forme, alfabetizza- rativa e capacità  base di per l'applicazione delle zione aritmetica e lin- riconoscimento di forme, procedure di assicuraguistica alfabetizzazione aritme- zione qualità  nel peritica e linguistica; utilizzo metro di assegnazione di semplici dispositivi di marchiatura e oggettivazione
+
+Analista qualità  Responsabile qualità  Specialista Qualità  Responsabile Capo Servizio Fornitori / clienti fornitori / Cliente Sistema Qualità  e qualità produzione / cliente certificazioni C3 B1 B2 B3 A1
+
+svolge con autonomia segue con ampia auto- svolge, con discrezio- presidia, in base alle stra- in funzione degli obiettivi di iniziativa le attività  nomia operativa e defi- nalità  nell'ambito delle tegie aziendali ed in fun- generali dell'impresa e anche di elevata difficoltà  nizione di metodi e stru- procedure aziendali e zione delle evoluzioni della sua organizzazione di assicurazione qualità  menti sulla base di ele- delle strategie di rela- normative e di mercato ed in diretto riporto alfornitori/monitoraggio vata competenza tecnica zione cliente, il tratta- e delle evoluzioni or- l'alta direzione, sviluppa e gestione non confor- tutte le necessità  di as- mento dei reclami e con- ganizzative e tecnolo- e garantisce la disponimità  cliente per il pe- sicurazione qualità  e mi- formità  lato cliente con giche interne, le certi- bilità  dei sistemi, delle rimetro di competenza glioramento continuo di gestione tecnico ed eco- ficazioni di qualità  ed i certificazioni, delle comin base alle istruzioni e importanti ambiti com- nomica delle risorse sistemi connessi, gesten- petenze e delle risorse, procedure aziendali e, ponenti -materie prime aziendali con collabo- do le risorse tecniche ed specifiche e distribuite in funzione del contesto -lavorazioni esterne o razione con gli enti tec- umane connesse e pro- negli enti operativi, per organizzativo, guida con processi interni o mo- nici e commerciali interni muovendo lo sviluppo la soddisfazione misuresponsabilità  operativa nitoraggio e gestione ed interfaccia diretta con di competenze e moti- rabile del cliente, il rigruppi di addetti con non conformità  cliente, il cliente vazione in linea con i spetto normativo ed il interfaccia verso altre in funzione del contesto principi di sistema perseguimento struttuunità  e funzioni e con- organizzativo, con la rale delle efficienze dei sulenti esterni conduzione di gruppi processi trasversalmente articolati di addetti con all'azienda e rappreseninterfaccia verso altre tandola per tali temi nei unità  e funzioni e con- confronti di clienti, forsulenti esterni nitori, enti terzi
+
+possiede una completa possiede elevate cono- possiede elevate cono- sulla base di elevate co- possiede competenze conoscenza dei principi scenze dei principi, dei scenze dei principi, dei noscenze generali e generali dei prodotti e e dei metodi di qualità , metodi di qualità , arti- metodi di qualità  e com- d'impresa ed alta spe- dei cicli produttivi, delle qualificate competenze colata formazione teorica petenze specialistiche cializzazione sui sistemi tecnologie e dei mercati di prodotto/processo, e pratica circa le tecno- circa le tecnologie e le qualità , rispondendo ai in cui l'azienda opera, conoscenze di tecnologia logie e le applicazioni applicazioni di prodotto requisiti specifici dei si- e competenze specifiche dei materiali, di misura di prodotto, le tecnologie e le applicazioni cliente, stemi di certificazione circa i sistemi normativi e prova per la formula- di processo, dei materiali, le tecnologie di processo per scolarità  ed attestati anche internazionali in zione di diagnosi e pro- di misura e prova che produttivo interno, dei formativi, è il riferimento ambito qualità ; valuta poste di regolazione ed permettono autonomia, materiali, di misura e di competenza circa la l'adozione dei diversi adattamento, capacità  secondo le definizioni prova che permettono proceduralizzazione sistemi di certificazione di lettura ed interpreta- aziendali, di diagnosi, autonomia anche in si- aziendale, i sistemi di di qualità  e i relativi costi zioni di disegni, schemi analisi delle cause e tuazioni mutevoli di dia- audit interni ed esterni, in funzione del contesto e specifiche, capacità  di nella formulazione di gnosi, analisi delle cause le applicazioni della nor- aziendale anche in reesecuzione tecnico pra- contromisure tecnico or- e nella formulazione di mazione tecnica lazione alle necessità  di tiche di procedure arti- ganizzative contromisure tecnico or- presenza sul mercato colate e difficili sce- ganizzative dell'azienda stessa gliendo strumenti e metodi
+
+88 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE ACQUISTI, QUALITà€, SICUREZZA-AMBIENTE
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Tecnico Qualità Professionalità  ausiliari Qualità  ausiliari Qualità  Qualità  Fornitori / Tecnico qualità  produzione D1 D2 C1 C2
+
+competenze compilazione di semplici utilizzo di strumenti sta- come per D2 con capa- autonomia nel reperitrasversali tabelle e rappresentazioni tistici non quantitativi, cità  di formazione per mento ed elaborazione grafiche preimpostate, limitata autonomia nella affiancamento dei col- dei regolamenti azienriepiloghi di anomalie ricerca di semplici dati leghi in funzione dei dali, delle norme e degli ed attività  su formati ed informazioni sui si- contesti aziendali standard di qualità  nonpreimpostati stemi aziendali di pro- chà© elaborazione dei rieceduralizzazione e di piloghi periodici attratrattamento dati; verso sistemi informacompilazione di semplici tizzati specialistici e documenti di prodotto, quelli di automazione processo, di team in for- di ufficio, applicazione mato cartaceo o digitale di semplici metodi quanpredisposto, utilizzo ele- titativi e grafici, con aumentare di processori di tonomia di interazione testo e fogli di calcolo con altri tecnici qualità preimpostati; trattamento e delle funzioni produdi semplici documenti zione /logistica, anche ricorrenti nella lingua con l'utilizzo elementare straniera rilevante della lingua straniera rilevante
+
+polivalenza alcune attività  nell'area su un limitato numero sull'insieme di un grup- in funzione del contesto di assegnazione di attività  operative del- po omogeneo di attività / organizzativo su tutti i l'area qualità  istruzioni di lavoro qua- processi di assicurazione lità  o un ambito di pro- qualità  e miglioramento cesso continuo per il perimetro di competenza
+
+Analista qualità  Responsabile qualità  Specialista Qualità  Responsabile Capo Servizio Fornitori / clienti fornitori / Cliente Sistema Qualità  e qualità produzione / cliente certificazioni C3 B1 B2 B3 A1
+
+autonomia nel reperi- completa autonomia nel avanzata autonomia nel gestione di processi ar- sulla base di solide comento ed elaborazione reperimento, interpre- reperimento ed interpre- ticolati in contesti evo- noscenze generali e dei regolamenti azien- tazione e redazione di tazione delle norme e lutivi non prevedibili e d'impresa: gestione di dali, delle norme e degli norme, standard, istru- degli standard tecnici e sviluppo di soluzioni in- processi e progetti comstandard di qualità  non- zioni e procedure con di qualità , dei documenti novative per interpreta- plessi e di rilievo strachè elaborazione dei rie- adeguato sviluppo di contrattuali di defini- zioni normative, processi tegico in contesti di campiloghi periodici attra- strumenti quali-quan- zione tecnica prodotti e e tecnologie; guidano lo biamento non determiverso sistemi informa- titativi attraverso i si- servizi, elevate compe- sviluppo di competenza nabile a priori attraverso tizzati specialistici e stemi informatizzati spe- tenze nelle metodologie e motivazione dei col- l'organizzazione del requelli di automazione cialistici e quelli di au- di problem finding/sol- laboratori e contribui- perimento e dell'analisi di ufficio, applicazione tomazione di ufficio; ap- ving; capacità  di impo- scono le competenze dei dati rilevanti, gestione di complessi metodi plicazione di metodi stazione e realizzazioni qualità  necessarie alle di articolati sistemi tecquantitativi e grafici per quantitativi e grafici di di documentazione tec- decisioni delle altre fun- nologici ed informativi l'analisi e la ricerca cau- elevata complessità  per nica e presentazioni com- zioni e della direzione. anche nelle fasi di scelta se, con autonomia di in- l'analisi e la ricerca cau- plesse utilizzando con Capacità  di analisi e for- ed implementazione deterazione con i servizi se; capacità  di aggior- perizia le pià¹ adeguate malizzazione di processo gli stessi, selezione fortecnici interni e di clienti namento continuo sulla metodologie digitali. con autonomia nella re- mazione e motivazione e fornitori, anche con base di strumenti ed ini- Autonomia nell'aggior- dazione di testi e pre- dei collaboratori e dei l'utilizzo adeguato della ziative formative guidate namento continuo e nella sentazioni complesse di contributori; presentalingua straniera rilevan- dall'azienda contribuen- formazione di collabo- natura tecnica ed orga- zione e negoziazione te do alla formazione dei ratori e clienti; nizzativa utilizzando con autorevolezza anche propri collaboratori; ampia autonomia di in- strumentazioni di au- nella lingua straniera riautonomia di interazione terazione con altri spe- tomazione di ufficio ed levante anche in condicon altri specialisti ed cialisti ed enti, clienti e applicazioni specialisti- zioni di conflitto e presenti e nella definizione fornitori, comunicando che; sione articolando scenari delle priorità  operative nella lingua straniera ri- ampia autonomia di in- alternativi in funzione in funzione degli sca- levante terazione con altri spe- degli obiettivi e della denziari, delle esigenze cialisti ed enti, clienti e loro ridefinizione/ottidi clienti e fornitori, ef- fornitori, comunicando mizzazione fettuando presentazioni nella lingua straniera ristrutturate dei problemi levante e delle soluzioni esprimendosi adeguatamente nella lingua straniera rilevante;
+
+in funzione del contesto in funzione del contesto in funzione del contesto autonomo su tutte le de- su tutti i processi di quaorganizzativo su tutti i organizzativo su tutti i organizzativo su tutti i finizioni di processo e lità  dell'azienda e nella processi qualità  per il processi qualità  per il processi qualità  per il su ampia parte delle ope- gestione di progetti di perimetro di competen- perimetro di competen- perimetro di competenza razioni di assicurazione riorganizzazione ed inza za ed i perimetri assimila- qualità  e miglioramento novazione bili continuo
+
+90 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE ACQUISTI, QUALITà€, SICUREZZA-AMBIENTE
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Tecnico Qualità Professionalità  ausiliari Qualità  ausiliari Qualità  Qualità  Fornitori / Tecnico qualità  produzione D1 D2 C1 C2
+
+polifunzionalità  minima conoscenza nozioni dell'organizza- elementi conoscitivi di consapevolezza dei prodell'organizzazione pro- zione produttiva e dei base dei diversi cicli pro- cessi di produzione, loduttiva e del cliente in- principi di assicurazione duttivi e delle articola- gistica, magazzino e acterno qualità  zioni aziendali con cui quisti/approvvigionasi interfaccia mento e capacità  di interfaccia con altre funzioni aziendali
+
+miglioramento è guidato nell'affrontare proposta di semplici mi- proposta di semplici mo- proposta di soluzioni e continuo anomalie, casi specifici, glioramenti della propria difiche ed adattamenti, modifiche per le non ed innovazione innovazioni e migliora- attività  partecipando in partecipazione attiva a conformità  e proposta menti funzione del contesto gruppi di lavoro e mi- di implementazioni delle aziendale a gruppi di la- glioramento con auto- procedure con il coorvoro e miglioramento nomia nell'utilizzo delle dinamento operativo di con l'utilizzo delle me- metodologie prescritte, gruppi di lavoro e mitodologie prescritte ove previsti glioramento in applicazione delle metodologie aziendali
+
+Analista qualità  Responsabile qualità  Specialista Qualità  Responsabile Capo Servizio Fornitori / clienti fornitori / Cliente Sistema Qualità  e qualità produzione / cliente certificazioni C3 B1 B2 B3 A1
+
+consapevolezza di tutti competenza interfaccia competenza di interfac- conoscenza e compren- comprensione degli i processi di produzione, con altre funzioni azien- cia con altre funzioni sione delle diverse fun- obiettivi delle diverse logistica, tecnico com- dali e con le funzioni di aziendali e partner ester- zioni e processi aziendali funzioni aziendali e parmerciali rilevanti e ca- clienti e fornitori ni, elementi di compe- con capacità  di supporto tner esterni e fornitori e pacità  di interfaccia con tenza tecnico- commer- nella proceduralizzazio- dettagliata conoscenza altre funzioni ciale e di progettazione ne interna di enti diversi dei processi aziendali aziendali/del cliente e testing prodotto e nell'interfaccia con per la definizione coeclienti e fornitori, enti rente delle operazioni e terzi delle strategie di assicurazione qualità  e miglioramento continuo e controllo, contribuendo, inoltre, alle scelte generali d'azienda
+
+nell'ambito delle previ- guidano in funzione di nell'ambito delle previ- è il riferimento per l'ado- nell'ambito degli obietsioni aziendali decidono significativi obiettivi ini- sioni aziendali validano zione e l'applicazione tivi generali aziendali e modifiche ed adattamen- ziative o sistemi di mi- le azioni di migliora- dei principi e delle me- contribuendo al disegno ti tecnici, scegliendo le glioramento aziendale mento continuo per la todologie di assicura- delle strategie di sviluppo metodologie ed assicu- propria area e, in colla- zione qualità  e miglio- competitivo, promuove randone la corretta im- borazione con i rispettivi ramento continuo, di- la cultura di eccellenza plementazione nell'am- responsabili, delle fun- mostrandone motiva- operativa e di soddisfabito dei gruppi di mi- zioni interne e cliente zione ed applicazione a zione del cliente attraglioramento aziendale interessate; promuovono partire dalla funzione verso risorse, organize guidano progetti di in- qualità  che rappresenta zazione, sistemi di minovazione relativi al nell'ambito di progetti sura e valutazione, coproprio perimetro e lo ed iniziative aziendali municazione e formarappresentano nell'am- zione bito di iniziative interfunzionali
+
+92 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE AMMINISTRAZIONE E CONTROLLO GESTIONE
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Addetto Resp. contabilità Professionalità  ausiliari ausiliari contabili contabilità  clienti clienti / fornitori contabilità  contabilità  o fornitori Resp. contabilità generale D1 D2 C1 C2 C3
+
+autonomia- svolge con progres- autonomia limitata puà² svolgere ruoli svolge con normale svolge con autoresponsabilità  sivo sviluppo com- su compiti di ordine di collegamento/af- autonomia le atti- nomia di iniziativa gerarchico- piti di ordine ausi- ed ausiliari dell'area fiancamento opera- vità  di amministra- le attività  di ammifunzionale liari nell'ambito del contabile in intera- tivo senza respon- zione ciclo attivo nistrazione ciclo/ servizio ammini- zione con il team sabilità  gerarchica (passivo) in base perimetro di comstrativo alle istruzioni e pro- petenza in base alle cedure aziendali e, istruzioni e procein funzione del con- dure aziendali e, in testo organizzativo, funzione del conguida un team di testo organizzativo addetti contabilità  guida con responclienti per il peri- sabilità  operativa metro di assegna- gruppi articolati di zione con limitata addetti contabili interfaccia verso gli con interfaccia veraltri team contabili so altre unità  e fune le funzioni clienti zioni interni
+
+competenza utilizzando dispo- compiti di ordine in come per il D2 con possiede una com- completa autonotecnico-specifica sitivi e sistemi anche smistamento, archi- riconosciuta auto- pleta conoscenza dei mia su tutti i prodigitali preimpostati, vio, digitalizzazione nomia principi contabili cessi contabili e le è guidato nell'ap- di documenti e dati generali, delle pro- casistiche del proplicazione ricorrente contabili, spunte e cedure aziendali e prio perimetro sulla di processi ammi- riconciliazione sem- dei sistemi anche base dell'applicanistrativi e proce- plice di liste ed elen- informatizzati per zione critica della dure aziendali sulla chi tra documenti e svolgere i processi normativa, degli base di minima co- rispetto alla realtà  del ciclo attivo (pas- standard e dei sinoscenza dell'orga- fisica di cespiti e sivo) per il perimetro stemi contabili nizzazione azienda- magazzini, sulla ba- di assegnazione con aziendali, effettuanle se di principi con- adeguata analisi e do in funzione del tabili elementari e valutazione dei do- contesto aziendale supporti anche di- cumenti contabili, il trattamento e vagitali preimpostati per la corretta im- lidazione secondo o attraverso l'utiliz- putazione e la ge- le procedure delle zo elementare di stione dei casi fuori eccezioni e l'impleprogrammi di trat- standard e delle ano- mentazione delle tamento testi e ta- malie, per la corretta innovazioni normabelle sulla base di messa in produzione tive, procedurali e conoscenza dell'or- delle innovazioni tecnologiche nel peganizzazione azien- normative, di stan- rimetro dale dard e di sistema per il proprio perimetro
+
+Responsabile Responsabile Speciali Responsabile servizi Responsabile contabilità  clienti - contabilità  clienti - sta fiscalità  e dogane amministrativi amministrazione Responsabile Responsabile e controllo contabilità  generale contabilità  generale B1 B2 B2 B3 A1
+
+con ampia autonomia con discrezionalità  di assicura, con discrezio- effettua, con discrezio- assicura in funzione degli sulla base di elevata com- decisione sulla base di nalità  di decisione sulla nalità  di decisione sulla obiettivi generali delpetenza amministrativa competenze amministra- base di competenze spe- base di competenze am- l'impresa e della sua orsvolge le attività  e gli tive specialistiche, svolge cialistiche in ambito nor- ministrative specialisti- ganizzazione, l'adeguaadempimenti di un pe- le attività  ed assicura gli mativa fiscale e doga- che avanzate e diversi- tezza, la continuità  e lo rimetro contabile, in fun- adempimenti di un pe- nale, le attività  e gli ficate , le attività  e gli sviluppo delle attività zione del contesto or- rimetro contabile e, in adempimenti relative in adempimenti ammini- di amministrazione e ganizzativo guidando funzione del contesto coordinamento con altre strativi dell'azienda ge- controllo di gestione per gruppi articolati di ad- aziendale, la gestione unità , funzioni, enti ester- stendo le risorse del ser- il disimpegno degli detti contabili con in- organizzativa, econo- ni vizio in coordinamento adempimenti normativi terfaccia verso altre unità , mica e di motivazione con altre unità , funzioni, e la disponibilità  e l'infunzioni, enti esterni delle risorse del perime- enti esterni terpretazione delle intro in coordinamento formazioni economiche con altre unità , funzioni, per le decisioni operative enti esterni e strategiche, rappresentando nell'ambito delle specifiche deleghe l'entità  legale a fronte di autorità  ed in caso di contenziosi di ambito amministrativo
+
+elevata competenza dei competenza specialistica competenza specialistica competenza specialistica competenze generali di principi e dei metodi dei principi, dei metodi dei principi, dei metodi avanzata dei principi, amministrazione finanza contabili, della norma- contabili e delle tecno- contabili e delle tecno- dei metodi di contabilità , e controllo e gestione tiva, degli standard e dei logie di supporto che logie di supporto con tesoreria, controllo in- aziendale e specifiche sistemi contabili azien- permettono autonomia specifico approfondi- terno, fiscalità  e delle circa i sistemi normativi dali che permette auto- di diagnosi e scelta di mento delle normative, tecnologie di supporto ed i processi ammininomia di diagnosi e de- metodi e strumenti nel- degli adempimenti e dei che permettono autono- strativi sia per le legifinizione dei processi e l'affrontare temi norma- processi circa normative mia di diagnosi e scelta slazioni applicabili ai delle casistiche del pro- tivi, standard e processi ed adempimenti doga- di metodi e strumenti perimetri che per la norprio perimetro, in fun- aziendali complessi ed nali, tasse e imposte, in- nell'affrontare temi nor- mativa interna di conzione del contesto azien- in evoluzione centivi fiscali e finanziari, mativi, standard e pro- trollo e reporting costi, dale trattando e validan- sistemi ispettivi e di ge- cessi aziendali complessi margini, investimenti;
+do le eccezioni ed im- stione del contenzioso, in contesto articolato e adeguata cultura geneplementando le innova- anche in ambito inter- non prevedibile rale in funzione del conzioni normative, proce- nazionale ove rilevante, testo aziendale per durali e tecnologiche nel che permettono articolate l'orientamento dei properimetro diagnosi e decisioni, an- cessi tecnologici e orche presentando alla di- ganizzativi rezione scenari ed alternative di ottimizzazione, sul trattamento casi e temi complessi ed in evoluzione
+
+94 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE AMMINISTRAZIONE E CONTROLLO GESTIONE
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Addetto Resp. contabilità Professionalità  ausiliari ausiliari contabili contabilità  clienti clienti / fornitori contabilità  contabilità  o fornitori Resp. contabilità generale D1 D2 C1 C2 C3
+
+competenze elabora semplici limitata autonomia come per D2 con autonomia nel re- completa autonomia trasversali prospetti, riepiloghi, nella ricerca di sem- capacità  di forma- perimento ed ela- nel reperimento ed note di attività  e di plici dati ed infor- zione per affianca- borazione delle nor- elaborazione delle riunione su formati mazioni sui sistemi mento dei colleghi me e degli standard norme e degli stananche digitali preim- aziendali di proce- nonchà© dei dati con- dard nonchà© dei dati postati duralizzazione e di tabili e l'elabora- contabili e l'elabotrattamento dati am- zione dei riepiloghi razione dei riepiloministrativi e nella e delle riconcilia- ghi e delle riconciricerca libera on line zioni anche attra- liazioni anche attracon redazione, for- verso supporti di- verso i sistemi inmattazione, ripro- gitali non predeter- formatizzati speciaduzione, archivia- minati quali ad listici e quelli di auzione e diffusione esempio fogli di la- tomazione di ufficio, anche digitale degli voro, interagendo con adeguata autoelaborati; trattamen- con gli specialisti nomia di interazione to di semplici do- di altri settori azien- con altri specialisti cumenti ammini- dali e direttamente ed enti e nella destrativi ricorrenti interagendo ove ne- finizione delle prionella lingua straniera cessario con i clienti rità  operative in funrilevante; parteci- anche con utilizzo zione degli scadenpazione a riunioni elementare della lin- ziari, delle esigenze anche in remoto con gua straniera rile- di clienti e fornitori, la compilazione di vante comunicando anche verbali in formato con adeguato utilizpredeterminato zo della lingua straniera rilevante
+
+polivalenza alcuni processi am- su un limitato nu- sull'insieme di un in funzione del con- in funzione del conministrativi e pro- meri di processi con- gruppo omogeneo testo organizzativo testo organizzativo cedure aziendali nel- tabili/amministra- processi contabili su tutti i processi su tutti i processi l'area di assegna- tivi amministrativi del ciclo attivo (pas- contabili per il pezione sivo) per il perimetro rimetro di compedi competenza tenza
+
+Responsabile Responsabile Speciali Responsabile servizi Responsabile contabilità  clienti - contabilità  clienti - sta fiscalità  e dogane amministrativi amministrazione Responsabile Responsabile e controllo contabilità  generale contabilità  generale B1 B2 B2 B3 A1
+
+completa autonomia nel avanzata autonomia nel avanzata autonomia nel gestione di processi con gestione di processi e reperimento ed elabo- reperimento ed interpre- reperimento ed interpre- risoluzione di problemi progetti complessi e di razione delle norme e tazione di norme, stan- tazione di norme, stan- non ricorrenti e sviluppo rilievo strategico in condegli standard nonchà© dard e dati con impo- dard e dati con impo- di soluzioni innovative testi di cambiamento dei dati contabili e l'ela- stazione di analisi e pre- stazione di analisi e pre- per interpretazioni nor- non determinabile a prioborazione dei riepiloghi sentazioni complesse sentazioni complesse mative, processi e tec- ri attraverso l'organize delle riconciliazioni utilizzando con perizia utilizzando con perizia nologie; negoziazione zazione del reperimento anche attraverso i sistemi le pià¹ adeguate meto- le pià¹ adeguate meto- delle soluzioni e delle e dell'analisi dei dati riinformatizzati speciali- dologie digitali; auto- dologie digitali. siste- risorse in autonomia in levanti, selezione, forstici e quelli di automa- nomia nell'aggiorna- matico aggiornamento contesti multiattoriali e mazione e motivazione zione di ufficio; capacità  mento continuo e nella circa le evoluzioni della di incertezza, anche ri- dei collaboratori, condi aggiornamento con- formazione dei collabo- materia fiscale e doga- spondendo in coordina- tributori, fornitori e clientinuo sulla base di stru- ratori; nale assicurandone la mento con i rappresen- ti; presentazione e nementi ed iniziative for- ampia autonomia di in- diffusione tramite l'in- tanti aziendali alla ri- goziazione con autoremative guidate dal- terazione con altri spe- formazione e la forma- chiesta delle autorità  per volezza anche nella linl'azienda contribuendo cialisti ed enti, clienti zione dei colleghi degli gli aspetti tecnico spe- gua straniera rilevante alla formazione dei pro- e fornitori, comunicando enti interessati e la re- cifici; guidano lo svi- anche in condizioni di pri collaboratori; nella lingua straniera ri- visione di istruzioni di luppo di competenza e conflitto e pressione arampia autonomia di in- levante lavoro e procedure; motivazione dei colla- ticolando scenari alterterazione con altri spe- ampia autonomia di in- boratori e contribuiscono nativi in funzione degli cialisti ed enti e nella terazione con altri spe- alle competenze ammi- obiettivi e della loro ridefinizione delle priorità  cialisti ed enti, clienti nistrative necessarie alle definizione/ottimizzaoperative in funzione e fornitori, comunicando decisioni delle altre fun- zione degli scadenziari, delle nella lingua straniera ri- zioni e della direzione;
+esigenze di clienti e for- levante ampia autonomia di innitori, effettuando pre- terazione con altri spesentazioni strutturate dei cialisti ed enti, clienti problemi e delle solu- e fornitori, comunicando zioni esprimendosi ade- nella lingua straniera riguatamente nella lingua levante straniera rilevante
+
+in funzione del contesto in funzione del contesto su tutte le attività  e gli su tutti i processi am- su tutti i processi di amorganizzativo su tutti i organizzativo su tutti i adempimenti dell'area ministrativi delle unità  ministrazione e controllo processi contabili per processi contabili per il fiscale e doganale con amministrative e delle delle unità  di compeil perimetro di compe- perimetro di competenza adeguata comprensione entità  legali di compe- tenza ed i perimetri astenza ed i perimetri assimila- ed interfaccia circa i pro- tenza ed i perimetri as- similabili bili cessi amministrativi ed similabili operativi connessi
+
+96 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE AMMINISTRAZIONE E CONTROLLO GESTIONE
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Addetto Resp. contabilità Professionalità  ausiliari ausiliari contabili contabilità  clienti clienti / fornitori contabilità  contabilità  o fornitori Resp. contabilità generale D1 D2 C1 C2 C3
+
+polifunzionalità  in un solo ambito di in un limitato am- elementi di intera- consapevolezza di capacità  di interattività  bito di attività  zione di base con le tutti i processi con- faccia con altre funfunzioni di interfac- tabili e nell'inter- zioni aziendali cia a partire da co- faccia con altre funnoscenza dei diversi zioni aziendali ed i cicli contabili e dei consulenti esterni processi aziendali
+
+miglioramento è guidato nell'af- proposta di semplici proposta di semplici proposta di soluzio- nell'ambito delle continuo ed frontare anomalie, miglioramenti della modifiche ed adat- ni per le non con- previsioni aziendali innovazione casi specifici, inno- propria attività  par- tamenti, partecipa- formità  contabili e decidono modifiche vazioni e migliora- tecipando in funzio- zione attiva a gruppi nell'implementa- ed adattamenti tecmenti ne del contesto di lavoro e miglio- zioni di nuove nor- nici, scegliendo le aziendale a gruppi ramento con auto- mative e procedure metodologie e cudi lavoro e miglio- nomia nell'utilizzo con il coordinamen- randone la corretta ramento con l'uti- delle metodologie to operativo, in fun- implementazione lizzo delle meto- prescritte, ove pre- zione del contesto, nell'ambito dei dologie prescritte visti di gruppi di lavoro gruppi di migliorae miglioramento in mento aziendale applicazione delle metodologie aziendali
+
+Responsabile Responsabile Speciali Responsabile servizi Responsabile contabilità  clienti - contabilità  clienti - sta fiscalità  e dogane amministrativi amministrazione Responsabile Responsabile e controllo contabilità  generale contabilità  generale B1 B2 B2 B3 A1
+
+competenza interfaccia competenza di interfac- competenza di interfac- elevata competenza di comprensione dei procon altre funzioni azien- cia con altre funzioni cia con altre funzioni interfaccia con altre fun- cessi e degli obiettivi dali e partner esterni aziendali e partner ester- aziendali e partner ester- zioni aziendali e partner delle diverse funzioni ni ni esterni aziendali e partner esterni per la definizione coerente delle operazioni e delle strategie di amministrazione e controllo, contribuendo inoltre alle scelte generali d'azienda
+
+nell'ambito delle previ- nell'ambito delle previ- nell'ambito delle previ- nell'ambito delle previ- governo delle strategie sioni aziendali decidono sioni aziendali validano sioni aziendali validano sioni aziendali organiz- di ottimizzazione dele guidano la realizza- le azioni di migliora- le azioni di migliora- zano e governano le azio- l'ente contribuendo alle zione di modifiche ed mento continuo per la mento continuo per la ni di miglioramento ed strategie aziendali comadattamenti tecnici e propria area, promuo- propria area, promuo- innovazione tecnica ed plessive, promuovendo progetti di miglioramen- vono e guidano progetti vono e guidano progetti organizzativa per la pro- e gestendo processi di to relativi al proprio pe- di innovazione relativi di innovazione relativi pria area e la rappresen- cambiamento strutturimetro al proprio perimetro e al proprio perimetro e tano nell'ambito di ini- rale lo rappresentano nel- lo rappresentano nel- ziative interfunzionali l'ambito di iniziative in- l'ambito di iniziative interfunzionali terfunzionali
+
+98 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE MANUTENZIONE, INSTALLAZIONE E TECNOLOGIE
+
+Criteri di Manutentore - Manutentore Manutentore Manutentore Manutentore / Professionalità  ex â€œallievoâ€ Capo Manutentore D1 D2 C1 C2 C3
+
+autonomia- esegue con progres- svolge compiti ma- puà² svolgere ruoli in base alle defini- in funzione del conresponsabilità  sivo sviluppo com- nutentivi ordinari di collegamento/af- zioni organizzative, testo organizzativo gerarchico- piti elementari ed con limitata auto- fiancamento opera- guida per l'esecu- guida con responfunzionale accessori in ambito nomia nell'ambito tivo senza respon- zione dei compiti sabilità  operativa ed manutentivo anche del team manuten- sabilità  gerarchica assegnati piccoli autonomia di inicon occasionale col- tivo nel team, in funzione gruppi o squadre di ziativa attività  o laborazione/super- delle organizzazioni lavoratori omogenei squadre di manuvisione degli addetti aziendali tipo â€œteam con limitata inter- tenzione anche ardel team manuten- leaderâ€, â€œjollyâ€ faccia verso altre ticolate su diverse tivo unità  e funzioni discipline manutentive con interfaccia verso altre unità  e funzioni
+
+competenza compiti elementari compiti ordinari nel- come per il D2 con compiti di diagno- completa competecnico-specifica di pulizia tecnica, la specifica disci- riconosciuta auto- stica, regolazione, tenza su qualsiasi sostituzione guidata plina manutentiva nomia sostituzione e ripa- livello di precisione di componenti, sem- di verifica, regola- razione ed adatta- e complessità  nel plici regolazioni gui- zione e sostituzione mento di precisione proprio ambito madate con primo ap- con conoscenza dei e complessità  ele- nutentivo attraverso proccio ai metodi sistemi di manuten- vata nel proprio am- l'applicazione crimanutentivi zione e autonomia bito manutentivo, tica degli standard nella diagnostica di conoscenza com- tecnici, dei principi interventi ordinari, pleta dei sistemi ma- e dei sistemi di masulla base di proce- nutenzione, autono- nutenzione;
+dure e istruzioni con mia nella diagno- completa autonosemplici strumenti, stica ed esecuzione mia nella diagnoanche digitali, pre- in interventi anche stica ed esecuzione definiti straordinari e di in- nell'ambito di qualstallazione e messa siasi intervento di a punto di nuove riparazione, instalmacchine, sistemi, lazione e messa a tecnologie, appli- punto di nuove maccando nell'ambito chine, sistemi, tecdi procedure gene- nologie, scegliendo rali, le pià¹ opportune modalità , tecniche tecniche e gli stru- e strumenti, anche menti, anche digi- digitali, di diagnosi tali, di diagnosi ed ed intervento con intervento, con la eventuale autonoresponsabilità  della mia di delibera corretta esecuzione
+
+Capo Manutentore Responsabile Specialista di Responsabile Responsabile manutenzione manutenzione manutenzione manutenzione
+
+B1 B2 B2 B3 A1
+
+responsabilità  di una esercita responsabilità  svolge operativamente è in grado di esercitare esercita ampia autonounità  di manutenzione autonoma nell'ambito in autonomia interventi responsabilità  autonoma mia nell'ambito degli articolata su diverse di- di direttive generali di di modifica innovativa nell'ambito di direttive obiettivi generali delscipline manutentive as- unità , progetti, cantieri e di ricerca guasti non generali di unità , progetti, l'impresa per la condusicurando le decisioni articolati di manuten- ricorrenti con strumen- cantieri di manutenzione zione di una o pià¹ unità , operative per un intero zione assicurando la ge- tazioni specialistiche e complessi e direttamente progetti, cantieri di maturno, reparto, squadra stione organizzativa ed metodi di alta qualifi- rilevanti per gli obiettivi nutenzione anche di esterna, anche con ele- economica delle risorse cazione e fornisce analisi, aziendali assicurando grandi dimensioni e menti di valutazione eco- assegnate valutazioni e indicazioni la gestione organizzativa complessità  e rilievo nomica nel rispetto delle operative per i team di ed economica delle ri- strategico, anche coorprocedure e delle risorse intervento e gli enti pro- sorse assegnate dinando funzioni diverse assegnate gettazione ed industria- ed assicurando la gelizzazione stione dei fattori tecnologici, umani, organizzativi ed economici del perimetro assegnato proponendo obiettivi specifici e contribuendo alla definizione degli stessi obiettivi generali
+
+come per il C3 con ca- sulla base di competenze sulla base di formazione sulla base di alta spe- sulla base di alta spepacità  di valutare mo- generali delle tecnologie ed esperienza speciali- cializzazione sostenuta cializzazione sostenuta difiche di processo e e dei metodi manutentivi stiche di rilievo per la da percorsi di formazione da percorsi di formazione prodotto anche quando con autonomia di analisi continuità  e l'efficienza avanzata ed esperienza avanzata ed esperienza siano richieste articolate e decisione tecnica ed tecnico produttiva del- specifica, autonomia di specifica, ampia autoapplicazioni logiche e organizzativa su com- l'azienda, con ampia au- analisi e decisione tec- nomia di analisi e decimetodologiche garan- plesse attività  di manu- tonomia di analisi e de- nica ed organizzativa su sione tecnica ed orgatendo efficacia ed effi- tenzione preventiva, ri- cisione tecnica su inter- complesse attività  di ma- nizzativa su complessi cienza delle soluzioni parazione, installazione venti, metodologie e tec- nutenzione preventiva, piani, progetti ed attività e messa a punto di nuove nologie in contesti di riparazione, installazione di manutenzione premacchine, sistemi, tec- alta complessità  tecnica e messa a punto di nuove ventiva, riparazione, innologie, in contesti nor- collaborando con altri macchine, sistemi, tec- stallazione e messa a malmente prevedibili specialisti nologie, in contesti evo- punto di nuove macchima soggetti a cambia- lutivi, guidando e valu- ne, sistemi, tecnologie, menti, guidando e va- tando i contributi spe- in contesti evolutivi, rilutando i contributi spe- cialistici cercando, guidando e cialistici valutando i contributi specialistici
+
+100 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE MANUTENZIONE, INSTALLAZIONE E TECNOLOGIE
+
+Criteri di Manutentore - Manutentore Manutentore Manutentore Manutentore / Professionalità  ex â€œallievoâ€ Capo Manutentore D1 D2 C1 C2 C3
+
+competenze alfabetizzazione lin- limitata autonomia come per D2 con autonomia nel re- completa autonomia trasversali gua italiana ed arit- nella ricerca di sem- capacità  di forma- perimento ed ela- nel reperimento ed metica, plici dati e informa- zione per affianca- borazione di sem- elaborazione di dati competenze digitali zioni tecniche con mento dei colleghi plici dati ed infor- ed informazioni tecdi base, lettura dei principali mazioni tecniche nei niche nei diversi fororientamento su formati di rappre- diversi formati uti- mati utilizzati e nelle istruzioni di lavoro sentazione e nella lizzati e nelle com- compilazioni di rapcompilazione di pilazioni di rapporti porti e statistiche semplici rapporti di e statistiche anche anche attraverso intervento preim- attraverso supporti strumenti ed applipostato anche attra- digitali non prede- cazioni digitali, speverso strumenti di- terminati quali ad cialistiche e comgitali; alfabetizza- esempio fogli di la- plesse, non predezione nel glossario voro, interazione au- terminate, adeguata tecnico della lingua tonoma con altri spe- autonomia di intestraniera rilevante cialisti, interazione razione con altri specon clienti e forni- cialisti ed enti, autori, anche esterni, tonomia nel cooranche con utilizzo dinamento delle atelementare di una tività  anche su pià¹ lingua straniera ri- interventi contemlevante poranei con definizione delle priorità operative in funzione delle esigenze di clienti e fornitori, anche esterni, comunicando anche con adeguato utilizzo di una lingua straniera rilevante
+
+polivalenza riferita ad un limitato su un limitato grup- sull'insieme di un su gruppi anche ete- su un'ampia famiambito di interven- po omogeneo di gruppo omogeneo rogenei di macchi- glia di tecnologie to macchine-linee-si- di apparati-macchi- ne-linee-impianti stemi ne-linee-sistemi in funzione del contesto tecnologico organizzativo
+
+Capo Manutentore Responsabile Specialista di Responsabile Responsabile manutenzione manutenzione manutenzione manutenzione
+
+B1 B2 B2 B3 A1
+
+come per il livello C3 avanzata capacità  di re- avanzata capacità  di re- avanzata capacità  di re- avanzata capacità  di recon particolare autono- perire e trattare tutte le perire e trattare tutte le perire e trattare le infor- perire e trattare tutte le mia di iniziativa rispetto informazioni tecnico informazioni tecnico mazioni e le conoscenze informazioni tecnico a metodi, organizzazione economiche impostando economiche impostando tecnico economiche ri- economiche impostando ed interfaccia con clienti articolate analisi e pre- articolate analisi sce- levanti producendo ela- articolate analisi e pree fornitori interni ed sentazioni scegliendo gliendo l'utilizzo dei borazioni originali pre- sentazioni, definendo esterni; l'utilizzo dei metodi e metodi e degli strumenti sentate in funzione di anche in termini di svicapacità  di utilizzo di degli strumenti specia- specialistici e generali una varietà  di interlo- luppo innovativo apbase dei metodi di ge- listici e generali perti- pertinenti con autonomia cutori, scegliendo l'uti- procci metodologici tecstione progetto nenti; di comunicazione nella lizzo dei metodi e degli nologici;
+autonomia ed iniziativa lingua straniera rilevante; strumenti specialistici e autonomia ed iniziativa nell'interazione con altri predispone documenta- generali pertinenti; nell'interazione con altri specialisti ed enti; zione tecnica e formativa autonomia ed iniziativa specialisti, enti aziendali iniziativa autonoma nella e guida attività  di infor- nell'interazione con altri e terze parti;
+formazione continua; mazione e formazione specialisti ed enti, gestisce sistematicaautonomia nella piani- nelle aree di propria com- autonomia nella piani- mente le strategie di apficazione e nel coordi- petenza ficazione e nel coordi- prendimento e di comnamento di attività  ar- namento di attività  ar- petenza personale e per ticolate e complesse con ticolate e complesse con le organizzazioni in cui definizione delle priorità  definizione delle priorità  è inserito.
+operative in funzione operative in funzione Autonomia nella pianidelle esigenze di clienti delle esigenze di clienti ficazione e nel coordie fornitori, anche esterni, e fornitori, anche esterni, namento di attività  arcon autonomia di co- con autonomia di co- ticolate e complesse con municazione nella lingua municazione nella lingua definizione delle priorità straniera rilevante straniera rilevante operative in funzione delle esigenze di clienti e fornitori, anche esterni, con autonomia di comunicazione nella lingua straniera rilevante. àˆ in grado di contribuire autonomamente ai processi di cambiamento strutturale tecnico ed organizzativo utilizzando competenze di negoziazione
+
+su un'ampia famiglia di su un'ampia famiglia di su ambiti specialistici su un'ampia famiglia di su un'ampia famiglia di tecnologie tecnologie di tecnologia ed appli- tecnologie tecnologie cazione
+
+102 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE MANUTENZIONE, INSTALLAZIONE E TECNOLOGIE
+
+Criteri di Manutentore - Manutentore Manutentore Manutentore Manutentore / Professionalità  ex â€œallievoâ€ Capo Manutentore D1 D2 C1 C2 C3
+
+polifunzionalità  in un solo ambito in uno specifico am- elementi conoscitivi consapevolezza in- elevata capacità  di funzionale: es mec- bito con eventuali di base delle disci- terdisciplinare e di approccio interdicanica, alimentazio- elementi conoscitivi pline manutentive interfaccia con altre sciplinare e di inni elettriche, senso- delle discipline ma- complementari funzioni aziendali terfaccia con altre ri nutentive comple- e tecnici esterni di funzioni aziendali mentari fornitori o clienti
+
+miglioramento partecipazione gui- proposta di semplici proposta di semplici proposta esecutiva nell'ambito delle continuo ed data ad attività  modifiche ed adat- modifiche ed adat- di modifiche ed previsioni aziendali innovazione tamenti, partecipan- tamenti, partecipa- adattamenti, coor- decidono modifiche do a gruppi di lavoro zione attiva a gruppi dinamento operati- ed adattamenti tece miglioramento con di lavoro e miglio- vo di gruppi di la- nici, scegliendo le l'utilizzo delle me- ramento con auto- voro e miglioramen- metodologie ed astodologie prescrit- nomia nell'utilizzo to assicurando il cor- sicurandone la corte delle metodologie retto utilizzo delle retta implementaprescritte, ove pre- metodologie pre- zione visti scritte nell'ambito dei gruppi di miglioramento aziendale
+
+Capo Manutentore Responsabile Specialista di Responsabile Responsabile manutenzione manutenzione manutenzione manutenzione
+
+B1 B2 B2 B3 A1
+
+elevata capacità  di ap- elevata capacità  di ap- elevata capacità  di ap- elevata capacità  di ap- elevata capacità  di approccio interdisciplinare proccio interdisciplinare proccio interdisciplinare proccio interdisciplinare proccio interdisciplinare, e di interfaccia con altre e di interfaccia con altre e di interfaccia con altre e di interfaccia con altre interfunzionale ed infunzioni aziendali funzioni aziendali funzioni aziendali funzioni aziendali tersettoriale
+
+validazione nell'ambito nell'ambito delle diret- nell'ambito delle diret- nell'ambito delle diret- nell'ambito degli obietdelle previsioni aziendali tive generali aziendali, tive generali aziendali, tive generali aziendali tivi generali aziendali di complesse modifiche sistematica promozione sistematica promozione sistematica promozione sistematica promozione ed adattamenti anche e validazione di modi- e validazione di modi- e validazione di modi- e validazione di modiproponendo iniziative fiche ed innovazioni tec- fiche ed innovazioni tec- fiche ed innovazioni tec- fiche ed innovazioni tecinterfunzionali e contri- niche, metodologiche niche, metodologiche niche, metodologiche niche, metodologiche buendo ai progetti di in- ed organizzative, anche ed organizzative, anche ed organizzative, anche ed organizzative garanvestimento, responsa- in ambiti interfunzionali in ambiti interfunzionali in ambiti interfunzionali tendo le implicazioni inbilità  dei gruppi di lavoro e contribuendo con au- e contribuendo con au- e contribuendo con au- terfunzionali e contrie delle metodologie di tonomia ai progetti di tonomia ai progetti di tonomia ai progetti di buendo alle strategie miglioramento investimento, rappre- investimento, rappre- investimento, rappre- produttive e di investisentando la propria area sentando la propria spe- sentando la propria area mento della direzione in attività  interfunzionali cializzazione in ambiti in attività  interfunzionali di miglioramento e pro- interfunzionali di miglioramento e progetto getto
+
+104 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PERSONALE E ORGANIZZAZIONE
+
+Criteri di Addetto servizi Addetto servizi Team leader servizi Addetto Professionalità  generali per il generali per il generali per il amministrazione del personale personale personale personale
+
+D1 D2 C1 C2 autonomia- svolge con progressivo autonomia limitata su svolge ruoli di collega- svolge con normale auresponsabilità  sviluppo compiti di or- compiti di ordine ausi- mento/affiancamento tonomia, in base alle gerarchico- dine ausiliari nell'ambito liari nell'ambito dei ser- operativo su compiti istruzioni e procedure funzionale dei servizi generali quali vizi generali quali re- d'ordine senza respon- aziendali, le attività  opereception, fattorinaggio, ception, posta interna sabilità  gerarchica di rative di amministrazioposta interna, gestione ed esterna, fattorinaggio, tipo "team leader" ne presenze e retribubacheche, sale riunioni gestione bacheche, sale zione ed, in funzione del e formazione, archivia- riunioni e formazione, contesto organizzativo, zione fisica archiviazione fisica in guida un team di addetti interazione con il team amministrazione del perrisorse umane sonale per il perimetro di assegnazione con limitata interfaccia verso gli altri team risorse umane e le funzioni clienti interni
+
+competenza è guidato nell'esecuzione svolgimento ordinato di come per il D2 con ritecnico-specifica ricorrente di compiti che compiti ricorrenti che conosciuta autonomia possiede semplici prinrichiedono competenze richiedono competenze cipi amministrativi e rerelazionali di base, or- relazionali di base, or- lativi ai rapporti di lavoro, dinamento numerico ed dinamento numerico ed competenze aritmetiche alfabetico, redazione di alfabetico, spunte e ri- ed algoritmiche di base piccole note ed appunti, conciliazione semplice ed una completa conocompilazione di docu- di liste ed elenchi, ve- scenza delle norme primenti anche digitali pre- rifica di documenti per- vacy per i lavoratori, formattati, in funzione sonali e raccolta di in- delle norme contrattuali, dei contesti aziendali formazioni sulla base dei regolamenti e delle conduzione di mezzi di dei principi elementari procedure aziendali e trasporto generici di privacy, redazione di dei sistemi anche inforpiccole note ed appunti, matizzati ed effettua adeutilizzo elementare di guata analisi ed impuprogrammi di trattamen- tazione delle voci e dei to testi e tabelle e dispo- dati acquisiti, con la gesitivi digitali preimpo- stione dei casi fuori stanstati; in funzione dei dard e delle anomalie, contesti aziendali con- rispondendo di persona duzione di mezzi di tra- o attraverso i portali insporto generici formatizzati ai quesiti specifici dei dipendenti e dei responsabili sulla base delle sole istruzioni operative e regolamenti;
+cura la corretta introduzione delle innovazioni normative, di standard e di sistema per il proprio perimetro
+
+Responsabile Specialista Responsabile Responsabile Resp. Relazioni amministrazione del amministrazione e amministrazione centro servizi Industriali ed personale di piccola personale del personale di amministrazione Amministrazione del unità  / area stabilimento del personale Personale C3 B1 B2 B3 A1 disimpegna con auto- con ampia autonomia gestisce con discrezio- assolve, nell'ambito del- con ampia autonomia, nomia di iniziativa, nel- sulla base di elevata com- nalità  di decisione, nel- le previsioni aziendali nell'ambito delle stral'ambito dei processi e petenza amministrativa l'ambito della normativa e normative e gestendo tegie risorse umane ed dei sistemi informatizzati effettua la contabilizza- e degli accordi rilevanti, le risorse assegnate, alle in funzione degli obiettivi aziendali, le attività  ope- zione, l'analisi e la pre- l'applicazione dei pro- necessità  di amministra- aziendali, gestisce e asrative di amministrazio- ventivazione del costo cessi, dei regolamenti zione paghe e contributi, sicura le relazioni in ne presenze, retribuzio- del lavoro per i perimetri aziendali e dei sistemi gli adempimenti verso azienda ad ogni livello, ne, assunzione/cessa- assegnati in interazione informatizzati aziendali, gli enti, la contabilità  e nonchà© i rapporti con zione e costo del lavoro con i responsabili Risorse per la soddisfazione di pianificazione costi del le amministrazioni e le per perimetro di asse- Umane, il controllo di tutte le attività  operative personale dell'azienda comunità , anche con lignazione e, in funzione gestione e contabilità , di amministrazione pre- sulla base degli input mitate deleghe di poteri, del contesto organizza- l'amministrazione del senze, retribuzione anche delle unità  decentrate ed il coerente sviluppo tivo, guida operativa- personale variabile, assunzione/ dei processi delle promente il team di addetti cessazione e costo del cedure e dei servizi di amministrazione del per- lavoro, per perimetro di welfare ed amministrasonale per il perimetro assegnazione e, in fun- zione del personale atdi assegnazione con in- zione del contesto orga- traverso gli uffici centrali terfaccia verso altre unità  nizzativo, coordina le ri- ed i servizi decentrati e funzioni interne e for- sorse umane, econominitori esterni che e materiali dell'ufficio con interfaccia verso le altre funzioni locali e centrali del personale, i clienti interni, consulenti esterni
+
+possiede principi di am- elevata competenza dei possiede competenze possiede alta specializ- possiede, sostenute da ministrazione/contabilità  principi e dei metodi di specialistiche in ambito zazione in ambito am- elevate conoscenze gee normativa dei rapporti contabilità  e controllo amministrazione/conta- ministrazione/contabi- nerali ed economicodi lavoro, competenze costi e di paghe e con- bilità  e normativa dei lità , normativa dei rap- amministrative, comaritmetiche e algoritmi- tributi, dei sistemi di rapporti di lavoro, ed porti di lavoro, previ- petenze generalistiche che e una completa co- retribuzione fissi e va- una completa conoscen- denziale ed assicurativa, su tutti i processi di genoscenza delle norme riabili e dei sistemi di za delle norme privacy ed una completa cono- stione risorse umane, privacy per i lavoratori, indagine salariale; ele- per i lavoratori, delle scenza delle norme pri- l'organizzazione deldelle norme contrattuali, vate competenze arit- norme contrattuali, dei vacy per i lavoratori, l'azienda, le tecnologie dei regolamenti e delle metiche ed algoritmiche regolamenti e delle pro- delle norme contrattuali, e dei mercati in cui opera procedure aziendali e e delle procedure azien- cedure aziendali e dei dei regolamenti e delle e competenze specialidei sistemi anche infor- dali e dei sistemi infor- sistemi anche informa- procedure aziendali; ha stiche in ambito giuslamatizzati per affrontare matizzati permettono tizzati per affrontare in approfondite competen- voristico, relazioni azienin funzione dei contesti autonomia di elabora- funzione del contesto ze nella gestione, ma- dali, assicurativo/ conaziendali il trattamento zione e diagnosi di im- aziendale tutti i casi di nutenzione ed innova- tributivo ed amministrae la validazione delle putazione contabile, rap- contabilizzazione ed am- zione dei sistemi infor- tivo. Articolata conoanomalie, eccezioni e porti consuntivi e pre- ministrazione del per- matizzati scenza delle norme condei quesiti specifici dei visionali sonale supportando i re- trattuali e dei processi dipendenti e dei respon- sponsabili del personale, e regolamenti aziendali sabili, sulla base dell'in- delle funzioni e la dire- di cui presidia evoluzione terpretazione delle nor- zione di stabilimento e diffusione me e dei regolamenti nell'ottimizzazione e verificati ove necessario pianificazione econocon i responsabili delle mico-organizzativa e Risorse Umane/Rela- nell'applicazione norzioni con il Personale e mativa anche verificansentiti associazioni di do, ove necessario, con rappresentanza e forni- associazioni di rappretori esterni, e l'imple- sentanza e fornitori estermentazione delle inno- ni; cura l'implementavazioni normative, pro- zione delle innovazioni cedurali e tecnologiche normative, procedurali nel perimetro e tecnologiche nel perimetro
+
+106 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PERSONALE E ORGANIZZAZIONE
+
+Criteri di Addetto servizi Addetto servizi Team leader servizi Addetto Professionalità  generali per il generali per il generali per il amministrazione del personale personale personale personale
+
+D1 D2 C1 C2 competenze esecuzione di semplici limitata autonomia nella come per D2 con capa- autonomia nel reperitrasversali istruzioni di lavoro se- ricerca di semplici dati cità  di formazione per mento ed elaborazione quenziali, utilizzo dei ed informazioni sui si- affiancamento dei col- delle norme contrattuali comuni apparati di co- stemi aziendali o on-line leghi e dei regolamenti azienmunicazione telefonica con redazione, format- dali;
+e digitale o strumenti tazione, riproduzione, elaborazione di riepilopreimpostati, abilità  re- archiviazione e diffu- ghi, riconciliazioni e lazionali di base in lingua sione anche digitale degli prospetti anche attraveritaliana elaborati; trattamento di so supporti digitali non semplici documenti am- predeterminati quali ad ministrativi con termini esempio fogli di lavoro, ricorrenti nella lingua competenze relazionali straniera rilevante; ac- di base per la comprencoglimento di personale sione e la precisazione anche esterno, semplici di quesiti e richieste di colloqui/interviste per clienti interni ed il rila compilazione di que- scontro;
+stionari predeterminati in funzione dei contesti aziendali, interazioni con gli specialisti delle diverse aree di amministrazione del personale e con associazioni di rappresentanza e fornitori esterni; utilizzo elementare della lingua straniera rilevante
+
+polivalenza alcuni processi operativi su un limitato numeri di sull'insieme di un grup- in funzione del contesto nell'area di assegnazio- processi operativi po omogeneo di processi organizzativo su tutti i ne operativi con consape- processi di amministravolezza dei processi di zione del personale per gestione del personale il perimetro di compein cui si inseriscono tenza
+
+Responsabile Specialista Responsabile Responsabile Resp. Relazioni amministrazione del amministrazione e amministrazione centro servizi Industriali ed personale di piccola personale del personale di amministrazione Amministrazione del unità  / area stabilimento del personale Personale C3 B1 B2 B3 A1 completa autonomia nel completa autonomia nel avanzata autonomia nel capacità  critica nel re- gestione di processi e reperimento ed elabo- reperimento ed elabo- reperimento ed interpre- perimento ed interpre- progetti complessi e di razione delle norme con- razione delle norme, tazione di informazioni, tazione di informazioni, rilievo strategico anche trattuali e dei regolamenti degli standard e dei dati normative ed interpre- normative in contesti di cambiaaziendali; da diverse origini; tazioni elevate competenze nelle mento non determinabile nella elaborazione, an- elevata autonomia nel- sicurezza nelle elabora- analisi quantitative anche a priori;
+che di calcolo, di riepi- l'utilizzo di sistemi in- zioni e nelle applicazioni complesse coordinando capacità  di reperire e orloghi, riconciliazioni e formatizzati specialistici quantitative anche com- con alta competenza ganizzare i dati rilevanti prospetti anche attraver- e quelli di automazione plesse con utilizzo avan- l'utilizzo di strumenti e di compiere analisi so supporti digitali non di ufficio; zato di strumenti di au- di automazione d'ufficio qualitative e quantitative;
+predeterminati quali ad capacità  di aggiorna- tomazione d'ufficio e e delle applicazioni in- competenze generalistiesempio fogli di lavoro; mento continuo sulla ba- delle applicazioni infor- formatiche per la gestio- che di selezione e gecompetenze relazionali se di strumenti ed ini- matiche per la gestione ne risorse umane stione di sistemi inforper la comprensione e ziative formative guidate risorse umane predispone con proprietà  mativi;
+la precisazione di quesiti dall'azienda contribuen- predispone con proprietà  e capacità  di sintesi do- selezione, formazione e e richieste di clienti in- do alla formazione degli e capacità  di sintesi do- cumentazioni e presen- motivazione dei collaterni ed il riscontro; addetti sui temi di propria cumentazioni, comuni- tazioni nei formati op- boratori e dei contribuin funzione dei contesti competenza; cazioni e presentazioni portuni, gestisce l'in- tori;
+aziendali, interazioni ampia autonomia di in- complesse utilizzando formazione e la forma- efficacia nei processi di con gli specialisti delle terazione con altri spe- con perizia le pià¹ ade- zione dei dipendenti, dei comunicazione interperdiverse aree di ammi- cialisti ed enti e nella guate metodologie di- collaboratori e colleghi sonale e collettiva utinistrazione del personale definizione delle priorità  gitali, capacità  di ascolto sulle evoluzioni norma- lizzando con correttezza e con associazioni di operative in funzione partecipe e negoziazione tive e regolamentari; gli strumenti pià¹ idonei, rappresentanza e forni- degli scadenziari, delle interpersonale ampia autonomia di in- anche digitali, modulantori esterni; esigenze di clienti e gestisce l'informazione terazione con gli stabi- do linguaggi in funzione utilizzo adeguato della fornitori interni, effet- e la formazione dei di- limenti clienti, altri spe- degli interlocutori;
+lingua straniera rilevan- tuando presentazioni pendenti, dei collabo- cialisti ed enti, clienti efficacia di presentazione te strutturate dei problemi ratori e colleghi sulle interni e fornitori esterni, e negoziazione con aue delle soluzioni espri- evoluzioni normative e comunicando nella lin- torevolezza anche nella mendosi adeguatamente regolamentari gua straniera rilevante lingua straniera rilevante;
+nella lingua straniera ampia autonomia di in- capacità  di pianificare rilevante terazione con altri spe- e condurre negoziazioni cialisti ed enti, clienti complesse anche in coninterni e fornitori esterni, dizioni ambientali difcomunicando nella lin- ficili articolando scenari gua straniera rilevante alternativi in funzione degli obiettivi e della loro ridefinizione/ ottimizzazione;
+capacità  di gestire e guidare i cambiamenti culturali, organizzativi e normativi o procedurali
+
+in funzione del contesto in funzione del contesto in funzione del contesto in funzione del contesto su tutti i processi di georganizzativo su tutti i organizzativo su diversi organizzativo su tutti i organizzativo su tutti i stione Risorse Umane e processi di amministra- processi di amministra- processi di reclutamento processi di amministra- parte dei processi di Buzione del personale per zione e controllo per il perimetro di com- zione del personale ed siness Development il perimetro di compe- petenza ed i perimetri alcuni processi risorse tenza assimilabili umane
+
+108 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PERSONALE E ORGANIZZAZIONE
+
+Criteri di Addetto servizi Addetto servizi Team leader servizi Addetto Professionalità  generali per il generali per il generali per il amministrazione del personale personale personale personale
+
+D1 D2 C1 C2 polifunzionalità  consapevolezza elemen- nozioni dell'organizza- elementi di conoscitivi consapevolezza di tutti tare dell'organizzazione zione aziendale di base dei processi di i processi di amministraaziendale gestione e formazione zione del personale, didel personale e dei pro- sciplinare, costo del lacessi e funzioni aziendali voro, relazioni sindacali con cui si interfacciano e nell'interfaccia con altre funzioni aziendali ed i consulenti esterni
+
+miglioramento è guidato nell'affrontare identificazione delle ano- proposta di semplici mo- proposta di soluzioni per continuo ed anomalie, casi specifici, malie e proposta di sem- difiche ed adattamenti, le non conformità  aminnovazione innovazioni e migliora- plici miglioramenti della partecipazione attiva a ministrative e nell'immenti propria attività  parte- gruppi di lavoro e mi- plementazione di nuove cipando in funzione del glioramento con auto- normative e procedure contesto aziendale a nomia nell'utilizzo delle con il coordinamento gruppi di lavoro e mi- metodologie prescritte, operativo di gruppi di glioramento con l'uti- ove previsti lavoro e miglioramento lizzo di delle metodo- in applicazione delle melogie prescritte todologie aziendali
+
+Responsabile Specialista Responsabile Responsabile Resp. Relazioni amministrazione del amministrazione e amministrazione centro servizi Industriali ed personale di piccola personale del personale di amministrazione Amministrazione del unità  / area stabilimento del personale Personale C3 B1 B2 B3 A1 consapevolezza di tutti conoscenza dell'orga- conoscenza dei processi conoscenza dei processi comprensione dei proi processi di gestione del nizzazione operativa e di gestione del perso- di gestione del perso- cessi e degli obiettivi personale, relazioni sin- contabile dell'azienda, nale, relazioni sinda- nale, relazioni sinda- delle diverse funzioni dacali, selezione e for- ed autonomia di inter- cali, selezione e for- cali, selezione e for- aziendali e partner esterni mazione e capacità  di faccia con altre funzioni mazione e capacità  di mazione e capacità  di per la definizione coeinterfaccia con altre fun- aziendali e partner interfaccia con altre interfaccia con altre rente delle operazioni e zioni aziendali ed i con- esterni funzioni aziendali ed i funzioni aziendali ed i delle strategie contrisulenti esterni consulenti esterni consulenti esterni buendo, inoltre, alle scelte generali d'azienda
+
+nell'ambito delle previ- nell'ambito delle pre- nell'ambito delle pre- nell'ambito delle previ- governo dei processi di sioni aziendali decidono visioni aziendali deci- visioni aziendali vali- sioni aziendali validano miglioramento ed innomodifiche ed adattamen- dono e guidano la rea- dano le azioni di mi- le azioni di migliora- vazioni delle relazioni ti tecnici, scegliendo le lizzazione di modifiche glioramento continuo mento continuo per la con i vari interlocutori metodologie ed curan- ed adattamenti tecnici per la propria area, pro- propria area, promuo- dei servizi correlati condone la corretta imple- e progetti di migliora- muovono e guidano vono e guidano progetti tribuendo alle strategie mentazione nell'ambito mento relativi al proprio progetti di innovazione di innovazione relativi aziendali complessive, dei gruppi di migliora- perimetro relativi al proprio pe- al proprio perimetro e promuovendo e gestendo mento aziendale rimetro e lo rappresen- lo rappresentano nel- processi di cambiamento tano nell'ambito di ini- l'ambito di iniziative in- strutturale culturale, orziative interfunzionali terfunzionali ganizzativo e normativo o procedurale
+
+110 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Addetto Macchine Addetto Macchine Addetto / Tecnico Costruttore su Professionalità  automatiche/a automatiche / a Macchine Macchine Manuali / Controllo Numerico Controllo Numerico automatiche / a a Controllo Controllo Numerico D1 D2 C1 C2
+
+autonomia- svolge con sviluppo pro- svolge con limitata au- svolge compiti ordinari esegue o imposta per responsabilità  gressivo compiti acces- tonomia compiti ordinari di produzione di serie o l'esecuzione automatica gerarchico- sori ed ordinari in inte- di produzione di serie o di costruzione di parti- la lavorazione di elevata funzionale razione con il team de- di costruzione di parti- colari su macchine uten- precisione di parti comdicato nella conduzione colari su macchine uten- sili, manuali, automati- plesse a partire da disedi macchine per la la- sili, manuali, automati- che o a controllo sulla gni, cicli, codici, effetvorazione meccanica, che o a controllo sulla base di istruzioni e cicli tuando con autonomia attrezzate, automatiche base di istruzioni e cicli dettagliati, con super- le normali messe a punto, o a controllo numerico predeterminati e detta- visione o supporto ove regolazioni, scelta, regliati necessario e senza re- gistrazione e cambio sponsabilità  gerarchica, utensile con ruolo di collegamento nell'ambito del team sulle macchine dello stesso tipo
+
+competenza nozioni generiche circa nozioni di base circa le come per D2, curando sulla base di competenze tecnico-specifica le operazioni ed i para- operazioni ed i parametri gli standard produttivi tecniche e specifica cometri di lavorazione, ali- di lavorazione, centraggi e qualitativi su un gruppo noscenza della tecnolomentazioni, operazioni alimentazioni, semplici omogeneo di macchine gia di lavorazione, è in di pulizia e semplici cam- cambi tipo e registrazioni con autonomia nella dia- grado di interpretare dibio tipo utensili, controllo quote gnostica delle anomalie segni, cicli e codici di con strumenti anche non ricorrenti e nelle rego- lavoro per effettuare le preregolati lazioni ordinarie dei pa- operazioni dell'intero rametri e delle attrezza- ciclo di lavorazione delle ture parti assegnate verificandone con gli opportuni strumenti non preregolati, meccanici e digitali, la corrispondenza alla specifica ed intraprendendo gli aggiustamenti e le regolazioni necessarie in caso di non conformità
+
+Metodista Macchine Costruttore su Specialista Responsabile Responsabile Manuali / Macchine Manuali / costruzione su costruzioni su lavorazioni a Controllo a Controllo Macchine Manuali / Macchine Manuali / meccaniche a Controllo a Controllo C3 B1 B2 B3 A1
+
+elabora i cicli ed i codici definisce sulla base dei con discrezionalità  di gestisce le attività  di co- è responsabile nei condi lavorazione per pezzi soli disegni esecutivi ed decisione nell'ambito struzione su macchine fronti della direzione e serie, definendo, con esegue con macchine delle direttive generali utensili di varia tecno- aziendale o di produzioautonomia di iniziativa, manuali ed attrezzature e con attenzione all'ot- logia in funzione del- ne della disponibilità tipologia di macchina e speciali meccaniche, ot- timizzazione economica l'organizzazione azien- di adeguata capacità  prodi lavorazione, opera- tiche ed elettroniche o delle risorse, definisce dale con ampia autono- duttiva, tecnologica e zioni, attrezzature, pa- programmando in auto- ed esegue direttamente mia e discrezionalità  di dei servizi collegati per rametri tecnologici, geo- nomia macchine a con- con perizia, sulla base iniziativa nella gestione la soddisfazione dei bimetrie ed utensili per il trollo. lavorazioni non di disegni, specifiche delle risorse tecniche ed sogni di lavorazione rispetto delle caratteri- ricorrenti di elevato li- tecniche ed economiche umane e nelle scelte tec- meccanica nell'ambito stiche di progetto e l'ef- vello tecnico per geo- di lavorazioni complesse nologiche, garantendo dei budget assegnati.
+ficienza economica metrie, materiali e pre- ed innovative, tutte le il collegamento siste- Cura la corretta gestione cisione operazioni con macchine matico con gli altri enti delle risorse produttive manuali ed attrezzature aziendali di interesse e del personale in termini speciali meccaniche, ot- economici ed organiztiche ed elettroniche o zativi per il perimetro programmando in auto- di responsabilità nomia le macchine a controllo
+
+possiede complete co- possiede elevate com- Sulla base di competenze possiede, in virtà¹ di for- sulla base di formazione noscenze del disegno, petenze nella tecnologia dei materiali, delle tec- mazione articolata ed avanzata e continuo agdei materiali, delle tec- dei materiali e delle la- nologie, metodi e si- aggiornamento continuo, giornamento tecnologico nologie e delle macchine vorazioni, in funzione stemi di lavorazione, ca- competenze di alta spe- e normativo, è autonomo di lavorazione, utensili, del contesto tecnologico pacità  avanzate di uti- cializzazione nella tec- di analisi e decisione attrezzature, sistemi di capacità  di programma- lizzo di metodi mate- nologia dei materiali, tecnica ed organizzativa controllo e supervisione zione nei diversi lin- matici e di utilizzo dei delle macchine e delle su complesse problemae dei relativi linguaggi guaggi delle unità  di linguaggi di program- lavorazioni e nell'analisi tiche tecnologiche e procon capacità  di scelta controllo ed alta manua- mazione delle unità  di ed interpretazione delle duttive in funzione delle tecnologica di fronte a lità  nell'esecuzione delle controllo e delle appli- specifiche e dei piani di evoluzioni del contesto lavori complessi e di ele- lavorazioni e nell'utilizzo cazioni CAD-CAM, pia- prodotto per l'ottimiz- aziendale, del mercato vata difficoltà  e di ano- di attrezzaggi e strumenti nifica ed esegue le di- zazione delle scelte tec- e delle tecnologie, promalie, variazioni ed im- di controllo e misura, verse fasi anche di in- nologiche ed organiz- ponendo gli obiettivi di previsti capacità  di lettura critica novazione con contri- zative del reparto e la medio periodo in termini del disegno, capacità  di buto specialistico gestione dei tecnici e di capacità , innovazione calcolo trigonometrico degli specialisti. Utilizza tecnologica e di fabbied analitico ed autono- in autonomia i sistemi sogno di competenze mia di diagnosi e defi- integrati di fabbrica nizione di modifiche ed adattamenti
+
+112 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Addetto Macchine Addetto Macchine Addetto / Tecnico Costruttore su Professionalità  automatiche/a automatiche / a Macchine Macchine Manuali / Controllo Numerico Controllo Numerico automatiche / a a Controllo Controllo Numerico D1 D2 C1 C2
+
+competenze opera in condizioni or- possiede limitata auto- come per D2 con capa- è autonomo nel reperitrasversali dinarie, contribuendo nomia nella diagnostica cità  di supporto e affian- mento ed elaborazione al mantenimento ele- delle anomalie di pro- camento dei colleghi per di dati ed informazioni mentare di parametri an- cesso ricorrenti e nelle la formazione di posto. tecniche nei diversi forche mediante sistemi di- regolazioni ordinarie dei Guida la compilazione mati utilizzati e nelle gitali di supervisione di parametri e degli apparati dei rapporti preformattati compilazioni di rapporti macchina, effettuando sulla base della lettura di produzione, qualità , di produzione e circa le in affiancamento sem- di semplici schemi, di- pulizia e manutenzione, anomalie sia tramite i plici diagnostiche di segni, tabelle, manuali anche attraverso stru- sistemi integrati di geanomalie ricorrenti e re- tecnici di macchina/im- menti e sistemi digitali stione della produzione golazioni ordinarie dei pianto, compilando sem- che attraverso strumenti parametri, utensili ed at- plici rapporti preformat- di automazione d'ufficio.
+trezzature e la compila- tati circa i parametri di Contribuisce ai percorsi zione di semplici rapporti produzione, qualità , pu- di formazione e addepreformattati anche at- lizia e manutenzione, stramento dei colleghi traverso strumenti e si- anche attraverso strustemi digitali menti e sistemi digitali e termini ricorrenti nella lingua straniera rilevante
+
+polivalenza su una parte delle attività  su una macchina o pià¹ sostituisce i colleghi su capacità  di condurre relative ad una o pià¹ macchine analoghe qualsiasi attività  relative macchine manuali e con macchine analoghe ad una macchina o ad diverse tipologie di conun gruppo omogeneo di trollo numerico nell'ammacchine bito dello stesso tipo di lavorazione
+
+Metodista Macchine Costruttore su Specialista Responsabile Responsabile Manuali / Macchine Manuali / costruzione su costruzioni su lavorazioni a Controllo a Controllo Macchine Manuali / Macchine Manuali / meccaniche a Controllo a Controllo C3 B1 B2 B3 A1
+
+è autonomo nel reperi- è autonomo nel reperi- esercita discrezionalità  possiede competenze capacità  di lettura, inmento ed elaborazione mento ed elaborazione nella diagnosi, analisi, metodologiche specia- terpretazione e spiegadi dati ed informazioni di dati ed informazioni definizione e regolazione listiche di diagnosi, ana- zione dei conti econotecniche complesse e tecniche e nella presen- dei processi e dei metodi lisi, definizione e rego- mici periodici e dei donell'aggiornamento pro- tazione dei problemi e anche in fase di imple- lazione di processi e pro- cumenti economico fifessionale specifico. delle soluzioni tecniche mentazione di nuovi si- blemi di elevata com- nanziari di investimento.
+Contribuisce alla for- utilizzando strumenti di stemi e tecnologie. E' plessità  e che necessitano Capacità  di presentaziomazione e addestramen- comunicazione ed ela- in grado di elaborare ed di contributi multifun- ne e negoziazione nella to degli addetti sugli borazione digitale, espri- effettuare presentazioni zionali. Elabora ed ef- lingua locale e nella linaspetti teorico pratici mendosi adeguatamente complesse a contenuto fettua presentazioni gua straniera rilevante.
+delle diverse tipologie nella lingua straniera ri- tecnologico ed econo- complesse a contenuto Competenze di seleziodi lavorazione e di mac- levante. mico delle attività  e dei tecnologico ed econo- ne, valutazione, motichina anche in occasione Contribuisce con le pro- problemi utilizzando con mico delle attività  e dei vazione e sviluppo del dell'introduzione di nuo- prie competenze tecniche perizia strumenti di co- problemi utilizzando con personale di produzione ve tecnologie. e pratiche nelle fasi di municazione ed elabo- alta perizia strumenti di e nel disegno delle strutGestisce autonomamen- formazione dei collabo- razione digitale, comu- comunicazione ed ela- ture organizzative. Comte i flussi di informazione ratori e partecipa atti- nicando nella lingua stra- borazione digitale, co- petenze di gestione pronecessari al perimetro vamente al percorso per- niera rilevante. municando nella lingua getti. In base alle defied agli addetti con pro- sonale di aggiornamento Pianifica e supervisiona, straniera rilevante. nizioni aziendali, attua prietà  di comunicazione tecnologico nel quadro in coordinamento con Contribuisce le compe- le direttive del datore di tecnica e gestionale ed dei piani aziendali la direzione di produ- tenze specialistiche in lavoro in materia di amutilizzando i sistemi in- zione e gli enti aziendali coordinamento con la biente e sicurezza del formatizzati appropriati ed esterni specialistici, direzione di produzione lavoro e adeguato uso della lin- i piani di formazione e gli enti aziendali ed gua straniera rilevante tecnico specifica e di esterni specialistici per coinvolgimento dei col- il personale del reparto laboratori dell'area. Svi- e cura la formazione luppa attivamente il pro- continua e la motivazioprio percorso personale ne dei collaboratori didi formazione nel quadro retti. Sviluppa attivadei piani aziendali mente il proprio percorso personale di formazione nel quadro dei piani aziendali
+
+per le principali tecno- capacità  di utilizzare capacità  di utilizzare su tutte le tecnologie di è in grado di assicurare logie di lavorazione e tutte macchine e le at- tutte le macchine e le lavorazione del perime- il coordinamento di tutte macchine in uso nel pro- trezzature nell'ambito attrezzature e i sistemi tro e di quelli assimila- le attività  della propria prio perimetro organiz- del proprio perimetro nell'ambito del proprio bili unità  e di sostituire colzativo tecnologico nelle diverse perimetro tecnologico leghi di altre unità  assicondizioni esecutive nelle diverse condizioni milabili esecutive
+
+114 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Addetto Macchine Addetto Macchine Addetto / Tecnico Costruttore su Professionalità  automatiche/a automatiche / a Macchine Macchine Manuali / Controllo Numerico Controllo Numerico automatiche / a a Controllo Controllo Numerico D1 D2 C1 C2
+
+polifunzionalità  limitatamente ai propri limitatamente ai propri applicazioni esecutive interagisce autonomacompiti esecutivi compiti esecutivi principi qualità  ed auto manu- mente con le funzioni consapevolezza principi di qualità  e pulizia tec- tenzione per la propria metodi, manutenzione, di qualità  e pulizia tec- nologica linea, sa individuare le logistica interna nologica altre funzioni di produzione
+
+miglioramento in funzione del contesto propone semplici mo- propone modifiche ed ha iniziativa nella risocontinuo ed aziendale è guidato nelle difiche ed adattamenti, adattamenti, partecipan- luzione dei problemi e innovazione attività  di miglioramento partecipando in funzione do in funzione del con- propone modifiche e mie risoluzione dei pro- del contesto aziendale testo aziendale a gruppi glioramenti, partecipanblemi a gruppi di lavoro per il di lavoro per il miglio- do attivamente in funmiglioramento e la so- ramento e la soluzione zione del contesto azienluzione dei problemi con dei problemi con l'uti- dale alle attività  e prol'utilizzo delle metodo- lizzo delle metodologie muovendo e facilitando logie prescritte prescritte la partecipazione degli addetti nel proprio perimetro
+
+Metodista Macchine Costruttore su Specialista Responsabile Responsabile Metodista Macchine Macchine Manuali / costruzione su costruzioni su lavorazioni Manuali / a Controllo Macchine Manuali / Macchine Manuali / meccaniche a Controllo a Controllo a Controllo C3 B1 B2 B3 A1
+
+ricerca ove necessario contribuisce con le com- contribuisce con auto- promuove e mantiene elevata capacità  di apil confronto con gli enti petenze tecnologiche ed nomia nell'ambito delle la relazione con le fun- proccio interdisciplinare di progettazione e gli operative specifiche ad competenze speciali- zioni tecniche e di pia- e di interfaccia con altre operatori di produzione, attività  interfunzionali stiche della propria area nificazione dell'unità  funzioni aziendali. Cain funzione dell'orga- e nei rapporti con i clienti alle attività  interfun- produttiva con consa- pacità  di guidare con renizzazione aziendale in- e fornitori esterni zionali e nei rapporti pevolezza delle compe- sponsabilità  operativa terfacciando clienti e con i clienti e fornitori tenze di ciascuna ed è ed organizzativa, anche fornitori per la soluzione esterni il rifermento in ambito gruppi o squadre di altre di problemi tecnologico per clienti aree e fornitori
+
+propone modifiche e mi- propone modifiche e mi- promuove modifiche promuove e valida mo- è responsabile del manglioramenti operativi e glioramenti operativi e ed innovazioni tecniche difiche ed innovazioni tenimento migliorativo, tecnici per la propria tecnici per la propria e metodologiche, gui- tecnologiche, metodo- della risoluzione proarea. area per i prodotti e le dando il personale della logiche e di investimento blemi e dell'innovazione Guida operativamente tecnologie di competen- propria area nelle ini- per tutta l'area di com- per la propria unità  rapgruppi di lavoro e di mi- za. ziative dei sistemi di petenza, coordinando i presentandola nell'amglioramento curando il Guida operativamente miglioramento e rappre- diversi contributi, rap- bito dei comitati di quacorretto utilizzo delle gruppi di lavoro e di mi- sentandola nelle attività  presentando e guidando lità  ed innovazione delmetodologie prescritte glioramento curando il di miglioramento ed in- il personale della propria l'azienda e del gruppo corretto utilizzo delle novazione interfunzio- area nelle iniziative dei metodologie prescritte nali sistemi di miglioramento e rappresentando le competenze specialistiche negli ambiti interfunzionali di miglioramento ed innovazione
+
+116 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Conduttore di linee Conduttore di linee Team Leader su Tecnico di Professionalità  automatizzate / automatizzate / linee automatizzate / conduzione di Linee Guidamacchine Guidamacchine macchine attrezzate Automatiche, Macchine, Impianti
+
+D1 D2 C1 C2
+
+autonomia- svolge con progressivo svolge compiti ordinari compiti ordinari nella svolge in autonomia tutte responsabilità  sviluppo compiti acces- con limitata autonomia conduzione di linee, le fasi di conduzione di gerarchico- sori ed ordinari in inte- nella conduzione di linee, macchine, celle e im- linee, macchine, celle e funzionale razione con il team de- macchine, celle e im- pianti di produzione, at- impianti di produzione dicato nella conduzione pianti di produzione in tivando i ruoli di super- omogenei, con iniziativa di linee, macchine, celle interazione con il team visione o di supporto di esecuzione, scelta di e impianti di produzio- dedicato ove necessario e senza metodi e strumenti e guine responsabilità  gerarchi- dando gli addetti del peca, con ruolo di colle- rimetro, per la corretta gamento nell'ambito del implementazione di stanteam sulle postazioni di dard produttivi, di qualità linea/impianto/isola e sicurezza complessi
+
+competenza compiti elementari e ge- compiti di base circa le rispetta gli standard pro- sulla base di competenze tecnico-specifica nerici nell'ambito di ope- operazioni ed i parametri duttivi e qualitativi su tecniche e specifica corazioni e parametri di di produzione, alimen- tutte le postazioni di una noscenza della tecnoloproduzione, alimenta- tazioni, semplici cambi linea o segmento o su gia, interpreta disegni, zioni, operazioni di pu- tipo linee analoghe con au- schemi e manuali tecnici lizia e semplici cambio tonomia nella diagno- per effettuare avvii di tipo stica delle anomalie di produzione, cambio tipo processo ricorrenti e ed attrezzaggi, riavvii e nelle regolazioni ordi- verifiche in relazione ad narie dei parametri e de- interventi manutentivi gli apparati sulla base utilizzando i sistemi didella documentazione gitali di supervisione e operativa di linea/mac- la strumentazione anche china non preconfigurata necessaria
+
+Capo / Capo Turno Responsabile / Responsabile Linea Specialista di Responsabile unità Linea automatica, Responsabile Turno Automatica, Impianti ad alta di produzione Macchina, impianto Linea Automatica, Macchina, Impianto automazione automatizzata Macchina, Impianto lavorazione e Montaggio C3 B1 B2 B3 A1
+
+persegue i risultati di con ampia autonomia con discrezionalità  di nell'ambito di impianti è responsabile nei conproduzione, efficienza, esercita la responsabilità  decisione nell'ambito automatizzati articolati fronti della direzione qualità , supervisionando di una o pià¹ linee, mac- delle direttive dell'unità  ed unità  produttive basate aziendale della realizcon iniziativa nell'am- chine, impianti di rilievo di produzione, esercita su linee ad alta automa- zazione dei piani di probito delle previsioni per complessità  e capa- la responsabilità  di una zione, gestisce, con am- duzione e dei budget asaziendali gruppi articolati cità  produttiva con la o pià¹ linee, macchine, pia autonomia e discre- segnati. Assicura tramite di addetti alla produzione conduzione gerarchica impianti di alto rilievo zionalità  di iniziativa, i una articolata struttura ed alle funzioni acces- degli addetti per complessità  e capa- servizi di prossimità  nelle gerarchica, la corretta sorie cità  produttiva con la diverse fasi anche non gestione delle risorse conduzione gerarchica ricorrenti, impreviste e produttive e del persodegli addetti e la gestione di innovazione del pro- nale in termini econoeconomica delle risorse cesso, la documentazio- mico ed organizzativi di produzione ne di produzione, la pre- per l'intera unità  prodisposizione dei budget, duttiva la formazione degli addetti ed il collegamento sistematico con gli altri enti aziendali di interesse.
+In funzione dei contesti esercita la responsabilità gerarchica sul team dedicato a tali servizi
+
+sulla base di complete sulla base di approfondite sulla base di approfondite possiede, in virtà¹ di for- sulla base di formazione conoscenze delle tecno- competenze delle tec- competenze delle tec- mazione articolata ed avanzata e continuo aglogie e dei sistemi di ge- nologie, dei metodi e nologie, dei metodi e aggiornamento continuo, giornamento tecnologico stione della produzione dei sistemi di produzione dei sistemi di produzione competenze di alta spe- e normativo, è autonomo applicati nel proprio pe- e supervisione del pro- del comparto a cui fa ri- cializzazione tecnolo- nell'analisi e decisione rimetro e per tutte le fasi prio ambito, organizza, ferimento l'azienda, or- gico-produttivo e di me- tecnica ed organizzativa di produzione, avvio, conduce e verifica tutte ganizza, conduce e ve- todologia per la gestione su complesse problemamessa a punto e manu- le fasi anche non ordi- rifica tutte le fasi anche di basi di dati, di docu- tiche di impianto e di tenzione, svolge diret- narie dell'attività  con di innovazione dell'at- mentazione tecnica, ge- produzione in funzione tamente attività  tecniche contributo manuale, di tività  con contributo spe- stione di codici e pro- delle evoluzioni del concomplesse e di elevata misura, di interpretazio- cialistico nell'utilizzo grammi, con la capacità  testo aziendale, del merdifficoltà , sceglie stru- ne della documentazione di strumentazioni sofi- di operare in autonomia cato e delle tecnologie, menti e metodi, prende tecnica e di applicazione sticate e dei sistemi di su tutti i sistemi di co- proponendo gli obiettivi decisioni operative a metodologica e calcolo controllo e di supervi- mando controllo e re- di medio periodo in terfronte di anomalie, va- di elevato livello sione dell'impianto e golazione dell'impianto mini di capacità , innoriazioni ed imprevisti delle interfacce con i si- e le interfacce verso i vazione tecnologica e stemi integrati di fab- sistemi di fabbrica di fabbisogno di combrica, nell'applicazione petenze di procedure complesse, nel reperimento, elaborazione ed interpretazione di documentazione tecnica e di applicazione metodologica e calcolo con ogni tipo di supporto
+
+118 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Conduttore di linee Conduttore di linee Team Leader su Tecnico di Professionalità  automatizzate / automatizzate / linee automatizzate / conduzione di Linee Guidamacchine Guidamacchine macchine attrezzate Automatiche, Macchine, Impianti
+
+D1 D2 C1 C2
+
+competenze esegue istruzioni ope- possiede limitata auto- come per D2 con capa- è autonomo nel reperitrasversali rative elementari e ri- nomia nella diagnostica cità  di supporto e affian- mento ed elaborazione petitive in affiancamento delle anomalie di pro- camento dei colleghi per di dati ed informazioni riconoscendo semplici cesso ricorrenti e nelle la formazione di posto. tecniche nei diversi foranomalie di processo ri- regolazioni ordinarie dei Guida la compilazione mati utilizzati e nelle correnti, effettuando in- parametri e degli apparati dei rapporti preformattati compilazioni di rapporti terventi elementari or- sulla base di semplici di produzione, qualità , e statistiche sia tramite dinari sugli apparati e schemi, disegni, tabelle, pulizia e manutenzione, i sistemi integrati di gesui parametri, su sistemi manuali tecnici di mac- anche attraverso stru- stione della produzione di supervisione, la com- china/impianto compi- menti e sistemi digitali che attraverso strumenti pilazione di semplici lando semplici rapporti preimpostati, per tutte di automazione di ufficio.
+rapporti preformattati preformattati circa i pa- le posizioni di linea o Contribuisce ai percorsi circa i parametri di pro- rametri di produzione, segmento/impianto/cella di addestramento dei duzione, qualità , pulizia qualità , pulizia e manu- nel proprio turno colleghi e manutenzione, anche tenzione, anche attraattraverso strumenti e verso strumenti e sistemi sistemi digitali di base digitali e termini ricorrenti nella lingua straniera rilevante
+
+polivalenza su una parte delle po- su tutte le postazioni di sostituisce i colleghi su capacità  di condurre Listazioni di una linea o una linea o segmento o qualsiasi delle posizioni nee/impianti/macchine linee/macchine/impianti linee analoghe della linea o segmento/ dello stesso tipo o un analoghi impianto/ celle omoge- gruppo omogeneo di imnee pianti in funzione del contesto tecnologico organizzativo
+
+Capo / Capo Turno Responsabile / Responsabile Linea Specialista di Responsabile unità Linea automatica, Responsabile Turno Automatica, Impianti ad alta di produzione Macchina, impianto Linea Automatica, Macchina, Impianto automazione automatizzata Macchina, Impianto lavorazione e Montaggio C3 B1 B2 B3 A1
+
+in funzione dei contesti possiede autonomia di esercita discrezionalità  possiede competenze capacità  di lettura, inaziendali segue la for- diagnosi, analisi, defi- nella diagnosi, analisi, metodologiche specia- terpretazione e spiegamazione degli addetti e nizione e regolazione definizione e regolazione listiche di diagnosi, ana- zione dei conti econopromuove l'applicazione dei processi. E' autono- dei processi e dei metodi lisi, definizione e rego- mici periodici e dei dodelle norme di sicurezza mo nella presentazione anche in fase di imple- lazione di processi e pro- cumenti economico fiin qualità  di Preposto. delle attività  e dei pro- mentazione di nuovi si- blemi di elevata com- nanziari di investimento.
+Raccoglie e trasmette in blemi utilizzando con stemi e tecnologie. E' plessità  e che necessitano Capacità  di presentazioautonomia le informa- perizia strumenti di co- in grado di elaborare ed di contributi multifun- ne e negoziazione nella zioni necessarie al pe- municazione ed elabo- effettuare presentazioni zionali. Elabora ed ef- lingua locale e nella linrimetro ed agli addetti razione digitale, espri- complesse a contenuto fettua presentazioni com- gua straniera rilevante.
+con proprietà  di comu- mendosi adeguatamente tecnologico ed econo- plesse a contenuto tec- Competenze di selezionicazione tecnica e ge- nella lingua straniera ri- mico delle attività  e dei nologico ed economico ne, valutazione, motistionale ed utilizzando levante. problemi utilizzando con delle attività  e dei pro- vazione e sviluppo del i sistemi informatizzati Contribuisce alla for- perizia strumenti di co- blemi utilizzando con personale di produzione appropriati e la lingua mazione dei collabora- municazione ed elabo- alta perizia strumenti di e nel disegno delle strutstraniera rilevante tori con le proprie com- razione digitale, comu- comunicazione ed ela- ture organizzative. Competenze tecnico produt- nicando nella lingua stra- borazione digitale, co- petenze di project mative e partecipa attiva- niera rilevante. municando nella lingua nagement. In base alle mente al percorso per- Pianifica e supervisiona, straniera rilevante. In definizioni aziendali, atsonale di aggiornamento in coordinamento con coordinamento con la tua le direttive del datore tecnologico ed organiz- la direzione di produ- direzione di produzione di lavoro in materia di zativo nel quadro dei zione e gli enti aziendali e gli enti aziendali ed ambiente e sicurezza del piani aziendali ed esterni specialistici, esterni contribuisce con lavoro i piani di formazione le competenze speciatecnico specifica e di listiche allo sviluppo del motivazione dei colla- personale del reparto e boratori dell'area. Svi- cura la formazione conluppa attivamente il pro- tinua e la motivazione prio percorso personale dei collaboratori diretti.
+di formazione nel quadro Sviluppa attivamente il dei piani aziendali proprio percorso personale di formazione nel quadro dei piani aziendali
+
+per una o pià¹ linee, mac- capacità  di condurre capacità  di assicurare la capacità  di assicurare la è in grado di assicurare chine, celle o impianti gruppi eterogenei di li- funzione su tutte le linee, funzione su tutte le linee, il coordinamento di tutte di produzione omoge- nee/impianti/macchine macchine, celle dell'uni- macchine, celle dell'uni- le attività  della propria nei della stessa area, in fun- tà  produttiva tà  produttiva e di impianti unità  e di sostituire colzione del contesto tec- assimilabili leghi di altre unità  assinologico organizzativo milabili
+
+120 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Conduttore di linee Conduttore di linee Team Leader su Tecnico di Professionalità  automatizzate / automatizzate / linee automatizzate / conduzione di Linee Guidamacchine Guidamacchine macchine attrezzate Automatiche, Macchine, Impianti
+
+D1 D2 C1 C2
+
+polifunzionalità  limitatamente ai propri limitatamente ai propri applicazioni esecutive interagisce autonomacompiti esecutivi con- compiti esecutivi, prin- qualità  ed automanuten- mente con altri specialisti sapevolezza dei principi cipi di qualità  e pulizia zione di base per la pro- o referenti di altre aree di qualità  e pulizia tec- tecnologia pria linea, sa individuare nologia le altre funzioni di produzione
+
+miglioramento in funzione del contesto propone semplici mo- propone modifiche ed ha iniziativa di problem continuo ed aziendale è guidato nelle difiche ed adattamenti, adattamenti, partecipan- solving e propone moinnovazione attività  di miglioramento partecipando in funzione do in funzione del con- difiche e miglioramenti, e risoluzione dei pro- del contesto aziendale, testo aziendale a gruppi partecipando attivamenblemi a gruppi di lavoro per il di lavoro per il miglio- te in funzione del conmiglioramento e la so- ramento e la soluzione testo aziendale alle atluzione dei problemi con dei problemi con l'uti- tività  e promuovendo e l'utilizzo delle metodo- lizzo delle metodologie facilitando la partecipalogie prescritte prescritte zione degli addetti nel proprio perimetro
+
+Capo / Capo Turno Responsabile / Responsabile Linea Specialista di Responsabile unità Linea automatica, Responsabile Turno Automatica, Impianti ad alta di produzione Macchina, impianto Linea Automatica, Macchina, Impianto automazione automatizzata Macchina, Impianto lavorazione e Montaggio C3 B1 B2 B3 A1
+
+ricerca ove necessario i contribuisce con com- contribuisce con auto- sviluppa sistematica- elevata capacità  di apcontributi specialistici petenze specifiche della nomia nell'ambito delle mente la relazione con proccio interdisciplinare e le validazioni superiori funzione produttiva ad competenze specialisti- le funzioni tecniche e di e di interfaccia con altre in interazione con gli attività  interfunzionali che della propria area pianificazione dell'unità  funzioni aziendali. Caaltri enti di produzione e nei rapporti con i clienti alle attività  interfunzio- produttiva con consa- pacità  di guidare con ree le funzioni aziendali e fornitori esterni nali e nei rapporti con i pevolezza delle compe- sponsabilità  operativa collegate clienti e fornitori ester- tenze di ciascuna ed è ed organizzativa, anche ni il rifermento in ambito gruppi o squadre di altre tecnologico per clienti aree e fornitori
+
+guida nel proprio peri- proposta di modifiche, promuove modifiche ed promuove e valida mo- è responsabile del manmetro le iniziative di varianti e miglioramenti, innovazioni tecniche e difiche ed innovazioni tenimento migliorativo, problem solving e mi- guidando il personale metodologiche , guidan- tecnologiche, metodo- della risoluzione proglioramento scegliendo della propria area nelle do il personale della pro- logiche e di investimento blemi e dell'innovazione nell'ambito delle previ- iniziative dei sistemi di pria area nelle iniziative per tutta l'area di com- per la propria unità  rapsioni aziendali le meto- miglioramento aziendali dei sistemi di migliora- petenza, coordinando i presentandola nell'amdologie rilevanti ed è con competenza meto- mento e rappresentan- diversi contributi, e gui- bito dei comitati di quaparte attiva nelle attività  dologica dola nelle attività  di mi- dando il personale della lità  ed innovazione deldi miglioramento di fun- glioramento ed innova- propria area nelle ini- l'azienda e del gruppo zione ed interfunziona- zione interfunzionali ziative e nei sistemi di li miglioramento e rappresentando le competenze specialistiche negli ambiti interfunzionali di miglioramento ed innovazione
+
+122 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Addetto servizi di Addetto collaudi di Collaudatore Tecnico di Professionalità  collaudo linea o di laboratorio Collaudatore
+
+D1 D2 C1 C2
+
+autonomia- esegue con progressivo esegue con limitata au- esegue con riconosciuta esegue prove, applica responsabilità  sviluppo controlli e prove tonomia controlli e prove autonomia operativa: procedure e/o metodogerarchico- semplici applicando pro- di normale difficoltà  ap- prove di normale diffi- logie complesse con norfunzionale cedure standard per il plicando procedure e me- coltà  applicando proce- male autonomia anche controllo e la documen- todologie standard per il dure e/o metodologie su anomalie di produzione tazione di caratteristiche controllo e documenta- standard per il controllo e di scelta di strumenti e e parametri predetermi- zione di caratteristiche e delle caratteristiche geo- metodi per il controllo nati attraverso controlli parametri predeterminati metriche, fisiche, chimi- delle caratteristiche geovisivi semplici e strumenti che richiedono minima che, tecnologiche di ma- metriche, fisiche, chimipreimpostati esperienza specifica del teriali, apparecchiature che, tecnologiche di maprodotto e l'utilizzo di o loro parti anche prodotte teriali, apparecchiature apparecchiature predi- a serie; la preparazione o loro parti anche prodotte sposte con interventi sem- delle attrezzature con a serie;
+plici per la loro regola- strumenti preregolati per regola attrezzature di prezione le diverse postazioni / cisione; registra e clasmacchine di collaudo sifica i risultati delle prove dell'area di lavoro; coa- secondo criteri predefiniti diuva lavoratori di cate- e stende il rapporto dei goria superiore nel regi- risultati anche mediante strare i dati e segnalare sistemi informatizzati;in le eventuali discordanze funzione dei contesti aziendali, supporta un gruppo di altri lavoratori dal punto di vista tecnico operativo
+
+competenza esegue le operazioni pre- lettura di semplici schemi, capacità  di diagnosi circa cognizioni tecnico-pratecnico-specifica viste dall'istruzione ope- disegni ed istruzioni tec- risultati, metodi e stru- tiche complete delle tecrativa, individua le ca- niche per l'individuazione menti nelle operazioni nologie di collaudo, comratteristiche e dei para- delle caratteristiche e dei ordinarie di collaudo sulla petenze di interpretazione metri del prodotto, indi- parametri in controllo e base di lettura di semplici di disegni e modelli gravidua la referenza di pro- relative unità  di misura schemi, disegni ed istru- fici, conoscenze di tecdotto e del lotto e tolleranze; principi ed zioni tecniche per l'in- nologia dei materiali, coutilizzo degli strumenti dividuazione delle carat- noscenze del processo di di controllo e misura; teristiche e dei parametri trasformazione del proidentificazione e tratta- in controllo e relative dotto riferito all'area di mento secondo istruzioni unità  di misura e tolle- competenza e delle spedel non conforme ranze; principi ed utilizzo cifiche di qualità  che redegli strumenti di con- golano il processo di coltrollo e misura; identifi- laudo;
+cazione e trattamento se- conoscenze sulle specicondo istruzioni del non fiche di qualità ; eventuali conforme certificazioni richieste dalle norme internazionali, dove applicabili
+
+Tecnico esperto/senior di Specialista Specialista Resp. Tecnologie Resp. Processi e collaudo collaudi e esperto/senior di Prova, Collaudo Tecnologie di trattamenti - collaudi e e Processo - Stabilimento es. termici trattamenti - es. trattamenti es. termici termici C3 B1 B2 B3 A1
+
+esegue e/o sovraintende all'ese- imposta ed esegue at- cura la gestione or- sovraintende con di- nell'ambito di una imcuzione con autonomia di iniziativa tività  prova e collaudo ganizzativa ed eco- screzionalità  ed au- portante unità  produtcontrolli anche di natura complessa specialistici con ampia nomica delle risorse tonomia alle compe- tiva articolata su pià¹ per il collaudo delle caratteristiche autonomia operativa di prova collaudo e la tenze tecnologiche di impianti di processo, geometriche, fisiche, chimiche, in funzione delle spe- messa a punto dei trat- un ambito processi- sovraintende alle ditecnologiche di materiali, appa- cifiche da verificare, tamenti con discre- stico esercitando at- verse funzioni delrecchiature o loro parti anche pro- rappresentando il ri- zionalità  nelle scelte tività  di coordinamen- l'area processi e tecdotte a serie, scegliendo metodo ferimento tecnico nel tecniche in condizioni to, guidando i contri- nologie con ampia aue tecnica di prova, traducendo e proprio ambito anche mutevoli in un ambito buti tecnico-speciali- tonomia sulle risorse applicando procedure e metodo- rispetto ad altre fun- di prevedibile varia- stici e curando la ge- tecniche ed umane aslogie alle effettive condizioni la- zioni e, secondo i con- bilità  e, in funzione stione delle risorse as- sicurando il coordivorative; regola e verifica le re- testi aziendali, coor- dei contesti aziendali, segnate namento con la diregolazioni dell'attrezzatura; valuta dinando gruppi di ad- guidando il personale zione di produzione, i risultati secondo norme, speci- detti di una unità  o di un gli enti di progettafiche, procedure e redige i relativi progetto, curandone zione prodotto e di rapporti, con autonomia nell'in- lo sviluppo di com- gestione economica terpretazione dell'esito delle prove petenza e decisionalità  in merito al prodotto;
+sovraintende con iniziativa tecnico operativa gruppi di altri lavoratori
+
+competenze di tecnologia dei ma- possiede adeguata possiede competenze possiede alta specia- sulla base di signifiteriali e dei processi applicati so- competenza nella tec- tecnologiche e scien- lizzazione tecnologica cative conoscenze stenuta da cultura tecnica generale; nologia dei materiali, tifiche specialistiche distintiva per gli am- scientifiche ed induregolazioni di apparati o attrez- dei trattamenti termici necessarie per l'effi- biti di processo asse- striali, possiede cozature complessi, che presuppon- e dei metodi e degli cienza e la continuità  gnati, sulla base di noscenze complete gono la conoscenza della tecnologia standard di prova e tecnico produttiva del- adeguate conoscenze delle tecnologie di setspecifica del lavoro e del funzio- certificazione; l'area di riferimento; scientifiche, cono- tore ed è in grado di namento degli apparati stessi; cura configurazioni, ottimizzazione dei scenza di prodotto e contribuirne allo svieventuali requisiti formazione ed modifiche e varianti flussi produttivi, del processo e degli stan- luppo tenendo conto esperienza previsti dalle norme su apparati di parti- costo dei cicli e dei dard e delle normative degli impatti econointernazionali, dove applicabili; colare complessità  nel relativi investimenti applicabili; mici, organizzativi e collaudo mediante procedure com- rispetto dei tempi ci- tecnici anche median- capacità  gestionali ed normativi plesse con la scelta e la predi- clo, consumi, standard te l'applicazione degli organizzative relative sposizione degli strumenti di di lavorazione, in fun- strumenti e delle me- ai fattori produttivi ed misura e l'applicazione critica zione degli obiettivi todologie rilevanti al controllo e pilotagdegli standard tecnici;regolazione assegnati di efficienza gio degli indicatori e verifica della regolazione degli produttiva, qualità , tecnico economici dei strumenti mediante appositi cam- affidabilità  processi pioni o procedure; conoscenza delle principali funzionalità  di programmazione, anche in â€œauto apprendimentoâ€, per la gestione della messa a punto/set up di macchina; padronanza del disegno tecnico, elementi di tecnologia dei materiali (es. caratteristiche strutturali, meccaniche, chimiche);
+applicazione di metodologie e tecnologie adeguate alle situazioni;
+conoscenze del completo processo di trasformazione del prodotto riferito all'area di competenza
+
+124 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Addetto servizi di Addetto collaudi di Collaudatore Tecnico di Professionalità  collaudo linea o di laboratorio Collaudatore
+
+D1 D2 C1 C2
+
+competenze comprensione di istru- comprensione ed espres- come per il D2 e con ca- approccio strutturato trasversali zioni scritte e verbali in sione di istruzioni di la- pacità  di affiancamento nell'organizzazione della Italiano; semplici ope- voro e risultati di prova nell'addestramento di postazione di lavoro razioni di conta e riepi- con utilizzo di termino- posto dei colleghi ed in precisione nel trattamenlogo attraverso le quattro logia tecnica elementare funzione dei contesti to di dati e nei metodi operazioni elementari; appropriata anche di ori- aziendali di collegamen- quantitativi inserimento dati in do- gine straniera; applica- to operativo nel team capacità  di applicazione cumenti preformattati e zione di semplici pro- procedurale; essere in supporti digitali preim- cedure aritmetiche e geo- grado di ricavare postati metriche, quote/posizioni medianregistrazione di semplici te l'utilizzo di semplici informazioni tecniche metodi di calcolo o geocon l'utilizzo di docu- metrici;
+mentazione preformat- capacità  di adattamento tata/utilizzo di semplici e regolazione dei proprocedure informatiche cessi di collaudo nell'ambito delle disposizioni aziendali, compilazione di rapporti attraverso strumenti ed applicazioni digitali predeterminati o non predeterminati;
+autonomia di apprendimento e collaborazione nell'addestramento per affiancamento di colleghi;
+comprensione e utilizzo delle terminologie tecniche nella lingua straniera rilevante
+
+polivalenza limitato numero di pro- esegue attività  di prova, Sulle diverse operazioni su gruppi anche eterocedure di controllo su controllo e di prepara- di collaudo omogenee genei di prodotti o macun limitato numero di zione e regolazione delle nell'ambito di una tipo- chine o linee prodotti/postazioni attrezzature su un insie- logia di linea o macchina me omogeneo di prodotti o prodotto o linee o metodologie di collaudo
+
+Tecnico Specialista collaudi e Specialista Responsabile Responsabile esperto/senior di trattamenti - es. esperto/senior Tecnologie di Prova, Processi e Tecnologie collaudo termici collaudi e Collaudo e Processo di Stabilimento trattamenti - es. - es trattamenti termici termici C3 B1 B2 B3 A1
+
+precisione e rigore ope- utilizzo di strumenti e utilizzo con perizia di autonomia di aggiorna- capacità  di reperimento rativo e rispetto delle applicazioni digitali e processi e strumentazioni mento professionale; ed elaborazione, esplipriorità ; sistemi di automazione complesse; capacità  avanzate di uti- citazione, formalizzacompilazione di formu- d'ufficio; applicazione di metodi lizzo software gestionali, zione e trasmissione delle lari e rapporti attraverso utilizzo di metodi di cal- quantitativi complessi statistici, di processo; competenze tecnico opestrumenti ed applicazioni colo anche statistico; attraverso strumenti in- pianificazione, sviluppo rative del proprio amdigitali predeterminati competenze di pianifi- formatici; e gestione di progetti bito;
+o non predeterminati; cazione delle proprie at- pianificazione e gestione complessi con orienta- capacità  avanzate di utigestione di relazioni in- tività  e risoluzione dei autonoma di progetti di mento al risultato in con- lizzo software gestionali, terfunzionali rispetto problemi; sviluppo; testi di cambiamento statistici, di processo;
+alle attività  operative di capacità  di discussione gestione di relazioni in- non predeterminabile; pianificazione, sviluppo competenza; tecnica con clienti e for- terfunzionali, comuni- gestione e sviluppo dei e gestione di progetti propensione all'inter- nitori; cando nella lingua stra- collaboratori assegnando strategici con la definifaccia con altre funzioni adeguata capacità  di niera rilevante obiettivi, priorità  e tem- zione di obiettivi in conaziendali e tecnici esterni espressione nella lingua pistiche; testi di cambiamento;
+di fornitori o clienti; straniera rilevante per gestione della relazione orientamento dei team supervisione e affian- la comunicazione orale con gli enti tecnici col- di lavoro al risultato e camento dei colleghi; e scritta di contenuti tec- legati; al cliente;
+comprensione e utilizzo nici; comunica nella lingua promozione dell'interadella terminologia tec- formazione ed addestra- straniera rilevante zione interfunzionale e nica nella lingua straniera mento dei collaboratori dell'integrazione orgarilevante; e dei colleghi sulle tec- nizzativa;
+ricerca delle cause radice nologie, i processi e le comunica nella lingua della non conformità  attrezzature di compe- straniera rilevante tenza
+
+su gruppi anche etero- su tutte le metodologie, su un'ampia famiglia di su un'ampia famiglia di su un'ampia famiglia di genei di prodotti o mac- i processi e gli strumen- tecnologie tecnologie tecnologie chine o linee ti/attrezzature del proprio ambito
+
+126 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE PRODUZIONE E LOGISTICA
+
+Criteri di Addetto servizi di Addetto collaudi di Collaudatore Tecnico di Professionalità  collaudo linea o di laboratorio Collaudatore
+
+D1 D2 C1 C2
+
+polifunzionalità  limitata conoscenza delle nozioni del ciclo pro- elementi conoscitivi base elementi conoscitivi base attività  del ciclo produt- duttivo ed elementi co- delle discipline comple- delle discipline completivo specifico noscitivi delle tecnologie mentari mentari, del ciclo proimpiegate duttivo e delle tecnologie impiegate
+
+miglioramento partecipazione guidata proposta di semplici mo- proposta di semplici mo- proposta di modifiche e continuo ed e orientamento al mi- difiche ed adattamenti, difiche ed adattamenti, miglioramenti operativi, innovazione glioramento con l'utilizzo delle me- partecipazione attiva a partecipazione attiva a todologie prescritte gruppi di lavoro e di mi- gruppi di lavoro e di miglioramento con l'uti- glioramento curando il lizzo delle metodologie corretto utilizzo delle prescritte metodologie prescritte
+
+Tecnico Specialista collaudi e Specialista Responsabile Responsabile esperto/senior di trattamenti - es. esperto/senior Tecnologie di Prova, Processi e Tecnologie collaudo termici collaudi e Collaudo e Processo di Stabilimento trattamenti - es. - es trattamenti termici termici C3 B1 B2 B3 A1
+
+elementi conoscitivi di capacità  di approccio capacità  di approccio elevata capacità  di ap- elevata capacità  di apbase delle discipline interdisciplinare nell'in- interdisciplinare nell'in- proccio interdisciplinare proccio interdisciplinare complementari, del ciclo terfaccia con altre fun- terfaccia con altre fun- e di interfaccia con altre e di interfaccia con altre produttivo e delle tec- zioni aziendali e fornitori zioni aziendali e fornitori funzioni aziendali e for- funzioni aziendali e fornologie impiegate ed enti esterni ed enti esterni nitori esterni e clienti nitori esterni e clienti
+
+proposta di modifiche e nell'ambito delle pro- nell'ambito delle pro- coordina gruppi di lavoro partecipa alla definizione miglioramenti operativi cedure metodologiche cedure metodologiche interdisciplinari per i dei progetti di investie tecnici; ed organizzative azien- ed organizzative azien- progetti di investimento mento e miglioramento coordinamento operativo dali, guida l'individua- dali e collaborando con e miglioramento rappre- e nella scelta di tecnodi gruppi di lavoro e di zione di aree e soluzioni altri enti, partecipa alla sentando la propria area logie innovative; coormiglioramento curando di miglioramento nel- definizione di soluzioni di competenza; propone dina e supervisiona le il corretto utilizzo delle l'ambito di propria com- innovative e alle azioni soluzioni alternative e attività  di risoluzione metodologie prescritte petenza di miglioramento; innovative di configu- delle problematiche e coordina gruppi di lavoro razioni di processo definisce gli interventi interfunzionali, nello di miglioramento di prostudio di nuove tecno- dotto e di processo prologie e nella gestione duttivo, finalizzati aldei progetti di investi- l'ottimizzazione economento; mico-produttiva studia soluzioni alternative di configurazioni di processo
+
+128 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE RICERCA&SVILUPPO E GESTIONE PROGETTI
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Disegnatore Professionalità  ausiliari ausiliari progettazione progettazione progettazione
+
+D1 D2 C1 C2
+
+autonomia- svolge con progressivo autonomia limitata su puà² svolgere ruoli di sulla base di specifiche, responsabilità  sviluppo compiti di or- compiti di ordine ed au- collegamento/affianca- schemi ed elaborati di gerarchico- dine ausiliari nell'ambito siliari dell'area proget- mento operativo senza progetto sviluppa in norfunzionale del servizio progetta- tazione in interazione responsabilità  gerarchica male autonomia la dizione con il team di tipo â€œteam leader" segnazione rappresentativa/rendering e/o esecutiva di parti o di complessivi, scegliendo metodi e strumenti adeguati collaborando con il team di progettazione
+
+competenza sulla base di semplici sulla base di istruzioni come per il D2 con ri- possiede una completa tecnico-specifica istruzioni operative che operative, utilizzando conosciuta autonomia conoscenza dei principi comportano alfabetiz- con limitata autonomia e dei metodi di rapprezazione aritmetica e lin- di regolazione e manu- sentazione grafica e degli guistica, minime abilità  tenzione dispositivi e si- applicativi e strumenmanuali e utilizzo di di- stemi anche digitali tazioni digitali di disespositivi e sistemi anche preimpostati, applicando gnazione, utilizzando i digitali preimpostati, competenze aritmetiche, formati di importazione svolge attività  di stampa geometriche e linguisti- ed esportazione secondo su diversi supporti anche che elementari, svolge le esigenze del cliente tridimensionali, ripro- attività  di stampa su di- /team ed interpretando duzione, etichettatura, versi supporti anche tri- i dati per la disegnazione imballaggio, cataloga- dimensionali, riprodu- di elaborati complessi zione ed archiviazione zione, etichettatura, im- sulla base di competenze di elaborati grafici, do- ballaggio, catalogazione complete, in uno specicumenti tecnici, prototipi ed archiviazione di ela- fico ambito, del prodotto, e componenti borati grafici, documenti dei materiali, dei sottotecnici, prototipi e com- componenti e delle laponenti vorazioni relative e con la capacità  di applicare i normali metodi quantitativi necessari per la produzione degli elaborati grafici e digitali e la documentazione tecnica accessoria
+
+Progettista Responsabile Progettista senior / Componente Responsabile Studi disegnazione / esperto Gruppo di Progetto / e Progetti Design leader Project Team Member Prodotto C3 B1 B2 B3 A1
+
+elabora progetti com- gestisce con ampia au- svolge, con discrezio- presidia in base alle evo- gestisce e sviluppa le riplessi con autonomia di tonomia operativa le at- nalità  di decisione nel- luzioni tecnologiche, sorse umane, tecniche diagnosi ed adattamento tività  dei team di dise- l'ambito degli standard normative e di mercato ed economiche del serdei metodi e delle solu- gnazione in uno specifico e delle strategie di pro- le competenze di pro- vizio di progettazione zioni nell'ambito delle ambito metodologico o dotto aziendali, le ne- dotto nell'ambito di team prodotto in funzione deprevisioni aziendali a di tecnologia di prodotto, cessarie attività  di studio interfunzionali di pro- gli obiettivi generali fronte di anomalie, va- con responsabilità  sulla e definizione dettagliata getto, gestendo i contri- dell'impresa e della sua riabilità  di prodotto pro- qualità  e le tempistiche di specifiche funzionali buti operativi di dise- organizzazione ed in dicesso ed attività  non ri- dei processi di disegna- e costruttive di prodotti gnazione e progettazione retto riporto all'alta dicorrenti in funzione zione anche complessi ed in- in coordinamento con rezione, assicurando la dell'organizzazione gui- novativi in funzione dei le funzioni di tecnologia disponibilità  di tutti i dando gruppi articolati requisiti cliente, norma- processo, acquisti, qua- dati ed i documenti tecdi collaboratori tivi e di applicazione e lità , di controllo econo- nici necessari alla messa tenendo conto delle com- mico in produzione del porpatibilità  economiche e tafoglio di prodotti cordi produzione renti e la concezione e sviluppo delle famiglie di prodotto successive;
+rappresenta l'azienda in comitati tecnici e nella negoziazione di ambito tecnico pre e post vendita con il cliente
+
+possiede complete ed sulla base di riconosciuta possiede competenze sulla base di elevata spe- possiede competenze articolate conoscenze esperienza nei metodi e specialistiche di prodotto cializzazione tecnica e generali delle tecnologie dei principi e dei metodi nelle tecnologie di di- ed applicazione per conoscenza del mercato di prodotto e delle medi rappresentazione gra- segnazione ed articolata quanto concerne gli stan- e delle soluzioni dei con- todologie di progetto, fica e degli applicativi formazione circa le tec- dard e le normative tec- correnti ed in possesso delle applicazioni cliente e strumentazioni digitali nologie di prodotto e/o niche, i materiali, i sot- degli eventuali requisiti e dei processi produttivi, di disegnazione e cal- processo del proprio am- tocomponenti, le lavo- specifici di formazione; con ampia consapevocolo, utilizzando i for- bito, indirizza le inter- razioni; è il riferimento di com- lezza dei trend tecnolomati di importazione ed pretazioni di specifiche circa i principi, i metodi petenza per le tecnologie gici, degli sviluppi conesportazione secondo le e le introduzioni di mo- e gli applicativi e stru- di prodotto in contatto correnziali e delle comesigenze del cliente/team difiche e varianti di pro- mentazioni di concezio- con gli specialisti del- patibilità  economiche;
+e interpretando i dati per dotto e metodologia pro- ne funzionale, disegna- l'ente ricerca e sviluppo valuta e promuove l'evola disegnazione di ela- gettuale in funzione delle zione e dimensionamen- ed il team interfunzio- luzione di standard tecborati complessi sulla esigenze cliente e del to di componenti e si- nale nici e normativi e presidia base di competenze ar- miglioramento tecnico- stemi, con capacità  di con gli opportuni mezzi ticolate e complete, in economico del proget- scelta ed applicazione la proprietà  intellettuale uno specifico ambito, to di metodologie com- dell'azienda del prodotto, dei mate- plesse di calcolo, di proriali, dei sottocompo- getto e verifica, e dei nenti e delle lavorazioni metodi di test e di prorelative e con la capacità  va di applicare i metodi quantitativi necessari per il dimensionamento di componenti, parti e sottosistemi, e in base alle definizioni organizzative, la scelta di materiali, tecnologie e metodi di produzione
+
+130 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE RICERCA&SVILUPPO E GESTIONE PROGETTI
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Disegnatore Professionalità  ausiliari ausiliari progettazione progettazione progettazione
+
+D1 D2 C1 C2
+
+competenze compilazione di semplici limitata autonomia nella come per D2 con capa- autonomia nel reperitrasversali tabelle e riepiloghi in ricerca di semplici dati cità  di addestramento mento ed elaborazione formato preimpostato, ed informazioni sui si- per affiancamento dei delle specifiche tecniche semplici resoconti di at- stemi aziendali di pro- colleghi di prodotto e di rappretività  e riunione ceduralizzazione e di sentazione, competenza trattamento dati; non specialistica circa compilazione di semplici applicazioni, reti e pedocumenti di prodotto riferiche dipartimentali, e processo in formato autonomia nell'utilizzo cartaceo o digitale pre- dei programmi di autodisposto, utilizzo ele- mazione d'ufficio per la mentare di processori di redazione di tabelle di testo e fogli di calcolo calcolo, documenti tecpreimpostati; nici e presentazioni;
+trattamento di semplici capacità  di elaborazione elaborati tecnici ricor- di testi tecnici e di prerenti nella lingua stra- sentazioni specifiche, niera rilevante anche con l'utilizzo elementare della lingua straniera rilevante
+
+polivalenza alcune attività  nell'area su un limitato numero sull'insieme di un gruppo su tutti i metodi e strudi assegnazione di attività  operative del- omogeneo di attività  del menti di disegnazione l'area progettazione servizio tecnico o di un della propria area progetto
+
+Progettista Responsabile Progettista senior / Componente Responsabile Studi disegnazione / esperto Gruppo di Progetto / e Progetti Design leader Project Team Member Prodotto C3 B1 B2 B3 A1
+
+autonomia nel reperi- perizia nell'utilizzo dei conoscenza dei metodi con elevate competenze sulla base di solida commento ed elaborazione programmi di automa- di gestione e valutazione nelle metodologie di ge- petenza tecnica e d'imdelle specifiche tecniche zione d'ufficio e nella economica di progetto; stione progetto e la ca- presa gestisce processi di prodotto e di rappre- conduzione operativa di avanzata autonomia nel pacità  di negoziazione e progetti complessi e sentazione, competenza sistemi dipartimentali; reperimento ed interpre- delle priorità  tecniche di rilievo strategico in circa applicazioni, reti competenze di pianifi- tazione delle norme e rispetto alle compatibilità  contesti di cambiamento e periferiche dipartimen- cazione delle proprie at- degli standard tecnici, economico-produttive, non determinabile a priotali, autonomia nell'uti- tività  e problem solving; dei documenti di speci- partecipa alla conduzio- ri attraverso l'organizlizzo dei programmi di capacità  di analisi e di fica e progetto, elevate ne di processi articolati zazione del reperimento automazione di ufficio sintesi con capacità  di competenze di utilizzo in contesti evolutivi non e dell'analisi dei dati riper l'impostazione ed discussione tecnica con applicativo dei sistemi prevedibili e sviluppo levanti, gestione di arutilizzo di tabelle di cal- clienti e fornitori; informatici complessi; di soluzioni innovative ticolati sistemi tecnolocolo, la redazione di do- adeguata capacità  di capacità  di impostazione per tecnologie, applica- gici ed informativi anche cumenti tecnici e di pre- espressione nella lingua e realizzazione di docu- zioni normative e di stan- nelle fasi di scelta ed sentazione; straniera rilevante per mentazione tecnica e dard, metodologie di svi- implementazione degli capacità  di elaborazione la comunicazione orale presentazioni complesse luppo; stessi, selezione, formadi testi tecnici e di pre- e scritta di contenuti tec- utilizzando con perizia guida lo sviluppo di com- zione e motivazione dei sentazioni specifiche ad nici; le pià¹ adeguate meto- petenza e motivazione collaboratori e dei conenti interni, clienti e for- formazione ed addestra- dologie digitali; dei collaboratori; elevata tributori;
+nitori, anche con l'uti- mento dei collaboratori sviluppano attivamente capacità  nella redazione presentazione e negolizzo adeguato della lin- e dei colleghi sulle tec- il proprio percorso di di testi e presentazioni ziazione con autorevogua straniera rilevante nologie ed i processi di aggiornamento continuo complesse di natura tec- lezza anche nella lingua competenza e contribuiscono alla nica utilizzando stru- straniera rilevante artiformazione dei colleghi mentazioni di automa- colando scenari alternanel proprio ambito di zione d'ufficio ed ap- tivi in funzione degli specializzazione; plicazioni specialistiche; obiettivi e della loro riinterazione con altri spe- ampia autonomia di in- definizione/ottimizzacialisti ed enti, clienti e terazione con altri spe- zione fornitori, comunicando cialisti ed enti, clienti e nella lingua straniera ri- fornitori, comunicando levante nella lingua straniera rilevante
+
+in funzione del contesto in funzione del contesto in funzione del contesto autonomo su tutte le su tutti i processi di proorganizzativo sulle at- organizzativo sulle at- organizzativo sulle at- competenze di prodotto gettazione dell'azienda/ tività  di disegnazione e tività  ed i processi di di- tività  ed i processi di di- per il progetto ed i pro- divisioni e delle divisioni progettazione prodotti segnazione per il peri- segnazione per il peri- getti assimilabili assimilabili di un determinato ambito metro di competenza metro di competenza tecnologico
+
+132 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE RICERCA&SVILUPPO E GESTIONE PROGETTI
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Disegnatore Professionalità  ausiliari ausiliari progettazione progettazione progettazione
+
+D1 D2 C1 C2
+
+polifunzionalità  minima conoscenza cir- nozioni relative alle ti- elementi conoscitivi di consapevolezza dei dica le tipologie di pro- pologie di prodotto e base dei prodotti, delle versi processi di prodotto e l'organizzazione dell'organizzazione dei fasi e dei ruoli nel pro- gettazione, di assicuradel servizio servizi tecnici cesso di disegnazione e zione qualità  di progetto progetto, delle funzioni e consapevolezza dei aziendali con cui si in- principali processi proterfaccia l'ente tecnico duttivi di interesse con per il proprio perime- capacità  di interfaccia tro con altre funzioni aziendali di interesse
+
+miglioramento è guidato nell'affrontare proposta di semplici mi- proposta di semplici mo- partecipazione alle atcontinuo ed anomalie, casi specifici, glioramenti della propria difiche ed adattamenti, tività  di miglioramento innovazione innovazioni e miglio- attività  partecipando in partecipazione attiva a anche proponendo e veramenti funzione del contesto gruppi di lavoro e mi- rificando la corretta apaziendale a gruppi di la- glioramento con l'uti- plicazione delle metovoro e miglioramento lizzo delle metodologie dologie con l'utilizzo delle me- prescritte, ove previsto todologie prescritte
+
+Progettista Responsabile Progettista senior / Componente Responsabile Studi disegnazione / esperto Gruppo di Progetto / e Progetti Design leader Project Team Member Prodotto C3 B1 B2 B3 A1
+
+consapevolezza dei pro- contribuisce con le com- interfaccia con altre fun- articolata conoscenza e comprensione degli cessi di progettazione, petenze specifiche alle zioni aziendali e partner comprensione delle fun- obiettivi delle diverse qualità , produzione, ac- relazioni interfunzionali esterni; zioni produttive, acqui- funzioni aziendali, caquisti e gestione progetto e nei rapporti con clienti competenze di processi sti, qualità  e delle aree pacità  di interpretazione con capacità  di intera- e fornitori e metodi di produzione specialistiche di proget- di documenti di conto zione con le altre fun- ed elementi di compe- tazione con interazione economico ed investizioni aziendali, specia- tenza tecnico- commer- diretta con clienti e for- mento, contribuendo, listi esterni e con clienti ciale nitori, enti terzi inoltre, alle scelte gee fornitori nerali d'azienda in termini di posizionamento di mercato con gli enti di marketing e vendita
+
+nell'ambito delle pre- guidano il personale del- partecipano con apporto guida con apporto di nell'ambito degli obietvisioni aziendali deci- la propria area in fun- di competenza specia- competenza specialistica tivi generali aziendali e dono modifiche ed adat- zione degli obiettivi listica alle attività  di mi- le attività  di migliora- contribuendo al disegno tamenti tecnici, sceglien- nell'ambito di iniziative glioramento e problem mento e problem solving delle strategie di svido le metodologie e cu- o sistemi di migliora- solving interfunzionali, interfunzionali, promuo- luppo competitivo, asrandone la corretta im- mento aziendale guidando specifici pro- vendo e guidando pro- sicura il problem solplementazione nell'am- getti di miglioramento getti di innovazione e ving, le innovazioni nel bito dei gruppi di mi- e promuovono e guidano scelte di investimento perimetro di responsaglioramento aziendale progetti di innovazione relativi alle competenze bilità  e promuove l'ecrelativi alla propria pe- di prodotto cellenza tecnologica atrimetro traverso risorse, organizzazione, comunicazione e formazione
+
+134 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE SERVIZI COMMERCIALI
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Addetto Customer Professionalità  ausiliari Marketing ausiliari commerciali commerciali Care / Servizio Clienti ricevimento ordini D1 D2 C1 C2
+
+autonomia- Svolge con progressivo autonomia limitata su puà² svolgere ruoli di svolge con normale auresponsabilità  sviluppo compiti di or- compiti di ordine ed collegamento/ affian- tonomia, in base alle gerarchico- dine ausiliari nell'am- ausiliari dell'area com- camento operativo sen- istruzioni e procedure funzionale bito del servizio com- merciale in interazione za responsabilità  gerar- aziendali, i processi di merciale con il team chica di tipo â€œteam lea- presa ordini manuali o derâ€ automatizzati in interfaccia con i clienti, verificando la coerenza dei dati di prodotto, tempistiche, prezziario e scontistica, volumi e destinazioni e la corretta imputazione nei sistemi aziendali, in funzione delle definizioni aziendali guidando un team di addetti per il perimetro di assegnazione
+
+competenza svolge semplici attività  compiti ordinari e ri- come per il D2 con ri- possiede conoscenze tecnico-specifica anche manuali di ge- correnti di smistamen- conosciuta autonomia orientative dei prodotti, stione materiali infor- to, archivio, digitaliz- dei servizi e delle conmativi, campioni, ma- zazione di documenti dizioni commerciali e teriali ed attrezzature e dati commerciali, logistiche dell'offerta promozionali; redige e spunte e riconciliazione aziendale ed un'adericoncilia liste e riepi- semplice di liste ed guata conoscenza delle loghi su formati preim- elenchi attingendo da procedure, dei docupostati digitali; in fun- diverse origini o rile- menti e dei sistemi inzione dei contesti con- vando direttamente sul formatizzati di presa, duce mezzi di trasporto campo anche tramite inserimento e validagenerici semplici interviste zione ordini per l'anastrutturate, supporti di- lisi e valutazione dei gitali preimpostati o at- documenti contabili, traverso l'utilizzo ele- per la corretta imputamentare di programmi zione e la gestione dei di trattamento testi e casi fuori standard e tabelle delle anomalie, per la corretta messa in produzione dei cambiamenti di portafoglio, condizioni commerciali e delle innovazioni di processo per il proprio perimetro
+
+Specialista Customer Specialista pre/post Responsabile Clienti Key Account Responsabile Service /Servizio vendita Manager / Gestore Vendite Clienti Grandi Clienti
+
+C3 B1 B2 B3 A1
+
+assiste i clienti, con au- con ampia autonomia assicura, con discrezio- presidia, in base alle garantisce la conoscenza tonomia di iniziativa e effettua, sulla base del nalità  nell'ambito delle strategie aziendali ed in e l'interpretazione delle guidando un gruppo ar- contributi degli enti procedure aziendali e funzione delle evolu- tendenze di mercato e ticolato di addetti Ser- aziendali specialistici, delle strategie commer- zioni tecnologiche e di dei clienti, proponendo vizio Cliente, per la sod- l'assistenza tecnica ai ciali, gli obiettivi di fat- mercato, la relazione le strategie commerciali disfazione dei fabbisogni clienti nella fase di pre- turato, mix prodotti e con uno o pià¹ clienti e contribuendo alla dein base agli accordi com- sentazione prodotti e redditività  attraverso la strategici realizzando finizione degli obiettivi merciali generali e nel- servizi, di applicazione relazione con i clienti gli obiettivi di vendita e dei piani strategici, l'ambito delle previsioni agli specifici fabbisogni assegnati per la presen- per volumi, margini e assicurando gli obiettivi e dei processi aziendali, cliente, nell'interpreta- tazione dei prodotti/ser- soddisfazione cliente specifici commerciali definendo priorità  e di- zione e nella redazione vizi, la negoziazione nel breve e medio pe- in contesti articolati e sponendo le opportune di capitolati di fornitura delle condizioni com- riodo, contribuendo pre- di incertezza attraverso iniziative di adattamento e nella formulazione di merciali nell'ambito de- visioni ed informazioni la gestione delle risorse nella presa ordini, nei valutazioni economiche, gli accordi quadro, di tendenza economiche, lo sviluppo piani di consegna, nelle nella raccolta, analisi e l'identificazione dei bi- dell'organizzazione applicazioni delle con- soluzione delle proble- sogni e le opportunità  commerciale interna e dizioni commerciali e matiche applicative e cliente e contribuendo delle relazioni di merdi garanzia e nella ge- dei reclami cliente all'intelligenza di mer- cato, la gestione diretta, stione del flusso di in- cato anche con deleghe di formazioni di prodotto rappresentanza nei coned applicazione con il fronti dei clienti, di imsupporto degli enti azien- portanti trattative dali competenti
+
+possiede conoscenze possiede elevate com- possiede elevate cono- sulla base di elevata co- sulla base di elevate cocomplete di prodotto/ petenze teoriche e pra- scenze dei prodotti e noscenze generali e noscenze generali e servizi e delle condizioni tiche circa le tecnologie delle tecnologie offerte d'impresa ed alta spe- d'impresa e profonda commerciali e logistiche e le applicazioni di pro- e delle applicazioni cializzazione nelle me- conoscenza dei prodotti dell'offerta aziendale dotto e di sistema e le cliente e dell'offerta todologie commerciali, e delle tecnologie del ed una articolata cono- strumentazioni diagno- concorrente, competen- contribuisce le compe- mercato, presidia e sviscenza delle procedure, stiche, di regolazione ze specialistiche dei pro- tenze distintive di pro- luppa l'insieme delle dei documenti e dei si- che permettono auto- cessi commerciali del dotto/tecnologia/nor- competenze e dei prostemi informatizzati di nomia, secondo le de- mercato specifico, del- mativa/mercato per cessi di relazione cliente presa, inserimento e va- finizioni aziendali, di l'azienda e del cliente l'area di assegnazione e gestione commerciale lidazione ordini, dei flus- diagnosi, analisi delle in tutte le implicazioni si logistici e dei servizi cause e nella formula- organizzative, normadi garanzia ed assistenza zione di contromisure tive, legali amministrapostvendita per la ge- tecnico organizzative tive ed economiche stione dei casi fuori standard e reclami, per la corretta messa in produzione dei cambiamenti di portafoglio, condizioni commerciali e delle innovazioni di processo per il proprio perimetro
+
+136 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE SERVIZI COMMERCIALI
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Addetto Customer Professionalità  ausiliari Marketing ausiliari commerciali commerciali Care / Servizio Clienti ricevimento ordini D1 D2 C1 C2
+
+competenze consapevolezza elemen- minime conoscenze come per D2 con capa- autonomia nel reperitrasversali tare dei prodotti servizi orientative circa le ti- cità  di formazione per mento ed elaborazione oggetto di attività  e della pologie di prodotto e affiancamento dei col- di informazioni e contipologia cliente; ese- cliente; utilizzo di stru- leghi dizioni commerciali dai cuzione di semplici istru- menti statistici non quan- sistemi aziendali ed on zioni di lavoro sequen- titativi, limitata auto- line, applicazioni di semziali, utilizzo dei comuni nomia nella ricerca di plici metodi numerici apparati di comunica- semplici dati ed infor- ed l'elaborazione di riezione telefonica e digi- mazioni sui sistemi piloghi riconciliazioni tale o strumenti preim- aziendali di procedura- attraverso supporti dipostati, abilità  sociali lizzazione e di tratta- gitali non predeterminati di base in lingua italia- mento dati amministra- quali ad esempio fogli na tivi e nella ricerca libera di lavoro, on line con redazione, interagendo con gli speformattazione, riprodu- cialisti di altri settori zione, archiviazione e aziendali e direttamente diffusione anche digitale interagendo ove necesdegli elaborati, utilizzo sario con i clienti anche elementare di processori con utilizzo elementare di testo e fogli di calcolo di una lingua straniera preimpostati; trattamento di semplici documenti ricorrenti nella lingua straniera rilevante
+
+polivalenza alcune attività  nell'area su un limitato numero sull'insieme di un grup- in funzione del contesto di assegnazione di attività  operative po omogeneo di attività  organizzativo su tutti i dell'area commerciale operative commerciali processi di raccolta ordini per il perimetro di competenza
+
+Specialista Customer Specialista pre/post Responsabile Clienti Key Account Responsabile Service /Servizio vendita Manager / Gestore Vendite Clienti Grandi Clienti
+
+C3 B1 B2 B3 A1
+
+ampia autonomia nel re- completa autonomia nel avanzata autonomia nel gestione di processi e gestione di processi e perimento ed elabora- reperimento, interpre- reperimento ed inter- progetti in contesti evo- progetti complessi e di zione di informazioni e tazione e redazione di pretazione di informa- lutivi non prevedibili e rilievo strategico in concondizioni commerciali specifiche ed istruzioni zioni complesse di na- sviluppo di soluzioni testi di cambiamento dai sistemi aziendali ed tecniche; tura tecnica, commer- innovative per la sod- non determinabile a prioon line, nell'applicazio- utilizzo avanzato di si- ciale e di mercato in si- disfazione dei bisogni ri attraverso l'organizne di metodi quantitativi stemi informatizzati spe- tuazioni di incertezza cliente; zazione del reperimento e statistici, nell'elabo- cialistici e quelli di au- ed evoluzione, artico- guida lo sviluppo di e dell'analisi dei dati rirazione di relazioni e tomazione di ufficio; landole in presentazioni competenza e motiva- levanti, la gestione di presentazioni attraverso applicazione di metodi efficaci in funzione dei zione dei collaboratori organizzazioni articolate supporti digitali non pre- quantitativi e grafici di diversi pubblici; e contribuiscono le com- anche geograficamente, determinati quali ad elevata complessità  per capacità  di comunica- petenze di mercato/ la selezione formazione esempio fogli di lavoro, l'analisi e la ricerca cau- zione scritta e verbale cliente necessarie alle e motivazione dei colinteragendo con gli spe- se; anche in ambiti tecnici, decisioni delle altre fun- laboratori e dei contricialisti di altri settori capacità  di aggiorna- normativi e legali ed in zioni e della direzione; butori;
+aziendali e direttamente mento continuo sulla contesti negoziali; presentazione e negointeragendo con i clienti base di strumenti ed ini- utilizzo con perizia di elevata capacità  di ana- ziazione con autorevoanche con adeguato uti- ziative formative guidate metodi quantitativi e lisi e formalizzazione lezza anche nella lingua lizzo della lingua stra- dall'azienda contribuen- strumenti di automazio- di informazioni com- straniera rilevante anche niera rilevante do alla formazione dei ne d'ufficio; plesse con autonomia in condizioni di conflitto propri collaboratori; autonomia nell'aggior- nella redazione di testi e pressione articolando ampia autonomia di in- namento continuo e nella e presentazioni com- scenari alternativi in terazione con altri spe- formazione di collabo- plesse di natura tecnica funzione degli obiettivi cialisti ed enti e nella ratori e clienti; ed organizzativa utiliz- e della loro ridefiniziodefinizione delle priorità  ampia autonomia di in- zando strumentazioni ne/ottimizzazione operative in funzione terazione con altri spe- di automazione d'ufficio degli scadenziari, delle cialisti ed enti comuni- ed applicazioni speciaesigenze di clienti ed cando nella lingua stra- listiche;
+enti interni, effettuando niera rilevante ampia autonomia di inpresentazioni strutturate terazione negoziale con dei problemi e delle so- il cliente e gli altri enti luzioni esprimendosi aziendali, comunicando adeguatamente nella lin- nella lingua straniera rigua straniera rilevante levante
+
+in funzione del contesto in funzione del contesto in funzione del contesto autonomo su tutti i pro- su tutti i processi di reorganizzativo su tutti i organizzativo su tutti i organizzativo su tutti i cessi di gestione clien- lazione cliente delprocessi di relazione processi tecnico com- processi di relazione te l'azienda/mercato di ascliente per il perimetro merciali e di applica- cliente per il perimetro segnazione di competenza zione per il perimetro di competenza ed i pedi competenza rimetri assimilabili
+
+138 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE SERVIZI COMMERCIALI
+
+Criteri di Addetto servizi Addetto servizi Addetto servizi Addetto Customer Professionalità  ausiliari Marketing ausiliari commerciali commerciali Care / Servizio Clienti ricevimento ordini D1 D2 C1 C2
+
+polifunzionalità  consapevolezza elemen- minima consapevolezza elementi conoscitivi di consapevolezza di tutti tare circa i servizi azien- circa i servizi aziendali base circa i servizi azien- i processi di pianificadali con cui si interfaccia con cui si interfacciano dali con cui si interfac- zione produzione, logil'ente commerciale l'ente commerciale ed ciano l'ente commer- stica, magazzino ed ami clienti ciale ed i clienti ministrativi rilevanti con capacità  di interfaccia con altre funzioni aziendali
+
+miglioramento è guidato nell'affrontare proposta di semplici mi- proposta di semplici mo- proposta di soluzioni continuo ed anomalie, casi specifici, glioramenti della propria difiche ed adattamenti, per le non conformità innovazione innovazioni e miglio- attività  partecipando in partecipazione attiva a commerciali e nell'imramenti funzione del contesto gruppi di lavoro e mi- plementazioni di nuove aziendale a gruppi di la- glioramento con auto- condizioni e procedure voro e miglioramento nomia nell'utilizzo delle con il coordinamento con l'utilizzo delle me- metodologie prescritte, operativo in funzione todologie prescritte ove previsti del contesto di gruppi di lavoro e miglioramento in applicazione delle metodologie aziendali
+
+Specialista Customer Specialista pre/post Responsabile Clienti Key Account Responsabile Service /Servizio vendita Manager / Gestore Vendite Clienti Grandi Clienti
+
+C3 B1 B2 B3 A1
+
+competenza interdisci- competenza di interfac- competenza di interfac- articolate competenze comprensione degli plinare tecnico-com- cia con altre funzioni cia con altre funzioni di gestione progetto/can- obiettivi e delle modalità merciale, logistica, am- aziendali e con le fun- aziendali e partner ester- tiere, definizione pro- operative delle diverse ministrativa e capacità  zioni di clienti e forni- ni dotto, analisi economico funzioni aziendali e pardi interfaccia con altre tori finanziaria con capacità  tner esterni, capacità  di funzioni aziendali/del di sintesi interdiscipli- formulazione ed analisi cliente nare di business case
+
+nell'ambito delle pre- guidano in funzione di nell'ambito delle pre- nell'ambito delle pre- governo delle strategie visioni aziendali deci- significativi obiettivi visioni aziendali vali- visioni aziendali orga- di ottimizzazione delle dono adattamenti ope- iniziative o sistemi di dano le azioni di mi- nizzano e governano le attività  commerciali conrativi e guidano le attività  miglioramento azien- glioramento continuo azioni di miglioramento tribuendo alle strategie di miglioramento con- dale per la propria area di at- ed innovazione tecnica aziendali complessive, tinuo per la propria area tività  ed i clienti asse- ed organizzativa per la promuovendo e gestenscegliendo le metodo- gnati, in collaborazione propria area e la rappre- do processi di cambialogie opportune con i rispettivi respon- sentano nell'ambito di mento strutturale sabili, delle funzioni in- iniziative interfunzioterne e cliente interes- nali sate;
+promuovono e guidano progetti di innovazione relativi al proprio perimetro e lo rappresentano nell'ambito di iniziative interfunzionali
+
+140 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE SERVIZI INFORMATICI
+
+Criteri di Addetto servizi Addetto servizi Addetto assistenza Tecnico di Assisten Professionalità  ausiliari sistemi ausiliari sistemi automazione za automazione informativi informativi d'ufficio d'ufficio
+
+D1 D2 C1 C2
+
+autonomia- svolge con progressivo autonomia limitata su come il D2 puà² svolgere seguendo procedure responsabilità  sviluppo compiti di or- compiti di ordine ed au- ruoli di collegamento/af- standard, svolge con gerarchico- dine ausiliari in ambito siliari in ambito sistemi fiancamento operativo normale autonomia di funzionale sistemi informativi informativi senza responsabilità  ge- adattamento, interventi rarchica di tipo â€œteam tecnici ricorrenti di inleaderâ€ stallazione, aggiornamento, assistenza hardware e software su esigenze specifiche, anomalie e di addestramento di base utenti per la funzionalità  dei sistemi di automazione di ufficio
+
+competenza sulla base di semplici sulla base di istruzioni come per il D2 con ri- possiede competenze tecnico-specifica istruzioni operative che operative, con limitata conosciuta autonomia tecnico-pratiche adecomportano alfabetiz- autonomia di regolazio- guate circa dispositivi zazione aritmetica e lin- ne e manutenzione, svol- individuali e di rete, peguistica, minime abilità  ge attività  di magazzino, riferiche e connessioni, manuali e l'utilizzo di movimentazione, disim- gli applicativi di autodispositivi e sistemi an- ballo, montaggi e pre- mazione di ufficio ed i che digitali preimpostati, disposizioni di connes- sistemi di gestione degli svolge attività  di stampa sioni e cavi che richie- accessi e di sicurezza su diversi supporti anche dono abilità  manuali ge- informatica tridimensionali, ripro- neriche, semplici sostiduzione, etichettatura, tuzioni /ricariche di maimballaggio, cataloga- teriali di consumo e di zione ed archiviazione usura di elaborati grafici, documenti tecnici, prototipi e componenti
+
+Tecnico assistenza Responsabile Speciali Responsabile servizi Responsabile sistemi informatici assistenza sta sistema informati informatici tecnologie e sistemi per la progettazione automazione vo integrato Informatici d'ufficio C3 B1 B2 B3 A1
+
+cura la funzionalità  di coordina con ampia au- presidia la funzionalità , in organizzazioni di pic- presidia la disponibilità , sistemi informatici com- tonomia operativa, con- la messa a punto e l'adat- cole e medie dimensioni la funzionalità  e la geplessi di disegnazione, tribuendo direttamente tamento alle esigenze assicura la disponibilità  stione economica di tutti calcolo e testing svol- con perizia interventi aziendali del sistema in- e la funzionalità  dei si- i sistemi informatici gendo con autonomia tecnici e, in funzione tegrato di gestione in- stemi e delle attrezzature aziendali per l'automadi iniziativa tecnica e dell'organizzazione, gui- formatizzata trasversal- informatiche a supporto zione d'ufficio, i servizi definizione delle priorità  dando il team di addetti mente ai diversi enti, delle attività  ammini- amministrativi e di prooperative attività  non e l'eventuale contributo effettuando con discre- strative, produttive e grammazione delle atricorrenti di installazio- dei fornitori esterni, in- zionalità  nell'ambito tecniche dell'organiz- tività  e le applicazioni ne, aggiornamento, as- stallazione, aggiorna- delle direttive generali zazione direttamente tecnico specialistiche sistenza su esigenze spe- mento, assistenza su esi- e degli standard azienda- eseguendo o coordinan- con ampia autonomia cifiche ed anomalie e genze specifiche ed ano- li le operazioni di routine do gruppi articolati di in funzione degli obietformazione utenti inter- malie e formazione uten- e l'implementazione di personale interno e for- tivi generali dell'impresa facciandosi, in funzione ti per la disponibilità  e scelte tecniche e di pro- nitori esterni in attività  e della sua organizzadei contesti aziendali, funzionalità  dei sistemi cesso, sia direttamente di alta specializzazione zione, tenendo conto con i fornitori esterni di automazione di uffi- sia coordinando l'inter- per l'installazione, la dell'evoluzione tecnocio vento di tecnici e spe- manutenzione, l'aggior- logica, normativa e cialisti interni ed ester- namento di infrastrut- dell'evoluzione dei fabni ture, periferiche, appli- bisogni aziendali cazioni e la loro gestione economica
+
+possiede articolate co- possiede elevate com- possiede competenze possiede elevate cono- possiede competenze noscenze di base circa petenze tecnico pratiche specialistiche funzionali scenze tecniche e capa- generali circa le tecnoambienti operativi, prin- circa dispositivi indivi- di customizzazione, ma- cità  operative sulla ge- logie dell'informazione cipi e linguaggi di pro- duali e di rete, periferiche nutenzione ed aggior- neralità  delle tecnologie e delle telecomunicagrammazione dedicati, e connessioni, gli ap- namento ed interfaccia- dell'informatica e delle zioni, infrastrutture ed elaboratori e reti e com- plicativi di automazione mento hardware e soft- telecomunicazioni ap- applicativi di gestione petenze complete nel- di ufficio ed i sistemi di ware dell'applicativo plicate in azienda per aziendale integrata, spel'ambito dei sistemi di gestione degli accessi e integrato, sostenute da gli aspetti funzionali cialistici e di automadisegnazione, calcolo, di sicurezza informatica nozioni relative alla pro- delle applicazioni ge- zione d'ufficio, dei modi lavorazione e produ- per effettuare in auto- grammazione nei lin- stionali e tecniche, di delli e delle strategie di zione, testing assistito nomia la valutazione guaggi dedicati rilevanti, automazione d'ufficio, digitalizzazione delle per i formati dati, i soft- dei fabbisogni tecnici, la gestione dei dbase di per l'hardware di sistema attività  di servizio e proware applicativi e gli la diagnosi, l'analisi e supporto, le infrastrut- e di rete, per la sicurezza duttive, delle normative hardware dedicati con l'intervento anche in ture sistemistiche, i temi informatica e le teleco- di protezione dei dati la capacità  di eseguire condizioni soggette a di security informatica, municazioni, dati, voce personali;
+interventi di elevata dif- cambiamento che permettono auto- e video, supportati da conosce l'organizzazioficoltà  anche non ricor- nomia di diagnosi, ana- conoscenza delle solu- ne dei fornitori di servizi renti con autonomia di lisi ed intervento anche zioni hardware e soft- informatici ed i processi diagnosi e definizione in condizioni soggette ware disponibili sul mer- di produzione, custodelle metodologie nel- a cambiamento cato mizzazione, installaziol'ambito di direttive ge- ne e manutenzione delle nerali applicazioni in azienda
+
+142 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE SERVIZI INFORMATICI
+
+Criteri di Addetto servizi Addetto servizi Addetto assistenza Tecnico di Assisten Professionalità  ausiliari sistemi ausiliari sistemi automazione za automazione informativi informativi d'ufficio d'ufficio
+
+D1 D2 C1 C2
+
+competenze compilazione di sem- limitata autonomia nella come per D2 con capa- autonomia nel reperitrasversali plici tabelle e riepiloghi ricerca di semplici dati cità  di formazione per mento ed elaborazione in formato cartaceo o ed informazioni sui si- affiancamento dei col- di procedure e specifiche digitale preimpostato, stemi aziendali; leghi tecniche di prodotto, ausemplici resoconti di at- compilazione di sem- tonomia nell'utilizzo tività  e riunioni plici documenti e rie- dei programmi di autopiloghi di magazzino, mazione d'ufficio per rapportini di verifica ed la redazione di tabelle esecuzione servizi in di calcolo, documenti formato cartaceo o di- tecnici e presentazioni;
+gitale predisposto, uti- capacità  di elaborazione lizzo elementare di pro- di testi tecnici e di semcessori di testo e fogli plici presentazioni anche di calcolo preimpostati; con l'utilizzo appropriatrattamento di semplici to di terminologia tecdocumenti tecnico-am- nica nella lingua straministrativi ricorrenti niera rilevante nella lingua straniera rilevante;
+partecipazioni a riunioni anche in remoto con la compilazione di verbali in formato predeterminato
+
+polivalenza alcune attività  nell'area su un limitato numero sull'insieme di un grup- su tutte le applicazioni, di assegnazione di attività  operative ed po omogeneo di attrez- i sistemi e le attrezzature attrezzature in ambito zature di automazione di automazione di ufficio servizi informatici d'ufficio della propria area
+
+Tecnico assistenza Responsabile Speciali Responsabile servizi Responsabile sistemi informatici assistenza sta sistema informati informatici tecnologie e sistemi per la progettazione automazione vo integrato Informatici d'ufficio C3 B1 B2 B3 A1
+
+capacità  di pianifica- orientamento al cliente avanzata capacità  nel sulla base di cognizioni sulla base di solida forzione di attività , defi- interno; reperimento ed inter- economico-gestionali, mazione d'impresa genizione delle priorità  pianificazione delle at- pretazione di informa- competenze metodolo- stisce processi e progetti nell'ambito di processi tività  personali e di team; zioni tecniche, nell'ana- giche di gestione pro- complessi e di rilievo e progetti; autonomia risoluzione di problemi lisi e formalizzazione getto; strategico in contesti di nel reperimento ed ela- e capacità  di analisi e di processi e procedure, capacità  di negoziazione cambiamento non deborazione di specifiche formalizzazione di pro- con capacità  di impo- delle priorità  tecniche terminabile a priori attecniche, procedure e cesso con l'elaborazione stazione e realizzazioni rispetto alle compatibi- traverso l'organizzaziostandard; di documenti tecnici e di documentazione tec- lità  economico-organiz- ne del reperimento e utilizzo di programmi divulgativi; nica e presentazioni zative; dell'analisi dei dati riper l'impostazione ed capacità  di discussione complesse utilizzando gestisce processi arti- levanti;
+utilizzo di tabelle di cal- tecnica con clienti e for- con perizia le pià¹ ade- colati in contesti evo- gestione di articolati sicolo, la redazione di do- nitori con adeguata guate metodologie di- lutivi non prevedibili e stemi tecnologici ed incumenti tecnici e di pre- espressione nella lingua gitali; autonomia nel- sviluppo di soluzioni formativi anche nelle sentazione; straniera rilevante; l'aggiornamento conti- innovative per tecnolo- fasi di scelta ed implecapacità  di elaborazione contribuiscono alla for- nuo e nella formazione gie, applicazioni nor- mentazione degli stesdi testi tecnici e di pre- mazione e all'addestra- dei colleghi; mative e di standard; si;
+sentazioni specifiche ad mento dei collaboratori ampia autonomia di in- guidano lo sviluppo di selezione, formazione enti interni, clienti e for- e dei colleghi sulle tec- terazione con altri spe- competenza e motiva- e motivazione dei colnitori, anche con l'uti- nologie e i processi di cialisti, enti interni e zione dei collaboratori laboratori e dei contrilizzo adeguato della lin- competenza fornitori, comunicando e di tutto il personale butori;
+gua straniera rilevante nella lingua straniera ri- aziendale in ambito di presentazione e negolevante competenze informati- ziazione con autorevoche; lezza anche nella lingua elevata capacità  di ana- straniera rilevante artilisi e formalizzazione colando scenari alterdi procedure e nell'ela- nativi in funzione degli borazione di presenta- obiettivi e della loro rizioni complesse di na- definizione/ ottimizzatura tecnico organizza- zione tiva utilizzando strumentazioni di automazione d'ufficio ed applicazioni specialistiche;
+ampia autonomia di interazione con altri specialisti ed enti, clienti e fornitori, comunicando nella lingua straniera rilevante
+
+su tutte le attività  di di- in funzione del contesto in funzione dell'orga- su tutti i sistemi ed i pro- su tutti i sistemi ed i prosegnazione e calcolo as- organizzativo su tutti i nizzazione, su tutti i mo- cessi informatizzati cessi informatizzati sistito e su alcune ap- processi e le attrezzature duli del sistema integrato dell'organizzazione dell'azienda/divisione plicazioni di automa- di automazione d'ufficio e alcuni sistemi ed ap- e delle divisioni assizione di ufficio ed in dell'organizzazione plicativi diversi milabili funzione del contesto di applicazioni per il testing e le applicazioni di lavorazione e produzione assistita
+
+144 Sez. Quarta - Titolo II - Classificazione del personale e particolari tipologie di lavoratori
+
+ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE SERVIZI INFORMATICI
+
+Criteri di Addetto servizi Addetto servizi Addetto assistenza Tecnico di Assisten Professionalità  ausiliari sistemi ausiliari sistemi automazione za automazione informativi informativi d'ufficio d'ufficio
+
+D1 D2 C1 C2
+
+polifunzionalità  minima consapevolezza elementi conoscitivi cir- elementi conoscitivi cir- consapevolezza circa i circa i processi e le at- ca i processi e le attività  ca i processi e le attività  processi e le attività  di tività  delle principali delle diverse funzioni delle diverse funzioni tutte le funzioni azienfunzioni aziendali aziendali aziendali dali
+
+miglioramento è guidato nell'affrontare proposta di semplici mi- proposta di semplici mo- partecipazione attiva continuo ed anomalie, casi specifici, glioramenti della propria difiche ed adattamenti, alle attività  di miglioinnovazione innovazioni e miglio- attività  partecipando in partecipazione attiva a ramento aziendale inramenti funzione del contesto gruppi di lavoro e mi- dividuando e segnalando aziendale a gruppi di la- glioramento con auto- opportunità  di migliovoro e miglioramento nomia nell'utilizzo delle ramento operativo prescon l'utilizzo delle me- metodologie prescritte, so gli utenti e dall'interno todologie prescritte ove previste del servizio
+
+Tecnico assistenza Responsabile Speciali Responsabile servizi Responsabile sistemi informatici assistenza sta sistema informati informatici tecnologie e sistemi per la progettazione automazione vo integrato Informatici d'ufficio C3 B1 B2 B3 A1
+
+consapevolezza su tutti conoscenza e compren- articolata conoscenza e articolata conoscenza e comprensione degli i processi di progetta- sione dei processi e delle comprensione dei pro- comprensione delle fun- obiettivi delle diverse zione, qualità , produ- attività  di tutte le funzioni cessi, degli obiettivi e zioni produttive, acquisti, funzioni aziendali, cazione, con capacità  di aziendali delle attività  di tutte le qualità  e di tutte le aree pacità  di interpretazione interazione con le altre funzioni aziendali inte- specialistiche di proget- di documenti di conto funzioni aziendali, spe- ressate dal sistema in- tazione con interazione economico ed investicialisti esterni e con clien- tegrato; interazione di- diretta con clienti e for- mento, contribuendo ti e fornitori retta con clienti e forni- nitori, enti terzi inoltre alle scelte generali tori, enti terzi d'azienda in termini di organizzazione e innovazione digitali dei servizi
+
+nell'ambito delle previ- guida le iniziative di mi- partecipa con apporto promuove e guida con nell'ambito degli obietsioni aziendali decidono glioramento ed i limitati di competenza specia- apporto di competenza tivi generali aziendali e modifiche ed adattamen- progetti di investimento listica alle attività  di mi- specialistica le attività  contribuendo al disegno ti tecnici, scegliendo le per la propria area con- glioramento e risoluzio- di miglioramento e ri- delle strategie di sviluppo metodologie ed assicu- tribuendo alle iniziative ne problemi interfun- soluzione problemi, i competitivo, assicura la randone la corretta im- e sistemi di migliora- zionali, guidando spe- progetti di innovazione risoluzione di problemi plementazione nell'am- mento aziendale cifici progetti di miglio- e scelte di investimento e le innovazioni nel pebito dei gruppi di mi- ramento e promuovendo dell'area di responsabi- rimetro di responsabilità glioramento aziendale e guidando progetti di lità  e in ambito inter- e promuove la cultura innovazione relativi al funzionale della digitalizzazione ruolo attraverso attività  di formazione
+
+146 Sez. Quarta - Titolo III - Orario di lavoro
+
+Titolo III - Orario di lavoro
+
+Art. 1. - Entrata ed uscita in azienda.
+L'entrata e l'uscita dei lavoratori dall'azienda, è regolata dalle disposizioni aziendali in atto che dovranno definire l'orario di accesso allo stabilimento e quello di inizio del lavoro.
+Resta fermo che all'inizio dell'orario di lavoro il lavoratore dovrà  trovarsi al suo posto per iniziare il lavoro.
+Al ritardatario il conteggio delle ore di lavoro sarà  effettuato a partire da un quarto d'ora o mezz'ora dopo l'inizio dell'orario di lavoro che avrebbe dovuto osservare, a seconda che il ritardo sia compreso nei primi 15 minuti o oltre i 15 e fino ai 30.
+Laddove non sussistano impedimenti di carattere tecnico, organizzativo e produttivo e fatte salve le prassi in atto, potranno essere definiti in sede aziendale sistemi di flessibilità  in entrata ed in uscita dell'orario di lavoro giornaliero.
+
+Art. 2. - Contrazione temporanea dell'orario di lavoro.
+Ferma restando l'utilizzabilità , in rapporto alle differenti esigenze aziendali, degli strumenti di legge vigenti in materia di Cassa integrazione guadagni e mobilità  e di contratti di solidarietà , le parti convengono che a fronte di casi di crisi, ristrutturazione, riorganizzazione o conversione aziendale che determinino esuberi occupazionali sia opportuno un comportamento che tenda a diminuire, per quanto possibile, le conseguenze sociali di un minore impiego della forza lavoro.
+In caso di necessità  di sospensioni dell'attività  lavorativa, potrà  essere utilizzato anche in modo collettivo, previo esame con la Rappresentanza sindacale unitaria che si intenderà  esaurito decorsi 10 giorni dalla data dell'incontro indicata nella convocazione, quanto accantonato in conto ore e le giornate di ferie residue, escluse quelle in corso di maturazione nell'anno corrente.
+
+Art. 3. - Sospensione ed interruzione del lavoro.
+In caso di interruzioni di lavoro di breve durata, dovute a causa di forza maggiore, nel conteggio della retribuzione non si terrà  conto delle interruzioni stesse, quando queste, nella giornata, non superino nel loro complesso i 60 minuti.
+In caso di interruzioni di lavoro che nella giornata superino nel loro complesso i 60 minuti, se l'azienda trattiene il lavoratore nella sede di lavoro questi ha diritto alla corresponsione della retribuzione per tutte le ore di presenza.
+Lo stesso trattamento deve essere usato al lavoratore cottimista quando rimanga inoperoso per ragioni indipendenti dalla sua volontà .
+In caso di sospensione di lavoro che oltrepassi i 15 giorni, salvo eventuale accordo tra le Organizzazioni sindacali territoriali per il prolungamento di tale
+
+termine, il lavoratore potrà  risolvere il rapporto con diritto a tutte le indennità  relative compreso il preavviso, nonchà© al trattamento di fine rapporto.
+
+Art. 4. - Recuperi.
+Fermo restando quanto previsto dal precedente articolo 3 è ammesso il recupero a regime normale delle ore di lavoro perdute a causa di forza maggiore o a seguito di interruzione delle forniture o per le interruzioni di lavoro concordate fra le Organizzazioni sindacali territoriali o tra la Direzione e la Rappresentanza sindacale unitaria o anche, per casi individuali, fra le parti interessate. Le modalità di recupero sono definite in sede aziendale.
+
+Art. 5. - Orario di lavoro.
+La durata massima settimanale del lavoro ordinario rimane confermata in 40 ore. Essa puà² essere computata anche come durata media in un periodo non superiore ai 12 mesi nei casi previsti al comma successivo e secondo quanto previsto nel paragrafo relativo all'orario plurisettimanale, salvi gli accordi aziendali in materia. Ferme restando le disposizioni contrattuali, ai soli fini legali i limiti del lavoro ordinario rimangono fissati nei termini e secondo le modalità  previsti dalle vigenti disposizioni di legge.
+Per gli impianti che richiedono un lavoro ininterrotto di 7 giorni alla settimana, la durata normale dell'orario di lavoro risulterà  da una media plurisettimanale con un massimo di 48 ore settimanali.
+La ripartizione giornaliera dell'orario di lavoro settimanale contrattuale viene stabilita dalla Direzione anche in modo non uniforme, previo esame con la Rappresentanza sindacale unitaria che si intenderà  esaurito decorsi 10 giorni dalla data dell'incontro indicata nella convocazione.
+Nel caso di ripartizione dell'orario settimanale su 6 giorni il lavoro cessa di massima alle ore 13 del sabato, fatta eccezione per quanto disciplinato nel paragrafo Orario plurisettimanale e per il personale addetto alla manutenzione, pulizia, riparazione, riparazione degli impianti, quando tali operazioni non possono compiersi in altri giorni feriali della settimana senza danno per l'esercizio o pericolo per il personale; per il personale addetto alla vigilanza dell'azienda e degli impianti; per il personale addetto ai trasporti terrestri, rimorchiatori o natanti; per il personale che lavora a turni.
+Nei casi di cui sopra sarà  disposto in modo che a questi lavoratori sia saltuariamente consentito di poter usufruire della disponibilità  del pomeriggio del sabato.
+L'orario giornaliero di lavoro sarà  esposto in apposita tabella, da affiggersi in luogo accessibile a tutti i lavoratori.
+Le ore di lavoro sono contate con l'orologio dello stabilimento o reparto.
+I lavoratori non potranno rifiutarsi alla istituzione di pià¹ turni giornalieri. Il
+
+148 Sez. Quarta - Titolo III - Orario di lavoro
+
+lavoratore deve prestare la sua opera nelle ore e nei turni stabiliti anche se questi siano predisposti soltanto per determinati reparti.
+Con decorrenza dal 1Â° luglio 1978 tutti i lavoratori addetti a turni avvicendati beneficiano di mezz'ora retribuita per la refezione nelle ore di presenza in azienda.
+Da tale disciplina sono esclusi i lavoratori a turni avvicendati, i quali già  usufruiscano nell'ambito delle 8 ore di presenza di pause retribuite complessivamente non inferiori a 30 minuti che consentano il consumo dei pasti, ad eccezione di quelle che siano state esplicitamente concesse ad altro titolo. Laddove se ne ravvisi l'esigenza, le parti in sede aziendale potranno concordare diverse modalità di regolazione della mezz'ora retribuita per la refezione.
+Nel caso di pià¹ turni, per prestazioni che richiedono continuità  di presenza, il lavoratore del turno cessante potrà  lasciare il posto di lavoro quando sia stato sostituito. La sostituzione dovrà  avvenire entro un termine massimo di un numero di ore corrispondenti alla metà  del turno. Quando non sia possibile addivenire alla tempestiva sostituzione e le mansioni del lavoratore siano tali che dalla sua assenza possa derivare pregiudizio alla produzione od al lavoro di altri lavoratori, il termine di cui innanzi potrà  essere eccezionalmente prolungato per tutta la durata del turno cosà¬ iniziato. Queste prolungate prestazioni, per le ore che eccedono l'orario giornaliero determinato in applicazione del comma terzo, saranno considerate straordinarie e come tali retribuite.
+Al lavoratore che in via eccezionale abbia prolungato la sua prestazione per le 8 ore del turno successivo, non potrà  essere richiesta nei sei giorni lavorativi successivi alcuna prestazione straordinaria.
+I lavoratori partecipanti ai turni dovranno alternarsi nei diversi turni allo scopo di evitare che una parte abbia a prestare la sua opera esclusivamente in ore notturne.
+Quando l'assegnazione a turni svolgentisi anche in ore notturne costituisca una innovazione, sarà  consentito al lavoratore di richiedere l'accertamento sanitario in ordine alla sua idoneità  a prestare lavoro in ore notturne.
+Orario di lavoro nel settore siderurgico.
+La durata massima dell'orario normale per gli addetti al settore siderurgico, salvo quanto previsto dalle norme di legge e relative deroghe ed eccezioni, rimane confermata in 40 ore settimanali fermo quant'altro stabilito dal presente Contratto.
+I lavoratori turnisti in aggiunta a quanto previsto successivamente a titolo di Permessi annui retribuiti hanno diritto a godere di giornate di riposo retribuito nel corso dell'anno solare a compenso delle festività  individualmente lavorate nello stesso periodo oltre il numero di 7.
+Il lavoratore che in via eccezionale abbia prolungato la sua prestazione lavorativa per le 8 ore del turno successivo, ha la facoltà  di effettuare un riposo compensativo, non retribuito, di pari durata nella giornata seguente.
+Nel caso in cui il lavoratore abbia prolungato la sua prestazione lavorativa di
+
+4 ore, il relativo riposo compensativo non retribuito potrà  essere effettuato entro il mese successivo.
+Orario plurisettimanale.
+L'orario plurisettimanale, la cui media è di 40 ore settimanali di lavoro ordinario in un periodo non superiore a 12 mesi, potrà  essere attivato, per ragioni produttive, dalla Direzione aziendale per un massimo di 80 ore annue, da realizzarsi per l'intera forza, reparti o gruppi di lavoratori, con un massimo di orario settimanale di 48 ore.
+Nel caso in cui nel corso dell'anno vengano disposte dalla Direzione aziendale anche ore di straordinario in regime di â€œquote esentiâ€, il numero massimo di ore utilizzabili per ciascun lavoratore per entrambi gli istituti non potrà  eccedere le 120 ore annue nelle aziende con oltre 200 dipendenti e le 128 ore annue nelle aziende fino a 200 dipendenti.
+Le modalità  di attuazione oltrechà© i tempi di implementazione dell'orario settimanale di cui al presente punto sono stabilite dalla Direzione aziendale previo esame con la Rappresentanza sindacale unitaria che si intenderà  esaurito decorsi 10 giorni dalla data dell'incontro indicata nella convocazione. Nel corso dell'esame congiunto verranno indicati i gruppi dei lavoratori interessati, le ore necessarie e la loro collocazione temporale.
+Le successive modalità  del recupero, per realizzare la media delle 40 ore settimanali al termine dei 12 mesi dall'attivazione dell'orario plurisettimanale, saranno concordate con la RSU Le modalità  di attivazione saranno comunicate ai lavoratori interessati con un preavviso di almeno 15 giorni rispetto all'attivazione dell'orario plurisettimanale.
+Fermo restando il preventivo esame congiunto, nei casi di necessità  improvvise il preavviso ai lavoratori interessati sarà  pari a 5 giorni e la realizzazione dell'orario plurisettimanale si completerà  in un periodo massimo di tre mesi.
+La comunicazione ai lavoratori sarà  fornita mediante affissione in luogo accessibile a tutti gli interessati.
+I lavoratori interessati percepiranno la retribuzione relativa all'orario contrattuale settimanale normale sia nei periodi di superamento che in quelli di minore prestazione.
+Per le ore prestate oltre l'orario contrattuale settimanale normale sarà  riconosciuta ai lavoratori interessati una maggiorazione della retribuzione nella misura onnicomprensiva del 15% per le ore prestate dal lunedà¬ al venerdà¬ e del 25% per le ore prestate al sabato da computare sugli elementi utili al calcolo delle maggiorazioni per lavoro straordinario, notturno e festivo. Nel caso di orario plurisettimanale per necessità  improvvise le suddette maggiorazioni saranno elevate rispettivamente alla misura onnicomprensiva del 20% e del 30%.
+L'attuazione dell'orario plurisettimanale è impegnativa per tutti i lavoratori interessati, salvo deroghe individuali a fronte di comprovati impedimenti.
+
+150 Sez. Quarta - Titolo III - Orario di lavoro
+
+In caso di mancata prestazione, per i suddetti impedimenti, delle ore di supero pur partecipando alla riduzione potranno essere effettuate compensazioni tramite recuperi ovvero con altri istituti contrattuali, utilizzando in quanto disponibili ore di P.a.r., ore di ferie ovvero ore accantonate in conto ore o banca ore ovvero anche permessi non retribuiti, tenendo conto in questo caso della preferenza espressa dal lavoratore.
+Diverse modalità  di articolazione dell'orario plurisettimanale potranno essere definite per accordo in sede aziendale con la Rappresentanza sindacale unitaria.
+Sono fatti comunque salvi gli accordi aziendali in essere.
+Permessi annui retribuiti.
+Ferma restando la durata dell'orario normale contrattuale di 40 ore settimanali, sono riconosciuti ai lavoratori, in ragione di anno di servizio ed in misura proporzionalmente ridotta per le frazioni di esso, 13 permessi annui retribuiti di 8 ore (pari a complessive 104 ore, di cui 72 ore precedentemente riconosciute a titolo di riduzione d'orario e 32 ore in sostituzione delle festività  abolite).
+Per tutti i lavoratori addetti al settore siderurgico, cosà¬ come definito nelle norme sul campo di applicazione del Contratto, sono invece previsti, sempre in ragione di anno di servizio o frazione di esso, 15,5 permessi annui retribuiti di 8 ore, pari a complessive 124 ore di cui 92 ore precedentemente riconosciute a titolo di riduzione d'orario e di armonizzazione della 39^ ora e 32 ore in sostituzione delle festività  abolite; non si modificano eventuali regimi pià¹ favorevoli di armonizzazione stabiliti a livello aziendale.
+A titolo di transazione novativa, a soluzione del contenzioso derivante dal CCNL 16 luglio 1979, l'accordo del 1Â° settembre 1983 ha riconosciuto un'ulteriore riduzione di orario pari ad un permesso retribuito annuo di 8 ore, per i lavoratori delle imprese appartenenti ai sottosettori indicati nella Â«Tabella allegataÂ» alle Â«Modifiche apportate all'articolo 5, Disciplina generale, Sezione terza, del CCNL 1Â° maggio 1976, dall'accordo 16 luglio 1979Â», non pià¹ riportate nei successivi contratti collettivi di categoria. Tale riduzione resta confermata per i soli lavoratori in forza al 31 dicembre 2012. Sono fatti salvi gli accordi aziendali in essere in materia; le parti si incontreranno in sede aziendale per verificare l'eventuale armonizzazione degli stessi.
+Le riduzioni di orario di cui ai commi precedenti non si applicano fino a concorrenza ai prestatori che osservano orari di lavoro articolati, secondo modalità non specificamente previste dal Contratto di categoria e con orari settimanali o plurisettimanali di lavoro effettivo, inferiori alle 40 ore, quale, ad esempio, il turno di sei ore per sei giornate settimanali.
+Per i lavoratori che prestano la propria opera in sistemi di turnazione di 15 o pià¹ turni settimanali comprendendo il turno notturno e/o quelli di sabato e domenica, è inoltre riconosciuto, a decorrere dal 1Â° gennaio 2002, un permesso annuo retribuito di 8 ore, computato in ragione di anno di servizio o frazione di esso, assorbibile fino a concorrenza dalle eventuali riduzioni definite negli accordi
+
+aziendali. Per gli stessi lavoratori turnisti addetti al settore siderurgico, tale permesso di 8 ore è monetizzato e riconosciuto a decorrere dal 1Â° gennaio 2000; la monetizzazione è corrisposta insieme alla tredicesima mensilità  al valore retributivo sul quale la stessa è computata.
+Previo esame congiunto tra la Direzione e la Rappresentanza sindacale unitaria che si intenderà  esaurito decorsi 10 giorni dalla data dell'incontro indicata nella convocazione, che si svolgerà , di norma, entro il mese di settembre di ciascun anno, una quota dei suddetti permessi annui retribuiti fino ad un massimo di 5, puà² essere utilizzata per la fruizione collettiva, anche per singoli reparti o gruppi di lavoratori.
+I rimanenti permessi, a cui si aggiungono quelli non utilizzati collettivamente, sono a disposizione del singolo lavoratore e sono fruiti su richiesta da effettuarsi almeno 10 giorni prima e nel rispetto di un tasso di assenza contemporanea a tale titolo non superiore al 5 per cento dei lavoratori normalmente addetti al turno.
+Nel caso in cui le richieste superino tale tetto, si farà  riferimento all'ordine cronologico di presentazione delle stesse.
+Nel caso in cui non sia rispettato il termine di preavviso di 10 giorni, la fruizione dei permessi richiesti avverrà  compatibilmente con le specifiche esigenze aziendali e mediante rotazione che non implichi complessivamente assenza a tale titolo superiore al 10 per cento, comprensivo del 5 per cento di cui al comma precedente, dei lavoratori normalmente addetti al turno.
+Le specifiche esigenze aziendali si sostanziano nei seguenti termini:
+a) nei casi in cui non siano rispettate le percentuali di assenza indicate precedentemente;
+b) quando si determinino situazioni produttive che, per il loro carattere improrogabile, impongano il rinvio nel modo indicato della fruizione medesima.
+Nell'ambito della percentuale massima di assenza sarà  data priorità  alle richieste motivate dalle necessità  di studio connesse al conseguimento della scuola dell'obbligo, del titolo di studio di secondo grado o del diploma universitario o di laurea e per i lavoratori migranti dalla necessità  di svolgere le attività  burocratiche connesse alla loro condizione nonchà© per festività  previste dalla religione di appartenenza.
+Nei casi tassativi di esigenze motivate da lutti familiari o da improvvisi eventi morbosi di familiari entro il primo grado i lavoratori, fermo restando quanto previsto dall'articolo 10, Sezione Quarta - Titolo VI, potranno assentarsi dal lavoro utilizzando i permessi a fruizione individuale.
+Nel caso di lutti familiari il lavoratore è tenuto a preavvertire l'azienda dei giorni di permesso che si intendono fruire, i quali devono essere utilizzati entro 15 giorni dal decesso, ovvero entro 30 giorni per i lavoratori extracomunitari, nonchà© a documentare l'evento con la relativa certificazione, ovvero, nei casi consentiti, con dichiarazione sostitutiva.
+Nel caso di improvvisi eventi morbosi dei figli fino al compimento dei 13
+
+152 Sez. Quarta - Titolo III - Orario di lavoro
+
+anni o di altri familiari conviventi entro il primo grado il lavoratore è tenuto ad avvertire l'azienda entro due ore dall'inizio del turno di lavoro ed a presentare idonea documentazione giustificativa entro il termine massimo di cinque giorni dalla ripresa dell'attività  lavorativa.
+La fruizione individuale dei permessi annui retribuiti potrà  essere effettuata, con esclusione del personale addetto a turni avvicendati e compatibilmente con le esigenze tecnico organizzative e produttive, anche per gruppi di 4 ore.
+Per i lavoratori turnisti e fatte salve le situazioni in atto, nel caso di innovazioni nella ripartizione dell'orario di lavoro la cui finalità  sia di ottenere un maggiore utilizzo degli impianti di tipo strutturale e non temporaneo, attraverso l'istituzione di turnazioni aggiuntive rispetto alla situazione in atto che comportino la creazione di pià¹ di 15 turni di lavoro, tra la Direzione e la Rappresentanza sindacale unitaria sarà  effettuato un esame congiunto in merito alla possibilità  di programmare all'interno del nuovo assetto degli orari, tenendo conto delle esigenze tecniche e impiantistiche, l'utilizzazione delle ore di permesso annuo precedentemente riconosciute a titolo di riduzione d'orario annuo.
+Le aziende potranno stabilire, previo esame congiunto con le Rappresentanze sindacali unitarie, diverse modalità  di fruizione delle ore di permesso annuo retribuito di cui al presente articolo compatibilmente con le specifiche esigenze aziendali.
+I permessi eventualmente non fruiti entro l'anno di maturazione confluiscono in un apposito Conto ore individuale per un ulteriore periodo di 24 mesi, per consentirne la fruizione da parte del lavoratore secondo le modalità  di preavviso ed alle condizioni precedentemente indicate.
+Al termine di tale periodo, le eventuali ore che risultassero ancora accantonate, saranno liquidate con la retribuzione in atto al momento della scadenza.
+
+DICHIARAZIONI A VERBALE 1) I permessi annui retribuiti di cui al presente articolo assorbono e sostituiscono i permessi per riduzione d'orario, ivi inclusi quelli derivanti dall'armonizzazione della 39^ ora per il settore siderurgico, e quelli in sostituzione delle festività  abolite dalla legge 5 marzo 1977, n. 54 come modificata dal D.P.R. 28 dicembre 1985, n. 792, già  derivanti dall'applicazione dei CCNL del 16 luglio 1979, 1Â° settembre 1983, 18 gennaio 1987 e 14 dicembre 1990.
+2) Fatto salvo quanto già  previsto dal presente articolo e ferma restando la possibilità  di accordi aziendali in materia, è permessa la deroga al riposo minimo giornaliero per le attività  di lavoro a turni esclusivamente ogni volta che il lavoratore, in via eccezionale e su sua richiesta scritta, è autorizzato a cambiare turno e non puà² fruire fra la fine del servizio di una squadra e l'inizio di quello della squadra successiva del riposo minimo giornaliero che in ogni caso sarà  almeno pari ad 8 ore; in tale ipotesi sarà  riconosciuta una protezione adeguata.
+La Direzione aziendale fornirà  annualmente alla Rappresentanza sindacale
+
+unitaria informazioni circa l'utilizzo della presente deroga.
+3) Le parti si danno reciprocamente atto che la presente disciplina contrattuale non dà  attuazione a quanto previsto dall'articolo 4 e dall'articolo 8, terzo comma, del Decreto legislativo 8 aprile 2003, n. 66, e, pertanto, ai soli fini legali restano fermi i limiti d'orario ed i criteri di computo fissati dal Decreto legislativo citato.
+
+DICHIARAZIONE COMUNE Le parti prenderanno in considerazione in sede nazionale l'evoluzione della politica industriale nel Mezzogiorno per esaminare l'applicazione presso i nuovi insediamenti produttivi di articolazioni e di regimi di orario, diversi da quelli previsti dal presente articolo, con lo scopo di assicurare un ampliamento dei livelli di occupazione e una pià¹ elevata utilizzazione degli impianti.
+Banca del Tempo Le Parti, a fronte della disponibilità  dei lavoratori a ridurre il proprio orario di lavoro in prossimità  del pensionamento ed anche in relazione alle importanti modifiche intervenute riguardo agli ammortizzatori sociali, convengono sull'opportunità , previa necessaria verifica degli aspetti normativi, fiscali e contributivi, di promuovere una â€œBanca del tempoâ€ che permetta ai lavoratori di accantonare le ore di PAR in conto ore, le ore di straordinario nonchà© le giornate di ferie aggiuntive.
+A tal fine, con l'obiettivo di individuare opportune soluzioni, è costituita un'apposita Commissione paritetica con il compito di presentare una proposta operativa, lavorando anche in sinergia con la Commissione paritetica sulle Politiche attive, da sottoporre alle Parti stipulanti nei tempi tecnici che si renderanno necessari.
+Conciliazione dei tempi di vita e di lavoro.
+Potranno essere definite in sede aziendale con la RSU soluzioni che in una logica di miglioramento dell'efficienza e di orientamento al risultato favoriscano la conciliazione dei tempi di vita e di lavoro e una gestione positiva dell'invecchiamento attivo.
+Lavoro agile - Dichiarazione delle parti.
+Entro dicembre 2021, le Parti, in seguito al ricorso diffuso al lavoro agile conseguente alle misure di contenimento della Pandemia Covid19, nel confermare il principio della parità  di trattamento dei lavoratori in modalità  agile rispetto a quelli che svolgono la prestazione in â€œpresenzaâ€ convengono di affidare ad una Commissione paritetica la definizione di un quadro normativo a partire dall'esercizio del â€œdiritto alla disconnessioneâ€, dei â€œdiritti sindacaliâ€, la tutela della privacy, degli strumenti di lavoro informatici, e del diritto alla formazione.
+
+154 Sez. Quarta - Titolo III - Orario di lavoro
+
+Art. 6. - Reperibilità .
+La reperibilità  è un istituto complementare alla normale prestazione lavorativa mediante il quale il lavoratore è a disposizione della Direzione aziendale per sopperire ad esigenze non prevedibili al fine di assicurare il ripristino e la continuità dei servizi, la funzionalità  o sicurezza degli impianti.
+Le ore di reperibilità  non devono considerarsi ai fini del computo dell'orario di lavoro legale e contrattuale.
+L'Azienda che intenda utilizzare la reperibilità  ne darà  informazione preventiva alla Rappresentanza sindacale unitaria, di norma in apposito incontro, illustrando le modalità  applicative che intende adottare, il numero dei lavoratori coinvolti e le loro professionalità .
+Le Aziende che utilizzano l'istituto della reperibilità  incontreranno con periodicità  annuale la Rappresentanza sindacale unitaria per verificare l'applicazione dell'istituto anche in relazione all'utilizzo della deroga al riposo giornaliero con specifico riferimento alla tipologia dei casi, alla loro frequenza e in relazione al carattere di eccezionalità  della stessa.
+Il lavoratore potrà  essere inserito dall'Azienda in turni di reperibilità  definiti secondo una normale programmazione plurimensile di norma previo preavviso scritto di 7 giorni. Sono fatte salve le sostituzioni dovute a situazioni soggettive dei lavoratori coinvolti nei turni di reperibilità .
+Fermo restando il possesso dei necessari requisiti tecnici, le aziende provvederanno ad avvicendare nel servizio di reperibilità  il maggior numero possibile di lavoratori dando priorità  ai dipendenti che ne facciano richiesta.
+Nessun lavoratore puà² rifiutarsi, salvo giustificato motivo, di compiere turni di reperibilità .
+Nel caso in cui il lavoratore ritenga sussistere un giustificato motivo che, anche temporaneamente, non gli permette lo svolgimento dei turni di reperibilità , puà² chiedere un incontro alla Direzione aziendale per illustrare le sue ragioni con l'eventuale assistenza di un componente la Rappresentanza sindacale unitaria.
+Al fine di garantire che la reperibilità  sia uno strumento efficiente ed efficace ed al contempo consentire al lavoratore di svolgere una normale vita di relazione, l'azienda adotterà  soluzioni tecnologiche adeguate per evitare che il lavoratore debba permanere presso un luogo definito.
+Il lavoratore in reperibilità  in caso di chiamata è tenuto ad attivarsi immediatamente per far fronte all'intervento richiesto in un tempo congruo - in modo da raggiungere il luogo dell'intervento di norma entro 30 minuti dalla chiamata fatta salva diversa pattuizione aziendale - e dovrà  informare l'azienda del prevedibile tempo necessario per giungere sul luogo ove è chiamato ad intervenire.
+Nel caso in cui il lavoratore durante il periodo di reperibilità  assuma comportamenti tali da rendere inutile la richiesta di intervento non sarà  riconosciuta l'indennità  di reperibilità  e si attiverà  la procedura disciplinare di cui agli articoli 8 e seguenti, Sezione quarta, Titolo VII.
+
+La reperibilità  potrà  essere richiesta secondo le seguenti articolazioni:
+a) oraria;
+b) giornaliera;
+c) settimanale.
+La reperibilità  settimanale non potrà  eccedere le due settimane continuative su quattro e non dovrà  comunque coinvolgere pià¹ di sei giorni continuativi.
+Per l'effettivo svolgimento dei turni di reperibilità  le aziende riconosceranno al lavoratore un compenso specifico, avente natura retributiva, differenziandolo rispetto a quello dovuto per i casi di intervento e tra loro non cumulabili, non inferiori, a decorrere dal 1Â° giugno 2021, ai seguenti valori espressi in euro:
+
+b) c) COMPENSO GIORNALIERO COMPENSO SETTIMANALE LIVELLO 16 ore 24 ore 6 giorni con 24 ore 6 giorni (giorno (giorno 6 giorni festivo e festive con festivo giorno libero lavorato) libero)
+
+D1-D2-C1 4,95 7,45 8,05 32,20 32,80 35,30 C2-C3 5,90 9,26 9,93 38,76 39,43 42,79 SUPERIORE AL C3 6,78 11,15 11,74 45,05 45,64 50,01
+
+L'importo orario di reperibilità  viene determinato dividendo per 16 gli importi espressi nella prima colonna (16 ore - giorno lavorato) della precedente tabella.
+Il trattamento di reperibilità  è dovuto per il periodo nel quale il lavoratore è in attesa di un'eventuale chiamata da parte dell'azienda.
+Dal momento della chiamata e per il tempo necessario a raggiungere il luogo dell'intervento e di quello necessario al successivo rientro verrà  riconosciuto un trattamento pari all'85% della normale retribuzione oraria lorda senza maggiorazioni.
+Le ore di intervento effettuato, ivi comprese quelle c.d. â€œda remotoâ€, rientrano nel computo dell'orario di lavoro, salvo il riconoscimento di riposi compensativi, e saranno compensate con le maggiorazioni previste dal presente Contratto nazionale per il lavoro straordinario, notturno e festivo nelle sue varie articolazioni.
+Le prestazioni effettuate durante la reperibilità  saranno comunque retribuite come lavoro straordinario e conteggiate come tali solo se aggiuntive al normale orario contrattuale.
+Sulla base delle leggi vigenti e ferma restando la possibilità  di accordi aziendali in materia, si concorda che è permessa la deroga, che non puà² assumere carattere di strutturalità , al riposo giornaliero di 11 ore consecutive per i lavoratori che prestano la loro opera in regime di reperibilità  garantendo, in ogni caso, un riposo giornaliero consecutivo almeno pari a 8 ore ed accordando una protezione appropriata.
+
+156 Sez. Quarta - Titolo III - Orario di lavoro
+
+In aggiunta al compenso per reperibilità , al trattamento economico per il tempo di viaggio e della retribuzione dovuta per la prestazione effettuata, per ogni chiamata da parte dell'azienda seguita da intervento effettivo sarà  riconosciuto un compenso pari a 5,00 euro.
+Nel caso in cui non sia utilizzato il mezzo aziendale ed il lavoratore reperibile utilizzi mezzi pubblici di trasporto ovvero sia autorizzato all'uso di un proprio mezzo di trasporto per raggiungere il luogo dell'intervento le spese di viaggio saranno rimborsate; la quantificazione del rimborso sarà  effettuata secondo gli accordi e le prassi aziendali in atto.
+Il personale direttivo è escluso dall'applicazione della presente normativa.
+L'indennità  di reperibilità  e gli altri trattamenti economici previsti dal presente articolo sono stati quantificati considerando i riflessi sugli istituti di retribuzione diretta ed indiretta, d'origine legale o contrattuale e, quindi, sono già  comprensivi degli stessi. Inoltre, in attuazione di quanto previsto dal secondo comma dell'articolo 2120 Codice civile, le parti convengono che i trattamenti economici di cui al presente articolo siano esclusi dalla base di calcolo del trattamento di fine rapporto.
+Sono fatti salvi gli accordi aziendali che regolamentano la materia disciplinata nel presente articolo.
+
+Art. 7. - Lavoro straordinario, notturno e festivo.
+àˆ considerato lavoro straordinario quello eseguito dopo l'orario giornaliero fissato in applicazione del 3Â° comma dell'articolo 5 del presente Titolo, salve le deroghe e le eccezioni di legge.
+La qualificazione legale ed i relativi adempimenti per il lavoro straordinario, rimangono nei termini fissati dalle vigenti disposizioni di legge.
+Il lavoro straordinario sarà  contenuto nei limiti di 2 ore giornaliere e 8 ore settimanali.
+Fatto salvo quanto previsto dal quarto comma dell'articolo 5 del Decreto legislativo 8 aprile 2003, n. 66, viene fissato un limite massimo complessivo di 200 ore annuali per ciascun lavoratore. Per le aziende fino a 200 dipendenti il limite massimo individuale annuo è fissato in 250 ore.
+In ogni caso, per le attività  di riparazione navale, aeronautica nonchà© per le operazioni di varo e prove di collaudo a mare i limiti massimi annuali suddetti sono fissati in ore 250. Per l'attività  di manutenzione, installazione e montaggi il limite massimo annuo è fissato in 260 ore.
+Ai fini del rispetto dei limiti di cui ai precedenti due commi deve essere considerata la definizione che dell'orario dà  la legge.
+Il ricorso a prestazioni di lavoro straordinario deve essere contenuto.
+Salvo casi eccezionali e imprevedibili la Direzione dell'azienda darà  informazione preventiva del lavoro straordinario, di norma in apposito incontro, alla
+
+Rappresentanza sindacale unitaria.
+Sono esenti da tale informazione preventiva le aziende di manutenzione, di installazione e di montaggio per le quali è prevista una comunicazione agli stessi organismi a scopo informativo.
+Il lavoro notturno, ai fini retributivi, decorre dalle 12 ore successive all'inizio del turno del mattino per ciascun gruppo lavorativo; tuttavia non si considera notturno il lavoro compiuto dalle ore 6, nel limite di un'ora giornaliera, per la predisposizione del funzionamento degli impianti.
+àˆ considerato lavoro festivo quello effettuato nei giorni previsti dall'articolo 9 del presente Titolo.
+Le percentuali di maggiorazione per il lavoro straordinario, notturno e festivo, da corrispondersi oltre alla normale retribuzione e da calcolarsi sugli elementi della stessa indicati al comma successivo, sono le seguenti:
+per lavoro per lavoro non a turni a turni a) lavoro straordinario:
+prime due ore . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25% 25% ore successive . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30% 30% b) notturno fino alle ore 22 . . . . . . . . . . . . . . . . . . . . . . . 20% 15% notturno oltre le ore 22 . . . . . . . . . . . . . . . . . . . . . . . . . . 30% 15% c) festivo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50% 50% d) festivo con riposo compensativo . . . . . . . . . . . . . . . . . . 10% 10% e) straordinario festivo . . . . . . . . . . . . . . . . . . . . . . . . . . 55% 55% f) straordinario festivo con riposo compensativo . . . . . . . . . 35% 35% g) straordinario notturno (prime 2 ore) . . . . . . . . . . . . . . . 50% 40% straordinario notturno (ore successive) . . . . . . . . . . . . . . 50% 45% h) notturno festivo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60% 55% i) notturno festivo con riposo compensativo . . . . . . . . . . . . 35% 30% l) straordinario notturno festivo. . . . . . . . . . . . . . . . . . . . . 75% 65% m) straordinario notturno festivo con riposo compensativo . . . . 55% 50%
+
+A decorrere dal 1Â° giugno 2013 per il lavoro notturno dei lavoratori turnisti di cui alle lettere b), h) e i) di cui sopra, la percentuale di maggiorazione sarà  elevata alla misura onnicomprensiva rispettivamente pari al 20%, 60% e 35%. Ad esclusione delle attività  di gestione e manutenzione, svolte dalle aziende impiantistiche, che richiedono una articolazione dei turni a copertura delle 24 ore, per le ore cadenti dalle 22.00 alle 6.00, le suddette percentuali sono elevate alla misura onnicomprensiva rispettivamente pari al 25%, 65% e 40%. Tali percentuali assorbono fino a concorrenza i trattamenti di miglior favore eventualmente in atto a livello aziendale.
+Le percentuali di maggiorazione di cui sopra sono computate sulla retribuzione oraria come definita dal 2Â° comma dell'articolo 3, Sezione quarta, Titolo IV.
+
+158 Sez. Quarta - Titolo III - Orario di lavoro
+
+Per i lavoratori normalmente lavoranti a cottimo e per i concottimisti le percentuali in parola sono computate sulla retribuzione come sopra definita aumentata della percentuale minima contrattuale di cottimo come definita al punto 2 dell'articolo 2, Sezione quarta, Titolo IV.
+Nessun lavoratore puà² rifiutarsi, salvo giustificato motivo, di compiere lavoro straordinario, notturno e festivo.
+Nell'ipotesi di distribuzione dell'orario settimanale in 5 giorni (dal lunedà¬ al venerdà¬) sarà  ammesso il prolungamento del lavoro straordinario, nella giornata del sabato, nei limiti della misura settimanale, oltre le 2 ore giornaliere, qualora cià² sia richiesto da esigenze di riparazione e manutenzione.
+Negli altri casi in cui fosse richiesto tale prolungamento di prestazioni straordinarie nella giornata di sabato, esso sarà  concordato con la Rappresentanza sindacale unitaria e per esso sarà  corrisposta una maggiorazione nella misura del 50 per cento quando le prestazioni straordinarie superino le 2 ore.
+Fermi restando i limiti massimi previsti di 200, 250 e 260 ore annuali di lavoro straordinario di cui al quarto e quinto comma del presente articolo, la Direzione potrà  disporre, dandone notizia ai lavoratori interessati con preavviso di ventiquattro ore, salvi casi eccezionali di urgenza, prestazioni individuali di lavoro straordinario di produzione, esenti dalla informazione alla Rappresentanza sindacale unitaria di cui al precedente settimo comma, per le prestazioni da eseguire oltre l'orario giornaliero normale di lavoro ed esenti dall'accordo con la Rappresentanza sindacale unitaria previsto dal comma precedente, per le prestazioni da eseguire nella giornata libera oltre la domenica e, di norma, nella giornata di sabato, nella misura di 80 ore annue. Nelle aziende che adottano l'orario plurisettimanale di cui al precedente articolo 5, il numero massimo di ore utilizzabili per ciascun lavoratore per entrambi gli istituti non potrà  eccedere le 120 ore annue nelle aziende con oltre 200 dipendenti e 128 ore annue nelle aziende fino a 200 dipendenti.
+La Direzione terrà  conto di esigenze personali entro il limite del 10% se disponibile la sostituzione tramite personale con adeguata professionalità .
+Per le ore di straordinario in regime di Â«quote esentiÂ» dall'accordo preventivo eccedenti le 40 ore annue, per i lavoratori turnisti e per i lavoratori non turnisti che lavorino in aziende con oltre 200 dipendenti, ovvero le 48 ore annue, per i lavoratori non turnisti che lavorino in aziende fino a 200 dipendenti, sarà  corrisposta una maggiorazione aggiuntiva pari all'8% per ciascuna ora lavorata che assorbe fino a concorrenza i trattamenti di miglior favore eventualmente in atto a livello aziendale.
+Ai fini dell'applicazione delle procedure di informazione o, a seconda dei casi, di accordo preventivo, per le prestazioni di lavoro straordinario eccedenti le Â«quote esentiÂ» di cui sopra, la Direzione dell'unità  produttiva comunicherà  ogni quadrimestre alla Rappresentanza sindacale unitaria le ore di lavoro straordinario produttivo compiuto utilizzando le suddette Â«quote esentiÂ» di straordinario.
+Banca ore.
+
+àˆ istituita la Banca ore per tutti i lavoratori e per tutte le ore di straordinario prestate secondo la disciplina appresso definita.
+- Ai lavoratori che prestano lavoro straordinario, se non dichiarano entro il mese successivo a quello in cui hanno effettuato la prestazione di volere il riposo compensativo, sarà  devoluto il pagamento dello straordinario con le maggiorazioni attualmente previste dal Contratto nazionale nel periodo di paga successivo al suddetto bimestre e con la retribuzione del mese di effettuazione della prestazione straordinaria.
+- I lavoratori che dichiarano formalmente entro il mese successivo alla prestazione straordinaria di volere il riposo, potranno fruirlo secondo le modalità  e quantità  già  previste per il â€œConto oreâ€. Per le ore di straordinario che confluiscono nella Banca-ore verrà  corrisposta la maggiorazione onnicomprensiva pari al 50% di quella prevista per il lavoro straordinario nelle varie modalità  di esplicazione, da computare sugli elementi utili al calcolo delle maggiorazioni per lavoro straordinario, notturno e festivo.
+- Ai lavoratori che, nel corso del mese della prestazione di lavoro straordinario, dichiarano di volere il pagamento, la relativa erogazione sarà  corrisposta secondo la normale prassi aziendale.
+Alle RSU , saranno fornite informazioni, in forma aggregata sul rapporto tra ore accantonate e le ore di straordinario effettuate.
+I riposi accantonati dovranno essere fruiti dal singolo lavoratore secondo le modalità  ed alle condizioni già  previste per l'utilizzo dei permessi annui retribuiti di cui al paragrafo Permessi annui retribuiti di cui all'articolo 5, del presente Titolo III. Al termine del periodo, le eventuali ore ancora accantonate sono liquidate con la retribuzione in atto.
+
+DICHIARAZIONI COMUNI.
+Le parti si danno reciprocamente atto che:
+1) la scelta effettuata dal lavoratore circa l'accantonamento delle ore di straordinario in Banca ore riguarda l'insieme, non frazionabile, delle ore effettuate nel mese;
+2) le ore accantonate nella Banca ore sono disponibili per il lavoratore alle condizioni previste dal Contratto a decorrere dal mese successivo al loro accantonamento.
+Art. 8. - Riposo settimanale.
+Il lavoratore ha diritto al riposo settimanale, di regola in coincidenza con la domenica, secondo i criteri e le modalità  previste dalla legge.
+I lavoratori che lavorino la domenica, godranno il prescritto riposo in altro giorno della settimana, che deve essere prefissato.
+Allo scopo di far coincidere, per quanto possibile, il riposo settimanale con la domenica anche per coloro che lavorano a turni ed affinchà© i turni abbiano uno
+
+160 Sez. Quarta - Titolo III - Orario di lavoro
+
+svolgimento regolare, si conviene che l'orario di lavoro debba decorrere dal lunedà¬ alla domenica compresa.
+In caso di spostamento eccezionale del giorno di riposo prestabilito, il lavoratore avrà  diritto, per il lavoro prestato nel giorno in cui avrebbe dovuto godere del riposo, alla maggiorazione stabilita - all'articolo 7, del presente Titolo III per il lavoro festivo.
+
+Art. 9. - Festività .
+Agli effetti della legge 22 febbraio 1934, n. 370, sono considerati giorni festivi le domeniche o i giorni di riposo settimanale compensativo di cui al precedente articolo 8.
+Agli effetti della legge 27 maggio 1949, n. 260, della legge 5 marzo 1977, n.
+54, del D.P.R. 28 dicembre 1985, n. 792 e della legge 20 novembre 2000, n. 336, sono considerati giorni festivi:
+
+a) le festività  del:
+1) 25 aprile (anniversario della liberazione);
+2) 1Â° maggio (festa del lavoro);
+3) 2 giugno (festa nazionale della Repubblica);
+b) le festività  di cui appresso:
+1) Capodanno (1Â° gennaio);
+2) Epifania del Signore (6 gennaio);
+3) Lunedà¬ di Pasqua (mobile);
+4) Ss. Pietro e Paolo, per il Comune di Roma (giorno del Santo Patrono 29 giugno);
+5) Assunzione di M.V. (15 agosto);
+6) Ognissanti (1Â° novembre);
+7) Immacolata Concezione (8 dicembre);
+8) Natale (25 dicembre);
+9) S. Stefano (26 dicembre);
+c) il giorno del S. Patrono del luogo ove è ubicata la sede di lavoro o un'altra festività  da concordarsi all'inizio di ogni anno tra le Organizzazioni locali competenti in sostituzione di quella del S. Patrono, fatto salvo il punto 4 della lett. b).
+La retribuzione delle festività  cadenti in giorno infrasettimanale è compresa nella normale retribuzione mensile.
+Qualora, invece, una delle festività  cada di domenica, ai lavoratori è dovuto, in aggiunta alla normale retribuzione mensile, l'importo di una quota giornaliera della retribuzione di fatto, pari a 1/26 della retribuzione mensile fissa.
+Tale trattamento è dovuto, per il giorno di domenica coincidente con una delle dette festività , anche a coloro che, nei casi consentiti dalla legge, lavorino di domenica, godendo il prescritto riposo compensativo in altro giorno della settimana.
+Al trattamento in parola si aggiunge inoltre, per coloro che lavorano di domenica, il compenso previsto dall'articolo 7 del presente Titolo per tali prestazioni.
+Le ore di lavoro compiute nei giorni festivi anche se infrasettimanali saranno compensate in aggiunta alla normale retribuzione mensile con la retribuzione oraria aumentata della maggiorazione per lavoro festivo.
+Qualora le festività  di cui ai punti b) e c) ricorrano nel periodo di assenza dovuta a malattia, gravidanza e puerperio, o ad infortunio compensati con retribuzione ridotta, l'azienda integrerà  tale trattamento fino a raggiungere per la giornata festiva l'intera retribuzione globale.
+In sostituzione delle festività  abolite dalla legge 5 marzo 1977, n. 54, i lavoratori fruiscono di quattro gruppi di 8 ore di permesso individuale retribuite di cui al paragrafo Permessi annui retribuiti dell'articolo 5, del presente Titolo.
+Per quanto riguarda la festività  (4 novembre) la cui celebrazione ha luogo nella prima domenica di novembre, il lavoratore beneficerà  del trattamento previsto per le festività  che coincidono con la domenica.
+
+DICHIARAZIONE A VERBALE Le parti dichiarano che il trattamento retributivo per le festività  sopra previsto per i periodi di sospensione della prestazione di lavoro relativi a malattia, infortunio, gravidanza e puerperio, è a carico dell'azienda esclusivamente ad integrazione della parte di tale quota indennizzata in forza di disposizioni legislative.
+
+Art. 10. - Ferie.
+I lavoratori maturano per ogni anno di servizio un periodo di ferie retribuito pari a 4 settimane.
+Salvo quanto previsto dalla successiva Norma transitoria n. 1, i lavoratori che maturano un'anzianità  di servizio oltre 10 anni e fino a 18 anni compiuti hanno diritto ad un giorno in pià¹ rispetto alla misura di cui al comma precedente ed i lavoratori che maturano un'anzianità  di servizio oltre i 18 anni compiuti hanno diritto ad una settimana in pià¹, sempre rispetto alla misura di cui al comma precedente.
+Ogni settimana di ferie dovrà  essere ragguagliata a 5 ovvero a 6 giorni lavorativi a seconda che la distribuzione del normale orario di lavoro settimanale sia rispettivamente su 5 o 6 giorni.
+Le ferie sono retribuite con la retribuzione globale di fatto, eccettuati gli eventuali compensi che abbiano carattere accidentale in relazione a prestazioni lavorative svolte in particolari condizioni di luogo, ambiente e tempo. Per i lavoratori normalmente lavoranti a cottimo, verrà  computato l'utile medio di cottimo realizzato nei periodi di paga del trimestre immediatamente precedente la corresponsione delle ferie.
+
+162 Sez. Quarta - Titolo III - Orario di lavoro
+
+Per i concottimisti verrà  computata la media delle percentuali di maggiorazione realizzate negli analoghi periodi di paga.
+I giorni festivi di cui all'articolo 9 del presente Titolo che ricorrono nel periodo di godimento delle ferie non sono computabili come ferie per cui si farà luogo ad un corrispondente prolungamento del periodo feriale.
+Le ferie avranno normalmente carattere collettivo (per stabilimento, per reparto, per scaglione). Il periodo di ferie consecutive e collettive non potrà  eccedere le 3 settimane, salvo diverse intese aziendali.
+L'epoca delle ferie collettive sarà  stabilita dalla Direzione, previo esame congiunto in sede aziendale, tenendo conto del desiderio dei lavoratori compatibilmente con le esigenze del lavoro dell'azienda.
+Al lavoratore che all'epoca delle ferie non ha maturato il diritto all'intero periodo di ferie spetterà , per ogni mese di servizio prestato, un dodicesimo del periodo feriale di cui al primo comma. La frazione di mese superiore ai 15 giorni sarà  considerata, a questi effetti, come mese intero.
+In caso di risoluzione del rapporto di lavoro al lavoratore spetterà  il pagamento delle ferie in proporzione dei dodicesimi maturati. La frazione di mese superiore ai 15 giorni sarà  considerata, a questi effetti, come mese intero.
+Il periodo di preavviso non puà² essere considerato periodo di ferie.
+Non è ammessa la rinuncia sia tacita che esplicita al godimento annuale delle ferie. Ove, per cause dovute ad imprescindibili esigenze del lavoro dell'azienda ed in via del tutto eccezionale, il lavoratore non fruisca di giornate di ferie di cui al primo comma non è ammessa la sostituzione del godimento delle ferie medesime con una indennità  retributiva; di conseguenza, la relativa fruizione avrà  luogo non appena possibile avuto riguardo alle esigenze tecnico-organizzative.
+L'indennità  dovuta al lavoratore per le giornate di ferie non godute è costituita dalla retribuzione giornaliera globale di fatto.
+In caso di richiamo in servizio, per esigenze eccezionali, nel corso del periodo di ferie, sarà  corrisposto al lavoratore il trattamento di trasferta per il solo periodo di viaggio.
+Al fine di favorire il ricongiungimento familiare nei Paesi d'origine dei lavoratori migranti, fatto salvo quanto definito tra le parti in sede aziendale, le aziende con pià¹ di 150 dipendenti, nell'ambito della percentuale massima del 3% dei lavoratori in forza (con arrotondamento all'unità  superiore), e le aziende fino a 150 dipendenti, nell'ambito della percentuale massima del 2% (con arrotondamento all'unità  superiore), valuteranno positivamente, tenuto conto delle esigenze tecnico-organizzative, l'accoglimento delle richieste, secondo l'ordine cronologico di presentazione, dei singoli lavoratori di usufruire di periodi continuativi di assenza dal lavoro attraverso l'utilizzo oltre che delle ferie anche degli altri permessi retribuiti previsti dal Contratto eventualmente disponibili.
+Nel caso di valutazione negativa, l'azienda informerà  il lavoratore, che potrà farsi assistere da un componente della RSU , sui motivi del diniego e si adopererà per individuare un'idonea soluzione in relazione alle sue obiettive e comprovate
+
+necessità .
+
+NORME TRANSITORIE 1) I lavoratori in forza al 31 dicembre 2007, a cui si applicava la Disciplina speciale, Parte prima, iniziano a maturare a partire dal 1Â° gennaio 2008 l'anzianità di servizio necessaria per aver diritto al giorno aggiuntivo di ferie oltre i 10 anni e fino a 18 anni compiuti ovvero alla settimana di ferie aggiuntive oltre i 18 anni di servizio.
+2) Ai lavoratori a cui si applicava la Disciplina speciale, Parte prima, in forza alla data del 31 dicembre 2007, è riconosciuto, dal 1Â° gennaio 2008, un giorno aggiuntivo di ferie rispetto alle 4 settimane in presenza dei requisiti di dieci anni di anzianità  aziendale e 55 anni di età .
+
+NOTA A VERBALE Dalla normativa di cui al presente articolo non dovranno conseguire ai lavoratori nà© perdite nà© vantaggi, rispetto ad eventuali condizioni pià¹ favorevoli vigenti, salvi i vantaggi previsti dalla normativa suddetta.
+
+Art. 11. - Linee guida per l'applicazione della banca ore solidale.
+Federmeccanica, Assistal e Fim, Fiom, Uilm, al fine di valorizzare e promuovere l'istituto della Banca ore solidale prevista dall'articolo 24 del D. Lgs. 14 settembre 2015, n.151, hanno condiviso le seguenti Linee guida quale strumento di indirizzo per le singole regolamentazioni che possono essere stipulate e/o adottate in sede aziendale.
+
+1) La Banca delle ore solidale puà² essere attivata, oltre che per la fattispecie legale di assistenza di figli minori che necessitano di cure costanti, per le donne vittime di violenza di genere di cui all'articolo 12, Sezione quarta, Titolo VI, e per le situazioni di grave necessità  che abbiano determinato fra i lavoratori dell'azienda l'esigenza di aiutare i colleghi interessati attraverso la cessione volontaria, a titolo gratuito, di quote di P.a.r. accantonati in conto ore o di ferie aggiuntive monetizzabili.
+2) L'attivazione dell'istituto potrà  essere richiesta per il tramite della RSU o dei lavoratori e la Banca ore solidale sarà  avviata previo consenso dei lavoratori beneficiari che dovranno fornire liberatoria relativamente alla vigente normativa sulla Privacy.
+3) L'azienda informerà  i lavoratori dell'attivazione della banca delle ore solidale e riceverà  le disponibilità  ad aderire da parte degli stessi.
+4) Le quote di ferie aggiuntive e di P.a.r. cedibili sono quelle accantonate per le quali non sia stata già  versata la contribuzione previdenziale.
+
+164 Sez. Quarta - Titolo III - Orario di lavoro
+
+5) Le quote di ferie aggiuntive e di P.a.r. ceduti e confluiti nella Banca ore solidale sono valorizzati sulla base della retribuzione goduta dal lavoratore cedente al momento della cessione; la massa monetaria cosà¬ determinata sarà  divisa per la retribuzione oraria del lavoratore fruitore dei permessi al fine di identificare il numero di ore di permesso a cui egli avrà  diritto.
+6) Le ore sono cedute al loro valore lordo nominale in quanto la contribuzione e la tassazione sarà  applicata sulle ore di permesso che saranno fruite dal lavoratore beneficiario.
+7) Nell'accordo o regolamento aziendale sono stabiliti:
+- le situazioni per le quali si decide di avviare l'istituto;
+- il periodo entro il quale i dipendenti dovranno manifestare in forma scritta la loro volontà  di cedere le ferie aggiuntive non fruite e/o i Par accantonati in Conto ore e la quantità  minima di ore cedibili;
+- l'eventuale modalità  di partecipazione aziendale;
+- i tempi tecnici necessari per avviare praticamente l'istituto;
+- le modalità  ed il periodo entro il quale il beneficiario potrà  godere di tali permessi aggiuntivi;
+- l'eventuale proroga dell'istituto;
+- la gestione degli eventuali residui della Banca ore solidale non fruite; in mancanza di regolamentazione aziendale gli eventuali residui della Banca ore solidale rientreranno nella disponibilità  dei lavoratori cedenti in misura proporzionale rispetto alla quantità  di retribuzione equivalente delle ore cedute.
+
+Titolo IV - Retribuzione ed altri istituti economici
+
+Art. 1. - Forme di retribuzione.
+I lavoratori sono retribuiti ad economia o con una delle seguenti altre forme di retribuzione:
+a) a cottimo individuale;
+b) a cottimo collettivo;
+c) con altre forme di incentivo determinato in relazione alle possibilità  tecniche e all'incremento della produzione.
+Allo scopo di incrementare la produzione attraverso un maggiore rendimento del lavoro, le parti riconoscono l'opportunità  di estendere le forme di retribuzione ad incentivo.
+
+Art. 2. - Regolamentazione del lavoro a cottimo.
+1) Allo scopo di conseguire l'incremento della produzione è ammesso il lavoro a cottimo sia collettivo che individuale. Nei casi in cui la valutazione della prestazione richiesta al lavoratore o ad una squadra di lavoratori sia fatta in base al risultato della misurazione dei tempi di lavorazione oppure la prestazione sia vincolata all'osservanza di un determinato ritmo produttivo in conseguenza dell'organizzazione del lavoro (come nel caso di linea a catena o di linee a flusso continuo) e sia richiesta al lavoratore una prestazione pià¹ intensa di quella del normale lavoro ad economia o la realizzazione di un risultato produttivo predeterminato superiore a quello conseguibile attraverso il lavoro ad economia, i lavoratori o la squadra di lavoratori dovranno essere retribuiti a cottimo o con altre forme di retribuzione a rendimento soggette alla disciplina del lavoro a cottimo, anche per le linee a catena ed a flusso continuo.
+2) Le tariffe di cottimo (a tempo od a prezzo) devono essere fissate dall'azienda in modo da garantire nei periodi normalmente considerati, al lavoratore di normale capacità  ed operosità , il conseguimento di un utile di cottimo non inferiore alle seguenti percentuali dei minimi di paga base:
+
+Livello dal 1Â° giugno dal 1Â° giugno dal 1Â° giugno dal 1Â° giugno 2021 2022 2023 2024 D1 0,90% 0,89% 0,88% 0,87% D2 0,96% 0,95% 0,94% 0,93% C1 0,96% 0,95% 0,94% 0,93% C2 1,01% 1,00% 0,99% 0,98% C3 1,00% 0,99% 0,98% 0,97% B1 0,99% 0,98% 0,97% 0,96%
+
+166 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+Tale condizione si presume adempiuta quando la generalità  dei lavoranti a cottimo in un medesimo reparto con la stessa tariffa nei periodi sopra indicati abbia realizzato un utile di cottimo non inferiore alle suddette percentuali, il che non esclude la revisione delle tariffe nei casi in cui detto complesso di lavoratori venga riconosciuto di capacità  ed operosità  superiore alla normale.
+3) Nel caso di altre forme di retribuzione a rendimento soggette alla disciplina del lavoro a cottimo ai lavoratori dovrà  comunque essere garantita una percentuale del minimo di paga base corrispondente a quella minima di cottimo.
+4) Nel caso in cui un lavorante a cottimo non riesca a conseguire il minimo previsto dal comma 2Â° per cause a lui non imputabili e salvo l'ipotesi di tempestiva richiesta di mutamento delle condizioni di emissione della tariffa di cui al punto 15), la retribuzione gli verrà  integrata fino al raggiungimento del suddetto minimo di cottimo.
+5) L'azienda tramite la propria Associazione sindacale, comunicherà  ai Sindacati provinciali dei lavoratori i criteri generali dei sistemi di cottimo in vigore.
+Tali criteri si riferiscono ai metodi di rilevazione dei tempi, ai coefficienti di maggiorazione (causali e valori, minimo e massimo), ai metodi di calcolo dell'utile di cottimo.
+L'azienda comunicherà  inoltre le modificazioni parziali dei criteri generali di cui al comma precedente qualora tali modificazioni assumano rilevante importanza.
+Per le lavorazioni a catena (considerate tali le linee di produzione meccanizzate e non i servizi ausiliari automatizzati) le comunicazioni di cui sopra saranno egualmente fatte tenendo conto della diversa denominazione che detti criteri assumono.
+Tali comunicazioni avranno finalità  informativa, essendo ammesse solo contestazioni di carattere applicativo alle condizioni e secondo la procedura di cui al punto 23) (vedi chiarimento in calce all'articolo).
+6) In caso di introduzione di nuovi sistemi di cottimo, alla comunicazione di cui al punto 5) potrà  seguire, a richiesta, un esame congiunto tra l'Organizzazione sindacale che rappresenta l'azienda ed i Sindacati provinciali dei lavoratori.
+Nel caso di modificazione rilevante di taluno dei criteri generali dei sistemi di cottimo in vigore l'Organizzazione sindacale dei lavoratori qualificata a ricevere le comunicazioni relative ai criteri di cui al precedente punto 5) potrà  chiedere l'esame congiunto di cui al 1Â° comma al fine di accertare se si sia in presenza dell'introduzione di un nuovo sistema.
+Le comunicazioni e gli esami congiunti di cui ai due precedenti commi si intendono estesi alle lavorazioni a catena tenendo conto delle diverse denominazioni proprie di tali lavorazioni.
+7) Resta in facoltà  del Sindacato dei lavoratori di instaurare controversia collettiva quando sorga contestazione circa la rispondenza del sistema in atto e delle modificazioni di cui al punto 5), 3Â° comma, alle norme di cui al presente articolo.
+8) I lavoranti a cottimo dovranno essere messi a conoscenza, all'inizio del lavoro, per iscritto - o per affissione nei reparti in cui lavorano quando si tratta di cottimi di squadra o collettivi - del lavoro da eseguire e della corrispondente tariffa di cottimo (a tempo od a prezzo) nonchà© di ogni elemento necessario per il computo dell'utile di cottimo stesso.
+9) L'azienda comunicherà  al lavoratore gli elementi riepilogativi di computo del suo guadagno di cottimo nel periodo di paga o, a richiesta, anche con riferimento ai risultati delle singole tariffe. La specificazione dei risultati delle singole tariffe potrà  non essere fornita per tariffe le quali, data la contemporaneità  della loro applicazione, costituiscono sostanzialmente un unico cottimo, o per tariffe applicate non contemporaneamente per le quali, data la brevità  della loro durata, normalmente non si effettua la rilevazione dei tempi.
+10) Si intende per periodo di assestamento delle tariffe di cottimo il tempo tecnico necessario perchà© le condizioni di lavoro possano ritenersi sufficientemente stabilizzate; pertanto in caso di saltuario impiego della tariffa i singoli periodi sono cumulati al fine di stabilire la durata complessiva del periodo di assestamento.
+11) Il periodo di assestamento delle tariffe di cottimo sarà  concordato tra le parti direttamente interessate; ove il periodo di assestamento superi i due mesi potrà  essere richiesto l'intervento delle rispettive Organizzazioni.
+12) Durante il periodo di assestamento sarà  concessa al lavoratore una integrazione del guadagno di cottimo realizzato con le tariffe in corso di assestamento, in modo che il guadagno stesso non sia inferiore all'80 per cento di quello medio realizzato nel trimestre precedente alla variazione della lavorazione; nei casi in cui il periodo di assestamento sarà  determinato per un periodo superiore ai due mesi, per il tempo eccedente tale periodo l'integrazione prevista nel presente comma sarà  dell'85 per cento.
+13) Terminato il periodo di assestamento nessuna integrazione spetterà  al lavoratore quando la nuova tariffa risponde ai requisiti stabiliti dal presente articolo, salvo quanto disposto ai successivi punti 14) e 15).
+14) Le tariffe stabilite potranno essere variate allorchà© sia superato il periodo di assestamento solo nel caso in cui vengano apportate modifiche tecniche od organizzative nelle condizioni di esecuzione del lavoro.
+In tali casi le tariffe saranno variate in proporzione alle variazioni di tempo in pià¹ od in meno che le modifiche stesse avranno determinato.
+La tariffa modificata è da considerarsi come una nuova tariffa ai fini del periodo di assestamento.
+15) Qualora venissero accertate, su tempestiva richiesta del lavoratore interessato, variazioni contingenti nelle condizioni di esecuzione del lavoro, come ad esempio variazioni nelle caratteristiche del materiale, difetti di lavorazione preesistenti, che abbiano influenzato negativamente il rendimento della tariffa e delle quali non fu potuto tenere conto nelle condizioni di emissione della tariffa stessa, verranno corrisposti benefici in proporzione al grado di variazione riscontrato e limitatamente alla durata della variazione, tali che il lavoratore non subisca perdite per cause a lui non imputabili.
+16) Quando si dovesse constatare una sensibile caduta del guadagno medio
+
+168 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+di cottimo la Rappresentanza sindacale unitaria potrà  intervenire presso la Direzione per congiuntamente accertarne le cause.
+Ove ricorra l'ipotesi di cui al punto 7) del presente articolo, un esame di merito potrà  essere effettuato in sede sindacale.
+17) Quando i lavoratori lavorino con tariffe già  assestate il conteggio dei guadagni sarà  fatto complessivamente alla fine del periodo di paga indipendentemente dai risultati di ciascuna tariffa.
+Agli effetti del conteggio del guadagno di cottimo saranno escluse le ore di interruzione dovute a cause non dipendenti dalla volontà  del lavoratore, fermo quanto previsto dal punto 9) circa la facoltà  di richiedere la comunicazione dei risultati delle singole tariffe.
+18) Non è ammessa la compensazione tra i risultati di tariffe assestate e quelli di tariffe in corso di assestamento. Per queste ultime, ove i loro risultati siano in parte eccedenti ed in parte inferiori al minimo di cottimo, la eccedenza rispetto a detto minimo non potrà  essere utilizzata per l'integrazione prevista dal punto 4) del presente articolo.
+19) Per i cottimi di lunga durata il conteggio del guadagno deve essere fatto a cottimo ultimato ed al lavoratore devono essere corrisposti, allo scadere dei singoli periodi di paga, acconti di circa il 90 per cento del presumibile guadagno.
+20) Il lavoratore cottimista che lascia il lavoro per dimissioni o licenziamento quando il cottimo è ancora in corso, ha diritto alla liquidazione dell'eventuale guadagno di cottimo spettantegli fino al momento in cui lascia il lavoro. Nel caso in cui la liquidazione avvenga solo quando il cottimo sia ultimato il lavoratore avrà  diritto a un acconto sulla base della presumibile liquidazione.
+21) Quando il lavoratore passa dal lavoro a cottimo a quello ad economia nella medesima lavorazione ha diritto alla conservazione dell'utile di cottimo semprechà© rimangano inalterate le condizioni di lavoro e la produzione individuale.
+22) I concottimisti, intesi per tali i lavoratori direttamente vincolati al ritmo lavorativo di altri lavoratori a cottimo e che pur essendo soggetti ad una prestazione lavorativa superiore a quella propria del lavoro ad economia, non possono essere retribuiti a cottimo, parteciperanno ai benefici del cottimo in relazione al proprio contributo. La misura della partecipazione di cui sopra si intende riferita alle caratteristiche di ciascuna azienda.
+L'azienda, tramite la propria Associazione sindacale, comunicherà  ai Sindacati provinciali dei lavoratori i criteri generali di determinazione della percentuale di partecipazione.
+L'azienda porterà  tempestivamente a conoscenza dei concottimisti la misura della loro partecipazione, nonchà© le sue variazioni, qualora trasformazioni della situazione tecnica od organizzativa della produzione comportassero modificazioni nei criteri di attribuzione.
+23) I reclami riguardanti l'applicazione delle norme del presente articolo ed in particolare quelli relativi:
+a) alle varie ipotesi di garanzia di conseguimento del guadagno minimo di
+
+cottimo;
+b) alle tariffe in assestamento;
+c) in caso di modifiche tecniche od organizzative nelle condizioni di esecuzione del lavoro, circa la rispondenza delle variazioni delle tariffe alle variazioni di tempo in pià¹ od in meno determinate dalle modifiche suddette;
+d) alle variazioni contingenti nelle condizioni di esecuzione del lavoro di cui al punto 15);
+e) al conteggio ed alla liquidazione dei cottimi;
+f) al passaggio dal lavoro a cottimo a quello ad economia;
+saranno presentati dai lavoratori alle persone incaricate dalla Direzione.
+Nel caso in cui il lavoratore non ritenga soddisfacente l'esito, potrà  avanzare reclamo scritto alla Direzione tramite la Rappresentanza sindacale unitaria perchà© venga esperito il tentativo di conciliazione.
+Tale tentativo dovrà  esaurirsi entro il pià¹ breve tempo possibile e comunque non oltre 7 giorni lavorativi.
+Nel caso di mancato accordo la controversia verrà  esaminata entro i 15 giorni successivi in sede sindacale tra le rispettive Organizzazioni sindacali territoriali.
+24) Ai fini del calcolo del guadagno di cottimo rimangono salvi gli assorbimenti già  effettuati secondo le modalità  di cui all'articolo 4, punto A), Disciplina generale, Sezione seconda del CCNL 19 aprile 1973.
+
+PROTOCOLLO DI CHIARIMENTO ALL'ARTICOLO 2, PUNTO 5).
+Qualora l'azienda non adotti il cronometraggio od altri sistemi di misurazione dei tempi indicherà  che le produzioni normali sono fissate in base a stima.
+Qualora proceda al cronometraggio con sistemi di misurazione ne darà  indicazione specificando, ove esista, il metodo seguito. L'azienda indicherà  inoltre i criteri generali per l'adozione dei coefficienti di correzione dei tempi.
+L'azienda indicherà  altresà¬ il metodo ed il modo di calcolo degli utili di cottimo (ad esempio: moltiplicazione della paga oraria per il tempo risparmiato, rispetto a quello assegnato che sarà  stato comunicato al lavoratore).
+
+Art. 3. - Mensilizzazione.
+La retribuzione dei lavoratori è determinata in misura fissa mensile.
+La retribuzione oraria dei lavoratori ai fini dei vari istituti contrattuali, si determina dividendo per 173 i minimi tabellari della classificazione unica, gli aumenti periodici di anzianità , gli aumenti di merito nonchà© gli altri compensi eventualmente fissati a mese. A tale importo si aggiungeranno gli eventuali elementi orari della retribuzione quali, ad esempio, incentivi, indennità  varie, ecc..
+Inoltre, per gli addetti lavoranti a cottimo e per i concottimisti si aggiungerà rispettivamente il rendimento di cottimo e di concottimo.
+
+170 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+NORMA TRANSITORIA
+
+Ai lavoratori in forza al 31 dicembre 2008 a cui si applicava la Disciplina Speciale, Parte Prima, a partire dall'anno 2009 con la retribuzione del mese di dicembre verrà  riconosciuta un'erogazione annua ragguagliata a 11 ore e 10 minuti quale Elemento individuale annuo di mensilizzazione non assorbibile ex CCNL 20 gennaio 2008.
+In caso di risoluzione del rapporto di lavoro al lavoratore spetterà  il pagamento dell'Elemento sopra definito in proporzione dei dodicesimi maturati. La frazione di mese superiore ai 15 giorni sarà  considerata, a questi effetti, come mese intero.
+
+Art. 4. - Corresponsione della retribuzione.
+La retribuzione deve essere corrisposta al lavoratore non oltre la fine di ogni mese.
+Sono fatte salve le prassi aziendali esistenti comprese quelle riguardanti il pagamento della retribuzione delle ferie (collettive e/o continuative) all'inizio del godimento delle stesse.
+All'atto del pagamento della retribuzione verrà  consegnato al lavoratore un prospetto retributivo in cui dovranno essere distintamente specificate: la ragione sociale dell'azienda, il nome del lavoratore, il mese cui la retribuzione si riferisce, nonchà© le singole voci e rispettivi importi costituenti la retribuzione stessa e l'elencazione delle trattenute.
+Tanto in pendenza del rapporto di lavoro quanto alla fine di esso, in caso di contestazione su uno o pià¹ elementi costitutivi della retribuzione, dovrà  essere intanto corrisposta al lavoratore la parte della retribuzione non contestata, contro il rilascio da parte del lavoratore stesso della quietanza per la somma corrisposta.
+Nel caso in cui l'azienda ritardi il pagamento delle competenze di cui sopra dovute al lavoratore oltre quindici giorni, decorreranno di pieno diritto a favore del suindicato lavoratore gli interessi nella misura del 5 per cento in pià¹ del tasso ufficiale di sconto, con decorrenza dalla data della rispettiva scadenza. In tale caso detto lavoratore potrà  risolvere il rapporto di lavoro con diritto anche all'indennità di mancato preavviso. In casi particolari il predetto termine di quindici giorni potrà essere prolungato mediante accordo tra le Organizzazioni sindacali interessate.
+
+Art. 5. - Minimi tabellari e determinazione della quota di retribuzione oraria.
+I minimi tabellari mensili della classificazione unica dei lavoratori sono quelli riportati nelle tabelle allegate con le rispettive date di decorrenza.
+A decorrere dal 1Â° luglio 1999 nei minimi tabellari sono conglobati gli importi dell'ex indennità  di contingenza secondo i valori riportati nella seguente tabella:
+
+Categorie Livelli Importi mensili dell'ex indennità  di contingenza Precedenti Attuali (in euro)
+
+1 a Eliminata dal 511,26 1Â° giugno 2021 2a D1 514,03 3a D2 516,07 a 4 C2 517,83 5a C3 521,08 a 5 Super B1 523,45 6a B2 526,99 a 7 B3 530,91
+
+A decorrere dal 1Â° gennaio 2013 nei minimi tabellari è conglobato l'importo dell'Elemento distinto della retribuzione di cui all'Accordo Interconfederale del 31 luglio 1992.
+La retribuzione oraria viene determinata sulla base del divisore 173.
+
+Art. 6. - Aumenti periodici di anzianità .
+Il lavoratore per ogni biennio di anzianità  di servizio maturato presso la stessa azienda o gruppo aziendale (intendendosi per tale il complesso industriale facente capo alla stessa società ) avrà  diritto, a titolo di aumento periodico di anzianità , indipendentemente da qualsiasi aumento di merito ad una maggiorazione della retribuzione mensile in cifra fissa, fatto salvo quanto specificamente previsto nelle successive Norme transitorie, pari agli importi di cui alla seguente tabella:
+
+Categorie Livelli Importi in vigore dal 1Â° gennaio 2001 Precedenti Attuali (in euro)
+
+Eliminata dal 1a 1Â° giugno 2021 18,49
+
+2a D1 21,59 a a 3 e 3 Super D2 e C1 25,05 4a C2 26,75 a 5 C3 29,64 5a Super B1 32,43 a 6 B2 36,41 7a e 8a Quadri B3 e A1 40,96
+
+172 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+Ai fini del computo degli aumenti periodici si considera un massimo di 5 bienni.
+Gli aumenti periodici non debbono essere considerati agli effetti dei cottimi e delle altre forme di incentivo e di tutti gli istituti che non facciano espresso riferimento alla retribuzione globale di fatto.
+Gli aumenti periodici non potranno comunque essere assorbiti da precedenti o successivi aumenti di merito, nà© gli aumenti di merito potranno essere assorbiti dagli aumenti periodici maturati o da maturare.
+Gli aumenti periodici decorreranno dal primo giorno del mese immediatamente successivo a quello in cui si compie il biennio di anzianità .
+Gli aumenti periodici di cui al presente articolo assorbono fino a concorrenza gli aumenti eventualmente già  concessi per lo stesso titolo.
+A decorrere dal 1Â° febbraio 2008 in caso di passaggio a categoria superiore il lavoratore conserva l'anzianità  di servizio ai fini degli aumenti periodici di anzianità  nonchà© il numero degli stessi il cui valore sarà  ragguagliato agli importi previsti per la categoria di arrivo.
+
+NORME TRANSITORIE.
+1) Lavoratori in forza alla data del 16 luglio 1979 già  appartenenti alla Disciplina speciale, Parte terza.
+I lavoratori di cui alla Parte terza, già  in forza alla data del 16 luglio 1979, proseguono nella maturazione dei dodici aumenti periodici di anzianità .
+Gli aumenti periodici di nuova maturazione saranno ragguagliati agli importi previsti nella tabella di cui al precedente primo comma. Per quelli già  maturati vale quanto previsto alle successive lettere a), b) e c).
+a) Gli aumenti periodici maturati prima del 1Â° gennaio 1980 rimangono fissati, fino al 31 dicembre 2000, negli importi in atto alla data del 31 dicembre 1998; a decorrere dal 1Â° gennaio 2001 saranno, sulla base della categoria di appartenenza, aumentati dei seguenti importi:
+Categorie Livelli Importi unitari dal 1Â° gennaio 2001 Precedenti Attuali (in euro)
+
+2a D1 0,61 3a e 3a Super D2 e C1 0,75 4 a C2 0,77 5a C3 0,88 a 5 Super B1 0,96 6a B2 1,07 a 7 e 8 Quadria B3 e A1 1,17
+
+Rimane ferma la corresponsione, per ciascun aumento periodico maturato fino al 31 dicembre 1979, della somma di 1,55 euro (pari a 3.000 lire) che costituisce apposito elemento retributivo non assorbibile in caso di passaggio del lavoratore a categoria superiore.
+b) Gli importi maturati dopo il 1Â° gennaio 1980 e rispettivamente fino al:
+- 31 dicembre 1990, per la 2a categoria;
+- 28 febbraio 1989, per la 3a categoria;
+- 29 febbraio 1988, per la 4a categoria;
+- 31 gennaio 1987, per la 5a, livello superiore della 5a e 6a categoria;
+- 31 dicembre 1984, per la 7a categoria, continueranno ad essere convenzionalmente computati, per i diversi livelli retributivi, nei valori pari a quelli in atto alla data del 31 dicembre 1979.
+c) Gli aumenti periodici maturati in date successive a quelle indicate alla precedente lettera b) saranno ragguagliati agli importi di cui alla tabella contenuta nel primo comma del presente articolo.
+2) Lavoratori in forza alla data del 16 luglio 1979 e già  appartenenti alla Disciplina speciale, Parte seconda.
+a) Gli aumenti periodici maturati prima del 1Â° gennaio 1980 rimangono fissati, fino al 31 dicembre 2000, negli importi in atto alla data del 31 dicembre 1998; a decorrere dal 1Â° gennaio 2001 saranno, sulla base della categoria di appartenenza, aumentati dei seguenti importi:
+
+Categorie Livelli Importi unitari dal 1Â° gennaio 2001 Precedenti Attuali (in euro)
+
+4a C2 0,77 5a C3 0,88 a 5 Super B1 0,96
+
+Rimane ferma la corresponsione, per ciascun aumento periodico maturato fino al 31 dicembre 1979, della somma di 1,55 euro (pari a 3.000 lire) che costituisce apposito elemento retributivo non assorbibile in caso di passaggio del lavoratore a categoria superiore.
+b) Gli importi maturati dopo il 1Â° gennaio 1980 e rispettivamente fino al :
+- 29 febbraio 1988, per la 4a categoria;
+- 31 gennaio 1987, per la 5a categoria, continueranno ad essere convenzionalmente computati, per i diversi livelli retributivi, nei valori pari a quelli in atto alla data del 31 dicembre 1979.
+c) Gli aumenti periodici maturati in date successive a quelle indicate alla precedente lettera b) saranno ragguagliati agli importi di cui alla tabella contenuta nel primo comma del presente articolo.
+
+174 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+3) Lavoratori in forza alla data del 16 luglio 1979 e già  appartenenti alla Disciplina speciale, Parte prima.
+Gli aumenti periodici maturati fino al 31 dicembre 1979 dagli appartenenti alla Parte prima rimangono congelati in cifra e costituiscono apposito elemento retributivo non assorbibile in caso di passaggio del lavoratore a categoria superiore.
+Ai lavoratori di cui alla Parte prima del CCNL 16 luglio 1979, a decorrere dal 1Â° gennaio 1980 in relazione alla introduzione del nuovo sistema, verrà  erogata la somma di 0,77 euro (pari a lire 1.500) per ciascun aumento periodico già maturato al 31 dicembre 1979, nei confronti dei quali gli aumenti periodici siano stati finora calcolati su minimo tabellare e contingenza. Detta somma confluirà nell'apposito elemento retributivo di cui al comma precedente.
+Qualora esista in singole aziende per i lavoratori della categoria operaia, in forza alla data di stipulazione del Contratto 16 luglio 1979, un numero di aumenti periodici uguale a quello previsto dal CCNL 1Â° maggio 1976 per i lavoratori di cui alla Disciplina speciale, Parte terza, o comunque superiore a cinque, esso verrà  conservato ad esaurimento limitatamente ai lavoratori in forza secondo le norme previste.
+4) Per i lavoratori assunti precedentemente al 1Â° gennaio 1990 e con età  inferiore ai 20 anni, si richiama quanto disposto all'articolo 9, Disciplina speciale, Parte terza, e dall'articolo 16, Disciplina speciale, Parte prima, del CCNL 14 dicembre 1990.
+
+Art. 7. - Tredicesima mensilità .
+L'azienda è tenuta a corrispondere per ciascun anno al lavoratore, in occasione della ricorrenza natalizia, una tredicesima mensilità  di importo ragguagliato alla retribuzione globale di fatto. Per i lavoratori retribuiti a cottimo si farà  riferimento al guadagno medio orario del mese precedente ragguagliato a 173 ore.
+La corresponsione deve avvenire, normalmente, alla vigilia di Natale.
+Nel caso di inizio o di cessazione del rapporto di lavoro durante il corso dell'anno, il lavoratore ha diritto a tanti dodicesimi dell'ammontare della 13a mensilità  quanti sono i mesi di anzianità  di servizio presso l'azienda. La frazione di mese superiore a 15 giorni va considerata a questi effetti come mese intero.
+Il periodo di prova è utile per il calcolo dei dodicesimi di cui sopra.
+
+DICHIARAZIONE A VERBALE.
+Ai soli fini dei rapporti con gli Enti previdenziali e senza pregiudizio per la retribuzione contrattualmente dovuta ai lavoratori, le parti dichiarano che la quota di tredicesima mensilità  e di eventuali altre retribuzioni differite, corrisposta al lavoratore per i periodi di sospensione della prestazione di lavoro relativi a malattia, infortunio non sul lavoro, gravidanza e puerperio, è a carico dell'azienda esclusivamente ad integrazione della parte di tale quota indennizzata in forza di disposizioni legislative.
+
+Art. 8. - Mense aziendali e indennità  di mensa.
+Tenendo conto della grande varietà  di situazioni in atto che rende difficile una regolamentazione generale, si conviene che saranno mantenute le mense esistenti, salva la facoltà  di accordi locali o aziendali sulla materia.
+Premesso che la computabilità  dell'indennità  di mensa nella retribuzione valevole ai fini degli istituti contrattuali e di legge è disciplinata dall'Accordo interconfederale 20 aprile 1956, recepito in legge con D.P.R. 14 luglio 1960, n. 1026 e dagli accordi aziendali in materia, le parti confermano che l'equivalente del costo della mensa sostenuto dal datore di lavoro non è computabile agli effetti del calcolo del trattamento di fine rapporto di cui all'articolo 2120 del Codice civile nà© degli altri istituti contrattuali e di legge.
+
+Art. 9. - Indennità  di alta montagna e di sottosuolo.
+Particolari indennità  devono essere fissate tra le Associazioni industriali e le Organizzazioni sindacali provinciali di categoria competenti per territorio per i lavoratori che esplichino la propria attività  in alta montagna (oltre 1.500 mt. di altezza) o nel sottosuolo o che vi siano trasferiti.
+
+Art. 10. - Indennità  per disagiata sede.
+Qualora nella località  ove il lavoratore svolge normalmente la sua attività  non esistano possibilità  di alloggio, nà© adeguati mezzi pubblici di trasporto che colleghino la località  stessa con centri abitati, ed il perimetro del pià¹ vicino centro abitato disti almeno km. 5, le parti direttamente interessate esamineranno la situazione ai fini della eventuale determinazione della particolare indennità .
+
+Art. 11. - Indennità  maneggio denaro. Cauzione.
+Il lavoratore, la cui normale mansione consista nel maneggio di denaro per riscossioni e pagamenti, con responsabilità  per errore anche finanziaria, ha diritto ad una particolare indennità  mensile pari al 6 per cento del minimo tabellare del livello di appartenenza.
+Le somme eventualmente richieste a detto lavoratore a titolo di cauzione, dovranno essere depositate e vincolate a nome del garante e del garantito, presso un Istituto di credito di comune gradimento.
+I relativi interessi matureranno a favore di detto lavoratore.
+
+Art. 12. - Premio di risultato.
+Nelle aziende di cui al punto 5) della Premessa al presente Contratto la contrattazione aziendale con contenuti economici è consentita per l'istituzione di un
+
+176 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+Premio annuale calcolato solo con riferimento ai risultati conseguiti nella realizzazione di programmi, concordati tra le parti, aventi come obiettivo incrementi di produttività , di qualità , di redditività  ed altri elementi rilevanti ai fini del miglioramento della competitività  aziendale nonchà© ai risultati legati all'andamento economico dell'impresa.
+Al fine di acquisire elementi di conoscenza comune per la definizione degli obiettivi della contrattazione aziendale, le parti, di cui al punto 6) della Premessa, esamineranno preventivamente, in un apposito incontro in sede aziendale, le condizioni produttive ed occupazionali e le relative prospettive, tenendo conto dell'andamento della competitività  e delle condizioni essenziali di redditività dell'azienda.
+Gli importi, i parametri ed i meccanismi utili alla determinazione quantitativa dell'erogazione connessa al Premio di risultato saranno definiti contrattualmente dalle parti in sede aziendale, in coerenza con gli elementi di conoscenza di cui al comma precedente, assumendo quali criteri di riferimento uno o pià¹ di uno tra quelli indicati al primo comma.
+Gli importi erogabili saranno calcolati con riferimento ai risultati conseguiti e comunicati alla Rappresentanza sindacale unitaria entro il mese di luglio dell'anno successivo a quello cui si riferiscono i risultati; avranno diritto alla corresponsione del Premio i lavoratori in forza in tale data. Nella medesima occasione la Direzione aziendale fornirà  alla Rappresentanza sindacale aziendale informazioni circa gli andamenti delle variabili assunte a riferimento per la determinazione del Premio.
+L'erogazione del Premio avrà  le caratteristiche di non determinabilità  a priori, sarà  totalmente variabile in funzione dei risultati conseguiti ed avverrà  secondo criteri e modalità  aziendalmente definiti dalle parti.
+Il Premio come sopra definito sarà  ad ogni effetto di competenza dell'anno di erogazione, in quanto il riferimento ai risultati conseguiti è assunto dalle parti quale parametro di definizione per individuarne l'ammontare.
+Dal 1Â° luglio 1994 non trova pià¹ applicazione la disciplina per l'istituzione del Â«premio di produzioneÂ» di cui all'articolo 9 del CCNL 14 dicembre 1990 e l'indennità  sostitutiva di cui al punto 4 dell'articolo sopracitato, per le aziende dalla stessa interessate, resta definitivamente fissata negli importi in essere al 30 giugno 1994 ai fini della retribuzione dei lavoratori.
+I premi di produzione di cui al comma precedente, gli altri premi ed istituti retributivi di analoga natura eventualmente già  presenti in azienda non saranno pià¹ oggetto di successiva contrattazione; in riferimento ai loro importi già  concordati e consolidati alla data del 30 giugno 1994, le parti, all'atto dell'istituzione del Premio di risultato di cui al presente articolo, procederanno alla loro armonizzazione, fermo restando che da tale operazione non dovranno derivare nà© oneri per le aziende nà© perdite per i lavoratori.
+
+NOTA A VERBALE Il presente Contratto definisce le procedure della contrattazione con caratteristiche innovative rispondenti allo spirito del Protocollo del 23 luglio 1993.
+In questo quadro, qualora si verifichino contenziosi sull'applicazione della procedura definita, le Organizzazioni sindacali territoriali delle parti, le Rappresentanze sindacali unitarie e le imprese, anche disgiuntamente, potranno chiedere l'intervento delle parti stipulanti il presente CCNL, che terranno un apposito incontro nel quale formuleranno le loro valutazioni in oggetto.
+
+NORMA CONCORDATA NEL VERBALE DI ACCORDO STIPULATO IN SEDE MINISTERIALE IL 4 FEBBRAIO 1997.
+Fermo restando quanto previsto dall'Accordo interconfederale del 23 luglio 1993, le parti riconfermano che la contrattazione aziendale avente contenuto economico, dovrà  riguardare esclusivamente erogazioni legate ai risultati conseguiti in termini di incrementi di elementi variabili, quali produttività , qualità , redditività ed altri elementi rilevanti per il miglioramento della competitività  aziendale, conseguiti attraverso la realizzazione di programmi concordati tra le parti.
+Al fine di assicurare il rispetto di tali criteri, qualora una delle parti lo richieda, potrà  essere attivata una sessione di esame tesa al superamento della controversia secondo quanto previsto dal secondo comma dell'articolo 17, Disciplina generale, Sezione terza, (attuale articolo 7, Sezione quarta, Titolo VII) a livello delle strutture territoriali ed eventualmente nazionali, della durata complessiva di 20 giorni.
+
+LINEE GUIDA PER LA DIFFUSIONE DEL PREMIO DI RISULTATO Le parti al fine di favorire la diffusione della contrattazione aziendale con contenuti economici collegati ai risultati con particolare riferimento alle imprese di minore dimensione, in data 28 luglio 2010 hanno concordato apposite â€œLinee guidaâ€ e una specifica procedura per le aziende in cui non sia stata costituita la RSU riportate nell'Allegato n. 5 al presente Contratto.
+
+DICHIARAZIONE COMUNE Le parti convengono che tra i criteri di attribuzione individuale del Premio di Risultato da definire in sede di contrattazione aziendale potrà  essere preso a riferimento l'effettivo svolgimento delle prestazioni richieste connesse ai sistemi di flessibilità  previsti dal CCNL o dagli accordi aziendali.
+
+Art. 13. - Elemento perequativo.
+A decorrere dal 2008, ai lavoratori in forza al 1Â° gennaio di ogni anno nelle aziende prive di contrattazione di secondo livello riguardante il Premio di risultato o altri
+
+178 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+istituti retributivi comunque soggetti a contribuzione e che nel corso dell'anno precedente (1Â° gennaio - 31 dicembre) abbiano percepito un trattamento retributivo composto esclusivamente da importi retributivi fissati dal CCNL (lavoratori privi di superminimi collettivi o individuali, premi annui o altri importi retributivi comunque soggetti a contribuzione), è corrisposta, a titolo perequativo, con la retribuzione del mese di giugno, una cifra annua pari a 260 euro, onnicomprensiva e non incidente sul Tfr ovvero una cifra inferiore fino a concorrenza in caso di presenza di retribuzioni aggiuntive a quelle fissate dal CCNL, in funzione della durata, anche non consecutiva, del rapporto di lavoro nel corso dell'anno precedente. La frazione di mese superiore a 15 giorni sarà  considerata, a questi effetti, come mese intero.
+A decorrere dal 1Â° gennaio 2011 l'importo sopra riportato è elevato a 455 euro.
+A decorrere dal 1Â° gennaio 2014 l'Elemento Perequativo è elevato a 485 euro.
+Nel caso di risoluzione del rapporto di lavoro antecedentemente al momento di corresponsione dell'elemento perequativo, fermo restando i criteri di maturazione dello stesso, il suddetto importo verrà  corrisposto all'atto della liquidazione delle competenze.
+L'elemento perequativo come sopra definito sarà  ad ogni effetto di competenza dell'anno di erogazione in quanto il riferimento ai trattamenti retributivi percepiti è assunto dalle parti quale parametro di riferimento ai fini del riconoscimento dell'istituto.
+
+Art. 14. - Reclami sulla retribuzione.
+Qualsiasi reclamo sulla rispondenza della somma pagata a quella indicata sulla busta paga o documento equipollente, nonchà© sulla qualità  della moneta dovrà essere fatto all'atto del pagamento; il lavoratore che non vi provveda perde ogni diritto al reclamo per cià² che riguarda il denaro contenuto nella busta stessa. Gli errori di pura contabilità  dovranno essere contestati dal lavoratore entro un anno dal giorno del pagamento affinchà© il competente ufficio dell'azienda possa provvedere al regolamento delle eventuali differenze.
+
+Art. 15. - Previdenza Complementare.
+I lavoratori ai quali si applica il presente Contratto possono volontariamente iscriversi al Fondo pensione nazionale di categoria - COMETA - costituito allo scopo di erogare prestazioni pensionistiche complementari.
+A decorrere dal 1Â° giugno 2017, a favore dei lavoratori iscritti le aziende contribuiscono con un'aliquota pari al 2% dei minimi contrattuali.
+A decorrere dal 1Â° giugno 2017 i lavoratori iscritti hanno diritto alla contribuzione di cui al comma precedente versando una contribuzione almeno pari all'1,2% del minimo contrattuale, mediante trattenuta mensile in busta paga, salvo l'esercizio di opzioni individuali per contribuzioni pià¹ elevate.
+
+Per i lavoratori di nuova adesione dopo il 5 febbraio 2021 e con età  inferiore ai 35 anni compiuti, la contribuzione a carico del datore di lavoro, a decorrere dal 1Â° giugno 2022, è elevata al 2,2% dei minimi contrattuali.
+A favore dei medesimi lavoratori l'azienda verserà  al Fondo pensione il trattamento di fine rapporto maturato nell'anno secondo quanto previsto dalle disposizioni vigenti. I lavoratori iscritti alla previdenza obbligatoria in data antecedente al 29 aprile 1993 possono optare all'atto dell'iscrizione a COMETA per una quota annua di trattamento di fine rapporto da destinare al Fondo pensione pari al 40%.
+L'obbligo contributivo cosà¬ come disciplinato ai commi precedenti, è assunto dalle imprese solo ed esclusivamente nei confronti dei lavoratori iscritti al Fondo COMETA di cui al primo comma.
+All'atto dell'iscrizione del singolo lavoratore a Cometa si procederà  al versamento di un importo di 5,16 euro a carico azienda e di 5,16 euro a carico lavoratore a titolo di quota di iscrizione.
+Al fine di favorire l'adesione al Fondo, quale strumento di integrazione pensionistica del sistema previdenziale pubblico, le aziende, una volta all'anno, consegneranno ai lavoratori non iscritti una scheda informativa contenente indicazioni sui vantaggi derivanti dall'iscrizione a Cometa e, a tutti i lavoratori, eventuale materiale informativo.
+La scheda informativa ed il materiale informativo di cui al comma precedente saranno predisposti dagli uffici del Fondo Cometa in accordo con le Parti istitutive del Fondo e disponibili sul sito www.Cometafondo.it.
+Le parti promuoveranno anche iniziative congiunte al fine di informare e sensibilizzare i lavoratori sulla importanza della Previdenza complementare.
+Per quanto qui non espressamente richiamato valgono le disposizioni di legge vigenti e quanto previsto dagli accordi in materia disponibili anche sul sito www.Cometafondo.it.
+
+DICHIARAZIONE A VERBALE Le parti firmatarie del presente Contratto, confermando la scelta di considerare il Fondo nazionale di categoria COMETA come lo strumento pià¹ idoneo a soddisfare i bisogni previdenziali dei lavoratori metalmeccanici, sollecitano coerenti provvedimenti di legge finalizzati allo sviluppo dei Fondi negoziali.
+In particolare, si impegnano mediante apposite iniziative a sollecitare le istituzioni deputate ad introdurre una minore tassazione dei rendimenti finanziari e a definire interventi normativi che, con precise garanzie a tutela del risparmio previdenziale e della sua rivalutazione, favoriscano gli investimenti nell'economia reale in modo da consentire migliori rendimenti finanziari per i lavoratori ed un sostegno alla crescita economica del nostro Paese.
+Le parti si impegnano, altresà¬, a perseguire una politica che favorisca gli investimenti socialmente responsabili.
+
+180 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+Art. 16. - Assistenza Sanitaria Integrativa.
+A decorrere dal 1Â° ottobre 2017, e fermo restando quanto previsto ai commi 7 e 8, tutti i lavoratori in forza alla medesima data sono iscritti al Fondo di assistenza sanitaria integrativa mètaSalute costituito allo scopo di erogare prestazioni integrative rispetto a quelle fornite dal Servizio Sanitario Nazionale, fatta salva la facoltà  di esercitare rinuncia scritta.
+I lavoratori assunti successivamente a tale data saranno iscritti al Fondo con la prima finestra utile cosà¬ come definite nel Regolamento di mètaSalute.
+Hanno diritto all'iscrizione al Fondo i lavoratori, non in prova, con contratto a tempo indeterminato compresi i lavoratori part-time, con contratto di apprendistato e con contratto a tempo determinato di durata non inferiore a 5 mesi a decorrere dalla data di iscrizione; in tale ultimo caso l'iscrizione è automaticamente prolungata in caso di proroga del contratto.
+Per i suddetti lavoratori è prevista a decorrere dal 1Â° ottobre 2017 una contribuzione pari a 156 euro annui (suddivisi in 12 quote mensili da 13 euro l'una) a totale carico dell'azienda comprensiva delle coperture per i familiari fiscalmente a carico ivi compresi i conviventi di fatto ai sensi della legge n. 76 del 20 maggio 2016 con analoghe condizioni reddituali.
+La contribuzione di cui al comma precedente è altresà¬ dovuta: per i lavoratori in aspettativa per malattia, per i periodi di congedo parentale, per i periodi di sospensione per i quali è corrisposta la retribuzione e/o indennità  a carico dell'Istituto previdenziale, per i lavoratori sospesi che beneficiano dell'istituto della CIG in tutte le sue tipologie e, per un periodo massimo di 12 mesi, per i lavoratori cessati a seguito di procedura di licenziamento collettivo di cui alla legge n. 223/1991 ovvero ai sensi dell'articolo 7, legge n. 604/1966, che beneficiano della NASPI.
+L'iscrizione al fondo e la messa in copertura con la polizza sanitaria di mètaSalute è altresà¬ prevista per i lavoratori distaccati all'estero qualora il lavoratore o i suoi familiari fiscalmente a carico non godano di una polizza sanitaria predisposta dall'azienda.
+Potranno iscriversi, con copertura a loro totale carico, secondo le modalità  e gli importi previsti dal Regolamento del Fondo, i familiari non fiscalmente a carico appartenenti al nucleo familiare ivi compresi i conviventi di fatto.
+Potranno, inoltre, iscriversi anche i lavoratori che hanno cessato l'attività  lavorativa e maturato due anni di anzianità  di iscrizione al Fondo in maniera continuativa all'atto di andare in pensione; sono compresi coloro che hanno maturato i suddetti criteri entro la data di avvio della gestione separata Pensionati.
+L'importo a totale carico del pensionato, le modalità  del versamento del contributo e le prestazioni da erogare saranno stabilite dal CdA di mètaSalute tenuto conto delle indicazioni fornite dalle Parti Istitutive.
+In presenza di forme di sanità  integrativa unilateralmente riconosciute dal datore di lavoro la contribuzione a carico dell'azienda per ogni singolo dipendente non potrà  essere inferiore a decorrere dal 1Â° ottobre 2017 a 156 euro annui (suddivisi in 12 quote mensili da 13 euro l'una).
+Nel caso in cui siano già  presenti in azienda forme di sanità  integrativa derivanti da accordi collettivi, ai lavoratori non coperti o già  aderenti a mètaSalute si applica quanto previsto dal primo comma; per i lavoratori coperti da altre forme di assistenza sanitaria integrativa le parti in sede aziendale procederanno ad una armonizzazione dei contenuti dell'accordo anche al fine di adeguare la contribuzione a carico del datore di lavoro in misura non inferiore a 156 euro annui entro il 31 dicembre 2017.
+
+DICHIARAZIONE DELLE PARTI Ai fini di quanto previsto ai commi 7 e 8, l'importo di 156 euro annui, includendo la copertura per i familiari fiscalmente a carico ivi compresi i conviventi di fatto ai sensi della legge n. 76 del 20 maggio 2016 con analoghe condizioni reddituali, costituiscono l'unico parametro di riferimento per il confronto con altre forme di assistenza sanitaria integrativa fornite da eventuali diversi gestori.
+
+Art. 17. - Welfare.
+Entro il 1Â° giugno di ciascun anno le aziende dovranno mettere a disposizione dei lavoratori strumenti di welfare, elencati in via esemplificativa in calce al presente articolo, del valore di 200 euro da utilizzare entro il 31 maggio dell'anno successivo.
+I suddetti valori sono onnicomprensivi ed espressamente esclusi dalla base di calcolo del trattamento di fine rapporto.
+Hanno diritto a quanto sopra i lavoratori, superato il periodo di prova, in forza al 1Â° giugno di ciascun anno o successivamente assunti entro il 31 dicembre di ciascun anno:
+- con contratto a tempo indeterminato;
+- con contratto a tempo determinato che abbiano maturato almeno tre mesi, anche non consecutivi, di anzianità  di servizio nel corso di ciascun anno (1Â° gennaio-31 dicembre).
+Sono esclusi i lavoratori in aspettativa non retribuita nà© indennizzata nel periodo 1Â° giugno-31 dicembre di ciascun anno.
+I suddetti valori non sono riproporzionabili per i lavoratori part-time e sono comprensivi esclusivamente di eventuali costi fiscali o contributivi a carico dell'azienda.
+Quanto sopra previsto si aggiunge alle eventuali offerte di beni e servizi presenti in azienda sia unilateralmente riconosciute per regolamento, lettera di assunzione o altre modalità  di formalizzazione, che derivanti da accordi collettivi.
+In caso di accordi collettivi le Parti firmatarie dei medesimi accordi potranno armonizzare i criteri e le modalità  di riconoscimento previsti dal presente articolo.
+Ai fini dell'applicazione di quanto previsto dal presente articolo, le aziende
+
+182 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+si confronteranno con la RSU per individuare, tenuto conto delle esigenze dei lavoratori, della propria organizzazione e del rapporto con il territorio, una gamma di beni e servizi coerente con le caratteristiche dei dipendenti e finalizzata a migliorare la qualità  della loro vita personale e familiare privilegiando quelli con finalità  di educazione, istruzione, ricreazione e assistenza sociale e sanitaria o culto.
+I lavoratori hanno comunque la possibilità  di destinare i suddetti valori, di anno in anno, al Fondo Cometa o al Fondo mètaSalute, secondo regole e modalità previste dai medesimi Fondi, fermo restando che il costo massimo a carico dell'azienda per ciascun anno non puà² superare i 200 euro.
+Le strutture territoriali delle Organizzazioni stipulanti forniranno adeguate informazioni, rispettivamente ad imprese e lavoratori, sui contenuti della presente disciplina ed, altresà¬, ne monitoreranno l'applicazione nel territorio di riferimento.
+In sede nazionale, le Parti stipulanti valuteranno l'andamento dell'attuazione della presente disciplina, tenendo conto dell'evoluzione normativa, anche al fine di definire congiuntamente indicazioni e/o soluzioni rivolte in particolare alle PMI.
+
+DICHIARAZIONI A VERBALE DEL 29 SETTEMBRE 2017 Le Parti precisano che le date del 1Â° giugno di cui al primo comma della presente disciplina devono intendersi come il termine entro il quale l'azienda deve mettere effettivamente a disposizione dei lavoratori gli strumenti di welfare.
+Le Parti precisano altresà¬ che i valori indicati al primo comma della presente disciplina sono riconosciuti un'unica volta nel periodo di competenza nel caso di lavoratori reiteratamente assunti o utilizzati con varie tipologie contrattuali (contratto a tempo determinato, somministrazione, ecc.) presso la medesima azienda.
+
+STRUMENTI DI WELFARE - ESEMPLIFICAZIONI
+
+OPERE E SERVIZI PER FINALITà€ SOCIALI
+
+- Riferimento normativo: Art. 51, comma 2 lett. f del TUIR - Regime fiscale e contributivo: non soggetti - Soggetti beneficiari: dipendenti e i familiari anche se non fiscalmente a carico - Modalità  di erogazione (non è ammessa l'erogazione sostitutiva in denaro):
+â€¢ Strutture di proprietà  dell'azienda o di fornitori terzi convenzionati â€¢ Pagamento diretto del datore di lavoro al fornitore del servizio (e non direttamente al lavoratore) â€¢ Possibile utilizzo di una piattaforma elettronica â€¢ Documento di legittimazione nominativo (c.d. voucher), in formato cartaceo o elettronico, riportante un valore nominale con diritto ad una sola prestazione, opera o servizio per l'intero valore nominale, senza integrazioni a carico del lavoratore (no buoni sconto)
+
+FINALITà€ SERVIZI
+
+- Corsi extraprofessionali EDUCAZIONE - Corsi di formazione e istruzione (es. corsi di lingue) e ISTRUZIONE - Servizi di orientamento allo studio
+
+- Abbonamenti o ingressi a cinema e teatri, pay tv, â€¦ - Abbonamenti o ingressi a palestre, centri sportivi, impianti sciistici, Spa, â€¦ - Abbonamenti a testate giornalistiche, quotidiani, â€¦ RICREAZIONE - Viaggi (pacchetti completi), pacchetti case vacanza - Biglietteria e prenotazione di viaggi, soggiorni e vacanze - Attività  culturali (mostre e musei) - Biblioteche - Attività  ricreative varie (eventi sportivi, spettacoli,â€¦)
+
+- Assistenza domiciliare ASSISTENZA - Badanti SOCIALE - Case di riposo (R.S.A.)
+
+- Checkup medici - Visite specialistiche ASSISTENZA - Cure odontoiatriche SANITARIA - Terapie e riabilitazione - Sportello ascolto psicologico
+
+CULTO - Pellegrinaggi (pacchetti completi)
+
+184 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+SOMME, SERVIZI E PRESTAZIONI DI EDUCAZIONE E ISTRUZIONE E PER L'ASSISTENZA A FAMILIARI ANZIANI E/O NON AUTOSUFFICIENTI
+
+- Riferimento normativo: Art. 51 comma 2 lett. f-bis, f-ter del TUIR - Regime fiscale e contributivo: non soggetti - Soggetti beneficiari: familiari dei dipendenti anche se non fiscalmente a carico - Modalità  di erogazione:
+â€¢ Strutture di proprietà  dell'azienda o di fornitori terzi convenzionati â€¢ àˆ ammesso il rimborso monetario da parte del datore di lavoro delle spese sostenute dal lavoratore, previa presentazione di idonea documentazione â€¢ Possibile utilizzo di una piattaforma elettronica â€¢ Documento di legittimazione nominativo (c.d. voucher), in formato cartaceo o elettronico, riportante un valore nominale con diritto ad una sola prestazione, opera o servizio per l'intero valore nominale, senza integrazioni a carico del lavoratore (no buoni sconto)
+
+- Asili nido - Servizi di babysitting - Spese di iscrizione e frequenza a Servizi di educazione e istruzione, anche in età  scuola materna, elementare, media prescolare e superiore - Università  e Master - Libri di testo scolastici e universitari
+
+- Doposcuola o Pre-scuola - Buono pasto mensa scolastica Servizi integrativi, di mensa e di trasporto - Scuolabus, gite didattiche connessi all'educazione e istruzione - Frequentazione corso integrativo (lingue straniere/lingua italiana per bambini stranieri, â€¦)
+
+- Spese per frequentazione di campus estivi e invernali Ludoteche e centri estivi e invernali - Spese per frequentazione di ludoteche
+
+- Somme corrisposte per assegni, Borse di studio premi di merito e sussidi allo studio
+
+Servizi di assistenza ai familiari anziani - Badanti e/o non autosufficienti - Assistenza domiciliare - Familiari anziani (che abbiano compiuto 75 an- - Case di riposo (R.S.A.) ni) - Case di cura - Familiari non autosufficienti (non autonomia nello svolgimento di attività  quotidiane ovvero necessità  di sorveglianza continua - è richiesta certificazione medica)
+
+BENI E SERVIZI IN NATURA - Riferimento normativo: Art. 51, comma 3 del TUIR - Regime fiscale e contributivo: non soggetti se il valore dei beni e dei servizi prestati sia di importo non superiore a 258,23 euro annui;
+ATTENZIONE: Se il valore dei benefits messi a disposizione del dipendente eccede nell'anno tale limite, l'intera somma è soggetta a contribuzione e tassazione - Soggetti beneficiari: dipendenti - Modalità  di erogazione:
+â€¢ Beni e servizi prodotti dall'azienda o erogati da terzi convenzionati â€¢ Possibile utilizzo di una piattaforma elettronica â€¢ Documento di legittimazione nominativo (c.d. voucher), in formato cartaceo o elettronico, riportante un valore nominale che, in questo caso, potrà  essere utilizzato anche per una pluralità  di beni e servizi ESEMPLIFICAZIONI - Buoni spesa per generi alimentari - Buoni spesa per shopping (es. commercio elettronico) - Buoni spesa per acquisti vari - Buoni carburante - Ricariche telefoniche
+
+SERVIZI DI TRASPORTO COLLETTIVO per il raggiungimento del posto di lavoro - Riferimento normativo: Art. 51, comma 2 lett. d) del TUIR - Regime fiscale e contributivo: non soggetti - Soggetti beneficiari: dipendenti - Modalità  di erogazione (non è ammessa l'erogazione sostitutiva in denaro):
+â€¢ Servizi erogati direttamente dal datore di lavoro (mezzi di proprietà  o noleggiati) o forniti da terzi (compresi esercenti pubblici) sulla base di apposita convenzione o di accordo stipulato dallo stesso datore ABBONAMENTI A TRASPORTO REGIONALE O INTERREGIONALE - Riferimento normativo: Art. 51, comma 2 lett. d-bis del TUIR - Regime fiscale e contributivo: non soggetti - Servizi di abbonamento: per trasporto locale, regionale, interregionale - Soggetti beneficiari: dipendenti e familiari fiscalmente a carico - Modalità  di erogazione (non è ammessa l'erogazione sostitutiva in denaro):
+â€¢ Anticipo/Acquisto/Rimborso per il costo degli abbonamenti;
+â€¢ Sono ricompresi nella norma solo gli abbonamenti che non consentano un uso episodico del mezzo di trasporto pubblico: sono esclusi titoli di viaggio con durata oraria, anche se superiore a quella giornaliera e carte di trasporto integrate che includono anche servizi ulteriori rispetto al trasporto (Es. carte turistiche con diritto all'uso dei mezzi ed entrate in musei)
+
+186 Sez. Quarta - Titolo IV - Retribuzione ed altri istituti economici
+
+TABELLE DEI MINIMI CONTRATTUALI Nel mese di giugno di ciascun anno di vigenza del CCNL, i minimi contrattuali per livello saranno adeguati sulla base della dinamica inflativa consuntivata misurata con â€œl'IPCA al netto degli energetici importatiâ€ cosà¬ come fornita dall'ISTAT applicata ai minimi stessi.
+Le parti si incontreranno entro i primi giorni del mese di giugno di ciascun anno di vigenza del CCNL per calcolare, sulla base dei dati forniti dall'ISTAT, gli incrementi dei minimi contrattuali per livello con i criteri di cui al punto precedente.
+Le parti procederanno all'adeguamento dell'indennità  di trasferta forfetizzata e dell'indennità  oraria di reperibilità  con le stesse modalità  di cui sopra.
+Le parti, nel confermare la modalità  di definizione dei minimi contrattuali stabilita ai commi precedenti e il relativo regime, convengono che per la vigenza del presente contratto il TEM, oltre che per la dinamica IPCA, è incrementato di una ulteriore componente in considerazione della rilevante innovazione organizzativa determinata dalla riforma dell'inquadramento, come indicato dal Patto per la fabbrica punto 5, lettera H).
+Pertanto, nei mesi di giugno rispettivamente del 2021, 2022, 2023 e 2024, sono riconosciuti gli incrementi retributivi complessivi nelle misure di seguito indicate cui corrispondono i nuovi valori dei minimi tabellari di cui alla tabella di seguito riportata.
+Le parti si incontreranno entro i primi giorni del mese di giugno di ciascun dei suddetti anni per definire la quota di TEM relativa alla dinamica dell'Ipca al netto degli energetici importati.
+Nel caso in cui l'importo relativo all'adeguamento Ipca risultasse superiore agli importi degli incrementi retributivi complessivi di riferimento per ogni singolo anno di cui alle tabelle di seguito riportate i minimi tabellari saranno adeguati all'importo risultante.
+A decorrere dal 1Â° gennaio 2017, gli aumenti dei minimi tabellari assorbono gli aumenti individuali riconosciuti successivamente a tale data, salvo che siano stati concessi con una clausola espressa di non assorbibilità , nonchà© gli incrementi fissi collettivi della retribuzione eventualmente concordati in sede aziendale successivamente a tale data ad esclusione degli importi retributivi connessi alle modalità  di effettuazione della prestazione lavorativa (ad esempio: indennità /maggiorazioni per straordinario, turni, notturno, festivo).
+
+MINIMI TABELLARI PER LIVELLO
+
+Livello dal 1Â° giugno dal 1Â° giugno dal 1Â° giugno dal 1Â° giugno 2021 2022 2023 2024 D1 1.488,89 1.509,07 1.530,86 1.559,11 D2 1.651,07 1.673,45 1.697,62 1.728,95 C1 1.686,74 1.709,60 1.734,29 1.766,30 C2 1.722,41 1.745,75 1.770,96 1.803,64 C3 1.844,64 1.869,64 1.896,64 1.931,64 B1 1.977,19 2.003,99 2.032,93 2.070,45 B2 2.121,20 2.149,95 2.181,00 2.221,25 B3 2.368,12 2.400,22 2.434,88 2.479,81 A1 2.424,86 2.457,72 2.493,21 2.539,22
+
+188 Sez. Quarta - Titolo V - Ambiente di lavoro
+
+Titolo V - Ambiente di lavoro
+
+Art. 1. - Ambiente di lavoro - Salute e sicurezza.
+A) La tutela della sicurezza e della salute nei luoghi di lavoro, il rispetto dell'ambiente, lo sviluppo sostenibile delle attività  produttive sono valori condivisi dalle parti a tutti i livelli e costituiscono obiettivi comuni dell'azienda e dei lavoratori, a partire dal rispetto degli obblighi previsti dalle disposizioni legislative vigenti.
+Coerentemente con questi obiettivi, il datore di lavoro, i dirigenti e preposti, i lavoratori, il medico competente (ove previsto), il responsabile del servizio di prevenzione e protezione, i rappresentanti dei lavoratori per la sicurezza collaborano, nell'ambito delle rispettive funzioni e responsabilità , per eliminare o ridurre progressivamente i rischi alla fonte e migliorare le condizioni dei luoghi di lavoro, ergonomiche ed organizzative, i livelli di salute nei luoghi di lavoro e di tutela dell'ambiente.
+Prendendo lo spunto dall'esperienza dei Comitati per l'applicazione delle misure di prevenzione anti Covid 19 di cui all'articolo 13 dell'Accordo del 24 aprile 2020, nella logica di favorire proposta e condivisione di obiettivi ed interventi, i soggetti responsabili della materia di cui al comma precedente individueranno gli strumenti pià¹ idonei e le modalità  maggiormente efficaci, tenendo conto delle specificità  dei diversi luoghi di lavoro, per perseguire anche in collaborazione con la Rsu il massimo coinvolgimento possibile dei lavoratori nella gestione della sicurezza in azienda.
+
+B) Il datore di lavoro all'interno dell'azienda ovvero dell'unità  produttiva oltre ad osservare le misure generali di tutela per la protezione della salute e per la sicurezza dei lavoratori e tutte le prescrizioni di legge, è tenuto, consultando nei modi previsti dalle norme vigenti i rappresentanti dei lavoratori per la sicurezza, ad organizzare in modo efficace il servizio di prevenzione e protezione, ad effettuare la valutazione dei rischi ad informare e formare i lavoratori sui rischi specifici cui sono esposti.
+In particolare:
+- provvede affinchà© gli RLS siano consultati preventivamente e tempestivamente in ordine alla valutazione dei rischi, alla individuazione, programmazione, realizzazione e verifica della prevenzione nell'azienda o unità produttiva;
+- provvede affinchà© i lavoratori incaricati dell'attività  di prevenzione incendi e lotta antincendio, di evacuazione dei lavoratori in caso di pericolo grave ed immediato, di salvataggio, di pronto soccorso e, comunque, di gestione dell'emergenza siano adeguatamente formati consultando in merito all'organizzazione della formazione il rappresentante per la sicurezza;
+- in relazione alla natura dell'attività  dell'unità  produttiva, deve valutare, nella scelta delle attrezzature di lavoro e delle sostanze o dei preparati chimici impiegati, nonchà© nella sistemazione dei luoghi di lavoro, i rischi per la sicurezza e la salute dei lavoratori, ivi compresi quelli riguardanti gruppi di lavoratori esposti a rischi particolari;
+- provvede affinchà© ciascun lavoratore, in occasione dell'assunzione, del trasferimento o cambiamento di mansioni e dell'introduzione di nuove attrezzature di lavoro o di nuove tecnologie, di nuove sostanze e preparati pericolosi, sia adeguatamente informato sui rischi e sulle misure di prevenzione e di protezione adottate e riceva una formazione sufficiente ed adeguata in materia di sicurezza e di salute, con particolare riferimento al proprio posto di lavoro ed alle proprie mansioni. La formazione deve essere periodicamente ripetuta in relazione all'evoluzione dei rischi ovvero all'insorgenza di nuovi rischi;
+- informa periodicamente i lavoratori, di norma trimestralmente, previa consultazione con gli RLS, attraverso gli strumenti interni utilizzati (mail, comunicazioni cartacee, etc.), circa i temi della salute e sicurezza con particolare riferimento alle tipologie di infortunio e di quasi infortunio eventualmente ricorrenti e alle misure di prevenzione previste nonchà© alle problematiche emerse negli incontri periodici con gli RLS.
+
+C) Ciascun lavoratore deve prendersi cura della propria sicurezza e della propria salute e di quella delle altre persone presenti sul luogo di lavoro, su cui possono ricadere gli effetti delle sue azioni o omissioni, conformemente alla sua formazione ed alle istruzioni e ai mezzi forniti dal datore di lavoro.
+In questo contesto di responsabilità  e di ruolo attivo ai fini della prevenzione, i lavoratori hanno precisi doveri di rispetto delle normative in materia e sono altresà¬ titolari di specifici diritti.
+I lavoratori in particolare devono:
+- osservare le disposizioni ed istruzioni loro impartite dai superiori ai fini della protezione collettiva ed individuale;
+- sottoporsi ai controlli sanitari previsti nei loro confronti dalle prescrizioni del medico competente in relazione ai fattori di rischio cui sono esposti;
+- utilizzare correttamente i macchinari, le apparecchiature, gli utensili, le sostanze e i preparati pericolosi, i mezzi di trasporto e le altre attrezzature di lavoro, nonchà© i dispositivi di sicurezza compresi quelli protettivi forniti dall'impresa in dotazione personale, curandone la perfetta conservazione;
+- segnalare immediatamente ai superiori le deficienze di macchinari, apparecchiature, utensili, mezzi, attrezzature e dispositivi di sicurezza e di protezione individuale, comprese le altre condizioni di pericolo di cui vengono a conoscenza, adoperandosi direttamente, in caso di urgenza, nell'ambito delle loro competenze e possibilità , per eliminare o ridurre tali deficienze o pericoli, fermo restando l'obbligo di non rimuovere o modificare senza autorizzazione i dispositivi di sicurezza o di segnalazione o di controllo,
+
+190 Sez. Quarta - Titolo V - Ambiente di lavoro
+
+dandone notizia al rappresentante dei lavoratori per la sicurezza I lavoratori, in particolare, hanno diritto di:
+- eleggere i propri rappresentanti per la sicurezza;
+- verificare, mediante il rappresentante per la sicurezza, l'applicazione delle misure di prevenzione e protezione;
+- ricevere un'adeguata informazione e formazione in materia di salute e sicurezza, con particolare riferimento al proprio posto di lavoro e alle proprie mansioni;
+- ricevere a loro richiesta copia della cartella sanitaria ivi compresi gli esiti degli accertamenti sanitari;
+- ricevere informazioni dal medico competente sul significato e sui risultati degli accertamenti sanitari cui sono sottoposti;
+- non subire pregiudizio alcuno nel caso in cui, in presenza di pericolo grave ed immediato e che non puà² essere evitato, si allontanino dal posto di lavoro;
+- non subire pregiudizio nel caso in cui adottino comportamenti atti ad evitare le conseguenze di un pericolo grave ed immediato essendo nell'impossibilità  di contattare il competente superiore gerarchico.
+Potranno essere sperimentate modalità  di coinvolgimento attivo dei lavoratori nell'organizzazione dell'attività  di prevenzione finalizzata al miglioramento della salute e della sicurezza dei luoghi di lavoro. In particolare nelle unità  produttive con almeno 200 dipendenti potranno essere programmati due incontri all'anno nell'ambito dell'area di esecuzione delle operazioni industriali per gruppi di lavoratori, gestiti da RSPP e presenti i Preposti e gli RLS, per esaminare eventuali fattori di rischio o criticità  e prospettare possibili soluzioni. La partecipazione sarà  a carico dell'azienda e dei lavoratori in un rapporto pari 1/1 secondo modalità definite d'intesa con la RSU.
+Nell'ambito di tali incontri si potrà  analizzare il tema delle malattie professionali con particolare riguardo a quelle sorte e/o presenti in azienda e le modalità possibili di intervento per ridurne l'incidenza.
+Sulla base di quanto concordato nelle Linee guida dell'8 ottobre 2018 potranno altresà¬ essere attivati, anche in accordo con la Rsu, i cosiddetti break formativi consistenti in un aggiornamento del lavoratore sulla sicurezza attraverso brevi momenti formativi (15-20 minuti al massimo) da collocarsi durante l'orario di lavoro in funzione delle esigenze tecnico-organizzative nel corso dei quali, sotto la supervisione del docente/RSPP affiancato dal preposto e dal RLS, il lavoratore ripercorre le procedure operative di sicurezza dell'area di competenza.
+Nell'ambito degli attuali incontri periodici tra RSPP e RLS sarà  possibile discutere di emissioni, di trattamento rifiuti, di impatto energetico e di ambiente con il coinvolgimento dei rappresentanti aziendali che seguono i diversi temi.
+
+D) In ogni unità  produttiva sono istituiti:
+- il documento di valutazione dei rischi contenente le misure di prevenzione
+
+e protezione adottate e quelle programmate per garantire il miglioramento nel tempo dei livelli di sicurezza. Il documento sarà  rielaborato in occasione di modifiche del processo produttivo e di innovazioni tecnologiche significative ai fini della sicurezza e della salute dei lavoratori;
+- la cartella sanitaria e di rischio individuale del lavoratore sottoposto a sorveglianza sanitaria, tenuta ed aggiornata a cura del medico competente incaricato della sorveglianza sanitaria, con vincolo del segreto professionale e nel rispetto delle norme e procedure in materia di trattamento dei dati personali secondo quanto previsto Decreto legislativo 18 maggio 2018, n. 51. In tale cartella sono annotati i dati analitici riguardanti le visite mediche di assunzione e periodiche, visite di idoneità , nonchà© gli infortuni e le malattie professionali.
+àˆ inoltre istituito, secondo quanto previsto dalle vigenti disposizioni di legge, il registro degli esposti agli agenti cancerogeni e mutageni nel quale è riportata l'attività  svolta dai lavoratori, l'agente cancerogeno utilizzato e, ove nota, l'esposizione ed il grado della stessa. I RLS hanno accesso a detto registro secondo quanto previsto dall'articolo 243 del D. Lgs. n. 81/2008.
+Il registro infortuni, eliminato dall'articolo 21 comma 4, D. Lgs. n. 151/2015, è sostituito con il â€œCruscotto infortuniâ€ messo a disposizione dall'INAIL.
+
+E) In tutte le aziende, o unità  produttive, è eletto o designato il rappresentante dei lavoratori per la sicurezza secondo quanto previsto dall'Accordo interconfederale 12 dicembre 2018 in applicazione dell'articolo 18 del D. Lgs. 19 settembre 1994, n. 626 (attuale articolo 47, D. Lgs. 9 aprile 2008, n. 81, come modificato dal D. Lgs. 3 agosto 2009, n. 106).
+Ai rappresentanti dei lavoratori per la sicurezza (RLS) sono attribuiti, in particolare, diritti in materia di formazione, informazione, consultazione preventiva, accesso ai luoghi di lavoro, da esercitare secondo le modalità  e nei limiti previsti dalle norme vigenti e dalle procedure aziendali.
+I RLS, in funzione del contesto organizzativo, dovranno essere dotati di adeguati elementi di identificazione (ad esempio cartellino, badge, spilla, ecc.).
+Ai sensi di quanto previsto dagli artt. 18, 35 e 50, del D. Lgs. 9 aprile 2008, n. 81, come modificato dal D. Lgs. 3 agosto 2009, n. 106, il datore di lavoro è tenuto a dare informazioni ai RLS sugli infortuni intervenuti, con indicazione delle cause e della prognosi e sull'andamento delle malattie professionali e della sorveglianza sanitaria anche mediante la visualizzazione del â€œCruscotto infortuniâ€ e a consegnare al Rappresentante dei lavoratori per la sicurezza, su richiesta scritta dello stesso, copia del documento di valutazione dei rischi, previa sottoscrizione di apposito verbale di consegna. In presenza di appalti, il committente consegnerà ai RLS copia del DUVRI per consentirne la consultazione secondo quanto previsto dalla normativa vigente.
+I RLS sono tenuti a fare un uso strettamente riservato ed interno dei documenti ricevuti ed esclusivamente connesso all'espletamento delle proprie funzioni rispettando il segreto industriale anche in ordine ai processi lavorativi aziendali e
+
+192 Sez. Quarta - Titolo V - Ambiente di lavoro
+
+il dovere di privacy sui dati sensibili di carattere sanitario riguardanti i lavoratori.
+Il rappresentante per la sicurezza puà² richiedere la convocazione di un'apposita riunione oltre che nei casi di gravi e motivate situazioni di rischio o di significative variazioni delle condizioni di prevenzione in azienda, anche qualora ritenga, come previsto dall'articolo 50, lett. o) del D. Lgs. 9 aprile 2008, n. 81, come modificato dal D. Lgs. 3 agosto 2009, n. 106, che le misure di prevenzione e protezione dai rischi adottate dal datore di lavoro ed i mezzi impiegati per attuarle non siano idonei a garantire la sicurezza e la salute durante il lavoro. In tale occasione, le parti qualora siano d'accordo sulla necessità  di procedere a verifiche o accertamenti potranno valutare di affidare ad Istituti o Enti qualificati, scelti di comune accordo, le rilevazioni o le indagini che si ritenessero necessarie secondo le modalità  concordemente individuate. Gli oneri derivanti da tali rilevazioni sono a carico delle aziende.
+I permessi retribuiti che competono ad ogni RLS, di cui all'Accordo interconfederale 12 dicembre 2018 sono individuati con riferimento all'unità  produttiva e sono pari a 50 ore annue nelle unità  produttive che occupano da 51 a 100 dipendenti, a 70 ore annue nelle unità  produttive che occupano da 101 a 300 dipendenti, a 72 ore annue nelle unità  produttive che occupano da 301 a 1000 dipendenti, a 76 ore annue in quelle oltre i 1000 dipendenti.
+Le parti in sede aziendale ovvero gli organismi paritetici territoriali possono concordare progetti formativi per gli RLS quantitativamente pià¹ ampi rispetto a quanto previsto dalla normativa vigente.
+Per quanto non espressamente previsto dal presente articolo, si rinvia a quanto disposto dalle vigenti disposizioni legislative e dall'Accordo interconfederale 12 dicembre 2018.
+Sono fatti salvi gli accordi aziendali in materia.
+
+F) Negli stabilimenti di cui all'articolo 2, primo comma, D. Lgs. 17 agosto 1999, n. 334 come modificato dal D. Lgs. 21 settembre 2005, n. 238, su richiesta delle RSU, è istituito il Rappresentante dei Lavoratori per la Sicurezza e l'Ambiente (RLSA) che, fermo restando il numero complessivo di rappresentanti già previsto dalle norme contrattuali, subentra nella titolarità  dei diritti, del ruolo e delle attribuzioni previsti dalla legge e dalle norme contrattuali per il Rappresentante dei lavoratori per la sicurezza.
+Gli RLSA svolgono il loro ruolo anche in materia ambientale collaborando, nell'ambito delle proprie funzioni, al raggiungimento degli obiettivi di tutela della salute e dell'ambiente.
+A tal fine, le aziende, fermo restando quanto previsto dal Decreto legge 26 maggio 2009, n. 138, forniranno agli RLSA, nel corso di specifici incontri annuali, informazioni finalizzate alla comprensione dei sistemi di gestione ambientali adottati nello stabilimento.
+A seguito della istituzione degli RLSA, le parti in sede aziendale ovvero gli organismi paritetici territoriali possono concordare specifiche iniziative di formazione sui temi ambientali per gli RLSA nell'ambito degli obblighi di formazione previsti dalle discipline vigenti.
+
+G) â€œQuasi Infortuniâ€ Le parti, ritenendo utile la rilevazione dei quasi infortuni ai fini dello sviluppo della cultura della prevenzione e del miglioramento continuo della sicurezza sul lavoro, convengono che potranno essere sperimentati a livello aziendale, previa valutazione congiunta tra RSPP e RLS, sistemi e modalità  per la segnalazione dei quasi infortuni e delle situazioni pericolose nell'intento di individuare opportune misure gestionali.
+La Commissione Nazionale raccoglierà  le esperienze che verranno segnalate a cura di RLS e RSPP al fine di individuare le migliori pratiche ed agevolarne la diffusione.
+
+Art. 2. - Indumenti di lavoro.
+Al lavoratore che, in determinati momenti o fasi di lavorazione, sia necessariamente esposto all'azione di sostanze particolarmente imbrattanti, deve essere data la possibilità  di usare mezzi o indumenti protettivi in dotazione presso lo stabilimento mettendolo nelle condizioni idonee per il ricambio, durante il lavoro, e per la custodia del proprio abito.
+Qualora l'azienda richieda che taluni lavoratori (ad esempio: fattorini, portieri, sorveglianti, autisti, ecc.) indossino abiti speciali o divise, dovrà  provvedere a proprie spese alla loro fornitura.
+
+194 Sez. Quarta - Titolo V - Ambiente di lavoro
+
+Titolo VI - Assenze, permessi e tutele
+
+Art. 1. - Infortuni sul lavoro e malattie professionali.
+Si richiamano le disposizioni di legge circa gli obblighi assicurativi, previdenziali, di assistenza e soccorso e comunque per quanto non previsto dal presente articolo.
+L'infortunio sul lavoro, anche se consente la continuazione dell'attività  lavorativa, deve essere denunciato immediatamente dal lavoratore al proprio superiore diretto perchà© possano essere prestate le previste cure di pronto soccorso ed effettuate le denunce di legge.
+Qualora durante il lavoro il lavoratore avverta disturbi che ritenga attribuibili all'azione nociva delle sostanze adoperate o prodotte nell'ambiente di lavoro, dovrà  immediatamente avvertire il proprio superiore diretto, il quale deve informare la Direzione per i provvedimenti del caso.
+Qualora l'infortunio accada al lavoratore in lavori fuori stabilimento, la denuncia verrà  fatta al pià¹ vicino posto di soccorso, procurando le dovute testimonianze.
+Nel caso di assenza per malattia professionale il lavoratore dovrà  attenersi alle disposizioni previste dal successivo articolo 2 nel paragrafo â€œComunicazione e certificazione dell'assenzaâ€.
+Al lavoratore sarà  conservato il posto:
+a) in caso di malattia professionale per un periodo pari a quello per il quale egli percepisca l'indennità  per inabilità  temporanea prevista dalla legge;
+b) in caso di infortunio, fino alla guarigione clinica comprovata col rilascio del certificato medico definitivo da parte dell'Istituto assicuratore.
+In tali casi, ove per postumi invalidanti il lavoratore non sia in grado di assolvere il precedente lavoro, sarà  possibilmente adibito a mansioni pià¹ adatte alla propria capacità  lavorativa.
+Il lavoratore infortunato ha diritto all'intera retribuzione per la prima giornata nella quale abbandona il lavoro.
+Inoltre le aziende corrisponderanno al lavoratore assente per infortunio o malattia professionale una integrazione di quanto egli percepisce, in forza di disposizioni legislative e/o di altre norme, fino al raggiungimento del normale trattamento economico complessivo netto che il lavoratore avrebbe percepito se avesse lavorato, secondo quanto previsto dal solo 3Â° comma del paragrafo â€œTrattamento economicoâ€ di cui al successivo articolo 2, nei limiti di durata corrispondente a quella di cui al 1Â° comma del paragrafo â€œConservazione del posto di lavoroâ€, operando a tal fine i relativi conguagli al termine del periodo di trattamento contrattuale.
+Per l'eventuale periodo di infortunio e di malattia professionale eccedente i limiti di cui sopra, il lavoratore percepirà  il normale trattamento assicurativo.
+
+Ove richiesti verranno erogati proporzionali acconti.
+Le eventuali integrazioni aziendali in atto sono assorbite fino a concorrenza.
+Per gli infortuni sul lavoro verificatisi in azienda, fatto salvo quanto previsto nella Nota a verbale e secondo le procedure previste dall'Ente assicurativo competente, sarà  garantita al lavoratore assente l'erogazione delle spettanze come avviene per il trattamento economico di malattia. A compensazione delle anticipazioni cosà¬ effettuate, gli importi delle prestazioni di competenza dell'Ente assicurativo vengono liquidate direttamente all'azienda.
+Al termine del periodo dell'invalidità  temporanea o del periodo di degenza e convalescenza per malattia professionale, entro 48 ore dal rilascio del certificato di guarigione, salvo casi di giustificato impedimento, il lavoratore deve presentarsi allo stabilimento per la ripresa del lavoro.
+Qualora la prosecuzione dell'infermità  oltre i termini di conservazione del posto di cui ai punti a) e b) non consenta al lavoratore di riprendere servizio, questi puà² risolvere il rapporto di lavoro con diritto al solo trattamento di fine rapporto.
+Ove cià² non avvenga e l'azienda non proceda al licenziamento, il rapporto rimane sospeso, salva la decorrenza dell'anzianità  agli effetti del preavviso.
+L'infortunio sul lavoro sospende il decorso del preavviso nel caso di licenziamento, nei limiti ed agli effetti della normativa sulla conservazione del posto e sul trattamento economico di cui al presente articolo.
+I lavoratori trattenuti oltre il normale orario per prestare la loro opera di assistenza o soccorso nel caso di infortunio di altri lavoratori, devono essere retribuiti per il tempo trascorso a tale scopo nello stabilimento.
+L'assenza per malattia professionale od infortunio, nei limiti dei periodi fissati dal presente articolo per la conservazione del posto, è utile ai fini del trattamento di fine rapporto e non interrompe la maturazione dell'anzianità  di servizio a tutti gli effetti (ferie, gratifica natalizia, ecc.).
+
+NOTA A VERBALE.
+In caso di infortunio e di malattia professionale non si farà  luogo al cumulo tra il trattamento previsto dal presente Contratto e quello assicurativo, riconoscendo in ogni caso al lavoratore il trattamento globale pià¹ favorevole.
+
+Art. 2. - Trattamento in caso di malattia ed infortunio non sul lavoro.
+Comunicazione e certificazione dell'assenza In caso di malattia il lavoratore deve avvertire l'azienda entro il primo giorno d'assenza (fine turno) comunicando il domicilio presso cui si trova se diverso da quello noto all'azienda e inviare entro il secondo giorno dall'inizio dell'assenza il protocollo del certificato medico.
+L'eventuale prosecuzione dello stato di incapacità  al lavoro deve essere co196 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+municata all'azienda con le stesse modalità  di cui al comma precedente.
+In mancanza di ciascuna delle comunicazioni suddette, salvo il caso di giustificato impedimento, l'assenza verrà  considerata ingiustificata.
+L'azienda ha facoltà  di far controllare la malattia del lavoratore nel rispetto dell'articolo 5 della legge 20 maggio 1970, n. 300.
+Fermo restando quanto previsto dalle vigenti leggi in materia, il lavoratore assente per malattia è tenuto, fin dal primo giorno di assenza dal lavoro, e per tutta la durata della malattia, a trovarsi a disposizione nel domicilio comunicato al datore di lavoro, dalle ore 10.00 alle ore 12.00 e dalle ore 17.00 alle ore 19.00, ovvero nelle diverse fasce orarie stabilite per disposizioni legislative o amministrative locali o nazionali, di tutti i giorni compresi i domenicali o festivi, per consentire l'accertamento del suo stato di salute.
+Sono fatte salve le necessità  di assentarsi dal recapito comunicato per motivi inerenti la malattia o per gravi, eccezionali motivi familiari comunicati preventivamente, salvo casi di forza maggiore, all'azienda e successivamente documentati.
+Nel corso del periodo di assenza per malattia il lavoratore ha l'obbligo di comunicare all'azienda contestualmente i mutamenti di domicilio o dimora, anche se temporanei.
+Le assenze e le inosservanze di cui al comma 5 comporteranno l'irrogazione a carico del lavoratore dei provvedimenti disciplinari contrattualmente previsti, fermo restando quanto previsto dall'articolo 7, ultimo comma, legge 20 maggio 1970, n.
+300, con proporzionalità  relativa all'infrazione riscontrata e alla sua gravità .
+Conservazione del posto di lavoro In caso di interruzione del servizio dovuta a malattia o infortunio non sul lavoro, il lavoratore non in prova ha diritto alla conservazione del posto per un periodo, definito comporto breve, di:
+a) 183 giorni di calendario per anzianità  di servizio fino a 3 anni compiuti;
+b) 274 giorni di calendario per anzianità  di servizio oltre i 3 anni e fino ai 6 anni compiuti;
+c) 365 giorni di calendario per anzianità  di servizio oltre i 6 anni.
+Il lavoratore ha diritto ad un periodo di conservazione del posto, definito comporto prolungato, nei seguenti casi:
+- evento morboso continuativo con assenza ininterrotta o interrotta da un'unica ripresa del lavoro per un periodo non superiore a 61 giorni di calendario;
+- quando si siano verificate almeno due malattie comportanti, ciascuna, una assenza continuativa pari o superiore a 91 giorni di calendario;
+- quando alla scadenza del periodo di comporto breve sia in corso una malattia, compresa la prognosi prevista nell'ultimo certificato medico, pari o superiore a 91 giorni di calendario.
+Il comporto prolungato è pari a:
+
+a) per anzianità  di servizio fino a 3 anni compiuti: 274 giorni di calendario;
+b) per anzianità  di servizio oltre 3 anni e fino ai 6 compiuti: 411 giorni di calendario;
+c) per anzianità  di servizio oltre i 6 anni: 548 giorni di calendario.
+I suddetti periodi di conservazione del posto e le causali di prolungamento si intendono riferiti alle assenze complessivamente verificatesi nei tre anni precedenti ogni nuovo ultimo episodio morboso.
+Resta salvo quanto previsto dalle norme in materia per la conservazione del posto dei lavoratori affetti da TBC.
+Superato il periodo di conservazione del posto, fermo restando quanto previsto nel paragrafo Aspettativa, ove l'azienda risolva il rapporto di lavoro, corrisponderà  al lavoratore il trattamento completo previsto dal presente Contratto per il caso di licenziamento ivi compresa l'indennità  sostitutiva del preavviso.
+Qualora la prosecuzione della malattia oltre i termini suddetti non consenta al lavoratore di riprendere servizio, questi puà² risolvere il rapporto di lavoro con diritto al solo trattamento di fine rapporto. Ove cià² non avvenga e l'azienda non proceda al licenziamento il rapporto rimane sospeso salvo la decorrenza dell'anzianità  agli effetti del preavviso.
+DICHIARAZIONE COMUNE Malattie gravi e Covid-19 La malattia dovuta a Covid-19 e la situazione dei lavoratori sottoposti a trattamento di emodialisi, o affetti da morbo di Cooley nonchà© dei lavoratori affetti da neoplasie, da epatite B e C ovvero da gravi malattie cardiocircolatorie, nonchà© casi particolari di analoga gravità  sarà  considerata dalle aziende con la massima attenzione facendo riferimento alle disposizioni assistenziali vigenti.
+I dati saranno gestiti in conformità  con quanto previsto dalla vigente normativa sulla tutela della Privacy.
+
+Aspettativa Al superamento dei limiti di conservazione del posto di cui al paragrafo precedente il lavoratore potrà  usufruire, se previamente richiesto in forma scritta, dell'aspettativa per malattia, per un periodo continuativo e non frazionabile, prolungabile fino ad un massimo di 24 mesi per una sola volta nel triennio di riferimento, periodicamente documentata, fino alla guarigione clinica debitamente comprovata, che consenta al lavoratore di assolvere alle precedenti mansioni.
+Durante il periodo di aspettativa non decorrerà  retribuzione, nà© si avrà  decorrenza di anzianità  per tutti gli istituti.
+Il lavoratore in aspettativa con anzianità  di servizio superiore ad 8 anni potrà chiedere l'anticipazione del trattamento di fine rapporto.
+Le assenze determinate da patologie gravi che richiedono terapie salvavita,
+
+198 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+che comportano una discontinuità  nella prestazione lavorativa, che comunque non fanno venir meno la capacità  di prestazione lavorativa anche se intervallate nel tempo, consentiranno al lavoratore all'atto del superamento del periodo di conservazione del posto di lavoro di poter fruire dell'aspettativa , anche in maniera frazionata, in rapporto ai singoli eventi terapeutici necessari. A tali fini il lavoratore fornirà  all'azienda le dovute informazioni che l'azienda medesima tratterà nel rispetto delle norme in materia sulla tutela della privacy.
+Decorso anche il periodo di aspettativa senza che il lavoratore abbia ripreso servizio, l'azienda potrà  procedere alla risoluzione del rapporto.
+Trattamento economico Per quanto concerne l'assistenza e il trattamento di malattia per i lavoratori valgono le norme di legge regolanti la materia.
+Inoltre, le aziende corrisponderanno al lavoratore assente per malattia o infortunio non sul lavoro, nell'ambito della conservazione del posto, una integrazione di quanto il lavoratore percepisce, in forza di disposizioni legislative e/o di altre norme, fino al raggiungimento del normale trattamento economico complessivo netto che avrebbe percepito se avesse lavorato, operando a tal fine i relativi conguagli al termine del periodo di trattamento contrattuale.
+A tal fine il lavoratore non in prova avrà  diritto, nei limiti massimi di conservazione del posto di lavoro e fatto salvo quanto disposto al successivo 6Â° comma del presente paragrafo, al seguente trattamento economico:
+- alla intera retribuzione globale per i primi 122 giorni di calendario e all'80% della retribuzione globale per i giorni residui, per anzianità  di servizio fino a tre anni compiuti;
+- alla intera retribuzione globale per i primi 153 giorni di calendario e all'80% della retribuzione globale per i giorni residui, per anzianità  di servizio da tre a sei anni compiuti;
+- alla intera retribuzione globale per i primi 214 giorni di calendario e all'80% della retribuzione globale per i giorni residui, per anzianità  di servizio oltre i sei anni.
+Il suddetto trattamento economico ricomincia ex novo in caso di malattia o infortunio non sul lavoro intervenuto dopo un periodo di 61 giorni di calendario dalla ripresa del servizio.
+I periodi di ricovero ospedaliero di durata superiore a 10 giorni continuativi sono retribuiti con l'intera retribuzione globale in aggiunta al trattamento economico di cui sopra fino ad un massimo di 61 giorni di calendario.
+Indipendentemente da quanto previsto al quarto comma del presente paragrafo, nel caso in cui durante ogni anno (1Â° gennaio-31 dicembre) si siano verificate assenze per malattia di durata non superiore a 5 giorni per un numero di eventi superiori a 3, i primi tre giorni della quarta e delle successive assenze di durata non superiore a 5 giorni saranno retribuiti nel seguente modo:
+- quarta assenza: 66% della intera retribuzione globale;
+
+- quinta e successive: 50% della intera retribuzione globale.
+Sono escluse dall'applicazione del comma precedente le assenze dovute a ricovero ospedaliero compreso il day hospital nonchà© le assenze per malattia insorte durante la gravidanza successivamente alla certificazione della stessa.
+Sono altresà¬ escluse le assenze dovute a morbo di Crohn o a diabete qualora questi abbiano dato luogo al riconoscimento di invalidità  pari almeno al 46%, al morbo di Cooley, a neoplasie, ad epatite B e C, a gravi malattie cardiocircolatorie, a sclerosi multipla nonchà© all'emodialisi ed a trattamenti terapeutici ricorrenti connessi alle suddette patologie fruiti presso enti ospedalieri o strutture sanitarie riconosciute e risultanti da apposita certificazione.
+Ai fini di cui al comma precedente il lavoratore fornirà  all'azienda apposita certificazione rilasciata dal medico specialista che dovrà  essere trattata nel rispetto delle norme in materia sulla tutela della privacy.
+Le eventuali integrazioni aziendali in atto sono assorbite fino a concorrenza.
+Tale trattamento non è cumulabile con eventuali altri analoghi trattamenti aziendali o locali o, comunque, derivanti da norme generali in atto o future, con conseguente assorbimento fino a concorrenza.
+Effetti dell'assenza per malattia sugli altri istituti Salvo quanto previsto per i periodi di aspettativa sopra indicati, l'assenza per malattia, nei limiti dei periodi fissati per la conservazione del posto, è utile ai fini del trattamento di fine rapporto e non interrompe la maturazione dell'anzianità di servizio a tutti gli effetti (ferie, tredicesima, ecc.).
+La malattia insorta durante il periodo di ferie consecutive di cui al settimo comma dell'articolo 10, Sezione quarta, Titolo III, ne sospende la fruizione nelle seguenti ipotesi:
+a) malattia che comporta ricovero ospedaliero per la durata dello stesso;
+b) malattia la cui prognosi sia superiore a sette giorni di calendario.
+L'effetto sospensivo si determina a condizione che il dipendente assolva agli obblighi di comunicazione, di certificazione e di ogni altro adempimento necessario per l'espletamento della visita di controllo dello stato d'infermità  previsti dalle norme di legge e dalle disposizioni contrattuali vigenti.
+Norme finali Su richiesta del lavoratore, l'azienda, per un massimo di due volte nell'anno solare, fornisce entro venti giorni dalla richiesta le informazioni necessarie alla esatta conoscenza della situazione riguardante la conservazione del posto di lavoro.
+
+Art. 3. - Congedo matrimoniale.
+In caso di matrimonio compete ai lavoratori ed alle lavoratrici non in prova un periodo di congedo di 15 giorni consecutivi durante il quale detti lavoratori
+
+200 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+sono considerati a tutti gli effetti in attività  di servizio.
+Il congedo non potrà  essere computato sul periodo di ferie annuali nà© potrà essere considerato quale periodo di preavviso di licenziamento.
+La richiesta di congedo dovrà  essere avanzata dagli aventi diritto con un preavviso di almeno sei giorni dal suo inizio, salvo casi eccezionali.
+Durante il periodo di congedo matrimoniale le aziende riconosceranno una integrazione di quanto il lavoratore percepisce in forza di disposizioni legislative e/o di altre norme fino al raggiungimento del normale trattamento economico complessivo netto che il lavoratore avrebbe percepito se avesse lavorato.
+Il trattamento economico sopra previsto spetta ai lavoratori occupati, quando gli stessi fruiscano effettivamente del congedo. Tuttavia si fa luogo egualmente alla corresponsione dell'indennità  per congedo matrimoniale, quando il lavoratore, ferma restando l'esistenza del rapporto di lavoro, si trovi, per giustificato motivo, sospeso od assente.
+Il congedo matrimoniale è altresà¬ dovuto alla lavoratrice che si dimetta per contrarre matrimonio.
+Il congedo matrimoniale spetta ad entrambi i coniugi quando l'uno e l'altro ne abbiano diritto.
+
+Art. 4. - Trattamento in caso di gravidanza e puerperio.
+In caso di gravidanza e puerperio si applicano le norme di legge. In tal caso, alla lavoratrice assente nei 5 mesi di congedo di maternità  sarà  corrisposta, ad integrazione di quanto previsto dalla legge, l'intera retribuzione globale.
+In caso di estensione, a norma di legge, oltre detti termini, del periodo di assenza obbligatoria, si applicherà  il trattamento pià¹ favorevole tra quello previsto dal presente Contratto e quello stabilito dalla legge ovvero in sede aziendale.
+
+Art. 5. - Congedi parentali.
+Ai fini e per gli effetti dell'articolo 32 del Decreto legislativo n. 151 del 26 marzo 2001, Testo unico delle disposizioni legislative in materia di tutela e sostegno della maternità  e della paternità , come modificato dall'articolo 1, comma 339, della legge n.228/2012 riguardante l'adeguamento della normativa nazionale alla Direttiva 2010/18/Ue e dall'articolo 7 del Decreto legislativo n. 80 del 15 giugno 2015, Misure per la conciliazione delle esigenze di cura, di vita e di lavoro, in attuazione dell'articolo 1, commi 8 e 9, della legge 10 dicembre 2014, n. 183, il padre lavoratore e la madre lavoratrice, per ogni bambino nei primi suoi dodici anni di vita hanno diritto al congedo parentale che puà² essere utilizzato su base oraria, giornaliera o continuativa per un periodo complessivamente non superiore a dieci mesi elevato a undici mesi qualora il padre lavoratore eserciti il diritto di astenersi dal lavoro per un periodo continuativo o frazionato non inferiore a tre mesi.
+
+Nell'ambito del predetto limite, il diritto di astenersi dal lavoro compete:
+a) alla madre lavoratrice, trascorso il periodo di congedo obbligatorio di maternità , per un periodo continuativo o frazionato non superiore a sei mesi;
+b) al padre lavoratore, dalla nascita del figlio compreso il giorno del parto, per un periodo continuativo o frazionato non superiore a sei mesi, elevabile a sette nel caso in cui eserciti il diritto di astenersi dal lavoro per un periodo continuativo o frazionato non inferiore a tre mesi;
+c) qualora vi sia un solo genitore, per un periodo continuativo o frazionato non superiore a dieci mesi.
+Il congedo parentale spetta al genitore richiedente anche qualora l'altro genitore non ne abbia diritto.
+L'utilizzo su base oraria dei periodi di congedo parentale è frazionabile per gruppi di 2 o 4 ore giornaliere riproporzionati, rispettivamente, ad un'ora e a 2 ore, per i part-time pari o inferiori a 20 ore settimanali. Esso non potrà  essere programmato per un periodo inferiore ad una giornata lavorativa nel mese di utilizzo.
+Ai fini dell'esercizio del diritto ai congedi parentali, il genitore è tenuto a presentare di norma almeno 15 giorni prima, richiesta scritta al datore di lavoro indicando l'inizio e la fine del periodo di congedo richiesto e allegando il certificato di nascita ovvero la dichiarazione sostitutiva; nel caso di utilizzo del congedo su base oraria o giornaliera, il genitore è tenuto a presentare al datore di lavoro un piano di programmazione mensile entro 7 giorni prima della fine del mese precedente a quello di fruizione, indicando il numero di giornate equivalenti alle ore complessivamente richieste nel periodo e il calendario dei giorni in cui sono collocati i permessi.
+Qualora il lavoratore sia oggettivamente impossibilitato a rispettare tali termini, lo stesso è tenuto a preavvertire il datore di lavoro dell'assenza tempestivamente e comunque entro 2 ore dall'inizio del turno di lavoro e a presentare la richiesta scritta con la relativa certificazione entro due giorni lavorativi dall'inizio dell'assenza dal lavoro; nel caso di utilizzo del congedo su base oraria il permesso, in questo caso, non potrà  essere inferiore a 4 ore.
+I criteri di calcolo per la determinazione della base oraria e della equiparazione del monte ore utilizzabile relativo al normale orario settimanale di 40 ore sono i seguenti:
+giorni medi annui 365,25 : 7 giorni in una settimana = 52,18 settimane medie annue x 40 ore settimanali = 2.087,20 ore annue : 12 mesi = 173,93 ore medie mensili;
+pertanto il periodo di:
+- 6 mesi è pari ad un monte ore complessivo di 1.044 ore;
+- 7 mesi è pari ad un monte ore complessivo di 1.218 ore;
+- 10 mesi è pari ad un monte ore complessivo di 1.740 ore.
+Le ore di congedo fruite dalla madre lavoratrice e/o dal padre lavoratore verranno detratte dal monte ore come sopra determinato che costituisce parametro di riferimento anche nei casi di fruizione dei permessi a giornate o periodi continuativi.
+
+202 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+La base di calcolo della singola ora di congedo equivale ad un centosettantreesimo (1/173) della retribuzione media globale mensile.
+Qualora per ragioni non prevedibili e indipendenti dalla volontà  della madre lavoratrice e/o del padre lavoratore e dell'azienda, l'utilizzo delle ore programmate, e comunicate all'Inps, subisca modifiche tali che non permettono, nel mese di utilizzo, l'intero conguaglio delle ore in giornate equivalenti:
+a) le ore residue saranno anticipate nel mese di utilizzo alla lavoratrice e/o al lavoratore e conguagliate dall'azienda all'Inps nel mese successivo al mese di fruizione;
+b) in caso di risoluzione del rapporto di lavoro le ore residue non conguagliabili all'Inps, perchà© frazioni di giornata equivalente, saranno coperte con l'utilizzo delle ore residue di ferie o Par.
+
+Art. 6. - Servizio militare, servizio di volontariato civile e di cooperazione allo sviluppo.
+La chiamata di leva o il richiamo alle armi non risolve il rapporto di lavoro.
+Il lavoratore chiamato alle armi per il servizio di leva o richiamato alle armi ha diritto alla conservazione del posto fino ad un mese dopo la cessazione del servizio militare.
+Ai fini della anzianità  utile per raggiungere i maggiori scaglioni previsti dal presente Contratto per la misura delle ferie e del trattamento di malattia, il periodo di tempo trascorso sotto le armi sarà  computato come anzianità  di servizio, semprechà© il lavoratore chiamato alle armi presti almeno sei mesi di servizio dopo il rientro nella azienda senza dimettersi.
+Se il lavoratore chiamato o richiamato alle armi risolve il rapporto di lavoro ha diritto a tutte le indennità  competentigli, a norma delle disposizioni vigenti all'atto della chiamata, ma in tal caso non ricorre l'obbligo del preavviso, nà© il diritto alla relativa indennità  sostitutiva.
+Le norme stabilite dal presente articolo si intendono completate con quelle previste dalla legge vigente in caso di chiamata o di richiamo alle armi al momento della chiamata o del richiamo stesso, nonchà© da quanto contenuto nella legge 26 febbraio 1987, n. 49, Nuova disciplina della cooperazione dell'Italia con i Paesi in via di sviluppo.
+
+NOTE A VERBALE.
+1) La Federmeccanica e l'Assistal si impegnano affinchà© le Direzioni aziendali, compatibilmente con le esigenze aziendali, applichino i diritti di cui al presente articolo ai lavoratori cooperanti o volontari che lavorino all'estero nell'ambito di programmi di cooperazione internazionale approvati dal Governo italiano.
+2) I lavoratori che facciano parte di organizzazioni di volontariato iscritte nei registri di cui all'articolo 6, della legge 11 agosto 1991, n. 266, per poter espletare
+
+attività  di volontariato, hanno diritto, ai sensi dell'articolo 17 della stessa legge, di usufruire delle forme di flessibilità  di orario di lavoro o delle turnazioni previste dal Contratto e dagli accordi collettivi, compatibilmente con l'organizzazione aziendale.
+
+Art. 7. - Formazione Continua.
+Le Parti considerano strategico l'investimento delle imprese e dei lavoratori in materia di formazione continua, finalizzata ad aggiornare, perfezionare o sviluppare conoscenze e competenze professionali a partire da una campagna diffusa di recupero del gap sulle competenze digitali, in stretta connessione con l'innovazione tecnologica e organizzativa del processo produttivo e del lavoro e di sensibilizzazione sui temi ambientali e della economia circolare.
+Al fine di sviluppare le competenze digitali di base e di agevolare la costruzione dell'identità  digitale, le Parti si impegnano ad avviare una attività  progettuale partendo dal percorso di alfabetizzazione digitale, individuato nel Verbale di Intesa del 12 luglio 2018.
+Le Parti concordano che la formazione debba rispondere alle esigenze di aziende e lavoratori, rappresentando cosà¬ un investimento e un valore condiviso per tutti i soggetti coinvolti. A tal fine si riconosce l'importanza dell'analisi del fabbisogno formativo, tenuto conto anche del bilancio delle competenze acquisite, quale strumento che consente di identificare le competenze da sviluppare per aumentare la competitività  aziendale e la professionalità  delle persone e sulla cui base sarà  elaborato il relativo piano formativo.
+L'analisi del fabbisogno si inserisce all'interno di un processo ciclico, nel quale assumono rilevanza sia la pianificazione della formazione, al fine di valorizzare tutte le modalità  di apprendimento, sia il monitoraggio dello stato di attuazione dell'azione formativa intrapresa, per il quale risulta strategica la registrazione della formazione effettuata.
+A far data dal 1Â° gennaio 2017 le aziende, nell'arco di ogni triennio, coinvolgeranno i lavoratori in forza a tempo indeterminato e a tempo determinato laddove la durata del contratto sia compatibile e comunque di durata non inferiore a 9 mesi, in percorsi di formazione continua della durata di 24 ore pro-capite, in relazione al fabbisogno formativo, elaborando progetti aziendali con il coinvolgimento della RSU, ovvero aderendo a progetti territoriali o settoriali, realizzabili secondo le seguenti modalità : aula, corsi interni o esterni all'azienda; autoapprendimento con FAD; e-learning; partecipazione a convegni-seminari, workshop interni o esterni all'azienda; coaching; action learning; affiancamento; training on the job.
+La formazione in materia di sicurezza di cui all'articolo 37 del D.Lgs n. 81 del 2008, non è computabile ai fini del presente comma.
+Alla fine del secondo anno del triennio ai lavoratori per i quali - in virtà¹ della formazione già  effettuata o programmata nel terzo anno - non risultino utilizzate le 24 ore previste, saranno riconosciute quelle mancanti per partecipare a inizia204 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+tive di formazione continua.
+I lavoratori al rientro da un'assenza continuativa pari o superiore a 6 mesi, ridotti a 5 mesi nel caso di assenza per congedo di maternità , potranno esercitare il diritto di cui al comma precedente a partire dalla data di rientro in attività  ovvero prioritariamente saranno inseriti, laddove coerente con la professionalità  del lavoratore, in piani aziendali già  programmati.
+Il diritto soggettivo di cui ai commi 6 e 7, sarà  esigibile per iniziative formative impiegabili nel contesto lavorativo dell'azienda, sulle quali l'azienda, d'intesa con la RSU laddove presente, ha dato informazione ai lavoratori o, in subordine, per partecipare a iniziative formative finalizzate all'acquisizione di competenze trasversali, linguistiche, digitali, tecniche o gestionali.
+Al fine di orientare le aziende e i lavoratori sulle aree tematiche da considerarsi prioritarie e su esemplificazioni di percorsi formativi, si rinvia alle tabelle del Verbale d'Intesa del 12 luglio 2018, riportate in calce al presente articolo.
+Le iniziative di cui al comma 6 devono essere realizzate da:
+a) enti di cui all'articolo 1 della legge 40/87 riconosciuti dal Ministero del Lavoro;
+b) enti in possesso di accreditamento secondo le normative regionali che consentono di svolgere attività  di formazione continua;
+c) enti in possesso della certificazione di qualità  in base alla norma UNI EN ISO 9001:2008, settore EA 37 in corso di validità  per le sedi di svolgimento delle attività  formative;
+d) Università  pubbliche e private riconosciute, Fondazioni ITS e Istituti tecnici che rilasciano titoli di istruzione secondaria superiore;
+e) l'azienda.
+Al fine di agevolare l'organizzazione della formazione, la pianificazione e la registrazione della stessa saranno predisposti Servizi per la Formazione da definirsi in un Protocollo di regolamentazione tra le Parti. La definizione di dettaglio degli stessi avverrà  nell'ambito delle seguenti macro aree: creazione di una Piattaforma nazionale per l'industria metalmeccanica e dell'installazione di impianti con particolare attenzione alle peculiarità  delle Pmi; pianificazione e registrazione della formazione mediante tecnologia Block chain; offerta di pillole formative;
+piani di rafforzamento delle competenze digitali; formazione su competenze trasversali ad hoc per apprendisti; supporto alla realizzazione di percorsi di alternanza scuola lavoro; definizione di nuovi criteri e modalità  di condivisione dei piani formativi settoriali multi-regionali da presentare a Fondimpresa.
+Le ore di formazione fruite tramite la Piattaforma nazionale di cui al comma precedente saranno rendicontabili sul conto formazione aziendale presso Fondimpresa.
+I Servizi per la Formazione, nell'attuale vigenza contrattuale, saranno finanziati, con un contributo aziendale una tantum pari a 1,50 euro per dipendente da versare entro il 15 ottobre 2021 con modalità  successivamente concordate tra le parti. Esso sarà  gestito dalla Commissione Nazionale di cui all'art. 6.1 Sez. Prima, le operazioni saranno tutte rendicontate e rese pubbliche. Al fine del calcolo del
+
+contributo verrà  considerato il personale in forza al 31 dicembre 2020.
+Al fine della fruizione del diritto soggettivo, durante il terzo anno del triennio, il lavoratore farà  richiesta scritta entro 10 giorni lavorativi prima dell'inizio dell'attività  formativa alla quale intende partecipare, producendo, su richiesta dell'azienda, la documentazione necessaria all'esercizio del diritto soggettivo di cui al presente articolo.
+àˆ previsto il trascinamento di 6 mesi nel triennio successivo delle ore residue non fruite. Al termine di detto periodo esse decadranno salvo che non siano state fruite per esigenze tecnico-organizzative, compreso il superamento della percentuale massima complessiva di assenza contemporanea di cui al comma 19 del presente articolo.
+In via transitoria i lavoratori che, in tutto o in parte, non abbiano fruito delle 24 ore di formazione di competenza del triennio 2017-2019, potranno fruirne entro il 31 dicembre 2021. Al termine di detto periodo esse decadranno.
+Le iniziative formative svolte saranno debitamente documentate dall'ente erogatore o dall'azienda e saranno registrate in applicazione della normativa vigente.
+Per le iniziative formative di cui al comma 6, l'azienda, anche integrando le risorse pubbliche e private a disposizione, sosterrà  direttamente i costi fino a un massimo di 300 euro.
+I lavoratori che contemporaneamente potranno assentarsi per partecipare alle iniziative formative di cui al presente articolo e all'art 8, salvo diversa intesa aziendale, saranno di norma il 3% complessivo della forza occupata nell'unità produttiva, coerentemente con le esigenze tecnico-organizzative. Nelle aziende fino a 200 dipendenti gli eventuali valori frazionari risultanti dall'applicazione della suddetta percentuale saranno arrotondati all'unità  superiore.
+Le parti si impegnano, per quanto di loro competenza, a dare opportuna diffusione delle novità  normative in materia di formazione continua.
+Le Commissioni Paritetiche, Aziendali, Territoriali e Nazionale, di cui all'articolo 6, Sezione prima, effettueranno il monitoraggio dell'attuazione del presente articolo secondo quanto ivi specificato.
+L'attuazione di quanto previsto dal presente articolo, sarà  oggetto di informativa alla RSU ed alle Commissioni territoriali. Eventuali divergenze circa l'osservanza delle condizioni specificate dal presente articolo saranno oggetto di esame congiunto tra la Direzione e la Rappresentanza sindacale unitaria.
+Nel caso in cui permanga divergenza circa la corrispondenza fra le caratteristiche del corso che il dipendente intende frequentare e quanto previsto dal presente articolo, la risoluzione viene demandata - in unico grado - alla decisione della Commissione territoriale di cui all'articolo 6, punto 6.2., Sezione prima ovvero delle parti competenti in sede territoriale.
+La decisione viene assunta all'unanimità  entro venti giorni dalla data di ricevimento della istanza che le parti, congiuntamente o disgiuntamente, avranno inoltrato, con raccomandata a.r. o Posta Elettronica Certificata, tramite le rispettive Organizzazioni sindacali territorialmente competenti.
+
+206 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+ESEMPLIFICAZIONE DI AREE TEMATICHE PRIORITARIE (Da aggiornare a cura della commissione nazionale sulla base delle trasformazioni in atto)
+
+COMPETENZE CHIAVE AREE TEMATICHE ARGOMENTI
+
+- Public Speaking - Leadership - Gestione del tempo - Team working e team building - Negoziazione e gestione dei conflitti - Problem solving e decision making - Lean Thinking - Formare i formatori Area Soft skills - Comunicazione digitale (utilizzo social, web analytics, elaborazioni e presentazioni grafiche, etc.) - La consapevolezza del ruolo e lo sviluppo delle competenze - La gestione del denaro - Interculturalità Competenze - Conoscere il CCNL Trasversali - Conoscere la busta paga -â€¦
+
+- Programmi di videoscrittura - Foglio elettronico - Presentazioni - Programmi di posta elettronica - Database - Project Management per l'ICT Area Informatica - Alfabetizzazione digitale (anche ai fini della fruizione degli istituti contrattuali: Fondo Cometa, Fondo mètaSalute, Welfare contrattuale) -â€¦
+
+- Base, Intermedio, Avanzato, Business Competenze Area Lingue - Comunicazione di base in lingua Linguistiche straniere italiana per stranieri -â€¦
+
+- Tecnologie a servizio dell'Industry 4.0 - Introduzione alla tecnologia additiva Competenze (stampa 3D) Digitali Area Industria 4.0 - Big Data Analysis - Cyber Security - Come gestire la manutenzione - Linguaggi di programmazione -â€¦
+
+COMPETENZE CHIAVE AREE TEMATICHE ARGOMENTI - Progettazione integrata CAD - CAM - Lettura del disegno tecnico - Lettura del disegno elettrico - Programmazione dei controlli numerici (PLC, MU, CNC, etc.) - Elettronica - Elettrotecnica - Oleodinamica - Pneumatica - Tecniche di produzione (Metrologia, Lettura schemi elettrici, Processi di saldatura, Movimentazione materiali, Competenze Area Controlli non distruttivi, etc.) Tecniche Produzione - Gestione tecnica e normativa di un cantiere - Programmazione della produzione - Approccio alla manutenzione preventiva e predittiva - Organizzazione del posto di lavoro (5S, ergonomia, etc.) - Impianti elettrici - gestione e manutenzione - Impianti termoidraulici - gestione e manutenzione - Normativa tecnica di settore - La gestione dell'energia e le fonti rinnovabili -â€¦ - Strumenti e tecniche di analisi del bilancio - Costruzione del budget - Redazione del piano finanziario Area Contabilità  - Pagamenti internazionali e Finanza - Fiscalità  internazionale - Bilancio per non addetti -â€¦ - Paghe e contributi - Controllo di gestione - Project e risk management Area - Adempimenti fiscali Competenze Gestionali Amministrazione - Adempimenti doganali - Privacy e GDPR - Strumenti e tecniche dei processi formativi -â€¦ - Gestire la relazione di vendita con efficacia - Customer care e assistenza postvendita Aree Marketing - La gestione dei clienti attraverso e Vendite piattaforme CRM - Social media marketing - Strumenti e tecniche SEO-SEM -â€¦
+
+208 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+COMPETENZE CHIAVE AREE TEMATICHE ARGOMENTI
+
+- Direttiva macchine - Gestione del sistema della qualità (ISO 9001-2015; ISO 140001; ISO Area Qualità  450001; IAFT 16949, etc.) e Ambiente - Cultura della qualità  e i costi della non qualità -â€¦ Competenze - Approccio alla Lean Production Gestionali - Approccio alla gestione della Supply Chain - Gestione delle merci (aree Area Produzione magazzino, aree di produzione) - Visual Management - Change Management - Il ruolo del capo intermedio -â€¦
+
+ESEMPLIFICAZIONE DI ALCUNI PERCORSI FORMATIVI
+
+Competenze trasversali - Area Soft skills Negoziazione e gestione dei conflitti Obiettivi: Accrescere la conoscenza dei propri stili di relazione, di migliorare la gestione della propria e altrui aggressività , di risolvere i conflitti di ruolo e di gestire i conflitti in modo creativo Contenuti:
+- I modelli comportamentali prevalenti (aggressivo, passivo, assertivo) - La capacità  di ascolto e gli stili d'influenzamento attuati - La risoluzione dei conflitti di potere - Individuare i problemi, valutare le opzioni e trovare le soluzioni - Gestire i conflitti in modo creativo Problem solving & decision making Obiettivi: Il corso è focalizzato sugli aspetti del processo di analisi dei problemi e di presa di decisioni con l'obiettivo di facilitare la capacità  di pervenire a decisioni corrette anche nelle situazioni pià¹ critiche Contenuti:
+- Conoscere le principali metodologie per l'analisi e la risoluzione di problemi - Saper identificare soluzioni utili e soluzioni inutili - Condividere un processo per l'analisi del problema e la presa di decisione nei gruppi di lavoro - Adottare un approccio pià¹ razionale alla soluzione dei problemi e alla pianificazione - Capire come trasformare le decisioni in azioni - Identificare i comportamenti individuali e collettivi che facilitano i processi di analisi e decisione nei gruppi - Valutare l'impatto delle decisioni
+
+- Sviluppare la leadership nella comunicazione delle decisioni prese
+
+Competenze trasversali - Area Informatica Alfabetizzazione digitale Obiettivi: acquisire le competenze di base che consentano di operare in autonomia con i pià¹ moderni strumenti informatici.
+Contenuti:
+- Il glossario digitale dalla A alla Z - Come si usa il tablet - Internet: cercare e condividere informazioni - La posta elettronica: registrare un indirizzo di posta e gestire la messaggistica - Il mondo delle App - I social network - Gestire le informazioni ai fini della fruizione degli istituti contrattuali
+
+Competenze trasversali - Area Lingue straniere Lingua straniera (base / intermedio / avanzato / business) Obiettivi: I singoli corsi sono progettati per piccoli gruppi di lavoro e di studio con l'obiettivo di creare un ambiente dinamico e stimolante, dove le strutture linguistiche vengono consolidate e migliorate tramite contenuti e attività  scelti in sintonia con l'area professionale di appartenenza e con le competenze richieste.
+Le tipologie di corsi possono essere di lingua â€œgeneraleâ€ o tematici, sulla base del livello di conoscenza della lingua dei partecipanti, del ruolo e settore di appartenenza, dell'utilizzo della lingua nel contesto lavorativo.
+Contenuti: L'attenzione verrà  puntata sulla comunicazione e sulle capacità  pratiche da acquisire nei particolari settori di interesse, sulla base di un programma di lavoro e di un percorso formativo preventivamente individuato e progettato. I programmi tratteranno, attraverso l'uso di contenuti e materiali specifici, argomenti relativi ai ruoli professionali e agli obiettivi dei partecipanti, sulla base del livello iniziale di conoscenza della lingua. In generale, i corsi mireranno ad acquisire e consolidare le strutture linguistiche da implementare o già  presenti, incrementare vocabolario e gamma di espressione, introducendo gradualmente un linguaggio sempre pià¹ accurato.
+
+Competenze digitali - Area Industry 4.0 Introduzione alla tecnologia additiva (stampa 3D) Obiettivi: Le tecnologie additive costituiscono la pià¹ grande rivoluzione nella costruzione di componenti meccanici dell'ultimo decennio. Ormai la tecnologia è considerata matura ed il corso quindi si pone l'obiettivo di fornire una panoramica chiara e concisa sulle possibilità della tecnologia sia in ambito prototipazione sia in ambito manifattura.
+Contenuti:
+- Generalità  sulle tecnologie additive - I materiali usati nella stampa 3 D - Lo studio di prodotti con la tecnologia additiva - I programmi di slicing - Progetto di componenti da realizzare con tecnologia additiva - Le varie tipologie di stampanti 3 D - La scelta della tecnologia corretta
+
+210 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+Come gestire la manutenzione Obiettivo: Fornire ai partecipanti le conoscenze e le applicazioni relative alle varie filosofie e tecniche di manutenzione utilizzate nelle aziende.
+Contenuti:
+- La manutenzione cos'è e come si applica - Manutenzione centralizzata, manutenzione zonale: analisi - Curve caratteristiche delle condizioni dei macchinari/impianti/componenti: analisi - Definizioni usate nella manutenzione - Schemi di flusso della metodologia di manutenzione - Scheda analisi dei guasti - FMECA di un mezzo di lavoro - Scelta della manutenzione pià¹ opportuna - Come programmare un intervento - Analisi tra manutenzione predittiva e preventiva
+
+Competenze Tecniche - Area Produzione Progettazione integrata CAD - CAM Obiettivi: Il corso ha la finalità  di sviluppare competenze professionali per utilizzare in modo integrato strumenti e logiche di progettazione, studio di fabbricazione e definizione dei cicli di lavorazione delle parti, ottimizzando il processo tecnico aziendale e riducendo il â€œtime to marketâ€ del nuovo prodotto.
+Contenuti:
+- Acquisizione del modello geometrico da CAD - Definizione del ciclo di lavorazione - Selezione della macchina utensile - Impostazione del sistema di coordinate usato dalla macchina utensile - Definizione delle parti del pezzo da lavorare e delle lavorazioni da realizzare - Definizione del piazzamento e dell'attrezzatura di fissaggio del pezzo - Consultazione delle librerie di cicli - Definizione utensili e parametri di lavorazione per ogni lavorazione da eseguire - Generazione delle istruzioni - Visualizzazione ed eventuale modifica della sequenza di istruzioni generate - Visualizzazione grafica del percorso utensile generato - Invio dei dati al controllo numerico della macchina utensile Oleodinamica Obiettivi: L'azione formativa dovrà  fornire ai partecipanti le conoscenze tecniche e le capacità  operative necessarie per affrontare in piena autonomia tutte le operazioni di assemblaggio e/o intervento di manutenzione richieste, in particolare: conoscere la componentistica oleodinamica, saper interpretare gli schemi aziendali, nonchà© intervenire nel controllo e nella taratura di valvole e regolatori installati sulle macchine presenti in azienda.
+Contenuti:
+- Richiami sui principi di idraulica - Fluidi Idraulici - Eliminazione delle impurità  contaminanti nei sistemi a fluido - Distribuzione dell'energia idraulica - Trasformazione dell'energia meccanica in energia idraulica - Pompe - Utilizzo dell'energia - attuatori - Generazione e controllo della pressione
+
+- Controllo del movimento degli attuatori - Movimenti in funzione della pressione - Controllo dei carichi sospesi - Accumulo dell'energia
+
+Competenze Gestionali - Area Contabilità  e Finanza Bilancio per non addetti Obiettivo: Il corso, rivolto ai non addetti, ha l'obiettivo di fornire gli strumenti utili per poter leggere il bilancio.
+Contenuti:
+- Il bilancio di Esercizio secondo la normativa comunitaria - I destinatari - La struttura - I principi contabili fondamentali - Verifica dell'equilibrio economico finanziario e patrimoniale
+
+Competenze Gestionali - Area Amministrazione Controllo di gestione Obiettivi: Fornire le competenze necessarie per comprendere le tecniche di controllo economico, apprendere la metodologia per implementare il controllo strategico e per valutare l'economicità  degli investimenti.
+Contenuti:
+- Il legame tra pianificazione, strategia e controllo - La relazione tra equilibrio economico finanziario ed obiettivi di medio e lungo termine - Analisi dei risultati economici - Il ROS e il ROI - Il piano dei conti - I centri di responsabilità - La riclassificazione del conto economico e dello stato patrimoniale - I costi standard correnti e di base - I costi tecnici e parametrici - Analisi dei costi fissi e variabili - L'analisi break even point e make or buy - I costi per commessa - Controllo economico per attività  (Activity Based Costing) - Gli indicatori di performance dell'azienda - Le prospettive del controllo strategico nella metodologia.
+- La costruzione del tableau de bord per la gestione della produzione - Il collegamento tra tableau de bord e sistemi informativi aziendali - La struttura della reportistica - Esercitazioni
+
+Competenze Gestionali - Area Marketing e Vendite Customer care e assistenza postvendita Obiettivi: Il corso fornisce ai partecipanti gli strumenti concettuali e relazionali necessari per una corretta gestione del rapporto con i clienti, in particolare il corso si propone di implementare la capacità  di ascolto e di anticipare i bisogni dei clienti, oltre che di creare un am212 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+biente favorevole all'ingresso di nuovi clienti. Il corso si propone inoltre di illustrare come sviluppare una visione del post vendita come business unit specifica.
+Contenuti:
+- Che cos'è la customer care - La comunicazione come strumento di ascolto - Indagini, sondaggi ed audit cosa sono e come utilizzarli - Come creare un â€œingresso accoglienteâ€ per il cliente potenziale - Prevenire i bisogni ed offrire eccellenza - Obiezioni, reclami, lamentele: come gestirle e quali procedure attivare - Raccolta dati e gestione delle informazioni - Come ottenere informazioni strategiche dal cliente - Monitoraggio della soddisfazione dei clienti attraverso i dati raccolti - Cosa misurare nella customer care e perchà© - Preparazione check-list della qualità - Come comunicare il Brand aziendale per aumentare la percentuale di riacquisto e fidelizzare il cliente - I processi di un'unità  di post vendita - L'organizzazione del post vendita - Misurare i risultati
+
+Competenze Gestionali - Area Qualità  e Ambiente Gestione del sistema della qualità Obiettivi: Il corso si propone di fornire cenni teorici e strumenti operativi per la progettazione ed implementazione di un Sistema di Gestione Qualità  in accordo alla norma UNI EN ISO 9001:2008.
+Contenuti:
+- La PMI e la gestione per processi - La gestione della documentazione - La direzione aziendale e i processi di management - La gestione delle risorse e dei processi operativi - Miglioramento continuo e Verifiche Ispettive
+
+Competenze Gestionali - Area Produzione Gestione delle merci (area magazzino) Obiettivi:
+- Identificare il ruolo della logistica di magazzino per la strategia e la competitività d'impresa.
+- Individuare le scelte organizzative e gestionali che garantiscono l'efficacia e l'efficienza prestazionale di un magazzino.
+- Delineare metodologie, tecniche e strumenti per il controllo prestazionale del magazzino.
+- Progettare il magazzino: logiche, st rutture e mezzi per la progettazione fisica delle aree di magazzino.
+Contenuti:
+- Il sistema magazzino nell'ambito del sistema logistico aziendale - Tipologia di materiali e scelte logistiche - Classificazione e identificazione dei materiali - Le logiche di gestione delle scorte
+
+- Le tecniche di gestione - La contabilità  di magazzino - Il controllo fisico: inventario tradizionale ed â€œa rotazioneâ€ - Studio e progettazione delle aree di immagazzinamento - Layout e strutture fisiche tradizionali ed automatiche - Flussi fisici e scelta dei mezzi di movimentazione - Il software di magazzino.
+
+Art. 8. - Diritto allo studio.
+A far data dal 1Â° gennaio 2017 sarà  determinato, all'inizio di ogni triennio, il monte ore messo a disposizione di tutti i dipendenti per l'esercizio del diritto allo studio, moltiplicando ore 7 annue per tre e per il numero totale dei dipendenti occupati nell'azienda in quella data ovvero nell'unità  produttiva secondo la prassi già  in atto, salvo i conguagli successivi in relazione alle variazioni del numero dei dipendenti.
+I lavoratori che contemporaneamente potranno assentarsi dall'unità  produttiva per frequentare i corsi di studio in seguito elencati o per frequentare i corsi di formazione continua di cui all'art 7 saranno di norma il 3% complessivo della forza occupata nell'unità  produttiva, coerentemente con le esigenze tecnico-organizzative. Nelle aziende fino a 200 dipendenti gli eventuali valori frazionari risultanti dall'applicazione della suddetta percentuale saranno arrotondati all'unità  superiore. Sono esclusi dal computo della percentuale di assenza, i permessi per i giorni di esame.
+Le aziende, indipendentemente dalle percentuali di assenza, favoriranno la frequenza di corsi di lingua italiana per lavoratori stranieri compatibilmente con le esigenze tecnico-organizzative. Dovrà  essere comunque garantito in ogni reparto lo svolgimento della attività  produttiva, mediante accordi con la Rappresentanza sindacale unitaria.
+I lavoratori che, al fine di migliorare la propria cultura, intendono frequentare corsi finalizzati a conseguire un titolo legale di studio riferibile al Quadro Europeo delle Qualifiche per l'apprendimento permanente (QEQ), di cui alla Raccomandazione del Parlamento Europeo e del Consiglio del 23 aprile 2008, cosà¬ come recepita dall'Accordo sottoscritto in sede di Conferenza Stato-Regioni il 20 dicembre 2012 e recepito dal Decreto del Ministero del Lavoro e delle Politiche Sociali di concerto con il Ministero dell'Istruzione, dell'Università  e della Ricerca del 13 febbraio 2013 (riportato in calce al presente articolo), hanno diritto, con le precisazioni indicate, di usufruire di permessi retribuiti a carico del monte ore triennale come sopra definito. Tali permessi, quantificati nella tabella seguente, potranno essere fruiti anche in un solo anno.
+In particolare la tipologia dei corsi ammissibili, gli istituti erogatori, nonchà© i permessi retribuiti a carico del monte ore di cui al comma 1, sono specificati, in relazione alla durata dei suddetti corsi, come segue:
+
+214 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+Permessi Rapporto fra ore retribuiti a Tipologia Istituti di permesso carico del corsi1 erogatori retribuito e ore di monte ore di frequenza ai corsi cui al comma 1
+
+A) Corsi per Centri l'alfabetizzazione e Provinciali di l'assolvimento Istruzione per gli dell'obbligo di Adulti, di cui istruzione degli all'art. 1, c. 632 adulti finalizzati al della legge 27 conseguimento dei dicembre 2006, 2/3 sino a livelli 1 e 2 del n. 296 e del 250 ore concorrenza delle QEQ. decreto del triennali.
+250 ore2.
+MIUR del 25 B) Corsi di lingua ottobre 2007.
+italiana per lavoratori stranieri al fine di agevolarne l'integrazione.
+
+C) Corsi finalizzati a Istituti di conseguire un titolo istruzione e legale di studio che istituzioni faccia riferimento ai formative del 1/2 sino a 150 ore livelli 3 e 4 del sistema di IeFP e concorrenza delle triennali.
+QEQ. IFTS legalmente 150 ore3.
+riconosciuti a livello statale o regionale.
+
+D) Corsi volti a conseguire un titolo di istruzione 150 ore Università , ITS.
+terziaria (livelli 5, 6, triennali.
+7, 8 del QEQ).
+
+Gli studenti di cui alla lettera D) potranno fruire di 16 ore retribuite, non a carico del monte ore di cui al comma 1, per la preparazione di ogni ulteriore esame qualora siano già  state fruite le 150 ore e superati 9 esami nel triennio. A tali fini non sono considerati esami tutte le cosiddette prove in itinere, quali, ad esempio, esoneri parziali, idoneità .
+Gli studenti di cui alla lettera D) potranno fruire, ogni triennio o frazione, dei permessi retribuiti per un periodo pari al doppio della durata del corso.
+Il lavoratore farà  richiesta scritta almeno 1 mese prima dell'inizio del corso
+
+1) Vedi Quadro sinottico di referenziazione delle qualificazioni pubbliche nazionali, allegato.
+2) àˆ possibile fruire di due ore di permesso ogni tre ore di corso.
+3) àˆ possibile fruire di un'ora di permesso ogni due ore di corso.
+
+al quale intende partecipare e 15 giorni prima dell'esame che intende sostenere.
+A richiesta dell'azienda il lavoratore dovrà  produrre le certificazioni necessarie all'esercizio del diritto di cui al presente articolo.
+Le aziende erogheranno, durante la frequenza dei corsi, acconti mensili conguagliabili, commisurati alle ore di permesso usufruito, fermo restando che il presupposto per il pagamento di dette ore, nei limiti ed alle condizioni indicate, è costituito dalla regolare frequenza dell'intero corso.
+I permessi retribuiti sopra definiti si intendono cumulabili limitatamente al conseguimento di livelli successivi del QEQ.
+I lavoratori studenti, iscritti e frequentanti corsi regolari di studio finalizzati all'acquisizione di titoli di studio riferibili a tutti i livelli del QEQ presso gli istituti erogatori su elencati, saranno immessi, su loro richiesta, in turni di lavoro che agevolino la frequenza ai corsi e la preparazione agli esami.
+Sempre su loro richiesta saranno esonerati dal prestare lavoro straordinario e durante i riposi settimanali.
+I lavoratori studenti, che devono sostenere prove di esame, possono usufruire, su richiesta, di permessi retribuiti per tutti i giorni di prova che costituiscono l'esame. Questi permessi non sono a carico del monte ore di cui al comma 1 del presente articolo.
+I permessi non saranno retribuiti per gli esami universitari che siano stati sostenuti per pià¹ di due volte nello stesso anno accademico.
+Fermi restando, per i lavoratori con almeno 5 anni di anzianità  di servizio, i congedi per la formazione previsti dal successivo articolo 9, del presente Titolo, i lavoratori studenti con meno di 5 anni di anzianità  di servizio potranno richiedere nel corso dell'anno 120 ore di permesso non retribuito il cui utilizzo verrà  programmato trimestralmente pro-quota, in sede aziendale, compatibilmente con le esigenze produttive ed organizzative dell'azienda.
+Rimangono salve le condizioni di miglior favore stabilite da accordi aziendali.
+
+216 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+QUADRO EUROPEO DELLE QUALIFICHE PER L'APPRENDIMENTO PERMANENTE (QEQ)4 Livello Tipologia di Autorità Percorso corrispondente QEQ qualificazione competente
+
+Diploma di licenza 1 conclusiva del I ciclo di MIUR Scuola secondaria di I grado istruzione
+
+MIUR o Certificato delle Regioni a Fine del primo biennio di licei, competenze di base seconda del istituti tecnici, istituti 2 acquisite in esito canale di professionali, percorsi di IeFP all'assolvimento assolvimento triennali e quadriennali dell'obbligo di istruzione prescelto Attestato di qualifica di 3 Regioni Percorsi triennali di IeFP operatore professionale Diploma professionale di Regioni Percorsi quadriennali di IeFP tecnico
+
+Percorsi quinquennali dei licei (Percorsi formativi in Diploma liceale MIUR apprendistato di alta formazione e ricerca)
+
+Percorsi quinquennali degli istituti tecnici Diploma di istruzione MIUR (Percorsi formativi in tecnica apprendistato di alta formazione e ricerca) 4 Percorsi quinquennali degli istituti professionali Diploma di istruzione MIUR (Percorsi formativi in professionale apprendistato di alta formazione e ricerca) Percorsi IFTS Certificato di specializza- (Percorsi formativi in Regioni zione tecnica superiore apprendistato di alta formazione e ricerca) Corsi ITS Diploma di tecnico supe- (Percorsi formativi in 5 MIUR riore apprendistato di alta formazione e ricerca)
+
+4) Di cui alla Raccomandazione del Parlamento Europeo e del Consiglio del 23 aprile 2008, cosà¬ come recepita dall'Accordo sottoscritto in sede di Conferenza Stato-Regioni il 20 dicembre 2012 e recepito dal Decreto del Ministero del Lavoro e delle Politiche Sociali di concerto con il Ministero dell'Istruzione, dell'Università  e della Ricerca del 13 febbraio 2013.
+
+Livello Tipologia di Autorità Percorso corrispondente QEQ qualificazione competente Percorso triennale (180 crediti - CFU) Laurea MIUR (Percorsi formativi in apprendistato di al6 ta formazione e ricerca) Diploma accademico MIUR Percorso triennale (180 crediti - CFU) di primo livello Percorso biennale (120 crediti - CFU) Laurea magistrale MIUR (Percorsi formativi in apprendistato di alta formazione e ricerca)
+
+Diploma accademico MIUR Percorso biennale (120 crediti - CFU) di secondo livello
+
+Percorso minimo annuale (min. 60 Master universitario crediti - CFU) 7 MIUR di primo livello (Percorsi formativi in apprendistato di alta formazione e ricerca)
+
+Diploma accademico Percorso minimo biennale (120 crediti MIUR di specializzazione CFU)
+
+Diploma di Percorso minimo annuale (min. 60 perfezionamento o MIUR crediti - CFU) master Percorso triennale Dottorato di ricerca MIUR (Percorsi formativi in apprendistato di alta formazione e ricerca)
+
+Diploma accademico di formazione alla MIUR Percorso triennale ricerca
+
+Percorso minimo biennale (120 crediti Diploma di CFU) MIUR specializzazione (Percorsi formativi in apprendistato di 8 alta formazione e ricerca) Percorso minimo annuale (min. 60 Master universitario crediti - CFU) MIUR di secondo livello (Percorsi formativi in apprendistato di alta formazione e ricerca)
+
+Diploma accademico Percorso minimo biennale (120 crediti MIUR di specializzazione CFU)
+
+Diploma di Percorso minimo annuale (min. 60 perfezionamento MIUR crediti - CFU) o master
+
+218 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+Art. 9. - Congedi per la formazione.
+Ai sensi e per gli effetti dell'articolo 5, legge 8 marzo 2000, n. 53, i lavoratori con almeno 5 anni di anzianità  di servizio potranno richiedere, nell'arco dell'intera vita lavorativa, un periodo di congedo non retribuito pari ad un massimo di undici mesi anche frazionabili al fine di completare la scuola dell'obbligo, conseguire il titolo di studio di secondo grado, del diploma universitario o di laurea ovvero per partecipare ad attività  formative diverse da quelle poste in essere o finanziate dal datore di lavoro.
+Il lavoratore dovrà  presentare richiesta scritta al datore di lavoro almeno 30 giorni prima per i congedi di durata fino a 10 giorni e almeno 60 giorni prima per i congedi di durata superiore a 10 giorni, specificando i motivi della richiesta ed allegando la relativa documentazione.
+L'azienda valuterà  l'accoglimento della richiesta tenuto conto delle esigenze tecnico organizzative ed in caso di diniego o differimento del congedo informerà l'interessato dei motivi che hanno determinato la decisione.
+Ferma restando la compatibilità  dei congedi con lo svolgimento della normale attività  produttiva, i lavoratori che potranno contemporaneamente assentarsi dall'unità  produttiva a questo titolo non dovranno superare l'uno per cento del totale della forza occupata. Gli eventuali valori frazionari risultanti dall'applicazione della suddetta percentuale saranno arrotondati all'unità  superiore.
+
+Art. 10. - Permessi per eventi e cause particolari ed ex articolo 33, legge n. 104/1992.
+Ai sensi e per gli effetti dell'articolo 4, primo comma, della legge 8 marzo 2000, n. 53, e degli artt. 1 e 3 del regolamento d'attuazione di cui al decreto interministeriale 21 luglio 2000, n. 278, la lavoratrice e il lavoratore hanno diritto a tre giorni complessivi di permesso retribuito all'anno in caso di decesso o di documentata grave infermità  del coniuge, anche legalmente separato, o di un parente entro il secondo grado, anche non convivente, o di un soggetto componente la famiglia anagrafica della lavoratrice o del lavoratore medesimi.
+Per fruire del permesso il lavoratore è tenuto a preavvertire il datore di lavoro dell'evento che dà  titolo al permesso medesimo ed i giorni nei quali sarà  utilizzato.
+Nel caso di richiesta del permesso per grave infermità  dei soggetti indicati, il lavoratore deve presentare, entro il termine massimo di cinque giorni dalla ripresa dell'attività  lavorativa, idonea documentazione del medico specialista del Servizio sanitario nazionale o con esso convenzionato o del medico di medicina generale o del pediatra di libera scelta o della struttura sanitaria nel caso di ricovero o intervento chirurgico.
+Nel caso di richiesta del permesso per decesso di uno dei soggetti indicati al primo comma, il lavoratore è tenuto a documentare detto evento con la relativa certificazione, ovvero, nei casi consentiti, con dichiarazione sostitutiva.
+
+I giorni di permesso devono essere utilizzati entro sette giorni dal decesso o dall'accertamento dell'insorgenza della grave infermità  o della necessità  di provvedere a conseguenti specifici interventi terapeutici.
+Nei giorni di permesso non sono considerati i giorni festivi e quelli non lavorativi.
+Nel caso di documentata grave infermità  dei soggetti indicati, il lavoratore ed il datore di lavoro possono concordare, in alternativa all'utilizzo dei giorni di permesso, diverse modalità  di espletamento dell'attività  lavorativa comportanti una riduzione dell'orario di lavoro complessivamente non inferiore ai giorni di permesso che vengono sostituiti.
+L'accordo è stipulato in forma scritta, sulla base della proposta della lavoratrice o del lavoratore ed in esso sono indicati i giorni di permesso che sono sostituiti dalle diverse modalità  concordate e la cadenza temporale di produzione da parte del lavoratore della idonea certificazione atta a documentare la permanenza della grave infermità . Dal momento in cui venga accertato il venire meno della grave infermità  il lavoratore è tenuto a riprendere l'attività  lavorativa secondo le modalità  ordinarie. Il corrispondente periodo di permesso non goduto puà² essere utilizzato per altri eventi che dovessero verificarsi nel corso dell'anno alle condizioni previste dalle presenti disposizioni.
+La riduzione dell'orario di lavoro conseguente alle diverse modalità  concordate deve avere inizio entro sette giorni dall'accertamento dell'insorgenza della grave infermità  o della necessità  di provvedere agli interventi terapeutici.
+I permessi di cui al presente articolo sono cumulabili con quelli previsti dall'articolo 33 della legge 5 febbraio 1992, n. 104, e successive modificazioni.
+Fermo restando il diritto a fruire dei permessi di cui alla norma sopra citata, per consentire una migliore programmazione dell'attività  aziendale, il lavoratore presenterà  un piano di programmazione mensile degli stessi con un anticipo di 10 giorni rispetto al mese di fruizione, fatti salvi i casi di necessità  ed urgenza.
+
+Art. 11. - Aspettativa e congedi per eventi e cause particolari.
+A) I lavoratori con oltre 10 anni di anzianità  di servizio potranno richiedere, per una sola volta in costanza del rapporto di lavoro, un periodo di aspettativa della durata minima di 1 mese e massima di 6 non frazionabili.
+Nel caso di richiesta motivata dall'esigenza di svolgere attività  di volontariato la suddetta anzianità  di servizio è ridotta a 7 anni.
+I lavoratori dovranno avanzare richiesta scritta del periodo di aspettativa al datore di lavoro specificandone le motivazioni. La Direzione potrà  concedere il beneficio, tenendo conto delle necessità  tecnico-organizzative dell'azienda e comunque per un numero di dipendenti contemporaneamente non eccedente l'uno per cento del totale della forza dell'unità  produttiva di cui il richiedente fa parte.
+Gli eventuali valori frazionari risultanti dall'applicazione della suddetta percentuale saranno arrotondati all'unità  superiore.
+
+220 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+B) Ai sensi e per gli effetti di quanto previsto dall'articolo 4, secondo comma, della legge 8 marzo 2000, n. 53, e dagli artt. 2 e 3 del regolamento d'attuazione di cui al decreto interministeriale 21 luglio 2000, n. 278, il lavoratore ha diritto ad un periodo di congedo per i gravi motivi familiari espressamente indicati dalle richiamate disposizioni di legge, relativi alla situazione personale, della propria famiglia anagrafica e dei soggetti di cui all'articolo 433 Codice civile anche se non conviventi, nonchà© dei portatori di handicap, parenti o affini entro il terzo grado, anche se non conviventi.
+Tale congedo, utilizzabile in modo continuativo o frazionato, non potrà  essere superiore a due anni nell'arco dell'intera vita lavorativa.
+Il lavoratore dovrà  presentare richiesta scritta specificando i motivi e la durata del periodo di congedo precisando, di norma, la durata minima dello stesso e documentare, anche attraverso dichiarazione sostitutiva nei casi consentiti, il legame di parentela, affinità  o di famiglia anagrafica con i soggetti sopra indicati.
+Il lavoratore deve altresà¬ assolvere agli obblighi di documentazione previsti dall'articolo 3 del medesimo regolamento di attuazione.
+Il datore di lavoro è tenuto, entro 5 giorni dalla richiesta del congedo riferita a periodi non superiori a sette giorni ed entro 10 giorni dalla richiesta del congedo riferita a periodi superiori, ad esprimersi sulla stessa e a comunicare l'esito al dipendente.
+L'eventuale diniego, la proposta di rinvio ad un periodo successivo e determinato, la concessione parziale del congedo devono essere motivati in relazione alle condizioni previste per la richiesta del congedo ed alle ragioni organizzative e produttive che non consentono la sostituzione del dipendente. Su richiesta del dipendente, eventualmente assistito dalla Rappresentanza sindacale unitaria su sua indicazione, la domanda deve essere riesaminata nei successivi 20 giorni.
+Il datore di lavoro assicura l'uniformità  delle decisioni avuto riguardo alla prassi adottata e alla situazione organizzativa e produttiva dell'impresa.
+Nel caso di rapporti di lavoro a tempo determinato la richiesta di congedo puà² essere in ogni caso negata per incompatibilità  con la durata del rapporto in relazione al periodo di congedo richiesto, ovvero quando i congedi già  concessi abbiano superato i tre giorni nel corso del rapporto di lavoro a termine nonchà© quando il rapporto sia stato instaurato in ragione della sostituzione di altro dipendente in congedo ai sensi della presente norma.
+Il congedo di cui al presente articolo puà² essere altresà¬ richiesto per il decesso di uno dei soggetti di cui al precedente articolo 10, per il quale il richiedente non abbia la possibilità  di utilizzare permessi retribuiti nello stesso anno ai sensi delle medesime disposizioni o di disposizioni previste dalla contrattazione collettiva.
+Nel caso in cui la richiesta del congedo per questo motivo sia riferita a periodi non superiori a tre giorni, il datore di lavoro è tenuto ad esprimersi entro 24 ore dalla stessa ed a motivare l'eventuale diniego sulla base di eccezionali ragioni organizzative, nonchà© ad assicurare che il congedo venga fruito comunque entro i successivi sette giorni.
+
+Il lavoratore, una volta superata la durata minima del congedo specificata nella richiesta, ha diritto a rientrare nel posto di lavoro anche prima del termine del periodo di congedo previo preavviso non inferiore a sette giorni.
+Durante il periodo di aspettativa e di congedo di cui al presente articolo, il lavoratore conserva il posto di lavoro, non ha diritto alla retribuzione nà© alla decorrenza dell'anzianità  per nessun istituto e non puà² svolgere alcun tipo di attività lavorativa.
+
+Art. 12. - Misure per le donne vittime di violenza di genere Al verificarsi delle condizioni previste dall'art. 24 del D. Lgs. n. 80 del 2015, le lavoratrici interessate hanno diritto ad astenersi dal lavoro per motivi connessi al percorso di protezione per un periodo retribuito massimo di sei mesi fermo restando quanto stabilito per i primi 3 mesi di astensione dal lavoro dal comma 4 del medesimo articolo. Tale congedo puà² essere fruito, previo preavviso, su base oraria o giornaliera nell'arco temporale di tre anni.
+Al fine di contribuire al miglioramento della condizione di vita, alle lavoratrici di cui al presente articolo, rientrate in servizio dopo il periodo di congedo continuativo, è riconosciuto il diritto di cui ai commi 6 e 7 dell'art. 7 in materia di formazione continua nei termini ivi previsti. Le lavoratrici hanno, altresà¬, diritto alla trasformazione, anche temporanea, del rapporto di lavoro a tempo parziale e saranno agevolate nell'utilizzo di forme di flessibilità  oraria e/o di modalità  agile della prestazione lavorativa.
+Le lavoratrici, inoltre, qualora vi siano pià¹ sedi lavorative e laddove sia organizzativamente possibile, hanno il diritto di richiedere all'azienda il trasferimento a parità  di condizioni economiche e normative.
+
+Art. 13. - Conservazione del posto di lavoro in caso di accesso ai programmi terapeutici e di riabilitazione per gli stati di accertata tossicodipendenza.
+Ai sensi e per gli effetti del Testo unico delle leggi in materia di disciplina degli stupefacenti e sostanze psicotrope, prevenzione, cura e riabilitazione dei relativi stati di tossicodipendenza (D.P.R. 9 ottobre 1990, n. 309), il lavoratore del quale viene accertato lo stato di tossicodipendenza e che intende accedere ai programmi terapeutici e di riabilitazione presso i servizi sanitari delle unità  sanitarie locali o di altre strutture terapeutico-riabilitative e socio-assistenziali, se assunto a tempo indeterminato, ha diritto alla conservazione del posto di lavoro per il tempo in cui la sospensione della prestazione lavorativa è dovuta all'esecuzione del trattamento riabilitativo e, comunque, per un periodo non superiore a tre anni, secondo le specifiche modalità  di seguito definite.
+Il dipendente che intende avvalersi di detto periodo di aspettativa è tenuto a presentare alla Direzione dell'azienda la documentazione di accertamento dello stato di tossicodipendenza rilasciata dal servizio pubblico per le tossicodipendenze ed il
+
+222 Sez. Quarta - Titolo VI - Assenze, permessi e tutele
+
+relativo programma di riabilitazione ai sensi dell'articolo 122 del citato Testo unico.
+Il dipendente interessato dovrà  inoltre presentare, con periodicità  mensile, la documentazione rilasciata dalla struttura presso la quale sta eseguendo il programma terapeutico attestante l'effettiva prosecuzione del programma stesso.
+Il rapporto di lavoro si intende risolto qualora il lavoratore non riprenda servizio entro sette giorni dal completamento della terapia di riabilitazione o dalla scadenza del periodo massimo di aspettativa, ovvero dalla data dell'eventuale volontaria interruzione anticipata del programma terapeutico.
+Previa richiesta scritta, l'azienda concederà  ai lavoratori che ne facciano richiesta per la necessità , attestata dal servizio pubblico per le tossicodipendenze, di concorrere al programma terapeutico e socio-riabilitativo seguito da un familiare tossicodipendente, un periodo di aspettativa - compatibilmente con le esigenze tecnico-produttive - non superiore a quattro mesi, anche frazionabile per periodi non inferiori ad un mese.
+Durante i suddetti periodi di aspettativa non decorrerà  retribuzione, nà© si avrà decorrenza di anzianità  di servizio per alcun istituto di legge e/o di Contratto.
+Nell'attuazione degli adempimenti disciplinati dal presente articolo, sarà  posta particolare attenzione a tutela della riservatezza dei soggetti interessati.
+
+Art. 14. - Assenze e permessi.
+Le assenze debbono essere giustificate al pià¹ tardi entro il giorno successivo a quello dell'inizio dell'assenza stessa, salvo il caso di impedimento giustificato.
+Durante le ore di lavoro il lavoratore non puà² lasciare la sede di lavoro senza regolare autorizzazione della Direzione.
+Semprechà© ricorrano giustificati motivi e compatibilmente con le esigenze del servizio, l'azienda consentirà  al lavoratore che ne faccia richiesta, di assentarsi dal lavoro per breve permesso.
+Salvo le disposizioni di legge, a meno che non vi sia un esplicito permesso, non è consentito che un lavoratore entri o si trattenga nello stabilimento in ore non comprese nel suo orario di lavoro; il lavoratore licenziato o sospeso non puà² entrare nello stabilimento se non è autorizzato dalla Direzione.
+DICHIARAZIONE A VERBALE.
+La formulazione di cui al terzo comma non esclude per l'azienda la facoltà  di non corrispondere la retribuzione. Tale facoltà  è data soprattutto allo scopo di costituire una remora contro eventuali abusi.
+
+Art. 15. - Anzianità  dei lavoratori.
+La sospensione dal lavoro per riduzione o interruzione di attività  ed i permessi non interrompono l'anzianità  di servizio dei lavoratori a tutti gli effetti.
+
+NOTE A VERBALE.
+1) L'aspettativa per i lavoratori chiamati a funzioni pubbliche elettive o a ricoprire cariche sindacali provinciali e nazionali, per i lavoratori in malattia e per i lavoratori che intendano avvalersi delle disposizioni di cui ai precedenti articoli 5, 9, 11, 12 e 13 del presente Titolo, è regolata dalle norme di legge e di Contratto.
+2) La sospensione totale o parziale della prestazione di lavoro per la quale sia prevista l'integrazione salariale è regolata, ai fini del trattamento di fine rapporto, dalla legge 29 maggio 1982, n. 297
+
+224 Sez. Quarta -Titolo VII - Rapporti in azienda
+
+Titolo VII - Rapporti in azienda
+
+Art. 1. - Rapporti in azienda.
+Nell'ambito del rapporto di lavoro, il lavoratore dipende dai rispettivi superiori, come previsto dall'organizzazione aziendale.
+I rapporti tra i lavoratori, a tutti i livelli di responsabilità  nell'organizzazione aziendale, saranno improntati a reciproca correttezza ed educazione.
+In armonia con la dignità  del lavoratore i superiori impronteranno i rapporti con i dipendenti a sensi di collaborazione ed urbanità .
+Verranno evitati comportamenti importuni, offensivi ed insistenti deliberatamente riferiti alla condizione sessuale che abbiano la conseguenza di determinare una situazione di rilevante disagio della persona cui essi sono rivolti, anche al fine di subordinare all'accettazione o al rifiuto di tali comportamenti, la modifica delle sue condizioni di lavoro.
+Al fine di prevenire i suddetti comportamenti, le aziende adotteranno le iniziative proposte dalla Commissione nazionale per le pari opportunità  ai sensi della lett. c), punto 7.1. ed al punto 7.5 dell'articolo 7, Sezione prima.
+L'azienda avrà  cura di mettere il lavoratore in condizioni di evitare possibili equivoci circa le persone alle quali, oltre che al superiore diretto, egli è tenuto a rivolgersi in caso di necessità  e delle quali è tenuto ad osservare le disposizioni.
+L'azienda deve inoltre comunicare ai lavoratori interessati i nominativi e le mansioni specifiche del personale addetto alla vigilanza dell'attività  lavorativa.
+Il lavoratore deve osservare l'orario di lavoro e adempiere alle formalità  prescritte dall'azienda per il controllo delle presenze, con espresso divieto di fare variazioni o cancellature sulla scheda, di ritirare quella di un altro lavoratore o di tentare in qualsiasi modo di alterare le indicazioni dell'orologio controllo, nonchà© di compiere volontariamente movimenti irregolari delle medaglie.
+Il lavoratore che non avrà  fatto il regolare movimento della scheda o della medaglia sarà  considerato ritardatario e quando non possa far constatare in modo sicuro la sua presenza nel luogo di lavoro sarà  considerato assente.
+Egli inoltre deve svolgere le mansioni affidategli con la dovuta diligenza, osservare le disposizioni del presente Contratto, nonchà© quelle impartite dai superiori, avere cura dei locali e di tutto quanto è a lui affidato (mobili, attrezzi, macchinari, utensili, strumenti, ecc.), rispondendo delle perdite, degli eventuali danni che siano imputabili a sua colpa o negligenza, nonchà© delle arbitrarie modifiche da lui apportate agli oggetti in questione.
+La valutazione dell'eventuale danno deve essere fatta obiettivamente e l'ammontare del danno deve essere preventivamente contestato al lavoratore. L'ammontare delle perdite e dei danni di cui al comma precedente potrà  essere trattenuto ratealmente sulla retribuzione con quote non superiori al 10 per cento della retribuzione stessa. In caso di risoluzione del rapporto di lavoro, la trattenuta verrà  effettuata sull'ammontare di quanto spettante al lavoratore, fatte salve le disposizioni e i limiti di legge. Egli deve conservare assoluta segretezza sugli interessi dell'azienda; inoltre non dovrà  trarre profitto, con danno dell'imprenditore, da quanto forma oggetto delle sue mansioni nell'azienda, nà© svolgere attività  contraria agli interessi della produzione aziendale, nà© abusare, dopo risolto il rapporto di lavoro ed in forma di concorrenza sleale, delle notizie attinte durante il servizio.
+Eventuali patti di limitazione dell'attività  professionale del lavoratore per il tempo successivo alla risoluzione del rapporto sono regolati a norma dell'articolo 2125 del Codice civile.
+Le infrazioni a tali disposizioni come previsto nei successivi artt. 8, 9, 10 daranno luogo a provvedimenti disciplinari che potranno giungere fino al licenziamento per mancanze ai sensi dell'articolo 10.
+
+Art. 2. - Commissione paritetica nazionale di studio sull'utilizzo dei sistemi informatici aziendali e tutela della privacy.
+Le parti stipulanti convengono di costituire un Gruppo di lavoro paritetico con il compito di studiare le problematiche sollevate dall'introduzione e dall'uso di tecnologie informatiche con riferimento a quanto previsto dall'articolo 4, legge 20 maggio 1970, n. 300 e pià¹ in generale al rispetto della privacy dei lavoratori.
+
+Art. 3. - Divieti.
+Il lavoratore non potrà  prestare la propria opera presso aziende diverse da quella in cui è regolarmente assunto, salvo il caso di sospensione dal lavoro senza trattamento economico.
+Non sono consentite in azienda le collette, le raccolte di firme e la vendita di biglietti e di oggetti, oltre i limiti previsti dalla legge 20 maggio 1970, n. 300 e dal successivo articolo 4.
+
+Art. 4. - Vendita di libri e riviste.
+Negli stabilimenti con oltre 100 dipendenti la Rappresentanza sindacale unitaria potrà  effettuare la diffusione anche attraverso vendita, rivolta esclusivamente ai dipendenti, di libri e riviste la cui edizione sia stata debitamente autorizzata nelle forme di legge.
+Le operazioni relative saranno svolte direttamente dai componenti della Rappresentanza sindacale unitaria sotto la propria esclusiva responsabilità  anche in ordine al contenuto delle pubblicazioni e si effettueranno, fuori dell'orario di lavoro, nel locale della Rappresentanza sindacale unitaria e/o, nei giorni preventivamente concordati con la Direzione, in altro locale di ritrovo o di riunione messo a disposizione dall'azienda.
+
+226 Sez. Quarta -Titolo VII - Rapporti in azienda
+
+Dalle forme di pagamento dei libri e riviste è esclusa ogni trattenuta anche rateale sulla retribuzione.
+
+Art. 5. - Visite di inventario e di controllo.
+Il lavoratore non puà² rifiutare la visita di inventario degli oggetti, strumenti o utensili affidatigli.
+Le visite personali di controllo sul lavoratore potranno essere effettuate ai sensi dell'articolo 6 della legge 20 maggio 1970, n. 300.
+
+Art. 6. - Norme speciali.
+Oltre che al presente Contratto di lavoro i lavoratori devono uniformarsi, nell'ambito del rapporto di lavoro, a tutte le altre norme che potranno essere stabilite dalla Direzione purchà© tali norme non contengano modificazioni o limitazioni dei diritti derivanti al lavoratore dal presente Contratto e dagli altri accordi vigenti.
+Le norme in ogni caso dovranno essere portate a conoscenza del lavoratore.
+
+Art. 7. - Reclami e controversie.
+Ferme restando le possibilità  di accordo diretto tra le parti interessate per eventuali reclami nell'applicazione del presente Contratto, le controversie individuali e collettive tra azienda e lavoratori saranno risolte possibilmente in prima istanza tra la Direzione e la Rappresentanza sindacale unitaria e, in difetto di accordo, dalle rispettive competenti Organizzazioni sindacali.
+Le controversie collettive sull'applicazione del presente Contratto saranno esaminate dalle competenti Organizzazioni sindacali territoriali aderenti rispettivamente alle Associazioni sindacali congiuntamente stipulanti ed alla Federmeccanica o all'Assistal - per i suoi associati - e, in caso di mancato accordo, a livello nazionale dalle Associazioni sindacali congiuntamente stipulanti e dalla Federmeccanica o - per i suoi associati - dall'Assistal.
+
+Art. 8. - Provvedimenti disciplinari.
+L'inosservanza, da parte del lavoratore, delle disposizioni contenute nel presente Contratto puà² dar luogo, secondo la gravità  della infrazione, all'applicazione dei seguenti provvedimenti:
+a) richiamo verbale;
+b) ammonizione scritta;
+c) multa non superiore a tre ore di retribuzione oraria calcolata sul minimo tabellare;
+d) sospensione dal lavoro e dalla retribuzione fino ad un massimo di tre giorni;
+
+e) licenziamento per mancanze ai sensi dell'articolo 10.
+Il datore di lavoro non potrà  adottare alcun provvedimento disciplinare nei confronti del lavoratore senza avergli preventivamente contestato l'addebito e senza averlo sentito a sua difesa.
+Salvo che per il richiamo verbale, la contestazione dovrà  essere effettuata per iscritto ed i provvedimenti disciplinari non potranno essere comminati prima che siano trascorsi 5 giorni, nel corso dei quali il lavoratore potrà  presentare le sue giustificazioni.
+Se il provvedimento non verrà  comminato entro i 6 giorni successivi alla scadenza del termine per le giustificazioni, queste si riterranno accolte.
+Il lavoratore potrà  presentare le proprie giustificazioni anche verbalmente, con l'eventuale assistenza di un rappresentante dell'Associazione sindacale cui aderisce, ovvero, di un componente la Rappresentanza sindacale unitaria.
+La comminazione del provvedimento dovrà  essere motivata e comunicata per iscritto.
+I provvedimenti disciplinari di cui sopra alle lettere b), c) e d) potranno essere impugnati dal lavoratore in sede sindacale, secondo le norme contrattuali relative alle vertenze.
+Il licenziamento per mancanze di cui ai punti A) e B) dell'articolo 10 potrà essere impugnato secondo le procedure previste dall'articolo 7 della legge 15 luglio 1966, n. 604 confermate dall'articolo 18 della legge 20 maggio 1970, n. 300.
+Non si terrà  conto a nessun effetto dei provvedimenti disciplinari decorsi due anni dalla loro comminazione.
+
+DICHIARAZIONE COMUNE Le parti convengono di istituire una Commissione paritetica con il compito di verificare la normativa contrattuale in materia anche alla luce delle novità  introdotte dalla legge 28 giugno 2012, n. 92 al fine di proporre eventuali modifiche alla Parti stipulanti.
+Art. 9. - Ammonizioni scritte, multe e sospensioni.
+Incorre nei provvedimenti di ammonizione scritta, multa o sospensione il lavoratore che:
+a) non si presenti al lavoro o abbandoni il proprio posto di lavoro senza giustificato motivo oppure non giustifichi l'assenza entro il giorno successivo a quello dell'inizio dell'assenza stessa salvo il caso di impedimento giustificato;
+b) senza giustificato motivo ritardi l'inizio del lavoro o lo sospenda o ne anticipi la cessazione;
+c) compia lieve insubordinazione nei confronti dei superiori;
+d) esegua negligentemente o con voluta lentezza il lavoro affidatogli;
+e) per disattenzione o negligenza guasti il materiale dello stabilimento o il
+
+228 Sez. Quarta -Titolo VII - Rapporti in azienda
+
+materiale in lavorazione;
+f) venga trovato in stato di manifesta ubriachezza, durante l'orario di lavoro;
+g) fuori dell'azienda compia, per conto terzi, lavoro di pertinenza dell'azienda stessa;
+h) contravvenga al divieto di fumare, laddove questo esista e sia indicato con apposito cartello;
+i) esegua entro l'officina dell'azienda lavori di lieve entità  per conto proprio o di terzi, fuori dell'orario di lavoro e senza sottrazione di materiale dell'azienda, con uso di attrezzature dell'azienda stessa;
+l) in altro modo trasgredisca l'osservanza del presente Contratto o commetta qualsiasi mancanza che porti pregiudizio alla disciplina, alla morale, all'igiene ed alla sicurezza dello stabilimento.
+L'ammonizione verrà  applicata per le mancanze di minor rilievo; la multa e la sospensione per quelle di maggior rilievo.
+L'importo delle multe che non costituiscono risarcimento di danni è devoluto alle esistenti istituzioni assistenziali e previdenziali di carattere aziendale o, in mancanza di queste, alla Cassa mutua malattia.
+
+Art. 10. - Licenziamenti per mancanze.
+A) Licenziamento con preavviso.
+In tale provvedimento incorre il lavoratore che commetta infrazioni alla disciplina ed alla diligenza del lavoro che, pur essendo di maggior rilievo di quelle contemplate nell'articolo 9, non siano cosà¬ gravi da rendere applicabile la sanzione di cui alla lettera B).
+A titolo indicativo rientrano nelle infrazioni di cui sopra:
+a) insubordinazione ai superiori;
+b) sensibile danneggiamento colposo al materiale dello stabilimento o al materiale di lavorazione;
+c) esecuzione senza permesso di lavori nell'azienda per conto proprio o di terzi, di lieve entità  senza impiego di materiale dell'azienda;
+d) rissa nello stabilimento fuori dei reparti di lavorazione;
+e) abbandono del posto di lavoro da parte del personale a cui siano specificatamente affidate mansioni di sorveglianza, custodia, controllo, fuori dei casi previsti al punto e) della seguente lettera B);
+f) assenze ingiustificate prolungate oltre 4 giorni consecutivi o assenze ripetute per tre volte in un anno nel giorno seguente alle festività  o alle ferie;
+g) condanna ad una pena detentiva comminata al lavoratore, con sentenza passata in giudicato, per azione commessa non in connessione con lo svolgimento del rapporto di lavoro, che leda la figura morale del lavoratore;
+h) recidiva in qualunque delle mancanze contemplate nell'articolo 9, quando siano stati comminati due provvedimenti di sospensione di cui all'articolo
+
+9, salvo quanto disposto dall'ultimo comma dell'articolo 8.
+B) Licenziamento senza preavviso.
+In tale provvedimento incorre il lavoratore che provochi all'azienda grave nocumento morale o materiale o che compia, in connessione con lo svolgimento del rapporto di lavoro, azioni che costituiscono delitto a termine di legge.
+A titolo indicativo rientrano nelle infrazioni di cui sopra:
+a) grave insubordinazione ai superiori;
+b) furto nell'azienda;
+c) trafugamento di schizzi o di disegni di macchine e di utensili o di altri oggetti, o documenti dell'azienda;
+d) danneggiamento volontario al materiale dell'azienda o al materiale di lavorazione;
+e) abbandono del posto di lavoro da cui possa derivare pregiudizio alla incolumità  delle persone od alla sicurezza degli impianti o comunque compimento di azioni che implichino gli stessi pregiudizi;
+f) fumare dove cià² puà² provocare pregiudizio all'incolumità  delle persone od alla sicurezza degli impianti;
+g) esecuzione senza permesso di lavori nell'azienda per conto proprio o di terzi, di non lieve entità  e/o con l'impiego di materiale dell'azienda;
+h) rissa nell'interno dei reparti di lavorazione.
+
+Art. 11. - Sospensione cautelare non disciplinare.
+In caso di licenziamento per mancanze di cui al punto B) dell'articolo 10 (senza preavviso), l'azienda potrà  disporre la sospensione cautelare non disciplinare del lavoratore con effetto immediato, per un periodo massimo di 6 giorni.
+Il datore di lavoro comunicherà  per iscritto al lavoratore i fatti rilevanti ai fini del provvedimento e ne esaminerà  le eventuali deduzioni contrarie. Ove il licenziamento venga applicato, esso avrà  effetto dal momento della disposta sospensione.
+
+230 Sez. Quarta -Titolo VIII - Risoluzione del rapporto di lavoro
+
+Titolo VIII - Risoluzione del rapporto di lavoro
+
+Art. 1. - Preavviso di licenziamento e di dimissioni.
+Il rapporto di lavoro a tempo indeterminato non puà² essere risolto da nessuna delle due parti senza un preavviso i cui termini sono stabiliti come segue a seconda dell'anzianità  e della categoria professionale cui appartiene il lavoratore.
+
+Anni di servizio Livelli B2, B3 e A1 Livelli C2, C3 e B1 Livelli D1, D2 e C1
+
+Fino a 5 anni 2 mesi 1 mese e 15 giorni 10 giorni Oltre 5 fino a 10 3 mesi 2 mesi 20 giorni Oltre i 10 anni 4 mesi 2 mesi e 15 giorni 1 mese
+
+I termini di disdetta decorrono dal giorno del ricevimento dell'atto di dimissioni o di licenziamento e il periodo di preavviso si calcola dal giorno successivo.
+La parte che risolve il rapporto senza l'osservanza dei predetti termini di preavviso deve corrispondere all'altra un'indennità  pari all'importo della retribuzione per il periodo di mancato preavviso come di seguito stabilito.
+
+Anni di servizio Livelli B2, B3 e A1 Livelli C2, C3 e B1 Livelli D1, D2 e C1
+
+Fino a 5 anni 2 mensilità  1,5 mensilità  0,33 mensilità Oltre 5 fino a 10 3 mensilità  2 mensilità  0,67 mensilità Oltre i 10 anni 4 mensilità  2,5 mensilità  1 mensilità
+
+Durante il compimento del periodo di preavviso in caso di licenziamento l'azienda concederà  al lavoratore dei permessi per la ricerca di nuova occupazione; la distribuzione e la durata dei permessi stessi saranno stabilite dalla Direzione in rapporto alle esigenze dell'azienda.
+Tanto il licenziamento quanto le dimissioni saranno comunicate per iscritto.
+In attuazione dell'articolo 4, comma 17, della legge 28 giugno 2012, n. 92, oltre a quanto previsto dall'Accordo Interconfederale 3 agosto 2012, la convalida delle dimissioni e delle risoluzioni consensuali puà² essere validamente effettuata in sede aziendale se il lavoratore è assistito da un componente della rappresentanza sindacale unitaria.
+L'indennità  sostitutiva di preavviso spetta in ogni caso al lavoratore che all'atto del licenziamento si trovi in sospensione.
+
+Art. 2. - Consegna dei documenti alla cessazionedel rapporto di lavoro.
+Entro il giorno successivo all'effettiva cessazione del rapporto di lavoro l'azienda metterà  a disposizione del lavoratore per il ritiro i documenti dovutigli, regolarmente aggiornati, ed il lavoratore rilascerà  regolare ricevuta.
+Ferme restando le disposizioni di legge, qualora per circostanze eccezionali indipendenti dalla volontà  dell'imprenditore questi non fosse in grado di consegnare i documenti, dovrà  rilasciare al lavoratore una dichiarazione scritta che serva di giustificazione al lavoratore stesso per richiedere i documenti necessari per instaurare un eventuale nuovo rapporto di lavoro.
+
+Art. 3. - Certificato di lavoro.
+Ai sensi dell'articolo 2124 del Codice civile l'azienda dovrà  rilasciare al lavoratore, all'atto della risoluzione del rapporto di lavoro, qualunque ne sia la causa e semprechà© non sia obbligatorio il libretto di lavoro, un certificato con indicazione del tempo durante il quale il lavoratore stesso è stato occupato alle sue dipendenze e delle mansioni da esso esercitate.
+
+Art. 4. - Indennità  in caso di morte.
+In caso di morte del lavoratore l'indennità  sostitutiva del preavviso di cui all'articolo 1 del presente Titolo, ed il trattamento di fine rapporto di cui al successivo articolo 5, saranno corrisposte secondo le disposizioni previste nell'articolo 2122 del Codice civile, cosà¬ come modificato dalla sentenza n. 8 del 19 gennaio 1972 della Corte costituzionale.
+
+Art. 5. - Trattamento di fine rapporto.
+All'atto della risoluzione del rapporto l'azienda corrisponderà  al lavoratore un trattamento di fine rapporto da calcolarsi secondo quanto disposto dall'articolo 2120 del Codice civile e dalla legge 29 maggio 1982, n. 297, dal Decreto legislativo 5 dicembre 2005, n. 252 e successive modifiche; il pagamento del trattamento di fine rapporto avverrà  entro 30 giorni dalla data di pubblicazione dell'indice Istat da utilizzare ai fini della rivalutazione del fondo t.f.r..
+
+DICHIARAZIONE A VERBALE.
+Le parti, in attuazione di quanto previsto dal secondo comma dell'articolo 2120 Codice civile, convengono che la retribuzione, comprensiva delle relative maggiorazioni, afferente alle prestazioni di lavoro effettuate oltre il normale orario di lavoro è esclusa dalla base di calcolo del trattamento di fine rapporto.
+Quanto sopra senza pregiudizio per le eventuali controversie giudiziarie at232 Sez. Quarta -Titolo VIII - Risoluzione del rapporto di lavoro
+
+tualmente in corso.
+NORME TRANSITORIE 1) Le parti, in attuazione di quanto previsto dal secondo comma dell'articolo 2120 Codice civile, convengono che a decorrere dal 1Â° gennaio 1998 e fino al 31 dicembre 1999 la tredicesima mensilità  è esclusa dalla base di calcolo del trattamento di fine rapporto.
+2) Per i lavoratori a cui si applicava la Disciplina speciale, Parte prima, per il computo dell'indennità  di anzianità  maturata fino al 31 maggio 1982, valgono le norme di cui all'articolo 26, Disciplina speciale, Parte prima, del CCNL 16 luglio 1979. Per il calcolo del trattamento di fine rapporto maturato fino al 31 dicembre 1989 valgono le misure in ore indicate dall'articolo 26, Disciplina speciale, Parte prima, del CCNL 18 gennaio 1987 nonchà© - per il periodo 1Â° febbraio 1987-31 dicembre 1989 - le disposizioni di cui alla Nota a verbale in calce allo stesso articolo 26.
+3) Per i lavoratori a cui si applicava la Disciplina speciale, Parte seconda per il computo dell'indennità  di anzianità  maturata fino al 31 maggio 1982 valgono le norme di cui all'articolo 6, Disciplina speciale, Parte seconda del CCNL 16 luglio 1979. Per il calcolo del trattamento di fine rapporto per il periodo 1Â° febbraio 1987-31 dicembre 1989, valgono le disposizioni di cui alla Nota a verbale in calce all'articolo 6, Disciplina speciale, Parte seconda del CCNL 18 gennaio 1987.
+4) Per i lavoratori a cui si applicava la Disciplina speciale, Parte terza, per il computo dell'indennità  di anzianità  maturata fino al 31 maggio 1982 valgono le norme di cui all'articolo 20, Disciplina speciale, Parte terza del CCNL 16 luglio 1979. Per il calcolo del trattamento di fine rapporto per il periodo 1Â° febbraio
+1987-31 dicembre 1989, valgono le disposizioni di cui alla Nota a verbale in calce all'articolo 20, Disciplina speciale, Parte terza, del CCNL 18 gennaio 1987.
+
+ALLEGATI
+
+
+ALLEGATO 1
+
+Addà¬ 31 ottobre 1973, in Roma
+
+Tra la Federazione Sindacale dell'Industria Metalmeccanica Italiana; l'Assistal;
+
+e
+
+la Federazione Lavoratori Metalmeccanici che riunisce la Fim Cisl, Fiom Cgil e Uilm Uil;
+
+è stato stipulato il seguente accordo.
+
+Viene disciplinato dalla Parte seconda della Disciplina speciale del CCNL 19 aprile 1973 il rapporto di lavoro di quei lavoratori che, senza essere in possesso dei requisiti stabiliti dalla legge 18 marzo 1926, n. 562 sull'impiego privato, nà© di quelli propri dei lavoratori il cui rapporto è regolato dalla Parte prima della Disciplina speciale del suddetto Contratto:
+a) svolgono mansioni particolari di fiducia o responsabilità  che non siano normalmente attribuite ai lavoratori di cui alla Disciplina speciale, Parte prima del CCNL 19 aprile 1973;
+b) guidino e controllino il lavoro di un gruppo di lavoratori di cui alla Disciplina speciale, Parte prima del CCNL 19 aprile 1973 con apporto di competenza tecnico-pratica.
+
+I lavoratori di cui si tratta sono distinti in due categorie. Appartengono alla 1a categoria coloro per i quali lo svolgimento delle mansioni avanti specificate importi il necessario esercizio di un certo potere di iniziativa in rapporto alla condotta ed ai risultati della lavorazione, nonchà© coloro i quali esplichino mansioni di particolare rilievo e complessità  rispetto a quelle che sono comuni alla generalità  dei lavoratori appartenenti alle categorie indicate sotto le lettere a) e b) di cui sopra e ne costituiscono le fondamentali caratteristiche per la loro attribuzione alle categorie stesse.
+
+In via esemplificativa appartengono alla 1a categoria:
+- il capotreno di laminazione, il contromaestro, il maestro di pià¹ forni di riscaldo, il caposquadra con apporto di competenza tecnico-pratica con iniziativa per la condotta e i risultati alla lavorazione, ecc.;
+appartengono alla 2a categoria:
+- il caposquadra con apporto di competenza tecnico-pratica, ma senza iniziativa per la condotta e i risultati della lavorazione, il sollecitatore semplice, il marcatempo, il capo-usciere, il capo-fattorino, ecc..
+
+
+La presente regolamentazione non modifica il trattamento in atto di tali lavoratori agli effetti fiscali, previdenziali ed assicurativi.
+Il presente accordo decorre dal 1Â° novembre 1973 per le aziende superiori a 200 dipendenti e dal 1Â° gennaio 1974 per le aziende fino a 200 dipendenti.
+
+NORME TRANSITORIE.
+- La disciplina prevista nel presente accordo si applica ai lavoratori il cui rapporto era già  regolato dalle disposizioni contenute nella Parte seconda - regolamentazione per gli appartenenti alla categoria speciale - del CCNL 8 gennaio 1970.
+- I lavoratori che, alla data del 31 ottobre 1973, per le aziende superiori a 200 dipendenti e del 31 dicembre 1973 per le aziende fino a 200 dipendenti, risultino classificati come CS2, in base al CCNL 8 gennaio 1970 saranno inquadrati, in ogni caso, nella 5a categoria professionale, di cui al rinnovato CCNL per le aziende metalmeccaniche private, purchà© gli stessi provengano dalle categorie operaie 1a e 1a superiore del predetto CCNL 8 gennaio 1970.
+
+
+ALLEGATO 2
+
+QUOTA CONTRIBUZIONE UNA TANTUM Le aziende, mediante affissione in bacheca da effettuarsi a partire dal 29 marzo e fino al 15 maggio 2021, comunicheranno che in occasione del rinnovo del CCNL i sindacati stipulanti FIM, FIOM e UILM chiedono ai lavoratori non iscritti al sindacato una quota associativa straordinaria di 35,00 euro da trattenere sulla retribuzione afferente al mese di giugno 2021.
+Le aziende distribuiranno insieme alle buste paga del mese di aprile 2021, l'apposito modulo che consente al lavoratore di accettare o rifiutare la richiesta del sindacato e che dovrà  essere riconsegnato all'azienda entro il 15 maggio 2021.
+Le aziende daranno tempestiva comunicazione tramite le Associazioni Imprenditoriali, alle Organizzazioni Sindacali di FIM, FIOM e UILM territoriali, del numero delle trattenute effettuate.
+Le quote trattenute verranno versate dalle aziende sul C/C BANCARIO intestato a FIM, FIOM e UILM - contratti aziende private presso la BNL, Roma, IBAN IT 68G010 05032 000 000 000 45109.
+
+
+ALLEGATO 3
+
+ACCORDO PER LA COSTITUZIONE DELLE RAPPRESENTANZE SINDACALI UNITARIE Ad integrazione e specificazione di quanto previsto dal T.U. del 10 gennaio 2014, Federmeccanica, Assistal e Fim, Fiom, Uilm, concordano quanto segue.
+1. Durata
+Le Rappresentanze sindacali unitarie durano in carica 3 anni dalla data di elezione al termine dei quali decadono automaticamente.
+2. Composizione
+La R.s.u. è unica per tutto il personale di ciascuna unità  produttiva ed è composta da impiegati-quadri e da operai eletti, in rappresentanza di ciascuna delle predette categorie, in relazione alla entità  numerica dei due gruppi.
+Il numero degli aventi diritto diviso il numero totale dei seggi previsti nell'unità  produttiva, definisce il numero minimo di lavoratori, siano essi impiegati/quadri e operai, per attivare su richiesta anche di una sola organizzazione sindacale il doppio collegio.
+In tal caso, la ripartizione dei seggi tra gli operai e gli impiegati/quadri viene effettuata in proporzione al rispettivo peso percentuale sul totale degli addetti, con arrotondamento all'unità  superiore se pari o superiore allo 0,5. Il rappresentante di un collegio non puà² essere scelto tra gli appartenenti all'altro.
+Nella composizione delle liste si perseguirà  un'adeguata rappresentanza di genere attraverso una coerente applicazione delle norme antidiscriminatorie.
+3. Numero dei componenti
+Fatte salve le condizioni di miglior favore presenti in azienda, Il numero dei componenti le R.s.u. sarà  pari almeno a:
+a) 3 componenti per la R.s.u. costituita nelle unità  produttive che occupano fino a 200 dipendenti;
+b) 3 componenti ogni 300 o frazione di 300 dipendenti nelle unità  produttive che occupano fino a 3000 dipendenti;
+c) 3 componenti ogni 500 o frazione di 500 dipendenti nelle unità  produttive di maggiori dimensioni, in aggiunta al numero di cui alla precedente lett. b).
+Il numero dei componenti viene definito sulla base del numero dei lavoratori in forza il primo giorno del mese precedente l'avvio della procedura.
+4. Diritti sindacali
+Con riferimento a quanto previsto al punto 4, Parte seconda, del T.U. 10 gennaio 2014, le organizzazioni sindacali stipulanti il CCNL mantengono i diritti di
+
+
+cui all'articolo 5, Sezione seconda, aggiuntivi rispetto a quanto previsto dagli articolo 23 e 30, legge 300/70; in particolare:
+a) le ore di permesso retribuito nelle unità  produttive che occupano fino a 200 dipendenti pari al monte ore derivante dalla porzione di 30 minuti all'anno per ciascun dipendente;
+b) la titolarità  definita in termini pià¹ ampi dei permessi per i dirigenti provinciali e nazionali.
+5. Modalità  di utilizzo dei permessi sindacali
+Per quanto riguarda i diritti aggiuntivi di cui al precedente punto 4, lettera a), una quota pari al 70% è trasferita dalle suddette organizzazioni sindacali titolari alla R.s.u..
+Il monte ore complessivo riservato alla RSU, verrà  ripartito in ragione del numero di delegati ottenuti da ciascuna delle organizzazioni che hanno presentato liste.
+L'utilizzo di tali permessi retribuiti da parte dei componenti la R.s.u., dovrà avvenire nell'ambito delle attività  delle stesse in modo tale da garantire il regolare funzionamento della Rappresentanza sindacale unitaria nel suo complesso.
+Le organizzazioni sindacali che hanno presentato liste e ottenuto seggi provvederanno a comunicare all'azienda un proprio responsabile interno alla R.s.u.
+per la gestione del monte ore rispettivamente spettante.
+Il monte ore riservato alle organizzazioni sindacali, potrà  essere utilizzato per attività  di carattere organizzativo e associativo, ivi comprese quelle di servizio agli iscritti e ai lavoratori, anche da lavoratori non eletti nelle R.s.u., ma espressamente indicati dalla rispettiva organizzazione. Il responsabile della gestione di tale monte ore dovrà , ove possibile, essere lo stesso di cui al comma precedente Resta inteso che ai suddetti soggetti non sono riconosciuti i diritti, i poteri e le tutele previste a favore dei componenti la R.s.u..
+6. Sostituzioni, revoca e decadenza
+I membri decaduti dalla carica per dimissioni o per qualsiasi altro legittimo motivo, potranno essere sostituiti, all'interno del collegio nel periodo di durata in carica della RSU, purchà© le sostituzioni non superino il 50% del numero complessivo della R.s.u.. Superando i limiti predetti si dovrà  procedere alla totale rielezione della R.s.u..
+Le sostituzioni avverranno con i nominativi della lista cui appartenevano i membri decaduti, secondo l'ordine delle preferenze riportate nelle elezioni.
+Il cambiamento di appartenenza sindacale o la cessazione dall'iscrizione da parte di un componente della R.s.u. ne determina la decadenza dalla carica e la sostituzione con il primo dei non eletti della lista di originaria appartenenza del sostituito.
+La Rappresentanza sindacale unitaria decade dal mandato ricevuto in presenza di richiesta di revoca presentata da un numero di lavoratori, aventi diritto al voto,
+
+
+superiore al 50% attraverso raccolta di firme certificate.
+7. Comunicazione dei componenti la R.s.u.
+Una volta definiti gli eventuali ricorsi, le organizzazioni sindacali territoriali comunicano per iscritto all'azienda per il tramite dell'Associazione territoriale di appartenenza l'elenco dei propri componenti la R.s.u., sulla base dei risultati conseguiti nelle elezioni; con le stesse modalità  sono comunicati i nominativi degli eventuali sostituti.
+8. Modalità  per indire elezioni
+A partire dal 30Â° mese dalla permanenza in carica della R.s.u. e comunque almeno tre mesi prima della scadenza del mandato della R.s.u., le associazioni sindacali di cui al punto 1, Sezione seconda, del T.U. 10 gennaio 2014, congiuntamente o disgiuntamente, o la R.s.u. uscente, provvederanno ad indire le elezioni entro la naturale scadenza.
+Tale iniziativa si concretizza in una comunicazione scritta relativa a tale intendimento da inviare alle altre organizzazioni sindacali presenti, da affiggere in bacheca sindacale e da inviare alla Direzione aziendale.
+Il termine per la presentazione delle liste alla Commissione Elettorale è di 15 giorni dalla data di pubblicazione dell'annuncio di cui sopra; l'ora di scadenza si intende fissata alle ore 14 del quindicesimo giorno escluso quello dell'affissione.
+9. Commissione elettorale.
+La Commissione elettorale viene inizialmente composta da 1 rappresentante fino a 300 dipendenti e da 2 rappresentanti oltre i 300 dipendenti, per ciascuna delle organizzazioni sindacali dei lavoratori stipulanti il CCNL, purchà© presentino proprie liste di candidati, e si intenderà  definitivamente costituita e funzionante, ai fini delle sue deliberazioni, non appena trascorso il termine utile per la presentazione delle liste.
+Essa si integrerà , all'atto della presentazione di liste da parte di altre organizzazioni sindacali aventi i requisiti previsti dal T.U. 10 gennaio 2014, con non pià¹ di 1 rappresentante fino a 300 dipendenti e 2 rappresentanti oltre i 300 dipendenti, per ciascuna lista.
+I componenti della Commissione elettorale non devono in ogni caso essere candidati.
+La Commissione elettorale avrà  cura di fissare, d'intesa con la Direzione aziendale, ogni modalità  necessaria allo svolgimento delle elezioni sovraintendendo alle operazioni relative assicurando l'applicazione delle norme previste.
+Le operazioni di voto dovranno svolgersi in modo tale da permettere a tutti gli aventi diritto l'esercizio del voto nel rispetto delle esigenze della produzione.
+I lavoratori potranno compiere le operazioni di voto al di fuori dell'orario di lavoro nonchà© durante l'orario di lavoro utilizzando le ore di assemblea di cui all'articolo 20, legge 300/70.
+
+
+La Commissione elettorale assume le decisioni sui compiti di propria competenza con una maggioranza pari almeno al 50 % +1 dei suoi componenti.
+10. Presentazione liste elettorali
+Al fine di favorire un ordinato e corretto svolgimento delle procedure elettorali, nel caso di presentazione di liste elettorali da parte di associazioni sindacali di cui al punto 4, lettera b), Parte seconda, Sezione terza del T.U. 10 gennaio 2014, la raccolta delle firme potrà  essere effettuata non prima dei 4 mesi antecedenti la scadenza della R.s.u. come certificato sull'apposito modulo (allegato) da utilizzare per la raccolta delle firme messo a disposizione dalla R.s.u..
+11. Elettori ed eleggibili
+Sono elettori tutti i dipendenti non in prova in forza nell'azienda all'atto delle elezioni. Questi sono tenuti ad esercitare il diritto di voto presso il seggio della loro area elettorale. Sono eleggibili quei lavoratori candidati dalle organizzazioni sindacali che hanno titolo a presentare liste elettorali.
+In caso di ripartizione del totale dei seggi in pià¹ collegi elettorali, ciascun lavoratore puà² essere candidato solo nella lista relativa al collegio di appartenenza.
+12. Numero dei candidati
+Il numero dei candidati per ciascuna lista di operai, impiegati e quadri non puà² superare di oltre 2/3 il numero dei componenti la R.s.u. del collegio con arrotondamento all'unità  superiore 13. Commissione elettorale, scrutatori e componenti del seggio elettorale
+I membri della Commissione elettorale, gli scrutatori, i componenti del seggio elettorale dovranno espletare il loro incarico al di fuori dell'orario di lavoro, nonchà© durante l'orario di lavoro utilizzando in via eccezionale, previa richiesta, i permessi retribuiti di cui all'articolo 23 legge 20 maggio 1970, n. 300.
+Resta inteso che ai suddetti soggetti non sono riconosciuti i diritti, i poteri e le tutele previste per i componenti la R.s.u..
+14. Scrutatori
+àˆ in facoltà  dei presentatori di ciascuna lista di designare uno scrutatore per ciascun seggio elettorale, scelto fra i lavoratori elettori non candidati.
+La designazione degli scrutatori deve essere effettuata, in forma scritta, alla Commissione elettorale non oltre le 24 ore che precedono l'inizio delle votazioni.
+15. Compiti della Commissione elettorale.
+La Commissione elettorale immediatamente dopo la sua completa integrazione decide in merito ad eventuali contestazioni relative alla rispondenza delle liste ai requisiti previsti dalle norme di riferimento.
+
+
+La Commissione elettorale entro i 5 giorni successivi alla scadenza del termine per la presentazione delle liste prenderà  contatti con la Direzione aziendale ai fini dello svolgimento della procedura elettorale.
+Ove, nonostante il divieto di cui al punto 4, Sezione terza del T.U. 10 gennaio 2014, un candidato risulti compreso in pià¹ di una lista, la Commissione elettorale, dopo la scadenza del termine per la presentazione delle liste e prima di procedere alla affissione delle liste stesse ai sensi del comma successivo, inviterà  il lavoratore interessato a optare per una delle liste, pena la cancellazione da entrambe.
+Le liste dei candidati dovranno essere portate a conoscenza dei lavoratori, a cura della Commissione elettorale, mediante affissione nelle apposite bacheche messe a disposizione dall'azienda, almeno 8 giorni prima della data fissata per l'inizio delle elezioni.
+Eventuali modifiche delle liste conseguenti ad opzioni di cui al 2Â° comma, nonchà© a contestazioni o reclami definiti dalla Commissione elettorale, sono ammesse entro i primi tre giorni dall'affissione senza che cià² dia luogo a proroghe nel periodo di affissione; delle rettifiche sarà  data notizia nella bacheca e dei reclami sarà  comunque fatta menzione nel verbale di scrutinio.
+16. Adempimenti aziendali
+La Direzione aziendale metterà  a disposizione della Commissione elettorale un elenco aggiornato degli elettori divisi per operai ed impiegati e, se definiti, per collegi elettorali.
+17. Sistema elettorale
+Nelle elezioni delle R.s.u. si applica il sistema previsto dalle norme di cui al successivo articolo 28.
+Le elezioni avvengono sulla base delle liste presentate a norma degli articoli precedenti.
+Ciascun lavoratore voterà  sulla scheda relativa al proprio collegio elettorale.
+18. Segretezza del voto
+Nelle elezioni il voto è segreto e diretto e non puà² essere espresso per lettera.
+19. Schede elettorali
+La votazione ha luogo a mezzo di scheda unica, rispettivamente per ciascun collegio elettorale, comprendente tutte le liste disposte in ordine di presentazione e con la stessa evidenza.
+In caso di contemporaneità  della presentazione l'ordine di precedenza sarà estratto a sorte.
+Le schede devono essere firmate da almeno due componenti del seggio; la loro preparazione e la votazione devono avvenire in modo da garantire la segretezza e la regolarità  del voto. La scheda deve essere consegnata a ciascun elettore
+
+
+all'atto della votazione dal Presidente del seggio o da un membro della Commissione elettorale .
+Il voto di lista sarà  espresso mediante crocetta tracciata sulla intestazione della lista. Il voto è nullo se la scheda non è quella predisposta o se presenta tracce di scrittura o analoghi segni di individuazione.
+20. Preferenze
+L'elettore puà² manifestare un'unica preferenza solo tra i candidati della lista da lui votata.
+Il voto di preferenza sarà  espresso dall'elettore mediante una crocetta apposta a fianco del nome del candidato preferito L'indicazione di una preferenza data ad una lista vale quale voto di lista anche se non sia stato espresso il voto di lista.
+Nel caso di espressione di pià¹ di una preferenza nella stessa lista, vale unicamente come voto di lista, e sono annullate le preferenze ai candidati.
+Il voto apposto a pià¹ di una lista o l'indicazione di pià¹ preferenze date a liste differenti rende nulla la scheda.
+Nel caso di voto apposto ad una lista e di preferenze date a candidati di liste differenti, si considera valido solamente il voto di lista e nulli i voti di preferenza.
+21. Modalità  della votazione
+Il luogo, i giorni e l'orario della votazione saranno stabiliti dalla Commissione elettorale, previo accordo con la Direzione aziendale, in modo tale da permettere a tutti gli aventi diritto l'esercizio di voto.
+La durata massima dello svolgimento delle operazioni di voto è di 72 ore consecutive.
+Qualora l'ubicazione degli impianti e il numero dei votanti lo dovessero richiedere, potranno essere stabiliti pià¹ luoghi di votazione, evitando peraltro eccessivi frazionamenti anche per conservare, sotto ogni aspetto, la segretezza del voto. Luogo, giorni ed orario di votazione dovranno essere portati a conoscenza di tutti i lavoratori, mediante comunicazione nelle bacheche, almeno 8 giorni prima del giorno fissato per le votazioni.
+22. Composizione del seggio elettorale
+Il seggio è composto dagli scrutatori di cui all'articolo 14 del presente regolamento e da un Presidente nominato dalla Commissione elettorale all'interno della stessa.
+23. Attrezzatura del seggio elettorale
+A cura della Commissione elettorale ogni seggio sarà  munito di un'urna elettorale, idonea ad una regolare votazione, chiusa e sigillata sino alla apertura ufficiale della stessa per l'inizio dello scrutinio.
+
+
+Il seggio deve inoltre poter disporre di un elenco completo degli elettori aventi diritto al voto presso di esso, e dovrà  essere organizzato in modo da garantire la segretezza del voto.
+24. Riconoscimento degli elettori
+Gli elettori, per essere ammessi al voto, dovranno esibire al Presidente del seggio un documento di riconoscimento personale. in mancanza di documento personale essi dovranno essere riconosciuti da almeno due degli scrutatori del seggio.
+Di tale circostanza deve essere dato atto nel verbale concernente le operazioni elettorali.
+25. Compiti del Presidente
+Il Presidente farà  apporre all'elettore la firma accanto al suo nominativo, nell'elenco di cui al precedente articolo 16.
+26. Validità  delle elezioni
+Le elezioni saranno valide qualora si verifichi una partecipazione al voto di almeno il 50% + 1 dei lavoratori aventi diritto.
+Proclamata la validità  delle elezioni si potrà  procedere alle operazioni di scrutinio. Qualora il quorum di validità  non venga raggiunto, le elezioni verranno riconvocate entro i 15 giorni successivi e le operazioni di scrutinio avranno luogo indipendentemente dal quorum di partecipazione.
+27. Operazioni di scrutinio
+Alle operazioni di scrutinio possono presenziare gli elettori. Al termine dello scrutinio, a cura del Presidente del seggio verrà  redatto il verbale dello scrutinio, su cui dovrà  essere dato atto anche delle eventuali contestazioni, e verrà  consegnato - unicamente al materiale della votazione (schede, elenchi, ecc.) - alla Commissione elettorale che, in caso di pià¹ seggi, procederà  alle operazioni riepilogative di calcolo dandone atto nel proprio verbale.
+La Commissione elettorale al termine delle operazioni di cui al comma precedente provvederà  a sigillare in un unico piego tutto il materiale (esclusi i verbali) trasmesso dai seggi; il piego sigillato, dopo la definitiva convalida della R.s.u., sarà  conservato secondo accordi tra la Commissione elettorale e la Direzione aziendale in modo da garantirne la integrità  e cià² almeno per tre mesi.
+28. Ripartizione dei seggi
+La composizione della R.s.u., secondo quanto previsto dal T.U. 10 gennaio 2014, è determinata in proporzione dei voti ottenuti.
+Ciascuna lista avrà  diritto a tanti posti quante volte il quoziente elettorale risulta contenuto nel numero dei voti validi da essa riportati. Per quoziente elettorale
+
+
+si intende il rapporto tra i voti validi ed il numero dei posti disponibili per ciascun collegio.
+I posti rimasti vacanti per insufficienza del quoziente elettorale saranno attribuiti alle liste che abbiano riportato maggiori resti, anche se non avessero raggiunto il quoziente. A parità  di resti tra liste diverse, il posto va attribuito alla lista che non ha conseguito alcun posto. Ove, sempre a parità  di resti, tutte le liste abbiano conseguito almeno un posto, si ricorrerà  al sorteggio.
+A parità  di preferenze fra due o pià¹ candidati della medesima lista, il posto va attribuito secondo la successione dei nominativi nelle liste.
+29. Verbali e reclami
+La Commissione elettorale, sulla base dei risultati di scrutinio e dei criteri sopra richiamati, procede alla assegnazione dei posti.
+La Commissione elettorale redige il verbale, sottoscritto dai componenti, sulle operazioni elettorali e dà  immediata notizia delle sue conclusioni mediante affissione.
+Ove siano stati presentati reclami entro i primi 5 giorni, la Commissione elettorale deve procedere al loro esame di norma entro 24 ore inserendo nel verbale suddetto le conclusioni alle quali è pervenuto.
+Esperite tali procedure la Commissione elettorale proclama gli eletti.
+Copia del verbale della Commissione elettorale e dei verbali di seggio dovrà essere notificata a ciascun rappresentante delle organizzazioni sindacali presentatrici di liste entro 48 ore dal compimento delle operazioni di cui al comma precedente.
+La Commissione elettorale trasmette copia alla Direzione aziendale e alla DTL. Spetta alle organizzazioni sindacali che hanno presentato liste, sulla base dei risultati conseguiti nelle elezioni, comunicare all'azienda, per il tramite dell'associazione territoriale d'appartenenza l'elenco dei propri componenti la R.s.u..
+30. Comitato Nazionale di Garanzia FIM-FIOM-UILM
+Contro le decisioni della Commissione elettorale riguardanti le liste di Fim, Fiom e Uilm, è ammesso, in prima istanza, ricorso che deve essere inoltrato entro 5 giorni al Comitato Nazionale di Garanzia FIM-FIOM-UILM, che si riunirà  tempestivamente e ne verbalizzerà  l'esito. Le decisioni saranno assunte all'unanimità e verranno notificate agli interessati; tali decisioni sono vincolanti per le strutture territoriali, e assolvono sia il ricorso al Comitato provinciale dei garanti che quello in sede legale. Nel caso in cui il Comitato non assuma una decisione all'unanimità , l'esito verrà  verbalizzato ed entro 5 giorni potrà  essere fatto ricorso al Comitato provinciale dei Garanti.
+Le decisioni assunte precedentemente verranno utilizzate per sciogliere i successivi dubbi interpretativi.
+Le organizzazioni sindacali che partecipano ai rinnovi assumono le decisioni interpretative precedentemente date dal Comitato nazionale di Garanzia.
+
+
+Le segreterie nazionali sono garanti dell'accordo e del rispetto integrale del presente regolamento nei confronti delle proprie strutture.
+Il Comitato Nazionale di Garanzia sarà  composto da un componente per ciascuna delle organizzazioni Fim Fiom Uilm firmatarie del presente regolamento.
+31. Comitato provinciale dei garanti
+Contro le decisioni della Commissione elettorale è ammesso ricorso entro 10 giorni ad apposito Comitato provinciale dei garanti. Tale Comitato è composto, a livello territoriale, da un membro designato da ciascuna delle organizzazioni sindacali, presentatrici di liste, interessate al ricorso, da un rappresentante dell'Associazione industriale locale di appartenenza, ed è presieduto dal Direttore dell'Ispettorato Territoriale del Lavoro o da un suo delegato.
+
+Il presente Accordo decorre dal 1Â° settembre 2017.
+
+Roma, 5 luglio 2017
+
+
+ALLEGATO
+
+MODULO PER LA RACCOLTA DELLE FIRME CERTIFICATE PER LA PRESENTAZIONE DELLE LISTE PER LA ELEZIONE DELLA RSU.
+L'Organizzazione sindacaleâ€¦â€¦â€¦â€¦â€¦â€¦â€¦â€¦ in data â€¦â€¦â€¦â€¦â€¦ inizia la raccolta delle firme per la presentazione della propria lista alle elezioni della R.s.u.
+di cui al punto 4, lettera b, sezione terza del T.U. 10 gennaio 2014.
+
+NÂ° Nome e cognome Documento di identità  firma
+
+Firma R.s.u. in carica Foglio nÂ° __________
+
+
+ALLEGATO 4
+
+ACCORDO PER L'ELEZIONE DEI RAPPRESENTANTI DEI LAVORATORI PER LA SICUREZZA (RLS)
+
+Art. 1 Costituzione In tutte le unità  produttive è eletto il/i rappresentante/i dei lavoratori per la sicurezza (RLS).
+Art. 2 Durata Gli RLS durano in carica 3 anni, in caso di decadenza della RSU i rappresentanti per la sicurezza esercitano le proprie funzioni fino a nuova elezione.
+Art. 3 Compiti I compiti sono quelli definiti dall'articolo 50 del D. Lgs. 9 aprile 2008, n.81 e successive modificazioni, e dal CCNL Art. 4 Numero dei componenti.
+Nelle unità  produttive fino a 15 dipendenti:
+- 1 RLS eletto dai lavoratori al loro interno.
+Nelle unità  produttive oltre i 15 dipendenti gli RLS da eleggere sono almeno:
+- 1 RLS da 16 a 200 addetti;
+- 3 RLS da 201 a 1000 addetti;
+- 6 RLS oltre 1000 addetti.
+Nelle unità  produttive da 201 a 300 addetti, qualora la RSU sia pari a 3 componenti, i rappresentanti per la sicurezza sono individuati con le modalità  di seguito indicate: nel numero di almeno due RLS tra i componenti la RSU, cui si aggiunge un rappresentante per la sicurezza, non RSU, eletto con le medesime modalità .
+Qualora la RSU risulti composta da un numero superiore di componenti rispetto a quelli previsti dal T.U. del 14 gennaio 2014 gli RLS saranno individuati tra i componenti la Rs.u..
+Art. 5 Monte ore Per l'espletamento dei compiti previsti dall'articolo50 del D. Lgs. 9 aprile 2008, n.81 e successive modificazioni i permessi per ogni RLS sono almeno pari a:
+fino a 5 dipendenti 12 ore da 6 a 15 dipendenti 30 ore da 16 a 49 dipendenti 40 ore da 50 a 100 dipendenti 50 ore da 101 a 300 dipendenti 70 ore da 301 a 1000 dipendenti 72 ore oltre 1000 dipendenti 76 ore
+
+
+Per l'espletamento degli adempimenti previsti dai punti b) c) d) g) i) ed l) dell'articolo 50 citato non viene utilizzato il predetto monte ore.
+Art. 6 Candidati Il numero massimo dei candidati è la somma dei candidati per ciascuna lista nei vari collegi per la elezione della Rs.u..
+Art. 7 Elezioni Le elezioni per la RSU e RLS si devono svolgere nello stesso percorso di procedura elettorale nel rispetto di due condizioni fondamentali:
+a) per la RSU possono essere previsti pià¹ collegi elettorali, per gli RLS il collegio è unico predisponendo un'apposita scheda;
+b) per essere eletti RLS è necessario essere eletti RSU, salvo i casi in cui il RLS è in aggiunta nelle aziende da 201 a 300 addetti in cui si eleggono 3 RSU, e in quelle dove non c'è nessuna forma di rappresentanza.
+Nei casi in cui la RSU non sia stata ancora costituita (e fino a tale evento), il rappresentante/i per la sicurezza è/sono eletto/i dai lavoratori al loro interno secondo le procedure sopra richiamate per le unità  produttive con numero di dipendenti inferiore a 16.
+Art. 8 Operazioni di scrutinio Per lo scrutinio dei voti si dovrà  procedere effettuando prima quello relativo al voto RSU con determinazione degli eletti per ogni lista e poi lo scrutinio del voto RLS.
+Nel caso di presentazione di lista unica da parte delle Organizzazioni sindacali partecipanti alla elezione della RSU, gli RLS saranno proclamati sulla base dei voti di preferenza ottenuti. Diversamente, si proclameranno eletti RLS, con l'applicazione della proporzionale sui voti di lista RLS, i candidati per ogni lista sulla base delle preferenze ottenute, ovvero in carenza o parità  di preferenze seguendo l'ordine di elenco dei nominativi a condizione che questi risultino già  eletti nella RSU, salvo quanto previsto dal precedente articolo 7 lettera b).
+Art. 9 Sostituzioni Nei casi di decadenza da singolo RSU, viene meno la carica RLS. La sostituzione dovrà  avvenire all'interno della stessa lista individuando tra gli RSU in carica quelli che hanno partecipato come candidati alle votazioni RLS seguendo l'ordine di preferenze.
+Norma finale Per quanto non previsto dal presente regolamento valgono le norme per l'elezione delle RSU.
+
+Il presente Accordo decorre dal 1Â° settembre 2017.
+Roma, 5 luglio 2017
+
+
+ALLEGATO 5
+
+LINEE GUIDA PER LA DIFFUSIONE DEL PREMIO DI RISULTATO Nel considerare la contrattazione collettiva, esercitata nel rispetto delle regole condivise, un valore nelle relazioni sindacali e nel comune obiettivo di consolidare il modello contrattuale fondato su due livelli di contrattazione, introdotto con il Protocollo del 23 luglio 1993 cosà¬ come integrato dall'Accordo Interconfederale 15 aprile 2009 le parti concordano - la predisposizione di strumenti utili a favorire la diffusione della contrattazione aziendale con contenuti economici collegati ai risultati con particolare riferimento alle imprese di minori dimensioni - una procedura per l'implementazione di quanto definito con il presente accordo nelle aziende in cui non sia stata costituita la Rappresentanza sindacale unitaria.
+Le presenti Linee guida intendono essere uno strumento utile ad estendere e semplificare l'esercizio della costruzione di sistemi incentivanti per i lavoratori fondati sul salario variabile per obiettivi tali da consentire la detassazione e la decontribuzione prevista per i Premi di risultato.
+Le Linee guida non hanno carattere di obbligatorietà  per le parti nà© sostituiscono o surrogano il ruolo degli attori aziendali della contrattazione ma costituiscono uno strumento utile alla condivisione ed attivazione del Premio di Risultato per le aziende che ne sono prive e che intendano volontariamente adottarlo.
+A tal fine, oltre alla già  richiamata procedura utile per la definizione della proposta di accordo, le Linee guida forniscono uno schema condiviso di Accordo tipo e, coerentemente con quanto previsto all'articolo 12 del titolo IV della sez.
+quarta del vigente CCNL, indicatori di performance definiti in ragione di diverse tipologie aziendali.
+Sia lo schema di accordo che gli indicatori di performance possono essere adottati e/o riadattati, secondo le specifiche esigenze aziendali, dalle imprese interessate a costruire sistemi di salario variabile per obiettivi.
+SCHEMA DI ACCORDO TIPO In data ..................................... tra l'azienda..................................... con l'assistenza dell'Associazione territoriale di ..................................... e le Organizzazioni Sindacali .....................................del territorio di ..................................... è stipulato il seguente accordo.
+Per il triennio di competenza ..................................... viene istituito un Premio di Risultato annuale finalizzato a determinare un maggior coinvolgimento dei dipendenti nella realizzazione degli obiettivi concordati ed a distribuire agli stessi
+
+
+quota parte dei benefici che ne potranno derivare.
+Il premio è ad ogni effetto di competenza dell'anno di erogazione mentre i parametri utilizzati fanno riferimento alle risultanze dell'esercizio precedente.
+La quantificazione del premio e gli andamenti delle variabili assunte a riferimento per la sua determinazione saranno comunicati, di norma entro il mese di maggio, dalla Direzione aziendale ai dipendenti e presentati, per il tramite dell'Associazione Territoriale, alle Organizzazioni sindacali firmatarie dell'accordo, in forma scritta o in apposito incontro se richiesto.
+L'erogazione del premio, ove spettante, avverrà  con la retribuzione del mese di luglio di ciascun anno.
+Il Premio competerà  a tutti i lavoratori in forza alla data di erogazione.
+Esso competerà  in misura intera per i lavoratori in servizio per l'intero anno di riferimento e riproporzionato in caso di assunzione in corso d'anno. La frazione di mese superiore ai 15 giorni sarà  computata come mese intero.
+Ai lavoratori assunti con contratto di apprendistato professionalizzante il premio sarà  calcolato a partire dall'inizio del terzo periodo di cui all'articolo 8 del vigente Contratto nazionale per la disciplina dell'apprendistato professionalizzante nell'industria metalmeccanica e nella installazione di impianti.
+Ai lavoratori con contratto di lavoro part time il Premio sarà  riconosciuto in proporzione all'orario di lavoro concordato.
+Il Premio sarà  riconosciuto ai lavoratori a tempo determinato in forza alla data di erogazione ovvero di comunicazione dei risultati in proporzione diretta al periodo di servizio complessivamente prestato nell'anno di riferimento del premio stesso, ancorchà© in virtà¹ di pià¹ contratti a termine. La frazione di mese superiore ai 15 giorni sarà  computata come mese intero.
+A coloro che cesseranno il rapporto per pensionamento prima della data di erogazione del premio ma dopo il 31 dicembre dell'anno di riferimento, il premio verrà  corrisposto sulla base dei dati disponibili al momento della risoluzione del rapporto.
+Le parti si danno atto che hanno inteso definire l'importo complessivo del Premio in ragione annua ed onnicomprensivo di ogni incidenza sugli istituti retributivi indiretti di cui si è già  tenuto conto in fase di quantificazione del Premio stesso.
+Inoltre, le parti, ai sensi del 2Â° comma, dell'articolo 2120 del codice civile, convengono che il presente Premio sia escluso dalla base di calcolo del Trattamento di Fine Rapporto.
+Il premio, determinato secondo quanto appresso definito, sarà  erogato a condizione di un risultato di bilancio di valore positivo misurato da........................
+Valori e parametri del PdR [Indicazioni per la definizione del PdR, punto1] Criteri di attribuzione individuale del PdR [Indicazioni per la definizione del PdR, punto2] Le parti si danno atto che il Premio sopra definito ha caratteristiche tali che
+
+
+permettono l'applicazione delle agevolazioni contributive e fiscali previste dalle leggi in vigore.
+Con il presente accordo le parti considerano espletata ed esaurita, per il periodo di applicazione dello stesso, la contrattazione di secondo livello.
+
+INDICAZIONI PER LA DEFINIZIONE DEL PDR
+
+1. Tipologie aziendali ed indicatori utilizzabili
+Al fine della predisposizione del premio di risultato gli indicatori ed i parametri che possono essere presi in considerazione sono molteplici e la loro scelta deve essere effettuata in funzione degli obiettivi che si intendono raggiungere.
+Le indicazioni di seguito riportate non hanno, quindi, la pretesa di essere esaustive ma hanno solo lo scopo di fornire suggerimenti atti a facilitare la definizione del PdR con particolare riferimento alle imprese di minori dimensioni.
+Cià², ovviamente, non preclude la possibilità  da parte delle singole imprese di costruire un premio di risultato con parametri anche diversi da quelli indicati e pià¹ rispondenti agli obiettivi che l'impresa si prefigge di raggiungere.
+Alcuni indicatori, soprattutto quelli desumibili dai bilanci aziendali possono essere utilizzati da tutte le imprese altri, invece, sono indicativamente connessi alle specifiche tipologie aziendali.
+Indicatori comuni a tutte le imprese - mol/valore aggiunto - valore aggiunto/dipendenti Entrambi gli indicatori sono desumibili dal conto economico. Il primo è un indicatore di redditività  e pone a confronto il margine operativo lordo con la quantità  di ricchezza prodotta in un arco temporale definito (valore aggiunto); il suo utilizzo è indicato soprattutto come valore assoluto e, in tal caso, va parametrato rispetto a un â€œvalore obiettivoâ€.
+Il secondo è un indicatore di produttività  e consente di approssimare in modo semplice l'effettiva evoluzione della produzione di reddito mediamente prodotto da ogni dipendente poichà©, rispetto al fatturato e al valore della produzione, il V.A. risente in misura minore dell'andamento dei prezzi delle materie prime e dei componenti.
+Puà² essere utilizzato come valore assoluto oppure, ed in misura pià¹ efficace, si puà² fare riferimento al tasso di variazione di un anno rispetto al precedente.
+B) Indicatori orientativi per alcune tipologie aziendali B.1. Lavorazione su commessa Per tale tipologia assumono particolare rilevanza il rispetto dei tempi di consegna ed i target di qualità  prefissati e per tale motivo possono essere utilmente utilizzati i seguenti indicatori:
+
+
+- rispetto dei tempi di commessa - tempi di sviluppo del nuovo prodotto - valore della produzione non conforme/valore della produzione B.2. Produzione in serie Per tali tipologie di aziende assumono rilevanza il grado di utilizzazione degli impianti, la produttività  del lavoro e la qualità  del prodotto. Gli indicatori che possono essere presi in considerazione sono:
+- ore produzione/ore disponibili impianti - volume della produzione/dipendenti - volume scarti/volume produzione totale B.3. Attività  di installazione, manutenzione e servizi Per questa tipologia assumono rilevanza la conformità  della fornitura/prestazione alle richieste del cliente, la qualità  e l'efficienza della attività  di manutenzione, il rispetto dei tempi di ultimazione e consegna degli impianti. I principali indicatori da utilizzare, oltre a quelli desumibili dal bilancio, sono:
+- soddisfazione del cliente - numero reclami - riduzione interventi di riparazione e assistenza - ottenimento certificazioni di qualità  ed ambientali - rispetto dei tempi di consegna impianti 2. Criteri di attribuzione individuale del PdR
+Il PdR sarà  corrisposto individualmente in funzione della partecipazione di ciascuno alla sua realizzazione misurata in termini di presenza al lavoro.
+Il Pdr potrà  essere riparametrato in base ai livelli di inquadramento.
+Procedura per la definizione dell'accordo nelle aziende prive di RSU Per le aziende prive di RSU la definizione dell'accordo di secondo livello che stabilisce l'introduzione del Pdr seguirà  la seguente procedura:
+- l'azienda invierà  la proposta di Premio di risultato all'Associazione territoriale cui risulti iscritta o conferisca mandato;
+- l'Associazione industriale si attiverà  con le Organizzazioni sindacali territoriali per l'illustrazione della proposta di premio, il confronto sulla stessa e la stipula dell'accordo istitutivo del Premio di Risultato;
+- le parti in sede territoriale, laddove ne ricorrano le condizioni, potranno costituire apposite Commissioni, che si riuniranno con cadenza periodica, per lo svolgimento delle attività  di cui al punto precedente;
+- in ciascun anno di vigenza dell'accordo e nei tempi stabiliti, l'azienda comunicherà  i risultati del Premio ai propri dipendenti e presenterà , in forma scritta o in apposito incontro se richiesto, alle OO. SS. territoriali per il tramite dell'Associazione territoriale la quantificazione del Premio di Risultato sulla base dei risultati conseguiti.
+
+
+ALLEGATO 6
+
+OSSERVATORIO PARITETICO NAZIONALE SULL'INDUSTRIA METALMECCANICA E DELLA INSTALLAZIONE D'IMPIANTI - SESSIONE COVID-19
+
+Federmeccanica, Assistal e Fim, Fiom, Uilm, coerentemente con quanto previsto dal Protocollo 24 aprile 2020 in merito alle misure per il contrasto e il contenimento della diffusione del virus Covid-19 da adottare in azienda a tutela delle persone, condividono l'opportunità  di formulare le seguenti raccomandazioni per garantire l'esercizio in sicurezza dell'attività  sindacale nei luoghi di lavoro.
+A tal fine, il Comitato aziendale di cui al punto 13 del Protocollo 24 aprile 2020 puà² costituire la sede privilegiata per verificare i criteri e le modalità  di esercizio applicabili, in relazione alle specificità  della organizzazione aziendale.
+
+LINEE GUIDA PER LO SVOLGIMENTO DELLE AGIBILITà€ SINDACALI DURANTE L'EMERGENZA SANITARIA DETERMINATA DAL COVID-19
+
+Materiali ed informazioni La diffusione di materiale sindacale è effettuata privilegiando l'affissione nelle bacheche e in modalità  digitale, in particolare, in caso di ricorso allo smart working.
+In relazione alle dimensioni aziendali e specificità  operative verrà  valutata l'implementazione delle bacheche nei reparti, nei luoghi ristoro e/o negli altri spazi di passaggio e/o di sosta aventi dimensioni sufficienti a consentire il mantenimento delle distanze di sicurezza.
+Incontri e Riunioni Individuazione di locali comuni e per riunioni idonei a consentire, in relazione alla rispettiva capienza massima, il rispetto del distanziamento minimo previsto e con dotazione di soluzioni idroalcoliche a disposizione di chi vi accede.
+Gli operatori/organizzatori e i partecipanti assicurano l'osservanza delle regole di sicurezza e, in particolare, il corretto utilizzo delle mascherine e il rispetto delle distanze minime e dei percorsi di entrata ed uscita.
+Per consentire la partecipazione totale o parziale, possono essere individuate altre modalità  anche da remoto secondo le pratiche sperimentate in azienda.
+Assemblee Le assemblee sindacali si svolgeranno con la compresenza di un numero massimo predefinito di lavoratori in base alla capacità  massima dei locali destinati
+
+
+ad ospitare l'assemblea stessa. L'azienda metterà  a disposizione i locali individuati come idonei sulla base delle misure di sicurezza correlate all'emergenza sanitaria, con aerazione e dotazione di soluzioni idroalcoliche.
+In caso di oggettiva indisponibilità  di locali idonei l'assemblea potrà  svolgersi secondo altre modalità  individuate in azienda fermo restando il rispetto delle misure di sicurezza adottate.
+Le modalità  di articolazione delle assemblee (per linee, turni, ecc.) e di intervallo tra un'assemblea e l'altra nella stessa giornata sono individuate in coerenza con le esigenze di sicurezza e con la funzionalità  produttiva.
+Le date di svolgimento dell'assemblea dovranno essere comunicate nel rispetto del preavviso previsto dalle norme contrattuali e comunque con anticipo tale da consentire l'igienizzazione dei locali e dei dispositivi di amplificazione acustica.
+I promotori dell'assemblea e i partecipanti assicurano l'osservanza delle regole di sicurezza ed, in particolare, il corretto utilizzo delle mascherine e il rispetto delle distanze minime e dei percorsi di entrata ed uscita.
+Operatori sindacali esterni L'accesso degli operatori sindacali esterni per svolgere attività  sindacale nonchà© di servizio ai lavoratori, nei casi previsti dalle disposizioni di legge e di contratto, avverrà  nel rispetto delle regole di sicurezza adottate correlate all'emergenza sanitaria.
+Lavoro in â€œsmart workingâ€ I lavoratori in â€œsmart workingâ€ partecipano, se possibile in presenza, ovvero da remoto a riunioni ed assemblee nonchà© accedono alle bacheche sindacali digitali secondo le modalità  sperimentate in azienda.
+
+Roma, 18 giugno 2020
+
+
+ALLEGATO 7
+
+COMMISSIONE NAZIONALE SALUTE E SICUREZZA VERBALE DI INTESA
+
+La Commissione Nazionale Salute e Sicurezza, costituita ai sensi dell'art. 4, Sezione Prima del CCNL 26 novembre 2016 al fine di diffondere la cultura della sicurezza e della prevenzione nei luoghi di lavoro e consolidare l'obiettivo del miglioramento continuo quali valori condivisi e comuni delle imprese, dei lavoratori e delle parti a tutti i livelli, ha individuato un primo programma di interventi per promuovere l'applicazione dei numerosi elementi innovativi introdotti dal CCNL.
+
+La prima azione che è stata realizzata riguarda l'iniziativa pubblica organizzata lo scorso 8 giugno a Firenze presso un'azienda, la BHGE-Nuovo Pignone, che ha segnato l'avvio di un percorso congiunto di conoscenza ed approfondimento, nelle diverse realtà  aziendali, degli esempi di â€œbuone praticheâ€ funzionali a sostenere lo sviluppo di un processo virtuoso di diffusione della cultura della salute e sicurezza sul lavoro.
+In quell'occasione, la Commissione ha sottoscritto un Protocollo di Intesa con l'Inail che permetterà  di conoscere il fenomeno degli infortuni e delle malattie professionali nel settore metalmeccanico e della installazione di impianti necessari per svolgere con efficacia i propri compiti.
+
+La Commissione Nazionale Salute e Sicurezza ha quindi condiviso, tenuto anche conto delle esperienze positive già  realizzate, le Linee guida allegate al presente Verbale di Intesa.
+Le Linee guida sono da intendersi come strumenti di indirizzo ed orientamento per favorire, nello specifico:
+- la sperimentazione dei c.d. break formativi, quale metodologia innovativa di formazione dei lavoratori sulla sicurezza, previsti nell'ultimo comma della lett. C), art. 1, Sezione Quarta - Titolo V del CCNL (Allegato 1);
+- lo sviluppo di progetti formativi congiunti RLS/RSPP in applicazione di quanto previsto dall'art. 4, Sezione Prima del CCNL (Allegato 2).
+
+La Commissione Nazionale Salute e Sicurezza avvierà  un'azione periodica di monitoraggio e verifica sull'implementazione delle Linee Guida, di cui agli allegati 1 e 2, che saranno aggiornate alla luce delle esperienze che si svilupperanno nei territori e nelle aziende.
+
+La Commissione Nazionale Salute e Sicurezza è impegnata, altresà¬, a proseguire la sua attività  lungo le direttrici indicate nel Ccnl focalizzando l'attenzione sui seguenti ambiti:
+- sistemi e modalità  di segnalazione e rilevazione dei â€œquasi infortuniâ€ e comportamenti insicuri ed elaborazione di Linee guida per promuoverne la diffusione quale strumento di sviluppo della cultura della prevenzione e del miglioramento continuo della sicurezza sul lavoro;
+- iniziative e progetti formativi e di aggiornamento dei RLS finalizzati a migliorare ed accrescere la loro competenza in funzione della realtà  metalmeccanica e della installazione di impianti, a sostegno di un ruolo sempre pià¹ qualificato di tutti gli attori della prevenzione;
+- analisi dei dati degli infortuni e delle malattie professionali in applicazione del Protocollo di Intesa sottoscritto con l'Inail per l'individuazione delle cause e dei fattori di rischio maggiormente diffusi in relazione alle specificità  delle diverse attività  che compongono la categoria;
+- individuazione di specifiche azioni in collaborazione con l'Inail finalizzate alla diffusione della cultura della sicurezza nei luoghi di lavoro in funzione delle specificità  della categoria.
+
+Roma, 8 ottobre 2018
+
+Allegato 7.1.
+
+LINEE GUIDA BREAK FORMATIVI (art. 1, lett. C) ultimo comma, Sezione Quarta - Titolo V, Ccnl 26 novembre 2016) 1. Break formativi
+Il Break Formativo è una metodologia innovativa di formazione dei lavoratori che non si svolge in un'aula tradizionale o mediante e-Learning, ma direttamente nei luoghi in cui si svolgono le lavorazioni, all'interno dei reparti o presso le postazioni di lavoro.
+Un percorso formativo basato sul coinvolgimento attivo dei lavoratori nel percorso di miglioramento continuo della salute e della sicurezza nei luoghi di lavoro.
+I break formativi sono collocati durante l'orario di lavoro in funzione delle esigenze tecnicoorganizzative e sono finalizzati a migliorare l'efficacia della formazione dei lavoratori sulla sicurezza elevando il livello di apprendimento, apportando un aggiornamento continuo riguardo ai rischi legati alla mansione, al luogo di lavoro, alle attrezzature/sostanze utilizzate ed alle tecniche di prevenzione e mantenendo alta la percezione del rischio.
+Il docente, affiancato dal preposto e RLS, svolge incontri di formazione brevi (15-30 minuti) per piccoli gruppi di lavoratori, inerenti a singoli aspetti di salute e sicurezza sul lavoro, con riferimento ai rischi propri della mansione, al luogo di lavoro, alle attrezzature/sostanze utilizzate e alle relative procedure operative di sicurezza.
+I â€œbreak formativiâ€ non sostituiscono l'addestramento ma sono finalizzati a rafforzarlo e integrarlo e possono essere validi per l'aggiornamento del lavoratore (nell'ambito del monte ore quinquennale di 6 ore previsto dall'art. 9 Accordo Stato Regioni 21 dicembre 2011 in applicazione dell'art. 37 del D.Lgs. n. 81/2008) se erogati da formatori in possesso dei requisiti di legge (Decreto 6 marzo 2013).
+Nelle imprese che non abbiano al loro interno formatori in possesso dei requisiti di legge e non intendano fare ricorso a soggetti esterni, potranno essere ugualmente attivati â€œbreak formativiâ€; in
+
+
+tal caso, il break formativo sarà  svolto con le medesime modalità  successivamente illustrate ma, pur essendo raccomandata la registrazione, non avrà  la valenza di â€œaggiornamento ai sensi del D.lgs.
+81/2008 e s.m.i.â€.
+I break formativi non sono utili ai fini della formazione base (generale e specifica) dei lavoratori prevista dall'art. 37 del D.Lgs. n. 81/08.
+L'erogazione della formazione tramite i break-formativi è adottata previa consultazione dei RLS. Il preposto è aggiornato su contenuti e programma dei break riguardanti il gruppo di lavoratori di riferimento. Le modalità  di attivazione e svolgimento dei break-formativi sono illustrate ai lavoratori da parte dei preposti, RSPP e RLS, anche congiuntamente.
+1.1. Break formativi con valenza di aggiornamento ex D.Lgs. n. 81/2008 L'RSPP progetta la formazione dei lavoratori (art. 33, D.Lgs. n. 81/2008) e consulta preventivamente il RLS in merito all'organizzazione della formazione in aggiornamento dei lavoratori mediante break formativi (art. 50, 1, lett. d, D.lgs. 81/2008) e alle proposte riguardanti l'attività  di prevenzione da svolgere con queste modalità  (art. 50, 1, lett. m, D.lgs. 81/2008). Il formatore/docente deve essere in possesso dei requisiti di legge (Decreto 6 marzo 2013). Ai sensi di legge, la progettazione della formazione (ed aggiornamento) dei lavoratori è oggetto di richiesta di collaborazione all'OPP competente.
+I break formativi possono essere progettati e programmati secondo la seguente articolazione che potrà  essere integrata e/o modificata nelle singole realtà  aziendali:
+- Analisi dei documenti interni (DVR, DUVRI, PSC, POS, ecc.), del precedente programma formativo (ex art. 37 D.Lgs. 81/2008), delle procedure di lavoro e delle segnalazioni dei â€œquasi infortuniâ€ e dei comportamenti insicuri (e relativa eventuale reportistica) secondo le procedure eventualmente in atto in azienda - Definizione degli obiettivi - Test di verifica della comprensione della lingua italiana nel caso di presenza di lavoratori stranieri - Predisposizione ed eventuale somministrazione di test di ingresso e di uscita (verifica di apprendimento) - Elaborazione di materiale didattico: schede per singoli argomenti (ad esempio, patologie muscolo/scheletriche ove rilevate quale rischio nel DVR, uso DPI, procedure di emergenza, schede di sicurezza, schemi di â€œintervistaâ€ ai lavoratori per gli aspetti di miglioramento ecc.), con uso di eventuali supporti fotografici, filmati, ecc.
+- Suddivisione dei lavoratori in piccoli gruppi (5-10 persone al massimo) che svolgano mansioni omogenee (anche con riferimento al luogo di lavoro, attrezzature/sostanze utilizzate) - Programmazione dei break formativi (sospensione dell'attività  lavorativa per circa 15-30 minuti di norma all'inizio o fine turno) con partecipazione del preposto e del RLS - Monitoraggio nel tempo dell'efficacia dei break formativi sui comportamenti dei lavoratori
+
+Il Formatore (anche l'RSPP), coadiuvato dal preposto e RLS puà² seguire alcuni passaggi che vengono qui suggeriti:
+- Si reca in reparto o nel cantiere accanto alla postazione di lavoro e somministra preliminarmente al gruppo prescelto l'eventuale test di ingresso per verificare cosa i partecipanti ricordino della formazione base (4-5 domande al massimo) - Verificati i risultati, consegna ai lavoratori una â€œscheda breakâ€ (da predisporre secondo le priorità  emerse dall'esame del DVR, ad esempio, utilizzo dei DPI eventualmente in dotazione, procedura relativa alla movimentazione dei carichi o ai movimenti ripetuti, ecc.), procede ad un breve riepilogo dei contenuti, cui seguono una o pià¹ esercitazioni - Il break prende in considerazione gli eventuali rischi interferenziali riportati nel DUVRI o PSC nel caso di presenza di imprese appaltatrici o lavoratori autonomi, all'interno del reparto/area/ufficio ecc. di riferimento promuovendo il massimo coinvolgimento di tutti i lavoratori interessati dai suddetti rischi - Al termine, si svolge una breve discussione/confronto sull'argomento del break formativo e sugli eventuali quasi infortuni o comportamenti insicuri segnalati in proposito - In conclusione, viene somministrato l'eventuale test di verifica dell'apprendimento (test uscita)
+
+
+- Il formatore (anche l'RSPP) e il preposto e il RLS infine confrontano i risultati dei test di ingresso e di uscita - Il formatore (anche l'RSPP), il preposto e il RLS svolgono un monitoraggio periodico sull'efficacia dei break formativi con attenzione specifica ai comportamenti effettivi dei lavoratori e se necessario predispongono eventuali azioni correttive - I break formativi si effettuano con cadenza periodica (continuità ) e sono registrati internamente; se soddisfano i requisiti normativi richiamati, viene predisposto un attestato conforme ai requisiti di legge (con le ore seguite, a completamento del monte ore quinquennale) 1.2. Break formativi senza valenza di aggiornamento ex D.Lgs. n. 81/2008 I break formativi senza valenza di aggiornamento obbligatorio possono essere svolti con le medesime modalità  ma in questo caso:
+- Non è necessario che il formatore abbia i requisiti di legge - Non è necessario chiedere la collaborazione all'OPP - Non è possibile erogare un attestato ai sensi del D.Lgs. n. 81/2008. E' consigliabile una registrazione del break in altra forma
+
+I POSSIBILI VANTAGGI La valorizzazione del ruolo e della collaborazione attiva di RSPP, RLS e Preposti nell'adozione dei break formativi puà² permettere di conseguire alcuni vantaggi per i lavoratori, come ad esempio:
+- Facilitazione del lavoro di gruppo - Maggiore focalizzazione sul rischio oggetto di intervento formativo in relazione alla mansione del lavoratore, postazione lavorativa, attrezzatura utilizzata ecc., poichà© il luogo dell'intervento formativo è proprio quello in cui si effettua la prestazione di lavoro - Partecipazione attiva/dibattito/discussione dei lavoratori - Alto livello di attenzione dei partecipanti per incontri di breve durata e maggiore propensione a fare domande - Concretezza: a diretto contatto col rischio/alta percezione/motivazione - Proposta di eventuali soluzioni alternative - Condivisione di emozioni - Gradimento da parte dei lavoratori. Clima favorevole a questo tipo di formazione non formale ma effettiva - Segnalazione di quasi infortuni e comportamenti insicuri - Si punta a risolvere gli eventuali problemi senza atteggiamenti sanzionatori ma rafforzando la cultura della prevenzione - La formazione è continua e si prolunga nel tempo - Presidio da parte dell'RSPP - Ruolo attivo del preposto (coinvolgimento e sua responsabilizzazione) - Partecipazione attiva RLS (osservazioni, proposte) - Collaborazione con organismo paritetico provinciale - Utile per l'aggiornamento del documento di valutazione dei rischi
+
+Allegato 7.2.
+
+LINEE GUIDA FORMAZIONE CONGIUNTA RSPP/RLS (art. 4, Sezione Prima, CCNL 26 novembre 2016)
+
+2. La formazione congiunta RSPP/RLS
+
+Obiettivo generale La Commissione nazionale Salute e Sicurezza, intende fornire orientamenti e indirizzi agli OPP per progetti formativi congiunti RSPP/RLS.
+
+
+La proposta intende rafforzare, con un sistema partecipato e condiviso, le relazioni, la comunicazione e la collaborazione fra RLS, e RSPP al fine di migliorare la cultura in materia di salute e sicurezza sul lavoro e sviluppare un efficace sistema di prevenzione e protezione in azienda.
+Obiettivi specifici Verificare una modalità  efficace di confronto e consultazione reciproca fra RSPP e RLS sulla gestione della salute e sicurezza sul lavoro (es. anche con riferimento al Documento di Valutazione dei Rischi) o POS (Titolo IV, D.Lgs. n. 81/08).
+Fornire agli RLS strumenti utili per partecipare in maniera attiva alla Valutazione dei Rischi.
+Analisi delle procedure e dei metodi applicabili nei cicli di lavorazione, nelle postazioni di lavoro e nel Documento di Valutazione dei Rischi.
+Gestire incontri programmati fra RLS e RSPP finalizzati all'approfondimento di tematiche legate a rischi specifici quali, ad esempio, le patologie muscolo/scheletriche, a particolari macchine e attrezzature, lavorazioni e mansioni, situazioni di pericolo ricorrenti, procedure ed organizzazione del lavoro, sistemi di rilevazione ed analisi dei â€œquasi infortuniâ€ e comportamenti insicuri ecc. analizzate o da migliorare nel Documento di Valutazione dei Rischi.
+Agire coerentemente con le opportunità  e i vincoli definiti dalla normativa e dalla contrattazione nazionale e/o aziendale.
+Riconoscimenti e Docenze - Formazione valida ai fini dell'aggiornamento di RLS e RSPP:
+Per essere valida ai fini dell'aggiornamento, la formazione congiunta dovrà  essere svolta con le stesse modalità  definite rispettivamente nell'Accorso Stato-Regioni del 7 luglio 2016 per gli RSPP, art. 37 D.Lgs. 81/08, con rimandi alla contrattazione collettiva (ove presente) per gli RLS (per la formazione degli RLS dovranno essere attivati gli OPP competenti).
+I moduli formativi dovranno essere tenuti da formatori in possesso dei requisiti previsti dal Decreto interministeriale del 6 marzo 2013 relativo ai â€œCriteri di qualificazione della figura del formatore per la salute e sicurezza sul lavoro (articolo 6, comma 8, lett. m-bis), del Decreto Legislativo n. 81/2008 e s.m.i.
+
+ESEMPLIFICAZIONE DI DUE TIPOLOGIE DI CORSO FORMATIVO CONGIUNTO CORSI INTERAZIENDALI
+
+LA SEGUENTE ESEMPLIFICAZIONE àˆ INDICATIVA E RAPPRESENTA UNA PRIMA ELENCAZIONE DI TEMI DA PROPORRE PER LA FORMAZIONE CONGIUNTA, CHE DOVRà€ ESSERE INTEGRATA, PER LA SUCCESSIVA PROPOSTA, DA TEMI STRETTAMENTE CONNESSI ALLE PECULIARITà€ DEL SETTORE METALMECCANICO E DELLA INSTALLAZIONE DI IMPIANTI.
+
+CORSO 1 - PER RLS E RSPP/ASPP AZIENDALI - AZIENDE CON OLTRE 200 DIPENDENTI
+
+CORSO DI 8 ORE CON DUE MODULI FORMATIVI DI 4 ORE Modulo 1 Il sistema delle relazioni e della comunicazione - Il sistema delle relazioni: RLS, RSPP - datore di lavoro, medico competente, lavoratori, enti pubblici, lavoratori autonomi, appaltatori ecc.
+- Cenni ai metodi, tecniche e strumenti della comunicazione - Caratteristiche e obiettivi che incidono sulle relazioni - Ruolo della comunicazione nelle diverse situazioni di lavoro e in funzione dei ruoli RLS/RSPP - Individuazione dei punti di consenso e disaccordo per la ricerca di posizioni condivise - La rete di comunicazione in azienda - Gestione degli incontri di lavoro e della riunione periodica
+
+
+- Chiusura della riunione e pianificazione delle attività - Attività  post-riunione - Problematiche riconducibili alla percezione soggettiva dei rischi Modulo 2 Ruolo dell'informazione e della formazione - Le fonti informative su salute e sicurezza del lavoro - Metodologie per una corretta informazione in azienda (riunioni, gruppi di lavoro specifici, conferenze, seminari informativi ecc.) - Strumenti di informazione su salute e sicurezza sul lavoro (circolari, cartellonistica, opuscoli, audiovisivi, avvisi, news, sistemi in rete ecc.) - Dalla valutazione dei rischi alla predisposizione dei piani di informazione e formazione in azienda - Esercitazione in azienda su alcuni casi definiti precedentemente e discussione delle proposte di miglioramento CORSO 2 - PER RLS E RSPP/ASPP DI AZIENDE DIVERSE - AZIENDE CON MENO DI 200 DIPENDENTI
+
+CORSO DI 4 ORE CON MODULO FORMATIVO UNICO Modulo unico Il sistema delle relazioni e della comunicazione - Il sistema delle relazioni: RLS, RSPP - datore di lavoro, medico competente, lavoratori, enti pubblici, lavoratori autonomi, appaltatori ecc.
+- Cenni ai metodi, tecniche e strumenti della comunicazione - Metodologie per una corretta informazione in azienda (riunioni, gruppi di lavoro specifici, conferenze, seminari informativi, ecc.) e strumenti (circolari, cartellonistica, opuscoli, audiovisivi, avvisi, news, sistemi in rete, ecc.) - Caratteristiche e obiettivi che incidono sulle relazioni - Ruolo della comunicazione nelle diverse situazioni di lavoro - Individuazione dei punti di consenso e disaccordo per la ricerca di posizioni condivise - La rete di comunicazione in azienda - Gestione degli incontri di lavoro e della riunione periodica - Chiusura della riunione e pianificazione delle attività - Attività  post-riunione - Problematiche riconducibili alla percezione soggettiva dei rischi
+
+
+ALLEGATO 8
+
+DICHIARAZIONE COMUNE Il presente allegato impegna le parti sotto indicate che lo hanno sottoscritto.
+
+COMPARTO DELLA INSTALLAZIONE DI IMPIANTI TECNOLOGICI, DEI SERVIZI DI EFFICIENZA ENERGETICA ESCo E DEL FACILITY MANAGEMENT
+
+Assistal e Fim, Fiom e Uilm prendono atto che il comparto della installazione di impianti, dei servizi di efficienza energetica, ESCo e del facility management regolamentato nel Contratto Collettivo di Lavoro per l'Industria metalmeccanica e della installazione di impianti, è profondamente differente dal settore manifatturiero metalmeccanico, infatti le attività  sono svolte quasi esclusivamente tramite contratti di appalto.
+Una forte criticità  che si riscontra nelle gare il cui oggetto sono ricomprese nel Campo di applicazione del CCNL è rappresentata dall'applicazione da parte delle imprese partecipanti di un contratto diverso da quello sottoscritto da Assistal e Fim, Fiom e Uilm. Tale scelta, molto spesso, è dettata al solo fine di applicare condizioni economiche e normative inferiori rispetto alle previsioni del Contratto dell'industria metalmeccanica e della installazione di impianti.
+Conseguentemente Assistal e Fim, Fiom e Uilm, per evitare il sopra descritto fenomeno che puà² arrecare danno alle imprese ed ai lavoratori ribadiscono che, per i settori sopra indicati, il riferimento è il Contratto Collettivo di Lavoro per l'Industria metalmeccanica e della installazione di impianti in coerenza con quanto indicato dal Codice dei Contratti Pubblici e dalla normativa in essere.
+Le Parti sottoscrittrici preso atto, inoltre, di sovrapposizioni degli ambiti applicativi dei contratti collettivi nazionali di lavoro che interessano il comparto, si attiveranno, per quanto di loro competenza, affinchà© si dia concreto avvio al percorso convenuto nel punto 4 del Patto della fabbrica del 9 marzo 2018.
+Per affrontare le eventuali ulteriori tematiche di comparto e per discutere delle politiche che determinano ricadute sulle imprese del settore e sui loro lavoratori al fine di essere presenti ed incisivi nei confronti degli organi legislativi e di qualsiasi soggetto di riferimento nel mercato delle aziende installazione di impianti, dei servizi di efficienza energetica, ESCo e del facility management, è istituito un tavolo permanente di confronto tra Assistal e Fim, Fiom e Uilm.
+
+ASSISTAL, FIM, FIOM, UILM Roma, 5 febbraio 2021
+
+
+DISCIPLINA DELL'APPRENDISTATO PROFESSIONALIZZANTE NELL'INDUSTRIA METALMECCANICA E NELLA INSTALLAZIONE DI IMPIANTI
+
+Premessa.
+Le parti, considerata la finalità  formativa del presente istituto e la rilevanza delle competenze delle persone per l'occupabilità  e la competitività  aziendale, individuano nell'apprendistato professionalizzante il canale preferenziale di accesso al lavoro dei giovani quale istituto che favorisce una occupazione stabile e di qualità .
+Art. 1. - Norme generali.
+L'apprendistato professionalizzante è un contratto di lavoro a tempo indeterminato finalizzato alla formazione e all'occupazione dei giovani, ai sensi dell'articolo 44, del D.Lgs 81/2015, e al conseguimento di una qualificazione professionale a fini contrattuali.
+Possono essere assunti con contratto di apprendistato professionalizzante giovani di età  non inferiore ai diciotto anni, salvo le deroghe consentite dalla legge, e non superiore ai ventinove.
+Tra le qualifiche conseguibili sono escluse quelle previste nel livello D1 e nel livello A1.
+La facoltà  di assunzione mediante contratto di apprendistato professionalizzante è subordinata a quanto previsto dalle disposizioni legislative vigenti.
+Per i contratti di apprendistato stipulati a partire dal 1Â° giugno 2021 è previsto l'inquadramento nel livello corrispondente alla qualifica professionale da conseguire e relativa percentualizzazione della retribuzione in coerenza con il percorso formativo che si conclude al termine dell'apprendistato, come disciplinato nell'art. 8.
+L'apprendista non potrà  essere retribuito a cottimo.
+Per quanto non è contemplato dalle disposizioni di legge e dalla presente disciplina, valgono per gli apprendisti le norme del vigente Contratto collettivo nazionale di lavoro.
+NORMA TRANSITORIA Gli apprendisti assunti prima del 1Â° giugno 2021 fermo restando l'applicazione delle clausole riguardanti l'inquadramento e la relativa retribuzione previste nel contratto di apprendistato già  stipulato in applicazione del CCNL 26 novembre 2016, a decorrere dal 1Â° giugno 2021 laddove ancora non si sia concluso il periodo di inquadramento in 1a Categoria saranno automaticamente inquadrati nel Livello D1.
+Art. 2. - Durata del contratto.
+La durata minima del contratto di apprendistato professionalizzante è di 6 mesi, quella massima è pari a 36 mesi. Per i lavoratori in possesso di diploma di
+
+
+livello 4 QEQ, di diploma di tecnico superiore ITS (livello 5 QEQ) ovvero di laurea (livello 6 e 7 QEQ) inerente alla professionalità  da conseguire tale durata sarà ridotta di 6 mesi.
+Per le figure professionali ricomprese nella declaratoria del Livello D2 addette a produzioni in serie svolte su linee a catena o di montaggio semplice quando le mansioni siano caratterizzate da attività  brevi, semplici e ripetitive la durata massima sarà  pari a 24 mesi.
+Art. 3. - Valorizzazione di precedenti periodi di apprendistato.
+I periodi di apprendistato professionalizzante svolti, per una durata pari almeno a 12 mesi, presso pià¹ datori di lavoro, saranno valorizzati ai fini della durata complessiva del periodo di apprendistato, purchà© non separati da interruzioni superiori ad un anno e purchà© si riferiscano alle stesse attività . In tal caso la durata del contratto di apprendistato sarà  ridotta di 6 mesi fermo restando quanto previsto per il possesso del titolo di studio di cui all'articolo precedente.
+A tal fine, nel caso di risoluzione del rapporto prima della scadenza del contratto, il datore di lavoro è tenuto a registrare l'esperienza di apprendistato nel libretto secondo quanto previsto dalla normativa vigente.
+Tale documentazione deve essere presentata dal lavoratore all'atto dell'assunzione, per ottenere il riconoscimento della riduzione della durata del contratto di apprendistato.
+Art. 4. - Formazione.
+La formazione professionalizzante si caratterizza per essere un percorso, integrato nell'attività  lavorativa, personalizzato sulla base delle conoscenze di partenza dell'apprendista e delle competenze tecnico-professionali e specialistiche da conseguire (standard professionali di riferimento).
+Le parti concordano che gli standard professionali di riferimento sono quelli risultanti dagli schemi esemplificativi dei profili formativi definiti dalla Commissione Nazionale per la Formazione Professionale e l'Apprendistato il 28 marzo 2006 (allegati al presente contratto) o da altri specifici profili eventualmente presenti in azienda.
+Le parti in via esemplificativa individuano le seguenti tematiche collegate alla realtà  aziendale/professionale: conoscenza dei prodotti e servizi di settore e del contesto aziendale; conoscenza dell'organizzazione del lavoro in impresa e ruolo dell'apprendista nell'impresa; conoscenza ed applicazione delle basi tecniche e scientifiche della professionalità ; conoscenza ed utilizzo delle tecniche e dei metodi di lavoro; conoscenza ed utilizzo degli strumenti e delle tecnologie di lavoro; conoscenza ed utilizzo delle misure di sicurezza individuale e di tutela ambientale; conoscenza delle innovazioni di prodotto, di processo e di contesto;
+Piano Formativo Individuale e ore di formazione Le parti del contratto individuale di lavoro definiscono nel PFI, il cui schema è allegato alla presente disciplina, il percorso formativo del lavoratore in coerenza con
+
+
+gli standard professionali di riferimento relativi alla qualificazione a fini contrattuali da conseguire e con le conoscenze ed abilità  già  possedute dallo stesso.
+La formazione professionalizzante sarà  non inferiore a 80 ore medie annue comprensive della formazione teorica iniziale relativa al rischio specifico prevista dall'accordo Stato-Regioni del 21 dicembre 2011, e potrà  essere svolta anche on the job e in affiancamento. La formazione professionalizzante sarà  integrata, laddove esistente, dall'offerta formativa pubblica, finalizzata all'acquisizione di competenze di base e trasversali, ai sensi di quanto previsto dal comma 3 dell'articolo 44 del D. Lgs. 81/2015.
+Il PFI potrà  essere modificato in corso di rapporto di lavoro su concorde valutazione dell'apprendista, dell'impresa e del tutor/referente aziendale.
+La formazione effettuata e la qualificazione professionale ai fini contrattuali, eventualmente acquisita, saranno registrate nel libretto formativo del cittadino.
+In attesa della piena operatività  del libretto formativo, le parti del contratto individuale provvedono all'attestazione dell'attività  formativa utilizzando il modello allegato alla presente disciplina.
+Tutor/Referente aziendale Per l'attivazione del contratto di apprendistato è necessaria la presenza di un tutor/referente aziendale nominativamente indicato nel PFI, in possesso di adeguata professionalità  ed esperienza.
+Il tutor/referente aziendale gestisce l'accoglienza nel contesto lavorativo e favorisce l'inserimento e l'integrazione dell'apprendista in azienda, contribuisce alla definizione del Piano Formativo Individuale, verifica la progressione dell'apprendimento e attesta, anche ai fini dell'articolo 47, comma 1, del D.Lgs 81/2015, il percorso formativo compilando la scheda di rilevazione dell'attività  formativa, allegata al presente contratto. Tale scheda sarà  firmata anche dall'apprendista per presa visione.
+Il tutor puà² essere lo stesso imprenditore.
+Art. 5. - Organismi paritetici.
+La Commissione Nazionale per la Formazione Professionale di cui all'articolo 6, punto 6.1, Sezione prima, del Contratto collettivo nazionale, svolgerà  i seguenti compiti con riferimento al contratto di apprendistato:
+- aggiungere nuovi schemi esemplificativi di profili formativi a quelli già  allegati al presente contratto, anche mediante forme di collaborazione con gli enti competenti sulla base di specifici profili presenti in azienda, coerentemente con lo sviluppo dell'industria 4.0;
+- valutare la realizzazione di una piattaforma e-learning attivando anche appositi finanziamenti, al fine di offrire alle aziende la possibilità  di utilizzare, in assenza di offerta formativa pubblica, uno strumento aggiornato sulle tematiche trasversali.
+Le Commissioni territoriali per la formazione professionale di cui all'articolo 6, punto 6.2, Sezione prima, avranno il compito di:
+
+
+a) predisporre o aggiornare, sulla base dei fabbisogni rilevati nel territorio, profili formativi coerenti con quelli elaborati dalla Commissione Nazionale ed allegati al presente contratto;
+b) monitorare l'utilizzo dell'istituto nel territorio anche con riferimento alla fruizione dell'offerta formativa predisposta dalle Regioni.
+Art. 6. - Assunzione.
+Nella lettera di assunzione oltre alle indicazioni di cui all'articolo 1, Sezione quarta, Titolo I, del Contratto collettivo nazionale, saranno precisate la qualificazione professionale oggetto del contratto di apprendistato, il corrispondente livello di inquadramento e la progressione retributiva di cui al successivo articolo 8.
+Alla lettera di assunzione verrà  allegato il Piano Formativo Individuale.
+Art. 7. - Periodo di prova.
+Per l'assunzione in prova dell'apprendista è richiesto l'atto scritto. La durata del periodo di prova è pari alla durata ordinaria prevista dal contratto collettivo nazionale vigente per il livello corrispondente alla qualifica professionale da conseguire.
+Durante tale periodo ciascuna delle parti contraenti potrà  recedere dal contratto senza l'obbligo di preavviso o della relativa indennità  sostitutiva e saranno retribuite le ore o giornate di lavoro effettivamente prestate.
+Nel caso in cui il periodo di prova venga interrotto per causa di malattia o di infortunio l'apprendista sarà  ammesso a completare il periodo di prova stesso qualora sia in grado di riprendere il servizio entro un numero di giorni pari alla metà  della durata della prova.
+Art. 8. - Inquadramento e retribuzione.
+I lavoratori assunti a partire dal 1Â° giugno 2021 con il contratto di apprendistato saranno inquadrati nel livello di inquadramento corrispondente alla qualifica professionale da conseguire.
+La retribuzione sarà  quella minima contrattuale del livello di inquadramento corrispondente alla qualifica professionale da conseguire ragguagliata, in coerenza con il percorso formativo che si conclude al termine dell'apprendistato, alle percentuali e relativi periodi di applicazione come riportato nella tabella in calce, fatte salve diverse intese fra le parti contraenti.
+
+
+Durata complessiva Primo periodo Secondo periodo Terzo periodo Mesi
+
+Mesi Percentuale Mesi Percentuale Mesi Percentuale
+
+36 12 85% 12 90% 12 95%
+
+30 10 85% 10 90% 10 95%
+
+24 8 85% 8 90% 8 95%
+
+Qualora le durate complessive del contratto di apprendistato siano inferiori a quelle riportate nella tabella, la durata dei singoli periodi sarà  adeguata in misura proporzionale ferma restando la relativa percentuale di retribuzione applicabile nei tre periodi.
+La retribuzione oraria viene determinata sulla base del divisore 173.
+Art. 9. - Tredicesima mensilità .
+L'azienda corrisponderà  all'apprendista, in occasione della ricorrenza natalizia, una tredicesima mensilità  ragguagliata a 173 ore della retribuzione globale di fatto.
+Nel caso di inizio o di cessazione del rapporto di lavoro durante il corso dell'anno, l'apprendista ha diritto a tanti dodicesimi dell'ammontare della gratifica natalizia quanti sono i mesi di servizio prestato presso l'azienda.
+La frazione di mese superiore ai 15 giorni viene considerata a questi effetti come mese intero.
+Art. 10. - Malattia ed infortunio.
+Per quanto riguarda il periodo di conservazione del posto e il trattamento economico per infortunio e malattia dell'apprendista non in prova, si applica quanto previsto dagli artt. 1 e 2, Sezione quarta, Titolo VI.
+Art. 11. - Prolungamento del periodo di apprendistato.
+In caso di assenza per malattia, infortunio, gravidanza e puerperio superiore a trenta giorni, il contratto sarà  prolungato per un periodo pari alla durata dell'assenza. In caso di assenze superiori a trenta giorni per cause diverse da quelle indicate, le parti del contratto individuale di lavoro definiranno la possibilità  di prolungamento.
+Art. 12. - Previdenza complementare - Assistenza sanitaria - Welfare Ai lavoratori di cui al presente contratto si applica quanto previsto agli articoli 15, 16 e 17, Sezione quarta, Titolo IV.
+
+
+Art. 13. - Recesso o attribuzione della qualificazione.
+Stante la peculiare natura a causa mista del contratto di apprendistato, il periodo di formazione si conclude al termine del periodo di apprendistato; le parti del contratto individuale potranno recedere dal contratto dando un preavviso, ai sensi di quanto disposto dall'articolo 2118 del codice civile, di 15 giorni decorrente dal termine del contratto medesimo. Nel periodo di preavviso continua a trovare applicazione la disciplina del contratto di apprendistato. In caso di mancato esercizio della facoltà  di recesso, il rapporto prosegue come ordinario rapporto di lavoro subordinato a tempo indeterminato con attribuzione della qualificazione professionale che ha formato oggetto del contratto di apprendistato.
+Al lavoratore che venga mantenuto in servizio, il periodo di apprendistato verrà  computato nell'anzianità  di servizio, oltre che ai fini degli istituti previsti dalla legge, ai fini di tutti gli istituti introdotti e disciplinati dal contratto collettivo nazionale di lavoro. Ai fini della maturazione degli aumenti periodici di anzianità , a decorrere dal 1Â° ottobre 2017, il periodo di apprendistato sarà  computato nella misura del 65%. Per il lavoratore in possesso di diploma di scuola media superiore inerente alla qualificazione a fini contrattuali da acquisire, che venga mantenuto in servizio, ai fini della mobilità  professionale di cui all'articolo 1, lett. B), punto IV, Sezione quarta, Titolo II, il periodo di apprendistato sarà  considerato utile in misura pari a 12 mesi.
+Art. 14. - Decorrenza.
+La presente disciplina è parte integrante del vigente Contratto collettivo nazionale di lavoro di cui segue le sorti.
+
+
+DISCIPLINA DELL'APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA PROFESSIONALE IL DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE E IL CERTIFICATO DI SPECIALIZZAZIONE TECNICA SUPERIORE
+
+Premessa.
+Le parti riconoscono che l'apprendistato di cui all'articolo 43 del D. Lgs. n.
+81/2015, definito apprendistato di primo livello, costituisce uno strumento utile all'integrazione tra sistema scolastico e lavoro e puà² contribuire ad incrementare l'occupabilità  dei giovani favorendone l'inserimento nel mercato del lavoro.
+Le parti stipulanti si danno reciprocamente atto che la seguente disciplina dà concreta attuazione e trova fondamento in quanto definito sull'apprendistato finalizzato all'acquisizione della qualifica, del diploma professionale, di istruzione secondaria superiore e del certificato di specializzazione tecnica e superiore dall'articolo 43 del D. Lgs. n. 81/2015.
+Art. 1. - Norme generali.
+Possono essere assunti con il contratto di apprendistato di primo livello, i giovani che hanno compiuto 15 anni di età  e fino al compimento dei 25 anni.
+In considerazione del doppio status di studente e lavoratore dell'apprendista, la disciplina prevista nel presente accordo, è da riferirsi esclusivamente all'attività , compresa quella formativa, svolta in azienda.
+Per quanto non è contemplato dalla presente disciplina, valgono per gli apprendisti le norme del vigente Contratto collettivo nazionale di lavoro per quanto compatibili.
+Art. 2. - Durata.
+La durata del contratto, fermo restando le normative regionali, è determinata in considerazione della qualifica o del diploma da conseguire e non puà² in ogni caso essere inferiore a sei mesi e superiore a:
+a) tre anni per il conseguimento della qualifica di istruzione e formazione professionale;
+b) quattro anni per il conseguimento del diploma di istruzione e formazione professionale;
+c) quattro anni per il conseguimento del diploma di istruzione secondaria superiore;
+d) due anni per la frequenza del corso annuale integrativo per l'ammissione all'esame di Stato di cui all'articolo 15, comma 6, del D. Lgs. n. 226/2005;
+e) un anno per il conseguimento del diploma di istruzione e formazione professionale per coloro che sono in possesso della qualifica di istruzione e formazione professionale nell'ambito dell'indirizzo professionale corrispondente;
+
+
+f) un anno per il conseguimento del certificato di specializzazione tecnica superiore.
+In relazione alle qualificazioni contenute nel Repertorio di cui all'articolo 41, comma 3 del D. Lgs. 81/2015, i datori di lavoro hanno la facoltà  di prorogare fino ad un anno il contratto di apprendistato dei giovani qualificati e diplomati, che hanno concluso positivamente i percorsi per il conseguimento della qualifica, del diploma professionale, per il consolidamento e l'acquisizione di ulteriori competenze tecnico-professionali e specialistiche, utili anche ai fini dell'acquisizione del certificato di specializzazione tecnica superiore o del diploma di maturità  professionale all'esito del corso annuale integrativo di cui all'articolo 15, comma 6, del Decreto legislativo n. 226 del 2005.
+Il contratto di apprendistato puà² essere prorogato fino ad un anno anche nel caso in cui, al termine dei suddetti percorsi, l'apprendista non abbia conseguito la qualifica, il diploma, il certificato di specializzazione tecnica superiore o il diploma di maturità  professionale all'esito del corso annuale integrativo.
+Art. 3. - Piano formativo individuale e formazione interna ed esterna.
+L'organizzazione didattica dei percorsi di formazione in apprendistato si articola in periodi di formazione interna ed esterna. I percorsi sono concordati dall'istituzione formativa e dal datore di lavoro e attuati sulla base del protocollo da essi stipulato. Le attività  di formazione interna ed esterna si integrano ai fini del raggiungimento dei risultati di apprendimento dei percorsi ordinamentali.
+Il piano formativo individuale redatto dall'istituzione formativa con il coinvolgimento del datore di lavoro secondo il modello definito dal Decreto Interministeriale sugli standard formativi del 12 ottobre 2015 (allegato alla presente disciplina) stabilisce il contenuto e la durata della formazione dei percorsi in apprendistato.
+I periodi di formazione interna ed esterna sono articolati tenendo conto delle esigenze formative e professionali dell'impresa e delle competenze tecniche e professionali correlate agli apprendimenti ordinamentali che possono essere acquisiti in impresa.
+Per i limiti di durata della formazione interna ed esterna e per quanto qui non definito in materia si fa esplicito rinvio all'articolo 5 del Decreto Interministeriale citato.
+Art. 4. - Periodo di prova.
+Per l'assunzione in prova dell'apprendista è richiesto l'atto scritto. La durata del periodo di prova è pari 160 ore di presenza in azienda.
+Durante tale periodo ciascuna delle parti contraenti potrà  recedere dal contratto senza l'obbligo di preavviso o della relativa indennità  sostitutiva e saranno retribuite le ore o giornate di presenza in azienda.
+Art. 5. - Inquadramento e Retribuzione.
+Ai soli fini della determinazione della retribuzione dell'apprendista assunto con
+
+
+il contratto di cui all'articolo 43 del D. Lgs. n. 81 del 2015, si farà  riferimento convenzionalmente al livello D2 del sistema di inquadramento del CCNL.
+Per le ore di formazione a carico del datore di lavoro è riconosciuta all'apprendista una retribuzione pari al 10 per cento del minimo tabellare di cui al comma precedente, ai sensi di quanto disposto dall'articolo 43, comma 7, del D. Lgs.
+81/2015.
+La retribuzione per le ore di lavoro svolte dall'apprendista, oltre il c.d. â€œorario ordinamentaleâ€, sarà  determinata dall'applicazione delle percentuali di seguito riportate sul minimo tabellare del livello D2:
+
+Apprendistato per il conseguimento di: Anno scolastico Retribuzione delle ore di lavoro in azienda
+
+Qualifica di istruzione e formazione Secondo anno 55% professionale Terzo anno 60%
+
+Secondo anno 55% Diploma di istruzione e formazione professionale o di istruzione secondaria Terzo anno 60% superiore Quarto anno 65% (esclusivamente per i percorsi di Quinto anno 70% istruzione statale quinquennale) Diploma di istruzione e formazione professionale per coloro che sono in possesso della qualifica di IeFP nell'ambito dell'indirizzo Anno unico 65% professionale corrispondente Corso integrativo per l'ammissione Primo anno 65% all'esame di Stato Secondo anno 70% Certificato di specializzazione tecnica superiore Anno unico 70%
+
+Gli apprendisti di cui al presente articolo potranno fruire, alle medesime condizioni in essere per tutti i dipendenti, dei servizi eventualmente offerti dall'azienda quali, a titolo esemplificativo, mensa e trasporti.
+Art. 6. - Ferie.
+All'apprendista sono riconosciute 4 settimane di ferie (30 giorni lavorativi fino a 16 anni compiuti) e 40 ore a titolo di PAR.
+La retribuzione dei giorni di ferie sarà  determinata nella stessa misura della retribuzione delle ore di lavoro.
+Le ferie saranno fruite di norma in coincidenza con il periodo di sospensione dell'attività  scolastica secondo il calendario dell'istituto.
+
+
+Art. 7. - Recesso.
+Il termine per l'esercizio del recesso sarà  quello fissato nel contratto individuale, coerentemente con quanto definito nella convenzione sottoscritta con la scuola e relativamente alla notifica dell'esito dell'esame finale.
+Ferma restando la possibilità  di prolungare il contratto di apprendistato fino ad un anno, secondo quanto previsto all'articolo 2, le parti del contratto individuale potranno recedere dal contratto dando un preavviso, ai sensi di quanto disposto dall'articolo 2118 del codice civile, di 15 giorni decorrente dal termine del contratto medesimo. Nel periodo di preavviso continua a trovare applicazione la disciplina del contratto di apprendistato. In caso di mancato esercizio della facoltà di recesso il rapporto prosegue come ordinario rapporto di lavoro subordinato a tempo indeterminato.
+Al lavoratore che venga mantenuto in servizio, con contratto di lavoro a tempo indeterminato, il periodo di apprendistato verrà  computato ai fini dell'anzianità di servizio, nella misura del 50% per tutti gli istituti contrattuali.
+Art. 8. - Trasformazione in contratto di apprendistato professionalizzante.
+Successivamente al conseguimento della qualifica o del diploma professionale ai sensi del decreto legislativo n. 226 del 2005, nonchà© del diploma di istruzione secondaria superiore o del certificato di specializzazione tecnica superiore, allo scopo di conseguire la qualificazione professionale ai fini contrattuali, il contratto di apprendistato di primo livello puà² essere trasformato in contratto di apprendistato professionalizzante.
+In caso di trasformazione non sarà  ammesso il periodo di prova.
+Ai fini della determinazione della durata massima del contratto di apprendistato professionalizzante, le durate previste all'articolo 2 di tale contratto saranno ridotte di 12 mesi (compresa la riduzione di 6 mesi prevista per il possesso del titolo di studio di cui al medesimo articolo).
+L'anzianità  convenzionale di cui all'ultimo comma del precedente articolo 7 verrà  riconosciuta in caso di mantenimento in servizio al termine dell'apprendistato professionalizzante.
+DICHIARAZIONE A VERBALE.
+Le parti si impegnano a promuovere, in coordinamento con le rispettive Confederazioni, un'interlocuzione con i Ministeri competenti, al fine di includere nel computo della frequenza minima per la validità  dell'anno scolastico, eventuali periodi di assenza dovuti ad infortunio sul lavoro.
+Art. 9. - Decorrenza.
+La presente disciplina è parte integrante del vigente Contratto collettivo nazionale di lavoro di cui segue le sorti.
+
+
+DISCIPLINA DELL'APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA
+
+Premessa.
+Le parti riconoscono l'importanza dell'apprendistato di alta formazione e di ricerca per la formazione di figure professionali di alto profilo in grado di favorire, a valle di un percorso di formazione e lavoro, lo sviluppo di idee e progetti innovativi nelle imprese.
+Art. 1. - Norme generali.
+Possono essere assunti con contratto di apprendistato per il conseguimento di titoli di studio universitari e di alta formazione, compresi i dottorati di ricerca, i diplomi relativi ai percorsi degli istituti tecnici superiori di cui all'articolo 7 del decreto del Presidente del Consiglio dei ministri 25 gennaio 2008, per attività  di ricerca, i soggetti di età  compresa tra i 18 e i 29 anni in possesso di diploma di istruzione secondaria superiore o di un diploma professionale conseguito nei percorsi di istruzione e formazione professionale integrato da un certificato di specializzazione tecnica superiore o del diploma di maturità  professionale all'esito del corso annuale integrativo.
+In considerazione del doppio status di studente e lavoratore dell'apprendista, la disciplina prevista nel presente accordo è da riferirsi esclusivamente all'attività , compresa quella formativa, svolta in azienda, mentre la frequenza della formazione esterna si svolge sotto la responsabilità  dell'istituzione scolastica e formativa.
+Per quanto non contemplato dalla presente disciplina, valgono per gli apprendisti le norme del vigente Contratto collettivo nazionale di lavoro per quanto compatibili.
+Art. 2. - Durata.
+La durata del periodo di apprendistato di alta formazione e ricerca è disciplinata dall'articolo 45, commi 4 e 5, del D. Lgs. n. 81 del 2015.
+
+Art. 3. - Piano formativo individuale e formazione interna ed sterna.
+L'organizzazione didattica dei percorsi di formazione in apprendistato si articola in periodi di formazione interna ed esterna. I percorsi sono concordati dall'istituzione formativa o ente di ricerca e dal datore di lavoro e attuati sulla base del protocollo da essi stipulato. Le attività  di formazione interna ed esterna si integrano ai fini del raggiungimento dei risultati di apprendimento dei percorsi ordinamentali.
+Il piano formativo individuale redatto dall'istituzione formativa con il coinvolgimento del datore di lavoro secondo il modello definito dal Decreto Interministeriale sugli standard formativi del 12 ottobre 2015 (allegato alla presente disciplina) stabilisce il contenuto e la durata della formazione dei percorsi in apprendistato.
+
+
+I periodi di formazione interna ed esterna sono articolati tenendo conto delle esigenze formative e professionali dell'impresa e delle competenze tecniche e professionali correlate agli apprendimenti ordinamentali che possono essere acquisiti in impresa.
+Per quanto qui non definito in materia si fa esplicito rinvio all'articolo 5 del Decreto Interministeriale citato.
+Art. 4. - Periodo di prova.
+Per l'assunzione in prova dell'apprendista è richiesto l'atto scritto. La durata del periodo di prova è pari alla durata ordinaria prevista dal contratto collettivo nazionale vigente per il livello corrispondente alla qualifica professionale da conseguire.
+Durante tale periodo ciascuna delle parti contraenti potrà  recedere dal contratto senza l'obbligo di preavviso o della relativa indennità  sostitutiva e saranno retribuite le ore o giornate di presenza in azienda.
+Art. 5. - Inquadramento e Retribuzione.
+Fermo restando quanto previsto dall'articolo 45, comma 3, del D. Lgs. n. 81 del 2015, l'apprendista assunto a decorrere dal 1Â° giugno 2021 con il contratto di apprendistato di alta formazione e ricerca sarà  inquadrato nel livello corrispondente alla qualifica professionale da conseguire e la retribuzione del livello di inquadramento, in coerenza con il percorso formativo, sarà  riconosciuta secondo le seguenti percentuali:
+A) per i percorsi di durata superiore all'anno:
+- per la prima metà  del periodo di apprendistato: 85% della retribuzione minima contrattuale del livello di inquadramento;
+- per la seconda metà  del periodo di apprendistato: 90% della retribuzione minima contrattuale del livello di inquadramento.
+B) per i percorsi di durata non superiore all'anno:
+- per il periodo di apprendistato 90% della retribuzione minima contrattuale del livello di inquadramento.
+Gli apprendisti di cui al presente articolo potranno fruire, alle medesime condizioni in essere per tutti i dipendenti, dei servizi eventualmente offerti dall'azienda quali, a titolo esemplificativo, mensa e trasporti.
+Art. 6. - Previdenza complementare - Assistenza sanitaria - Welfare Ai lavoratori di cui al presente contratto si applica quanto previsto agli articoli 15, 16 e 17, Sezione quarta, Titolo IV.
+Art. 7. - Recesso.
+Il termine per l'esercizio del recesso sarà  fissato nel contratto individuale, coerentemente con quanto definito nella convenzione sottoscritta con l'istituzione
+
+
+formativa o ente di ricerca e relativamente alla notifica del conseguimento del titolo di studio.
+Le parti del contratto individuale potranno recedere dal contratto dando un preavviso, ai sensi di quanto disposto dall'articolo 2118 del codice civile, di 15 giorni decorrente dal termine del contratto medesimo. Nel periodo di preavviso continua a trovare applicazione la disciplina del contratto di apprendistato. In caso di mancato esercizio della facoltà  di recesso il rapporto prosegue come ordinario rapporto di lavoro subordinato a tempo indeterminato.
+Al lavoratore assunto che venga mantenuto in servizio, il periodo di apprendistato verrà  computato nell'anzianità  di servizio, oltre che ai fini degli istituti previsti dalla legge, ai fini di tutti gli istituti introdotti e disciplinati dal contratto collettivo nazionale di lavoro. Ai fini della maturazione degli aumenti periodici di anzianità  il periodo di apprendistato sarà  computato nella misura del 65%.
+Art. 8. - Decorrenza.
+La presente disciplina è parte integrante del vigente Contratto collettivo nazionale di lavoro di cui segue le sorti.
+
+276 APPENDICE - SCIOPERO NEI SERVIZI PUBBLICI ESSENZIALI
+
+Accordo 17 luglio 2003 per la definizione del codice di autoregolamentazione sindacale dell'esercizio del diritto di sciopero nei servizi pubblici essenziali come modificato il 4 febbraio 2004 (1).
+(Approvato dalla Commissione di garanzia con delibera n. 148 del 2004)
+
+Assistal - Associazione Nazionale Costruttori di Impianti e Federmeccanica Federazione Sindacale dell'Industria Metalmeccanica Italiana e le Organizzazioni sindacali FIM-CISL, FIOM-CGIL, UILM-UIL
+
+in applicazione della legge 12 giugno 1990, n. 146, Norme sull'esercizio del diritto di sciopero nei servizi pubblici essenziali e sulla salvaguardia dei diritti della persona costituzionalmente tutelati. Istituzione della Commissione di garanzia dell'attuazione della legge, come modificata dalla legge 11 aprile 2000, n. 83, concordano quanto segue:
+1) Prestazioni indispensabili Fermo restando quanto previsto dalla legge 12 giugno 1990, n. 146 come modificata dalla legge 11 aprile 2000, n. 83, sono servizi pubblici essenziali, anche se svolti in regime di concessione o mediante convenzione, quelli volti a garantire il godimento dei diritti della persona, costituzionalmente tutelati, alla vita, alla salute, alla libertà  ed alla sicurezza, alla libertà  di circolazione, all'assistenza e previdenza sociale, all'istruzione ed alla libertà  di comunicazione e, con specifico riferimento al settore metalmeccanico, si considerano prestazioni indispensabili all'interno delle varie attività  svolte dalle aziende associate quelle funzioni volte a garantire la tutela dei beni primari quali la salute, la sicurezza, le comunicazioni.
+Pertanto, sono coinvolte le imprese che esercitano la conduzione di:
+- impianti di climatizzazione e del calore in edifici pubblici (scuole, ospedali, cliniche, palazzi di giustizia. ecc.);
+- impianti di distribuzione fluidi ad uso alimentare;
+- reti ed apparati di telecomunicazione e trasmissione voce/dati nonchà© centrali di controllo e gestione degli stessi nel caso essi siano indispensabili per la libertà  individuale di comunicazione, alla salute ed alla sicurezza;
+- impianti ed apparecchiature per la navigazione aerea, marittima e terrestre;
+- apparecchiature e forniture di energia elettrica;
+- linee, condotte e forniture di gas, acqua;
+- depurazione e smaltimento rifiuti tossici (per le aziende autorizzate), urbani, speciali e nocivi;
+- apparecchiature e di impianti di segnaletiche stradali: semafori, rilevazioni gas di scarico, barriere di protezione;
+- impianti di sicurezza, antincendio e di allarme.
+Fermo restando che debba essere assicurata la continuità  del servizio anche in caso di sciopero, la definizione puntuale delle prestazioni indispensabili di cui sopra, nonchà© le modalità  operative e di impiego del personale che garantiscono la continuità  dei servizi, sono definite dalla Direzione.
+A tal fine la Direzione aziendale predisporrà  entro 2 mesi dalla stipula del presente accordo, previo esame circa i criteri da adottare ed il numero di lavoratori da coinvolgere da svolgersi con le Rappresentanze sindacali unitarie ed in assenza di queste con le Organizzazioni sindacali territoriali, un Â«Piano delle prestazioni indispensabiliÂ» che interessi il numero minimo di addetti necessario al funzionamento ed alla salvaguardia degli impianti.
+
+1) Accordi identici sono stati stipulati anche con le Organizzazioni sindacali Fismic-Confsal ed UGL-Metalmeccanici.
+
+APPENDICE - SCIOPERO NEI SERVIZI PUBBLICI ESSENZIALI 277
+
+Nella predisposizione del Â«Piano delle prestazioni indispensabiliÂ» per le singole unità  produttive coinvolte, le aziende considereranno gli accordi ed i regolamenti di settore già  utilizzati da parte di altre categorie operanti nello stesso ambito per lo svolgimento del servizio e che coinvolga lo stesso bacino di utenza.
+In caso di contrasto circa le suddette modalità  operative e di impiego del personale nel corso dell'esame sopra previsto puà² essere attivato dalle parti, entro 5 giorni lavorativi, un confronto in sede territoriale o nazionale. Tale confronto verrà  esperito entro 15 giorni.
+Al termine della presente procedura, in via transitoria ed in attesa della risoluzione dell'eventuale contrasto, verrà  adottato il Â«Piano delle prestazioni indispensabiliÂ» predisposto dall'azienda.
+2) Impiego minimo di servizio Il Piano delle prestazioni indispensabili resterà  valido fino a quando non si renda necessario modificarlo seguendo la procedura stabilita nell'ultimo comma del punto precedente.
+L'individuazione dei lavoratori da assegnare ai servizi previsti dal Piano sarà  fatta dalla Direzione aziendale in base a parametri oggettivi:
+- ordine alfabetico per categorie omogenee di lavoratori idonei a svolgere i compiti e le mansioni inerenti alle prestazioni indispensabili da erogare nell'ambito della presenza lavorativa prevista. In questo quadro saranno possibilmente individuati lavoratori a rotazione nell'ambito della medesima specializzazione;
+- i preposti di unità  produttive/cantiere provvederanno ad affiggere l'elenco del personale individuato secondo i criteri sopra esposti almeno 3 giorni prima della proclamata agitazione, salvo sostituzioni dovute a situazioni soggettive dei lavoratori coinvolti. Nessun lavoratore puà² rifiutarsi di prestare la propria opera salvo giustificato motivo.
+Nel caso in cui la posizione lavorativa preveda la presenza di un operatore unico, o situazione tecnica equivalente, le aziende si attiveranno per individuare le soluzioni atte a garantire l'effettività del diritto di sciopero; tali soluzioni saranno discusse con le Rappresentanze sindacali unitarie ed in assenza di queste con le Organizzazioni sindacali territoriali.
+3) Segnalazione e pubblicità Tutto il personale e tutti i mezzi aziendali adibiti ai servizi di cui sopra avranno libero accesso e saranno opportunamente contraddistinti per l'attività  tenuta a svolgere.
+4) Procedure di raffreddamento e di conciliazione Durante lo svolgimento della presente procedura le parti non adiranno ad azioni unilaterali.
+Nel caso di controversie collettive, ad esclusione di quelle in difesa dell'ordine costituzionale, o di protesta per gravi eventi lesivi dell'incolumità  e della sicurezza dei lavoratori, prima della proclamazione dello sciopero, si terrà  un incontro in sede aziendale nei 2 giorni lavorativi successivi alla richiesta avanzata dalle Rappresentanze sindacali unitarie per un tentativo di composizione.
+Nell'ipotesi in cui il tentativo di conciliazione abbia esito negativo, entro i 4 giorni lavorativi successivi, sarà  attivato un ulteriore tentativo di composizione della controversia collettiva tra la Direzione aziendale, le Rappresentanze sindacali unitarie e le rispettive istanze territoriali.
+Nel caso in cui la controversia collettiva coinvolga pià¹ unità  produttive in pià¹ territori, la seconda fase del tentativo di conciliazione di cui al comma precedente sarà  attivata in sede nazionale entro i 7 giorni di calendario successivi.
+Nel caso di controversia sorta in sede territoriale il tentativo di conciliazione sarà  svolto in primo grado in tale sede ed in secondo a livello nazionale; per le controversie collettive nazionali il tentativo di conciliazione sarà  effettuato soltanto in sede nazionale.
+In alternativa a quanto sopra stabilito, le parti coinvolte potranno fare ricorso alla procedura di conciliazione amministrativa prevista dall'art. 2, comma 2, legge n. 146/1990, come modificata dalla legge n. 83/2000.
+
+278 APPENDICE - SCIOPERO NEI SERVIZI PUBBLICI ESSENZIALI
+
+La presente procedura non dovrà  essere esperita quando:
+- la proclamazione dello sciopero avvenga da parte di una o pià¹ organizzazioni sindacali per gli stessi motivi e con le medesime modalità  temporali di una proclamazione di altra organizzazione e per la quale si sia già  esperito, con esito negativo, il tentativo di conciliazione;
+- nel caso di proclamazione entro 120 giorni dalla conclusione del tentativo di conciliazione di uno sciopero successivo al primo della vertenza e non si siano verificate nel frattempo modificazioni nelle posizioni delle parti o nei termini del conflitto;
+- per gli scioperi nazionali indetti dalle Confederazioni ovvero dalle Organizzazioni sindacali di categoria.
+Salvo diversa intesa tra le parti, qualora gli incontri sopra stabiliti non siano stati effettuati entro il giorno successivo ai termini definiti dal presente accordo la procedura di conciliazione si deve intendere adempiuta.
+Nel caso in cui una controversia collettiva prosegua oltre i 120 giorni dallo svolgimento della prima procedura di conciliazione, i successivi tentativi di conciliazione saranno svolti nella sola fase di secondo grado.
+Resta inteso che le procedure di raffreddamento ed i periodi di Â«pace sindacaleÂ» previsti dagli artt. 17, 37 e 38 disciplina generale, sezione terza, del vigente contratto nazionale di lavoro per l'industria metalmeccanica e della installazione di impianti, assorbono le procedure di conciliazione stabilite nel presente accordo.
+5) Proclamazione e durata dello sciopero La proclamazione dello sciopero, per le attività  di cui sopra, sarà  comunicata per iscritto all'azienda, alla Commissione di Garanzia di cui all'art. 12, della legge n. 146 del 1990 ed all'apposito ufficio costituito presso l'autorità  competente a adottare l'ordinanza di cui all'art. 8 della legge 146/90 con un preavviso minimo indispensabile di 10 giorni, fatte salve le eccezioni previste al comma 7 art. 2 legge l46/90 e cioè in difesa dell'ordine costituzionale, o di protesta per gravi eventi lesivi dell'incolumità  e della sicurezza dei lavoratori, con l'indicazione della data nonchà© dell'ora di inizio e cessazione dell'astensione dal lavoro.
+La comunicazione sopra prevista, inoltre, deve contenere le motivazioni per le quali è stata proclamata l'agitazione, l'ambito territoriale di riferimento e gli estremi della procedura di raffreddamento e conciliazione esperita ai sensi del precedente punto 4).
+In caso di sciopero nazionale, le Organizzazioni sindacali invieranno la proclamazione scritta alla Federmeccanica e/o all'Assistal che provvederanno a trasmetterla alle imprese associate. In tale ipotesi il preavviso è di 12 giorni.
+La durata massima dell'astensione dal lavoro è pari:
+- per la prima azione di sciopero ad 8 ore per turno di lavoro;
+- per le astensioni successive alla prima ad 8 ore per turno per un massimo di due giorni consecutivi.
+Le astensioni che non coprono l'intero turno di lavoro saranno attuate possibilmente all'inizio o alla fine dei periodi di lavorazione.
+6) Intervallo minimo tra gli scioperi Le parti convengono che, ai soli fini del presente punto, gli scioperi possono essere raggruppati in due tipologie, la prima che coinvolge l'intera categoria, un suo settore o un territorio (regione, provincia etc.) ed una seconda che riguarda la singola impresa o un suo stabilimento.
+Per quanto riguarda la prima tipologia l'intervallo minimo tra l'effettuazione di uno sciopero e l'altro non potrà  essere inferiore a 10 giorni di calendario.
+Gli scioperi appartenenti al secondo gruppo non saranno messi in atto con una frequenza superiore a 6 giorni dall'effettuazione dell'ultima agitazione.
+Nel caso di successive azioni di sciopero di cui l'iniziale appartiene al primo gruppo (categoria,
+
+APPENDICE - SCIOPERO NEI SERVIZI PUBBLICI ESSENZIALI 279
+
+settore o territorio) e la successiva alla seconda tipologia (azienda o stabilimento), ovvero il contrario, sarà  comunque rispettato un intervallo minimo di 10 giorni tra l'attuazione delle due astensioni dal lavoro.
+In ambedue le ipotesi, perdura la possibilità  di indire pià¹ agitazioni in un'unica proclamazione fino ad un massimo di 16 ore complessive. Resta fermo che l'indizione di ogni singola azione di sciopero dovrà  comunque essere formalmente comunicata con specifico atto contenente l'indicazione della durata e delle modalità  dell'astensione dal lavoro.
+7) Prestazioni indispensabili Le astensioni dal lavoro dichiarate e/o in via di effettuazione saranno immediatamente sospese in caso di avvenimenti eccezionali e di particolare gravità  o di calamità  naturali nonchà© di interventi richiesti dalle strutture della protezione civile.
+Non saranno proclamati scioperi da effettuarsi nell'arco temporale compreso tra il 23 dicembre ed il 3 gennaio e durante il mese di agosto. Sono esclusi, inoltre, i giorni in cui si svolgono le operazioni elettorali per le aziende la cui attività  è coinvolta nello svolgimento delle procedure elettorali e nella funzionalità  dei seggi.
+8) Comportamento delle aziende Le aziende comunicheranno i modi ed i tempi dell'inizio dello sciopero (5 giorni prima), dell'effettuazione e dell'eventuale revoca (24 ore prima), nonchà© dell'erogazione dei servizi nel corso dello sciopero e delle misure adottate per la salvaguardia degli impianti e delle attrezzature.
+In caso di servizio in appalto, la comunicazione prevista al comma precedente sarà  indirizzata anche al committente.
+9) Conciliazione Le controversie collettive sull'applicazione del presente accordo saranno esaminate dalle competenti rispettive istanze territoriali e, in caso di mancato accordo, da Federmeccanica-Assistal nazionali e Fim-Fiom-Uilm nazionali in raccordo con la Commissione di cui all'art. 12, della legge n.
+146 del 1990.
+Disposizioni finali e di attuazione Le aziende inseriranno tra la documentazione in risposta ai bandi di gara, per le attività  di cui al punto 1, il presente accordo unitamente alla dichiarazione di adesione a Federmeccanica e/o all'Assistal.
+Il presente accordo attuativo della legge n. 146/90, come modificata dalla legge n. 83/2000, sarà  trasmesso a cura di Federmeccanica ed Assistal alla Commissione di garanzia di cui all'art. 12 per le valutazioni di competenza.
+Per quanto non previsto dalla presente intesa si farà  riferimento alle leggi 12 giu-gno 1990, n.
+146 e 11 aprile 2000, n. 83, ed alle norme del Contratto collettivo nazionale di lavoro per l'industria metalmeccanica privata e della installazione di impianti.
+
+280 APPENDICE
+
+A differenza dei precedenti testi contrattuali, non è stato possibile per motivi di spazio riportare in appendice il Testo Unico sulla Rappresentanza Confindustria - Cgil, Cisl e Uil, 10 gennaio 2014 (misura e certificazione della rappresentanza ai fini della contrattazione collettiva nazionale di categoria, regolamentazione delle RSU, titolarità  ed efficacia della contrattazione collettiva nazionale di categoria e aziendale, ecc.) ed il testo dello Statuto dei Lavoratori, L. 20 maggio 1970, n.300 di tutela della libertà  e dignità  dei lavoratori e della libertà  sindacale e dell'attività  sindacale nei luoghi di lavoro (libertà  di opinione, impianti audiovisivi e altri strumenti di controllo, sanzioni disciplinari, atti discriminatori, tutela del lavoratore in caso di licenziamento illegittimo, assemblea, permessi, repressione della condotta antisindacale, ecc.).
+La disponibilità  di strumenti digitali innovativi ci consente di rinviare per la consultazione dello Statuto dei Lavoratori e delle altre fonti legislative di interesse al sito di normattiva, www.normattiva.it, portale istituzionale che riporta i testi di legge aggiornati in multivigenza e per la parte degli accordi interconfederali al sito del cnel, www.cnel.it.
+
+Si riportano, inoltre, i siti web delle Parti firmatarie il presente CCNL:
+
+www.federmeccanica.it www.assistal.it www.fim-cisl.it www.fiom.cgil.it www.uilmnazionale.it
+
+INDICE 281
+
+INDICE GENERALE
+
+PREMESSA ...............................................................................................................................................1 CAMPO DI APPLICAZIONE DEL CONTRATTO .................................................................................4
+
+SEZIONE PRIMA SISTEMA DI RELAZIONI SINDACALI Sistema di Relazioni Sindacali................................................................................................................. 11 Art. 1. - Osservatorio paritetico nazionale sull'industria metalmeccanica e della installazione di impianti .................................................................................................12 Art. 2. - Osservatori paritetici territoriali sull'industria metalmeccanica ...............................................13 Art. 3. - Comitato consultivo di partecipazione ......................................................................................14 Art. 4. - Commissione nazionale su salute e sicurezza ...........................................................................14 Art. 5. - Commissione nazionale sulle Politiche attive ...........................................................................16 Art. 6. - Formazione professionale .........................................................................................................16 Dichiarazione Comune - Collaborazione Scuola Impresa ......................................................................19 Art. 7. - Pari opportunità  .........................................................................................................................20 Art. 8. - Commissione nazionale per l'integrazione dei lavoratori migranti ..........................................23 Art. 9. - Informazione e consultazione in sede aziendale .......................................................................24 Art. 10 - Iniziative di coinvolgimento e partecipazione dei lavoratori nell'impresa ...............................27 Art. 11. - Informazione e consultazione dei lavoratori nelle imprese di dimensione comunitaria ......................................................................................................28 Art. 12. - Istituzioni interne a carattere sociale .......................................................................................29
+
+SEZIONE SECONDA DIRITTI SINDACALI PREMESSA .............................................................................................................................................33 Art. 1. - Assemblea ..................................................................................................................................33 Art. 2. - Diritto di affissione ....................................................................................................................34 Art. 3. - Locali .........................................................................................................................................34 Art. 4. - Strumenti informatici ................................................................................................................34 Art. 5. - Permessi per motivi sindacali e cariche elettive ........................................................................34 Art. 6. - Tutela dei componenti delle Rappresentanze sindacali unitarie ................................................35 Art. 7. - Versamento dei contributi sindacali ..........................................................................................36 Art. 8. - Affissione del Contratto .............................................................................................................37
+
+SEZIONE TERZA SISTEMA DI REGOLE CONTRATTUALI Art. 1. - Inscindibilità  delle disposizioni contrattuali e condizioni di miglior favore .............................41 Art. 2. - Decorrenza e durata ...................................................................................................................41 Art. 3. - Procedura di rinnovo del Contratto collettivo nazionale di lavoro ...........................................41 Art. 4. - Contrattazione aziendale ...........................................................................................................42 Art. 5. - Intese modificative del CCNL ...................................................................................................42 Art. 6. - Distribuzione del Contratto .......................................................................................................43 Disposizione Finale .................................................................................................................................43
+
+SEZIONE QUARTA DISCIPLINA DEL RAPPORTO INDIVIDUALE DI LAVORO
+
+TITOLO I - COSTITUZIONE, TIPOLOGIE, LUOGO DELLA PRESTAZIONE E MODIFICHE DEL RAPPORTO DI LAVORO Art. 1. - Assunzione ................................................................................................................................47
+
+282 INDICE
+
+Art. 2. - Periodo di prova ........................................................................................................................47 Art. 3. - Documenti, residenza e domicilio .............................................................................................49 Art. 4. - Tipologie contrattuali ................................................................................................................49 Art. 5. - Apprendistato ............................................................................................................................56 Art. 6. - Lavoro dei minori e dei soggetti aventi diritto ad assunzione obbligatoria ..............................56 Art. 7. - Trasferta .....................................................................................................................................57 Art. 8. - Trasferimenti .............................................................................................................................62 Art. 9. - Appalti .......................................................................................................................................62 Art. 10. - Contratti Pubblici di servizi .....................................................................................................63 Art. 11. - Cessione, trasformazione e trapasso di azienda ......................................................................64 TITOLO II - CLASSIFICAZIONE DEL PERSONALE E PARTICOLARI TIPOLOGIE DI LAVORATORI Art. 1. - Classificazione dei lavoratori .....................................................................................................65 Art. 2. - Iniziative sperimentali ................................................................................................................79 Art. 3. - Passaggio temporaneo di mansioni ............................................................................................80 Art. 4. - Nuove mansioni..........................................................................................................................80 Art. 5. - Cumulo di mansioni ..................................................................................................................80 Art. 6. - Addetti a mansioni discontinue o di semplice attesa o custodia ...............................................81 Art. 7. - Lavori indirettamente produttivi negli stabilimenti siderurgici ................................................83 Art. 8. - Variazioni nelle squadre ai forni ed ai treni negli stabilimenti siderurgici ................................84 Art. 9 . - Sostituzione di personale di squadra assente negli stabilimenti siderurgici .............................84 Art. 10 - Commissione Nazionale sull'Inquadramento Professionale.....................................................85 Esemplificazione profili di Area fuzionale............................................................................................... 86 TITOLO III - ORARIO DI LAVORO Art. 1. - Entrata ed uscita in azienda .....................................................................................................146 Art. 2. - Contrazione temporanea dell'orario di lavoro .........................................................................146 Art. 3. - Sospensione ed interruzione del lavoro ...................................................................................146 Art. 4. - Recuperi ..................................................................................................................................147 Art. 5. - Orario di lavoro .......................................................................................................................147 Art. 6. - Reperibilità  ..............................................................................................................................154 Art. 7. - Lavoro straordinario, notturno e festivo ..................................................................................156 Art. 8. - Riposo settimanale ..................................................................................................................159 Art. 9. - Festività  ...................................................................................................................................160 Art. 10. - Ferie .......................................................................................................................................161 Art. 11. - Linee guida per l'applicazione della banca ore solidale ........................................................163 TITOLO IV - RETRIBUZIONE ED ALTRI ISTITUTI ECONOMICI Art. 1. - Forme di retribuzione ..............................................................................................................165 Art. 2. - Regolamentazione del lavoro a cottimo ..................................................................................165 Art. 3. - Mensilizzazione .......................................................................................................................169 Art. 4. - Corresponsione della retribuzione ...........................................................................................170 Art. 5. - Minimi tabellari e determinazione della quota di retribuzione oraria .....................................170 Art. 6. - Aumenti periodici di anzianità  ................................................................................................171 Art. 7. - Tredicesima mensilità  ..............................................................................................................174 Art. 8. - Mense aziendali e indennità  di mensa .....................................................................................175 Art. 9. - Indennità  di alta montagna e di sottosuolo ..............................................................................175 Art 10. - Indennità  per disagiata sede ...................................................................................................175 Art. 11. - Indennità  maneggio denaro. Cauzione ..................................................................................175 Art. 12. - Premio di risultato .................................................................................................................175 Art. 13. - Elemento perequativo ............................................................................................................177 Art. 14. - Reclami sulla retribuzione .....................................................................................................178 Art. 15. - Previdenza Complementare ...................................................................................................178 Art. 16. - Assistenza Sanitaria Integrativa ............................................................................................180 Art. 17. - Welfare ..................................................................................................................................181 Tabelle dei minimi contrattuali ..............................................................................................................186
+
+INDICE 283
+
+TITOLO V - AMBIENTE DI LAVORO Art. 1. - Ambiente di lavoro - Salute e sicurezza .................................................................................188 Art. 2. - Indumenti di lavoro .................................................................................................................193 TITOLO VI - ASSENZE, PERMESSI E TUTELE Art. 1. - Infortuni sul lavoro e malattie professionali ...........................................................................194 Art. 2. - Trattamento in caso di malattia ed infortunio non sul lavoro ..................................................195 Art. 3. - Congedo matrimoniale ............................................................................................................199 Art. 4. - Trattamento in caso di gravidanza e puerperio ........................................................................200 Art. 5. - Congedi parentali ....................................................................................................................200 Art. 6. - Servizio militare, servizio di volontariato civile e di cooperazione allo sviluppo ..................202 Art. 7. - Formazione Continua ..............................................................................................................203 Art. 8. - Diritto allo studio ....................................................................................................................213 Art. 9. - Congedi per la formazione ......................................................................................................217 Art. 10. - Permessi per eventi e cause particolari ed ex articolo 33, legge n. 104/1992 .......................218 Art. 11. - Aspettativa e congedi per eventi e cause particolari ..............................................................219 Art. 12. - Misure per le donne vittime di violenza di genere .................................................................221 Art. 13. - Conservazione del posto di lavoro in caso di accesso ai programmi terapeutici e di riabilitazione per gli stati di accertata tossicodipendenza ............................221 Art. 14. - Assenze e permessi ................................................................................................................222 Art. 15. - Anzianità  dei lavoratori .........................................................................................................222 TITOLO VII - RAPPORTI IN AZIENDA Art. 1. - Rapporti in azienda ..................................................................................................................224 Art. 2. - Commissione paritetica nazionale di studio sull'utilizzo dei sistemi informatici aziendali e tutela della privacy .............................................................................225 Art. 3. - Divieti ......................................................................................................................................225 Art. 4. - Vendita di libri e riviste ...........................................................................................................225 Art. 5. - Visite di inventario e di controllo ............................................................................................226 Art. 6. - Norme speciali .........................................................................................................................226 Art. 7. - Reclami e controversie ............................................................................................................226 Art. 8. - Provvedimenti disciplinari ......................................................................................................226 Art. 9. - Ammonizioni scritte, multe e sospensioni ...............................................................................227 Art. 10. - Licenziamenti per mancanze .................................................................................................228 Art. 11. - Sospensione cautelare non disciplinare .................................................................................229 TITOLO VIII - RISOLUZIONE DEL RAPPORTO DI LAVORO Art. 1. - Preavviso di licenziamento e di dimissioni ..............................................................................230 Art. 2. - Consegna dei documenti alla cessazionedel rapporto di lavoro ..............................................231 Art. 3. - Certificato di lavoro ................................................................................................................231 Art. 4. - Indennità  in caso di morte .......................................................................................................231 Art. 5. - Trattamento di fine rapporto ....................................................................................................231
+
+ALLEGATI Allegato 1 - Accordo 31 ottobre 1973 sulle Categorie speciali............................................................ 235 Allegato 2 - Quota di contribuzione straordinaria ................................................................................237 Allegato 3 - Accordo 5 luglio 2017 per la costituzione delle Rappresentanze Sindacali Unitarie..............................................................................................................238 Allegato 4 - Accordo 5 luglio 2017 per l'elezione dei Rappresentanti dei Lavoratori per la Sicurezza (RLS)............................................................................... 248 Allegato 5 - Linee guida per la diffusione del Premio di risultato.........................................................250 Allegato 6 - Osservatorio Paritetico Nazionale - Sessione Covid-19 Linee guida agibilità  sindacali........................................................................................... 254 Allegato 7 - Verbale 8 ottobre 2018 - Commissione Nazionale Salute e Sicurezza.............................. 256 Allegato 8 - Dichiarazione Comune - Comparto della installazione di impianti tecnologici, dei servizi di efficienza energetica ESCo e del facility management..................................................262
+
+284 INDICE
+
+DISCIPLINA DELL'APPRENDISTATO PROFESSIONALIZZANTE NELL'INDUSTRIA METALMECCANICA E NELLA INSTALLAZIONE DI IMPIANTI
+
+Premessa ................................................................................................................................................263 Art. 1. - Norme generali ........................................................................................................................263 Art. 2. - Durata del contratto .................................................................................................................263 Art. 3. - Valorizzazione di precedenti periodi di apprendistato ............................................................264 Art. 4. - Formazione ..............................................................................................................................264 Art. 5. - Organismi paritetici .................................................................................................................265 Art. 6. - Assunzione ..............................................................................................................................266 Art. 7. - Periodo di prova ......................................................................................................................266 Art. 8. - Inquadramento e retribuzione ..................................................................................................266 Art. 9. - Tredicesima mensilità  ..............................................................................................................267 Art. 10. - Malattia ed infortunio ............................................................................................................267 Art. 11. - Prolungamento del periodo di apprendistato .........................................................................267 Art. 12. - Previdenza complementare - Assistenza sanitaria - Welfare ................................................267 Art. 13. - Recesso o attribuzione della qualificazione ..........................................................................268 Art. 14. - Decorrenza ............................................................................................................................268
+
+DISCIPLINA DELL'APPRENDISTATO PER LA QUALIFICA E PER IL DIPLOMA PROFESSIONALE, IL DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE E IL CERTIFICATO DI SPECIALIZZAZIONE TECNICA SUPERIORE
+
+Premessa ................................................................................................................................................269 Art. 1. - Norme generali ........................................................................................................................269 Art. 2. - Durata ......................................................................................................................................269 Art. 3. - Piano formativo individuale e formazione interna ed esterna .................................................270 Art. 4. - Periodo di prova ......................................................................................................................270 Art. 5. - Inquadramento e Retribuzione ................................................................................................270 Art. 6. - Ferie .........................................................................................................................................271 Art. 7. - Recesso ....................................................................................................................................272 Art. 8. - Trasformazione in contratto di apprendistato professionalizzante ..........................................272 Art. 9. - Decorrenza ..............................................................................................................................272
+
+DISCIPLINA DELL'APPRENDISTATO DI ALTA FORMAZIONE E DI RICERCA
+
+Premessa ................................................................................................................................................273 Art. 1. - Norme generali ........................................................................................................................273 Art. 2. - Durata ......................................................................................................................................273 Art. 3. - Piano formativo individuale e formazione interna ed sterna ...................................................273 Art. 4. - Periodo di prova ......................................................................................................................274 Art. 5. - Inquadramento e Retribuzione ................................................................................................274 Art. 6. - Previdenza complementare - Assistenza sanitaria - Welfare ..................................................274 Art. 7. - Recesso ....................................................................................................................................274 Art. 8. - Decorrenza ..............................................................................................................................275
+
+APPENDICE
+
+Accordo sugli scioperi nei servizi pubblici essenziali............................................................................276
+
+Riproduzione vietata - Tutti i diritti riservati Â© Copyright 2021- Editore Spadamedia S.r.l.
+Viale del Lavoro 31 - 00043 Ciampino (Roma) - www.spadamedia.eu Finito di stampare nel mese di ottobre 2021
+
