@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS room_events;
+DROP TABLE IF EXISTS room_documents;
+DROP TABLE IF EXISTS room_attachments;
+DROP TABLE IF EXISTS room_messages;
+DROP TABLE IF EXISTS room_access_tokens;
+DROP TABLE IF EXISTS room_external_participants;
+DROP TABLE IF EXISTS room_users;
+DROP TABLE IF EXISTS rooms;
+DROP TABLE IF EXISTS room_categories;

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tavolo - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260802-rooms-1">
+  <link rel="stylesheet" href="rooms.css?v=20260802-room-admin-1">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Tavolo</h1></div><nav class="app-nav"></nav></header>
+  <main>
+    <section class="panel room-shell">
+      <header class="room-page-header"><div><p id="roomCode" class="eyebrow-visible"></p><h1 id="roomTitle">Tavolo</h1><p id="roomDescription" class="muted"></p></div><div class="room-header-actions"><button id="externalRoomLink" class="button" type="button">Apri Room</button><a href="rooms.html">Torna ai Tavoli</a></div></header>
+      <section id="roomSummary" class="room-summary"></section>
+      <section id="managePanel" class="room-section hidden"><h2>Gestione Tavolo</h2><form id="statusForm" class="room-inline-form"><select name="status"><option value="draft">bozza</option><option value="open">aperto</option><option value="in_progress">in corso</option><option value="suspended">sospeso</option><option value="closed">chiuso</option><option value="archived">archiviato</option><option value="cancelled">annullato</option></select><button type="submit">Aggiorna stato</button></form></section>
+      <div class="room-columns"><section class="room-section"><h2>Partecipanti</h2><div id="participants"></div><form id="participantForm" class="room-stack hidden"><strong>Utente MyRSU</strong><select name="user_id" required></select><select name="permission_level"><option value="read">lettura</option><option value="interact">interazione</option><option value="manage">gestione</option></select><input name="room_role" placeholder="Ruolo nel Tavolo"><button type="submit">Aggiungi / aggiorna</button></form><form id="externalForm" class="room-stack hidden"><strong>Invito esterno</strong><input name="organization" placeholder="Organizzazione opzionale"><input name="room_role" placeholder="Ruolo nel Tavolo"><select name="permission_level"><option value="read">lettura</option><option value="interact">interazione</option></select><input name="token_expires_at" type="datetime-local" aria-label="Scadenza invito"><button type="submit">Crea link di accesso</button></form><div id="inviteResult" class="room-invite-result hidden"></div></section><section class="room-section"><h2>Documenti condivisi</h2><div id="documents"></div><form id="documentForm" class="room-inline-form hidden"><select name="document_id" required></select><button type="submit">Condividi</button></form></section></div>
+      <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <dialog id="documentModal" class="room-document-modal"><header><h2 id="documentModalTitle">Documento</h2><button id="closeDocumentModal" type="button">Chiudi</button></header><iframe id="documentFrame" title="Documento condiviso"></iframe><div id="documentPdf" class="room-pdf-viewer hidden"></div></dialog>
+  <dialog id="verifyModal" class="room-document-modal"><header><h2>Verifica autenticità</h2><button id="closeVerifyModal" type="button">Chiudi</button></header><iframe id="verifyFrame" title="Verifica autenticità"></iframe></dialog>
+  <script src="icons.js?v=20260719-icons-1"></script>
+  <script type="module" src="room-view.js?v=20260802-room-admin-1"></script>
+  <script src="auth-menu.js?v=20260802-rooms-1"></script>
+</body>
+</html>

@@ -12,6 +12,7 @@ UNION ALL SELECT 'roles', COUNT(*) FROM roles
 UNION ALL SELECT 'role_user', COUNT(*) FROM role_user
 UNION ALL SELECT 'gdpr_consents', COUNT(*) FROM gdpr_consents
 UNION ALL SELECT 'institutional_contacts', COUNT(*) FROM institutional_contacts
+UNION ALL SELECT 'rooms', COUNT(*) FROM rooms
 UNION ALL SELECT 'documents', COUNT(*) FROM documents
 UNION ALL SELECT 'protocol_entries', COUNT(*) FROM protocol_entries
 UNION ALL SELECT 'reports', COUNT(*) FROM reports

@@ -1,0 +1,20 @@
+CREATE TABLE room_attachments (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  room_id BIGINT UNSIGNED NOT NULL,
+  message_id BIGINT UNSIGNED NOT NULL UNIQUE,
+  original_name VARCHAR(255) NOT NULL,
+  stored_name VARCHAR(80) NOT NULL UNIQUE,
+  mime_type VARCHAR(120) NOT NULL,
+  attachment_type ENUM('document','image','video','audio') NOT NULL,
+  size_bytes BIGINT UNSIGNED NOT NULL,
+  checksum_sha256 CHAR(64) NOT NULL,
+  uploaded_by_user BIGINT UNSIGNED NULL,
+  uploaded_by_external BIGINT UNSIGNED NULL,
+  created_at DATETIME NOT NULL,
+  deleted_at DATETIME NULL,
+  INDEX room_attachments_room_idx (room_id, deleted_at),
+  CONSTRAINT room_attachments_room_fk FOREIGN KEY (room_id) REFERENCES rooms(id) ON DELETE CASCADE,
+  CONSTRAINT room_attachments_message_fk FOREIGN KEY (message_id) REFERENCES room_messages(id) ON DELETE CASCADE,
+  CONSTRAINT room_attachments_user_fk FOREIGN KEY (uploaded_by_user) REFERENCES users(id) ON DELETE SET NULL,
+  CONSTRAINT room_attachments_external_fk FOREIGN KEY (uploaded_by_external) REFERENCES room_external_participants(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

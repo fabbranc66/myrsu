@@ -25,8 +25,9 @@
         ['union-meetings.html', 'Incontri sindacali', ['admin', 'delegato', 'rls']],
         ['workers-assemblies.html', 'Assemblee lavoratori', ['admin', 'delegato', 'rls']],
         ['votings.html', 'Votazioni', ['admin', 'delegato', 'rls']],
+        ['rooms.html', 'Tavoli', ['admin', 'delegato', 'rls', 'membro']],
       ],
-      match: ['union-meetings.html', 'union-meeting-editor.html', 'union-meeting-operational.html', 'workers-assemblies.html', 'workers-assembly-editor.html', 'workers-assembly-operational.html', 'votings.html'],
+      match: ['union-meetings.html', 'union-meeting-editor.html', 'union-meeting-operational.html', 'workers-assemblies.html', 'workers-assembly-editor.html', 'workers-assembly-operational.html', 'votings.html', 'rooms.html', 'room-view.html'],
     },
     {
       label: 'Pratiche',

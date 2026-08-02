@@ -5,6 +5,10 @@ const userName = document.querySelector('#userName');
 const userRole = document.querySelector('#userRole');
 const communicationsMenu = document.querySelector('#communicationsMenu');
 const meetingsMenu = document.querySelector('#meetingsMenu');
+const unionMeetingsMenuLink = document.querySelector('#unionMeetingsMenuLink');
+const workersAssembliesMenuLink = document.querySelector('#workersAssembliesMenuLink');
+const votingsMenuLink = document.querySelector('#votingsMenuLink');
+const roomsMenuLink = document.querySelector('#roomsMenuLink');
 const practicesMenu = document.querySelector('#practicesMenu');
 const documentsMenu = document.querySelector('#documentsMenu');
 const rsuMenu = document.querySelector('#rsuMenu');
@@ -256,7 +260,9 @@ function toggleRoleMenus(user) {
   const profileEnabled = operationalEnabled || roles.includes('membro');
   setMenuVisibility({
     communications: operationalEnabled,
-    meetings: operationalEnabled,
+    meetings: profileEnabled,
+    meetingOperations: operationalEnabled,
+    rooms: profileEnabled,
     practices: operationalEnabled,
     documents: operationalEnabled,
     rsu: operationalEnabled || adminEnabled,
@@ -272,6 +278,10 @@ function setMenuVisibility(permissions) {
   [
     [communicationsMenu, permissions.communications],
     [meetingsMenu, permissions.meetings],
+    [unionMeetingsMenuLink, permissions.meetingOperations],
+    [workersAssembliesMenuLink, permissions.meetingOperations],
+    [votingsMenuLink, permissions.meetingOperations],
+    [roomsMenuLink, permissions.rooms],
     [practicesMenu, permissions.practices],
     [documentsMenu, permissions.documents],
     [rsuMenu, permissions.rsu],

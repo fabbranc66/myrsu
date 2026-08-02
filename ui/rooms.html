@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tavoli - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="users.css?v=20260802-rooms-1">
+  <link rel="stylesheet" href="rooms.css?v=20260802-rooms-2">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Tavoli</h1></div><nav class="app-nav"></nav></header>
+  <main>
+    <section class="panel">
+      <header class="room-page-header"><div><h1>Tavoli collaborativi</h1><p class="muted">Spazi nominativi, separati dalle pratiche interne.</p></div><button id="newRoom" type="button">Nuovo Tavolo</button></header>
+      <form id="roomForm" class="grid hidden">
+        <label class="full-width">Titolo<input name="title" maxlength="255" required></label>
+        <label>Categoria<select name="category_id" required></select></label>
+        <label>Stato<select name="status"><option value="draft">bozza</option><option value="open">aperto</option></select></label>
+        <label class="full-width">Descrizione<textarea name="description" rows="4"></textarea></label>
+        <button type="submit">Crea Tavolo</button><button id="cancelRoom" type="button">Annulla</button>
+      </form>
+      <div class="room-filters"><label>Stato<select id="statusFilter"><option value="">tutti</option><option value="draft">bozza</option><option value="open">aperto</option><option value="in_progress">in corso</option><option value="suspended">sospeso</option><option value="closed">chiuso</option><option value="archived">archiviato</option></select></label></div>
+      <table class="mobile-card-table rooms-table"><thead><tr><th>Codice</th><th>Titolo</th><th>Categoria</th><th>Stato</th><th>Partecipanti</th><th>Ultima attività</th><th>Azioni</th></tr></thead><tbody id="roomsTable"></tbody></table>
+      <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
+    </section>
+  </main>
+  <script src="icons.js?v=20260719-icons-1"></script>
+  <script type="module" src="rooms.js?v=20260802-rooms-1"></script>
+  <script src="auth-menu.js?v=20260802-rooms-1"></script>
+</body>
+</html>

@@ -72,6 +72,11 @@ final class Request
         return trim(substr($authorization, 7)) ?: null;
     }
 
+    public function header(string $name, ?string $default = null): ?string
+    {
+        return $this->headers[strtolower($name)] ?? $default;
+    }
+
     private static function headers(): array
     {
         $headers = [];

@@ -2,6 +2,14 @@ SET FOREIGN_KEY_CHECKS=0;
 
 TRUNCATE TABLE api_tokens;
 TRUNCATE TABLE activity_logs;
+TRUNCATE TABLE room_events;
+TRUNCATE TABLE room_documents;
+TRUNCATE TABLE room_attachments;
+TRUNCATE TABLE room_messages;
+TRUNCATE TABLE room_access_tokens;
+TRUNCATE TABLE room_external_participants;
+TRUNCATE TABLE room_users;
+TRUNCATE TABLE rooms;
 TRUNCATE TABLE document_comments;
 TRUNCATE TABLE report_attachments;
 TRUNCATE TABLE reports;
