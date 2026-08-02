@@ -82,12 +82,18 @@ shareButton.addEventListener('touchstart', prepareShare);
 shareButton.addEventListener('click', async () => {
   if (!currentUnitId) return;
   rememberSelection();
+  shareButton.disabled = true;
+  selectionLabel.textContent = savedSelection
+    ? `Condivisione selezione: ${savedSelection.length} caratteri…`
+    : 'Condivisione riferimento completo…';
   try {
     await api(`/room-access/normativa/unita/${currentUnitId}/share`, {method: 'POST', body: JSON.stringify({selection: savedSelection})});
     await refreshRoomTimeline();
     modal.close();
   } catch (error) {
     selectionLabel.textContent = error.message;
+  } finally {
+    shareButton.disabled = false;
   }
 });
 

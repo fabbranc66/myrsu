@@ -55,11 +55,6 @@ final class RoomNormativaController
         if ($unit === []) throw new HttpException(404, 'Riferimento normativa non trovato.');
         $fullText = trim((string)($unit['testo'] ?? ''));
         $selection = trim((string)$request->input('selection', ''));
-        $normalizedFullText = preg_replace('/\s+/u', ' ', $fullText) ?? $fullText;
-        $normalizedSelection = preg_replace('/\s+/u', ' ', $selection) ?? $selection;
-        if ($selection !== '' && !str_contains($normalizedFullText, $normalizedSelection)) {
-            throw new HttpException(422, 'La selezione non appartiene al testo normativo.');
-        }
         $sharedText = $selection !== '' ? $selection : $fullText;
         if (mb_strlen($sharedText) > 30000) {
             throw new HttpException(422, 'Testo troppo lungo: seleziona il passaggio da condividere.');

@@ -19,7 +19,7 @@ final class RoomExternalAccessController
 
     public function show(Request $request): Response
     {
-        $access = $this->app->roomAccess->resolve($request);
+        $access = $this->app->roomAccess->resolve($request, false);
         $wasRegistered = $access['registered_at'] !== null;
         if ((string)$access['access_type'] === 'external') {
             $access = $this->app->roomExternalInvitations->confirm($access);
