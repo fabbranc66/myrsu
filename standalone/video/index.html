@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proiezione incontro RSU</title>
+  <link rel="stylesheet" href="style.css?v=20260803-control-4">
+</head>
+<body>
+  <header class="projection-header">
+    <div><small>MyRSU</small><h1 id="meetingTitle">Proiezione incontro</h1></div>
+    <span id="connectionState">Connessione…</span>
+  </header>
+  <section id="operatorPanel" class="operator-panel hidden">
+    <img id="qrCode" alt="QR accesso partecipanti">
+    <div><strong>Link partecipanti</strong><a id="publicLink" target="_blank" rel="noopener"></a></div>
+    <button id="copyLink" type="button">Copia link</button>
+  </section>
+  <main>
+    <p id="documentTitle" class="document-title">In attesa del documento…</p>
+    <div id="pdfViewer" class="pdf-viewer"></div>
+    <div id="emptyState" class="empty-state">La proiezione è attiva. Attendi il documento.</div>
+  </main>
+  <details class="json-panel"><summary>JSON</summary><pre id="jsonOutput">{}</pre></details>
+  <script type="module" src="app.js?v=20260803-zoom-9"></script>
+</body>
+</html>

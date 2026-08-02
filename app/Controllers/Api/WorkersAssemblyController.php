@@ -368,6 +368,12 @@ final class WorkersAssemblyController
             throw new HttpException(422, 'Visibilita non valida.');
         }
 
+        $votingEnabled = !empty($data['voting_enabled']) ? 1 : 0;
+        $votingSubject = trim((string)($data['voting_subject'] ?? '')) ?: null;
+        if ($votingEnabled === 1 && $votingSubject === null) {
+            throw new HttpException(422, 'Inserire il quesito della votazione.');
+        }
+
         return [
             'practice_id' => isset($data['practice_id']) && $data['practice_id'] !== '' ? (int)$data['practice_id'] : null,
             'title' => trim((string)$data['title']),
@@ -376,9 +382,9 @@ final class WorkersAssemblyController
             'final_statement' => trim((string)($data['final_statement'] ?? '')) ?: null,
             'status' => $status,
             'visibility' => $visibility,
-            'voting_enabled' => !empty($data['voting_enabled']) ? 1 : 0,
+            'voting_enabled' => $votingEnabled,
             'voting_mode' => in_array((string)($data['voting_mode'] ?? 'online'), ['online', 'manual', 'mixed'], true) ? (string)($data['voting_mode'] ?? 'online') : 'online',
-            'voting_subject' => trim((string)($data['voting_subject'] ?? '')) ?: null,
+            'voting_subject' => $votingSubject,
             'voting_options_json' => json_encode($this->validatedVotingOptions($data['voting_options'] ?? []), JSON_UNESCAPED_UNICODE),
             'selected_participants' => is_array($data['selected_participants'] ?? null) ? $data['selected_participants'] : [],
             'sessions' => $this->validatedSessions($data['sessions']),

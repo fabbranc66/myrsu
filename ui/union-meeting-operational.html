@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Operativa incontro</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
-  <link rel="stylesheet" href="users.css?v=20260719-mobile-11">
+  <link rel="stylesheet" href="users.css?v=20260802-projection-1">
 </head>
 <body>
   <header class="app-header">
@@ -18,6 +18,10 @@
   <main>
     <section class="panel">
       <header><div><h1 id="meetingTitle">Incontro</h1><p id="meetingMeta" class="muted"></p></div></header>
+      <section class="meeting-projection-control">
+        <button id="projectionButton" type="button">Apri video esterno</button>
+        <span id="projectionStatus">Proiezione non attiva</span>
+      </section>
       <section class="content">
         <header class="topbar"><div><p class="eyebrow">Documenti</p><h2>Allegati incontro</h2></div></header>
         <div id="attachmentsList" class="meeting-notes"></div>
@@ -36,8 +40,8 @@
       </dialog>
     </section>
   </main>
-  <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="union-meeting-operational.js?v=20260718-1"></script>
+  <script src="icons.js?v=20260802-projection-1"></script>
+  <script src="union-meeting-operational.js?v=20260803-control-2"></script>
   <script src="auth-menu.js?v=20260730-normativa-1"></script>
 </body>
 </html>

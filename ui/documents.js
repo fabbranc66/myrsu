@@ -144,6 +144,7 @@ function row(document) {
         <button class="icon-action document-comments-icon ${Number(document.approved_comments_count || 0) > 0 ? 'has-comments' : 'no-comments'}" data-comments="${document.id}" title="${Number(document.approved_comments_count || 0)} commenti approvati" ${Number(document.approved_comments_count || 0) === 0 ? 'disabled' : ''}>${MyRsuIcons.get('note')}</button>
         <a class="icon-action" href="document-edit.html?id=${document.id}" title="${document.category === 'comunicati' ? 'Modifica comunicato e rigenera PDF' : 'Modifica'}">${MyRsuIcons.get('edit')}</a>
         <button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
+        <button class="icon-action" data-projection="${document.id}" title="Proietta sul video esterno">${MyRsuIcons.get('projection')}</button>
         <button class="icon-action" data-practice-link="${document.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button>
         <button class="icon-action danger" data-practice-unlink="${document.id}" title="Scollega da pratica">${MyRsuIcons.get('link')}</button>
         <button class="icon-action" data-protocol-in="${document.id}" title="Protocolla in entrata">${MyRsuIcons.get('protocolIn')}</button>
@@ -224,6 +225,18 @@ documentsTable.addEventListener('click', async (event) => {
 
   if (button.dataset.download) {
     await downloadDocument(button.dataset.download);
+    return;
+  }
+
+  if (button.dataset.projection) {
+    try {
+      const session = await api(`/documents/${button.dataset.projection}/projection`, { method: 'POST' });
+      message.textContent = `Documento proiettato: ${session.document_name}`;
+      window.alert(`Documento inviato alla proiezione: ${session.document_name}`);
+    } catch (error) {
+      message.textContent = error.message;
+      window.alert(error.message);
+    }
     return;
   }
 

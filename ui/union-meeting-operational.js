@@ -12,6 +12,9 @@ const jsonOutput = document.querySelector('#jsonOutput');
 const documentModal = document.querySelector('#documentModal');
 const documentPreview = document.querySelector('#documentPreview');
 const closeDocumentModal = document.querySelector('#closeDocumentModal');
+const projectionButton = document.querySelector('#projectionButton');
+const projectionStatus = document.querySelector('#projectionStatus');
+let projectionSession = null;
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -25,16 +28,53 @@ async function api(path, options = {}) {
 }
 
 async function loadMeeting() {
-  const meeting = await api(`/union-meetings/${meetingId}`);
+  const [meeting] = await Promise.all([api(`/union-meetings/${meetingId}`), loadProjection()]);
   title.textContent = meeting.title;
   meta.textContent = `${meeting.location} - ${meeting.meeting_date}`;
   renderAttachments(meeting.documents || []);
   renderNotes(meeting.notes || []);
 }
 
+async function loadProjection() {
+  projectionSession = await api('/projection-session');
+  if (!projectionSession) {
+    projectionButton.disabled = false;
+    projectionButton.textContent = 'Apri video esterno';
+    projectionStatus.textContent = 'Proiezione non attiva';
+    return;
+  }
+  const currentMeeting = Number(projectionSession.meeting_id) === Number(meetingId);
+  projectionButton.disabled = !currentMeeting;
+  projectionButton.textContent = currentMeeting ? 'Chiudi video esterno' : 'Video esterno occupato';
+  projectionStatus.textContent = currentMeeting
+    ? 'Proiezione attiva'
+    : `Attiva per: ${projectionSession.meeting_title}`;
+}
+
+projectionButton.addEventListener('click', async () => {
+  message.textContent = '';
+  try {
+    if (projectionSession && Number(projectionSession.meeting_id) === Number(meetingId)) {
+      if (!confirm('Chiudere la proiezione e invalidare link e documenti?')) return;
+      await api(`/union-meetings/${meetingId}/projection`, { method: 'DELETE' });
+      await loadProjection();
+      return;
+    }
+    const popup = window.open('', '_blank');
+    projectionSession = await api(`/union-meetings/${meetingId}/projection`, { method: 'POST' });
+    const operatorUrl = projectionSession.operator_url;
+    if (popup) {
+      popup.location = operatorUrl;
+    }
+    await loadProjection();
+  } catch (error) {
+    message.textContent = error.message;
+  }
+});
+
 function renderAttachments(documents) {
   attachmentsList.innerHTML = documents.length
-    ? documents.map((document) => `<article class="meeting-note"><strong>${escapeHtml(document.original_name)}</strong><p>${escapeHtml(document.conversion_status)}</p><button class="icon-action" data-view-document="${document.document_id}" title="Anteprima">${MyRsuIcons.get('eye')}</button></article>`).join('')
+    ? documents.map((document) => `<article class="meeting-note"><strong>${escapeHtml(document.original_name)}</strong><p>${escapeHtml(document.conversion_status)}</p><button class="icon-action" data-view-document="${document.document_id}" title="Anteprima">${MyRsuIcons.get('eye')}</button><button class="icon-action" data-project-document="${document.document_id}" title="Proietta sul video esterno">${MyRsuIcons.get('projection')}</button></article>`).join('')
     : '<p class="muted">Nessun allegato.</p>';
 }
 
@@ -66,6 +106,13 @@ noteForm.addEventListener('submit', async (event) => {
 });
 
 attachmentsList.addEventListener('click', (event) => {
+  const project = event.target.closest('[data-project-document]');
+  if (project) {
+    api(`/documents/${project.dataset.projectDocument}/projection`, { method: 'POST' })
+      .then((session) => { message.textContent = `Documento proiettato: ${session.document_name}`; })
+      .catch((error) => { message.textContent = error.message; });
+    return;
+  }
   const view = event.target.closest('[data-view-document]');
   if (!view) return;
   documentPreview.src = `${apiBase}/documents/${view.dataset.viewDocument}/preview?token=${encodeURIComponent(token || '')}`;

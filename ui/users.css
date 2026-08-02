@@ -1750,3 +1750,19 @@ dialog {
     gap: 7px;
   }
 }
+.meeting-projection-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
+  padding: 10px;
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  background: #eff6ff;
+}
+.meeting-projection-control button { width: auto; margin: 0; }
+.meeting-projection-control span { color: #1e3a8a; font-size: 12px; font-weight: 800; }
+@media (max-width: 760px) {
+  .meeting-projection-control { align-items: stretch; flex-direction: column; }
+  .meeting-projection-control button { width: 100%; }
+}

@@ -12,6 +12,7 @@ window.MyRsuIcons = (() => {
     reminder: '<svg viewBox="0 0 24 24"><path d="M6 10a6 6 0 0 1 12 0c0 7 3 7 3 9H3c0-2 3-2 3-9"/><path d="M10 21h4"/></svg>',
     protocolDelete: '<svg viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M7 7l1 13h8l1-13"/><path d="M10 11v6M14 11v6"/></svg>',
     protocolIn: '<svg viewBox="0 0 24 24"><path d="M12 20V8"/><path d="M8 12l4-4 4 4"/><path d="M5 4h14"/></svg>',
+    projection: '<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M9 9l6 3-6 3z"/></svg>',
     save: '<svg viewBox="0 0 24 24"><path d="M5 4h12l2 2v14H5z"/><path d="M8 4v6h8M8 20v-6h8"/></svg>',
     shield: '<svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3 8-8 9-5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-5"/></svg>',
     suspended: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 8l8 8"/></svg>',

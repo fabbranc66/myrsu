@@ -102,7 +102,7 @@ async function prefillLinkedVoting() {
   votingForm.anonymous.value = '1';
   votingForm.starts_at.value = session ? `${session.assembly_date}T${String(session.time_start || '').slice(0, 5)}` : '';
   votingForm.ends_at.value = session?.time_end ? `${session.assembly_date}T${String(session.time_end).slice(0, 5)}` : '';
-  votingForm.description.value = assembly.voting_subject || assembly.agenda || '';
+  votingForm.description.value = assembly.voting_subject || '';
   const options = assembly.voting_options || ['Favorevole', 'Contrario', 'Astenuto'];
   votingForm.option_1.value = options[0] || '';
   votingForm.option_2.value = options[1] || '';

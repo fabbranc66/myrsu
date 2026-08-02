@@ -12,6 +12,7 @@ use App\Repositories\EmailRepository;
 use App\Repositories\FundRepository;
 use App\Repositories\GdprConsentRepository;
 use App\Repositories\InstitutionalContactRepository;
+use App\Repositories\MeetingProjectionRepository;
 use App\Repositories\NormativaRepository;
 use App\Repositories\ProtocolRepository;
 use App\Repositories\PracticeLinkRepository;
@@ -104,6 +105,7 @@ final class Application
     public readonly FundRepository $funds;
     public readonly GdprConsentRepository $gdprConsents;
     public readonly InstitutionalContactRepository $institutionalContacts;
+    public readonly MeetingProjectionRepository $meetingProjections;
     public readonly ProtocolRepository $protocols;
     public readonly PracticeLinkRepository $practiceLinks;
     public readonly PracticeCcnlLinkRepository $practiceCcnlLinks;
@@ -236,6 +238,7 @@ final class Application
         $this->funds = new FundRepository($pdo);
         $this->gdprConsents = new GdprConsentRepository($pdo);
         $this->institutionalContacts = new InstitutionalContactRepository($pdo);
+        $this->meetingProjections = new MeetingProjectionRepository($pdo);
         $this->emailContacts = new EmailContactService($this->institutionalContacts, $this->users);
         $this->emailImapSync = new EmailImapSyncService($this->basePath, $this->emails, $this->emailContacts);
         $this->protocols = new ProtocolRepository($pdo);

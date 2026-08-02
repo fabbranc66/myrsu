@@ -14,6 +14,7 @@ use App\Controllers\Api\EmailController;
 use App\Controllers\Api\FundController;
 use App\Controllers\Api\GdprConsentController;
 use App\Controllers\Api\HostingDocumentController;
+use App\Controllers\Api\MeetingProjectionController;
 use App\Controllers\Api\NormativaController;
 use App\Controllers\Api\ProfileController;
 use App\Controllers\Api\PracticeController;
@@ -49,6 +50,7 @@ $documentVerification = new DocumentVerificationController($app);
 $emails = new EmailController($app);
 $funds = new FundController($app);
 $hostingDocuments = new HostingDocumentController($app);
+$meetingProjection = new MeetingProjectionController($app);
 $normativa = new NormativaController($app);
 $profile = new ProfileController($app);
 $practices = new PracticeController($app);
@@ -169,6 +171,11 @@ $app->router->get('/api/v1/normativa/ricerca', [$normativa, 'search']);
 $app->router->get('/api/v1/normativa/unita/{id}', [$normativa, 'unit']);
 
 $app->router->get('/api/v1/documents', [$documents, 'index']);
+$app->router->post('/api/v1/documents/{id}/projection', [$meetingProjection, 'publish']);
+$app->router->get('/api/v1/projection-session', [$meetingProjection, 'status']);
+$app->router->patch('/api/v1/projection-session/position', [$meetingProjection, 'position']);
+$app->router->get('/api/v1/projection-access', [$meetingProjection, 'publicState']);
+$app->router->get('/api/v1/projection-access/document', [$meetingProjection, 'publicDocument']);
 $app->router->get('/api/v1/public/documents', [$documents, 'publicIndex']);
 $app->router->get('/api/v1/documents/private', [$documents, 'privateIndex']);
 $app->router->post('/api/v1/documents', [$documents, 'store']);
@@ -245,6 +252,8 @@ $app->router->patch('/api/v1/institutional-contacts/{id}', [$contacts, 'updateIn
 $app->router->delete('/api/v1/institutional-contacts/{id}', [$contacts, 'destroyInstitutional']);
 
 $app->router->get('/api/v1/union-meetings', [$unionMeetings, 'index']);
+$app->router->post('/api/v1/union-meetings/{id}/projection', [$meetingProjection, 'open']);
+$app->router->delete('/api/v1/union-meetings/{id}/projection', [$meetingProjection, 'close']);
 $app->router->post('/api/v1/union-meetings', [$unionMeetings, 'store']);
 $app->router->post('/api/v1/union-meetings/{id}/documents', [$unionMeetings, 'storeDocument']);
 $app->router->post('/api/v1/union-meetings/{id}/documents/link', [$unionMeetings, 'linkDocument']);
