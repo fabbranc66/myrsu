@@ -59,6 +59,7 @@ const ccnlScopeSelect = document.querySelector('#ccnlScopeSelect');
 const ccnlInput = document.querySelector('#ccnlSearchInput');
 const ccnlResults = document.querySelector('#ccnlResults');
 const ccnlSectionView = document.querySelector('#ccnlSectionView');
+const ccnlHeaderLink = document.querySelector('#ccnlHeaderLink');
 const ccnlEditForm = document.querySelector('#ccnlEditForm');
 const ccnlCancelEdit = document.querySelector('#ccnlCancelEdit');
 const ccnlResetVocabulary = document.querySelector('#ccnlResetVocabulary');
@@ -388,20 +389,15 @@ async function ccnlOpenSection(blockCode, sectionIndex, bookmark = '') {
   ccnlLastSelectedText = '';
   ccnlActiveBlock = block;
   ccnlActiveSection = section;
+  ccnlHeaderLink.hidden = false;
   ccnlSectionView.innerHTML = `
     <div class="ccnl-link-bar">
-      <button class="ccnl-link-action" type="button" data-ccnl-link>Collega alla pratica</button>
       <button class="ccnl-link-action" type="button" data-ccnl-edit>Modifica testo</button>
       <button class="ccnl-close-reading" type="button" data-ccnl-close-reading>Chiudi lettura</button>
       <small id="ccnlSelectionStatus">Nessuna selezione: verrà collegata tutta la sezione.</small>
     </div>
     <div id="ccnlReadableText">${ccnlHighlight(ccnlRender(ccnlBodyText(section.text)), bookmark || ccnlInput.value.trim())}</div>
   `;
-  const linkButton = ccnlSectionView.querySelector('[data-ccnl-link]');
-  linkButton.addEventListener('pointerdown', ccnlPrepareLinkClick);
-  linkButton.addEventListener('mousedown', ccnlPrepareLinkClick);
-  linkButton.addEventListener('touchstart', ccnlPrepareLinkClick);
-  linkButton.addEventListener('click', () => ccnlLink(block, section));
   ccnlSectionView.querySelector('[data-ccnl-close-reading]').addEventListener('click', () => { ccnlSectionView.innerHTML = ''; });
   ccnlSectionView.querySelector('[data-ccnl-edit]').addEventListener('click', () => ccnlOpenEdit(block));
   setTimeout(ccnlScrollToBookmark, 0);
@@ -422,17 +418,14 @@ async function ccnlOpenDbUnit(unitId, bookmark = '') {
   ccnlLastSelectedText = '';
   ccnlActiveBlock = block;
   ccnlActiveSection = section;
+  ccnlHeaderLink.hidden = false;
   ccnlSectionView.innerHTML = `
     <div class="ccnl-link-bar">
-      <button class="ccnl-link-action" type="button" data-ccnl-link>Collega alla pratica</button>
       <button class="ccnl-close-reading" type="button" data-ccnl-close-reading>Chiudi lettura</button>
       <small id="ccnlSelectionStatus">Nessuna selezione: verrà collegato tutto il riferimento.</small>
     </div>
     <div id="ccnlReadableText">${hierarchy}${ccnlHighlight(ccnlRender(ccnlBodyText(section.text)), bookmark || ccnlInput.value.trim())}</div>
   `;
-  const linkButton = ccnlSectionView.querySelector('[data-ccnl-link]');
-  linkButton.addEventListener('pointerdown', ccnlPrepareLinkClick);
-  linkButton.addEventListener('click', () => ccnlLink(block, section));
   ccnlSectionView.querySelector('[data-ccnl-close-reading]').addEventListener('click', () => { ccnlSectionView.innerHTML = ''; });
   setTimeout(ccnlScrollToBookmark, 0);
 }
@@ -591,6 +584,11 @@ function ccnlScrollToBookmark() {
 
 document.querySelector('#openCcnlModal').addEventListener('click', () => ccnlModal.showModal());
 document.querySelector('#closeCcnlModal').addEventListener('click', () => ccnlModal.close());
+ccnlHeaderLink.addEventListener('pointerdown', ccnlPrepareLinkClick);
+ccnlHeaderLink.addEventListener('mousedown', ccnlPrepareLinkClick);
+ccnlHeaderLink.addEventListener('touchstart', ccnlPrepareLinkClick);
+ccnlHeaderLink.addEventListener('click', () => ccnlLink(ccnlActiveBlock, ccnlActiveSection));
+ccnlModal.addEventListener('close', () => { ccnlHeaderLink.hidden = true; });
 document.querySelector('#ccnlClearSearch').addEventListener('click', () => { ccnlInput.value = ''; ccnlResults.innerHTML = ''; ccnlSectionView.innerHTML = ''; });
 ccnlResetVocabulary?.addEventListener('click', () => {
   window.MyRsuNormativaVocabulary?.reset();
