@@ -118,6 +118,8 @@ $app->router->delete('/api/v1/reminders/{id}', [$reminders, 'destroy']);
 
 $app->router->get('/api/v1/normativa/file', [$normativa, 'show']);
 $app->router->post('/api/v1/normativa/file', [$normativa, 'update']);
+$app->router->get('/api/v1/normativa/ricerca', [$normativa, 'search']);
+$app->router->get('/api/v1/normativa/unita/{id}', [$normativa, 'unit']);
 
 $app->router->get('/api/v1/documents', [$documents, 'index']);
 $app->router->get('/api/v1/public/documents', [$documents, 'publicIndex']);

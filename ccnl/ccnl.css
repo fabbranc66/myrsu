@@ -70,6 +70,18 @@ button:hover {
   overflow-y: auto;
   padding-right: 4px;
 }
+.json-output {
+  margin: 14px 0 0;
+  max-height: 280px;
+  overflow: auto;
+  padding: 12px;
+  border: 1px solid #d7dde5;
+  border-radius: 14px;
+  color: #d1fae5;
+  background: #0f172a;
+  white-space: pre-wrap;
+  font-size: 12px;
+}
 .ai-box {
   margin-bottom: 14px;
   padding: 16px;
@@ -106,12 +118,56 @@ button:hover {
   color: #b91c1c;
   font-weight: 700;
 }
+.search-status {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #fde68a;
+  border-radius: 12px;
+  color: #92400e;
+  background: #fffbeb;
+  font-weight: 700;
+}
 .result-card {
   display: grid;
   width: 100%;
   gap: 5px;
   padding: 14px;
   text-align: left;
+}
+.nested-results {
+  display: grid;
+  gap: 8px;
+  margin-top: 8px;
+}
+.nested-result-card {
+  width: 100%;
+  min-height: 0;
+  padding: 10px;
+  border: 1px solid #dbe4ef;
+  border-radius: 10px;
+  color: #0f172a;
+  background: #f8fafc;
+  text-align: left;
+  font-weight: 500;
+}
+.nested-result-card:hover {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+.nested-result-card strong,
+.nested-result-card small {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+.nested-result-card strong {
+  -webkit-line-clamp: 1;
+  font-weight: 800;
+}
+.nested-result-card small {
+  -webkit-line-clamp: 2;
+  color: #475569;
+  font-weight: 500;
 }
 .result-card strong,
 .result-card span,
@@ -149,15 +205,73 @@ dialog header {
   margin-bottom: 10px;
 }
 dialog h2 {
+  min-width: 0;
   margin: 0;
+  overflow-wrap: anywhere;
+}
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+.ai-summary {
+  margin: 0 0 16px;
+  padding: 14px;
+  border: 1px solid #93c5fd;
+  border-radius: 12px;
+  background: #eff6ff;
+}
+.ai-summary h3 {
+  margin: 0 0 8px;
+  color: #1d4ed8;
+}
+.ai-summary ul {
+  margin: 0;
+  padding-left: 20px;
 }
 #modalBody {
+  min-width: 0;
   max-height: 72vh;
   overflow: auto;
+  overflow-wrap: anywhere;
   line-height: 1.55;
 }
 #modalBody p {
   margin: 0 0 10px;
+}
+.normativa-data-table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 12px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background: #fff;
+  border-collapse: collapse;
+}
+.normativa-data-table thead {
+  background: #e2e8f0;
+}
+.normativa-data-table th,
+.normativa-data-table td {
+  min-width: 110px;
+  padding: 9px 10px;
+  border-bottom: 1px solid #d7dde5;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: top;
+}
+.normativa-data-table th:first-child,
+.normativa-data-table td:first-child {
+  min-width: 76px;
+  text-align: left;
+  font-weight: 700;
+}
+.normativa-data-table th:nth-child(2),
+.normativa-data-table td:nth-child(2) {
+  max-width: 240px;
 }
 @media (max-width: 760px) {
   .shell {
@@ -184,4 +298,10 @@ dialog h2 {
     max-height: 46vh;
     -webkit-overflow-scrolling: touch;
   }
+  .json-output {
+    max-height: 190px;
+    font-size: 11px;
+  }
 }
+
+.normativa-hierarchy { margin: 0 0 12px; padding: 10px 12px; border-radius: 10px; background: #e0f2fe; color: #075985; font-weight: 800; }

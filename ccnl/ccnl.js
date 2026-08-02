@@ -61,14 +61,22 @@ const results = document.querySelector('#results');
 const modal = document.querySelector('#modal');
 const modalTitle = document.querySelector('#modalTitle');
 const modalBody = document.querySelector('#modalBody');
+const summarizeButton = document.querySelector('#summarize');
 const codexPanel = document.querySelector('#codexPanel');
 const codexQuestionForm = document.querySelector('#codexQuestionForm');
 const codexAnswer = document.querySelector('#codexAnswer');
+const jsonOutput = document.querySelector('#jsonOutput');
 let searchTimer = null;
 let vocabularyLoaded = false;
+let searchToken = 0;
+let currentNormativaUnit = null;
 
 function escapeHtml(value) {
   return String(value || '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char]));
+}
+
+function showJson(payload) {
+  jsonOutput.textContent = JSON.stringify(payload, null, 2);
 }
 
 async function fetchBlock(block) {
@@ -109,6 +117,10 @@ function terms() {
   return items.length ? items : normalize(query.value).split(/\s+/).filter(word => word.length > 2);
 }
 
+function rawTerms() {
+  return normalize(query.value).split(/\s+/).filter(word => word.length > 2 && !stopWords.has(word));
+}
+
 function expandedTerms(value) {
   const base = normalize(value).split(/\s+/).filter(word => word.length > 2 && !stopWords.has(word));
   const extra = [];
@@ -137,9 +149,10 @@ function expandedTerms(value) {
 }
 
 const stopWords = new Set([
-  'lavoratore', 'lavoratori', 'dipendente', 'dipendenti', 'operaio', 'operai',
-  'azienda', 'ditta', 'persona', 'caso', 'cosa', 'come', 'quando', 'dove',
-  'posso', 'puo', 'devo', 'deve', 'fare', 'faccio', 'succede', 'riguarda',
+  'con', 'per', 'tra', 'fra', 'che', 'chi', 'cui', 'come', 'quando', 'dove',
+  'del', 'della', 'dello', 'dei', 'degli', 'delle', 'dal', 'dalla', 'dallo',
+  'nel', 'nella', 'nello', 'nei', 'negli', 'nelle', 'sul', 'sulla', 'sullo',
+  'una', 'uno', 'sono', 'essere', 'avere', 'fare', 'faccio', 'posso', 'puo', 'devo', 'deve',
 ]);
 
 function normalize(value) {
@@ -196,12 +209,26 @@ function snippet(text) {
 }
 
 async function search() {
+  const currentToken = ++searchToken;
   if (query.value.trim().length < 2) return;
+  if (scope.value === 'all' && rawTerms().length < 4) {
+    const message = 'Con una ricerca breve scegli un ambito specifico.';
+    results.innerHTML = `<p class="search-status">${message}</p>`;
+    showJson({ error: { message } });
+    return;
+  }
+  results.innerHTML = '<p class="search-status">Ricerca in corso...</p>';
+  if (['all', 'ccnl', 'representation', 'safety'].includes(scope.value)) {
+    await searchDb(currentToken);
+    return;
+  }
   if (!vocabularyLoaded) {
     await window.MyRsuNormativaVocabulary?.load('../myrsu/docs/normativa_vocabulary.json');
     vocabularyLoaded = true;
   }
   const found = await findResults();
+  if (currentToken !== searchToken) return;
+  showJson({ data: { scope: scope.value, query: query.value.trim(), count: found.length, items: found.slice(0, 20) } });
   results.innerHTML = found.map(item => `<button class="result-card" data-path="${item.block[2]}" data-index="${item.section.index}">
     <strong>${highlight(escapeHtml(item.section.title))}</strong>
     <span>${escapeHtml(item.block[1])} · ${item.matches}</span>
@@ -225,8 +252,170 @@ async function findResults() {
   return found;
 }
 
+async function api(path) {
+  const token = sessionStorage.getItem('token') || localStorage.getItem('token');
+  const response = await fetch(`../myrsu/api/v1${path}`, {
+    headers: token ? { Authorization: `Bearer ${token}` } : {},
+  });
+  const payload = await response.json();
+  showJson(payload);
+  if (!response.ok) throw new Error(payload.error?.message || 'Errore API');
+  return payload.data;
+}
+
+async function searchDb(currentToken) {
+  try {
+    const data = await api(`/normativa/ricerca?scope=${encodeURIComponent(scope.value)}&q=${encodeURIComponent(query.value.trim())}&limit=20`);
+    if (currentToken !== searchToken) return;
+    const items = data.items || [];
+    results.innerHTML = groupedDbCards(items);
+    return;
+    results.innerHTML = items.map(item => `<button class="result-card" data-db-unit="${item.id}">
+      <strong>${highlight(escapeHtml(item.section_title))}</strong>
+      <span>${escapeHtml(item.block_title || item.document_title)} · ${escapeHtml(item.stato_vigenza)}</span>
+      <small>${highlight(escapeHtml(item.excerpt || ''))}</small>
+    </button>`).join('') || '<p>Nessun risultato. Verifica che il CCNL sia stato importato nel DB.</p>';
+  } catch (error) {
+    if (currentToken !== searchToken) return;
+    showJson({ error: { message: error.message } });
+    results.innerHTML = `<p class="error">${escapeHtml(error.message)}</p>`;
+  }
+}
+
+function groupedDbCards(items) {
+  return items.map(item => {
+    const matches = item.matches || [{ id: item.id, excerpt: item.excerpt }];
+    const context = item.context_label || item.block_title || item.document_title || '';
+    const parentTitle = shortText(item.section_title || 'Riferimento normativa', 120);
+    return `<article class="result-card">
+      <strong>${highlight(escapeHtml(parentTitle))}</strong>
+      <span>${escapeHtml(context)} - ${escapeHtml(item.stato_vigenza)} - ${item.match_count || matches.length} contenuti</span>
+      <div class="nested-results">
+        ${matches.slice(0, 8).map(match => `<button class="nested-result-card" data-db-unit="${match.id || item.article_unit_id || item.id}"><strong>${escapeHtml(parentTitle)}</strong><small>${highlight(escapeHtml(shortText(match.excerpt || item.excerpt || '', 220)))}</small></button>`).join('')}
+      </div>
+    </article>`;
+  }).join('') || '<p>Nessun risultato. Verifica che il CCNL sia stato importato nel DB.</p>';
+}
+
+function shortText(value, limit = 160) {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  return text.length > limit ? `${text.slice(0, limit - 1)}…` : text;
+}
+
 function render(text) {
-  return bodyText(text).split('\n').map(line => line.trim() ? `<p>${escapeHtml(line)}</p>` : '').join('');
+  let table = false;
+  return compactMarkdownTables(cleanDisplayText(bodyText(text))).split('\n').map(line => {
+    const salaryTable = salaryTableHtml(line);
+    if (salaryTable) return salaryTable;
+    const pairTable = flatPairTableHtml(line);
+    if (pairTable) return pairTable;
+    const categoryAmountTable = categoryAmountTableHtml(line);
+    if (categoryAmountTable) return categoryAmountTable;
+    const flattenedTable = flattenedTableHtml(line);
+    if (flattenedTable) return flattenedTable;
+    const genericTable = genericFlatTableHtml(line);
+    if (genericTable) return genericTable;
+    if (line.startsWith('|')) {
+      const cells = line.split('|').slice(1, -1).map(cell => cell.trim());
+      if (/^\|[\s:-]+\|/.test(line)) return '';
+      const isHeader = !table;
+      const prefix = isHeader ? '<table class="normativa-data-table"><thead>' : '';
+      const suffix = isHeader ? '</thead><tbody>' : '';
+      table = true;
+      const tag = isHeader ? 'th' : 'td';
+      return `${prefix}<tr>${cells.map(cell => `<${tag}>${escapeHtml(cell)}</${tag}>`).join('')}</tr>${suffix}`;
+    }
+    const close = table ? '</tbody></table>' : '';
+    table = false;
+    return line.trim() ? `${close}<p>${escapeHtml(line)}</p>` : close;
+  }).join('') + (table ? '</tbody></table>' : '');
+}
+
+function compactMarkdownTables(text) {
+  return String(text || '').replace(/(\|[^\n]+\|)\n\s*\n(?=\|)/g, '$1\n');
+}
+
+function cleanDisplayText(text) {
+  return String(text || '')
+    .replace(/Â°/g, '°')
+    .replace(/à¹/g, 'ù')
+    .replace(/à¨/g, 'è')
+    .replace(/à /g, 'à');
+}
+
+function salaryTableHtml(line) {
+  const clean = cleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  if (!/^L?ivello\s+/i.test(clean) || !/\b[A-D][1-3]\b/.test(clean)) return '';
+  const years = [...clean.matchAll(/\b20\d{2}\b/g)].map(match => match[0]).slice(0, 6);
+  const rows = [...clean.matchAll(/\b([A-D][1-3])\s+((?:(?:\d{1,2}\.\d{3},\d{2}|\d{1,3},\d{2}%)\s*){2,6})/g)]
+    .map(match => [match[1], ...match[2].trim().split(/\s+/)]);
+  if (!years.length || !rows.length) return '';
+  const headers = ['Livello', ...years.map(year => `1° giugno ${year}`)];
+  return `<table class="normativa-data-table"><thead><tr>${headers.map(header => `<th>${escapeHtml(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+
+function flatPairTableHtml(line) {
+  const clean = cleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  const rows = [];
+  const regex = /\b(Nessuna|da\s+\d+\s+a\s+\d+|fino\s+a\s+\d+(?:\s+dipendenti)?|oltre\s+\d+(?:\s+dipendenti)?|da\s+\d+\s+a\s+\d+(?:\s+dipendenti)?)\s+(\d+(?:,\d+)?\s*(?:%|ore|giorni)?)/gi;
+  let match;
+  while ((match = regex.exec(clean)) !== null) {
+    rows.push([match[1], match[2].replace(/\s+/g, ' ').trim()]);
+  }
+  if (rows.length < 2) return '';
+  const valueHeader = rows.some(row => row[1].includes('%')) ? 'Percentuale' : 'Valore';
+  return `<table class="normativa-data-table"><thead><tr><th>Scaglione</th><th>${valueHeader}</th></tr></thead><tbody>${rows.map(row => `<tr><td>${escapeHtml(row[0])}</td><td>${escapeHtml(row[1])}</td></tr>`).join('')}</tbody></table>`;
+}
+
+function categoryAmountTableHtml(line) {
+  const clean = cleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  if (!/\b(?:D1|D2|C2|C3|B1|B2|B3)\b/.test(clean) || !/\b\d{3},\d{2}\b/.test(clean)) return '';
+  const rows = [];
+  const regex = /\b(\d+\s*(?:a|ª)?(?:\s+Super)?)\s+(Eliminata\s+dal\s+1°\s+giugno\s+2021|D1|D2|C2|C3|B1|B2|B3)\s+(\d{3},\d{2})/gi;
+  let match;
+  while ((match = regex.exec(clean.replace(/\ba\s+([47])\s+/g, '$1a '))) !== null) {
+    rows.push([
+      match[1].replace(/\s*a\b/i, 'ª').replace(/\s+/g, ' ').trim(),
+      match[2],
+      match[3],
+    ]);
+  }
+  if (rows.length < 2) return '';
+  const headers = ['Vecchia categoria', 'Nuovo livello', 'Importo'];
+  return `<table class="normativa-data-table"><thead><tr>${headers.map(header => `<th>${escapeHtml(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+
+function flattenedTableHtml(line) {
+  const clean = cleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  if (!/\b\dS?\s+\d{1,2}\.\d{3},\d{2}\b/.test(clean) || !/\b[A-D][1-3]\b/.test(clean)) return '';
+  const rows = [];
+  const regex = /\b(\dS?)\s+(\d{1,2}\.\d{3},\d{2})(?:\s+([^0-9]*?))?\s+([A-D])?\s*([A-D][1-3])\s+(\d{1,2}\.\d{3},\d{2})/g;
+  let match;
+  while ((match = regex.exec(clean)) !== null) {
+    rows.push([
+      match[1],
+      match[2],
+      match[4] || '',
+      match[5],
+      match[6],
+      (match[3] || '').trim(),
+    ]);
+  }
+  if (!rows.length) return '';
+  const headers = ['Vecchio livello', 'Vecchio minimo', 'Area', 'Nuovo livello', 'Nuovo minimo', 'Descrizione'];
+  return `<table class="normativa-data-table"><thead><tr>${headers.map(header => `<th>${escapeHtml(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+
+function genericFlatTableHtml(line) {
+  const clean = cleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  const valueCount = (clean.match(/\b(?:\d{1,3}(?:\.\d{3})*,\d{2}|\d+(?:,\d+)?%|\d+\s+ore|20\d{2})\b/g) || []).length;
+  if (valueCount < 6 || /[.;:]\s+[A-ZÀ-Ú]/.test(clean)) return '';
+  const rows = [...clean.matchAll(/\b([A-Z]?\dS?|[A-D][1-3])\s+((?:\d{1,3}(?:\.\d{3})*,\d{2}|\d+(?:,\d+)?%)(?:\s+(?:\d{1,3}(?:\.\d{3})*,\d{2}|\d+(?:,\d+)?%)){1,6})/g)]
+    .map(match => [match[1], ...match[2].trim().split(/\s+/)]);
+  if (rows.length < 2) return '';
+  const maxCells = Math.max(...rows.map(row => row.length));
+  const headers = Array.from({ length: maxCells }, (_, index) => index === 0 ? 'Voce' : `Valore ${index}`);
+  return `<table class="normativa-data-table"><thead><tr>${headers.map(header => `<th>${escapeHtml(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${headers.map((_, index) => `<td>${escapeHtml(row[index] || '')}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
 }
 
 function bodyText(text) {
@@ -239,8 +428,17 @@ function bodyText(text) {
 }
 
 async function openResult(event) {
+  const nestedCard = event.target.closest('.nested-result-card');
+  if (nestedCard) {
+    await openDbUnit(Number(nestedCard.dataset.dbUnit));
+    return;
+  }
   const card = event.target.closest('.result-card');
   if (!card) return;
+  if (card.dataset.dbUnit) {
+    await openDbUnit(Number(card.dataset.dbUnit));
+    return;
+  }
   const block = activeBlocks().find(item => item[2] === card.dataset.path);
   const section = splitSections(await fetchBlock(block), block)[Number(card.dataset.index)];
   modalTitle.textContent = section.title;
@@ -248,8 +446,44 @@ async function openResult(event) {
   modal.showModal();
 }
 
+async function openDbUnit(id) {
+  const data = await api(`/normativa/unita/${id}`);
+  showJson({ data });
+  currentNormativaUnit = data;
+  summarizeButton.hidden = false;
+  modalTitle.textContent = data.rubrica || data.etichetta || 'Riferimento CCNL';
+  const hierarchy = data.hierarchy_label ? `<p class="normativa-hierarchy">${escapeHtml(data.hierarchy_label)}</p>` : '';
+  modalBody.innerHTML = `${hierarchy}${highlight(render(data.testo || ''))}`;
+  modal.showModal();
+}
+
+function summarizeCurrentUnit() {
+  if (!currentNormativaUnit) return;
+  const text = String(currentNormativaUnit.testo || '')
+    .replace(/^#+\s+/gm, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const protectedText = text
+    .replace(/\bn\.\s+(?=\d)/gi, 'n\u00a0')
+    .replace(/\b(art|dott|avv|ing)\.\s+/gi, '$1\u00a0');
+  const queryTerms = rawTerms().map(term => normalize(term)).filter(term => term.length > 2);
+  const sentences = protectedText.split(/(?<=[.!?;:])\s+/).map((sentence, index) => ({
+    sentence: sentence.replace(/\u00a0/g, '. ').trim(),
+    index,
+  })).filter(item => item.sentence.length >= 35);
+  const ranked = sentences.map(item => {
+    const normalized = normalize(item.sentence);
+    const queryScore = queryTerms.reduce((total, term) => total + (normalized.includes(term) ? 8 : 0), 0);
+    const ruleScore = /\b(deve|devono|diritto|obbligo|obblighi|vietato|entro|puo|possono|responsabilita)\b/.test(normalized) ? 3 : 0;
+    return { ...item, score: queryScore + ruleScore + Math.max(0, 3 - item.index) };
+  }).sort((left, right) => right.score - left.score).slice(0, 5).sort((left, right) => left.index - right.index);
+  const summary = ranked.length ? ranked : sentences.slice(0, 5);
+  modalBody.querySelector('.ai-summary')?.remove();
+  modalBody.insertAdjacentHTML('afterbegin', `<section class="ai-summary"><h3>Sintesi AI</h3><ul>${summary.map(item => `<li>${escapeHtml(item.sentence)}</li>`).join('')}</ul></section>`);
+}
+
 function highlight(html) {
-  return terms().sort((a, b) => b.length - a.length).reduce((value, term) => {
+  return rawTerms().sort((a, b) => b.length - a.length).reduce((value, term) => {
     if (term.length < 2) return value;
     return value.replace(new RegExp(`(^|\\s)(${escapeRegExp(term)})(?=\\s|$)`, 'gi'), match => {
       const clean = match.trimStart();
@@ -264,6 +498,7 @@ async function isMyrsuAdmin() {
   try {
     const response = await fetch('../myrsu/api/v1/me', { headers: { Authorization: `Bearer ${token}` } });
     const payload = await response.json();
+    showJson(payload);
     return response.ok && (payload.data?.roles || []).includes('admin');
   } catch (_) {
     return false;
@@ -282,6 +517,7 @@ async function askCodex(event) {
   await window.MyRsuNormativaVocabulary?.load('../myrsu/docs/normativa_vocabulary.json');
   const detectedScope = questionScope(question);
   const found = (await findResults()).slice(0, 6);
+  showJson({ data: { scope: detectedScope, question, count: found.length, items: found } });
   codexAnswer.innerHTML = `
     <h3>Risposta Codex locale</h3>
     <p>Ambito selezionato: <strong>${escapeHtml(detectedScope)}</strong>. Concetti: <strong>${escapeHtml(questionTerms(question).slice(0, 10).join(', '))}</strong>.</p>
@@ -291,13 +527,14 @@ async function askCodex(event) {
 
 function scheduleSearch() {
   clearTimeout(searchTimer);
-  searchTimer = setTimeout(search, 350);
+  searchTimer = setTimeout(search, 900);
 }
 
 results.addEventListener('click', openResult);
 codexAnswer.addEventListener('click', openResult);
 
 document.querySelector('#close').addEventListener('click', () => modal.close());
+summarizeButton.addEventListener('click', summarizeCurrentUnit);
 document.querySelector('#clear').addEventListener('click', () => { query.value = ''; results.innerHTML = ''; });
 document.querySelector('#resetVocabulary').addEventListener('click', () => {
   window.MyRsuNormativaVocabulary?.reset();

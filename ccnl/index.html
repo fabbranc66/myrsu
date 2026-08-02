@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Normativa Rapida</title>
-  <link rel="stylesheet" href="ccnl.css">
+  <link rel="stylesheet" href="ccnl.css?v=20260802-modal-table-1">
 </head>
 <body>
   <main class="shell">
@@ -42,11 +42,18 @@
 
     <section id="results" class="results"></section>
     <dialog id="modal">
-      <header><h2 id="modalTitle"></h2><button id="close" type="button">Chiudi</button></header>
+      <header>
+        <h2 id="modalTitle"></h2>
+        <div class="modal-actions">
+          <button id="summarize" type="button" hidden>Sintesi AI</button>
+          <button id="close" type="button">Chiudi</button>
+        </div>
+      </header>
       <article id="modalBody"></article>
     </dialog>
+    <pre id="jsonOutput" class="json-output">{}</pre>
   </main>
   <script src="../myrsu/ui/normativa-vocabulary.js?v=20260731-normativa-2"></script>
-  <script src="ccnl.js?v=20260731-normativa-2"></script>
+  <script src="ccnl.js?v=20260802-smart-scope-1"></script>
 </body>
 </html>

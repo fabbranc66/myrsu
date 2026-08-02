@@ -9,7 +9,7 @@ Presidenza del Consiglio dei ministri
 CONFERENZA PERMANENTE PER I RAPPORTI TRA LO STATO,
 LE REGIONI E LE PROVINCE AUTONOME DI TRENTO E DI BOLZANO
 MMC
-Accordo, ai sensi dell’articolo 37, comma 2, del decreto legislativo 9 aprile 2008, n. 81, tra il
+Accordo, ai sensi dell'articolo 37, comma 2, del decreto legislativo 9 aprile 2008, n. 81, tra il
 Governo, le regioni e le Province autonome di Trento e di Bolzano, finalizzato alla individuazione
 della durata e dei contenuti minimi dei percorsi formativi in materia di salute e sicurezza, di cui
 al medesimo decreto legislativo n. 81 del 2008.
@@ -17,33 +17,33 @@ Rep. atti n. 59/CSR del 17 aprile 2025.
 LA CONFERENZA PERMANENTE PER I RAPPORTI TRA LO STATO, LE REGIONI
 E LE PROVINCE AUTONOME DI TRENTO E DI BOLZANO
 Nella seduta del 17 aprile 2025:
-VISTO il decreto legislativo 9 aprile 2008, n. 8 1, recante “Attuazione dell’articolo 1 della legge 3
-agosto 2007, n. 123, in materia di tutela della salute e della sicurezza nei luoghi di lavoro”, e, in
-particolare, l’articolo 32, il quale detta disposizioni relative all’individuazione delle capacità e dei
+VISTO il decreto legislativo 9 aprile 2008, n. 8 1, recante "Attuazione dell'articolo 1 della legge 3
+agosto 2007, n. 123, in materia di tutela della salute e della sicurezza nei luoghi di lavoro", e, in
+particolare, l'articolo 32, il quale detta disposizioni relative all'individuazione delle capacità e dei
 requisiti professionali dei responsabili e degli addetti ai servizi di prevenzione e protezione;
-VISTO altresì l’articolo 37, comma 2, del decreto legislativo n. 81 del 200 8, il quale prevede che la
+VISTO altresì l'articolo 37, comma 2, del decreto legislativo n. 81 del 200 8, il quale prevede che la
 durata, i contenuti minimi e le modalità della formazione di cui al comma 1 del medesimo articolo 37
 sono definiti mediante accordo in sede di Conferenza permanente per i rapporti tra lo Stato, le regioni
 e le province autonome di Trento e di Bolzano adottato, previa consultazione delle parti sociali;
 VISTA la nota prot. M_LPS n. 9590 del 17 ottobre 2024, acquisita, in pari data, al prot. DAR n. 16471,
-con la quale l’Ufficio legislativo del Ministro del lavoro e delle politiche sociali ha trasmesso lo schema
-di accordo in oggetto ai fini dell’esame in sede di Conferenza permanente per i rapporti tra lo Stato, le
+con la quale l'Ufficio legislativo del Ministro del lavoro e delle politiche sociali ha trasmesso lo schema
+di accordo in oggetto ai fini dell'esame in sede di Conferenza permanente per i rapporti tra lo Stato, le
 regioni e le province autonome di Trento e di Bolzano finalizzato alla individuazione della durata e dei
 contenuti minimi dei seguenti percorsi formativi:
-• datori di lavoro, dirigenti, preposti e lavoratori, ai sensi dell’articolo 37 del decreto legislativo n. 81
+- datori di lavoro, dirigenti, preposti e lavoratori, ai sensi dell'articolo 37 del decreto legislativo n. 81
 del 2008;
-• responsabili e addetti ai servizi di prevenzione e protezione, ai sensi dell’articolo 32 del decreto
+- responsabili e addetti ai servizi di prevenzione e protezione, ai sensi dell'articolo 32 del decreto
 legislativo n. 81 del 2008;
-• datori di lavoro che svolgono direttamente i compiti del servizio di prevenzione e protezione ai sensi
-dell’articolo 34 del decreto legislativo n. 81 del 2008;
-• coordinatori per la progettazione e per l’esecuzione dei lavori, ai sensi dell’articolo 98 del decreto
+- datori di lavoro che svolgono direttamente i compiti del servizio di prevenzione e protezione ai sensi
+dell'articolo 34 del decreto legislativo n. 81 del 2008;
+- coordinatori per la progettazione e per l'esecuzione dei lavori, ai sensi dell'articolo 98 del decreto
 legislativo n. 81 del 2008;
-• lavoratori, datori di lavoro e lavoratori autonomi che operano in ambienti sospetti di inquinamento o
-confinati, secondo quanto previsto dall’articolo 2 del decreto del Presidente della Repubblica 14
+- lavoratori, datori di lavoro e lavoratori autonomi che operano in ambienti sospetti di inquinamento o
+confinati, secondo quanto previsto dall'articolo 2 del decreto del Presidente della Repubblica 14
 settembre 2011, n. 177;
-• operatori di attrezzature di lavoro per le quali è richiesta una specifica abilitazione ai sensi
-dell’articolo 73, comma 5, del decreto legislativo n. 81 del 2008;
-VISTA la nota prot. DAR n. 16508 del 18 ottobre 2024, con la quale l’Ufficio per il coordinamento
+- operatori di attrezzature di lavoro per le quali è richiesta una specifica abilitazione ai sensi
+dell'articolo 73, comma 5, del decreto legislativo n. 81 del 2008;
+VISTA la nota prot. DAR n. 16508 del 18 ottobre 2024, con la quale l'Ufficio per il coordinamento
 delle attività della segreteria di questa Conferenza ha trasmesso la predetta documentazione alle regioni
 e alle Province autonome di Trento e di Bolzano, nonché alle amministrazioni statali interessate, con
 la contestuale convocazione di una riunione tecnica per il giorno 25 ottobre 2024;
@@ -57,42 +57,42 @@ LE REGIONI E LE PROVINCE AUTONOME DI TRENTO E DI BOLZANO
 MMC
 CONSIDERAT O che, nel corso del predetto incontro tecnico del 25 ottobre 2024, le regioni e le
 Province autonome di Trento e di Bolzano hanno espresso avviso favorevole alla conclusione
-dell’accordo, con la richiesta della Provincia autonoma di Bolzano di inserire la clausola di
+dell'accordo, con la richiesta della Provincia autonoma di Bolzano di inserire la clausola di
 salvaguardia per le medesime province autonome;
-CONSIDERATO che il punto, iscritto all’o rdine del giorno della seduta del 7 novembre 2024 di
+CONSIDERATO che il punto, iscritto all'o rdine del giorno della seduta del 7 novembre 2024 di
 questa Conferenza, è stato rinviato, su richiesta delle regioni e delle Province autonome di Trento e di
 Bolzano nonché del Ministero del lavoro e delle politiche sociali;
-VISTA la nota prot. DAR n. 17647 del 7 novembre 2024, con la quale l’Ufficio per il coordinamento
-delle attività della segreteria di questa Conferenza ha convocato una riunione tecnica sull’argomento
+VISTA la nota prot. DAR n. 17647 del 7 novembre 2024, con la quale l'Ufficio per il coordinamento
+delle attività della segreteria di questa Conferenza ha convocato una riunione tecnica sull'argomento
 in oggetto per il giorno 20 novembre 2024;
 VISTA la nota prot. n. 49059 del 7 novembre 2024, acquisita, in pari data, al prot. DAR n. 17673 e
-trasmessa con nota prot. DAR n. 17709 dell’8 novembre 2024, con la quale il Ministero dell’economia
-e delle finanze ha chiesto di integrare il testo dell’accordo con l’inserimento della clausola di invarianza
+trasmessa con nota prot. DAR n. 17709 dell'8 novembre 2024, con la quale il Ministero dell'economia
+e delle finanze ha chiesto di integrare il testo dell'accordo con l'inserimento della clausola di invarianza
 finanziaria;
-CONSIDERATO che, nel corso del l’incontro tecnico del 20 novembre 2024, è stato acquisito
-l’assenso tecnico delle regioni e delle Province autonome di Trento e di Bolzano sul testo;
+CONSIDERATO che, nel corso del l'incontro tecnico del 20 novembre 2024, è stato acquisito
+l'assenso tecnico delle regioni e delle Province autonome di Trento e di Bolzano sul testo;
 VISTA la nota acquisita al prot. DAR n. 18727 del 22 novembre 2024 e trasmessa, in pari data, con
 nota prot. DAR n. 18743, con la quale il Ministero del lavoro e delle politiche sociali ha inviato il
-nuovo testo dell’ accordo, modificato a seguito di quanto discusso in sede tecnica e sulla base della
-citata richiesta del Ministero dell’economia e delle finanze, trasmessa con nota prot. DAR n. 17709
-dell’8 novembre 2024;
+nuovo testo dell' accordo, modificato a seguito di quanto discusso in sede tecnica e sulla base della
+citata richiesta del Ministero dell'economia e delle finanze, trasmessa con nota prot. DAR n. 17709
+dell'8 novembre 2024;
 VISTA la nota prot. n. 24405 del 27 novembre 2024, acquisita, in pari data, al prot. DAR n. 19057 e
-trasmessa con nota prot. DAR n. 19065 nella medesima data, con la quale l’Ufficio legislativo del
+trasmessa con nota prot. DAR n. 19065 nella medesima data, con la quale l'Ufficio legislativo del
 Ministro delle imprese e del made in Italy ha trasmesso una richiesta di integrazione del testo
-dell’accordo in oggetto;
+dell'accordo in oggetto;
 VISTA la nota, acquisita al prot. DAR n. 19105 del 27 novembre 2024 e trasmessa con nota prot. DAR
-n. 19122 del 28 novembre 2024, con la quale l’Ufficio legislativo del Ministro del lavoro e delle
+n. 19122 del 28 novembre 2024, con la quale l'Ufficio legislativo del Ministro del lavoro e delle
 politiche sociali ha inviato un documento di risposta alle osservazioni formulate dal Ministero delle
 imprese e del made in Italy;
-CONSIDERATO che il punto, iscritto all’o rdine del giorno della seduta del 28 novembre 2024 di
+CONSIDERATO che il punto, iscritto all'o rdine del giorno della seduta del 28 novembre 2024 di
 questa Conferenza, è stato rinviato per ulteriori approfondimenti, su richiesta delle regioni e delle
 Province autonome di Trento e di Bolzano;
-VISTA la nota prot. DAR n. 19157 del 28 novembre 2024, con la quale l’Ufficio per il coordinamento
+VISTA la nota prot. DAR n. 19157 del 28 novembre 2024, con la quale l'Ufficio per il coordinamento
 delle attività della segreteria di questa Conferenza ha convocato una nuova riunione tecnica
-sull’argomento in oggetto per il giorno 11 dicembre 2024;
-VISTA la nota prot. DAR n. 20012 dell’11 dicembre 2024, con la quale, all’esito del predetto incontro
+sull'argomento in oggetto per il giorno 11 dicembre 2024;
+VISTA la nota prot. DAR n. 20012 dell'11 dicembre 2024, con la quale, all'esito del predetto incontro
 tecnico tenutosi in pari data e delle interlocuzioni svolte dal Ministero del lavoro e delle politiche
-sociali con le associazioni di categoria, l’Ufficio per il coordinamento delle attività della segreteria di
+sociali con le associazioni di categoria, l'Ufficio per il coordinamento delle attività della segreteria di
 
 
 ## Pagina 3
@@ -102,21 +102,21 @@ CONFERENZA PERMANENTE PER I RAPPORTI TRA LO STATO,
 LE REGIONI E LE PROVINCE AUTONOME DI TRENTO E DI BOLZANO
 MMC
 questa Conferenza ha chiesto al Ministero del lavoro e delle politiche sociali di trasmettere il nuovo
-testo dell’accordo, condiviso con tutte le amministrazioni statali interessate;
+testo dell'accordo, condiviso con tutte le amministrazioni statali interessate;
 VISTA la nota prot. M_LPS n. 173 del 10 gennaio 2025, acquisita, in pari data, al prot. DAR n. 386,
-con la quale l’Ufficio legislativo del Ministro del lavoro e delle politiche sociali ha inviato una versione
-aggiornata dell’accordo, unitamente ad una nota di accompagnamento nella quale sono state
+con la quale l'Ufficio legislativo del Ministro del lavoro e delle politiche sociali ha inviato una versione
+aggiornata dell'accordo, unitamente ad una nota di accompagnamento nella quale sono state
 evidenziate le modifiche apportate al testo;
-VISTA la nota prot. DAR n. 406 del 10 gennaio 2025, con la quale l’Ufficio per il coordinamento delle
-attività della segreteria di questa Conferenza ha diramato il nuovo testo dell’accordo, con la contestuale
+VISTA la nota prot. DAR n. 406 del 10 gennaio 2025, con la quale l'Ufficio per il coordinamento delle
+attività della segreteria di questa Conferenza ha diramato il nuovo testo dell'accordo, con la contestuale
 convocazione di una riunione tecnica per il giorno 28 gennaio 2025;
 VISTA la nota del 28 gennaio 2025, acquisita, in pari data, al prot. DAR n. 1529 e trasmessa con nota
 prot. DAR n. 1542 nella medesima data, con la quale il Coordinamento tecnico interregionale della
 Commissione salute della Conferenza delle Regioni e delle P rovince autonome ha trasmesso un
 documento di osservazioni della Provincia autonoma di Bolzano, aventi ad oggetto la possibilità di
 ricorrere a modalità di apprendimento da remoto;
-CONSIDERATO che nel corso dell’incontro tecnico del 28 gennaio 2025, il Ministero delle imprese
-e del made in Italy ha comunicato di non avere rilievi da formulare sul nuovo testo dell’accordo, mentre
+CONSIDERATO che nel corso dell'incontro tecnico del 28 gennaio 2025, il Ministero delle imprese
+e del made in Italy ha comunicato di non avere rilievi da formulare sul nuovo testo dell'accordo, mentre
 i Coordinamenti interregionali competenti in materia di formazione e di salute e le altre regioni che
 hanno partecipato alla riunione hanno ritenuto non accoglibili le sopracitate richieste della Provincia
 autonoma di Bolzano, aventi ad oggetto la possibilità di ricorrere a modalità di apprendimento da
@@ -129,16 +129,16 @@ VISTA la nota del 13 marzo 2025, prot. DAR n. 4421, con la quale è stato chiest
 Province autonome di Trento e di Bolzano di fornire un riscontro in merito a gli approfondimenti
 istruttori effettuati;
 CONSIDERATO che, nel corso della seduta del 17 aprile 2025 di questa Conferenza, le regioni e le
-Province autonome di Trento e di Bolzano hanno espresso avviso favorevole alla stipula dell’accordo,
-condizionato all’accoglimento dell’inserimento nel testo della seguente clausola di salvaguardia per la
-Provincia autonoma di Bolzano: “In considerazione delle sue specificità territoriali e linguistiche e del
+Province autonome di Trento e di Bolzano hanno espresso avviso favorevole alla stipula dell'accordo,
+condizionato all'accoglimento dell'inserimento nel testo della seguente clausola di salvaguardia per la
+Provincia autonoma di Bolzano: "In considerazione delle sue specificità territoriali e linguistiche e del
 particolare tessuto economico-sociale, la Provincia autonoma di Bolzano, in accordo con il Ministero
-del lavoro e delle politiche sociali, nell’ambito di specifici progetti pilota, può prevedere in via
+del lavoro e delle politiche sociali, nell'ambito di specifici progetti pilota, può prevedere in via
 sperimentale differenti modalità di fruizione dei corsi e alternativi sistemi di apprendimento, anche da
-remoto, nonché deroghe al rapporto docente/discente nell’erogazione della formazione”;
+remoto, nonché deroghe al rapporto docente/discente nell'erogazione della formazione";
 CONSIDERATO che il Viceministro del lavoro e delle politiche sociali ha rappresentato di accogliere
 la predetta condizione;
-ACQUISITO, quindi, l’assenso del Governo, delle regioni e delle Province autonome di Trento e di
+ACQUISITO, quindi, l'assenso del Governo, delle regioni e delle Province autonome di Trento e di
 Bolzano;
 
 
@@ -149,13 +149,13 @@ CONFERENZA PERMANENTE PER I RAPPORTI TRA LO STATO,
 LE REGIONI E LE PROVINCE AUTONOME DI TRENTO E DI BOLZANO
 MMC
 SANCISCE ACCORDO
-nei termini di cui in premessa, ai sensi dell’articolo 37, comma 2, del decreto legislativo 9 aprile 2008,
+nei termini di cui in premessa, ai sensi dell'articolo 37, comma 2, del decreto legislativo 9 aprile 2008,
 n. 81, tra il Governo, le regioni e le Province autonome di Trento e di Bolzano sul documento che,
 allegato al presente atto, ne costituisce parte integrante (allegato A), finalizzato alla individuazione
 della durata e dei contenuti minimi dei percorsi formativi in materia di salute e sicurezza, di cui al
 medesimo decreto legislativo n. 81 del 2008.
 Il Segretario Il Presidente
-Cons. Paola D’Avena Ministro Roberto Calderoli
+Cons. Paola D'Avena Ministro Roberto Calderoli
 
 
 ## Pagina 5
@@ -163,33 +163,33 @@ Cons. Paola D’Avena Ministro Roberto Calderoli
 Pag. 3 a 138
 ALLEGATO A
 PREMESSA
-Ai sensi dell’articolo 37, comma 2, del d.lgs. n. 81/2008, così come modificato dalla legge n. 215
-del 2021, è necessario procedere all’accorpamento, alla rivisitazione e alla modifica degli accordi
+Ai sensi dell'articolo 37, comma 2, del d.lgs. n. 81/2008, così come modificato dalla legge n. 215
+del 2021, è necessario procedere all'accorpamento, alla rivisitazione e alla modifica degli accordi
 attuativi del d.lgs. n. 81/2008 in materia di formazione in modo da garantire:
-a) l’individuazione della durata, dei contenuti minimi e delle modalità della formazione
+a) l'individuazione della durata, dei contenuti minimi e delle modalità della formazione
 obbligatoria a carico del datore di lavoro;
-b) l’individuazione delle modalità della verifica finale di apprendimento obbligatoria per i
+b) l'individuazione delle modalità della verifica finale di apprendimento obbligatoria per i
 discenti di tutti i percorsi formativi e di aggiornamento obbligatori in materia di salute e
 sicurezza sul lavoro e delle modalità delle verifiche di efficacia della formazione durante
 lo svolgimento della prestazione lavorativa;
-b-bis) il monitoraggio dell’applicazione degli accordi in materia di formazione, nonché' il
+b-bis) il monitoraggio dell'applicazione degli accordi in materia di formazione, nonché' il
 controllo sulle attività formative e sul rispetto della normativa di riferimento, sia da parte
 dei soggetti che erogano la formazione, sia da parte dei soggetti destinatari della stessa.))
 Tutto ciò premesso, il Governo, le Regioni e le province autonome concordano di procedere:
-1. alla rivisitazione, alla modifica e all’accorpamento degli Accordi attuativi del d.lgs. n.
+1. alla rivisitazione, alla modifica e all'accorpamento degli Accordi attuativi del d.lgs. n.
 81/2008;
-2. all’aggiornamento dell’allegato XIV del d.lgs. n. 81/2008 ai sensi dell’art. 98, comma 3;
-3. all’individuazione della durata, dei contenuti minimi e delle modalità della formazione per
-tutti i soggetti per i quali è previst o l’obbligo formativo rientranti nell’ambito di
+2. all'aggiornamento dell'allegato XIV del d.lgs. n. 81/2008 ai sensi dell'art. 98, comma 3;
+3. all'individuazione della durata, dei contenuti minimi e delle modalità della formazione per
+tutti i soggetti per i quali è previst o l'obbligo formativo rientranti nell'ambito di
 applicazione del presente accordo ivi compresi i lavoratori, datori di lavoro e lavoratori
 autonomi che operano in ambienti sospetti di inquinamento o confinati, secondo quanto
-previsto dall’articolo 2 del DPR n. 177 del 14 settembre 2011;
-4. all’individuazione delle modalità di verifica finale di apprendimento obbligatoria per i
+previsto dall'articolo 2 del DPR n. 177 del 14 settembre 2011;
+4. all'individuazione delle modalità di verifica finale di apprendimento obbligatoria per i
 discenti di tutti i percorsi formativi e di aggiornamento obbligatori in materia di salute e
 sicurezza sul lavoro e delle modalità delle verifiche di efficacia della formazione durante
 lo svolgimento della prestazione lavorativa.
 Resta ferma la facoltà per le Regioni e Provincie autonome di introdurre o mantenere disposizioni
-più favorevoli in materia di salute e sicurezza sul lavoro. L’attuazione del presente accordo non
+più favorevoli in materia di salute e sicurezza sul lavoro. L'attuazione del presente accordo non
 può comportare una diminuzione del livello di tutela della salute e della sicurezza nei luoghi di
 lavoro preesistente in ciascuna Regione o Provincia autonoma.
 
@@ -199,17 +199,17 @@ lavoro preesistente in ciascuna Regione o Provincia autonoma.
 Pag. 4 a 138
 SOMMARIO
 PREMESSA......................................................................................................................................................................... 3
-PARTE I – ORGANIZZAZIONE GENERALE...................................................................................................... 8
+PARTE I - ORGANIZZAZIONE GENERALE...................................................................................................... 8
 1. INDIVIDUAZIONE DEI SOGGETTI FORMATORI............................................................................ 8
-1.1 SOGGETTI FORMATORI “ISTITUZIONALI”...................................................................................................... 8
-1.2 SOGGETTI FORMATORI “ACCREDITATI”......................................................................................................... 9
+1.1 SOGGETTI FORMATORI "ISTITUZIONALI"...................................................................................................... 8
+1.2 SOGGETTI FORMATORI "ACCREDITATI"......................................................................................................... 9
 1.3 ALTRI SOGGETTI................................................................................................................................................. 9
 2. REQUISITI DEI DOCENTI.........................................................................................................................10
 3. ORGANIZZAZIONE DEI CORSI.............................................................................................................10
 4. MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE................................................... 10
 5 - VERBALI DELLE VERIFICHE FINALI................................................................................................10
 6 - ATTESTAZIONI...........................................................................................................................................11
-PARTE II – CORSI DI FORMAZIONE...................................................................................................................12
+PARTE II - CORSI DI FORMAZIONE...................................................................................................................12
 1. PREMESSA........................................................................................................................................................12
 2. CORSO PER LAVORATORI, PREPOSTI E DIRIGENTI...................................................................12
 2.1 CORSO PER LAVORATORI........................................................................................................................12
@@ -226,12 +226,12 @@ Obiettivi.......................................................................
 3. CORSO PER DATORE DI LAVORO........................................................................................................19
 Obiettivi..............................................................................................................................................................................19
 4. CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008..........................22
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008..........................22
 Obiettivi..............................................................................................................................................................................22
 Articolazione del percorso formativo............................................................................................................................22
 5 - CORSO PER RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE
-DAI RISCHI ai sensi dell’art. 32 del d.lgs. n. 81/2008...............................................................................................25
-5.1 TITOLI DI STUDIO VALIDI AI FINI DELL’ESONERO DALLA FREQUENZA DEL
+DAI RISCHI ai sensi dell'art. 32 del d.lgs. n. 81/2008...............................................................................................25
+5.1 TITOLI DI STUDIO VALIDI AI FINI DELL'ESONERO DALLA FREQUENZA DEL
 MODULO A E DEL MODULO B (COMUNE E SPECIALISTICO)...............................................................25
 5.2 MODULO A......................................................................................................................................................25
 Articolazione dei contenuti minimi del Modulo A......................................................................................................26
@@ -247,7 +247,7 @@ ARTICOLAZIONE DEI CONTENUTI MINIMI MODULI B DI SPECIALIZZAZIONE.................
 5.4 MODULO C......................................................................................................................................................33
 ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO C..............................................................33
 6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER
-L’ESECUZIONE DEI LAVORI (ALLEGATO XIV Dlgs 81/08).......................................................................36
+L'ESECUZIONE DEI LAVORI (ALLEGATO XIV Dlgs 81/08).......................................................................36
 Obiettivi..............................................................................................................................................................................36
 Articolazione dei contenuti minimi del percorso formativo:.....................................................................................36
 VERIFICA FINALE DI APPRENDIMENTO........................................................................................................39
@@ -256,9 +256,9 @@ MODALITÀ DI SVOLGIMENTO DEI CORSI..............................................
 OPERANO IN AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI (dpr n. 177/2011).......40
 Obiettivi..............................................................................................................................................................................40
 Requisiti dei docenti..........................................................................................................................................................41
-8. CORSI PER L’ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI
-ALL’ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008............42
-8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL’AREA E DISPONIBILITÀ DELLE
+8. CORSI PER L'ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI
+ALL'ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008............42
+8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL'AREA E DISPONIBILITÀ DELLE
 ATTREZZATURE..........................................................................................................................................................42
 8.2. REQUISITI DEI DOCENTI.........................................................................................................................42
 8.3 PROGRAMMA DEI CORSI..........................................................................................................................43
@@ -297,7 +297,7 @@ movimentazione di materiali (CMM)...............................................
 Verifica................................................................................................................................................................................77
 8.3.11 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di carriponte.......................78
 Verifica................................................................................................................................................................................80
-PARTE III – CORSI DI AGGIORNAMENTO.......................................................................................................82
+PARTE III - CORSI DI AGGIORNAMENTO.......................................................................................................82
 1 LAVORATORI, PREPOSTI, DIRIGENTI E DATORE DI LAVORO.............................................83
 1.1 Lavoratori............................................................................................................................................................83
 1.2 Preposti................................................................................................................................................................83
@@ -309,28 +309,28 @@ PROTEZIONE......................................................................
 4 COORDINATORE PER LA SICUREZZA...............................................................................................84
 5 LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE OPERANO IN
 AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI......................................................................84
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore relative alla
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore relative alla
 parte pratica. Durante il corso di aggiornamento, è opportuno che il docente illustri eventuali modifiche
 normative e evoluzioni tecniche.....................................................................................................................................84
 6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI
-ALL’ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008...........84
-PARTE IV – INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE, EROGAZIONE E
+ALL'ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008...........84
+PARTE IV - INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE, EROGAZIONE E
 MONITORAGGIO DEI CORSI.................................................................................................................................85
-1 INDICAZIONI METODOLOGICHE PER L’ORGANIZZAZIONE E LA GESTIONE DEI
+1 INDICAZIONI METODOLOGICHE PER L'ORGANIZZAZIONE E LA GESTIONE DEI
 CORSI PER I SOGGETTI FORMATORI................................................................................................................85
-1.1 Approccio per processi nell’organizzazione e gestione della formazione su salute e sicurezza nei luoghi
+1.1 Approccio per processi nell'organizzazione e gestione della formazione su salute e sicurezza nei luoghi
 di lavoro..............................................................................................................................................................................86
 1.2 Analisi dei fabbisogni formativi e contesto....................................................................................................86
 1.3 Progettazione......................................................................................................................................................87
 1.4 Erogazione...........................................................................................................................................................89
 1.5 Monitoraggio e valutazione della qualità della formazione..........................................................................89
 1.6 Riesame e adozione di misure e interventi correttivi ai fini del miglioramento.......................................89
-1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per l’organizzazione
+1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per l'organizzazione
 e gestione della formazione su SSL................................................................................................................................90
 2 INDICAZIONI METODOLOGICHE E PROCEDURALI PER LA PROGETTAZIONE DI
 DETTAGLIO...................................................................................................................................................................91
-2.1 Gli obiettivi specifici e i risultati attesi dell’unità didattica...........................................................................92
-2.2 I contenuti dell’unità didattica e la durata.......................................................................................................92
+2.1 Gli obiettivi specifici e i risultati attesi dell'unità didattica...........................................................................92
+2.2 I contenuti dell'unità didattica e la durata.......................................................................................................92
 2.3 La strategia formativa e la metodologia didattica..........................................................................................92
 2.4 Le metodologie didattiche attive......................................................................................................................93
 2.5 Le modalità e i criteri di verifica e valutazione dei risultati..........................................................................94
@@ -360,24 +360,24 @@ PER I CORSI EROGATI IN E-LEARNING...............................................
 3.5 MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE E AGGIORNAMENTO. 104
 4 CONFORMITÀ AL REGOLAMENTO SULLA PROTEZIONE DEI DATI PERSONALI..... 105
 5 MONITORAGGIO E VALUTAZIONE DEL GRADIMENTO...................................................... 105
-6. VERIFICA DELL’APPRENDIMENTO............................................................................................................ 107
+6. VERIFICA DELL'APPRENDIMENTO............................................................................................................ 107
 6.1 VERIFICA DEGLI APPRENDIMENTI................................................................................................. 107
 6.2 INDICAZIONI METODOLOGICHE E OPERATIVE PER LA GESTIONE DELLE
 VERIFICHE DI APPRENDIMENTO.................................................................................................................... 107
 6.3 MODALITÀ E CRITERI DI VERIFICA DEGLI APPRENDIMENTI DEI CORSI DI
 FORMAZIONE E DI AGGIORNAMENTO (TABELLE CORSI/MODALITÀ DI VERIFICA).......... 109
-7 VERIFICA DELL’ EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO
+7 VERIFICA DELL' EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO
 DELLA PRESTAZIONE LAVORATIVA............................................................................................................. 111
 PARTE V -RICONOSCIMENTO DEI CREDITI FORMATIVI..................................................................... 112
 PARTE VI CONTROLLO DELLE ATTIVITÀ FORMATIVE E MONITORAGGIO
-DELL’APPLICAZIONE DELL’ACCORDO........................................................................................................ 113
-PARTE VII– ALTRE DISPOSIZIONI................................................................................................................... 114
+DELL'APPLICAZIONE DELL'ACCORDO........................................................................................................ 113
+PARTE VII- ALTRE DISPOSIZIONI................................................................................................................... 114
 1 ENTRATA IN VIGORE.............................................................................................................................. 114
 2 DISPOSIZIONI TRANSITORIE.............................................................................................................. 114
-Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 21
+Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 21
 dicembre 2011 per i quali è riconosciuto credito formativo totale......................................................................... 114
 DIRIGENTI................................................................................................................................................................... 114
-L’obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento sia stato erogato
+L'obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento sia stato erogato
 da più di 2 anni dalla data di entrata in vigore del presente accordo, dovrà essere ottemperato entro 12 mesi
 dalla data di entrata in vigore del presente accordo.................................................................................................. 114
 FORMAZIONE DEI LAVORATORI SOMMINISTRATI.................................................................. 117
@@ -387,26 +387,26 @@ DISPOSIZIONI FINALI.............................................................
 ## Pagina 10
 
 Pag. 8 a 138
-PARTE I – ORGANIZZAZIONE GENERALE
+PARTE I - ORGANIZZAZIONE GENERALE
 1. INDIVIDUAZIONE DEI SOGGETTI FORMATORI
-Ai sensi del presente Accordo, salvo quanto diversamente disciplinato dall’articolo 98 del d.lgs.
+Ai sensi del presente Accordo, salvo quanto diversamente disciplinato dall'articolo 98 del d.lgs.
 n. 81/2008, i soggetti formatori dei corsi di formazione e dei corsi di aggiornamento, incluso
 seminari e convegni, sono:
-1.1 i soggetti “istituzionali”;
-1.2 i soggetti “accreditati”;
+1.1 i soggetti "istituzionali";
+1.2 i soggetti "accreditati";
 1.3 altri soggetti.
 Con atto successivo, sentite le parti sociali comparativamente più rappresentative a livello
 nazionale e sentita la Conferenza permanente Stato Regione, potranno essere definiti i
 requisiti minimi che dovranno essere posseduti dai soggetti formatori. Con medesimo atto si
-potrà procedere all’istituzione di apposito repertorio/elenco nazionale.
-1.1 SOGGETTI FORMATORI “ISTITUZIONALI”
-Sono soggetti “istituzionali”:
+potrà procedere all'istituzione di apposito repertorio/elenco nazionale.
+1.1 SOGGETTI FORMATORI "ISTITUZIONALI"
+Sono soggetti "istituzionali":
 → le amministrazioni pubbliche di seguito elencate:
 a) Ministero del lavoro e delle politiche sociali;
 b) Ministero della difesa;
 c) Ministero della salute;
-d) Ministero dell’ambiente e della sicurezza energetica;
-e) Ministero dell’interno;
+d) Ministero dell'ambiente e della sicurezza energetica;
+e) Ministero dell'interno;
 f) Ministero delle imprese e del made in Italy;
 g) Regioni e Province autonome di Trento e di Bolzano, anche mediante le proprie
 strutture tecniche operanti nel settore della prevenzione (Aziende Sanitarie Locali,
@@ -420,41 +420,41 @@ l) Corpo nazionale dei vigili del fuoco o i corpi provinciali dei vigili del fuo
 Province autonome di Trento e Bolzano secondo quanto previsto dai rispettivi
 statuti speciali e dalle relative norme di attuazione;
 m) Formez;
-n) SNA (Scuola Nazionale dell’Amministrazione);
+n) SNA (Scuola Nazionale dell'Amministrazione);
 o) Ordini e i collegi professionali regolamentati secondo le vigenti disposizioni
 → le organizzazioni di volontariato della Protezione Civile, la Croce Rossa Italiana ed il Corpo
 Nazionale soccorso alpino e speleologico, nei confronti del proprio personale.
 Per le province autonome di Trento e di Bolzano si provvede alle finalità del presente articolo,
-nell’ambito delle proprie competenze, secondo quanto previsto dai rispettivi ordinamenti.
+nell'ambito delle proprie competenze, secondo quanto previsto dai rispettivi ordinamenti.
 
 
 ## Pagina 11
 
 Pag. 9 a 138
-1.2 SOGGETTI FORMATORI “ACCREDITATI”
-Sono soggetti formatori “accreditati” i soggetti formatori accreditati in conformità al modello di
+1.2 SOGGETTI FORMATORI "ACCREDITATI"
+Sono soggetti formatori "accreditati" i soggetti formatori accreditati in conformità al modello di
 accreditamento definito in ogni Regione e Provincia
-autonoma ai sensi dell’Intesa sancita in data 20 marzo 2008 e pubblicata sulla GURI del 23
+autonoma ai sensi dell'Intesa sancita in data 20 marzo 2008 e pubblicata sulla GURI del 23
 gennaio 2009 presso ciascuna Regione o Provincia Autonoma.
 Per i corsi di cui al presente accordo è necessario che i soggetti formatori accreditati abbiano
-maturato un’esperienza almeno triennale di formazione su salute e sicurezza sul lavoro
+maturato un'esperienza almeno triennale di formazione su salute e sicurezza sul lavoro
 opportunamente documentata.
 In deroga al periodo precedente, per erogare i corsi di formazione lavoratori, preposti e dirigenti
-è sufficiente il solo requisito dell’accreditamento regionale, oltre a quanto previsto nel paragrafo
+è sufficiente il solo requisito dell'accreditamento regionale, oltre a quanto previsto nel paragrafo
 2 della parte I del presente accordo.
 1.3 ALTRI SOGGETTI
 Sono soggetti formatori:
 1. i fondi interprofessionali di settore nel caso in cui, da statuto, si configurino come
 erogatori diretti di formazione;
-2. gli Organismi Paritetici così come individuati dal comma 1 dell’art. 51 del d.lgs. n. 81/2008
+2. gli Organismi Paritetici così come individuati dal comma 1 dell'art. 51 del d.lgs. n. 81/2008
 e inseriti nel repertorio previsto dal comma 1 bis del medesimo articolo;
 3. le associazioni sindacali dei datori di lavoro o dei lavoratori comparativamente più
-rappresentative sul piano nazionale, inserite nell’elenco/repertorio di cui al punto 1 del presente
+rappresentative sul piano nazionale, inserite nell'elenco/repertorio di cui al punto 1 del presente
 accordo e individuate attraverso una valutazione complessiva dei criteri di seguito riportati:
-• la presenza di sedi in almeno la metà delle province del territorio nazionale, distribuite
+- la presenza di sedi in almeno la metà delle province del territorio nazionale, distribuite
 tra nord, centro, sud e isole;
-• la consistenza numerica degli iscritti al singolo sindacato;
-• il numero complessivo dei CCNL sottoscritti, con esclusione di quelli sottoscritti per mera
+- la consistenza numerica degli iscritti al singolo sindacato;
+- il numero complessivo dei CCNL sottoscritti, con esclusione di quelli sottoscritti per mera
 adesione;
 Sino all'emanazione dell'atto di cui al punto 1 del presente accordo i requisiti di cui al precedente
 punto 3 possono essere autocertificati secondo le disposizioni del testo unico delle disposizioni
@@ -466,8 +466,8 @@ Gli organismi paritetici e le associazioni sindacali dei datori di lavoro o dei 
 precedenti punti 2 e 3 possono effettuare le attività formative e di aggiornamento direttamente
 o avvalendosi di strutture formative o di servizio di loro diretta emanazione. Per diretta
 emanazione si intende una struttura che deve essere di proprietà esclusiva o almeno partecipata
-in modo prevalente dell’associazione sindacale dei datori di lavoro o dei lavoratori.
-L’elenco/repertorio di cui al punto 1 del presente accordo riporta anche l’elenco delle strutture
+in modo prevalente dell'associazione sindacale dei datori di lavoro o dei lavoratori.
+L'elenco/repertorio di cui al punto 1 del presente accordo riporta anche l'elenco delle strutture
 formative di diretta emanazione dei soggetti formatori di cui ai precedenti punti 2 e 3.
 
 
@@ -489,17 +489,17 @@ c) attenersi per le attività formative pratiche al rapporto docente/discente no
 1 a 6 (almeno 1 docente ogni 6 discenti);
 d) tenere il registro di presenza dei partecipanti in formato cartaceo o in format o
 elettronico;
-e) verificare, ai fini dell’ammissione alla verifica finale dell’apprendimento, la frequenza di
+e) verificare, ai fini dell'ammissione alla verifica finale dell'apprendimento, la frequenza di
 almeno il 90% delle ore di formazione previste per i corsi di formazione e di abilitazione
 nonché per i corsi di aggiornamento;
 f) predisporre il verbale della verifica finale;
-g) predisporre l’attestato di formazione.
+g) predisporre l'attestato di formazione.
 4. MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE
 Le modalità di erogazione per i corsi di cui al presente accordo sono:
-• presenza fisica
-• video conferenza sincrona
-• e-learning
-• modalità mista.
+- presenza fisica
+- video conferenza sincrona
+- e-learning
+- modalità mista.
 I corsi sono erogati con le modalità indicate nella parte IV.
 5 - VERBALI DELLE VERIFICHE FINALI
 In tutti i corsi di formazione ed aggiornamento devono essere redatti i verbali delle verifiche
@@ -519,7 +519,7 @@ Pag. 11 a 138
 I verbali possono essere su supporto cartaceo o elettronico.
 6 - ATTESTAZIONI
 Ai partecipanti ai corsi di formazione ed aggiornamento, che abbiano regolarmente frequentato
-il corso e superato la verifica finale, deve essere rilasciato dal soggetto formatore un attestato –
+il corso e superato la verifica finale, deve essere rilasciato dal soggetto formatore un attestato -
 unico per ciascun corso - e contenente i seguenti elementi minimi:
 a) denominazione del soggetto formatore;
 b) dati anagrafici del partecipante al corso (nome, cognome, codice fiscale);
@@ -531,7 +531,7 @@ f) data e luogo.
 Gli attestati rilasciati ai sensi del presente accordo hanno validità su tutto il territorio nazionale.
 7 FASCICOLO DEL CORSO
 Per ogni corso di formazione e aggiornamento, il soggetto formatore provvede alla
-custodia/archiviazione (cartacea o elettronica) della documentazione “Fascicolo del corso”. Tale
+custodia/archiviazione (cartacea o elettronica) della documentazione "Fascicolo del corso". Tale
 documentazione deve essere conservata, presso il soggetto formatore, per almeno 10 anni e
 deve contenere:
 → dati anagrafici dei partecipanti;
@@ -544,11 +544,11 @@ deve contenere:
 ## Pagina 14
 
 Pag. 12 a 138
-PARTE II – CORSI DI FORMAZIONE
+PARTE II - CORSI DI FORMAZIONE
 1. PREMESSA
 I percorsi formativi, gli argomenti e la loro durata vanno intesi come minimi, di conseguenza, gli
 argomenti e la loro durata possono essere ampliati ed integrati al fine di raggiungere gli obiettivi
-dei piani formativi derivanti dall’analisi dei fabbisogni formativi e dei contesti organizzativi.
+dei piani formativi derivanti dall'analisi dei fabbisogni formativi e dei contesti organizzativi.
 Per ogni corso di formazione deve essere individuato un unico soggetto formatore. Nel caso in
 cui il corso di formazione sia organizzato da più soggetti formatori, tra questi dovrà essere
 individuato il soggetto formatore responsabile del corso cui spettan o gli adempimenti previsti a
@@ -559,46 +559,46 @@ d.lgs. n. 81/2008 nei confronti dei propri lavoratori, preposti e dirigenti, a c
 rispettato quanto previsto dal presente Accordo. In questo caso il datore di lavoro riveste il ruolo
 di soggetto formatore cui spettano gli adempimenti del presente accordo.
 I datori di lavoro possono altresì avvalersi di soggetti formatori di cui al paragrafo 1 della Parte I
-del presente Accordo per procedere all’effettuazione della formazione dei propri lavoratori,
+del presente Accordo per procedere all'effettuazione della formazione dei propri lavoratori,
 dirigenti e preposti.
-Nell’ambito dell’organizzazione dei suddetti corsi, i datori di lavoro devono avvalersi di docenti
+Nell'ambito dell'organizzazione dei suddetti corsi, i datori di lavoro devono avvalersi di docenti
 formatori in possesso dei requisiti di cui al paragrafo 2 della Parte I del presente Accordo.
 Il datore di lavoro in possesso dei requisiti per lo svolgimento diretto dei compiti del servizio di
-prevenzione e protezione di cui all’articolo 34 del d.lgs. n. 81/2008, può svolgere anche in qualità
+prevenzione e protezione di cui all'articolo 34 del d.lgs. n. 81/2008, può svolgere anche in qualità
 di docente, esclusivamente nei riguardi dei propri lavoratori, preposti e dirigenti, la formazione
 di cui ai paragrafi: 2.1, 2.2 e 2.3.
-In coerenza con le previsioni di cui all’articolo 37, comma 12, del D.Lgs. n. 81/08, i corsi di
+In coerenza con le previsioni di cui all'articolo 37, comma 12, del D.Lgs. n. 81/08, i corsi di
 formazione vanno realizzati previa richiesta di collaborazione agli organismi paritetici di cui al
 Decreto del Ministro del Lavoro e delle Politiche Sociali dell'11 ottobre 2022, n. 171, ove presenti
-nel settore e nel territorio in cui si svolge l’attività del datore. In mancanza, il datore di lavoro
+nel settore e nel territorio in cui si svolge l'attività del datore. In mancanza, il datore di lavoro
 procede alla pianificazione e realizzazione delle attività di formazione. Ove la richiesta riceva
-riscontro da parte dell’organismo paritetico, delle relative indicazioni occorre tener conto nella
+riscontro da parte dell'organismo paritetico, delle relative indicazioni occorre tener conto nella
 pianificazione e realizzazione delle attività di formazione, anche ove tale realizzazione non sia
 affidata agli organismi paritetici. Ove la richiesta di cui al precedente periodo non riceva riscontro
-dall’organismo paritetico entro quindici giorni dal suo invio, il datore di lavoro procede
+dall'organismo paritetico entro quindici giorni dal suo invio, il datore di lavoro procede
 autonomamente alla pianificazione e realizzazione delle attività di formazione.
 2.1 CORSO PER LAVORATORI
 Il percorso formativo di seguito descritto si articola in due moduli distinti coerentemente con
-quanto previsto alle lettere a) e b) del comma 1 e al comma 3 dell’articolo 37 del d.lgs. n. 81/08.
+quanto previsto alle lettere a) e b) del comma 1 e al comma 3 dell'articolo 37 del d.lgs. n. 81/08.
 
 
 ## Pagina 15
 
 Pag. 13 a 138
-Inoltre, con riferimento ai soggetti di cui all’articolo 21, comma 1, del d.lgs. n. 81/ 2008, i
-contenuti e l’articolazione della formazione di seguito individuati possono costituire riferimento
-anche per tali categorie di lavoratori, tenuto conto di quanto previsto dall’art. 21, comma 2,
+Inoltre, con riferimento ai soggetti di cui all'articolo 21, comma 1, del d.lgs. n. 81/ 2008, i
+contenuti e l'articolazione della formazione di seguito individuati possono costituire riferimento
+anche per tali categorie di lavoratori, tenuto conto di quanto previsto dall'art. 21, comma 2,
 lettera b, del d.lgs. n. 81/2008.
 Obiettivi
 Il corso di formazione per lavoratori ha i seguenti obiettivi:
 a) far conoscere i diritti, i doveri e le sanzioni per i vari soggetti aziendali;
 b) far conoscere i concetti di rischio, danno, prevenzione, protezione;
-c) illustrare l’ organizzazione della prevenzione aziendale e le funzioni degli organi di
+c) illustrare l' organizzazione della prevenzione aziendale e le funzioni degli organi di
 vigilanza, di controllo e assistenza;
 d) far conoscere i rischi riferiti alle mansioni e ai possibili danni e alle conseguenti misure e
 procedure di prevenzione e protezione adottate dal datore di lavoro.
 Formazione Generale
-Con riferimento alla lettera a) del comma 1 dell’articolo 37 del d.lgs. n. 81/ 2008, la durata del
+Con riferimento alla lettera a) del comma 1 dell'articolo 37 del d.lgs. n. 81/ 2008, la durata del
 modulo generale non deve essere inferiore alle 4 ore, e deve essere dedicata alla presentazione
 dei concetti generali in tema di prevenzione e sicurezza sul lavoro.
 Contenuti ORE
@@ -611,63 +611,63 @@ dei lavoratori e dei loro rappresentanti previsto dal D. Lgs. 81 del 2008
 la formazione generale costituisce credito formativo permanente
 Formazione Specifica
 La formazione specifica deve essere riferita ai rischi individuati sulla base della valutazione del
-rischio e, quindi, mirare ai rischi specifici dell’attività, incentrandosi sui pericoli e rischi insiti nelle
-mansioni specifiche e sulle relative conseguenze da prevenire nonché sull’individuazione e la
+rischio e, quindi, mirare ai rischi specifici dell'attività, incentrandosi sui pericoli e rischi insiti nelle
+mansioni specifiche e sulle relative conseguenze da prevenire nonché sull'individuazione e la
 conoscenza delle misure di sicurezza da adottare nello svolgimento delle proprie mansioni e di
 contesto lavorativo.
-Con riferimento alla lettera b) del comma 1 e al comma 3 dell’articolo 37 del D.lgs. n. 81/08, la
+Con riferimento alla lettera b) del comma 1 e al comma 3 dell'articolo 37 del D.lgs. n. 81/08, la
 formazione deve avvenire nelle occasioni di cui alle lettere a), b) e c) del comma 4 del medesimo
 articolo, ed avere durata minima di 4, 8 o 12 ore, in funzio ne dei rischi riferiti alle mansioni e ai
 possibili danni e alle conseguenti misure e procedure di prevenzione e protezione caratteristici
-del settore o comparto di appartenenza dell’azienda. Tali aspetti e i rischi specifici di cui ai Titoli
+del settore o comparto di appartenenza dell'azienda. Tali aspetti e i rischi specifici di cui ai Titoli
 del D.lgs. n. 81/08 successivi al I costituiscono oggetto della formazione.
-Infine, tale formazione è soggetta alle ripetizioni periodiche previste al comma 6 dell’articolo 37
-del D.lgs. n. 81/08, con riferimento ai rischi individuati ai sensi dell’articolo 28.
+Infine, tale formazione è soggetta alle ripetizioni periodiche previste al comma 6 dell'articolo 37
+del D.lgs. n. 81/08, con riferimento ai rischi individuati ai sensi dell'articolo 28.
 Contenuti:
 
 
 ## Pagina 16
 
 Pag. 14 a 138
-• rischi infortunistici;
-• meccanici generali;
-• elettrici generali;
-• macchine;
-•attrezzature;
-• cadute dall’alto;
-• rischi da esplosione;
-• rischi connessi all’impiego di agenti chimici, cancerogeni e mutageni;
-• rischi biologici;
-•rischi fisici (Rumore, Vibrazione, Radiazioni, Microclima e illuminazione, campi elettromagnetici
+- rischi infortunistici;
+- meccanici generali;
+- elettrici generali;
+- macchine;
+-attrezzature;
+- cadute dall'alto;
+- rischi da esplosione;
+- rischi connessi all'impiego di agenti chimici, cancerogeni e mutageni;
+- rischi biologici;
+-rischi fisici (Rumore, Vibrazione, Radiazioni, Microclima e illuminazione, campi elettromagnetici
 ecc. );
-• videoterminali;
-• DPI;
-• ambienti di lavoro;
-• rischi da fattori psicosociali e stress lavoro-correlato;
-• movimentazione manuale carichi;
-• movimentazione merci (apparecchi di sollevamento, mezzi trasporto);
-• segnaletica;
-• emergenze,
-• le procedure di sicurezza con riferimento al profilo di rischio specifico;
-• procedure esodo e incendi;
-• procedure organizzative per il primo soccorso;
-• incidenti e infortuni mancati;
-• altri Rischi.
-Durata Minima in base alla classificazione dei settori di cui all’Allegato IV (Individuazione
+- videoterminali;
+- DPI;
+- ambienti di lavoro;
+- rischi da fattori psicosociali e stress lavoro-correlato;
+- movimentazione manuale carichi;
+- movimentazione merci (apparecchi di sollevamento, mezzi trasporto);
+- segnaletica;
+- emergenze,
+- le procedure di sicurezza con riferimento al profilo di rischio specifico;
+- procedure esodo e incendi;
+- procedure organizzative per il primo soccorso;
+- incidenti e infortuni mancati;
+- altri Rischi.
+Durata Minima in base alla classificazione dei settori di cui all'Allegato IV (Individuazione
 macrocategorie di rischio e corrispondenze ATECO 2007):
-• 4 ore per i settori della classe di rischio basso;
-• 8 ore per i settori della classe di rischio medio;
-• 12 ore per i settori della classe di rischio alto.
+- 4 ore per i settori della classe di rischio basso;
+- 8 ore per i settori della classe di rischio medio;
+- 12 ore per i settori della classe di rischio alto.
 La trattazione dei rischi sopra indicati va declinata secondo la loro effettiva presenza nel settore
-di appartenenza dell’azienda e della specificità del rischio ovvero secondo gli obblighi e i rischi
-propri delle attività svolte dal lavoratore autonomo, s econdo quanto previsto all’articolo 21 del
-D.lgs. n. 81/08. I contenuti e la durata sono subordinati all’esito della valutazione dei rischi
+di appartenenza dell'azienda e della specificità del rischio ovvero secondo gli obblighi e i rischi
+propri delle attività svolte dal lavoratore autonomo, s econdo quanto previsto all'articolo 21 del
+D.lgs. n. 81/08. I contenuti e la durata sono subordinati all'esito della valutazione dei rischi
 effettuata dal datore di lavoro, fatta salva la contrattazione collettiva e le procedure concordate
 a livello settoriale e/o aziendale e vanno pertanto intesi come minimi. Il percorso formativo e i
-relativi argomenti possono essere ampliati in base alla natura e all’entità dei rischi effettivamente
+relativi argomenti possono essere ampliati in base alla natura e all'entità dei rischi effettivamente
 presenti in azienda, aumentando di conseguenza il numero di ore di formazione necessario.
-Il numero di ore di formazione indicato per ciascun settore comprende la “Formazione Generale”
-e quella “ Specifica”, ma non “l’Addestramento”, così come definito all’articolo 2, comma 1,
+Il numero di ore di formazione indicato per ciascun settore comprende la "Formazione Generale"
+e quella " Specifica", ma non "l'Addestramento", così come definito all'articolo 2, comma 1,
 lettera cc), del D.lgs. n. 81/08, ove previsto.
 Deve essere garantita la maggiore omogeneità possibile tra i partecipanti ad ogni singolo corso,
 con particolare riferimento al settore di appartenenza.
@@ -677,14 +677,14 @@ con particolare riferimento al settore di appartenenza.
 
 Pag. 15 a 138
 Durata minima complessiva dei corsi di formazione per i lavoratori, in base alla classificazione dei
-settori di cui all’Allegato IV:
-• 4 ore di Formazione Generale + 4 ore di Formazione Specifica per i settori della classe di rischio
+settori di cui all'Allegato IV:
+- 4 ore di Formazione Generale + 4 ore di Formazione Specifica per i settori della classe di rischio
 basso:
 TOTALE 8 ore
-• 4 ore di Formazione Generale + 8 ore di Formazione Specifica per i settori della classe di rischio
+- 4 ore di Formazione Generale + 8 ore di Formazione Specifica per i settori della classe di rischio
 medio:
 TOTALE 12 ore
-• 4 ore di Formazione Generale + 12 ore di Formazione Specifica per i settori della classe di rischio
+- 4 ore di Formazione Generale + 12 ore di Formazione Specifica per i settori della classe di rischio
 alto:
 TOTALE 16 ore
 I progetti di formazione specifica dovrebbero prendere in esame gruppi omogenei di lavoratori
@@ -698,10 +698,10 @@ Costituisce credito formativo, ai fini della formazione generale e specifica, la
 derivante dalla frequenza di corsi di formazione professionale presso strutture della formazione
 professionale o presso enti di formazione professionale accreditati dalle Regioni e Province
 autonome che abbiano contenuti e durata conformi al presente Accordo.
-Rimane comunque salvo l’obbligo del datore di lavoro di assicurare la formazione specifica
+Rimane comunque salvo l'obbligo del datore di lavoro di assicurare la formazione specifica
 secondo le risultanze della valutazione dei rischi.
-Per il comparto delle costruzioni, i percorsi formativi che rientrano nell’ambito del progetto
-nazionale “16ore-MICS” (Moduli Integrati per Costruire in Sicurezza), definito da FORMEDIL (Ente
+Per il comparto delle costruzioni, i percorsi formativi che rientrano nell'ambito del progetto
+nazionale "16ore-MICS" (Moduli Integrati per Costruire in Sicurezza), definito da FORMEDIL (Ente
 unico formazione e sicurezza) ed erogati dalle Scuole edili/Enti unificati territoriali, sono
 riconosciuti integralmente corrispondenti alla Formazione Generale e Specifica di cui al presente
 accordo.
@@ -725,7 +725,7 @@ opera il preposto e relative misure di prevenzione e protezione;
 g) far conoscere le tecniche di comunicazione con gli altri soggetti della prevenzione, in
 particolare i lavoratori;
 h) illustrare le funzioni di controllo attribuite al preposto: sovraintendenza, vigilanza,
-interruzione dell’attività, informazione e segnalazione;
+interruzione dell'attività, informazione e segnalazione;
 i) illustrare gli strumenti efficaci di comunicazione e cooperazione con il datore di lavoro, i
 dirigenti e il servizio di prevenzione e protezione per attuare le modalità operative.
 Requisiti di accesso
@@ -739,11 +739,11 @@ obblighi posti in capo al preposto
 e al suo rapporto con le altre
 figure della prevenzione
 aziendale.
-• Individuazione del preposto;
-• preposto di fatto ed effettività del
+- Individuazione del preposto;
+- preposto di fatto ed effettività del
 ruolo;
-• compiti e obblighi del preposto;
-• relazioni tra i vari soggetti interni ed
+- compiti e obblighi del preposto;
+- relazioni tra i vari soggetti interni ed
 esterni del sistema di prevenzione.
 Gestione e organizzazione della
 sicurezza
@@ -755,11 +755,11 @@ informare, segnalare.
 efficacemente con il datore di
 lavoro e i dirigenti per attuare le
 modalità operative
-• Modalità di esercizio della funzione
+- Modalità di esercizio della funzione
 di controllo dell'osservanza da parte
-dei lavoratori di cui all’art. 19 del
+dei lavoratori di cui all'art. 19 del
 d.lgs. n. 81/2008.
-• Modalità di comunicazione e
+- Modalità di comunicazione e
 relazione con i soggetti della
 prevenzione aziendale.
 Valutazione delle situazioni di
@@ -779,27 +779,27 @@ somministrazione ed i relativi
 subappalti
 - Illustrare le modalità operative e
 di intervento del preposto.
-• misure tecniche, organizzative e
+- misure tecniche, organizzative e
 procedurali di prevenzione e
 protezione adottate a seguito della
 valutazione dei rischi dell'azienda,
 con particolare riferimento al
 contesto in cui il preposto opera.
-• Obblighi connessi ai contratti di
+- Obblighi connessi ai contratti di
 appalto, d'opera e di
 somministrazione;
-• gestione del rischio interferenziale e
+- gestione del rischio interferenziale e
 il DUVRI.
-• Modalità per sovraintendere e
+- Modalità per sovraintendere e
 vigilare sulle attività lavorative per
-garantire l’attuazione delle direttive
+garantire l'attuazione delle direttive
 ricevute;
 
 
 ## Pagina 19
 
 Pag. 17 a 138
-• l’importanza di individuare e
+- l'importanza di individuare e
 segnalare incidenti e infortuni
 mancati.
 Comunicazione e informazione
@@ -808,7 +808,7 @@ strumenti efficaci di
 comunicazione con gli altri
 soggetti della prevenzione, in
 particolare i lavoratori.
-• Tecniche e strumenti di
+- Tecniche e strumenti di
 comunicazione e sensibilizzazione
 dei lavoratori, in particolare
 neoassunti, somministrati, stranieri.
@@ -817,10 +817,10 @@ I dirigenti, attraverso la frequenza del corso, dovranno essere in grado di svol
 attribuite dalla normativa ( art. 18 d.lgs. n. 81/2008), acquisendo la consapevolezza delle azioni
 conseguenti alle responsabilità del ruolo.
 Il presente corso è valido anche per gli obblighi formativi per la figura del dirigente previsti
-dall’art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla frequenza del modulo aggiuntivo
-“cantieri”.
+dall'art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla frequenza del modulo aggiuntivo
+"cantieri".
 Obiettivi
-Il corso di formazione ha l’obiettivo di fornire ai discenti le competenze necessarie per la salute
+Il corso di formazione ha l'obiettivo di fornire ai discenti le competenze necessarie per la salute
 e la sicurezza sul lavoro per un approccio organizzativo e gestionale.
 Il corso di formazione per dirigenti ha i seguenti obiettivi:
 a) far conoscere il ruolo e gli obblighi posti in capo al dirigente e al suo rapporto con le
@@ -831,7 +831,7 @@ cui opera il dirigente e le relative direttive del datore di lavoro in relazione
 di prevenzione e protezione;
 d) illustrare gli strumenti di comunicazione da adottare nel rapporto con gli altri soggetti
 della prevenzione aziendale;
-e) illustrare le funzioni relative all’ organizzazione e alla gestione de i processi e delle
+e) illustrare le funzioni relative all' organizzazione e alla gestione de i processi e delle
 attività in materia di salute e sicurezza sui luoghi di lavoro.
 Durata minima 12 ore
 Modulo Obiettivi formativi Contenuti del modulo
@@ -841,23 +841,23 @@ obblighi posti in capo al
 dirigente e al suo rapporto con
 le altre figure della prevenzione
 aziendale.
-• Il sistema legislativo in materia di
+- Il sistema legislativo in materia di
 salute e sicurezza dei lavoratori.
-• I soggetti del sistema di prevenzione
+- I soggetti del sistema di prevenzione
 aziendale secondo il d.lgs. n.
 81/2008: compiti, obblighi,
 responsabilità e tutela assicurativa.
-• La delega di funzioni.
+- La delega di funzioni.
 - Illustrare le responsabilità
 penali, civili ed amministrative
 poste in capo al dirigente.
-• La responsabilità civile e penale del
+- La responsabilità civile e penale del
 dirigente;
-• la responsabilità amministrativa
+- la responsabilità amministrativa
 d.lgs. n. 231/2001 nel settore privato;
-• prevenzione della violenza delle
+- prevenzione della violenza delle
 molestie sul luogo di lavoro (Documento
-ILO C 190 Convenzione sull’eliminazione
+ILO C 190 Convenzione sull'eliminazione
 
 
 ## Pagina 20
@@ -865,15 +865,15 @@ ILO C 190 Convenzione sull’eliminazione
 Pag. 18 a 138
 della violenza e delle molestie nel mondo
 del lavoro);
-• inserimento di lavoratori disabili
+- inserimento di lavoratori disabili
 (riferimento al d.lgs. 213/2003 (art.
 3, c. 3 bis), DL 76/2013 (art. 9, c. 4 -
 ter) convertito con L. 99/2013).
 - Illustrare il sistema istituzionale
 della prevenzione e il ruolo degli
 organi di vigilanza
-• I ruoli delle ASL, INL, VVF e INAIL;
-• gli organi di vigilanza e le procedure
+- I ruoli delle ASL, INL, VVF e INAIL;
+- gli organi di vigilanza e le procedure
 ispettive.
 Gestione e organizzazione della
 sicurezza
@@ -886,13 +886,13 @@ sui luoghi di lavoro.
 e i sistemi di gestione aziendali
 con riferimento alla legislazione
 e normativa volontaria.
-• Modalità di gestione ed
+- Modalità di gestione ed
 organizzazione dei processi relative
 alla salute e sicurezza sui luoghi di
 lavoro.
-• Modelli di organizzazione e gestione
-di cui all’art. 30 del d.lgs. n. 81/2008;
-• i sistemi di gestione della salute e
+- Modelli di organizzazione e gestione
+di cui all'art. 30 del d.lgs. n. 81/2008;
+- i sistemi di gestione della salute e
 sicurezza sul lavoro in relazione alla
 normativa volontaria.
 Compiti specifici del dirigente in
@@ -913,20 +913,20 @@ somministrazione ed i relativi
 subappalti.
 - Illustrare le modalità di
 organizzazione delle emergenze
-• Misure tecniche, organizzative e
+- Misure tecniche, organizzative e
 procedurali di prevenzione e
 protezione adottate a seguito della
 valutazione dei rischi dell'azienda,
 con particolare riferimento al
 contesto in cui il dirigente opera;
-• importanza della sorveglianza
+- importanza della sorveglianza
 sanitaria.
-• Obblighi connessi ai contratti di
+- Obblighi connessi ai contratti di
 appalto, d'opera e di
 somministrazione;
-• gestione del rischio interferenziale e
+- gestione del rischio interferenziale e
 il DUVRI.
-• Organizzazione della prevenzione
+- Organizzazione della prevenzione
 incendi, primo soccorso e gestione
 delle emergenze.
 Comunicazione, formazione,
@@ -937,27 +937,27 @@ strumenti efficaci di
 comunicazione con gli altri
 soggetti della prevenzione
 aziendale.
-• Tecniche e strumenti di
+- Tecniche e strumenti di
 comunicazione e informazione;
-• gli obblighi formativi per i diversi
+- gli obblighi formativi per i diversi
 soggetti aziendali;
-• gestione dei gruppi di lavoro e dei
+- gestione dei gruppi di lavoro e dei
 conflitti;
-• consultazione e partecipazione dei
+- consultazione e partecipazione dei
 rappresentanti dei lavoratori per la
 sicurezza.
-Modulo aggiuntivo “Cantieri”: durata minima 6 ore
+Modulo aggiuntivo "Cantieri": durata minima 6 ore
 Modulo Obiettivi formativi Contenuti del modulo
 Compiti specifici del dirigente
-dell’impresa affidataria nei
-Far conoscere: • I soggetti definiti dal Titolo IV capo I,
+dell'impresa affidataria nei
+Far conoscere: - I soggetti definiti dal Titolo IV capo I,
 e relativi obblighi e responsabilità.
 
 
 ## Pagina 21
 
 Pag. 19 a 138
-cantieri temporanei e mobili - l’organizzazione del cantiere e i
+cantieri temporanei e mobili - l'organizzazione del cantiere e i
 rapporti tra i diversi soggetti
 - I contenuti di PSC e POS
 Far acquisire le competenze in
@@ -971,27 +971,27 @@ di cui agli articoli 95 e 96 del
 d.lgs. n. 81/2008;
 - verifica della congruenza dei
 POS delle imprese esecutrici.
-• La redazione dei piani di sicurezza:
+- La redazione dei piani di sicurezza:
 finalità, tempi e contenuti.
-• Le misure generali di tutela secondo
-quanto previsto dall’art. 95 del d.lgs.
+- Le misure generali di tutela secondo
+quanto previsto dall'art. 95 del d.lgs.
 n. 81/2008.
-• Gli obblighi del datore di lavoro, dei
-dirigenti e dei preposti di cui all’art.
+- Gli obblighi del datore di lavoro, dei
+dirigenti e dei preposti di cui all'art.
 96 del d.lgs. n. 81/2008;
-• Il cronoprogramma dei lavori.
-• Esempi e analisi di un PSC.
-• Esempi e analisi di un POS.
+- Il cronoprogramma dei lavori.
+- Esempi e analisi di un PSC.
+- Esempi e analisi di un POS.
 3. CORSO PER DATORE DI LAVORO
 I datori di lavoro attraverso la frequenza del corso dovranno essere in grado di svolgere le
 funzioni loro attribuite dalla normativa (art. 18 d.lgs. n. 81/2008), acquisendo la consapevolezza
 delle azioni conseguenti alle responsabilità del ruolo.
 Il presente corso è valido anche per gli obblighi formativi per la figura del datore di lavoro
-dell’impresa affidataria previsti dall’art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla
-frequenza del modulo aggiuntivo “cantieri”.
+dell'impresa affidataria previsti dall'art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla
+frequenza del modulo aggiuntivo "cantieri".
 Obiettivi
-Il corso di formazione ha l’obiettivo di fornire ai discenti competenze organizzative, gestionali e
-giuridiche per gestire il processo della salute e sicurezza sul posto di lavoro nell’ottica del
+Il corso di formazione ha l'obiettivo di fornire ai discenti competenze organizzative, gestionali e
+giuridiche per gestire il processo della salute e sicurezza sul posto di lavoro nell'ottica del
 superamento di una visione formale della materia a favore di una visione sostanziale orientata
 alla prevenzione e alla protezione della salute dei lavoratori, anche alla luce della continua
 evoluzione del mondo del lavoro.
@@ -1000,9 +1000,9 @@ a) far acquisire le conoscenze e le competenze per esercitare il ruolo di datore
 b) far conoscere gli obblighi e le responsabilità penali, civili ed amministrative posti in capo
 al datore di lavoro e alle altre figure della prevenzione aziendale;
 c) illustrare il sistema istituzionale della prevenzione e il ruolo degli organi di vigilanza;
-d) far acquisire competenze utili per l’organizzazione e la gestione del sistema di
+d) far acquisire competenze utili per l'organizzazione e la gestione del sistema di
 prevenzione e protezione aziendale;
-e) illustrare gli strumenti di comunicazione più idonei al proprio contesto per un’efficace
+e) illustrare gli strumenti di comunicazione più idonei al proprio contesto per un'efficace
 interazione e relazione.
 Durata minima 16 ore
 Modulo Obiettivi formativi Contenuti del modulo
@@ -1010,9 +1010,9 @@ Giuridico normativo
 - Far acquisire le conoscenze e le
 competenze per esercitare il
 ruolo di datore di lavoro.
-• Il sistema legislativo in materia di salute e
+- Il sistema legislativo in materia di salute e
 sicurezza dei lavoratori.
-• L’identificazione e il ruolo del datore di
+- L'identificazione e il ruolo del datore di
 lavoro in relazione al contesto
 organizzativo.
 
@@ -1029,41 +1029,41 @@ aziendale.
 - Illustrare il sistema istituzionale
 della prevenzione e il ruolo degli
 organi di vigilanza
-• I soggetti del sistema di prevenzione
+- I soggetti del sistema di prevenzione
 aziendale secondo il d.lgs. n. 81/2008:
 compiti, obblighi, responsabilità e tutela
 assicurativa.
-• La delega di funzioni: condizioni e limiti
-• La responsabilità civile e penale del datore
+- La delega di funzioni: condizioni e limiti
+- La responsabilità civile e penale del datore
 di lavoro.
-• La responsabilità amministrativa ai sensi
+- La responsabilità amministrativa ai sensi
 del d.lgs. n. 231/2001 nel settore privato.
-• Prevenzione della violenza delle molestie
+- Prevenzione della violenza delle molestie
 sul luogo di lavoro (Documento ILO C 190
-Convenzione sull’eliminazione della
+Convenzione sull'eliminazione della
 violenza e delle molestie nel mondo del
 lavoro).
-• Inserimento di lavoratori disabili
+- Inserimento di lavoratori disabili
 (riferimento al d.lgs. 213/2003 (art. 3, c. 3
 bis), DL 76/2013 (art. 9, c. 4-ter) convertito
 con L. 99/2013).
-• I ruoli delle ASL, INL, VVF e Inail.
-• Gli organi di vigilanza e le procedure
+- I ruoli delle ASL, INL, VVF e Inail.
+- Gli organi di vigilanza e le procedure
 ispettive.
 Organizzazione e
 gestione della SSL
 - Far acquisire competenze utili
-per l’organizzazione e la
+per l'organizzazione e la
 gestione del sistema di
 prevenzione e protezione
 aziendale;
-• Le misure organizzative e gestionali di
+- Le misure organizzative e gestionali di
 tutela ai sensi di quanto previsto dagli art.li
 15 e art. 30 del d.lgs. n. 81/2008:
 a. rispetto degli standard tecnico -
 strutturali di legge relativi a attrezzature,
 impianti, luoghi di lavoro, agenti chimici,
-fisici e biologici; con l’acquisizione della
+fisici e biologici; con l'acquisizione della
 relativa documentazione e certificazioni
 obbligatorie di legge.
 Valutazione dei rischi predisposizione
@@ -1098,28 +1098,28 @@ soggetti ai sensi del D.lgs. 81/08;
 Pag. 21 a 138
 - illustrare gli strumenti di
 comunicazione più idonei al
-proprio contesto per un’efficace
+proprio contesto per un'efficace
 interazione e relazione
 f. vigilanza con riferimento al rispetto delle
 procedure e delle istruzioni di lavoro in
 sicurezza da parte dei lavoratori e alle
-periodiche verifiche dell’applicazione e
-dell’efficacia delle procedure adottate.
-• Modelli di organizzazione e gestione di
+periodiche verifiche dell'applicazione e
+dell'efficacia delle procedure adottate.
+- Modelli di organizzazione e gestione di
 tipo volontario
-• Costi della mancata sicurezza e benefici
+- Costi della mancata sicurezza e benefici
 della sicurezza
-• Tecniche e strumenti di comunicazione e
+- Tecniche e strumenti di comunicazione e
 informazione
-Modulo aggiuntivo “Cantieri”: durata minima 6 ore
+Modulo aggiuntivo "Cantieri": durata minima 6 ore
 Modulo Obiettivi formativi Contenuti del modulo
 Compiti specifici del
 datore di lavoro
-dell’impresa affidataria
+dell'impresa affidataria
 nei cantieri temporanei e
 mobili
 Far conoscere:
-- l’organizzazione del cantiere e i
+- l'organizzazione del cantiere e i
 rapporti tra i diversi soggetti
 - I contenuti di PSC e POS
 Far acquisire le competenze in
@@ -1133,25 +1133,25 @@ di cui agli articoli 95 e 96 del
 d.lgs. n. 81/2008;
 - verifica della congruenza dei
 POS delle imprese esecutrici.
-• I soggetti definiti dal Titolo IV capo I, e
+- I soggetti definiti dal Titolo IV capo I, e
 relativi obblighi e responsabilità
-• La redazione dei piani di sicurezza: finalità,
+- La redazione dei piani di sicurezza: finalità,
 tempi e contenuti.
-• Le misure generali di tutela secondo quanto
-previsto dall’art. 95 del d.lgs. n. 81/2008
-• Gli obblighi del datore di lavoro, dei dirigenti
-e dei preposti di cui all’art. 96 del d.lgs. n.
+- Le misure generali di tutela secondo quanto
+previsto dall'art. 95 del d.lgs. n. 81/2008
+- Gli obblighi del datore di lavoro, dei dirigenti
+e dei preposti di cui all'art. 96 del d.lgs. n.
 81/2008
-• Il cronoprogramma dei lavori
-• Esempi e analisi di un PSC
-• Esempi e analisi di un POS
+- Il cronoprogramma dei lavori
+- Esempi e analisi di un PSC
+- Esempi e analisi di un POS
 
 
 ## Pagina 24
 
 Pag. 22 a 138
 4. CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008
 Obiettivi
 Il corso di formazione è finalizzato a fornire ai d atori di lavoro le competenze tecniche,
 organizzative e procedurali proprie del responsabile del servizio di prevenzione e protezione.
@@ -1170,41 +1170,41 @@ del rischio e far acquisire le
 capacità metodologiche per la
 redazione del documento di
 valutazione dei rischi
-• i criteri e gli strumenti per
-l’individuazione e la valutazione
+- i criteri e gli strumenti per
+l'individuazione e la valutazione
 dei rischi;
-• struttura e contenuti del
+- struttura e contenuti del
 documento di valutazione dei
 rischi;
-• l’analisi degli infortuni mancati
+- l'analisi degli infortuni mancati
 e delle modalità di accadimento
 degli stessi;
-• la gestione della
+- la gestione della
 documentazione tecnico
 amministrativa;
-• le procedure semplificate per la
+- le procedure semplificate per la
 redazione della valutazione del
 rischio.
 I fattori di rischio e misure di
 prevenzione e protezione
 - Fare acquisire le competenze
 relative ai fattori di rischio e
-all’adozione delle misure di
+all'adozione delle misure di
 prevenzione e protezione
 a) fattori di rischio relativi a:
-• luoghi di lavoro;
-• attrezzature di lavoro;
-• movimentazione manuale dei
+- luoghi di lavoro;
+- attrezzature di lavoro;
+- movimentazione manuale dei
 carichi
-• VDT;
-• agenti fisici;
-• sostanze pericolose;
-• agenti biologici;
-• atmosfere esplosive;
-• stress lavoro-correlato e fattori
+- VDT;
+- agenti fisici;
+- sostanze pericolose;
+- agenti biologici;
+- atmosfere esplosive;
+- stress lavoro-correlato e fattori
 psicosociali;
-• rischi ricollegabili al genere,
-all’età e alla provenienza da
+- rischi ricollegabili al genere,
+all'età e alla provenienza da
 altri paesi;
 b) misure tecniche, organizzative e
 procedurali di prevenzione e
@@ -1220,7 +1220,7 @@ Pag. 23 a 138
 Esercitazione - Fare acquisire le competenze
 metodologiche per strutturare il
 DVR
-• Predisposizione di un
+- Predisposizione di un
 documento di valutazione dei
 rischi per un caso concreto
 riferito al settore ATECO di
@@ -1229,7 +1229,7 @@ Moduli tecnici-integrativi:
 Modulo Riferimento codice settori Ateco 2007
 Lettera - Descrizione macrocategoria Durata
 Modulo integrativo 1:
-Agricoltura – Silvicoltura - Zootecnia
+Agricoltura - Silvicoltura - Zootecnia
 A 01-02 - Agricoltura, Silvicoltura e Zootecnia 16 ore
 Modulo integrativo 2:
 Pesca
@@ -1247,26 +1247,26 @@ Modulo integrativo 1: Agricoltura, silvicoltura e zootecnia (16 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro (es. serre, campi, boschi, ecc.)
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
 UD5 Sostanze pericolose
 UD6 Agenti biologici
 UD7 Agenti fisici
 UD8 Ambienti confinati e\o sospetti di inquinamento
-UD9 Rischio incendio e gestione dell’emergenza
-UD10 Rischio di caduta dall’ alto
+UD9 Rischio incendio e gestione dell'emergenza
+UD10 Rischio di caduta dall' alto
 UD11 Movimentazione dei carichi
 Modulo integrativo 2: Pesca (12 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Legislazione specifica di riferimento
 UD3 Organizzazione del lavoro: ambienti di lavoro
 UD4 Normativa tecnica e per strutture e impianti
-UD5 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD5 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD6 Sostanze pericolose
 UD7 Agenti biologici
 UD8 Agenti fisici
 UD9 Ambienti confinati e\o sospetti di inquinamento
-UD10 Rischio incendio e gestione dell’emergenza
-UD11 Rischio cadute dall’alto, a bordo e fuori bordo
+UD10 Rischio incendio e gestione dell'emergenza
+UD11 Rischio cadute dall'alto, a bordo e fuori bordo
 
 
 ## Pagina 26
@@ -1278,13 +1278,13 @@ Modulo integrativo 3: Costruzioni (16 ore)
 UD1 Soggetti definiti dal Titolo IV capo I, e relativi obblighi e responsabilità
 UD2 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione, tecniche e fasi lavorative, aree di lavoro dei cantieri
-UD3 Le misure generali di tutela secondo quanto previsto dall’art. 95 del d.lgs. n. 81/2008
+UD3 Le misure generali di tutela secondo quanto previsto dall'art. 95 del d.lgs. n. 81/2008
 UD4 Il piano operativo di sicurezza (POS)
 UD5 Cenni sul PSC
-UD6 Cadute dall’alto e opere provvisionali
+UD6 Cadute dall'alto e opere provvisionali
 UD7 Lavori di demolizione e scavo
 UD8 Impianti elettrici e illuminazione di cantiere
-UD9 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD9 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD10 Movimentazione dei carichi manuale e meccanica
 UD11 Sostanze pericolose
 UD12 Agenti biologici
@@ -1303,7 +1303,7 @@ UD6 Rischi legati agli impianti e alle attrezzature di lavoro
 UD7 Manutenzione impianti e gestione fornitori
 UD8 Sostanze pericolose
 UD9 Agenti fisici
-UD10 Rischi incendio ed esplosioni e gestione dell’emergenza
+UD10 Rischi incendio ed esplosioni e gestione dell'emergenza
 UD11 Ambienti confinati e\o sospetti di inquinamento
 UD12 Dispositivi di protezione collettiva ed individuali
 UD13 Gestione dei rifiuti
@@ -1313,33 +1313,33 @@ UD13 Gestione dei rifiuti
 
 Pag. 25 a 138
 5 - CORSO PER RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE DAI
-RISCHI ai sensi dell’art. 32 del d.lgs. n. 81/2008
+RISCHI ai sensi dell'art. 32 del d.lgs. n. 81/2008
 Il percorso formativo per responsabili ed addetti dei servizi di prevenzione e protezione è
 strutturato in due distinti moduli: A e B.
 I responsabili del servizio di prevenzione e protezione devono inoltre frequentare anche il
 modulo C.
-5.1 TITOLI DI STUDIO VALIDI AI FINI DELL’ESONERO DALLA FREQUENZA DEL MODULO A E
+5.1 TITOLI DI STUDIO VALIDI AI FINI DELL'ESONERO DALLA FREQUENZA DEL MODULO A E
 DEL MODULO B (COMUNE E SPECIALISTICO)
-Di seguito si riportano i titoli di studio validi ai fini dell’esonero dalla frequenza del modulo A e
+Di seguito si riportano i titoli di studio validi ai fini dell'esonero dalla frequenza del modulo A e
 del modulo B (comune e specialistico):
-• laurea magistrale conseguita in una delle seguenti classi: LM-4, da LM-20 a LM 25, da LM
+- laurea magistrale conseguita in una delle seguenti classi: LM-4, da LM-20 a LM 25, da LM
 27 a LM -35, di cui al decreto del Ministro Università e ricerca del 16 marzo 2007,
 pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 157 del 9 luglio 2007;
-• laurea specialistica conseguita nelle seguenti classi: 4/S, da 25/S a 38/S di cui al decreto
-del Ministro dell’Università e della ricerca scientifica e tecnologica del 28 novembre 2000,
+- laurea specialistica conseguita nelle seguenti classi: 4/S, da 25/S a 38/S di cui al decreto
+del Ministro dell'Università e della ricerca scientifica e tecnologica del 28 novembre 2000,
 pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 18 del 23 gennaio 2001;
-• laurea magistrale conseguita nella classe LM/SNT 4 di cui al decreto del Ministro
-dell’Università e della ricerca scientifica e tecnologica del 8 gennaio 2009, pubblicato nel
+- laurea magistrale conseguita nella classe LM/SNT 4 di cui al decreto del Ministro
+dell'Università e della ricerca scientifica e tecnologica del 8 gennaio 2009, pubblicato nel
 supplemento ordinario alla Gazzetta Ufficiale n. 122 del 28 maggio 2009;
-• laurea conseguita nella classe L/SNT 4 di cui al decreto del Ministro dell’Università e della
+- laurea conseguita nella classe L/SNT 4 di cui al decreto del Ministro dell'Università e della
 ricerca scientifica e tecnologica del 19 febbraio 2009, pubblicato nel supplemento
 ordinario alla Gazzetta Ufficiale n. 119 del 25 maggio 2009.
-Sono altresì validi, ai fini dell’esonero di cui al presente punto, tutti i diplomi di laurea del vecchio
+Sono altresì validi, ai fini dell'esonero di cui al presente punto, tutti i diplomi di laurea del vecchio
 ordinamento di Ingegneria e Architettura, conseguiti ai sensi del Regio Decreto 30 settembre
 1938, n.1652.
 Costituisce altresì titolo di esonero dalla frequenza relativamente a ciascun modulo (moduli A-B-
 C):
-• partecipazione ad un corso universitario di specializzazione, perfezionamento o master i
+- partecipazione ad un corso universitario di specializzazione, perfezionamento o master i
 cui contenuti e le relative modalità di svolgimento siano conformi ai contenuti del
 presente Accordo. L'esonero di cui al presente punto deve risultare da certificazio ne
 emessa dall'Università ove viene dichiarata l'equivalenza dei percorsi formativi ai
@@ -1347,8 +1347,8 @@ contenuti ed alla durata previsti dal presente accordo.
 Sono altresì esonerati dalla frequenza dei moduli (A-B-C) coloro che abbiano svolto attività
 tecnica in materia di salute e sicurezza, per almeno cinque anni, in qualità di pubblici ufficiali o di
 incaricati di pubblico servizio.
-Nell’allegato I è riportato l’elenco delle classi di laurea per l’esonero dalla frequenza ai corsi di
-formazione di cui all’articolo 32, comma 2, primo periodo, del d.lgs. n. 81/2008.
+Nell'allegato I è riportato l'elenco delle classi di laurea per l'esonero dalla frequenza ai corsi di
+formazione di cui all'articolo 32, comma 2, primo periodo, del d.lgs. n. 81/2008.
 5.2 MODULO A
 Il Modulo A costituisce il corso base per lo svolgimento della funzione di RSPP e di ASPP.
 La durata complessiva è di 28 ore, escluse le verifiche di apprendimento finali.
@@ -1357,7 +1357,7 @@ La durata complessiva è di 28 ore, escluse le verifiche di apprendimento finali
 ## Pagina 28
 
 Pag. 26 a 138
-Il Modulo A è propedeutico per l’accesso agli altri moduli. Il suo superamento consente l’accesso
+Il Modulo A è propedeutico per l'accesso agli altri moduli. Il suo superamento consente l'accesso
 a tutti i percorsi formativi.
 Il Modulo A deve consentire ai responsabili e agli addetti dei servizi di prevenzione e protezione
 di essere in grado di conoscere:
@@ -1378,10 +1378,10 @@ Durata minima complessiva 28 ore.
 UNITÀ DIDATTICA A1 - 8
 ORE
 Obiettivi formativi Contenuti del Modulo
-L’approccio alla
+L'approccio alla
 prevenzione nel d.lgs. n.
 81/2008
-- Illustrare l’approccio
+- Illustrare l'approccio
 alla prevenzione e
 protezione disciplinata
 nel d.lgs. n. 81/2008 per
@@ -1389,7 +1389,7 @@ un percorso di
 miglioramento della
 salute e della sicurezza
 dei lavoratori.
-• La filosofia del d.lgs. n. 81/2008 in riferimento al
+- La filosofia del d.lgs. n. 81/2008 in riferimento al
 carattere gestionale organizzativo dato dalla
 legislazione al sistema di prevenzione aziendale.
 Il sistema legislativo: esame
@@ -1398,23 +1398,23 @@ riferimento
 - Illustrare la normativa
 in tema di salute e
 sicurezza sul lavoro.
-• L’evoluzione legislativa sulla salute e sicurezza sul
+- L'evoluzione legislativa sulla salute e sicurezza sul
 lavoro.
-• Lo Statuto dei lavoratori e la normativa
-sull’assicurazione obbligatoria contro gli infortuni e le
+- Lo Statuto dei lavoratori e la normativa
+sull'assicurazione obbligatoria contro gli infortuni e le
 malattie professionali.
-• L’impostazione di base data al d.lgs. n. 81/2008 dal
+- L'impostazione di base data al d.lgs. n. 81/2008 dal
 legislatore, riferendo la trattazione anche ai principi
 costituzionali ed agli obblighi civili e penali dati
-dall’ordinamento giuridico nazionale.
-• Il quadro giuridico europeo (direttive, regolamenti,
+dall'ordinamento giuridico nazionale.
+- Il quadro giuridico europeo (direttive, regolamenti,
 raccomandazioni, pareri).
-• I profili di responsabilità amministrativa.
-• La legislazione relativa a particolari categorie di lavoro:
+- I profili di responsabilità amministrativa.
+- La legislazione relativa a particolari categorie di lavoro:
 lavoro minorile, lavoratrici madri, lavoro notturno,
 lavori atipici, lavoro in somministrazione, ecc.
-• Il quadro legislativo antincendio.
-• Le norme tecniche e le attività di normalizzazione
+- Il quadro legislativo antincendio.
+- Le norme tecniche e le attività di normalizzazione
 nazionali ed europee in materia di salute e sicurezza
 sul lavoro.
 
@@ -1427,18 +1427,18 @@ prevenzione
 - Illustrare il sistema
 istituzionale della
 prevenzione.
-• Capo II del Titolo I del d.lgs. n. 81/2008.
+- Capo II del Titolo I del d.lgs. n. 81/2008.
 Il sistema di vigilanza e
 assistenza
 - Illustrare il ruolo degli
 organi di vigilanza e di
 assistenza.
-• Vigilanza e controllo e il sistema delle prescrizioni e
+- Vigilanza e controllo e il sistema delle prescrizioni e
 delle sanzioni.
-• Il ruolo di: ASL, INL, VV.F., INAIL, ARPA.
-• Le omologazioni, le verifiche periodiche.
-• Informazione, assistenza e consulenza.
-• Organismi paritetici
+- Il ruolo di: ASL, INL, VV.F., INAIL, ARPA.
+- Le omologazioni, le verifiche periodiche.
+- Informazione, assistenza e consulenza.
+- Organismi paritetici
 UNITÀ DIDATTICA A2 - 4
 ORE
 Obiettivi formativi Contenuti del Modulo
@@ -1451,7 +1451,7 @@ prevenzionale con
 riferimento ai loro
 compiti, obblighi e
 responsabilità.
-• Il sistema sicurezza aziendale secondo il d.lgs. n.
+- Il sistema sicurezza aziendale secondo il d.lgs. n.
 81/2008:
 ✓ datore di lavoro, dirigenti e preposti;
 ✓ responsabile del servizio prevenzione e
@@ -1485,25 +1485,25 @@ principali metodi e
 criteri per la valutazione
 dei rischi compresi
 quelli da interferenza.
-• Concetti di pericolo, rischio, danno, prevenzione e
+- Concetti di pericolo, rischio, danno, prevenzione e
 protezione.
-• Principio di precauzione: attenzione alle lavoratrici in
-stato di gravidanza, alle differenze di genere, all’età,
+- Principio di precauzione: attenzione alle lavoratrici in
+stato di gravidanza, alle differenze di genere, all'età,
 alla provenienza da altri Paesi e quelli connessi alla
 specifica tipologia contrattuale attraverso cui viene
 resa la prestazione di lavoro, utilizzo delle tecnologie
 digitali.
-• Analisi degli infortuni: cause, modalità di accadimento,
+- Analisi degli infortuni: cause, modalità di accadimento,
 indicatori, analisi statistica e andamento nel tempo.
-• Analisi delle malattie professionali: cause, modalità di
+- Analisi delle malattie professionali: cause, modalità di
 accadimento, indicatori, analisi statistica e andamento
 nel tempo.
-• Le fonti statistiche: strumenti e materiale informativo
+- Le fonti statistiche: strumenti e materiale informativo
 disponibile.
-• Valutazione dei rischi: metodologie e criteri per la
+- Valutazione dei rischi: metodologie e criteri per la
 valutazione dei rischi.
-• Fasi e attività del processo valutativo.
-• Il contesto di applicazione delle procedure
+- Fasi e attività del processo valutativo.
+- Il contesto di applicazione delle procedure
 standardizzate.
 
 
@@ -1517,12 +1517,12 @@ protezione.
 - Illustrare gli elementi di
 un documento di
 valutazione dei rischi
-• La valutazione dei rischi da interferenze nella gestione
-dei contratti di appalto o d’opera o di
+- La valutazione dei rischi da interferenze nella gestione
+dei contratti di appalto o d'opera o di
 somministrazione.
-• La classificazione dei rischi specifici.
-• Misure generali di tutela.
-• Contenuti struttura e organizzazione del documento di
+- La classificazione dei rischi specifici.
+- Misure generali di tutela.
+- Contenuti struttura e organizzazione del documento di
 valutazione dei rischi.
 UNITÀ DIDATTICA A4 - 4
 ORE
@@ -1534,10 +1534,10 @@ La segnaletica di sicurezza
 misure di protezione
 collettiva e individuali e
 di segnalazione
-• I dispositivi di protezione collettiva
-• I dispositivi di protezione individuale: criteri di scelta e
+- I dispositivi di protezione collettiva
+- I dispositivi di protezione individuale: criteri di scelta e
 di utilizzo.
-• La segnaletica di sicurezza.
+- La segnaletica di sicurezza.
 La gestione delle emergenze - Far c onoscere le
 modalità di gestione
 delle emergenze
@@ -1545,18 +1545,18 @@ delle emergenze
 per la stesura di un
 piano di emergenza e di
 evacuazione
-• Tipologie di emergenza.
-• Caratteristiche e procedure di gestione delle
+- Tipologie di emergenza.
+- Caratteristiche e procedure di gestione delle
 emergenze in caso di:
 ✓ Incendio;
 ✓ primo soccorso;
 ✓ altre emergenze;
-• Criteri per la stesura del piano di emergenza e di
+- Criteri per la stesura del piano di emergenza e di
 evacuazione.
 La sorveglianza sanitaria - Illustrare gli obblighi
 relativi alla sorveglianza
 sanitaria.
-• Sorveglianza sanitaria: obiettivi e obblighi, specifiche
+- Sorveglianza sanitaria: obiettivi e obblighi, specifiche
 tutele per le lavoratrici madri, minori, invalidi, visite
 mediche, giudizi di idoneità e ricorsi.
 UNITÀ DIDATTICA A5 - 4
@@ -1568,9 +1568,9 @@ partecipazione
 modalità e gli obblighi di
 consultazione e
 partecipazione.
-• La consultazione e la partecipazione aziendale della
+- La consultazione e la partecipazione aziendale della
 sicurezza.
-• Le relazioni tra i soggetti del sistema della
+- Le relazioni tra i soggetti del sistema della
 prevenzione.
 Informazione, f ormazione e
 addestramento
@@ -1578,12 +1578,12 @@ addestramento
 obblighi informativi,
 formativi e di
 addestramento.
-• Gli obblighi informativi, formativi e di addestramento
+- Gli obblighi informativi, formativi e di addestramento
 per i diversi soggetti aziendali.
 5.3 MODULO B
 Il Modulo B è il corso correlato alla natura dei rischi presenti sul luogo di lavoro e relativi alle
 attività lavorative.
-L’articolazione degli argomenti formativi e delle aree tematiche del Modulo B è strutturata
+L'articolazione degli argomenti formativi e delle aree tematiche del Modulo B è strutturata
 prevedendo un Modulo comune a tutti i settori produttivi della durata di 48 ore.
 
 
@@ -1593,13 +1593,13 @@ Pag. 29 a 138
 Il suddetto Modulo B comune è esaustivo per tutti i settori produttivi ad eccezione di quelli per i
 quali il percorso deve essere integrato con la frequenza dei moduli di specializzazione indicati
 nella tabella sotto riportata.
-Il Modulo B comune è propedeutico per l’accesso ai moduli di specializzazione.
+Il Modulo B comune è propedeutico per l'accesso ai moduli di specializzazione.
 La durata dei corsi non comprende le verifiche di apprendimento finali.
 Moduli B di specializzazione
 Modulo Riferimento codice settori Ateco 2007
 Lettera - Descrizione macrocategoria Durata
 Modulo B-SP1
-Agricoltura – Silvicoltura -
+Agricoltura - Silvicoltura -
 Zootecnia
 A 01-02- Agricoltura, Silvicoltura e Zootecnia
 16 ore
@@ -1619,14 +1619,14 @@ C - Attività manifatturiere (19 - Fabbricazione di coke e
 prodotti derivanti dalla raffinazione del petrolio e 20 -
 Fabbricazione di prodotti chimici)
 16 ore
-Il Modulo B deve essere orientato alla risoluzione di problemi, all’analisi e alla valutazione dei
+Il Modulo B deve essere orientato alla risoluzione di problemi, all'analisi e alla valutazione dei
 rischi, alla pianificazione di idonei interventi di prevenzione delle attività dei rispettivi livelli di
-rischio, ponendo attenzione all’approfondimento in ragione dei differenti livelli di rischio ed
+rischio, ponendo attenzione all'approfondimento in ragione dei differenti livelli di rischio ed
 evitando la ripetizione di argomenti.
 Il Modulo B deve consentire ai responsabili e agli addetti dei servizi di prevenzione e protezione
 di acquisire le conoscenze/abilità per:
 - individuare i pericoli e valutare tutti i rischi connessi agli ambienti di lavoro e
-all’organizzazione del lavoro;
+all'organizzazione del lavoro;
 - individuare le misure di prevenzione e protezione adottate o da adottare in relazione agli
 specifici rischi;
 - individuare adeguate soluzioni tecniche, organizzative e procedurali di salute e sicurezza
@@ -1637,7 +1637,7 @@ La progettazione delle unità didattiche e la relativa articolazione oraria, sec
 riportate parte IV è demandata alla responsabilità dei soggetti formatori.
 La trattazione dei rischi dovrà prevedere un breve richiamo normativo e la precisa definizione
 degli stessi.
-L’attenzione dovrà essere rivolta alla corretta valutazione nei diversi settori, alle diverse misure
+L'attenzione dovrà essere rivolta alla corretta valutazione nei diversi settori, alle diverse misure
 tecnico organizzative e procedurali utili al contenimento e agli adempimenti previsti, compresi i
 
 
@@ -1650,14 +1650,14 @@ ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO B COMUNE A TUTTI I SETTORI
 PRODUTTIVI (48 ORE)
 UD1 Tecniche specifiche di valutazione dei rischi e analisi degli incidenti
 UD2 Organizzazione dei processi produttivi e del lavoro:
-• cenni sull’evoluzione dell’organizzazione dei processi di produzione industriale: dalle catene di
+- cenni sull'evoluzione dell'organizzazione dei processi di produzione industriale: dalle catene di
 montaggio alla produzione snella (es. lean organization, just in time, ecc.);
-• caratteristiche e tipologie di impianti e processi di produzione industriale;
-• tipologie e studi di lay-out industriali e requisiti di sicurezza;
-• modelli e strutture organizzative (funzionali, per processi, divisionali a matrice, ibridi), punti di forza
+- caratteristiche e tipologie di impianti e processi di produzione industriale;
+- tipologie e studi di lay-out industriali e requisiti di sicurezza;
+- modelli e strutture organizzative (funzionali, per processi, divisionali a matrice, ibridi), punti di forza
 e di debolezza ai fini del benessere organizzativo;
-• nuove forme di lavoro: lavoro agile, co-working, telelavoro, ecc.
-• innovazione tecnologica e impatto sulla salute e sicurezza delle nuove tecnologie.
+- nuove forme di lavoro: lavoro agile, co-working, telelavoro, ecc.
+- innovazione tecnologica e impatto sulla salute e sicurezza delle nuove tecnologie.
 UD3 Ambiente e luoghi di lavoro
 UD4 Rischio incendio
 Atex
@@ -1669,7 +1669,7 @@ UD5 Rischi infortunistici:
 - Movimentazione merci: apparecchi di sollevamento e attrezzature per trasporto merci
 - Mezzi di trasporto: ferroviario, su strada, aereo e marittimo
 - Lavori in quota
-UD6 Rischi di natura ergonomica e legati all’organizzazione del lavoro:
+UD6 Rischi di natura ergonomica e legati all'organizzazione del lavoro:
 - Movimentazione manuale dei carichi
 - Attrezzature munite di videoterminali
 UD7 Rischi di natura psico-sociale:
@@ -1683,7 +1683,7 @@ UD11 Rischi connessi ad attività particolari:
 - Ambienti confinati e\o sospetti di inquinamento
 - Attività su strada
 - Gestione rifiuti
-UD12 Rischi connessi all’assunzione di sostanze stupefacenti, psicotrope ed alcol
+UD12 Rischi connessi all'assunzione di sostanze stupefacenti, psicotrope ed alcol
 
 
 ## Pagina 33
@@ -1694,39 +1694,39 @@ Modulo B-SP1: Agricoltura, silvicoltura e zootecnia (16 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro (es. serre, campi, boschi, ecc.)
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
 UD5 Agenti chimici, cancerogeni e mutageni, amianto
 UD6 Agenti biologici
 UD7 Agenti fisici
 UD8 Ambienti confinati e\o sospetti di inquinamento
-UD9 Rischio incendio e gestione dell’emergenza
-UD10 Rischio di caduta dall’alto,
+UD9 Rischio incendio e gestione dell'emergenza
+UD10 Rischio di caduta dall'alto,
 UD11 Movimentazione dei carichi
 Modulo B-SP2: Pesca (12 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Legislazione specifica di riferimento
 UD3 Organizzazione del lavoro: ambienti di lavoro
 UD4 Normativa tecnica e per strutture e impianti
-UD5 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD5 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD6 Agenti chimici, cancerogeni e mutageni e amianto
 UD7 Agenti biologici
 UD8 Agenti fisici
 UD9 Ambienti confinati e\o sospetti di inquinamento
-UD10 Rischio incendio e gestione dell’emergenza
-UD11 Rischio cadute dall’alto, a bordo e fuori bordo
+UD10 Rischio incendio e gestione dell'emergenza
+UD11 Rischio cadute dall'alto, a bordo e fuori bordo
 UD12 Movimentazione dei carichi
 UD13 Atmosfere iperbariche e attività subacquee
 Modulo B-SP3: Costruzioni (16 ore)
 UD1 Soggetti definiti dal Titolo IV capo I, e relativi obblighi e responsabilità
 UD2 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione, tecniche e fasi lavorative, aree di lavoro dei cantieri
-UD3 Le misure generali di tutela secondo quanto previsto dall’art. 95 del d.lgs. n. 81/2008
+UD3 Le misure generali di tutela secondo quanto previsto dall'art. 95 del d.lgs. n. 81/2008
 UD4 Il piano operativo di sicurezza (POS)
 UD5 Cenni sul PSC
-UD6 Cadute dall’alto e opere provvisionali
+UD6 Cadute dall'alto e opere provvisionali
 UD7 Lavori di demolizione e scavo
 UD8 Impianti elettrici e illuminazione di cantiere
-UD9 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD9 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD10 Movimentazione dei carichi manuale e meccanica
 
 
@@ -1745,14 +1745,14 @@ UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro nel settore sanitario, ospedaliero e ambulatoriale e
 assistenziale
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD5 Movimentazione dei carichi
 UD6 Rischi da taglio e da punta
 UD7 Agenti chimici, cancerogeni, mutageni e amianto
 UD8 Agenti biologici
 UD9 Agenti fisici
 UD10 Cenni sulle radiazioni ionizzanti
-UD11 Rischio incendio e gestione dell’emergenza
+UD11 Rischio incendio e gestione dell'emergenza
 UD12 Rischio aggressioni, stress lavoro correlato e burn out
 UD13 Dispositivi di protezione collettiva ed individuali
 UD14 Le atmosfere iperbariche
@@ -1767,7 +1767,7 @@ UD6 Rischi legati agli impianti e alle attrezzature di lavoro
 UD7 Manutenzione impianti e gestione fornitori
 UD8 Agenti chimici, cancerogeni, mutageni e amianto
 UD9 Agenti fisici
-UD10 Rischi incendio ed esplosioni e gestione dell’emergenza
+UD10 Rischi incendio ed esplosioni e gestione dell'emergenza
 UD11 Ambienti confinati e\o sospetti di inquinamento
 UD12 Dispositivi di protezione collettiva ed individuali
 UD13 Gestione dei rifiuti
@@ -1781,12 +1781,12 @@ Il Modulo C è il corso di specializzazione per le sole funzioni di RSPP.
 La durata complessiva è di 24 ore escluse le verifiche di apprendimento finali.
 Il Modulo C deve consentire ai responsabili dei servizi di prevenzione e protezione di acquisire le
 conoscenze/abilità relazionali e gestionali per:
-• progettare e gestire processi formativi in riferimento al contesto lavorativo e alla
+- progettare e gestire processi formativi in riferimento al contesto lavorativo e alla
 valutazione dei rischi, anche per la diffusione della cultura alla salute e sicurezza e del
 benessere organizzativo;
-• pianificare, gestire e controllare le misure tecniche, organizzative e procedurali di
+- pianificare, gestire e controllare le misure tecniche, organizzative e procedurali di
 sicurezza aziendali attraverso sistemi di gestione della sicurezza;
-• utilizzare forme di comunicazione adeguate a favorire la partecipazione e la
+- utilizzare forme di comunicazione adeguate a favorire la partecipazione e la
 collaborazione dei vari soggetti del sistema.
 ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO C
 UNITÀ DIDATTICA C1 - 8
@@ -1794,15 +1794,15 @@ ORE
 Obiettivi formativi Contenuti del Modulo
 Tecniche e metodologie
 relative a:
-• informazione
-• formazione
-• addestramento
+- informazione
+- formazione
+- addestramento
 - Illustrare la
 connessione e coerenza
 tra il documento di
 valutazione dei rischi e
 la predisposizione dei
-piani dell’informazione,
+piani dell'informazione,
 formazione e
 addestramento
 - Illustrare le
@@ -1822,20 +1822,20 @@ progettazione didattica.
 - Illustrare le tecniche e
 le procedure di
 addestramento.
-• Dalla valutazione dei rischi alla predisposizione dei
+- Dalla valutazione dei rischi alla predisposizione dei
 piani di informazione, formazione ed addestramento
 in azienda.
-• Metodologie per una corretta informazione in azienda
+- Metodologie per una corretta informazione in azienda
 (riunioni, gruppi di lavoro specifici, conferenze,
 seminari informativi, ecc.).
-• Strumenti di informazione su salute e sicurezza sul
+- Strumenti di informazione su salute e sicurezza sul
 lavoro (circolari, cartellonistica, opuscoli, avvisi, news,
 intranet, internet, ecc.).
-• Le dinamiche di apprendimento dell’adulto:
+- Le dinamiche di apprendimento dell'adulto:
 presentazione e analisi delle principali
 metodologie didattiche e degli strumenti
-operativi utilizzati nell’andragogia.
-• Le fasi del processo formativo:
+operativi utilizzati nell'andragogia.
+- Le fasi del processo formativo:
 ✓ analisi del fabbisogno e del contesto
 organizzativo;
 ✓ macro e micro-progettazione (definizione degli
@@ -1844,7 +1844,7 @@ funzione degli obiettivi, metodologie e strumenti
 didattici);
 ✓ erogazione;
 ✓ valutazione e monitoraggio dei risultati.
-• L’addestramento:
+- L'addestramento:
 ✓ tecniche (dimostrazioni, simulazioni,
 esercitazioni pratiche);
 ✓ modalità e verifica;
@@ -1872,41 +1872,41 @@ modalità operative della norma ISO
 Far conoscere le modalità e le
 opportunità di adozione delle
 procedure semplificate per
-l’implementazione dei MOG
+l'implementazione dei MOG
 Evidenziare il ruolo del RSPP
-all’interno dei modelli e sistemi di
+all'interno dei modelli e sistemi di
 organizzazione e gestione della
 sicurezza
-• L’organizzazione e la gestione della sicurezza tra
+- L'organizzazione e la gestione della sicurezza tra
 legislazione e normativa volontaria Sinergie ed
 opportunità.
-• I modelli di organizzazione e gestione della
-sicurezza. L’art. 30 del D.lgs. 81/08 e la
+- I modelli di organizzazione e gestione della
+sicurezza. L'art. 30 del D.lgs. 81/08 e la
 responsabilità amministrativa delle persone
-giuridiche (d.lgs. n. 231/2001). L’efficacia
-esimente dell’adozione dei modelli e sistemi di
+giuridiche (d.lgs. n. 231/2001). L'efficacia
+esimente dell'adozione dei modelli e sistemi di
 gestione della sicurezza (ISO 45001, Linee guida
 UNI INAIL).
-• La struttura di alto livello (HLS) della ISO 45001.
-• Il ciclo PCDA di Deming e l’approccio per processi
+- La struttura di alto livello (HLS) della ISO 45001.
+- Il ciclo PCDA di Deming e l'approccio per processi
 applicato alla organizzazione e gestione della
 sicurezza.
-• Il processo di valutazione dei rischi e la
-pianificazione degli interventi nell’ambito della
+- Il processo di valutazione dei rischi e la
+pianificazione degli interventi nell'ambito della
 ISO 45001.
-• Controllo operativo, auditing, riesame e
+- Controllo operativo, auditing, riesame e
 miglioramento continuo.
-• Cenni sull’integrazione gestionale della sicurezza
+- Cenni sull'integrazione gestionale della sicurezza
 (ISO 45001), con i sistemi qualità (ISO 9001) e
 ambiente (ISO 14001).
-• Procedure semplificate per l’implementazione
+- Procedure semplificate per l'implementazione
 dei Modelli di organizzazione e gestione (MOG):
 il D.M13/02/2014.
-• L’asseverazione dei MOG.
-• Vantaggi derivanti dall’adozione dei modelli di
+- L'asseverazione dei MOG.
+- Vantaggi derivanti dall'adozione dei modelli di
 organizzazione e gestione.
-• Il ruolo manageriale e tecnico del RSPP
-nell’ambito dei modelli e sistemi di
+- Il ruolo manageriale e tecnico del RSPP
+nell'ambito dei modelli e sistemi di
 organizzazione e gestione della sicurezza
 aziendali.
 UNITÀ DIDATTICA C3 - 4
@@ -1923,13 +1923,13 @@ metodi e le tecniche di
 comunicazione efficace
 per la salute e la
 sicurezza sul lavoro.
-• Il sistema delle relazioni: RLS, datore di lavoro, medico
+- Il sistema delle relazioni: RLS, datore di lavoro, medico
 competente, lavoratori, enti pubblici, fornitori,
 lavoratori autonomi, appaltatori, ecc.
-• Il sistema di comunicazione azienda le in materia di
+- Il sistema di comunicazione azienda le in materia di
 salute e sicurezza sul lavoro.
-• La comunicazione nelle diverse situazioni di lavoro.
-• Cenni sui metodi, tecniche e strumenti per una
+- La comunicazione nelle diverse situazioni di lavoro.
+- Cenni sui metodi, tecniche e strumenti per una
 comunicazione efficace.
 
 
@@ -1940,9 +1940,9 @@ Pag. 35 a 138
 gestione del la riunione
 periodica e degli
 incontri di lavoro.
-• Gestione degli incontri di lavoro e della riunione
+- Gestione degli incontri di lavoro e della riunione
 periodica.
-• Tecniche di negoziazione e gestione dei conflitti.
+- Tecniche di negoziazione e gestione dei conflitti.
 UNITÀ DIDATTICA C4 - 4
 ORE
 Obiettivi formativi Contenuti del Modulo
@@ -1964,7 +1964,7 @@ persone negli ambienti
 di lavoro anche sotto il
 profilo della salute e
 sicurezza.
-• Concetto di benessere organizzativo:
+- Concetto di benessere organizzativo:
 ✓ fattori di natura ergonomica;
 ✓ fattori psicosociali e stress lavoro correlato;
 ✓ fattori organizzativi e clima aziendale;
@@ -1972,36 +1972,36 @@ sicurezza.
 collaborazione, corretta circolazione delle
 informazioni, analisi delle relazioni, gestione del
 conflitto.
-• Team building finalizzato al benessere organizzativo.
+- Team building finalizzato al benessere organizzativo.
 
 
 ## Pagina 38
 
 Pag. 36 a 138
-6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER L’ESECUZIONE
+6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER L'ESECUZIONE
 DEI LAVORI (ALLEGATO XIV Dlgs 81/08)
-Il presente corso, ai sensi di quanto previsto dall’art. 98 comma 3 del Dlgs 81/08, aggiorna e
-sostituisce i requisiti della formazione per i coordinatori per la progettazione e per l’esecuzione
+Il presente corso, ai sensi di quanto previsto dall'art. 98 comma 3 del Dlgs 81/08, aggiorna e
+sostituisce i requisiti della formazione per i coordinatori per la progettazione e per l'esecuzione
 dei lavori previsti dall'articolo 98 del d.lgs. n. 81/2008.
 Obiettivi
 Il corso di formazione ha i seguenti obiettivi:
-• illustrare la normativa generale e specifica in tema di salute e sicurezza, con particolare
+- illustrare la normativa generale e specifica in tema di salute e sicurezza, con particolare
 riferimento al settore delle costruzioni e gli strumenti per garantire un adeguato
 approfondimento e aggiornamento in funzione della continua evoluzione della stessa;
-• far conoscere il ruolo de i soggetti del sistema di prevenzione, i loro compiti e le
+- far conoscere il ruolo de i soggetti del sistema di prevenzione, i loro compiti e le
 responsabilità;
-• illustrare le funzioni svolte dal sistema istituzionale pubblico e dai vari organi preposti alla
+- illustrare le funzioni svolte dal sistema istituzionale pubblico e dai vari organi preposti alla
 tutela della salute e della sicurezza nei luoghi di lavoro;
-• far conoscere i principali rischi trattati dal d.lgs. n. 81/2008 e individuare le misure di
+- far conoscere i principali rischi trattati dal d.lgs. n. 81/2008 e individuare le misure di
 prevenzione e protezione nonché le modalità per la gestione delle emergenze;
-• illustrare gli elementi metodologici per la valutazione del rischio;
-• far acquisire le competenze necessarie per l’individuazione, l’analisi e la valutazione dei
-rischi concreti, con riferimento all’area ed alla organizzazione del cantiere, alle lavorazioni
+- illustrare gli elementi metodologici per la valutazione del rischio;
+- far acquisire le competenze necessarie per l'individuazione, l'analisi e la valutazione dei
+rischi concreti, con riferimento all'area ed alla organizzazione del cantiere, alle lavorazioni
 ed alle loro interferenze;
-• far acquisire le competenze per verificare l’idoneità e la congruenza del piano operativo
+- far acquisire le competenze per verificare l'idoneità e la congruenza del piano operativo
 di sicurezza;
-• far acquisire le competenze per lo svolgimento del proprio ruolo;
-• illustrare le responsabilità connesse al ruolo rivestito.
+- far acquisire le competenze per lo svolgimento del proprio ruolo;
+- illustrare le responsabilità connesse al ruolo rivestito.
 Articolazione dei contenuti minimi del percorso formativo:
 Durata minima 120 ore
 Modulo Obiettivi formativi Contenuti del Modulo
@@ -2013,38 +2013,38 @@ prevenzionale con
 riferimento ai loro
 compiti, obblighi e
 responsabilità.
-• La legislazione in materia di salute e sicurezza nei
+- La legislazione in materia di salute e sicurezza nei
 luoghi di lavoro;
-• le normative europee e la loro valenza;
-• la normativa contrattuale;
-• la normativa sull’assicurazione contro gli infortuni sul
+- le normative europee e la loro valenza;
+- la normativa contrattuale;
+- la normativa sull'assicurazione contro gli infortuni sul
 lavoro e le malattie professionali;
-• il codice degli appalti;
-• le norme di buona tecnica;
-• i regolamenti e le direttive di prodotto;
-• cenni sulle norme tecniche di costruzione;
-• il Testo Unico in materia di salute e sicurezza nei luoghi
+- il codice degli appalti;
+- le norme di buona tecnica;
+- i regolamenti e le direttive di prodotto;
+- cenni sulle norme tecniche di costruzione;
+- il Testo Unico in materia di salute e sicurezza nei luoghi
 di lavoro con particolare riferimento al Titolo I;
-• il sistema istituzionale anche con riferimento ai Piani
+- il sistema istituzionale anche con riferimento ai Piani
 di Prevenzione in Edilizia;
-• i soggetti del Sistema di Prevenzione Aziendale: i
+- i soggetti del Sistema di Prevenzione Aziendale: i
 compiti, gli obblighi, le responsabilità civili e penali.
 
 
 ## Pagina 39
 
 Pag. 37 a 138
-• La legislazione specifica in materia di salute e sicurezza
+- La legislazione specifica in materia di salute e sicurezza
 nei cantieri temporanei o mobili e nei lavori in quota:
 il Titolo IV del Testo Unico in materia di salute e
 sicurezza nei luoghi di lavoro;
-• le figure interessate alla realizzazione dell’opera:
+- le figure interessate alla realizzazione dell'opera:
 compiti, obblighi e responsabilità civili e penali;
-• gli Organi di vigilanza, le procedure ispettive e la
-disciplina sanzionatoria, la sospensione dell’attività
+- gli Organi di vigilanza, le procedure ispettive e la
+disciplina sanzionatoria, la sospensione dell'attività
 imprenditoriale;
-• scelte progettuali e organizzative. La collaborazione
-con il progettista dell’opera.
+- scelte progettuali e organizzative. La collaborazione
+con il progettista dell'opera.
 Modulo tecnico (52 ore) - Far conoscere i concetti
 di pericolo, rischio,
 danno, prevenzione e
@@ -2063,45 +2063,45 @@ di un cantiere
 - Fare acquisire le
 competenze relative ai
 fattori di rischio e
-all’adozione delle
+all'adozione delle
 misure di prevenzione
 e protezione
-• Concetti di pericolo, rischio, danno, prevenzione e
+- Concetti di pericolo, rischio, danno, prevenzione e
 protezione;
-• metodologie per l’individuazione, l’analisi e la
+- metodologie per l'individuazione, l'analisi e la
 valutazione dei rischi e relativa adozione delle misure
 di prevenzione e protezione necessarie;
-• analisi degli infortuni e malattie professionali nel
+- analisi degli infortuni e malattie professionali nel
 settore delle costruzioni;
-• l’organizzazione in sicurezza del cantiere. Il
+- l'organizzazione in sicurezza del cantiere. Il
 cronoprogramma dei lavori;
-• gli obblighi documentali da parte dei committenti,
+- gli obblighi documentali da parte dei committenti,
 imprese, coordinatori per la sicurezza;
-• rischi di caduta dall’alto;
-• rischi nei lavori di montaggio e smontaggio di ponteggi
+- rischi di caduta dall'alto;
+- rischi nei lavori di montaggio e smontaggio di ponteggi
 e opere provvisionali;
-• rischi nei lavori di montaggio e smontaggio di elementi
+- rischi nei lavori di montaggio e smontaggio di elementi
 prefabbricati;
-• rischi nel montaggio di opere temporanee (palchi,
+- rischi nel montaggio di opere temporanee (palchi,
 tensostrutture,...) per fiere e spettacoli;
-• rischi negli scavi, nelle demolizioni, nelle opere in
+- rischi negli scavi, nelle demolizioni, nelle opere in
 sotterraneo ed in galleria;
-• rischi legati all’utilizzo di macchine e attrezzature di
+- rischi legati all'utilizzo di macchine e attrezzature di
 lavoro;
-• rischio di investimento e schiacciamento;
-• rischi da movimentazione manuale dei carichi;
-• rischi fisici;
-• rischi biologici;
-• rischi chimici e cancerogeni;
-• rischi connessi alle bonifiche da amianto;
-• rischio elettrico e la protezione contro le scariche
+- rischio di investimento e schiacciamento;
+- rischi da movimentazione manuale dei carichi;
+- rischi fisici;
+- rischi biologici;
+- rischi chimici e cancerogeni;
+- rischi connessi alle bonifiche da amianto;
+- rischio elettrico e la protezione contro le scariche
 atmosferiche;
-• rischi di incendio e di esplosione;
-• rischi dovuti alla presenza di ordigni bellici;
-• ambienti confinati e\o sospetti di inquinamento;
-• gestione delle emergenze, evacuazione e primo
+- rischi di incendio e di esplosione;
+- rischi dovuti alla presenza di ordigni bellici;
+- ambienti confinati e\o sospetti di inquinamento;
+- gestione delle emergenze, evacuazione e primo
 soccorso;
-• i dispositivi di protezione collettiva, individuale e la
+- i dispositivi di protezione collettiva, individuale e la
 segnaletica di sicurezza.
 
 
@@ -2119,7 +2119,7 @@ sicurezza sul lavoro.
 - Far conoscere i
 principali criteri
 metodologici per
-l’elaborazione o la
+l'elaborazione o la
 verifica della
 documentazione di
 cantiere.
@@ -2129,26 +2129,26 @@ comunicazione,
 relazionali e gestionali
 e le modalità di
 gestione dei conflitti.
-• I contenuti del:
+- I contenuti del:
 a) piano di sicurezza e di coordinamento;
-b) fascicolo con le caratteristiche dell’opera;
+b) fascicolo con le caratteristiche dell'opera;
 c) POS;
 d) PIMUS;
 e) piano delle demolizioni;
 f) piano di lavoro (ex art. 256 d.lgs. 81/2008) per la
 rimozione MCA.
-• I criteri metodologici per:
-a) l’elaborazione del piano di sicurezza e di
+- I criteri metodologici per:
+a) l'elaborazione del piano di sicurezza e di
 coordinamento;
-b) l’elaborazione del fascicolo;
+b) l'elaborazione del fascicolo;
 c) la verifica della congruenza tra POS, PSC e
 fascicolo;
 d) la stima dei costi della sicurezza.
-• Teorie e tecniche di comunicazione, orientate alla
+- Teorie e tecniche di comunicazione, orientate alla
 risoluzione di problemi e alla cooperazione; teorie di
 gestione dei gruppi e leadership.
-• I rapporti con la committenza, i progettisti, la direzione
-dei lavori, l’impresa affidataria, i rappresentanti dei
+- I rapporti con la committenza, i progettisti, la direzione
+dei lavori, l'impresa affidataria, i rappresentanti dei
 lavoratori per la sicurezza e RLST.
 Parte pratica (24 ore)
 UD1
@@ -2160,10 +2160,10 @@ le modalità di
 redazione del PSC e la
 correlazione con i
 relativi POS
-• Esempi di Piano di Sicurezza e Coordinamento:
+- Esempi di Piano di Sicurezza e Coordinamento:
 a) presentazione dei progetti;
-b) discussione sull’analisi dei rischi legati all’area,
-all’organizzazione del cantiere, alle lavorazioni ed
+b) discussione sull'analisi dei rischi legati all'area,
+all'organizzazione del cantiere, alle lavorazioni ed
 alle loro interferenze;
 c) correlazione con i relativi POS.
 UD2
@@ -2179,11 +2179,11 @@ prevenzione e
 protezione per la
 sicurezza dei lavori in
 copertura
-• Esempi di fascicolo adattato alle caratteristiche
-dell’opera.
-• Criteri di progettazione delle misure di prevenzione e
+- Esempi di fascicolo adattato alle caratteristiche
+dell'opera.
+- Criteri di progettazione delle misure di prevenzione e
 protezione per la sicurezza dei lavori in copertura;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- lavori di gruppo: analisi e discussione degli elaborati.
 UD3
 Stesura del PSC e del
 fascicolo (8 ore)
@@ -2192,12 +2192,12 @@ competenze
 metodologiche per
 strutturare il PSC ed il
 Fascicolo
-• Stesura di Piani di Sicurezza e Coordinamento, con
-particolare riferimento a rischi legati all’area,
-all’organizzazione del cantiere, alle lavorazioni ed alle
+- Stesura di Piani di Sicurezza e Coordinamento, con
+particolare riferimento a rischi legati all'area,
+all'organizzazione del cantiere, alle lavorazioni ed alle
 loro interferenze;
-• predisposizione di un Fascicolo;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- predisposizione di un Fascicolo;
+- lavori di gruppo: analisi e discussione degli elaborati.
 UD4
 Attività coordinamento (6
 ore)
@@ -2205,18 +2205,18 @@ ore)
 competenze
 metodologiche per la
 verifica
-dell’applicazione, delle
+dell'applicazione, delle
 disposizioni di salute e
 sicurezza nel cantiere
-• Simulare le attività di verifica, coordinamento e
+- Simulare le attività di verifica, coordinamento e
 controllo circa la corretta applicazione delle
 disposizioni di salute e sicurezza da parte delle imprese
 e dei lavoratori autonomi;
-• simulare le azioni circa la sospensione in caso di
+- simulare le azioni circa la sospensione in caso di
 pericolo grave e imminente delle singole lavorazioni e
 le modalità di verifica degli avvenuti adeguamenti
 effettuati dalle imprese interessate;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- lavori di gruppo: analisi e discussione degli elaborati.
 
 
 ## Pagina 41
@@ -2235,13 +2235,13 @@ presente accordo.
 Pag. 40 a 138
 7. CORSO PER LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE
 OPERANO IN AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI (dpr n. 177/2011)
-Il presente corso è valido per gli obblighi formativi di cui all’art.2, lett. d), DPR n. 177/2011.
+Il presente corso è valido per gli obblighi formativi di cui all'art.2, lett. d), DPR n. 177/2011.
 Obiettivi
 Il corso di formazione ha i seguenti obiettivi:
 a) illustrare i concetti di pericolo, danno e prevenzione che si riscontrano in una attività
 lavorativa svolta in uno spazio confinato;
 b) illustrare le misure di prevenzione degli infortuni
-c) far acquisire le competenze necessarie per l’utilizzo dei dispositivi, delle attrezzature di
+c) far acquisire le competenze necessarie per l'utilizzo dei dispositivi, delle attrezzature di
 lavoro e delle strumentazioni messi a disposizione per affrontare i rischi;
 d) illustrare le procedure di gestione delle emergenze, evacuazione e primo soccorso.
 Durata minima 12 ore
@@ -2254,27 +2254,27 @@ prevenzione che si
 riscontrano in una attività
 lavorativa svolta in uno
 spazio confinato.
-• La normativa di riferimento
-• Definizioni e identificazione di un ambiente confinato o
+- La normativa di riferimento
+- Definizioni e identificazione di un ambiente confinato o
 sospetto di inquinamento e criticità
-• Analisi degli eventi infortunistici
-• Individuazione dei fattori di rischio
-• I rischi specifici: aria respirabile atmosfere con difetto o
+- Analisi degli eventi infortunistici
+- Individuazione dei fattori di rischio
+- I rischi specifici: aria respirabile atmosfere con difetto o
 eccesso di ossigeno, atmosfere con agenti chimici
 pericolosi per asfissia e/o intossicazione, atmosfere con
 pericolo di esplosione ed incendio, seppellimento, cadute
-dall’alto, cadute di gravi, carenze di comunicazioni ecc.
+dall'alto, cadute di gravi, carenze di comunicazioni ecc.
 - Illustrare le misure di
 prevenzione e protezione
-• Caratteristiche e pericolosità degli agenti chimici
-• Misure e procedure di prevenzione nelle fasi di lavoro in
+- Caratteristiche e pericolosità degli agenti chimici
+- Misure e procedure di prevenzione nelle fasi di lavoro in
 ambienti confinati o sospetti di inquinamento come, a
 titolo esemplificativo ma non esaustivo, di seguito
 indicato:
-✓ procedure d’ingresso e uscita in ambiente confinato
-✓ dimensione, numero dei passi d’uomo, numero di
+✓ procedure d'ingresso e uscita in ambiente confinato
+✓ dimensione, numero dei passi d'uomo, numero di
 accessi, numero dei lavoratori presenti
-✓ monitoraggio dell’atmosfera
+✓ monitoraggio dell'atmosfera
 ✓ sistemi di illuminazione, dispositivi per prevenire lo
 shock elettrico
 ✓ macchine ed attrezzature di lavoro (coclee, agitatori,
@@ -2284,24 +2284,24 @@ il ricambio dell'aria
 ✓ sorveglianza sanitaria
 Parte Pratica (8 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo dei dispositivi e
+l'utilizzo dei dispositivi e
 delle strumentazioni messi
 a disposizione per
 affrontare i rischi presenti
 negli ambienti confinati
 (DPI, respiratori, rilevatori
 di gas...)
-• Le procedure da attuare in caso di emergenza
+- Le procedure da attuare in caso di emergenza
 (incendio/esplosione, anossia, presenza di gas tossici,
 recupero infortunato)
-• Simulazione sull’uso dei dispositivi e della strumentazione
+- Simulazione sull'uso dei dispositivi e della strumentazione
 messa a disposizione:
 ✓ Dispositivi di protezione individuali.
 ✓ Gli Apparecchi per la Protezione delle Vie Respiratorie
 (APVR): utilizzo, tipologia, filtri.
 ✓ Imbracature di sicurezza, tripode, rilevatori di gas,
 misuratori di esplosività
-• Sistemi di segnalazione e comunicazione
+- Sistemi di segnalazione e comunicazione
 
 
 ## Pagina 43
@@ -2319,41 +2319,41 @@ triennale, nel settore dei lavori in ambiente confinato o sospetto di inquinamen
 ## Pagina 44
 
 Pag. 42 a 138
-8. CORSI PER L’ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI ALL’ARTICOLO
+8. CORSI PER L'ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI ALL'ARTICOLO
 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008
 Le attrezzature di lavoro per le quali è richiesta una specifica abilitazione degli operatori (art. 73,
-comma 5 del d.lgs. n. 81/2008) sono individuate e riportate nell’allegato II
-L’abilitazione all’utilizzo delle attrezzature di lavoro si intende acquisita con il superamento delle
+comma 5 del d.lgs. n. 81/2008) sono individuate e riportate nell'allegato II
+L'abilitazione all'utilizzo delle attrezzature di lavoro si intende acquisita con il superamento delle
 verifiche. Ogni operatore nel corso del modulo pratico dovrà utilizzare la tipologia di attrezzatura
 per la quale sarà abilitato.
-L’acquisizione dell’abilitazione non esaurisce gli obblighi di formazione, informazione e
+L'acquisizione dell'abilitazione non esaurisce gli obblighi di formazione, informazione e
 addestramento previsti dal Titolo III del Dlgs 81/08
-8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL’AREA E DISPONIBILITÀ DELLE
+8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL'AREA E DISPONIBILITÀ DELLE
 ATTREZZATURE
-I soggetti formatori di cui alla Parte I, punto 1 del presente accordo devono garantire che l’attività
+I soggetti formatori di cui alla Parte I, punto 1 del presente accordo devono garantire che l'attività
 pratica sia effettuata come di seguito indicato:
-a. un’area opportunamente delimitata con assenza di impianti o strutture che possano
-interferire con l’attività pratica di addestramento e con caratteristiche geotecniche e
+a. un'area opportunamente delimitata con assenza di impianti o strutture che possano
+interferire con l'attività pratica di addestramento e con caratteristiche geotecniche e
 morfologiche (consistenza del terreno, pendenze, avvallamenti, gradini, ecc.) tali da
-consentire, in sicurezza rispetto ad una valutazione globale dei rischi, l’effettuazione di
-tutte le manovre pratiche previste al punto “ Verifica” per ciascuna tipologia di
+consentire, in sicurezza rispetto ad una valutazione globale dei rischi, l'effettuazione di
+tutte le manovre pratiche previste al punto " Verifica" per ciascuna tipologia di
 attrezzatura;
 b. i carichi, gli ostacoli fissi e/o in movimento e gli apprestamenti che dovessero rendersi
-necessari per consentire l’effettuazione di tutte le manovre pratiche previste al punto
-“Verifica” per ciascuna tipologia di attrezzatura;
+necessari per consentire l'effettuazione di tutte le manovre pratiche previste al punto
+"Verifica" per ciascuna tipologia di attrezzatura;
 c. le attrezzature e gli accessori conformi alla tipologia per la quale viene rilasciata la
-categoria di abilitazione ed idonei (possibilità di intervento da parte dell’istruttore)
-all’attività di addestramento o equipaggiati con dispositivi aggiuntivi per l’ effettuazione
+categoria di abilitazione ed idonei (possibilità di intervento da parte dell'istruttore)
+all'attività di addestramento o equipaggiati con dispositivi aggiuntivi per l' effettuazione
 in sicurezza delle attività pratiche di addestramento e verifica;
-d. i dispositivi di protezione individuali necessari per l’effettuazione in sicurezza delle attività
+d. i dispositivi di protezione individuali necessari per l'effettuazione in sicurezza delle attività
 pratiche di addestramento durante la verifica. Essi dovranno essere presenti nelle
-taglie/misure idonee per l’effettivo utilizzo da parte dei partecipanti elle attività pratiche.
+taglie/misure idonee per l'effettivo utilizzo da parte dei partecipanti elle attività pratiche.
 8.2. REQUISITI DEI DOCENTI
 Le docenze con riferimento al modulo teorico tecnico sono effettuate da docenti di cui al punto
-2 della Parte I del presente accordo e con conoscenza tecnica dell’attrezzatura.
+2 della Parte I del presente accordo e con conoscenza tecnica dell'attrezzatura.
 Le docenze con riferimento al modulo pratico sono effettuate da docenti di cui al punto 2 della
 Parte I del presente accordo e con esperienza professionale pratica, almeno triennale, nelle
-tecniche dell’utilizzazione delle attrezzature di che trattasi.
+tecniche dell'utilizzazione delle attrezzature di che trattasi.
 
 
 ## Pagina 45
@@ -2363,7 +2363,7 @@ Pag. 43 a 138
 I programmi dei corsi di formazione e la loro valutazione sono quelli previsti nei punti seguenti.
 8.3.1 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di
 piattaforme di lavoro mobili elevabili (PLE)
-Per l’utilizzo di una PLE è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di una PLE è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Modulo Obiettivi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -2383,15 +2383,15 @@ pantografo/braccio elevabile.
 1.3 Dispositivi di comando e di sicurezza: individuazione dei
 dispositivi di comando e loro funzionamento,
 individuazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi
 e funzionali.
 1.5 DPI specifici da utilizzare con le PLE: caschi, imbracature,
 cordino di trattenuta e relative modalità di utilizzo inclusi
 i punti di aggancio in piattaforma.
 1.6 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo delle PLE
+valutazione dei rischi più ricorrenti nell'utilizzo delle PLE
 (rischi di elettrocuzione, rischi ambientali, di caduta
-dall’alto, ecc.); spostamento e traslazione,
+dall'alto, ecc.); spostamento e traslazione,
 posizionamento e stabilizzazione, azion amenti e
 manovre, rifornimento e parcheggio in modo sicuro a
 fine lavoro.
@@ -2402,7 +2402,7 @@ operano su
 stabilizzatori (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -2423,7 +2423,7 @@ sollevamento e stabilizzatori, ecc.).
 2.5 Pianificazione del percorso: pendenze, accesso, ostacoli
 sul percorso e in quota, condizioni del terreno.
 2.6 Posizionamento della PLE sul luogo di lavoro:
-delimitazione dell’area di lavoro, segnaletica da
+delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, posizionamento
 stabilizzatori e livellamento.
 
@@ -2432,14 +2432,14 @@ stabilizzatori e livellamento.
 
 Pag. 44 a 138
 2.7 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 2.8 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 2.9 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonee, precauzioni contra l’utilizzo non autorizzato.
+idonee, precauzioni contra l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie).
 3. Parte Pratica per PLE
@@ -2448,7 +2448,7 @@ senza stabilizzatori (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -2467,16 +2467,16 @@ PLE.
 sul percorso e in quota, condizioni del terreno.
 3.5 Movimentazione e posizionamento della PLE:
 spostamento della PLE sul luogo di lavoro e delimitazione
-dell’area di lavoro.
+dell'area di lavoro.
 3.6 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 3.7 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 3.8 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonea, precauzioni contro l’utilizzo non autorizzato.
+idonea, precauzioni contro l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie)
 4. Parte Pratica PLE con
@@ -2487,7 +2487,7 @@ presenti PLE con e senza
 stabilizzatori
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -2508,7 +2508,7 @@ sollevamento e stabilizzatori, ecc.).
 4.5 Pianificazione del percorso: pendenze, accesso, ostacoli
 sul percorso e in quota, condizioni del terreno.
 4.6 Movimentazione e posizionamento della PLE:
-delimitazione dell’area di lavoro, segnaletica da
+delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, spostamento della PLE
 
 
@@ -2518,14 +2518,14 @@ Pag. 45 a 138
 sul luogo di lavoro, posizionamento stabilizzatori a
 livellamento.
 4.7 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 4.8 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 4.9 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonea, precauzioni contro l’utilizzo non autorizzato.
+idonea, precauzioni contro l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie).
 Verifica
@@ -2535,7 +2535,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove per ciascuno dei moduli 2 e 3 e
+finale, consistente nell'esecuzione di almeno 2 delle prove per ciascuno dei moduli 2 e 3 e
 almeno 3 delle prove per il modulo 4, concernenti i seguenti argomenti:
 ✓ per il modulo 2 Pratico PLE che operano su stabilizzatori:
 a. spostamento e stabilizzazione della PLE sulla postazione di impiego (Controlli pre-
@@ -2544,7 +2544,7 @@ Posizionamento della PLE sul luogo di lavoro - Messa a riposo della PLE a fine
 lavoro);
 b. effettuazione manovra di: salita, discesa, rotazione, accostamento piattaforma
 alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore - Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento
 in caso di guasti).
 ✓ per il modulo 3 Pratico PLE che possono operare senza stabilizzatori:
 a. spostamento della PLE sulla postazione di impiego (Controlli pre -utilizzo -
@@ -2553,7 +2553,7 @@ a riposo della PLE a fine lavoro);
 b. effettuazione manovra di: pianificazione del percorso, movimentazione e
 posizionamento della PLE con operatore a bordo (traslazione), salita, discesa,
 rotazione, accostamento della piattaforma alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore Comportamento
 in caso di guasti).
 ✓ per il modulo 4 Pratico PLE con e senza stabilizzatori:
 a. spostamento e stabilizzazione della PLE sulla postazione di impiego (Controlli pre-
@@ -2568,9 +2568,9 @@ lavoro);
 b. effettuazione manovra di: pianificazione del percorso, movimentazione e
 posizionamento della PLE con operatore a bordo (traslazione), salita, discesa,
 rotazione, accostamento della piattaforma alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore - Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento
 in caso di guasti).
-→ Il mancato superamento della verifica finale comporta l’obbligo di ripetere il modulo pratico.
+→ Il mancato superamento della verifica finale comporta l'obbligo di ripetere il modulo pratico.
 
 
 ## Pagina 49
@@ -2578,7 +2578,7 @@ in caso di guasti).
 Pag. 47 a 138
 8.3.2 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di gru per
 autocarro
-Per l’utilizzo di gru per autocarro è necessario il possesso da parte dell’operatore di almeno una
+Per l'utilizzo di gru per autocarro è necessario il possesso da parte dell'operatore di almeno una
 delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -2596,7 +2596,7 @@ degli accessori installati.
 1.2 Nozioni elementari di fisica per poter valutare la massa di
 un carico e per poter apprezzare le condizioni di equilibrio
 di un corpo, oltre alla valutazione dei necessari attributi
-che consentono il mantenimento dell’insieme gru con
+che consentono il mantenimento dell'insieme gru con
 carico appeso in condizioni di stabilità.
 1.3 Condizioni di stabilità di una gru per autocarro: fattori ed
 elementi che influenzano la stabilità.
@@ -2612,10 +2612,10 @@ dispositivi limitatori, indicatori, di controllo.
 1.10 Principi generali per il trasferimento, il posizionamento e
 la stabilizzazione.
 1.11 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo delle gru
+valutazione dei rischi più ricorrenti nell'utilizzo delle gru
 per autocarro (caduta del carico, perdita di stabilità della
 gru per autocarro, urto di persone con il carico o con la
-gru, rischi connessi con l’ambiente, quali vento, ostacoli,
+gru, rischi connessi con l'ambiente, quali vento, ostacoli,
 linee elettriche, ecc., rischi connessi alla non corretta
 stabilizzazione).
 1.12 Segnaletica gestuale.
@@ -2623,7 +2623,7 @@ stabilizzazione).
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -2638,7 +2638,7 @@ identificazione dei dispositivi di sicurezza e loro funzione.
 2.3 Controlli pre-utilizzo: controlli visivi e funzionali della gru
 per autocarro e dei componenti accessori, dei dispositivi
 di comando, di segnalazione e di sicurezza, previsti dal
-costruttore nel manuale di istruzioni dell’attrezzatura.
+costruttore nel manuale di istruzioni dell'attrezzatura.
 Manovre della gru per autocarro senza carico
 (sollevamento, estensione, rotazione, ecc.) singole e
 combinate.
@@ -2657,14 +2657,14 @@ determinazione del raggio, configurazione della gru per
 autocarro, sistemi di imbracatura, ecc.
 2.6 Posizionamento della gru per autocarro sul luogo di
 lavoro: posizionamento della gru rispetto al baricentro del
-carico, delimitazione dell’area di lavoro, segnaletica da
+carico, delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, messa in opera di
 stabilizzatori, livellamento della gru. Procedure per la
 messa in opera di accessori, bozzelli, stabilizzatori, jib,
 ecc.,
 2.7 Esercitazione di pratiche operative:
 a. Effettuazione di esercitazioni di presa/aggancio del
-carico per il controllo della rotazione, dell’oscillazione,
+carico per il controllo della rotazione, dell'oscillazione,
 degli urti e del posizionamento del carico. Operazioni in
 prossimità di ostacoli fissi o altre gru (interferenza).
 Movimentazione di carichi di uso comune e carichi di
@@ -2683,7 +2683,7 @@ emergenza per il recupero del carico.
 2.10 Operazioni pratiche per provare il corretto
 funzionamento dei dispositivi limitatori, indicatori e di
 posizione.
-2.11 Esercitazioni sull’uso sicuro, gestione di situazioni di
+2.11 Esercitazioni sull'uso sicuro, gestione di situazioni di
 emergenza e compilazione del registro di controllo.
 2.12 Messa a riposo della gru per autocarro: procedure per il
 rimessaggio di accessori, bozzelli, stabilizzatori, jib, ecc.
@@ -2694,7 +2694,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio al modulo pratico.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove del modulo 2 concernenti i seguenti
+consistente nell'esecuzione di almeno 2 delle prove del modulo 2 concernenti i seguenti
 argomenti:
 a. imbracatura e movimentazione di un carico di entità pari al 50% del carico
 massimo nominale con sbraccio pari al 50% dello sbraccio massimo, tra la quota
@@ -2707,8 +2707,8 @@ individuata dalla tabella di carico.
 Pag. 49 a 138
 b. imbracatura e movimentazione ad una quota di 0,5m, di un carico pari al 50% del
 carico nominale, alla distanza massima consentita dal centro colonna/ralla prima
-dell’intervento del dispositivo di controllo del momento massimo.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+dell'intervento del dispositivo di controllo del momento massimo.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -2716,7 +2716,7 @@ pratico.
 
 Pag. 50 a 138
 8.3.3 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di gru a torre
-Per l’utilizzo di gru a torre è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di gru a torre è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico - Tecnico (8
@@ -2725,7 +2725,7 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i rischi connessi
-all’impiego delle
+all'impiego delle
 attrezzature di lavoro
 - Illustrare i componenti e i
 dispositivi di comando e di
@@ -2733,9 +2733,9 @@ sicurezza
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Norme generali di utilizzo della gru a torre: ruolo
-dell’operatore rispetto agli altri soggetti (montatori,
+dell'operatore rispetto agli altri soggetti (montatori,
 manutentori, capo cantiere, ecc.). Limiti di utilizzo
-dell’attrezzatura tenuto conto delle sue caratteristiche e
+dell'attrezzatura tenuto conto delle sue caratteristiche e
 delle sue condizioni di installazione. Manovre consentite
 tenuto conto delle sue condizioni di installazione (zone
 interdette, interferenze, ecc.). Caratteristic he dei carichi
@@ -2743,11 +2743,11 @@ interdette, interferenze, ecc.). Caratteristic he dei carichi
 elementi del carico, imballaggi, ecc.).
 1.2 Tipologie di gru a torre: i vari tipi di gru a torre e
 descrizione delle caratteristiche generali e specifiche.
-1.3 Principali rischi connessi all’impiego di gru a torre: caduta
+1.3 Principali rischi connessi all'impiego di gru a torre: caduta
 del carico, rovesciamento della gru, urti delle persone con
 il carico o con elementi mobili della gru a torre, rischi
-legati all’ambiente (vento, ostacoli, linee elettriche, ecc.),
-rischi legati all’uso delle diverse forme di energia
+legati all'ambiente (vento, ostacoli, linee elettriche, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.).
 1.4 Nozioni elementari di fisica: nozioni di base per la
 valutazione dei carichi movimentati nei cantieri,
@@ -2768,12 +2768,12 @@ ecc.).
 elementi che influenzano la stabilità. Diagrammi di carico
 forniti dal fabbricante. Gli ausili alla conduzione della gru
 (anemometro, indicatori di carico e altri indicatori, ecc.).
-1.9 L’installazione della gru a torre: informazioni generali
+1.9 L'installazione della gru a torre: informazioni generali
 relative alle condizioni di installazione (piani di appoggio,
 ancoraggi, contrappesi, ecc.). Mezzi per impedire
-l’accesso a zone interdette (illuminazione, barriere, ecc.).
-1.10 Controlli da effettuare prima dell’utilizzo: controlli visivi
-(della gru, dell’appoggio, delle vie di traslazione, ove
+l'accesso a zone interdette (illuminazione, barriere, ecc.).
+1.10 Controlli da effettuare prima dell'utilizzo: controlli visivi
+(della gru, dell'appoggio, delle vie di traslazione, ove
 presenti) e funzionali.
 1.11 Modalità di utilizzo in sicurezza della gru a torre:
 Operazioni di messa in servizio (blocco del freno di
@@ -2794,13 +2794,13 @@ spostamento del carico con la precisione richiesta
 (posizionamento e bilanciamento del carico, con la
 minima oscillazione possibile, ecc.). Operazioni vietate.
 Operazioni di fine utilizzo (compresi lo sblocco del freno di
-rotazione e l’eventuale sistemazione di sistemi di
+rotazione e l'eventuale sistemazione di sistemi di
 ancoraggio e di blocco). Uso della gru secondo le
-condizioni d’uso previste dal fabbricante.
+condizioni d'uso previste dal fabbricante.
 1.12 Manutenzione della gru a torre: controlli visivi della gru e
 delle proprie apparecchiature per rilevare le anomalie e
 attuare i necessari interventi (direttamente o attraverso il
-personale di manutenzione e/o l’assistenza tecnica).
+personale di manutenzione e/o l'assistenza tecnica).
 Semplici operazioni di m anutenzione (lubrificazione,
 pulizia di alcuni organi o componenti, ecc.).
 2. Parte Pratica Gru a
@@ -2808,7 +2808,7 @@ rotazione in basso (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -2827,7 +2827,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico e
 di momento, dispositivi anti -interferenza, ecc.).
 Condizioni di installazione (piani di appoggio, ancoraggi,
-contrappesi, barriere contro l’accesso a zone interdette).
+contrappesi, barriere contro l'accesso a zone interdette).
 2.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei
@@ -2839,11 +2839,11 @@ con la precisione richiesta (posizionamento e
 bilanciamento del carico, con la minima oscillazione
 possibile, ecc.). Uso dei comandi posti su pulsantiera
 pensile. Uso dei comandi posti su unità radio-mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi. Spostamento del carico attraverso ostacoli fissi, e
 aperture, avvicinamento e posizionamento al suolo e su
 piani rialzati. Arresto della gru sul luogo di lavoro (messa
-fuori servizio in caso d’interruzione dell’esercizio
+fuori servizio in caso d'interruzione dell'esercizio
 normale). Controlli giornalieri della gru a torre,
 prescrizioni operative per la messa fuori servizio e misure
 precauzionali in caso di avv erse condizioni
@@ -2858,13 +2858,13 @@ Posizionamento del carrello e del gancio di sollevamento.
 
 Pag. 52 a 138
 Sblocco del freno di rotazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 3. Parte Pratica Gru a
 rotazione in alto (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -2884,7 +2884,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico e di
 momento, dispositivi anti -interferenza, ecc.). Condizioni
 di installazione (piani di appoggio, ancoraggi, contrappesi,
-barriere contro l’accesso a zone interdette).
+barriere contro l'accesso a zone interdette).
 3.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei freni
@@ -2898,13 +2898,13 @@ bilanciamento del carico, con la minima oscillazione
 possibile, ecc.).
 Uso dei comandi posti su pulsantiera pensile.
 Uso dei comandi posti su unità radio -mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi.
 Spostamento del carico attraverso ostacoli fissi e
 aperture, avvicinamento e posizione al suolo e su piani
 rialzati.
 Arresto della gru sul luogo di lavoro (messa fuori servizio
-in caso d’interruzione dell’esercizio normale). Controlli
+in caso d'interruzione dell'esercizio normale). Controlli
 giornalieri della gru, prescrizioni operative per la messa
 fuori servizio e misure precauzionali in caso di avverse
 condizioni meteorologiche.
@@ -2913,7 +2913,7 @@ gru, dei dispositivi di comando e di sicurezza previsti dal
 costruttore e dal manuale di istruzioni della gru.
 Posizionamento del carrello e del gancio di sollevamento.
 Sblocco del freno di r otazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 4. Parte Pratica Gru a
 rotazione in basso e in
 alto (6 ore)
@@ -2924,7 +2924,7 @@ sia a rotazione in basso
 sia a rotazione in alto
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -2949,7 +2949,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico, di
 momento, dispositivi anti -interferenza, ecc.). Condizioni
 di installazione (piani di appoggio, ancoraggi, contrappesi,
-barriere contro l’accesso a zone interdette).
+barriere contro l'accesso a zone interdette).
 4.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei freni
@@ -2962,12 +2962,12 @@ bilanciamento del carico, con l a minima oscillazione
 possibile, ecc.). Uso dei comandi posti su pulsantiera
 pensile.
 Uso dei comandi posti su unità radio -mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi.
 Spostamento del carico attraverso ostacoli fissi e
 aperture, avvicinamento e posizionamento al suolo e su
 piani rialzati. Arresto della gru sul luogo di lavoro (messa
-fuori servizio in caso d’interruzione dell’esercizio
+fuori servizio in caso d'interruzione dell'esercizio
 normale).
 Controlli giornalieri della gru a torre, prescrizioni
 operative per la messa fuori servizio e misure
@@ -2978,7 +2978,7 @@ della gru, dei dispositivi di comando e di sicurezza previsti
 dal costruttore e dal manuale di istruzioni della gru.
 Posizionamento del carrello e del gancio di sollevamento.
 Sblocco del freno di rotazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -2986,11 +2986,11 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di:
+finale, consistente nell'esecuzione di:
 ✓ almeno 2 delle prove per il modulo 2 di cui ai punti 2.3, 2.4 e 2.5;
 ✓ almeno 2 delle prove per il modulo 3 di cui ai punti 3.3, 3.4 e 3.5;
 ✓ almeno 3 delle prove per il modulo 4 di cui ai punti 4.3, 4.4 e 4.5.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -2999,8 +2999,8 @@ pratico.
 Pag. 54 a 138
 8.3.4 Corso di formazione teorico -pratici per lavoratori addetti alla conduzione di carrelli
 elevatori semoventi con conducente a bordo
-Per l’utilizzo di carrelli elevatori semoventi con conducente a bordo è necessario il possesso da
-parte dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di carrelli elevatori semoventi con conducente a bordo è necessario il possesso da
+parte dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (8
 ore)
@@ -3013,19 +3013,19 @@ sicurezza
 1.1 Tipologie e caratteristiche dei vari tipi di veicoli per il
 trasporto interne: dai transpallet manuali ai carrelli
 elevatori frontali a contrappeso.
-1.2 Principali rischi connessi all’impiego di carrelli semoventi:
+1.2 Principali rischi connessi all'impiego di carrelli semoventi:
 caduta del carico, rovesciamento, ribaltamento, urti delle
 persone con il carico o con elementi mobili del carrello,
-rischi legati all’ambiente (ostacoli, linee elettriche, ecc.),
-rischi legati all’uso delle diverse forme di energia
+rischi legati all'ambiente (ostacoli, linee elettriche, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.).
 1.3 Nozioni elementari di fisica: nozioni di base per la
 valutazione dei carichi movimentati, condizioni di
 equilibrio di un corpo. Stabilità (concetto del baricentro
 del carico e della leva di primo grado). Linee di
 ribaltamento. Stabilità statica e dinamica e influenza
-dovuta alla mobilità del carrello e dell’ambiente di lavoro
-(forze centrifughe e d’inerzia). Portata del carrello
+dovuta alla mobilità del carrello e dell'ambiente di lavoro
+(forze centrifughe e d'inerzia). Portata del carrello
 elevatore.
 1.4 Tecnologia dei carrelli semoventi: terminologia,
 caratteristiche generali e principali componenti.
@@ -3037,7 +3037,7 @@ sollevamento (simplex - duplex - triplex - quadruplex ecc.,
 ad alzata libera e non). Posto di guida con descrizione del
 sedile, degli organi di comando (leve, pedali, piantone
 sterzo e volante, freno di stazionamento, interruttore
-generale a chiave, interruttore d’emergenza), dei
+generale a chiave, interruttore d'emergenza), dei
 dispositivi di segnalazione (clacson, beep di retromarcia,
 segnalatori luminosi, fari di lavoro, ecc.) e controllo
 (strumenti e spie di funzionamento). Freni (freno di
@@ -3046,7 +3046,7 @@ gommature: differenze per i vari tipi di utilizzo, ruote
 sterzanti e motrici. Fonti di energia (batterie di
 accumulatori o motori endotermici). Contrappeso.
 1.6 Sistemi di ricarica batterie: raddrizzatori e sicurezze circa
-le modalità di utilizzo anche in relazione all’ambiente.
+le modalità di utilizzo anche in relazione all'ambiente.
 1.7 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
@@ -3069,7 +3069,7 @@ utilizzo in sicurezza
 periodiche (stato generale e prove, montanti,
 attrezzature, posto di guida, freni, ruote e sterzo, batteria
 o motore, dispositivi di sicurezza). Illustrazione
-dell’importanza di un corretto utilizzo dei man uali di uso
+dell'importanza di un corretto utilizzo dei man uali di uso
 e manutenzione a corredo del carrello.
 1.10 Modalità di utilizzo in sicurezza dei carrelli semoventi:
 procedure di movimentazione. Segnaletica di sicurezza
@@ -3077,14 +3077,14 @@ nei luoghi di lavoro. Procedure di sicurezza durante la
 movimentazione e lo stazionamento del mezzo. Viabilità:
 ostacoli, percorsi pedonali, inc roci, strettoie, portoni,
 varchi, pendenze, ecc.
-1.11 Lavori in condizioni particolari ovvero all’esterno, su
+1.11 Lavori in condizioni particolari ovvero all'esterno, su
 terreni scivolosi e su pendenze e con scarsa visibilità.
 Nozioni di guida. Norme sulla circolazione,
 movimentazione dei carichi, stoccaggio, ecc.
 1.12 Nozioni sui possibili rischi per la salute e la sicurezza
 collegati alla guida del carrello ed in particolare ai rischi
 riferibili:
-a. all’ambiente di lavoro;
+a. all'ambiente di lavoro;
 b. al rapporto uomo/macchina;
 c. allo stato di salute del guidatore.
 1.13 Nozioni sulle modalità tecniche, organizzative e
@@ -3101,8 +3101,8 @@ industriali semoventi
 (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -3119,8 +3119,8 @@ semoventi a braccio
 telescopico (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -3139,8 +3139,8 @@ telescopici rotativi (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -3176,8 +3176,8 @@ atori semoventi
 telescopici rotativi.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 a. Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -3201,8 +3201,8 @@ sollevamento di carichi
 sospesi e di persone ( 6
 ore)
 - Far acquisire le competenze
-necessarie per l’utilizzo in
-sicurezza dell’attrezzatura
+necessarie per l'utilizzo in
+sicurezza dell'attrezzatura
 di lavoro e le relative
 procedure operative in caso
 di adozione di dispositivi che
@@ -3219,7 +3219,7 @@ collegamento al carrello, di eventual i dispositivi di
 sicurezza aggiuntivi connessi alle nuove funzioni.
 6.2 Manutenzione e verifiche giornaliere e periodiche di legge
 e secondo quanto indicato nelle istruzioni di uso del
-carrello o delle istruzioni dell’attrezzatura intercambiabile
+carrello o delle istruzioni dell'attrezzatura intercambiabile
 6.3 Guida del carrello con funzioni di sollevamento di carichi
 sospesi su percorso di prova per evidenziare le corrette
 manovre a vuoto e a carico (corretta posizione sul carrello,
@@ -3231,10 +3231,10 @@ percorso di prova per evidenziare le corrette manovre
 piattaforma in quota, manovre di emergenza per il
 recupero a terra della piattaforma, tr asporto nelle varie
 situazioni, sosta del carrello, ecc.).
-L’operatore che effettua il modulo di cui al punto 6 (carrelli con funzioni aggiuntive di
+L'operatore che effettua il modulo di cui al punto 6 (carrelli con funzioni aggiuntive di
 sollevamento carichi sospesi e sollevamento persone) non deve effettuare la formazione prevista
 per le piattaforme mobili elevabili e per le gru mobili e per la conduzione del carrello con
-applicato l’accessorio destinato al sollevamento di carichi sospesi e/o persone.
+applicato l'accessorio destinato al sollevamento di carichi sospesi e/o persone.
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -3242,7 +3242,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove:
+finale, consistente nell'esecuzione di almeno 2 delle prove:
 
 
 ## Pagina 59
@@ -3253,7 +3253,7 @@ Pag. 57 a 138
 ✓ per il modulo 4 di cui ai punti 4.2 e 4.3;
 ✓ per il modulo 5 di cui ai punti 5.2 e 5.3.
 ✓ per il modulo 6 di cui ai punti 6.2, 6.3 e 6.4
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -3261,7 +3261,7 @@ pratico.
 
 Pag. 58 a 138
 8.3.5 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di gru mobili
-Per l’utilizzo di gru mobili è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di gru mobili è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Gru mobili autocarrate e semoventi su ruote con braccio telescopico o tralicciato ed eventuale
 falcone fisso.
@@ -3272,8 +3272,8 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i rischi connessi
-con l’utilizzo
-dell’attrezzatura di lavoro
+con l'utilizzo
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Terminologia, caratteristiche delle diverse tipologie di gru
@@ -3281,13 +3281,13 @@ mobili, loro movimenti e loro equipaggiamenti di
 sollevamento.
 1.2 Principali rischi e loro cause:
 a. Caduta o perdita del carico;
-b. Perdita di stabilità dell’apparecchio;
+b. Perdita di stabilità dell'apparecchio;
 c. Investimento di persone da parte del carico o
-dell’apparecchio;
-d. Rischi connessi con l’ambiente (caratteristiche del
+dell'apparecchio;
+d. Rischi connessi con l'ambiente (caratteristiche del
 terreno, presenza di vento, ostacoli, linee elettriche,
 ecc.);
-e. Rischi connessi con l’energia di alimentazione utilizzata
+e. Rischi connessi con l'energia di alimentazione utilizzata
 (elettrica, idraulica, pneumatica);
 f. Rischi particolari connessi con utilizzazioni speciali
 (lavori marittimi o fluviali, lavori ferroviari, ecc.);
@@ -3310,8 +3310,8 @@ ed il ripiegamento della gru.
 1.11 Segnaletica gestuale.
 2. Parte Pratica (7 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi della gru per il suo
@@ -3324,7 +3324,7 @@ comando, delle funi e dei componenti.
 spostamento.
 2.4 Procedure per la messa in opera e il rimessaggio di
 accessori, bozzelli, stabilizzatori, contrappesi, jib, ecc.
-2.5 Esercitazioni di pianificazione dell’operazione di
+2.5 Esercitazioni di pianificazione dell'operazione di
 sollevamento tenendo conto delle condizioni del sito di
 
 
@@ -3345,7 +3345,7 @@ elevazione appropriate;
 estensione, rotazione, ecc.) singole e combinate e
 spostamento con la gru nelle configurazioni consentite.
 2.9 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del
+rotazione, dell'oscillazione, degli urti e del
 posizionamento del carico.
 2.10 Traslazione con carico sospeso con gru mobili su
 pneumatici.
@@ -3365,11 +3365,11 @@ speciali.
 posizionamento dei carichi in posizioni visibili e non
 visibili.
 2.18 Prove di comunicazione con segnali gestuali e via radio.
-2.19 Esercitazioni sull’uso sicuro, prove, manutenzione e
+2.19 Esercitazioni sull'uso sicuro, prove, manutenzione e
 situazioni di emergenza (procedure di avvio e arresto, fuga
 sicura, ispezioni regolari e loro registrazioni, tenuta del
 registro di controllo, controlli giornalieri richiesti dal
-manuale d’uso, controll i pre -operativi quali: ispezioni
+manuale d'uso, controll i pre -operativi quali: ispezioni
 visive, lubrificazioni, controllo livelli, prove degli
 indicatori, allarmi, dispositivi di avvertenza,
 strumentazione).
@@ -3380,8 +3380,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine d el modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -3395,7 +3395,7 @@ Modulo Aggiuntivo Obiettivi formativi Contenuti del Modulo
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Principali caratteristiche e componenti delle gru mobili
@@ -3416,8 +3416,8 @@ ed il ripiegamento della gru con falcone telescopico o
 brandeggiabile.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi della gru con falcone
@@ -3442,7 +3442,7 @@ brandeggiabile senza carico (sollevamento, estensione,
 rotazione, ecc.) singole e combinate e spostamento con la
 gru nelle configurazioni consentite.
 2.8 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del
+rotazione, dell'oscillazione, degli urti e del
 posizionamento del carico.
 2.9 Traslazione con carico sospeso con gru con falcone
 telescopico o brandeggiabile su pneumatici.
@@ -3466,8 +3466,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -3476,9 +3476,9 @@ pratico.
 Pag. 62 a 138
 8.3.6 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di trattori
 agricoli o forestali
-Per l’utilizzo di trattori agricoli o forestali è necessario il possesso da parte dell’operatore di
+Per l'utilizzo di trattori agricoli o forestali è necessario il possesso da parte dell'operatore di
 almeno una delle seguenti abilitazioni.
-Il possesso dell’abilitazione di cui al presente allegato esonera nell’ambito dei lavori agricoli e
+Il possesso dell'abilitazione di cui al presente allegato esonera nell'ambito dei lavori agricoli e
 forestali, in caso di montaggio di attrezzi sui trattori agricoli e forestali per elevare o sollevare
 carichi, scavare, livellare, livellare asportare super fici, aprire piste o sgombraneve, dal possesso
 di altre abilitazioni previste dal presente accordo.
@@ -3487,7 +3487,7 @@ Modulo Obiettivi formativi Contenuti del Modulo
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di trattori: i vari tipi di trattori a ruote e a cingoli
@@ -3500,14 +3500,14 @@ impianto idraulico, impianto elettrico.
 1.3 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali.
 1.5 DPI specifici da utilizzare con i trattori: dispositivi di
-protezione dell’udito, dispositivi di protezione delle vie
+protezione dell'udito, dispositivi di protezione delle vie
 respiratorie, indumenti di protezione contro il contatto da
 prodotti antiparassitari, ecc.
 1.6 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo dei trattori
+valutazione dei rischi più ricorrenti nell'utilizzo dei trattori
 (rischio di capovolgimento e stabilità statica e dinamica,
 contatti non intenzionali con organi in movimento e con
 superfici calde, rischi dovuti alla mobilità, ecc.).
@@ -3523,8 +3523,8 @@ Modulo Obiettivi formativi Contenuti del Modulo
 a ruote (5 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti principali: struttura
@@ -3570,7 +3570,7 @@ d. guida del trattore in condizioni di carico anteriore
 caratteristiche tecniche compatibili con il trattore);
 e. guida del trattore in condizioni di carico posteriori.
 2.6 Messa a riposo del trattore: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato.
 
 
@@ -3582,8 +3582,8 @@ Modulo Obiettivi formativi Contenuti del Modulo
 a cingoli (5 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali: struttura
@@ -3620,7 +3620,7 @@ c. guida del trattore in condizioni di carico laterale (es.
 lavorazione con decespugliatore a braccio articolato);
 d. guida del trattore in condizioni di carico posteriore.
 3.6 Messa a riposo del trattore: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
@@ -3629,10 +3629,10 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove:
+finale, consistente nell'esecuzione di almeno 2 delle prove:
 ✓ per il modulo 2 di cui ai punti 2.5.2;
 ✓ per il modulo 3 di cui ai punti 3.5.2.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -3641,14 +3641,14 @@ pratico.
 Pag. 65 a 138
 8.3.7 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di escavatori,
 pale caricatrici frontali, terne e autoribaltabili a cingoli
-Per l’utilizzo di escavatori, pale caricatrici frontali e terne è necessario il possesso da parte
-dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di escavatori, pale caricatrici frontali e terne è necessario il possesso da parte
+dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di attrezzature: I vari tipi di macchine
@@ -3663,9 +3663,9 @@ attrezzature oggetto del corso).
 1.3 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
-Visibilità dell’attrezzatura e identificazione delle zone
+Visibilità dell'attrezzatura e identificazione delle zone
 cieche, sistemi di accesso.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali ad inizio ciclo di lavoro.
 1.5 Modalità di utilizzo in sicurezza e rischi: analisi e
 valutazione dei rischi più ricorrenti nel ciclo base delle
@@ -3674,9 +3674,9 @@ e dinamica, contatti non intenzionali con organi in
 movimento e con superfici calde, rischi dovuti alla
 mobilità, ecc.). Avviamento, spostamento, azionamenti,
 manovre, operazioni con le principali attrezzature di
-lavoro. Precauzioni da adottare sull’organizzazione
-dell’area di scavo o lavoro.
-1.6 Modalità di utilizzo dell’escavatore nella configurazione di
+lavoro. Precauzioni da adottare sull'organizzazione
+dell'area di scavo o lavoro.
+1.6 Modalità di utilizzo dell'escavatore nella configurazione di
 apparecchio di sollevamento.
 1.7 Protezione nei confronti degli agenti fisici: rumore,
 vibrazioni al corpo intero ed al sistema mano-braccio.
@@ -3685,8 +3685,8 @@ escavatori idraulici (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali: struttura
@@ -3706,7 +3706,7 @@ movimentazione carichi, manovra di agganci rapidi per
 attrezzi.
 2.5 Esercitazioni di pratiche operative: tecniche di manovra e
 gestione delle situazioni di pericolo.
-2.5.1 Guida dell’escavatore ruotato su strada. Le
+2.5.1 Guida dell'escavatore ruotato su strada. Le
 esercitazioni devono prevedere:
 
 
@@ -3716,7 +3716,7 @@ Pag. 66 a 138
 a. predisposizione del mezzo e posizionamento organi
 di lavoro;
 b. guida con attrezzature.
-2.5.2 Uso dell’escavatore in campo. Le esercitazioni
+2.5.2 Uso dell'escavatore in campo. Le esercitazioni
 devono prevedere
 a. esecuzione di manovre di scavo e riempimento;
 b. accoppiamento attrezzature in piano e no;
@@ -3725,17 +3725,17 @@ d. operazioni di movimentazione carichi di precisione;
 e. aggancio di attrezzature speciali e loro impiego;
 f. aggancio di attrezzature per il sollevamento
 materiali a mezzo di ganci, polipi o pinze.
-2.6 Messa a riposo e trasporto dell’escavatore: parcheggio e
+2.6 Messa a riposo e trasporto dell'escavatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato. Salita sul carrellone di trasporto.
+l'utilizzo non autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento.
 3. Parte Pratica per
 escavatori a fune (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali: struttura
@@ -3754,29 +3754,29 @@ pendenza a vuoto ed a carico nominale. Operazioni di
 movimentazione carichi.
 3.5 Esercitazioni di pratiche operative: tecniche di manovra e
 gestione delle situazioni di pericolo.
-3.5.1 Guida dell’escavatore a ruote su strada. Le
+3.5.1 Guida dell'escavatore a ruote su strada. Le
 esercitazioni devono prevedere:
 a. predisposizione del mezzo e posizionamento organi
 di lavoro;
 b. guide con attrezzature.
-3.5.2 Uso dell’escavatore in campo. Le esercitazioni
+3.5.2 Uso dell'escavatore in campo. Le esercitazioni
 devono prevedere:
 a. manovre di scavo e riempimento;
 b. accoppiamento attrezzature;
 c. operazioni di movimentazione carichi di precisione;
 d. aggancio di attrezzature speciali (benna mordente,
 magnete, ecc.) e loro impiego.
-3.6 Messa a riposo e trasporto dell’escavatore: parcheggio e
+3.6 Messa a riposo e trasporto dell'escavatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato. Salita sul carrellone di trasporto.
+l'utilizzo non autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento.
 4. Parte Pratica
 caricatori frontali (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Individuazione dei componenti strutturali: struttura
@@ -3812,13 +3812,13 @@ b. movimentazione carichi pesanti;
 c. use con forche o pinta.
 4.6 Messa a riposo e trasporto del caricatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato
+l'utilizzo non autorizzato
 5. Parte Pratica terne
 (6 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 5.1 Individuazione dei componenti strutturali: struttura
@@ -3856,7 +3856,7 @@ g. aggancio di attrezzature per il sollevamento materiali
 a mezzo di ganci, polipi o pinze.
 5.6 Messa a riposo e trasporto della terna: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni
-contro l’utilizzo non autorizzato
+contro l'utilizzo non autorizzato
 
 
 ## Pagina 70
@@ -3867,8 +3867,8 @@ autoribaltabili a cingoli
 (6 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 6.1 Individuazione dei componenti strutturali: struttura
@@ -3880,7 +3880,7 @@ identificazione dei dispositivi di comando e loro
 funzionamento, identificazione dei dispositivi di sicurezza
 e loro funzione.
 6.3 Controlli pre -utilizzo: controlli visivi e funzionali
-dell’autoribaltabile, dei dispositivi di comando e di
+dell'autoribaltabile, dei dispositivi di comando e di
 sicurezza.
 6.4 Pianificazione delle operazioni di caricamento,
 scaricamento e spargimento materiali: pendenze,
@@ -3893,13 +3893,13 @@ prevedere:
 a) predisposizione del mezzo e posizionamento organi di
 lavoro;
 b) guida a pieno carico
-6.5.2 Uso dell’autoribaltabile in campo. Le esercitazioni
+6.5.2 Uso dell'autoribaltabile in campo. Le esercitazioni
 devono prevedere:
 a) manovre di scaricamento;
 b) manovre di spargimento.
-6.6 Messa a riposo dell’autoribaltabile: parcheggio e
+6.6 Messa a riposo dell'autoribaltabile: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contra
-l’utilizzo non autorizzato
+l'utilizzo non autorizzato
 7. Parte Pratica per
 escavatori idraulici,
 caricatori frontali e
@@ -3911,8 +3911,8 @@ idraulici, caricatori
 frontali e terne.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 7.1 Individuazione dei componenti strutturali: struttura
@@ -3960,7 +3960,7 @@ h) aggancio di attrezzature per il sollevamento materiali a
 mezzo di ganci, polipi o pinze.
 7.6 Messa a riposo e trasporto degli escavatori idraulici, dei
 caricatori frontali e delle terne: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento
 Verifica
@@ -3971,15 +3971,15 @@ prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
 finale, consistente
-• nell’esecuzione di almeno 2 delle prove:
+- nell'esecuzione di almeno 2 delle prove:
 ✓ per il modulo 2 di cui ai punti 2.5.2;
 ✓ per il modulo 3 di cui ai punti 3.5.2;
 ✓ per il modulo 4 di cui ai punti 4.5.2;
 ✓ per il modulo 5 di cui ai punti 5.5.2;
 ✓ per il modulo 6 di cui ai punti 6.5.2.
-• nell’esecuzione di almeno 3 delle prove:
+- nell'esecuzione di almeno 3 delle prove:
 ✓ per il modulo 7 di cui ai punti 7.5.2.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -3988,14 +3988,14 @@ pratico.
 Pag. 70 a 138
 8.3.8 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di pompe per
 calcestruzzo
-Per l’utilizzo di pompe per calcestruzzo è necessario il possesso da parte dell’operatore di almeno
+Per l'utilizzo di pompe per calcestruzzo è necessario il possesso da parte dell'operatore di almeno
 una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (7
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di pompe: i vari tipi di pompe e descrizione delle
@@ -4005,11 +4005,11 @@ livellamento, telaio.
 1.3 Dispositivi di comando e di sicurezza: individuazione dei
 dispositivi di comando e loro funzionamento,
 individuazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali, dei dispositivi di comando, di segnalazione e di
 sicurezza previsti dal costruttore nel manuale di istruzioni.
 1.5 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi ricorrenti nell’utilizzo delle pompe
+valutazione dei rischi ricorrenti nell'utilizzo delle pompe
 (rischi di elettrocuzione, rischi ambientali, rischi dovuti ad
 urti e cadute a livello, rischio di schiacciamento, ecc.).
 1.6 Spostamento e traslazione, posizionamento e
@@ -4019,7 +4019,7 @@ modo sicuro a fine lavoro.
 accesso al cantiere: caratteristiche tecniche del mezzo;
 controlli preliminari alla partenza; modalità di salita sul
 mezzo; norme di comportamento sulla viabilità ordinaria;
-norme di comportamento nell’accesso e transito in
+norme di comportamento nell'accesso e transito in
 sicurezza in cantiere; DPI da utilizzare.
 1.8 Norme di comportamento per le operazioni preliminari
 allo scarico: controlli su tubazioni e giunti; piazzamento e
@@ -4040,8 +4040,8 @@ tubazioni di mandata, del sistema di pompaggio e della
 tramoggia
 2. Parte Pratica (7 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali: sistemi di
@@ -4067,10 +4067,10 @@ sul percorso e in quota, condizioni del terreno.
 2.6 Norme di comportamento sulla viabilità ordinaria.
 2.7 Controllo idoneità sito di scarico calcestruzzo:
 costatazione di presenza di terreno cedevole,
-dell’idoneità della distanza da eventuali scavi, idoneità
+dell'idoneità della distanza da eventuali scavi, idoneità
 pendenza terreno.
 2.8 Posizionamento e stabilizzazione del mezzo: delimitazione
-dell’area di lavoro, segnaletica da predisporre su strade
+dell'area di lavoro, segnaletica da predisporre su strade
 pubbliche, piazzamento mediante stabilizzatori laterali e
 bolla di livello in modalità standard e con appoggio
 supplementare per terreno di modesta portanza.
@@ -4091,7 +4091,7 @@ radiocomando per raggiungere il sito di scarico
 presenza di linee elettriche, in prossimità di vie di traffico:
 precauzioni da adottare.
 2.16 Inizio della pompata: simulazione metodologia di sblocco
-dell’intasamento della pompa in fase di partenza.
+dell'intasamento della pompa in fase di partenza.
 2.17 Pompaggio del calcestruzzo: precauzioni da adottare.
 2.18 Chiusura braccio: precauzioni da adottare.
 2.19 Pulizia ordinaria del mezzo al termine dello scarico:
@@ -4101,7 +4101,7 @@ riassetto finale.
 tubazioni di mandata, del sistema di pompaggio e della
 tramoggia.
 2.21 Messa a riposo della pompa a fine lavoro: parcheggio in
-area idonea, precauzioni contro l’utilizzo non autorizzato
+area idonea, precauzioni contro l'utilizzo non autorizzato
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -4109,7 +4109,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove di cui alla parte pratica concernente i
+consistente nell'esecuzione di almeno 2 delle prove di cui alla parte pratica concernente i
 seguenti argomenti:
 
 
@@ -4117,13 +4117,13 @@ seguenti argomenti:
 
 Pag. 72 a 138
 ✓ spostamento e stabilizzazione della pompa sulla postazione di impiego (Controlli
-pre-utilizzo – Controlli prima del trasferimento su strada - Pianificazione del percorso
+pre-utilizzo - Controlli prima del trasferimento su strada - Pianificazione del percorso
 - Posizionamento e stabilizzazione del mezzo - Controllo idoneità sito di scarico
 calcestruzzo - Messa a riposo della pompa a fine lavoro);
 ✓ effettuazione manovra di: salita, discesa, rotazione, accostamento pompa alla
 posizione di lavoro;
-✓ simulazione di sblocco dell’intasamento della pompa in fase di partenza.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+✓ simulazione di sblocco dell'intasamento della pompa in fase di partenza.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -4132,7 +4132,7 @@ pratico.
 Pag. 73 a 138
 8.3.9 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di macchina
 agricola raccoglifrutta (comunemente detta carro raccoglifrutta CRF)
-Per l’utilizzo di carri raccogli frutta (CRF) è necessario il possesso da parte dell’operatore di
+Per l'utilizzo di carri raccogli frutta (CRF) è necessario il possesso da parte dell'operatore di
 almeno una delle seguenti abilitazioni.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -4149,8 +4149,8 @@ valutazione dei carichi movimentati, condizioni di
 equilibrio di un corpo. Stabilità (concetto del baricentro
 del carico e della leva di primo grado). Linee di
 ribaltamento. Stabilità statica e dinamica e influenza
-dovuta all a mobilit à del CRF e dell’ambiente di lavoro
-(forze centrifughe e d’inerzia). Portata del CRF.
+dovuta all a mobilit à del CRF e dell'ambiente di lavoro
+(forze centrifughe e d'inerzia). Portata del CRF.
 1.3 Componenti strutturali: sistemi di stabilizzazione,
 livellamento, telaio, struttura a pantografo/braccio
 elevabile, piattaforma di lavoro e relative mensole,
@@ -4170,7 +4170,7 @@ ecc.).
 periodiche (stato generale e prove, montanti,
 attrezzature, posto di guida, freni, ruote e sterzo, batteria
 o motore, dispositivi di sicurezza). Illustrazione
-dell’importanza di un corretto utilizzo dei man uali di uso
+dell'importanza di un corretto utilizzo dei man uali di uso
 e manutenzione a corredo del carrello.
 1.7 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali.
@@ -4184,7 +4184,7 @@ parcheggio in modo sicuro a fine lavoro.
 movimentazione. Procedure di sicurezza durante la
 movimentazione e lo stazionamento del mezzo. Viabilità:
 ostacoli, incroci, strettoie, portoni, varchi, pendenze, ecc.
-Lavori in condizioni particolari ovvero all’esterno, su
+Lavori in condizioni particolari ovvero all'esterno, su
 terreni scivolosi e su pendenze e con scarsa visibilità.
 Nozioni di guida. Norme sulla circolazione,
 movimentazione dei carichi, stoccaggio, ecc. Nozioni sui
@@ -4195,7 +4195,7 @@ movimentazione dei carichi, stoccaggio, ecc. Nozioni sui
 Pag. 74 a 138
 possibili rischi per la salute e la sicurezza collegati alla
 guida del CRF ed in particolare ai rischi riferibili:
-a) all’ambiente di lavoro;
+a) all'ambiente di lavoro;
 b) al rapporto uomo/macchina;
 c) allo stato di salute del guidatore.
 Nozioni sulle modalità tecniche, organizzative e
@@ -4205,8 +4205,8 @@ i rischi.
 emergenza.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali del CRF: sistemi
@@ -4247,7 +4247,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove di cui alla parte pratica concernenti i
+consistente nell'esecuzione di almeno 2 delle prove di cui alla parte pratica concernenti i
 seguenti argomenti:
 ✓ movimentazione e posizionamento del CRF: Controlli pre -utilizzo, verifica del
 percorso, corretto apprestamento, simulazione delle manovre, messa a riposo dei
@@ -4261,7 +4261,7 @@ Pag. 75 a 138
 piattaforma alla posizione di lavoro, carico e scarico del prodotto raccolto;
 ✓ simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento in
 caso di guasti).
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -4270,8 +4270,8 @@ pratico.
 Pag. 76 a 138
 8.3.10 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di caricatori
 per la movimentazione di materiali (CMM)
-Per l’utilizzo di caricatori per la movimentazione di materiali (CMM ) è necessario il possesso da
-parte dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di caricatori per la movimentazione di materiali (CMM ) è necessario il possesso da
+parte dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
@@ -4279,22 +4279,22 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i componenti e i
-dispositivi dell’attrezzatura
+dispositivi dell'attrezzatura
 di lavoro
 1.1 Terminologia, caratteristiche delle diverse tipologie di
 caricatori, loro movimenti e loro dispositivi di
 sollevamento.
-1.2 Principali rischi connessi all’impiego di caricatori: caduta
+1.2 Principali rischi connessi all'impiego di caricatori: caduta
 del carico, rovesciamento, ribaltamento, urti delle
 persone con il carico o con elementi del caricatore, rischi
-legati all’ambiente (ostacoli, linee elettriche, ecc.), rischi
-legati all’uso delle diverse forme di energia (elettrica,
+legati all'ambiente (ostacoli, linee elettriche, ecc.), rischi
+legati all'uso delle diverse forme di energia (elettrica,
 idraulica, ecc.), rischio di investimento di persone da parte
-del carico o dell’apparecchio;
+del carico o dell'apparecchio;
 1.3 Nozioni elementari di fisica per poter stimare la massa di
 un carico e apprezzare le condizioni di equilibrio di un
 corpo. Stabilità statica e dinamica e influenza dovuta alla
-mobilità del carrello e dell’ambiente di lavoro.
+mobilità del carrello e dell'ambiente di lavoro.
 1.4 Componenti principali: organi di presa, meccanismo di
 rotazione. Stazione di comando con descrizione del sedile,
 dei dispositivi di comando, dei dispositivi di
@@ -4313,8 +4313,8 @@ costruttore.
 1.9 Segnaletica gestuale.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi del caricatore per il suo
@@ -4326,7 +4326,7 @@ comando e dei principali componenti, in base alle
 indicazioni fornite dal fabbricante
 2.4 Approntamento del caricatore per il trasporto o lo
 spostamento.
-2.5 Esercitazioni di pianificazione dell’operazione di
+2.5 Esercitazioni di pianificazione dell'operazione di
 sollevamento tenendo conto delle condizioni del sito di
 lavoro, della configurazione del braccio, del carico da
 movimentare, ecc.
@@ -4348,7 +4348,7 @@ estensione, rotazione, ecc.) singole e combinate e
 spostamento con il caricatore nelle configurazioni
 consentite.
 2.8 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del posizionamento
+rotazione, dell'oscillazione, degli urti e del posizionamento
 del carico.
 2.9 Traslazione con carico sospeso con macchina su
 pneumatici.
@@ -4367,11 +4367,11 @@ speciali.
 2.16 Manovre di precisione per il sollevamento, il rilascio ed il
 posizionamento dei carichi in posizioni visibili e non visibili.
 2.17 Prove di comunicazione con segnali gestuali e via radio.
-2.18 Esercitazioni sull’uso sicuro, prove, manutenzione e
+2.18 Esercitazioni sull'uso sicuro, prove, manutenzione e
 situazioni di emergenza (procedure di avvio e arresto, fuga
 sicura, ispezioni regolari e loro registrazioni, tenuta del
 registro di controllo, controlli giornalieri richiesti dal
-manuale d’uso, controll i pre -operativi quali: ispezioni
+manuale d'uso, controll i pre -operativi quali: ispezioni
 visive, lubrificazioni, controllo livelli, prove degli indicatori,
 allarmi, dispositivi di avvertenza, strumentazione).
 Verifica
@@ -4381,8 +4381,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -4390,11 +4390,11 @@ pratico.
 
 Pag. 78 a 138
 8.3.11 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di carriponte
-Per l’utilizzo di carriponte (CP) è necessario il possesso da parte dell’operatore di almeno una
+Per l'utilizzo di carriponte (CP) è necessario il possesso da parte dell'operatore di almeno una
 delle seguenti abilitazioni.
 Il modulo pratico è distinto per le diverse tipologie di comando, distinguendo tra comando
 pensile/radiocomando e comando in cabina, per la durata, per ciascuna tipologia di comando,
-della durata di 6 ore. L’abilitazione per tutte le tipologie comporta un modulo pratico di 7 ore.
+della durata di 6 ore. L'abilitazione per tutte le tipologie comporta un modulo pratico di 7 ore.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
@@ -4402,7 +4402,7 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i componenti e i
-dispositivi dell’attrezzatura
+dispositivi dell'attrezzatura
 di lavoro
 1.1 Terminologia, tipologie di carroponte e gru a cavalletto,
 movimenti e dispositivi di sollevamento.
@@ -4425,22 +4425,22 @@ anticollisione, limitatore di sollevamento, freno, luci di
 segnalazione per comando senza cavo, ecc.) e loro
 funzionamento e controllo.
 1.5 Modalità di utilizzo in sicurezza e principali rischi connessi
-all’impiego di carriponte/gru a cavalletto: caduta del
+all'impiego di carriponte/gru a cavalletto: caduta del
 carico, rischi legati alla fase di imbracatura del carico, urti
 delle persone con il carico o con elementi della macchina,
-rischi legati a ll’ambiente (ostacoli, altri carriponte, ecc.),
-rischi legati all’uso delle diverse forme di energia
+rischi legati a ll'ambiente (ostacoli, altri carriponte, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.), rischio di investimento di
-persone o cose da parte del carico o dell’apparecchio, od
-anche solo del gancio per movimenti “a v uoto” della
+persone o cose da parte del carico o dell'apparecchio, od
+anche solo del gancio per movimenti "a v uoto" della
 macchina, rischi derivanti da OPERAZIONI VIETATE come il
-“tiro obliquo”.
-1.6 L’installazione del carroponte/gru a cavalletto:
+"tiro obliquo".
+1.6 L'installazione del carroponte/gru a cavalletto:
 responsabilità e documentazione necessaria.
 1.7 Dispositivi di protezione individuale (D.P.I.) da utilizzare
 con il carroponte/gru a cavalletto
 1.8 Contenuti della documentazione e delle targhe
-segnaletiche apposte sulla macchina e nell’ambiente di
+segnaletiche apposte sulla macchina e nell'ambiente di
 lavoro.
 1.9 Procedure per la corretta imbracatura del carico e
 movimentazione dello stesso.
@@ -4463,8 +4463,8 @@ cavalletto con comando
 in cabina.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali del
@@ -4484,16 +4484,16 @@ e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di istruzioni
-dell’attrezzatura.
+dell'attrezzatura.
 2.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando in cabina.
 2.6 Valutazione della massa totale del carico, esecuzione delle
 manovre per la movimentazione del carico. Manovre per
-contrastare/limitare l’oscillazione dei carichi.
+contrastare/limitare l'oscillazione dei carichi.
 2.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 2.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -4507,8 +4507,8 @@ comando
 pensile/radiocomando
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali del
@@ -4527,7 +4527,7 @@ sicurezza e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di
-istruzioni dell’attrezzatura.
+istruzioni dell'attrezzatura.
 3.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando
@@ -4539,12 +4539,12 @@ pensile/radiocomando.
 Pag. 80 a 138
 3.6 Valutazione della massa totale del carico, esecuzione
 delle manovre per la movimentazione del carico.
-Manovre per contrastare/limitare l’oscillazione dei
+Manovre per contrastare/limitare l'oscillazione dei
 carichi. Uso dei comandi posti su comando
 pensile/radiocomando.
 3.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 3.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -4560,8 +4560,8 @@ e/o con comando in
 cabina.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Individuazione dei componenti strutturali del
@@ -4581,19 +4581,19 @@ sicurezza e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di
-istruzioni dell’attrezzatura.
+istruzioni dell'attrezzatura.
 4.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando
 pensile/radiocomando e comando in cabina.
 4.6 Valutazione della massa totale del carico, esecuzione
 delle manovre per la movimentazione del carico.
-Manovre per contrastare/limitare l’oscillazione dei
+Manovre per contrastare/limitare l'oscillazione dei
 carichi. Uso dei comandi posti su pulsantiera con
 comando pensile/radiocomando e comando in cabina.
 4.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 4.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -4612,55 +4612,55 @@ prova è propedeutico al passaggio dei moduli pratici specifici.
 Pag. 81 a 138
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
 ## Pagina 84
 
 Pag. 82 a 138
-PARTE III – CORSI DI AGGIORNAMENTO
-L’aggiornamento non deve essere inteso solo come un rispetto agli obblighi di legge, ma deve
-intraprendere un percorso di formazione continua, stabile nel tempo, nell’ottica del "lifelong
-learning" con l’obiettivo di aggiornare le competenze operative, le c apacità relazionali e quelle
+PARTE III - CORSI DI AGGIORNAMENTO
+L'aggiornamento non deve essere inteso solo come un rispetto agli obblighi di legge, ma deve
+intraprendere un percorso di formazione continua, stabile nel tempo, nell'ottica del "lifelong
+learning" con l'obiettivo di aggiornare le competenze operative, le c apacità relazionali e quelle
 relative al ruolo, tenendo conto anche dei cambiamenti normativi, tecnici ed organizzativi del
 contesto operativo.
-L’aggiornamento può essere ottemperato anche per mezzo della partecipazione a convegni o
+L'aggiornamento può essere ottemperato anche per mezzo della partecipazione a convegni o
 seminari, a condizione che essi trattino delle materie i cui contenuti siano coerenti con quanto
-sopra indicato, fatta eccezione per l’aggiornamento di cui ai punti 2.1,2.2, 7 e 8 della Parte II
+sopra indicato, fatta eccezione per l'aggiornamento di cui ai punti 2.1,2.2, 7 e 8 della Parte II
 (formazione specifica dei lavoratori, preposti, lavoratori, datori di lavoro e lavoratori autonomi
 che operano in ambienti sospetti di inquinamento o confinati, operatori addetti alla conduzione
-delle attrezzature di cui all’articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81/2008)
-L’aggiornamento, dunque, non deve essere di carattere generale o mera riproduzione di
+delle attrezzature di cui all'articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81/2008)
+L'aggiornamento, dunque, non deve essere di carattere generale o mera riproduzione di
 argomenti e contenuti già proposti nei corsi base.
-Al fine di rendere maggiormente dinamico l’apprendimento e di garantire un monitoraggio di
+Al fine di rendere maggiormente dinamico l'apprendimento e di garantire un monitoraggio di
 effettività sul processo di acquisizione delle competenze, possono essere altresì previste verifiche
 sul mantenimento delle competenze acquisite ne i pregressi percorsi formativi ed esperienziali.
 Una particolare attenzione nella pianificazione degli aggiornamenti dovrà essere prestata a lla
 rilevazione di nuovi bisogni formativi.
-Qualora la formazione costituisca a tutti gli effetti un titolo abilitativo all’esercizio della funzione
-esercitata – come a titolo esemplificativo, nel caso del RSPP/ASPP, del Coordinatore per la
-progettazione e per l’esecuzione, degli operatori addetti all’uso delle attrezzature di cui all’art.
+Qualora la formazione costituisca a tutti gli effetti un titolo abilitativo all'esercizio della funzione
+esercitata - come a titolo esemplificativo, nel caso del RSPP/ASPP, del Coordinatore per la
+progettazione e per l'esecuzione, degli operatori addetti all'uso delle attrezzature di cui all'art.
 73, comma 5, del d.lgs. n. 81/2008 per le quali è richiesta una specifica abilitazione, ecc. - tale
-funzione non è esercitabile se non viene completato l’aggiornamento previsto per i rispettivi
+funzione non è esercitabile se non viene completato l'aggiornamento previsto per i rispettivi
 corsi.
-L’assenza, nei limiti di 10 anni, della regolare frequenza ai corsi di aggiornamento non fa venir
+L'assenza, nei limiti di 10 anni, della regolare frequenza ai corsi di aggiornamento non fa venir
 meno il credito formativo maturato dalla regolare frequenza ai corsi abilitanti e il completamento
-dell’aggiornamento, pur se effettuato in ritardo, consente di ritornare ad eseguire la funzione
-esercitata. Gli RSPP, gli ASPP e i Coordinatori per la progettazione e per l’esecuzione, per poter
+dell'aggiornamento, pur se effettuato in ritardo, consente di ritornare ad eseguire la funzione
+esercitata. Gli RSPP, gli ASPP e i Coordinatori per la progettazione e per l'esecuzione, per poter
 esercitare la propria funzione, trascorsi i cinque anni dalla prima abilitazione, devono poter
-dimostrare, all’atto dell’affidamento dell’incarico, che nel quinquennio antecedente
-all’affidamento dell’incarico hanno partecipato a corsi di aggiornamento per un numero di ore
+dimostrare, all'atto dell'affidamento dell'incarico, che nel quinquennio antecedente
+all'affidamento dell'incarico hanno partecipato a corsi di aggiornamento per un numero di ore
 non inferiore a quello minimo previsto.
-Ai fini dell’aggiornamento delle diverse figure, la partecipazione a corsi di formazione finalizzati
-all’ottenimento e/o all’aggiornamento di qualifiche specifiche come quelle, a titolo meramente
+Ai fini dell'aggiornamento delle diverse figure, la partecipazione a corsi di formazione finalizzati
+all'ottenimento e/o all'aggiornamento di qualifiche specifiche come quelle, a titolo meramente
 esemplificativo e non esaustivo, dei dirigenti e dei preposti (ex art. 37 d.lgs. n. 81/2008), dei
-lavoratori incaricati dell’attuazione delle misure di prevenzione incendi e lotta a ntincendio, di
+lavoratori incaricati dell'attuazione delle misure di prevenzione incendi e lotta a ntincendio, di
 evacuazione dei luoghi di lavoro in caso di pericolo grave e immediato, di salvataggio, di primo
 soccorso e, comunque, di gestione delle emergenze di cui agli artt. 44, 45 e 46 del d.lgs. n.
 81/2008, non è da ritenersi valida
-Non è valida ai fini dell’aggiornamento la partecipazione ai moduli di cui ai seguenti punti
+Non è valida ai fini dell'aggiornamento la partecipazione ai moduli di cui ai seguenti punti
 ✓ punto 2.3 parte II (modulo aggiuntivo cantieri);
 ✓ punto 3 parte II (modulo aggiuntivo cantieri);
 ✓ punto 4 parte II (moduli tecnici-integrativi);
@@ -4672,7 +4672,7 @@ Non è valida ai fini dell’aggiornamento la partecipazione ai moduli di cui ai
 Pag. 83 a 138
 .
 Nel caso di convegni e seminari è richiesta la tenuta del registro di presenza dei partecipanti da
-parte del soggetto che realizza l’iniziativa e non vi è alcun vincolo sul numero massimo di
+parte del soggetto che realizza l'iniziativa e non vi è alcun vincolo sul numero massimo di
 partecipanti.
 1 LAVORATORI, PREPOSTI, DIRIGENTI E DATORE DI LAVORO
 Nel corso di aggiornamento si dovranno trattare significative evoluzioni e innovazioni,
@@ -4683,28 +4683,28 @@ esaustivo:
 - aggiornamenti su organizzazione e gestione della sicurezza in azienda;
 - fonti di rischio e relative misure di prevenzione.
 1.1 Lavoratori
-L’aggiornamento deve essere effettuato ogni qualvolta intervengono elementi modificativi in
+L'aggiornamento deve essere effettuato ogni qualvolta intervengono elementi modificativi in
 termini di esiti della valutazione dei rischi ovvero quando le risultanze delle verifiche di efficacia
 della formazione durante lo svolgimento della prestazione lavorativa ne evidenzino la necessità
 e comunque con una periodicità quinquennale di durata minima di 6 ore a decorrere dalla data
-di fine corso riportata nell’attestato.
-Nell’aggiornamento non è compresa la formazione relativa al trasferimento o cambiamento di
-mansioni o laddove l’introduzione di nuove attrezzature di lavoro o di nuove tecnologie, di nuove
+di fine corso riportata nell'attestato.
+Nell'aggiornamento non è compresa la formazione relativa al trasferimento o cambiamento di
+mansioni o laddove l'introduzione di nuove attrezzature di lavoro o di nuove tecnologie, di nuove
 sostanze e miscele pericolose comporti un cambiamento delle mansioni lavorative svolte.
 1.2 Preposti
-L’aggiornamento deve essere effettuato con cadenza biennale e comunque ogni qualvolta sia
-reso necessario in ragione dell’evoluzione dei rischi o all’insorgenza di nuovi rischi, con durata
+L'aggiornamento deve essere effettuato con cadenza biennale e comunque ogni qualvolta sia
+reso necessario in ragione dell'evoluzione dei rischi o all'insorgenza di nuovi rischi, con durata
 minima di 6 ore, in relazione ai propri compiti in materia di salute e sicurezza del lavoro. A titolo
 esemplificativo ma non esaustivo per cambiamenti del contesto si intendono: cambiamenti del
 reparto, modifiche dei processi produttivi, organizzativi, ecc..
-Nell’aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
-preposto esercita le funzioni di cui all’art. 19 del d.lgs. n. 81/2008 in relazione alle misure
+Nell'aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
+preposto esercita le funzioni di cui all'art. 19 del d.lgs. n. 81/2008 in relazione alle misure
 tecniche, organizzative e procedurali di prevenzione e protezione ado ttate a seguito della
 valutazione dei rischi dell'azienda.
 1.3 Dirigenti
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
 in relazione ai propri compiti in materia di salute e sicurezza del lavoro.
-Nell’aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
+Nell'aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
 dirigente opera in relazione alle misure tecniche, organizzative e procedurali di prevenzione e
 protezione adottate a seguito della valutazione dei rischi dell'azienda.
 
@@ -4713,36 +4713,36 @@ protezione adottate a seguito della valutazione dei rischi dell'azienda.
 
 Pag. 84 a 138
 1.4 Datore di lavoro
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
 in relazione ai propri compiti in materia di salute e sicurezza del lavoro.
-Qualora il datore di lavoro abbia frequentato il modulo aggiuntivo “Cantiere” e ne permangono
-le condizioni per lo stesso, l’aggiornamento dovrà riguardare anche le tematiche ivi previste.
+Qualora il datore di lavoro abbia frequentato il modulo aggiuntivo "Cantiere" e ne permangono
+le condizioni per lo stesso, l'aggiornamento dovrà riguardare anche le tematiche ivi previste.
 2 DATORE DI LAVORO CHE SVOLGE I COMPITI DEL SERVIZIO DI PREVENZIONE E PROTEZIONE
-L’aggiornamento deve essere effettuato con cadenza quinquennale, a decorrere dalla data di
+L'aggiornamento deve essere effettuato con cadenza quinquennale, a decorrere dalla data di
 conclusione del modulo comune, con durata minima di 8 ore, in relazione ai propri compiti in
 materia di salute e sicurezza del lavoro.
 Qualora il datore di lavoro abbia frequentato i moduli specialistici e ne permangono le condizioni
-per gli stessi, l’aggiornamento dovrà riguardare anche le tematiche ivi previste.
+per gli stessi, l'aggiornamento dovrà riguardare anche le tematiche ivi previste.
 3 RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE
-L’aggiornamento deve essere effettuato con cadenza quinquennale e decorrere dalla data di
+L'aggiornamento deve essere effettuato con cadenza quinquennale e decorrere dalla data di
 conclusione del Modulo B comune.
-Le ore minime complessive dell’aggiornamento sono fissate in base al ruolo svolto e sono
+Le ore minime complessive dell'aggiornamento sono fissate in base al ruolo svolto e sono
 rispettivamente:
 - ASPP: 20 ore
 - RSPP: 40 ore
-Il monte ore complessivo di aggiornamento potrà essere distribuito nell’arco temporale del
+Il monte ore complessivo di aggiornamento potrà essere distribuito nell'arco temporale del
 quinquennio.
 4 COORDINATORE PER LA SICUREZZA
-L’aggiornamento deve essere effettuato con cadenza quinquennale, con le stesse modalità
-previste per gli RSPP e le ore minime complessive dell’aggiornamento sono 40 ore.
+L'aggiornamento deve essere effettuato con cadenza quinquennale, con le stesse modalità
+previste per gli RSPP e le ore minime complessive dell'aggiornamento sono 40 ore.
 5 LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE OPERANO IN AMBIENTI
 SOSPETTI DI INQUINAMENTO O CONFINATI
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore
 relative alla parte pratica. Durante il corso di aggiornamento, è opportuno che il docente illustri
 eventuali modifiche normative e evoluzioni tecniche.
-6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI ALL’ARTICOLO 73,
+6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI ALL'ARTICOLO 73,
 COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008
-L’aggiornamento per rinnovare l’abilitazione deve essere effettuato con cadenza quinquennale
+L'aggiornamento per rinnovare l'abilitazione deve essere effettuato con cadenza quinquennale
 e con durata minima di 4 ore relative alla parte pratica. Durante il corso di aggiornamento, è
 opportuno che il docente illustri eventuali modifiche normative e evoluzioni tecniche.
 
@@ -4750,45 +4750,45 @@ opportuno che il docente illustri eventuali modifiche normative e evoluzioni tec
 ## Pagina 87
 
 Pag. 85 a 138
-PARTE IV – INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE,
+PARTE IV - INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE,
 EROGAZIONE E MONITORAGGIO DEI CORSI
-1 INDICAZIONI METODOLOGICHE PER L’ORGANIZZAZIONE E LA GESTIONE DEI CORSI PER I
+1 INDICAZIONI METODOLOGICHE PER L'ORGANIZZAZIONE E LA GESTIONE DEI CORSI PER I
 SOGGETTI FORMATORI
 La formazione sulla salute e sicurezza nei luoghi di lavoro presenta alcune caratteristiche che è necessario
-tenere presente da parte dei soggetti formatori nell’organizzazione e gestione dei percorsi formativi. Essa,
+tenere presente da parte dei soggetti formatori nell'organizzazione e gestione dei percorsi formativi. Essa,
 nelle sue varie articolazioni e tipologie di corso:
 - rientra nel contesto degli apprendimenti di tipo professionale non formali, cioè quelli che
 si realizzano al di fuori dei sistemi di apprendimento formale (Istruzione scolastica,
 Istruzione superiore e Università)
-- è caratterizzata dalla continuità dell’apprendimento durante l’intera vita lavorativa ( Life
-Long Learning) come affermato dall’obbligo periodico di aggiornamento per tutte le
+- è caratterizzata dalla continuità dell'apprendimento durante l'intera vita lavorativa ( Life
+Long Learning) come affermato dall'obbligo periodico di aggiornamento per tutte le
 figure che operano nei contesti lavorativi;
 - è rivolta prevalentemente ad adulti già avviati o da avviare ad attività lavorative.
-L’approccio metodologico deve essere di tipo “andragogico”, cioè un approccio
+L'approccio metodologico deve essere di tipo "andragogico", cioè un approccio
 focalizzato sui processi di apprendimento tipici degli adulti, i quali hanno fabbisogni
 formativi diversi, obblighi diversi e diversi modi di apprendimento rispetto ai discenti del
 sistema di istruzione formale.
 Tali aspetti trovano precisi riferimenti metodologici, operativi e organizzativi, sia a livello
 legislativo europeo e nazionale che di normazione volontaria, tutti orientati ad assicurare la
-qualità nei processi di produzione della formazione e l’efficacia della formazione.
+qualità nei processi di produzione della formazione e l'efficacia della formazione.
 Il principale riferimento è costituito dal quadro europeo EQAVET (Raccomandazione del
 Parlamento europeo e del Consiglio Europea del 18 giugno 2009 sull'istituzione di un quadro
 europeo di riferimento per la garanzia della qualità dell'istruzione e della f ormazione
-professionale) che raccomanda l’adozione di un ciclo di garanzia e di miglioramento
+professionale) che raccomanda l'adozione di un ciclo di garanzia e di miglioramento
 dell'istruzione e formazione professionale, sia a livello di sistema degli Stati membri che dei
 singoli soggetti erogatori della formazione che si articoli in pi anificazione, attuazione,
 valutazione/accertamento e revisione sulla base di criteri qualitativi, descrittori indicativi e
-indicatori comuni, compreso l'uso di strumenti di misura per fornire dati sull'efficacia. L’EQAVET
-inoltre pone l’accento sul monitor aggio e sul miglioramento della qualità, combinando
+indicatori comuni, compreso l'uso di strumenti di misura per fornire dati sull'efficacia. L'EQAVET
+inoltre pone l'accento sul monitor aggio e sul miglioramento della qualità, combinando
 valutazione interna ed esterna, revisione e processi di miglioramento, sulla base di misurazioni e
 di analisi qualitative.
 Attualmente è in fase evolutiva la convergenza dei criteri metodologici, organizzativi e gestionali
 previsti dalla Raccomandazione EQAVET e i meccanismi di accreditamento nazionali dei soggetti
 formatori mediante una politica di armonizzazione e integrazio ne, così come previsto dal Piano
 Nazionale per la garanzia di qualità del sistema di istruzione e formazione del 2017.
-Le indicazioni metodologiche per l’organizzazione e la gestione dei corsi riportate di seguito, fatta
+Le indicazioni metodologiche per l'organizzazione e la gestione dei corsi riportate di seguito, fatta
 eccezione dei punti 3.2, 3.3, 3.4, 3.5, 6.3 e 7, non si applicano ai Datori di Lavoro che organizzano
-ed erogano autonomamente, all’interno delle proprie aziende nei confronti dei propri lavoratori,
+ed erogano autonomamente, all'interno delle proprie aziende nei confronti dei propri lavoratori,
 la formazione sulla salute e sicurezza sul lavoro, ma esse possono trovare indicazioni utili per la
 gestione dei percorsi formativi di cui al presente accordo.
 
@@ -4796,12 +4796,12 @@ gestione dei percorsi formativi di cui al presente accordo.
 ## Pagina 88
 
 Pag. 86 a 138
-1.1 Approccio per processi nell’organizzazione e gestione della formazione su salute e
+1.1 Approccio per processi nell'organizzazione e gestione della formazione su salute e
 sicurezza nei luoghi di lavoro
-La qualità e l’efficacia della formazione in materia di salute e sicurezza sul lavoro non può
-prescindere dall’adozione di modelli organizzativi interni da parte dei soggetti formatori
-attraverso l’implementazione di un ciclo di garanzia della qualità e di miglioramento della stessa.
-L’approccio più idoneo, a garantire ciò, è quello basato sulla gestione di qualità dei processi di
+La qualità e l'efficacia della formazione in materia di salute e sicurezza sul lavoro non può
+prescindere dall'adozione di modelli organizzativi interni da parte dei soggetti formatori
+attraverso l'implementazione di un ciclo di garanzia della qualità e di miglioramento della stessa.
+L'approccio più idoneo, a garantire ciò, è quello basato sulla gestione di qualità dei processi di
 produzione della formazione, in termini di presidio e governo degli stessi. Il riferimento
 metodologico e concettuale per la ges tione di tali processi, più comunemente e largamente
 diffuso, è quello basato sul ciclo PDCA di Deming, che si esplicita in quattro fasi:
@@ -4826,7 +4826,7 @@ MIGLIORAMENTO
 Riesame e adozione di misure e interventi
 correttivi ai fini del miglioramento
 1.2 Analisi dei fabbisogni formativi e contesto
-L'analisi dei fabbisogni formativi costituisce la fase iniziale della elaborazione dell’azione
+L'analisi dei fabbisogni formativi costituisce la fase iniziale della elaborazione dell'azione
 formativa ed è finalizzata a fornire dati ed informazioni necessari alla progettazione formativa.
 L'analisi dei fabbisogni formativi nel campo della sicurezza e salute nei luoghi di lavoro si
 configura come analisi dei "fabbisogni professionali", volta ad individuare, in chiave formativa, le
@@ -4865,18 +4865,18 @@ salute e sicurezza sul lavoro poiché non si tratta di formazione generica, ma s
 alle specifiche mansioni e attività lavorative, come previsto dalla stessa legislazione in materia.
 Il livello di analisi dei fabbisogni e la contestualizzazione che il soggetto formatore dovrà
 affrontare in tale fase sarà diverso non solo rispetto alla tipologia di corsi ma anche alla tipologia
-di committenza. Infatti, la contestualizzazione e l’analisi avranno caratteristiche e contenuti
+di committenza. Infatti, la contestualizzazione e l'analisi avranno caratteristiche e contenuti
 diversi se il soggetto formatore dovrà elaborare il progetto formativo per una mono committenza
 (es. singola realtà aziendale) piuttosto che pluri committenza (es. aziende dello stesso comparto
-produttivo o omogeneamente simili) o infine se presenta un’offerta formativa a catalogo.
-L’analisi dei bisogni formativi e di contesto deve essere un procedimento sistematico, basato
+produttivo o omogeneamente simili) o infine se presenta un'offerta formativa a catalogo.
+L'analisi dei bisogni formativi e di contesto deve essere un procedimento sistematico, basato
 principalmente su tecniche specifiche di raccolta delle informazioni rilevanti. Queste
 informazioni possono essere ottenute attraverso strumenti diversi come ques tionari, interviste,
-osservazioni, riunioni di gruppo, documentazione da richiedere all’azienda, politiche e procedure
+osservazioni, riunioni di gruppo, documentazione da richiedere all'azienda, politiche e procedure
 utilizzate, descrizione delle posizioni organizzative. Una delle fonti più rilevanti di dati e
-informazioni per l’analisi dei fabbisogni formativi dei lavoratori/preposti/dirigenti/datori di
+informazioni per l'analisi dei fabbisogni formativi dei lavoratori/preposti/dirigenti/datori di
 lavoro è sicuramente il documento di valutazione dei rischi, dal quale possono essere ricavati
-elementi conoscitivi in merito all’esito della valutazione, agli infortuni mancati, ai risultati della
+elementi conoscitivi in merito all'esito della valutazione, agli infortuni mancati, ai risultati della
 formazione effettuata (piani di formazione).
 I dati e le informazioni derivanti dal processo di analisi dei fabbisogni formativi e del contesto
 sono contenuti in un report (documento di output del processo) e costituiscono parte integrante
@@ -4888,10 +4888,10 @@ tenere conto di alcuni aspetti specifici e quindi integrato da specifiche attivi
 quali si rimanda al paragrafo 3.
 1.3 Progettazione
 I dati e le informazioni derivanti dal processo di analisi dei fabbisogni formativi e del contesto
-costituiscono l’input per il successivo processo di progettazione del percorso formativo che
+costituiscono l'input per il successivo processo di progettazione del percorso formativo che
 traduce il bisogno formativo in una coerente e pertinente risposta formativa. Una analisi del
 fabbisogno formativo e di contest o carente e lacunoso inevitabilmente condiziona
-negativamente la qualità del processo di progettazione formativa e in ultima analisi l’efficacia
+negativamente la qualità del processo di progettazione formativa e in ultima analisi l'efficacia
 stessa del percorso formativo.
 
 
@@ -4925,7 +4925,7 @@ nell'ambito delle attività che si è chiamati a svolgere.
 È necessario che i risultati attesi siano coerenti con gli obiettivi formativi e siano conseguibili con
 la partecipazione al percorso formativo. Il raggiungimento dei risultati attesi dipende dalla
 coerenza e adeguatezza progettuale, in termini di contenuti didattici e strategia formativa.
-L'efficacia di un’azione formativa è legata in larga misura ad una scelta adeguata della strategia
+L'efficacia di un'azione formativa è legata in larga misura ad una scelta adeguata della strategia
 formativa da seguire, poiché da essa dipende la effettiva trasformazione degli obiettivi e dei
 bisogni formativi in risultati concreti. Definire la strategia formativa significa identificare le
 metodologie e gli strumenti più idonei in relazione alla specificità del percorso formativo e al
@@ -4953,14 +4953,14 @@ discenti nella didattica attiva;
 Le indicazioni metodologiche riguardante la progettazione di dettaglio (microprogettazione),
 sono riportate nel successivo paragrafo 2.
 1.4 Erogazione
-L’erogazione è il momento in cui si sviluppa l’azione formativa e in cui trova concreto
-compimento l’efficacia formativa.
+L'erogazione è il momento in cui si sviluppa l'azione formativa e in cui trova concreto
+compimento l'efficacia formativa.
 È necessario che la fase di erogazione sia presidiata e monitorata osservandone lo sviluppo,
 rilevando le criticità e le non conformità che si dovessero manifestare nelle dinamiche di
-apprendimento e nella gestione delle attività didattiche. Nell’erogazion e un ruolo rilevante è
+apprendimento e nella gestione delle attività didattiche. Nell'erogazion e un ruolo rilevante è
 rivestito dal tutor con il suo presidio delle attività e la rilevazione delle criticità (che vanno
 descritte e registrate in specifici report che costituiscono una base informativa per il riesame e
-l’adozione delle misure correttive e di miglioramento).
+l'adozione delle misure correttive e di miglioramento).
 1.5 Monitoraggio e valutazione della qualità della formazione
 Il processo di monitoraggio e valutazione da parte del soggetto formatore rappresenta un
 momento di estrema importanza ai fini della verifica della efficacia della formazione e del
@@ -4973,9 +4973,9 @@ ritiene opportuno che il soggetto formatore implementi e utilizzi un sistema bas
 di rilevazione di parametri ed indici prestazionali misurabili e di un sistema di elaborazione dei
 dati, di misurazione qualitativa e quantitativa degli indicatori e di documentazione dei risultati.
 Normalmente il monitoraggio si basa sulla valutazione di tre livelli:
-- Valutazione di gradimento, cioè della qualità percepita dall’utente;
+- Valutazione di gradimento, cioè della qualità percepita dall'utente;
 - Valutazione degli apprendimenti;
-- Valutazione dell’efficacia della formazione durante lo svolgimento della prestazione
+- Valutazione dell'efficacia della formazione durante lo svolgimento della prestazione
 lavorativa.
 Gli aspetti metodologici e procedurali specifici riguardanti la valutazione di gradimento sono
 decritti nel paragrafo 5, quelli relativi alla valutazione degli apprendimenti e alla valutazione sul
@@ -4996,13 +4996,13 @@ individuare e analizzare eventuali criticità e adottare le misure correttive al
 miglioramento della qualità didattica e organizzativa attraverso la revisione e miglioramento dei
 processi di produzione della formazione sopra descritti. I risultati del riesame sono elaborati,
 documentati e diffusi a tutti coloro che governano e presidiano i processi e/o che svolgono
-l’attività all’interno dei processi. Il riesame può analizzare sia i dati prestazionali aggregati per
+l'attività all'interno dei processi. Il riesame può analizzare sia i dati prestazionali aggregati per
 ciascuna tipologia di corso che per singolo corso.
 1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per
-l’organizzazione e gestione della formazione su SSL
+l'organizzazione e gestione della formazione su SSL
 Il soggetto formatore si avvale e deve avere la piena disponibilità nella propria struttura di figure
 professionali con particolari competenze in termini di conoscenze, abilità e responsabilità, al fine
-di assicurare l’efficacia e la qualità dei percorsi formativi con il presidio dei processi di produzione
+di assicurare l'efficacia e la qualità dei percorsi formativi con il presidio dei processi di produzione
 della formazione (indipendentemente dal profilo contrattuale che lega tali figure con il soggetto
 formatore).
 I profili indispensabili per la gestione dei processi di produzione della formazione (analisi dei
@@ -5010,30 +5010,30 @@ fabbisogni formativi e di contesto, progettazione, erogazione, monitoraggio e va
 riesame e adozione di misure di miglioramento) sono:
 - il responsabile dei progetti formativi;
 - il docente;
-- il tutor d’aula.
+- il tutor d'aula.
 Il soggetto formatore deve assicurare che i suddetti profili abbiano le necessarie competenze,
 per gestire e presidiare i processi di produzione della formazione e garantire che tali competenze
 siano mantenute e, se possibile, incrementate nel tempo tramit e costanti e periodici
 aggiornamenti formativi.
 Tali figure professionali svolgono i compiti e le attività previste dai rispettivi ruoli e responsabilità
-in un’ottica di team, integrando in modo sinergico le competenze di ciascun profilo nello sviluppo
-e presidio dei processi e nello svolgimento delle attività collegate finalizzate a garantire l’efficacia
+in un'ottica di team, integrando in modo sinergico le competenze di ciascun profilo nello sviluppo
+e presidio dei processi e nello svolgimento delle attività collegate finalizzate a garantire l'efficacia
 e qualità del servizio formativo.
 Di seguito sono descritti i profili delle suddette figure professionali:
-• RESPONSABILE DEI PROGETTI FORMATIVI
+- RESPONSABILE DEI PROGETTI FORMATIVI
 Soggetto avente comprovata e documentata esperienza (almeno triennale) in materia di
 sicurezza e salute nei luoghi di lavoro, in possesso dei requisiti richiesti per formatori/docenti
 dalla legislazione vigente. È il responsabile della progettazione format iva ed è coinvolto
-nell’analisi dei fabbisogni formativi. Cura sia la progettazione di massima che di dettaglio, si
+nell'analisi dei fabbisogni formativi. Cura sia la progettazione di massima che di dettaglio, si
 interfaccia con i docenti e i tutor nella definizione delle strategie formative, nelle scelte delle
 modalità di erogazione, delle modalità d i verifica degli apprendimenti, intermedie e finali, in
 coerenza con quanto previsto dal presente Accordo e dalla legislazione in materia. Può essere
 responsabile sia di singoli percorsi formativi, sia di singole tipologie di corsi di formazione ovvero
 di tutta la progettazione formativa del soggetto formatore. Il responsabile dei progetti formativi può
 essere individuato tra i docenti del corso
-• DOCENTE
+- DOCENTE
 Soggetto in possesso dei requisiti richiesti dalla legislazione vigente in materia di formazione su
-SSL, esperto delle tematiche oggetto della formazione nell’area disciplinare di afferenza in base
+SSL, esperto delle tematiche oggetto della formazione nell'area disciplinare di afferenza in base
 alle specifiche conoscenze e competenze. Deve conoscere an che la specificità e le dinamiche
 della formazione su SSL, con particolare riferimento alle metodologie didattiche più idonee per
 
@@ -5041,12 +5041,12 @@ della formazione su SSL, con particolare riferimento alle metodologie didattiche
 ## Pagina 93
 
 Pag. 91 a 138
-l’apprendimento degli adulti. È responsabile del presidio delle dinamiche di gruppo e dei rapporti
-con i discenti con l’obiettivo di favorire l’apprendimento, la partecipazione e l’interazione. È
-responsabile della progettazione e dell’erogazione delle uni tà didattiche assegnate,
-dell’individuazione delle strategie e metodologie didattiche più idonee per l’erogazione, della
+l'apprendimento degli adulti. È responsabile del presidio delle dinamiche di gruppo e dei rapporti
+con i discenti con l'obiettivo di favorire l'apprendimento, la partecipazione e l'interazione. È
+responsabile della progettazione e dell'erogazione delle uni tà didattiche assegnate,
+dell'individuazione delle strategie e metodologie didattiche più idonee per l'erogazione, della
 predisposizione di materiali didattici e delle modalità di verifica che tengano conto anche
-dell’eventuale presenza di lavoratori stranieri coerentemente con gli obiettivi formativi fissati e nel
+dell'eventuale presenza di lavoratori stranieri coerentemente con gli obiettivi formativi fissati e nel
 rispetto di quanto previsto dalla legislazione in materia di formazione su SSL. Nei confronti dei
 lavoratori stranieri i corsi dovranno essere realizzati previa verifica della comprensione e
 conoscenza della lingua veicolare e con modalità che assicurino la comprensione dei contenuti
@@ -5054,18 +5054,18 @@ del corso di formazione, quali, ad esempio, la pres enza di un mediatore intercu
 traduttore.
 Interagisce e si interfaccia in sede di progettazione formativa con il responsabile della
 progettazione contribuendo alla strutturazione del corso.
-• TUTOR D’AULA
-Soggetto esperto delle dinamiche di interazione nell’ambiente formativo (aula in presenza fisica
+- TUTOR D'AULA
+Soggetto esperto delle dinamiche di interazione nell'ambiente formativo (aula in presenza fisica
 o aula virtuale) in grado di fornire ai discenti indicazioni operative sulla fruizione del corso,
-sull’accesso e utilizzo dei materiali didattici, sugli aspett i logistici nonché di supportare i docenti
+sull'accesso e utilizzo dei materiali didattici, sugli aspett i logistici nonché di supportare i docenti
 e i discenti durante le attività didattiche e nella somministrazione delle esercitazioni e delle prove
-di verifica. È responsabile del monitoraggio dell’andamento dell'attività didattica, della
+di verifica. È responsabile del monitoraggio dell'andamento dell'attività didattica, della
 rilevazione delle e sigenze dei partecipanti, del rispetto degli aspetti organizzativi che hanno
-impatto sulla gestione d’aula, osservando la coerenza con gli obiettivi didattici, il regolare
+impatto sulla gestione d'aula, osservando la coerenza con gli obiettivi didattici, il regolare
 andamento dello svolgimento della dinamica di apprendimento e in generale la coerenz a con
 quanto previsto dal progetto formativo.
 Fatto salvo quanto eventualmente previsto dalla normativa regionale riferita ai soggetti
-formatori accreditati, il tutor d’aula è sempre previsto per i percorsi di formazione ed
+formatori accreditati, il tutor d'aula è sempre previsto per i percorsi di formazione ed
 aggiornamento erogati a distanza (e -learning o videoconferenza). Per i corsi d i formazione in
 presenza fisica è consigliata la presenza di tale figura per tutti quei percorsi che vedano la
 contemporanea presenza di più di 10 discenti.
@@ -5076,12 +5076,12 @@ definiti con dettaglio, per ciascuna unità didattica:
 - argomenti da trattare, contenuti e durata;
 - strategia formativa e metodologia didattica;
 - modalità e criteri di verifica e valutazione dei risultati.
-L’articolazione oraria delle singole unità didattiche dovrà essere sviluppata in modo tale da
+L'articolazione oraria delle singole unità didattiche dovrà essere sviluppata in modo tale da
 garantire un giusto equilibrio tra le unità didattiche nella trattazione degli argomenti, in termini
 di rilevanza, complessità, esaustività, tenendo conto dei diversi contesti e processi lavorativi in
-cui si innesta l’azione formativa.
+cui si innesta l'azione formativa.
 Nel definire la struttura di dettaglio del percorso formativo bisogna tener presente quanto
-previsto dall’accordo nella parte II - corsi di formazione in merito alle diverse tipologie di corso,
+previsto dall'accordo nella parte II - corsi di formazione in merito alle diverse tipologie di corso,
 alla struttura modulare, e in alcuni casi anche a quella delle unità didattiche, agli obiettivi
 formativi, alla durata e ai contenuti minimi.
 
@@ -5089,9 +5089,9 @@ formativi, alla durata e ai contenuti minimi.
 ## Pagina 94
 
 Pag. 92 a 138
-2.1 Gli obiettivi specifici e i risultati attesi dell’unità didattica
-Sulla base degli esiti dell’analisi dei fabbisogni formativi e di contesto dovranno essere definitivi
-gli obiettivi didattici contestualizzati all’ambito aziendale o al contesto nel quale il soggetto opera.
+2.1 Gli obiettivi specifici e i risultati attesi dell'unità didattica
+Sulla base degli esiti dell'analisi dei fabbisogni formativi e di contesto dovranno essere definitivi
+gli obiettivi didattici contestualizzati all'ambito aziendale o al contesto nel quale il soggetto opera.
 É necessario identificare gli obiettivi specifici relativi alla singola unità didattica; tipicamente gli
 obiettivi vengono declinati mediante parole chiave come trasferire, illustrare, far conoscere, far
 acquisire, fornire, favorire, definire, delineare, etc.
@@ -5109,29 +5109,29 @@ possano descrivere sinteticamente il tipo di conoscenza (nella dimensione del sa
 di competenze (nella dimensione d el saper fare e del saper essere) e che dovranno possedere i
 discenti in uscita dal percorso formativo, come ad esempio essere in grado di, saper individuare,
 saper svolgere, saper applicare, conoscere, acquisire metodi, criteri e strumenti, etc.
-2.2 I contenuti dell’unità didattica e la durata
+2.2 I contenuti dell'unità didattica e la durata
 Al fine di rispondere in modo più puntuale, ai fabbisogni specifici e alle eventuali esigenze di una
 particolare strutturazione dei contenuti relativamente a specifici target di utenti, in sede di
 microprogettazione, dovranno essere contestualizzati e defi niti gli argomenti di dettaglio che
-verranno trattati nell’ambito di ogni unità didattica e i contenuti che dovranno risultare coerenti
+verranno trattati nell'ambito di ogni unità didattica e i contenuti che dovranno risultare coerenti
 con gli obiettivi declinati. Bisognerà, dunque, individuare e stabilire con chiarezza e dettaglio i
 contenuti, la durata e la sequenza degli argomenti, che non dovranno essere generici e non
-dovranno dar luogo a diverse interpretazioni da parte di chi svilupperà l’azione formativa.
+dovranno dar luogo a diverse interpretazioni da parte di chi svilupperà l'azione formativa.
 2.3 La strategia formativa e la metodologia didattica
 Definire la strategia formativa significa identificare le metodologie e gli strumenti più idonei in
-relazione alla specificità del percorso formativo e al target previsto, considerando che l’azione
-formativa è rivolta ad adulti in un contesto di formazione continua sul lavoro per tutto l’arco della
+relazione alla specificità del percorso formativo e al target previsto, considerando che l'azione
+formativa è rivolta ad adulti in un contesto di formazione continua sul lavoro per tutto l'arco della
 vita (lifelong learning). È necessario dunque adottare un approccio di tipo andragogico che tenga
 conto della specificità dei processi di apprendimento e di coinvolgimento tipici degli adulti. In tal
-senso non si può prescindere dall’adozione di metodologie didattiche attive ed interattive che
+senso non si può prescindere dall'adozione di metodologie didattiche attive ed interattive che
 prevedono il coinvolgimento diretto del discente e la sua centralità nel percorso di
 apprendimento. Il progetto formativo dovrà dunque indicare quali metodologie didattiche attive
-saranno adottate nell’intero percorso formativo e in ciascuna unità didattica.
-Le metodologie didattiche attive si basano sul presupposto che l’apprendimento effettivo è di
+saranno adottate nell'intero percorso formativo e in ciascuna unità didattica.
+Le metodologie didattiche attive si basano sul presupposto che l'apprendimento effettivo è di
 tipo esperienziale e relazionale, e risultano particolarmente efficaci quando si tratta di acquisire
 atteggiamenti, capacità di analisi e di soluzioni di problemi e incrementare specifiche capacità.
-La modalità di trasmissione dei contenuti deve inoltre tenere conto delle esigenze di “vita
-professionale reale” e non solo vertere su contenuti di merito e didattici. Il formatore/docente
+La modalità di trasmissione dei contenuti deve inoltre tenere conto delle esigenze di "vita
+professionale reale" e non solo vertere su contenuti di merito e didattici. Il formatore/docente
 dovrà pertanto basare la propr ia attività non solo sulla trasmissione di nozioni, abilità e
 competenze ma su quanto valorizzi le esperienze di ciascuno.
 
@@ -5140,7 +5140,7 @@ competenze ma su quanto valorizzi le esperienze di ciascuno.
 
 Pag. 93 a 138
 2.4 Le metodologie didattiche attive
-Le metodologie didattiche attive vanno scelte prioritariamente in funzione dell’obiettivo
+Le metodologie didattiche attive vanno scelte prioritariamente in funzione dell'obiettivo
 formativo, ma anche in relazione alla disponibilità di spazi, di tempo, di risorse e tenendo conto
 della complessità di gestione da parte del formatore. Le principali metodologie che possono
 rispondere efficacemente alle esigenze formative in campo prevenzionale sono:
@@ -5149,26 +5149,26 @@ dimensioni ridotte a cui viene assegnato un determinato compito da svolgere in u
 prefissato. La dimensione di gruppo facilita lo scambio di idee ed esperienze consentendo
 un coinvolgimento attivo in un rapporto relazionale tra pari, sganciato dalla dipendenza
 del docente. Il risultato finale del lavoro di gruppo appartiene al gruppo e non alla singola
-persona e allena le persone all’ascolto attivo e al raggiungimento di un obiettivo comune;
+persona e allena le persone all'ascolto attivo e al raggiungimento di un obiettivo comune;
 - Casi di studio. È una metodologia attiva il cui obiettivo è quello di sviluppare la capacità di
 analisi e di soluzione di situazioni o problemi più o meno complessi, meglio se reali e calati
 nella realtà lavorativa e nel contesto relazionale dei partecipanti. Possono essere svolti sia
-individualmente che in gruppo. Sono utili soprattutto per l’acquisizione di competenze
+individualmente che in gruppo. Sono utili soprattutto per l'acquisizione di competenze
 specialistiche con particolare riferimento agli aspetti legati alla individuazione,
 trattamento e controllo dei rischi;
 - Simulazioni. Le simulazioni consistono nel far riprodurre da parte dei partecipanti azioni e
 comportamenti sia individuali che interpersonali su situazioni circoscritte e limitate come
-può essere l’utilizzo di una procedura, di una tecnica, di un metodo, in un contesto che
-simula e ricalca l’ambiente e l’attività lavorativa, in modo da rendere più agevole la
+può essere l'utilizzo di una procedura, di una tecnica, di un metodo, in un contesto che
+simula e ricalca l'ambiente e l'attività lavorativa, in modo da rendere più agevole la
 trasposizione di quanto appreso in aula alla realtà lavorativa.
 Anche le lezioni frontali, che sono finalizzate alla trasmissione di nozioni e concetti, dovranno
 seguire un approccio dialogico, prevedendo una sostanziale interattività tra il docente e i discenti
 e tra i discenti stessi. È fondamentale durante la lezione, utilizzare a titolo es plicativo supporti
 audiovisivi (ad. es. slide, filmati), ricorrere a esempi applicativi e prevedere testimonianze da parte
-di soggetti che possano stimolare l’attenzione e la motivazione ad apprendere da parte dei
+di soggetti che possano stimolare l'attenzione e la motivazione ad apprendere da parte dei
 discenti.
 È fondamentale anche pianificare durante la lezione momenti di confronto e momenti dedicati a
-fornire risposte a quesiti e domande che facilitino la comprensione e l’apprendimento di tutti i
+fornire risposte a quesiti e domande che facilitino la comprensione e l'apprendimento di tutti i
 discenti. Durante la lezione può essere utilizzata anche la tecni ca dei test, quesiti somministrati
 non a scopo valutativo, utile per rafforzare concetti e nozioni e per integrare con eventuali
 approfondimenti gli argomenti trattati nella lezione che necessitano di rinforzo.
@@ -5178,11 +5178,11 @@ e dai linguaggi digitali permettono la creazione di nuovi spazi e modalità di a
 esempio:
 - Realtà aumentata e virtuale: sono tecnologie immersive e si compongono di sistemi che,
 attraverso dispositivi mobili di visione, di ascolto o di manipolazione riescono ad
-aggiungere informazioni multimediali alla realtà che l’utente percepisce naturalmente. La
+aggiungere informazioni multimediali alla realtà che l'utente percepisce naturalmente. La
 realtà aumentata permette al discente di vedere parti digitali sovrapposte a parti fisiche,
-quella virtuale isola il discente dall’ambiente esterno, facendolo immergere in una realtà
+quella virtuale isola il discente dall'ambiente esterno, facendolo immergere in una realtà
 digitale parallela. La realtà aumentata consente di fornire indicazi oni tecniche a distanza
-in tempo reale e di sperimentare procedure nuove anche complesse. L’utilizzo della realtà
+in tempo reale e di sperimentare procedure nuove anche complesse. L'utilizzo della realtà
 virtuale consente di usufruire di momenti formativi, senza essere fisicamente presenti in
 un determinato luogo di lavoro e di simulare diversi scenari a scopo esercitativo e
 
@@ -5197,19 +5197,19 @@ operazioni in più sessioni formative, riducendo le conseguenze di eventuali err
 acquisire abilità manuali e pratiche nonché sistemi che possano integrarsi con sistemi
 innovativi che sfruttano in modo combinato software per la realtà virtuale ed aumentata
 - Gamification: metodologia che usa i meccanismi tipici del gioco e in particolare del
-videogioco per favorire il coinvolgimento e stimolare la motivazione e l’attenzione dei
+videogioco per favorire il coinvolgimento e stimolare la motivazione e l'attenzione dei
 discenti. Esistono i serious game, giochi con un esplicito e ben definito scopo educativo,
 non pensati primariamente per il divertimento, senza però escluderlo e i business game
-giochi caratterizzati da un contesto simulato di natura aziendale che hanno l’obiettivo di
+giochi caratterizzati da un contesto simulato di natura aziendale che hanno l'obiettivo di
 far acquisire capacità decisionali in termini di tempestività ed efficacia delle sce lte
-adottate, confidenza con situazioni di rischio e incertezza che permettono l’integrazione
+adottate, confidenza con situazioni di rischio e incertezza che permettono l'integrazione
 tra le diverse funzioni aziendali.
-L’utilizzo degli ambienti virtuali può prevedere anche spazi tridimensionali dove gli utenti si
+L'utilizzo degli ambienti virtuali può prevedere anche spazi tridimensionali dove gli utenti si
 muovono liberamente utilizzando degli avatar (metaverso). Il ricorso alla realtà virtuale o
 aumentata non sostituisce la parte pratica relativa ai corsi di cui ai punti 7 e 8 del presente
 accordo.
 2.5 Le modalità e i criteri di verifica e valutazione dei risultati
-Per avere la garanzia che l’obiettivo formativo sia stato raggiunto, è necessario valutare i risultati.
+Per avere la garanzia che l'obiettivo formativo sia stato raggiunto, è necessario valutare i risultati.
 Esistono differenti livelli di valutazione che richiedono momenti, tempi e risorse diversi per essere
 realizzati. La valutazione risulta necessaria non solo come controllo del processo di
 apprendimento e cambiamento che si vuole mettere in atto, ma anche come partecipazione
@@ -5221,7 +5221,7 @@ di valutazione va definito nella fase di progettazione e consente di:
 miglioramento dei percorsi formativi;
 - fornire feedback ai discenti in merito al loro apprendimento e cambiamento.
 Nel paragrafo 6 sono descritti i metodi e i criteri di verifica da adottare per la valutazione degli
-apprendimenti e dell’efficacia formativa durante lo svolgimento della prestazione lavorativa.
+apprendimenti e dell'efficacia formativa durante lo svolgimento della prestazione lavorativa.
 2.6 Il documento progettuale
 Ogni soggetto formatore dovrà redigere il progetto formativo, cioè il documento in uscita
 dell'intero processo di progettazione, in cui dovranno essere riportati nel dettaglio tutte le
@@ -5242,60 +5242,60 @@ Pag. 95 a 138
 didattico e delle competenze professionali, con particolare riferimento al ruolo che il
 soggetto destinatario della formazione riveste nel contesto dell'organizzazione aziendale.
 Il documento progettuale dovrà riportare in maniera chiara e descrittiva:
-• le specifiche del percorso formativo, cioè tutti quegli elementi che caratterizzano il corso di
+- le specifiche del percorso formativo, cioè tutti quegli elementi che caratterizzano il corso di
 formazione principalmente dal punto di vista didattico:
 - gli obiettivi e risultati attesi;
 - l'articolazione oraria delle unità didattiche;
 - i contenuti e gli argomenti trattati in ciascuna unità didattica.
-• le specifiche di realizzazione (modalità di sviluppo dell’azione formativa in termini
+- le specifiche di realizzazione (modalità di sviluppo dell'azione formativa in termini
 metodologici e strumentali):
 - la strategia formativa e le metodologie didattiche;
 - il materiale didattico e gli strumenti didattici di supporto;
 - le azioni di tutoraggio.
-• le specifiche per il controllo e la verifica:
+- le specifiche per il controllo e la verifica:
 - le modalità di valutazione e di monitoraggio della qualità formativa (mediante questionari
 di gradimento);
-- le modalità e i criteri di verifica e di valutazione dell’apprendimento, (sia per quanto
+- le modalità e i criteri di verifica e di valutazione dell'apprendimento, (sia per quanto
 riguarda le verifiche intermedie che finali).
 3 MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE
 3.1 Requisiti organizzativi e tecnici, modalità e procedure operative per i corsi in presenza
 Tutti i corsi di formazione disciplinati dal presente accordo possono essere erogati mediante la
 formazione in presenza.
-La formazione in presenza può essere erogata direttamente nell’ambiente di lavoro del discente.
-Nell’ambito della formazione si può fare ricorso a break formativi, formazione on the job, corsi
-di formazione su moduli pratici che richiedono l’utilizzo di specifici spazi di lavoro e di specifiche
+La formazione in presenza può essere erogata direttamente nell'ambiente di lavoro del discente.
+Nell'ambito della formazione si può fare ricorso a break formativi, formazione on the job, corsi
+di formazione su moduli pratici che richiedono l'utilizzo di specifici spazi di lavoro e di specifiche
 attrezzatture.
-Laddove si faccia ricorso a break formativi la formazione viene erogata direttamente all’interno
+Laddove si faccia ricorso a break formativi la formazione viene erogata direttamente all'interno
 dei reparti aziendali e presso le postazioni dei lavoratori stessi. La formazione dovrà avvenire ad
 opera di un docente in possesso dei requisiti previsti dall a normativa vigente, affiancato dal
 preposto, dovrà essere breve (15 -30 minuti) e dovrà essere rivolta a piccoli gruppi di lavoratori
 basandosi su specifici aspetti legati all'attività lavorativa. I break formativi sono finalizzati ad
 apportare un aggiornamento continuo riguardo ai rischi legati alla mansione, al luogo di lavoro,
 alle attrezzature/sostanze utilizzate ed alle tecniche di prevenzione. Gli stessi sono ritenuti validi
-ai fini della formazione specifica e per l’aggiornamento dei lavoratori.
+ai fini della formazione specifica e per l'aggiornamento dei lavoratori.
 Anche per questa modalità di erogazione valgono le stesse considerazioni metodologiche
 descritte nella microprogettazione.
 3.2 Requisiti organizzativi e tecnici, modalità e procedure operative per i corsi in video
 conferenza sincrona (VCS)
-La formazione in videoconferenza sincrona può essere definita come “streaming di un evento
+La formazione in videoconferenza sincrona può essere definita come "streaming di un evento
 formativo in modalità sincrona, che prevede la copresenza di discenti e docenti che interagiscono
-tra loro presso più postazioni remote, tramite piattaforma multimediale di comunicazione”. Ogni
+tra loro presso più postazioni remote, tramite piattaforma multimediale di comunicazione". Ogni
 
 
 ## Pagina 98
 
 Pag. 96 a 138
-discente deve essere collegato all’evento formativo tramite pc o tablet a suo esclusivo uso per la
+discente deve essere collegato all'evento formativo tramite pc o tablet a suo esclusivo uso per la
 durata del corso.
 La veicolazione mediante supporto multimediale in modalità sincrona (tipicamente mediante PC
-o tablet collegati in rete) permette l’interazione tra docenti e allievi similmente a quanto avviene
+o tablet collegati in rete) permette l'interazione tra docenti e allievi similmente a quanto avviene
 nella formazione in presenza. Tuttavia, la modalità di formazi one in VCS presenta alcune
 caratteristiche e specificità che la differenziano dalla didattica in presenza in aula fisica con
 riferimento ai soggetti formatori che devono dunque adeguare o reingegnerizzare i processi di
 produzione della formazione (preveden do anche idonei profili di competenze), rispettando
 determinati requisiti di carattere organizzativo e tecnologici al fine di garantire la qualità e
-l’efficacia formativa. I soggetti che erogano la formazione in modalità videoconferenza sincrona
-dovranno implementare procedure idonee all’ambiente virtuale per la gestione delle modalità di
+l'efficacia formativa. I soggetti che erogano la formazione in modalità videoconferenza sincrona
+dovranno implementare procedure idonee all'ambiente virtuale per la gestione delle modalità di
 accesso, di verifica delle presenze, di gestione degli interventi dei discenti, delle modalità di
 svolgimento delle verifiche di apprend imento, della gestione dei material i didattici, delle
 modalità di tracciamento.
@@ -5303,14 +5303,14 @@ In coerenza con quanto già definito dal legislatore con la legge 52/2019 ai fin
 Accordo la videoconferenza sincrona è equiparata alla presenza fisica, fatta eccezione per i
 moduli didattici che prevedono un addestramento o una prova pratica.
 3.2.1 Requisiti di carattere organizzativo e gestionale
-Fermo restando quanto riportato inizialmente sulla struttura organizzativa basata sull’approccio
-per processi e loro descrizione, all’interno di ciascun processo dovranno essere sviluppate alcune
+Fermo restando quanto riportato inizialmente sulla struttura organizzativa basata sull'approccio
+per processi e loro descrizione, all'interno di ciascun processo dovranno essere sviluppate alcune
 attività aggiuntive specifiche e dovranno essere allocate risorse con specifiche competenze.
 ANALISI DEI FABBIGNOSI FORMATIVI E PROGETTAZIONE
 ➢ Analisi dei fabbisogni formativi e del contesto
 - Individuazione e indicazione delle abilità e capacità, in termine di alfabetizzazione
-informatica e digitale, richieste all’utente per la frequenza efficace del percorso
-formativo, al fine di evitare che un eventuale “digital divide” possa influire in modo
+informatica e digitale, richieste all'utente per la frequenza efficace del percorso
+formativo, al fine di evitare che un eventuale "digital divide" possa influire in modo
 discriminante sulla capacità di fruizione
 - Definizione dei requisiti tecnologici della postazione del discente e di compatibilità con i
 requisiti di accesso, accessibilità e fruibilità previsti dalla piattaforma del soggetto
@@ -5318,12 +5318,12 @@ formatore.
 ➢ Progettazione
 In sede di macroprogettazione dovranno essere definiti:
 - la strategia formativa da adottare, in termini metodologici e tecnici per lo sviluppo
-dell’azione formativa in ambiente di aula virtuale;
-- le metodologie didattiche attive più idonee per l’erogazione in VCS;
+dell'azione formativa in ambiente di aula virtuale;
+- le metodologie didattiche attive più idonee per l'erogazione in VCS;
 - le modalità di verifica (in itinere e finale) in sincrono nel rispetto di quanto previsto dalla
 legislazione in materia;
 - i requisiti tecnologici necessari per la fruizione del corso in modalità VCS;
-- le modalità di tutoraggio d’aula virtuale.
+- le modalità di tutoraggio d'aula virtuale.
 In sede di microprogettazione dovranno essere definite:
 
 
@@ -5331,42 +5331,42 @@ In sede di microprogettazione dovranno essere definite:
 
 Pag. 97 a 138
 - le modalità di svolgimento sincrono delle esercitazioni, lavori di gruppo, casi di studio
-considerando l’ambiente d’aula virtuale;
-- le modalità di interazione discente -docente-tutor d’aula virtuale e delle funzionalità da
+considerando l'ambiente d'aula virtuale;
+- le modalità di interazione discente -docente-tutor d'aula virtuale e delle funzionalità da
 utilizzare nella piattaforma.
 EROGAZIONE
-La modalità sincrona e la contemporanea virtualizzazione spaziale rappresentata dall’aula
+La modalità sincrona e la contemporanea virtualizzazione spaziale rappresentata dall'aula
 virtuale comportano che in fase di erogazione siano adottate specifiche procedure e svolte
 alcune attività che non si ritrovano nei corsi in aula con presenza fisica. Attività tipiche da svolgere
-nell’erogazione del corso di formazione in modalità VCS sono:
+nell'erogazione del corso di formazione in modalità VCS sono:
 - gestione delle procedure di accesso protetto dei discenti;
 - docenza in ambiente caratterizzato da virtualizzazione spaziale (aula virtuale), con
 dinamiche differenti rispetto alla formazione in presenza fisica in aula;
-- tutoraggio d’aula virtuale, che ha una forte valenza nello sviluppo del corso e nelle
+- tutoraggio d'aula virtuale, che ha una forte valenza nello sviluppo del corso e nelle
 dinamiche di interazione;
 - rilevazione e tracciabilità della continuità della presenza dei discenti;
 - gestione delle esercitazioni, lavori di gruppo e in generale delle specifiche metodologie
-didattiche attive in sincrono idonee all’ambiente virtuale;
+didattiche attive in sincrono idonee all'ambiente virtuale;
 - gestione delle verifiche di apprendimento in modalità sincrona a distanza;
 - monitoraggio della continuità di funzionamento delle funzionalità della piattaforma;
 - gestione dei flussi di comunicazione tra i docenti, tutor e tra gli stessi discenti.
 MONITORAGGIO E VALUTAZIONE. RIESAME E MISURE DI MIGLIORAMENTO
 Considerando la specificità e la potenziale criticità di alcune attività nella gestione dei corsi
 soprattutto in fase di erogazione, il monitoraggio e la valutazione risultano importanti nella
-verifica della qualità didattica e organizzativa e dell’efficacia ed efficienza del percorso formativo.
+verifica della qualità didattica e organizzativa e dell'efficacia ed efficienza del percorso formativo.
 Considerando che lo strumento utilizzato a tale scopo è il questionario di gradimento (paragrafo
 5), questo dovrà essere strutturato con elementi di valutazione aggiuntivi che tengano conto
 della modalità di erogazione in videoconferenza sincrona. In particolare, dovranno essere rilevati
 e monitorati:
-- il livello d’interazione docente-discente;
-- la chiarezza espositiva in ambiente virtuale e padronanza dell’utilizzo della piattaforma
+- il livello d'interazione docente-discente;
+- la chiarezza espositiva in ambiente virtuale e padronanza dell'utilizzo della piattaforma
 del docente;
-- l’efficacia del tutoraggio d’aula virtuale;
-- l’efficacia della gestione dei gruppi di lavoro ed esercitazioni in ambiente virtuale;
-- l’accessibilità e l’usabilità della piattaforma utilizzata;
-- l’efficacia e l’efficienza del supporto tecnico.
+- l'efficacia del tutoraggio d'aula virtuale;
+- l'efficacia della gestione dei gruppi di lavoro ed esercitazioni in ambiente virtuale;
+- l'accessibilità e l'usabilità della piattaforma utilizzata;
+- l'efficacia e l'efficienza del supporto tecnico.
 I dati così rilevati saranno elaborati ed analizzati in sede di riesame (sia generale che per singoli
-percorsi formativi) con l’individuazione e l’adozione delle misure di miglioramento e correttive
+percorsi formativi) con l'individuazione e l'adozione delle misure di miglioramento e correttive
 riguardanti gli elementi caratterizzanti la modalità di erogazione in videoconferenza sincrona.
 3.2.2. Requisiti relativi alle risorse professionali e profili di competenze
 Per erogare la formazione in VCS il soggetto formatore deve avvalersi di profili professionali con
@@ -5378,47 +5378,47 @@ particolari competenze, aggiuntive a quelle generali riportate in precedenza nel
 Pag. 98 a 138
 IV punto 1.7, con conoscenze, abilità e responsabilità idonee a gestire e presidiare i processi di
 produzione caratterizzanti la formazione in VCS.
-• RESPONSABILE DEI PROGETTI FORMATIVI
+- RESPONSABILE DEI PROGETTI FORMATIVI
 Il responsabile dei progetti formativi dovrà conoscere le modalità di funzionamento e le
-funzionalità della piattaforma, le modalità di gestione e di interazione dell’aula virtuale, le
-modalità didattiche attive idonee ed efficaci per l’ambiente virtuale.
+funzionalità della piattaforma, le modalità di gestione e di interazione dell'aula virtuale, le
+modalità didattiche attive idonee ed efficaci per l'ambiente virtuale.
 Il responsabile dei progetti formativi può essere individuato tra i docenti del corso.
-• DOCENTE
+- DOCENTE
 I docenti, oltre a possedere i requisiti previsti dalla legislazione vigente, dovranno avere una
-buona conoscenza dell’ambiente virtuale della piattaforma e delle funzionalità da utilizzare nelle
+buona conoscenza dell'ambiente virtuale della piattaforma e delle funzionalità da utilizzare nelle
 sessioni didattiche in modo da garantire la necessaria interazione con i discenti. Nello strutturare
 l'intervento formativo in VCS, dovranno sapere individuare strategie e metodologie didattiche
-efficaci per l’ambiente virtuale e predisporre i materiali di dattici, gli strumenti di supporto e di
+efficaci per l'ambiente virtuale e predisporre i materiali di dattici, gli strumenti di supporto e di
 valutazione funzionali alla docenza in VCS.
-• TUTOR D’AULA VIRTUALE
-Il tutor d’aula virtuale dovrà possedere le conoscenze relative alle funzionalità della piattaforma
+- TUTOR D'AULA VIRTUALE
+Il tutor d'aula virtuale dovrà possedere le conoscenze relative alle funzionalità della piattaforma
 per gestire le particolari dinamiche relazionali e di interazione con i discenti che caratterizzano la
 formazione in videoconferenza sincrona. Inoltre, dovrà saper gestire alcune procedure specifiche
 quali le modalità di accesso protetto e la registrazione dei partecipanti, la verifica e il
-tracciamento della continuità della presenza, il monitoraggio dell’andamento
-dell’apprendimento, il supporto didatt ico a l docente soprattutto nelle esercitazioni e nelle
+tracciamento della continuità della presenza, il monitoraggio dell'andamento
+dell'apprendimento, il supporto didatt ico a l docente soprattutto nelle esercitazioni e nelle
 verifiche in modalità sincrona, la gestione delle chat e del flusso di posta elettronica, e in generale
 di tutte le modalità operative per la gestione didattica.
-• ESPERTO NELLA GESTIONE TECNICA DELLA PIATTAFORMA MULTIMEDIALE
+- ESPERTO NELLA GESTIONE TECNICA DELLA PIATTAFORMA MULTIMEDIALE
 È necessario che il soggetto formatore si avvalga di un esperto che garantisca una corretta
 configurazione degli ambienti virtuali e la gestione tecnica della piattaforma utilizzata, in
 particolare la gestione di eventuali criticità nel funzionamento della piattaforma, intervenendo
 tempestivamente per la risoluzione di problemi di connettività, di blocchi del sistema, di
-interruzioni o malfunzionamenti. Collabora inoltre con il tutor d’aula virtuale nella profilazione
+interruzioni o malfunzionamenti. Collabora inoltre con il tutor d'aula virtuale nella profilazione
 degli utenti e nel monitoraggio degli accessi.
 3.2.3 Requisiti tecnologici e funzionali della piattaforma
-La piattaforma utilizzata dal soggetto formatore per l’erogazione dei corsi in VCS deve possedere
+La piattaforma utilizzata dal soggetto formatore per l'erogazione dei corsi in VCS deve possedere
 alcune caratteristiche tecnologiche e funzionali indispensabili per assicurare una efficace
 gestione dal punto di vista didattico, il rispetto dei requisiti legislativi in materia di formazione su
 salute e sicurezza sul lavoro e la conformità al regolamento sulla protezione dei dati personali. Di
 seguito sono riportate alcune funzionalità necessarie per assicurare livelli adeguati di usabilità,
-versatilità e interattività per l’erogazione dei corsi di formazione in modalità sincrona.
+versatilità e interattività per l'erogazione dei corsi di formazione in modalità sincrona.
 In termini di accessibilità e accessi protetti:
 - presentare una modalità di accesso al corso solo agli iscritti autorizzati. Le modalità di
 accesso possono variare da piattaforma a piattaforma ma in tutti i casi deve essere
 garantita la massima sicurezza da accessi non autorizzati dal soggetto formatore;
 - permettere tecnicamente il monitoraggio e la registrazione delle presenze, con
-tracciatura riportante l’ora iniziale e finale del collegamento e gli eventuali abbandoni dei
+tracciatura riportante l'ora iniziale e finale del collegamento e gli eventuali abbandoni dei
 
 
 ## Pagina 101
@@ -5428,37 +5428,37 @@ discenti. Tale tracciatura avrà la stessa validità del registro delle presenze
 corsi in presenza;
 - permettere la disattivazione di utility e applicazioni non strettamente funzionali alla
 didattica, soprattutto se la piattaforma utilizzata non è esclusivamente dedicata alla
-didattica. Inoltre, non dovrebbe essere consentito l’accesso tramite social login
+didattica. Inoltre, non dovrebbe essere consentito l'accesso tramite social login
 (meccanismo che permette agli utenti di autenticarsi sfruttando account e servizi offerti
 dai social network);
-- prevedere la possibilità di utilizzare un’area di repository del materiale didattico e di
+- prevedere la possibilità di utilizzare un'area di repository del materiale didattico e di
 supporto alla didattica per la sola durata del corso di formazione, con utilizzo protetto da
 parte del discente ai soli fini didattici e regolamentato ad esempio nel rispetto del
 copyright, nel divieto di diffusione verso terzi estranei al corso di formazione, nelle
 eventuali limitazioni ai download.
 In termini di interattività:
-- presentare un livello adeguato di interattività in modo tale da garantire l’interazione
+- presentare un livello adeguato di interattività in modo tale da garantire l'interazione
 sincrona tra docente e discenti, permettendo ai discenti di intervenire in diretta su
 richiesta e al docente di facilitare la partecipazione attiva con la possibilità di verificare in
 itinere le fasi di apprendimento;
 - permettere la visualizzazione, tramite finestre, dei discenti in modo da facilitare e
-stimolare l’interazione tra docenti e discenti e tra discenti e discenti, e di verificare da
+stimolare l'interazione tra docenti e discenti e tra discenti e discenti, e di verificare da
 parte del docente e/o del tutor la presenza effettiva dei singoli discenti;
-- consentire un’agevole proiezione delle presentazioni utilizzate dai docenti (slide, filmati,
-documenti etc.) e un’agevole visualizzazione delle stesse da parte dei discenti;
-- permettere l’utilizzo di un’area di chat per consentire ai discenti di comunicare con il
+- consentire un'agevole proiezione delle presentazioni utilizzate dai docenti (slide, filmati,
+documenti etc.) e un'agevole visualizzazione delle stesse da parte dei discenti;
+- permettere l'utilizzo di un'area di chat per consentire ai discenti di comunicare con il
 docente o il tutor o con gli altri discenti ad integrazione alla comunicazione audio-video;
 - consentire la creazione di classi virtuali con possibilità di suddivisione in sottogruppi
-separati “aule di fuga” (breakout rooms) per lo svolgimento di eventuali esercitazioni di
+separati "aule di fuga" (breakout rooms) per lo svolgimento di eventuali esercitazioni di
 gruppo;
 - permettere di controllare e modulare la qualità video e audio.
 In termini di usabilità e flessibilità delle modalità operative di gestione delle procedure previste:
 - permettere lo svolgimento delle verifiche intermedie e finali dei discenti esclusivamente
-in modo sincrono con l’acquisizione degli elaborati da parte del docente e/o del tutor alla
+in modo sincrono con l'acquisizione degli elaborati da parte del docente e/o del tutor alla
 fine della sessione di verifica;
 - consentire di acquisire e archiviare il consenso al trattamento dei dati da parte
-dell’interessato compresa l’acquisizione, laddove prevista dal soggetto formatore,
-dell’accettazione del rispetto del copyright, del divieto di diffusione verso terzi e di
+dell'interessato compresa l'acquisizione, laddove prevista dal soggetto formatore,
+dell'accettazione del rispetto del copyright, del divieto di diffusione verso terzi e di
 eventuali limitazioni ai download.
 Diverse piattaforme multimediali dedicate specificatamente alla formazione a distanza
 presentano spesso funzionalità avanzate aggiuntive rispetto a quelle riportate sopra, che
@@ -5475,21 +5475,21 @@ risultati delle verifiche;
 ## Pagina 102
 
 Pag. 100 a 138
-- generazione di report con l’elaborazione dei dati relativi alle valutazioni degli apprendimenti
+- generazione di report con l'elaborazione dei dati relativi alle valutazioni degli apprendimenti
 e della qualità percepita dei discenti, anche in forma aggregata.
 Connettività della postazione di utente
-La connessione della postazione dell’utente alla rete Internet deve essere stabile ed efficiente
-per permettere la fruibilità, l’usabilità e la continuità.
+La connessione della postazione dell'utente alla rete Internet deve essere stabile ed efficiente
+per permettere la fruibilità, l'usabilità e la continuità.
 Il soggetto formatore in sede di informazione preliminare dovrebbe raccomandare al discente (a
 sua esclusiva responsabilità) di verificare la stabilità e velocità di connessione della propria
 postazione, prima della iscrizione al corso e della sua fruizione.
-I dispositivi della postazione d’utente potranno essere pc o tablet. Non è consentito l’utilizzo degli
+I dispositivi della postazione d'utente potranno essere pc o tablet. Non è consentito l'utilizzo degli
 smartphone per le condizioni ergonomiche non idonee e perché generalmente non garantisce
 una sufficiente continuità della stabilità e velocità di collegamento alla rete.
 3.2.4 MODALITÀ OPERATIVE PER LA GESTIONE DELLA DIDATTICA IN VIDEOCONFERENZA
 SINCRONA
-• INFORMAZIONI PRELIMINARI PER I DISCENTI
-Prima di procedere all’iscrizione al corso di formazione, il soggetto formatore deve informare il
+- INFORMAZIONI PRELIMINARI PER I DISCENTI
+Prima di procedere all'iscrizione al corso di formazione, il soggetto formatore deve informare il
 discente (e i Datori di lavoro committenti relativamente ai corsi a loro carico) sulle caratteristiche
 tecnologiche e funzionali della piattaforma multimediale utilizzata, sui requisiti di connettività e
 delle dotazioni hardware e software della postazione utente, per consentire al discente di
@@ -5498,24 +5498,24 @@ corso in termini di continuità, stabilità di connessione e usabilità.
 Oltre alle informazioni sulle caratteristiche tecnologiche il soggetto formatore deve fornire
 alcune informazioni preliminari relative a modalità di accesso, modalità di erogazione dei
 contenuti e di svolgimento in sincrono delle verifiche intermedie e finali di apprendimento,
-modalità di assistenza e supporto durante l’erogazione del corso.
-• ISCRIZIONI
-Il soggetto formatore in sede di iscrizione, laddove necessario ai fini della verifica dell’identità del
+modalità di assistenza e supporto durante l'erogazione del corso.
+- ISCRIZIONI
+Il soggetto formatore in sede di iscrizione, laddove necessario ai fini della verifica dell'identità del
 discente, può acquisire copia di un documento di identità contenente fotografia del discente,
 senza effettuare alcun trattamento digitale di tipo biometrico.
-• MODALITÀ D’ACCESSO PROTETTO
-Le modalità di accesso (gestite normalmente dal tutor d’aula virtuale o dal docente) devono
+- MODALITÀ D'ACCESSO PROTETTO
+Le modalità di accesso (gestite normalmente dal tutor d'aula virtuale o dal docente) devono
 essere di tipo protetto cioè garantire che solo i partecipanti autorizzati possono accedere alle
 sessioni formative. In base alle caratteristiche tecnologiche della piattaforma, il soggetto
 formatore potrà utilizzare account individuali, password, link specifici, stanze di attesa (dove i
-discenti aspetteranno che gli venga concesso l’accesso alla sessione).
+discenti aspetteranno che gli venga concesso l'accesso alla sessione).
 Il tutor o il docente verificano gli avvenuti accessi e la loro registrazione sulla piattaforma (con
-l’indicazione dell’orario di accesso) e prima dell’avvio delle attività formative verificano il corretto
-funzionamento audio e video di tutti i partecipant i e l’attivazione delle altre funzionalità
-necessarie per lo svolgimento dell’evento formativo.
-• VERIFICA DELLE PRESENZE
+l'indicazione dell'orario di accesso) e prima dell'avvio delle attività formative verificano il corretto
+funzionamento audio e video di tutti i partecipant i e l'attivazione delle altre funzionalità
+necessarie per lo svolgimento dell'evento formativo.
+- VERIFICA DELLE PRESENZE
 I corsi di formazione di cui al presente Accordo, prevedono la presenza per il 90% della durata
-dell’evento formativo e dei corsi di aggiornamento. Nella formazione in videoconferenza
+dell'evento formativo e dei corsi di aggiornamento. Nella formazione in videoconferenza
 sincrona dovranno essere rispettati tali vincoli. Il tutor o il docente dovranno verificare
 
 
@@ -5524,10 +5524,10 @@ sincrona dovranno essere rispettati tali vincoli. Il tutor o il docente dovranno
 Pag. 101 a 138
 costantemente la presenza dei discenti, mediante visualizzazione delle finestre, chiamate ai
 discenti, sondaggi, richieste via chat.
-In caso in cui il discente deve assentarsi per un periodo prolungato dovrà chiedere l’abbandono
+In caso in cui il discente deve assentarsi per un periodo prolungato dovrà chiedere l'abbandono
 del collegamento che sarà successivamente ripristinato con la modalità di accesso autorizzato e
-registrato con l’orario di abbandono e di ripristino.
-• GESTIONE DELLE VERIFICHE INTERMEDIE E FINALI E DELLE ESERCITAZIONI
+registrato con l'orario di abbandono e di ripristino.
+- GESTIONE DELLE VERIFICHE INTERMEDIE E FINALI E DELLE ESERCITAZIONI
 Le verifiche dovranno essere svolte sempre in modalità sincrona e non differita, con possibilità di
 visualizzazione delle finestre dei discenti nel corso dello svolgimento. Nel caso in cui il soggetto
 formatore utilizzi funzionalità avanzate di gestione de lle verifiche queste garantiscono
@@ -5539,14 +5539,14 @@ la commissione per la verifica e il singolo discente. Qualora il soggetto format
 opportuno e funzionale ai fini della tracciabilità e traspa renza, ogni colloquio potrà essere
 registrato nel rispetto della normativa vigente sul trattamento dei dati e della privacy o, in
 alternativa, nel caso in cui non si ricorra alla registrazione del colloquio, il docente dovrà riportare
-le domande sull’apposito verbale che normalmente viene utilizzato nella formazione in presenza.
-L’esito della prova viene comunicata al discente alla fine del colloquio. La firma del discente potrà
-essere sostituita dalla registrazione audio video della comunicazione dell’esit o con presa d’atto
+le domande sull'apposito verbale che normalmente viene utilizzato nella formazione in presenza.
+L'esito della prova viene comunicata al discente alla fine del colloquio. La firma del discente potrà
+essere sostituita dalla registrazione audio video della comunicazione dell'esit o con presa d'atto
 del discente.
 Per quanto riguarda le esercitazioni individuali con finalità didattiche e non a fini valutativi si
 potrà seguire la stessa procedura delle verifiche descritta precedentemente. Se sono previste
 esercitazioni in gruppo, verrà utilizzata la funzionalità che permette di suddividere i discenti in
-sottogruppi mediante le cosiddette “aule di fuga” ( breakout rooms ). In tal modo i gruppi
+sottogruppi mediante le cosiddette "aule di fuga" ( breakout rooms ). In tal modo i gruppi
 lavoreranno separatamente nella propria aula.
 3.3 REQUISITI ORGANIZZATIVI E TECNICI, MODALITÀ E PROCEDURE OPERATIVE PER I CORSI
 E-LEARNING
@@ -5558,7 +5558,7 @@ Il soggetto formatore erogatore del corso, compreso il caso in cui sia lo stesso
 dovrà:
 - essere dotato di ambienti (sede) e struttura organizzativa idonei alla gestione dei processi
 formativi in modalità e -learning, della piattaforma tecnologica e del monitoraggio
-continuo del processo (LMS – Learning Management System);
+continuo del processo (LMS - Learning Management System);
 - garantire la disponibilità dei profili di competenze per la gestione didattica e tecnica della
 formazione e -learning quali: responsabile del progetto formativo; tutoraggio di
 contenuto e di processo; manutenzione e gestione tecnica della piattaforma;
@@ -5574,14 +5574,14 @@ e-learning (LMS) in grado di monitorare e di certificare:
 - lo svolgimento ed il completamento delle attività didattiche di ciascun utente;
 - la partecipazione attiva del discente;
 - la tracciabilità di ogni attività svolta durante il collegamento al sistema e la durata;
-- la tracciabilità dell’utilizzo anche delle singole unità didattiche strutturate in Learning
+- la tracciabilità dell'utilizzo anche delle singole unità didattiche strutturate in Learning
 Objects (LO);
-- la regolarità e la progressività di utilizzo del sistema da parte dell’utente;
+- la regolarità e la progressività di utilizzo del sistema da parte dell'utente;
 - le modalità e il superamento delle valutazioni di apprendimento intermedie e finali
 realizzabili in modalità e-learning.
 Ogni corso o modulo dovrà essere realizzato in conformità allo standard internazionale SCORM
-(Shareable Content Object Reference Model) (“Modello di riferimento per gli oggetti di
-contenuto condivisibile”) o eventuale sistema equivalente, al fine di garant ire il tracciamento
+(Shareable Content Object Reference Model) ("Modello di riferimento per gli oggetti di
+contenuto condivisibile") o eventuale sistema equivalente, al fine di garant ire il tracciamento
 della fruizione degli oggetti didattici (Learning Objects) nella piattaforma LMS utilizzata.
 3.3.3 REQUISITI RELATIVI ALLE RISORSE PROFESSIONALI E PROFILI DI COMPETENZE PER I
 CORSI EROGATI IN E-LEARNING
@@ -5589,27 +5589,27 @@ Per erogare la formazione in e -learning il soggetto formatore deve avvalersi di
 professionali con particolari competenze, aggiuntive a quelle generali riportate in
 precedenza nel paragrafo 1.7, con conoscenze, abilità e responsabilità idonee a gest ire e
 presidiare i processi di produzione caratterizzanti tale formazione. Tali figure devono essere
-disponibili nell’organizzazione del soggetto formatore indipendentemente dalla natura
+disponibili nell'organizzazione del soggetto formatore indipendentemente dalla natura
 contrattuale.
-• RESPONSABILE DEL PROGETTO FORMATIVO
+- RESPONSABILE DEL PROGETTO FORMATIVO
 Soggetto avente comprovata e documentata esperienza (almeno triennale) in materia di
 sicurezza e salute nei luoghi di lavoro, in possesso dei requisiti richiesti per formatori/docenti
 dalla legislazione vigente con specifiche competenze riguardanti la prog ettazione formativa
 in modalità e-learning.
-• MENTOR/TUTOR DI CONTENUTO
+- MENTOR/TUTOR DI CONTENUTO
 Figura professionale esperta dei contenuti in possesso dei requisiti previsti per i
 formatori/docenti dalla legislazione vigente con specifiche competenze riguardanti la
 progettazione formativa in modalità e-learning che assicura e presidia il supporto scientifico
-di assistenza ai discenti per l’apprendimento dei contenuti, fornendo chiarimenti ed
+di assistenza ai discenti per l'apprendimento dei contenuti, fornendo chiarimenti ed
 approfondimenti ed integrazioni in un arco di tempo adeguato alla efficacia didattica.
-• TUTOR DI PROCESSO
+- TUTOR DI PROCESSO
 Il tutor di processo deve possedere le conoscenze relative alle funzionalità della piattaforma
 per assicurare il supporto ai partecipanti, gestire le dinamiche di interazione e di interfaccia
-con i discenti facilitando l’accesso ai diversi ambienti didattici e ai contenuti, monitorando e
-valutando la dinamica di apprendimento e l’efficacia delle soluzioni adottate per la fruizione
+con i discenti facilitando l'accesso ai diversi ambienti didattici e ai contenuti, monitorando e
+valutando la dinamica di apprendimento e l'efficacia delle soluzioni adottate per la fruizione
 dei contenuti.
-• SVILUPPATORE DELLA PIATTAFORMA
-Soggetto che sviluppa il progetto formativo nell’ambito della piattaforma, organizzando gli
+- SVILUPPATORE DELLA PIATTAFORMA
+Soggetto che sviluppa il progetto formativo nell'ambito della piattaforma, organizzando gli
 elementi tecnici e metodologici e garantendo le attività di gestione tecnica della piattaforma.
 
 
@@ -5634,14 +5634,14 @@ trasferimento dei contenuti, i criteri di accessibilità e usabilità;
 garantendo gli aspetti relativi al trattamento dei dati personali ai sensi della normativa
 vigente;
 7) le eventuali competenze e titoli di ingresso degli utenti al percorso formativo;
-8) le modalità di tracciamento delle attività dell’intero percorso formativo;
+8) le modalità di tracciamento delle attività dell'intero percorso formativo;
 9) il tempo di disponibilità minima e massima di fruizione del percorso formativo e i tempi
 di fruizione dei contenuti (unità didattiche);
-10) le modalità di verifica dell’apprendimento sia intermedie che finali.
+10) le modalità di verifica dell'apprendimento sia intermedie che finali.
 La scheda progettuale, riportante i dati di cui sopra, dovrà essere resa disponibile al discente che,
-all’atto dell’iscrizione, dovrà dichiarare la presa visione e accettazione.
+all'atto dell'iscrizione, dovrà dichiarare la presa visione e accettazione.
 3.4 MODALITÀ MISTA
-Con il termine modalità mista o blended si intende l’erogazione di percorsi di formazione che
+Con il termine modalità mista o blended si intende l'erogazione di percorsi di formazione che
 alternano momenti di formazione a distanza (sincrona o asincrona) con momenti di formazione
 in presenza fisica. Questa modalità permette di ridurre il rischio del senso di isolamento che può
 essere attribuito alla formazione a distanza e di mantenere alcuni vantaggi (i discenti possono
@@ -5649,9 +5649,9 @@ organizzare autonomamente i propri ritmi di studio; si riducono i tempi d i spos
 raggiungere il luogo di svolgimento della formazione in presenza, il percorso può essere
 maggiormente personalizzato).
 In presenza fisica possono essere realizzati momenti strategici dei percorsi formativi, che il
-soggetto formatore ritiene utile ai fini dell’efficacia didattica.
+soggetto formatore ritiene utile ai fini dell'efficacia didattica.
 La presenza fisica è utile per:
-- socializzare e instaurare il clima d’aula;
+- socializzare e instaurare il clima d'aula;
 - sostenere la motivazione;
 - familiarizzare con la tecnologia da utilizzare in modalità a distanza;
 - effettuare attività didattiche pratiche che non posso essere effettuate a distanza;
@@ -5695,7 +5695,7 @@ Consentita Non consentita Non consentita
 Operatori addetti alla
 conduzione delle
 attrezzature di cui
-all’articolo 73, comma
+all'articolo 73, comma
 5, del decreto
 legislativo 9 aprile 2008,
 n. 81/2008
@@ -5728,16 +5728,16 @@ Consentita Non consentita Non consentita
 Operatori addetti alla
 conduzione delle
 attrezzature di cui
-all’articolo 73, comma 5, del
+all'articolo 73, comma 5, del
 decreto legislativo 9 aprile
 2008, n. 81/2008
 Consentita Non consentita Non consentita
 4 CONFORMITÀ AL REGOLAMENTO SULLA PROTEZIONE DEI DATI PERSONALI
-I soggetti formatori, nello svolgimento delle attività formative erogate all’utenza, devono
+I soggetti formatori, nello svolgimento delle attività formative erogate all'utenza, devono
 conformarsi a quanto previsto da lle disposizioni vigenti in materia di protezione dei dati
 personali.
 5 MONITORAGGIO E VALUTAZIONE DEL GRADIMENTO
-La valutazione del gradimento è una modalità di rilevazione della soddisfazione dell’utente in
+La valutazione del gradimento è una modalità di rilevazione della soddisfazione dell'utente in
 relazione ai fattori che caratterizzano la qualità formativa in termini di:
 - qualità didattica (competenza dei docenti, adeguatezza delle metodologie e dei materiali
 didattici, adeguatezza dei contenuti, ecc.);
@@ -5746,14 +5746,14 @@ assistenza, ecc.);
 - utilità percepita (trasferibilità a livello lavorativo, rispondenza alle aspettative formative,
 adeguatezza degli argomenti trattati).
 La rilevazione del gradimento può essere utilizzata:
-- ex post, a ridosso dell’immediata conclusione del percorso formativo, che è la modalità
+- ex post, a ridosso dell'immediata conclusione del percorso formativo, che è la modalità
 normalmente utilizzata per la valutazione del gradimento;
 
 
 ## Pagina 108
 
 Pag. 106 a 138
-- in itinere (all’interno della valutazione di processo). In tal caso si parla spesso di azione di
+- in itinere (all'interno della valutazione di processo). In tal caso si parla spesso di azione di
 monitoraggio in progress, che consente di apportare aggiustamenti durante il prosieguo
 del corso.
 Lo strumento più utilizzato per la rilevazione dei dati e informazioni sulla qualità percepita dai
@@ -5769,7 +5769,7 @@ Un questionario di gradimento è generalmente composto di un mix di domande chiu
 I principali indicatori di rilevazione della qualità percepita riguardano la qualità didattica e
 organizzativa.
 La qualità didattica con focus su:
-- L’efficacia comunicativa e la chiarezza espositiva dei docenti
+- L'efficacia comunicativa e la chiarezza espositiva dei docenti
 - Il livello di interazione e coinvolgimento dei discenti
 - La metodologia didattica
 - I contenuti della didattica
@@ -5780,13 +5780,13 @@ La qualità organizzativa con focus su:
 - Organizzazione d'aula
 - Tecnologie utilizzate
 - Assistenza e tutoraggio
-L’utilità percepita con focus su:
-- L’ interesse per gli argomenti;
+L'utilità percepita con focus su:
+- L' interesse per gli argomenti;
 - La soddisfazione delle aspettative;
 - Il raggiungimento degli obiettivi;
 - La trasferibilità nel contesto di lavoro.
 La compilazione dei questionari è anonima e può essere effettuata al termine di ogni UD o
-dell’intero corso di formazione.
+dell'intero corso di formazione.
 I soggetti formatori possono dotarsi di un sistema di elaborazione dei dati, di misurazione degli
 indicatori e di reportistica dei risultati.
 I dati e le informazioni raccolti vengono analizzati al fine di individuare quali sono i processi che
@@ -5796,35 +5796,35 @@ presentano criticità e le aree di miglioramento su cui intervenire.
 ## Pagina 109
 
 Pag. 107 a 138
-6. VERIFICA DELL’APPRENDIMENTO
+6. VERIFICA DELL'APPRENDIMENTO
 6.1 VERIFICA DEGLI APPRENDIMENTI
-La verifica dell’apprendimento rappresenta la prima evidenza circa il raggiungimento degli
+La verifica dell'apprendimento rappresenta la prima evidenza circa il raggiungimento degli
 obiettivi e dei risultati attesi al termine del corso. Secondo European Qualifications Framework
-(EQF) i risultati dell’apprendimento sono la “ descrizione di ciò che un discente conosce, capisce
-ed è in grado di realizzare al termine di un processo di apprendimento ” e nel sistema europeo e
+(EQF) i risultati dell'apprendimento sono la " descrizione di ciò che un discente conosce, capisce
+ed è in grado di realizzare al termine di un processo di apprendimento " e nel sistema europeo e
 nazionale di riferimento sono definiti in termini di conoscenze, abilità e responsabilità e
 autonomia come segue:
-• conoscenze risultato dell'assimilazione di informazioni attraverso l'apprendimento. Le
+- conoscenze risultato dell'assimilazione di informazioni attraverso l'apprendimento. Le
 conoscenze sono un insieme di fatti, principi, teorie e pratiche relative ad un settore di
 lavoro o di studio. Nel contesto del Quadro europeo delle qualifiche le conoscenze sono
 descritte come teoriche e/o pratiche.
-• abilità indicano le capacità di applicare conoscenze e di utilizzare know -how per portare
+- abilità indicano le capacità di applicare conoscenze e di utilizzare know -how per portare
 a termine compiti e risolvere problemi. Nel contesto del Quadro europeo delle qualifiche
 le abilità sono descritte come cognitive (comprendenti l'uso del pensiero logico, intuitivo
 e creativo) o pratiche (comprendenti l'abilità manuale e l'uso di metodi, materiali,
 strumenti).
-• competenze comprovata capacità di utilizzare conoscenze, abilità e capacità personali,
+- competenze comprovata capacità di utilizzare conoscenze, abilità e capacità personali,
 sociali e/o metodologiche, in situazioni di lavoro o di studio e nello sviluppo professionale
 e personale. Nel contesto del Quadro europeo delle qualifiche le competenze sono
 descritte in termini di responsabilità e di autonomia.
 Lo scopo delle verifiche di apprendimento è quello di misurare il cambiamento indotto nei
 partecipanti dall'intervento formativo, in termini di acquisizione di nuove conoscenze, abilità,
 competenze o di rafforzamento e riqualificazione di quelle possedute.
-Nella verifica dell’apprendimento possono essere valutate, in relazione agli obiettivi formativi e
+Nella verifica dell'apprendimento possono essere valutate, in relazione agli obiettivi formativi e
 ai risultati attesi specifici di ogni percorso formativo:
 - le conoscenze teoriche, tecniche e metodologiche;
 - la capacità di analisi e di decisione;
-- la capacità dell’uso di strumenti e attrezzature di lavoro;
+- la capacità dell'uso di strumenti e attrezzature di lavoro;
 - la capacità di applicare conoscenze, abilità e comportamenti per il successivo
 trasferimento in ambito lavorativo.
 6.2 INDICAZIONI METODOLOGICHE E OPERATIVE PER LA GESTIONE DELLE VERIFICHE DI
@@ -5833,50 +5833,50 @@ La verifica dovrà essere esaustiva e completa in modo da permettere una valutaz
 argomenti affrontati nel corso e secondo quanto previsto nella progettazione di dettaglio (micro)
 delle singole unità didattiche.
 A livello generale è opportuno che le prove vengano predisposte rispettando i seguenti criteri:
-• Coerenza con gli obiettivi e i risultati attesi individuati nel corso ed in ciascuna unità
+- Coerenza con gli obiettivi e i risultati attesi individuati nel corso ed in ciascuna unità
 didattica con evidenza delle conoscenze, abilità e competenze valutate;
-• Mappatura completa dell’intera gamma dei contenuti e degli obiettivi oggetto del corso;
-• Limitata ambiguità e interpretazioni personali;
+- Mappatura completa dell'intera gamma dei contenuti e degli obiettivi oggetto del corso;
+- Limitata ambiguità e interpretazioni personali;
 
 
 ## Pagina 110
 
 Pag. 108 a 138
-• Fornitura di criteri chiari di correzione delle prove, in particolare fornendo le griglie di
+- Fornitura di criteri chiari di correzione delle prove, in particolare fornendo le griglie di
 correzione per le simulazioni, le esercitazioni ed eventuali project work;
-• Il “peso” delle verifiche intermedie e quella finale.
+- Il "peso" delle verifiche intermedie e quella finale.
 Le verifiche possono essere effettuate in tempi diversi (in ingresso, in itinere e finali) e con
 tecniche e strumenti diversi (test, domande aperte, colloquio, project work, simulazioni, prove
 pratiche) e valutate sulla base dei criteri definiti nella fase di progettazione. Le tecniche e gli
 strumenti valutativi degli apprendimenti dipendono dal tipo di competenza da verificare,
-dall’architettura del progetto formativo e dagli obiettivi formativi.
+dall'architettura del progetto formativo e dagli obiettivi formativi.
 La verifica in ingresso è finalizzata ad individuare i livelli di partenza e le competenze pregresse
-dei partecipanti ad un percorso formativo. Viene utilizzata quando dall’analisi dei fabbisogni non
-emerge chiaramente un omogeneo livello di competenze in ingresso dei partecipanti. L’utilità di
+dei partecipanti ad un percorso formativo. Viene utilizzata quando dall'analisi dei fabbisogni non
+emerge chiaramente un omogeneo livello di competenze in ingresso dei partecipanti. L'utilità di
 effettuare prove di verifica in ingresso è quella di poter confrontare i risultati con le prove di
 verifica finali e misurare il gap tra le conoscenze/ abilità/ competenze pregresse possedute e
 quelle acquisite al te rmine del corso. Le verifiche in ingresso servono anche a conoscere le
 motivazioni personali o organizzative.
-Le verifiche in itinere hanno l’obiettivo di monitorare il livello di apprendimento durante lo
+Le verifiche in itinere hanno l'obiettivo di monitorare il livello di apprendimento durante lo
 svolgimento del corso allo scopo di riadattare gli interventi durante la fase di erogazione della
-formazione e di permettere al discente di riscontrare i propri progressi nell’apprendimento in
+formazione e di permettere al discente di riscontrare i propri progressi nell'apprendimento in
 maniera continua. In tal senso, garantendo i tempi previsti per ciascuna unità didattica, i
 momenti di verifica intermedia, la loro discussione e approfondimento possono risultare utili per
-ridefinire concetti, nozioni, procedure poco chiare e permettere al discente di riscontrare l’utilità
-di quanto appreso ai fini dell’esercizio delle proprie competenze.
-La verifica finale costituisce un importante momento della valutazione dell’efficacia didattica del
+ridefinire concetti, nozioni, procedure poco chiare e permettere al discente di riscontrare l'utilità
+di quanto appreso ai fini dell'esercizio delle proprie competenze.
+La verifica finale costituisce un importante momento della valutazione dell'efficacia didattica del
 corso.
 Attraverso le verifiche intermedie, ove previste, e finali si misureranno e verranno valutate:
-• conoscenze nozionistiche relative al sapere (di fatti, di procedure, di concetti, di principi
+- conoscenze nozionistiche relative al sapere (di fatti, di procedure, di concetti, di principi
 generali legati al funzionamento di situazioni, di cose e fatti, ecc.) che potranno essere
 misurate con test/ domande aperte;
-• conoscenza di procedure organizzative e comportamentali anche di tipo
+- conoscenza di procedure organizzative e comportamentali anche di tipo
 tecnico/professionali che richiedono capacità di ragionamento e di analisi, in questo caso
 la verifica sarà costituita da domande aperte su casi reali, esercitazioni applicative, analisi
 di casi;
-• capacità relative al saper fare, in questo caso la verifica sarà costituita da prove e
+- capacità relative al saper fare, in questo caso la verifica sarà costituita da prove e
 simulazioni pratiche e operative;
-• comprensione e applicazione di metodologie comportamentali legate ad aspetti
+- comprensione e applicazione di metodologie comportamentali legate ad aspetti
 trasversali, in particolare per le figure che rivestono ruoli decisionali, di vigilanza e che
 attengono al saper comunicare, saper lavorare in gruppo, usare strumenti concettuali per
 organizzare le conoscenze acquisite. In questo caso la verifica si realizzerà attraverso
@@ -5897,7 +5897,7 @@ aziendale in modo tale da rendere possibile la trasposizione dei concetti e dei 
 riguardo alla salute e sicurezza negli ambienti di lavoro presi in esame. La simulazione può
 prevedere la redazione di un project work, tecnica molto efficace in termini di applicabilità e
 ricaduta in ambito aziendale, prodotto individualmente o in gruppo di lavoro. Il project work può
-anche essere realizzato durante lo sviluppo d el percorso formativo e l’elaborato finale potrà
+anche essere realizzato durante lo sviluppo d el percorso formativo e l'elaborato finale potrà
 essere presentato in plenaria.
 6.3 MODALITÀ E CRITERI DI VERIFICA DEGLI APPRENDIMENTI DEI CORSI DI FORMAZIONE E
 DI AGGIORNAMENTO (TABELLE CORSI/MODALITÀ DI VERIFICA)
@@ -5921,7 +5921,7 @@ inquinamento o confinati
 Test e
 Prove pratiche
 Operatori addetti alla conduzione delle
-attrezzature di cui all’articolo 73, comma 5, del
+attrezzature di cui all'articolo 73, comma 5, del
 decreto legislativo 9 aprile 2008, n. 81/2008
 Prove pratiche
 Test: somministrabili anche in itinere, per un totale minimo di 30 domande ciascuna con almeno
@@ -5933,7 +5933,7 @@ Simulazione: simulazione finalizzata alla verifica delle competenze tecnico-prof
 al ruolo rivestito nel contesto lavorativo;
 Prove pratiche: previste per i lavoratori che operano in ambiente confinato e di sospetto di
 inquinamento e lavoratori che utilizzano attrezzature di lavoro da eseguire come riportato nei
-punti 7 e 8, parte II dell’Accordo.
+punti 7 e 8, parte II dell'Accordo.
 
 
 ## Pagina 112
@@ -5949,17 +5949,17 @@ Lavoratori, datori di lavoro e lavoratori
 autonomi che operano in ambienti
 sospetti di inquinamento o confinati
 Prova pratica e
-Colloquio in relazione all’oggetto dell’aggiornamento
+Colloquio in relazione all'oggetto dell'aggiornamento
 Operatori addetti alla conduzione delle
-attrezzature di cui all’articolo 73, comma
+attrezzature di cui all'articolo 73, comma
 5, del decreto legislativo 9 aprile 2008, n.
 81/2008
 Prova pratica e
-Colloquio in relazione all’oggetto dell’aggiornamento
+Colloquio in relazione all'oggetto dell'aggiornamento
 Test: minimo 10 domande ciascuna con almeno tre risposte alternative (esito positivo dato dalla
-risposta corretta ad almeno il 70% delle domande) in relazione all’oggetto dell’aggiornamento;
-Colloquio individuale: finalizzato a verificare le competenze acquisite in relazione all’oggetto
-dell’aggiornamento;
+risposta corretta ad almeno il 70% delle domande) in relazione all'oggetto dell'aggiornamento;
+Colloquio individuale: finalizzato a verificare le competenze acquisite in relazione all'oggetto
+dell'aggiornamento;
 Prova pratica: consistente nella verifica delle capacità di utilizzare in sicurezza le attrezzature di
 lavoro o di operare in ambiente confinato e di sospetto di inquinamento.
 
@@ -5967,49 +5967,49 @@ lavoro o di operare in ambiente confinato e di sospetto di inquinamento.
 ## Pagina 113
 
 Pag. 111 a 138
-7 VERIFICA DELL’ EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO DELLA
+7 VERIFICA DELL' EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO DELLA
 PRESTAZIONE LAVORATIVA
 Il datore di lavoro, oltre ad assicurare che ciascun lavoratore riceva una formazione sufficiente
-ed adeguata in merito ai rischi specifici, deve, pertanto, anche verificarne l’efficacia durante lo
+ed adeguata in merito ai rischi specifici, deve, pertanto, anche verificarne l'efficacia durante lo
 svolgimento della prestazione di lavoro.
-La valutazione dell’efficacia della formazione, parte integrante del processo formativo, ha lo
+La valutazione dell'efficacia della formazione, parte integrante del processo formativo, ha lo
 scopo di verificare e misurare l'effettivo cambiamento che la formazione ha avuto sui
-partecipanti, attraverso l’interiorizzazione di concetti e l’acquisizione d elle competenze
-necessarie, rispetto all’esercizio del proprio ruolo in azienda, con un effetto diretto sia
-sull’efficacia che sull’efficienza del funzionamento organizzativo del sistema prevenzionale. La
-valutazione dell’efficacia risulta necessaria per r ilevare informazioni utili a supportare i processi
+partecipanti, attraverso l'interiorizzazione di concetti e l'acquisizione d elle competenze
+necessarie, rispetto all'esercizio del proprio ruolo in azienda, con un effetto diretto sia
+sull'efficacia che sull'efficienza del funzionamento organizzativo del sistema prevenzionale. La
+valutazione dell'efficacia risulta necessaria per r ilevare informazioni utili a supportare i processi
 decisionali aziendali e assume una funzione migliorativa, centrata sui processi e sui loro legami
 con i risultati.
 Tale valutazione dovrà essere svolta a posteriori, a una certa distanza di tempo dal termine del
-corso, durante lo svolgimento della prestazione lavorativa e dovrà constatare l’applicazione al
+corso, durante lo svolgimento della prestazione lavorativa e dovrà constatare l'applicazione al
 lavoro di:
-• conoscenze, abilità e competenze acquisite dai discenti mediante l’intervento formativo;
-• comportamenti e pratiche abituali inerenti all’organizzazione, quali la corretta
+- conoscenze, abilità e competenze acquisite dai discenti mediante l'intervento formativo;
+- comportamenti e pratiche abituali inerenti all'organizzazione, quali la corretta
 applicazione di procedure, schede lavorative, protocolli, ecc.
-Al fine di verificare l’efficacia dell’attività formativa nei confronti dei soggetti di cui all’art.37
+Al fine di verificare l'efficacia dell'attività formativa nei confronti dei soggetti di cui all'art.37
 comma 2 lett. b) del D.lgs. 81/08 durante lo svolgimento della prestazione lavorativa, il datore di
 lavoro, eventualmente anche con il supporto del RSPP può utilizzare una delle seguenti modalità:
-1. Analisi infortunistica aziendale. Per la valutazione dell’efficacia dell’attività formativa
-può essere adottato un modello di studio pre -post, misurando l’incidenza infortunistica
-prima e dopo l’intervento formativo inclusi i “mancati infortuni”. Le informazioni raccolte
-consentono di effettuare l’analisi pre-post sugli infortuni e i “mancati infortuni” nell’arco
-temporale prescelto. Laddove l’analisi evidenzi carenze nelle conoscenze, competenze e
+1. Analisi infortunistica aziendale. Per la valutazione dell'efficacia dell'attività formativa
+può essere adottato un modello di studio pre -post, misurando l'incidenza infortunistica
+prima e dopo l'intervento formativo inclusi i "mancati infortuni". Le informazioni raccolte
+consentono di effettuare l'analisi pre-post sugli infortuni e i "mancati infortuni" nell'arco
+temporale prescelto. Laddove l'analisi evidenzi carenze nelle conoscenze, competenze e
 abilità dei lavoratori, si dovrà valutare la possibilità di adottare azioni correttive.
 2. Questionari da somministrare al personale. Si tratta di valutare tramite un questionario
-di autovalutazione l’acquisizione di comportamenti sicuri da parte dei lavoratori
-destinatari dell’attività formativa. Il questionario può essere elaborato in base a diversi
+di autovalutazione l'acquisizione di comportamenti sicuri da parte dei lavoratori
+destinatari dell'attività formativa. Il questionario può essere elaborato in base a diversi
 elementi: la percezione del pericolo da parte dei lavoratori, la conoscenza delle misure di
-sicurezza aziendali, la percezione dell’esperienza da parte del lavoratore.
-3. Check list di valutazione. La check list deve misurare la valutazione di efficacia dell’attività
-formativa attraverso l’osservazione dei comportamenti dei lavoratori nei confronti delle
+sicurezza aziendali, la percezione dell'esperienza da parte del lavoratore.
+3. Check list di valutazione. La check list deve misurare la valutazione di efficacia dell'attività
+formativa attraverso l'osservazione dei comportamenti dei lavoratori nei confronti delle
 misure relative alla salute e sicurezza del lavoro. Si deve pertanto definire una checklist
 che risponda ad una serie di osservazioni per poter verificare se il lavoratore ha adottato
 dei comportamenti sicuri. Ad esempio, si possono individuare i seguenti elementi: utilizzo
 dei DPI, corretto utilizzo attrezzature, rispetto delle procedure di lavoro. Il check diventa,
-nel contempo, strumento di valutazione dell’efficacia della formazione durante l’attività
+nel contempo, strumento di valutazione dell'efficacia della formazione durante l'attività
 lavorativa e strumento di controllo da parte dei soggetti della prevenzione aziendale.
-Nell’ambito della riunione periodica deve essere verificato il raggiungimento dei risultati attesi e
-rilevata l’efficacia formativa attraverso gli indicatori, i criteri e gli strumenti stabiliti in sede di
+Nell'ambito della riunione periodica deve essere verificato il raggiungimento dei risultati attesi e
+rilevata l'efficacia formativa attraverso gli indicatori, i criteri e gli strumenti stabiliti in sede di
 progettazione.
 
 
@@ -6017,16 +6017,16 @@ progettazione.
 
 Pag. 112 a 138
 PARTE V -RICONOSCIMENTO DEI CREDITI FORMATIVI
-Ai fini degli esoneri di frequenza e per il riconoscimento dei crediti formativi descritti nell’allegato
-III occorre fornire evidenza documentale ad es. mediante attestato dal quale si evince l’esonero
+Ai fini degli esoneri di frequenza e per il riconoscimento dei crediti formativi descritti nell'allegato
+III occorre fornire evidenza documentale ad es. mediante attestato dal quale si evince l'esonero
 dal/dai percorso/percorsi formativo/i.
-Ai fini dell’aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
+Ai fini dell'aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
 formatore per la sicurezza sul lavoro, ai sensi del decreto interministeriale 6 marzo 2013 e
 successive modifiche e integrazioni, è da ritenersi valida e viceversa.
-Ai fini dell’aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
-coordinatore per la sicurezza, ai sensi dell’allegato XIV del d.lgs. n. 81/2008 nonché secondo
+Ai fini dell'aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
+coordinatore per la sicurezza, ai sensi dell'allegato XIV del d.lgs. n. 81/2008 nonché secondo
 quanto previsto dal presente accordo, è da ritenersi valida e viceversa.
-Le modalità di riconoscimento de i crediti formativi sono riportate in premessa nell’allegato III,
+Le modalità di riconoscimento de i crediti formativi sono riportate in premessa nell'allegato III,
 con i crediti formativi riconosciuti. Si evidenzia che laddove la tipologia di formazione dei soggetti
 non sia riportata nelle tabelle, nessun credito formativo è riconosciuto.
 
@@ -6035,50 +6035,50 @@ non sia riportata nelle tabelle, nessun credito formativo è riconosciuto.
 
 Pag. 113 a 138
 PARTE V I CONTROLLO DELLE ATTIVIT À FORMATIVE E MONITORAGGIO
-DELL’APPLICAZIONE DELL’ACCORDO
-Secondo l’art. 37 comma 2 lettera b-bis del d.lgs. n. 81/2008, gli Organi di vigilanza in materia di
-salute e sicurezza nei luoghi di lavoro prevedono, nell’ambito della loro attività e delle proprie
+DELL'APPLICAZIONE DELL'ACCORDO
+Secondo l'art. 37 comma 2 lettera b-bis del d.lgs. n. 81/2008, gli Organi di vigilanza in materia di
+salute e sicurezza nei luoghi di lavoro prevedono, nell'ambito della loro attività e delle proprie
 competenze, anche la pianificazione di controlli sulle attività formative e sul rispetto della
 normativa di riferimento, sia da parte dei soggetti che erogano la formazione, sia da parte dei
 soggetti destinatari della stessa.
-Con l’atto di cui al punto 1 parte I del presente accordo saranno altresì definiti le modalità di
+Con l'atto di cui al punto 1 parte I del presente accordo saranno altresì definiti le modalità di
 monitoraggio e controllo.
 
 
 ## Pagina 116
 
 Pag. 114 a 138
-PARTE VII– ALTRE DISPOSIZIONI
+PARTE VII- ALTRE DISPOSIZIONI
 1 ENTRATA IN VIGORE
 Il presente accordo entra in vigore il giorno della pubblicazione nella Gazzetta Ufficiale della
 Repubblica italiana.
 2 DISPOSIZIONI TRANSITORIE
-In fase di prima applicazione e comunque non oltre dodici mesi dall’entrata in vigore del presente
+In fase di prima applicazione e comunque non oltre dodici mesi dall'entrata in vigore del presente
 accordo, possono essere avviati i corsi secondo quanto previsti degli accordi Stato -Regioni
-abrogati al successivo punto 3 nonché dell’allegato XIV del d.lgs. n. 81/2008 vigente prima
-dell’entrata in vigore del presente accordo.
-Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui all’art. 37 del
+abrogati al successivo punto 3 nonché dell'allegato XIV del d.lgs. n. 81/2008 vigente prima
+dell'entrata in vigore del presente accordo.
+Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui all'art. 37 del
 d.lgs. n. 81/2008, i datori di lavoro sono tenuti a frequentare il corso di formazione di cui alla
 parte II, punto 3, del presente accordo in modo che lo stesso venga concluso entro e non oltre il
-termine di 24 mesi dall’entrata in vigore del presente accordo. I corsi di formazione per datore di
+termine di 24 mesi dall'entrata in vigore del presente accordo. I corsi di formazione per datore di
 lavoro, già erogati alla data di entrata in vigore del presente accordo, i cui contenuti siano
-conformi al prese nte accordo sono riconosciuti. L’aggiornamento dei suddetti corsi parte dalla
-data di fine corso riportata nell’attestato.
+conformi al prese nte accordo sono riconosciuti. L'aggiornamento dei suddetti corsi parte dalla
+data di fine corso riportata nell'attestato.
 RICONOSCIMENTO FORMAZIONE PREGRESSA LAVORATORI, DIRIGENTI E PREPOSTI
-Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato-Regioni
+Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato-Regioni
 del 21 dicembre 2011 per i quali è riconosciuto credito formativo totale.
 DIRIGENTI
-Per i dirigenti sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni
+Per i dirigenti sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni
 del 21 dicembre 2011, per il quali è riconosciuto credito formativo totale.
 PREPOSTI
-Per i preposti sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni
+Per i preposti sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni
 del 21 dicembre 2011, per il quali è riconosciuto credito formativo totale.
-L’obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento
+L'obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento
 sia stato erogato da più di 2 anni dalla data di entrata in vigore del presente accordo, dovrà essere
 ottemperato entro 12 mesi dalla data di entrata in vigore del presente accordo.
 RICONOSCIMENTO CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni 21 dicembre
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni 21 dicembre
 2011 n 223 per i quali sono riconosciuti i crediti formativi come riportato nella tabella
 sottoindicata e alle condizioni ivi indicate.
 
@@ -6104,10 +6104,10 @@ e zootecnia (16 ore)
 Modulo integrativo 2:
 Pesca (12 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- A 01 02 -03
 (agricoltura,
@@ -6119,10 +6119,10 @@ Credito totale
 Modulo integrative 3:
 Costruzioni (16 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- F
 (costruzioni)
@@ -6132,10 +6132,10 @@ Modulo integrativo 4 -
 chimico Petrolchimico
 (16 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- C 19
 (fabbricazione dl
@@ -6151,7 +6151,7 @@ di prodotti chimici
 
 Pag. 116 a 138
 RICONOSCIMENTO FORMAZIONE PER RSPP E ASPP
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 7 luglio
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 7 luglio
 20163 per i moduli A e C, per il quali è riconosciuto credito formativo totale, nonché per il modulo
 B come riportato nella tabella sottoindicata.
 Accordo Stato Regione 128
@@ -6162,7 +6162,7 @@ Modulo B comune Modulo B specialistico
 Modulo B Comune Credito totale
 Modulo B-SP1: Agricoltura -
 Pesca (12 ore) già
-riconosciuto al Modulo B1 –
+riconosciuto al Modulo B1 -
 Accordo 2006
 già riconosciuto al Modulo
 B2
@@ -6174,7 +6174,7 @@ per Modulo B-SP2: Pesca (12 ore)
 Modulo B -SP2: Attività
 Estrattive - Costruzioni (16
 ore) già riconosciuto al
-Modulo B3 dell’accordo
+Modulo B3 dell'accordo
 2006
 _____________
 Credito totale per Modulo B -SP3:
@@ -6182,24 +6182,24 @@ Costruzioni (16 ore)
 Modulo B -SP3: Sanità
 residenziale (12 ore) già
 riconosciuto al Modulo B7
-dell’accordo 2006
+dell'accordo 2006
 ______________
 Credito totale per Modulo B -SP4:
 Sanità residenziale (12 ore
 Modulo B -SP4: Chimico -
 Petrolchimico (16 ore) già
 riconosciuto al Modulo B5
-dell’accordo 2006
+dell'accordo 2006
 __________________
 Credito totale per Modulo B -SP5:
 Chimico - Petrolchimico (16 ore)
 RICONOSCIMENTO FORMAZIONE PREGRESSA PER I COORDINATORI PER LA
-PROGETTAZIONE E PER L’ ESECUZIONE DEI LAVORI (ALLEGATO XIV DLGS 81/08)
-Per I coordinatori per la progettazione e per l’esecuzione dei lavori sono fatti salvi i percorsi
-formativi effettuati in vigenza allegato XIV Dlgs 81/08 così come modificato dall’Accordo Stato
+PROGETTAZIONE E PER L' ESECUZIONE DEI LAVORI (ALLEGATO XIV DLGS 81/08)
+Per I coordinatori per la progettazione e per l'esecuzione dei lavori sono fatti salvi i percorsi
+formativi effettuati in vigenza allegato XIV Dlgs 81/08 così come modificato dall'Accordo Stato
 Regione 7 luglio 2016, per il quali è riconosciuto credito formativo totale.
-3 Al punto 8 dell’Accordo 2016 era stato previsto il riconoscimento della formazione pregressa (ex accordo stato -
-regioni del 26 gennaio 2006) rispetto all’ articolazione del modulo B dell’accordo 7 luglio 2016.
+3 Al punto 8 dell'Accordo 2016 era stato previsto il riconoscimento della formazione pregressa (ex accordo stato -
+regioni del 26 gennaio 2006) rispetto all' articolazione del modulo B dell'accordo 7 luglio 2016.
 
 
 ## Pagina 119
@@ -6211,27 +6211,27 @@ CONFINATI
 Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui al DPR
 177/2011, il corso di formazione di cui alla parte II, punto 7, del presente accordo deve essere
 frequentato in modo che lo stesso venga concluso entro e non oltr e il termine di 12 mesi
-dall’entrata in vigore del presente accordo. I corsi di formazione inerenti ai lavoratori, datori
+dall'entrata in vigore del presente accordo. I corsi di formazione inerenti ai lavoratori, datori
 di lavoro e lavoratori autonomi che operano in ambienti sospetti di inquinamento o confinati
 già erogati alla data di entrata in vigo re del presente accordo, i cui contenuti siano conformi
 al presente accordo sono riconosciuti. Il relativo aggiornamento parte dalla data di fine corso
-riportata nell’attestato
+riportata nell'attestato
 RICONOSCIMENTO FORMAZIONE PREGRESSA DEGLI OPERATORI ADDETTI ALLA
-CONDUZIONE DI ATTREZZATURE DI CUI ALL’ARTICOLO 73, COMMA 5, DEL DECRETO
+CONDUZIONE DI ATTREZZATURE DI CUI ALL'ARTICOLO 73, COMMA 5, DEL DECRETO
 LEGISLATIVO 9 APRILE 2008, N. 81/2008
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 22
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 22
 febbraio 2012 per le attrezzature ancorché ricomprese nel presente Accordo
 I corsi di formazione di cui alla parte II, punti 8.3.9, 8.3.10, 8.3.11 (macchine agricole raccogli
 frutta, caricatori per la movimentazione di materiali, carroponti) del presente accordo
 devono essere frequentati in modo che gli stessi vengano conclusi entro e non oltre il termine
-di 12 mesi dall’entrata in vigore del presente accordo. I corsi di formazione inerenti ai
+di 12 mesi dall'entrata in vigore del presente accordo. I corsi di formazione inerenti ai
 operatori addetti alla conduzione delle attrezzature di lavoro di cui ai punti 8.3.9, 8.3.10,
 8.3.11, già erogati alla data di entrata in vigore del presente accordo, i cui contenuti siano
-conformi al presente accordo, sono riconosciuti. L’ aggiornamento dei suddetti corsi parte
-dalla data di fine corso riportata nell’attestato.
+conformi al presente accordo, sono riconosciuti. L' aggiornamento dei suddetti corsi parte
+dalla data di fine corso riportata nell'attestato.
 FORMAZIONE DEI LAVORATORI SOMMINISTRATI
 Per la formazione dei lavoratori in caso di somministrazione di lavoro si fa riferimento a
-quanto previsto dall’art. 35, comma 4 del d.lgs.15 giugno 2015, n. 81.
+quanto previsto dall'art. 35, comma 4 del d.lgs.15 giugno 2015, n. 81.
 
 
 ## Pagina 120
@@ -6241,19 +6241,19 @@ DISPOSIZIONI FINALI
 Fatto salvo quanto previsto al precedente punto 2, alla data di entrata in vigore del presente
 accordo sono abrogati i seguenti accordi:
 → accordo sancito il 21 dicembre 2011 in sede di Conferenza permanente per i rapporti
-tra il Governo e le Regioni e le Province autonome ai sensi dell’articolo 37, comma 2,
+tra il Governo e le Regioni e le Province autonome ai sensi dell'articolo 37, comma 2,
 del decreto legislativo 9 aprile 2008, n. 81, pubblicato nella Gazzetta Ufficiale n. 8 del
 11/01/2012 (Rep 221/CSR);
 → accordo sancito il 21 dicembre 2011 in sede di Conferenza permanente per i rapporti
 tra il Governo e le Regioni e le Province autonome sui corsi di formazione per lo
 svolgimento diretto, da parte del datore di lavoro, dei compiti di prevenzione e
-protezione dai rischi, ai sensi dell’articolo 34, commi 2 e 3, del decreto legislativo 9
+protezione dai rischi, ai sensi dell'articolo 34, commi 2 e 3, del decreto legislativo 9
 aprile 2008, n. 81, pubblicato nella Gazzetta Ufficiale n. 8 del 11/01/2012 (Rep
 223/CSR);
 → accordo sancito il 22 febbraio 2012 in sede di Conferenza permanente per i rapporti
-tra il Governo e le Regioni e le Province autonome per l’individuazione delle
+tra il Governo e le Regioni e le Province autonome per l'individuazione delle
 attrezzature di lavoro per le quali è richiesta una specifica abilitazione degli operatori,
-ai sensi dell’articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81,
+ai sensi dell'articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81,
 pubblicato nella Gazzetta Ufficiale n. 60 del 12/03/2012 (Rep 53/CSR);
 → Accordo tra il Governo, le Regioni e le Province autonome di Trento e di Bolzano, sul
 documento proposto dal Ministero del lavoro e delle politiche sociali recante
@@ -6264,7 +6264,7 @@ del 18-8-2012)
 → accordo sancito il 7 luglio 2016 in sede di Conferenza permanente per i rapporti tra il
 Governo e le Regioni e le Province autonome finalizzato alla individuazione della
 durata e dei contenuti minimi dei percorsi formativi per i responsabili e gli addetti dei
-servizi di prevenzione e protezione, ai sensi dell’articolo 32 del decreto legislativo 9
+servizi di prevenzione e protezione, ai sensi dell'articolo 32 del decreto legislativo 9
 aprile 2008, n. 81 e successive modificazioni, pubblicato nella Gazzetta Ufficiale n. 193
 del 19/08/2016 (Rep 128/CSR).
 CLAUSOLA DI INVARIANZA FINANZIARIA
@@ -6277,8 +6277,8 @@ maggiori oneri per la finanza pubblica.
 
 Pag. 119 a 138
 ALLEGATO I
-Elenco delle classi di laurea per l’esonero dalla frequenza ai corsi di formazione
-di cui all’art. 32, comma 2 primo periodo, del d.lgs. n. 81/2008.
+Elenco delle classi di laurea per l'esonero dalla frequenza ai corsi di formazione
+di cui all'art. 32, comma 2 primo periodo, del d.lgs. n. 81/2008.
 Laurea Magistrale (D.M. dell'università e della ricerca in data 16 marzo 2007):
 → LM-4 Architettura e ingegneria edile-architettura
 → LM-20 Ingegneria aerospaziale e astronautica
@@ -6304,7 +6304,7 @@ novembre 2000):
 → 26/S Ingegneria biomedica
 → 27/S Ingegneria chimica
 → 28/S Ingegneria civile
-→ 29/S Ingegneria dell’automazione
+→ 29/S Ingegneria dell'automazione
 → 30/S Ingegneria delle telecomunicazioni
 → 31/S Ingegneria elettrica
 → 32/S Ingegneria elettronica
@@ -6313,12 +6313,12 @@ novembre 2000):
 → 35/S Ingegneria informatica
 → 36/S Ingegneria meccanica
 → 37/S Ingegneria navale
-→ 38/S Ingegneria per l’ambiente e il territorio
+→ 38/S Ingegneria per l'ambiente e il territorio
 Laurea Magistrale (D.M. dell'università e della ricerca in data 8 gennaio 2009):
 → LM/SNT 4 Scienze delle professioni sanitarie della prevenzione
 Laurea (D.M. dell'università e della ricerca scientifica e tecnologica in data 18 marzo 2006):
 → L7 Ingegneria civile e ambientale
-→ L8 Ingegneria dell’informazione
+→ L8 Ingegneria dell'informazione
 → L9 Ingegneria Industriale
 → L17 Scienze dell'architettura
 → L23 Scienze e tecniche dell'edilizia
@@ -6346,7 +6346,7 @@ lavoro per le quali è richiesta una specifica abilitazione degli operatori (di 
 attrezzature) sono:
 Piattaforme di lavoro mobili elevabili (PLE): macchina mobile destinata a spostare persone
 alle posizioni di lavoro, poste ad altezza superiore a 2m rispetto ad un piano stabile, nelle quali
-svolgono mansioni dalla piattaforma di lavoro, con l’intendimento che le persone accedano ed
+svolgono mansioni dalla piattaforma di lavoro, con l'intendimento che le persone accedano ed
 escano dalla pia ttaforma di lavoro attraverso una posizione di accesso definita e che sia
 costituita almeno da una piattaforma di lavoro con comandi, da una struttura estensibile e da
 un telaio.
@@ -6376,7 +6376,7 @@ scaffalature qualsiasi tipo di carico ed azionato da un operatore a bordo su sed
 Carrelli semoventi a braccio telescopico: carrelli elevatori a contrappeso dotati di uno o
 più bracci snodati, telescopici o meno, non girevoli, utilizzati per impilare carichi. Il
 dispositivo di sollevamento non deve essere girevole o comunque non deve presentare un
-movimento di rotazione maggiore di 5° rispetto all’asse longitudinale del carrello.
+movimento di rotazione maggiore di 5° rispetto all'asse longitudinale del carrello.
 Carrelli/Sollevatori/Elevatori semoventi telescopici rotativi: attrezzature semoventi
 dotate di uno o più bracci snodati, telescopici o meno, girevoli, utilizzate per movimentare
 carichi ed azionate da un operatore a bordo su sedile.
@@ -6467,7 +6467,7 @@ Pag. 129 a 138
 ALLEGATO III
 Legenda crediti
 CREDITI
-TOTALE: si intende il riconoscimento completo della formazione acquisita e quindi l’esonero
+TOTALE: si intende il riconoscimento completo della formazione acquisita e quindi l'esonero
 totale dalla frequenza del monte ore di formazione o di aggiornamento previsto per il soggetto
 individuato.
 PARZIALE: si intende il riconoscimento di una parte della formazione acquisita e di conseguenza
@@ -6539,10 +6539,10 @@ accordo 7 luglio 2016
 Presente accordo
 FREQUENZA TOTALE TOTALE TOTALE TOTALE TOTALE
 A titolo esemplificativo:
-Un RSPP, formato con l’accordo Stato-Regioni del 26/01/2006, che vuole conseguire il titolo per
+Un RSPP, formato con l'accordo Stato-Regioni del 26/01/2006, che vuole conseguire il titolo per
 svolgere il ruolo di Coordinatore per la Sicurezza:
-• il modulo A costituisce credito per il modulo giuridico;
-• deve frequentare i restanti moduli: tecnico (52 ore), metodologico / organizzativo (16 ore)
+- il modulo A costituisce credito per il modulo giuridico;
+- deve frequentare i restanti moduli: tecnico (52 ore), metodologico / organizzativo (16 ore)
 e parte pratica (24 ore).
 
 
@@ -6936,10 +6936,10 @@ ALLEGATO IV
 Individuazione macrocategorie di rischio e corrispondenze ATECO 2007
 Rischio BASSO
 ATECO 2007
-G - COMMERCIO ALL’INGROSSO E AL DETTAGLIO; RIPARAZIONE DI AUTOVEICOLI E MOTOCICLI
-45 - COMMERCIO ALL’INGROSSO E AL DETTAGLIO E RIPARAZIONE DI AUTOVEICOLI E
+G - COMMERCIO ALL'INGROSSO E AL DETTAGLIO; RIPARAZIONE DI AUTOVEICOLI E MOTOCICLI
+45 - COMMERCIO ALL'INGROSSO E AL DETTAGLIO E RIPARAZIONE DI AUTOVEICOLI E
 MOTOCICLI
-46 - COMMERCIO ALL’INGROSSO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
+46 - COMMERCIO ALL'INGROSSO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
 47 - COMMERCIO AL DETTAGLIO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
 I - ATTIVITÀ DEI SERVIZI DI ALLOGGIO E DI RISTORAZIONE
 55 - ALLOGGIO
@@ -6972,7 +6972,7 @@ SERVIZI DI PRENOTAZIONE E ATTIVITÀ CONNESSE
 ## Pagina 138
 
 Pag. 136 a 138
-82 -ATTIVITÀ DI SUPPORTO PER LE FUNZIONI D’UFFICIO E ALTRI SERVIZI DI SUPPORTO ALLE
+82 -ATTIVITÀ DI SUPPORTO PER LE FUNZIONI D'UFFICIO E ALTRI SERVIZI DI SUPPORTO ALLE
 IMPRESE
 J - SERVIZI DI INFORMAZIONE E COMUNICAZIONE
 58 - ATTIVITÀ EDITORIALI
@@ -6981,7 +6981,7 @@ REGISTRAZIONI MUSICALI E SONORE
 60 - ATTIVITÀ Dl PROGRAMMAZIONE E TRASMISSIONE
 61 - TELECOMUNICAZIONI
 62 - PRODUZIONE Dl SOFTWARE, CONSULENZA INFORMATICA E ATTIVITÀ CONNESSE
-63 - ATTIVITÀ DEI SERVIZI D’INFORMAZIONE E ALTRI SERVIZI INFORMATICI
+63 - ATTIVITÀ DEI SERVIZI D'INFORMAZIONE E ALTRI SERVIZI INFORMATICI
 R - ATTIVITÀ ARTISTICHE, SPORTIVE, DI INTRATTENIMENTO E DIVERTIMENTO
 90 - ATTIVITÀ CREATIVE, ARTISTICHE E DI DIVERTIMENTO
 91 - ATTIVITÀ DI BIBLIOTECHE, ARCHIVI, MUSEI ED ALTRE ATTIVITÀ CULTURALI
@@ -7014,7 +7014,7 @@ H - TRASPORTO E MAGAZZINAGGIO
 ## Pagina 139
 
 Pag. 137 a 138
-50 -TRASPORTO MARITTIMO E PER VIE D’ACQUA
+50 -TRASPORTO MARITTIMO E PER VIE D'ACQUA
 51 - TRASPORTO AEREO
 52 - MAGAZZINAGGIO E ATTIVITÀ DI SUPPORTO AI TRASPORTI
 53 - SERVIZI POSTALI E ATTIVITÀ DI CORRIERE
@@ -7031,7 +7031,7 @@ B - ESTRAZIONE DI MINERALI DA CAVE E MINIERE
 06 - ESTRAZIONE DI PETROLIO GREGGIO E DI GAS NATURALE
 07 - ESTRAZIONE DI MINERALI METALLIFERI
 08 - ALTRE ATTIVITÀ DI ESTRAZIONE DI MINERALI DA CAVE E MINIERE
-09 - ATTIVITÀ DEI SERVIZI DI SUPPORTO ALL’ESTRAZIONE
+09 - ATTIVITÀ DEI SERVIZI DI SUPPORTO ALL'ESTRAZIONE
 F - COSTRUZIONI
 41 - COSTRUZIONE Dl EDIFICI
 42 - INGEGNERIA CIVILE
@@ -7086,33 +7086,33 @@ Q - SANITÀ E ASSISTENZA SOCIALE
 Pag. 3 a 138
 ALLEGATO A
 PREMESSA
-Ai sensi dell’articolo 37, comma 2, del d.lgs. n. 81/2008, così come modificato dalla legge n. 215
-del 2021, è necessario procedere all’accorpamento, alla rivisitazione e alla modifica degli accordi
+Ai sensi dell'articolo 37, comma 2, del d.lgs. n. 81/2008, così come modificato dalla legge n. 215
+del 2021, è necessario procedere all'accorpamento, alla rivisitazione e alla modifica degli accordi
 attuativi del d.lgs. n. 81/2008 in materia di formazione in modo da garantire:
-a) l’individuazione della durata, dei contenuti minimi e delle modalità della formazione
+a) l'individuazione della durata, dei contenuti minimi e delle modalità della formazione
 obbligatoria a carico del datore di lavoro;
-b) l’individuazione delle modalità della verifica finale di apprendimento obbligatoria per i
+b) l'individuazione delle modalità della verifica finale di apprendimento obbligatoria per i
 discenti di tutti i percorsi formativi e di aggiornamento obbligatori in materia di salute e
 sicurezza sul lavoro e delle modalità delle verifiche di efficacia della formazione durante
 lo svolgimento della prestazione lavorativa;
-b-bis) il monitoraggio dell’applicazione degli accordi in materia di formazione, nonché' il
+b-bis) il monitoraggio dell'applicazione degli accordi in materia di formazione, nonché' il
 controllo sulle attività formative e sul rispetto della normativa di riferimento, sia da parte
 dei soggetti che erogano la formazione, sia da parte dei soggetti destinatari della stessa.))
 Tutto ciò premesso, il Governo, le Regioni e le province autonome concordano di procedere:
-1. alla rivisitazione, alla modifica e all’accorpamento degli Accordi attuativi del d.lgs. n.
+1. alla rivisitazione, alla modifica e all'accorpamento degli Accordi attuativi del d.lgs. n.
 81/2008;
-2. all’aggiornamento dell’allegato XIV del d.lgs. n. 81/2008 ai sensi dell’art. 98, comma 3;
-3. all’individuazione della durata, dei contenuti minimi e delle modalità della formazione per
-tutti i soggetti per i quali è previst o l’obbligo formativo rientranti nell’ambito di
+2. all'aggiornamento dell'allegato XIV del d.lgs. n. 81/2008 ai sensi dell'art. 98, comma 3;
+3. all'individuazione della durata, dei contenuti minimi e delle modalità della formazione per
+tutti i soggetti per i quali è previst o l'obbligo formativo rientranti nell'ambito di
 applicazione del presente accordo ivi compresi i lavoratori, datori di lavoro e lavoratori
 autonomi che operano in ambienti sospetti di inquinamento o confinati, secondo quanto
-previsto dall’articolo 2 del DPR n. 177 del 14 settembre 2011;
-4. all’individuazione delle modalità di verifica finale di apprendimento obbligatoria per i
+previsto dall'articolo 2 del DPR n. 177 del 14 settembre 2011;
+4. all'individuazione delle modalità di verifica finale di apprendimento obbligatoria per i
 discenti di tutti i percorsi formativi e di aggiornamento obbligatori in materia di salute e
 sicurezza sul lavoro e delle modalità delle verifiche di efficacia della formazione durante
 lo svolgimento della prestazione lavorativa.
 Resta ferma la facoltà per le Regioni e Provincie autonome di introdurre o mantenere disposizioni
-più favorevoli in materia di salute e sicurezza sul lavoro. L’attuazione del presente accordo non
+più favorevoli in materia di salute e sicurezza sul lavoro. L'attuazione del presente accordo non
 può comportare una diminuzione del livello di tutela della salute e della sicurezza nei luoghi di
 lavoro preesistente in ciascuna Regione o Provincia autonoma.
 
@@ -7122,17 +7122,17 @@ lavoro preesistente in ciascuna Regione o Provincia autonoma.
 Pag. 4 a 138
 SOMMARIO
 PREMESSA......................................................................................................................................................................... 3
-PARTE I – ORGANIZZAZIONE GENERALE...................................................................................................... 8
+PARTE I - ORGANIZZAZIONE GENERALE...................................................................................................... 8
 1. INDIVIDUAZIONE DEI SOGGETTI FORMATORI............................................................................ 8
-1.1 SOGGETTI FORMATORI “ISTITUZIONALI”...................................................................................................... 8
-1.2 SOGGETTI FORMATORI “ACCREDITATI”......................................................................................................... 9
+1.1 SOGGETTI FORMATORI "ISTITUZIONALI"...................................................................................................... 8
+1.2 SOGGETTI FORMATORI "ACCREDITATI"......................................................................................................... 9
 1.3 ALTRI SOGGETTI................................................................................................................................................. 9
 2. REQUISITI DEI DOCENTI.........................................................................................................................10
 3. ORGANIZZAZIONE DEI CORSI.............................................................................................................10
 4. MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE................................................... 10
 5 - VERBALI DELLE VERIFICHE FINALI................................................................................................10
 6 - ATTESTAZIONI...........................................................................................................................................11
-PARTE II – CORSI DI FORMAZIONE...................................................................................................................12
+PARTE II - CORSI DI FORMAZIONE...................................................................................................................12
 1. PREMESSA........................................................................................................................................................12
 2. CORSO PER LAVORATORI, PREPOSTI E DIRIGENTI...................................................................12
 2.1 CORSO PER LAVORATORI........................................................................................................................12
@@ -7149,12 +7149,12 @@ Obiettivi.......................................................................
 3. CORSO PER DATORE DI LAVORO........................................................................................................19
 Obiettivi..............................................................................................................................................................................19
 4. CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008..........................22
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008..........................22
 Obiettivi..............................................................................................................................................................................22
 Articolazione del percorso formativo............................................................................................................................22
 5 - CORSO PER RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE
-DAI RISCHI ai sensi dell’art. 32 del d.lgs. n. 81/2008...............................................................................................25
-5.1 TITOLI DI STUDIO VALIDI AI FINI DELL’ESONERO DALLA FREQUENZA DEL
+DAI RISCHI ai sensi dell'art. 32 del d.lgs. n. 81/2008...............................................................................................25
+5.1 TITOLI DI STUDIO VALIDI AI FINI DELL'ESONERO DALLA FREQUENZA DEL
 MODULO A E DEL MODULO B (COMUNE E SPECIALISTICO)...............................................................25
 5.2 MODULO A......................................................................................................................................................25
 Articolazione dei contenuti minimi del Modulo A......................................................................................................26
@@ -7170,7 +7170,7 @@ ARTICOLAZIONE DEI CONTENUTI MINIMI MODULI B DI SPECIALIZZAZIONE.................
 5.4 MODULO C......................................................................................................................................................33
 ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO C..............................................................33
 6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER
-L’ESECUZIONE DEI LAVORI (ALLEGATO XIV Dlgs 81/08).......................................................................36
+L'ESECUZIONE DEI LAVORI (ALLEGATO XIV Dlgs 81/08).......................................................................36
 Obiettivi..............................................................................................................................................................................36
 Articolazione dei contenuti minimi del percorso formativo:.....................................................................................36
 VERIFICA FINALE DI APPRENDIMENTO........................................................................................................39
@@ -7179,9 +7179,9 @@ MODALITÀ DI SVOLGIMENTO DEI CORSI..............................................
 OPERANO IN AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI (dpr n. 177/2011).......40
 Obiettivi..............................................................................................................................................................................40
 Requisiti dei docenti..........................................................................................................................................................41
-8. CORSI PER L’ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI
-ALL’ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008............42
-8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL’AREA E DISPONIBILITÀ DELLE
+8. CORSI PER L'ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI
+ALL'ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008............42
+8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL'AREA E DISPONIBILITÀ DELLE
 ATTREZZATURE..........................................................................................................................................................42
 8.2. REQUISITI DEI DOCENTI.........................................................................................................................42
 8.3 PROGRAMMA DEI CORSI..........................................................................................................................43
@@ -7220,7 +7220,7 @@ movimentazione di materiali (CMM)...............................................
 Verifica................................................................................................................................................................................77
 8.3.11 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di carriponte.......................78
 Verifica................................................................................................................................................................................80
-PARTE III – CORSI DI AGGIORNAMENTO.......................................................................................................82
+PARTE III - CORSI DI AGGIORNAMENTO.......................................................................................................82
 1 LAVORATORI, PREPOSTI, DIRIGENTI E DATORE DI LAVORO.............................................83
 1.1 Lavoratori............................................................................................................................................................83
 1.2 Preposti................................................................................................................................................................83
@@ -7232,28 +7232,28 @@ PROTEZIONE......................................................................
 4 COORDINATORE PER LA SICUREZZA...............................................................................................84
 5 LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE OPERANO IN
 AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI......................................................................84
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore relative alla
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore relative alla
 parte pratica. Durante il corso di aggiornamento, è opportuno che il docente illustri eventuali modifiche
 normative e evoluzioni tecniche.....................................................................................................................................84
 6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI
-ALL’ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008...........84
-PARTE IV – INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE, EROGAZIONE E
+ALL'ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008...........84
+PARTE IV - INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE, EROGAZIONE E
 MONITORAGGIO DEI CORSI.................................................................................................................................85
-1 INDICAZIONI METODOLOGICHE PER L’ORGANIZZAZIONE E LA GESTIONE DEI
+1 INDICAZIONI METODOLOGICHE PER L'ORGANIZZAZIONE E LA GESTIONE DEI
 CORSI PER I SOGGETTI FORMATORI................................................................................................................85
-1.1 Approccio per processi nell’organizzazione e gestione della formazione su salute e sicurezza nei luoghi
+1.1 Approccio per processi nell'organizzazione e gestione della formazione su salute e sicurezza nei luoghi
 di lavoro..............................................................................................................................................................................86
 1.2 Analisi dei fabbisogni formativi e contesto....................................................................................................86
 1.3 Progettazione......................................................................................................................................................87
 1.4 Erogazione...........................................................................................................................................................89
 1.5 Monitoraggio e valutazione della qualità della formazione..........................................................................89
 1.6 Riesame e adozione di misure e interventi correttivi ai fini del miglioramento.......................................89
-1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per l’organizzazione
+1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per l'organizzazione
 e gestione della formazione su SSL................................................................................................................................90
 2 INDICAZIONI METODOLOGICHE E PROCEDURALI PER LA PROGETTAZIONE DI
 DETTAGLIO...................................................................................................................................................................91
-2.1 Gli obiettivi specifici e i risultati attesi dell’unità didattica...........................................................................92
-2.2 I contenuti dell’unità didattica e la durata.......................................................................................................92
+2.1 Gli obiettivi specifici e i risultati attesi dell'unità didattica...........................................................................92
+2.2 I contenuti dell'unità didattica e la durata.......................................................................................................92
 2.3 La strategia formativa e la metodologia didattica..........................................................................................92
 2.4 Le metodologie didattiche attive......................................................................................................................93
 2.5 Le modalità e i criteri di verifica e valutazione dei risultati..........................................................................94
@@ -7283,24 +7283,24 @@ PER I CORSI EROGATI IN E-LEARNING...............................................
 3.5 MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE E AGGIORNAMENTO. 104
 4 CONFORMITÀ AL REGOLAMENTO SULLA PROTEZIONE DEI DATI PERSONALI..... 105
 5 MONITORAGGIO E VALUTAZIONE DEL GRADIMENTO...................................................... 105
-6. VERIFICA DELL’APPRENDIMENTO............................................................................................................ 107
+6. VERIFICA DELL'APPRENDIMENTO............................................................................................................ 107
 6.1 VERIFICA DEGLI APPRENDIMENTI................................................................................................. 107
 6.2 INDICAZIONI METODOLOGICHE E OPERATIVE PER LA GESTIONE DELLE
 VERIFICHE DI APPRENDIMENTO.................................................................................................................... 107
 6.3 MODALITÀ E CRITERI DI VERIFICA DEGLI APPRENDIMENTI DEI CORSI DI
 FORMAZIONE E DI AGGIORNAMENTO (TABELLE CORSI/MODALITÀ DI VERIFICA).......... 109
-7 VERIFICA DELL’ EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO
+7 VERIFICA DELL' EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO
 DELLA PRESTAZIONE LAVORATIVA............................................................................................................. 111
 PARTE V -RICONOSCIMENTO DEI CREDITI FORMATIVI..................................................................... 112
 PARTE VI CONTROLLO DELLE ATTIVITÀ FORMATIVE E MONITORAGGIO
-DELL’APPLICAZIONE DELL’ACCORDO........................................................................................................ 113
-PARTE VII– ALTRE DISPOSIZIONI................................................................................................................... 114
+DELL'APPLICAZIONE DELL'ACCORDO........................................................................................................ 113
+PARTE VII- ALTRE DISPOSIZIONI................................................................................................................... 114
 1 ENTRATA IN VIGORE.............................................................................................................................. 114
 2 DISPOSIZIONI TRANSITORIE.............................................................................................................. 114
-Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 21
+Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 21
 dicembre 2011 per i quali è riconosciuto credito formativo totale......................................................................... 114
 DIRIGENTI................................................................................................................................................................... 114
-L’obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento sia stato erogato
+L'obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento sia stato erogato
 da più di 2 anni dalla data di entrata in vigore del presente accordo, dovrà essere ottemperato entro 12 mesi
 dalla data di entrata in vigore del presente accordo.................................................................................................. 114
 FORMAZIONE DEI LAVORATORI SOMMINISTRATI.................................................................. 117
@@ -7310,26 +7310,26 @@ DISPOSIZIONI FINALI.............................................................
 ## Pagina 146
 
 Pag. 8 a 138
-PARTE I – ORGANIZZAZIONE GENERALE
+PARTE I - ORGANIZZAZIONE GENERALE
 1. INDIVIDUAZIONE DEI SOGGETTI FORMATORI
-Ai sensi del presente Accordo, salvo quanto diversamente disciplinato dall’articolo 98 del d.lgs.
+Ai sensi del presente Accordo, salvo quanto diversamente disciplinato dall'articolo 98 del d.lgs.
 n. 81/2008, i soggetti formatori dei corsi di formazione e dei corsi di aggiornamento, incluso
 seminari e convegni, sono:
-1.1 i soggetti “istituzionali”;
-1.2 i soggetti “accreditati”;
+1.1 i soggetti "istituzionali";
+1.2 i soggetti "accreditati";
 1.3 altri soggetti.
 Con atto successivo, sentite le parti sociali comparativamente più rappresentative a livello
 nazionale e sentita la Conferenza permanente Stato Regione, potranno essere definiti i
 requisiti minimi che dovranno essere posseduti dai soggetti formatori. Con medesimo atto si
-potrà procedere all’istituzione di apposito repertorio/elenco nazionale.
-1.1 SOGGETTI FORMATORI “ISTITUZIONALI”
-Sono soggetti “istituzionali”:
+potrà procedere all'istituzione di apposito repertorio/elenco nazionale.
+1.1 SOGGETTI FORMATORI "ISTITUZIONALI"
+Sono soggetti "istituzionali":
 → le amministrazioni pubbliche di seguito elencate:
 a) Ministero del lavoro e delle politiche sociali;
 b) Ministero della difesa;
 c) Ministero della salute;
-d) Ministero dell’ambiente e della sicurezza energetica;
-e) Ministero dell’interno;
+d) Ministero dell'ambiente e della sicurezza energetica;
+e) Ministero dell'interno;
 f) Ministero delle imprese e del made in Italy;
 g) Regioni e Province autonome di Trento e di Bolzano, anche mediante le proprie
 strutture tecniche operanti nel settore della prevenzione (Aziende Sanitarie Locali,
@@ -7343,41 +7343,41 @@ l) Corpo nazionale dei vigili del fuoco o i corpi provinciali dei vigili del fuo
 Province autonome di Trento e Bolzano secondo quanto previsto dai rispettivi
 statuti speciali e dalle relative norme di attuazione;
 m) Formez;
-n) SNA (Scuola Nazionale dell’Amministrazione);
+n) SNA (Scuola Nazionale dell'Amministrazione);
 o) Ordini e i collegi professionali regolamentati secondo le vigenti disposizioni
 → le organizzazioni di volontariato della Protezione Civile, la Croce Rossa Italiana ed il Corpo
 Nazionale soccorso alpino e speleologico, nei confronti del proprio personale.
 Per le province autonome di Trento e di Bolzano si provvede alle finalità del presente articolo,
-nell’ambito delle proprie competenze, secondo quanto previsto dai rispettivi ordinamenti.
+nell'ambito delle proprie competenze, secondo quanto previsto dai rispettivi ordinamenti.
 
 
 ## Pagina 147
 
 Pag. 9 a 138
-1.2 SOGGETTI FORMATORI “ACCREDITATI”
-Sono soggetti formatori “accreditati” i soggetti formatori accreditati in conformità al modello di
+1.2 SOGGETTI FORMATORI "ACCREDITATI"
+Sono soggetti formatori "accreditati" i soggetti formatori accreditati in conformità al modello di
 accreditamento definito in ogni Regione e Provincia
-autonoma ai sensi dell’Intesa sancita in data 20 marzo 2008 e pubblicata sulla GURI del 23
+autonoma ai sensi dell'Intesa sancita in data 20 marzo 2008 e pubblicata sulla GURI del 23
 gennaio 2009 presso ciascuna Regione o Provincia Autonoma.
 Per i corsi di cui al presente accordo è necessario che i soggetti formatori accreditati abbiano
-maturato un’esperienza almeno triennale di formazione su salute e sicurezza sul lavoro
+maturato un'esperienza almeno triennale di formazione su salute e sicurezza sul lavoro
 opportunamente documentata.
 In deroga al periodo precedente, per erogare i corsi di formazione lavoratori, preposti e dirigenti
-è sufficiente il solo requisito dell’accreditamento regionale, oltre a quanto previsto nel paragrafo
+è sufficiente il solo requisito dell'accreditamento regionale, oltre a quanto previsto nel paragrafo
 2 della parte I del presente accordo.
 1.3 ALTRI SOGGETTI
 Sono soggetti formatori:
 1. i fondi interprofessionali di settore nel caso in cui, da statuto, si configurino come
 erogatori diretti di formazione;
-2. gli Organismi Paritetici così come individuati dal comma 1 dell’art. 51 del d.lgs. n. 81/2008
+2. gli Organismi Paritetici così come individuati dal comma 1 dell'art. 51 del d.lgs. n. 81/2008
 e inseriti nel repertorio previsto dal comma 1 bis del medesimo articolo;
 3. le associazioni sindacali dei datori di lavoro o dei lavoratori comparativamente più
-rappresentative sul piano nazionale, inserite nell’elenco/repertorio di cui al punto 1 del presente
+rappresentative sul piano nazionale, inserite nell'elenco/repertorio di cui al punto 1 del presente
 accordo e individuate attraverso una valutazione complessiva dei criteri di seguito riportati:
-• la presenza di sedi in almeno la metà delle province del territorio nazionale, distribuite
+- la presenza di sedi in almeno la metà delle province del territorio nazionale, distribuite
 tra nord, centro, sud e isole;
-• la consistenza numerica degli iscritti al singolo sindacato;
-• il numero complessivo dei CCNL sottoscritti, con esclusione di quelli sottoscritti per mera
+- la consistenza numerica degli iscritti al singolo sindacato;
+- il numero complessivo dei CCNL sottoscritti, con esclusione di quelli sottoscritti per mera
 adesione;
 Sino all'emanazione dell'atto di cui al punto 1 del presente accordo i requisiti di cui al precedente
 punto 3 possono essere autocertificati secondo le disposizioni del testo unico delle disposizioni
@@ -7389,8 +7389,8 @@ Gli organismi paritetici e le associazioni sindacali dei datori di lavoro o dei 
 precedenti punti 2 e 3 possono effettuare le attività formative e di aggiornamento direttamente
 o avvalendosi di strutture formative o di servizio di loro diretta emanazione. Per diretta
 emanazione si intende una struttura che deve essere di proprietà esclusiva o almeno partecipata
-in modo prevalente dell’associazione sindacale dei datori di lavoro o dei lavoratori.
-L’elenco/repertorio di cui al punto 1 del presente accordo riporta anche l’elenco delle strutture
+in modo prevalente dell'associazione sindacale dei datori di lavoro o dei lavoratori.
+L'elenco/repertorio di cui al punto 1 del presente accordo riporta anche l'elenco delle strutture
 formative di diretta emanazione dei soggetti formatori di cui ai precedenti punti 2 e 3.
 
 
@@ -7412,17 +7412,17 @@ c) attenersi per le attività formative pratiche al rapporto docente/discente no
 1 a 6 (almeno 1 docente ogni 6 discenti);
 d) tenere il registro di presenza dei partecipanti in formato cartaceo o in format o
 elettronico;
-e) verificare, ai fini dell’ammissione alla verifica finale dell’apprendimento, la frequenza di
+e) verificare, ai fini dell'ammissione alla verifica finale dell'apprendimento, la frequenza di
 almeno il 90% delle ore di formazione previste per i corsi di formazione e di abilitazione
 nonché per i corsi di aggiornamento;
 f) predisporre il verbale della verifica finale;
-g) predisporre l’attestato di formazione.
+g) predisporre l'attestato di formazione.
 4. MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE
 Le modalità di erogazione per i corsi di cui al presente accordo sono:
-• presenza fisica
-• video conferenza sincrona
-• e-learning
-• modalità mista.
+- presenza fisica
+- video conferenza sincrona
+- e-learning
+- modalità mista.
 I corsi sono erogati con le modalità indicate nella parte IV.
 5 - VERBALI DELLE VERIFICHE FINALI
 In tutti i corsi di formazione ed aggiornamento devono essere redatti i verbali delle verifiche
@@ -7442,7 +7442,7 @@ Pag. 11 a 138
 I verbali possono essere su supporto cartaceo o elettronico.
 6 - ATTESTAZIONI
 Ai partecipanti ai corsi di formazione ed aggiornamento, che abbiano regolarmente frequentato
-il corso e superato la verifica finale, deve essere rilasciato dal soggetto formatore un attestato –
+il corso e superato la verifica finale, deve essere rilasciato dal soggetto formatore un attestato -
 unico per ciascun corso - e contenente i seguenti elementi minimi:
 a) denominazione del soggetto formatore;
 b) dati anagrafici del partecipante al corso (nome, cognome, codice fiscale);
@@ -7454,7 +7454,7 @@ f) data e luogo.
 Gli attestati rilasciati ai sensi del presente accordo hanno validità su tutto il territorio nazionale.
 7 FASCICOLO DEL CORSO
 Per ogni corso di formazione e aggiornamento, il soggetto formatore provvede alla
-custodia/archiviazione (cartacea o elettronica) della documentazione “Fascicolo del corso”. Tale
+custodia/archiviazione (cartacea o elettronica) della documentazione "Fascicolo del corso". Tale
 documentazione deve essere conservata, presso il soggetto formatore, per almeno 10 anni e
 deve contenere:
 → dati anagrafici dei partecipanti;
@@ -7467,11 +7467,11 @@ deve contenere:
 ## Pagina 150
 
 Pag. 12 a 138
-PARTE II – CORSI DI FORMAZIONE
+PARTE II - CORSI DI FORMAZIONE
 1. PREMESSA
 I percorsi formativi, gli argomenti e la loro durata vanno intesi come minimi, di conseguenza, gli
 argomenti e la loro durata possono essere ampliati ed integrati al fine di raggiungere gli obiettivi
-dei piani formativi derivanti dall’analisi dei fabbisogni formativi e dei contesti organizzativi.
+dei piani formativi derivanti dall'analisi dei fabbisogni formativi e dei contesti organizzativi.
 Per ogni corso di formazione deve essere individuato un unico soggetto formatore. Nel caso in
 cui il corso di formazione sia organizzato da più soggetti formatori, tra questi dovrà essere
 individuato il soggetto formatore responsabile del corso cui spettan o gli adempimenti previsti a
@@ -7482,46 +7482,46 @@ d.lgs. n. 81/2008 nei confronti dei propri lavoratori, preposti e dirigenti, a c
 rispettato quanto previsto dal presente Accordo. In questo caso il datore di lavoro riveste il ruolo
 di soggetto formatore cui spettano gli adempimenti del presente accordo.
 I datori di lavoro possono altresì avvalersi di soggetti formatori di cui al paragrafo 1 della Parte I
-del presente Accordo per procedere all’effettuazione della formazione dei propri lavoratori,
+del presente Accordo per procedere all'effettuazione della formazione dei propri lavoratori,
 dirigenti e preposti.
-Nell’ambito dell’organizzazione dei suddetti corsi, i datori di lavoro devono avvalersi di docenti
+Nell'ambito dell'organizzazione dei suddetti corsi, i datori di lavoro devono avvalersi di docenti
 formatori in possesso dei requisiti di cui al paragrafo 2 della Parte I del presente Accordo.
 Il datore di lavoro in possesso dei requisiti per lo svolgimento diretto dei compiti del servizio di
-prevenzione e protezione di cui all’articolo 34 del d.lgs. n. 81/2008, può svolgere anche in qualità
+prevenzione e protezione di cui all'articolo 34 del d.lgs. n. 81/2008, può svolgere anche in qualità
 di docente, esclusivamente nei riguardi dei propri lavoratori, preposti e dirigenti, la formazione
 di cui ai paragrafi: 2.1, 2.2 e 2.3.
-In coerenza con le previsioni di cui all’articolo 37, comma 12, del D.Lgs. n. 81/08, i corsi di
+In coerenza con le previsioni di cui all'articolo 37, comma 12, del D.Lgs. n. 81/08, i corsi di
 formazione vanno realizzati previa richiesta di collaborazione agli organismi paritetici di cui al
 Decreto del Ministro del Lavoro e delle Politiche Sociali dell'11 ottobre 2022, n. 171, ove presenti
-nel settore e nel territorio in cui si svolge l’attività del datore. In mancanza, il datore di lavoro
+nel settore e nel territorio in cui si svolge l'attività del datore. In mancanza, il datore di lavoro
 procede alla pianificazione e realizzazione delle attività di formazione. Ove la richiesta riceva
-riscontro da parte dell’organismo paritetico, delle relative indicazioni occorre tener conto nella
+riscontro da parte dell'organismo paritetico, delle relative indicazioni occorre tener conto nella
 pianificazione e realizzazione delle attività di formazione, anche ove tale realizzazione non sia
 affidata agli organismi paritetici. Ove la richiesta di cui al precedente periodo non riceva riscontro
-dall’organismo paritetico entro quindici giorni dal suo invio, il datore di lavoro procede
+dall'organismo paritetico entro quindici giorni dal suo invio, il datore di lavoro procede
 autonomamente alla pianificazione e realizzazione delle attività di formazione.
 2.1 CORSO PER LAVORATORI
 Il percorso formativo di seguito descritto si articola in due moduli distinti coerentemente con
-quanto previsto alle lettere a) e b) del comma 1 e al comma 3 dell’articolo 37 del d.lgs. n. 81/08.
+quanto previsto alle lettere a) e b) del comma 1 e al comma 3 dell'articolo 37 del d.lgs. n. 81/08.
 
 
 ## Pagina 151
 
 Pag. 13 a 138
-Inoltre, con riferimento ai soggetti di cui all’articolo 21, comma 1, del d.lgs. n. 81/ 2008, i
-contenuti e l’articolazione della formazione di seguito individuati possono costituire riferimento
-anche per tali categorie di lavoratori, tenuto conto di quanto previsto dall’art. 21, comma 2,
+Inoltre, con riferimento ai soggetti di cui all'articolo 21, comma 1, del d.lgs. n. 81/ 2008, i
+contenuti e l'articolazione della formazione di seguito individuati possono costituire riferimento
+anche per tali categorie di lavoratori, tenuto conto di quanto previsto dall'art. 21, comma 2,
 lettera b, del d.lgs. n. 81/2008.
 Obiettivi
 Il corso di formazione per lavoratori ha i seguenti obiettivi:
 a) far conoscere i diritti, i doveri e le sanzioni per i vari soggetti aziendali;
 b) far conoscere i concetti di rischio, danno, prevenzione, protezione;
-c) illustrare l’ organizzazione della prevenzione aziendale e le funzioni degli organi di
+c) illustrare l' organizzazione della prevenzione aziendale e le funzioni degli organi di
 vigilanza, di controllo e assistenza;
 d) far conoscere i rischi riferiti alle mansioni e ai possibili danni e alle conseguenti misure e
 procedure di prevenzione e protezione adottate dal datore di lavoro.
 Formazione Generale
-Con riferimento alla lettera a) del comma 1 dell’articolo 37 del d.lgs. n. 81/ 2008, la durata del
+Con riferimento alla lettera a) del comma 1 dell'articolo 37 del d.lgs. n. 81/ 2008, la durata del
 modulo generale non deve essere inferiore alle 4 ore, e deve essere dedicata alla presentazione
 dei concetti generali in tema di prevenzione e sicurezza sul lavoro.
 Contenuti ORE
@@ -7534,63 +7534,63 @@ dei lavoratori e dei loro rappresentanti previsto dal D. Lgs. 81 del 2008
 la formazione generale costituisce credito formativo permanente
 Formazione Specifica
 La formazione specifica deve essere riferita ai rischi individuati sulla base della valutazione del
-rischio e, quindi, mirare ai rischi specifici dell’attività, incentrandosi sui pericoli e rischi insiti nelle
-mansioni specifiche e sulle relative conseguenze da prevenire nonché sull’individuazione e la
+rischio e, quindi, mirare ai rischi specifici dell'attività, incentrandosi sui pericoli e rischi insiti nelle
+mansioni specifiche e sulle relative conseguenze da prevenire nonché sull'individuazione e la
 conoscenza delle misure di sicurezza da adottare nello svolgimento delle proprie mansioni e di
 contesto lavorativo.
-Con riferimento alla lettera b) del comma 1 e al comma 3 dell’articolo 37 del D.lgs. n. 81/08, la
+Con riferimento alla lettera b) del comma 1 e al comma 3 dell'articolo 37 del D.lgs. n. 81/08, la
 formazione deve avvenire nelle occasioni di cui alle lettere a), b) e c) del comma 4 del medesimo
 articolo, ed avere durata minima di 4, 8 o 12 ore, in funzio ne dei rischi riferiti alle mansioni e ai
 possibili danni e alle conseguenti misure e procedure di prevenzione e protezione caratteristici
-del settore o comparto di appartenenza dell’azienda. Tali aspetti e i rischi specifici di cui ai Titoli
+del settore o comparto di appartenenza dell'azienda. Tali aspetti e i rischi specifici di cui ai Titoli
 del D.lgs. n. 81/08 successivi al I costituiscono oggetto della formazione.
-Infine, tale formazione è soggetta alle ripetizioni periodiche previste al comma 6 dell’articolo 37
-del D.lgs. n. 81/08, con riferimento ai rischi individuati ai sensi dell’articolo 28.
+Infine, tale formazione è soggetta alle ripetizioni periodiche previste al comma 6 dell'articolo 37
+del D.lgs. n. 81/08, con riferimento ai rischi individuati ai sensi dell'articolo 28.
 Contenuti:
 
 
 ## Pagina 152
 
 Pag. 14 a 138
-• rischi infortunistici;
-• meccanici generali;
-• elettrici generali;
-• macchine;
-•attrezzature;
-• cadute dall’alto;
-• rischi da esplosione;
-• rischi connessi all’impiego di agenti chimici, cancerogeni e mutageni;
-• rischi biologici;
-•rischi fisici (Rumore, Vibrazione, Radiazioni, Microclima e illuminazione, campi elettromagnetici
+- rischi infortunistici;
+- meccanici generali;
+- elettrici generali;
+- macchine;
+-attrezzature;
+- cadute dall'alto;
+- rischi da esplosione;
+- rischi connessi all'impiego di agenti chimici, cancerogeni e mutageni;
+- rischi biologici;
+-rischi fisici (Rumore, Vibrazione, Radiazioni, Microclima e illuminazione, campi elettromagnetici
 ecc. );
-• videoterminali;
-• DPI;
-• ambienti di lavoro;
-• rischi da fattori psicosociali e stress lavoro-correlato;
-• movimentazione manuale carichi;
-• movimentazione merci (apparecchi di sollevamento, mezzi trasporto);
-• segnaletica;
-• emergenze,
-• le procedure di sicurezza con riferimento al profilo di rischio specifico;
-• procedure esodo e incendi;
-• procedure organizzative per il primo soccorso;
-• incidenti e infortuni mancati;
-• altri Rischi.
-Durata Minima in base alla classificazione dei settori di cui all’Allegato IV (Individuazione
+- videoterminali;
+- DPI;
+- ambienti di lavoro;
+- rischi da fattori psicosociali e stress lavoro-correlato;
+- movimentazione manuale carichi;
+- movimentazione merci (apparecchi di sollevamento, mezzi trasporto);
+- segnaletica;
+- emergenze,
+- le procedure di sicurezza con riferimento al profilo di rischio specifico;
+- procedure esodo e incendi;
+- procedure organizzative per il primo soccorso;
+- incidenti e infortuni mancati;
+- altri Rischi.
+Durata Minima in base alla classificazione dei settori di cui all'Allegato IV (Individuazione
 macrocategorie di rischio e corrispondenze ATECO 2007):
-• 4 ore per i settori della classe di rischio basso;
-• 8 ore per i settori della classe di rischio medio;
-• 12 ore per i settori della classe di rischio alto.
+- 4 ore per i settori della classe di rischio basso;
+- 8 ore per i settori della classe di rischio medio;
+- 12 ore per i settori della classe di rischio alto.
 La trattazione dei rischi sopra indicati va declinata secondo la loro effettiva presenza nel settore
-di appartenenza dell’azienda e della specificità del rischio ovvero secondo gli obblighi e i rischi
-propri delle attività svolte dal lavoratore autonomo, s econdo quanto previsto all’articolo 21 del
-D.lgs. n. 81/08. I contenuti e la durata sono subordinati all’esito della valutazione dei rischi
+di appartenenza dell'azienda e della specificità del rischio ovvero secondo gli obblighi e i rischi
+propri delle attività svolte dal lavoratore autonomo, s econdo quanto previsto all'articolo 21 del
+D.lgs. n. 81/08. I contenuti e la durata sono subordinati all'esito della valutazione dei rischi
 effettuata dal datore di lavoro, fatta salva la contrattazione collettiva e le procedure concordate
 a livello settoriale e/o aziendale e vanno pertanto intesi come minimi. Il percorso formativo e i
-relativi argomenti possono essere ampliati in base alla natura e all’entità dei rischi effettivamente
+relativi argomenti possono essere ampliati in base alla natura e all'entità dei rischi effettivamente
 presenti in azienda, aumentando di conseguenza il numero di ore di formazione necessario.
-Il numero di ore di formazione indicato per ciascun settore comprende la “Formazione Generale”
-e quella “ Specifica”, ma non “l’Addestramento”, così come definito all’articolo 2, comma 1,
+Il numero di ore di formazione indicato per ciascun settore comprende la "Formazione Generale"
+e quella " Specifica", ma non "l'Addestramento", così come definito all'articolo 2, comma 1,
 lettera cc), del D.lgs. n. 81/08, ove previsto.
 Deve essere garantita la maggiore omogeneità possibile tra i partecipanti ad ogni singolo corso,
 con particolare riferimento al settore di appartenenza.
@@ -7600,14 +7600,14 @@ con particolare riferimento al settore di appartenenza.
 
 Pag. 15 a 138
 Durata minima complessiva dei corsi di formazione per i lavoratori, in base alla classificazione dei
-settori di cui all’Allegato IV:
-• 4 ore di Formazione Generale + 4 ore di Formazione Specifica per i settori della classe di rischio
+settori di cui all'Allegato IV:
+- 4 ore di Formazione Generale + 4 ore di Formazione Specifica per i settori della classe di rischio
 basso:
 TOTALE 8 ore
-• 4 ore di Formazione Generale + 8 ore di Formazione Specifica per i settori della classe di rischio
+- 4 ore di Formazione Generale + 8 ore di Formazione Specifica per i settori della classe di rischio
 medio:
 TOTALE 12 ore
-• 4 ore di Formazione Generale + 12 ore di Formazione Specifica per i settori della classe di rischio
+- 4 ore di Formazione Generale + 12 ore di Formazione Specifica per i settori della classe di rischio
 alto:
 TOTALE 16 ore
 I progetti di formazione specifica dovrebbero prendere in esame gruppi omogenei di lavoratori
@@ -7621,10 +7621,10 @@ Costituisce credito formativo, ai fini della formazione generale e specifica, la
 derivante dalla frequenza di corsi di formazione professionale presso strutture della formazione
 professionale o presso enti di formazione professionale accreditati dalle Regioni e Province
 autonome che abbiano contenuti e durata conformi al presente Accordo.
-Rimane comunque salvo l’obbligo del datore di lavoro di assicurare la formazione specifica
+Rimane comunque salvo l'obbligo del datore di lavoro di assicurare la formazione specifica
 secondo le risultanze della valutazione dei rischi.
-Per il comparto delle costruzioni, i percorsi formativi che rientrano nell’ambito del progetto
-nazionale “16ore-MICS” (Moduli Integrati per Costruire in Sicurezza), definito da FORMEDIL (Ente
+Per il comparto delle costruzioni, i percorsi formativi che rientrano nell'ambito del progetto
+nazionale "16ore-MICS" (Moduli Integrati per Costruire in Sicurezza), definito da FORMEDIL (Ente
 unico formazione e sicurezza) ed erogati dalle Scuole edili/Enti unificati territoriali, sono
 riconosciuti integralmente corrispondenti alla Formazione Generale e Specifica di cui al presente
 accordo.
@@ -7648,7 +7648,7 @@ opera il preposto e relative misure di prevenzione e protezione;
 g) far conoscere le tecniche di comunicazione con gli altri soggetti della prevenzione, in
 particolare i lavoratori;
 h) illustrare le funzioni di controllo attribuite al preposto: sovraintendenza, vigilanza,
-interruzione dell’attività, informazione e segnalazione;
+interruzione dell'attività, informazione e segnalazione;
 i) illustrare gli strumenti efficaci di comunicazione e cooperazione con il datore di lavoro, i
 dirigenti e il servizio di prevenzione e protezione per attuare le modalità operative.
 Requisiti di accesso
@@ -7662,11 +7662,11 @@ obblighi posti in capo al preposto
 e al suo rapporto con le altre
 figure della prevenzione
 aziendale.
-• Individuazione del preposto;
-• preposto di fatto ed effettività del
+- Individuazione del preposto;
+- preposto di fatto ed effettività del
 ruolo;
-• compiti e obblighi del preposto;
-• relazioni tra i vari soggetti interni ed
+- compiti e obblighi del preposto;
+- relazioni tra i vari soggetti interni ed
 esterni del sistema di prevenzione.
 Gestione e organizzazione della
 sicurezza
@@ -7678,11 +7678,11 @@ informare, segnalare.
 efficacemente con il datore di
 lavoro e i dirigenti per attuare le
 modalità operative
-• Modalità di esercizio della funzione
+- Modalità di esercizio della funzione
 di controllo dell'osservanza da parte
-dei lavoratori di cui all’art. 19 del
+dei lavoratori di cui all'art. 19 del
 d.lgs. n. 81/2008.
-• Modalità di comunicazione e
+- Modalità di comunicazione e
 relazione con i soggetti della
 prevenzione aziendale.
 Valutazione delle situazioni di
@@ -7702,27 +7702,27 @@ somministrazione ed i relativi
 subappalti
 - Illustrare le modalità operative e
 di intervento del preposto.
-• misure tecniche, organizzative e
+- misure tecniche, organizzative e
 procedurali di prevenzione e
 protezione adottate a seguito della
 valutazione dei rischi dell'azienda,
 con particolare riferimento al
 contesto in cui il preposto opera.
-• Obblighi connessi ai contratti di
+- Obblighi connessi ai contratti di
 appalto, d'opera e di
 somministrazione;
-• gestione del rischio interferenziale e
+- gestione del rischio interferenziale e
 il DUVRI.
-• Modalità per sovraintendere e
+- Modalità per sovraintendere e
 vigilare sulle attività lavorative per
-garantire l’attuazione delle direttive
+garantire l'attuazione delle direttive
 ricevute;
 
 
 ## Pagina 155
 
 Pag. 17 a 138
-• l’importanza di individuare e
+- l'importanza di individuare e
 segnalare incidenti e infortuni
 mancati.
 Comunicazione e informazione
@@ -7731,7 +7731,7 @@ strumenti efficaci di
 comunicazione con gli altri
 soggetti della prevenzione, in
 particolare i lavoratori.
-• Tecniche e strumenti di
+- Tecniche e strumenti di
 comunicazione e sensibilizzazione
 dei lavoratori, in particolare
 neoassunti, somministrati, stranieri.
@@ -7740,10 +7740,10 @@ I dirigenti, attraverso la frequenza del corso, dovranno essere in grado di svol
 attribuite dalla normativa ( art. 18 d.lgs. n. 81/2008), acquisendo la consapevolezza delle azioni
 conseguenti alle responsabilità del ruolo.
 Il presente corso è valido anche per gli obblighi formativi per la figura del dirigente previsti
-dall’art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla frequenza del modulo aggiuntivo
-“cantieri”.
+dall'art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla frequenza del modulo aggiuntivo
+"cantieri".
 Obiettivi
-Il corso di formazione ha l’obiettivo di fornire ai discenti le competenze necessarie per la salute
+Il corso di formazione ha l'obiettivo di fornire ai discenti le competenze necessarie per la salute
 e la sicurezza sul lavoro per un approccio organizzativo e gestionale.
 Il corso di formazione per dirigenti ha i seguenti obiettivi:
 a) far conoscere il ruolo e gli obblighi posti in capo al dirigente e al suo rapporto con le
@@ -7754,7 +7754,7 @@ cui opera il dirigente e le relative direttive del datore di lavoro in relazione
 di prevenzione e protezione;
 d) illustrare gli strumenti di comunicazione da adottare nel rapporto con gli altri soggetti
 della prevenzione aziendale;
-e) illustrare le funzioni relative all’ organizzazione e alla gestione de i processi e delle
+e) illustrare le funzioni relative all' organizzazione e alla gestione de i processi e delle
 attività in materia di salute e sicurezza sui luoghi di lavoro.
 Durata minima 12 ore
 Modulo Obiettivi formativi Contenuti del modulo
@@ -7764,23 +7764,23 @@ obblighi posti in capo al
 dirigente e al suo rapporto con
 le altre figure della prevenzione
 aziendale.
-• Il sistema legislativo in materia di
+- Il sistema legislativo in materia di
 salute e sicurezza dei lavoratori.
-• I soggetti del sistema di prevenzione
+- I soggetti del sistema di prevenzione
 aziendale secondo il d.lgs. n.
 81/2008: compiti, obblighi,
 responsabilità e tutela assicurativa.
-• La delega di funzioni.
+- La delega di funzioni.
 - Illustrare le responsabilità
 penali, civili ed amministrative
 poste in capo al dirigente.
-• La responsabilità civile e penale del
+- La responsabilità civile e penale del
 dirigente;
-• la responsabilità amministrativa
+- la responsabilità amministrativa
 d.lgs. n. 231/2001 nel settore privato;
-• prevenzione della violenza delle
+- prevenzione della violenza delle
 molestie sul luogo di lavoro (Documento
-ILO C 190 Convenzione sull’eliminazione
+ILO C 190 Convenzione sull'eliminazione
 
 
 ## Pagina 156
@@ -7788,15 +7788,15 @@ ILO C 190 Convenzione sull’eliminazione
 Pag. 18 a 138
 della violenza e delle molestie nel mondo
 del lavoro);
-• inserimento di lavoratori disabili
+- inserimento di lavoratori disabili
 (riferimento al d.lgs. 213/2003 (art.
 3, c. 3 bis), DL 76/2013 (art. 9, c. 4 -
 ter) convertito con L. 99/2013).
 - Illustrare il sistema istituzionale
 della prevenzione e il ruolo degli
 organi di vigilanza
-• I ruoli delle ASL, INL, VVF e INAIL;
-• gli organi di vigilanza e le procedure
+- I ruoli delle ASL, INL, VVF e INAIL;
+- gli organi di vigilanza e le procedure
 ispettive.
 Gestione e organizzazione della
 sicurezza
@@ -7809,13 +7809,13 @@ sui luoghi di lavoro.
 e i sistemi di gestione aziendali
 con riferimento alla legislazione
 e normativa volontaria.
-• Modalità di gestione ed
+- Modalità di gestione ed
 organizzazione dei processi relative
 alla salute e sicurezza sui luoghi di
 lavoro.
-• Modelli di organizzazione e gestione
-di cui all’art. 30 del d.lgs. n. 81/2008;
-• i sistemi di gestione della salute e
+- Modelli di organizzazione e gestione
+di cui all'art. 30 del d.lgs. n. 81/2008;
+- i sistemi di gestione della salute e
 sicurezza sul lavoro in relazione alla
 normativa volontaria.
 Compiti specifici del dirigente in
@@ -7836,20 +7836,20 @@ somministrazione ed i relativi
 subappalti.
 - Illustrare le modalità di
 organizzazione delle emergenze
-• Misure tecniche, organizzative e
+- Misure tecniche, organizzative e
 procedurali di prevenzione e
 protezione adottate a seguito della
 valutazione dei rischi dell'azienda,
 con particolare riferimento al
 contesto in cui il dirigente opera;
-• importanza della sorveglianza
+- importanza della sorveglianza
 sanitaria.
-• Obblighi connessi ai contratti di
+- Obblighi connessi ai contratti di
 appalto, d'opera e di
 somministrazione;
-• gestione del rischio interferenziale e
+- gestione del rischio interferenziale e
 il DUVRI.
-• Organizzazione della prevenzione
+- Organizzazione della prevenzione
 incendi, primo soccorso e gestione
 delle emergenze.
 Comunicazione, formazione,
@@ -7860,27 +7860,27 @@ strumenti efficaci di
 comunicazione con gli altri
 soggetti della prevenzione
 aziendale.
-• Tecniche e strumenti di
+- Tecniche e strumenti di
 comunicazione e informazione;
-• gli obblighi formativi per i diversi
+- gli obblighi formativi per i diversi
 soggetti aziendali;
-• gestione dei gruppi di lavoro e dei
+- gestione dei gruppi di lavoro e dei
 conflitti;
-• consultazione e partecipazione dei
+- consultazione e partecipazione dei
 rappresentanti dei lavoratori per la
 sicurezza.
-Modulo aggiuntivo “Cantieri”: durata minima 6 ore
+Modulo aggiuntivo "Cantieri": durata minima 6 ore
 Modulo Obiettivi formativi Contenuti del modulo
 Compiti specifici del dirigente
-dell’impresa affidataria nei
-Far conoscere: • I soggetti definiti dal Titolo IV capo I,
+dell'impresa affidataria nei
+Far conoscere: - I soggetti definiti dal Titolo IV capo I,
 e relativi obblighi e responsabilità.
 
 
 ## Pagina 157
 
 Pag. 19 a 138
-cantieri temporanei e mobili - l’organizzazione del cantiere e i
+cantieri temporanei e mobili - l'organizzazione del cantiere e i
 rapporti tra i diversi soggetti
 - I contenuti di PSC e POS
 Far acquisire le competenze in
@@ -7894,27 +7894,27 @@ di cui agli articoli 95 e 96 del
 d.lgs. n. 81/2008;
 - verifica della congruenza dei
 POS delle imprese esecutrici.
-• La redazione dei piani di sicurezza:
+- La redazione dei piani di sicurezza:
 finalità, tempi e contenuti.
-• Le misure generali di tutela secondo
-quanto previsto dall’art. 95 del d.lgs.
+- Le misure generali di tutela secondo
+quanto previsto dall'art. 95 del d.lgs.
 n. 81/2008.
-• Gli obblighi del datore di lavoro, dei
-dirigenti e dei preposti di cui all’art.
+- Gli obblighi del datore di lavoro, dei
+dirigenti e dei preposti di cui all'art.
 96 del d.lgs. n. 81/2008;
-• Il cronoprogramma dei lavori.
-• Esempi e analisi di un PSC.
-• Esempi e analisi di un POS.
+- Il cronoprogramma dei lavori.
+- Esempi e analisi di un PSC.
+- Esempi e analisi di un POS.
 3. CORSO PER DATORE DI LAVORO
 I datori di lavoro attraverso la frequenza del corso dovranno essere in grado di svolgere le
 funzioni loro attribuite dalla normativa (art. 18 d.lgs. n. 81/2008), acquisendo la consapevolezza
 delle azioni conseguenti alle responsabilità del ruolo.
 Il presente corso è valido anche per gli obblighi formativi per la figura del datore di lavoro
-dell’impresa affidataria previsti dall’art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla
-frequenza del modulo aggiuntivo “cantieri”.
+dell'impresa affidataria previsti dall'art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla
+frequenza del modulo aggiuntivo "cantieri".
 Obiettivi
-Il corso di formazione ha l’obiettivo di fornire ai discenti competenze organizzative, gestionali e
-giuridiche per gestire il processo della salute e sicurezza sul posto di lavoro nell’ottica del
+Il corso di formazione ha l'obiettivo di fornire ai discenti competenze organizzative, gestionali e
+giuridiche per gestire il processo della salute e sicurezza sul posto di lavoro nell'ottica del
 superamento di una visione formale della materia a favore di una visione sostanziale orientata
 alla prevenzione e alla protezione della salute dei lavoratori, anche alla luce della continua
 evoluzione del mondo del lavoro.
@@ -7923,9 +7923,9 @@ a) far acquisire le conoscenze e le competenze per esercitare il ruolo di datore
 b) far conoscere gli obblighi e le responsabilità penali, civili ed amministrative posti in capo
 al datore di lavoro e alle altre figure della prevenzione aziendale;
 c) illustrare il sistema istituzionale della prevenzione e il ruolo degli organi di vigilanza;
-d) far acquisire competenze utili per l’organizzazione e la gestione del sistema di
+d) far acquisire competenze utili per l'organizzazione e la gestione del sistema di
 prevenzione e protezione aziendale;
-e) illustrare gli strumenti di comunicazione più idonei al proprio contesto per un’efficace
+e) illustrare gli strumenti di comunicazione più idonei al proprio contesto per un'efficace
 interazione e relazione.
 Durata minima 16 ore
 Modulo Obiettivi formativi Contenuti del modulo
@@ -7933,9 +7933,9 @@ Giuridico normativo
 - Far acquisire le conoscenze e le
 competenze per esercitare il
 ruolo di datore di lavoro.
-• Il sistema legislativo in materia di salute e
+- Il sistema legislativo in materia di salute e
 sicurezza dei lavoratori.
-• L’identificazione e il ruolo del datore di
+- L'identificazione e il ruolo del datore di
 lavoro in relazione al contesto
 organizzativo.
 
@@ -7952,41 +7952,41 @@ aziendale.
 - Illustrare il sistema istituzionale
 della prevenzione e il ruolo degli
 organi di vigilanza
-• I soggetti del sistema di prevenzione
+- I soggetti del sistema di prevenzione
 aziendale secondo il d.lgs. n. 81/2008:
 compiti, obblighi, responsabilità e tutela
 assicurativa.
-• La delega di funzioni: condizioni e limiti
-• La responsabilità civile e penale del datore
+- La delega di funzioni: condizioni e limiti
+- La responsabilità civile e penale del datore
 di lavoro.
-• La responsabilità amministrativa ai sensi
+- La responsabilità amministrativa ai sensi
 del d.lgs. n. 231/2001 nel settore privato.
-• Prevenzione della violenza delle molestie
+- Prevenzione della violenza delle molestie
 sul luogo di lavoro (Documento ILO C 190
-Convenzione sull’eliminazione della
+Convenzione sull'eliminazione della
 violenza e delle molestie nel mondo del
 lavoro).
-• Inserimento di lavoratori disabili
+- Inserimento di lavoratori disabili
 (riferimento al d.lgs. 213/2003 (art. 3, c. 3
 bis), DL 76/2013 (art. 9, c. 4-ter) convertito
 con L. 99/2013).
-• I ruoli delle ASL, INL, VVF e Inail.
-• Gli organi di vigilanza e le procedure
+- I ruoli delle ASL, INL, VVF e Inail.
+- Gli organi di vigilanza e le procedure
 ispettive.
 Organizzazione e
 gestione della SSL
 - Far acquisire competenze utili
-per l’organizzazione e la
+per l'organizzazione e la
 gestione del sistema di
 prevenzione e protezione
 aziendale;
-• Le misure organizzative e gestionali di
+- Le misure organizzative e gestionali di
 tutela ai sensi di quanto previsto dagli art.li
 15 e art. 30 del d.lgs. n. 81/2008:
 a. rispetto degli standard tecnico -
 strutturali di legge relativi a attrezzature,
 impianti, luoghi di lavoro, agenti chimici,
-fisici e biologici; con l’acquisizione della
+fisici e biologici; con l'acquisizione della
 relativa documentazione e certificazioni
 obbligatorie di legge.
 Valutazione dei rischi predisposizione
@@ -8021,28 +8021,28 @@ soggetti ai sensi del D.lgs. 81/08;
 Pag. 21 a 138
 - illustrare gli strumenti di
 comunicazione più idonei al
-proprio contesto per un’efficace
+proprio contesto per un'efficace
 interazione e relazione
 f. vigilanza con riferimento al rispetto delle
 procedure e delle istruzioni di lavoro in
 sicurezza da parte dei lavoratori e alle
-periodiche verifiche dell’applicazione e
-dell’efficacia delle procedure adottate.
-• Modelli di organizzazione e gestione di
+periodiche verifiche dell'applicazione e
+dell'efficacia delle procedure adottate.
+- Modelli di organizzazione e gestione di
 tipo volontario
-• Costi della mancata sicurezza e benefici
+- Costi della mancata sicurezza e benefici
 della sicurezza
-• Tecniche e strumenti di comunicazione e
+- Tecniche e strumenti di comunicazione e
 informazione
-Modulo aggiuntivo “Cantieri”: durata minima 6 ore
+Modulo aggiuntivo "Cantieri": durata minima 6 ore
 Modulo Obiettivi formativi Contenuti del modulo
 Compiti specifici del
 datore di lavoro
-dell’impresa affidataria
+dell'impresa affidataria
 nei cantieri temporanei e
 mobili
 Far conoscere:
-- l’organizzazione del cantiere e i
+- l'organizzazione del cantiere e i
 rapporti tra i diversi soggetti
 - I contenuti di PSC e POS
 Far acquisire le competenze in
@@ -8056,25 +8056,25 @@ di cui agli articoli 95 e 96 del
 d.lgs. n. 81/2008;
 - verifica della congruenza dei
 POS delle imprese esecutrici.
-• I soggetti definiti dal Titolo IV capo I, e
+- I soggetti definiti dal Titolo IV capo I, e
 relativi obblighi e responsabilità
-• La redazione dei piani di sicurezza: finalità,
+- La redazione dei piani di sicurezza: finalità,
 tempi e contenuti.
-• Le misure generali di tutela secondo quanto
-previsto dall’art. 95 del d.lgs. n. 81/2008
-• Gli obblighi del datore di lavoro, dei dirigenti
-e dei preposti di cui all’art. 96 del d.lgs. n.
+- Le misure generali di tutela secondo quanto
+previsto dall'art. 95 del d.lgs. n. 81/2008
+- Gli obblighi del datore di lavoro, dei dirigenti
+e dei preposti di cui all'art. 96 del d.lgs. n.
 81/2008
-• Il cronoprogramma dei lavori
-• Esempi e analisi di un PSC
-• Esempi e analisi di un POS
+- Il cronoprogramma dei lavori
+- Esempi e analisi di un PSC
+- Esempi e analisi di un POS
 
 
 ## Pagina 160
 
 Pag. 22 a 138
 4. CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008
 Obiettivi
 Il corso di formazione è finalizzato a fornire ai d atori di lavoro le competenze tecniche,
 organizzative e procedurali proprie del responsabile del servizio di prevenzione e protezione.
@@ -8093,41 +8093,41 @@ del rischio e far acquisire le
 capacità metodologiche per la
 redazione del documento di
 valutazione dei rischi
-• i criteri e gli strumenti per
-l’individuazione e la valutazione
+- i criteri e gli strumenti per
+l'individuazione e la valutazione
 dei rischi;
-• struttura e contenuti del
+- struttura e contenuti del
 documento di valutazione dei
 rischi;
-• l’analisi degli infortuni mancati
+- l'analisi degli infortuni mancati
 e delle modalità di accadimento
 degli stessi;
-• la gestione della
+- la gestione della
 documentazione tecnico
 amministrativa;
-• le procedure semplificate per la
+- le procedure semplificate per la
 redazione della valutazione del
 rischio.
 I fattori di rischio e misure di
 prevenzione e protezione
 - Fare acquisire le competenze
 relative ai fattori di rischio e
-all’adozione delle misure di
+all'adozione delle misure di
 prevenzione e protezione
 a) fattori di rischio relativi a:
-• luoghi di lavoro;
-• attrezzature di lavoro;
-• movimentazione manuale dei
+- luoghi di lavoro;
+- attrezzature di lavoro;
+- movimentazione manuale dei
 carichi
-• VDT;
-• agenti fisici;
-• sostanze pericolose;
-• agenti biologici;
-• atmosfere esplosive;
-• stress lavoro-correlato e fattori
+- VDT;
+- agenti fisici;
+- sostanze pericolose;
+- agenti biologici;
+- atmosfere esplosive;
+- stress lavoro-correlato e fattori
 psicosociali;
-• rischi ricollegabili al genere,
-all’età e alla provenienza da
+- rischi ricollegabili al genere,
+all'età e alla provenienza da
 altri paesi;
 b) misure tecniche, organizzative e
 procedurali di prevenzione e
@@ -8143,7 +8143,7 @@ Pag. 23 a 138
 Esercitazione - Fare acquisire le competenze
 metodologiche per strutturare il
 DVR
-• Predisposizione di un
+- Predisposizione di un
 documento di valutazione dei
 rischi per un caso concreto
 riferito al settore ATECO di
@@ -8152,7 +8152,7 @@ Moduli tecnici-integrativi:
 Modulo Riferimento codice settori Ateco 2007
 Lettera - Descrizione macrocategoria Durata
 Modulo integrativo 1:
-Agricoltura – Silvicoltura - Zootecnia
+Agricoltura - Silvicoltura - Zootecnia
 A 01-02 - Agricoltura, Silvicoltura e Zootecnia 16 ore
 Modulo integrativo 2:
 Pesca
@@ -8170,26 +8170,26 @@ Modulo integrativo 1: Agricoltura, silvicoltura e zootecnia (16 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro (es. serre, campi, boschi, ecc.)
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
 UD5 Sostanze pericolose
 UD6 Agenti biologici
 UD7 Agenti fisici
 UD8 Ambienti confinati e\o sospetti di inquinamento
-UD9 Rischio incendio e gestione dell’emergenza
-UD10 Rischio di caduta dall’ alto
+UD9 Rischio incendio e gestione dell'emergenza
+UD10 Rischio di caduta dall' alto
 UD11 Movimentazione dei carichi
 Modulo integrativo 2: Pesca (12 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Legislazione specifica di riferimento
 UD3 Organizzazione del lavoro: ambienti di lavoro
 UD4 Normativa tecnica e per strutture e impianti
-UD5 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD5 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD6 Sostanze pericolose
 UD7 Agenti biologici
 UD8 Agenti fisici
 UD9 Ambienti confinati e\o sospetti di inquinamento
-UD10 Rischio incendio e gestione dell’emergenza
-UD11 Rischio cadute dall’alto, a bordo e fuori bordo
+UD10 Rischio incendio e gestione dell'emergenza
+UD11 Rischio cadute dall'alto, a bordo e fuori bordo
 
 
 ## Pagina 162
@@ -8201,13 +8201,13 @@ Modulo integrativo 3: Costruzioni (16 ore)
 UD1 Soggetti definiti dal Titolo IV capo I, e relativi obblighi e responsabilità
 UD2 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione, tecniche e fasi lavorative, aree di lavoro dei cantieri
-UD3 Le misure generali di tutela secondo quanto previsto dall’art. 95 del d.lgs. n. 81/2008
+UD3 Le misure generali di tutela secondo quanto previsto dall'art. 95 del d.lgs. n. 81/2008
 UD4 Il piano operativo di sicurezza (POS)
 UD5 Cenni sul PSC
-UD6 Cadute dall’alto e opere provvisionali
+UD6 Cadute dall'alto e opere provvisionali
 UD7 Lavori di demolizione e scavo
 UD8 Impianti elettrici e illuminazione di cantiere
-UD9 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD9 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD10 Movimentazione dei carichi manuale e meccanica
 UD11 Sostanze pericolose
 UD12 Agenti biologici
@@ -8226,7 +8226,7 @@ UD6 Rischi legati agli impianti e alle attrezzature di lavoro
 UD7 Manutenzione impianti e gestione fornitori
 UD8 Sostanze pericolose
 UD9 Agenti fisici
-UD10 Rischi incendio ed esplosioni e gestione dell’emergenza
+UD10 Rischi incendio ed esplosioni e gestione dell'emergenza
 UD11 Ambienti confinati e\o sospetti di inquinamento
 UD12 Dispositivi di protezione collettiva ed individuali
 UD13 Gestione dei rifiuti
@@ -8236,33 +8236,33 @@ UD13 Gestione dei rifiuti
 
 Pag. 25 a 138
 5 - CORSO PER RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE DAI
-RISCHI ai sensi dell’art. 32 del d.lgs. n. 81/2008
+RISCHI ai sensi dell'art. 32 del d.lgs. n. 81/2008
 Il percorso formativo per responsabili ed addetti dei servizi di prevenzione e protezione è
 strutturato in due distinti moduli: A e B.
 I responsabili del servizio di prevenzione e protezione devono inoltre frequentare anche il
 modulo C.
-5.1 TITOLI DI STUDIO VALIDI AI FINI DELL’ESONERO DALLA FREQUENZA DEL MODULO A E
+5.1 TITOLI DI STUDIO VALIDI AI FINI DELL'ESONERO DALLA FREQUENZA DEL MODULO A E
 DEL MODULO B (COMUNE E SPECIALISTICO)
-Di seguito si riportano i titoli di studio validi ai fini dell’esonero dalla frequenza del modulo A e
+Di seguito si riportano i titoli di studio validi ai fini dell'esonero dalla frequenza del modulo A e
 del modulo B (comune e specialistico):
-• laurea magistrale conseguita in una delle seguenti classi: LM-4, da LM-20 a LM 25, da LM
+- laurea magistrale conseguita in una delle seguenti classi: LM-4, da LM-20 a LM 25, da LM
 27 a LM -35, di cui al decreto del Ministro Università e ricerca del 16 marzo 2007,
 pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 157 del 9 luglio 2007;
-• laurea specialistica conseguita nelle seguenti classi: 4/S, da 25/S a 38/S di cui al decreto
-del Ministro dell’Università e della ricerca scientifica e tecnologica del 28 novembre 2000,
+- laurea specialistica conseguita nelle seguenti classi: 4/S, da 25/S a 38/S di cui al decreto
+del Ministro dell'Università e della ricerca scientifica e tecnologica del 28 novembre 2000,
 pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 18 del 23 gennaio 2001;
-• laurea magistrale conseguita nella classe LM/SNT 4 di cui al decreto del Ministro
-dell’Università e della ricerca scientifica e tecnologica del 8 gennaio 2009, pubblicato nel
+- laurea magistrale conseguita nella classe LM/SNT 4 di cui al decreto del Ministro
+dell'Università e della ricerca scientifica e tecnologica del 8 gennaio 2009, pubblicato nel
 supplemento ordinario alla Gazzetta Ufficiale n. 122 del 28 maggio 2009;
-• laurea conseguita nella classe L/SNT 4 di cui al decreto del Ministro dell’Università e della
+- laurea conseguita nella classe L/SNT 4 di cui al decreto del Ministro dell'Università e della
 ricerca scientifica e tecnologica del 19 febbraio 2009, pubblicato nel supplemento
 ordinario alla Gazzetta Ufficiale n. 119 del 25 maggio 2009.
-Sono altresì validi, ai fini dell’esonero di cui al presente punto, tutti i diplomi di laurea del vecchio
+Sono altresì validi, ai fini dell'esonero di cui al presente punto, tutti i diplomi di laurea del vecchio
 ordinamento di Ingegneria e Architettura, conseguiti ai sensi del Regio Decreto 30 settembre
 1938, n.1652.
 Costituisce altresì titolo di esonero dalla frequenza relativamente a ciascun modulo (moduli A-B-
 C):
-• partecipazione ad un corso universitario di specializzazione, perfezionamento o master i
+- partecipazione ad un corso universitario di specializzazione, perfezionamento o master i
 cui contenuti e le relative modalità di svolgimento siano conformi ai contenuti del
 presente Accordo. L'esonero di cui al presente punto deve risultare da certificazio ne
 emessa dall'Università ove viene dichiarata l'equivalenza dei percorsi formativi ai
@@ -8270,8 +8270,8 @@ contenuti ed alla durata previsti dal presente accordo.
 Sono altresì esonerati dalla frequenza dei moduli (A-B-C) coloro che abbiano svolto attività
 tecnica in materia di salute e sicurezza, per almeno cinque anni, in qualità di pubblici ufficiali o di
 incaricati di pubblico servizio.
-Nell’allegato I è riportato l’elenco delle classi di laurea per l’esonero dalla frequenza ai corsi di
-formazione di cui all’articolo 32, comma 2, primo periodo, del d.lgs. n. 81/2008.
+Nell'allegato I è riportato l'elenco delle classi di laurea per l'esonero dalla frequenza ai corsi di
+formazione di cui all'articolo 32, comma 2, primo periodo, del d.lgs. n. 81/2008.
 5.2 MODULO A
 Il Modulo A costituisce il corso base per lo svolgimento della funzione di RSPP e di ASPP.
 La durata complessiva è di 28 ore, escluse le verifiche di apprendimento finali.
@@ -8280,7 +8280,7 @@ La durata complessiva è di 28 ore, escluse le verifiche di apprendimento finali
 ## Pagina 164
 
 Pag. 26 a 138
-Il Modulo A è propedeutico per l’accesso agli altri moduli. Il suo superamento consente l’accesso
+Il Modulo A è propedeutico per l'accesso agli altri moduli. Il suo superamento consente l'accesso
 a tutti i percorsi formativi.
 Il Modulo A deve consentire ai responsabili e agli addetti dei servizi di prevenzione e protezione
 di essere in grado di conoscere:
@@ -8301,10 +8301,10 @@ Durata minima complessiva 28 ore.
 UNITÀ DIDATTICA A1 - 8
 ORE
 Obiettivi formativi Contenuti del Modulo
-L’approccio alla
+L'approccio alla
 prevenzione nel d.lgs. n.
 81/2008
-- Illustrare l’approccio
+- Illustrare l'approccio
 alla prevenzione e
 protezione disciplinata
 nel d.lgs. n. 81/2008 per
@@ -8312,7 +8312,7 @@ un percorso di
 miglioramento della
 salute e della sicurezza
 dei lavoratori.
-• La filosofia del d.lgs. n. 81/2008 in riferimento al
+- La filosofia del d.lgs. n. 81/2008 in riferimento al
 carattere gestionale organizzativo dato dalla
 legislazione al sistema di prevenzione aziendale.
 Il sistema legislativo: esame
@@ -8321,23 +8321,23 @@ riferimento
 - Illustrare la normativa
 in tema di salute e
 sicurezza sul lavoro.
-• L’evoluzione legislativa sulla salute e sicurezza sul
+- L'evoluzione legislativa sulla salute e sicurezza sul
 lavoro.
-• Lo Statuto dei lavoratori e la normativa
-sull’assicurazione obbligatoria contro gli infortuni e le
+- Lo Statuto dei lavoratori e la normativa
+sull'assicurazione obbligatoria contro gli infortuni e le
 malattie professionali.
-• L’impostazione di base data al d.lgs. n. 81/2008 dal
+- L'impostazione di base data al d.lgs. n. 81/2008 dal
 legislatore, riferendo la trattazione anche ai principi
 costituzionali ed agli obblighi civili e penali dati
-dall’ordinamento giuridico nazionale.
-• Il quadro giuridico europeo (direttive, regolamenti,
+dall'ordinamento giuridico nazionale.
+- Il quadro giuridico europeo (direttive, regolamenti,
 raccomandazioni, pareri).
-• I profili di responsabilità amministrativa.
-• La legislazione relativa a particolari categorie di lavoro:
+- I profili di responsabilità amministrativa.
+- La legislazione relativa a particolari categorie di lavoro:
 lavoro minorile, lavoratrici madri, lavoro notturno,
 lavori atipici, lavoro in somministrazione, ecc.
-• Il quadro legislativo antincendio.
-• Le norme tecniche e le attività di normalizzazione
+- Il quadro legislativo antincendio.
+- Le norme tecniche e le attività di normalizzazione
 nazionali ed europee in materia di salute e sicurezza
 sul lavoro.
 
@@ -8350,18 +8350,18 @@ prevenzione
 - Illustrare il sistema
 istituzionale della
 prevenzione.
-• Capo II del Titolo I del d.lgs. n. 81/2008.
+- Capo II del Titolo I del d.lgs. n. 81/2008.
 Il sistema di vigilanza e
 assistenza
 - Illustrare il ruolo degli
 organi di vigilanza e di
 assistenza.
-• Vigilanza e controllo e il sistema delle prescrizioni e
+- Vigilanza e controllo e il sistema delle prescrizioni e
 delle sanzioni.
-• Il ruolo di: ASL, INL, VV.F., INAIL, ARPA.
-• Le omologazioni, le verifiche periodiche.
-• Informazione, assistenza e consulenza.
-• Organismi paritetici
+- Il ruolo di: ASL, INL, VV.F., INAIL, ARPA.
+- Le omologazioni, le verifiche periodiche.
+- Informazione, assistenza e consulenza.
+- Organismi paritetici
 UNITÀ DIDATTICA A2 - 4
 ORE
 Obiettivi formativi Contenuti del Modulo
@@ -8374,7 +8374,7 @@ prevenzionale con
 riferimento ai loro
 compiti, obblighi e
 responsabilità.
-• Il sistema sicurezza aziendale secondo il d.lgs. n.
+- Il sistema sicurezza aziendale secondo il d.lgs. n.
 81/2008:
 ✓ datore di lavoro, dirigenti e preposti;
 ✓ responsabile del servizio prevenzione e
@@ -8408,25 +8408,25 @@ principali metodi e
 criteri per la valutazione
 dei rischi compresi
 quelli da interferenza.
-• Concetti di pericolo, rischio, danno, prevenzione e
+- Concetti di pericolo, rischio, danno, prevenzione e
 protezione.
-• Principio di precauzione: attenzione alle lavoratrici in
-stato di gravidanza, alle differenze di genere, all’età,
+- Principio di precauzione: attenzione alle lavoratrici in
+stato di gravidanza, alle differenze di genere, all'età,
 alla provenienza da altri Paesi e quelli connessi alla
 specifica tipologia contrattuale attraverso cui viene
 resa la prestazione di lavoro, utilizzo delle tecnologie
 digitali.
-• Analisi degli infortuni: cause, modalità di accadimento,
+- Analisi degli infortuni: cause, modalità di accadimento,
 indicatori, analisi statistica e andamento nel tempo.
-• Analisi delle malattie professionali: cause, modalità di
+- Analisi delle malattie professionali: cause, modalità di
 accadimento, indicatori, analisi statistica e andamento
 nel tempo.
-• Le fonti statistiche: strumenti e materiale informativo
+- Le fonti statistiche: strumenti e materiale informativo
 disponibile.
-• Valutazione dei rischi: metodologie e criteri per la
+- Valutazione dei rischi: metodologie e criteri per la
 valutazione dei rischi.
-• Fasi e attività del processo valutativo.
-• Il contesto di applicazione delle procedure
+- Fasi e attività del processo valutativo.
+- Il contesto di applicazione delle procedure
 standardizzate.
 
 
@@ -8440,12 +8440,12 @@ protezione.
 - Illustrare gli elementi di
 un documento di
 valutazione dei rischi
-• La valutazione dei rischi da interferenze nella gestione
-dei contratti di appalto o d’opera o di
+- La valutazione dei rischi da interferenze nella gestione
+dei contratti di appalto o d'opera o di
 somministrazione.
-• La classificazione dei rischi specifici.
-• Misure generali di tutela.
-• Contenuti struttura e organizzazione del documento di
+- La classificazione dei rischi specifici.
+- Misure generali di tutela.
+- Contenuti struttura e organizzazione del documento di
 valutazione dei rischi.
 UNITÀ DIDATTICA A4 - 4
 ORE
@@ -8457,10 +8457,10 @@ La segnaletica di sicurezza
 misure di protezione
 collettiva e individuali e
 di segnalazione
-• I dispositivi di protezione collettiva
-• I dispositivi di protezione individuale: criteri di scelta e
+- I dispositivi di protezione collettiva
+- I dispositivi di protezione individuale: criteri di scelta e
 di utilizzo.
-• La segnaletica di sicurezza.
+- La segnaletica di sicurezza.
 La gestione delle emergenze - Far c onoscere le
 modalità di gestione
 delle emergenze
@@ -8468,18 +8468,18 @@ delle emergenze
 per la stesura di un
 piano di emergenza e di
 evacuazione
-• Tipologie di emergenza.
-• Caratteristiche e procedure di gestione delle
+- Tipologie di emergenza.
+- Caratteristiche e procedure di gestione delle
 emergenze in caso di:
 ✓ Incendio;
 ✓ primo soccorso;
 ✓ altre emergenze;
-• Criteri per la stesura del piano di emergenza e di
+- Criteri per la stesura del piano di emergenza e di
 evacuazione.
 La sorveglianza sanitaria - Illustrare gli obblighi
 relativi alla sorveglianza
 sanitaria.
-• Sorveglianza sanitaria: obiettivi e obblighi, specifiche
+- Sorveglianza sanitaria: obiettivi e obblighi, specifiche
 tutele per le lavoratrici madri, minori, invalidi, visite
 mediche, giudizi di idoneità e ricorsi.
 UNITÀ DIDATTICA A5 - 4
@@ -8491,9 +8491,9 @@ partecipazione
 modalità e gli obblighi di
 consultazione e
 partecipazione.
-• La consultazione e la partecipazione aziendale della
+- La consultazione e la partecipazione aziendale della
 sicurezza.
-• Le relazioni tra i soggetti del sistema della
+- Le relazioni tra i soggetti del sistema della
 prevenzione.
 Informazione, f ormazione e
 addestramento
@@ -8501,12 +8501,12 @@ addestramento
 obblighi informativi,
 formativi e di
 addestramento.
-• Gli obblighi informativi, formativi e di addestramento
+- Gli obblighi informativi, formativi e di addestramento
 per i diversi soggetti aziendali.
 5.3 MODULO B
 Il Modulo B è il corso correlato alla natura dei rischi presenti sul luogo di lavoro e relativi alle
 attività lavorative.
-L’articolazione degli argomenti formativi e delle aree tematiche del Modulo B è strutturata
+L'articolazione degli argomenti formativi e delle aree tematiche del Modulo B è strutturata
 prevedendo un Modulo comune a tutti i settori produttivi della durata di 48 ore.
 
 
@@ -8516,13 +8516,13 @@ Pag. 29 a 138
 Il suddetto Modulo B comune è esaustivo per tutti i settori produttivi ad eccezione di quelli per i
 quali il percorso deve essere integrato con la frequenza dei moduli di specializzazione indicati
 nella tabella sotto riportata.
-Il Modulo B comune è propedeutico per l’accesso ai moduli di specializzazione.
+Il Modulo B comune è propedeutico per l'accesso ai moduli di specializzazione.
 La durata dei corsi non comprende le verifiche di apprendimento finali.
 Moduli B di specializzazione
 Modulo Riferimento codice settori Ateco 2007
 Lettera - Descrizione macrocategoria Durata
 Modulo B-SP1
-Agricoltura – Silvicoltura -
+Agricoltura - Silvicoltura -
 Zootecnia
 A 01-02- Agricoltura, Silvicoltura e Zootecnia
 16 ore
@@ -8542,14 +8542,14 @@ C - Attività manifatturiere (19 - Fabbricazione di coke e
 prodotti derivanti dalla raffinazione del petrolio e 20 -
 Fabbricazione di prodotti chimici)
 16 ore
-Il Modulo B deve essere orientato alla risoluzione di problemi, all’analisi e alla valutazione dei
+Il Modulo B deve essere orientato alla risoluzione di problemi, all'analisi e alla valutazione dei
 rischi, alla pianificazione di idonei interventi di prevenzione delle attività dei rispettivi livelli di
-rischio, ponendo attenzione all’approfondimento in ragione dei differenti livelli di rischio ed
+rischio, ponendo attenzione all'approfondimento in ragione dei differenti livelli di rischio ed
 evitando la ripetizione di argomenti.
 Il Modulo B deve consentire ai responsabili e agli addetti dei servizi di prevenzione e protezione
 di acquisire le conoscenze/abilità per:
 - individuare i pericoli e valutare tutti i rischi connessi agli ambienti di lavoro e
-all’organizzazione del lavoro;
+all'organizzazione del lavoro;
 - individuare le misure di prevenzione e protezione adottate o da adottare in relazione agli
 specifici rischi;
 - individuare adeguate soluzioni tecniche, organizzative e procedurali di salute e sicurezza
@@ -8560,7 +8560,7 @@ La progettazione delle unità didattiche e la relativa articolazione oraria, sec
 riportate parte IV è demandata alla responsabilità dei soggetti formatori.
 La trattazione dei rischi dovrà prevedere un breve richiamo normativo e la precisa definizione
 degli stessi.
-L’attenzione dovrà essere rivolta alla corretta valutazione nei diversi settori, alle diverse misure
+L'attenzione dovrà essere rivolta alla corretta valutazione nei diversi settori, alle diverse misure
 tecnico organizzative e procedurali utili al contenimento e agli adempimenti previsti, compresi i
 
 
@@ -8573,14 +8573,14 @@ ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO B COMUNE A TUTTI I SETTORI
 PRODUTTIVI (48 ORE)
 UD1 Tecniche specifiche di valutazione dei rischi e analisi degli incidenti
 UD2 Organizzazione dei processi produttivi e del lavoro:
-• cenni sull’evoluzione dell’organizzazione dei processi di produzione industriale: dalle catene di
+- cenni sull'evoluzione dell'organizzazione dei processi di produzione industriale: dalle catene di
 montaggio alla produzione snella (es. lean organization, just in time, ecc.);
-• caratteristiche e tipologie di impianti e processi di produzione industriale;
-• tipologie e studi di lay-out industriali e requisiti di sicurezza;
-• modelli e strutture organizzative (funzionali, per processi, divisionali a matrice, ibridi), punti di forza
+- caratteristiche e tipologie di impianti e processi di produzione industriale;
+- tipologie e studi di lay-out industriali e requisiti di sicurezza;
+- modelli e strutture organizzative (funzionali, per processi, divisionali a matrice, ibridi), punti di forza
 e di debolezza ai fini del benessere organizzativo;
-• nuove forme di lavoro: lavoro agile, co-working, telelavoro, ecc.
-• innovazione tecnologica e impatto sulla salute e sicurezza delle nuove tecnologie.
+- nuove forme di lavoro: lavoro agile, co-working, telelavoro, ecc.
+- innovazione tecnologica e impatto sulla salute e sicurezza delle nuove tecnologie.
 UD3 Ambiente e luoghi di lavoro
 UD4 Rischio incendio
 Atex
@@ -8592,7 +8592,7 @@ UD5 Rischi infortunistici:
 - Movimentazione merci: apparecchi di sollevamento e attrezzature per trasporto merci
 - Mezzi di trasporto: ferroviario, su strada, aereo e marittimo
 - Lavori in quota
-UD6 Rischi di natura ergonomica e legati all’organizzazione del lavoro:
+UD6 Rischi di natura ergonomica e legati all'organizzazione del lavoro:
 - Movimentazione manuale dei carichi
 - Attrezzature munite di videoterminali
 UD7 Rischi di natura psico-sociale:
@@ -8606,7 +8606,7 @@ UD11 Rischi connessi ad attività particolari:
 - Ambienti confinati e\o sospetti di inquinamento
 - Attività su strada
 - Gestione rifiuti
-UD12 Rischi connessi all’assunzione di sostanze stupefacenti, psicotrope ed alcol
+UD12 Rischi connessi all'assunzione di sostanze stupefacenti, psicotrope ed alcol
 
 
 ## Pagina 169
@@ -8617,39 +8617,39 @@ Modulo B-SP1: Agricoltura, silvicoltura e zootecnia (16 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro (es. serre, campi, boschi, ecc.)
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
 UD5 Agenti chimici, cancerogeni e mutageni, amianto
 UD6 Agenti biologici
 UD7 Agenti fisici
 UD8 Ambienti confinati e\o sospetti di inquinamento
-UD9 Rischio incendio e gestione dell’emergenza
-UD10 Rischio di caduta dall’alto,
+UD9 Rischio incendio e gestione dell'emergenza
+UD10 Rischio di caduta dall'alto,
 UD11 Movimentazione dei carichi
 Modulo B-SP2: Pesca (12 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Legislazione specifica di riferimento
 UD3 Organizzazione del lavoro: ambienti di lavoro
 UD4 Normativa tecnica e per strutture e impianti
-UD5 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD5 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD6 Agenti chimici, cancerogeni e mutageni e amianto
 UD7 Agenti biologici
 UD8 Agenti fisici
 UD9 Ambienti confinati e\o sospetti di inquinamento
-UD10 Rischio incendio e gestione dell’emergenza
-UD11 Rischio cadute dall’alto, a bordo e fuori bordo
+UD10 Rischio incendio e gestione dell'emergenza
+UD11 Rischio cadute dall'alto, a bordo e fuori bordo
 UD12 Movimentazione dei carichi
 UD13 Atmosfere iperbariche e attività subacquee
 Modulo B-SP3: Costruzioni (16 ore)
 UD1 Soggetti definiti dal Titolo IV capo I, e relativi obblighi e responsabilità
 UD2 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione, tecniche e fasi lavorative, aree di lavoro dei cantieri
-UD3 Le misure generali di tutela secondo quanto previsto dall’art. 95 del d.lgs. n. 81/2008
+UD3 Le misure generali di tutela secondo quanto previsto dall'art. 95 del d.lgs. n. 81/2008
 UD4 Il piano operativo di sicurezza (POS)
 UD5 Cenni sul PSC
-UD6 Cadute dall’alto e opere provvisionali
+UD6 Cadute dall'alto e opere provvisionali
 UD7 Lavori di demolizione e scavo
 UD8 Impianti elettrici e illuminazione di cantiere
-UD9 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD9 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD10 Movimentazione dei carichi manuale e meccanica
 
 
@@ -8668,14 +8668,14 @@ UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro nel settore sanitario, ospedaliero e ambulatoriale e
 assistenziale
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD5 Movimentazione dei carichi
 UD6 Rischi da taglio e da punta
 UD7 Agenti chimici, cancerogeni, mutageni e amianto
 UD8 Agenti biologici
 UD9 Agenti fisici
 UD10 Cenni sulle radiazioni ionizzanti
-UD11 Rischio incendio e gestione dell’emergenza
+UD11 Rischio incendio e gestione dell'emergenza
 UD12 Rischio aggressioni, stress lavoro correlato e burn out
 UD13 Dispositivi di protezione collettiva ed individuali
 UD14 Le atmosfere iperbariche
@@ -8690,7 +8690,7 @@ UD6 Rischi legati agli impianti e alle attrezzature di lavoro
 UD7 Manutenzione impianti e gestione fornitori
 UD8 Agenti chimici, cancerogeni, mutageni e amianto
 UD9 Agenti fisici
-UD10 Rischi incendio ed esplosioni e gestione dell’emergenza
+UD10 Rischi incendio ed esplosioni e gestione dell'emergenza
 UD11 Ambienti confinati e\o sospetti di inquinamento
 UD12 Dispositivi di protezione collettiva ed individuali
 UD13 Gestione dei rifiuti
@@ -8704,12 +8704,12 @@ Il Modulo C è il corso di specializzazione per le sole funzioni di RSPP.
 La durata complessiva è di 24 ore escluse le verifiche di apprendimento finali.
 Il Modulo C deve consentire ai responsabili dei servizi di prevenzione e protezione di acquisire le
 conoscenze/abilità relazionali e gestionali per:
-• progettare e gestire processi formativi in riferimento al contesto lavorativo e alla
+- progettare e gestire processi formativi in riferimento al contesto lavorativo e alla
 valutazione dei rischi, anche per la diffusione della cultura alla salute e sicurezza e del
 benessere organizzativo;
-• pianificare, gestire e controllare le misure tecniche, organizzative e procedurali di
+- pianificare, gestire e controllare le misure tecniche, organizzative e procedurali di
 sicurezza aziendali attraverso sistemi di gestione della sicurezza;
-• utilizzare forme di comunicazione adeguate a favorire la partecipazione e la
+- utilizzare forme di comunicazione adeguate a favorire la partecipazione e la
 collaborazione dei vari soggetti del sistema.
 ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO C
 UNITÀ DIDATTICA C1 - 8
@@ -8717,15 +8717,15 @@ ORE
 Obiettivi formativi Contenuti del Modulo
 Tecniche e metodologie
 relative a:
-• informazione
-• formazione
-• addestramento
+- informazione
+- formazione
+- addestramento
 - Illustrare la
 connessione e coerenza
 tra il documento di
 valutazione dei rischi e
 la predisposizione dei
-piani dell’informazione,
+piani dell'informazione,
 formazione e
 addestramento
 - Illustrare le
@@ -8745,20 +8745,20 @@ progettazione didattica.
 - Illustrare le tecniche e
 le procedure di
 addestramento.
-• Dalla valutazione dei rischi alla predisposizione dei
+- Dalla valutazione dei rischi alla predisposizione dei
 piani di informazione, formazione ed addestramento
 in azienda.
-• Metodologie per una corretta informazione in azienda
+- Metodologie per una corretta informazione in azienda
 (riunioni, gruppi di lavoro specifici, conferenze,
 seminari informativi, ecc.).
-• Strumenti di informazione su salute e sicurezza sul
+- Strumenti di informazione su salute e sicurezza sul
 lavoro (circolari, cartellonistica, opuscoli, avvisi, news,
 intranet, internet, ecc.).
-• Le dinamiche di apprendimento dell’adulto:
+- Le dinamiche di apprendimento dell'adulto:
 presentazione e analisi delle principali
 metodologie didattiche e degli strumenti
-operativi utilizzati nell’andragogia.
-• Le fasi del processo formativo:
+operativi utilizzati nell'andragogia.
+- Le fasi del processo formativo:
 ✓ analisi del fabbisogno e del contesto
 organizzativo;
 ✓ macro e micro-progettazione (definizione degli
@@ -8767,7 +8767,7 @@ funzione degli obiettivi, metodologie e strumenti
 didattici);
 ✓ erogazione;
 ✓ valutazione e monitoraggio dei risultati.
-• L’addestramento:
+- L'addestramento:
 ✓ tecniche (dimostrazioni, simulazioni,
 esercitazioni pratiche);
 ✓ modalità e verifica;
@@ -8795,41 +8795,41 @@ modalità operative della norma ISO
 Far conoscere le modalità e le
 opportunità di adozione delle
 procedure semplificate per
-l’implementazione dei MOG
+l'implementazione dei MOG
 Evidenziare il ruolo del RSPP
-all’interno dei modelli e sistemi di
+all'interno dei modelli e sistemi di
 organizzazione e gestione della
 sicurezza
-• L’organizzazione e la gestione della sicurezza tra
+- L'organizzazione e la gestione della sicurezza tra
 legislazione e normativa volontaria Sinergie ed
 opportunità.
-• I modelli di organizzazione e gestione della
-sicurezza. L’art. 30 del D.lgs. 81/08 e la
+- I modelli di organizzazione e gestione della
+sicurezza. L'art. 30 del D.lgs. 81/08 e la
 responsabilità amministrativa delle persone
-giuridiche (d.lgs. n. 231/2001). L’efficacia
-esimente dell’adozione dei modelli e sistemi di
+giuridiche (d.lgs. n. 231/2001). L'efficacia
+esimente dell'adozione dei modelli e sistemi di
 gestione della sicurezza (ISO 45001, Linee guida
 UNI INAIL).
-• La struttura di alto livello (HLS) della ISO 45001.
-• Il ciclo PCDA di Deming e l’approccio per processi
+- La struttura di alto livello (HLS) della ISO 45001.
+- Il ciclo PCDA di Deming e l'approccio per processi
 applicato alla organizzazione e gestione della
 sicurezza.
-• Il processo di valutazione dei rischi e la
-pianificazione degli interventi nell’ambito della
+- Il processo di valutazione dei rischi e la
+pianificazione degli interventi nell'ambito della
 ISO 45001.
-• Controllo operativo, auditing, riesame e
+- Controllo operativo, auditing, riesame e
 miglioramento continuo.
-• Cenni sull’integrazione gestionale della sicurezza
+- Cenni sull'integrazione gestionale della sicurezza
 (ISO 45001), con i sistemi qualità (ISO 9001) e
 ambiente (ISO 14001).
-• Procedure semplificate per l’implementazione
+- Procedure semplificate per l'implementazione
 dei Modelli di organizzazione e gestione (MOG):
 il D.M13/02/2014.
-• L’asseverazione dei MOG.
-• Vantaggi derivanti dall’adozione dei modelli di
+- L'asseverazione dei MOG.
+- Vantaggi derivanti dall'adozione dei modelli di
 organizzazione e gestione.
-• Il ruolo manageriale e tecnico del RSPP
-nell’ambito dei modelli e sistemi di
+- Il ruolo manageriale e tecnico del RSPP
+nell'ambito dei modelli e sistemi di
 organizzazione e gestione della sicurezza
 aziendali.
 UNITÀ DIDATTICA C3 - 4
@@ -8846,13 +8846,13 @@ metodi e le tecniche di
 comunicazione efficace
 per la salute e la
 sicurezza sul lavoro.
-• Il sistema delle relazioni: RLS, datore di lavoro, medico
+- Il sistema delle relazioni: RLS, datore di lavoro, medico
 competente, lavoratori, enti pubblici, fornitori,
 lavoratori autonomi, appaltatori, ecc.
-• Il sistema di comunicazione azienda le in materia di
+- Il sistema di comunicazione azienda le in materia di
 salute e sicurezza sul lavoro.
-• La comunicazione nelle diverse situazioni di lavoro.
-• Cenni sui metodi, tecniche e strumenti per una
+- La comunicazione nelle diverse situazioni di lavoro.
+- Cenni sui metodi, tecniche e strumenti per una
 comunicazione efficace.
 
 
@@ -8863,9 +8863,9 @@ Pag. 35 a 138
 gestione del la riunione
 periodica e degli
 incontri di lavoro.
-• Gestione degli incontri di lavoro e della riunione
+- Gestione degli incontri di lavoro e della riunione
 periodica.
-• Tecniche di negoziazione e gestione dei conflitti.
+- Tecniche di negoziazione e gestione dei conflitti.
 UNITÀ DIDATTICA C4 - 4
 ORE
 Obiettivi formativi Contenuti del Modulo
@@ -8887,7 +8887,7 @@ persone negli ambienti
 di lavoro anche sotto il
 profilo della salute e
 sicurezza.
-• Concetto di benessere organizzativo:
+- Concetto di benessere organizzativo:
 ✓ fattori di natura ergonomica;
 ✓ fattori psicosociali e stress lavoro correlato;
 ✓ fattori organizzativi e clima aziendale;
@@ -8895,36 +8895,36 @@ sicurezza.
 collaborazione, corretta circolazione delle
 informazioni, analisi delle relazioni, gestione del
 conflitto.
-• Team building finalizzato al benessere organizzativo.
+- Team building finalizzato al benessere organizzativo.
 
 
 ## Pagina 174
 
 Pag. 36 a 138
-6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER L’ESECUZIONE
+6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER L'ESECUZIONE
 DEI LAVORI (ALLEGATO XIV Dlgs 81/08)
-Il presente corso, ai sensi di quanto previsto dall’art. 98 comma 3 del Dlgs 81/08, aggiorna e
-sostituisce i requisiti della formazione per i coordinatori per la progettazione e per l’esecuzione
+Il presente corso, ai sensi di quanto previsto dall'art. 98 comma 3 del Dlgs 81/08, aggiorna e
+sostituisce i requisiti della formazione per i coordinatori per la progettazione e per l'esecuzione
 dei lavori previsti dall'articolo 98 del d.lgs. n. 81/2008.
 Obiettivi
 Il corso di formazione ha i seguenti obiettivi:
-• illustrare la normativa generale e specifica in tema di salute e sicurezza, con particolare
+- illustrare la normativa generale e specifica in tema di salute e sicurezza, con particolare
 riferimento al settore delle costruzioni e gli strumenti per garantire un adeguato
 approfondimento e aggiornamento in funzione della continua evoluzione della stessa;
-• far conoscere il ruolo de i soggetti del sistema di prevenzione, i loro compiti e le
+- far conoscere il ruolo de i soggetti del sistema di prevenzione, i loro compiti e le
 responsabilità;
-• illustrare le funzioni svolte dal sistema istituzionale pubblico e dai vari organi preposti alla
+- illustrare le funzioni svolte dal sistema istituzionale pubblico e dai vari organi preposti alla
 tutela della salute e della sicurezza nei luoghi di lavoro;
-• far conoscere i principali rischi trattati dal d.lgs. n. 81/2008 e individuare le misure di
+- far conoscere i principali rischi trattati dal d.lgs. n. 81/2008 e individuare le misure di
 prevenzione e protezione nonché le modalità per la gestione delle emergenze;
-• illustrare gli elementi metodologici per la valutazione del rischio;
-• far acquisire le competenze necessarie per l’individuazione, l’analisi e la valutazione dei
-rischi concreti, con riferimento all’area ed alla organizzazione del cantiere, alle lavorazioni
+- illustrare gli elementi metodologici per la valutazione del rischio;
+- far acquisire le competenze necessarie per l'individuazione, l'analisi e la valutazione dei
+rischi concreti, con riferimento all'area ed alla organizzazione del cantiere, alle lavorazioni
 ed alle loro interferenze;
-• far acquisire le competenze per verificare l’idoneità e la congruenza del piano operativo
+- far acquisire le competenze per verificare l'idoneità e la congruenza del piano operativo
 di sicurezza;
-• far acquisire le competenze per lo svolgimento del proprio ruolo;
-• illustrare le responsabilità connesse al ruolo rivestito.
+- far acquisire le competenze per lo svolgimento del proprio ruolo;
+- illustrare le responsabilità connesse al ruolo rivestito.
 Articolazione dei contenuti minimi del percorso formativo:
 Durata minima 120 ore
 Modulo Obiettivi formativi Contenuti del Modulo
@@ -8936,38 +8936,38 @@ prevenzionale con
 riferimento ai loro
 compiti, obblighi e
 responsabilità.
-• La legislazione in materia di salute e sicurezza nei
+- La legislazione in materia di salute e sicurezza nei
 luoghi di lavoro;
-• le normative europee e la loro valenza;
-• la normativa contrattuale;
-• la normativa sull’assicurazione contro gli infortuni sul
+- le normative europee e la loro valenza;
+- la normativa contrattuale;
+- la normativa sull'assicurazione contro gli infortuni sul
 lavoro e le malattie professionali;
-• il codice degli appalti;
-• le norme di buona tecnica;
-• i regolamenti e le direttive di prodotto;
-• cenni sulle norme tecniche di costruzione;
-• il Testo Unico in materia di salute e sicurezza nei luoghi
+- il codice degli appalti;
+- le norme di buona tecnica;
+- i regolamenti e le direttive di prodotto;
+- cenni sulle norme tecniche di costruzione;
+- il Testo Unico in materia di salute e sicurezza nei luoghi
 di lavoro con particolare riferimento al Titolo I;
-• il sistema istituzionale anche con riferimento ai Piani
+- il sistema istituzionale anche con riferimento ai Piani
 di Prevenzione in Edilizia;
-• i soggetti del Sistema di Prevenzione Aziendale: i
+- i soggetti del Sistema di Prevenzione Aziendale: i
 compiti, gli obblighi, le responsabilità civili e penali.
 
 
 ## Pagina 175
 
 Pag. 37 a 138
-• La legislazione specifica in materia di salute e sicurezza
+- La legislazione specifica in materia di salute e sicurezza
 nei cantieri temporanei o mobili e nei lavori in quota:
 il Titolo IV del Testo Unico in materia di salute e
 sicurezza nei luoghi di lavoro;
-• le figure interessate alla realizzazione dell’opera:
+- le figure interessate alla realizzazione dell'opera:
 compiti, obblighi e responsabilità civili e penali;
-• gli Organi di vigilanza, le procedure ispettive e la
-disciplina sanzionatoria, la sospensione dell’attività
+- gli Organi di vigilanza, le procedure ispettive e la
+disciplina sanzionatoria, la sospensione dell'attività
 imprenditoriale;
-• scelte progettuali e organizzative. La collaborazione
-con il progettista dell’opera.
+- scelte progettuali e organizzative. La collaborazione
+con il progettista dell'opera.
 Modulo tecnico (52 ore) - Far conoscere i concetti
 di pericolo, rischio,
 danno, prevenzione e
@@ -8986,45 +8986,45 @@ di un cantiere
 - Fare acquisire le
 competenze relative ai
 fattori di rischio e
-all’adozione delle
+all'adozione delle
 misure di prevenzione
 e protezione
-• Concetti di pericolo, rischio, danno, prevenzione e
+- Concetti di pericolo, rischio, danno, prevenzione e
 protezione;
-• metodologie per l’individuazione, l’analisi e la
+- metodologie per l'individuazione, l'analisi e la
 valutazione dei rischi e relativa adozione delle misure
 di prevenzione e protezione necessarie;
-• analisi degli infortuni e malattie professionali nel
+- analisi degli infortuni e malattie professionali nel
 settore delle costruzioni;
-• l’organizzazione in sicurezza del cantiere. Il
+- l'organizzazione in sicurezza del cantiere. Il
 cronoprogramma dei lavori;
-• gli obblighi documentali da parte dei committenti,
+- gli obblighi documentali da parte dei committenti,
 imprese, coordinatori per la sicurezza;
-• rischi di caduta dall’alto;
-• rischi nei lavori di montaggio e smontaggio di ponteggi
+- rischi di caduta dall'alto;
+- rischi nei lavori di montaggio e smontaggio di ponteggi
 e opere provvisionali;
-• rischi nei lavori di montaggio e smontaggio di elementi
+- rischi nei lavori di montaggio e smontaggio di elementi
 prefabbricati;
-• rischi nel montaggio di opere temporanee (palchi,
+- rischi nel montaggio di opere temporanee (palchi,
 tensostrutture,...) per fiere e spettacoli;
-• rischi negli scavi, nelle demolizioni, nelle opere in
+- rischi negli scavi, nelle demolizioni, nelle opere in
 sotterraneo ed in galleria;
-• rischi legati all’utilizzo di macchine e attrezzature di
+- rischi legati all'utilizzo di macchine e attrezzature di
 lavoro;
-• rischio di investimento e schiacciamento;
-• rischi da movimentazione manuale dei carichi;
-• rischi fisici;
-• rischi biologici;
-• rischi chimici e cancerogeni;
-• rischi connessi alle bonifiche da amianto;
-• rischio elettrico e la protezione contro le scariche
+- rischio di investimento e schiacciamento;
+- rischi da movimentazione manuale dei carichi;
+- rischi fisici;
+- rischi biologici;
+- rischi chimici e cancerogeni;
+- rischi connessi alle bonifiche da amianto;
+- rischio elettrico e la protezione contro le scariche
 atmosferiche;
-• rischi di incendio e di esplosione;
-• rischi dovuti alla presenza di ordigni bellici;
-• ambienti confinati e\o sospetti di inquinamento;
-• gestione delle emergenze, evacuazione e primo
+- rischi di incendio e di esplosione;
+- rischi dovuti alla presenza di ordigni bellici;
+- ambienti confinati e\o sospetti di inquinamento;
+- gestione delle emergenze, evacuazione e primo
 soccorso;
-• i dispositivi di protezione collettiva, individuale e la
+- i dispositivi di protezione collettiva, individuale e la
 segnaletica di sicurezza.
 
 
@@ -9042,7 +9042,7 @@ sicurezza sul lavoro.
 - Far conoscere i
 principali criteri
 metodologici per
-l’elaborazione o la
+l'elaborazione o la
 verifica della
 documentazione di
 cantiere.
@@ -9052,26 +9052,26 @@ comunicazione,
 relazionali e gestionali
 e le modalità di
 gestione dei conflitti.
-• I contenuti del:
+- I contenuti del:
 a) piano di sicurezza e di coordinamento;
-b) fascicolo con le caratteristiche dell’opera;
+b) fascicolo con le caratteristiche dell'opera;
 c) POS;
 d) PIMUS;
 e) piano delle demolizioni;
 f) piano di lavoro (ex art. 256 d.lgs. 81/2008) per la
 rimozione MCA.
-• I criteri metodologici per:
-a) l’elaborazione del piano di sicurezza e di
+- I criteri metodologici per:
+a) l'elaborazione del piano di sicurezza e di
 coordinamento;
-b) l’elaborazione del fascicolo;
+b) l'elaborazione del fascicolo;
 c) la verifica della congruenza tra POS, PSC e
 fascicolo;
 d) la stima dei costi della sicurezza.
-• Teorie e tecniche di comunicazione, orientate alla
+- Teorie e tecniche di comunicazione, orientate alla
 risoluzione di problemi e alla cooperazione; teorie di
 gestione dei gruppi e leadership.
-• I rapporti con la committenza, i progettisti, la direzione
-dei lavori, l’impresa affidataria, i rappresentanti dei
+- I rapporti con la committenza, i progettisti, la direzione
+dei lavori, l'impresa affidataria, i rappresentanti dei
 lavoratori per la sicurezza e RLST.
 Parte pratica (24 ore)
 UD1
@@ -9083,10 +9083,10 @@ le modalità di
 redazione del PSC e la
 correlazione con i
 relativi POS
-• Esempi di Piano di Sicurezza e Coordinamento:
+- Esempi di Piano di Sicurezza e Coordinamento:
 a) presentazione dei progetti;
-b) discussione sull’analisi dei rischi legati all’area,
-all’organizzazione del cantiere, alle lavorazioni ed
+b) discussione sull'analisi dei rischi legati all'area,
+all'organizzazione del cantiere, alle lavorazioni ed
 alle loro interferenze;
 c) correlazione con i relativi POS.
 UD2
@@ -9102,11 +9102,11 @@ prevenzione e
 protezione per la
 sicurezza dei lavori in
 copertura
-• Esempi di fascicolo adattato alle caratteristiche
-dell’opera.
-• Criteri di progettazione delle misure di prevenzione e
+- Esempi di fascicolo adattato alle caratteristiche
+dell'opera.
+- Criteri di progettazione delle misure di prevenzione e
 protezione per la sicurezza dei lavori in copertura;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- lavori di gruppo: analisi e discussione degli elaborati.
 UD3
 Stesura del PSC e del
 fascicolo (8 ore)
@@ -9115,12 +9115,12 @@ competenze
 metodologiche per
 strutturare il PSC ed il
 Fascicolo
-• Stesura di Piani di Sicurezza e Coordinamento, con
-particolare riferimento a rischi legati all’area,
-all’organizzazione del cantiere, alle lavorazioni ed alle
+- Stesura di Piani di Sicurezza e Coordinamento, con
+particolare riferimento a rischi legati all'area,
+all'organizzazione del cantiere, alle lavorazioni ed alle
 loro interferenze;
-• predisposizione di un Fascicolo;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- predisposizione di un Fascicolo;
+- lavori di gruppo: analisi e discussione degli elaborati.
 UD4
 Attività coordinamento (6
 ore)
@@ -9128,18 +9128,18 @@ ore)
 competenze
 metodologiche per la
 verifica
-dell’applicazione, delle
+dell'applicazione, delle
 disposizioni di salute e
 sicurezza nel cantiere
-• Simulare le attività di verifica, coordinamento e
+- Simulare le attività di verifica, coordinamento e
 controllo circa la corretta applicazione delle
 disposizioni di salute e sicurezza da parte delle imprese
 e dei lavoratori autonomi;
-• simulare le azioni circa la sospensione in caso di
+- simulare le azioni circa la sospensione in caso di
 pericolo grave e imminente delle singole lavorazioni e
 le modalità di verifica degli avvenuti adeguamenti
 effettuati dalle imprese interessate;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- lavori di gruppo: analisi e discussione degli elaborati.
 
 
 ## Pagina 177
@@ -9158,13 +9158,13 @@ presente accordo.
 Pag. 40 a 138
 7. CORSO PER LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE
 OPERANO IN AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI (dpr n. 177/2011)
-Il presente corso è valido per gli obblighi formativi di cui all’art.2, lett. d), DPR n. 177/2011.
+Il presente corso è valido per gli obblighi formativi di cui all'art.2, lett. d), DPR n. 177/2011.
 Obiettivi
 Il corso di formazione ha i seguenti obiettivi:
 a) illustrare i concetti di pericolo, danno e prevenzione che si riscontrano in una attività
 lavorativa svolta in uno spazio confinato;
 b) illustrare le misure di prevenzione degli infortuni
-c) far acquisire le competenze necessarie per l’utilizzo dei dispositivi, delle attrezzature di
+c) far acquisire le competenze necessarie per l'utilizzo dei dispositivi, delle attrezzature di
 lavoro e delle strumentazioni messi a disposizione per affrontare i rischi;
 d) illustrare le procedure di gestione delle emergenze, evacuazione e primo soccorso.
 Durata minima 12 ore
@@ -9177,27 +9177,27 @@ prevenzione che si
 riscontrano in una attività
 lavorativa svolta in uno
 spazio confinato.
-• La normativa di riferimento
-• Definizioni e identificazione di un ambiente confinato o
+- La normativa di riferimento
+- Definizioni e identificazione di un ambiente confinato o
 sospetto di inquinamento e criticità
-• Analisi degli eventi infortunistici
-• Individuazione dei fattori di rischio
-• I rischi specifici: aria respirabile atmosfere con difetto o
+- Analisi degli eventi infortunistici
+- Individuazione dei fattori di rischio
+- I rischi specifici: aria respirabile atmosfere con difetto o
 eccesso di ossigeno, atmosfere con agenti chimici
 pericolosi per asfissia e/o intossicazione, atmosfere con
 pericolo di esplosione ed incendio, seppellimento, cadute
-dall’alto, cadute di gravi, carenze di comunicazioni ecc.
+dall'alto, cadute di gravi, carenze di comunicazioni ecc.
 - Illustrare le misure di
 prevenzione e protezione
-• Caratteristiche e pericolosità degli agenti chimici
-• Misure e procedure di prevenzione nelle fasi di lavoro in
+- Caratteristiche e pericolosità degli agenti chimici
+- Misure e procedure di prevenzione nelle fasi di lavoro in
 ambienti confinati o sospetti di inquinamento come, a
 titolo esemplificativo ma non esaustivo, di seguito
 indicato:
-✓ procedure d’ingresso e uscita in ambiente confinato
-✓ dimensione, numero dei passi d’uomo, numero di
+✓ procedure d'ingresso e uscita in ambiente confinato
+✓ dimensione, numero dei passi d'uomo, numero di
 accessi, numero dei lavoratori presenti
-✓ monitoraggio dell’atmosfera
+✓ monitoraggio dell'atmosfera
 ✓ sistemi di illuminazione, dispositivi per prevenire lo
 shock elettrico
 ✓ macchine ed attrezzature di lavoro (coclee, agitatori,
@@ -9207,24 +9207,24 @@ il ricambio dell'aria
 ✓ sorveglianza sanitaria
 Parte Pratica (8 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo dei dispositivi e
+l'utilizzo dei dispositivi e
 delle strumentazioni messi
 a disposizione per
 affrontare i rischi presenti
 negli ambienti confinati
 (DPI, respiratori, rilevatori
 di gas...)
-• Le procedure da attuare in caso di emergenza
+- Le procedure da attuare in caso di emergenza
 (incendio/esplosione, anossia, presenza di gas tossici,
 recupero infortunato)
-• Simulazione sull’uso dei dispositivi e della strumentazione
+- Simulazione sull'uso dei dispositivi e della strumentazione
 messa a disposizione:
 ✓ Dispositivi di protezione individuali.
 ✓ Gli Apparecchi per la Protezione delle Vie Respiratorie
 (APVR): utilizzo, tipologia, filtri.
 ✓ Imbracature di sicurezza, tripode, rilevatori di gas,
 misuratori di esplosività
-• Sistemi di segnalazione e comunicazione
+- Sistemi di segnalazione e comunicazione
 
 
 ## Pagina 179
@@ -9242,41 +9242,41 @@ triennale, nel settore dei lavori in ambiente confinato o sospetto di inquinamen
 ## Pagina 180
 
 Pag. 42 a 138
-8. CORSI PER L’ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI ALL’ARTICOLO
+8. CORSI PER L'ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI ALL'ARTICOLO
 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008
 Le attrezzature di lavoro per le quali è richiesta una specifica abilitazione degli operatori (art. 73,
-comma 5 del d.lgs. n. 81/2008) sono individuate e riportate nell’allegato II
-L’abilitazione all’utilizzo delle attrezzature di lavoro si intende acquisita con il superamento delle
+comma 5 del d.lgs. n. 81/2008) sono individuate e riportate nell'allegato II
+L'abilitazione all'utilizzo delle attrezzature di lavoro si intende acquisita con il superamento delle
 verifiche. Ogni operatore nel corso del modulo pratico dovrà utilizzare la tipologia di attrezzatura
 per la quale sarà abilitato.
-L’acquisizione dell’abilitazione non esaurisce gli obblighi di formazione, informazione e
+L'acquisizione dell'abilitazione non esaurisce gli obblighi di formazione, informazione e
 addestramento previsti dal Titolo III del Dlgs 81/08
-8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL’AREA E DISPONIBILITÀ DELLE
+8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL'AREA E DISPONIBILITÀ DELLE
 ATTREZZATURE
-I soggetti formatori di cui alla Parte I, punto 1 del presente accordo devono garantire che l’attività
+I soggetti formatori di cui alla Parte I, punto 1 del presente accordo devono garantire che l'attività
 pratica sia effettuata come di seguito indicato:
-a. un’area opportunamente delimitata con assenza di impianti o strutture che possano
-interferire con l’attività pratica di addestramento e con caratteristiche geotecniche e
+a. un'area opportunamente delimitata con assenza di impianti o strutture che possano
+interferire con l'attività pratica di addestramento e con caratteristiche geotecniche e
 morfologiche (consistenza del terreno, pendenze, avvallamenti, gradini, ecc.) tali da
-consentire, in sicurezza rispetto ad una valutazione globale dei rischi, l’effettuazione di
-tutte le manovre pratiche previste al punto “ Verifica” per ciascuna tipologia di
+consentire, in sicurezza rispetto ad una valutazione globale dei rischi, l'effettuazione di
+tutte le manovre pratiche previste al punto " Verifica" per ciascuna tipologia di
 attrezzatura;
 b. i carichi, gli ostacoli fissi e/o in movimento e gli apprestamenti che dovessero rendersi
-necessari per consentire l’effettuazione di tutte le manovre pratiche previste al punto
-“Verifica” per ciascuna tipologia di attrezzatura;
+necessari per consentire l'effettuazione di tutte le manovre pratiche previste al punto
+"Verifica" per ciascuna tipologia di attrezzatura;
 c. le attrezzature e gli accessori conformi alla tipologia per la quale viene rilasciata la
-categoria di abilitazione ed idonei (possibilità di intervento da parte dell’istruttore)
-all’attività di addestramento o equipaggiati con dispositivi aggiuntivi per l’ effettuazione
+categoria di abilitazione ed idonei (possibilità di intervento da parte dell'istruttore)
+all'attività di addestramento o equipaggiati con dispositivi aggiuntivi per l' effettuazione
 in sicurezza delle attività pratiche di addestramento e verifica;
-d. i dispositivi di protezione individuali necessari per l’effettuazione in sicurezza delle attività
+d. i dispositivi di protezione individuali necessari per l'effettuazione in sicurezza delle attività
 pratiche di addestramento durante la verifica. Essi dovranno essere presenti nelle
-taglie/misure idonee per l’effettivo utilizzo da parte dei partecipanti elle attività pratiche.
+taglie/misure idonee per l'effettivo utilizzo da parte dei partecipanti elle attività pratiche.
 8.2. REQUISITI DEI DOCENTI
 Le docenze con riferimento al modulo teorico tecnico sono effettuate da docenti di cui al punto
-2 della Parte I del presente accordo e con conoscenza tecnica dell’attrezzatura.
+2 della Parte I del presente accordo e con conoscenza tecnica dell'attrezzatura.
 Le docenze con riferimento al modulo pratico sono effettuate da docenti di cui al punto 2 della
 Parte I del presente accordo e con esperienza professionale pratica, almeno triennale, nelle
-tecniche dell’utilizzazione delle attrezzature di che trattasi.
+tecniche dell'utilizzazione delle attrezzature di che trattasi.
 
 
 ## Pagina 181
@@ -9286,7 +9286,7 @@ Pag. 43 a 138
 I programmi dei corsi di formazione e la loro valutazione sono quelli previsti nei punti seguenti.
 8.3.1 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di
 piattaforme di lavoro mobili elevabili (PLE)
-Per l’utilizzo di una PLE è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di una PLE è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Modulo Obiettivi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -9306,15 +9306,15 @@ pantografo/braccio elevabile.
 1.3 Dispositivi di comando e di sicurezza: individuazione dei
 dispositivi di comando e loro funzionamento,
 individuazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi
 e funzionali.
 1.5 DPI specifici da utilizzare con le PLE: caschi, imbracature,
 cordino di trattenuta e relative modalità di utilizzo inclusi
 i punti di aggancio in piattaforma.
 1.6 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo delle PLE
+valutazione dei rischi più ricorrenti nell'utilizzo delle PLE
 (rischi di elettrocuzione, rischi ambientali, di caduta
-dall’alto, ecc.); spostamento e traslazione,
+dall'alto, ecc.); spostamento e traslazione,
 posizionamento e stabilizzazione, azion amenti e
 manovre, rifornimento e parcheggio in modo sicuro a
 fine lavoro.
@@ -9325,7 +9325,7 @@ operano su
 stabilizzatori (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -9346,7 +9346,7 @@ sollevamento e stabilizzatori, ecc.).
 2.5 Pianificazione del percorso: pendenze, accesso, ostacoli
 sul percorso e in quota, condizioni del terreno.
 2.6 Posizionamento della PLE sul luogo di lavoro:
-delimitazione dell’area di lavoro, segnaletica da
+delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, posizionamento
 stabilizzatori e livellamento.
 
@@ -9355,14 +9355,14 @@ stabilizzatori e livellamento.
 
 Pag. 44 a 138
 2.7 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 2.8 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 2.9 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonee, precauzioni contra l’utilizzo non autorizzato.
+idonee, precauzioni contra l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie).
 3. Parte Pratica per PLE
@@ -9371,7 +9371,7 @@ senza stabilizzatori (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -9390,16 +9390,16 @@ PLE.
 sul percorso e in quota, condizioni del terreno.
 3.5 Movimentazione e posizionamento della PLE:
 spostamento della PLE sul luogo di lavoro e delimitazione
-dell’area di lavoro.
+dell'area di lavoro.
 3.6 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 3.7 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 3.8 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonea, precauzioni contro l’utilizzo non autorizzato.
+idonea, precauzioni contro l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie)
 4. Parte Pratica PLE con
@@ -9410,7 +9410,7 @@ presenti PLE con e senza
 stabilizzatori
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -9431,7 +9431,7 @@ sollevamento e stabilizzatori, ecc.).
 4.5 Pianificazione del percorso: pendenze, accesso, ostacoli
 sul percorso e in quota, condizioni del terreno.
 4.6 Movimentazione e posizionamento della PLE:
-delimitazione dell’area di lavoro, segnaletica da
+delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, spostamento della PLE
 
 
@@ -9441,14 +9441,14 @@ Pag. 45 a 138
 sul luogo di lavoro, posizionamento stabilizzatori a
 livellamento.
 4.7 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 4.8 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 4.9 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonea, precauzioni contro l’utilizzo non autorizzato.
+idonea, precauzioni contro l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie).
 Verifica
@@ -9458,7 +9458,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove per ciascuno dei moduli 2 e 3 e
+finale, consistente nell'esecuzione di almeno 2 delle prove per ciascuno dei moduli 2 e 3 e
 almeno 3 delle prove per il modulo 4, concernenti i seguenti argomenti:
 ✓ per il modulo 2 Pratico PLE che operano su stabilizzatori:
 a. spostamento e stabilizzazione della PLE sulla postazione di impiego (Controlli pre-
@@ -9467,7 +9467,7 @@ Posizionamento della PLE sul luogo di lavoro - Messa a riposo della PLE a fine
 lavoro);
 b. effettuazione manovra di: salita, discesa, rotazione, accostamento piattaforma
 alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore - Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento
 in caso di guasti).
 ✓ per il modulo 3 Pratico PLE che possono operare senza stabilizzatori:
 a. spostamento della PLE sulla postazione di impiego (Controlli pre -utilizzo -
@@ -9476,7 +9476,7 @@ a riposo della PLE a fine lavoro);
 b. effettuazione manovra di: pianificazione del percorso, movimentazione e
 posizionamento della PLE con operatore a bordo (traslazione), salita, discesa,
 rotazione, accostamento della piattaforma alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore Comportamento
 in caso di guasti).
 ✓ per il modulo 4 Pratico PLE con e senza stabilizzatori:
 a. spostamento e stabilizzazione della PLE sulla postazione di impiego (Controlli pre-
@@ -9491,9 +9491,9 @@ lavoro);
 b. effettuazione manovra di: pianificazione del percorso, movimentazione e
 posizionamento della PLE con operatore a bordo (traslazione), salita, discesa,
 rotazione, accostamento della piattaforma alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore - Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento
 in caso di guasti).
-→ Il mancato superamento della verifica finale comporta l’obbligo di ripetere il modulo pratico.
+→ Il mancato superamento della verifica finale comporta l'obbligo di ripetere il modulo pratico.
 
 
 ## Pagina 185
@@ -9501,7 +9501,7 @@ in caso di guasti).
 Pag. 47 a 138
 8.3.2 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di gru per
 autocarro
-Per l’utilizzo di gru per autocarro è necessario il possesso da parte dell’operatore di almeno una
+Per l'utilizzo di gru per autocarro è necessario il possesso da parte dell'operatore di almeno una
 delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -9519,7 +9519,7 @@ degli accessori installati.
 1.2 Nozioni elementari di fisica per poter valutare la massa di
 un carico e per poter apprezzare le condizioni di equilibrio
 di un corpo, oltre alla valutazione dei necessari attributi
-che consentono il mantenimento dell’insieme gru con
+che consentono il mantenimento dell'insieme gru con
 carico appeso in condizioni di stabilità.
 1.3 Condizioni di stabilità di una gru per autocarro: fattori ed
 elementi che influenzano la stabilità.
@@ -9535,10 +9535,10 @@ dispositivi limitatori, indicatori, di controllo.
 1.10 Principi generali per il trasferimento, il posizionamento e
 la stabilizzazione.
 1.11 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo delle gru
+valutazione dei rischi più ricorrenti nell'utilizzo delle gru
 per autocarro (caduta del carico, perdita di stabilità della
 gru per autocarro, urto di persone con il carico o con la
-gru, rischi connessi con l’ambiente, quali vento, ostacoli,
+gru, rischi connessi con l'ambiente, quali vento, ostacoli,
 linee elettriche, ecc., rischi connessi alla non corretta
 stabilizzazione).
 1.12 Segnaletica gestuale.
@@ -9546,7 +9546,7 @@ stabilizzazione).
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -9561,7 +9561,7 @@ identificazione dei dispositivi di sicurezza e loro funzione.
 2.3 Controlli pre-utilizzo: controlli visivi e funzionali della gru
 per autocarro e dei componenti accessori, dei dispositivi
 di comando, di segnalazione e di sicurezza, previsti dal
-costruttore nel manuale di istruzioni dell’attrezzatura.
+costruttore nel manuale di istruzioni dell'attrezzatura.
 Manovre della gru per autocarro senza carico
 (sollevamento, estensione, rotazione, ecc.) singole e
 combinate.
@@ -9580,14 +9580,14 @@ determinazione del raggio, configurazione della gru per
 autocarro, sistemi di imbracatura, ecc.
 2.6 Posizionamento della gru per autocarro sul luogo di
 lavoro: posizionamento della gru rispetto al baricentro del
-carico, delimitazione dell’area di lavoro, segnaletica da
+carico, delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, messa in opera di
 stabilizzatori, livellamento della gru. Procedure per la
 messa in opera di accessori, bozzelli, stabilizzatori, jib,
 ecc.,
 2.7 Esercitazione di pratiche operative:
 a. Effettuazione di esercitazioni di presa/aggancio del
-carico per il controllo della rotazione, dell’oscillazione,
+carico per il controllo della rotazione, dell'oscillazione,
 degli urti e del posizionamento del carico. Operazioni in
 prossimità di ostacoli fissi o altre gru (interferenza).
 Movimentazione di carichi di uso comune e carichi di
@@ -9606,7 +9606,7 @@ emergenza per il recupero del carico.
 2.10 Operazioni pratiche per provare il corretto
 funzionamento dei dispositivi limitatori, indicatori e di
 posizione.
-2.11 Esercitazioni sull’uso sicuro, gestione di situazioni di
+2.11 Esercitazioni sull'uso sicuro, gestione di situazioni di
 emergenza e compilazione del registro di controllo.
 2.12 Messa a riposo della gru per autocarro: procedure per il
 rimessaggio di accessori, bozzelli, stabilizzatori, jib, ecc.
@@ -9617,7 +9617,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio al modulo pratico.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove del modulo 2 concernenti i seguenti
+consistente nell'esecuzione di almeno 2 delle prove del modulo 2 concernenti i seguenti
 argomenti:
 a. imbracatura e movimentazione di un carico di entità pari al 50% del carico
 massimo nominale con sbraccio pari al 50% dello sbraccio massimo, tra la quota
@@ -9630,8 +9630,8 @@ individuata dalla tabella di carico.
 Pag. 49 a 138
 b. imbracatura e movimentazione ad una quota di 0,5m, di un carico pari al 50% del
 carico nominale, alla distanza massima consentita dal centro colonna/ralla prima
-dell’intervento del dispositivo di controllo del momento massimo.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+dell'intervento del dispositivo di controllo del momento massimo.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -9639,7 +9639,7 @@ pratico.
 
 Pag. 50 a 138
 8.3.3 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di gru a torre
-Per l’utilizzo di gru a torre è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di gru a torre è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico - Tecnico (8
@@ -9648,7 +9648,7 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i rischi connessi
-all’impiego delle
+all'impiego delle
 attrezzature di lavoro
 - Illustrare i componenti e i
 dispositivi di comando e di
@@ -9656,9 +9656,9 @@ sicurezza
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Norme generali di utilizzo della gru a torre: ruolo
-dell’operatore rispetto agli altri soggetti (montatori,
+dell'operatore rispetto agli altri soggetti (montatori,
 manutentori, capo cantiere, ecc.). Limiti di utilizzo
-dell’attrezzatura tenuto conto delle sue caratteristiche e
+dell'attrezzatura tenuto conto delle sue caratteristiche e
 delle sue condizioni di installazione. Manovre consentite
 tenuto conto delle sue condizioni di installazione (zone
 interdette, interferenze, ecc.). Caratteristic he dei carichi
@@ -9666,11 +9666,11 @@ interdette, interferenze, ecc.). Caratteristic he dei carichi
 elementi del carico, imballaggi, ecc.).
 1.2 Tipologie di gru a torre: i vari tipi di gru a torre e
 descrizione delle caratteristiche generali e specifiche.
-1.3 Principali rischi connessi all’impiego di gru a torre: caduta
+1.3 Principali rischi connessi all'impiego di gru a torre: caduta
 del carico, rovesciamento della gru, urti delle persone con
 il carico o con elementi mobili della gru a torre, rischi
-legati all’ambiente (vento, ostacoli, linee elettriche, ecc.),
-rischi legati all’uso delle diverse forme di energia
+legati all'ambiente (vento, ostacoli, linee elettriche, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.).
 1.4 Nozioni elementari di fisica: nozioni di base per la
 valutazione dei carichi movimentati nei cantieri,
@@ -9691,12 +9691,12 @@ ecc.).
 elementi che influenzano la stabilità. Diagrammi di carico
 forniti dal fabbricante. Gli ausili alla conduzione della gru
 (anemometro, indicatori di carico e altri indicatori, ecc.).
-1.9 L’installazione della gru a torre: informazioni generali
+1.9 L'installazione della gru a torre: informazioni generali
 relative alle condizioni di installazione (piani di appoggio,
 ancoraggi, contrappesi, ecc.). Mezzi per impedire
-l’accesso a zone interdette (illuminazione, barriere, ecc.).
-1.10 Controlli da effettuare prima dell’utilizzo: controlli visivi
-(della gru, dell’appoggio, delle vie di traslazione, ove
+l'accesso a zone interdette (illuminazione, barriere, ecc.).
+1.10 Controlli da effettuare prima dell'utilizzo: controlli visivi
+(della gru, dell'appoggio, delle vie di traslazione, ove
 presenti) e funzionali.
 1.11 Modalità di utilizzo in sicurezza della gru a torre:
 Operazioni di messa in servizio (blocco del freno di
@@ -9717,13 +9717,13 @@ spostamento del carico con la precisione richiesta
 (posizionamento e bilanciamento del carico, con la
 minima oscillazione possibile, ecc.). Operazioni vietate.
 Operazioni di fine utilizzo (compresi lo sblocco del freno di
-rotazione e l’eventuale sistemazione di sistemi di
+rotazione e l'eventuale sistemazione di sistemi di
 ancoraggio e di blocco). Uso della gru secondo le
-condizioni d’uso previste dal fabbricante.
+condizioni d'uso previste dal fabbricante.
 1.12 Manutenzione della gru a torre: controlli visivi della gru e
 delle proprie apparecchiature per rilevare le anomalie e
 attuare i necessari interventi (direttamente o attraverso il
-personale di manutenzione e/o l’assistenza tecnica).
+personale di manutenzione e/o l'assistenza tecnica).
 Semplici operazioni di m anutenzione (lubrificazione,
 pulizia di alcuni organi o componenti, ecc.).
 2. Parte Pratica Gru a
@@ -9731,7 +9731,7 @@ rotazione in basso (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -9750,7 +9750,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico e
 di momento, dispositivi anti -interferenza, ecc.).
 Condizioni di installazione (piani di appoggio, ancoraggi,
-contrappesi, barriere contro l’accesso a zone interdette).
+contrappesi, barriere contro l'accesso a zone interdette).
 2.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei
@@ -9762,11 +9762,11 @@ con la precisione richiesta (posizionamento e
 bilanciamento del carico, con la minima oscillazione
 possibile, ecc.). Uso dei comandi posti su pulsantiera
 pensile. Uso dei comandi posti su unità radio-mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi. Spostamento del carico attraverso ostacoli fissi, e
 aperture, avvicinamento e posizionamento al suolo e su
 piani rialzati. Arresto della gru sul luogo di lavoro (messa
-fuori servizio in caso d’interruzione dell’esercizio
+fuori servizio in caso d'interruzione dell'esercizio
 normale). Controlli giornalieri della gru a torre,
 prescrizioni operative per la messa fuori servizio e misure
 precauzionali in caso di avv erse condizioni
@@ -9781,13 +9781,13 @@ Posizionamento del carrello e del gancio di sollevamento.
 
 Pag. 52 a 138
 Sblocco del freno di rotazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 3. Parte Pratica Gru a
 rotazione in alto (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -9807,7 +9807,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico e di
 momento, dispositivi anti -interferenza, ecc.). Condizioni
 di installazione (piani di appoggio, ancoraggi, contrappesi,
-barriere contro l’accesso a zone interdette).
+barriere contro l'accesso a zone interdette).
 3.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei freni
@@ -9821,13 +9821,13 @@ bilanciamento del carico, con la minima oscillazione
 possibile, ecc.).
 Uso dei comandi posti su pulsantiera pensile.
 Uso dei comandi posti su unità radio -mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi.
 Spostamento del carico attraverso ostacoli fissi e
 aperture, avvicinamento e posizione al suolo e su piani
 rialzati.
 Arresto della gru sul luogo di lavoro (messa fuori servizio
-in caso d’interruzione dell’esercizio normale). Controlli
+in caso d'interruzione dell'esercizio normale). Controlli
 giornalieri della gru, prescrizioni operative per la messa
 fuori servizio e misure precauzionali in caso di avverse
 condizioni meteorologiche.
@@ -9836,7 +9836,7 @@ gru, dei dispositivi di comando e di sicurezza previsti dal
 costruttore e dal manuale di istruzioni della gru.
 Posizionamento del carrello e del gancio di sollevamento.
 Sblocco del freno di r otazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 4. Parte Pratica Gru a
 rotazione in basso e in
 alto (6 ore)
@@ -9847,7 +9847,7 @@ sia a rotazione in basso
 sia a rotazione in alto
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -9872,7 +9872,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico, di
 momento, dispositivi anti -interferenza, ecc.). Condizioni
 di installazione (piani di appoggio, ancoraggi, contrappesi,
-barriere contro l’accesso a zone interdette).
+barriere contro l'accesso a zone interdette).
 4.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei freni
@@ -9885,12 +9885,12 @@ bilanciamento del carico, con l a minima oscillazione
 possibile, ecc.). Uso dei comandi posti su pulsantiera
 pensile.
 Uso dei comandi posti su unità radio -mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi.
 Spostamento del carico attraverso ostacoli fissi e
 aperture, avvicinamento e posizionamento al suolo e su
 piani rialzati. Arresto della gru sul luogo di lavoro (messa
-fuori servizio in caso d’interruzione dell’esercizio
+fuori servizio in caso d'interruzione dell'esercizio
 normale).
 Controlli giornalieri della gru a torre, prescrizioni
 operative per la messa fuori servizio e misure
@@ -9901,7 +9901,7 @@ della gru, dei dispositivi di comando e di sicurezza previsti
 dal costruttore e dal manuale di istruzioni della gru.
 Posizionamento del carrello e del gancio di sollevamento.
 Sblocco del freno di rotazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -9909,11 +9909,11 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di:
+finale, consistente nell'esecuzione di:
 ✓ almeno 2 delle prove per il modulo 2 di cui ai punti 2.3, 2.4 e 2.5;
 ✓ almeno 2 delle prove per il modulo 3 di cui ai punti 3.3, 3.4 e 3.5;
 ✓ almeno 3 delle prove per il modulo 4 di cui ai punti 4.3, 4.4 e 4.5.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -9922,8 +9922,8 @@ pratico.
 Pag. 54 a 138
 8.3.4 Corso di formazione teorico -pratici per lavoratori addetti alla conduzione di carrelli
 elevatori semoventi con conducente a bordo
-Per l’utilizzo di carrelli elevatori semoventi con conducente a bordo è necessario il possesso da
-parte dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di carrelli elevatori semoventi con conducente a bordo è necessario il possesso da
+parte dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (8
 ore)
@@ -9936,19 +9936,19 @@ sicurezza
 1.1 Tipologie e caratteristiche dei vari tipi di veicoli per il
 trasporto interne: dai transpallet manuali ai carrelli
 elevatori frontali a contrappeso.
-1.2 Principali rischi connessi all’impiego di carrelli semoventi:
+1.2 Principali rischi connessi all'impiego di carrelli semoventi:
 caduta del carico, rovesciamento, ribaltamento, urti delle
 persone con il carico o con elementi mobili del carrello,
-rischi legati all’ambiente (ostacoli, linee elettriche, ecc.),
-rischi legati all’uso delle diverse forme di energia
+rischi legati all'ambiente (ostacoli, linee elettriche, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.).
 1.3 Nozioni elementari di fisica: nozioni di base per la
 valutazione dei carichi movimentati, condizioni di
 equilibrio di un corpo. Stabilità (concetto del baricentro
 del carico e della leva di primo grado). Linee di
 ribaltamento. Stabilità statica e dinamica e influenza
-dovuta alla mobilità del carrello e dell’ambiente di lavoro
-(forze centrifughe e d’inerzia). Portata del carrello
+dovuta alla mobilità del carrello e dell'ambiente di lavoro
+(forze centrifughe e d'inerzia). Portata del carrello
 elevatore.
 1.4 Tecnologia dei carrelli semoventi: terminologia,
 caratteristiche generali e principali componenti.
@@ -9960,7 +9960,7 @@ sollevamento (simplex - duplex - triplex - quadruplex ecc.,
 ad alzata libera e non). Posto di guida con descrizione del
 sedile, degli organi di comando (leve, pedali, piantone
 sterzo e volante, freno di stazionamento, interruttore
-generale a chiave, interruttore d’emergenza), dei
+generale a chiave, interruttore d'emergenza), dei
 dispositivi di segnalazione (clacson, beep di retromarcia,
 segnalatori luminosi, fari di lavoro, ecc.) e controllo
 (strumenti e spie di funzionamento). Freni (freno di
@@ -9969,7 +9969,7 @@ gommature: differenze per i vari tipi di utilizzo, ruote
 sterzanti e motrici. Fonti di energia (batterie di
 accumulatori o motori endotermici). Contrappeso.
 1.6 Sistemi di ricarica batterie: raddrizzatori e sicurezze circa
-le modalità di utilizzo anche in relazione all’ambiente.
+le modalità di utilizzo anche in relazione all'ambiente.
 1.7 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
@@ -9992,7 +9992,7 @@ utilizzo in sicurezza
 periodiche (stato generale e prove, montanti,
 attrezzature, posto di guida, freni, ruote e sterzo, batteria
 o motore, dispositivi di sicurezza). Illustrazione
-dell’importanza di un corretto utilizzo dei man uali di uso
+dell'importanza di un corretto utilizzo dei man uali di uso
 e manutenzione a corredo del carrello.
 1.10 Modalità di utilizzo in sicurezza dei carrelli semoventi:
 procedure di movimentazione. Segnaletica di sicurezza
@@ -10000,14 +10000,14 @@ nei luoghi di lavoro. Procedure di sicurezza durante la
 movimentazione e lo stazionamento del mezzo. Viabilità:
 ostacoli, percorsi pedonali, inc roci, strettoie, portoni,
 varchi, pendenze, ecc.
-1.11 Lavori in condizioni particolari ovvero all’esterno, su
+1.11 Lavori in condizioni particolari ovvero all'esterno, su
 terreni scivolosi e su pendenze e con scarsa visibilità.
 Nozioni di guida. Norme sulla circolazione,
 movimentazione dei carichi, stoccaggio, ecc.
 1.12 Nozioni sui possibili rischi per la salute e la sicurezza
 collegati alla guida del carrello ed in particolare ai rischi
 riferibili:
-a. all’ambiente di lavoro;
+a. all'ambiente di lavoro;
 b. al rapporto uomo/macchina;
 c. allo stato di salute del guidatore.
 1.13 Nozioni sulle modalità tecniche, organizzative e
@@ -10024,8 +10024,8 @@ industriali semoventi
 (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -10042,8 +10042,8 @@ semoventi a braccio
 telescopico (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -10062,8 +10062,8 @@ telescopici rotativi (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -10099,8 +10099,8 @@ atori semoventi
 telescopici rotativi.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 a. Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -10124,8 +10124,8 @@ sollevamento di carichi
 sospesi e di persone ( 6
 ore)
 - Far acquisire le competenze
-necessarie per l’utilizzo in
-sicurezza dell’attrezzatura
+necessarie per l'utilizzo in
+sicurezza dell'attrezzatura
 di lavoro e le relative
 procedure operative in caso
 di adozione di dispositivi che
@@ -10142,7 +10142,7 @@ collegamento al carrello, di eventual i dispositivi di
 sicurezza aggiuntivi connessi alle nuove funzioni.
 6.2 Manutenzione e verifiche giornaliere e periodiche di legge
 e secondo quanto indicato nelle istruzioni di uso del
-carrello o delle istruzioni dell’attrezzatura intercambiabile
+carrello o delle istruzioni dell'attrezzatura intercambiabile
 6.3 Guida del carrello con funzioni di sollevamento di carichi
 sospesi su percorso di prova per evidenziare le corrette
 manovre a vuoto e a carico (corretta posizione sul carrello,
@@ -10154,10 +10154,10 @@ percorso di prova per evidenziare le corrette manovre
 piattaforma in quota, manovre di emergenza per il
 recupero a terra della piattaforma, tr asporto nelle varie
 situazioni, sosta del carrello, ecc.).
-L’operatore che effettua il modulo di cui al punto 6 (carrelli con funzioni aggiuntive di
+L'operatore che effettua il modulo di cui al punto 6 (carrelli con funzioni aggiuntive di
 sollevamento carichi sospesi e sollevamento persone) non deve effettuare la formazione prevista
 per le piattaforme mobili elevabili e per le gru mobili e per la conduzione del carrello con
-applicato l’accessorio destinato al sollevamento di carichi sospesi e/o persone.
+applicato l'accessorio destinato al sollevamento di carichi sospesi e/o persone.
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -10165,7 +10165,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove:
+finale, consistente nell'esecuzione di almeno 2 delle prove:
 
 
 ## Pagina 195
@@ -10176,7 +10176,7 @@ Pag. 57 a 138
 ✓ per il modulo 4 di cui ai punti 4.2 e 4.3;
 ✓ per il modulo 5 di cui ai punti 5.2 e 5.3.
 ✓ per il modulo 6 di cui ai punti 6.2, 6.3 e 6.4
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -10184,7 +10184,7 @@ pratico.
 
 Pag. 58 a 138
 8.3.5 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di gru mobili
-Per l’utilizzo di gru mobili è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di gru mobili è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Gru mobili autocarrate e semoventi su ruote con braccio telescopico o tralicciato ed eventuale
 falcone fisso.
@@ -10195,8 +10195,8 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i rischi connessi
-con l’utilizzo
-dell’attrezzatura di lavoro
+con l'utilizzo
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Terminologia, caratteristiche delle diverse tipologie di gru
@@ -10204,13 +10204,13 @@ mobili, loro movimenti e loro equipaggiamenti di
 sollevamento.
 1.2 Principali rischi e loro cause:
 a. Caduta o perdita del carico;
-b. Perdita di stabilità dell’apparecchio;
+b. Perdita di stabilità dell'apparecchio;
 c. Investimento di persone da parte del carico o
-dell’apparecchio;
-d. Rischi connessi con l’ambiente (caratteristiche del
+dell'apparecchio;
+d. Rischi connessi con l'ambiente (caratteristiche del
 terreno, presenza di vento, ostacoli, linee elettriche,
 ecc.);
-e. Rischi connessi con l’energia di alimentazione utilizzata
+e. Rischi connessi con l'energia di alimentazione utilizzata
 (elettrica, idraulica, pneumatica);
 f. Rischi particolari connessi con utilizzazioni speciali
 (lavori marittimi o fluviali, lavori ferroviari, ecc.);
@@ -10233,8 +10233,8 @@ ed il ripiegamento della gru.
 1.11 Segnaletica gestuale.
 2. Parte Pratica (7 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi della gru per il suo
@@ -10247,7 +10247,7 @@ comando, delle funi e dei componenti.
 spostamento.
 2.4 Procedure per la messa in opera e il rimessaggio di
 accessori, bozzelli, stabilizzatori, contrappesi, jib, ecc.
-2.5 Esercitazioni di pianificazione dell’operazione di
+2.5 Esercitazioni di pianificazione dell'operazione di
 sollevamento tenendo conto delle condizioni del sito di
 
 
@@ -10268,7 +10268,7 @@ elevazione appropriate;
 estensione, rotazione, ecc.) singole e combinate e
 spostamento con la gru nelle configurazioni consentite.
 2.9 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del
+rotazione, dell'oscillazione, degli urti e del
 posizionamento del carico.
 2.10 Traslazione con carico sospeso con gru mobili su
 pneumatici.
@@ -10288,11 +10288,11 @@ speciali.
 posizionamento dei carichi in posizioni visibili e non
 visibili.
 2.18 Prove di comunicazione con segnali gestuali e via radio.
-2.19 Esercitazioni sull’uso sicuro, prove, manutenzione e
+2.19 Esercitazioni sull'uso sicuro, prove, manutenzione e
 situazioni di emergenza (procedure di avvio e arresto, fuga
 sicura, ispezioni regolari e loro registrazioni, tenuta del
 registro di controllo, controlli giornalieri richiesti dal
-manuale d’uso, controll i pre -operativi quali: ispezioni
+manuale d'uso, controll i pre -operativi quali: ispezioni
 visive, lubrificazioni, controllo livelli, prove degli
 indicatori, allarmi, dispositivi di avvertenza,
 strumentazione).
@@ -10303,8 +10303,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine d el modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -10318,7 +10318,7 @@ Modulo Aggiuntivo Obiettivi formativi Contenuti del Modulo
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Principali caratteristiche e componenti delle gru mobili
@@ -10339,8 +10339,8 @@ ed il ripiegamento della gru con falcone telescopico o
 brandeggiabile.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi della gru con falcone
@@ -10365,7 +10365,7 @@ brandeggiabile senza carico (sollevamento, estensione,
 rotazione, ecc.) singole e combinate e spostamento con la
 gru nelle configurazioni consentite.
 2.8 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del
+rotazione, dell'oscillazione, degli urti e del
 posizionamento del carico.
 2.9 Traslazione con carico sospeso con gru con falcone
 telescopico o brandeggiabile su pneumatici.
@@ -10389,8 +10389,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -10399,9 +10399,9 @@ pratico.
 Pag. 62 a 138
 8.3.6 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di trattori
 agricoli o forestali
-Per l’utilizzo di trattori agricoli o forestali è necessario il possesso da parte dell’operatore di
+Per l'utilizzo di trattori agricoli o forestali è necessario il possesso da parte dell'operatore di
 almeno una delle seguenti abilitazioni.
-Il possesso dell’abilitazione di cui al presente allegato esonera nell’ambito dei lavori agricoli e
+Il possesso dell'abilitazione di cui al presente allegato esonera nell'ambito dei lavori agricoli e
 forestali, in caso di montaggio di attrezzi sui trattori agricoli e forestali per elevare o sollevare
 carichi, scavare, livellare, livellare asportare super fici, aprire piste o sgombraneve, dal possesso
 di altre abilitazioni previste dal presente accordo.
@@ -10410,7 +10410,7 @@ Modulo Obiettivi formativi Contenuti del Modulo
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di trattori: i vari tipi di trattori a ruote e a cingoli
@@ -10423,14 +10423,14 @@ impianto idraulico, impianto elettrico.
 1.3 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali.
 1.5 DPI specifici da utilizzare con i trattori: dispositivi di
-protezione dell’udito, dispositivi di protezione delle vie
+protezione dell'udito, dispositivi di protezione delle vie
 respiratorie, indumenti di protezione contro il contatto da
 prodotti antiparassitari, ecc.
 1.6 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo dei trattori
+valutazione dei rischi più ricorrenti nell'utilizzo dei trattori
 (rischio di capovolgimento e stabilità statica e dinamica,
 contatti non intenzionali con organi in movimento e con
 superfici calde, rischi dovuti alla mobilità, ecc.).
@@ -10446,8 +10446,8 @@ Modulo Obiettivi formativi Contenuti del Modulo
 a ruote (5 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti principali: struttura
@@ -10493,7 +10493,7 @@ d. guida del trattore in condizioni di carico anteriore
 caratteristiche tecniche compatibili con il trattore);
 e. guida del trattore in condizioni di carico posteriori.
 2.6 Messa a riposo del trattore: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato.
 
 
@@ -10505,8 +10505,8 @@ Modulo Obiettivi formativi Contenuti del Modulo
 a cingoli (5 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali: struttura
@@ -10543,7 +10543,7 @@ c. guida del trattore in condizioni di carico laterale (es.
 lavorazione con decespugliatore a braccio articolato);
 d. guida del trattore in condizioni di carico posteriore.
 3.6 Messa a riposo del trattore: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
@@ -10552,10 +10552,10 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove:
+finale, consistente nell'esecuzione di almeno 2 delle prove:
 ✓ per il modulo 2 di cui ai punti 2.5.2;
 ✓ per il modulo 3 di cui ai punti 3.5.2.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -10564,14 +10564,14 @@ pratico.
 Pag. 65 a 138
 8.3.7 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di escavatori,
 pale caricatrici frontali, terne e autoribaltabili a cingoli
-Per l’utilizzo di escavatori, pale caricatrici frontali e terne è necessario il possesso da parte
-dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di escavatori, pale caricatrici frontali e terne è necessario il possesso da parte
+dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di attrezzature: I vari tipi di macchine
@@ -10586,9 +10586,9 @@ attrezzature oggetto del corso).
 1.3 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
-Visibilità dell’attrezzatura e identificazione delle zone
+Visibilità dell'attrezzatura e identificazione delle zone
 cieche, sistemi di accesso.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali ad inizio ciclo di lavoro.
 1.5 Modalità di utilizzo in sicurezza e rischi: analisi e
 valutazione dei rischi più ricorrenti nel ciclo base delle
@@ -10597,9 +10597,9 @@ e dinamica, contatti non intenzionali con organi in
 movimento e con superfici calde, rischi dovuti alla
 mobilità, ecc.). Avviamento, spostamento, azionamenti,
 manovre, operazioni con le principali attrezzature di
-lavoro. Precauzioni da adottare sull’organizzazione
-dell’area di scavo o lavoro.
-1.6 Modalità di utilizzo dell’escavatore nella configurazione di
+lavoro. Precauzioni da adottare sull'organizzazione
+dell'area di scavo o lavoro.
+1.6 Modalità di utilizzo dell'escavatore nella configurazione di
 apparecchio di sollevamento.
 1.7 Protezione nei confronti degli agenti fisici: rumore,
 vibrazioni al corpo intero ed al sistema mano-braccio.
@@ -10608,8 +10608,8 @@ escavatori idraulici (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali: struttura
@@ -10629,7 +10629,7 @@ movimentazione carichi, manovra di agganci rapidi per
 attrezzi.
 2.5 Esercitazioni di pratiche operative: tecniche di manovra e
 gestione delle situazioni di pericolo.
-2.5.1 Guida dell’escavatore ruotato su strada. Le
+2.5.1 Guida dell'escavatore ruotato su strada. Le
 esercitazioni devono prevedere:
 
 
@@ -10639,7 +10639,7 @@ Pag. 66 a 138
 a. predisposizione del mezzo e posizionamento organi
 di lavoro;
 b. guida con attrezzature.
-2.5.2 Uso dell’escavatore in campo. Le esercitazioni
+2.5.2 Uso dell'escavatore in campo. Le esercitazioni
 devono prevedere
 a. esecuzione di manovre di scavo e riempimento;
 b. accoppiamento attrezzature in piano e no;
@@ -10648,17 +10648,17 @@ d. operazioni di movimentazione carichi di precisione;
 e. aggancio di attrezzature speciali e loro impiego;
 f. aggancio di attrezzature per il sollevamento
 materiali a mezzo di ganci, polipi o pinze.
-2.6 Messa a riposo e trasporto dell’escavatore: parcheggio e
+2.6 Messa a riposo e trasporto dell'escavatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato. Salita sul carrellone di trasporto.
+l'utilizzo non autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento.
 3. Parte Pratica per
 escavatori a fune (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali: struttura
@@ -10677,29 +10677,29 @@ pendenza a vuoto ed a carico nominale. Operazioni di
 movimentazione carichi.
 3.5 Esercitazioni di pratiche operative: tecniche di manovra e
 gestione delle situazioni di pericolo.
-3.5.1 Guida dell’escavatore a ruote su strada. Le
+3.5.1 Guida dell'escavatore a ruote su strada. Le
 esercitazioni devono prevedere:
 a. predisposizione del mezzo e posizionamento organi
 di lavoro;
 b. guide con attrezzature.
-3.5.2 Uso dell’escavatore in campo. Le esercitazioni
+3.5.2 Uso dell'escavatore in campo. Le esercitazioni
 devono prevedere:
 a. manovre di scavo e riempimento;
 b. accoppiamento attrezzature;
 c. operazioni di movimentazione carichi di precisione;
 d. aggancio di attrezzature speciali (benna mordente,
 magnete, ecc.) e loro impiego.
-3.6 Messa a riposo e trasporto dell’escavatore: parcheggio e
+3.6 Messa a riposo e trasporto dell'escavatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato. Salita sul carrellone di trasporto.
+l'utilizzo non autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento.
 4. Parte Pratica
 caricatori frontali (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Individuazione dei componenti strutturali: struttura
@@ -10735,13 +10735,13 @@ b. movimentazione carichi pesanti;
 c. use con forche o pinta.
 4.6 Messa a riposo e trasporto del caricatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato
+l'utilizzo non autorizzato
 5. Parte Pratica terne
 (6 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 5.1 Individuazione dei componenti strutturali: struttura
@@ -10779,7 +10779,7 @@ g. aggancio di attrezzature per il sollevamento materiali
 a mezzo di ganci, polipi o pinze.
 5.6 Messa a riposo e trasporto della terna: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni
-contro l’utilizzo non autorizzato
+contro l'utilizzo non autorizzato
 
 
 ## Pagina 206
@@ -10790,8 +10790,8 @@ autoribaltabili a cingoli
 (6 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 6.1 Individuazione dei componenti strutturali: struttura
@@ -10803,7 +10803,7 @@ identificazione dei dispositivi di comando e loro
 funzionamento, identificazione dei dispositivi di sicurezza
 e loro funzione.
 6.3 Controlli pre -utilizzo: controlli visivi e funzionali
-dell’autoribaltabile, dei dispositivi di comando e di
+dell'autoribaltabile, dei dispositivi di comando e di
 sicurezza.
 6.4 Pianificazione delle operazioni di caricamento,
 scaricamento e spargimento materiali: pendenze,
@@ -10816,13 +10816,13 @@ prevedere:
 a) predisposizione del mezzo e posizionamento organi di
 lavoro;
 b) guida a pieno carico
-6.5.2 Uso dell’autoribaltabile in campo. Le esercitazioni
+6.5.2 Uso dell'autoribaltabile in campo. Le esercitazioni
 devono prevedere:
 a) manovre di scaricamento;
 b) manovre di spargimento.
-6.6 Messa a riposo dell’autoribaltabile: parcheggio e
+6.6 Messa a riposo dell'autoribaltabile: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contra
-l’utilizzo non autorizzato
+l'utilizzo non autorizzato
 7. Parte Pratica per
 escavatori idraulici,
 caricatori frontali e
@@ -10834,8 +10834,8 @@ idraulici, caricatori
 frontali e terne.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 7.1 Individuazione dei componenti strutturali: struttura
@@ -10883,7 +10883,7 @@ h) aggancio di attrezzature per il sollevamento materiali a
 mezzo di ganci, polipi o pinze.
 7.6 Messa a riposo e trasporto degli escavatori idraulici, dei
 caricatori frontali e delle terne: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento
 Verifica
@@ -10894,15 +10894,15 @@ prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
 finale, consistente
-• nell’esecuzione di almeno 2 delle prove:
+- nell'esecuzione di almeno 2 delle prove:
 ✓ per il modulo 2 di cui ai punti 2.5.2;
 ✓ per il modulo 3 di cui ai punti 3.5.2;
 ✓ per il modulo 4 di cui ai punti 4.5.2;
 ✓ per il modulo 5 di cui ai punti 5.5.2;
 ✓ per il modulo 6 di cui ai punti 6.5.2.
-• nell’esecuzione di almeno 3 delle prove:
+- nell'esecuzione di almeno 3 delle prove:
 ✓ per il modulo 7 di cui ai punti 7.5.2.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -10911,14 +10911,14 @@ pratico.
 Pag. 70 a 138
 8.3.8 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di pompe per
 calcestruzzo
-Per l’utilizzo di pompe per calcestruzzo è necessario il possesso da parte dell’operatore di almeno
+Per l'utilizzo di pompe per calcestruzzo è necessario il possesso da parte dell'operatore di almeno
 una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (7
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di pompe: i vari tipi di pompe e descrizione delle
@@ -10928,11 +10928,11 @@ livellamento, telaio.
 1.3 Dispositivi di comando e di sicurezza: individuazione dei
 dispositivi di comando e loro funzionamento,
 individuazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali, dei dispositivi di comando, di segnalazione e di
 sicurezza previsti dal costruttore nel manuale di istruzioni.
 1.5 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi ricorrenti nell’utilizzo delle pompe
+valutazione dei rischi ricorrenti nell'utilizzo delle pompe
 (rischi di elettrocuzione, rischi ambientali, rischi dovuti ad
 urti e cadute a livello, rischio di schiacciamento, ecc.).
 1.6 Spostamento e traslazione, posizionamento e
@@ -10942,7 +10942,7 @@ modo sicuro a fine lavoro.
 accesso al cantiere: caratteristiche tecniche del mezzo;
 controlli preliminari alla partenza; modalità di salita sul
 mezzo; norme di comportamento sulla viabilità ordinaria;
-norme di comportamento nell’accesso e transito in
+norme di comportamento nell'accesso e transito in
 sicurezza in cantiere; DPI da utilizzare.
 1.8 Norme di comportamento per le operazioni preliminari
 allo scarico: controlli su tubazioni e giunti; piazzamento e
@@ -10963,8 +10963,8 @@ tubazioni di mandata, del sistema di pompaggio e della
 tramoggia
 2. Parte Pratica (7 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali: sistemi di
@@ -10990,10 +10990,10 @@ sul percorso e in quota, condizioni del terreno.
 2.6 Norme di comportamento sulla viabilità ordinaria.
 2.7 Controllo idoneità sito di scarico calcestruzzo:
 costatazione di presenza di terreno cedevole,
-dell’idoneità della distanza da eventuali scavi, idoneità
+dell'idoneità della distanza da eventuali scavi, idoneità
 pendenza terreno.
 2.8 Posizionamento e stabilizzazione del mezzo: delimitazione
-dell’area di lavoro, segnaletica da predisporre su strade
+dell'area di lavoro, segnaletica da predisporre su strade
 pubbliche, piazzamento mediante stabilizzatori laterali e
 bolla di livello in modalità standard e con appoggio
 supplementare per terreno di modesta portanza.
@@ -11014,7 +11014,7 @@ radiocomando per raggiungere il sito di scarico
 presenza di linee elettriche, in prossimità di vie di traffico:
 precauzioni da adottare.
 2.16 Inizio della pompata: simulazione metodologia di sblocco
-dell’intasamento della pompa in fase di partenza.
+dell'intasamento della pompa in fase di partenza.
 2.17 Pompaggio del calcestruzzo: precauzioni da adottare.
 2.18 Chiusura braccio: precauzioni da adottare.
 2.19 Pulizia ordinaria del mezzo al termine dello scarico:
@@ -11024,7 +11024,7 @@ riassetto finale.
 tubazioni di mandata, del sistema di pompaggio e della
 tramoggia.
 2.21 Messa a riposo della pompa a fine lavoro: parcheggio in
-area idonea, precauzioni contro l’utilizzo non autorizzato
+area idonea, precauzioni contro l'utilizzo non autorizzato
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -11032,7 +11032,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove di cui alla parte pratica concernente i
+consistente nell'esecuzione di almeno 2 delle prove di cui alla parte pratica concernente i
 seguenti argomenti:
 
 
@@ -11040,13 +11040,13 @@ seguenti argomenti:
 
 Pag. 72 a 138
 ✓ spostamento e stabilizzazione della pompa sulla postazione di impiego (Controlli
-pre-utilizzo – Controlli prima del trasferimento su strada - Pianificazione del percorso
+pre-utilizzo - Controlli prima del trasferimento su strada - Pianificazione del percorso
 - Posizionamento e stabilizzazione del mezzo - Controllo idoneità sito di scarico
 calcestruzzo - Messa a riposo della pompa a fine lavoro);
 ✓ effettuazione manovra di: salita, discesa, rotazione, accostamento pompa alla
 posizione di lavoro;
-✓ simulazione di sblocco dell’intasamento della pompa in fase di partenza.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+✓ simulazione di sblocco dell'intasamento della pompa in fase di partenza.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -11055,7 +11055,7 @@ pratico.
 Pag. 73 a 138
 8.3.9 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di macchina
 agricola raccoglifrutta (comunemente detta carro raccoglifrutta CRF)
-Per l’utilizzo di carri raccogli frutta (CRF) è necessario il possesso da parte dell’operatore di
+Per l'utilizzo di carri raccogli frutta (CRF) è necessario il possesso da parte dell'operatore di
 almeno una delle seguenti abilitazioni.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -11072,8 +11072,8 @@ valutazione dei carichi movimentati, condizioni di
 equilibrio di un corpo. Stabilità (concetto del baricentro
 del carico e della leva di primo grado). Linee di
 ribaltamento. Stabilità statica e dinamica e influenza
-dovuta all a mobilit à del CRF e dell’ambiente di lavoro
-(forze centrifughe e d’inerzia). Portata del CRF.
+dovuta all a mobilit à del CRF e dell'ambiente di lavoro
+(forze centrifughe e d'inerzia). Portata del CRF.
 1.3 Componenti strutturali: sistemi di stabilizzazione,
 livellamento, telaio, struttura a pantografo/braccio
 elevabile, piattaforma di lavoro e relative mensole,
@@ -11093,7 +11093,7 @@ ecc.).
 periodiche (stato generale e prove, montanti,
 attrezzature, posto di guida, freni, ruote e sterzo, batteria
 o motore, dispositivi di sicurezza). Illustrazione
-dell’importanza di un corretto utilizzo dei man uali di uso
+dell'importanza di un corretto utilizzo dei man uali di uso
 e manutenzione a corredo del carrello.
 1.7 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali.
@@ -11107,7 +11107,7 @@ parcheggio in modo sicuro a fine lavoro.
 movimentazione. Procedure di sicurezza durante la
 movimentazione e lo stazionamento del mezzo. Viabilità:
 ostacoli, incroci, strettoie, portoni, varchi, pendenze, ecc.
-Lavori in condizioni particolari ovvero all’esterno, su
+Lavori in condizioni particolari ovvero all'esterno, su
 terreni scivolosi e su pendenze e con scarsa visibilità.
 Nozioni di guida. Norme sulla circolazione,
 movimentazione dei carichi, stoccaggio, ecc. Nozioni sui
@@ -11118,7 +11118,7 @@ movimentazione dei carichi, stoccaggio, ecc. Nozioni sui
 Pag. 74 a 138
 possibili rischi per la salute e la sicurezza collegati alla
 guida del CRF ed in particolare ai rischi riferibili:
-a) all’ambiente di lavoro;
+a) all'ambiente di lavoro;
 b) al rapporto uomo/macchina;
 c) allo stato di salute del guidatore.
 Nozioni sulle modalità tecniche, organizzative e
@@ -11128,8 +11128,8 @@ i rischi.
 emergenza.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali del CRF: sistemi
@@ -11170,7 +11170,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove di cui alla parte pratica concernenti i
+consistente nell'esecuzione di almeno 2 delle prove di cui alla parte pratica concernenti i
 seguenti argomenti:
 ✓ movimentazione e posizionamento del CRF: Controlli pre -utilizzo, verifica del
 percorso, corretto apprestamento, simulazione delle manovre, messa a riposo dei
@@ -11184,7 +11184,7 @@ Pag. 75 a 138
 piattaforma alla posizione di lavoro, carico e scarico del prodotto raccolto;
 ✓ simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento in
 caso di guasti).
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -11193,8 +11193,8 @@ pratico.
 Pag. 76 a 138
 8.3.10 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di caricatori
 per la movimentazione di materiali (CMM)
-Per l’utilizzo di caricatori per la movimentazione di materiali (CMM ) è necessario il possesso da
-parte dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di caricatori per la movimentazione di materiali (CMM ) è necessario il possesso da
+parte dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
@@ -11202,22 +11202,22 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i componenti e i
-dispositivi dell’attrezzatura
+dispositivi dell'attrezzatura
 di lavoro
 1.1 Terminologia, caratteristiche delle diverse tipologie di
 caricatori, loro movimenti e loro dispositivi di
 sollevamento.
-1.2 Principali rischi connessi all’impiego di caricatori: caduta
+1.2 Principali rischi connessi all'impiego di caricatori: caduta
 del carico, rovesciamento, ribaltamento, urti delle
 persone con il carico o con elementi del caricatore, rischi
-legati all’ambiente (ostacoli, linee elettriche, ecc.), rischi
-legati all’uso delle diverse forme di energia (elettrica,
+legati all'ambiente (ostacoli, linee elettriche, ecc.), rischi
+legati all'uso delle diverse forme di energia (elettrica,
 idraulica, ecc.), rischio di investimento di persone da parte
-del carico o dell’apparecchio;
+del carico o dell'apparecchio;
 1.3 Nozioni elementari di fisica per poter stimare la massa di
 un carico e apprezzare le condizioni di equilibrio di un
 corpo. Stabilità statica e dinamica e influenza dovuta alla
-mobilità del carrello e dell’ambiente di lavoro.
+mobilità del carrello e dell'ambiente di lavoro.
 1.4 Componenti principali: organi di presa, meccanismo di
 rotazione. Stazione di comando con descrizione del sedile,
 dei dispositivi di comando, dei dispositivi di
@@ -11236,8 +11236,8 @@ costruttore.
 1.9 Segnaletica gestuale.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi del caricatore per il suo
@@ -11249,7 +11249,7 @@ comando e dei principali componenti, in base alle
 indicazioni fornite dal fabbricante
 2.4 Approntamento del caricatore per il trasporto o lo
 spostamento.
-2.5 Esercitazioni di pianificazione dell’operazione di
+2.5 Esercitazioni di pianificazione dell'operazione di
 sollevamento tenendo conto delle condizioni del sito di
 lavoro, della configurazione del braccio, del carico da
 movimentare, ecc.
@@ -11271,7 +11271,7 @@ estensione, rotazione, ecc.) singole e combinate e
 spostamento con il caricatore nelle configurazioni
 consentite.
 2.8 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del posizionamento
+rotazione, dell'oscillazione, degli urti e del posizionamento
 del carico.
 2.9 Traslazione con carico sospeso con macchina su
 pneumatici.
@@ -11290,11 +11290,11 @@ speciali.
 2.16 Manovre di precisione per il sollevamento, il rilascio ed il
 posizionamento dei carichi in posizioni visibili e non visibili.
 2.17 Prove di comunicazione con segnali gestuali e via radio.
-2.18 Esercitazioni sull’uso sicuro, prove, manutenzione e
+2.18 Esercitazioni sull'uso sicuro, prove, manutenzione e
 situazioni di emergenza (procedure di avvio e arresto, fuga
 sicura, ispezioni regolari e loro registrazioni, tenuta del
 registro di controllo, controlli giornalieri richiesti dal
-manuale d’uso, controll i pre -operativi quali: ispezioni
+manuale d'uso, controll i pre -operativi quali: ispezioni
 visive, lubrificazioni, controllo livelli, prove degli indicatori,
 allarmi, dispositivi di avvertenza, strumentazione).
 Verifica
@@ -11304,8 +11304,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -11313,11 +11313,11 @@ pratico.
 
 Pag. 78 a 138
 8.3.11 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di carriponte
-Per l’utilizzo di carriponte (CP) è necessario il possesso da parte dell’operatore di almeno una
+Per l'utilizzo di carriponte (CP) è necessario il possesso da parte dell'operatore di almeno una
 delle seguenti abilitazioni.
 Il modulo pratico è distinto per le diverse tipologie di comando, distinguendo tra comando
 pensile/radiocomando e comando in cabina, per la durata, per ciascuna tipologia di comando,
-della durata di 6 ore. L’abilitazione per tutte le tipologie comporta un modulo pratico di 7 ore.
+della durata di 6 ore. L'abilitazione per tutte le tipologie comporta un modulo pratico di 7 ore.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
@@ -11325,7 +11325,7 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i componenti e i
-dispositivi dell’attrezzatura
+dispositivi dell'attrezzatura
 di lavoro
 1.1 Terminologia, tipologie di carroponte e gru a cavalletto,
 movimenti e dispositivi di sollevamento.
@@ -11348,22 +11348,22 @@ anticollisione, limitatore di sollevamento, freno, luci di
 segnalazione per comando senza cavo, ecc.) e loro
 funzionamento e controllo.
 1.5 Modalità di utilizzo in sicurezza e principali rischi connessi
-all’impiego di carriponte/gru a cavalletto: caduta del
+all'impiego di carriponte/gru a cavalletto: caduta del
 carico, rischi legati alla fase di imbracatura del carico, urti
 delle persone con il carico o con elementi della macchina,
-rischi legati a ll’ambiente (ostacoli, altri carriponte, ecc.),
-rischi legati all’uso delle diverse forme di energia
+rischi legati a ll'ambiente (ostacoli, altri carriponte, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.), rischio di investimento di
-persone o cose da parte del carico o dell’apparecchio, od
-anche solo del gancio per movimenti “a v uoto” della
+persone o cose da parte del carico o dell'apparecchio, od
+anche solo del gancio per movimenti "a v uoto" della
 macchina, rischi derivanti da OPERAZIONI VIETATE come il
-“tiro obliquo”.
-1.6 L’installazione del carroponte/gru a cavalletto:
+"tiro obliquo".
+1.6 L'installazione del carroponte/gru a cavalletto:
 responsabilità e documentazione necessaria.
 1.7 Dispositivi di protezione individuale (D.P.I.) da utilizzare
 con il carroponte/gru a cavalletto
 1.8 Contenuti della documentazione e delle targhe
-segnaletiche apposte sulla macchina e nell’ambiente di
+segnaletiche apposte sulla macchina e nell'ambiente di
 lavoro.
 1.9 Procedure per la corretta imbracatura del carico e
 movimentazione dello stesso.
@@ -11386,8 +11386,8 @@ cavalletto con comando
 in cabina.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali del
@@ -11407,16 +11407,16 @@ e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di istruzioni
-dell’attrezzatura.
+dell'attrezzatura.
 2.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando in cabina.
 2.6 Valutazione della massa totale del carico, esecuzione delle
 manovre per la movimentazione del carico. Manovre per
-contrastare/limitare l’oscillazione dei carichi.
+contrastare/limitare l'oscillazione dei carichi.
 2.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 2.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -11430,8 +11430,8 @@ comando
 pensile/radiocomando
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali del
@@ -11450,7 +11450,7 @@ sicurezza e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di
-istruzioni dell’attrezzatura.
+istruzioni dell'attrezzatura.
 3.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando
@@ -11462,12 +11462,12 @@ pensile/radiocomando.
 Pag. 80 a 138
 3.6 Valutazione della massa totale del carico, esecuzione
 delle manovre per la movimentazione del carico.
-Manovre per contrastare/limitare l’oscillazione dei
+Manovre per contrastare/limitare l'oscillazione dei
 carichi. Uso dei comandi posti su comando
 pensile/radiocomando.
 3.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 3.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -11483,8 +11483,8 @@ e/o con comando in
 cabina.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Individuazione dei componenti strutturali del
@@ -11504,19 +11504,19 @@ sicurezza e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di
-istruzioni dell’attrezzatura.
+istruzioni dell'attrezzatura.
 4.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando
 pensile/radiocomando e comando in cabina.
 4.6 Valutazione della massa totale del carico, esecuzione
 delle manovre per la movimentazione del carico.
-Manovre per contrastare/limitare l’oscillazione dei
+Manovre per contrastare/limitare l'oscillazione dei
 carichi. Uso dei comandi posti su pulsantiera con
 comando pensile/radiocomando e comando in cabina.
 4.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 4.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -11535,55 +11535,55 @@ prova è propedeutico al passaggio dei moduli pratici specifici.
 Pag. 81 a 138
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
 ## Pagina 220
 
 Pag. 82 a 138
-PARTE III – CORSI DI AGGIORNAMENTO
-L’aggiornamento non deve essere inteso solo come un rispetto agli obblighi di legge, ma deve
-intraprendere un percorso di formazione continua, stabile nel tempo, nell’ottica del "lifelong
-learning" con l’obiettivo di aggiornare le competenze operative, le c apacità relazionali e quelle
+PARTE III - CORSI DI AGGIORNAMENTO
+L'aggiornamento non deve essere inteso solo come un rispetto agli obblighi di legge, ma deve
+intraprendere un percorso di formazione continua, stabile nel tempo, nell'ottica del "lifelong
+learning" con l'obiettivo di aggiornare le competenze operative, le c apacità relazionali e quelle
 relative al ruolo, tenendo conto anche dei cambiamenti normativi, tecnici ed organizzativi del
 contesto operativo.
-L’aggiornamento può essere ottemperato anche per mezzo della partecipazione a convegni o
+L'aggiornamento può essere ottemperato anche per mezzo della partecipazione a convegni o
 seminari, a condizione che essi trattino delle materie i cui contenuti siano coerenti con quanto
-sopra indicato, fatta eccezione per l’aggiornamento di cui ai punti 2.1,2.2, 7 e 8 della Parte II
+sopra indicato, fatta eccezione per l'aggiornamento di cui ai punti 2.1,2.2, 7 e 8 della Parte II
 (formazione specifica dei lavoratori, preposti, lavoratori, datori di lavoro e lavoratori autonomi
 che operano in ambienti sospetti di inquinamento o confinati, operatori addetti alla conduzione
-delle attrezzature di cui all’articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81/2008)
-L’aggiornamento, dunque, non deve essere di carattere generale o mera riproduzione di
+delle attrezzature di cui all'articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81/2008)
+L'aggiornamento, dunque, non deve essere di carattere generale o mera riproduzione di
 argomenti e contenuti già proposti nei corsi base.
-Al fine di rendere maggiormente dinamico l’apprendimento e di garantire un monitoraggio di
+Al fine di rendere maggiormente dinamico l'apprendimento e di garantire un monitoraggio di
 effettività sul processo di acquisizione delle competenze, possono essere altresì previste verifiche
 sul mantenimento delle competenze acquisite ne i pregressi percorsi formativi ed esperienziali.
 Una particolare attenzione nella pianificazione degli aggiornamenti dovrà essere prestata a lla
 rilevazione di nuovi bisogni formativi.
-Qualora la formazione costituisca a tutti gli effetti un titolo abilitativo all’esercizio della funzione
-esercitata – come a titolo esemplificativo, nel caso del RSPP/ASPP, del Coordinatore per la
-progettazione e per l’esecuzione, degli operatori addetti all’uso delle attrezzature di cui all’art.
+Qualora la formazione costituisca a tutti gli effetti un titolo abilitativo all'esercizio della funzione
+esercitata - come a titolo esemplificativo, nel caso del RSPP/ASPP, del Coordinatore per la
+progettazione e per l'esecuzione, degli operatori addetti all'uso delle attrezzature di cui all'art.
 73, comma 5, del d.lgs. n. 81/2008 per le quali è richiesta una specifica abilitazione, ecc. - tale
-funzione non è esercitabile se non viene completato l’aggiornamento previsto per i rispettivi
+funzione non è esercitabile se non viene completato l'aggiornamento previsto per i rispettivi
 corsi.
-L’assenza, nei limiti di 10 anni, della regolare frequenza ai corsi di aggiornamento non fa venir
+L'assenza, nei limiti di 10 anni, della regolare frequenza ai corsi di aggiornamento non fa venir
 meno il credito formativo maturato dalla regolare frequenza ai corsi abilitanti e il completamento
-dell’aggiornamento, pur se effettuato in ritardo, consente di ritornare ad eseguire la funzione
-esercitata. Gli RSPP, gli ASPP e i Coordinatori per la progettazione e per l’esecuzione, per poter
+dell'aggiornamento, pur se effettuato in ritardo, consente di ritornare ad eseguire la funzione
+esercitata. Gli RSPP, gli ASPP e i Coordinatori per la progettazione e per l'esecuzione, per poter
 esercitare la propria funzione, trascorsi i cinque anni dalla prima abilitazione, devono poter
-dimostrare, all’atto dell’affidamento dell’incarico, che nel quinquennio antecedente
-all’affidamento dell’incarico hanno partecipato a corsi di aggiornamento per un numero di ore
+dimostrare, all'atto dell'affidamento dell'incarico, che nel quinquennio antecedente
+all'affidamento dell'incarico hanno partecipato a corsi di aggiornamento per un numero di ore
 non inferiore a quello minimo previsto.
-Ai fini dell’aggiornamento delle diverse figure, la partecipazione a corsi di formazione finalizzati
-all’ottenimento e/o all’aggiornamento di qualifiche specifiche come quelle, a titolo meramente
+Ai fini dell'aggiornamento delle diverse figure, la partecipazione a corsi di formazione finalizzati
+all'ottenimento e/o all'aggiornamento di qualifiche specifiche come quelle, a titolo meramente
 esemplificativo e non esaustivo, dei dirigenti e dei preposti (ex art. 37 d.lgs. n. 81/2008), dei
-lavoratori incaricati dell’attuazione delle misure di prevenzione incendi e lotta a ntincendio, di
+lavoratori incaricati dell'attuazione delle misure di prevenzione incendi e lotta a ntincendio, di
 evacuazione dei luoghi di lavoro in caso di pericolo grave e immediato, di salvataggio, di primo
 soccorso e, comunque, di gestione delle emergenze di cui agli artt. 44, 45 e 46 del d.lgs. n.
 81/2008, non è da ritenersi valida
-Non è valida ai fini dell’aggiornamento la partecipazione ai moduli di cui ai seguenti punti
+Non è valida ai fini dell'aggiornamento la partecipazione ai moduli di cui ai seguenti punti
 ✓ punto 2.3 parte II (modulo aggiuntivo cantieri);
 ✓ punto 3 parte II (modulo aggiuntivo cantieri);
 ✓ punto 4 parte II (moduli tecnici-integrativi);
@@ -11595,7 +11595,7 @@ Non è valida ai fini dell’aggiornamento la partecipazione ai moduli di cui ai
 Pag. 83 a 138
 .
 Nel caso di convegni e seminari è richiesta la tenuta del registro di presenza dei partecipanti da
-parte del soggetto che realizza l’iniziativa e non vi è alcun vincolo sul numero massimo di
+parte del soggetto che realizza l'iniziativa e non vi è alcun vincolo sul numero massimo di
 partecipanti.
 1 LAVORATORI, PREPOSTI, DIRIGENTI E DATORE DI LAVORO
 Nel corso di aggiornamento si dovranno trattare significative evoluzioni e innovazioni,
@@ -11606,28 +11606,28 @@ esaustivo:
 - aggiornamenti su organizzazione e gestione della sicurezza in azienda;
 - fonti di rischio e relative misure di prevenzione.
 1.1 Lavoratori
-L’aggiornamento deve essere effettuato ogni qualvolta intervengono elementi modificativi in
+L'aggiornamento deve essere effettuato ogni qualvolta intervengono elementi modificativi in
 termini di esiti della valutazione dei rischi ovvero quando le risultanze delle verifiche di efficacia
 della formazione durante lo svolgimento della prestazione lavorativa ne evidenzino la necessità
 e comunque con una periodicità quinquennale di durata minima di 6 ore a decorrere dalla data
-di fine corso riportata nell’attestato.
-Nell’aggiornamento non è compresa la formazione relativa al trasferimento o cambiamento di
-mansioni o laddove l’introduzione di nuove attrezzature di lavoro o di nuove tecnologie, di nuove
+di fine corso riportata nell'attestato.
+Nell'aggiornamento non è compresa la formazione relativa al trasferimento o cambiamento di
+mansioni o laddove l'introduzione di nuove attrezzature di lavoro o di nuove tecnologie, di nuove
 sostanze e miscele pericolose comporti un cambiamento delle mansioni lavorative svolte.
 1.2 Preposti
-L’aggiornamento deve essere effettuato con cadenza biennale e comunque ogni qualvolta sia
-reso necessario in ragione dell’evoluzione dei rischi o all’insorgenza di nuovi rischi, con durata
+L'aggiornamento deve essere effettuato con cadenza biennale e comunque ogni qualvolta sia
+reso necessario in ragione dell'evoluzione dei rischi o all'insorgenza di nuovi rischi, con durata
 minima di 6 ore, in relazione ai propri compiti in materia di salute e sicurezza del lavoro. A titolo
 esemplificativo ma non esaustivo per cambiamenti del contesto si intendono: cambiamenti del
 reparto, modifiche dei processi produttivi, organizzativi, ecc..
-Nell’aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
-preposto esercita le funzioni di cui all’art. 19 del d.lgs. n. 81/2008 in relazione alle misure
+Nell'aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
+preposto esercita le funzioni di cui all'art. 19 del d.lgs. n. 81/2008 in relazione alle misure
 tecniche, organizzative e procedurali di prevenzione e protezione ado ttate a seguito della
 valutazione dei rischi dell'azienda.
 1.3 Dirigenti
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
 in relazione ai propri compiti in materia di salute e sicurezza del lavoro.
-Nell’aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
+Nell'aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
 dirigente opera in relazione alle misure tecniche, organizzative e procedurali di prevenzione e
 protezione adottate a seguito della valutazione dei rischi dell'azienda.
 
@@ -11636,36 +11636,36 @@ protezione adottate a seguito della valutazione dei rischi dell'azienda.
 
 Pag. 84 a 138
 1.4 Datore di lavoro
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
 in relazione ai propri compiti in materia di salute e sicurezza del lavoro.
-Qualora il datore di lavoro abbia frequentato il modulo aggiuntivo “Cantiere” e ne permangono
-le condizioni per lo stesso, l’aggiornamento dovrà riguardare anche le tematiche ivi previste.
+Qualora il datore di lavoro abbia frequentato il modulo aggiuntivo "Cantiere" e ne permangono
+le condizioni per lo stesso, l'aggiornamento dovrà riguardare anche le tematiche ivi previste.
 2 DATORE DI LAVORO CHE SVOLGE I COMPITI DEL SERVIZIO DI PREVENZIONE E PROTEZIONE
-L’aggiornamento deve essere effettuato con cadenza quinquennale, a decorrere dalla data di
+L'aggiornamento deve essere effettuato con cadenza quinquennale, a decorrere dalla data di
 conclusione del modulo comune, con durata minima di 8 ore, in relazione ai propri compiti in
 materia di salute e sicurezza del lavoro.
 Qualora il datore di lavoro abbia frequentato i moduli specialistici e ne permangono le condizioni
-per gli stessi, l’aggiornamento dovrà riguardare anche le tematiche ivi previste.
+per gli stessi, l'aggiornamento dovrà riguardare anche le tematiche ivi previste.
 3 RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE
-L’aggiornamento deve essere effettuato con cadenza quinquennale e decorrere dalla data di
+L'aggiornamento deve essere effettuato con cadenza quinquennale e decorrere dalla data di
 conclusione del Modulo B comune.
-Le ore minime complessive dell’aggiornamento sono fissate in base al ruolo svolto e sono
+Le ore minime complessive dell'aggiornamento sono fissate in base al ruolo svolto e sono
 rispettivamente:
 - ASPP: 20 ore
 - RSPP: 40 ore
-Il monte ore complessivo di aggiornamento potrà essere distribuito nell’arco temporale del
+Il monte ore complessivo di aggiornamento potrà essere distribuito nell'arco temporale del
 quinquennio.
 4 COORDINATORE PER LA SICUREZZA
-L’aggiornamento deve essere effettuato con cadenza quinquennale, con le stesse modalità
-previste per gli RSPP e le ore minime complessive dell’aggiornamento sono 40 ore.
+L'aggiornamento deve essere effettuato con cadenza quinquennale, con le stesse modalità
+previste per gli RSPP e le ore minime complessive dell'aggiornamento sono 40 ore.
 5 LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE OPERANO IN AMBIENTI
 SOSPETTI DI INQUINAMENTO O CONFINATI
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore
 relative alla parte pratica. Durante il corso di aggiornamento, è opportuno che il docente illustri
 eventuali modifiche normative e evoluzioni tecniche.
-6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI ALL’ARTICOLO 73,
+6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI ALL'ARTICOLO 73,
 COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008
-L’aggiornamento per rinnovare l’abilitazione deve essere effettuato con cadenza quinquennale
+L'aggiornamento per rinnovare l'abilitazione deve essere effettuato con cadenza quinquennale
 e con durata minima di 4 ore relative alla parte pratica. Durante il corso di aggiornamento, è
 opportuno che il docente illustri eventuali modifiche normative e evoluzioni tecniche.
 
@@ -11673,45 +11673,45 @@ opportuno che il docente illustri eventuali modifiche normative e evoluzioni tec
 ## Pagina 223
 
 Pag. 85 a 138
-PARTE IV – INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE,
+PARTE IV - INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE,
 EROGAZIONE E MONITORAGGIO DEI CORSI
-1 INDICAZIONI METODOLOGICHE PER L’ORGANIZZAZIONE E LA GESTIONE DEI CORSI PER I
+1 INDICAZIONI METODOLOGICHE PER L'ORGANIZZAZIONE E LA GESTIONE DEI CORSI PER I
 SOGGETTI FORMATORI
 La formazione sulla salute e sicurezza nei luoghi di lavoro presenta alcune caratteristiche che è necessario
-tenere presente da parte dei soggetti formatori nell’organizzazione e gestione dei percorsi formativi. Essa,
+tenere presente da parte dei soggetti formatori nell'organizzazione e gestione dei percorsi formativi. Essa,
 nelle sue varie articolazioni e tipologie di corso:
 - rientra nel contesto degli apprendimenti di tipo professionale non formali, cioè quelli che
 si realizzano al di fuori dei sistemi di apprendimento formale (Istruzione scolastica,
 Istruzione superiore e Università)
-- è caratterizzata dalla continuità dell’apprendimento durante l’intera vita lavorativa ( Life
-Long Learning) come affermato dall’obbligo periodico di aggiornamento per tutte le
+- è caratterizzata dalla continuità dell'apprendimento durante l'intera vita lavorativa ( Life
+Long Learning) come affermato dall'obbligo periodico di aggiornamento per tutte le
 figure che operano nei contesti lavorativi;
 - è rivolta prevalentemente ad adulti già avviati o da avviare ad attività lavorative.
-L’approccio metodologico deve essere di tipo “andragogico”, cioè un approccio
+L'approccio metodologico deve essere di tipo "andragogico", cioè un approccio
 focalizzato sui processi di apprendimento tipici degli adulti, i quali hanno fabbisogni
 formativi diversi, obblighi diversi e diversi modi di apprendimento rispetto ai discenti del
 sistema di istruzione formale.
 Tali aspetti trovano precisi riferimenti metodologici, operativi e organizzativi, sia a livello
 legislativo europeo e nazionale che di normazione volontaria, tutti orientati ad assicurare la
-qualità nei processi di produzione della formazione e l’efficacia della formazione.
+qualità nei processi di produzione della formazione e l'efficacia della formazione.
 Il principale riferimento è costituito dal quadro europeo EQAVET (Raccomandazione del
 Parlamento europeo e del Consiglio Europea del 18 giugno 2009 sull'istituzione di un quadro
 europeo di riferimento per la garanzia della qualità dell'istruzione e della f ormazione
-professionale) che raccomanda l’adozione di un ciclo di garanzia e di miglioramento
+professionale) che raccomanda l'adozione di un ciclo di garanzia e di miglioramento
 dell'istruzione e formazione professionale, sia a livello di sistema degli Stati membri che dei
 singoli soggetti erogatori della formazione che si articoli in pi anificazione, attuazione,
 valutazione/accertamento e revisione sulla base di criteri qualitativi, descrittori indicativi e
-indicatori comuni, compreso l'uso di strumenti di misura per fornire dati sull'efficacia. L’EQAVET
-inoltre pone l’accento sul monitor aggio e sul miglioramento della qualità, combinando
+indicatori comuni, compreso l'uso di strumenti di misura per fornire dati sull'efficacia. L'EQAVET
+inoltre pone l'accento sul monitor aggio e sul miglioramento della qualità, combinando
 valutazione interna ed esterna, revisione e processi di miglioramento, sulla base di misurazioni e
 di analisi qualitative.
 Attualmente è in fase evolutiva la convergenza dei criteri metodologici, organizzativi e gestionali
 previsti dalla Raccomandazione EQAVET e i meccanismi di accreditamento nazionali dei soggetti
 formatori mediante una politica di armonizzazione e integrazio ne, così come previsto dal Piano
 Nazionale per la garanzia di qualità del sistema di istruzione e formazione del 2017.
-Le indicazioni metodologiche per l’organizzazione e la gestione dei corsi riportate di seguito, fatta
+Le indicazioni metodologiche per l'organizzazione e la gestione dei corsi riportate di seguito, fatta
 eccezione dei punti 3.2, 3.3, 3.4, 3.5, 6.3 e 7, non si applicano ai Datori di Lavoro che organizzano
-ed erogano autonomamente, all’interno delle proprie aziende nei confronti dei propri lavoratori,
+ed erogano autonomamente, all'interno delle proprie aziende nei confronti dei propri lavoratori,
 la formazione sulla salute e sicurezza sul lavoro, ma esse possono trovare indicazioni utili per la
 gestione dei percorsi formativi di cui al presente accordo.
 
@@ -11719,12 +11719,12 @@ gestione dei percorsi formativi di cui al presente accordo.
 ## Pagina 224
 
 Pag. 86 a 138
-1.1 Approccio per processi nell’organizzazione e gestione della formazione su salute e
+1.1 Approccio per processi nell'organizzazione e gestione della formazione su salute e
 sicurezza nei luoghi di lavoro
-La qualità e l’efficacia della formazione in materia di salute e sicurezza sul lavoro non può
-prescindere dall’adozione di modelli organizzativi interni da parte dei soggetti formatori
-attraverso l’implementazione di un ciclo di garanzia della qualità e di miglioramento della stessa.
-L’approccio più idoneo, a garantire ciò, è quello basato sulla gestione di qualità dei processi di
+La qualità e l'efficacia della formazione in materia di salute e sicurezza sul lavoro non può
+prescindere dall'adozione di modelli organizzativi interni da parte dei soggetti formatori
+attraverso l'implementazione di un ciclo di garanzia della qualità e di miglioramento della stessa.
+L'approccio più idoneo, a garantire ciò, è quello basato sulla gestione di qualità dei processi di
 produzione della formazione, in termini di presidio e governo degli stessi. Il riferimento
 metodologico e concettuale per la ges tione di tali processi, più comunemente e largamente
 diffuso, è quello basato sul ciclo PDCA di Deming, che si esplicita in quattro fasi:
@@ -11749,7 +11749,7 @@ MIGLIORAMENTO
 Riesame e adozione di misure e interventi
 correttivi ai fini del miglioramento
 1.2 Analisi dei fabbisogni formativi e contesto
-L'analisi dei fabbisogni formativi costituisce la fase iniziale della elaborazione dell’azione
+L'analisi dei fabbisogni formativi costituisce la fase iniziale della elaborazione dell'azione
 formativa ed è finalizzata a fornire dati ed informazioni necessari alla progettazione formativa.
 L'analisi dei fabbisogni formativi nel campo della sicurezza e salute nei luoghi di lavoro si
 configura come analisi dei "fabbisogni professionali", volta ad individuare, in chiave formativa, le
@@ -11788,18 +11788,18 @@ salute e sicurezza sul lavoro poiché non si tratta di formazione generica, ma s
 alle specifiche mansioni e attività lavorative, come previsto dalla stessa legislazione in materia.
 Il livello di analisi dei fabbisogni e la contestualizzazione che il soggetto formatore dovrà
 affrontare in tale fase sarà diverso non solo rispetto alla tipologia di corsi ma anche alla tipologia
-di committenza. Infatti, la contestualizzazione e l’analisi avranno caratteristiche e contenuti
+di committenza. Infatti, la contestualizzazione e l'analisi avranno caratteristiche e contenuti
 diversi se il soggetto formatore dovrà elaborare il progetto formativo per una mono committenza
 (es. singola realtà aziendale) piuttosto che pluri committenza (es. aziende dello stesso comparto
-produttivo o omogeneamente simili) o infine se presenta un’offerta formativa a catalogo.
-L’analisi dei bisogni formativi e di contesto deve essere un procedimento sistematico, basato
+produttivo o omogeneamente simili) o infine se presenta un'offerta formativa a catalogo.
+L'analisi dei bisogni formativi e di contesto deve essere un procedimento sistematico, basato
 principalmente su tecniche specifiche di raccolta delle informazioni rilevanti. Queste
 informazioni possono essere ottenute attraverso strumenti diversi come ques tionari, interviste,
-osservazioni, riunioni di gruppo, documentazione da richiedere all’azienda, politiche e procedure
+osservazioni, riunioni di gruppo, documentazione da richiedere all'azienda, politiche e procedure
 utilizzate, descrizione delle posizioni organizzative. Una delle fonti più rilevanti di dati e
-informazioni per l’analisi dei fabbisogni formativi dei lavoratori/preposti/dirigenti/datori di
+informazioni per l'analisi dei fabbisogni formativi dei lavoratori/preposti/dirigenti/datori di
 lavoro è sicuramente il documento di valutazione dei rischi, dal quale possono essere ricavati
-elementi conoscitivi in merito all’esito della valutazione, agli infortuni mancati, ai risultati della
+elementi conoscitivi in merito all'esito della valutazione, agli infortuni mancati, ai risultati della
 formazione effettuata (piani di formazione).
 I dati e le informazioni derivanti dal processo di analisi dei fabbisogni formativi e del contesto
 sono contenuti in un report (documento di output del processo) e costituiscono parte integrante
@@ -11811,10 +11811,10 @@ tenere conto di alcuni aspetti specifici e quindi integrato da specifiche attivi
 quali si rimanda al paragrafo 3.
 1.3 Progettazione
 I dati e le informazioni derivanti dal processo di analisi dei fabbisogni formativi e del contesto
-costituiscono l’input per il successivo processo di progettazione del percorso formativo che
+costituiscono l'input per il successivo processo di progettazione del percorso formativo che
 traduce il bisogno formativo in una coerente e pertinente risposta formativa. Una analisi del
 fabbisogno formativo e di contest o carente e lacunoso inevitabilmente condiziona
-negativamente la qualità del processo di progettazione formativa e in ultima analisi l’efficacia
+negativamente la qualità del processo di progettazione formativa e in ultima analisi l'efficacia
 stessa del percorso formativo.
 
 
@@ -11848,7 +11848,7 @@ nell'ambito delle attività che si è chiamati a svolgere.
 È necessario che i risultati attesi siano coerenti con gli obiettivi formativi e siano conseguibili con
 la partecipazione al percorso formativo. Il raggiungimento dei risultati attesi dipende dalla
 coerenza e adeguatezza progettuale, in termini di contenuti didattici e strategia formativa.
-L'efficacia di un’azione formativa è legata in larga misura ad una scelta adeguata della strategia
+L'efficacia di un'azione formativa è legata in larga misura ad una scelta adeguata della strategia
 formativa da seguire, poiché da essa dipende la effettiva trasformazione degli obiettivi e dei
 bisogni formativi in risultati concreti. Definire la strategia formativa significa identificare le
 metodologie e gli strumenti più idonei in relazione alla specificità del percorso formativo e al
@@ -11876,14 +11876,14 @@ discenti nella didattica attiva;
 Le indicazioni metodologiche riguardante la progettazione di dettaglio (microprogettazione),
 sono riportate nel successivo paragrafo 2.
 1.4 Erogazione
-L’erogazione è il momento in cui si sviluppa l’azione formativa e in cui trova concreto
-compimento l’efficacia formativa.
+L'erogazione è il momento in cui si sviluppa l'azione formativa e in cui trova concreto
+compimento l'efficacia formativa.
 È necessario che la fase di erogazione sia presidiata e monitorata osservandone lo sviluppo,
 rilevando le criticità e le non conformità che si dovessero manifestare nelle dinamiche di
-apprendimento e nella gestione delle attività didattiche. Nell’erogazion e un ruolo rilevante è
+apprendimento e nella gestione delle attività didattiche. Nell'erogazion e un ruolo rilevante è
 rivestito dal tutor con il suo presidio delle attività e la rilevazione delle criticità (che vanno
 descritte e registrate in specifici report che costituiscono una base informativa per il riesame e
-l’adozione delle misure correttive e di miglioramento).
+l'adozione delle misure correttive e di miglioramento).
 1.5 Monitoraggio e valutazione della qualità della formazione
 Il processo di monitoraggio e valutazione da parte del soggetto formatore rappresenta un
 momento di estrema importanza ai fini della verifica della efficacia della formazione e del
@@ -11896,9 +11896,9 @@ ritiene opportuno che il soggetto formatore implementi e utilizzi un sistema bas
 di rilevazione di parametri ed indici prestazionali misurabili e di un sistema di elaborazione dei
 dati, di misurazione qualitativa e quantitativa degli indicatori e di documentazione dei risultati.
 Normalmente il monitoraggio si basa sulla valutazione di tre livelli:
-- Valutazione di gradimento, cioè della qualità percepita dall’utente;
+- Valutazione di gradimento, cioè della qualità percepita dall'utente;
 - Valutazione degli apprendimenti;
-- Valutazione dell’efficacia della formazione durante lo svolgimento della prestazione
+- Valutazione dell'efficacia della formazione durante lo svolgimento della prestazione
 lavorativa.
 Gli aspetti metodologici e procedurali specifici riguardanti la valutazione di gradimento sono
 decritti nel paragrafo 5, quelli relativi alla valutazione degli apprendimenti e alla valutazione sul
@@ -11919,13 +11919,13 @@ individuare e analizzare eventuali criticità e adottare le misure correttive al
 miglioramento della qualità didattica e organizzativa attraverso la revisione e miglioramento dei
 processi di produzione della formazione sopra descritti. I risultati del riesame sono elaborati,
 documentati e diffusi a tutti coloro che governano e presidiano i processi e/o che svolgono
-l’attività all’interno dei processi. Il riesame può analizzare sia i dati prestazionali aggregati per
+l'attività all'interno dei processi. Il riesame può analizzare sia i dati prestazionali aggregati per
 ciascuna tipologia di corso che per singolo corso.
 1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per
-l’organizzazione e gestione della formazione su SSL
+l'organizzazione e gestione della formazione su SSL
 Il soggetto formatore si avvale e deve avere la piena disponibilità nella propria struttura di figure
 professionali con particolari competenze in termini di conoscenze, abilità e responsabilità, al fine
-di assicurare l’efficacia e la qualità dei percorsi formativi con il presidio dei processi di produzione
+di assicurare l'efficacia e la qualità dei percorsi formativi con il presidio dei processi di produzione
 della formazione (indipendentemente dal profilo contrattuale che lega tali figure con il soggetto
 formatore).
 I profili indispensabili per la gestione dei processi di produzione della formazione (analisi dei
@@ -11933,30 +11933,30 @@ fabbisogni formativi e di contesto, progettazione, erogazione, monitoraggio e va
 riesame e adozione di misure di miglioramento) sono:
 - il responsabile dei progetti formativi;
 - il docente;
-- il tutor d’aula.
+- il tutor d'aula.
 Il soggetto formatore deve assicurare che i suddetti profili abbiano le necessarie competenze,
 per gestire e presidiare i processi di produzione della formazione e garantire che tali competenze
 siano mantenute e, se possibile, incrementate nel tempo tramit e costanti e periodici
 aggiornamenti formativi.
 Tali figure professionali svolgono i compiti e le attività previste dai rispettivi ruoli e responsabilità
-in un’ottica di team, integrando in modo sinergico le competenze di ciascun profilo nello sviluppo
-e presidio dei processi e nello svolgimento delle attività collegate finalizzate a garantire l’efficacia
+in un'ottica di team, integrando in modo sinergico le competenze di ciascun profilo nello sviluppo
+e presidio dei processi e nello svolgimento delle attività collegate finalizzate a garantire l'efficacia
 e qualità del servizio formativo.
 Di seguito sono descritti i profili delle suddette figure professionali:
-• RESPONSABILE DEI PROGETTI FORMATIVI
+- RESPONSABILE DEI PROGETTI FORMATIVI
 Soggetto avente comprovata e documentata esperienza (almeno triennale) in materia di
 sicurezza e salute nei luoghi di lavoro, in possesso dei requisiti richiesti per formatori/docenti
 dalla legislazione vigente. È il responsabile della progettazione format iva ed è coinvolto
-nell’analisi dei fabbisogni formativi. Cura sia la progettazione di massima che di dettaglio, si
+nell'analisi dei fabbisogni formativi. Cura sia la progettazione di massima che di dettaglio, si
 interfaccia con i docenti e i tutor nella definizione delle strategie formative, nelle scelte delle
 modalità di erogazione, delle modalità d i verifica degli apprendimenti, intermedie e finali, in
 coerenza con quanto previsto dal presente Accordo e dalla legislazione in materia. Può essere
 responsabile sia di singoli percorsi formativi, sia di singole tipologie di corsi di formazione ovvero
 di tutta la progettazione formativa del soggetto formatore. Il responsabile dei progetti formativi può
 essere individuato tra i docenti del corso
-• DOCENTE
+- DOCENTE
 Soggetto in possesso dei requisiti richiesti dalla legislazione vigente in materia di formazione su
-SSL, esperto delle tematiche oggetto della formazione nell’area disciplinare di afferenza in base
+SSL, esperto delle tematiche oggetto della formazione nell'area disciplinare di afferenza in base
 alle specifiche conoscenze e competenze. Deve conoscere an che la specificità e le dinamiche
 della formazione su SSL, con particolare riferimento alle metodologie didattiche più idonee per
 
@@ -11964,12 +11964,12 @@ della formazione su SSL, con particolare riferimento alle metodologie didattiche
 ## Pagina 229
 
 Pag. 91 a 138
-l’apprendimento degli adulti. È responsabile del presidio delle dinamiche di gruppo e dei rapporti
-con i discenti con l’obiettivo di favorire l’apprendimento, la partecipazione e l’interazione. È
-responsabile della progettazione e dell’erogazione delle uni tà didattiche assegnate,
-dell’individuazione delle strategie e metodologie didattiche più idonee per l’erogazione, della
+l'apprendimento degli adulti. È responsabile del presidio delle dinamiche di gruppo e dei rapporti
+con i discenti con l'obiettivo di favorire l'apprendimento, la partecipazione e l'interazione. È
+responsabile della progettazione e dell'erogazione delle uni tà didattiche assegnate,
+dell'individuazione delle strategie e metodologie didattiche più idonee per l'erogazione, della
 predisposizione di materiali didattici e delle modalità di verifica che tengano conto anche
-dell’eventuale presenza di lavoratori stranieri coerentemente con gli obiettivi formativi fissati e nel
+dell'eventuale presenza di lavoratori stranieri coerentemente con gli obiettivi formativi fissati e nel
 rispetto di quanto previsto dalla legislazione in materia di formazione su SSL. Nei confronti dei
 lavoratori stranieri i corsi dovranno essere realizzati previa verifica della comprensione e
 conoscenza della lingua veicolare e con modalità che assicurino la comprensione dei contenuti
@@ -11977,18 +11977,18 @@ del corso di formazione, quali, ad esempio, la pres enza di un mediatore intercu
 traduttore.
 Interagisce e si interfaccia in sede di progettazione formativa con il responsabile della
 progettazione contribuendo alla strutturazione del corso.
-• TUTOR D’AULA
-Soggetto esperto delle dinamiche di interazione nell’ambiente formativo (aula in presenza fisica
+- TUTOR D'AULA
+Soggetto esperto delle dinamiche di interazione nell'ambiente formativo (aula in presenza fisica
 o aula virtuale) in grado di fornire ai discenti indicazioni operative sulla fruizione del corso,
-sull’accesso e utilizzo dei materiali didattici, sugli aspett i logistici nonché di supportare i docenti
+sull'accesso e utilizzo dei materiali didattici, sugli aspett i logistici nonché di supportare i docenti
 e i discenti durante le attività didattiche e nella somministrazione delle esercitazioni e delle prove
-di verifica. È responsabile del monitoraggio dell’andamento dell'attività didattica, della
+di verifica. È responsabile del monitoraggio dell'andamento dell'attività didattica, della
 rilevazione delle e sigenze dei partecipanti, del rispetto degli aspetti organizzativi che hanno
-impatto sulla gestione d’aula, osservando la coerenza con gli obiettivi didattici, il regolare
+impatto sulla gestione d'aula, osservando la coerenza con gli obiettivi didattici, il regolare
 andamento dello svolgimento della dinamica di apprendimento e in generale la coerenz a con
 quanto previsto dal progetto formativo.
 Fatto salvo quanto eventualmente previsto dalla normativa regionale riferita ai soggetti
-formatori accreditati, il tutor d’aula è sempre previsto per i percorsi di formazione ed
+formatori accreditati, il tutor d'aula è sempre previsto per i percorsi di formazione ed
 aggiornamento erogati a distanza (e -learning o videoconferenza). Per i corsi d i formazione in
 presenza fisica è consigliata la presenza di tale figura per tutti quei percorsi che vedano la
 contemporanea presenza di più di 10 discenti.
@@ -11999,12 +11999,12 @@ definiti con dettaglio, per ciascuna unità didattica:
 - argomenti da trattare, contenuti e durata;
 - strategia formativa e metodologia didattica;
 - modalità e criteri di verifica e valutazione dei risultati.
-L’articolazione oraria delle singole unità didattiche dovrà essere sviluppata in modo tale da
+L'articolazione oraria delle singole unità didattiche dovrà essere sviluppata in modo tale da
 garantire un giusto equilibrio tra le unità didattiche nella trattazione degli argomenti, in termini
 di rilevanza, complessità, esaustività, tenendo conto dei diversi contesti e processi lavorativi in
-cui si innesta l’azione formativa.
+cui si innesta l'azione formativa.
 Nel definire la struttura di dettaglio del percorso formativo bisogna tener presente quanto
-previsto dall’accordo nella parte II - corsi di formazione in merito alle diverse tipologie di corso,
+previsto dall'accordo nella parte II - corsi di formazione in merito alle diverse tipologie di corso,
 alla struttura modulare, e in alcuni casi anche a quella delle unità didattiche, agli obiettivi
 formativi, alla durata e ai contenuti minimi.
 
@@ -12012,9 +12012,9 @@ formativi, alla durata e ai contenuti minimi.
 ## Pagina 230
 
 Pag. 92 a 138
-2.1 Gli obiettivi specifici e i risultati attesi dell’unità didattica
-Sulla base degli esiti dell’analisi dei fabbisogni formativi e di contesto dovranno essere definitivi
-gli obiettivi didattici contestualizzati all’ambito aziendale o al contesto nel quale il soggetto opera.
+2.1 Gli obiettivi specifici e i risultati attesi dell'unità didattica
+Sulla base degli esiti dell'analisi dei fabbisogni formativi e di contesto dovranno essere definitivi
+gli obiettivi didattici contestualizzati all'ambito aziendale o al contesto nel quale il soggetto opera.
 É necessario identificare gli obiettivi specifici relativi alla singola unità didattica; tipicamente gli
 obiettivi vengono declinati mediante parole chiave come trasferire, illustrare, far conoscere, far
 acquisire, fornire, favorire, definire, delineare, etc.
@@ -12032,29 +12032,29 @@ possano descrivere sinteticamente il tipo di conoscenza (nella dimensione del sa
 di competenze (nella dimensione d el saper fare e del saper essere) e che dovranno possedere i
 discenti in uscita dal percorso formativo, come ad esempio essere in grado di, saper individuare,
 saper svolgere, saper applicare, conoscere, acquisire metodi, criteri e strumenti, etc.
-2.2 I contenuti dell’unità didattica e la durata
+2.2 I contenuti dell'unità didattica e la durata
 Al fine di rispondere in modo più puntuale, ai fabbisogni specifici e alle eventuali esigenze di una
 particolare strutturazione dei contenuti relativamente a specifici target di utenti, in sede di
 microprogettazione, dovranno essere contestualizzati e defi niti gli argomenti di dettaglio che
-verranno trattati nell’ambito di ogni unità didattica e i contenuti che dovranno risultare coerenti
+verranno trattati nell'ambito di ogni unità didattica e i contenuti che dovranno risultare coerenti
 con gli obiettivi declinati. Bisognerà, dunque, individuare e stabilire con chiarezza e dettaglio i
 contenuti, la durata e la sequenza degli argomenti, che non dovranno essere generici e non
-dovranno dar luogo a diverse interpretazioni da parte di chi svilupperà l’azione formativa.
+dovranno dar luogo a diverse interpretazioni da parte di chi svilupperà l'azione formativa.
 2.3 La strategia formativa e la metodologia didattica
 Definire la strategia formativa significa identificare le metodologie e gli strumenti più idonei in
-relazione alla specificità del percorso formativo e al target previsto, considerando che l’azione
-formativa è rivolta ad adulti in un contesto di formazione continua sul lavoro per tutto l’arco della
+relazione alla specificità del percorso formativo e al target previsto, considerando che l'azione
+formativa è rivolta ad adulti in un contesto di formazione continua sul lavoro per tutto l'arco della
 vita (lifelong learning). È necessario dunque adottare un approccio di tipo andragogico che tenga
 conto della specificità dei processi di apprendimento e di coinvolgimento tipici degli adulti. In tal
-senso non si può prescindere dall’adozione di metodologie didattiche attive ed interattive che
+senso non si può prescindere dall'adozione di metodologie didattiche attive ed interattive che
 prevedono il coinvolgimento diretto del discente e la sua centralità nel percorso di
 apprendimento. Il progetto formativo dovrà dunque indicare quali metodologie didattiche attive
-saranno adottate nell’intero percorso formativo e in ciascuna unità didattica.
-Le metodologie didattiche attive si basano sul presupposto che l’apprendimento effettivo è di
+saranno adottate nell'intero percorso formativo e in ciascuna unità didattica.
+Le metodologie didattiche attive si basano sul presupposto che l'apprendimento effettivo è di
 tipo esperienziale e relazionale, e risultano particolarmente efficaci quando si tratta di acquisire
 atteggiamenti, capacità di analisi e di soluzioni di problemi e incrementare specifiche capacità.
-La modalità di trasmissione dei contenuti deve inoltre tenere conto delle esigenze di “vita
-professionale reale” e non solo vertere su contenuti di merito e didattici. Il formatore/docente
+La modalità di trasmissione dei contenuti deve inoltre tenere conto delle esigenze di "vita
+professionale reale" e non solo vertere su contenuti di merito e didattici. Il formatore/docente
 dovrà pertanto basare la propr ia attività non solo sulla trasmissione di nozioni, abilità e
 competenze ma su quanto valorizzi le esperienze di ciascuno.
 
@@ -12063,7 +12063,7 @@ competenze ma su quanto valorizzi le esperienze di ciascuno.
 
 Pag. 93 a 138
 2.4 Le metodologie didattiche attive
-Le metodologie didattiche attive vanno scelte prioritariamente in funzione dell’obiettivo
+Le metodologie didattiche attive vanno scelte prioritariamente in funzione dell'obiettivo
 formativo, ma anche in relazione alla disponibilità di spazi, di tempo, di risorse e tenendo conto
 della complessità di gestione da parte del formatore. Le principali metodologie che possono
 rispondere efficacemente alle esigenze formative in campo prevenzionale sono:
@@ -12072,26 +12072,26 @@ dimensioni ridotte a cui viene assegnato un determinato compito da svolgere in u
 prefissato. La dimensione di gruppo facilita lo scambio di idee ed esperienze consentendo
 un coinvolgimento attivo in un rapporto relazionale tra pari, sganciato dalla dipendenza
 del docente. Il risultato finale del lavoro di gruppo appartiene al gruppo e non alla singola
-persona e allena le persone all’ascolto attivo e al raggiungimento di un obiettivo comune;
+persona e allena le persone all'ascolto attivo e al raggiungimento di un obiettivo comune;
 - Casi di studio. È una metodologia attiva il cui obiettivo è quello di sviluppare la capacità di
 analisi e di soluzione di situazioni o problemi più o meno complessi, meglio se reali e calati
 nella realtà lavorativa e nel contesto relazionale dei partecipanti. Possono essere svolti sia
-individualmente che in gruppo. Sono utili soprattutto per l’acquisizione di competenze
+individualmente che in gruppo. Sono utili soprattutto per l'acquisizione di competenze
 specialistiche con particolare riferimento agli aspetti legati alla individuazione,
 trattamento e controllo dei rischi;
 - Simulazioni. Le simulazioni consistono nel far riprodurre da parte dei partecipanti azioni e
 comportamenti sia individuali che interpersonali su situazioni circoscritte e limitate come
-può essere l’utilizzo di una procedura, di una tecnica, di un metodo, in un contesto che
-simula e ricalca l’ambiente e l’attività lavorativa, in modo da rendere più agevole la
+può essere l'utilizzo di una procedura, di una tecnica, di un metodo, in un contesto che
+simula e ricalca l'ambiente e l'attività lavorativa, in modo da rendere più agevole la
 trasposizione di quanto appreso in aula alla realtà lavorativa.
 Anche le lezioni frontali, che sono finalizzate alla trasmissione di nozioni e concetti, dovranno
 seguire un approccio dialogico, prevedendo una sostanziale interattività tra il docente e i discenti
 e tra i discenti stessi. È fondamentale durante la lezione, utilizzare a titolo es plicativo supporti
 audiovisivi (ad. es. slide, filmati), ricorrere a esempi applicativi e prevedere testimonianze da parte
-di soggetti che possano stimolare l’attenzione e la motivazione ad apprendere da parte dei
+di soggetti che possano stimolare l'attenzione e la motivazione ad apprendere da parte dei
 discenti.
 È fondamentale anche pianificare durante la lezione momenti di confronto e momenti dedicati a
-fornire risposte a quesiti e domande che facilitino la comprensione e l’apprendimento di tutti i
+fornire risposte a quesiti e domande che facilitino la comprensione e l'apprendimento di tutti i
 discenti. Durante la lezione può essere utilizzata anche la tecni ca dei test, quesiti somministrati
 non a scopo valutativo, utile per rafforzare concetti e nozioni e per integrare con eventuali
 approfondimenti gli argomenti trattati nella lezione che necessitano di rinforzo.
@@ -12101,11 +12101,11 @@ e dai linguaggi digitali permettono la creazione di nuovi spazi e modalità di a
 esempio:
 - Realtà aumentata e virtuale: sono tecnologie immersive e si compongono di sistemi che,
 attraverso dispositivi mobili di visione, di ascolto o di manipolazione riescono ad
-aggiungere informazioni multimediali alla realtà che l’utente percepisce naturalmente. La
+aggiungere informazioni multimediali alla realtà che l'utente percepisce naturalmente. La
 realtà aumentata permette al discente di vedere parti digitali sovrapposte a parti fisiche,
-quella virtuale isola il discente dall’ambiente esterno, facendolo immergere in una realtà
+quella virtuale isola il discente dall'ambiente esterno, facendolo immergere in una realtà
 digitale parallela. La realtà aumentata consente di fornire indicazi oni tecniche a distanza
-in tempo reale e di sperimentare procedure nuove anche complesse. L’utilizzo della realtà
+in tempo reale e di sperimentare procedure nuove anche complesse. L'utilizzo della realtà
 virtuale consente di usufruire di momenti formativi, senza essere fisicamente presenti in
 un determinato luogo di lavoro e di simulare diversi scenari a scopo esercitativo e
 
@@ -12120,19 +12120,19 @@ operazioni in più sessioni formative, riducendo le conseguenze di eventuali err
 acquisire abilità manuali e pratiche nonché sistemi che possano integrarsi con sistemi
 innovativi che sfruttano in modo combinato software per la realtà virtuale ed aumentata
 - Gamification: metodologia che usa i meccanismi tipici del gioco e in particolare del
-videogioco per favorire il coinvolgimento e stimolare la motivazione e l’attenzione dei
+videogioco per favorire il coinvolgimento e stimolare la motivazione e l'attenzione dei
 discenti. Esistono i serious game, giochi con un esplicito e ben definito scopo educativo,
 non pensati primariamente per il divertimento, senza però escluderlo e i business game
-giochi caratterizzati da un contesto simulato di natura aziendale che hanno l’obiettivo di
+giochi caratterizzati da un contesto simulato di natura aziendale che hanno l'obiettivo di
 far acquisire capacità decisionali in termini di tempestività ed efficacia delle sce lte
-adottate, confidenza con situazioni di rischio e incertezza che permettono l’integrazione
+adottate, confidenza con situazioni di rischio e incertezza che permettono l'integrazione
 tra le diverse funzioni aziendali.
-L’utilizzo degli ambienti virtuali può prevedere anche spazi tridimensionali dove gli utenti si
+L'utilizzo degli ambienti virtuali può prevedere anche spazi tridimensionali dove gli utenti si
 muovono liberamente utilizzando degli avatar (metaverso). Il ricorso alla realtà virtuale o
 aumentata non sostituisce la parte pratica relativa ai corsi di cui ai punti 7 e 8 del presente
 accordo.
 2.5 Le modalità e i criteri di verifica e valutazione dei risultati
-Per avere la garanzia che l’obiettivo formativo sia stato raggiunto, è necessario valutare i risultati.
+Per avere la garanzia che l'obiettivo formativo sia stato raggiunto, è necessario valutare i risultati.
 Esistono differenti livelli di valutazione che richiedono momenti, tempi e risorse diversi per essere
 realizzati. La valutazione risulta necessaria non solo come controllo del processo di
 apprendimento e cambiamento che si vuole mettere in atto, ma anche come partecipazione
@@ -12144,7 +12144,7 @@ di valutazione va definito nella fase di progettazione e consente di:
 miglioramento dei percorsi formativi;
 - fornire feedback ai discenti in merito al loro apprendimento e cambiamento.
 Nel paragrafo 6 sono descritti i metodi e i criteri di verifica da adottare per la valutazione degli
-apprendimenti e dell’efficacia formativa durante lo svolgimento della prestazione lavorativa.
+apprendimenti e dell'efficacia formativa durante lo svolgimento della prestazione lavorativa.
 2.6 Il documento progettuale
 Ogni soggetto formatore dovrà redigere il progetto formativo, cioè il documento in uscita
 dell'intero processo di progettazione, in cui dovranno essere riportati nel dettaglio tutte le
@@ -12165,60 +12165,60 @@ Pag. 95 a 138
 didattico e delle competenze professionali, con particolare riferimento al ruolo che il
 soggetto destinatario della formazione riveste nel contesto dell'organizzazione aziendale.
 Il documento progettuale dovrà riportare in maniera chiara e descrittiva:
-• le specifiche del percorso formativo, cioè tutti quegli elementi che caratterizzano il corso di
+- le specifiche del percorso formativo, cioè tutti quegli elementi che caratterizzano il corso di
 formazione principalmente dal punto di vista didattico:
 - gli obiettivi e risultati attesi;
 - l'articolazione oraria delle unità didattiche;
 - i contenuti e gli argomenti trattati in ciascuna unità didattica.
-• le specifiche di realizzazione (modalità di sviluppo dell’azione formativa in termini
+- le specifiche di realizzazione (modalità di sviluppo dell'azione formativa in termini
 metodologici e strumentali):
 - la strategia formativa e le metodologie didattiche;
 - il materiale didattico e gli strumenti didattici di supporto;
 - le azioni di tutoraggio.
-• le specifiche per il controllo e la verifica:
+- le specifiche per il controllo e la verifica:
 - le modalità di valutazione e di monitoraggio della qualità formativa (mediante questionari
 di gradimento);
-- le modalità e i criteri di verifica e di valutazione dell’apprendimento, (sia per quanto
+- le modalità e i criteri di verifica e di valutazione dell'apprendimento, (sia per quanto
 riguarda le verifiche intermedie che finali).
 3 MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE
 3.1 Requisiti organizzativi e tecnici, modalità e procedure operative per i corsi in presenza
 Tutti i corsi di formazione disciplinati dal presente accordo possono essere erogati mediante la
 formazione in presenza.
-La formazione in presenza può essere erogata direttamente nell’ambiente di lavoro del discente.
-Nell’ambito della formazione si può fare ricorso a break formativi, formazione on the job, corsi
-di formazione su moduli pratici che richiedono l’utilizzo di specifici spazi di lavoro e di specifiche
+La formazione in presenza può essere erogata direttamente nell'ambiente di lavoro del discente.
+Nell'ambito della formazione si può fare ricorso a break formativi, formazione on the job, corsi
+di formazione su moduli pratici che richiedono l'utilizzo di specifici spazi di lavoro e di specifiche
 attrezzatture.
-Laddove si faccia ricorso a break formativi la formazione viene erogata direttamente all’interno
+Laddove si faccia ricorso a break formativi la formazione viene erogata direttamente all'interno
 dei reparti aziendali e presso le postazioni dei lavoratori stessi. La formazione dovrà avvenire ad
 opera di un docente in possesso dei requisiti previsti dall a normativa vigente, affiancato dal
 preposto, dovrà essere breve (15 -30 minuti) e dovrà essere rivolta a piccoli gruppi di lavoratori
 basandosi su specifici aspetti legati all'attività lavorativa. I break formativi sono finalizzati ad
 apportare un aggiornamento continuo riguardo ai rischi legati alla mansione, al luogo di lavoro,
 alle attrezzature/sostanze utilizzate ed alle tecniche di prevenzione. Gli stessi sono ritenuti validi
-ai fini della formazione specifica e per l’aggiornamento dei lavoratori.
+ai fini della formazione specifica e per l'aggiornamento dei lavoratori.
 Anche per questa modalità di erogazione valgono le stesse considerazioni metodologiche
 descritte nella microprogettazione.
 3.2 Requisiti organizzativi e tecnici, modalità e procedure operative per i corsi in video
 conferenza sincrona (VCS)
-La formazione in videoconferenza sincrona può essere definita come “streaming di un evento
+La formazione in videoconferenza sincrona può essere definita come "streaming di un evento
 formativo in modalità sincrona, che prevede la copresenza di discenti e docenti che interagiscono
-tra loro presso più postazioni remote, tramite piattaforma multimediale di comunicazione”. Ogni
+tra loro presso più postazioni remote, tramite piattaforma multimediale di comunicazione". Ogni
 
 
 ## Pagina 234
 
 Pag. 96 a 138
-discente deve essere collegato all’evento formativo tramite pc o tablet a suo esclusivo uso per la
+discente deve essere collegato all'evento formativo tramite pc o tablet a suo esclusivo uso per la
 durata del corso.
 La veicolazione mediante supporto multimediale in modalità sincrona (tipicamente mediante PC
-o tablet collegati in rete) permette l’interazione tra docenti e allievi similmente a quanto avviene
+o tablet collegati in rete) permette l'interazione tra docenti e allievi similmente a quanto avviene
 nella formazione in presenza. Tuttavia, la modalità di formazi one in VCS presenta alcune
 caratteristiche e specificità che la differenziano dalla didattica in presenza in aula fisica con
 riferimento ai soggetti formatori che devono dunque adeguare o reingegnerizzare i processi di
 produzione della formazione (preveden do anche idonei profili di competenze), rispettando
 determinati requisiti di carattere organizzativo e tecnologici al fine di garantire la qualità e
-l’efficacia formativa. I soggetti che erogano la formazione in modalità videoconferenza sincrona
-dovranno implementare procedure idonee all’ambiente virtuale per la gestione delle modalità di
+l'efficacia formativa. I soggetti che erogano la formazione in modalità videoconferenza sincrona
+dovranno implementare procedure idonee all'ambiente virtuale per la gestione delle modalità di
 accesso, di verifica delle presenze, di gestione degli interventi dei discenti, delle modalità di
 svolgimento delle verifiche di apprend imento, della gestione dei material i didattici, delle
 modalità di tracciamento.
@@ -12226,14 +12226,14 @@ In coerenza con quanto già definito dal legislatore con la legge 52/2019 ai fin
 Accordo la videoconferenza sincrona è equiparata alla presenza fisica, fatta eccezione per i
 moduli didattici che prevedono un addestramento o una prova pratica.
 3.2.1 Requisiti di carattere organizzativo e gestionale
-Fermo restando quanto riportato inizialmente sulla struttura organizzativa basata sull’approccio
-per processi e loro descrizione, all’interno di ciascun processo dovranno essere sviluppate alcune
+Fermo restando quanto riportato inizialmente sulla struttura organizzativa basata sull'approccio
+per processi e loro descrizione, all'interno di ciascun processo dovranno essere sviluppate alcune
 attività aggiuntive specifiche e dovranno essere allocate risorse con specifiche competenze.
 ANALISI DEI FABBIGNOSI FORMATIVI E PROGETTAZIONE
 ➢ Analisi dei fabbisogni formativi e del contesto
 - Individuazione e indicazione delle abilità e capacità, in termine di alfabetizzazione
-informatica e digitale, richieste all’utente per la frequenza efficace del percorso
-formativo, al fine di evitare che un eventuale “digital divide” possa influire in modo
+informatica e digitale, richieste all'utente per la frequenza efficace del percorso
+formativo, al fine di evitare che un eventuale "digital divide" possa influire in modo
 discriminante sulla capacità di fruizione
 - Definizione dei requisiti tecnologici della postazione del discente e di compatibilità con i
 requisiti di accesso, accessibilità e fruibilità previsti dalla piattaforma del soggetto
@@ -12241,12 +12241,12 @@ formatore.
 ➢ Progettazione
 In sede di macroprogettazione dovranno essere definiti:
 - la strategia formativa da adottare, in termini metodologici e tecnici per lo sviluppo
-dell’azione formativa in ambiente di aula virtuale;
-- le metodologie didattiche attive più idonee per l’erogazione in VCS;
+dell'azione formativa in ambiente di aula virtuale;
+- le metodologie didattiche attive più idonee per l'erogazione in VCS;
 - le modalità di verifica (in itinere e finale) in sincrono nel rispetto di quanto previsto dalla
 legislazione in materia;
 - i requisiti tecnologici necessari per la fruizione del corso in modalità VCS;
-- le modalità di tutoraggio d’aula virtuale.
+- le modalità di tutoraggio d'aula virtuale.
 In sede di microprogettazione dovranno essere definite:
 
 
@@ -12254,42 +12254,42 @@ In sede di microprogettazione dovranno essere definite:
 
 Pag. 97 a 138
 - le modalità di svolgimento sincrono delle esercitazioni, lavori di gruppo, casi di studio
-considerando l’ambiente d’aula virtuale;
-- le modalità di interazione discente -docente-tutor d’aula virtuale e delle funzionalità da
+considerando l'ambiente d'aula virtuale;
+- le modalità di interazione discente -docente-tutor d'aula virtuale e delle funzionalità da
 utilizzare nella piattaforma.
 EROGAZIONE
-La modalità sincrona e la contemporanea virtualizzazione spaziale rappresentata dall’aula
+La modalità sincrona e la contemporanea virtualizzazione spaziale rappresentata dall'aula
 virtuale comportano che in fase di erogazione siano adottate specifiche procedure e svolte
 alcune attività che non si ritrovano nei corsi in aula con presenza fisica. Attività tipiche da svolgere
-nell’erogazione del corso di formazione in modalità VCS sono:
+nell'erogazione del corso di formazione in modalità VCS sono:
 - gestione delle procedure di accesso protetto dei discenti;
 - docenza in ambiente caratterizzato da virtualizzazione spaziale (aula virtuale), con
 dinamiche differenti rispetto alla formazione in presenza fisica in aula;
-- tutoraggio d’aula virtuale, che ha una forte valenza nello sviluppo del corso e nelle
+- tutoraggio d'aula virtuale, che ha una forte valenza nello sviluppo del corso e nelle
 dinamiche di interazione;
 - rilevazione e tracciabilità della continuità della presenza dei discenti;
 - gestione delle esercitazioni, lavori di gruppo e in generale delle specifiche metodologie
-didattiche attive in sincrono idonee all’ambiente virtuale;
+didattiche attive in sincrono idonee all'ambiente virtuale;
 - gestione delle verifiche di apprendimento in modalità sincrona a distanza;
 - monitoraggio della continuità di funzionamento delle funzionalità della piattaforma;
 - gestione dei flussi di comunicazione tra i docenti, tutor e tra gli stessi discenti.
 MONITORAGGIO E VALUTAZIONE. RIESAME E MISURE DI MIGLIORAMENTO
 Considerando la specificità e la potenziale criticità di alcune attività nella gestione dei corsi
 soprattutto in fase di erogazione, il monitoraggio e la valutazione risultano importanti nella
-verifica della qualità didattica e organizzativa e dell’efficacia ed efficienza del percorso formativo.
+verifica della qualità didattica e organizzativa e dell'efficacia ed efficienza del percorso formativo.
 Considerando che lo strumento utilizzato a tale scopo è il questionario di gradimento (paragrafo
 5), questo dovrà essere strutturato con elementi di valutazione aggiuntivi che tengano conto
 della modalità di erogazione in videoconferenza sincrona. In particolare, dovranno essere rilevati
 e monitorati:
-- il livello d’interazione docente-discente;
-- la chiarezza espositiva in ambiente virtuale e padronanza dell’utilizzo della piattaforma
+- il livello d'interazione docente-discente;
+- la chiarezza espositiva in ambiente virtuale e padronanza dell'utilizzo della piattaforma
 del docente;
-- l’efficacia del tutoraggio d’aula virtuale;
-- l’efficacia della gestione dei gruppi di lavoro ed esercitazioni in ambiente virtuale;
-- l’accessibilità e l’usabilità della piattaforma utilizzata;
-- l’efficacia e l’efficienza del supporto tecnico.
+- l'efficacia del tutoraggio d'aula virtuale;
+- l'efficacia della gestione dei gruppi di lavoro ed esercitazioni in ambiente virtuale;
+- l'accessibilità e l'usabilità della piattaforma utilizzata;
+- l'efficacia e l'efficienza del supporto tecnico.
 I dati così rilevati saranno elaborati ed analizzati in sede di riesame (sia generale che per singoli
-percorsi formativi) con l’individuazione e l’adozione delle misure di miglioramento e correttive
+percorsi formativi) con l'individuazione e l'adozione delle misure di miglioramento e correttive
 riguardanti gli elementi caratterizzanti la modalità di erogazione in videoconferenza sincrona.
 3.2.2. Requisiti relativi alle risorse professionali e profili di competenze
 Per erogare la formazione in VCS il soggetto formatore deve avvalersi di profili professionali con
@@ -12301,47 +12301,47 @@ particolari competenze, aggiuntive a quelle generali riportate in precedenza nel
 Pag. 98 a 138
 IV punto 1.7, con conoscenze, abilità e responsabilità idonee a gestire e presidiare i processi di
 produzione caratterizzanti la formazione in VCS.
-• RESPONSABILE DEI PROGETTI FORMATIVI
+- RESPONSABILE DEI PROGETTI FORMATIVI
 Il responsabile dei progetti formativi dovrà conoscere le modalità di funzionamento e le
-funzionalità della piattaforma, le modalità di gestione e di interazione dell’aula virtuale, le
-modalità didattiche attive idonee ed efficaci per l’ambiente virtuale.
+funzionalità della piattaforma, le modalità di gestione e di interazione dell'aula virtuale, le
+modalità didattiche attive idonee ed efficaci per l'ambiente virtuale.
 Il responsabile dei progetti formativi può essere individuato tra i docenti del corso.
-• DOCENTE
+- DOCENTE
 I docenti, oltre a possedere i requisiti previsti dalla legislazione vigente, dovranno avere una
-buona conoscenza dell’ambiente virtuale della piattaforma e delle funzionalità da utilizzare nelle
+buona conoscenza dell'ambiente virtuale della piattaforma e delle funzionalità da utilizzare nelle
 sessioni didattiche in modo da garantire la necessaria interazione con i discenti. Nello strutturare
 l'intervento formativo in VCS, dovranno sapere individuare strategie e metodologie didattiche
-efficaci per l’ambiente virtuale e predisporre i materiali di dattici, gli strumenti di supporto e di
+efficaci per l'ambiente virtuale e predisporre i materiali di dattici, gli strumenti di supporto e di
 valutazione funzionali alla docenza in VCS.
-• TUTOR D’AULA VIRTUALE
-Il tutor d’aula virtuale dovrà possedere le conoscenze relative alle funzionalità della piattaforma
+- TUTOR D'AULA VIRTUALE
+Il tutor d'aula virtuale dovrà possedere le conoscenze relative alle funzionalità della piattaforma
 per gestire le particolari dinamiche relazionali e di interazione con i discenti che caratterizzano la
 formazione in videoconferenza sincrona. Inoltre, dovrà saper gestire alcune procedure specifiche
 quali le modalità di accesso protetto e la registrazione dei partecipanti, la verifica e il
-tracciamento della continuità della presenza, il monitoraggio dell’andamento
-dell’apprendimento, il supporto didatt ico a l docente soprattutto nelle esercitazioni e nelle
+tracciamento della continuità della presenza, il monitoraggio dell'andamento
+dell'apprendimento, il supporto didatt ico a l docente soprattutto nelle esercitazioni e nelle
 verifiche in modalità sincrona, la gestione delle chat e del flusso di posta elettronica, e in generale
 di tutte le modalità operative per la gestione didattica.
-• ESPERTO NELLA GESTIONE TECNICA DELLA PIATTAFORMA MULTIMEDIALE
+- ESPERTO NELLA GESTIONE TECNICA DELLA PIATTAFORMA MULTIMEDIALE
 È necessario che il soggetto formatore si avvalga di un esperto che garantisca una corretta
 configurazione degli ambienti virtuali e la gestione tecnica della piattaforma utilizzata, in
 particolare la gestione di eventuali criticità nel funzionamento della piattaforma, intervenendo
 tempestivamente per la risoluzione di problemi di connettività, di blocchi del sistema, di
-interruzioni o malfunzionamenti. Collabora inoltre con il tutor d’aula virtuale nella profilazione
+interruzioni o malfunzionamenti. Collabora inoltre con il tutor d'aula virtuale nella profilazione
 degli utenti e nel monitoraggio degli accessi.
 3.2.3 Requisiti tecnologici e funzionali della piattaforma
-La piattaforma utilizzata dal soggetto formatore per l’erogazione dei corsi in VCS deve possedere
+La piattaforma utilizzata dal soggetto formatore per l'erogazione dei corsi in VCS deve possedere
 alcune caratteristiche tecnologiche e funzionali indispensabili per assicurare una efficace
 gestione dal punto di vista didattico, il rispetto dei requisiti legislativi in materia di formazione su
 salute e sicurezza sul lavoro e la conformità al regolamento sulla protezione dei dati personali. Di
 seguito sono riportate alcune funzionalità necessarie per assicurare livelli adeguati di usabilità,
-versatilità e interattività per l’erogazione dei corsi di formazione in modalità sincrona.
+versatilità e interattività per l'erogazione dei corsi di formazione in modalità sincrona.
 In termini di accessibilità e accessi protetti:
 - presentare una modalità di accesso al corso solo agli iscritti autorizzati. Le modalità di
 accesso possono variare da piattaforma a piattaforma ma in tutti i casi deve essere
 garantita la massima sicurezza da accessi non autorizzati dal soggetto formatore;
 - permettere tecnicamente il monitoraggio e la registrazione delle presenze, con
-tracciatura riportante l’ora iniziale e finale del collegamento e gli eventuali abbandoni dei
+tracciatura riportante l'ora iniziale e finale del collegamento e gli eventuali abbandoni dei
 
 
 ## Pagina 237
@@ -12351,37 +12351,37 @@ discenti. Tale tracciatura avrà la stessa validità del registro delle presenze
 corsi in presenza;
 - permettere la disattivazione di utility e applicazioni non strettamente funzionali alla
 didattica, soprattutto se la piattaforma utilizzata non è esclusivamente dedicata alla
-didattica. Inoltre, non dovrebbe essere consentito l’accesso tramite social login
+didattica. Inoltre, non dovrebbe essere consentito l'accesso tramite social login
 (meccanismo che permette agli utenti di autenticarsi sfruttando account e servizi offerti
 dai social network);
-- prevedere la possibilità di utilizzare un’area di repository del materiale didattico e di
+- prevedere la possibilità di utilizzare un'area di repository del materiale didattico e di
 supporto alla didattica per la sola durata del corso di formazione, con utilizzo protetto da
 parte del discente ai soli fini didattici e regolamentato ad esempio nel rispetto del
 copyright, nel divieto di diffusione verso terzi estranei al corso di formazione, nelle
 eventuali limitazioni ai download.
 In termini di interattività:
-- presentare un livello adeguato di interattività in modo tale da garantire l’interazione
+- presentare un livello adeguato di interattività in modo tale da garantire l'interazione
 sincrona tra docente e discenti, permettendo ai discenti di intervenire in diretta su
 richiesta e al docente di facilitare la partecipazione attiva con la possibilità di verificare in
 itinere le fasi di apprendimento;
 - permettere la visualizzazione, tramite finestre, dei discenti in modo da facilitare e
-stimolare l’interazione tra docenti e discenti e tra discenti e discenti, e di verificare da
+stimolare l'interazione tra docenti e discenti e tra discenti e discenti, e di verificare da
 parte del docente e/o del tutor la presenza effettiva dei singoli discenti;
-- consentire un’agevole proiezione delle presentazioni utilizzate dai docenti (slide, filmati,
-documenti etc.) e un’agevole visualizzazione delle stesse da parte dei discenti;
-- permettere l’utilizzo di un’area di chat per consentire ai discenti di comunicare con il
+- consentire un'agevole proiezione delle presentazioni utilizzate dai docenti (slide, filmati,
+documenti etc.) e un'agevole visualizzazione delle stesse da parte dei discenti;
+- permettere l'utilizzo di un'area di chat per consentire ai discenti di comunicare con il
 docente o il tutor o con gli altri discenti ad integrazione alla comunicazione audio-video;
 - consentire la creazione di classi virtuali con possibilità di suddivisione in sottogruppi
-separati “aule di fuga” (breakout rooms) per lo svolgimento di eventuali esercitazioni di
+separati "aule di fuga" (breakout rooms) per lo svolgimento di eventuali esercitazioni di
 gruppo;
 - permettere di controllare e modulare la qualità video e audio.
 In termini di usabilità e flessibilità delle modalità operative di gestione delle procedure previste:
 - permettere lo svolgimento delle verifiche intermedie e finali dei discenti esclusivamente
-in modo sincrono con l’acquisizione degli elaborati da parte del docente e/o del tutor alla
+in modo sincrono con l'acquisizione degli elaborati da parte del docente e/o del tutor alla
 fine della sessione di verifica;
 - consentire di acquisire e archiviare il consenso al trattamento dei dati da parte
-dell’interessato compresa l’acquisizione, laddove prevista dal soggetto formatore,
-dell’accettazione del rispetto del copyright, del divieto di diffusione verso terzi e di
+dell'interessato compresa l'acquisizione, laddove prevista dal soggetto formatore,
+dell'accettazione del rispetto del copyright, del divieto di diffusione verso terzi e di
 eventuali limitazioni ai download.
 Diverse piattaforme multimediali dedicate specificatamente alla formazione a distanza
 presentano spesso funzionalità avanzate aggiuntive rispetto a quelle riportate sopra, che
@@ -12398,21 +12398,21 @@ risultati delle verifiche;
 ## Pagina 238
 
 Pag. 100 a 138
-- generazione di report con l’elaborazione dei dati relativi alle valutazioni degli apprendimenti
+- generazione di report con l'elaborazione dei dati relativi alle valutazioni degli apprendimenti
 e della qualità percepita dei discenti, anche in forma aggregata.
 Connettività della postazione di utente
-La connessione della postazione dell’utente alla rete Internet deve essere stabile ed efficiente
-per permettere la fruibilità, l’usabilità e la continuità.
+La connessione della postazione dell'utente alla rete Internet deve essere stabile ed efficiente
+per permettere la fruibilità, l'usabilità e la continuità.
 Il soggetto formatore in sede di informazione preliminare dovrebbe raccomandare al discente (a
 sua esclusiva responsabilità) di verificare la stabilità e velocità di connessione della propria
 postazione, prima della iscrizione al corso e della sua fruizione.
-I dispositivi della postazione d’utente potranno essere pc o tablet. Non è consentito l’utilizzo degli
+I dispositivi della postazione d'utente potranno essere pc o tablet. Non è consentito l'utilizzo degli
 smartphone per le condizioni ergonomiche non idonee e perché generalmente non garantisce
 una sufficiente continuità della stabilità e velocità di collegamento alla rete.
 3.2.4 MODALITÀ OPERATIVE PER LA GESTIONE DELLA DIDATTICA IN VIDEOCONFERENZA
 SINCRONA
-• INFORMAZIONI PRELIMINARI PER I DISCENTI
-Prima di procedere all’iscrizione al corso di formazione, il soggetto formatore deve informare il
+- INFORMAZIONI PRELIMINARI PER I DISCENTI
+Prima di procedere all'iscrizione al corso di formazione, il soggetto formatore deve informare il
 discente (e i Datori di lavoro committenti relativamente ai corsi a loro carico) sulle caratteristiche
 tecnologiche e funzionali della piattaforma multimediale utilizzata, sui requisiti di connettività e
 delle dotazioni hardware e software della postazione utente, per consentire al discente di
@@ -12421,24 +12421,24 @@ corso in termini di continuità, stabilità di connessione e usabilità.
 Oltre alle informazioni sulle caratteristiche tecnologiche il soggetto formatore deve fornire
 alcune informazioni preliminari relative a modalità di accesso, modalità di erogazione dei
 contenuti e di svolgimento in sincrono delle verifiche intermedie e finali di apprendimento,
-modalità di assistenza e supporto durante l’erogazione del corso.
-• ISCRIZIONI
-Il soggetto formatore in sede di iscrizione, laddove necessario ai fini della verifica dell’identità del
+modalità di assistenza e supporto durante l'erogazione del corso.
+- ISCRIZIONI
+Il soggetto formatore in sede di iscrizione, laddove necessario ai fini della verifica dell'identità del
 discente, può acquisire copia di un documento di identità contenente fotografia del discente,
 senza effettuare alcun trattamento digitale di tipo biometrico.
-• MODALITÀ D’ACCESSO PROTETTO
-Le modalità di accesso (gestite normalmente dal tutor d’aula virtuale o dal docente) devono
+- MODALITÀ D'ACCESSO PROTETTO
+Le modalità di accesso (gestite normalmente dal tutor d'aula virtuale o dal docente) devono
 essere di tipo protetto cioè garantire che solo i partecipanti autorizzati possono accedere alle
 sessioni formative. In base alle caratteristiche tecnologiche della piattaforma, il soggetto
 formatore potrà utilizzare account individuali, password, link specifici, stanze di attesa (dove i
-discenti aspetteranno che gli venga concesso l’accesso alla sessione).
+discenti aspetteranno che gli venga concesso l'accesso alla sessione).
 Il tutor o il docente verificano gli avvenuti accessi e la loro registrazione sulla piattaforma (con
-l’indicazione dell’orario di accesso) e prima dell’avvio delle attività formative verificano il corretto
-funzionamento audio e video di tutti i partecipant i e l’attivazione delle altre funzionalità
-necessarie per lo svolgimento dell’evento formativo.
-• VERIFICA DELLE PRESENZE
+l'indicazione dell'orario di accesso) e prima dell'avvio delle attività formative verificano il corretto
+funzionamento audio e video di tutti i partecipant i e l'attivazione delle altre funzionalità
+necessarie per lo svolgimento dell'evento formativo.
+- VERIFICA DELLE PRESENZE
 I corsi di formazione di cui al presente Accordo, prevedono la presenza per il 90% della durata
-dell’evento formativo e dei corsi di aggiornamento. Nella formazione in videoconferenza
+dell'evento formativo e dei corsi di aggiornamento. Nella formazione in videoconferenza
 sincrona dovranno essere rispettati tali vincoli. Il tutor o il docente dovranno verificare
 
 
@@ -12447,10 +12447,10 @@ sincrona dovranno essere rispettati tali vincoli. Il tutor o il docente dovranno
 Pag. 101 a 138
 costantemente la presenza dei discenti, mediante visualizzazione delle finestre, chiamate ai
 discenti, sondaggi, richieste via chat.
-In caso in cui il discente deve assentarsi per un periodo prolungato dovrà chiedere l’abbandono
+In caso in cui il discente deve assentarsi per un periodo prolungato dovrà chiedere l'abbandono
 del collegamento che sarà successivamente ripristinato con la modalità di accesso autorizzato e
-registrato con l’orario di abbandono e di ripristino.
-• GESTIONE DELLE VERIFICHE INTERMEDIE E FINALI E DELLE ESERCITAZIONI
+registrato con l'orario di abbandono e di ripristino.
+- GESTIONE DELLE VERIFICHE INTERMEDIE E FINALI E DELLE ESERCITAZIONI
 Le verifiche dovranno essere svolte sempre in modalità sincrona e non differita, con possibilità di
 visualizzazione delle finestre dei discenti nel corso dello svolgimento. Nel caso in cui il soggetto
 formatore utilizzi funzionalità avanzate di gestione de lle verifiche queste garantiscono
@@ -12462,14 +12462,14 @@ la commissione per la verifica e il singolo discente. Qualora il soggetto format
 opportuno e funzionale ai fini della tracciabilità e traspa renza, ogni colloquio potrà essere
 registrato nel rispetto della normativa vigente sul trattamento dei dati e della privacy o, in
 alternativa, nel caso in cui non si ricorra alla registrazione del colloquio, il docente dovrà riportare
-le domande sull’apposito verbale che normalmente viene utilizzato nella formazione in presenza.
-L’esito della prova viene comunicata al discente alla fine del colloquio. La firma del discente potrà
-essere sostituita dalla registrazione audio video della comunicazione dell’esit o con presa d’atto
+le domande sull'apposito verbale che normalmente viene utilizzato nella formazione in presenza.
+L'esito della prova viene comunicata al discente alla fine del colloquio. La firma del discente potrà
+essere sostituita dalla registrazione audio video della comunicazione dell'esit o con presa d'atto
 del discente.
 Per quanto riguarda le esercitazioni individuali con finalità didattiche e non a fini valutativi si
 potrà seguire la stessa procedura delle verifiche descritta precedentemente. Se sono previste
 esercitazioni in gruppo, verrà utilizzata la funzionalità che permette di suddividere i discenti in
-sottogruppi mediante le cosiddette “aule di fuga” ( breakout rooms ). In tal modo i gruppi
+sottogruppi mediante le cosiddette "aule di fuga" ( breakout rooms ). In tal modo i gruppi
 lavoreranno separatamente nella propria aula.
 3.3 REQUISITI ORGANIZZATIVI E TECNICI, MODALITÀ E PROCEDURE OPERATIVE PER I CORSI
 E-LEARNING
@@ -12481,7 +12481,7 @@ Il soggetto formatore erogatore del corso, compreso il caso in cui sia lo stesso
 dovrà:
 - essere dotato di ambienti (sede) e struttura organizzativa idonei alla gestione dei processi
 formativi in modalità e -learning, della piattaforma tecnologica e del monitoraggio
-continuo del processo (LMS – Learning Management System);
+continuo del processo (LMS - Learning Management System);
 - garantire la disponibilità dei profili di competenze per la gestione didattica e tecnica della
 formazione e -learning quali: responsabile del progetto formativo; tutoraggio di
 contenuto e di processo; manutenzione e gestione tecnica della piattaforma;
@@ -12497,14 +12497,14 @@ e-learning (LMS) in grado di monitorare e di certificare:
 - lo svolgimento ed il completamento delle attività didattiche di ciascun utente;
 - la partecipazione attiva del discente;
 - la tracciabilità di ogni attività svolta durante il collegamento al sistema e la durata;
-- la tracciabilità dell’utilizzo anche delle singole unità didattiche strutturate in Learning
+- la tracciabilità dell'utilizzo anche delle singole unità didattiche strutturate in Learning
 Objects (LO);
-- la regolarità e la progressività di utilizzo del sistema da parte dell’utente;
+- la regolarità e la progressività di utilizzo del sistema da parte dell'utente;
 - le modalità e il superamento delle valutazioni di apprendimento intermedie e finali
 realizzabili in modalità e-learning.
 Ogni corso o modulo dovrà essere realizzato in conformità allo standard internazionale SCORM
-(Shareable Content Object Reference Model) (“Modello di riferimento per gli oggetti di
-contenuto condivisibile”) o eventuale sistema equivalente, al fine di garant ire il tracciamento
+(Shareable Content Object Reference Model) ("Modello di riferimento per gli oggetti di
+contenuto condivisibile") o eventuale sistema equivalente, al fine di garant ire il tracciamento
 della fruizione degli oggetti didattici (Learning Objects) nella piattaforma LMS utilizzata.
 3.3.3 REQUISITI RELATIVI ALLE RISORSE PROFESSIONALI E PROFILI DI COMPETENZE PER I
 CORSI EROGATI IN E-LEARNING
@@ -12512,27 +12512,27 @@ Per erogare la formazione in e -learning il soggetto formatore deve avvalersi di
 professionali con particolari competenze, aggiuntive a quelle generali riportate in
 precedenza nel paragrafo 1.7, con conoscenze, abilità e responsabilità idonee a gest ire e
 presidiare i processi di produzione caratterizzanti tale formazione. Tali figure devono essere
-disponibili nell’organizzazione del soggetto formatore indipendentemente dalla natura
+disponibili nell'organizzazione del soggetto formatore indipendentemente dalla natura
 contrattuale.
-• RESPONSABILE DEL PROGETTO FORMATIVO
+- RESPONSABILE DEL PROGETTO FORMATIVO
 Soggetto avente comprovata e documentata esperienza (almeno triennale) in materia di
 sicurezza e salute nei luoghi di lavoro, in possesso dei requisiti richiesti per formatori/docenti
 dalla legislazione vigente con specifiche competenze riguardanti la prog ettazione formativa
 in modalità e-learning.
-• MENTOR/TUTOR DI CONTENUTO
+- MENTOR/TUTOR DI CONTENUTO
 Figura professionale esperta dei contenuti in possesso dei requisiti previsti per i
 formatori/docenti dalla legislazione vigente con specifiche competenze riguardanti la
 progettazione formativa in modalità e-learning che assicura e presidia il supporto scientifico
-di assistenza ai discenti per l’apprendimento dei contenuti, fornendo chiarimenti ed
+di assistenza ai discenti per l'apprendimento dei contenuti, fornendo chiarimenti ed
 approfondimenti ed integrazioni in un arco di tempo adeguato alla efficacia didattica.
-• TUTOR DI PROCESSO
+- TUTOR DI PROCESSO
 Il tutor di processo deve possedere le conoscenze relative alle funzionalità della piattaforma
 per assicurare il supporto ai partecipanti, gestire le dinamiche di interazione e di interfaccia
-con i discenti facilitando l’accesso ai diversi ambienti didattici e ai contenuti, monitorando e
-valutando la dinamica di apprendimento e l’efficacia delle soluzioni adottate per la fruizione
+con i discenti facilitando l'accesso ai diversi ambienti didattici e ai contenuti, monitorando e
+valutando la dinamica di apprendimento e l'efficacia delle soluzioni adottate per la fruizione
 dei contenuti.
-• SVILUPPATORE DELLA PIATTAFORMA
-Soggetto che sviluppa il progetto formativo nell’ambito della piattaforma, organizzando gli
+- SVILUPPATORE DELLA PIATTAFORMA
+Soggetto che sviluppa il progetto formativo nell'ambito della piattaforma, organizzando gli
 elementi tecnici e metodologici e garantendo le attività di gestione tecnica della piattaforma.
 
 
@@ -12557,14 +12557,14 @@ trasferimento dei contenuti, i criteri di accessibilità e usabilità;
 garantendo gli aspetti relativi al trattamento dei dati personali ai sensi della normativa
 vigente;
 7) le eventuali competenze e titoli di ingresso degli utenti al percorso formativo;
-8) le modalità di tracciamento delle attività dell’intero percorso formativo;
+8) le modalità di tracciamento delle attività dell'intero percorso formativo;
 9) il tempo di disponibilità minima e massima di fruizione del percorso formativo e i tempi
 di fruizione dei contenuti (unità didattiche);
-10) le modalità di verifica dell’apprendimento sia intermedie che finali.
+10) le modalità di verifica dell'apprendimento sia intermedie che finali.
 La scheda progettuale, riportante i dati di cui sopra, dovrà essere resa disponibile al discente che,
-all’atto dell’iscrizione, dovrà dichiarare la presa visione e accettazione.
+all'atto dell'iscrizione, dovrà dichiarare la presa visione e accettazione.
 3.4 MODALITÀ MISTA
-Con il termine modalità mista o blended si intende l’erogazione di percorsi di formazione che
+Con il termine modalità mista o blended si intende l'erogazione di percorsi di formazione che
 alternano momenti di formazione a distanza (sincrona o asincrona) con momenti di formazione
 in presenza fisica. Questa modalità permette di ridurre il rischio del senso di isolamento che può
 essere attribuito alla formazione a distanza e di mantenere alcuni vantaggi (i discenti possono
@@ -12572,9 +12572,9 @@ organizzare autonomamente i propri ritmi di studio; si riducono i tempi d i spos
 raggiungere il luogo di svolgimento della formazione in presenza, il percorso può essere
 maggiormente personalizzato).
 In presenza fisica possono essere realizzati momenti strategici dei percorsi formativi, che il
-soggetto formatore ritiene utile ai fini dell’efficacia didattica.
+soggetto formatore ritiene utile ai fini dell'efficacia didattica.
 La presenza fisica è utile per:
-- socializzare e instaurare il clima d’aula;
+- socializzare e instaurare il clima d'aula;
 - sostenere la motivazione;
 - familiarizzare con la tecnologia da utilizzare in modalità a distanza;
 - effettuare attività didattiche pratiche che non posso essere effettuate a distanza;
@@ -12618,7 +12618,7 @@ Consentita Non consentita Non consentita
 Operatori addetti alla
 conduzione delle
 attrezzature di cui
-all’articolo 73, comma
+all'articolo 73, comma
 5, del decreto
 legislativo 9 aprile 2008,
 n. 81/2008
@@ -12651,16 +12651,16 @@ Consentita Non consentita Non consentita
 Operatori addetti alla
 conduzione delle
 attrezzature di cui
-all’articolo 73, comma 5, del
+all'articolo 73, comma 5, del
 decreto legislativo 9 aprile
 2008, n. 81/2008
 Consentita Non consentita Non consentita
 4 CONFORMITÀ AL REGOLAMENTO SULLA PROTEZIONE DEI DATI PERSONALI
-I soggetti formatori, nello svolgimento delle attività formative erogate all’utenza, devono
+I soggetti formatori, nello svolgimento delle attività formative erogate all'utenza, devono
 conformarsi a quanto previsto da lle disposizioni vigenti in materia di protezione dei dati
 personali.
 5 MONITORAGGIO E VALUTAZIONE DEL GRADIMENTO
-La valutazione del gradimento è una modalità di rilevazione della soddisfazione dell’utente in
+La valutazione del gradimento è una modalità di rilevazione della soddisfazione dell'utente in
 relazione ai fattori che caratterizzano la qualità formativa in termini di:
 - qualità didattica (competenza dei docenti, adeguatezza delle metodologie e dei materiali
 didattici, adeguatezza dei contenuti, ecc.);
@@ -12669,14 +12669,14 @@ assistenza, ecc.);
 - utilità percepita (trasferibilità a livello lavorativo, rispondenza alle aspettative formative,
 adeguatezza degli argomenti trattati).
 La rilevazione del gradimento può essere utilizzata:
-- ex post, a ridosso dell’immediata conclusione del percorso formativo, che è la modalità
+- ex post, a ridosso dell'immediata conclusione del percorso formativo, che è la modalità
 normalmente utilizzata per la valutazione del gradimento;
 
 
 ## Pagina 244
 
 Pag. 106 a 138
-- in itinere (all’interno della valutazione di processo). In tal caso si parla spesso di azione di
+- in itinere (all'interno della valutazione di processo). In tal caso si parla spesso di azione di
 monitoraggio in progress, che consente di apportare aggiustamenti durante il prosieguo
 del corso.
 Lo strumento più utilizzato per la rilevazione dei dati e informazioni sulla qualità percepita dai
@@ -12692,7 +12692,7 @@ Un questionario di gradimento è generalmente composto di un mix di domande chiu
 I principali indicatori di rilevazione della qualità percepita riguardano la qualità didattica e
 organizzativa.
 La qualità didattica con focus su:
-- L’efficacia comunicativa e la chiarezza espositiva dei docenti
+- L'efficacia comunicativa e la chiarezza espositiva dei docenti
 - Il livello di interazione e coinvolgimento dei discenti
 - La metodologia didattica
 - I contenuti della didattica
@@ -12703,13 +12703,13 @@ La qualità organizzativa con focus su:
 - Organizzazione d'aula
 - Tecnologie utilizzate
 - Assistenza e tutoraggio
-L’utilità percepita con focus su:
-- L’ interesse per gli argomenti;
+L'utilità percepita con focus su:
+- L' interesse per gli argomenti;
 - La soddisfazione delle aspettative;
 - Il raggiungimento degli obiettivi;
 - La trasferibilità nel contesto di lavoro.
 La compilazione dei questionari è anonima e può essere effettuata al termine di ogni UD o
-dell’intero corso di formazione.
+dell'intero corso di formazione.
 I soggetti formatori possono dotarsi di un sistema di elaborazione dei dati, di misurazione degli
 indicatori e di reportistica dei risultati.
 I dati e le informazioni raccolti vengono analizzati al fine di individuare quali sono i processi che
@@ -12719,35 +12719,35 @@ presentano criticità e le aree di miglioramento su cui intervenire.
 ## Pagina 245
 
 Pag. 107 a 138
-6. VERIFICA DELL’APPRENDIMENTO
+6. VERIFICA DELL'APPRENDIMENTO
 6.1 VERIFICA DEGLI APPRENDIMENTI
-La verifica dell’apprendimento rappresenta la prima evidenza circa il raggiungimento degli
+La verifica dell'apprendimento rappresenta la prima evidenza circa il raggiungimento degli
 obiettivi e dei risultati attesi al termine del corso. Secondo European Qualifications Framework
-(EQF) i risultati dell’apprendimento sono la “ descrizione di ciò che un discente conosce, capisce
-ed è in grado di realizzare al termine di un processo di apprendimento ” e nel sistema europeo e
+(EQF) i risultati dell'apprendimento sono la " descrizione di ciò che un discente conosce, capisce
+ed è in grado di realizzare al termine di un processo di apprendimento " e nel sistema europeo e
 nazionale di riferimento sono definiti in termini di conoscenze, abilità e responsabilità e
 autonomia come segue:
-• conoscenze risultato dell'assimilazione di informazioni attraverso l'apprendimento. Le
+- conoscenze risultato dell'assimilazione di informazioni attraverso l'apprendimento. Le
 conoscenze sono un insieme di fatti, principi, teorie e pratiche relative ad un settore di
 lavoro o di studio. Nel contesto del Quadro europeo delle qualifiche le conoscenze sono
 descritte come teoriche e/o pratiche.
-• abilità indicano le capacità di applicare conoscenze e di utilizzare know -how per portare
+- abilità indicano le capacità di applicare conoscenze e di utilizzare know -how per portare
 a termine compiti e risolvere problemi. Nel contesto del Quadro europeo delle qualifiche
 le abilità sono descritte come cognitive (comprendenti l'uso del pensiero logico, intuitivo
 e creativo) o pratiche (comprendenti l'abilità manuale e l'uso di metodi, materiali,
 strumenti).
-• competenze comprovata capacità di utilizzare conoscenze, abilità e capacità personali,
+- competenze comprovata capacità di utilizzare conoscenze, abilità e capacità personali,
 sociali e/o metodologiche, in situazioni di lavoro o di studio e nello sviluppo professionale
 e personale. Nel contesto del Quadro europeo delle qualifiche le competenze sono
 descritte in termini di responsabilità e di autonomia.
 Lo scopo delle verifiche di apprendimento è quello di misurare il cambiamento indotto nei
 partecipanti dall'intervento formativo, in termini di acquisizione di nuove conoscenze, abilità,
 competenze o di rafforzamento e riqualificazione di quelle possedute.
-Nella verifica dell’apprendimento possono essere valutate, in relazione agli obiettivi formativi e
+Nella verifica dell'apprendimento possono essere valutate, in relazione agli obiettivi formativi e
 ai risultati attesi specifici di ogni percorso formativo:
 - le conoscenze teoriche, tecniche e metodologiche;
 - la capacità di analisi e di decisione;
-- la capacità dell’uso di strumenti e attrezzature di lavoro;
+- la capacità dell'uso di strumenti e attrezzature di lavoro;
 - la capacità di applicare conoscenze, abilità e comportamenti per il successivo
 trasferimento in ambito lavorativo.
 6.2 INDICAZIONI METODOLOGICHE E OPERATIVE PER LA GESTIONE DELLE VERIFICHE DI
@@ -12756,50 +12756,50 @@ La verifica dovrà essere esaustiva e completa in modo da permettere una valutaz
 argomenti affrontati nel corso e secondo quanto previsto nella progettazione di dettaglio (micro)
 delle singole unità didattiche.
 A livello generale è opportuno che le prove vengano predisposte rispettando i seguenti criteri:
-• Coerenza con gli obiettivi e i risultati attesi individuati nel corso ed in ciascuna unità
+- Coerenza con gli obiettivi e i risultati attesi individuati nel corso ed in ciascuna unità
 didattica con evidenza delle conoscenze, abilità e competenze valutate;
-• Mappatura completa dell’intera gamma dei contenuti e degli obiettivi oggetto del corso;
-• Limitata ambiguità e interpretazioni personali;
+- Mappatura completa dell'intera gamma dei contenuti e degli obiettivi oggetto del corso;
+- Limitata ambiguità e interpretazioni personali;
 
 
 ## Pagina 246
 
 Pag. 108 a 138
-• Fornitura di criteri chiari di correzione delle prove, in particolare fornendo le griglie di
+- Fornitura di criteri chiari di correzione delle prove, in particolare fornendo le griglie di
 correzione per le simulazioni, le esercitazioni ed eventuali project work;
-• Il “peso” delle verifiche intermedie e quella finale.
+- Il "peso" delle verifiche intermedie e quella finale.
 Le verifiche possono essere effettuate in tempi diversi (in ingresso, in itinere e finali) e con
 tecniche e strumenti diversi (test, domande aperte, colloquio, project work, simulazioni, prove
 pratiche) e valutate sulla base dei criteri definiti nella fase di progettazione. Le tecniche e gli
 strumenti valutativi degli apprendimenti dipendono dal tipo di competenza da verificare,
-dall’architettura del progetto formativo e dagli obiettivi formativi.
+dall'architettura del progetto formativo e dagli obiettivi formativi.
 La verifica in ingresso è finalizzata ad individuare i livelli di partenza e le competenze pregresse
-dei partecipanti ad un percorso formativo. Viene utilizzata quando dall’analisi dei fabbisogni non
-emerge chiaramente un omogeneo livello di competenze in ingresso dei partecipanti. L’utilità di
+dei partecipanti ad un percorso formativo. Viene utilizzata quando dall'analisi dei fabbisogni non
+emerge chiaramente un omogeneo livello di competenze in ingresso dei partecipanti. L'utilità di
 effettuare prove di verifica in ingresso è quella di poter confrontare i risultati con le prove di
 verifica finali e misurare il gap tra le conoscenze/ abilità/ competenze pregresse possedute e
 quelle acquisite al te rmine del corso. Le verifiche in ingresso servono anche a conoscere le
 motivazioni personali o organizzative.
-Le verifiche in itinere hanno l’obiettivo di monitorare il livello di apprendimento durante lo
+Le verifiche in itinere hanno l'obiettivo di monitorare il livello di apprendimento durante lo
 svolgimento del corso allo scopo di riadattare gli interventi durante la fase di erogazione della
-formazione e di permettere al discente di riscontrare i propri progressi nell’apprendimento in
+formazione e di permettere al discente di riscontrare i propri progressi nell'apprendimento in
 maniera continua. In tal senso, garantendo i tempi previsti per ciascuna unità didattica, i
 momenti di verifica intermedia, la loro discussione e approfondimento possono risultare utili per
-ridefinire concetti, nozioni, procedure poco chiare e permettere al discente di riscontrare l’utilità
-di quanto appreso ai fini dell’esercizio delle proprie competenze.
-La verifica finale costituisce un importante momento della valutazione dell’efficacia didattica del
+ridefinire concetti, nozioni, procedure poco chiare e permettere al discente di riscontrare l'utilità
+di quanto appreso ai fini dell'esercizio delle proprie competenze.
+La verifica finale costituisce un importante momento della valutazione dell'efficacia didattica del
 corso.
 Attraverso le verifiche intermedie, ove previste, e finali si misureranno e verranno valutate:
-• conoscenze nozionistiche relative al sapere (di fatti, di procedure, di concetti, di principi
+- conoscenze nozionistiche relative al sapere (di fatti, di procedure, di concetti, di principi
 generali legati al funzionamento di situazioni, di cose e fatti, ecc.) che potranno essere
 misurate con test/ domande aperte;
-• conoscenza di procedure organizzative e comportamentali anche di tipo
+- conoscenza di procedure organizzative e comportamentali anche di tipo
 tecnico/professionali che richiedono capacità di ragionamento e di analisi, in questo caso
 la verifica sarà costituita da domande aperte su casi reali, esercitazioni applicative, analisi
 di casi;
-• capacità relative al saper fare, in questo caso la verifica sarà costituita da prove e
+- capacità relative al saper fare, in questo caso la verifica sarà costituita da prove e
 simulazioni pratiche e operative;
-• comprensione e applicazione di metodologie comportamentali legate ad aspetti
+- comprensione e applicazione di metodologie comportamentali legate ad aspetti
 trasversali, in particolare per le figure che rivestono ruoli decisionali, di vigilanza e che
 attengono al saper comunicare, saper lavorare in gruppo, usare strumenti concettuali per
 organizzare le conoscenze acquisite. In questo caso la verifica si realizzerà attraverso
@@ -12820,7 +12820,7 @@ aziendale in modo tale da rendere possibile la trasposizione dei concetti e dei 
 riguardo alla salute e sicurezza negli ambienti di lavoro presi in esame. La simulazione può
 prevedere la redazione di un project work, tecnica molto efficace in termini di applicabilità e
 ricaduta in ambito aziendale, prodotto individualmente o in gruppo di lavoro. Il project work può
-anche essere realizzato durante lo sviluppo d el percorso formativo e l’elaborato finale potrà
+anche essere realizzato durante lo sviluppo d el percorso formativo e l'elaborato finale potrà
 essere presentato in plenaria.
 6.3 MODALITÀ E CRITERI DI VERIFICA DEGLI APPRENDIMENTI DEI CORSI DI FORMAZIONE E
 DI AGGIORNAMENTO (TABELLE CORSI/MODALITÀ DI VERIFICA)
@@ -12844,7 +12844,7 @@ inquinamento o confinati
 Test e
 Prove pratiche
 Operatori addetti alla conduzione delle
-attrezzature di cui all’articolo 73, comma 5, del
+attrezzature di cui all'articolo 73, comma 5, del
 decreto legislativo 9 aprile 2008, n. 81/2008
 Prove pratiche
 Test: somministrabili anche in itinere, per un totale minimo di 30 domande ciascuna con almeno
@@ -12856,7 +12856,7 @@ Simulazione: simulazione finalizzata alla verifica delle competenze tecnico-prof
 al ruolo rivestito nel contesto lavorativo;
 Prove pratiche: previste per i lavoratori che operano in ambiente confinato e di sospetto di
 inquinamento e lavoratori che utilizzano attrezzature di lavoro da eseguire come riportato nei
-punti 7 e 8, parte II dell’Accordo.
+punti 7 e 8, parte II dell'Accordo.
 
 
 ## Pagina 248
@@ -12872,17 +12872,17 @@ Lavoratori, datori di lavoro e lavoratori
 autonomi che operano in ambienti
 sospetti di inquinamento o confinati
 Prova pratica e
-Colloquio in relazione all’oggetto dell’aggiornamento
+Colloquio in relazione all'oggetto dell'aggiornamento
 Operatori addetti alla conduzione delle
-attrezzature di cui all’articolo 73, comma
+attrezzature di cui all'articolo 73, comma
 5, del decreto legislativo 9 aprile 2008, n.
 81/2008
 Prova pratica e
-Colloquio in relazione all’oggetto dell’aggiornamento
+Colloquio in relazione all'oggetto dell'aggiornamento
 Test: minimo 10 domande ciascuna con almeno tre risposte alternative (esito positivo dato dalla
-risposta corretta ad almeno il 70% delle domande) in relazione all’oggetto dell’aggiornamento;
-Colloquio individuale: finalizzato a verificare le competenze acquisite in relazione all’oggetto
-dell’aggiornamento;
+risposta corretta ad almeno il 70% delle domande) in relazione all'oggetto dell'aggiornamento;
+Colloquio individuale: finalizzato a verificare le competenze acquisite in relazione all'oggetto
+dell'aggiornamento;
 Prova pratica: consistente nella verifica delle capacità di utilizzare in sicurezza le attrezzature di
 lavoro o di operare in ambiente confinato e di sospetto di inquinamento.
 
@@ -12890,49 +12890,49 @@ lavoro o di operare in ambiente confinato e di sospetto di inquinamento.
 ## Pagina 249
 
 Pag. 111 a 138
-7 VERIFICA DELL’ EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO DELLA
+7 VERIFICA DELL' EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO DELLA
 PRESTAZIONE LAVORATIVA
 Il datore di lavoro, oltre ad assicurare che ciascun lavoratore riceva una formazione sufficiente
-ed adeguata in merito ai rischi specifici, deve, pertanto, anche verificarne l’efficacia durante lo
+ed adeguata in merito ai rischi specifici, deve, pertanto, anche verificarne l'efficacia durante lo
 svolgimento della prestazione di lavoro.
-La valutazione dell’efficacia della formazione, parte integrante del processo formativo, ha lo
+La valutazione dell'efficacia della formazione, parte integrante del processo formativo, ha lo
 scopo di verificare e misurare l'effettivo cambiamento che la formazione ha avuto sui
-partecipanti, attraverso l’interiorizzazione di concetti e l’acquisizione d elle competenze
-necessarie, rispetto all’esercizio del proprio ruolo in azienda, con un effetto diretto sia
-sull’efficacia che sull’efficienza del funzionamento organizzativo del sistema prevenzionale. La
-valutazione dell’efficacia risulta necessaria per r ilevare informazioni utili a supportare i processi
+partecipanti, attraverso l'interiorizzazione di concetti e l'acquisizione d elle competenze
+necessarie, rispetto all'esercizio del proprio ruolo in azienda, con un effetto diretto sia
+sull'efficacia che sull'efficienza del funzionamento organizzativo del sistema prevenzionale. La
+valutazione dell'efficacia risulta necessaria per r ilevare informazioni utili a supportare i processi
 decisionali aziendali e assume una funzione migliorativa, centrata sui processi e sui loro legami
 con i risultati.
 Tale valutazione dovrà essere svolta a posteriori, a una certa distanza di tempo dal termine del
-corso, durante lo svolgimento della prestazione lavorativa e dovrà constatare l’applicazione al
+corso, durante lo svolgimento della prestazione lavorativa e dovrà constatare l'applicazione al
 lavoro di:
-• conoscenze, abilità e competenze acquisite dai discenti mediante l’intervento formativo;
-• comportamenti e pratiche abituali inerenti all’organizzazione, quali la corretta
+- conoscenze, abilità e competenze acquisite dai discenti mediante l'intervento formativo;
+- comportamenti e pratiche abituali inerenti all'organizzazione, quali la corretta
 applicazione di procedure, schede lavorative, protocolli, ecc.
-Al fine di verificare l’efficacia dell’attività formativa nei confronti dei soggetti di cui all’art.37
+Al fine di verificare l'efficacia dell'attività formativa nei confronti dei soggetti di cui all'art.37
 comma 2 lett. b) del D.lgs. 81/08 durante lo svolgimento della prestazione lavorativa, il datore di
 lavoro, eventualmente anche con il supporto del RSPP può utilizzare una delle seguenti modalità:
-1. Analisi infortunistica aziendale. Per la valutazione dell’efficacia dell’attività formativa
-può essere adottato un modello di studio pre -post, misurando l’incidenza infortunistica
-prima e dopo l’intervento formativo inclusi i “mancati infortuni”. Le informazioni raccolte
-consentono di effettuare l’analisi pre-post sugli infortuni e i “mancati infortuni” nell’arco
-temporale prescelto. Laddove l’analisi evidenzi carenze nelle conoscenze, competenze e
+1. Analisi infortunistica aziendale. Per la valutazione dell'efficacia dell'attività formativa
+può essere adottato un modello di studio pre -post, misurando l'incidenza infortunistica
+prima e dopo l'intervento formativo inclusi i "mancati infortuni". Le informazioni raccolte
+consentono di effettuare l'analisi pre-post sugli infortuni e i "mancati infortuni" nell'arco
+temporale prescelto. Laddove l'analisi evidenzi carenze nelle conoscenze, competenze e
 abilità dei lavoratori, si dovrà valutare la possibilità di adottare azioni correttive.
 2. Questionari da somministrare al personale. Si tratta di valutare tramite un questionario
-di autovalutazione l’acquisizione di comportamenti sicuri da parte dei lavoratori
-destinatari dell’attività formativa. Il questionario può essere elaborato in base a diversi
+di autovalutazione l'acquisizione di comportamenti sicuri da parte dei lavoratori
+destinatari dell'attività formativa. Il questionario può essere elaborato in base a diversi
 elementi: la percezione del pericolo da parte dei lavoratori, la conoscenza delle misure di
-sicurezza aziendali, la percezione dell’esperienza da parte del lavoratore.
-3. Check list di valutazione. La check list deve misurare la valutazione di efficacia dell’attività
-formativa attraverso l’osservazione dei comportamenti dei lavoratori nei confronti delle
+sicurezza aziendali, la percezione dell'esperienza da parte del lavoratore.
+3. Check list di valutazione. La check list deve misurare la valutazione di efficacia dell'attività
+formativa attraverso l'osservazione dei comportamenti dei lavoratori nei confronti delle
 misure relative alla salute e sicurezza del lavoro. Si deve pertanto definire una checklist
 che risponda ad una serie di osservazioni per poter verificare se il lavoratore ha adottato
 dei comportamenti sicuri. Ad esempio, si possono individuare i seguenti elementi: utilizzo
 dei DPI, corretto utilizzo attrezzature, rispetto delle procedure di lavoro. Il check diventa,
-nel contempo, strumento di valutazione dell’efficacia della formazione durante l’attività
+nel contempo, strumento di valutazione dell'efficacia della formazione durante l'attività
 lavorativa e strumento di controllo da parte dei soggetti della prevenzione aziendale.
-Nell’ambito della riunione periodica deve essere verificato il raggiungimento dei risultati attesi e
-rilevata l’efficacia formativa attraverso gli indicatori, i criteri e gli strumenti stabiliti in sede di
+Nell'ambito della riunione periodica deve essere verificato il raggiungimento dei risultati attesi e
+rilevata l'efficacia formativa attraverso gli indicatori, i criteri e gli strumenti stabiliti in sede di
 progettazione.
 
 
@@ -12940,16 +12940,16 @@ progettazione.
 
 Pag. 112 a 138
 PARTE V -RICONOSCIMENTO DEI CREDITI FORMATIVI
-Ai fini degli esoneri di frequenza e per il riconoscimento dei crediti formativi descritti nell’allegato
-III occorre fornire evidenza documentale ad es. mediante attestato dal quale si evince l’esonero
+Ai fini degli esoneri di frequenza e per il riconoscimento dei crediti formativi descritti nell'allegato
+III occorre fornire evidenza documentale ad es. mediante attestato dal quale si evince l'esonero
 dal/dai percorso/percorsi formativo/i.
-Ai fini dell’aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
+Ai fini dell'aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
 formatore per la sicurezza sul lavoro, ai sensi del decreto interministeriale 6 marzo 2013 e
 successive modifiche e integrazioni, è da ritenersi valida e viceversa.
-Ai fini dell’aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
-coordinatore per la sicurezza, ai sensi dell’allegato XIV del d.lgs. n. 81/2008 nonché secondo
+Ai fini dell'aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
+coordinatore per la sicurezza, ai sensi dell'allegato XIV del d.lgs. n. 81/2008 nonché secondo
 quanto previsto dal presente accordo, è da ritenersi valida e viceversa.
-Le modalità di riconoscimento de i crediti formativi sono riportate in premessa nell’allegato III,
+Le modalità di riconoscimento de i crediti formativi sono riportate in premessa nell'allegato III,
 con i crediti formativi riconosciuti. Si evidenzia che laddove la tipologia di formazione dei soggetti
 non sia riportata nelle tabelle, nessun credito formativo è riconosciuto.
 
@@ -12958,50 +12958,50 @@ non sia riportata nelle tabelle, nessun credito formativo è riconosciuto.
 
 Pag. 113 a 138
 PARTE V I CONTROLLO DELLE ATTIVIT À FORMATIVE E MONITORAGGIO
-DELL’APPLICAZIONE DELL’ACCORDO
-Secondo l’art. 37 comma 2 lettera b-bis del d.lgs. n. 81/2008, gli Organi di vigilanza in materia di
-salute e sicurezza nei luoghi di lavoro prevedono, nell’ambito della loro attività e delle proprie
+DELL'APPLICAZIONE DELL'ACCORDO
+Secondo l'art. 37 comma 2 lettera b-bis del d.lgs. n. 81/2008, gli Organi di vigilanza in materia di
+salute e sicurezza nei luoghi di lavoro prevedono, nell'ambito della loro attività e delle proprie
 competenze, anche la pianificazione di controlli sulle attività formative e sul rispetto della
 normativa di riferimento, sia da parte dei soggetti che erogano la formazione, sia da parte dei
 soggetti destinatari della stessa.
-Con l’atto di cui al punto 1 parte I del presente accordo saranno altresì definiti le modalità di
+Con l'atto di cui al punto 1 parte I del presente accordo saranno altresì definiti le modalità di
 monitoraggio e controllo.
 
 
 ## Pagina 252
 
 Pag. 114 a 138
-PARTE VII– ALTRE DISPOSIZIONI
+PARTE VII- ALTRE DISPOSIZIONI
 1 ENTRATA IN VIGORE
 Il presente accordo entra in vigore il giorno della pubblicazione nella Gazzetta Ufficiale della
 Repubblica italiana.
 2 DISPOSIZIONI TRANSITORIE
-In fase di prima applicazione e comunque non oltre dodici mesi dall’entrata in vigore del presente
+In fase di prima applicazione e comunque non oltre dodici mesi dall'entrata in vigore del presente
 accordo, possono essere avviati i corsi secondo quanto previsti degli accordi Stato -Regioni
-abrogati al successivo punto 3 nonché dell’allegato XIV del d.lgs. n. 81/2008 vigente prima
-dell’entrata in vigore del presente accordo.
-Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui all’art. 37 del
+abrogati al successivo punto 3 nonché dell'allegato XIV del d.lgs. n. 81/2008 vigente prima
+dell'entrata in vigore del presente accordo.
+Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui all'art. 37 del
 d.lgs. n. 81/2008, i datori di lavoro sono tenuti a frequentare il corso di formazione di cui alla
 parte II, punto 3, del presente accordo in modo che lo stesso venga concluso entro e non oltre il
-termine di 24 mesi dall’entrata in vigore del presente accordo. I corsi di formazione per datore di
+termine di 24 mesi dall'entrata in vigore del presente accordo. I corsi di formazione per datore di
 lavoro, già erogati alla data di entrata in vigore del presente accordo, i cui contenuti siano
-conformi al prese nte accordo sono riconosciuti. L’aggiornamento dei suddetti corsi parte dalla
-data di fine corso riportata nell’attestato.
+conformi al prese nte accordo sono riconosciuti. L'aggiornamento dei suddetti corsi parte dalla
+data di fine corso riportata nell'attestato.
 RICONOSCIMENTO FORMAZIONE PREGRESSA LAVORATORI, DIRIGENTI E PREPOSTI
-Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato-Regioni
+Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato-Regioni
 del 21 dicembre 2011 per i quali è riconosciuto credito formativo totale.
 DIRIGENTI
-Per i dirigenti sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni
+Per i dirigenti sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni
 del 21 dicembre 2011, per il quali è riconosciuto credito formativo totale.
 PREPOSTI
-Per i preposti sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni
+Per i preposti sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni
 del 21 dicembre 2011, per il quali è riconosciuto credito formativo totale.
-L’obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento
+L'obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento
 sia stato erogato da più di 2 anni dalla data di entrata in vigore del presente accordo, dovrà essere
 ottemperato entro 12 mesi dalla data di entrata in vigore del presente accordo.
 RICONOSCIMENTO CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni 21 dicembre
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni 21 dicembre
 2011 n 223 per i quali sono riconosciuti i crediti formativi come riportato nella tabella
 sottoindicata e alle condizioni ivi indicate.
 
@@ -13027,10 +13027,10 @@ e zootecnia (16 ore)
 Modulo integrativo 2:
 Pesca (12 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- A 01 02 -03
 (agricoltura,
@@ -13042,10 +13042,10 @@ Credito totale
 Modulo integrative 3:
 Costruzioni (16 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- F
 (costruzioni)
@@ -13055,10 +13055,10 @@ Modulo integrativo 4 -
 chimico Petrolchimico
 (16 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- C 19
 (fabbricazione dl
@@ -13074,7 +13074,7 @@ di prodotti chimici
 
 Pag. 116 a 138
 RICONOSCIMENTO FORMAZIONE PER RSPP E ASPP
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 7 luglio
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 7 luglio
 20163 per i moduli A e C, per il quali è riconosciuto credito formativo totale, nonché per il modulo
 B come riportato nella tabella sottoindicata.
 Accordo Stato Regione 128
@@ -13085,7 +13085,7 @@ Modulo B comune Modulo B specialistico
 Modulo B Comune Credito totale
 Modulo B-SP1: Agricoltura -
 Pesca (12 ore) già
-riconosciuto al Modulo B1 –
+riconosciuto al Modulo B1 -
 Accordo 2006
 già riconosciuto al Modulo
 B2
@@ -13097,7 +13097,7 @@ per Modulo B-SP2: Pesca (12 ore)
 Modulo B -SP2: Attività
 Estrattive - Costruzioni (16
 ore) già riconosciuto al
-Modulo B3 dell’accordo
+Modulo B3 dell'accordo
 2006
 _____________
 Credito totale per Modulo B -SP3:
@@ -13105,24 +13105,24 @@ Costruzioni (16 ore)
 Modulo B -SP3: Sanità
 residenziale (12 ore) già
 riconosciuto al Modulo B7
-dell’accordo 2006
+dell'accordo 2006
 ______________
 Credito totale per Modulo B -SP4:
 Sanità residenziale (12 ore
 Modulo B -SP4: Chimico -
 Petrolchimico (16 ore) già
 riconosciuto al Modulo B5
-dell’accordo 2006
+dell'accordo 2006
 __________________
 Credito totale per Modulo B -SP5:
 Chimico - Petrolchimico (16 ore)
 RICONOSCIMENTO FORMAZIONE PREGRESSA PER I COORDINATORI PER LA
-PROGETTAZIONE E PER L’ ESECUZIONE DEI LAVORI (ALLEGATO XIV DLGS 81/08)
-Per I coordinatori per la progettazione e per l’esecuzione dei lavori sono fatti salvi i percorsi
-formativi effettuati in vigenza allegato XIV Dlgs 81/08 così come modificato dall’Accordo Stato
+PROGETTAZIONE E PER L' ESECUZIONE DEI LAVORI (ALLEGATO XIV DLGS 81/08)
+Per I coordinatori per la progettazione e per l'esecuzione dei lavori sono fatti salvi i percorsi
+formativi effettuati in vigenza allegato XIV Dlgs 81/08 così come modificato dall'Accordo Stato
 Regione 7 luglio 2016, per il quali è riconosciuto credito formativo totale.
-3 Al punto 8 dell’Accordo 2016 era stato previsto il riconoscimento della formazione pregressa (ex accordo stato -
-regioni del 26 gennaio 2006) rispetto all’ articolazione del modulo B dell’accordo 7 luglio 2016.
+3 Al punto 8 dell'Accordo 2016 era stato previsto il riconoscimento della formazione pregressa (ex accordo stato -
+regioni del 26 gennaio 2006) rispetto all' articolazione del modulo B dell'accordo 7 luglio 2016.
 
 
 ## Pagina 255
@@ -13134,27 +13134,27 @@ CONFINATI
 Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui al DPR
 177/2011, il corso di formazione di cui alla parte II, punto 7, del presente accordo deve essere
 frequentato in modo che lo stesso venga concluso entro e non oltr e il termine di 12 mesi
-dall’entrata in vigore del presente accordo. I corsi di formazione inerenti ai lavoratori, datori
+dall'entrata in vigore del presente accordo. I corsi di formazione inerenti ai lavoratori, datori
 di lavoro e lavoratori autonomi che operano in ambienti sospetti di inquinamento o confinati
 già erogati alla data di entrata in vigo re del presente accordo, i cui contenuti siano conformi
 al presente accordo sono riconosciuti. Il relativo aggiornamento parte dalla data di fine corso
-riportata nell’attestato
+riportata nell'attestato
 RICONOSCIMENTO FORMAZIONE PREGRESSA DEGLI OPERATORI ADDETTI ALLA
-CONDUZIONE DI ATTREZZATURE DI CUI ALL’ARTICOLO 73, COMMA 5, DEL DECRETO
+CONDUZIONE DI ATTREZZATURE DI CUI ALL'ARTICOLO 73, COMMA 5, DEL DECRETO
 LEGISLATIVO 9 APRILE 2008, N. 81/2008
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 22
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 22
 febbraio 2012 per le attrezzature ancorché ricomprese nel presente Accordo
 I corsi di formazione di cui alla parte II, punti 8.3.9, 8.3.10, 8.3.11 (macchine agricole raccogli
 frutta, caricatori per la movimentazione di materiali, carroponti) del presente accordo
 devono essere frequentati in modo che gli stessi vengano conclusi entro e non oltre il termine
-di 12 mesi dall’entrata in vigore del presente accordo. I corsi di formazione inerenti ai
+di 12 mesi dall'entrata in vigore del presente accordo. I corsi di formazione inerenti ai
 operatori addetti alla conduzione delle attrezzature di lavoro di cui ai punti 8.3.9, 8.3.10,
 8.3.11, già erogati alla data di entrata in vigore del presente accordo, i cui contenuti siano
-conformi al presente accordo, sono riconosciuti. L’ aggiornamento dei suddetti corsi parte
-dalla data di fine corso riportata nell’attestato.
+conformi al presente accordo, sono riconosciuti. L' aggiornamento dei suddetti corsi parte
+dalla data di fine corso riportata nell'attestato.
 FORMAZIONE DEI LAVORATORI SOMMINISTRATI
 Per la formazione dei lavoratori in caso di somministrazione di lavoro si fa riferimento a
-quanto previsto dall’art. 35, comma 4 del d.lgs.15 giugno 2015, n. 81.
+quanto previsto dall'art. 35, comma 4 del d.lgs.15 giugno 2015, n. 81.
 
 
 ## Pagina 256
@@ -13164,19 +13164,19 @@ DISPOSIZIONI FINALI
 Fatto salvo quanto previsto al precedente punto 2, alla data di entrata in vigore del presente
 accordo sono abrogati i seguenti accordi:
 → accordo sancito il 21 dicembre 2011 in sede di Conferenza permanente per i rapporti
-tra il Governo e le Regioni e le Province autonome ai sensi dell’articolo 37, comma 2,
+tra il Governo e le Regioni e le Province autonome ai sensi dell'articolo 37, comma 2,
 del decreto legislativo 9 aprile 2008, n. 81, pubblicato nella Gazzetta Ufficiale n. 8 del
 11/01/2012 (Rep 221/CSR);
 → accordo sancito il 21 dicembre 2011 in sede di Conferenza permanente per i rapporti
 tra il Governo e le Regioni e le Province autonome sui corsi di formazione per lo
 svolgimento diretto, da parte del datore di lavoro, dei compiti di prevenzione e
-protezione dai rischi, ai sensi dell’articolo 34, commi 2 e 3, del decreto legislativo 9
+protezione dai rischi, ai sensi dell'articolo 34, commi 2 e 3, del decreto legislativo 9
 aprile 2008, n. 81, pubblicato nella Gazzetta Ufficiale n. 8 del 11/01/2012 (Rep
 223/CSR);
 → accordo sancito il 22 febbraio 2012 in sede di Conferenza permanente per i rapporti
-tra il Governo e le Regioni e le Province autonome per l’individuazione delle
+tra il Governo e le Regioni e le Province autonome per l'individuazione delle
 attrezzature di lavoro per le quali è richiesta una specifica abilitazione degli operatori,
-ai sensi dell’articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81,
+ai sensi dell'articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81,
 pubblicato nella Gazzetta Ufficiale n. 60 del 12/03/2012 (Rep 53/CSR);
 → Accordo tra il Governo, le Regioni e le Province autonome di Trento e di Bolzano, sul
 documento proposto dal Ministero del lavoro e delle politiche sociali recante
@@ -13187,7 +13187,7 @@ del 18-8-2012)
 → accordo sancito il 7 luglio 2016 in sede di Conferenza permanente per i rapporti tra il
 Governo e le Regioni e le Province autonome finalizzato alla individuazione della
 durata e dei contenuti minimi dei percorsi formativi per i responsabili e gli addetti dei
-servizi di prevenzione e protezione, ai sensi dell’articolo 32 del decreto legislativo 9
+servizi di prevenzione e protezione, ai sensi dell'articolo 32 del decreto legislativo 9
 aprile 2008, n. 81 e successive modificazioni, pubblicato nella Gazzetta Ufficiale n. 193
 del 19/08/2016 (Rep 128/CSR).
 CLAUSOLA DI INVARIANZA FINANZIARIA
@@ -13200,8 +13200,8 @@ maggiori oneri per la finanza pubblica.
 
 Pag. 119 a 138
 ALLEGATO I
-Elenco delle classi di laurea per l’esonero dalla frequenza ai corsi di formazione
-di cui all’art. 32, comma 2 primo periodo, del d.lgs. n. 81/2008.
+Elenco delle classi di laurea per l'esonero dalla frequenza ai corsi di formazione
+di cui all'art. 32, comma 2 primo periodo, del d.lgs. n. 81/2008.
 Laurea Magistrale (D.M. dell'università e della ricerca in data 16 marzo 2007):
 → LM-4 Architettura e ingegneria edile-architettura
 → LM-20 Ingegneria aerospaziale e astronautica
@@ -13227,7 +13227,7 @@ novembre 2000):
 → 26/S Ingegneria biomedica
 → 27/S Ingegneria chimica
 → 28/S Ingegneria civile
-→ 29/S Ingegneria dell’automazione
+→ 29/S Ingegneria dell'automazione
 → 30/S Ingegneria delle telecomunicazioni
 → 31/S Ingegneria elettrica
 → 32/S Ingegneria elettronica
@@ -13236,12 +13236,12 @@ novembre 2000):
 → 35/S Ingegneria informatica
 → 36/S Ingegneria meccanica
 → 37/S Ingegneria navale
-→ 38/S Ingegneria per l’ambiente e il territorio
+→ 38/S Ingegneria per l'ambiente e il territorio
 Laurea Magistrale (D.M. dell'università e della ricerca in data 8 gennaio 2009):
 → LM/SNT 4 Scienze delle professioni sanitarie della prevenzione
 Laurea (D.M. dell'università e della ricerca scientifica e tecnologica in data 18 marzo 2006):
 → L7 Ingegneria civile e ambientale
-→ L8 Ingegneria dell’informazione
+→ L8 Ingegneria dell'informazione
 → L9 Ingegneria Industriale
 → L17 Scienze dell'architettura
 → L23 Scienze e tecniche dell'edilizia
@@ -13269,7 +13269,7 @@ lavoro per le quali è richiesta una specifica abilitazione degli operatori (di 
 attrezzature) sono:
 Piattaforme di lavoro mobili elevabili (PLE): macchina mobile destinata a spostare persone
 alle posizioni di lavoro, poste ad altezza superiore a 2m rispetto ad un piano stabile, nelle quali
-svolgono mansioni dalla piattaforma di lavoro, con l’intendimento che le persone accedano ed
+svolgono mansioni dalla piattaforma di lavoro, con l'intendimento che le persone accedano ed
 escano dalla pia ttaforma di lavoro attraverso una posizione di accesso definita e che sia
 costituita almeno da una piattaforma di lavoro con comandi, da una struttura estensibile e da
 un telaio.
@@ -13299,7 +13299,7 @@ scaffalature qualsiasi tipo di carico ed azionato da un operatore a bordo su sed
 Carrelli semoventi a braccio telescopico: carrelli elevatori a contrappeso dotati di uno o
 più bracci snodati, telescopici o meno, non girevoli, utilizzati per impilare carichi. Il
 dispositivo di sollevamento non deve essere girevole o comunque non deve presentare un
-movimento di rotazione maggiore di 5° rispetto all’asse longitudinale del carrello.
+movimento di rotazione maggiore di 5° rispetto all'asse longitudinale del carrello.
 Carrelli/Sollevatori/Elevatori semoventi telescopici rotativi: attrezzature semoventi
 dotate di uno o più bracci snodati, telescopici o meno, girevoli, utilizzate per movimentare
 carichi ed azionate da un operatore a bordo su sedile.
@@ -13390,7 +13390,7 @@ Pag. 129 a 138
 ALLEGATO III
 Legenda crediti
 CREDITI
-TOTALE: si intende il riconoscimento completo della formazione acquisita e quindi l’esonero
+TOTALE: si intende il riconoscimento completo della formazione acquisita e quindi l'esonero
 totale dalla frequenza del monte ore di formazione o di aggiornamento previsto per il soggetto
 individuato.
 PARZIALE: si intende il riconoscimento di una parte della formazione acquisita e di conseguenza
@@ -13462,10 +13462,10 @@ accordo 7 luglio 2016
 Presente accordo
 FREQUENZA TOTALE TOTALE TOTALE TOTALE TOTALE
 A titolo esemplificativo:
-Un RSPP, formato con l’accordo Stato-Regioni del 26/01/2006, che vuole conseguire il titolo per
+Un RSPP, formato con l'accordo Stato-Regioni del 26/01/2006, che vuole conseguire il titolo per
 svolgere il ruolo di Coordinatore per la Sicurezza:
-• il modulo A costituisce credito per il modulo giuridico;
-• deve frequentare i restanti moduli: tecnico (52 ore), metodologico / organizzativo (16 ore)
+- il modulo A costituisce credito per il modulo giuridico;
+- deve frequentare i restanti moduli: tecnico (52 ore), metodologico / organizzativo (16 ore)
 e parte pratica (24 ore).
 
 
@@ -13859,10 +13859,10 @@ ALLEGATO IV
 Individuazione macrocategorie di rischio e corrispondenze ATECO 2007
 Rischio BASSO
 ATECO 2007
-G - COMMERCIO ALL’INGROSSO E AL DETTAGLIO; RIPARAZIONE DI AUTOVEICOLI E MOTOCICLI
-45 - COMMERCIO ALL’INGROSSO E AL DETTAGLIO E RIPARAZIONE DI AUTOVEICOLI E
+G - COMMERCIO ALL'INGROSSO E AL DETTAGLIO; RIPARAZIONE DI AUTOVEICOLI E MOTOCICLI
+45 - COMMERCIO ALL'INGROSSO E AL DETTAGLIO E RIPARAZIONE DI AUTOVEICOLI E
 MOTOCICLI
-46 - COMMERCIO ALL’INGROSSO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
+46 - COMMERCIO ALL'INGROSSO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
 47 - COMMERCIO AL DETTAGLIO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
 I - ATTIVITÀ DEI SERVIZI DI ALLOGGIO E DI RISTORAZIONE
 55 - ALLOGGIO
@@ -13895,7 +13895,7 @@ SERVIZI DI PRENOTAZIONE E ATTIVITÀ CONNESSE
 ## Pagina 274
 
 Pag. 136 a 138
-82 -ATTIVITÀ DI SUPPORTO PER LE FUNZIONI D’UFFICIO E ALTRI SERVIZI DI SUPPORTO ALLE
+82 -ATTIVITÀ DI SUPPORTO PER LE FUNZIONI D'UFFICIO E ALTRI SERVIZI DI SUPPORTO ALLE
 IMPRESE
 J - SERVIZI DI INFORMAZIONE E COMUNICAZIONE
 58 - ATTIVITÀ EDITORIALI
@@ -13904,7 +13904,7 @@ REGISTRAZIONI MUSICALI E SONORE
 60 - ATTIVITÀ Dl PROGRAMMAZIONE E TRASMISSIONE
 61 - TELECOMUNICAZIONI
 62 - PRODUZIONE Dl SOFTWARE, CONSULENZA INFORMATICA E ATTIVITÀ CONNESSE
-63 - ATTIVITÀ DEI SERVIZI D’INFORMAZIONE E ALTRI SERVIZI INFORMATICI
+63 - ATTIVITÀ DEI SERVIZI D'INFORMAZIONE E ALTRI SERVIZI INFORMATICI
 R - ATTIVITÀ ARTISTICHE, SPORTIVE, DI INTRATTENIMENTO E DIVERTIMENTO
 90 - ATTIVITÀ CREATIVE, ARTISTICHE E DI DIVERTIMENTO
 91 - ATTIVITÀ DI BIBLIOTECHE, ARCHIVI, MUSEI ED ALTRE ATTIVITÀ CULTURALI
@@ -13937,7 +13937,7 @@ H - TRASPORTO E MAGAZZINAGGIO
 ## Pagina 275
 
 Pag. 137 a 138
-50 -TRASPORTO MARITTIMO E PER VIE D’ACQUA
+50 -TRASPORTO MARITTIMO E PER VIE D'ACQUA
 51 - TRASPORTO AEREO
 52 - MAGAZZINAGGIO E ATTIVITÀ DI SUPPORTO AI TRASPORTI
 53 - SERVIZI POSTALI E ATTIVITÀ DI CORRIERE
@@ -13954,7 +13954,7 @@ B - ESTRAZIONE DI MINERALI DA CAVE E MINIERE
 06 - ESTRAZIONE DI PETROLIO GREGGIO E DI GAS NATURALE
 07 - ESTRAZIONE DI MINERALI METALLIFERI
 08 - ALTRE ATTIVITÀ DI ESTRAZIONE DI MINERALI DA CAVE E MINIERE
-09 - ATTIVITÀ DEI SERVIZI DI SUPPORTO ALL’ESTRAZIONE
+09 - ATTIVITÀ DEI SERVIZI DI SUPPORTO ALL'ESTRAZIONE
 F - COSTRUZIONI
 41 - COSTRUZIONE Dl EDIFICI
 42 - INGEGNERIA CIVILE
@@ -14009,33 +14009,33 @@ Q - SANITÀ E ASSISTENZA SOCIALE
 Pag. 3 a 138
 ALLEGATO A
 PREMESSA
-Ai sensi dell’articolo 37, comma 2, del d.lgs. n. 81/2008, così come modificato dalla legge n. 215
-del 2021, è necessario procedere all’accorpamento, alla rivisitazione e alla modifica degli accordi
+Ai sensi dell'articolo 37, comma 2, del d.lgs. n. 81/2008, così come modificato dalla legge n. 215
+del 2021, è necessario procedere all'accorpamento, alla rivisitazione e alla modifica degli accordi
 attuativi del d.lgs. n. 81/2008 in materia di formazione in modo da garantire:
-a) l’individuazione della durata, dei contenuti minimi e delle modalità della formazione
+a) l'individuazione della durata, dei contenuti minimi e delle modalità della formazione
 obbligatoria a carico del datore di lavoro;
-b) l’individuazione delle modalità della verifica finale di apprendimento obbligatoria per i
+b) l'individuazione delle modalità della verifica finale di apprendimento obbligatoria per i
 discenti di tutti i percorsi formativi e di aggiornamento obbligatori in materia di salute e
 sicurezza sul lavoro e delle modalità delle verifiche di efficacia della formazione durante
 lo svolgimento della prestazione lavorativa;
-b-bis) il monitoraggio dell’applicazione degli accordi in materia di formazione, nonché' il
+b-bis) il monitoraggio dell'applicazione degli accordi in materia di formazione, nonché' il
 controllo sulle attività formative e sul rispetto della normativa di riferimento, sia da parte
 dei soggetti che erogano la formazione, sia da parte dei soggetti destinatari della stessa.))
 Tutto ciò premesso, il Governo, le Regioni e le province autonome concordano di procedere:
-1. alla rivisitazione, alla modifica e all’accorpamento degli Accordi attuativi del d.lgs. n.
+1. alla rivisitazione, alla modifica e all'accorpamento degli Accordi attuativi del d.lgs. n.
 81/2008;
-2. all’aggiornamento dell’allegato XIV del d.lgs. n. 81/2008 ai sensi dell’art. 98, comma 3;
-3. all’individuazione della durata, dei contenuti minimi e delle modalità della formazione per
-tutti i soggetti per i quali è previst o l’obbligo formativo rientranti nell’ambito di
+2. all'aggiornamento dell'allegato XIV del d.lgs. n. 81/2008 ai sensi dell'art. 98, comma 3;
+3. all'individuazione della durata, dei contenuti minimi e delle modalità della formazione per
+tutti i soggetti per i quali è previst o l'obbligo formativo rientranti nell'ambito di
 applicazione del presente accordo ivi compresi i lavoratori, datori di lavoro e lavoratori
 autonomi che operano in ambienti sospetti di inquinamento o confinati, secondo quanto
-previsto dall’articolo 2 del DPR n. 177 del 14 settembre 2011;
-4. all’individuazione delle modalità di verifica finale di apprendimento obbligatoria per i
+previsto dall'articolo 2 del DPR n. 177 del 14 settembre 2011;
+4. all'individuazione delle modalità di verifica finale di apprendimento obbligatoria per i
 discenti di tutti i percorsi formativi e di aggiornamento obbligatori in materia di salute e
 sicurezza sul lavoro e delle modalità delle verifiche di efficacia della formazione durante
 lo svolgimento della prestazione lavorativa.
 Resta ferma la facoltà per le Regioni e Provincie autonome di introdurre o mantenere disposizioni
-più favorevoli in materia di salute e sicurezza sul lavoro. L’attuazione del presente accordo non
+più favorevoli in materia di salute e sicurezza sul lavoro. L'attuazione del presente accordo non
 può comportare una diminuzione del livello di tutela della salute e della sicurezza nei luoghi di
 lavoro preesistente in ciascuna Regione o Provincia autonoma.
 
@@ -14045,17 +14045,17 @@ lavoro preesistente in ciascuna Regione o Provincia autonoma.
 Pag. 4 a 138
 SOMMARIO
 PREMESSA......................................................................................................................................................................... 3
-PARTE I – ORGANIZZAZIONE GENERALE...................................................................................................... 8
+PARTE I - ORGANIZZAZIONE GENERALE...................................................................................................... 8
 1. INDIVIDUAZIONE DEI SOGGETTI FORMATORI............................................................................ 8
-1.1 SOGGETTI FORMATORI “ISTITUZIONALI”...................................................................................................... 8
-1.2 SOGGETTI FORMATORI “ACCREDITATI”......................................................................................................... 9
+1.1 SOGGETTI FORMATORI "ISTITUZIONALI"...................................................................................................... 8
+1.2 SOGGETTI FORMATORI "ACCREDITATI"......................................................................................................... 9
 1.3 ALTRI SOGGETTI................................................................................................................................................. 9
 2. REQUISITI DEI DOCENTI.........................................................................................................................10
 3. ORGANIZZAZIONE DEI CORSI.............................................................................................................10
 4. MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE................................................... 10
 5 - VERBALI DELLE VERIFICHE FINALI................................................................................................10
 6 - ATTESTAZIONI...........................................................................................................................................11
-PARTE II – CORSI DI FORMAZIONE...................................................................................................................12
+PARTE II - CORSI DI FORMAZIONE...................................................................................................................12
 1. PREMESSA........................................................................................................................................................12
 2. CORSO PER LAVORATORI, PREPOSTI E DIRIGENTI...................................................................12
 2.1 CORSO PER LAVORATORI........................................................................................................................12
@@ -14072,12 +14072,12 @@ Obiettivi.......................................................................
 3. CORSO PER DATORE DI LAVORO........................................................................................................19
 Obiettivi..............................................................................................................................................................................19
 4. CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008..........................22
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008..........................22
 Obiettivi..............................................................................................................................................................................22
 Articolazione del percorso formativo............................................................................................................................22
 5 - CORSO PER RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE
-DAI RISCHI ai sensi dell’art. 32 del d.lgs. n. 81/2008...............................................................................................25
-5.1 TITOLI DI STUDIO VALIDI AI FINI DELL’ESONERO DALLA FREQUENZA DEL
+DAI RISCHI ai sensi dell'art. 32 del d.lgs. n. 81/2008...............................................................................................25
+5.1 TITOLI DI STUDIO VALIDI AI FINI DELL'ESONERO DALLA FREQUENZA DEL
 MODULO A E DEL MODULO B (COMUNE E SPECIALISTICO)...............................................................25
 5.2 MODULO A......................................................................................................................................................25
 Articolazione dei contenuti minimi del Modulo A......................................................................................................26
@@ -14093,7 +14093,7 @@ ARTICOLAZIONE DEI CONTENUTI MINIMI MODULI B DI SPECIALIZZAZIONE.................
 5.4 MODULO C......................................................................................................................................................33
 ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO C..............................................................33
 6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER
-L’ESECUZIONE DEI LAVORI (ALLEGATO XIV Dlgs 81/08).......................................................................36
+L'ESECUZIONE DEI LAVORI (ALLEGATO XIV Dlgs 81/08).......................................................................36
 Obiettivi..............................................................................................................................................................................36
 Articolazione dei contenuti minimi del percorso formativo:.....................................................................................36
 VERIFICA FINALE DI APPRENDIMENTO........................................................................................................39
@@ -14102,9 +14102,9 @@ MODALITÀ DI SVOLGIMENTO DEI CORSI..............................................
 OPERANO IN AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI (dpr n. 177/2011).......40
 Obiettivi..............................................................................................................................................................................40
 Requisiti dei docenti..........................................................................................................................................................41
-8. CORSI PER L’ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI
-ALL’ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008............42
-8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL’AREA E DISPONIBILITÀ DELLE
+8. CORSI PER L'ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI
+ALL'ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008............42
+8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL'AREA E DISPONIBILITÀ DELLE
 ATTREZZATURE..........................................................................................................................................................42
 8.2. REQUISITI DEI DOCENTI.........................................................................................................................42
 8.3 PROGRAMMA DEI CORSI..........................................................................................................................43
@@ -14143,7 +14143,7 @@ movimentazione di materiali (CMM)...............................................
 Verifica................................................................................................................................................................................77
 8.3.11 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di carriponte.......................78
 Verifica................................................................................................................................................................................80
-PARTE III – CORSI DI AGGIORNAMENTO.......................................................................................................82
+PARTE III - CORSI DI AGGIORNAMENTO.......................................................................................................82
 1 LAVORATORI, PREPOSTI, DIRIGENTI E DATORE DI LAVORO.............................................83
 1.1 Lavoratori............................................................................................................................................................83
 1.2 Preposti................................................................................................................................................................83
@@ -14155,28 +14155,28 @@ PROTEZIONE......................................................................
 4 COORDINATORE PER LA SICUREZZA...............................................................................................84
 5 LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE OPERANO IN
 AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI......................................................................84
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore relative alla
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore relative alla
 parte pratica. Durante il corso di aggiornamento, è opportuno che il docente illustri eventuali modifiche
 normative e evoluzioni tecniche.....................................................................................................................................84
 6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI
-ALL’ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008...........84
-PARTE IV – INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE, EROGAZIONE E
+ALL'ARTICOLO 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008...........84
+PARTE IV - INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE, EROGAZIONE E
 MONITORAGGIO DEI CORSI.................................................................................................................................85
-1 INDICAZIONI METODOLOGICHE PER L’ORGANIZZAZIONE E LA GESTIONE DEI
+1 INDICAZIONI METODOLOGICHE PER L'ORGANIZZAZIONE E LA GESTIONE DEI
 CORSI PER I SOGGETTI FORMATORI................................................................................................................85
-1.1 Approccio per processi nell’organizzazione e gestione della formazione su salute e sicurezza nei luoghi
+1.1 Approccio per processi nell'organizzazione e gestione della formazione su salute e sicurezza nei luoghi
 di lavoro..............................................................................................................................................................................86
 1.2 Analisi dei fabbisogni formativi e contesto....................................................................................................86
 1.3 Progettazione......................................................................................................................................................87
 1.4 Erogazione...........................................................................................................................................................89
 1.5 Monitoraggio e valutazione della qualità della formazione..........................................................................89
 1.6 Riesame e adozione di misure e interventi correttivi ai fini del miglioramento.......................................89
-1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per l’organizzazione
+1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per l'organizzazione
 e gestione della formazione su SSL................................................................................................................................90
 2 INDICAZIONI METODOLOGICHE E PROCEDURALI PER LA PROGETTAZIONE DI
 DETTAGLIO...................................................................................................................................................................91
-2.1 Gli obiettivi specifici e i risultati attesi dell’unità didattica...........................................................................92
-2.2 I contenuti dell’unità didattica e la durata.......................................................................................................92
+2.1 Gli obiettivi specifici e i risultati attesi dell'unità didattica...........................................................................92
+2.2 I contenuti dell'unità didattica e la durata.......................................................................................................92
 2.3 La strategia formativa e la metodologia didattica..........................................................................................92
 2.4 Le metodologie didattiche attive......................................................................................................................93
 2.5 Le modalità e i criteri di verifica e valutazione dei risultati..........................................................................94
@@ -14206,24 +14206,24 @@ PER I CORSI EROGATI IN E-LEARNING...............................................
 3.5 MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE E AGGIORNAMENTO. 104
 4 CONFORMITÀ AL REGOLAMENTO SULLA PROTEZIONE DEI DATI PERSONALI..... 105
 5 MONITORAGGIO E VALUTAZIONE DEL GRADIMENTO...................................................... 105
-6. VERIFICA DELL’APPRENDIMENTO............................................................................................................ 107
+6. VERIFICA DELL'APPRENDIMENTO............................................................................................................ 107
 6.1 VERIFICA DEGLI APPRENDIMENTI................................................................................................. 107
 6.2 INDICAZIONI METODOLOGICHE E OPERATIVE PER LA GESTIONE DELLE
 VERIFICHE DI APPRENDIMENTO.................................................................................................................... 107
 6.3 MODALITÀ E CRITERI DI VERIFICA DEGLI APPRENDIMENTI DEI CORSI DI
 FORMAZIONE E DI AGGIORNAMENTO (TABELLE CORSI/MODALITÀ DI VERIFICA).......... 109
-7 VERIFICA DELL’ EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO
+7 VERIFICA DELL' EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO
 DELLA PRESTAZIONE LAVORATIVA............................................................................................................. 111
 PARTE V -RICONOSCIMENTO DEI CREDITI FORMATIVI..................................................................... 112
 PARTE VI CONTROLLO DELLE ATTIVITÀ FORMATIVE E MONITORAGGIO
-DELL’APPLICAZIONE DELL’ACCORDO........................................................................................................ 113
-PARTE VII– ALTRE DISPOSIZIONI................................................................................................................... 114
+DELL'APPLICAZIONE DELL'ACCORDO........................................................................................................ 113
+PARTE VII- ALTRE DISPOSIZIONI................................................................................................................... 114
 1 ENTRATA IN VIGORE.............................................................................................................................. 114
 2 DISPOSIZIONI TRANSITORIE.............................................................................................................. 114
-Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 21
+Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 21
 dicembre 2011 per i quali è riconosciuto credito formativo totale......................................................................... 114
 DIRIGENTI................................................................................................................................................................... 114
-L’obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento sia stato erogato
+L'obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento sia stato erogato
 da più di 2 anni dalla data di entrata in vigore del presente accordo, dovrà essere ottemperato entro 12 mesi
 dalla data di entrata in vigore del presente accordo.................................................................................................. 114
 FORMAZIONE DEI LAVORATORI SOMMINISTRATI.................................................................. 117
@@ -14233,26 +14233,26 @@ DISPOSIZIONI FINALI.............................................................
 ## Pagina 282
 
 Pag. 8 a 138
-PARTE I – ORGANIZZAZIONE GENERALE
+PARTE I - ORGANIZZAZIONE GENERALE
 1. INDIVIDUAZIONE DEI SOGGETTI FORMATORI
-Ai sensi del presente Accordo, salvo quanto diversamente disciplinato dall’articolo 98 del d.lgs.
+Ai sensi del presente Accordo, salvo quanto diversamente disciplinato dall'articolo 98 del d.lgs.
 n. 81/2008, i soggetti formatori dei corsi di formazione e dei corsi di aggiornamento, incluso
 seminari e convegni, sono:
-1.1 i soggetti “istituzionali”;
-1.2 i soggetti “accreditati”;
+1.1 i soggetti "istituzionali";
+1.2 i soggetti "accreditati";
 1.3 altri soggetti.
 Con atto successivo, sentite le parti sociali comparativamente più rappresentative a livello
 nazionale e sentita la Conferenza permanente Stato Regione, potranno essere definiti i
 requisiti minimi che dovranno essere posseduti dai soggetti formatori. Con medesimo atto si
-potrà procedere all’istituzione di apposito repertorio/elenco nazionale.
-1.1 SOGGETTI FORMATORI “ISTITUZIONALI”
-Sono soggetti “istituzionali”:
+potrà procedere all'istituzione di apposito repertorio/elenco nazionale.
+1.1 SOGGETTI FORMATORI "ISTITUZIONALI"
+Sono soggetti "istituzionali":
 → le amministrazioni pubbliche di seguito elencate:
 a) Ministero del lavoro e delle politiche sociali;
 b) Ministero della difesa;
 c) Ministero della salute;
-d) Ministero dell’ambiente e della sicurezza energetica;
-e) Ministero dell’interno;
+d) Ministero dell'ambiente e della sicurezza energetica;
+e) Ministero dell'interno;
 f) Ministero delle imprese e del made in Italy;
 g) Regioni e Province autonome di Trento e di Bolzano, anche mediante le proprie
 strutture tecniche operanti nel settore della prevenzione (Aziende Sanitarie Locali,
@@ -14266,41 +14266,41 @@ l) Corpo nazionale dei vigili del fuoco o i corpi provinciali dei vigili del fuo
 Province autonome di Trento e Bolzano secondo quanto previsto dai rispettivi
 statuti speciali e dalle relative norme di attuazione;
 m) Formez;
-n) SNA (Scuola Nazionale dell’Amministrazione);
+n) SNA (Scuola Nazionale dell'Amministrazione);
 o) Ordini e i collegi professionali regolamentati secondo le vigenti disposizioni
 → le organizzazioni di volontariato della Protezione Civile, la Croce Rossa Italiana ed il Corpo
 Nazionale soccorso alpino e speleologico, nei confronti del proprio personale.
 Per le province autonome di Trento e di Bolzano si provvede alle finalità del presente articolo,
-nell’ambito delle proprie competenze, secondo quanto previsto dai rispettivi ordinamenti.
+nell'ambito delle proprie competenze, secondo quanto previsto dai rispettivi ordinamenti.
 
 
 ## Pagina 283
 
 Pag. 9 a 138
-1.2 SOGGETTI FORMATORI “ACCREDITATI”
-Sono soggetti formatori “accreditati” i soggetti formatori accreditati in conformità al modello di
+1.2 SOGGETTI FORMATORI "ACCREDITATI"
+Sono soggetti formatori "accreditati" i soggetti formatori accreditati in conformità al modello di
 accreditamento definito in ogni Regione e Provincia
-autonoma ai sensi dell’Intesa sancita in data 20 marzo 2008 e pubblicata sulla GURI del 23
+autonoma ai sensi dell'Intesa sancita in data 20 marzo 2008 e pubblicata sulla GURI del 23
 gennaio 2009 presso ciascuna Regione o Provincia Autonoma.
 Per i corsi di cui al presente accordo è necessario che i soggetti formatori accreditati abbiano
-maturato un’esperienza almeno triennale di formazione su salute e sicurezza sul lavoro
+maturato un'esperienza almeno triennale di formazione su salute e sicurezza sul lavoro
 opportunamente documentata.
 In deroga al periodo precedente, per erogare i corsi di formazione lavoratori, preposti e dirigenti
-è sufficiente il solo requisito dell’accreditamento regionale, oltre a quanto previsto nel paragrafo
+è sufficiente il solo requisito dell'accreditamento regionale, oltre a quanto previsto nel paragrafo
 2 della parte I del presente accordo.
 1.3 ALTRI SOGGETTI
 Sono soggetti formatori:
 1. i fondi interprofessionali di settore nel caso in cui, da statuto, si configurino come
 erogatori diretti di formazione;
-2. gli Organismi Paritetici così come individuati dal comma 1 dell’art. 51 del d.lgs. n. 81/2008
+2. gli Organismi Paritetici così come individuati dal comma 1 dell'art. 51 del d.lgs. n. 81/2008
 e inseriti nel repertorio previsto dal comma 1 bis del medesimo articolo;
 3. le associazioni sindacali dei datori di lavoro o dei lavoratori comparativamente più
-rappresentative sul piano nazionale, inserite nell’elenco/repertorio di cui al punto 1 del presente
+rappresentative sul piano nazionale, inserite nell'elenco/repertorio di cui al punto 1 del presente
 accordo e individuate attraverso una valutazione complessiva dei criteri di seguito riportati:
-• la presenza di sedi in almeno la metà delle province del territorio nazionale, distribuite
+- la presenza di sedi in almeno la metà delle province del territorio nazionale, distribuite
 tra nord, centro, sud e isole;
-• la consistenza numerica degli iscritti al singolo sindacato;
-• il numero complessivo dei CCNL sottoscritti, con esclusione di quelli sottoscritti per mera
+- la consistenza numerica degli iscritti al singolo sindacato;
+- il numero complessivo dei CCNL sottoscritti, con esclusione di quelli sottoscritti per mera
 adesione;
 Sino all'emanazione dell'atto di cui al punto 1 del presente accordo i requisiti di cui al precedente
 punto 3 possono essere autocertificati secondo le disposizioni del testo unico delle disposizioni
@@ -14312,8 +14312,8 @@ Gli organismi paritetici e le associazioni sindacali dei datori di lavoro o dei 
 precedenti punti 2 e 3 possono effettuare le attività formative e di aggiornamento direttamente
 o avvalendosi di strutture formative o di servizio di loro diretta emanazione. Per diretta
 emanazione si intende una struttura che deve essere di proprietà esclusiva o almeno partecipata
-in modo prevalente dell’associazione sindacale dei datori di lavoro o dei lavoratori.
-L’elenco/repertorio di cui al punto 1 del presente accordo riporta anche l’elenco delle strutture
+in modo prevalente dell'associazione sindacale dei datori di lavoro o dei lavoratori.
+L'elenco/repertorio di cui al punto 1 del presente accordo riporta anche l'elenco delle strutture
 formative di diretta emanazione dei soggetti formatori di cui ai precedenti punti 2 e 3.
 
 
@@ -14335,17 +14335,17 @@ c) attenersi per le attività formative pratiche al rapporto docente/discente no
 1 a 6 (almeno 1 docente ogni 6 discenti);
 d) tenere il registro di presenza dei partecipanti in formato cartaceo o in format o
 elettronico;
-e) verificare, ai fini dell’ammissione alla verifica finale dell’apprendimento, la frequenza di
+e) verificare, ai fini dell'ammissione alla verifica finale dell'apprendimento, la frequenza di
 almeno il 90% delle ore di formazione previste per i corsi di formazione e di abilitazione
 nonché per i corsi di aggiornamento;
 f) predisporre il verbale della verifica finale;
-g) predisporre l’attestato di formazione.
+g) predisporre l'attestato di formazione.
 4. MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE
 Le modalità di erogazione per i corsi di cui al presente accordo sono:
-• presenza fisica
-• video conferenza sincrona
-• e-learning
-• modalità mista.
+- presenza fisica
+- video conferenza sincrona
+- e-learning
+- modalità mista.
 I corsi sono erogati con le modalità indicate nella parte IV.
 5 - VERBALI DELLE VERIFICHE FINALI
 In tutti i corsi di formazione ed aggiornamento devono essere redatti i verbali delle verifiche
@@ -14365,7 +14365,7 @@ Pag. 11 a 138
 I verbali possono essere su supporto cartaceo o elettronico.
 6 - ATTESTAZIONI
 Ai partecipanti ai corsi di formazione ed aggiornamento, che abbiano regolarmente frequentato
-il corso e superato la verifica finale, deve essere rilasciato dal soggetto formatore un attestato –
+il corso e superato la verifica finale, deve essere rilasciato dal soggetto formatore un attestato -
 unico per ciascun corso - e contenente i seguenti elementi minimi:
 a) denominazione del soggetto formatore;
 b) dati anagrafici del partecipante al corso (nome, cognome, codice fiscale);
@@ -14377,7 +14377,7 @@ f) data e luogo.
 Gli attestati rilasciati ai sensi del presente accordo hanno validità su tutto il territorio nazionale.
 7 FASCICOLO DEL CORSO
 Per ogni corso di formazione e aggiornamento, il soggetto formatore provvede alla
-custodia/archiviazione (cartacea o elettronica) della documentazione “Fascicolo del corso”. Tale
+custodia/archiviazione (cartacea o elettronica) della documentazione "Fascicolo del corso". Tale
 documentazione deve essere conservata, presso il soggetto formatore, per almeno 10 anni e
 deve contenere:
 → dati anagrafici dei partecipanti;
@@ -14390,11 +14390,11 @@ deve contenere:
 ## Pagina 286
 
 Pag. 12 a 138
-PARTE II – CORSI DI FORMAZIONE
+PARTE II - CORSI DI FORMAZIONE
 1. PREMESSA
 I percorsi formativi, gli argomenti e la loro durata vanno intesi come minimi, di conseguenza, gli
 argomenti e la loro durata possono essere ampliati ed integrati al fine di raggiungere gli obiettivi
-dei piani formativi derivanti dall’analisi dei fabbisogni formativi e dei contesti organizzativi.
+dei piani formativi derivanti dall'analisi dei fabbisogni formativi e dei contesti organizzativi.
 Per ogni corso di formazione deve essere individuato un unico soggetto formatore. Nel caso in
 cui il corso di formazione sia organizzato da più soggetti formatori, tra questi dovrà essere
 individuato il soggetto formatore responsabile del corso cui spettan o gli adempimenti previsti a
@@ -14405,46 +14405,46 @@ d.lgs. n. 81/2008 nei confronti dei propri lavoratori, preposti e dirigenti, a c
 rispettato quanto previsto dal presente Accordo. In questo caso il datore di lavoro riveste il ruolo
 di soggetto formatore cui spettano gli adempimenti del presente accordo.
 I datori di lavoro possono altresì avvalersi di soggetti formatori di cui al paragrafo 1 della Parte I
-del presente Accordo per procedere all’effettuazione della formazione dei propri lavoratori,
+del presente Accordo per procedere all'effettuazione della formazione dei propri lavoratori,
 dirigenti e preposti.
-Nell’ambito dell’organizzazione dei suddetti corsi, i datori di lavoro devono avvalersi di docenti
+Nell'ambito dell'organizzazione dei suddetti corsi, i datori di lavoro devono avvalersi di docenti
 formatori in possesso dei requisiti di cui al paragrafo 2 della Parte I del presente Accordo.
 Il datore di lavoro in possesso dei requisiti per lo svolgimento diretto dei compiti del servizio di
-prevenzione e protezione di cui all’articolo 34 del d.lgs. n. 81/2008, può svolgere anche in qualità
+prevenzione e protezione di cui all'articolo 34 del d.lgs. n. 81/2008, può svolgere anche in qualità
 di docente, esclusivamente nei riguardi dei propri lavoratori, preposti e dirigenti, la formazione
 di cui ai paragrafi: 2.1, 2.2 e 2.3.
-In coerenza con le previsioni di cui all’articolo 37, comma 12, del D.Lgs. n. 81/08, i corsi di
+In coerenza con le previsioni di cui all'articolo 37, comma 12, del D.Lgs. n. 81/08, i corsi di
 formazione vanno realizzati previa richiesta di collaborazione agli organismi paritetici di cui al
 Decreto del Ministro del Lavoro e delle Politiche Sociali dell'11 ottobre 2022, n. 171, ove presenti
-nel settore e nel territorio in cui si svolge l’attività del datore. In mancanza, il datore di lavoro
+nel settore e nel territorio in cui si svolge l'attività del datore. In mancanza, il datore di lavoro
 procede alla pianificazione e realizzazione delle attività di formazione. Ove la richiesta riceva
-riscontro da parte dell’organismo paritetico, delle relative indicazioni occorre tener conto nella
+riscontro da parte dell'organismo paritetico, delle relative indicazioni occorre tener conto nella
 pianificazione e realizzazione delle attività di formazione, anche ove tale realizzazione non sia
 affidata agli organismi paritetici. Ove la richiesta di cui al precedente periodo non riceva riscontro
-dall’organismo paritetico entro quindici giorni dal suo invio, il datore di lavoro procede
+dall'organismo paritetico entro quindici giorni dal suo invio, il datore di lavoro procede
 autonomamente alla pianificazione e realizzazione delle attività di formazione.
 2.1 CORSO PER LAVORATORI
 Il percorso formativo di seguito descritto si articola in due moduli distinti coerentemente con
-quanto previsto alle lettere a) e b) del comma 1 e al comma 3 dell’articolo 37 del d.lgs. n. 81/08.
+quanto previsto alle lettere a) e b) del comma 1 e al comma 3 dell'articolo 37 del d.lgs. n. 81/08.
 
 
 ## Pagina 287
 
 Pag. 13 a 138
-Inoltre, con riferimento ai soggetti di cui all’articolo 21, comma 1, del d.lgs. n. 81/ 2008, i
-contenuti e l’articolazione della formazione di seguito individuati possono costituire riferimento
-anche per tali categorie di lavoratori, tenuto conto di quanto previsto dall’art. 21, comma 2,
+Inoltre, con riferimento ai soggetti di cui all'articolo 21, comma 1, del d.lgs. n. 81/ 2008, i
+contenuti e l'articolazione della formazione di seguito individuati possono costituire riferimento
+anche per tali categorie di lavoratori, tenuto conto di quanto previsto dall'art. 21, comma 2,
 lettera b, del d.lgs. n. 81/2008.
 Obiettivi
 Il corso di formazione per lavoratori ha i seguenti obiettivi:
 a) far conoscere i diritti, i doveri e le sanzioni per i vari soggetti aziendali;
 b) far conoscere i concetti di rischio, danno, prevenzione, protezione;
-c) illustrare l’ organizzazione della prevenzione aziendale e le funzioni degli organi di
+c) illustrare l' organizzazione della prevenzione aziendale e le funzioni degli organi di
 vigilanza, di controllo e assistenza;
 d) far conoscere i rischi riferiti alle mansioni e ai possibili danni e alle conseguenti misure e
 procedure di prevenzione e protezione adottate dal datore di lavoro.
 Formazione Generale
-Con riferimento alla lettera a) del comma 1 dell’articolo 37 del d.lgs. n. 81/ 2008, la durata del
+Con riferimento alla lettera a) del comma 1 dell'articolo 37 del d.lgs. n. 81/ 2008, la durata del
 modulo generale non deve essere inferiore alle 4 ore, e deve essere dedicata alla presentazione
 dei concetti generali in tema di prevenzione e sicurezza sul lavoro.
 Contenuti ORE
@@ -14457,63 +14457,63 @@ dei lavoratori e dei loro rappresentanti previsto dal D. Lgs. 81 del 2008
 la formazione generale costituisce credito formativo permanente
 Formazione Specifica
 La formazione specifica deve essere riferita ai rischi individuati sulla base della valutazione del
-rischio e, quindi, mirare ai rischi specifici dell’attività, incentrandosi sui pericoli e rischi insiti nelle
-mansioni specifiche e sulle relative conseguenze da prevenire nonché sull’individuazione e la
+rischio e, quindi, mirare ai rischi specifici dell'attività, incentrandosi sui pericoli e rischi insiti nelle
+mansioni specifiche e sulle relative conseguenze da prevenire nonché sull'individuazione e la
 conoscenza delle misure di sicurezza da adottare nello svolgimento delle proprie mansioni e di
 contesto lavorativo.
-Con riferimento alla lettera b) del comma 1 e al comma 3 dell’articolo 37 del D.lgs. n. 81/08, la
+Con riferimento alla lettera b) del comma 1 e al comma 3 dell'articolo 37 del D.lgs. n. 81/08, la
 formazione deve avvenire nelle occasioni di cui alle lettere a), b) e c) del comma 4 del medesimo
 articolo, ed avere durata minima di 4, 8 o 12 ore, in funzio ne dei rischi riferiti alle mansioni e ai
 possibili danni e alle conseguenti misure e procedure di prevenzione e protezione caratteristici
-del settore o comparto di appartenenza dell’azienda. Tali aspetti e i rischi specifici di cui ai Titoli
+del settore o comparto di appartenenza dell'azienda. Tali aspetti e i rischi specifici di cui ai Titoli
 del D.lgs. n. 81/08 successivi al I costituiscono oggetto della formazione.
-Infine, tale formazione è soggetta alle ripetizioni periodiche previste al comma 6 dell’articolo 37
-del D.lgs. n. 81/08, con riferimento ai rischi individuati ai sensi dell’articolo 28.
+Infine, tale formazione è soggetta alle ripetizioni periodiche previste al comma 6 dell'articolo 37
+del D.lgs. n. 81/08, con riferimento ai rischi individuati ai sensi dell'articolo 28.
 Contenuti:
 
 
 ## Pagina 288
 
 Pag. 14 a 138
-• rischi infortunistici;
-• meccanici generali;
-• elettrici generali;
-• macchine;
-•attrezzature;
-• cadute dall’alto;
-• rischi da esplosione;
-• rischi connessi all’impiego di agenti chimici, cancerogeni e mutageni;
-• rischi biologici;
-•rischi fisici (Rumore, Vibrazione, Radiazioni, Microclima e illuminazione, campi elettromagnetici
+- rischi infortunistici;
+- meccanici generali;
+- elettrici generali;
+- macchine;
+-attrezzature;
+- cadute dall'alto;
+- rischi da esplosione;
+- rischi connessi all'impiego di agenti chimici, cancerogeni e mutageni;
+- rischi biologici;
+-rischi fisici (Rumore, Vibrazione, Radiazioni, Microclima e illuminazione, campi elettromagnetici
 ecc. );
-• videoterminali;
-• DPI;
-• ambienti di lavoro;
-• rischi da fattori psicosociali e stress lavoro-correlato;
-• movimentazione manuale carichi;
-• movimentazione merci (apparecchi di sollevamento, mezzi trasporto);
-• segnaletica;
-• emergenze,
-• le procedure di sicurezza con riferimento al profilo di rischio specifico;
-• procedure esodo e incendi;
-• procedure organizzative per il primo soccorso;
-• incidenti e infortuni mancati;
-• altri Rischi.
-Durata Minima in base alla classificazione dei settori di cui all’Allegato IV (Individuazione
+- videoterminali;
+- DPI;
+- ambienti di lavoro;
+- rischi da fattori psicosociali e stress lavoro-correlato;
+- movimentazione manuale carichi;
+- movimentazione merci (apparecchi di sollevamento, mezzi trasporto);
+- segnaletica;
+- emergenze,
+- le procedure di sicurezza con riferimento al profilo di rischio specifico;
+- procedure esodo e incendi;
+- procedure organizzative per il primo soccorso;
+- incidenti e infortuni mancati;
+- altri Rischi.
+Durata Minima in base alla classificazione dei settori di cui all'Allegato IV (Individuazione
 macrocategorie di rischio e corrispondenze ATECO 2007):
-• 4 ore per i settori della classe di rischio basso;
-• 8 ore per i settori della classe di rischio medio;
-• 12 ore per i settori della classe di rischio alto.
+- 4 ore per i settori della classe di rischio basso;
+- 8 ore per i settori della classe di rischio medio;
+- 12 ore per i settori della classe di rischio alto.
 La trattazione dei rischi sopra indicati va declinata secondo la loro effettiva presenza nel settore
-di appartenenza dell’azienda e della specificità del rischio ovvero secondo gli obblighi e i rischi
-propri delle attività svolte dal lavoratore autonomo, s econdo quanto previsto all’articolo 21 del
-D.lgs. n. 81/08. I contenuti e la durata sono subordinati all’esito della valutazione dei rischi
+di appartenenza dell'azienda e della specificità del rischio ovvero secondo gli obblighi e i rischi
+propri delle attività svolte dal lavoratore autonomo, s econdo quanto previsto all'articolo 21 del
+D.lgs. n. 81/08. I contenuti e la durata sono subordinati all'esito della valutazione dei rischi
 effettuata dal datore di lavoro, fatta salva la contrattazione collettiva e le procedure concordate
 a livello settoriale e/o aziendale e vanno pertanto intesi come minimi. Il percorso formativo e i
-relativi argomenti possono essere ampliati in base alla natura e all’entità dei rischi effettivamente
+relativi argomenti possono essere ampliati in base alla natura e all'entità dei rischi effettivamente
 presenti in azienda, aumentando di conseguenza il numero di ore di formazione necessario.
-Il numero di ore di formazione indicato per ciascun settore comprende la “Formazione Generale”
-e quella “ Specifica”, ma non “l’Addestramento”, così come definito all’articolo 2, comma 1,
+Il numero di ore di formazione indicato per ciascun settore comprende la "Formazione Generale"
+e quella " Specifica", ma non "l'Addestramento", così come definito all'articolo 2, comma 1,
 lettera cc), del D.lgs. n. 81/08, ove previsto.
 Deve essere garantita la maggiore omogeneità possibile tra i partecipanti ad ogni singolo corso,
 con particolare riferimento al settore di appartenenza.
@@ -14523,14 +14523,14 @@ con particolare riferimento al settore di appartenenza.
 
 Pag. 15 a 138
 Durata minima complessiva dei corsi di formazione per i lavoratori, in base alla classificazione dei
-settori di cui all’Allegato IV:
-• 4 ore di Formazione Generale + 4 ore di Formazione Specifica per i settori della classe di rischio
+settori di cui all'Allegato IV:
+- 4 ore di Formazione Generale + 4 ore di Formazione Specifica per i settori della classe di rischio
 basso:
 TOTALE 8 ore
-• 4 ore di Formazione Generale + 8 ore di Formazione Specifica per i settori della classe di rischio
+- 4 ore di Formazione Generale + 8 ore di Formazione Specifica per i settori della classe di rischio
 medio:
 TOTALE 12 ore
-• 4 ore di Formazione Generale + 12 ore di Formazione Specifica per i settori della classe di rischio
+- 4 ore di Formazione Generale + 12 ore di Formazione Specifica per i settori della classe di rischio
 alto:
 TOTALE 16 ore
 I progetti di formazione specifica dovrebbero prendere in esame gruppi omogenei di lavoratori
@@ -14544,10 +14544,10 @@ Costituisce credito formativo, ai fini della formazione generale e specifica, la
 derivante dalla frequenza di corsi di formazione professionale presso strutture della formazione
 professionale o presso enti di formazione professionale accreditati dalle Regioni e Province
 autonome che abbiano contenuti e durata conformi al presente Accordo.
-Rimane comunque salvo l’obbligo del datore di lavoro di assicurare la formazione specifica
+Rimane comunque salvo l'obbligo del datore di lavoro di assicurare la formazione specifica
 secondo le risultanze della valutazione dei rischi.
-Per il comparto delle costruzioni, i percorsi formativi che rientrano nell’ambito del progetto
-nazionale “16ore-MICS” (Moduli Integrati per Costruire in Sicurezza), definito da FORMEDIL (Ente
+Per il comparto delle costruzioni, i percorsi formativi che rientrano nell'ambito del progetto
+nazionale "16ore-MICS" (Moduli Integrati per Costruire in Sicurezza), definito da FORMEDIL (Ente
 unico formazione e sicurezza) ed erogati dalle Scuole edili/Enti unificati territoriali, sono
 riconosciuti integralmente corrispondenti alla Formazione Generale e Specifica di cui al presente
 accordo.
@@ -14571,7 +14571,7 @@ opera il preposto e relative misure di prevenzione e protezione;
 g) far conoscere le tecniche di comunicazione con gli altri soggetti della prevenzione, in
 particolare i lavoratori;
 h) illustrare le funzioni di controllo attribuite al preposto: sovraintendenza, vigilanza,
-interruzione dell’attività, informazione e segnalazione;
+interruzione dell'attività, informazione e segnalazione;
 i) illustrare gli strumenti efficaci di comunicazione e cooperazione con il datore di lavoro, i
 dirigenti e il servizio di prevenzione e protezione per attuare le modalità operative.
 Requisiti di accesso
@@ -14585,11 +14585,11 @@ obblighi posti in capo al preposto
 e al suo rapporto con le altre
 figure della prevenzione
 aziendale.
-• Individuazione del preposto;
-• preposto di fatto ed effettività del
+- Individuazione del preposto;
+- preposto di fatto ed effettività del
 ruolo;
-• compiti e obblighi del preposto;
-• relazioni tra i vari soggetti interni ed
+- compiti e obblighi del preposto;
+- relazioni tra i vari soggetti interni ed
 esterni del sistema di prevenzione.
 Gestione e organizzazione della
 sicurezza
@@ -14601,11 +14601,11 @@ informare, segnalare.
 efficacemente con il datore di
 lavoro e i dirigenti per attuare le
 modalità operative
-• Modalità di esercizio della funzione
+- Modalità di esercizio della funzione
 di controllo dell'osservanza da parte
-dei lavoratori di cui all’art. 19 del
+dei lavoratori di cui all'art. 19 del
 d.lgs. n. 81/2008.
-• Modalità di comunicazione e
+- Modalità di comunicazione e
 relazione con i soggetti della
 prevenzione aziendale.
 Valutazione delle situazioni di
@@ -14625,27 +14625,27 @@ somministrazione ed i relativi
 subappalti
 - Illustrare le modalità operative e
 di intervento del preposto.
-• misure tecniche, organizzative e
+- misure tecniche, organizzative e
 procedurali di prevenzione e
 protezione adottate a seguito della
 valutazione dei rischi dell'azienda,
 con particolare riferimento al
 contesto in cui il preposto opera.
-• Obblighi connessi ai contratti di
+- Obblighi connessi ai contratti di
 appalto, d'opera e di
 somministrazione;
-• gestione del rischio interferenziale e
+- gestione del rischio interferenziale e
 il DUVRI.
-• Modalità per sovraintendere e
+- Modalità per sovraintendere e
 vigilare sulle attività lavorative per
-garantire l’attuazione delle direttive
+garantire l'attuazione delle direttive
 ricevute;
 
 
 ## Pagina 291
 
 Pag. 17 a 138
-• l’importanza di individuare e
+- l'importanza di individuare e
 segnalare incidenti e infortuni
 mancati.
 Comunicazione e informazione
@@ -14654,7 +14654,7 @@ strumenti efficaci di
 comunicazione con gli altri
 soggetti della prevenzione, in
 particolare i lavoratori.
-• Tecniche e strumenti di
+- Tecniche e strumenti di
 comunicazione e sensibilizzazione
 dei lavoratori, in particolare
 neoassunti, somministrati, stranieri.
@@ -14663,10 +14663,10 @@ I dirigenti, attraverso la frequenza del corso, dovranno essere in grado di svol
 attribuite dalla normativa ( art. 18 d.lgs. n. 81/2008), acquisendo la consapevolezza delle azioni
 conseguenti alle responsabilità del ruolo.
 Il presente corso è valido anche per gli obblighi formativi per la figura del dirigente previsti
-dall’art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla frequenza del modulo aggiuntivo
-“cantieri”.
+dall'art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla frequenza del modulo aggiuntivo
+"cantieri".
 Obiettivi
-Il corso di formazione ha l’obiettivo di fornire ai discenti le competenze necessarie per la salute
+Il corso di formazione ha l'obiettivo di fornire ai discenti le competenze necessarie per la salute
 e la sicurezza sul lavoro per un approccio organizzativo e gestionale.
 Il corso di formazione per dirigenti ha i seguenti obiettivi:
 a) far conoscere il ruolo e gli obblighi posti in capo al dirigente e al suo rapporto con le
@@ -14677,7 +14677,7 @@ cui opera il dirigente e le relative direttive del datore di lavoro in relazione
 di prevenzione e protezione;
 d) illustrare gli strumenti di comunicazione da adottare nel rapporto con gli altri soggetti
 della prevenzione aziendale;
-e) illustrare le funzioni relative all’ organizzazione e alla gestione de i processi e delle
+e) illustrare le funzioni relative all' organizzazione e alla gestione de i processi e delle
 attività in materia di salute e sicurezza sui luoghi di lavoro.
 Durata minima 12 ore
 Modulo Obiettivi formativi Contenuti del modulo
@@ -14687,23 +14687,23 @@ obblighi posti in capo al
 dirigente e al suo rapporto con
 le altre figure della prevenzione
 aziendale.
-• Il sistema legislativo in materia di
+- Il sistema legislativo in materia di
 salute e sicurezza dei lavoratori.
-• I soggetti del sistema di prevenzione
+- I soggetti del sistema di prevenzione
 aziendale secondo il d.lgs. n.
 81/2008: compiti, obblighi,
 responsabilità e tutela assicurativa.
-• La delega di funzioni.
+- La delega di funzioni.
 - Illustrare le responsabilità
 penali, civili ed amministrative
 poste in capo al dirigente.
-• La responsabilità civile e penale del
+- La responsabilità civile e penale del
 dirigente;
-• la responsabilità amministrativa
+- la responsabilità amministrativa
 d.lgs. n. 231/2001 nel settore privato;
-• prevenzione della violenza delle
+- prevenzione della violenza delle
 molestie sul luogo di lavoro (Documento
-ILO C 190 Convenzione sull’eliminazione
+ILO C 190 Convenzione sull'eliminazione
 
 
 ## Pagina 292
@@ -14711,15 +14711,15 @@ ILO C 190 Convenzione sull’eliminazione
 Pag. 18 a 138
 della violenza e delle molestie nel mondo
 del lavoro);
-• inserimento di lavoratori disabili
+- inserimento di lavoratori disabili
 (riferimento al d.lgs. 213/2003 (art.
 3, c. 3 bis), DL 76/2013 (art. 9, c. 4 -
 ter) convertito con L. 99/2013).
 - Illustrare il sistema istituzionale
 della prevenzione e il ruolo degli
 organi di vigilanza
-• I ruoli delle ASL, INL, VVF e INAIL;
-• gli organi di vigilanza e le procedure
+- I ruoli delle ASL, INL, VVF e INAIL;
+- gli organi di vigilanza e le procedure
 ispettive.
 Gestione e organizzazione della
 sicurezza
@@ -14732,13 +14732,13 @@ sui luoghi di lavoro.
 e i sistemi di gestione aziendali
 con riferimento alla legislazione
 e normativa volontaria.
-• Modalità di gestione ed
+- Modalità di gestione ed
 organizzazione dei processi relative
 alla salute e sicurezza sui luoghi di
 lavoro.
-• Modelli di organizzazione e gestione
-di cui all’art. 30 del d.lgs. n. 81/2008;
-• i sistemi di gestione della salute e
+- Modelli di organizzazione e gestione
+di cui all'art. 30 del d.lgs. n. 81/2008;
+- i sistemi di gestione della salute e
 sicurezza sul lavoro in relazione alla
 normativa volontaria.
 Compiti specifici del dirigente in
@@ -14759,20 +14759,20 @@ somministrazione ed i relativi
 subappalti.
 - Illustrare le modalità di
 organizzazione delle emergenze
-• Misure tecniche, organizzative e
+- Misure tecniche, organizzative e
 procedurali di prevenzione e
 protezione adottate a seguito della
 valutazione dei rischi dell'azienda,
 con particolare riferimento al
 contesto in cui il dirigente opera;
-• importanza della sorveglianza
+- importanza della sorveglianza
 sanitaria.
-• Obblighi connessi ai contratti di
+- Obblighi connessi ai contratti di
 appalto, d'opera e di
 somministrazione;
-• gestione del rischio interferenziale e
+- gestione del rischio interferenziale e
 il DUVRI.
-• Organizzazione della prevenzione
+- Organizzazione della prevenzione
 incendi, primo soccorso e gestione
 delle emergenze.
 Comunicazione, formazione,
@@ -14783,27 +14783,27 @@ strumenti efficaci di
 comunicazione con gli altri
 soggetti della prevenzione
 aziendale.
-• Tecniche e strumenti di
+- Tecniche e strumenti di
 comunicazione e informazione;
-• gli obblighi formativi per i diversi
+- gli obblighi formativi per i diversi
 soggetti aziendali;
-• gestione dei gruppi di lavoro e dei
+- gestione dei gruppi di lavoro e dei
 conflitti;
-• consultazione e partecipazione dei
+- consultazione e partecipazione dei
 rappresentanti dei lavoratori per la
 sicurezza.
-Modulo aggiuntivo “Cantieri”: durata minima 6 ore
+Modulo aggiuntivo "Cantieri": durata minima 6 ore
 Modulo Obiettivi formativi Contenuti del modulo
 Compiti specifici del dirigente
-dell’impresa affidataria nei
-Far conoscere: • I soggetti definiti dal Titolo IV capo I,
+dell'impresa affidataria nei
+Far conoscere: - I soggetti definiti dal Titolo IV capo I,
 e relativi obblighi e responsabilità.
 
 
 ## Pagina 293
 
 Pag. 19 a 138
-cantieri temporanei e mobili - l’organizzazione del cantiere e i
+cantieri temporanei e mobili - l'organizzazione del cantiere e i
 rapporti tra i diversi soggetti
 - I contenuti di PSC e POS
 Far acquisire le competenze in
@@ -14817,27 +14817,27 @@ di cui agli articoli 95 e 96 del
 d.lgs. n. 81/2008;
 - verifica della congruenza dei
 POS delle imprese esecutrici.
-• La redazione dei piani di sicurezza:
+- La redazione dei piani di sicurezza:
 finalità, tempi e contenuti.
-• Le misure generali di tutela secondo
-quanto previsto dall’art. 95 del d.lgs.
+- Le misure generali di tutela secondo
+quanto previsto dall'art. 95 del d.lgs.
 n. 81/2008.
-• Gli obblighi del datore di lavoro, dei
-dirigenti e dei preposti di cui all’art.
+- Gli obblighi del datore di lavoro, dei
+dirigenti e dei preposti di cui all'art.
 96 del d.lgs. n. 81/2008;
-• Il cronoprogramma dei lavori.
-• Esempi e analisi di un PSC.
-• Esempi e analisi di un POS.
+- Il cronoprogramma dei lavori.
+- Esempi e analisi di un PSC.
+- Esempi e analisi di un POS.
 3. CORSO PER DATORE DI LAVORO
 I datori di lavoro attraverso la frequenza del corso dovranno essere in grado di svolgere le
 funzioni loro attribuite dalla normativa (art. 18 d.lgs. n. 81/2008), acquisendo la consapevolezza
 delle azioni conseguenti alle responsabilità del ruolo.
 Il presente corso è valido anche per gli obblighi formativi per la figura del datore di lavoro
-dell’impresa affidataria previsti dall’art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla
-frequenza del modulo aggiuntivo “cantieri”.
+dell'impresa affidataria previsti dall'art. 97, comma 3 ter, del d.lgs. n. 81/2008 integrato dalla
+frequenza del modulo aggiuntivo "cantieri".
 Obiettivi
-Il corso di formazione ha l’obiettivo di fornire ai discenti competenze organizzative, gestionali e
-giuridiche per gestire il processo della salute e sicurezza sul posto di lavoro nell’ottica del
+Il corso di formazione ha l'obiettivo di fornire ai discenti competenze organizzative, gestionali e
+giuridiche per gestire il processo della salute e sicurezza sul posto di lavoro nell'ottica del
 superamento di una visione formale della materia a favore di una visione sostanziale orientata
 alla prevenzione e alla protezione della salute dei lavoratori, anche alla luce della continua
 evoluzione del mondo del lavoro.
@@ -14846,9 +14846,9 @@ a) far acquisire le conoscenze e le competenze per esercitare il ruolo di datore
 b) far conoscere gli obblighi e le responsabilità penali, civili ed amministrative posti in capo
 al datore di lavoro e alle altre figure della prevenzione aziendale;
 c) illustrare il sistema istituzionale della prevenzione e il ruolo degli organi di vigilanza;
-d) far acquisire competenze utili per l’organizzazione e la gestione del sistema di
+d) far acquisire competenze utili per l'organizzazione e la gestione del sistema di
 prevenzione e protezione aziendale;
-e) illustrare gli strumenti di comunicazione più idonei al proprio contesto per un’efficace
+e) illustrare gli strumenti di comunicazione più idonei al proprio contesto per un'efficace
 interazione e relazione.
 Durata minima 16 ore
 Modulo Obiettivi formativi Contenuti del modulo
@@ -14856,9 +14856,9 @@ Giuridico normativo
 - Far acquisire le conoscenze e le
 competenze per esercitare il
 ruolo di datore di lavoro.
-• Il sistema legislativo in materia di salute e
+- Il sistema legislativo in materia di salute e
 sicurezza dei lavoratori.
-• L’identificazione e il ruolo del datore di
+- L'identificazione e il ruolo del datore di
 lavoro in relazione al contesto
 organizzativo.
 
@@ -14875,41 +14875,41 @@ aziendale.
 - Illustrare il sistema istituzionale
 della prevenzione e il ruolo degli
 organi di vigilanza
-• I soggetti del sistema di prevenzione
+- I soggetti del sistema di prevenzione
 aziendale secondo il d.lgs. n. 81/2008:
 compiti, obblighi, responsabilità e tutela
 assicurativa.
-• La delega di funzioni: condizioni e limiti
-• La responsabilità civile e penale del datore
+- La delega di funzioni: condizioni e limiti
+- La responsabilità civile e penale del datore
 di lavoro.
-• La responsabilità amministrativa ai sensi
+- La responsabilità amministrativa ai sensi
 del d.lgs. n. 231/2001 nel settore privato.
-• Prevenzione della violenza delle molestie
+- Prevenzione della violenza delle molestie
 sul luogo di lavoro (Documento ILO C 190
-Convenzione sull’eliminazione della
+Convenzione sull'eliminazione della
 violenza e delle molestie nel mondo del
 lavoro).
-• Inserimento di lavoratori disabili
+- Inserimento di lavoratori disabili
 (riferimento al d.lgs. 213/2003 (art. 3, c. 3
 bis), DL 76/2013 (art. 9, c. 4-ter) convertito
 con L. 99/2013).
-• I ruoli delle ASL, INL, VVF e Inail.
-• Gli organi di vigilanza e le procedure
+- I ruoli delle ASL, INL, VVF e Inail.
+- Gli organi di vigilanza e le procedure
 ispettive.
 Organizzazione e
 gestione della SSL
 - Far acquisire competenze utili
-per l’organizzazione e la
+per l'organizzazione e la
 gestione del sistema di
 prevenzione e protezione
 aziendale;
-• Le misure organizzative e gestionali di
+- Le misure organizzative e gestionali di
 tutela ai sensi di quanto previsto dagli art.li
 15 e art. 30 del d.lgs. n. 81/2008:
 a. rispetto degli standard tecnico -
 strutturali di legge relativi a attrezzature,
 impianti, luoghi di lavoro, agenti chimici,
-fisici e biologici; con l’acquisizione della
+fisici e biologici; con l'acquisizione della
 relativa documentazione e certificazioni
 obbligatorie di legge.
 Valutazione dei rischi predisposizione
@@ -14944,28 +14944,28 @@ soggetti ai sensi del D.lgs. 81/08;
 Pag. 21 a 138
 - illustrare gli strumenti di
 comunicazione più idonei al
-proprio contesto per un’efficace
+proprio contesto per un'efficace
 interazione e relazione
 f. vigilanza con riferimento al rispetto delle
 procedure e delle istruzioni di lavoro in
 sicurezza da parte dei lavoratori e alle
-periodiche verifiche dell’applicazione e
-dell’efficacia delle procedure adottate.
-• Modelli di organizzazione e gestione di
+periodiche verifiche dell'applicazione e
+dell'efficacia delle procedure adottate.
+- Modelli di organizzazione e gestione di
 tipo volontario
-• Costi della mancata sicurezza e benefici
+- Costi della mancata sicurezza e benefici
 della sicurezza
-• Tecniche e strumenti di comunicazione e
+- Tecniche e strumenti di comunicazione e
 informazione
-Modulo aggiuntivo “Cantieri”: durata minima 6 ore
+Modulo aggiuntivo "Cantieri": durata minima 6 ore
 Modulo Obiettivi formativi Contenuti del modulo
 Compiti specifici del
 datore di lavoro
-dell’impresa affidataria
+dell'impresa affidataria
 nei cantieri temporanei e
 mobili
 Far conoscere:
-- l’organizzazione del cantiere e i
+- l'organizzazione del cantiere e i
 rapporti tra i diversi soggetti
 - I contenuti di PSC e POS
 Far acquisire le competenze in
@@ -14979,25 +14979,25 @@ di cui agli articoli 95 e 96 del
 d.lgs. n. 81/2008;
 - verifica della congruenza dei
 POS delle imprese esecutrici.
-• I soggetti definiti dal Titolo IV capo I, e
+- I soggetti definiti dal Titolo IV capo I, e
 relativi obblighi e responsabilità
-• La redazione dei piani di sicurezza: finalità,
+- La redazione dei piani di sicurezza: finalità,
 tempi e contenuti.
-• Le misure generali di tutela secondo quanto
-previsto dall’art. 95 del d.lgs. n. 81/2008
-• Gli obblighi del datore di lavoro, dei dirigenti
-e dei preposti di cui all’art. 96 del d.lgs. n.
+- Le misure generali di tutela secondo quanto
+previsto dall'art. 95 del d.lgs. n. 81/2008
+- Gli obblighi del datore di lavoro, dei dirigenti
+e dei preposti di cui all'art. 96 del d.lgs. n.
 81/2008
-• Il cronoprogramma dei lavori
-• Esempi e analisi di un PSC
-• Esempi e analisi di un POS
+- Il cronoprogramma dei lavori
+- Esempi e analisi di un PSC
+- Esempi e analisi di un POS
 
 
 ## Pagina 296
 
 Pag. 22 a 138
 4. CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008
 Obiettivi
 Il corso di formazione è finalizzato a fornire ai d atori di lavoro le competenze tecniche,
 organizzative e procedurali proprie del responsabile del servizio di prevenzione e protezione.
@@ -15016,41 +15016,41 @@ del rischio e far acquisire le
 capacità metodologiche per la
 redazione del documento di
 valutazione dei rischi
-• i criteri e gli strumenti per
-l’individuazione e la valutazione
+- i criteri e gli strumenti per
+l'individuazione e la valutazione
 dei rischi;
-• struttura e contenuti del
+- struttura e contenuti del
 documento di valutazione dei
 rischi;
-• l’analisi degli infortuni mancati
+- l'analisi degli infortuni mancati
 e delle modalità di accadimento
 degli stessi;
-• la gestione della
+- la gestione della
 documentazione tecnico
 amministrativa;
-• le procedure semplificate per la
+- le procedure semplificate per la
 redazione della valutazione del
 rischio.
 I fattori di rischio e misure di
 prevenzione e protezione
 - Fare acquisire le competenze
 relative ai fattori di rischio e
-all’adozione delle misure di
+all'adozione delle misure di
 prevenzione e protezione
 a) fattori di rischio relativi a:
-• luoghi di lavoro;
-• attrezzature di lavoro;
-• movimentazione manuale dei
+- luoghi di lavoro;
+- attrezzature di lavoro;
+- movimentazione manuale dei
 carichi
-• VDT;
-• agenti fisici;
-• sostanze pericolose;
-• agenti biologici;
-• atmosfere esplosive;
-• stress lavoro-correlato e fattori
+- VDT;
+- agenti fisici;
+- sostanze pericolose;
+- agenti biologici;
+- atmosfere esplosive;
+- stress lavoro-correlato e fattori
 psicosociali;
-• rischi ricollegabili al genere,
-all’età e alla provenienza da
+- rischi ricollegabili al genere,
+all'età e alla provenienza da
 altri paesi;
 b) misure tecniche, organizzative e
 procedurali di prevenzione e
@@ -15066,7 +15066,7 @@ Pag. 23 a 138
 Esercitazione - Fare acquisire le competenze
 metodologiche per strutturare il
 DVR
-• Predisposizione di un
+- Predisposizione di un
 documento di valutazione dei
 rischi per un caso concreto
 riferito al settore ATECO di
@@ -15075,7 +15075,7 @@ Moduli tecnici-integrativi:
 Modulo Riferimento codice settori Ateco 2007
 Lettera - Descrizione macrocategoria Durata
 Modulo integrativo 1:
-Agricoltura – Silvicoltura - Zootecnia
+Agricoltura - Silvicoltura - Zootecnia
 A 01-02 - Agricoltura, Silvicoltura e Zootecnia 16 ore
 Modulo integrativo 2:
 Pesca
@@ -15093,26 +15093,26 @@ Modulo integrativo 1: Agricoltura, silvicoltura e zootecnia (16 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro (es. serre, campi, boschi, ecc.)
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
 UD5 Sostanze pericolose
 UD6 Agenti biologici
 UD7 Agenti fisici
 UD8 Ambienti confinati e\o sospetti di inquinamento
-UD9 Rischio incendio e gestione dell’emergenza
-UD10 Rischio di caduta dall’ alto
+UD9 Rischio incendio e gestione dell'emergenza
+UD10 Rischio di caduta dall' alto
 UD11 Movimentazione dei carichi
 Modulo integrativo 2: Pesca (12 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Legislazione specifica di riferimento
 UD3 Organizzazione del lavoro: ambienti di lavoro
 UD4 Normativa tecnica e per strutture e impianti
-UD5 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD5 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD6 Sostanze pericolose
 UD7 Agenti biologici
 UD8 Agenti fisici
 UD9 Ambienti confinati e\o sospetti di inquinamento
-UD10 Rischio incendio e gestione dell’emergenza
-UD11 Rischio cadute dall’alto, a bordo e fuori bordo
+UD10 Rischio incendio e gestione dell'emergenza
+UD11 Rischio cadute dall'alto, a bordo e fuori bordo
 
 
 ## Pagina 298
@@ -15124,13 +15124,13 @@ Modulo integrativo 3: Costruzioni (16 ore)
 UD1 Soggetti definiti dal Titolo IV capo I, e relativi obblighi e responsabilità
 UD2 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione, tecniche e fasi lavorative, aree di lavoro dei cantieri
-UD3 Le misure generali di tutela secondo quanto previsto dall’art. 95 del d.lgs. n. 81/2008
+UD3 Le misure generali di tutela secondo quanto previsto dall'art. 95 del d.lgs. n. 81/2008
 UD4 Il piano operativo di sicurezza (POS)
 UD5 Cenni sul PSC
-UD6 Cadute dall’alto e opere provvisionali
+UD6 Cadute dall'alto e opere provvisionali
 UD7 Lavori di demolizione e scavo
 UD8 Impianti elettrici e illuminazione di cantiere
-UD9 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD9 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD10 Movimentazione dei carichi manuale e meccanica
 UD11 Sostanze pericolose
 UD12 Agenti biologici
@@ -15149,7 +15149,7 @@ UD6 Rischi legati agli impianti e alle attrezzature di lavoro
 UD7 Manutenzione impianti e gestione fornitori
 UD8 Sostanze pericolose
 UD9 Agenti fisici
-UD10 Rischi incendio ed esplosioni e gestione dell’emergenza
+UD10 Rischi incendio ed esplosioni e gestione dell'emergenza
 UD11 Ambienti confinati e\o sospetti di inquinamento
 UD12 Dispositivi di protezione collettiva ed individuali
 UD13 Gestione dei rifiuti
@@ -15159,33 +15159,33 @@ UD13 Gestione dei rifiuti
 
 Pag. 25 a 138
 5 - CORSO PER RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE DAI
-RISCHI ai sensi dell’art. 32 del d.lgs. n. 81/2008
+RISCHI ai sensi dell'art. 32 del d.lgs. n. 81/2008
 Il percorso formativo per responsabili ed addetti dei servizi di prevenzione e protezione è
 strutturato in due distinti moduli: A e B.
 I responsabili del servizio di prevenzione e protezione devono inoltre frequentare anche il
 modulo C.
-5.1 TITOLI DI STUDIO VALIDI AI FINI DELL’ESONERO DALLA FREQUENZA DEL MODULO A E
+5.1 TITOLI DI STUDIO VALIDI AI FINI DELL'ESONERO DALLA FREQUENZA DEL MODULO A E
 DEL MODULO B (COMUNE E SPECIALISTICO)
-Di seguito si riportano i titoli di studio validi ai fini dell’esonero dalla frequenza del modulo A e
+Di seguito si riportano i titoli di studio validi ai fini dell'esonero dalla frequenza del modulo A e
 del modulo B (comune e specialistico):
-• laurea magistrale conseguita in una delle seguenti classi: LM-4, da LM-20 a LM 25, da LM
+- laurea magistrale conseguita in una delle seguenti classi: LM-4, da LM-20 a LM 25, da LM
 27 a LM -35, di cui al decreto del Ministro Università e ricerca del 16 marzo 2007,
 pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 157 del 9 luglio 2007;
-• laurea specialistica conseguita nelle seguenti classi: 4/S, da 25/S a 38/S di cui al decreto
-del Ministro dell’Università e della ricerca scientifica e tecnologica del 28 novembre 2000,
+- laurea specialistica conseguita nelle seguenti classi: 4/S, da 25/S a 38/S di cui al decreto
+del Ministro dell'Università e della ricerca scientifica e tecnologica del 28 novembre 2000,
 pubblicato nel supplemento ordinario alla Gazzetta Ufficiale n. 18 del 23 gennaio 2001;
-• laurea magistrale conseguita nella classe LM/SNT 4 di cui al decreto del Ministro
-dell’Università e della ricerca scientifica e tecnologica del 8 gennaio 2009, pubblicato nel
+- laurea magistrale conseguita nella classe LM/SNT 4 di cui al decreto del Ministro
+dell'Università e della ricerca scientifica e tecnologica del 8 gennaio 2009, pubblicato nel
 supplemento ordinario alla Gazzetta Ufficiale n. 122 del 28 maggio 2009;
-• laurea conseguita nella classe L/SNT 4 di cui al decreto del Ministro dell’Università e della
+- laurea conseguita nella classe L/SNT 4 di cui al decreto del Ministro dell'Università e della
 ricerca scientifica e tecnologica del 19 febbraio 2009, pubblicato nel supplemento
 ordinario alla Gazzetta Ufficiale n. 119 del 25 maggio 2009.
-Sono altresì validi, ai fini dell’esonero di cui al presente punto, tutti i diplomi di laurea del vecchio
+Sono altresì validi, ai fini dell'esonero di cui al presente punto, tutti i diplomi di laurea del vecchio
 ordinamento di Ingegneria e Architettura, conseguiti ai sensi del Regio Decreto 30 settembre
 1938, n.1652.
 Costituisce altresì titolo di esonero dalla frequenza relativamente a ciascun modulo (moduli A-B-
 C):
-• partecipazione ad un corso universitario di specializzazione, perfezionamento o master i
+- partecipazione ad un corso universitario di specializzazione, perfezionamento o master i
 cui contenuti e le relative modalità di svolgimento siano conformi ai contenuti del
 presente Accordo. L'esonero di cui al presente punto deve risultare da certificazio ne
 emessa dall'Università ove viene dichiarata l'equivalenza dei percorsi formativi ai
@@ -15193,8 +15193,8 @@ contenuti ed alla durata previsti dal presente accordo.
 Sono altresì esonerati dalla frequenza dei moduli (A-B-C) coloro che abbiano svolto attività
 tecnica in materia di salute e sicurezza, per almeno cinque anni, in qualità di pubblici ufficiali o di
 incaricati di pubblico servizio.
-Nell’allegato I è riportato l’elenco delle classi di laurea per l’esonero dalla frequenza ai corsi di
-formazione di cui all’articolo 32, comma 2, primo periodo, del d.lgs. n. 81/2008.
+Nell'allegato I è riportato l'elenco delle classi di laurea per l'esonero dalla frequenza ai corsi di
+formazione di cui all'articolo 32, comma 2, primo periodo, del d.lgs. n. 81/2008.
 5.2 MODULO A
 Il Modulo A costituisce il corso base per lo svolgimento della funzione di RSPP e di ASPP.
 La durata complessiva è di 28 ore, escluse le verifiche di apprendimento finali.
@@ -15203,7 +15203,7 @@ La durata complessiva è di 28 ore, escluse le verifiche di apprendimento finali
 ## Pagina 300
 
 Pag. 26 a 138
-Il Modulo A è propedeutico per l’accesso agli altri moduli. Il suo superamento consente l’accesso
+Il Modulo A è propedeutico per l'accesso agli altri moduli. Il suo superamento consente l'accesso
 a tutti i percorsi formativi.
 Il Modulo A deve consentire ai responsabili e agli addetti dei servizi di prevenzione e protezione
 di essere in grado di conoscere:
@@ -15224,10 +15224,10 @@ Durata minima complessiva 28 ore.
 UNITÀ DIDATTICA A1 - 8
 ORE
 Obiettivi formativi Contenuti del Modulo
-L’approccio alla
+L'approccio alla
 prevenzione nel d.lgs. n.
 81/2008
-- Illustrare l’approccio
+- Illustrare l'approccio
 alla prevenzione e
 protezione disciplinata
 nel d.lgs. n. 81/2008 per
@@ -15235,7 +15235,7 @@ un percorso di
 miglioramento della
 salute e della sicurezza
 dei lavoratori.
-• La filosofia del d.lgs. n. 81/2008 in riferimento al
+- La filosofia del d.lgs. n. 81/2008 in riferimento al
 carattere gestionale organizzativo dato dalla
 legislazione al sistema di prevenzione aziendale.
 Il sistema legislativo: esame
@@ -15244,23 +15244,23 @@ riferimento
 - Illustrare la normativa
 in tema di salute e
 sicurezza sul lavoro.
-• L’evoluzione legislativa sulla salute e sicurezza sul
+- L'evoluzione legislativa sulla salute e sicurezza sul
 lavoro.
-• Lo Statuto dei lavoratori e la normativa
-sull’assicurazione obbligatoria contro gli infortuni e le
+- Lo Statuto dei lavoratori e la normativa
+sull'assicurazione obbligatoria contro gli infortuni e le
 malattie professionali.
-• L’impostazione di base data al d.lgs. n. 81/2008 dal
+- L'impostazione di base data al d.lgs. n. 81/2008 dal
 legislatore, riferendo la trattazione anche ai principi
 costituzionali ed agli obblighi civili e penali dati
-dall’ordinamento giuridico nazionale.
-• Il quadro giuridico europeo (direttive, regolamenti,
+dall'ordinamento giuridico nazionale.
+- Il quadro giuridico europeo (direttive, regolamenti,
 raccomandazioni, pareri).
-• I profili di responsabilità amministrativa.
-• La legislazione relativa a particolari categorie di lavoro:
+- I profili di responsabilità amministrativa.
+- La legislazione relativa a particolari categorie di lavoro:
 lavoro minorile, lavoratrici madri, lavoro notturno,
 lavori atipici, lavoro in somministrazione, ecc.
-• Il quadro legislativo antincendio.
-• Le norme tecniche e le attività di normalizzazione
+- Il quadro legislativo antincendio.
+- Le norme tecniche e le attività di normalizzazione
 nazionali ed europee in materia di salute e sicurezza
 sul lavoro.
 
@@ -15273,18 +15273,18 @@ prevenzione
 - Illustrare il sistema
 istituzionale della
 prevenzione.
-• Capo II del Titolo I del d.lgs. n. 81/2008.
+- Capo II del Titolo I del d.lgs. n. 81/2008.
 Il sistema di vigilanza e
 assistenza
 - Illustrare il ruolo degli
 organi di vigilanza e di
 assistenza.
-• Vigilanza e controllo e il sistema delle prescrizioni e
+- Vigilanza e controllo e il sistema delle prescrizioni e
 delle sanzioni.
-• Il ruolo di: ASL, INL, VV.F., INAIL, ARPA.
-• Le omologazioni, le verifiche periodiche.
-• Informazione, assistenza e consulenza.
-• Organismi paritetici
+- Il ruolo di: ASL, INL, VV.F., INAIL, ARPA.
+- Le omologazioni, le verifiche periodiche.
+- Informazione, assistenza e consulenza.
+- Organismi paritetici
 UNITÀ DIDATTICA A2 - 4
 ORE
 Obiettivi formativi Contenuti del Modulo
@@ -15297,7 +15297,7 @@ prevenzionale con
 riferimento ai loro
 compiti, obblighi e
 responsabilità.
-• Il sistema sicurezza aziendale secondo il d.lgs. n.
+- Il sistema sicurezza aziendale secondo il d.lgs. n.
 81/2008:
 ✓ datore di lavoro, dirigenti e preposti;
 ✓ responsabile del servizio prevenzione e
@@ -15331,25 +15331,25 @@ principali metodi e
 criteri per la valutazione
 dei rischi compresi
 quelli da interferenza.
-• Concetti di pericolo, rischio, danno, prevenzione e
+- Concetti di pericolo, rischio, danno, prevenzione e
 protezione.
-• Principio di precauzione: attenzione alle lavoratrici in
-stato di gravidanza, alle differenze di genere, all’età,
+- Principio di precauzione: attenzione alle lavoratrici in
+stato di gravidanza, alle differenze di genere, all'età,
 alla provenienza da altri Paesi e quelli connessi alla
 specifica tipologia contrattuale attraverso cui viene
 resa la prestazione di lavoro, utilizzo delle tecnologie
 digitali.
-• Analisi degli infortuni: cause, modalità di accadimento,
+- Analisi degli infortuni: cause, modalità di accadimento,
 indicatori, analisi statistica e andamento nel tempo.
-• Analisi delle malattie professionali: cause, modalità di
+- Analisi delle malattie professionali: cause, modalità di
 accadimento, indicatori, analisi statistica e andamento
 nel tempo.
-• Le fonti statistiche: strumenti e materiale informativo
+- Le fonti statistiche: strumenti e materiale informativo
 disponibile.
-• Valutazione dei rischi: metodologie e criteri per la
+- Valutazione dei rischi: metodologie e criteri per la
 valutazione dei rischi.
-• Fasi e attività del processo valutativo.
-• Il contesto di applicazione delle procedure
+- Fasi e attività del processo valutativo.
+- Il contesto di applicazione delle procedure
 standardizzate.
 
 
@@ -15363,12 +15363,12 @@ protezione.
 - Illustrare gli elementi di
 un documento di
 valutazione dei rischi
-• La valutazione dei rischi da interferenze nella gestione
-dei contratti di appalto o d’opera o di
+- La valutazione dei rischi da interferenze nella gestione
+dei contratti di appalto o d'opera o di
 somministrazione.
-• La classificazione dei rischi specifici.
-• Misure generali di tutela.
-• Contenuti struttura e organizzazione del documento di
+- La classificazione dei rischi specifici.
+- Misure generali di tutela.
+- Contenuti struttura e organizzazione del documento di
 valutazione dei rischi.
 UNITÀ DIDATTICA A4 - 4
 ORE
@@ -15380,10 +15380,10 @@ La segnaletica di sicurezza
 misure di protezione
 collettiva e individuali e
 di segnalazione
-• I dispositivi di protezione collettiva
-• I dispositivi di protezione individuale: criteri di scelta e
+- I dispositivi di protezione collettiva
+- I dispositivi di protezione individuale: criteri di scelta e
 di utilizzo.
-• La segnaletica di sicurezza.
+- La segnaletica di sicurezza.
 La gestione delle emergenze - Far c onoscere le
 modalità di gestione
 delle emergenze
@@ -15391,18 +15391,18 @@ delle emergenze
 per la stesura di un
 piano di emergenza e di
 evacuazione
-• Tipologie di emergenza.
-• Caratteristiche e procedure di gestione delle
+- Tipologie di emergenza.
+- Caratteristiche e procedure di gestione delle
 emergenze in caso di:
 ✓ Incendio;
 ✓ primo soccorso;
 ✓ altre emergenze;
-• Criteri per la stesura del piano di emergenza e di
+- Criteri per la stesura del piano di emergenza e di
 evacuazione.
 La sorveglianza sanitaria - Illustrare gli obblighi
 relativi alla sorveglianza
 sanitaria.
-• Sorveglianza sanitaria: obiettivi e obblighi, specifiche
+- Sorveglianza sanitaria: obiettivi e obblighi, specifiche
 tutele per le lavoratrici madri, minori, invalidi, visite
 mediche, giudizi di idoneità e ricorsi.
 UNITÀ DIDATTICA A5 - 4
@@ -15414,9 +15414,9 @@ partecipazione
 modalità e gli obblighi di
 consultazione e
 partecipazione.
-• La consultazione e la partecipazione aziendale della
+- La consultazione e la partecipazione aziendale della
 sicurezza.
-• Le relazioni tra i soggetti del sistema della
+- Le relazioni tra i soggetti del sistema della
 prevenzione.
 Informazione, f ormazione e
 addestramento
@@ -15424,12 +15424,12 @@ addestramento
 obblighi informativi,
 formativi e di
 addestramento.
-• Gli obblighi informativi, formativi e di addestramento
+- Gli obblighi informativi, formativi e di addestramento
 per i diversi soggetti aziendali.
 5.3 MODULO B
 Il Modulo B è il corso correlato alla natura dei rischi presenti sul luogo di lavoro e relativi alle
 attività lavorative.
-L’articolazione degli argomenti formativi e delle aree tematiche del Modulo B è strutturata
+L'articolazione degli argomenti formativi e delle aree tematiche del Modulo B è strutturata
 prevedendo un Modulo comune a tutti i settori produttivi della durata di 48 ore.
 
 
@@ -15439,13 +15439,13 @@ Pag. 29 a 138
 Il suddetto Modulo B comune è esaustivo per tutti i settori produttivi ad eccezione di quelli per i
 quali il percorso deve essere integrato con la frequenza dei moduli di specializzazione indicati
 nella tabella sotto riportata.
-Il Modulo B comune è propedeutico per l’accesso ai moduli di specializzazione.
+Il Modulo B comune è propedeutico per l'accesso ai moduli di specializzazione.
 La durata dei corsi non comprende le verifiche di apprendimento finali.
 Moduli B di specializzazione
 Modulo Riferimento codice settori Ateco 2007
 Lettera - Descrizione macrocategoria Durata
 Modulo B-SP1
-Agricoltura – Silvicoltura -
+Agricoltura - Silvicoltura -
 Zootecnia
 A 01-02- Agricoltura, Silvicoltura e Zootecnia
 16 ore
@@ -15465,14 +15465,14 @@ C - Attività manifatturiere (19 - Fabbricazione di coke e
 prodotti derivanti dalla raffinazione del petrolio e 20 -
 Fabbricazione di prodotti chimici)
 16 ore
-Il Modulo B deve essere orientato alla risoluzione di problemi, all’analisi e alla valutazione dei
+Il Modulo B deve essere orientato alla risoluzione di problemi, all'analisi e alla valutazione dei
 rischi, alla pianificazione di idonei interventi di prevenzione delle attività dei rispettivi livelli di
-rischio, ponendo attenzione all’approfondimento in ragione dei differenti livelli di rischio ed
+rischio, ponendo attenzione all'approfondimento in ragione dei differenti livelli di rischio ed
 evitando la ripetizione di argomenti.
 Il Modulo B deve consentire ai responsabili e agli addetti dei servizi di prevenzione e protezione
 di acquisire le conoscenze/abilità per:
 - individuare i pericoli e valutare tutti i rischi connessi agli ambienti di lavoro e
-all’organizzazione del lavoro;
+all'organizzazione del lavoro;
 - individuare le misure di prevenzione e protezione adottate o da adottare in relazione agli
 specifici rischi;
 - individuare adeguate soluzioni tecniche, organizzative e procedurali di salute e sicurezza
@@ -15483,7 +15483,7 @@ La progettazione delle unità didattiche e la relativa articolazione oraria, sec
 riportate parte IV è demandata alla responsabilità dei soggetti formatori.
 La trattazione dei rischi dovrà prevedere un breve richiamo normativo e la precisa definizione
 degli stessi.
-L’attenzione dovrà essere rivolta alla corretta valutazione nei diversi settori, alle diverse misure
+L'attenzione dovrà essere rivolta alla corretta valutazione nei diversi settori, alle diverse misure
 tecnico organizzative e procedurali utili al contenimento e agli adempimenti previsti, compresi i
 
 
@@ -15496,14 +15496,14 @@ ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO B COMUNE A TUTTI I SETTORI
 PRODUTTIVI (48 ORE)
 UD1 Tecniche specifiche di valutazione dei rischi e analisi degli incidenti
 UD2 Organizzazione dei processi produttivi e del lavoro:
-• cenni sull’evoluzione dell’organizzazione dei processi di produzione industriale: dalle catene di
+- cenni sull'evoluzione dell'organizzazione dei processi di produzione industriale: dalle catene di
 montaggio alla produzione snella (es. lean organization, just in time, ecc.);
-• caratteristiche e tipologie di impianti e processi di produzione industriale;
-• tipologie e studi di lay-out industriali e requisiti di sicurezza;
-• modelli e strutture organizzative (funzionali, per processi, divisionali a matrice, ibridi), punti di forza
+- caratteristiche e tipologie di impianti e processi di produzione industriale;
+- tipologie e studi di lay-out industriali e requisiti di sicurezza;
+- modelli e strutture organizzative (funzionali, per processi, divisionali a matrice, ibridi), punti di forza
 e di debolezza ai fini del benessere organizzativo;
-• nuove forme di lavoro: lavoro agile, co-working, telelavoro, ecc.
-• innovazione tecnologica e impatto sulla salute e sicurezza delle nuove tecnologie.
+- nuove forme di lavoro: lavoro agile, co-working, telelavoro, ecc.
+- innovazione tecnologica e impatto sulla salute e sicurezza delle nuove tecnologie.
 UD3 Ambiente e luoghi di lavoro
 UD4 Rischio incendio
 Atex
@@ -15515,7 +15515,7 @@ UD5 Rischi infortunistici:
 - Movimentazione merci: apparecchi di sollevamento e attrezzature per trasporto merci
 - Mezzi di trasporto: ferroviario, su strada, aereo e marittimo
 - Lavori in quota
-UD6 Rischi di natura ergonomica e legati all’organizzazione del lavoro:
+UD6 Rischi di natura ergonomica e legati all'organizzazione del lavoro:
 - Movimentazione manuale dei carichi
 - Attrezzature munite di videoterminali
 UD7 Rischi di natura psico-sociale:
@@ -15529,7 +15529,7 @@ UD11 Rischi connessi ad attività particolari:
 - Ambienti confinati e\o sospetti di inquinamento
 - Attività su strada
 - Gestione rifiuti
-UD12 Rischi connessi all’assunzione di sostanze stupefacenti, psicotrope ed alcol
+UD12 Rischi connessi all'assunzione di sostanze stupefacenti, psicotrope ed alcol
 
 
 ## Pagina 305
@@ -15540,39 +15540,39 @@ Modulo B-SP1: Agricoltura, silvicoltura e zootecnia (16 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro (es. serre, campi, boschi, ecc.)
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro (es. ribaltamento, schiacciamento, ecc.)
 UD5 Agenti chimici, cancerogeni e mutageni, amianto
 UD6 Agenti biologici
 UD7 Agenti fisici
 UD8 Ambienti confinati e\o sospetti di inquinamento
-UD9 Rischio incendio e gestione dell’emergenza
-UD10 Rischio di caduta dall’alto,
+UD9 Rischio incendio e gestione dell'emergenza
+UD10 Rischio di caduta dall'alto,
 UD11 Movimentazione dei carichi
 Modulo B-SP2: Pesca (12 ore)
 UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Legislazione specifica di riferimento
 UD3 Organizzazione del lavoro: ambienti di lavoro
 UD4 Normativa tecnica e per strutture e impianti
-UD5 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD5 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD6 Agenti chimici, cancerogeni e mutageni e amianto
 UD7 Agenti biologici
 UD8 Agenti fisici
 UD9 Ambienti confinati e\o sospetti di inquinamento
-UD10 Rischio incendio e gestione dell’emergenza
-UD11 Rischio cadute dall’alto, a bordo e fuori bordo
+UD10 Rischio incendio e gestione dell'emergenza
+UD11 Rischio cadute dall'alto, a bordo e fuori bordo
 UD12 Movimentazione dei carichi
 UD13 Atmosfere iperbariche e attività subacquee
 Modulo B-SP3: Costruzioni (16 ore)
 UD1 Soggetti definiti dal Titolo IV capo I, e relativi obblighi e responsabilità
 UD2 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione, tecniche e fasi lavorative, aree di lavoro dei cantieri
-UD3 Le misure generali di tutela secondo quanto previsto dall’art. 95 del d.lgs. n. 81/2008
+UD3 Le misure generali di tutela secondo quanto previsto dall'art. 95 del d.lgs. n. 81/2008
 UD4 Il piano operativo di sicurezza (POS)
 UD5 Cenni sul PSC
-UD6 Cadute dall’alto e opere provvisionali
+UD6 Cadute dall'alto e opere provvisionali
 UD7 Lavori di demolizione e scavo
 UD8 Impianti elettrici e illuminazione di cantiere
-UD9 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD9 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD10 Movimentazione dei carichi manuale e meccanica
 
 
@@ -15591,14 +15591,14 @@ UD1 Analisi degli infortuni e malattie professionali del comparto
 UD2 Organizzazione del lavoro: ambienti di lavoro nel settore sanitario, ospedaliero e ambulatoriale e
 assistenziale
 UD3 Normativa tecnica per strutture e impianti
-UD4 Rischi legati all’utilizzo di macchine e attrezzature di lavoro
+UD4 Rischi legati all'utilizzo di macchine e attrezzature di lavoro
 UD5 Movimentazione dei carichi
 UD6 Rischi da taglio e da punta
 UD7 Agenti chimici, cancerogeni, mutageni e amianto
 UD8 Agenti biologici
 UD9 Agenti fisici
 UD10 Cenni sulle radiazioni ionizzanti
-UD11 Rischio incendio e gestione dell’emergenza
+UD11 Rischio incendio e gestione dell'emergenza
 UD12 Rischio aggressioni, stress lavoro correlato e burn out
 UD13 Dispositivi di protezione collettiva ed individuali
 UD14 Le atmosfere iperbariche
@@ -15613,7 +15613,7 @@ UD6 Rischi legati agli impianti e alle attrezzature di lavoro
 UD7 Manutenzione impianti e gestione fornitori
 UD8 Agenti chimici, cancerogeni, mutageni e amianto
 UD9 Agenti fisici
-UD10 Rischi incendio ed esplosioni e gestione dell’emergenza
+UD10 Rischi incendio ed esplosioni e gestione dell'emergenza
 UD11 Ambienti confinati e\o sospetti di inquinamento
 UD12 Dispositivi di protezione collettiva ed individuali
 UD13 Gestione dei rifiuti
@@ -15627,12 +15627,12 @@ Il Modulo C è il corso di specializzazione per le sole funzioni di RSPP.
 La durata complessiva è di 24 ore escluse le verifiche di apprendimento finali.
 Il Modulo C deve consentire ai responsabili dei servizi di prevenzione e protezione di acquisire le
 conoscenze/abilità relazionali e gestionali per:
-• progettare e gestire processi formativi in riferimento al contesto lavorativo e alla
+- progettare e gestire processi formativi in riferimento al contesto lavorativo e alla
 valutazione dei rischi, anche per la diffusione della cultura alla salute e sicurezza e del
 benessere organizzativo;
-• pianificare, gestire e controllare le misure tecniche, organizzative e procedurali di
+- pianificare, gestire e controllare le misure tecniche, organizzative e procedurali di
 sicurezza aziendali attraverso sistemi di gestione della sicurezza;
-• utilizzare forme di comunicazione adeguate a favorire la partecipazione e la
+- utilizzare forme di comunicazione adeguate a favorire la partecipazione e la
 collaborazione dei vari soggetti del sistema.
 ARTICOLAZIONE DEI CONTENUTI MINIMI DEL MODULO C
 UNITÀ DIDATTICA C1 - 8
@@ -15640,15 +15640,15 @@ ORE
 Obiettivi formativi Contenuti del Modulo
 Tecniche e metodologie
 relative a:
-• informazione
-• formazione
-• addestramento
+- informazione
+- formazione
+- addestramento
 - Illustrare la
 connessione e coerenza
 tra il documento di
 valutazione dei rischi e
 la predisposizione dei
-piani dell’informazione,
+piani dell'informazione,
 formazione e
 addestramento
 - Illustrare le
@@ -15668,20 +15668,20 @@ progettazione didattica.
 - Illustrare le tecniche e
 le procedure di
 addestramento.
-• Dalla valutazione dei rischi alla predisposizione dei
+- Dalla valutazione dei rischi alla predisposizione dei
 piani di informazione, formazione ed addestramento
 in azienda.
-• Metodologie per una corretta informazione in azienda
+- Metodologie per una corretta informazione in azienda
 (riunioni, gruppi di lavoro specifici, conferenze,
 seminari informativi, ecc.).
-• Strumenti di informazione su salute e sicurezza sul
+- Strumenti di informazione su salute e sicurezza sul
 lavoro (circolari, cartellonistica, opuscoli, avvisi, news,
 intranet, internet, ecc.).
-• Le dinamiche di apprendimento dell’adulto:
+- Le dinamiche di apprendimento dell'adulto:
 presentazione e analisi delle principali
 metodologie didattiche e degli strumenti
-operativi utilizzati nell’andragogia.
-• Le fasi del processo formativo:
+operativi utilizzati nell'andragogia.
+- Le fasi del processo formativo:
 ✓ analisi del fabbisogno e del contesto
 organizzativo;
 ✓ macro e micro-progettazione (definizione degli
@@ -15690,7 +15690,7 @@ funzione degli obiettivi, metodologie e strumenti
 didattici);
 ✓ erogazione;
 ✓ valutazione e monitoraggio dei risultati.
-• L’addestramento:
+- L'addestramento:
 ✓ tecniche (dimostrazioni, simulazioni,
 esercitazioni pratiche);
 ✓ modalità e verifica;
@@ -15718,41 +15718,41 @@ modalità operative della norma ISO
 Far conoscere le modalità e le
 opportunità di adozione delle
 procedure semplificate per
-l’implementazione dei MOG
+l'implementazione dei MOG
 Evidenziare il ruolo del RSPP
-all’interno dei modelli e sistemi di
+all'interno dei modelli e sistemi di
 organizzazione e gestione della
 sicurezza
-• L’organizzazione e la gestione della sicurezza tra
+- L'organizzazione e la gestione della sicurezza tra
 legislazione e normativa volontaria Sinergie ed
 opportunità.
-• I modelli di organizzazione e gestione della
-sicurezza. L’art. 30 del D.lgs. 81/08 e la
+- I modelli di organizzazione e gestione della
+sicurezza. L'art. 30 del D.lgs. 81/08 e la
 responsabilità amministrativa delle persone
-giuridiche (d.lgs. n. 231/2001). L’efficacia
-esimente dell’adozione dei modelli e sistemi di
+giuridiche (d.lgs. n. 231/2001). L'efficacia
+esimente dell'adozione dei modelli e sistemi di
 gestione della sicurezza (ISO 45001, Linee guida
 UNI INAIL).
-• La struttura di alto livello (HLS) della ISO 45001.
-• Il ciclo PCDA di Deming e l’approccio per processi
+- La struttura di alto livello (HLS) della ISO 45001.
+- Il ciclo PCDA di Deming e l'approccio per processi
 applicato alla organizzazione e gestione della
 sicurezza.
-• Il processo di valutazione dei rischi e la
-pianificazione degli interventi nell’ambito della
+- Il processo di valutazione dei rischi e la
+pianificazione degli interventi nell'ambito della
 ISO 45001.
-• Controllo operativo, auditing, riesame e
+- Controllo operativo, auditing, riesame e
 miglioramento continuo.
-• Cenni sull’integrazione gestionale della sicurezza
+- Cenni sull'integrazione gestionale della sicurezza
 (ISO 45001), con i sistemi qualità (ISO 9001) e
 ambiente (ISO 14001).
-• Procedure semplificate per l’implementazione
+- Procedure semplificate per l'implementazione
 dei Modelli di organizzazione e gestione (MOG):
 il D.M13/02/2014.
-• L’asseverazione dei MOG.
-• Vantaggi derivanti dall’adozione dei modelli di
+- L'asseverazione dei MOG.
+- Vantaggi derivanti dall'adozione dei modelli di
 organizzazione e gestione.
-• Il ruolo manageriale e tecnico del RSPP
-nell’ambito dei modelli e sistemi di
+- Il ruolo manageriale e tecnico del RSPP
+nell'ambito dei modelli e sistemi di
 organizzazione e gestione della sicurezza
 aziendali.
 UNITÀ DIDATTICA C3 - 4
@@ -15769,13 +15769,13 @@ metodi e le tecniche di
 comunicazione efficace
 per la salute e la
 sicurezza sul lavoro.
-• Il sistema delle relazioni: RLS, datore di lavoro, medico
+- Il sistema delle relazioni: RLS, datore di lavoro, medico
 competente, lavoratori, enti pubblici, fornitori,
 lavoratori autonomi, appaltatori, ecc.
-• Il sistema di comunicazione azienda le in materia di
+- Il sistema di comunicazione azienda le in materia di
 salute e sicurezza sul lavoro.
-• La comunicazione nelle diverse situazioni di lavoro.
-• Cenni sui metodi, tecniche e strumenti per una
+- La comunicazione nelle diverse situazioni di lavoro.
+- Cenni sui metodi, tecniche e strumenti per una
 comunicazione efficace.
 
 
@@ -15786,9 +15786,9 @@ Pag. 35 a 138
 gestione del la riunione
 periodica e degli
 incontri di lavoro.
-• Gestione degli incontri di lavoro e della riunione
+- Gestione degli incontri di lavoro e della riunione
 periodica.
-• Tecniche di negoziazione e gestione dei conflitti.
+- Tecniche di negoziazione e gestione dei conflitti.
 UNITÀ DIDATTICA C4 - 4
 ORE
 Obiettivi formativi Contenuti del Modulo
@@ -15810,7 +15810,7 @@ persone negli ambienti
 di lavoro anche sotto il
 profilo della salute e
 sicurezza.
-• Concetto di benessere organizzativo:
+- Concetto di benessere organizzativo:
 ✓ fattori di natura ergonomica;
 ✓ fattori psicosociali e stress lavoro correlato;
 ✓ fattori organizzativi e clima aziendale;
@@ -15818,36 +15818,36 @@ sicurezza.
 collaborazione, corretta circolazione delle
 informazioni, analisi delle relazioni, gestione del
 conflitto.
-• Team building finalizzato al benessere organizzativo.
+- Team building finalizzato al benessere organizzativo.
 
 
 ## Pagina 310
 
 Pag. 36 a 138
-6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER L’ESECUZIONE
+6. CORSO DI FORMAZIONE PER I COORDINATORI PER LA PROGETTAZIONE E PER L'ESECUZIONE
 DEI LAVORI (ALLEGATO XIV Dlgs 81/08)
-Il presente corso, ai sensi di quanto previsto dall’art. 98 comma 3 del Dlgs 81/08, aggiorna e
-sostituisce i requisiti della formazione per i coordinatori per la progettazione e per l’esecuzione
+Il presente corso, ai sensi di quanto previsto dall'art. 98 comma 3 del Dlgs 81/08, aggiorna e
+sostituisce i requisiti della formazione per i coordinatori per la progettazione e per l'esecuzione
 dei lavori previsti dall'articolo 98 del d.lgs. n. 81/2008.
 Obiettivi
 Il corso di formazione ha i seguenti obiettivi:
-• illustrare la normativa generale e specifica in tema di salute e sicurezza, con particolare
+- illustrare la normativa generale e specifica in tema di salute e sicurezza, con particolare
 riferimento al settore delle costruzioni e gli strumenti per garantire un adeguato
 approfondimento e aggiornamento in funzione della continua evoluzione della stessa;
-• far conoscere il ruolo de i soggetti del sistema di prevenzione, i loro compiti e le
+- far conoscere il ruolo de i soggetti del sistema di prevenzione, i loro compiti e le
 responsabilità;
-• illustrare le funzioni svolte dal sistema istituzionale pubblico e dai vari organi preposti alla
+- illustrare le funzioni svolte dal sistema istituzionale pubblico e dai vari organi preposti alla
 tutela della salute e della sicurezza nei luoghi di lavoro;
-• far conoscere i principali rischi trattati dal d.lgs. n. 81/2008 e individuare le misure di
+- far conoscere i principali rischi trattati dal d.lgs. n. 81/2008 e individuare le misure di
 prevenzione e protezione nonché le modalità per la gestione delle emergenze;
-• illustrare gli elementi metodologici per la valutazione del rischio;
-• far acquisire le competenze necessarie per l’individuazione, l’analisi e la valutazione dei
-rischi concreti, con riferimento all’area ed alla organizzazione del cantiere, alle lavorazioni
+- illustrare gli elementi metodologici per la valutazione del rischio;
+- far acquisire le competenze necessarie per l'individuazione, l'analisi e la valutazione dei
+rischi concreti, con riferimento all'area ed alla organizzazione del cantiere, alle lavorazioni
 ed alle loro interferenze;
-• far acquisire le competenze per verificare l’idoneità e la congruenza del piano operativo
+- far acquisire le competenze per verificare l'idoneità e la congruenza del piano operativo
 di sicurezza;
-• far acquisire le competenze per lo svolgimento del proprio ruolo;
-• illustrare le responsabilità connesse al ruolo rivestito.
+- far acquisire le competenze per lo svolgimento del proprio ruolo;
+- illustrare le responsabilità connesse al ruolo rivestito.
 Articolazione dei contenuti minimi del percorso formativo:
 Durata minima 120 ore
 Modulo Obiettivi formativi Contenuti del Modulo
@@ -15859,38 +15859,38 @@ prevenzionale con
 riferimento ai loro
 compiti, obblighi e
 responsabilità.
-• La legislazione in materia di salute e sicurezza nei
+- La legislazione in materia di salute e sicurezza nei
 luoghi di lavoro;
-• le normative europee e la loro valenza;
-• la normativa contrattuale;
-• la normativa sull’assicurazione contro gli infortuni sul
+- le normative europee e la loro valenza;
+- la normativa contrattuale;
+- la normativa sull'assicurazione contro gli infortuni sul
 lavoro e le malattie professionali;
-• il codice degli appalti;
-• le norme di buona tecnica;
-• i regolamenti e le direttive di prodotto;
-• cenni sulle norme tecniche di costruzione;
-• il Testo Unico in materia di salute e sicurezza nei luoghi
+- il codice degli appalti;
+- le norme di buona tecnica;
+- i regolamenti e le direttive di prodotto;
+- cenni sulle norme tecniche di costruzione;
+- il Testo Unico in materia di salute e sicurezza nei luoghi
 di lavoro con particolare riferimento al Titolo I;
-• il sistema istituzionale anche con riferimento ai Piani
+- il sistema istituzionale anche con riferimento ai Piani
 di Prevenzione in Edilizia;
-• i soggetti del Sistema di Prevenzione Aziendale: i
+- i soggetti del Sistema di Prevenzione Aziendale: i
 compiti, gli obblighi, le responsabilità civili e penali.
 
 
 ## Pagina 311
 
 Pag. 37 a 138
-• La legislazione specifica in materia di salute e sicurezza
+- La legislazione specifica in materia di salute e sicurezza
 nei cantieri temporanei o mobili e nei lavori in quota:
 il Titolo IV del Testo Unico in materia di salute e
 sicurezza nei luoghi di lavoro;
-• le figure interessate alla realizzazione dell’opera:
+- le figure interessate alla realizzazione dell'opera:
 compiti, obblighi e responsabilità civili e penali;
-• gli Organi di vigilanza, le procedure ispettive e la
-disciplina sanzionatoria, la sospensione dell’attività
+- gli Organi di vigilanza, le procedure ispettive e la
+disciplina sanzionatoria, la sospensione dell'attività
 imprenditoriale;
-• scelte progettuali e organizzative. La collaborazione
-con il progettista dell’opera.
+- scelte progettuali e organizzative. La collaborazione
+con il progettista dell'opera.
 Modulo tecnico (52 ore) - Far conoscere i concetti
 di pericolo, rischio,
 danno, prevenzione e
@@ -15909,45 +15909,45 @@ di un cantiere
 - Fare acquisire le
 competenze relative ai
 fattori di rischio e
-all’adozione delle
+all'adozione delle
 misure di prevenzione
 e protezione
-• Concetti di pericolo, rischio, danno, prevenzione e
+- Concetti di pericolo, rischio, danno, prevenzione e
 protezione;
-• metodologie per l’individuazione, l’analisi e la
+- metodologie per l'individuazione, l'analisi e la
 valutazione dei rischi e relativa adozione delle misure
 di prevenzione e protezione necessarie;
-• analisi degli infortuni e malattie professionali nel
+- analisi degli infortuni e malattie professionali nel
 settore delle costruzioni;
-• l’organizzazione in sicurezza del cantiere. Il
+- l'organizzazione in sicurezza del cantiere. Il
 cronoprogramma dei lavori;
-• gli obblighi documentali da parte dei committenti,
+- gli obblighi documentali da parte dei committenti,
 imprese, coordinatori per la sicurezza;
-• rischi di caduta dall’alto;
-• rischi nei lavori di montaggio e smontaggio di ponteggi
+- rischi di caduta dall'alto;
+- rischi nei lavori di montaggio e smontaggio di ponteggi
 e opere provvisionali;
-• rischi nei lavori di montaggio e smontaggio di elementi
+- rischi nei lavori di montaggio e smontaggio di elementi
 prefabbricati;
-• rischi nel montaggio di opere temporanee (palchi,
+- rischi nel montaggio di opere temporanee (palchi,
 tensostrutture,...) per fiere e spettacoli;
-• rischi negli scavi, nelle demolizioni, nelle opere in
+- rischi negli scavi, nelle demolizioni, nelle opere in
 sotterraneo ed in galleria;
-• rischi legati all’utilizzo di macchine e attrezzature di
+- rischi legati all'utilizzo di macchine e attrezzature di
 lavoro;
-• rischio di investimento e schiacciamento;
-• rischi da movimentazione manuale dei carichi;
-• rischi fisici;
-• rischi biologici;
-• rischi chimici e cancerogeni;
-• rischi connessi alle bonifiche da amianto;
-• rischio elettrico e la protezione contro le scariche
+- rischio di investimento e schiacciamento;
+- rischi da movimentazione manuale dei carichi;
+- rischi fisici;
+- rischi biologici;
+- rischi chimici e cancerogeni;
+- rischi connessi alle bonifiche da amianto;
+- rischio elettrico e la protezione contro le scariche
 atmosferiche;
-• rischi di incendio e di esplosione;
-• rischi dovuti alla presenza di ordigni bellici;
-• ambienti confinati e\o sospetti di inquinamento;
-• gestione delle emergenze, evacuazione e primo
+- rischi di incendio e di esplosione;
+- rischi dovuti alla presenza di ordigni bellici;
+- ambienti confinati e\o sospetti di inquinamento;
+- gestione delle emergenze, evacuazione e primo
 soccorso;
-• i dispositivi di protezione collettiva, individuale e la
+- i dispositivi di protezione collettiva, individuale e la
 segnaletica di sicurezza.
 
 
@@ -15965,7 +15965,7 @@ sicurezza sul lavoro.
 - Far conoscere i
 principali criteri
 metodologici per
-l’elaborazione o la
+l'elaborazione o la
 verifica della
 documentazione di
 cantiere.
@@ -15975,26 +15975,26 @@ comunicazione,
 relazionali e gestionali
 e le modalità di
 gestione dei conflitti.
-• I contenuti del:
+- I contenuti del:
 a) piano di sicurezza e di coordinamento;
-b) fascicolo con le caratteristiche dell’opera;
+b) fascicolo con le caratteristiche dell'opera;
 c) POS;
 d) PIMUS;
 e) piano delle demolizioni;
 f) piano di lavoro (ex art. 256 d.lgs. 81/2008) per la
 rimozione MCA.
-• I criteri metodologici per:
-a) l’elaborazione del piano di sicurezza e di
+- I criteri metodologici per:
+a) l'elaborazione del piano di sicurezza e di
 coordinamento;
-b) l’elaborazione del fascicolo;
+b) l'elaborazione del fascicolo;
 c) la verifica della congruenza tra POS, PSC e
 fascicolo;
 d) la stima dei costi della sicurezza.
-• Teorie e tecniche di comunicazione, orientate alla
+- Teorie e tecniche di comunicazione, orientate alla
 risoluzione di problemi e alla cooperazione; teorie di
 gestione dei gruppi e leadership.
-• I rapporti con la committenza, i progettisti, la direzione
-dei lavori, l’impresa affidataria, i rappresentanti dei
+- I rapporti con la committenza, i progettisti, la direzione
+dei lavori, l'impresa affidataria, i rappresentanti dei
 lavoratori per la sicurezza e RLST.
 Parte pratica (24 ore)
 UD1
@@ -16006,10 +16006,10 @@ le modalità di
 redazione del PSC e la
 correlazione con i
 relativi POS
-• Esempi di Piano di Sicurezza e Coordinamento:
+- Esempi di Piano di Sicurezza e Coordinamento:
 a) presentazione dei progetti;
-b) discussione sull’analisi dei rischi legati all’area,
-all’organizzazione del cantiere, alle lavorazioni ed
+b) discussione sull'analisi dei rischi legati all'area,
+all'organizzazione del cantiere, alle lavorazioni ed
 alle loro interferenze;
 c) correlazione con i relativi POS.
 UD2
@@ -16025,11 +16025,11 @@ prevenzione e
 protezione per la
 sicurezza dei lavori in
 copertura
-• Esempi di fascicolo adattato alle caratteristiche
-dell’opera.
-• Criteri di progettazione delle misure di prevenzione e
+- Esempi di fascicolo adattato alle caratteristiche
+dell'opera.
+- Criteri di progettazione delle misure di prevenzione e
 protezione per la sicurezza dei lavori in copertura;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- lavori di gruppo: analisi e discussione degli elaborati.
 UD3
 Stesura del PSC e del
 fascicolo (8 ore)
@@ -16038,12 +16038,12 @@ competenze
 metodologiche per
 strutturare il PSC ed il
 Fascicolo
-• Stesura di Piani di Sicurezza e Coordinamento, con
-particolare riferimento a rischi legati all’area,
-all’organizzazione del cantiere, alle lavorazioni ed alle
+- Stesura di Piani di Sicurezza e Coordinamento, con
+particolare riferimento a rischi legati all'area,
+all'organizzazione del cantiere, alle lavorazioni ed alle
 loro interferenze;
-• predisposizione di un Fascicolo;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- predisposizione di un Fascicolo;
+- lavori di gruppo: analisi e discussione degli elaborati.
 UD4
 Attività coordinamento (6
 ore)
@@ -16051,18 +16051,18 @@ ore)
 competenze
 metodologiche per la
 verifica
-dell’applicazione, delle
+dell'applicazione, delle
 disposizioni di salute e
 sicurezza nel cantiere
-• Simulare le attività di verifica, coordinamento e
+- Simulare le attività di verifica, coordinamento e
 controllo circa la corretta applicazione delle
 disposizioni di salute e sicurezza da parte delle imprese
 e dei lavoratori autonomi;
-• simulare le azioni circa la sospensione in caso di
+- simulare le azioni circa la sospensione in caso di
 pericolo grave e imminente delle singole lavorazioni e
 le modalità di verifica degli avvenuti adeguamenti
 effettuati dalle imprese interessate;
-• lavori di gruppo: analisi e discussione degli elaborati.
+- lavori di gruppo: analisi e discussione degli elaborati.
 
 
 ## Pagina 313
@@ -16081,13 +16081,13 @@ presente accordo.
 Pag. 40 a 138
 7. CORSO PER LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE
 OPERANO IN AMBIENTI SOSPETTI DI INQUINAMENTO O CONFINATI (dpr n. 177/2011)
-Il presente corso è valido per gli obblighi formativi di cui all’art.2, lett. d), DPR n. 177/2011.
+Il presente corso è valido per gli obblighi formativi di cui all'art.2, lett. d), DPR n. 177/2011.
 Obiettivi
 Il corso di formazione ha i seguenti obiettivi:
 a) illustrare i concetti di pericolo, danno e prevenzione che si riscontrano in una attività
 lavorativa svolta in uno spazio confinato;
 b) illustrare le misure di prevenzione degli infortuni
-c) far acquisire le competenze necessarie per l’utilizzo dei dispositivi, delle attrezzature di
+c) far acquisire le competenze necessarie per l'utilizzo dei dispositivi, delle attrezzature di
 lavoro e delle strumentazioni messi a disposizione per affrontare i rischi;
 d) illustrare le procedure di gestione delle emergenze, evacuazione e primo soccorso.
 Durata minima 12 ore
@@ -16100,27 +16100,27 @@ prevenzione che si
 riscontrano in una attività
 lavorativa svolta in uno
 spazio confinato.
-• La normativa di riferimento
-• Definizioni e identificazione di un ambiente confinato o
+- La normativa di riferimento
+- Definizioni e identificazione di un ambiente confinato o
 sospetto di inquinamento e criticità
-• Analisi degli eventi infortunistici
-• Individuazione dei fattori di rischio
-• I rischi specifici: aria respirabile atmosfere con difetto o
+- Analisi degli eventi infortunistici
+- Individuazione dei fattori di rischio
+- I rischi specifici: aria respirabile atmosfere con difetto o
 eccesso di ossigeno, atmosfere con agenti chimici
 pericolosi per asfissia e/o intossicazione, atmosfere con
 pericolo di esplosione ed incendio, seppellimento, cadute
-dall’alto, cadute di gravi, carenze di comunicazioni ecc.
+dall'alto, cadute di gravi, carenze di comunicazioni ecc.
 - Illustrare le misure di
 prevenzione e protezione
-• Caratteristiche e pericolosità degli agenti chimici
-• Misure e procedure di prevenzione nelle fasi di lavoro in
+- Caratteristiche e pericolosità degli agenti chimici
+- Misure e procedure di prevenzione nelle fasi di lavoro in
 ambienti confinati o sospetti di inquinamento come, a
 titolo esemplificativo ma non esaustivo, di seguito
 indicato:
-✓ procedure d’ingresso e uscita in ambiente confinato
-✓ dimensione, numero dei passi d’uomo, numero di
+✓ procedure d'ingresso e uscita in ambiente confinato
+✓ dimensione, numero dei passi d'uomo, numero di
 accessi, numero dei lavoratori presenti
-✓ monitoraggio dell’atmosfera
+✓ monitoraggio dell'atmosfera
 ✓ sistemi di illuminazione, dispositivi per prevenire lo
 shock elettrico
 ✓ macchine ed attrezzature di lavoro (coclee, agitatori,
@@ -16130,24 +16130,24 @@ il ricambio dell'aria
 ✓ sorveglianza sanitaria
 Parte Pratica (8 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo dei dispositivi e
+l'utilizzo dei dispositivi e
 delle strumentazioni messi
 a disposizione per
 affrontare i rischi presenti
 negli ambienti confinati
 (DPI, respiratori, rilevatori
 di gas...)
-• Le procedure da attuare in caso di emergenza
+- Le procedure da attuare in caso di emergenza
 (incendio/esplosione, anossia, presenza di gas tossici,
 recupero infortunato)
-• Simulazione sull’uso dei dispositivi e della strumentazione
+- Simulazione sull'uso dei dispositivi e della strumentazione
 messa a disposizione:
 ✓ Dispositivi di protezione individuali.
 ✓ Gli Apparecchi per la Protezione delle Vie Respiratorie
 (APVR): utilizzo, tipologia, filtri.
 ✓ Imbracature di sicurezza, tripode, rilevatori di gas,
 misuratori di esplosività
-• Sistemi di segnalazione e comunicazione
+- Sistemi di segnalazione e comunicazione
 
 
 ## Pagina 315
@@ -16165,41 +16165,41 @@ triennale, nel settore dei lavori in ambiente confinato o sospetto di inquinamen
 ## Pagina 316
 
 Pag. 42 a 138
-8. CORSI PER L’ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI ALL’ARTICOLO
+8. CORSI PER L'ABILITAZIONE DEGLI OPERATORI PER LE ATTREZZATURE DI CUI ALL'ARTICOLO
 73, COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, n. 81/2008
 Le attrezzature di lavoro per le quali è richiesta una specifica abilitazione degli operatori (art. 73,
-comma 5 del d.lgs. n. 81/2008) sono individuate e riportate nell’allegato II
-L’abilitazione all’utilizzo delle attrezzature di lavoro si intende acquisita con il superamento delle
+comma 5 del d.lgs. n. 81/2008) sono individuate e riportate nell'allegato II
+L'abilitazione all'utilizzo delle attrezzature di lavoro si intende acquisita con il superamento delle
 verifiche. Ogni operatore nel corso del modulo pratico dovrà utilizzare la tipologia di attrezzatura
 per la quale sarà abilitato.
-L’acquisizione dell’abilitazione non esaurisce gli obblighi di formazione, informazione e
+L'acquisizione dell'abilitazione non esaurisce gli obblighi di formazione, informazione e
 addestramento previsti dal Titolo III del Dlgs 81/08
-8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL’AREA E DISPONIBILITÀ DELLE
+8.1 REQUISITI DI NATURA GENERALE: IDONEITÀ DELL'AREA E DISPONIBILITÀ DELLE
 ATTREZZATURE
-I soggetti formatori di cui alla Parte I, punto 1 del presente accordo devono garantire che l’attività
+I soggetti formatori di cui alla Parte I, punto 1 del presente accordo devono garantire che l'attività
 pratica sia effettuata come di seguito indicato:
-a. un’area opportunamente delimitata con assenza di impianti o strutture che possano
-interferire con l’attività pratica di addestramento e con caratteristiche geotecniche e
+a. un'area opportunamente delimitata con assenza di impianti o strutture che possano
+interferire con l'attività pratica di addestramento e con caratteristiche geotecniche e
 morfologiche (consistenza del terreno, pendenze, avvallamenti, gradini, ecc.) tali da
-consentire, in sicurezza rispetto ad una valutazione globale dei rischi, l’effettuazione di
-tutte le manovre pratiche previste al punto “ Verifica” per ciascuna tipologia di
+consentire, in sicurezza rispetto ad una valutazione globale dei rischi, l'effettuazione di
+tutte le manovre pratiche previste al punto " Verifica" per ciascuna tipologia di
 attrezzatura;
 b. i carichi, gli ostacoli fissi e/o in movimento e gli apprestamenti che dovessero rendersi
-necessari per consentire l’effettuazione di tutte le manovre pratiche previste al punto
-“Verifica” per ciascuna tipologia di attrezzatura;
+necessari per consentire l'effettuazione di tutte le manovre pratiche previste al punto
+"Verifica" per ciascuna tipologia di attrezzatura;
 c. le attrezzature e gli accessori conformi alla tipologia per la quale viene rilasciata la
-categoria di abilitazione ed idonei (possibilità di intervento da parte dell’istruttore)
-all’attività di addestramento o equipaggiati con dispositivi aggiuntivi per l’ effettuazione
+categoria di abilitazione ed idonei (possibilità di intervento da parte dell'istruttore)
+all'attività di addestramento o equipaggiati con dispositivi aggiuntivi per l' effettuazione
 in sicurezza delle attività pratiche di addestramento e verifica;
-d. i dispositivi di protezione individuali necessari per l’effettuazione in sicurezza delle attività
+d. i dispositivi di protezione individuali necessari per l'effettuazione in sicurezza delle attività
 pratiche di addestramento durante la verifica. Essi dovranno essere presenti nelle
-taglie/misure idonee per l’effettivo utilizzo da parte dei partecipanti elle attività pratiche.
+taglie/misure idonee per l'effettivo utilizzo da parte dei partecipanti elle attività pratiche.
 8.2. REQUISITI DEI DOCENTI
 Le docenze con riferimento al modulo teorico tecnico sono effettuate da docenti di cui al punto
-2 della Parte I del presente accordo e con conoscenza tecnica dell’attrezzatura.
+2 della Parte I del presente accordo e con conoscenza tecnica dell'attrezzatura.
 Le docenze con riferimento al modulo pratico sono effettuate da docenti di cui al punto 2 della
 Parte I del presente accordo e con esperienza professionale pratica, almeno triennale, nelle
-tecniche dell’utilizzazione delle attrezzature di che trattasi.
+tecniche dell'utilizzazione delle attrezzature di che trattasi.
 
 
 ## Pagina 317
@@ -16209,7 +16209,7 @@ Pag. 43 a 138
 I programmi dei corsi di formazione e la loro valutazione sono quelli previsti nei punti seguenti.
 8.3.1 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di
 piattaforme di lavoro mobili elevabili (PLE)
-Per l’utilizzo di una PLE è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di una PLE è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Modulo Obiettivi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -16229,15 +16229,15 @@ pantografo/braccio elevabile.
 1.3 Dispositivi di comando e di sicurezza: individuazione dei
 dispositivi di comando e loro funzionamento,
 individuazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi
 e funzionali.
 1.5 DPI specifici da utilizzare con le PLE: caschi, imbracature,
 cordino di trattenuta e relative modalità di utilizzo inclusi
 i punti di aggancio in piattaforma.
 1.6 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo delle PLE
+valutazione dei rischi più ricorrenti nell'utilizzo delle PLE
 (rischi di elettrocuzione, rischi ambientali, di caduta
-dall’alto, ecc.); spostamento e traslazione,
+dall'alto, ecc.); spostamento e traslazione,
 posizionamento e stabilizzazione, azion amenti e
 manovre, rifornimento e parcheggio in modo sicuro a
 fine lavoro.
@@ -16248,7 +16248,7 @@ operano su
 stabilizzatori (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -16269,7 +16269,7 @@ sollevamento e stabilizzatori, ecc.).
 2.5 Pianificazione del percorso: pendenze, accesso, ostacoli
 sul percorso e in quota, condizioni del terreno.
 2.6 Posizionamento della PLE sul luogo di lavoro:
-delimitazione dell’area di lavoro, segnaletica da
+delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, posizionamento
 stabilizzatori e livellamento.
 
@@ -16278,14 +16278,14 @@ stabilizzatori e livellamento.
 
 Pag. 44 a 138
 2.7 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 2.8 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 2.9 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonee, precauzioni contra l’utilizzo non autorizzato.
+idonee, precauzioni contra l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie).
 3. Parte Pratica per PLE
@@ -16294,7 +16294,7 @@ senza stabilizzatori (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -16313,16 +16313,16 @@ PLE.
 sul percorso e in quota, condizioni del terreno.
 3.5 Movimentazione e posizionamento della PLE:
 spostamento della PLE sul luogo di lavoro e delimitazione
-dell’area di lavoro.
+dell'area di lavoro.
 3.6 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 3.7 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 3.8 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonea, precauzioni contro l’utilizzo non autorizzato.
+idonea, precauzioni contro l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie)
 4. Parte Pratica PLE con
@@ -16333,7 +16333,7 @@ presenti PLE con e senza
 stabilizzatori
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -16354,7 +16354,7 @@ sollevamento e stabilizzatori, ecc.).
 4.5 Pianificazione del percorso: pendenze, accesso, ostacoli
 sul percorso e in quota, condizioni del terreno.
 4.6 Movimentazione e posizionamento della PLE:
-delimitazione dell’area di lavoro, segnaletica da
+delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, spostamento della PLE
 
 
@@ -16364,14 +16364,14 @@ Pag. 45 a 138
 sul luogo di lavoro, posizionamento stabilizzatori a
 livellamento.
 4.7 Esercitazioni di pratiche operative: effettuazione di
-esercitazioni a due terzi dell’area di lavoro, osservando le
+esercitazioni a due terzi dell'area di lavoro, osservando le
 procedure operative di sicurezza. Simulazioni di
 movimentazioni della piattaforma in quota.
 4.8 Manovre di emergenza: effettuazione delle manovre di
 emergenza per il recupero a terra della piattaforma
 posizionata in quota.
 4.9 Messa a riposo della PLE a fine lavoro: parcheggio in area
-idonea, precauzioni contro l’utilizzo non autorizzato.
+idonea, precauzioni contro l'utilizzo non autorizzato.
 Modalità di ricarica delle batterie in sicurezza (per PLE
 munite di alimentazione a batterie).
 Verifica
@@ -16381,7 +16381,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove per ciascuno dei moduli 2 e 3 e
+finale, consistente nell'esecuzione di almeno 2 delle prove per ciascuno dei moduli 2 e 3 e
 almeno 3 delle prove per il modulo 4, concernenti i seguenti argomenti:
 ✓ per il modulo 2 Pratico PLE che operano su stabilizzatori:
 a. spostamento e stabilizzazione della PLE sulla postazione di impiego (Controlli pre-
@@ -16390,7 +16390,7 @@ Posizionamento della PLE sul luogo di lavoro - Messa a riposo della PLE a fine
 lavoro);
 b. effettuazione manovra di: salita, discesa, rotazione, accostamento piattaforma
 alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore - Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento
 in caso di guasti).
 ✓ per il modulo 3 Pratico PLE che possono operare senza stabilizzatori:
 a. spostamento della PLE sulla postazione di impiego (Controlli pre -utilizzo -
@@ -16399,7 +16399,7 @@ a riposo della PLE a fine lavoro);
 b. effettuazione manovra di: pianificazione del percorso, movimentazione e
 posizionamento della PLE con operatore a bordo (traslazione), salita, discesa,
 rotazione, accostamento della piattaforma alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore Comportamento
 in caso di guasti).
 ✓ per il modulo 4 Pratico PLE con e senza stabilizzatori:
 a. spostamento e stabilizzazione della PLE sulla postazione di impiego (Controlli pre-
@@ -16414,9 +16414,9 @@ lavoro);
 b. effettuazione manovra di: pianificazione del percorso, movimentazione e
 posizionamento della PLE con operatore a bordo (traslazione), salita, discesa,
 rotazione, accostamento della piattaforma alla posizione di lavoro;
-c. simulazione di manovra in emergenza (Recupero dell’operatore - Comportamento
+c. simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento
 in caso di guasti).
-→ Il mancato superamento della verifica finale comporta l’obbligo di ripetere il modulo pratico.
+→ Il mancato superamento della verifica finale comporta l'obbligo di ripetere il modulo pratico.
 
 
 ## Pagina 321
@@ -16424,7 +16424,7 @@ in caso di guasti).
 Pag. 47 a 138
 8.3.2 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di gru per
 autocarro
-Per l’utilizzo di gru per autocarro è necessario il possesso da parte dell’operatore di almeno una
+Per l'utilizzo di gru per autocarro è necessario il possesso da parte dell'operatore di almeno una
 delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -16442,7 +16442,7 @@ degli accessori installati.
 1.2 Nozioni elementari di fisica per poter valutare la massa di
 un carico e per poter apprezzare le condizioni di equilibrio
 di un corpo, oltre alla valutazione dei necessari attributi
-che consentono il mantenimento dell’insieme gru con
+che consentono il mantenimento dell'insieme gru con
 carico appeso in condizioni di stabilità.
 1.3 Condizioni di stabilità di una gru per autocarro: fattori ed
 elementi che influenzano la stabilità.
@@ -16458,10 +16458,10 @@ dispositivi limitatori, indicatori, di controllo.
 1.10 Principi generali per il trasferimento, il posizionamento e
 la stabilizzazione.
 1.11 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo delle gru
+valutazione dei rischi più ricorrenti nell'utilizzo delle gru
 per autocarro (caduta del carico, perdita di stabilità della
 gru per autocarro, urto di persone con il carico o con la
-gru, rischi connessi con l’ambiente, quali vento, ostacoli,
+gru, rischi connessi con l'ambiente, quali vento, ostacoli,
 linee elettriche, ecc., rischi connessi alla non corretta
 stabilizzazione).
 1.12 Segnaletica gestuale.
@@ -16469,7 +16469,7 @@ stabilizzazione).
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -16484,7 +16484,7 @@ identificazione dei dispositivi di sicurezza e loro funzione.
 2.3 Controlli pre-utilizzo: controlli visivi e funzionali della gru
 per autocarro e dei componenti accessori, dei dispositivi
 di comando, di segnalazione e di sicurezza, previsti dal
-costruttore nel manuale di istruzioni dell’attrezzatura.
+costruttore nel manuale di istruzioni dell'attrezzatura.
 Manovre della gru per autocarro senza carico
 (sollevamento, estensione, rotazione, ecc.) singole e
 combinate.
@@ -16503,14 +16503,14 @@ determinazione del raggio, configurazione della gru per
 autocarro, sistemi di imbracatura, ecc.
 2.6 Posizionamento della gru per autocarro sul luogo di
 lavoro: posizionamento della gru rispetto al baricentro del
-carico, delimitazione dell’area di lavoro, segnaletica da
+carico, delimitazione dell'area di lavoro, segnaletica da
 predisporre su strade pubbliche, messa in opera di
 stabilizzatori, livellamento della gru. Procedure per la
 messa in opera di accessori, bozzelli, stabilizzatori, jib,
 ecc.,
 2.7 Esercitazione di pratiche operative:
 a. Effettuazione di esercitazioni di presa/aggancio del
-carico per il controllo della rotazione, dell’oscillazione,
+carico per il controllo della rotazione, dell'oscillazione,
 degli urti e del posizionamento del carico. Operazioni in
 prossimità di ostacoli fissi o altre gru (interferenza).
 Movimentazione di carichi di uso comune e carichi di
@@ -16529,7 +16529,7 @@ emergenza per il recupero del carico.
 2.10 Operazioni pratiche per provare il corretto
 funzionamento dei dispositivi limitatori, indicatori e di
 posizione.
-2.11 Esercitazioni sull’uso sicuro, gestione di situazioni di
+2.11 Esercitazioni sull'uso sicuro, gestione di situazioni di
 emergenza e compilazione del registro di controllo.
 2.12 Messa a riposo della gru per autocarro: procedure per il
 rimessaggio di accessori, bozzelli, stabilizzatori, jib, ecc.
@@ -16540,7 +16540,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio al modulo pratico.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove del modulo 2 concernenti i seguenti
+consistente nell'esecuzione di almeno 2 delle prove del modulo 2 concernenti i seguenti
 argomenti:
 a. imbracatura e movimentazione di un carico di entità pari al 50% del carico
 massimo nominale con sbraccio pari al 50% dello sbraccio massimo, tra la quota
@@ -16553,8 +16553,8 @@ individuata dalla tabella di carico.
 Pag. 49 a 138
 b. imbracatura e movimentazione ad una quota di 0,5m, di un carico pari al 50% del
 carico nominale, alla distanza massima consentita dal centro colonna/ralla prima
-dell’intervento del dispositivo di controllo del momento massimo.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+dell'intervento del dispositivo di controllo del momento massimo.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -16562,7 +16562,7 @@ pratico.
 
 Pag. 50 a 138
 8.3.3 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di gru a torre
-Per l’utilizzo di gru a torre è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di gru a torre è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico - Tecnico (8
@@ -16571,7 +16571,7 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i rischi connessi
-all’impiego delle
+all'impiego delle
 attrezzature di lavoro
 - Illustrare i componenti e i
 dispositivi di comando e di
@@ -16579,9 +16579,9 @@ sicurezza
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Norme generali di utilizzo della gru a torre: ruolo
-dell’operatore rispetto agli altri soggetti (montatori,
+dell'operatore rispetto agli altri soggetti (montatori,
 manutentori, capo cantiere, ecc.). Limiti di utilizzo
-dell’attrezzatura tenuto conto delle sue caratteristiche e
+dell'attrezzatura tenuto conto delle sue caratteristiche e
 delle sue condizioni di installazione. Manovre consentite
 tenuto conto delle sue condizioni di installazione (zone
 interdette, interferenze, ecc.). Caratteristic he dei carichi
@@ -16589,11 +16589,11 @@ interdette, interferenze, ecc.). Caratteristic he dei carichi
 elementi del carico, imballaggi, ecc.).
 1.2 Tipologie di gru a torre: i vari tipi di gru a torre e
 descrizione delle caratteristiche generali e specifiche.
-1.3 Principali rischi connessi all’impiego di gru a torre: caduta
+1.3 Principali rischi connessi all'impiego di gru a torre: caduta
 del carico, rovesciamento della gru, urti delle persone con
 il carico o con elementi mobili della gru a torre, rischi
-legati all’ambiente (vento, ostacoli, linee elettriche, ecc.),
-rischi legati all’uso delle diverse forme di energia
+legati all'ambiente (vento, ostacoli, linee elettriche, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.).
 1.4 Nozioni elementari di fisica: nozioni di base per la
 valutazione dei carichi movimentati nei cantieri,
@@ -16614,12 +16614,12 @@ ecc.).
 elementi che influenzano la stabilità. Diagrammi di carico
 forniti dal fabbricante. Gli ausili alla conduzione della gru
 (anemometro, indicatori di carico e altri indicatori, ecc.).
-1.9 L’installazione della gru a torre: informazioni generali
+1.9 L'installazione della gru a torre: informazioni generali
 relative alle condizioni di installazione (piani di appoggio,
 ancoraggi, contrappesi, ecc.). Mezzi per impedire
-l’accesso a zone interdette (illuminazione, barriere, ecc.).
-1.10 Controlli da effettuare prima dell’utilizzo: controlli visivi
-(della gru, dell’appoggio, delle vie di traslazione, ove
+l'accesso a zone interdette (illuminazione, barriere, ecc.).
+1.10 Controlli da effettuare prima dell'utilizzo: controlli visivi
+(della gru, dell'appoggio, delle vie di traslazione, ove
 presenti) e funzionali.
 1.11 Modalità di utilizzo in sicurezza della gru a torre:
 Operazioni di messa in servizio (blocco del freno di
@@ -16640,13 +16640,13 @@ spostamento del carico con la precisione richiesta
 (posizionamento e bilanciamento del carico, con la
 minima oscillazione possibile, ecc.). Operazioni vietate.
 Operazioni di fine utilizzo (compresi lo sblocco del freno di
-rotazione e l’eventuale sistemazione di sistemi di
+rotazione e l'eventuale sistemazione di sistemi di
 ancoraggio e di blocco). Uso della gru secondo le
-condizioni d’uso previste dal fabbricante.
+condizioni d'uso previste dal fabbricante.
 1.12 Manutenzione della gru a torre: controlli visivi della gru e
 delle proprie apparecchiature per rilevare le anomalie e
 attuare i necessari interventi (direttamente o attraverso il
-personale di manutenzione e/o l’assistenza tecnica).
+personale di manutenzione e/o l'assistenza tecnica).
 Semplici operazioni di m anutenzione (lubrificazione,
 pulizia di alcuni organi o componenti, ecc.).
 2. Parte Pratica Gru a
@@ -16654,7 +16654,7 @@ rotazione in basso (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -16673,7 +16673,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico e
 di momento, dispositivi anti -interferenza, ecc.).
 Condizioni di installazione (piani di appoggio, ancoraggi,
-contrappesi, barriere contro l’accesso a zone interdette).
+contrappesi, barriere contro l'accesso a zone interdette).
 2.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei
@@ -16685,11 +16685,11 @@ con la precisione richiesta (posizionamento e
 bilanciamento del carico, con la minima oscillazione
 possibile, ecc.). Uso dei comandi posti su pulsantiera
 pensile. Uso dei comandi posti su unità radio-mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi. Spostamento del carico attraverso ostacoli fissi, e
 aperture, avvicinamento e posizionamento al suolo e su
 piani rialzati. Arresto della gru sul luogo di lavoro (messa
-fuori servizio in caso d’interruzione dell’esercizio
+fuori servizio in caso d'interruzione dell'esercizio
 normale). Controlli giornalieri della gru a torre,
 prescrizioni operative per la messa fuori servizio e misure
 precauzionali in caso di avv erse condizioni
@@ -16704,13 +16704,13 @@ Posizionamento del carrello e del gancio di sollevamento.
 
 Pag. 52 a 138
 Sblocco del freno di rotazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 3. Parte Pratica Gru a
 rotazione in alto (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -16730,7 +16730,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico e di
 momento, dispositivi anti -interferenza, ecc.). Condizioni
 di installazione (piani di appoggio, ancoraggi, contrappesi,
-barriere contro l’accesso a zone interdette).
+barriere contro l'accesso a zone interdette).
 3.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei freni
@@ -16744,13 +16744,13 @@ bilanciamento del carico, con la minima oscillazione
 possibile, ecc.).
 Uso dei comandi posti su pulsantiera pensile.
 Uso dei comandi posti su unità radio -mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi.
 Spostamento del carico attraverso ostacoli fissi e
 aperture, avvicinamento e posizione al suolo e su piani
 rialzati.
 Arresto della gru sul luogo di lavoro (messa fuori servizio
-in caso d’interruzione dell’esercizio normale). Controlli
+in caso d'interruzione dell'esercizio normale). Controlli
 giornalieri della gru, prescrizioni operative per la messa
 fuori servizio e misure precauzionali in caso di avverse
 condizioni meteorologiche.
@@ -16759,7 +16759,7 @@ gru, dei dispositivi di comando e di sicurezza previsti dal
 costruttore e dal manuale di istruzioni della gru.
 Posizionamento del carrello e del gancio di sollevamento.
 Sblocco del freno di r otazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 4. Parte Pratica Gru a
 rotazione in basso e in
 alto (6 ore)
@@ -16770,7 +16770,7 @@ sia a rotazione in basso
 sia a rotazione in alto
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza delle
+l'utilizzo in sicurezza delle
 attrezzature di lavoro e le
 relative procedure
 operative
@@ -16795,7 +16795,7 @@ conduzione e dei dispositi vi di sicurezza (anemometro,
 indicatori di carico e altri indicatori, limitatori di carico, di
 momento, dispositivi anti -interferenza, ecc.). Condizioni
 di installazione (piani di appoggio, ancoraggi, contrappesi,
-barriere contro l’accesso a zone interdette).
+barriere contro l'accesso a zone interdette).
 4.4 Utilizzo della gru a torre: operazioni di messa in servizio
 (blocco del freno di rotazione, sistemi di ancoraggio e di
 blocco, ecc.). Verifica del corretto funzionamento dei freni
@@ -16808,12 +16808,12 @@ bilanciamento del carico, con l a minima oscillazione
 possibile, ecc.). Uso dei comandi posti su pulsantiera
 pensile.
 Uso dei comandi posti su unità radio -mobile. Uso
-accessori d’imbracatura, sollevamento e sgancio dei
+accessori d'imbracatura, sollevamento e sgancio dei
 carichi.
 Spostamento del carico attraverso ostacoli fissi e
 aperture, avvicinamento e posizionamento al suolo e su
 piani rialzati. Arresto della gru sul luogo di lavoro (messa
-fuori servizio in caso d’interruzione dell’esercizio
+fuori servizio in caso d'interruzione dell'esercizio
 normale).
 Controlli giornalieri della gru a torre, prescrizioni
 operative per la messa fuori servizio e misure
@@ -16824,7 +16824,7 @@ della gru, dei dispositivi di comando e di sicurezza previsti
 dal costruttore e dal manuale di istruzioni della gru.
 Posizionamento del carrello e del gancio di sollevamento.
 Sblocco del freno di rotazione. Sistemi di ancoraggio e di
-blocco. Sezionamento dell’alimentazione elettrica.
+blocco. Sezionamento dell'alimentazione elettrica.
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -16832,11 +16832,11 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di:
+finale, consistente nell'esecuzione di:
 ✓ almeno 2 delle prove per il modulo 2 di cui ai punti 2.3, 2.4 e 2.5;
 ✓ almeno 2 delle prove per il modulo 3 di cui ai punti 3.3, 3.4 e 3.5;
 ✓ almeno 3 delle prove per il modulo 4 di cui ai punti 4.3, 4.4 e 4.5.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -16845,8 +16845,8 @@ pratico.
 Pag. 54 a 138
 8.3.4 Corso di formazione teorico -pratici per lavoratori addetti alla conduzione di carrelli
 elevatori semoventi con conducente a bordo
-Per l’utilizzo di carrelli elevatori semoventi con conducente a bordo è necessario il possesso da
-parte dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di carrelli elevatori semoventi con conducente a bordo è necessario il possesso da
+parte dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (8
 ore)
@@ -16859,19 +16859,19 @@ sicurezza
 1.1 Tipologie e caratteristiche dei vari tipi di veicoli per il
 trasporto interne: dai transpallet manuali ai carrelli
 elevatori frontali a contrappeso.
-1.2 Principali rischi connessi all’impiego di carrelli semoventi:
+1.2 Principali rischi connessi all'impiego di carrelli semoventi:
 caduta del carico, rovesciamento, ribaltamento, urti delle
 persone con il carico o con elementi mobili del carrello,
-rischi legati all’ambiente (ostacoli, linee elettriche, ecc.),
-rischi legati all’uso delle diverse forme di energia
+rischi legati all'ambiente (ostacoli, linee elettriche, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.).
 1.3 Nozioni elementari di fisica: nozioni di base per la
 valutazione dei carichi movimentati, condizioni di
 equilibrio di un corpo. Stabilità (concetto del baricentro
 del carico e della leva di primo grado). Linee di
 ribaltamento. Stabilità statica e dinamica e influenza
-dovuta alla mobilità del carrello e dell’ambiente di lavoro
-(forze centrifughe e d’inerzia). Portata del carrello
+dovuta alla mobilità del carrello e dell'ambiente di lavoro
+(forze centrifughe e d'inerzia). Portata del carrello
 elevatore.
 1.4 Tecnologia dei carrelli semoventi: terminologia,
 caratteristiche generali e principali componenti.
@@ -16883,7 +16883,7 @@ sollevamento (simplex - duplex - triplex - quadruplex ecc.,
 ad alzata libera e non). Posto di guida con descrizione del
 sedile, degli organi di comando (leve, pedali, piantone
 sterzo e volante, freno di stazionamento, interruttore
-generale a chiave, interruttore d’emergenza), dei
+generale a chiave, interruttore d'emergenza), dei
 dispositivi di segnalazione (clacson, beep di retromarcia,
 segnalatori luminosi, fari di lavoro, ecc.) e controllo
 (strumenti e spie di funzionamento). Freni (freno di
@@ -16892,7 +16892,7 @@ gommature: differenze per i vari tipi di utilizzo, ruote
 sterzanti e motrici. Fonti di energia (batterie di
 accumulatori o motori endotermici). Contrappeso.
 1.6 Sistemi di ricarica batterie: raddrizzatori e sicurezze circa
-le modalità di utilizzo anche in relazione all’ambiente.
+le modalità di utilizzo anche in relazione all'ambiente.
 1.7 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
@@ -16915,7 +16915,7 @@ utilizzo in sicurezza
 periodiche (stato generale e prove, montanti,
 attrezzature, posto di guida, freni, ruote e sterzo, batteria
 o motore, dispositivi di sicurezza). Illustrazione
-dell’importanza di un corretto utilizzo dei man uali di uso
+dell'importanza di un corretto utilizzo dei man uali di uso
 e manutenzione a corredo del carrello.
 1.10 Modalità di utilizzo in sicurezza dei carrelli semoventi:
 procedure di movimentazione. Segnaletica di sicurezza
@@ -16923,14 +16923,14 @@ nei luoghi di lavoro. Procedure di sicurezza durante la
 movimentazione e lo stazionamento del mezzo. Viabilità:
 ostacoli, percorsi pedonali, inc roci, strettoie, portoni,
 varchi, pendenze, ecc.
-1.11 Lavori in condizioni particolari ovvero all’esterno, su
+1.11 Lavori in condizioni particolari ovvero all'esterno, su
 terreni scivolosi e su pendenze e con scarsa visibilità.
 Nozioni di guida. Norme sulla circolazione,
 movimentazione dei carichi, stoccaggio, ecc.
 1.12 Nozioni sui possibili rischi per la salute e la sicurezza
 collegati alla guida del carrello ed in particolare ai rischi
 riferibili:
-a. all’ambiente di lavoro;
+a. all'ambiente di lavoro;
 b. al rapporto uomo/macchina;
 c. allo stato di salute del guidatore.
 1.13 Nozioni sulle modalità tecniche, organizzative e
@@ -16947,8 +16947,8 @@ industriali semoventi
 (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -16965,8 +16965,8 @@ semoventi a braccio
 telescopico (4 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -16985,8 +16985,8 @@ telescopici rotativi (4
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -17022,8 +17022,8 @@ atori semoventi
 telescopici rotativi.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 a. Illustrazione, seguendo le istruzioni di uso del carrello, dei
@@ -17047,8 +17047,8 @@ sollevamento di carichi
 sospesi e di persone ( 6
 ore)
 - Far acquisire le competenze
-necessarie per l’utilizzo in
-sicurezza dell’attrezzatura
+necessarie per l'utilizzo in
+sicurezza dell'attrezzatura
 di lavoro e le relative
 procedure operative in caso
 di adozione di dispositivi che
@@ -17065,7 +17065,7 @@ collegamento al carrello, di eventual i dispositivi di
 sicurezza aggiuntivi connessi alle nuove funzioni.
 6.2 Manutenzione e verifiche giornaliere e periodiche di legge
 e secondo quanto indicato nelle istruzioni di uso del
-carrello o delle istruzioni dell’attrezzatura intercambiabile
+carrello o delle istruzioni dell'attrezzatura intercambiabile
 6.3 Guida del carrello con funzioni di sollevamento di carichi
 sospesi su percorso di prova per evidenziare le corrette
 manovre a vuoto e a carico (corretta posizione sul carrello,
@@ -17077,10 +17077,10 @@ percorso di prova per evidenziare le corrette manovre
 piattaforma in quota, manovre di emergenza per il
 recupero a terra della piattaforma, tr asporto nelle varie
 situazioni, sosta del carrello, ecc.).
-L’operatore che effettua il modulo di cui al punto 6 (carrelli con funzioni aggiuntive di
+L'operatore che effettua il modulo di cui al punto 6 (carrelli con funzioni aggiuntive di
 sollevamento carichi sospesi e sollevamento persone) non deve effettuare la formazione prevista
 per le piattaforme mobili elevabili e per le gru mobili e per la conduzione del carrello con
-applicato l’accessorio destinato al sollevamento di carichi sospesi e/o persone.
+applicato l'accessorio destinato al sollevamento di carichi sospesi e/o persone.
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -17088,7 +17088,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove:
+finale, consistente nell'esecuzione di almeno 2 delle prove:
 
 
 ## Pagina 331
@@ -17099,7 +17099,7 @@ Pag. 57 a 138
 ✓ per il modulo 4 di cui ai punti 4.2 e 4.3;
 ✓ per il modulo 5 di cui ai punti 5.2 e 5.3.
 ✓ per il modulo 6 di cui ai punti 6.2, 6.3 e 6.4
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -17107,7 +17107,7 @@ pratico.
 
 Pag. 58 a 138
 8.3.5 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di gru mobili
-Per l’utilizzo di gru mobili è necessario il possesso da parte dell’operatore di almeno una delle
+Per l'utilizzo di gru mobili è necessario il possesso da parte dell'operatore di almeno una delle
 seguenti abilitazioni.
 Gru mobili autocarrate e semoventi su ruote con braccio telescopico o tralicciato ed eventuale
 falcone fisso.
@@ -17118,8 +17118,8 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i rischi connessi
-con l’utilizzo
-dell’attrezzatura di lavoro
+con l'utilizzo
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Terminologia, caratteristiche delle diverse tipologie di gru
@@ -17127,13 +17127,13 @@ mobili, loro movimenti e loro equipaggiamenti di
 sollevamento.
 1.2 Principali rischi e loro cause:
 a. Caduta o perdita del carico;
-b. Perdita di stabilità dell’apparecchio;
+b. Perdita di stabilità dell'apparecchio;
 c. Investimento di persone da parte del carico o
-dell’apparecchio;
-d. Rischi connessi con l’ambiente (caratteristiche del
+dell'apparecchio;
+d. Rischi connessi con l'ambiente (caratteristiche del
 terreno, presenza di vento, ostacoli, linee elettriche,
 ecc.);
-e. Rischi connessi con l’energia di alimentazione utilizzata
+e. Rischi connessi con l'energia di alimentazione utilizzata
 (elettrica, idraulica, pneumatica);
 f. Rischi particolari connessi con utilizzazioni speciali
 (lavori marittimi o fluviali, lavori ferroviari, ecc.);
@@ -17156,8 +17156,8 @@ ed il ripiegamento della gru.
 1.11 Segnaletica gestuale.
 2. Parte Pratica (7 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi della gru per il suo
@@ -17170,7 +17170,7 @@ comando, delle funi e dei componenti.
 spostamento.
 2.4 Procedure per la messa in opera e il rimessaggio di
 accessori, bozzelli, stabilizzatori, contrappesi, jib, ecc.
-2.5 Esercitazioni di pianificazione dell’operazione di
+2.5 Esercitazioni di pianificazione dell'operazione di
 sollevamento tenendo conto delle condizioni del sito di
 
 
@@ -17191,7 +17191,7 @@ elevazione appropriate;
 estensione, rotazione, ecc.) singole e combinate e
 spostamento con la gru nelle configurazioni consentite.
 2.9 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del
+rotazione, dell'oscillazione, degli urti e del
 posizionamento del carico.
 2.10 Traslazione con carico sospeso con gru mobili su
 pneumatici.
@@ -17211,11 +17211,11 @@ speciali.
 posizionamento dei carichi in posizioni visibili e non
 visibili.
 2.18 Prove di comunicazione con segnali gestuali e via radio.
-2.19 Esercitazioni sull’uso sicuro, prove, manutenzione e
+2.19 Esercitazioni sull'uso sicuro, prove, manutenzione e
 situazioni di emergenza (procedure di avvio e arresto, fuga
 sicura, ispezioni regolari e loro registrazioni, tenuta del
 registro di controllo, controlli giornalieri richiesti dal
-manuale d’uso, controll i pre -operativi quali: ispezioni
+manuale d'uso, controll i pre -operativi quali: ispezioni
 visive, lubrificazioni, controllo livelli, prove degli
 indicatori, allarmi, dispositivi di avvertenza,
 strumentazione).
@@ -17226,8 +17226,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine d el modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -17241,7 +17241,7 @@ Modulo Aggiuntivo Obiettivi formativi Contenuti del Modulo
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Principali caratteristiche e componenti delle gru mobili
@@ -17262,8 +17262,8 @@ ed il ripiegamento della gru con falcone telescopico o
 brandeggiabile.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi della gru con falcone
@@ -17288,7 +17288,7 @@ brandeggiabile senza carico (sollevamento, estensione,
 rotazione, ecc.) singole e combinate e spostamento con la
 gru nelle configurazioni consentite.
 2.8 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del
+rotazione, dell'oscillazione, degli urti e del
 posizionamento del carico.
 2.9 Traslazione con carico sospeso con gru con falcone
 telescopico o brandeggiabile su pneumatici.
@@ -17312,8 +17312,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -17322,9 +17322,9 @@ pratico.
 Pag. 62 a 138
 8.3.6 Corso di formazione teorico -pratico per lavoratori addetti alla conduzione di trattori
 agricoli o forestali
-Per l’utilizzo di trattori agricoli o forestali è necessario il possesso da parte dell’operatore di
+Per l'utilizzo di trattori agricoli o forestali è necessario il possesso da parte dell'operatore di
 almeno una delle seguenti abilitazioni.
-Il possesso dell’abilitazione di cui al presente allegato esonera nell’ambito dei lavori agricoli e
+Il possesso dell'abilitazione di cui al presente allegato esonera nell'ambito dei lavori agricoli e
 forestali, in caso di montaggio di attrezzi sui trattori agricoli e forestali per elevare o sollevare
 carichi, scavare, livellare, livellare asportare super fici, aprire piste o sgombraneve, dal possesso
 di altre abilitazioni previste dal presente accordo.
@@ -17333,7 +17333,7 @@ Modulo Obiettivi formativi Contenuti del Modulo
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di trattori: i vari tipi di trattori a ruote e a cingoli
@@ -17346,14 +17346,14 @@ impianto idraulico, impianto elettrico.
 1.3 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali.
 1.5 DPI specifici da utilizzare con i trattori: dispositivi di
-protezione dell’udito, dispositivi di protezione delle vie
+protezione dell'udito, dispositivi di protezione delle vie
 respiratorie, indumenti di protezione contro il contatto da
 prodotti antiparassitari, ecc.
 1.6 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi più ricorrenti nell’utilizzo dei trattori
+valutazione dei rischi più ricorrenti nell'utilizzo dei trattori
 (rischio di capovolgimento e stabilità statica e dinamica,
 contatti non intenzionali con organi in movimento e con
 superfici calde, rischi dovuti alla mobilità, ecc.).
@@ -17369,8 +17369,8 @@ Modulo Obiettivi formativi Contenuti del Modulo
 a ruote (5 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti principali: struttura
@@ -17416,7 +17416,7 @@ d. guida del trattore in condizioni di carico anteriore
 caratteristiche tecniche compatibili con il trattore);
 e. guida del trattore in condizioni di carico posteriori.
 2.6 Messa a riposo del trattore: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato.
 
 
@@ -17428,8 +17428,8 @@ Modulo Obiettivi formativi Contenuti del Modulo
 a cingoli (5 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali: struttura
@@ -17466,7 +17466,7 @@ c. guida del trattore in condizioni di carico laterale (es.
 lavorazione con decespugliatore a braccio articolato);
 d. guida del trattore in condizioni di carico posteriore.
 3.6 Messa a riposo del trattore: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
@@ -17475,10 +17475,10 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
-finale, consistente nell’esecuzione di almeno 2 delle prove:
+finale, consistente nell'esecuzione di almeno 2 delle prove:
 ✓ per il modulo 2 di cui ai punti 2.5.2;
 ✓ per il modulo 3 di cui ai punti 3.5.2.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -17487,14 +17487,14 @@ pratico.
 Pag. 65 a 138
 8.3.7 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di escavatori,
 pale caricatrici frontali, terne e autoribaltabili a cingoli
-Per l’utilizzo di escavatori, pale caricatrici frontali e terne è necessario il possesso da parte
-dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di escavatori, pale caricatrici frontali e terne è necessario il possesso da parte
+dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di attrezzature: I vari tipi di macchine
@@ -17509,9 +17509,9 @@ attrezzature oggetto del corso).
 1.3 Dispositivi di comando e di sicurezza: identificazione dei
 dispositivi di comando e loro funzionamento,
 identificazione dei dispositivi di sicurezza e loro funzione.
-Visibilità dell’attrezzatura e identificazione delle zone
+Visibilità dell'attrezzatura e identificazione delle zone
 cieche, sistemi di accesso.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali ad inizio ciclo di lavoro.
 1.5 Modalità di utilizzo in sicurezza e rischi: analisi e
 valutazione dei rischi più ricorrenti nel ciclo base delle
@@ -17520,9 +17520,9 @@ e dinamica, contatti non intenzionali con organi in
 movimento e con superfici calde, rischi dovuti alla
 mobilità, ecc.). Avviamento, spostamento, azionamenti,
 manovre, operazioni con le principali attrezzature di
-lavoro. Precauzioni da adottare sull’organizzazione
-dell’area di scavo o lavoro.
-1.6 Modalità di utilizzo dell’escavatore nella configurazione di
+lavoro. Precauzioni da adottare sull'organizzazione
+dell'area di scavo o lavoro.
+1.6 Modalità di utilizzo dell'escavatore nella configurazione di
 apparecchio di sollevamento.
 1.7 Protezione nei confronti degli agenti fisici: rumore,
 vibrazioni al corpo intero ed al sistema mano-braccio.
@@ -17531,8 +17531,8 @@ escavatori idraulici (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali: struttura
@@ -17552,7 +17552,7 @@ movimentazione carichi, manovra di agganci rapidi per
 attrezzi.
 2.5 Esercitazioni di pratiche operative: tecniche di manovra e
 gestione delle situazioni di pericolo.
-2.5.1 Guida dell’escavatore ruotato su strada. Le
+2.5.1 Guida dell'escavatore ruotato su strada. Le
 esercitazioni devono prevedere:
 
 
@@ -17562,7 +17562,7 @@ Pag. 66 a 138
 a. predisposizione del mezzo e posizionamento organi
 di lavoro;
 b. guida con attrezzature.
-2.5.2 Uso dell’escavatore in campo. Le esercitazioni
+2.5.2 Uso dell'escavatore in campo. Le esercitazioni
 devono prevedere
 a. esecuzione di manovre di scavo e riempimento;
 b. accoppiamento attrezzature in piano e no;
@@ -17571,17 +17571,17 @@ d. operazioni di movimentazione carichi di precisione;
 e. aggancio di attrezzature speciali e loro impiego;
 f. aggancio di attrezzature per il sollevamento
 materiali a mezzo di ganci, polipi o pinze.
-2.6 Messa a riposo e trasporto dell’escavatore: parcheggio e
+2.6 Messa a riposo e trasporto dell'escavatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato. Salita sul carrellone di trasporto.
+l'utilizzo non autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento.
 3. Parte Pratica per
 escavatori a fune (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali: struttura
@@ -17600,29 +17600,29 @@ pendenza a vuoto ed a carico nominale. Operazioni di
 movimentazione carichi.
 3.5 Esercitazioni di pratiche operative: tecniche di manovra e
 gestione delle situazioni di pericolo.
-3.5.1 Guida dell’escavatore a ruote su strada. Le
+3.5.1 Guida dell'escavatore a ruote su strada. Le
 esercitazioni devono prevedere:
 a. predisposizione del mezzo e posizionamento organi
 di lavoro;
 b. guide con attrezzature.
-3.5.2 Uso dell’escavatore in campo. Le esercitazioni
+3.5.2 Uso dell'escavatore in campo. Le esercitazioni
 devono prevedere:
 a. manovre di scavo e riempimento;
 b. accoppiamento attrezzature;
 c. operazioni di movimentazione carichi di precisione;
 d. aggancio di attrezzature speciali (benna mordente,
 magnete, ecc.) e loro impiego.
-3.6 Messa a riposo e trasporto dell’escavatore: parcheggio e
+3.6 Messa a riposo e trasporto dell'escavatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato. Salita sul carrellone di trasporto.
+l'utilizzo non autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento.
 4. Parte Pratica
 caricatori frontali (6
 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Individuazione dei componenti strutturali: struttura
@@ -17658,13 +17658,13 @@ b. movimentazione carichi pesanti;
 c. use con forche o pinta.
 4.6 Messa a riposo e trasporto del caricatore: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contro
-l’utilizzo non autorizzato
+l'utilizzo non autorizzato
 5. Parte Pratica terne
 (6 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 5.1 Individuazione dei componenti strutturali: struttura
@@ -17702,7 +17702,7 @@ g. aggancio di attrezzature per il sollevamento materiali
 a mezzo di ganci, polipi o pinze.
 5.6 Messa a riposo e trasporto della terna: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni
-contro l’utilizzo non autorizzato
+contro l'utilizzo non autorizzato
 
 
 ## Pagina 342
@@ -17713,8 +17713,8 @@ autoribaltabili a cingoli
 (6 ore)
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 6.1 Individuazione dei componenti strutturali: struttura
@@ -17726,7 +17726,7 @@ identificazione dei dispositivi di comando e loro
 funzionamento, identificazione dei dispositivi di sicurezza
 e loro funzione.
 6.3 Controlli pre -utilizzo: controlli visivi e funzionali
-dell’autoribaltabile, dei dispositivi di comando e di
+dell'autoribaltabile, dei dispositivi di comando e di
 sicurezza.
 6.4 Pianificazione delle operazioni di caricamento,
 scaricamento e spargimento materiali: pendenze,
@@ -17739,13 +17739,13 @@ prevedere:
 a) predisposizione del mezzo e posizionamento organi di
 lavoro;
 b) guida a pieno carico
-6.5.2 Uso dell’autoribaltabile in campo. Le esercitazioni
+6.5.2 Uso dell'autoribaltabile in campo. Le esercitazioni
 devono prevedere:
 a) manovre di scaricamento;
 b) manovre di spargimento.
-6.6 Messa a riposo dell’autoribaltabile: parcheggio e
+6.6 Messa a riposo dell'autoribaltabile: parcheggio e
 rimessaggio (ricovero) in area idonea, precauzioni contra
-l’utilizzo non autorizzato
+l'utilizzo non autorizzato
 7. Parte Pratica per
 escavatori idraulici,
 caricatori frontali e
@@ -17757,8 +17757,8 @@ idraulici, caricatori
 frontali e terne.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 7.1 Individuazione dei componenti strutturali: struttura
@@ -17806,7 +17806,7 @@ h) aggancio di attrezzature per il sollevamento materiali a
 mezzo di ganci, polipi o pinze.
 7.6 Messa a riposo e trasporto degli escavatori idraulici, dei
 caricatori frontali e delle terne: parcheggio e rimessaggio
-(ricovero) in area idonea, precauzioni contro l’utilizzo non
+(ricovero) in area idonea, precauzioni contro l'utilizzo non
 autorizzato. Salita sul carrellone di trasporto.
 Individuazione dei punti di aggancio per il sollevamento
 Verifica
@@ -17817,15 +17817,15 @@ prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine di ognuno dei moduli pratici dovrà essere effettuata una prova pratica di verifica
 finale, consistente
-• nell’esecuzione di almeno 2 delle prove:
+- nell'esecuzione di almeno 2 delle prove:
 ✓ per il modulo 2 di cui ai punti 2.5.2;
 ✓ per il modulo 3 di cui ai punti 3.5.2;
 ✓ per il modulo 4 di cui ai punti 4.5.2;
 ✓ per il modulo 5 di cui ai punti 5.5.2;
 ✓ per il modulo 6 di cui ai punti 6.5.2.
-• nell’esecuzione di almeno 3 delle prove:
+- nell'esecuzione di almeno 3 delle prove:
 ✓ per il modulo 7 di cui ai punti 7.5.2.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -17834,14 +17834,14 @@ pratico.
 Pag. 70 a 138
 8.3.8 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di pompe per
 calcestruzzo
-Per l’utilizzo di pompe per calcestruzzo è necessario il possesso da parte dell’operatore di almeno
+Per l'utilizzo di pompe per calcestruzzo è necessario il possesso da parte dell'operatore di almeno
 una delle seguenti abilitazioni.
 Modulo Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (7
 ore)
 - Illustrare le categorie e le
 caratteristiche
-dell’attrezzatura di lavoro
+dell'attrezzatura di lavoro
 - Illustrare le modalità di
 utilizzo in sicurezza
 1.1 Categorie di pompe: i vari tipi di pompe e descrizione delle
@@ -17851,11 +17851,11 @@ livellamento, telaio.
 1.3 Dispositivi di comando e di sicurezza: individuazione dei
 dispositivi di comando e loro funzionamento,
 individuazione dei dispositivi di sicurezza e loro funzione.
-1.4 Controlli da effettuare prima dell’utilizzo: controlli visivi e
+1.4 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali, dei dispositivi di comando, di segnalazione e di
 sicurezza previsti dal costruttore nel manuale di istruzioni.
 1.5 Modalità di utilizzo in sicurezza e rischi: analisi e
-valutazione dei rischi ricorrenti nell’utilizzo delle pompe
+valutazione dei rischi ricorrenti nell'utilizzo delle pompe
 (rischi di elettrocuzione, rischi ambientali, rischi dovuti ad
 urti e cadute a livello, rischio di schiacciamento, ecc.).
 1.6 Spostamento e traslazione, posizionamento e
@@ -17865,7 +17865,7 @@ modo sicuro a fine lavoro.
 accesso al cantiere: caratteristiche tecniche del mezzo;
 controlli preliminari alla partenza; modalità di salita sul
 mezzo; norme di comportamento sulla viabilità ordinaria;
-norme di comportamento nell’accesso e transito in
+norme di comportamento nell'accesso e transito in
 sicurezza in cantiere; DPI da utilizzare.
 1.8 Norme di comportamento per le operazioni preliminari
 allo scarico: controlli su tubazioni e giunti; piazzamento e
@@ -17886,8 +17886,8 @@ tubazioni di mandata, del sistema di pompaggio e della
 tramoggia
 2. Parte Pratica (7 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali: sistemi di
@@ -17913,10 +17913,10 @@ sul percorso e in quota, condizioni del terreno.
 2.6 Norme di comportamento sulla viabilità ordinaria.
 2.7 Controllo idoneità sito di scarico calcestruzzo:
 costatazione di presenza di terreno cedevole,
-dell’idoneità della distanza da eventuali scavi, idoneità
+dell'idoneità della distanza da eventuali scavi, idoneità
 pendenza terreno.
 2.8 Posizionamento e stabilizzazione del mezzo: delimitazione
-dell’area di lavoro, segnaletica da predisporre su strade
+dell'area di lavoro, segnaletica da predisporre su strade
 pubbliche, piazzamento mediante stabilizzatori laterali e
 bolla di livello in modalità standard e con appoggio
 supplementare per terreno di modesta portanza.
@@ -17937,7 +17937,7 @@ radiocomando per raggiungere il sito di scarico
 presenza di linee elettriche, in prossimità di vie di traffico:
 precauzioni da adottare.
 2.16 Inizio della pompata: simulazione metodologia di sblocco
-dell’intasamento della pompa in fase di partenza.
+dell'intasamento della pompa in fase di partenza.
 2.17 Pompaggio del calcestruzzo: precauzioni da adottare.
 2.18 Chiusura braccio: precauzioni da adottare.
 2.19 Pulizia ordinaria del mezzo al termine dello scarico:
@@ -17947,7 +17947,7 @@ riassetto finale.
 tubazioni di mandata, del sistema di pompaggio e della
 tramoggia.
 2.21 Messa a riposo della pompa a fine lavoro: parcheggio in
-area idonea, precauzioni contro l’utilizzo non autorizzato
+area idonea, precauzioni contro l'utilizzo non autorizzato
 Verifica
 → Al termine del modulo teorico -tecnico dovrà essere effettuata una verifica intermedia
 consistente in un questionario a risposta multipla.
@@ -17955,7 +17955,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove di cui alla parte pratica concernente i
+consistente nell'esecuzione di almeno 2 delle prove di cui alla parte pratica concernente i
 seguenti argomenti:
 
 
@@ -17963,13 +17963,13 @@ seguenti argomenti:
 
 Pag. 72 a 138
 ✓ spostamento e stabilizzazione della pompa sulla postazione di impiego (Controlli
-pre-utilizzo – Controlli prima del trasferimento su strada - Pianificazione del percorso
+pre-utilizzo - Controlli prima del trasferimento su strada - Pianificazione del percorso
 - Posizionamento e stabilizzazione del mezzo - Controllo idoneità sito di scarico
 calcestruzzo - Messa a riposo della pompa a fine lavoro);
 ✓ effettuazione manovra di: salita, discesa, rotazione, accostamento pompa alla
 posizione di lavoro;
-✓ simulazione di sblocco dell’intasamento della pompa in fase di partenza.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+✓ simulazione di sblocco dell'intasamento della pompa in fase di partenza.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -17978,7 +17978,7 @@ pratico.
 Pag. 73 a 138
 8.3.9 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di macchina
 agricola raccoglifrutta (comunemente detta carro raccoglifrutta CRF)
-Per l’utilizzo di carri raccogli frutta (CRF) è necessario il possesso da parte dell’operatore di
+Per l'utilizzo di carri raccogli frutta (CRF) è necessario il possesso da parte dell'operatore di
 almeno una delle seguenti abilitazioni.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
@@ -17995,8 +17995,8 @@ valutazione dei carichi movimentati, condizioni di
 equilibrio di un corpo. Stabilità (concetto del baricentro
 del carico e della leva di primo grado). Linee di
 ribaltamento. Stabilità statica e dinamica e influenza
-dovuta all a mobilit à del CRF e dell’ambiente di lavoro
-(forze centrifughe e d’inerzia). Portata del CRF.
+dovuta all a mobilit à del CRF e dell'ambiente di lavoro
+(forze centrifughe e d'inerzia). Portata del CRF.
 1.3 Componenti strutturali: sistemi di stabilizzazione,
 livellamento, telaio, struttura a pantografo/braccio
 elevabile, piattaforma di lavoro e relative mensole,
@@ -18016,7 +18016,7 @@ ecc.).
 periodiche (stato generale e prove, montanti,
 attrezzature, posto di guida, freni, ruote e sterzo, batteria
 o motore, dispositivi di sicurezza). Illustrazione
-dell’importanza di un corretto utilizzo dei man uali di uso
+dell'importanza di un corretto utilizzo dei man uali di uso
 e manutenzione a corredo del carrello.
 1.7 Controlli da effettuare prima dell'utilizzo: controlli visivi e
 funzionali.
@@ -18030,7 +18030,7 @@ parcheggio in modo sicuro a fine lavoro.
 movimentazione. Procedure di sicurezza durante la
 movimentazione e lo stazionamento del mezzo. Viabilità:
 ostacoli, incroci, strettoie, portoni, varchi, pendenze, ecc.
-Lavori in condizioni particolari ovvero all’esterno, su
+Lavori in condizioni particolari ovvero all'esterno, su
 terreni scivolosi e su pendenze e con scarsa visibilità.
 Nozioni di guida. Norme sulla circolazione,
 movimentazione dei carichi, stoccaggio, ecc. Nozioni sui
@@ -18041,7 +18041,7 @@ movimentazione dei carichi, stoccaggio, ecc. Nozioni sui
 Pag. 74 a 138
 possibili rischi per la salute e la sicurezza collegati alla
 guida del CRF ed in particolare ai rischi riferibili:
-a) all’ambiente di lavoro;
+a) all'ambiente di lavoro;
 b) al rapporto uomo/macchina;
 c) allo stato di salute del guidatore.
 Nozioni sulle modalità tecniche, organizzative e
@@ -18051,8 +18051,8 @@ i rischi.
 emergenza.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali del CRF: sistemi
@@ -18093,7 +18093,7 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 2 delle prove di cui alla parte pratica concernenti i
+consistente nell'esecuzione di almeno 2 delle prove di cui alla parte pratica concernenti i
 seguenti argomenti:
 ✓ movimentazione e posizionamento del CRF: Controlli pre -utilizzo, verifica del
 percorso, corretto apprestamento, simulazione delle manovre, messa a riposo dei
@@ -18107,7 +18107,7 @@ Pag. 75 a 138
 piattaforma alla posizione di lavoro, carico e scarico del prodotto raccolto;
 ✓ simulazione di manovra in emergenza (Recupero dell'operatore - Comportamento in
 caso di guasti).
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -18116,8 +18116,8 @@ pratico.
 Pag. 76 a 138
 8.3.10 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di caricatori
 per la movimentazione di materiali (CMM)
-Per l’utilizzo di caricatori per la movimentazione di materiali (CMM ) è necessario il possesso da
-parte dell’operatore di almeno una delle seguenti abilitazioni.
+Per l'utilizzo di caricatori per la movimentazione di materiali (CMM ) è necessario il possesso da
+parte dell'operatore di almeno una delle seguenti abilitazioni.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
@@ -18125,22 +18125,22 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i componenti e i
-dispositivi dell’attrezzatura
+dispositivi dell'attrezzatura
 di lavoro
 1.1 Terminologia, caratteristiche delle diverse tipologie di
 caricatori, loro movimenti e loro dispositivi di
 sollevamento.
-1.2 Principali rischi connessi all’impiego di caricatori: caduta
+1.2 Principali rischi connessi all'impiego di caricatori: caduta
 del carico, rovesciamento, ribaltamento, urti delle
 persone con il carico o con elementi del caricatore, rischi
-legati all’ambiente (ostacoli, linee elettriche, ecc.), rischi
-legati all’uso delle diverse forme di energia (elettrica,
+legati all'ambiente (ostacoli, linee elettriche, ecc.), rischi
+legati all'uso delle diverse forme di energia (elettrica,
 idraulica, ecc.), rischio di investimento di persone da parte
-del carico o dell’apparecchio;
+del carico o dell'apparecchio;
 1.3 Nozioni elementari di fisica per poter stimare la massa di
 un carico e apprezzare le condizioni di equilibrio di un
 corpo. Stabilità statica e dinamica e influenza dovuta alla
-mobilità del carrello e dell’ambiente di lavoro.
+mobilità del carrello e dell'ambiente di lavoro.
 1.4 Componenti principali: organi di presa, meccanismo di
 rotazione. Stazione di comando con descrizione del sedile,
 dei dispositivi di comando, dei dispositivi di
@@ -18159,8 +18159,8 @@ costruttore.
 1.9 Segnaletica gestuale.
 2. Parte Pratica (4 ore) - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Funzionamento di tutti i comandi del caricatore per il suo
@@ -18172,7 +18172,7 @@ comando e dei principali componenti, in base alle
 indicazioni fornite dal fabbricante
 2.4 Approntamento del caricatore per il trasporto o lo
 spostamento.
-2.5 Esercitazioni di pianificazione dell’operazione di
+2.5 Esercitazioni di pianificazione dell'operazione di
 sollevamento tenendo conto delle condizioni del sito di
 lavoro, della configurazione del braccio, del carico da
 movimentare, ecc.
@@ -18194,7 +18194,7 @@ estensione, rotazione, ecc.) singole e combinate e
 spostamento con il caricatore nelle configurazioni
 consentite.
 2.8 Esercitazioni di presa del carico per il controllo della
-rotazione, dell’oscillazione, degli urti e del posizionamento
+rotazione, dell'oscillazione, degli urti e del posizionamento
 del carico.
 2.9 Traslazione con carico sospeso con macchina su
 pneumatici.
@@ -18213,11 +18213,11 @@ speciali.
 2.16 Manovre di precisione per il sollevamento, il rilascio ed il
 posizionamento dei carichi in posizioni visibili e non visibili.
 2.17 Prove di comunicazione con segnali gestuali e via radio.
-2.18 Esercitazioni sull’uso sicuro, prove, manutenzione e
+2.18 Esercitazioni sull'uso sicuro, prove, manutenzione e
 situazioni di emergenza (procedure di avvio e arresto, fuga
 sicura, ispezioni regolari e loro registrazioni, tenuta del
 registro di controllo, controlli giornalieri richiesti dal
-manuale d’uso, controll i pre -operativi quali: ispezioni
+manuale d'uso, controll i pre -operativi quali: ispezioni
 visive, lubrificazioni, controllo livelli, prove degli indicatori,
 allarmi, dispositivi di avvertenza, strumentazione).
 Verifica
@@ -18227,8 +18227,8 @@ La prova si intende superata con almeno il 70% delle risposte esatte. Il superam
 prova è propedeutico al passaggio dei moduli pratici specifici.
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
@@ -18236,11 +18236,11 @@ pratico.
 
 Pag. 78 a 138
 8.3.11 Corso di formazione teorico-pratico per lavoratori addetti alla conduzione di carriponte
-Per l’utilizzo di carriponte (CP) è necessario il possesso da parte dell’operatore di almeno una
+Per l'utilizzo di carriponte (CP) è necessario il possesso da parte dell'operatore di almeno una
 delle seguenti abilitazioni.
 Il modulo pratico è distinto per le diverse tipologie di comando, distinguendo tra comando
 pensile/radiocomando e comando in cabina, per la durata, per ciascuna tipologia di comando,
-della durata di 6 ore. L’abilitazione per tutte le tipologie comporta un modulo pratico di 7 ore.
+della durata di 6 ore. L'abilitazione per tutte le tipologie comporta un modulo pratico di 7 ore.
 Modulo base Obiettivi formativi Contenuti del Modulo
 1. Teorico-Tecnico (4
 ore)
@@ -18248,7 +18248,7 @@ ore)
 caratteristiche delle
 attrezzature di lavoro
 - Illustrare i componenti e i
-dispositivi dell’attrezzatura
+dispositivi dell'attrezzatura
 di lavoro
 1.1 Terminologia, tipologie di carroponte e gru a cavalletto,
 movimenti e dispositivi di sollevamento.
@@ -18271,22 +18271,22 @@ anticollisione, limitatore di sollevamento, freno, luci di
 segnalazione per comando senza cavo, ecc.) e loro
 funzionamento e controllo.
 1.5 Modalità di utilizzo in sicurezza e principali rischi connessi
-all’impiego di carriponte/gru a cavalletto: caduta del
+all'impiego di carriponte/gru a cavalletto: caduta del
 carico, rischi legati alla fase di imbracatura del carico, urti
 delle persone con il carico o con elementi della macchina,
-rischi legati a ll’ambiente (ostacoli, altri carriponte, ecc.),
-rischi legati all’uso delle diverse forme di energia
+rischi legati a ll'ambiente (ostacoli, altri carriponte, ecc.),
+rischi legati all'uso delle diverse forme di energia
 (elettrica, idraulica, ecc.), rischio di investimento di
-persone o cose da parte del carico o dell’apparecchio, od
-anche solo del gancio per movimenti “a v uoto” della
+persone o cose da parte del carico o dell'apparecchio, od
+anche solo del gancio per movimenti "a v uoto" della
 macchina, rischi derivanti da OPERAZIONI VIETATE come il
-“tiro obliquo”.
-1.6 L’installazione del carroponte/gru a cavalletto:
+"tiro obliquo".
+1.6 L'installazione del carroponte/gru a cavalletto:
 responsabilità e documentazione necessaria.
 1.7 Dispositivi di protezione individuale (D.P.I.) da utilizzare
 con il carroponte/gru a cavalletto
 1.8 Contenuti della documentazione e delle targhe
-segnaletiche apposte sulla macchina e nell’ambiente di
+segnaletiche apposte sulla macchina e nell'ambiente di
 lavoro.
 1.9 Procedure per la corretta imbracatura del carico e
 movimentazione dello stesso.
@@ -18309,8 +18309,8 @@ cavalletto con comando
 in cabina.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 2.1 Individuazione dei componenti strutturali del
@@ -18330,16 +18330,16 @@ e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di istruzioni
-dell’attrezzatura.
+dell'attrezzatura.
 2.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando in cabina.
 2.6 Valutazione della massa totale del carico, esecuzione delle
 manovre per la movimentazione del carico. Manovre per
-contrastare/limitare l’oscillazione dei carichi.
+contrastare/limitare l'oscillazione dei carichi.
 2.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 2.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -18353,8 +18353,8 @@ comando
 pensile/radiocomando
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 3.1 Individuazione dei componenti strutturali del
@@ -18373,7 +18373,7 @@ sicurezza e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di
-istruzioni dell’attrezzatura.
+istruzioni dell'attrezzatura.
 3.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando
@@ -18385,12 +18385,12 @@ pensile/radiocomando.
 Pag. 80 a 138
 3.6 Valutazione della massa totale del carico, esecuzione
 delle manovre per la movimentazione del carico.
-Manovre per contrastare/limitare l’oscillazione dei
+Manovre per contrastare/limitare l'oscillazione dei
 carichi. Uso dei comandi posti su comando
 pensile/radiocomando.
 3.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 3.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -18406,8 +18406,8 @@ e/o con comando in
 cabina.
 - Far acquisire le
 competenze necessarie per
-l’utilizzo in sicurezza
-dell’attrezzatura di lavoro e
+l'utilizzo in sicurezza
+dell'attrezzatura di lavoro e
 le relative procedure
 operative
 4.1 Individuazione dei componenti strutturali del
@@ -18427,19 +18427,19 @@ sicurezza e test di prova.
 carroponte/gru a cavalletto e di eventuali componenti
 accessori, dei dispositivi di comando, di segnalazione e di
 sicurezza, previsti dal costruttore nel manuale di
-istruzioni dell’attrezzatura.
+istruzioni dell'attrezzatura.
 4.5 Manovre del carroponte/gru a cavalletto senza carico
 (sollevamento, scorrimento, traslazione, ecc.) e prova dei
 dispositivi di sicurezza previsti con comando
 pensile/radiocomando e comando in cabina.
 4.6 Valutazione della massa totale del carico, esecuzione
 delle manovre per la movimentazione del carico.
-Manovre per contrastare/limitare l’oscillazione dei
+Manovre per contrastare/limitare l'oscillazione dei
 carichi. Uso dei comandi posti su pulsantiera con
 comando pensile/radiocomando e comando in cabina.
 4.7 Imbracatura dei carichi. Angoli di lavoro delle tratte.
 4.8 Norme generali di utilizzo carroponte: ruolo
-dell’operatore. Limiti di utilizzo dell’attrezzature tenuto
+dell'operatore. Limiti di utilizzo dell'attrezzature tenuto
 conto delle sue caratteristiche e delle sue condizioni di
 installazione. Manovre consentite tenuto conto delle sue
 condizioni di installazione (zone interdette, interferenze,
@@ -18458,55 +18458,55 @@ prova è propedeutico al passaggio dei moduli pratici specifici.
 Pag. 81 a 138
 Il mancato superamento della prova comporta la ripetizione del modulo.
 → Al termine del modulo pratico dovrà essere effettuata una prova pratica di verifica finale,
-consistente nell’esecuzione di almeno 4 delle prove di cui alla parte pratica.
-→ Il mancato superamento della prova di verifica finale comporta l’obbligo di ripetere il modulo
+consistente nell'esecuzione di almeno 4 delle prove di cui alla parte pratica.
+→ Il mancato superamento della prova di verifica finale comporta l'obbligo di ripetere il modulo
 pratico.
 
 
 ## Pagina 356
 
 Pag. 82 a 138
-PARTE III – CORSI DI AGGIORNAMENTO
-L’aggiornamento non deve essere inteso solo come un rispetto agli obblighi di legge, ma deve
-intraprendere un percorso di formazione continua, stabile nel tempo, nell’ottica del "lifelong
-learning" con l’obiettivo di aggiornare le competenze operative, le c apacità relazionali e quelle
+PARTE III - CORSI DI AGGIORNAMENTO
+L'aggiornamento non deve essere inteso solo come un rispetto agli obblighi di legge, ma deve
+intraprendere un percorso di formazione continua, stabile nel tempo, nell'ottica del "lifelong
+learning" con l'obiettivo di aggiornare le competenze operative, le c apacità relazionali e quelle
 relative al ruolo, tenendo conto anche dei cambiamenti normativi, tecnici ed organizzativi del
 contesto operativo.
-L’aggiornamento può essere ottemperato anche per mezzo della partecipazione a convegni o
+L'aggiornamento può essere ottemperato anche per mezzo della partecipazione a convegni o
 seminari, a condizione che essi trattino delle materie i cui contenuti siano coerenti con quanto
-sopra indicato, fatta eccezione per l’aggiornamento di cui ai punti 2.1,2.2, 7 e 8 della Parte II
+sopra indicato, fatta eccezione per l'aggiornamento di cui ai punti 2.1,2.2, 7 e 8 della Parte II
 (formazione specifica dei lavoratori, preposti, lavoratori, datori di lavoro e lavoratori autonomi
 che operano in ambienti sospetti di inquinamento o confinati, operatori addetti alla conduzione
-delle attrezzature di cui all’articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81/2008)
-L’aggiornamento, dunque, non deve essere di carattere generale o mera riproduzione di
+delle attrezzature di cui all'articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81/2008)
+L'aggiornamento, dunque, non deve essere di carattere generale o mera riproduzione di
 argomenti e contenuti già proposti nei corsi base.
-Al fine di rendere maggiormente dinamico l’apprendimento e di garantire un monitoraggio di
+Al fine di rendere maggiormente dinamico l'apprendimento e di garantire un monitoraggio di
 effettività sul processo di acquisizione delle competenze, possono essere altresì previste verifiche
 sul mantenimento delle competenze acquisite ne i pregressi percorsi formativi ed esperienziali.
 Una particolare attenzione nella pianificazione degli aggiornamenti dovrà essere prestata a lla
 rilevazione di nuovi bisogni formativi.
-Qualora la formazione costituisca a tutti gli effetti un titolo abilitativo all’esercizio della funzione
-esercitata – come a titolo esemplificativo, nel caso del RSPP/ASPP, del Coordinatore per la
-progettazione e per l’esecuzione, degli operatori addetti all’uso delle attrezzature di cui all’art.
+Qualora la formazione costituisca a tutti gli effetti un titolo abilitativo all'esercizio della funzione
+esercitata - come a titolo esemplificativo, nel caso del RSPP/ASPP, del Coordinatore per la
+progettazione e per l'esecuzione, degli operatori addetti all'uso delle attrezzature di cui all'art.
 73, comma 5, del d.lgs. n. 81/2008 per le quali è richiesta una specifica abilitazione, ecc. - tale
-funzione non è esercitabile se non viene completato l’aggiornamento previsto per i rispettivi
+funzione non è esercitabile se non viene completato l'aggiornamento previsto per i rispettivi
 corsi.
-L’assenza, nei limiti di 10 anni, della regolare frequenza ai corsi di aggiornamento non fa venir
+L'assenza, nei limiti di 10 anni, della regolare frequenza ai corsi di aggiornamento non fa venir
 meno il credito formativo maturato dalla regolare frequenza ai corsi abilitanti e il completamento
-dell’aggiornamento, pur se effettuato in ritardo, consente di ritornare ad eseguire la funzione
-esercitata. Gli RSPP, gli ASPP e i Coordinatori per la progettazione e per l’esecuzione, per poter
+dell'aggiornamento, pur se effettuato in ritardo, consente di ritornare ad eseguire la funzione
+esercitata. Gli RSPP, gli ASPP e i Coordinatori per la progettazione e per l'esecuzione, per poter
 esercitare la propria funzione, trascorsi i cinque anni dalla prima abilitazione, devono poter
-dimostrare, all’atto dell’affidamento dell’incarico, che nel quinquennio antecedente
-all’affidamento dell’incarico hanno partecipato a corsi di aggiornamento per un numero di ore
+dimostrare, all'atto dell'affidamento dell'incarico, che nel quinquennio antecedente
+all'affidamento dell'incarico hanno partecipato a corsi di aggiornamento per un numero di ore
 non inferiore a quello minimo previsto.
-Ai fini dell’aggiornamento delle diverse figure, la partecipazione a corsi di formazione finalizzati
-all’ottenimento e/o all’aggiornamento di qualifiche specifiche come quelle, a titolo meramente
+Ai fini dell'aggiornamento delle diverse figure, la partecipazione a corsi di formazione finalizzati
+all'ottenimento e/o all'aggiornamento di qualifiche specifiche come quelle, a titolo meramente
 esemplificativo e non esaustivo, dei dirigenti e dei preposti (ex art. 37 d.lgs. n. 81/2008), dei
-lavoratori incaricati dell’attuazione delle misure di prevenzione incendi e lotta a ntincendio, di
+lavoratori incaricati dell'attuazione delle misure di prevenzione incendi e lotta a ntincendio, di
 evacuazione dei luoghi di lavoro in caso di pericolo grave e immediato, di salvataggio, di primo
 soccorso e, comunque, di gestione delle emergenze di cui agli artt. 44, 45 e 46 del d.lgs. n.
 81/2008, non è da ritenersi valida
-Non è valida ai fini dell’aggiornamento la partecipazione ai moduli di cui ai seguenti punti
+Non è valida ai fini dell'aggiornamento la partecipazione ai moduli di cui ai seguenti punti
 ✓ punto 2.3 parte II (modulo aggiuntivo cantieri);
 ✓ punto 3 parte II (modulo aggiuntivo cantieri);
 ✓ punto 4 parte II (moduli tecnici-integrativi);
@@ -18518,7 +18518,7 @@ Non è valida ai fini dell’aggiornamento la partecipazione ai moduli di cui ai
 Pag. 83 a 138
 .
 Nel caso di convegni e seminari è richiesta la tenuta del registro di presenza dei partecipanti da
-parte del soggetto che realizza l’iniziativa e non vi è alcun vincolo sul numero massimo di
+parte del soggetto che realizza l'iniziativa e non vi è alcun vincolo sul numero massimo di
 partecipanti.
 1 LAVORATORI, PREPOSTI, DIRIGENTI E DATORE DI LAVORO
 Nel corso di aggiornamento si dovranno trattare significative evoluzioni e innovazioni,
@@ -18529,28 +18529,28 @@ esaustivo:
 - aggiornamenti su organizzazione e gestione della sicurezza in azienda;
 - fonti di rischio e relative misure di prevenzione.
 1.1 Lavoratori
-L’aggiornamento deve essere effettuato ogni qualvolta intervengono elementi modificativi in
+L'aggiornamento deve essere effettuato ogni qualvolta intervengono elementi modificativi in
 termini di esiti della valutazione dei rischi ovvero quando le risultanze delle verifiche di efficacia
 della formazione durante lo svolgimento della prestazione lavorativa ne evidenzino la necessità
 e comunque con una periodicità quinquennale di durata minima di 6 ore a decorrere dalla data
-di fine corso riportata nell’attestato.
-Nell’aggiornamento non è compresa la formazione relativa al trasferimento o cambiamento di
-mansioni o laddove l’introduzione di nuove attrezzature di lavoro o di nuove tecnologie, di nuove
+di fine corso riportata nell'attestato.
+Nell'aggiornamento non è compresa la formazione relativa al trasferimento o cambiamento di
+mansioni o laddove l'introduzione di nuove attrezzature di lavoro o di nuove tecnologie, di nuove
 sostanze e miscele pericolose comporti un cambiamento delle mansioni lavorative svolte.
 1.2 Preposti
-L’aggiornamento deve essere effettuato con cadenza biennale e comunque ogni qualvolta sia
-reso necessario in ragione dell’evoluzione dei rischi o all’insorgenza di nuovi rischi, con durata
+L'aggiornamento deve essere effettuato con cadenza biennale e comunque ogni qualvolta sia
+reso necessario in ragione dell'evoluzione dei rischi o all'insorgenza di nuovi rischi, con durata
 minima di 6 ore, in relazione ai propri compiti in materia di salute e sicurezza del lavoro. A titolo
 esemplificativo ma non esaustivo per cambiamenti del contesto si intendono: cambiamenti del
 reparto, modifiche dei processi produttivi, organizzativi, ecc..
-Nell’aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
-preposto esercita le funzioni di cui all’art. 19 del d.lgs. n. 81/2008 in relazione alle misure
+Nell'aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
+preposto esercita le funzioni di cui all'art. 19 del d.lgs. n. 81/2008 in relazione alle misure
 tecniche, organizzative e procedurali di prevenzione e protezione ado ttate a seguito della
 valutazione dei rischi dell'azienda.
 1.3 Dirigenti
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
 in relazione ai propri compiti in materia di salute e sicurezza del lavoro.
-Nell’aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
+Nell'aggiornamento è compresa la formazione relativa ai cambiamenti del contesto in cui il
 dirigente opera in relazione alle misure tecniche, organizzative e procedurali di prevenzione e
 protezione adottate a seguito della valutazione dei rischi dell'azienda.
 
@@ -18559,36 +18559,36 @@ protezione adottate a seguito della valutazione dei rischi dell'azienda.
 
 Pag. 84 a 138
 1.4 Datore di lavoro
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 6 ore,
 in relazione ai propri compiti in materia di salute e sicurezza del lavoro.
-Qualora il datore di lavoro abbia frequentato il modulo aggiuntivo “Cantiere” e ne permangono
-le condizioni per lo stesso, l’aggiornamento dovrà riguardare anche le tematiche ivi previste.
+Qualora il datore di lavoro abbia frequentato il modulo aggiuntivo "Cantiere" e ne permangono
+le condizioni per lo stesso, l'aggiornamento dovrà riguardare anche le tematiche ivi previste.
 2 DATORE DI LAVORO CHE SVOLGE I COMPITI DEL SERVIZIO DI PREVENZIONE E PROTEZIONE
-L’aggiornamento deve essere effettuato con cadenza quinquennale, a decorrere dalla data di
+L'aggiornamento deve essere effettuato con cadenza quinquennale, a decorrere dalla data di
 conclusione del modulo comune, con durata minima di 8 ore, in relazione ai propri compiti in
 materia di salute e sicurezza del lavoro.
 Qualora il datore di lavoro abbia frequentato i moduli specialistici e ne permangono le condizioni
-per gli stessi, l’aggiornamento dovrà riguardare anche le tematiche ivi previste.
+per gli stessi, l'aggiornamento dovrà riguardare anche le tematiche ivi previste.
 3 RESPONSABILE E ADDETTO AL SERVIZIO DI PREVENZIONE E PROTEZIONE
-L’aggiornamento deve essere effettuato con cadenza quinquennale e decorrere dalla data di
+L'aggiornamento deve essere effettuato con cadenza quinquennale e decorrere dalla data di
 conclusione del Modulo B comune.
-Le ore minime complessive dell’aggiornamento sono fissate in base al ruolo svolto e sono
+Le ore minime complessive dell'aggiornamento sono fissate in base al ruolo svolto e sono
 rispettivamente:
 - ASPP: 20 ore
 - RSPP: 40 ore
-Il monte ore complessivo di aggiornamento potrà essere distribuito nell’arco temporale del
+Il monte ore complessivo di aggiornamento potrà essere distribuito nell'arco temporale del
 quinquennio.
 4 COORDINATORE PER LA SICUREZZA
-L’aggiornamento deve essere effettuato con cadenza quinquennale, con le stesse modalità
-previste per gli RSPP e le ore minime complessive dell’aggiornamento sono 40 ore.
+L'aggiornamento deve essere effettuato con cadenza quinquennale, con le stesse modalità
+previste per gli RSPP e le ore minime complessive dell'aggiornamento sono 40 ore.
 5 LAVORATORI, DATORI DI LAVORO E LAVORATORI AUTONOMI CHE OPERANO IN AMBIENTI
 SOSPETTI DI INQUINAMENTO O CONFINATI
-L’aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore
+L'aggiornamento deve essere effettuato con cadenza quinquennale e con durata minima di 4 ore
 relative alla parte pratica. Durante il corso di aggiornamento, è opportuno che il docente illustri
 eventuali modifiche normative e evoluzioni tecniche.
-6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI ALL’ARTICOLO 73,
+6 OPERATORI ADDETTI ALLA CONDUZIONE DELLE ATTREZZATURE DI CUI ALL'ARTICOLO 73,
 COMMA 5, DEL DECRETO LEGISLATIVO 9 APRILE 2008, N. 81/2008
-L’aggiornamento per rinnovare l’abilitazione deve essere effettuato con cadenza quinquennale
+L'aggiornamento per rinnovare l'abilitazione deve essere effettuato con cadenza quinquennale
 e con durata minima di 4 ore relative alla parte pratica. Durante il corso di aggiornamento, è
 opportuno che il docente illustri eventuali modifiche normative e evoluzioni tecniche.
 
@@ -18596,45 +18596,45 @@ opportuno che il docente illustri eventuali modifiche normative e evoluzioni tec
 ## Pagina 359
 
 Pag. 85 a 138
-PARTE IV – INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE,
+PARTE IV - INDICAZIONI METODOLOGICHE PER LA PROGETTAZIONE,
 EROGAZIONE E MONITORAGGIO DEI CORSI
-1 INDICAZIONI METODOLOGICHE PER L’ORGANIZZAZIONE E LA GESTIONE DEI CORSI PER I
+1 INDICAZIONI METODOLOGICHE PER L'ORGANIZZAZIONE E LA GESTIONE DEI CORSI PER I
 SOGGETTI FORMATORI
 La formazione sulla salute e sicurezza nei luoghi di lavoro presenta alcune caratteristiche che è necessario
-tenere presente da parte dei soggetti formatori nell’organizzazione e gestione dei percorsi formativi. Essa,
+tenere presente da parte dei soggetti formatori nell'organizzazione e gestione dei percorsi formativi. Essa,
 nelle sue varie articolazioni e tipologie di corso:
 - rientra nel contesto degli apprendimenti di tipo professionale non formali, cioè quelli che
 si realizzano al di fuori dei sistemi di apprendimento formale (Istruzione scolastica,
 Istruzione superiore e Università)
-- è caratterizzata dalla continuità dell’apprendimento durante l’intera vita lavorativa ( Life
-Long Learning) come affermato dall’obbligo periodico di aggiornamento per tutte le
+- è caratterizzata dalla continuità dell'apprendimento durante l'intera vita lavorativa ( Life
+Long Learning) come affermato dall'obbligo periodico di aggiornamento per tutte le
 figure che operano nei contesti lavorativi;
 - è rivolta prevalentemente ad adulti già avviati o da avviare ad attività lavorative.
-L’approccio metodologico deve essere di tipo “andragogico”, cioè un approccio
+L'approccio metodologico deve essere di tipo "andragogico", cioè un approccio
 focalizzato sui processi di apprendimento tipici degli adulti, i quali hanno fabbisogni
 formativi diversi, obblighi diversi e diversi modi di apprendimento rispetto ai discenti del
 sistema di istruzione formale.
 Tali aspetti trovano precisi riferimenti metodologici, operativi e organizzativi, sia a livello
 legislativo europeo e nazionale che di normazione volontaria, tutti orientati ad assicurare la
-qualità nei processi di produzione della formazione e l’efficacia della formazione.
+qualità nei processi di produzione della formazione e l'efficacia della formazione.
 Il principale riferimento è costituito dal quadro europeo EQAVET (Raccomandazione del
 Parlamento europeo e del Consiglio Europea del 18 giugno 2009 sull'istituzione di un quadro
 europeo di riferimento per la garanzia della qualità dell'istruzione e della f ormazione
-professionale) che raccomanda l’adozione di un ciclo di garanzia e di miglioramento
+professionale) che raccomanda l'adozione di un ciclo di garanzia e di miglioramento
 dell'istruzione e formazione professionale, sia a livello di sistema degli Stati membri che dei
 singoli soggetti erogatori della formazione che si articoli in pi anificazione, attuazione,
 valutazione/accertamento e revisione sulla base di criteri qualitativi, descrittori indicativi e
-indicatori comuni, compreso l'uso di strumenti di misura per fornire dati sull'efficacia. L’EQAVET
-inoltre pone l’accento sul monitor aggio e sul miglioramento della qualità, combinando
+indicatori comuni, compreso l'uso di strumenti di misura per fornire dati sull'efficacia. L'EQAVET
+inoltre pone l'accento sul monitor aggio e sul miglioramento della qualità, combinando
 valutazione interna ed esterna, revisione e processi di miglioramento, sulla base di misurazioni e
 di analisi qualitative.
 Attualmente è in fase evolutiva la convergenza dei criteri metodologici, organizzativi e gestionali
 previsti dalla Raccomandazione EQAVET e i meccanismi di accreditamento nazionali dei soggetti
 formatori mediante una politica di armonizzazione e integrazio ne, così come previsto dal Piano
 Nazionale per la garanzia di qualità del sistema di istruzione e formazione del 2017.
-Le indicazioni metodologiche per l’organizzazione e la gestione dei corsi riportate di seguito, fatta
+Le indicazioni metodologiche per l'organizzazione e la gestione dei corsi riportate di seguito, fatta
 eccezione dei punti 3.2, 3.3, 3.4, 3.5, 6.3 e 7, non si applicano ai Datori di Lavoro che organizzano
-ed erogano autonomamente, all’interno delle proprie aziende nei confronti dei propri lavoratori,
+ed erogano autonomamente, all'interno delle proprie aziende nei confronti dei propri lavoratori,
 la formazione sulla salute e sicurezza sul lavoro, ma esse possono trovare indicazioni utili per la
 gestione dei percorsi formativi di cui al presente accordo.
 
@@ -18642,12 +18642,12 @@ gestione dei percorsi formativi di cui al presente accordo.
 ## Pagina 360
 
 Pag. 86 a 138
-1.1 Approccio per processi nell’organizzazione e gestione della formazione su salute e
+1.1 Approccio per processi nell'organizzazione e gestione della formazione su salute e
 sicurezza nei luoghi di lavoro
-La qualità e l’efficacia della formazione in materia di salute e sicurezza sul lavoro non può
-prescindere dall’adozione di modelli organizzativi interni da parte dei soggetti formatori
-attraverso l’implementazione di un ciclo di garanzia della qualità e di miglioramento della stessa.
-L’approccio più idoneo, a garantire ciò, è quello basato sulla gestione di qualità dei processi di
+La qualità e l'efficacia della formazione in materia di salute e sicurezza sul lavoro non può
+prescindere dall'adozione di modelli organizzativi interni da parte dei soggetti formatori
+attraverso l'implementazione di un ciclo di garanzia della qualità e di miglioramento della stessa.
+L'approccio più idoneo, a garantire ciò, è quello basato sulla gestione di qualità dei processi di
 produzione della formazione, in termini di presidio e governo degli stessi. Il riferimento
 metodologico e concettuale per la ges tione di tali processi, più comunemente e largamente
 diffuso, è quello basato sul ciclo PDCA di Deming, che si esplicita in quattro fasi:
@@ -18672,7 +18672,7 @@ MIGLIORAMENTO
 Riesame e adozione di misure e interventi
 correttivi ai fini del miglioramento
 1.2 Analisi dei fabbisogni formativi e contesto
-L'analisi dei fabbisogni formativi costituisce la fase iniziale della elaborazione dell’azione
+L'analisi dei fabbisogni formativi costituisce la fase iniziale della elaborazione dell'azione
 formativa ed è finalizzata a fornire dati ed informazioni necessari alla progettazione formativa.
 L'analisi dei fabbisogni formativi nel campo della sicurezza e salute nei luoghi di lavoro si
 configura come analisi dei "fabbisogni professionali", volta ad individuare, in chiave formativa, le
@@ -18711,18 +18711,18 @@ salute e sicurezza sul lavoro poiché non si tratta di formazione generica, ma s
 alle specifiche mansioni e attività lavorative, come previsto dalla stessa legislazione in materia.
 Il livello di analisi dei fabbisogni e la contestualizzazione che il soggetto formatore dovrà
 affrontare in tale fase sarà diverso non solo rispetto alla tipologia di corsi ma anche alla tipologia
-di committenza. Infatti, la contestualizzazione e l’analisi avranno caratteristiche e contenuti
+di committenza. Infatti, la contestualizzazione e l'analisi avranno caratteristiche e contenuti
 diversi se il soggetto formatore dovrà elaborare il progetto formativo per una mono committenza
 (es. singola realtà aziendale) piuttosto che pluri committenza (es. aziende dello stesso comparto
-produttivo o omogeneamente simili) o infine se presenta un’offerta formativa a catalogo.
-L’analisi dei bisogni formativi e di contesto deve essere un procedimento sistematico, basato
+produttivo o omogeneamente simili) o infine se presenta un'offerta formativa a catalogo.
+L'analisi dei bisogni formativi e di contesto deve essere un procedimento sistematico, basato
 principalmente su tecniche specifiche di raccolta delle informazioni rilevanti. Queste
 informazioni possono essere ottenute attraverso strumenti diversi come ques tionari, interviste,
-osservazioni, riunioni di gruppo, documentazione da richiedere all’azienda, politiche e procedure
+osservazioni, riunioni di gruppo, documentazione da richiedere all'azienda, politiche e procedure
 utilizzate, descrizione delle posizioni organizzative. Una delle fonti più rilevanti di dati e
-informazioni per l’analisi dei fabbisogni formativi dei lavoratori/preposti/dirigenti/datori di
+informazioni per l'analisi dei fabbisogni formativi dei lavoratori/preposti/dirigenti/datori di
 lavoro è sicuramente il documento di valutazione dei rischi, dal quale possono essere ricavati
-elementi conoscitivi in merito all’esito della valutazione, agli infortuni mancati, ai risultati della
+elementi conoscitivi in merito all'esito della valutazione, agli infortuni mancati, ai risultati della
 formazione effettuata (piani di formazione).
 I dati e le informazioni derivanti dal processo di analisi dei fabbisogni formativi e del contesto
 sono contenuti in un report (documento di output del processo) e costituiscono parte integrante
@@ -18734,10 +18734,10 @@ tenere conto di alcuni aspetti specifici e quindi integrato da specifiche attivi
 quali si rimanda al paragrafo 3.
 1.3 Progettazione
 I dati e le informazioni derivanti dal processo di analisi dei fabbisogni formativi e del contesto
-costituiscono l’input per il successivo processo di progettazione del percorso formativo che
+costituiscono l'input per il successivo processo di progettazione del percorso formativo che
 traduce il bisogno formativo in una coerente e pertinente risposta formativa. Una analisi del
 fabbisogno formativo e di contest o carente e lacunoso inevitabilmente condiziona
-negativamente la qualità del processo di progettazione formativa e in ultima analisi l’efficacia
+negativamente la qualità del processo di progettazione formativa e in ultima analisi l'efficacia
 stessa del percorso formativo.
 
 
@@ -18771,7 +18771,7 @@ nell'ambito delle attività che si è chiamati a svolgere.
 È necessario che i risultati attesi siano coerenti con gli obiettivi formativi e siano conseguibili con
 la partecipazione al percorso formativo. Il raggiungimento dei risultati attesi dipende dalla
 coerenza e adeguatezza progettuale, in termini di contenuti didattici e strategia formativa.
-L'efficacia di un’azione formativa è legata in larga misura ad una scelta adeguata della strategia
+L'efficacia di un'azione formativa è legata in larga misura ad una scelta adeguata della strategia
 formativa da seguire, poiché da essa dipende la effettiva trasformazione degli obiettivi e dei
 bisogni formativi in risultati concreti. Definire la strategia formativa significa identificare le
 metodologie e gli strumenti più idonei in relazione alla specificità del percorso formativo e al
@@ -18799,14 +18799,14 @@ discenti nella didattica attiva;
 Le indicazioni metodologiche riguardante la progettazione di dettaglio (microprogettazione),
 sono riportate nel successivo paragrafo 2.
 1.4 Erogazione
-L’erogazione è il momento in cui si sviluppa l’azione formativa e in cui trova concreto
-compimento l’efficacia formativa.
+L'erogazione è il momento in cui si sviluppa l'azione formativa e in cui trova concreto
+compimento l'efficacia formativa.
 È necessario che la fase di erogazione sia presidiata e monitorata osservandone lo sviluppo,
 rilevando le criticità e le non conformità che si dovessero manifestare nelle dinamiche di
-apprendimento e nella gestione delle attività didattiche. Nell’erogazion e un ruolo rilevante è
+apprendimento e nella gestione delle attività didattiche. Nell'erogazion e un ruolo rilevante è
 rivestito dal tutor con il suo presidio delle attività e la rilevazione delle criticità (che vanno
 descritte e registrate in specifici report che costituiscono una base informativa per il riesame e
-l’adozione delle misure correttive e di miglioramento).
+l'adozione delle misure correttive e di miglioramento).
 1.5 Monitoraggio e valutazione della qualità della formazione
 Il processo di monitoraggio e valutazione da parte del soggetto formatore rappresenta un
 momento di estrema importanza ai fini della verifica della efficacia della formazione e del
@@ -18819,9 +18819,9 @@ ritiene opportuno che il soggetto formatore implementi e utilizzi un sistema bas
 di rilevazione di parametri ed indici prestazionali misurabili e di un sistema di elaborazione dei
 dati, di misurazione qualitativa e quantitativa degli indicatori e di documentazione dei risultati.
 Normalmente il monitoraggio si basa sulla valutazione di tre livelli:
-- Valutazione di gradimento, cioè della qualità percepita dall’utente;
+- Valutazione di gradimento, cioè della qualità percepita dall'utente;
 - Valutazione degli apprendimenti;
-- Valutazione dell’efficacia della formazione durante lo svolgimento della prestazione
+- Valutazione dell'efficacia della formazione durante lo svolgimento della prestazione
 lavorativa.
 Gli aspetti metodologici e procedurali specifici riguardanti la valutazione di gradimento sono
 decritti nel paragrafo 5, quelli relativi alla valutazione degli apprendimenti e alla valutazione sul
@@ -18842,13 +18842,13 @@ individuare e analizzare eventuali criticità e adottare le misure correttive al
 miglioramento della qualità didattica e organizzativa attraverso la revisione e miglioramento dei
 processi di produzione della formazione sopra descritti. I risultati del riesame sono elaborati,
 documentati e diffusi a tutti coloro che governano e presidiano i processi e/o che svolgono
-l’attività all’interno dei processi. Il riesame può analizzare sia i dati prestazionali aggregati per
+l'attività all'interno dei processi. Il riesame può analizzare sia i dati prestazionali aggregati per
 ciascuna tipologia di corso che per singolo corso.
 1.7 Le risorse: i profili di competenza, ruoli e responsabilità delle figure professionali per
-l’organizzazione e gestione della formazione su SSL
+l'organizzazione e gestione della formazione su SSL
 Il soggetto formatore si avvale e deve avere la piena disponibilità nella propria struttura di figure
 professionali con particolari competenze in termini di conoscenze, abilità e responsabilità, al fine
-di assicurare l’efficacia e la qualità dei percorsi formativi con il presidio dei processi di produzione
+di assicurare l'efficacia e la qualità dei percorsi formativi con il presidio dei processi di produzione
 della formazione (indipendentemente dal profilo contrattuale che lega tali figure con il soggetto
 formatore).
 I profili indispensabili per la gestione dei processi di produzione della formazione (analisi dei
@@ -18856,30 +18856,30 @@ fabbisogni formativi e di contesto, progettazione, erogazione, monitoraggio e va
 riesame e adozione di misure di miglioramento) sono:
 - il responsabile dei progetti formativi;
 - il docente;
-- il tutor d’aula.
+- il tutor d'aula.
 Il soggetto formatore deve assicurare che i suddetti profili abbiano le necessarie competenze,
 per gestire e presidiare i processi di produzione della formazione e garantire che tali competenze
 siano mantenute e, se possibile, incrementate nel tempo tramit e costanti e periodici
 aggiornamenti formativi.
 Tali figure professionali svolgono i compiti e le attività previste dai rispettivi ruoli e responsabilità
-in un’ottica di team, integrando in modo sinergico le competenze di ciascun profilo nello sviluppo
-e presidio dei processi e nello svolgimento delle attività collegate finalizzate a garantire l’efficacia
+in un'ottica di team, integrando in modo sinergico le competenze di ciascun profilo nello sviluppo
+e presidio dei processi e nello svolgimento delle attività collegate finalizzate a garantire l'efficacia
 e qualità del servizio formativo.
 Di seguito sono descritti i profili delle suddette figure professionali:
-• RESPONSABILE DEI PROGETTI FORMATIVI
+- RESPONSABILE DEI PROGETTI FORMATIVI
 Soggetto avente comprovata e documentata esperienza (almeno triennale) in materia di
 sicurezza e salute nei luoghi di lavoro, in possesso dei requisiti richiesti per formatori/docenti
 dalla legislazione vigente. È il responsabile della progettazione format iva ed è coinvolto
-nell’analisi dei fabbisogni formativi. Cura sia la progettazione di massima che di dettaglio, si
+nell'analisi dei fabbisogni formativi. Cura sia la progettazione di massima che di dettaglio, si
 interfaccia con i docenti e i tutor nella definizione delle strategie formative, nelle scelte delle
 modalità di erogazione, delle modalità d i verifica degli apprendimenti, intermedie e finali, in
 coerenza con quanto previsto dal presente Accordo e dalla legislazione in materia. Può essere
 responsabile sia di singoli percorsi formativi, sia di singole tipologie di corsi di formazione ovvero
 di tutta la progettazione formativa del soggetto formatore. Il responsabile dei progetti formativi può
 essere individuato tra i docenti del corso
-• DOCENTE
+- DOCENTE
 Soggetto in possesso dei requisiti richiesti dalla legislazione vigente in materia di formazione su
-SSL, esperto delle tematiche oggetto della formazione nell’area disciplinare di afferenza in base
+SSL, esperto delle tematiche oggetto della formazione nell'area disciplinare di afferenza in base
 alle specifiche conoscenze e competenze. Deve conoscere an che la specificità e le dinamiche
 della formazione su SSL, con particolare riferimento alle metodologie didattiche più idonee per
 
@@ -18887,12 +18887,12 @@ della formazione su SSL, con particolare riferimento alle metodologie didattiche
 ## Pagina 365
 
 Pag. 91 a 138
-l’apprendimento degli adulti. È responsabile del presidio delle dinamiche di gruppo e dei rapporti
-con i discenti con l’obiettivo di favorire l’apprendimento, la partecipazione e l’interazione. È
-responsabile della progettazione e dell’erogazione delle uni tà didattiche assegnate,
-dell’individuazione delle strategie e metodologie didattiche più idonee per l’erogazione, della
+l'apprendimento degli adulti. È responsabile del presidio delle dinamiche di gruppo e dei rapporti
+con i discenti con l'obiettivo di favorire l'apprendimento, la partecipazione e l'interazione. È
+responsabile della progettazione e dell'erogazione delle uni tà didattiche assegnate,
+dell'individuazione delle strategie e metodologie didattiche più idonee per l'erogazione, della
 predisposizione di materiali didattici e delle modalità di verifica che tengano conto anche
-dell’eventuale presenza di lavoratori stranieri coerentemente con gli obiettivi formativi fissati e nel
+dell'eventuale presenza di lavoratori stranieri coerentemente con gli obiettivi formativi fissati e nel
 rispetto di quanto previsto dalla legislazione in materia di formazione su SSL. Nei confronti dei
 lavoratori stranieri i corsi dovranno essere realizzati previa verifica della comprensione e
 conoscenza della lingua veicolare e con modalità che assicurino la comprensione dei contenuti
@@ -18900,18 +18900,18 @@ del corso di formazione, quali, ad esempio, la pres enza di un mediatore intercu
 traduttore.
 Interagisce e si interfaccia in sede di progettazione formativa con il responsabile della
 progettazione contribuendo alla strutturazione del corso.
-• TUTOR D’AULA
-Soggetto esperto delle dinamiche di interazione nell’ambiente formativo (aula in presenza fisica
+- TUTOR D'AULA
+Soggetto esperto delle dinamiche di interazione nell'ambiente formativo (aula in presenza fisica
 o aula virtuale) in grado di fornire ai discenti indicazioni operative sulla fruizione del corso,
-sull’accesso e utilizzo dei materiali didattici, sugli aspett i logistici nonché di supportare i docenti
+sull'accesso e utilizzo dei materiali didattici, sugli aspett i logistici nonché di supportare i docenti
 e i discenti durante le attività didattiche e nella somministrazione delle esercitazioni e delle prove
-di verifica. È responsabile del monitoraggio dell’andamento dell'attività didattica, della
+di verifica. È responsabile del monitoraggio dell'andamento dell'attività didattica, della
 rilevazione delle e sigenze dei partecipanti, del rispetto degli aspetti organizzativi che hanno
-impatto sulla gestione d’aula, osservando la coerenza con gli obiettivi didattici, il regolare
+impatto sulla gestione d'aula, osservando la coerenza con gli obiettivi didattici, il regolare
 andamento dello svolgimento della dinamica di apprendimento e in generale la coerenz a con
 quanto previsto dal progetto formativo.
 Fatto salvo quanto eventualmente previsto dalla normativa regionale riferita ai soggetti
-formatori accreditati, il tutor d’aula è sempre previsto per i percorsi di formazione ed
+formatori accreditati, il tutor d'aula è sempre previsto per i percorsi di formazione ed
 aggiornamento erogati a distanza (e -learning o videoconferenza). Per i corsi d i formazione in
 presenza fisica è consigliata la presenza di tale figura per tutti quei percorsi che vedano la
 contemporanea presenza di più di 10 discenti.
@@ -18922,12 +18922,12 @@ definiti con dettaglio, per ciascuna unità didattica:
 - argomenti da trattare, contenuti e durata;
 - strategia formativa e metodologia didattica;
 - modalità e criteri di verifica e valutazione dei risultati.
-L’articolazione oraria delle singole unità didattiche dovrà essere sviluppata in modo tale da
+L'articolazione oraria delle singole unità didattiche dovrà essere sviluppata in modo tale da
 garantire un giusto equilibrio tra le unità didattiche nella trattazione degli argomenti, in termini
 di rilevanza, complessità, esaustività, tenendo conto dei diversi contesti e processi lavorativi in
-cui si innesta l’azione formativa.
+cui si innesta l'azione formativa.
 Nel definire la struttura di dettaglio del percorso formativo bisogna tener presente quanto
-previsto dall’accordo nella parte II - corsi di formazione in merito alle diverse tipologie di corso,
+previsto dall'accordo nella parte II - corsi di formazione in merito alle diverse tipologie di corso,
 alla struttura modulare, e in alcuni casi anche a quella delle unità didattiche, agli obiettivi
 formativi, alla durata e ai contenuti minimi.
 
@@ -18935,9 +18935,9 @@ formativi, alla durata e ai contenuti minimi.
 ## Pagina 366
 
 Pag. 92 a 138
-2.1 Gli obiettivi specifici e i risultati attesi dell’unità didattica
-Sulla base degli esiti dell’analisi dei fabbisogni formativi e di contesto dovranno essere definitivi
-gli obiettivi didattici contestualizzati all’ambito aziendale o al contesto nel quale il soggetto opera.
+2.1 Gli obiettivi specifici e i risultati attesi dell'unità didattica
+Sulla base degli esiti dell'analisi dei fabbisogni formativi e di contesto dovranno essere definitivi
+gli obiettivi didattici contestualizzati all'ambito aziendale o al contesto nel quale il soggetto opera.
 É necessario identificare gli obiettivi specifici relativi alla singola unità didattica; tipicamente gli
 obiettivi vengono declinati mediante parole chiave come trasferire, illustrare, far conoscere, far
 acquisire, fornire, favorire, definire, delineare, etc.
@@ -18955,29 +18955,29 @@ possano descrivere sinteticamente il tipo di conoscenza (nella dimensione del sa
 di competenze (nella dimensione d el saper fare e del saper essere) e che dovranno possedere i
 discenti in uscita dal percorso formativo, come ad esempio essere in grado di, saper individuare,
 saper svolgere, saper applicare, conoscere, acquisire metodi, criteri e strumenti, etc.
-2.2 I contenuti dell’unità didattica e la durata
+2.2 I contenuti dell'unità didattica e la durata
 Al fine di rispondere in modo più puntuale, ai fabbisogni specifici e alle eventuali esigenze di una
 particolare strutturazione dei contenuti relativamente a specifici target di utenti, in sede di
 microprogettazione, dovranno essere contestualizzati e defi niti gli argomenti di dettaglio che
-verranno trattati nell’ambito di ogni unità didattica e i contenuti che dovranno risultare coerenti
+verranno trattati nell'ambito di ogni unità didattica e i contenuti che dovranno risultare coerenti
 con gli obiettivi declinati. Bisognerà, dunque, individuare e stabilire con chiarezza e dettaglio i
 contenuti, la durata e la sequenza degli argomenti, che non dovranno essere generici e non
-dovranno dar luogo a diverse interpretazioni da parte di chi svilupperà l’azione formativa.
+dovranno dar luogo a diverse interpretazioni da parte di chi svilupperà l'azione formativa.
 2.3 La strategia formativa e la metodologia didattica
 Definire la strategia formativa significa identificare le metodologie e gli strumenti più idonei in
-relazione alla specificità del percorso formativo e al target previsto, considerando che l’azione
-formativa è rivolta ad adulti in un contesto di formazione continua sul lavoro per tutto l’arco della
+relazione alla specificità del percorso formativo e al target previsto, considerando che l'azione
+formativa è rivolta ad adulti in un contesto di formazione continua sul lavoro per tutto l'arco della
 vita (lifelong learning). È necessario dunque adottare un approccio di tipo andragogico che tenga
 conto della specificità dei processi di apprendimento e di coinvolgimento tipici degli adulti. In tal
-senso non si può prescindere dall’adozione di metodologie didattiche attive ed interattive che
+senso non si può prescindere dall'adozione di metodologie didattiche attive ed interattive che
 prevedono il coinvolgimento diretto del discente e la sua centralità nel percorso di
 apprendimento. Il progetto formativo dovrà dunque indicare quali metodologie didattiche attive
-saranno adottate nell’intero percorso formativo e in ciascuna unità didattica.
-Le metodologie didattiche attive si basano sul presupposto che l’apprendimento effettivo è di
+saranno adottate nell'intero percorso formativo e in ciascuna unità didattica.
+Le metodologie didattiche attive si basano sul presupposto che l'apprendimento effettivo è di
 tipo esperienziale e relazionale, e risultano particolarmente efficaci quando si tratta di acquisire
 atteggiamenti, capacità di analisi e di soluzioni di problemi e incrementare specifiche capacità.
-La modalità di trasmissione dei contenuti deve inoltre tenere conto delle esigenze di “vita
-professionale reale” e non solo vertere su contenuti di merito e didattici. Il formatore/docente
+La modalità di trasmissione dei contenuti deve inoltre tenere conto delle esigenze di "vita
+professionale reale" e non solo vertere su contenuti di merito e didattici. Il formatore/docente
 dovrà pertanto basare la propr ia attività non solo sulla trasmissione di nozioni, abilità e
 competenze ma su quanto valorizzi le esperienze di ciascuno.
 
@@ -18986,7 +18986,7 @@ competenze ma su quanto valorizzi le esperienze di ciascuno.
 
 Pag. 93 a 138
 2.4 Le metodologie didattiche attive
-Le metodologie didattiche attive vanno scelte prioritariamente in funzione dell’obiettivo
+Le metodologie didattiche attive vanno scelte prioritariamente in funzione dell'obiettivo
 formativo, ma anche in relazione alla disponibilità di spazi, di tempo, di risorse e tenendo conto
 della complessità di gestione da parte del formatore. Le principali metodologie che possono
 rispondere efficacemente alle esigenze formative in campo prevenzionale sono:
@@ -18995,26 +18995,26 @@ dimensioni ridotte a cui viene assegnato un determinato compito da svolgere in u
 prefissato. La dimensione di gruppo facilita lo scambio di idee ed esperienze consentendo
 un coinvolgimento attivo in un rapporto relazionale tra pari, sganciato dalla dipendenza
 del docente. Il risultato finale del lavoro di gruppo appartiene al gruppo e non alla singola
-persona e allena le persone all’ascolto attivo e al raggiungimento di un obiettivo comune;
+persona e allena le persone all'ascolto attivo e al raggiungimento di un obiettivo comune;
 - Casi di studio. È una metodologia attiva il cui obiettivo è quello di sviluppare la capacità di
 analisi e di soluzione di situazioni o problemi più o meno complessi, meglio se reali e calati
 nella realtà lavorativa e nel contesto relazionale dei partecipanti. Possono essere svolti sia
-individualmente che in gruppo. Sono utili soprattutto per l’acquisizione di competenze
+individualmente che in gruppo. Sono utili soprattutto per l'acquisizione di competenze
 specialistiche con particolare riferimento agli aspetti legati alla individuazione,
 trattamento e controllo dei rischi;
 - Simulazioni. Le simulazioni consistono nel far riprodurre da parte dei partecipanti azioni e
 comportamenti sia individuali che interpersonali su situazioni circoscritte e limitate come
-può essere l’utilizzo di una procedura, di una tecnica, di un metodo, in un contesto che
-simula e ricalca l’ambiente e l’attività lavorativa, in modo da rendere più agevole la
+può essere l'utilizzo di una procedura, di una tecnica, di un metodo, in un contesto che
+simula e ricalca l'ambiente e l'attività lavorativa, in modo da rendere più agevole la
 trasposizione di quanto appreso in aula alla realtà lavorativa.
 Anche le lezioni frontali, che sono finalizzate alla trasmissione di nozioni e concetti, dovranno
 seguire un approccio dialogico, prevedendo una sostanziale interattività tra il docente e i discenti
 e tra i discenti stessi. È fondamentale durante la lezione, utilizzare a titolo es plicativo supporti
 audiovisivi (ad. es. slide, filmati), ricorrere a esempi applicativi e prevedere testimonianze da parte
-di soggetti che possano stimolare l’attenzione e la motivazione ad apprendere da parte dei
+di soggetti che possano stimolare l'attenzione e la motivazione ad apprendere da parte dei
 discenti.
 È fondamentale anche pianificare durante la lezione momenti di confronto e momenti dedicati a
-fornire risposte a quesiti e domande che facilitino la comprensione e l’apprendimento di tutti i
+fornire risposte a quesiti e domande che facilitino la comprensione e l'apprendimento di tutti i
 discenti. Durante la lezione può essere utilizzata anche la tecni ca dei test, quesiti somministrati
 non a scopo valutativo, utile per rafforzare concetti e nozioni e per integrare con eventuali
 approfondimenti gli argomenti trattati nella lezione che necessitano di rinforzo.
@@ -19024,11 +19024,11 @@ e dai linguaggi digitali permettono la creazione di nuovi spazi e modalità di a
 esempio:
 - Realtà aumentata e virtuale: sono tecnologie immersive e si compongono di sistemi che,
 attraverso dispositivi mobili di visione, di ascolto o di manipolazione riescono ad
-aggiungere informazioni multimediali alla realtà che l’utente percepisce naturalmente. La
+aggiungere informazioni multimediali alla realtà che l'utente percepisce naturalmente. La
 realtà aumentata permette al discente di vedere parti digitali sovrapposte a parti fisiche,
-quella virtuale isola il discente dall’ambiente esterno, facendolo immergere in una realtà
+quella virtuale isola il discente dall'ambiente esterno, facendolo immergere in una realtà
 digitale parallela. La realtà aumentata consente di fornire indicazi oni tecniche a distanza
-in tempo reale e di sperimentare procedure nuove anche complesse. L’utilizzo della realtà
+in tempo reale e di sperimentare procedure nuove anche complesse. L'utilizzo della realtà
 virtuale consente di usufruire di momenti formativi, senza essere fisicamente presenti in
 un determinato luogo di lavoro e di simulare diversi scenari a scopo esercitativo e
 
@@ -19043,19 +19043,19 @@ operazioni in più sessioni formative, riducendo le conseguenze di eventuali err
 acquisire abilità manuali e pratiche nonché sistemi che possano integrarsi con sistemi
 innovativi che sfruttano in modo combinato software per la realtà virtuale ed aumentata
 - Gamification: metodologia che usa i meccanismi tipici del gioco e in particolare del
-videogioco per favorire il coinvolgimento e stimolare la motivazione e l’attenzione dei
+videogioco per favorire il coinvolgimento e stimolare la motivazione e l'attenzione dei
 discenti. Esistono i serious game, giochi con un esplicito e ben definito scopo educativo,
 non pensati primariamente per il divertimento, senza però escluderlo e i business game
-giochi caratterizzati da un contesto simulato di natura aziendale che hanno l’obiettivo di
+giochi caratterizzati da un contesto simulato di natura aziendale che hanno l'obiettivo di
 far acquisire capacità decisionali in termini di tempestività ed efficacia delle sce lte
-adottate, confidenza con situazioni di rischio e incertezza che permettono l’integrazione
+adottate, confidenza con situazioni di rischio e incertezza che permettono l'integrazione
 tra le diverse funzioni aziendali.
-L’utilizzo degli ambienti virtuali può prevedere anche spazi tridimensionali dove gli utenti si
+L'utilizzo degli ambienti virtuali può prevedere anche spazi tridimensionali dove gli utenti si
 muovono liberamente utilizzando degli avatar (metaverso). Il ricorso alla realtà virtuale o
 aumentata non sostituisce la parte pratica relativa ai corsi di cui ai punti 7 e 8 del presente
 accordo.
 2.5 Le modalità e i criteri di verifica e valutazione dei risultati
-Per avere la garanzia che l’obiettivo formativo sia stato raggiunto, è necessario valutare i risultati.
+Per avere la garanzia che l'obiettivo formativo sia stato raggiunto, è necessario valutare i risultati.
 Esistono differenti livelli di valutazione che richiedono momenti, tempi e risorse diversi per essere
 realizzati. La valutazione risulta necessaria non solo come controllo del processo di
 apprendimento e cambiamento che si vuole mettere in atto, ma anche come partecipazione
@@ -19067,7 +19067,7 @@ di valutazione va definito nella fase di progettazione e consente di:
 miglioramento dei percorsi formativi;
 - fornire feedback ai discenti in merito al loro apprendimento e cambiamento.
 Nel paragrafo 6 sono descritti i metodi e i criteri di verifica da adottare per la valutazione degli
-apprendimenti e dell’efficacia formativa durante lo svolgimento della prestazione lavorativa.
+apprendimenti e dell'efficacia formativa durante lo svolgimento della prestazione lavorativa.
 2.6 Il documento progettuale
 Ogni soggetto formatore dovrà redigere il progetto formativo, cioè il documento in uscita
 dell'intero processo di progettazione, in cui dovranno essere riportati nel dettaglio tutte le
@@ -19088,60 +19088,60 @@ Pag. 95 a 138
 didattico e delle competenze professionali, con particolare riferimento al ruolo che il
 soggetto destinatario della formazione riveste nel contesto dell'organizzazione aziendale.
 Il documento progettuale dovrà riportare in maniera chiara e descrittiva:
-• le specifiche del percorso formativo, cioè tutti quegli elementi che caratterizzano il corso di
+- le specifiche del percorso formativo, cioè tutti quegli elementi che caratterizzano il corso di
 formazione principalmente dal punto di vista didattico:
 - gli obiettivi e risultati attesi;
 - l'articolazione oraria delle unità didattiche;
 - i contenuti e gli argomenti trattati in ciascuna unità didattica.
-• le specifiche di realizzazione (modalità di sviluppo dell’azione formativa in termini
+- le specifiche di realizzazione (modalità di sviluppo dell'azione formativa in termini
 metodologici e strumentali):
 - la strategia formativa e le metodologie didattiche;
 - il materiale didattico e gli strumenti didattici di supporto;
 - le azioni di tutoraggio.
-• le specifiche per il controllo e la verifica:
+- le specifiche per il controllo e la verifica:
 - le modalità di valutazione e di monitoraggio della qualità formativa (mediante questionari
 di gradimento);
-- le modalità e i criteri di verifica e di valutazione dell’apprendimento, (sia per quanto
+- le modalità e i criteri di verifica e di valutazione dell'apprendimento, (sia per quanto
 riguarda le verifiche intermedie che finali).
 3 MODALITÀ DI EROGAZIONE DEI CORSI DI FORMAZIONE
 3.1 Requisiti organizzativi e tecnici, modalità e procedure operative per i corsi in presenza
 Tutti i corsi di formazione disciplinati dal presente accordo possono essere erogati mediante la
 formazione in presenza.
-La formazione in presenza può essere erogata direttamente nell’ambiente di lavoro del discente.
-Nell’ambito della formazione si può fare ricorso a break formativi, formazione on the job, corsi
-di formazione su moduli pratici che richiedono l’utilizzo di specifici spazi di lavoro e di specifiche
+La formazione in presenza può essere erogata direttamente nell'ambiente di lavoro del discente.
+Nell'ambito della formazione si può fare ricorso a break formativi, formazione on the job, corsi
+di formazione su moduli pratici che richiedono l'utilizzo di specifici spazi di lavoro e di specifiche
 attrezzatture.
-Laddove si faccia ricorso a break formativi la formazione viene erogata direttamente all’interno
+Laddove si faccia ricorso a break formativi la formazione viene erogata direttamente all'interno
 dei reparti aziendali e presso le postazioni dei lavoratori stessi. La formazione dovrà avvenire ad
 opera di un docente in possesso dei requisiti previsti dall a normativa vigente, affiancato dal
 preposto, dovrà essere breve (15 -30 minuti) e dovrà essere rivolta a piccoli gruppi di lavoratori
 basandosi su specifici aspetti legati all'attività lavorativa. I break formativi sono finalizzati ad
 apportare un aggiornamento continuo riguardo ai rischi legati alla mansione, al luogo di lavoro,
 alle attrezzature/sostanze utilizzate ed alle tecniche di prevenzione. Gli stessi sono ritenuti validi
-ai fini della formazione specifica e per l’aggiornamento dei lavoratori.
+ai fini della formazione specifica e per l'aggiornamento dei lavoratori.
 Anche per questa modalità di erogazione valgono le stesse considerazioni metodologiche
 descritte nella microprogettazione.
 3.2 Requisiti organizzativi e tecnici, modalità e procedure operative per i corsi in video
 conferenza sincrona (VCS)
-La formazione in videoconferenza sincrona può essere definita come “streaming di un evento
+La formazione in videoconferenza sincrona può essere definita come "streaming di un evento
 formativo in modalità sincrona, che prevede la copresenza di discenti e docenti che interagiscono
-tra loro presso più postazioni remote, tramite piattaforma multimediale di comunicazione”. Ogni
+tra loro presso più postazioni remote, tramite piattaforma multimediale di comunicazione". Ogni
 
 
 ## Pagina 370
 
 Pag. 96 a 138
-discente deve essere collegato all’evento formativo tramite pc o tablet a suo esclusivo uso per la
+discente deve essere collegato all'evento formativo tramite pc o tablet a suo esclusivo uso per la
 durata del corso.
 La veicolazione mediante supporto multimediale in modalità sincrona (tipicamente mediante PC
-o tablet collegati in rete) permette l’interazione tra docenti e allievi similmente a quanto avviene
+o tablet collegati in rete) permette l'interazione tra docenti e allievi similmente a quanto avviene
 nella formazione in presenza. Tuttavia, la modalità di formazi one in VCS presenta alcune
 caratteristiche e specificità che la differenziano dalla didattica in presenza in aula fisica con
 riferimento ai soggetti formatori che devono dunque adeguare o reingegnerizzare i processi di
 produzione della formazione (preveden do anche idonei profili di competenze), rispettando
 determinati requisiti di carattere organizzativo e tecnologici al fine di garantire la qualità e
-l’efficacia formativa. I soggetti che erogano la formazione in modalità videoconferenza sincrona
-dovranno implementare procedure idonee all’ambiente virtuale per la gestione delle modalità di
+l'efficacia formativa. I soggetti che erogano la formazione in modalità videoconferenza sincrona
+dovranno implementare procedure idonee all'ambiente virtuale per la gestione delle modalità di
 accesso, di verifica delle presenze, di gestione degli interventi dei discenti, delle modalità di
 svolgimento delle verifiche di apprend imento, della gestione dei material i didattici, delle
 modalità di tracciamento.
@@ -19149,14 +19149,14 @@ In coerenza con quanto già definito dal legislatore con la legge 52/2019 ai fin
 Accordo la videoconferenza sincrona è equiparata alla presenza fisica, fatta eccezione per i
 moduli didattici che prevedono un addestramento o una prova pratica.
 3.2.1 Requisiti di carattere organizzativo e gestionale
-Fermo restando quanto riportato inizialmente sulla struttura organizzativa basata sull’approccio
-per processi e loro descrizione, all’interno di ciascun processo dovranno essere sviluppate alcune
+Fermo restando quanto riportato inizialmente sulla struttura organizzativa basata sull'approccio
+per processi e loro descrizione, all'interno di ciascun processo dovranno essere sviluppate alcune
 attività aggiuntive specifiche e dovranno essere allocate risorse con specifiche competenze.
 ANALISI DEI FABBIGNOSI FORMATIVI E PROGETTAZIONE
 ➢ Analisi dei fabbisogni formativi e del contesto
 - Individuazione e indicazione delle abilità e capacità, in termine di alfabetizzazione
-informatica e digitale, richieste all’utente per la frequenza efficace del percorso
-formativo, al fine di evitare che un eventuale “digital divide” possa influire in modo
+informatica e digitale, richieste all'utente per la frequenza efficace del percorso
+formativo, al fine di evitare che un eventuale "digital divide" possa influire in modo
 discriminante sulla capacità di fruizione
 - Definizione dei requisiti tecnologici della postazione del discente e di compatibilità con i
 requisiti di accesso, accessibilità e fruibilità previsti dalla piattaforma del soggetto
@@ -19164,12 +19164,12 @@ formatore.
 ➢ Progettazione
 In sede di macroprogettazione dovranno essere definiti:
 - la strategia formativa da adottare, in termini metodologici e tecnici per lo sviluppo
-dell’azione formativa in ambiente di aula virtuale;
-- le metodologie didattiche attive più idonee per l’erogazione in VCS;
+dell'azione formativa in ambiente di aula virtuale;
+- le metodologie didattiche attive più idonee per l'erogazione in VCS;
 - le modalità di verifica (in itinere e finale) in sincrono nel rispetto di quanto previsto dalla
 legislazione in materia;
 - i requisiti tecnologici necessari per la fruizione del corso in modalità VCS;
-- le modalità di tutoraggio d’aula virtuale.
+- le modalità di tutoraggio d'aula virtuale.
 In sede di microprogettazione dovranno essere definite:
 
 
@@ -19177,42 +19177,42 @@ In sede di microprogettazione dovranno essere definite:
 
 Pag. 97 a 138
 - le modalità di svolgimento sincrono delle esercitazioni, lavori di gruppo, casi di studio
-considerando l’ambiente d’aula virtuale;
-- le modalità di interazione discente -docente-tutor d’aula virtuale e delle funzionalità da
+considerando l'ambiente d'aula virtuale;
+- le modalità di interazione discente -docente-tutor d'aula virtuale e delle funzionalità da
 utilizzare nella piattaforma.
 EROGAZIONE
-La modalità sincrona e la contemporanea virtualizzazione spaziale rappresentata dall’aula
+La modalità sincrona e la contemporanea virtualizzazione spaziale rappresentata dall'aula
 virtuale comportano che in fase di erogazione siano adottate specifiche procedure e svolte
 alcune attività che non si ritrovano nei corsi in aula con presenza fisica. Attività tipiche da svolgere
-nell’erogazione del corso di formazione in modalità VCS sono:
+nell'erogazione del corso di formazione in modalità VCS sono:
 - gestione delle procedure di accesso protetto dei discenti;
 - docenza in ambiente caratterizzato da virtualizzazione spaziale (aula virtuale), con
 dinamiche differenti rispetto alla formazione in presenza fisica in aula;
-- tutoraggio d’aula virtuale, che ha una forte valenza nello sviluppo del corso e nelle
+- tutoraggio d'aula virtuale, che ha una forte valenza nello sviluppo del corso e nelle
 dinamiche di interazione;
 - rilevazione e tracciabilità della continuità della presenza dei discenti;
 - gestione delle esercitazioni, lavori di gruppo e in generale delle specifiche metodologie
-didattiche attive in sincrono idonee all’ambiente virtuale;
+didattiche attive in sincrono idonee all'ambiente virtuale;
 - gestione delle verifiche di apprendimento in modalità sincrona a distanza;
 - monitoraggio della continuità di funzionamento delle funzionalità della piattaforma;
 - gestione dei flussi di comunicazione tra i docenti, tutor e tra gli stessi discenti.
 MONITORAGGIO E VALUTAZIONE. RIESAME E MISURE DI MIGLIORAMENTO
 Considerando la specificità e la potenziale criticità di alcune attività nella gestione dei corsi
 soprattutto in fase di erogazione, il monitoraggio e la valutazione risultano importanti nella
-verifica della qualità didattica e organizzativa e dell’efficacia ed efficienza del percorso formativo.
+verifica della qualità didattica e organizzativa e dell'efficacia ed efficienza del percorso formativo.
 Considerando che lo strumento utilizzato a tale scopo è il questionario di gradimento (paragrafo
 5), questo dovrà essere strutturato con elementi di valutazione aggiuntivi che tengano conto
 della modalità di erogazione in videoconferenza sincrona. In particolare, dovranno essere rilevati
 e monitorati:
-- il livello d’interazione docente-discente;
-- la chiarezza espositiva in ambiente virtuale e padronanza dell’utilizzo della piattaforma
+- il livello d'interazione docente-discente;
+- la chiarezza espositiva in ambiente virtuale e padronanza dell'utilizzo della piattaforma
 del docente;
-- l’efficacia del tutoraggio d’aula virtuale;
-- l’efficacia della gestione dei gruppi di lavoro ed esercitazioni in ambiente virtuale;
-- l’accessibilità e l’usabilità della piattaforma utilizzata;
-- l’efficacia e l’efficienza del supporto tecnico.
+- l'efficacia del tutoraggio d'aula virtuale;
+- l'efficacia della gestione dei gruppi di lavoro ed esercitazioni in ambiente virtuale;
+- l'accessibilità e l'usabilità della piattaforma utilizzata;
+- l'efficacia e l'efficienza del supporto tecnico.
 I dati così rilevati saranno elaborati ed analizzati in sede di riesame (sia generale che per singoli
-percorsi formativi) con l’individuazione e l’adozione delle misure di miglioramento e correttive
+percorsi formativi) con l'individuazione e l'adozione delle misure di miglioramento e correttive
 riguardanti gli elementi caratterizzanti la modalità di erogazione in videoconferenza sincrona.
 3.2.2. Requisiti relativi alle risorse professionali e profili di competenze
 Per erogare la formazione in VCS il soggetto formatore deve avvalersi di profili professionali con
@@ -19224,47 +19224,47 @@ particolari competenze, aggiuntive a quelle generali riportate in precedenza nel
 Pag. 98 a 138
 IV punto 1.7, con conoscenze, abilità e responsabilità idonee a gestire e presidiare i processi di
 produzione caratterizzanti la formazione in VCS.
-• RESPONSABILE DEI PROGETTI FORMATIVI
+- RESPONSABILE DEI PROGETTI FORMATIVI
 Il responsabile dei progetti formativi dovrà conoscere le modalità di funzionamento e le
-funzionalità della piattaforma, le modalità di gestione e di interazione dell’aula virtuale, le
-modalità didattiche attive idonee ed efficaci per l’ambiente virtuale.
+funzionalità della piattaforma, le modalità di gestione e di interazione dell'aula virtuale, le
+modalità didattiche attive idonee ed efficaci per l'ambiente virtuale.
 Il responsabile dei progetti formativi può essere individuato tra i docenti del corso.
-• DOCENTE
+- DOCENTE
 I docenti, oltre a possedere i requisiti previsti dalla legislazione vigente, dovranno avere una
-buona conoscenza dell’ambiente virtuale della piattaforma e delle funzionalità da utilizzare nelle
+buona conoscenza dell'ambiente virtuale della piattaforma e delle funzionalità da utilizzare nelle
 sessioni didattiche in modo da garantire la necessaria interazione con i discenti. Nello strutturare
 l'intervento formativo in VCS, dovranno sapere individuare strategie e metodologie didattiche
-efficaci per l’ambiente virtuale e predisporre i materiali di dattici, gli strumenti di supporto e di
+efficaci per l'ambiente virtuale e predisporre i materiali di dattici, gli strumenti di supporto e di
 valutazione funzionali alla docenza in VCS.
-• TUTOR D’AULA VIRTUALE
-Il tutor d’aula virtuale dovrà possedere le conoscenze relative alle funzionalità della piattaforma
+- TUTOR D'AULA VIRTUALE
+Il tutor d'aula virtuale dovrà possedere le conoscenze relative alle funzionalità della piattaforma
 per gestire le particolari dinamiche relazionali e di interazione con i discenti che caratterizzano la
 formazione in videoconferenza sincrona. Inoltre, dovrà saper gestire alcune procedure specifiche
 quali le modalità di accesso protetto e la registrazione dei partecipanti, la verifica e il
-tracciamento della continuità della presenza, il monitoraggio dell’andamento
-dell’apprendimento, il supporto didatt ico a l docente soprattutto nelle esercitazioni e nelle
+tracciamento della continuità della presenza, il monitoraggio dell'andamento
+dell'apprendimento, il supporto didatt ico a l docente soprattutto nelle esercitazioni e nelle
 verifiche in modalità sincrona, la gestione delle chat e del flusso di posta elettronica, e in generale
 di tutte le modalità operative per la gestione didattica.
-• ESPERTO NELLA GESTIONE TECNICA DELLA PIATTAFORMA MULTIMEDIALE
+- ESPERTO NELLA GESTIONE TECNICA DELLA PIATTAFORMA MULTIMEDIALE
 È necessario che il soggetto formatore si avvalga di un esperto che garantisca una corretta
 configurazione degli ambienti virtuali e la gestione tecnica della piattaforma utilizzata, in
 particolare la gestione di eventuali criticità nel funzionamento della piattaforma, intervenendo
 tempestivamente per la risoluzione di problemi di connettività, di blocchi del sistema, di
-interruzioni o malfunzionamenti. Collabora inoltre con il tutor d’aula virtuale nella profilazione
+interruzioni o malfunzionamenti. Collabora inoltre con il tutor d'aula virtuale nella profilazione
 degli utenti e nel monitoraggio degli accessi.
 3.2.3 Requisiti tecnologici e funzionali della piattaforma
-La piattaforma utilizzata dal soggetto formatore per l’erogazione dei corsi in VCS deve possedere
+La piattaforma utilizzata dal soggetto formatore per l'erogazione dei corsi in VCS deve possedere
 alcune caratteristiche tecnologiche e funzionali indispensabili per assicurare una efficace
 gestione dal punto di vista didattico, il rispetto dei requisiti legislativi in materia di formazione su
 salute e sicurezza sul lavoro e la conformità al regolamento sulla protezione dei dati personali. Di
 seguito sono riportate alcune funzionalità necessarie per assicurare livelli adeguati di usabilità,
-versatilità e interattività per l’erogazione dei corsi di formazione in modalità sincrona.
+versatilità e interattività per l'erogazione dei corsi di formazione in modalità sincrona.
 In termini di accessibilità e accessi protetti:
 - presentare una modalità di accesso al corso solo agli iscritti autorizzati. Le modalità di
 accesso possono variare da piattaforma a piattaforma ma in tutti i casi deve essere
 garantita la massima sicurezza da accessi non autorizzati dal soggetto formatore;
 - permettere tecnicamente il monitoraggio e la registrazione delle presenze, con
-tracciatura riportante l’ora iniziale e finale del collegamento e gli eventuali abbandoni dei
+tracciatura riportante l'ora iniziale e finale del collegamento e gli eventuali abbandoni dei
 
 
 ## Pagina 373
@@ -19274,37 +19274,37 @@ discenti. Tale tracciatura avrà la stessa validità del registro delle presenze
 corsi in presenza;
 - permettere la disattivazione di utility e applicazioni non strettamente funzionali alla
 didattica, soprattutto se la piattaforma utilizzata non è esclusivamente dedicata alla
-didattica. Inoltre, non dovrebbe essere consentito l’accesso tramite social login
+didattica. Inoltre, non dovrebbe essere consentito l'accesso tramite social login
 (meccanismo che permette agli utenti di autenticarsi sfruttando account e servizi offerti
 dai social network);
-- prevedere la possibilità di utilizzare un’area di repository del materiale didattico e di
+- prevedere la possibilità di utilizzare un'area di repository del materiale didattico e di
 supporto alla didattica per la sola durata del corso di formazione, con utilizzo protetto da
 parte del discente ai soli fini didattici e regolamentato ad esempio nel rispetto del
 copyright, nel divieto di diffusione verso terzi estranei al corso di formazione, nelle
 eventuali limitazioni ai download.
 In termini di interattività:
-- presentare un livello adeguato di interattività in modo tale da garantire l’interazione
+- presentare un livello adeguato di interattività in modo tale da garantire l'interazione
 sincrona tra docente e discenti, permettendo ai discenti di intervenire in diretta su
 richiesta e al docente di facilitare la partecipazione attiva con la possibilità di verificare in
 itinere le fasi di apprendimento;
 - permettere la visualizzazione, tramite finestre, dei discenti in modo da facilitare e
-stimolare l’interazione tra docenti e discenti e tra discenti e discenti, e di verificare da
+stimolare l'interazione tra docenti e discenti e tra discenti e discenti, e di verificare da
 parte del docente e/o del tutor la presenza effettiva dei singoli discenti;
-- consentire un’agevole proiezione delle presentazioni utilizzate dai docenti (slide, filmati,
-documenti etc.) e un’agevole visualizzazione delle stesse da parte dei discenti;
-- permettere l’utilizzo di un’area di chat per consentire ai discenti di comunicare con il
+- consentire un'agevole proiezione delle presentazioni utilizzate dai docenti (slide, filmati,
+documenti etc.) e un'agevole visualizzazione delle stesse da parte dei discenti;
+- permettere l'utilizzo di un'area di chat per consentire ai discenti di comunicare con il
 docente o il tutor o con gli altri discenti ad integrazione alla comunicazione audio-video;
 - consentire la creazione di classi virtuali con possibilità di suddivisione in sottogruppi
-separati “aule di fuga” (breakout rooms) per lo svolgimento di eventuali esercitazioni di
+separati "aule di fuga" (breakout rooms) per lo svolgimento di eventuali esercitazioni di
 gruppo;
 - permettere di controllare e modulare la qualità video e audio.
 In termini di usabilità e flessibilità delle modalità operative di gestione delle procedure previste:
 - permettere lo svolgimento delle verifiche intermedie e finali dei discenti esclusivamente
-in modo sincrono con l’acquisizione degli elaborati da parte del docente e/o del tutor alla
+in modo sincrono con l'acquisizione degli elaborati da parte del docente e/o del tutor alla
 fine della sessione di verifica;
 - consentire di acquisire e archiviare il consenso al trattamento dei dati da parte
-dell’interessato compresa l’acquisizione, laddove prevista dal soggetto formatore,
-dell’accettazione del rispetto del copyright, del divieto di diffusione verso terzi e di
+dell'interessato compresa l'acquisizione, laddove prevista dal soggetto formatore,
+dell'accettazione del rispetto del copyright, del divieto di diffusione verso terzi e di
 eventuali limitazioni ai download.
 Diverse piattaforme multimediali dedicate specificatamente alla formazione a distanza
 presentano spesso funzionalità avanzate aggiuntive rispetto a quelle riportate sopra, che
@@ -19321,21 +19321,21 @@ risultati delle verifiche;
 ## Pagina 374
 
 Pag. 100 a 138
-- generazione di report con l’elaborazione dei dati relativi alle valutazioni degli apprendimenti
+- generazione di report con l'elaborazione dei dati relativi alle valutazioni degli apprendimenti
 e della qualità percepita dei discenti, anche in forma aggregata.
 Connettività della postazione di utente
-La connessione della postazione dell’utente alla rete Internet deve essere stabile ed efficiente
-per permettere la fruibilità, l’usabilità e la continuità.
+La connessione della postazione dell'utente alla rete Internet deve essere stabile ed efficiente
+per permettere la fruibilità, l'usabilità e la continuità.
 Il soggetto formatore in sede di informazione preliminare dovrebbe raccomandare al discente (a
 sua esclusiva responsabilità) di verificare la stabilità e velocità di connessione della propria
 postazione, prima della iscrizione al corso e della sua fruizione.
-I dispositivi della postazione d’utente potranno essere pc o tablet. Non è consentito l’utilizzo degli
+I dispositivi della postazione d'utente potranno essere pc o tablet. Non è consentito l'utilizzo degli
 smartphone per le condizioni ergonomiche non idonee e perché generalmente non garantisce
 una sufficiente continuità della stabilità e velocità di collegamento alla rete.
 3.2.4 MODALITÀ OPERATIVE PER LA GESTIONE DELLA DIDATTICA IN VIDEOCONFERENZA
 SINCRONA
-• INFORMAZIONI PRELIMINARI PER I DISCENTI
-Prima di procedere all’iscrizione al corso di formazione, il soggetto formatore deve informare il
+- INFORMAZIONI PRELIMINARI PER I DISCENTI
+Prima di procedere all'iscrizione al corso di formazione, il soggetto formatore deve informare il
 discente (e i Datori di lavoro committenti relativamente ai corsi a loro carico) sulle caratteristiche
 tecnologiche e funzionali della piattaforma multimediale utilizzata, sui requisiti di connettività e
 delle dotazioni hardware e software della postazione utente, per consentire al discente di
@@ -19344,24 +19344,24 @@ corso in termini di continuità, stabilità di connessione e usabilità.
 Oltre alle informazioni sulle caratteristiche tecnologiche il soggetto formatore deve fornire
 alcune informazioni preliminari relative a modalità di accesso, modalità di erogazione dei
 contenuti e di svolgimento in sincrono delle verifiche intermedie e finali di apprendimento,
-modalità di assistenza e supporto durante l’erogazione del corso.
-• ISCRIZIONI
-Il soggetto formatore in sede di iscrizione, laddove necessario ai fini della verifica dell’identità del
+modalità di assistenza e supporto durante l'erogazione del corso.
+- ISCRIZIONI
+Il soggetto formatore in sede di iscrizione, laddove necessario ai fini della verifica dell'identità del
 discente, può acquisire copia di un documento di identità contenente fotografia del discente,
 senza effettuare alcun trattamento digitale di tipo biometrico.
-• MODALITÀ D’ACCESSO PROTETTO
-Le modalità di accesso (gestite normalmente dal tutor d’aula virtuale o dal docente) devono
+- MODALITÀ D'ACCESSO PROTETTO
+Le modalità di accesso (gestite normalmente dal tutor d'aula virtuale o dal docente) devono
 essere di tipo protetto cioè garantire che solo i partecipanti autorizzati possono accedere alle
 sessioni formative. In base alle caratteristiche tecnologiche della piattaforma, il soggetto
 formatore potrà utilizzare account individuali, password, link specifici, stanze di attesa (dove i
-discenti aspetteranno che gli venga concesso l’accesso alla sessione).
+discenti aspetteranno che gli venga concesso l'accesso alla sessione).
 Il tutor o il docente verificano gli avvenuti accessi e la loro registrazione sulla piattaforma (con
-l’indicazione dell’orario di accesso) e prima dell’avvio delle attività formative verificano il corretto
-funzionamento audio e video di tutti i partecipant i e l’attivazione delle altre funzionalità
-necessarie per lo svolgimento dell’evento formativo.
-• VERIFICA DELLE PRESENZE
+l'indicazione dell'orario di accesso) e prima dell'avvio delle attività formative verificano il corretto
+funzionamento audio e video di tutti i partecipant i e l'attivazione delle altre funzionalità
+necessarie per lo svolgimento dell'evento formativo.
+- VERIFICA DELLE PRESENZE
 I corsi di formazione di cui al presente Accordo, prevedono la presenza per il 90% della durata
-dell’evento formativo e dei corsi di aggiornamento. Nella formazione in videoconferenza
+dell'evento formativo e dei corsi di aggiornamento. Nella formazione in videoconferenza
 sincrona dovranno essere rispettati tali vincoli. Il tutor o il docente dovranno verificare
 
 
@@ -19370,10 +19370,10 @@ sincrona dovranno essere rispettati tali vincoli. Il tutor o il docente dovranno
 Pag. 101 a 138
 costantemente la presenza dei discenti, mediante visualizzazione delle finestre, chiamate ai
 discenti, sondaggi, richieste via chat.
-In caso in cui il discente deve assentarsi per un periodo prolungato dovrà chiedere l’abbandono
+In caso in cui il discente deve assentarsi per un periodo prolungato dovrà chiedere l'abbandono
 del collegamento che sarà successivamente ripristinato con la modalità di accesso autorizzato e
-registrato con l’orario di abbandono e di ripristino.
-• GESTIONE DELLE VERIFICHE INTERMEDIE E FINALI E DELLE ESERCITAZIONI
+registrato con l'orario di abbandono e di ripristino.
+- GESTIONE DELLE VERIFICHE INTERMEDIE E FINALI E DELLE ESERCITAZIONI
 Le verifiche dovranno essere svolte sempre in modalità sincrona e non differita, con possibilità di
 visualizzazione delle finestre dei discenti nel corso dello svolgimento. Nel caso in cui il soggetto
 formatore utilizzi funzionalità avanzate di gestione de lle verifiche queste garantiscono
@@ -19385,14 +19385,14 @@ la commissione per la verifica e il singolo discente. Qualora il soggetto format
 opportuno e funzionale ai fini della tracciabilità e traspa renza, ogni colloquio potrà essere
 registrato nel rispetto della normativa vigente sul trattamento dei dati e della privacy o, in
 alternativa, nel caso in cui non si ricorra alla registrazione del colloquio, il docente dovrà riportare
-le domande sull’apposito verbale che normalmente viene utilizzato nella formazione in presenza.
-L’esito della prova viene comunicata al discente alla fine del colloquio. La firma del discente potrà
-essere sostituita dalla registrazione audio video della comunicazione dell’esit o con presa d’atto
+le domande sull'apposito verbale che normalmente viene utilizzato nella formazione in presenza.
+L'esito della prova viene comunicata al discente alla fine del colloquio. La firma del discente potrà
+essere sostituita dalla registrazione audio video della comunicazione dell'esit o con presa d'atto
 del discente.
 Per quanto riguarda le esercitazioni individuali con finalità didattiche e non a fini valutativi si
 potrà seguire la stessa procedura delle verifiche descritta precedentemente. Se sono previste
 esercitazioni in gruppo, verrà utilizzata la funzionalità che permette di suddividere i discenti in
-sottogruppi mediante le cosiddette “aule di fuga” ( breakout rooms ). In tal modo i gruppi
+sottogruppi mediante le cosiddette "aule di fuga" ( breakout rooms ). In tal modo i gruppi
 lavoreranno separatamente nella propria aula.
 3.3 REQUISITI ORGANIZZATIVI E TECNICI, MODALITÀ E PROCEDURE OPERATIVE PER I CORSI
 E-LEARNING
@@ -19404,7 +19404,7 @@ Il soggetto formatore erogatore del corso, compreso il caso in cui sia lo stesso
 dovrà:
 - essere dotato di ambienti (sede) e struttura organizzativa idonei alla gestione dei processi
 formativi in modalità e -learning, della piattaforma tecnologica e del monitoraggio
-continuo del processo (LMS – Learning Management System);
+continuo del processo (LMS - Learning Management System);
 - garantire la disponibilità dei profili di competenze per la gestione didattica e tecnica della
 formazione e -learning quali: responsabile del progetto formativo; tutoraggio di
 contenuto e di processo; manutenzione e gestione tecnica della piattaforma;
@@ -19420,14 +19420,14 @@ e-learning (LMS) in grado di monitorare e di certificare:
 - lo svolgimento ed il completamento delle attività didattiche di ciascun utente;
 - la partecipazione attiva del discente;
 - la tracciabilità di ogni attività svolta durante il collegamento al sistema e la durata;
-- la tracciabilità dell’utilizzo anche delle singole unità didattiche strutturate in Learning
+- la tracciabilità dell'utilizzo anche delle singole unità didattiche strutturate in Learning
 Objects (LO);
-- la regolarità e la progressività di utilizzo del sistema da parte dell’utente;
+- la regolarità e la progressività di utilizzo del sistema da parte dell'utente;
 - le modalità e il superamento delle valutazioni di apprendimento intermedie e finali
 realizzabili in modalità e-learning.
 Ogni corso o modulo dovrà essere realizzato in conformità allo standard internazionale SCORM
-(Shareable Content Object Reference Model) (“Modello di riferimento per gli oggetti di
-contenuto condivisibile”) o eventuale sistema equivalente, al fine di garant ire il tracciamento
+(Shareable Content Object Reference Model) ("Modello di riferimento per gli oggetti di
+contenuto condivisibile") o eventuale sistema equivalente, al fine di garant ire il tracciamento
 della fruizione degli oggetti didattici (Learning Objects) nella piattaforma LMS utilizzata.
 3.3.3 REQUISITI RELATIVI ALLE RISORSE PROFESSIONALI E PROFILI DI COMPETENZE PER I
 CORSI EROGATI IN E-LEARNING
@@ -19435,27 +19435,27 @@ Per erogare la formazione in e -learning il soggetto formatore deve avvalersi di
 professionali con particolari competenze, aggiuntive a quelle generali riportate in
 precedenza nel paragrafo 1.7, con conoscenze, abilità e responsabilità idonee a gest ire e
 presidiare i processi di produzione caratterizzanti tale formazione. Tali figure devono essere
-disponibili nell’organizzazione del soggetto formatore indipendentemente dalla natura
+disponibili nell'organizzazione del soggetto formatore indipendentemente dalla natura
 contrattuale.
-• RESPONSABILE DEL PROGETTO FORMATIVO
+- RESPONSABILE DEL PROGETTO FORMATIVO
 Soggetto avente comprovata e documentata esperienza (almeno triennale) in materia di
 sicurezza e salute nei luoghi di lavoro, in possesso dei requisiti richiesti per formatori/docenti
 dalla legislazione vigente con specifiche competenze riguardanti la prog ettazione formativa
 in modalità e-learning.
-• MENTOR/TUTOR DI CONTENUTO
+- MENTOR/TUTOR DI CONTENUTO
 Figura professionale esperta dei contenuti in possesso dei requisiti previsti per i
 formatori/docenti dalla legislazione vigente con specifiche competenze riguardanti la
 progettazione formativa in modalità e-learning che assicura e presidia il supporto scientifico
-di assistenza ai discenti per l’apprendimento dei contenuti, fornendo chiarimenti ed
+di assistenza ai discenti per l'apprendimento dei contenuti, fornendo chiarimenti ed
 approfondimenti ed integrazioni in un arco di tempo adeguato alla efficacia didattica.
-• TUTOR DI PROCESSO
+- TUTOR DI PROCESSO
 Il tutor di processo deve possedere le conoscenze relative alle funzionalità della piattaforma
 per assicurare il supporto ai partecipanti, gestire le dinamiche di interazione e di interfaccia
-con i discenti facilitando l’accesso ai diversi ambienti didattici e ai contenuti, monitorando e
-valutando la dinamica di apprendimento e l’efficacia delle soluzioni adottate per la fruizione
+con i discenti facilitando l'accesso ai diversi ambienti didattici e ai contenuti, monitorando e
+valutando la dinamica di apprendimento e l'efficacia delle soluzioni adottate per la fruizione
 dei contenuti.
-• SVILUPPATORE DELLA PIATTAFORMA
-Soggetto che sviluppa il progetto formativo nell’ambito della piattaforma, organizzando gli
+- SVILUPPATORE DELLA PIATTAFORMA
+Soggetto che sviluppa il progetto formativo nell'ambito della piattaforma, organizzando gli
 elementi tecnici e metodologici e garantendo le attività di gestione tecnica della piattaforma.
 
 
@@ -19480,14 +19480,14 @@ trasferimento dei contenuti, i criteri di accessibilità e usabilità;
 garantendo gli aspetti relativi al trattamento dei dati personali ai sensi della normativa
 vigente;
 7) le eventuali competenze e titoli di ingresso degli utenti al percorso formativo;
-8) le modalità di tracciamento delle attività dell’intero percorso formativo;
+8) le modalità di tracciamento delle attività dell'intero percorso formativo;
 9) il tempo di disponibilità minima e massima di fruizione del percorso formativo e i tempi
 di fruizione dei contenuti (unità didattiche);
-10) le modalità di verifica dell’apprendimento sia intermedie che finali.
+10) le modalità di verifica dell'apprendimento sia intermedie che finali.
 La scheda progettuale, riportante i dati di cui sopra, dovrà essere resa disponibile al discente che,
-all’atto dell’iscrizione, dovrà dichiarare la presa visione e accettazione.
+all'atto dell'iscrizione, dovrà dichiarare la presa visione e accettazione.
 3.4 MODALITÀ MISTA
-Con il termine modalità mista o blended si intende l’erogazione di percorsi di formazione che
+Con il termine modalità mista o blended si intende l'erogazione di percorsi di formazione che
 alternano momenti di formazione a distanza (sincrona o asincrona) con momenti di formazione
 in presenza fisica. Questa modalità permette di ridurre il rischio del senso di isolamento che può
 essere attribuito alla formazione a distanza e di mantenere alcuni vantaggi (i discenti possono
@@ -19495,9 +19495,9 @@ organizzare autonomamente i propri ritmi di studio; si riducono i tempi d i spos
 raggiungere il luogo di svolgimento della formazione in presenza, il percorso può essere
 maggiormente personalizzato).
 In presenza fisica possono essere realizzati momenti strategici dei percorsi formativi, che il
-soggetto formatore ritiene utile ai fini dell’efficacia didattica.
+soggetto formatore ritiene utile ai fini dell'efficacia didattica.
 La presenza fisica è utile per:
-- socializzare e instaurare il clima d’aula;
+- socializzare e instaurare il clima d'aula;
 - sostenere la motivazione;
 - familiarizzare con la tecnologia da utilizzare in modalità a distanza;
 - effettuare attività didattiche pratiche che non posso essere effettuate a distanza;
@@ -19541,7 +19541,7 @@ Consentita Non consentita Non consentita
 Operatori addetti alla
 conduzione delle
 attrezzature di cui
-all’articolo 73, comma
+all'articolo 73, comma
 5, del decreto
 legislativo 9 aprile 2008,
 n. 81/2008
@@ -19574,16 +19574,16 @@ Consentita Non consentita Non consentita
 Operatori addetti alla
 conduzione delle
 attrezzature di cui
-all’articolo 73, comma 5, del
+all'articolo 73, comma 5, del
 decreto legislativo 9 aprile
 2008, n. 81/2008
 Consentita Non consentita Non consentita
 4 CONFORMITÀ AL REGOLAMENTO SULLA PROTEZIONE DEI DATI PERSONALI
-I soggetti formatori, nello svolgimento delle attività formative erogate all’utenza, devono
+I soggetti formatori, nello svolgimento delle attività formative erogate all'utenza, devono
 conformarsi a quanto previsto da lle disposizioni vigenti in materia di protezione dei dati
 personali.
 5 MONITORAGGIO E VALUTAZIONE DEL GRADIMENTO
-La valutazione del gradimento è una modalità di rilevazione della soddisfazione dell’utente in
+La valutazione del gradimento è una modalità di rilevazione della soddisfazione dell'utente in
 relazione ai fattori che caratterizzano la qualità formativa in termini di:
 - qualità didattica (competenza dei docenti, adeguatezza delle metodologie e dei materiali
 didattici, adeguatezza dei contenuti, ecc.);
@@ -19592,14 +19592,14 @@ assistenza, ecc.);
 - utilità percepita (trasferibilità a livello lavorativo, rispondenza alle aspettative formative,
 adeguatezza degli argomenti trattati).
 La rilevazione del gradimento può essere utilizzata:
-- ex post, a ridosso dell’immediata conclusione del percorso formativo, che è la modalità
+- ex post, a ridosso dell'immediata conclusione del percorso formativo, che è la modalità
 normalmente utilizzata per la valutazione del gradimento;
 
 
 ## Pagina 380
 
 Pag. 106 a 138
-- in itinere (all’interno della valutazione di processo). In tal caso si parla spesso di azione di
+- in itinere (all'interno della valutazione di processo). In tal caso si parla spesso di azione di
 monitoraggio in progress, che consente di apportare aggiustamenti durante il prosieguo
 del corso.
 Lo strumento più utilizzato per la rilevazione dei dati e informazioni sulla qualità percepita dai
@@ -19615,7 +19615,7 @@ Un questionario di gradimento è generalmente composto di un mix di domande chiu
 I principali indicatori di rilevazione della qualità percepita riguardano la qualità didattica e
 organizzativa.
 La qualità didattica con focus su:
-- L’efficacia comunicativa e la chiarezza espositiva dei docenti
+- L'efficacia comunicativa e la chiarezza espositiva dei docenti
 - Il livello di interazione e coinvolgimento dei discenti
 - La metodologia didattica
 - I contenuti della didattica
@@ -19626,13 +19626,13 @@ La qualità organizzativa con focus su:
 - Organizzazione d'aula
 - Tecnologie utilizzate
 - Assistenza e tutoraggio
-L’utilità percepita con focus su:
-- L’ interesse per gli argomenti;
+L'utilità percepita con focus su:
+- L' interesse per gli argomenti;
 - La soddisfazione delle aspettative;
 - Il raggiungimento degli obiettivi;
 - La trasferibilità nel contesto di lavoro.
 La compilazione dei questionari è anonima e può essere effettuata al termine di ogni UD o
-dell’intero corso di formazione.
+dell'intero corso di formazione.
 I soggetti formatori possono dotarsi di un sistema di elaborazione dei dati, di misurazione degli
 indicatori e di reportistica dei risultati.
 I dati e le informazioni raccolti vengono analizzati al fine di individuare quali sono i processi che
@@ -19642,35 +19642,35 @@ presentano criticità e le aree di miglioramento su cui intervenire.
 ## Pagina 381
 
 Pag. 107 a 138
-6. VERIFICA DELL’APPRENDIMENTO
+6. VERIFICA DELL'APPRENDIMENTO
 6.1 VERIFICA DEGLI APPRENDIMENTI
-La verifica dell’apprendimento rappresenta la prima evidenza circa il raggiungimento degli
+La verifica dell'apprendimento rappresenta la prima evidenza circa il raggiungimento degli
 obiettivi e dei risultati attesi al termine del corso. Secondo European Qualifications Framework
-(EQF) i risultati dell’apprendimento sono la “ descrizione di ciò che un discente conosce, capisce
-ed è in grado di realizzare al termine di un processo di apprendimento ” e nel sistema europeo e
+(EQF) i risultati dell'apprendimento sono la " descrizione di ciò che un discente conosce, capisce
+ed è in grado di realizzare al termine di un processo di apprendimento " e nel sistema europeo e
 nazionale di riferimento sono definiti in termini di conoscenze, abilità e responsabilità e
 autonomia come segue:
-• conoscenze risultato dell'assimilazione di informazioni attraverso l'apprendimento. Le
+- conoscenze risultato dell'assimilazione di informazioni attraverso l'apprendimento. Le
 conoscenze sono un insieme di fatti, principi, teorie e pratiche relative ad un settore di
 lavoro o di studio. Nel contesto del Quadro europeo delle qualifiche le conoscenze sono
 descritte come teoriche e/o pratiche.
-• abilità indicano le capacità di applicare conoscenze e di utilizzare know -how per portare
+- abilità indicano le capacità di applicare conoscenze e di utilizzare know -how per portare
 a termine compiti e risolvere problemi. Nel contesto del Quadro europeo delle qualifiche
 le abilità sono descritte come cognitive (comprendenti l'uso del pensiero logico, intuitivo
 e creativo) o pratiche (comprendenti l'abilità manuale e l'uso di metodi, materiali,
 strumenti).
-• competenze comprovata capacità di utilizzare conoscenze, abilità e capacità personali,
+- competenze comprovata capacità di utilizzare conoscenze, abilità e capacità personali,
 sociali e/o metodologiche, in situazioni di lavoro o di studio e nello sviluppo professionale
 e personale. Nel contesto del Quadro europeo delle qualifiche le competenze sono
 descritte in termini di responsabilità e di autonomia.
 Lo scopo delle verifiche di apprendimento è quello di misurare il cambiamento indotto nei
 partecipanti dall'intervento formativo, in termini di acquisizione di nuove conoscenze, abilità,
 competenze o di rafforzamento e riqualificazione di quelle possedute.
-Nella verifica dell’apprendimento possono essere valutate, in relazione agli obiettivi formativi e
+Nella verifica dell'apprendimento possono essere valutate, in relazione agli obiettivi formativi e
 ai risultati attesi specifici di ogni percorso formativo:
 - le conoscenze teoriche, tecniche e metodologiche;
 - la capacità di analisi e di decisione;
-- la capacità dell’uso di strumenti e attrezzature di lavoro;
+- la capacità dell'uso di strumenti e attrezzature di lavoro;
 - la capacità di applicare conoscenze, abilità e comportamenti per il successivo
 trasferimento in ambito lavorativo.
 6.2 INDICAZIONI METODOLOGICHE E OPERATIVE PER LA GESTIONE DELLE VERIFICHE DI
@@ -19679,50 +19679,50 @@ La verifica dovrà essere esaustiva e completa in modo da permettere una valutaz
 argomenti affrontati nel corso e secondo quanto previsto nella progettazione di dettaglio (micro)
 delle singole unità didattiche.
 A livello generale è opportuno che le prove vengano predisposte rispettando i seguenti criteri:
-• Coerenza con gli obiettivi e i risultati attesi individuati nel corso ed in ciascuna unità
+- Coerenza con gli obiettivi e i risultati attesi individuati nel corso ed in ciascuna unità
 didattica con evidenza delle conoscenze, abilità e competenze valutate;
-• Mappatura completa dell’intera gamma dei contenuti e degli obiettivi oggetto del corso;
-• Limitata ambiguità e interpretazioni personali;
+- Mappatura completa dell'intera gamma dei contenuti e degli obiettivi oggetto del corso;
+- Limitata ambiguità e interpretazioni personali;
 
 
 ## Pagina 382
 
 Pag. 108 a 138
-• Fornitura di criteri chiari di correzione delle prove, in particolare fornendo le griglie di
+- Fornitura di criteri chiari di correzione delle prove, in particolare fornendo le griglie di
 correzione per le simulazioni, le esercitazioni ed eventuali project work;
-• Il “peso” delle verifiche intermedie e quella finale.
+- Il "peso" delle verifiche intermedie e quella finale.
 Le verifiche possono essere effettuate in tempi diversi (in ingresso, in itinere e finali) e con
 tecniche e strumenti diversi (test, domande aperte, colloquio, project work, simulazioni, prove
 pratiche) e valutate sulla base dei criteri definiti nella fase di progettazione. Le tecniche e gli
 strumenti valutativi degli apprendimenti dipendono dal tipo di competenza da verificare,
-dall’architettura del progetto formativo e dagli obiettivi formativi.
+dall'architettura del progetto formativo e dagli obiettivi formativi.
 La verifica in ingresso è finalizzata ad individuare i livelli di partenza e le competenze pregresse
-dei partecipanti ad un percorso formativo. Viene utilizzata quando dall’analisi dei fabbisogni non
-emerge chiaramente un omogeneo livello di competenze in ingresso dei partecipanti. L’utilità di
+dei partecipanti ad un percorso formativo. Viene utilizzata quando dall'analisi dei fabbisogni non
+emerge chiaramente un omogeneo livello di competenze in ingresso dei partecipanti. L'utilità di
 effettuare prove di verifica in ingresso è quella di poter confrontare i risultati con le prove di
 verifica finali e misurare il gap tra le conoscenze/ abilità/ competenze pregresse possedute e
 quelle acquisite al te rmine del corso. Le verifiche in ingresso servono anche a conoscere le
 motivazioni personali o organizzative.
-Le verifiche in itinere hanno l’obiettivo di monitorare il livello di apprendimento durante lo
+Le verifiche in itinere hanno l'obiettivo di monitorare il livello di apprendimento durante lo
 svolgimento del corso allo scopo di riadattare gli interventi durante la fase di erogazione della
-formazione e di permettere al discente di riscontrare i propri progressi nell’apprendimento in
+formazione e di permettere al discente di riscontrare i propri progressi nell'apprendimento in
 maniera continua. In tal senso, garantendo i tempi previsti per ciascuna unità didattica, i
 momenti di verifica intermedia, la loro discussione e approfondimento possono risultare utili per
-ridefinire concetti, nozioni, procedure poco chiare e permettere al discente di riscontrare l’utilità
-di quanto appreso ai fini dell’esercizio delle proprie competenze.
-La verifica finale costituisce un importante momento della valutazione dell’efficacia didattica del
+ridefinire concetti, nozioni, procedure poco chiare e permettere al discente di riscontrare l'utilità
+di quanto appreso ai fini dell'esercizio delle proprie competenze.
+La verifica finale costituisce un importante momento della valutazione dell'efficacia didattica del
 corso.
 Attraverso le verifiche intermedie, ove previste, e finali si misureranno e verranno valutate:
-• conoscenze nozionistiche relative al sapere (di fatti, di procedure, di concetti, di principi
+- conoscenze nozionistiche relative al sapere (di fatti, di procedure, di concetti, di principi
 generali legati al funzionamento di situazioni, di cose e fatti, ecc.) che potranno essere
 misurate con test/ domande aperte;
-• conoscenza di procedure organizzative e comportamentali anche di tipo
+- conoscenza di procedure organizzative e comportamentali anche di tipo
 tecnico/professionali che richiedono capacità di ragionamento e di analisi, in questo caso
 la verifica sarà costituita da domande aperte su casi reali, esercitazioni applicative, analisi
 di casi;
-• capacità relative al saper fare, in questo caso la verifica sarà costituita da prove e
+- capacità relative al saper fare, in questo caso la verifica sarà costituita da prove e
 simulazioni pratiche e operative;
-• comprensione e applicazione di metodologie comportamentali legate ad aspetti
+- comprensione e applicazione di metodologie comportamentali legate ad aspetti
 trasversali, in particolare per le figure che rivestono ruoli decisionali, di vigilanza e che
 attengono al saper comunicare, saper lavorare in gruppo, usare strumenti concettuali per
 organizzare le conoscenze acquisite. In questo caso la verifica si realizzerà attraverso
@@ -19743,7 +19743,7 @@ aziendale in modo tale da rendere possibile la trasposizione dei concetti e dei 
 riguardo alla salute e sicurezza negli ambienti di lavoro presi in esame. La simulazione può
 prevedere la redazione di un project work, tecnica molto efficace in termini di applicabilità e
 ricaduta in ambito aziendale, prodotto individualmente o in gruppo di lavoro. Il project work può
-anche essere realizzato durante lo sviluppo d el percorso formativo e l’elaborato finale potrà
+anche essere realizzato durante lo sviluppo d el percorso formativo e l'elaborato finale potrà
 essere presentato in plenaria.
 6.3 MODALITÀ E CRITERI DI VERIFICA DEGLI APPRENDIMENTI DEI CORSI DI FORMAZIONE E
 DI AGGIORNAMENTO (TABELLE CORSI/MODALITÀ DI VERIFICA)
@@ -19767,7 +19767,7 @@ inquinamento o confinati
 Test e
 Prove pratiche
 Operatori addetti alla conduzione delle
-attrezzature di cui all’articolo 73, comma 5, del
+attrezzature di cui all'articolo 73, comma 5, del
 decreto legislativo 9 aprile 2008, n. 81/2008
 Prove pratiche
 Test: somministrabili anche in itinere, per un totale minimo di 30 domande ciascuna con almeno
@@ -19779,7 +19779,7 @@ Simulazione: simulazione finalizzata alla verifica delle competenze tecnico-prof
 al ruolo rivestito nel contesto lavorativo;
 Prove pratiche: previste per i lavoratori che operano in ambiente confinato e di sospetto di
 inquinamento e lavoratori che utilizzano attrezzature di lavoro da eseguire come riportato nei
-punti 7 e 8, parte II dell’Accordo.
+punti 7 e 8, parte II dell'Accordo.
 
 
 ## Pagina 384
@@ -19795,17 +19795,17 @@ Lavoratori, datori di lavoro e lavoratori
 autonomi che operano in ambienti
 sospetti di inquinamento o confinati
 Prova pratica e
-Colloquio in relazione all’oggetto dell’aggiornamento
+Colloquio in relazione all'oggetto dell'aggiornamento
 Operatori addetti alla conduzione delle
-attrezzature di cui all’articolo 73, comma
+attrezzature di cui all'articolo 73, comma
 5, del decreto legislativo 9 aprile 2008, n.
 81/2008
 Prova pratica e
-Colloquio in relazione all’oggetto dell’aggiornamento
+Colloquio in relazione all'oggetto dell'aggiornamento
 Test: minimo 10 domande ciascuna con almeno tre risposte alternative (esito positivo dato dalla
-risposta corretta ad almeno il 70% delle domande) in relazione all’oggetto dell’aggiornamento;
-Colloquio individuale: finalizzato a verificare le competenze acquisite in relazione all’oggetto
-dell’aggiornamento;
+risposta corretta ad almeno il 70% delle domande) in relazione all'oggetto dell'aggiornamento;
+Colloquio individuale: finalizzato a verificare le competenze acquisite in relazione all'oggetto
+dell'aggiornamento;
 Prova pratica: consistente nella verifica delle capacità di utilizzare in sicurezza le attrezzature di
 lavoro o di operare in ambiente confinato e di sospetto di inquinamento.
 
@@ -19813,49 +19813,49 @@ lavoro o di operare in ambiente confinato e di sospetto di inquinamento.
 ## Pagina 385
 
 Pag. 111 a 138
-7 VERIFICA DELL’ EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO DELLA
+7 VERIFICA DELL' EFFICACIA DELLA FORMAZIONE DURANTE LO SVOLGIMENTO DELLA
 PRESTAZIONE LAVORATIVA
 Il datore di lavoro, oltre ad assicurare che ciascun lavoratore riceva una formazione sufficiente
-ed adeguata in merito ai rischi specifici, deve, pertanto, anche verificarne l’efficacia durante lo
+ed adeguata in merito ai rischi specifici, deve, pertanto, anche verificarne l'efficacia durante lo
 svolgimento della prestazione di lavoro.
-La valutazione dell’efficacia della formazione, parte integrante del processo formativo, ha lo
+La valutazione dell'efficacia della formazione, parte integrante del processo formativo, ha lo
 scopo di verificare e misurare l'effettivo cambiamento che la formazione ha avuto sui
-partecipanti, attraverso l’interiorizzazione di concetti e l’acquisizione d elle competenze
-necessarie, rispetto all’esercizio del proprio ruolo in azienda, con un effetto diretto sia
-sull’efficacia che sull’efficienza del funzionamento organizzativo del sistema prevenzionale. La
-valutazione dell’efficacia risulta necessaria per r ilevare informazioni utili a supportare i processi
+partecipanti, attraverso l'interiorizzazione di concetti e l'acquisizione d elle competenze
+necessarie, rispetto all'esercizio del proprio ruolo in azienda, con un effetto diretto sia
+sull'efficacia che sull'efficienza del funzionamento organizzativo del sistema prevenzionale. La
+valutazione dell'efficacia risulta necessaria per r ilevare informazioni utili a supportare i processi
 decisionali aziendali e assume una funzione migliorativa, centrata sui processi e sui loro legami
 con i risultati.
 Tale valutazione dovrà essere svolta a posteriori, a una certa distanza di tempo dal termine del
-corso, durante lo svolgimento della prestazione lavorativa e dovrà constatare l’applicazione al
+corso, durante lo svolgimento della prestazione lavorativa e dovrà constatare l'applicazione al
 lavoro di:
-• conoscenze, abilità e competenze acquisite dai discenti mediante l’intervento formativo;
-• comportamenti e pratiche abituali inerenti all’organizzazione, quali la corretta
+- conoscenze, abilità e competenze acquisite dai discenti mediante l'intervento formativo;
+- comportamenti e pratiche abituali inerenti all'organizzazione, quali la corretta
 applicazione di procedure, schede lavorative, protocolli, ecc.
-Al fine di verificare l’efficacia dell’attività formativa nei confronti dei soggetti di cui all’art.37
+Al fine di verificare l'efficacia dell'attività formativa nei confronti dei soggetti di cui all'art.37
 comma 2 lett. b) del D.lgs. 81/08 durante lo svolgimento della prestazione lavorativa, il datore di
 lavoro, eventualmente anche con il supporto del RSPP può utilizzare una delle seguenti modalità:
-1. Analisi infortunistica aziendale. Per la valutazione dell’efficacia dell’attività formativa
-può essere adottato un modello di studio pre -post, misurando l’incidenza infortunistica
-prima e dopo l’intervento formativo inclusi i “mancati infortuni”. Le informazioni raccolte
-consentono di effettuare l’analisi pre-post sugli infortuni e i “mancati infortuni” nell’arco
-temporale prescelto. Laddove l’analisi evidenzi carenze nelle conoscenze, competenze e
+1. Analisi infortunistica aziendale. Per la valutazione dell'efficacia dell'attività formativa
+può essere adottato un modello di studio pre -post, misurando l'incidenza infortunistica
+prima e dopo l'intervento formativo inclusi i "mancati infortuni". Le informazioni raccolte
+consentono di effettuare l'analisi pre-post sugli infortuni e i "mancati infortuni" nell'arco
+temporale prescelto. Laddove l'analisi evidenzi carenze nelle conoscenze, competenze e
 abilità dei lavoratori, si dovrà valutare la possibilità di adottare azioni correttive.
 2. Questionari da somministrare al personale. Si tratta di valutare tramite un questionario
-di autovalutazione l’acquisizione di comportamenti sicuri da parte dei lavoratori
-destinatari dell’attività formativa. Il questionario può essere elaborato in base a diversi
+di autovalutazione l'acquisizione di comportamenti sicuri da parte dei lavoratori
+destinatari dell'attività formativa. Il questionario può essere elaborato in base a diversi
 elementi: la percezione del pericolo da parte dei lavoratori, la conoscenza delle misure di
-sicurezza aziendali, la percezione dell’esperienza da parte del lavoratore.
-3. Check list di valutazione. La check list deve misurare la valutazione di efficacia dell’attività
-formativa attraverso l’osservazione dei comportamenti dei lavoratori nei confronti delle
+sicurezza aziendali, la percezione dell'esperienza da parte del lavoratore.
+3. Check list di valutazione. La check list deve misurare la valutazione di efficacia dell'attività
+formativa attraverso l'osservazione dei comportamenti dei lavoratori nei confronti delle
 misure relative alla salute e sicurezza del lavoro. Si deve pertanto definire una checklist
 che risponda ad una serie di osservazioni per poter verificare se il lavoratore ha adottato
 dei comportamenti sicuri. Ad esempio, si possono individuare i seguenti elementi: utilizzo
 dei DPI, corretto utilizzo attrezzature, rispetto delle procedure di lavoro. Il check diventa,
-nel contempo, strumento di valutazione dell’efficacia della formazione durante l’attività
+nel contempo, strumento di valutazione dell'efficacia della formazione durante l'attività
 lavorativa e strumento di controllo da parte dei soggetti della prevenzione aziendale.
-Nell’ambito della riunione periodica deve essere verificato il raggiungimento dei risultati attesi e
-rilevata l’efficacia formativa attraverso gli indicatori, i criteri e gli strumenti stabiliti in sede di
+Nell'ambito della riunione periodica deve essere verificato il raggiungimento dei risultati attesi e
+rilevata l'efficacia formativa attraverso gli indicatori, i criteri e gli strumenti stabiliti in sede di
 progettazione.
 
 
@@ -19863,16 +19863,16 @@ progettazione.
 
 Pag. 112 a 138
 PARTE V -RICONOSCIMENTO DEI CREDITI FORMATIVI
-Ai fini degli esoneri di frequenza e per il riconoscimento dei crediti formativi descritti nell’allegato
-III occorre fornire evidenza documentale ad es. mediante attestato dal quale si evince l’esonero
+Ai fini degli esoneri di frequenza e per il riconoscimento dei crediti formativi descritti nell'allegato
+III occorre fornire evidenza documentale ad es. mediante attestato dal quale si evince l'esonero
 dal/dai percorso/percorsi formativo/i.
-Ai fini dell’aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
+Ai fini dell'aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
 formatore per la sicurezza sul lavoro, ai sensi del decreto interministeriale 6 marzo 2013 e
 successive modifiche e integrazioni, è da ritenersi valida e viceversa.
-Ai fini dell’aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
-coordinatore per la sicurezza, ai sensi dell’allegato XIV del d.lgs. n. 81/2008 nonché secondo
+Ai fini dell'aggiornamento per RSPP e ASPP, la partecipazione a corsi di aggiornamento per
+coordinatore per la sicurezza, ai sensi dell'allegato XIV del d.lgs. n. 81/2008 nonché secondo
 quanto previsto dal presente accordo, è da ritenersi valida e viceversa.
-Le modalità di riconoscimento de i crediti formativi sono riportate in premessa nell’allegato III,
+Le modalità di riconoscimento de i crediti formativi sono riportate in premessa nell'allegato III,
 con i crediti formativi riconosciuti. Si evidenzia che laddove la tipologia di formazione dei soggetti
 non sia riportata nelle tabelle, nessun credito formativo è riconosciuto.
 
@@ -19881,50 +19881,50 @@ non sia riportata nelle tabelle, nessun credito formativo è riconosciuto.
 
 Pag. 113 a 138
 PARTE V I CONTROLLO DELLE ATTIVIT À FORMATIVE E MONITORAGGIO
-DELL’APPLICAZIONE DELL’ACCORDO
-Secondo l’art. 37 comma 2 lettera b-bis del d.lgs. n. 81/2008, gli Organi di vigilanza in materia di
-salute e sicurezza nei luoghi di lavoro prevedono, nell’ambito della loro attività e delle proprie
+DELL'APPLICAZIONE DELL'ACCORDO
+Secondo l'art. 37 comma 2 lettera b-bis del d.lgs. n. 81/2008, gli Organi di vigilanza in materia di
+salute e sicurezza nei luoghi di lavoro prevedono, nell'ambito della loro attività e delle proprie
 competenze, anche la pianificazione di controlli sulle attività formative e sul rispetto della
 normativa di riferimento, sia da parte dei soggetti che erogano la formazione, sia da parte dei
 soggetti destinatari della stessa.
-Con l’atto di cui al punto 1 parte I del presente accordo saranno altresì definiti le modalità di
+Con l'atto di cui al punto 1 parte I del presente accordo saranno altresì definiti le modalità di
 monitoraggio e controllo.
 
 
 ## Pagina 388
 
 Pag. 114 a 138
-PARTE VII– ALTRE DISPOSIZIONI
+PARTE VII- ALTRE DISPOSIZIONI
 1 ENTRATA IN VIGORE
 Il presente accordo entra in vigore il giorno della pubblicazione nella Gazzetta Ufficiale della
 Repubblica italiana.
 2 DISPOSIZIONI TRANSITORIE
-In fase di prima applicazione e comunque non oltre dodici mesi dall’entrata in vigore del presente
+In fase di prima applicazione e comunque non oltre dodici mesi dall'entrata in vigore del presente
 accordo, possono essere avviati i corsi secondo quanto previsti degli accordi Stato -Regioni
-abrogati al successivo punto 3 nonché dell’allegato XIV del d.lgs. n. 81/2008 vigente prima
-dell’entrata in vigore del presente accordo.
-Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui all’art. 37 del
+abrogati al successivo punto 3 nonché dell'allegato XIV del d.lgs. n. 81/2008 vigente prima
+dell'entrata in vigore del presente accordo.
+Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui all'art. 37 del
 d.lgs. n. 81/2008, i datori di lavoro sono tenuti a frequentare il corso di formazione di cui alla
 parte II, punto 3, del presente accordo in modo che lo stesso venga concluso entro e non oltre il
-termine di 24 mesi dall’entrata in vigore del presente accordo. I corsi di formazione per datore di
+termine di 24 mesi dall'entrata in vigore del presente accordo. I corsi di formazione per datore di
 lavoro, già erogati alla data di entrata in vigore del presente accordo, i cui contenuti siano
-conformi al prese nte accordo sono riconosciuti. L’aggiornamento dei suddetti corsi parte dalla
-data di fine corso riportata nell’attestato.
+conformi al prese nte accordo sono riconosciuti. L'aggiornamento dei suddetti corsi parte dalla
+data di fine corso riportata nell'attestato.
 RICONOSCIMENTO FORMAZIONE PREGRESSA LAVORATORI, DIRIGENTI E PREPOSTI
-Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato-Regioni
+Per i lavoratori sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato-Regioni
 del 21 dicembre 2011 per i quali è riconosciuto credito formativo totale.
 DIRIGENTI
-Per i dirigenti sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni
+Per i dirigenti sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni
 del 21 dicembre 2011, per il quali è riconosciuto credito formativo totale.
 PREPOSTI
-Per i preposti sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni
+Per i preposti sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni
 del 21 dicembre 2011, per il quali è riconosciuto credito formativo totale.
-L’obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento
+L'obbligo di aggiornamento per il preposto, per il quale il corso di formazione o aggiornamento
 sia stato erogato da più di 2 anni dalla data di entrata in vigore del presente accordo, dovrà essere
 ottemperato entro 12 mesi dalla data di entrata in vigore del presente accordo.
 RICONOSCIMENTO CORSO PER DATORE DI LAVORO CHE SVOLGE DIRETTAMENTE I COMPITI DI
-PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell’art. 34 del d.lgs. n. 81/2008
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni 21 dicembre
+PREVENZIONE E PROTEZIONE DAI RISCHI ai sensi dell'art. 34 del d.lgs. n. 81/2008
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni 21 dicembre
 2011 n 223 per i quali sono riconosciuti i crediti formativi come riportato nella tabella
 sottoindicata e alle condizioni ivi indicate.
 
@@ -19950,10 +19950,10 @@ e zootecnia (16 ore)
 Modulo integrativo 2:
 Pesca (12 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- A 01 02 -03
 (agricoltura,
@@ -19965,10 +19965,10 @@ Credito totale
 Modulo integrative 3:
 Costruzioni (16 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- F
 (costruzioni)
@@ -19978,10 +19978,10 @@ Modulo integrativo 4 -
 chimico Petrolchimico
 (16 ore)
 Qualora
-l’attestato
+l'attestato
 precedentemente
 rilasciato riporti
-l’indicazione del
+l'indicazione del
 Codice Ateco
 2007- C 19
 (fabbricazione dl
@@ -19997,7 +19997,7 @@ di prodotti chimici
 
 Pag. 116 a 138
 RICONOSCIMENTO FORMAZIONE PER RSPP E ASPP
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 7 luglio
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 7 luglio
 20163 per i moduli A e C, per il quali è riconosciuto credito formativo totale, nonché per il modulo
 B come riportato nella tabella sottoindicata.
 Accordo Stato Regione 128
@@ -20008,7 +20008,7 @@ Modulo B comune Modulo B specialistico
 Modulo B Comune Credito totale
 Modulo B-SP1: Agricoltura -
 Pesca (12 ore) già
-riconosciuto al Modulo B1 –
+riconosciuto al Modulo B1 -
 Accordo 2006
 già riconosciuto al Modulo
 B2
@@ -20020,7 +20020,7 @@ per Modulo B-SP2: Pesca (12 ore)
 Modulo B -SP2: Attività
 Estrattive - Costruzioni (16
 ore) già riconosciuto al
-Modulo B3 dell’accordo
+Modulo B3 dell'accordo
 2006
 _____________
 Credito totale per Modulo B -SP3:
@@ -20028,24 +20028,24 @@ Costruzioni (16 ore)
 Modulo B -SP3: Sanità
 residenziale (12 ore) già
 riconosciuto al Modulo B7
-dell’accordo 2006
+dell'accordo 2006
 ______________
 Credito totale per Modulo B -SP4:
 Sanità residenziale (12 ore
 Modulo B -SP4: Chimico -
 Petrolchimico (16 ore) già
 riconosciuto al Modulo B5
-dell’accordo 2006
+dell'accordo 2006
 __________________
 Credito totale per Modulo B -SP5:
 Chimico - Petrolchimico (16 ore)
 RICONOSCIMENTO FORMAZIONE PREGRESSA PER I COORDINATORI PER LA
-PROGETTAZIONE E PER L’ ESECUZIONE DEI LAVORI (ALLEGATO XIV DLGS 81/08)
-Per I coordinatori per la progettazione e per l’esecuzione dei lavori sono fatti salvi i percorsi
-formativi effettuati in vigenza allegato XIV Dlgs 81/08 così come modificato dall’Accordo Stato
+PROGETTAZIONE E PER L' ESECUZIONE DEI LAVORI (ALLEGATO XIV DLGS 81/08)
+Per I coordinatori per la progettazione e per l'esecuzione dei lavori sono fatti salvi i percorsi
+formativi effettuati in vigenza allegato XIV Dlgs 81/08 così come modificato dall'Accordo Stato
 Regione 7 luglio 2016, per il quali è riconosciuto credito formativo totale.
-3 Al punto 8 dell’Accordo 2016 era stato previsto il riconoscimento della formazione pregressa (ex accordo stato -
-regioni del 26 gennaio 2006) rispetto all’ articolazione del modulo B dell’accordo 7 luglio 2016.
+3 Al punto 8 dell'Accordo 2016 era stato previsto il riconoscimento della formazione pregressa (ex accordo stato -
+regioni del 26 gennaio 2006) rispetto all' articolazione del modulo B dell'accordo 7 luglio 2016.
 
 
 ## Pagina 391
@@ -20057,27 +20057,27 @@ CONFINATI
 Al fine di consentire la piena ed effettiva attuazione degli obblighi formativi di cui al DPR
 177/2011, il corso di formazione di cui alla parte II, punto 7, del presente accordo deve essere
 frequentato in modo che lo stesso venga concluso entro e non oltr e il termine di 12 mesi
-dall’entrata in vigore del presente accordo. I corsi di formazione inerenti ai lavoratori, datori
+dall'entrata in vigore del presente accordo. I corsi di formazione inerenti ai lavoratori, datori
 di lavoro e lavoratori autonomi che operano in ambienti sospetti di inquinamento o confinati
 già erogati alla data di entrata in vigo re del presente accordo, i cui contenuti siano conformi
 al presente accordo sono riconosciuti. Il relativo aggiornamento parte dalla data di fine corso
-riportata nell’attestato
+riportata nell'attestato
 RICONOSCIMENTO FORMAZIONE PREGRESSA DEGLI OPERATORI ADDETTI ALLA
-CONDUZIONE DI ATTREZZATURE DI CUI ALL’ARTICOLO 73, COMMA 5, DEL DECRETO
+CONDUZIONE DI ATTREZZATURE DI CUI ALL'ARTICOLO 73, COMMA 5, DEL DECRETO
 LEGISLATIVO 9 APRILE 2008, N. 81/2008
-Sono fatti salvi i percorsi formativi effettuati in vigenza dell’accordo Stato -Regioni del 22
+Sono fatti salvi i percorsi formativi effettuati in vigenza dell'accordo Stato -Regioni del 22
 febbraio 2012 per le attrezzature ancorché ricomprese nel presente Accordo
 I corsi di formazione di cui alla parte II, punti 8.3.9, 8.3.10, 8.3.11 (macchine agricole raccogli
 frutta, caricatori per la movimentazione di materiali, carroponti) del presente accordo
 devono essere frequentati in modo che gli stessi vengano conclusi entro e non oltre il termine
-di 12 mesi dall’entrata in vigore del presente accordo. I corsi di formazione inerenti ai
+di 12 mesi dall'entrata in vigore del presente accordo. I corsi di formazione inerenti ai
 operatori addetti alla conduzione delle attrezzature di lavoro di cui ai punti 8.3.9, 8.3.10,
 8.3.11, già erogati alla data di entrata in vigore del presente accordo, i cui contenuti siano
-conformi al presente accordo, sono riconosciuti. L’ aggiornamento dei suddetti corsi parte
-dalla data di fine corso riportata nell’attestato.
+conformi al presente accordo, sono riconosciuti. L' aggiornamento dei suddetti corsi parte
+dalla data di fine corso riportata nell'attestato.
 FORMAZIONE DEI LAVORATORI SOMMINISTRATI
 Per la formazione dei lavoratori in caso di somministrazione di lavoro si fa riferimento a
-quanto previsto dall’art. 35, comma 4 del d.lgs.15 giugno 2015, n. 81.
+quanto previsto dall'art. 35, comma 4 del d.lgs.15 giugno 2015, n. 81.
 
 
 ## Pagina 392
@@ -20087,19 +20087,19 @@ DISPOSIZIONI FINALI
 Fatto salvo quanto previsto al precedente punto 2, alla data di entrata in vigore del presente
 accordo sono abrogati i seguenti accordi:
 → accordo sancito il 21 dicembre 2011 in sede di Conferenza permanente per i rapporti
-tra il Governo e le Regioni e le Province autonome ai sensi dell’articolo 37, comma 2,
+tra il Governo e le Regioni e le Province autonome ai sensi dell'articolo 37, comma 2,
 del decreto legislativo 9 aprile 2008, n. 81, pubblicato nella Gazzetta Ufficiale n. 8 del
 11/01/2012 (Rep 221/CSR);
 → accordo sancito il 21 dicembre 2011 in sede di Conferenza permanente per i rapporti
 tra il Governo e le Regioni e le Province autonome sui corsi di formazione per lo
 svolgimento diretto, da parte del datore di lavoro, dei compiti di prevenzione e
-protezione dai rischi, ai sensi dell’articolo 34, commi 2 e 3, del decreto legislativo 9
+protezione dai rischi, ai sensi dell'articolo 34, commi 2 e 3, del decreto legislativo 9
 aprile 2008, n. 81, pubblicato nella Gazzetta Ufficiale n. 8 del 11/01/2012 (Rep
 223/CSR);
 → accordo sancito il 22 febbraio 2012 in sede di Conferenza permanente per i rapporti
-tra il Governo e le Regioni e le Province autonome per l’individuazione delle
+tra il Governo e le Regioni e le Province autonome per l'individuazione delle
 attrezzature di lavoro per le quali è richiesta una specifica abilitazione degli operatori,
-ai sensi dell’articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81,
+ai sensi dell'articolo 73, comma 5, del decreto legislativo 9 aprile 2008, n. 81,
 pubblicato nella Gazzetta Ufficiale n. 60 del 12/03/2012 (Rep 53/CSR);
 → Accordo tra il Governo, le Regioni e le Province autonome di Trento e di Bolzano, sul
 documento proposto dal Ministero del lavoro e delle politiche sociali recante
@@ -20110,7 +20110,7 @@ del 18-8-2012)
 → accordo sancito il 7 luglio 2016 in sede di Conferenza permanente per i rapporti tra il
 Governo e le Regioni e le Province autonome finalizzato alla individuazione della
 durata e dei contenuti minimi dei percorsi formativi per i responsabili e gli addetti dei
-servizi di prevenzione e protezione, ai sensi dell’articolo 32 del decreto legislativo 9
+servizi di prevenzione e protezione, ai sensi dell'articolo 32 del decreto legislativo 9
 aprile 2008, n. 81 e successive modificazioni, pubblicato nella Gazzetta Ufficiale n. 193
 del 19/08/2016 (Rep 128/CSR).
 CLAUSOLA DI INVARIANZA FINANZIARIA
@@ -20123,8 +20123,8 @@ maggiori oneri per la finanza pubblica.
 
 Pag. 119 a 138
 ALLEGATO I
-Elenco delle classi di laurea per l’esonero dalla frequenza ai corsi di formazione
-di cui all’art. 32, comma 2 primo periodo, del d.lgs. n. 81/2008.
+Elenco delle classi di laurea per l'esonero dalla frequenza ai corsi di formazione
+di cui all'art. 32, comma 2 primo periodo, del d.lgs. n. 81/2008.
 Laurea Magistrale (D.M. dell'università e della ricerca in data 16 marzo 2007):
 → LM-4 Architettura e ingegneria edile-architettura
 → LM-20 Ingegneria aerospaziale e astronautica
@@ -20150,7 +20150,7 @@ novembre 2000):
 → 26/S Ingegneria biomedica
 → 27/S Ingegneria chimica
 → 28/S Ingegneria civile
-→ 29/S Ingegneria dell’automazione
+→ 29/S Ingegneria dell'automazione
 → 30/S Ingegneria delle telecomunicazioni
 → 31/S Ingegneria elettrica
 → 32/S Ingegneria elettronica
@@ -20159,12 +20159,12 @@ novembre 2000):
 → 35/S Ingegneria informatica
 → 36/S Ingegneria meccanica
 → 37/S Ingegneria navale
-→ 38/S Ingegneria per l’ambiente e il territorio
+→ 38/S Ingegneria per l'ambiente e il territorio
 Laurea Magistrale (D.M. dell'università e della ricerca in data 8 gennaio 2009):
 → LM/SNT 4 Scienze delle professioni sanitarie della prevenzione
 Laurea (D.M. dell'università e della ricerca scientifica e tecnologica in data 18 marzo 2006):
 → L7 Ingegneria civile e ambientale
-→ L8 Ingegneria dell’informazione
+→ L8 Ingegneria dell'informazione
 → L9 Ingegneria Industriale
 → L17 Scienze dell'architettura
 → L23 Scienze e tecniche dell'edilizia
@@ -20192,7 +20192,7 @@ lavoro per le quali è richiesta una specifica abilitazione degli operatori (di 
 attrezzature) sono:
 Piattaforme di lavoro mobili elevabili (PLE): macchina mobile destinata a spostare persone
 alle posizioni di lavoro, poste ad altezza superiore a 2m rispetto ad un piano stabile, nelle quali
-svolgono mansioni dalla piattaforma di lavoro, con l’intendimento che le persone accedano ed
+svolgono mansioni dalla piattaforma di lavoro, con l'intendimento che le persone accedano ed
 escano dalla pia ttaforma di lavoro attraverso una posizione di accesso definita e che sia
 costituita almeno da una piattaforma di lavoro con comandi, da una struttura estensibile e da
 un telaio.
@@ -20222,7 +20222,7 @@ scaffalature qualsiasi tipo di carico ed azionato da un operatore a bordo su sed
 Carrelli semoventi a braccio telescopico: carrelli elevatori a contrappeso dotati di uno o
 più bracci snodati, telescopici o meno, non girevoli, utilizzati per impilare carichi. Il
 dispositivo di sollevamento non deve essere girevole o comunque non deve presentare un
-movimento di rotazione maggiore di 5° rispetto all’asse longitudinale del carrello.
+movimento di rotazione maggiore di 5° rispetto all'asse longitudinale del carrello.
 Carrelli/Sollevatori/Elevatori semoventi telescopici rotativi: attrezzature semoventi
 dotate di uno o più bracci snodati, telescopici o meno, girevoli, utilizzate per movimentare
 carichi ed azionate da un operatore a bordo su sedile.
@@ -20313,7 +20313,7 @@ Pag. 129 a 138
 ALLEGATO III
 Legenda crediti
 CREDITI
-TOTALE: si intende il riconoscimento completo della formazione acquisita e quindi l’esonero
+TOTALE: si intende il riconoscimento completo della formazione acquisita e quindi l'esonero
 totale dalla frequenza del monte ore di formazione o di aggiornamento previsto per il soggetto
 individuato.
 PARZIALE: si intende il riconoscimento di una parte della formazione acquisita e di conseguenza
@@ -20385,10 +20385,10 @@ accordo 7 luglio 2016
 Presente accordo
 FREQUENZA TOTALE TOTALE TOTALE TOTALE TOTALE
 A titolo esemplificativo:
-Un RSPP, formato con l’accordo Stato-Regioni del 26/01/2006, che vuole conseguire il titolo per
+Un RSPP, formato con l'accordo Stato-Regioni del 26/01/2006, che vuole conseguire il titolo per
 svolgere il ruolo di Coordinatore per la Sicurezza:
-• il modulo A costituisce credito per il modulo giuridico;
-• deve frequentare i restanti moduli: tecnico (52 ore), metodologico / organizzativo (16 ore)
+- il modulo A costituisce credito per il modulo giuridico;
+- deve frequentare i restanti moduli: tecnico (52 ore), metodologico / organizzativo (16 ore)
 e parte pratica (24 ore).
 
 
@@ -20782,10 +20782,10 @@ ALLEGATO IV
 Individuazione macrocategorie di rischio e corrispondenze ATECO 2007
 Rischio BASSO
 ATECO 2007
-G - COMMERCIO ALL’INGROSSO E AL DETTAGLIO; RIPARAZIONE DI AUTOVEICOLI E MOTOCICLI
-45 - COMMERCIO ALL’INGROSSO E AL DETTAGLIO E RIPARAZIONE DI AUTOVEICOLI E
+G - COMMERCIO ALL'INGROSSO E AL DETTAGLIO; RIPARAZIONE DI AUTOVEICOLI E MOTOCICLI
+45 - COMMERCIO ALL'INGROSSO E AL DETTAGLIO E RIPARAZIONE DI AUTOVEICOLI E
 MOTOCICLI
-46 - COMMERCIO ALL’INGROSSO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
+46 - COMMERCIO ALL'INGROSSO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
 47 - COMMERCIO AL DETTAGLIO, ESCLUSO QUELLO DI AUTOVEICOLI E DI MOTOCICLI
 I - ATTIVITÀ DEI SERVIZI DI ALLOGGIO E DI RISTORAZIONE
 55 - ALLOGGIO
@@ -20818,7 +20818,7 @@ SERVIZI DI PRENOTAZIONE E ATTIVITÀ CONNESSE
 ## Pagina 410
 
 Pag. 136 a 138
-82 -ATTIVITÀ DI SUPPORTO PER LE FUNZIONI D’UFFICIO E ALTRI SERVIZI DI SUPPORTO ALLE
+82 -ATTIVITÀ DI SUPPORTO PER LE FUNZIONI D'UFFICIO E ALTRI SERVIZI DI SUPPORTO ALLE
 IMPRESE
 J - SERVIZI DI INFORMAZIONE E COMUNICAZIONE
 58 - ATTIVITÀ EDITORIALI
@@ -20827,7 +20827,7 @@ REGISTRAZIONI MUSICALI E SONORE
 60 - ATTIVITÀ Dl PROGRAMMAZIONE E TRASMISSIONE
 61 - TELECOMUNICAZIONI
 62 - PRODUZIONE Dl SOFTWARE, CONSULENZA INFORMATICA E ATTIVITÀ CONNESSE
-63 - ATTIVITÀ DEI SERVIZI D’INFORMAZIONE E ALTRI SERVIZI INFORMATICI
+63 - ATTIVITÀ DEI SERVIZI D'INFORMAZIONE E ALTRI SERVIZI INFORMATICI
 R - ATTIVITÀ ARTISTICHE, SPORTIVE, DI INTRATTENIMENTO E DIVERTIMENTO
 90 - ATTIVITÀ CREATIVE, ARTISTICHE E DI DIVERTIMENTO
 91 - ATTIVITÀ DI BIBLIOTECHE, ARCHIVI, MUSEI ED ALTRE ATTIVITÀ CULTURALI
@@ -20860,7 +20860,7 @@ H - TRASPORTO E MAGAZZINAGGIO
 ## Pagina 411
 
 Pag. 137 a 138
-50 -TRASPORTO MARITTIMO E PER VIE D’ACQUA
+50 -TRASPORTO MARITTIMO E PER VIE D'ACQUA
 51 - TRASPORTO AEREO
 52 - MAGAZZINAGGIO E ATTIVITÀ DI SUPPORTO AI TRASPORTI
 53 - SERVIZI POSTALI E ATTIVITÀ DI CORRIERE
@@ -20877,7 +20877,7 @@ B - ESTRAZIONE DI MINERALI DA CAVE E MINIERE
 06 - ESTRAZIONE DI PETROLIO GREGGIO E DI GAS NATURALE
 07 - ESTRAZIONE DI MINERALI METALLIFERI
 08 - ALTRE ATTIVITÀ DI ESTRAZIONE DI MINERALI DA CAVE E MINIERE
-09 - ATTIVITÀ DEI SERVIZI DI SUPPORTO ALL’ESTRAZIONE
+09 - ATTIVITÀ DEI SERVIZI DI SUPPORTO ALL'ESTRAZIONE
 F - COSTRUZIONI
 41 - COSTRUZIONE Dl EDIFICI
 42 - INGEGNERIA CIVILE

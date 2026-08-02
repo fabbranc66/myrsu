@@ -1,9 +1,6 @@
 # Sicurezza 81/08 - Indice operativo MyRSU
-
 **Ambito:** salute e sicurezza sul lavoro, RLS, obblighi aziendali, vigilanza, formazione.
-
 ## Catena normativa
-
 1. D.Lgs. 626/1994 - impianto storico prevenzione.
 2. Legge 123/2007 - delega per il testo unico sicurezza.
 3. D.Lgs. 81/2008 - testo unico salute e sicurezza.
@@ -14,9 +11,7 @@
 8. Interpelli Ministero del Lavoro.
 9. INAIL / INL / Ministero - indicazioni operative.
 10. Norme tecniche collegate.
-
 ## Blocchi MyRSU
-
 - RLS, consultazione, accesso documenti.
 - DVR e valutazione dei rischi.
 - Formazione, informazione e addestramento.
@@ -25,9 +20,7 @@
 - Sorveglianza sanitaria e medico competente.
 - Vigilanza, sospensione e organi di controllo.
 - Emergenze, antincendio e primo soccorso.
-
 ## File operativi
-
 - `03_BLOCCO_OPERATIVO_RSU_RLS_SICUREZZA_81_08.md`
 - `04_MAPPA_ARTICOLI_TEMI_SICUREZZA_81_08.md`
 - `05_BLOCCO_RLS_CONSULTAZIONE_ACCESSO_DOCUMENTI.md`

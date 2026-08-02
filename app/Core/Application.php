@@ -12,6 +12,7 @@ use App\Repositories\EmailRepository;
 use App\Repositories\FundRepository;
 use App\Repositories\GdprConsentRepository;
 use App\Repositories\InstitutionalContactRepository;
+use App\Repositories\NormativaRepository;
 use App\Repositories\ProtocolRepository;
 use App\Repositories\PracticeLinkRepository;
 use App\Repositories\PracticeCcnlLinkRepository;
@@ -128,6 +129,7 @@ final class Application
     public readonly DocumentStorageService $documentStorage;
     public readonly OfficeFileService $officeFiles;
     public readonly NormativaFileService $normativaFiles;
+    public readonly NormativaRepository $normativa;
     public readonly PdfConversionService $pdfConversion;
     public readonly FpdiUploadedPdfService $fpdiUploadedPdf;
     public readonly FundProtocolService $fundProtocol;
@@ -218,6 +220,7 @@ final class Application
         $this->practiceNotes = new PracticeNoteRepository($pdo);
         $this->practices = new PracticeRepository($pdo);
         $this->practiceTimeline = new PracticeTimelineRepository($pdo);
+        $this->normativa = new NormativaRepository($pdo);
         $this->practiceService = new PracticeService($this->practices, $this->users);
         $this->reports = new ReportRepository($pdo);
         $this->reportAttachments = new ReportAttachmentRepository($pdo);

@@ -82,13 +82,26 @@ function ccnlEscapeRegExp(value) {
 
 function ccnlRender(text) {
   let table = false;
-  return text.split('\n').map(line => {
+  return ccnlCompactMarkdownTables(ccnlCleanDisplayText(text)).split('\n').map(line => {
+    const salaryTable = ccnlSalaryTable(line);
+    if (salaryTable) return `${table ? '</tbody></table>' : ''}${salaryTable}`;
+    const pairTable = ccnlFlatPairTable(line);
+    if (pairTable) return `${table ? '</tbody></table>' : ''}${pairTable}`;
+    const categoryAmountTable = ccnlCategoryAmountTable(line);
+    if (categoryAmountTable) return `${table ? '</tbody></table>' : ''}${categoryAmountTable}`;
+    const flattenedTable = ccnlFlattenedTable(line);
+    if (flattenedTable) return `${table ? '</tbody></table>' : ''}${flattenedTable}`;
+    const genericTable = ccnlGenericFlatTable(line);
+    if (genericTable) return `${table ? '</tbody></table>' : ''}${genericTable}`;
     if (line.startsWith('|')) {
-      const cells = line.split('|').slice(1, -1).map(cell => `<td>${ccnlEscape(cell.trim())}</td>`).join('');
+      const cells = line.split('|').slice(1, -1).map(cell => cell.trim());
       if (/^\|[\s:-]+\|/.test(line)) return '';
-      const prefix = table ?'' : '<table><tbody>';
+      const isHeader = !table;
+      const prefix = isHeader ? '<table class="normativa-data-table"><thead>' : '';
+      const suffix = isHeader ? '</thead><tbody>' : '';
       table = true;
-      return `${prefix}<tr>${cells}</tr>`;
+      const tag = isHeader ? 'th' : 'td';
+      return `${prefix}<tr>${cells.map(cell => `<${tag}>${ccnlEscape(cell)}</${tag}>`).join('')}</tr>${suffix}`;
     }
     const close = table ?'</tbody></table>' : '';
     table = false;
@@ -97,6 +110,93 @@ function ccnlRender(text) {
     if (line.startsWith('- ')) return `${close}<p>&bull; ${ccnlEscape(line.slice(2))}</p>`;
     return line.trim() ?`${close}<p>${ccnlEscape(line)}</p>` : close;
   }).join('') + (table ?'</tbody></table>' : '');
+}
+
+function ccnlCompactMarkdownTables(text) {
+  return String(text || '').replace(/(\|[^\n]+\|)\n\s*\n(?=\|)/g, '$1\n');
+}
+
+function ccnlCleanDisplayText(text) {
+  return String(text || '')
+    .replace(/Â°/g, '°')
+    .replace(/à¹/g, 'ù')
+    .replace(/à¨/g, 'è')
+    .replace(/à /g, 'à');
+}
+
+function ccnlSalaryTable(line) {
+  const clean = ccnlCleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  if (!/^L?ivello\s+/i.test(clean) || !/\b[A-D][1-3]\b/.test(clean)) return '';
+  const years = [...clean.matchAll(/\b20\d{2}\b/g)].map(match => match[0]).slice(0, 6);
+  const rows = [...clean.matchAll(/\b([A-D][1-3])\s+((?:(?:\d{1,2}\.\d{3},\d{2}|\d{1,3},\d{2}%)\s*){2,6})/g)]
+    .map(match => [match[1], ...match[2].trim().split(/\s+/)]);
+  if (!years.length || !rows.length) return '';
+  const headers = ['Livello', ...years.map(year => `1° giugno ${year}`)];
+  return `<table class="normativa-data-table"><thead><tr>${headers.map(header => `<th>${ccnlEscape(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${ccnlEscape(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+
+function ccnlFlatPairTable(line) {
+  const clean = ccnlCleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  const rows = [];
+  const regex = /\b(Nessuna|da\s+\d+\s+a\s+\d+|fino\s+a\s+\d+(?:\s+dipendenti)?|oltre\s+\d+(?:\s+dipendenti)?|da\s+\d+\s+a\s+\d+(?:\s+dipendenti)?)\s+(\d+(?:,\d+)?\s*(?:%|ore|giorni)?)/gi;
+  let match;
+  while ((match = regex.exec(clean)) !== null) {
+    rows.push([match[1], match[2].replace(/\s+/g, ' ').trim()]);
+  }
+  if (rows.length < 2) return '';
+  const valueHeader = rows.some(row => row[1].includes('%')) ? 'Percentuale' : 'Valore';
+  return `<table class="normativa-data-table"><thead><tr><th>Scaglione</th><th>${valueHeader}</th></tr></thead><tbody>${rows.map(row => `<tr><td>${ccnlEscape(row[0])}</td><td>${ccnlEscape(row[1])}</td></tr>`).join('')}</tbody></table>`;
+}
+
+function ccnlCategoryAmountTable(line) {
+  const clean = ccnlCleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  if (!/\b(?:D1|D2|C2|C3|B1|B2|B3)\b/.test(clean) || !/\b\d{3},\d{2}\b/.test(clean)) return '';
+  const rows = [];
+  const regex = /\b(\d+\s*(?:a|ª)?(?:\s+Super)?)\s+(Eliminata\s+dal\s+1°\s+giugno\s+2021|D1|D2|C2|C3|B1|B2|B3)\s+(\d{3},\d{2})/gi;
+  let match;
+  while ((match = regex.exec(clean.replace(/\ba\s+([47])\s+/g, '$1a '))) !== null) {
+    rows.push([
+      match[1].replace(/\s*a\b/i, 'ª').replace(/\s+/g, ' ').trim(),
+      match[2],
+      match[3],
+    ]);
+  }
+  if (rows.length < 2) return '';
+  const headers = ['Vecchia categoria', 'Nuovo livello', 'Importo'];
+  return `<table class="normativa-data-table"><thead><tr>${headers.map(header => `<th>${ccnlEscape(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${ccnlEscape(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+
+function ccnlFlattenedTable(line) {
+  const clean = ccnlCleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  if (!/\b\dS?\s+\d{1,2}\.\d{3},\d{2}\b/.test(clean) || !/\b[A-D][1-3]\b/.test(clean)) return '';
+  const rows = [];
+  const regex = /\b(\dS?)\s+(\d{1,2}\.\d{3},\d{2})(?:\s+([^0-9]*?))?\s+([A-D])?\s*([A-D][1-3])\s+(\d{1,2}\.\d{3},\d{2})/g;
+  let match;
+  while ((match = regex.exec(clean)) !== null) {
+    rows.push([
+      match[1],
+      match[2],
+      match[4] || '',
+      match[5],
+      match[6],
+      (match[3] || '').trim(),
+    ]);
+  }
+  if (!rows.length) return '';
+  const headers = ['Vecchio livello', 'Vecchio minimo', 'Area', 'Nuovo livello', 'Nuovo minimo', 'Descrizione'];
+  return `<table class="normativa-data-table"><thead><tr>${headers.map(header => `<th>${ccnlEscape(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${ccnlEscape(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+
+function ccnlGenericFlatTable(line) {
+  const clean = ccnlCleanDisplayText(line).replace(/\s+/g, ' ').trim();
+  const valueCount = (clean.match(/\b(?:\d{1,3}(?:\.\d{3})*,\d{2}|\d+(?:,\d+)?%|\d+\s+ore|20\d{2})\b/g) || []).length;
+  if (valueCount < 6 || /[.;:]\s+[A-ZÀ-Ú]/.test(clean)) return '';
+  const rows = [...clean.matchAll(/\b([A-Z]?\dS?|[A-D][1-3])\s+((?:\d{1,3}(?:\.\d{3})*,\d{2}|\d+(?:,\d+)?%)(?:\s+(?:\d{1,3}(?:\.\d{3})*,\d{2}|\d+(?:,\d+)?%)){1,6})/g)]
+    .map(match => [match[1], ...match[2].trim().split(/\s+/)]);
+  if (rows.length < 2) return '';
+  const maxCells = Math.max(...rows.map(row => row.length));
+  const headers = Array.from({ length: maxCells }, (_, index) => index === 0 ? 'Voce' : `Valore ${index}`);
+  return `<table class="normativa-data-table"><thead><tr>${headers.map(header => `<th>${ccnlEscape(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${headers.map((_, index) => `<td>${ccnlEscape(row[index] || '')}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
 }
 
 window.MyRsuCcnlRender = ccnlRender;
@@ -193,6 +293,10 @@ function ccnlQueryTerms(term) {
   return ccnlUniqueTerms([...(words.length > 1 ? words : [term.trim()]), ...learned]);
 }
 
+function ccnlRawQueryTerms(term) {
+  return term.trim().split(/\s+/).map(word => word.replace(/[^\p{L}\p{N}]/gu, '')).filter(word => word.length > 2);
+}
+
 function ccnlUniqueTerms(terms) {
   return [...new Set(terms.map(term => term.trim()).filter(term => term.length > 1))];
 }
@@ -210,7 +314,7 @@ function ccnlSaveVocabulary(vocabulary) {
 }
 
 function ccnlMeaningfulTerms(value) {
-  const stopWords = ['una', 'uno', 'del', 'della', 'dello', 'dei', 'degli', 'delle', 'nel', 'nella', 'nello', 'nei', 'negli', 'nelle', 'con', 'per', 'tra', 'fra', 'che', 'chi', 'cui', 'non', 'sono', 'lavoratore', 'lavoratori', 'azienda', 'dipendente', 'dipendenti', 'come', 'cosa', 'quando', 'dove', 'fare'];
+  const stopWords = ['una', 'uno', 'del', 'della', 'dello', 'dei', 'degli', 'delle', 'dal', 'dalla', 'dallo', 'nel', 'nella', 'nello', 'nei', 'negli', 'nelle', 'sul', 'sulla', 'sullo', 'con', 'per', 'tra', 'fra', 'che', 'chi', 'cui', 'come', 'quando', 'dove', 'sono', 'essere', 'avere', 'fare', 'faccio', 'posso', 'puo', 'devo', 'deve'];
   return value.toLowerCase().split(/\s+/).map(term => term.replace(/[^\p{L}\p{N}]/gu, '')).filter(term => term.length > 2 && !stopWords.includes(term));
 }
 
@@ -242,26 +346,35 @@ function ccnlFirstMatchTerm(text, term) {
 async function ccnlSearch() {
   const term = ccnlInput.value.trim();
   if (term.length < 2) return;
-  if (!ccnlVocabularyLoaded) {
-    await window.MyRsuNormativaVocabulary?.load('../docs/normativa_vocabulary.json');
-    ccnlVocabularyLoaded = true;
+  if (ccnlScopeSelect.value === 'all' && ccnlMeaningfulTerms(term).length < 4) {
+    ccnlResults.innerHTML = '<p>Con una ricerca breve scegli un ambito specifico.</p>';
+    return;
   }
-  ccnlRememberQuery(term);
-  const found = [];
-  for (const block of ccnlActiveBlocks()) {
-    const text = await ccnlFetch(block);
-    const blockMatches = ccnlCountMatches(`${block[0]} ${block[1]} ${text}`, term);
-    ccnlSplit(text, block).forEach(section => {
-      const matches = ccnlCountMatches(section.text, term);
-      const titleMatches = ccnlCountMatches(section.title, term);
-      if (matches + titleMatches + blockMatches > 0) {
-        const totalMatches = matches || blockMatches;
-        found.push({ block, section, matches: totalMatches, titleMatches, score: ccnlRankScore(block, section, term, totalMatches, titleMatches), bookmark: ccnlFirstMatchTerm(`${section.title}\n${section.text}`, term) });
-      }
-    });
-  }
-  found.sort((a, b) => (b.score - a.score) || (b.titleMatches - a.titleMatches) || (b.matches - a.matches));
-  ccnlResults.innerHTML = found.map(item => `<button class="ccnl-result-card" type="button" data-block="${item.block[0]}" data-section="${item.section.index}" data-bookmark="${ccnlEscape(item.bookmark)}"><strong>${ccnlHighlightTerms(ccnlEscape(item.section.title), ccnlQueryTerms(term))}</strong><span>${ccnlEscape(item.block[1])} &middot; ${item.matches}</span></button>`).join('') || '<p>Nessun risultato.</p>';
+  await ccnlSearchDb(term);
+}
+
+async function ccnlSearchDb(term) {
+  const data = await api(`/normativa/ricerca?scope=${encodeURIComponent(ccnlScopeSelect.value)}&q=${encodeURIComponent(term)}&limit=20`);
+  const items = data.items || [];
+  ccnlResults.innerHTML = items.map(item => {
+    const matches = item.matches || [{ id: item.id, excerpt: item.excerpt }];
+    const context = item.context_label || item.block_title || item.document_title || '';
+    const parentTitle = ccnlShortText(item.section_title || 'Riferimento normativa', 120);
+    return `
+      <article class="ccnl-result-card">
+          <strong>${ccnlHighlightTerms(ccnlEscape(parentTitle), ccnlRawQueryTerms(term))}</strong>
+        <span>${ccnlEscape(context)} &middot; ${ccnlEscape(item.stato_vigenza)} &middot; ${item.match_count || matches.length} contenuti</span>
+        <div class="ccnl-nested-results">
+          ${matches.slice(0, 8).map(match => `<button class="ccnl-nested-result-card" type="button" data-db-unit="${match.id || item.article_unit_id || item.id}" data-bookmark="${ccnlEscape(term)}"><strong>${ccnlEscape(parentTitle)}</strong><small>${ccnlHighlightTerms(ccnlEscape(ccnlShortText(match.excerpt || item.excerpt || '', 220)), ccnlRawQueryTerms(term))}</small></button>`).join('')}
+        </div>
+      </article>
+    `;
+  }).join('') || '<p>Nessun risultato.</p>';
+}
+
+function ccnlShortText(value, limit = 160) {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  return text.length > limit ? `${text.slice(0, limit - 1)}…` : text;
 }
 
 function ccnlScheduleSearch() {
@@ -291,6 +404,36 @@ async function ccnlOpenSection(blockCode, sectionIndex, bookmark = '') {
   linkButton.addEventListener('click', () => ccnlLink(block, section));
   ccnlSectionView.querySelector('[data-ccnl-close-reading]').addEventListener('click', () => { ccnlSectionView.innerHTML = ''; });
   ccnlSectionView.querySelector('[data-ccnl-edit]').addEventListener('click', () => ccnlOpenEdit(block));
+  setTimeout(ccnlScrollToBookmark, 0);
+}
+
+async function ccnlOpenDbUnit(unitId, bookmark = '') {
+  const data = await api(`/normativa/unita/${unitId}`);
+  const block = [
+    data.block_code || 'CCNL',
+    data.block_title || data.document_title || 'CCNL',
+    `normativa:unita:${unitId}`,
+  ];
+  const section = {
+    title: data.rubrica || data.etichetta || 'Riferimento CCNL',
+    text: data.testo || '',
+  };
+  const hierarchy = data.hierarchy_label ? `<p class="normativa-hierarchy">${ccnlEscape(data.hierarchy_label)}</p>` : '';
+  ccnlLastSelectedText = '';
+  ccnlActiveBlock = block;
+  ccnlActiveSection = section;
+  ccnlSectionView.innerHTML = `
+    <div class="ccnl-link-bar">
+      <button class="ccnl-link-action" type="button" data-ccnl-link>Collega alla pratica</button>
+      <button class="ccnl-close-reading" type="button" data-ccnl-close-reading>Chiudi lettura</button>
+      <small id="ccnlSelectionStatus">Nessuna selezione: verrà collegato tutto il riferimento.</small>
+    </div>
+    <div id="ccnlReadableText">${hierarchy}${ccnlHighlight(ccnlRender(ccnlBodyText(section.text)), bookmark || ccnlInput.value.trim())}</div>
+  `;
+  const linkButton = ccnlSectionView.querySelector('[data-ccnl-link]');
+  linkButton.addEventListener('pointerdown', ccnlPrepareLinkClick);
+  linkButton.addEventListener('click', () => ccnlLink(block, section));
+  ccnlSectionView.querySelector('[data-ccnl-close-reading]').addEventListener('click', () => { ccnlSectionView.innerHTML = ''; });
   setTimeout(ccnlScrollToBookmark, 0);
 }
 
@@ -418,7 +561,7 @@ function ccnlSetSelectedText(text) {
 }
 
 function ccnlHighlight(html, term) {
-  const terms = ccnlUniqueTerms([term, ...ccnlQueryTerms(ccnlInput.value.trim())]).sort((a, b) => b.length - a.length);
+  const terms = ccnlUniqueTerms([term, ...ccnlRawQueryTerms(ccnlInput.value.trim())]).sort((a, b) => b.length - a.length);
   if (!terms.length) return html;
   let first = true;
   return terms.reduce((value, item) => value.replace(ccnlSearchRegex(item), match => {
@@ -482,8 +625,18 @@ ccnlSectionView.addEventListener('pointerup', ccnlRememberSelection);
 ccnlSectionView.addEventListener('touchend', () => setTimeout(ccnlRememberSelection, 50));
 ccnlSectionView.addEventListener('keyup', ccnlRememberSelection);
 ccnlResults.addEventListener('click', event => {
+  const nestedCard = event.target.closest('.ccnl-nested-result-card');
+  if (nestedCard) {
+    ccnlOpenDbUnit(nestedCard.dataset.dbUnit, nestedCard.dataset.bookmark || ccnlInput.value.trim());
+    return;
+  }
   const card = event.target.closest('.ccnl-result-card');
-  if (card) ccnlOpenSection(card.dataset.block, Number(card.dataset.section), card.dataset.bookmark || ccnlInput.value.trim());
+  if (!card) return;
+  if (card.dataset.dbUnit) {
+    ccnlOpenDbUnit(card.dataset.dbUnit, card.dataset.bookmark || ccnlInput.value.trim());
+    return;
+  }
+  ccnlOpenSection(card.dataset.block, Number(card.dataset.section), card.dataset.bookmark || ccnlInput.value.trim());
 });
 
 

@@ -1,4 +1,4 @@
-from pathlib import Path
+﻿from pathlib import Path
 import re
 from pypdf import PdfReader
 
@@ -13,11 +13,53 @@ ACCORDO_2025 = BASE / "docs/safety_work/clean/13_ACCORDO_STATO_REGIONI_FORMAZION
 LINKED_ACTS = BASE / "docs/safety_work/clean/14_CONTENUTI_COLLEGATI_81_08_ACCORDI_INTERPELLI_CIRCOLARI.md"
 
 
+def fix_encoding(text: str) -> str:
+    fixes = {
+        "\u00e2\u20ac\u2122": "'",
+        "\u00e2\u20ac\u02dc": "'",
+        "\u00e2\u20ac\u0153": '"',
+        "\u00e2\u20ac\u009d": '"',
+        "\u00e2\u20ac\u201d": '"',
+        "\u00e2\u20ac\u201c": "-",
+        "\u00e2\u20ac\u00a2": "-",
+        "\u00e2\u20ac\u00a6": "...",
+        "\u00c2\u00ab": '"',
+        "\u00c2\u00bb": '"',
+        "\u00c2\u00b0": "\u00b0",
+        "\u00c2 ": " ",
+        "\u00c3\u20ac": "\u00c0",
+        "\u00c3\u02c6": "\u00c8",
+        "\u00c3\u2030": "\u00c9",
+        "\u00c3\u0152": "\u00cc",
+        "\u00c3\u2019": "\u00d2",
+        "\u00c3\u2122": "\u00d9",
+        "\u00c3\u00a0": "\u00e0",
+        "\u00c3\u00a8": "\u00e8",
+        "\u00c3\u00a9": "\u00e9",
+        "\u00c3\u00ac": "\u00ec",
+        "\u00c3\u00b2": "\u00f2",
+        "\u00c3\u00b9": "\u00f9",
+        "\u00c3\u00a7": "\u00e7",
+        "\u00e2\u2030\u00a5": "\u2265",
+        "\u00e2\u2030\u00a4": "\u2264",
+        "\u2019": "'",
+        "\u2018": "'",
+        "\u201c": '"',
+        "\u201d": '"',
+        "\u2022": "-",
+        "\u2013": "-",
+        "\u2014": "-",
+    }
+    for bad, good in fixes.items():
+        text = text.replace(bad, good)
+    return text
+
+
 def clean_line(line: str) -> str:
-    line = line.replace("\u00a0", " ")
+    line = fix_encoding(line).replace("\u00a0", " ")
     line = re.sub(r"\s+", " ", line).strip()
-    line = re.sub(r"\s+([’'])", r"\1", line)
-    line = re.sub(r"([LlDdNnAa])\s+’", r"\1’", line)
+    line = re.sub(r"\s+(['])", r"\1", line)
+    line = re.sub(r"([LlDdNnAa])\s+'", r"\1'", line)
     line = re.sub(r"\b([Dd]ecreto|[Dd]\.?[Ll]\.?|[Dd]ecreto-[Ll]egge)\s+-\s+([Ll]egge)", r"\1-\2", line)
     line = re.sub(r"\s+([,.;:])", r"\1", line)
     line = re.sub(r"\(\s*N\s*\)", "", line)
@@ -29,17 +71,31 @@ def is_noise(line: str) -> bool:
         return False
     if line.startswith("<!-- pagina"):
         return True
+    if re.match(r"^\d+\s*$", line):
+        return True
+    if re.match(r"^REV\.\s+GENNAIO\s+2026$", line, re.I):
+        return True
     if re.search(r"Pagina\s+[0-9IVXLCDM]+\s+di\s+[0-9IVXLCDM]+", line, re.I):
         return True
-    if line == "D.lgs. 09 aprile 2008 n. 81":
+    if line in {"D.lgs. 09 aprile 2008 n. 81", "D.lgs. 9 aprile 2008, n. 81"}:
         return True
     if "D.lgs. 09 aprile 2008 n. 81" in line and "Pagina" in line:
         return True
     if re.match(r"^(TITOLO|CAPO)\b.*D\.lgs\. 09 aprile 2008 n\. 81$", line):
         return True
+    if re.match(
+        r"^\d+\s+(Lettera|Comma|Frase|Parte|Termine|Ultimo periodo|Il D\.L\.|Ai fini|Ai sensi|Commento personale|L'art\.|Articolo modificato)\b",
+        line,
+        re.I,
+    ):
+        return True
+    if re.match(r"^\d+\s+.*\b(G\.U\.|pubblicat|convertit|modificat|aggiunt|soppresso|abrogat|in vigore)\b", line, re.I):
+        return True
+    if "(G.U." in line or "G.U." in line or "GU " in line or "convertito con modificazioni" in line or "vigore dal" in line:
+        return True
+    if "COMMENTO PERSONALE" in line.upper() or "omissis" in line.lower():
+        return True
     return False
-
-
 def extract_article(text: str, number: str) -> str:
     pattern = re.compile(
         rf"(^Articolo\s+{re.escape(number)}(?:\s|-)[\s\S]*?)(?=^Articolo\s+\d|\nTITOLO\s+[IVXLCDM]+|\nALLEGATO\s+|\Z)",
@@ -70,27 +126,27 @@ THEMATIC_BLOCKS = [
     ),
     (
         "08_BLOCCO_PREPOSTO_OBBLIGHI_RESPONSABILITA.md",
-        "Preposto, obblighi e responsabilità",
+        "Preposto, obblighi e responsabilitÃ ",
         ["18", "19", "20", "55", "56", "59", "299"],
-        ["preposto", "datore lavoro", "dirigente", "lavoratore", "responsabilità", "sanzioni"],
+        ["preposto", "datore lavoro", "dirigente", "lavoratore", "responsabilitÃ ", "sanzioni"],
     ),
     (
         "09_BLOCCO_APPALTI_DUVRI_INTERFERENZE.md",
         "Appalti, DUVRI e interferenze",
         ["26"],
-        ["appalto", "duvri", "interferenze", "contratto appalto", "idoneità tecnico professionale"],
+        ["appalto", "duvri", "interferenze", "contratto appalto", "idoneitÃ  tecnico professionale"],
     ),
     (
         "10_BLOCCO_SORVEGLIANZA_SANITARIA_MEDICO_COMPETENTE.md",
         "Sorveglianza sanitaria e medico competente",
         ["25", "38", "39", "40", "41", "42"],
-        ["sorveglianza sanitaria", "medico competente", "visita medica", "idoneità", "malattia professionale"],
+        ["sorveglianza sanitaria", "medico competente", "visita medica", "idoneitÃ ", "malattia professionale"],
     ),
     (
         "11_BLOCCO_VIGILANZA_SOSPENSIONE_ORGANI_CONTROLLO.md",
         "Vigilanza, sospensione e organi di controllo",
         ["13", "14", "14-bis"],
-        ["vigilanza", "sospensione attività", "asl", "ispettorato", "violazioni gravi"],
+        ["vigilanza", "sospensione attivitÃ ", "asl", "ispettorato", "violazioni gravi"],
     ),
     (
         "12_BLOCCO_EMERGENZE_ANTINCENDIO_PRIMO_SOCCORSO.md",
@@ -147,12 +203,12 @@ def build_accordo_2025() -> None:
 
 
 def extract_linked_items(text: str, label: str) -> list[str]:
-    pattern = re.compile(rf"{label}\s+•\s+([\s\S]*?)(?=\n(?:Note all|Richiami all|Articolo\s+\d+|TITOLO\s+|CAPO\s+|Sanzioni|DECRETI ATTUATIVI|CIRCOLARI|LETTERE CIRCOLARI|INTERPELLI|ALTRI PROVVEDIMENTI)\b|\Z)", re.I)
+    pattern = re.compile(rf"{label}\s+â€¢\s+([\s\S]*?)(?=\n(?:Note all|Richiami all|Articolo\s+\d+|TITOLO\s+|CAPO\s+|Sanzioni|DECRETI ATTUATIVI|CIRCOLARI|LETTERE CIRCOLARI|INTERPELLI|ALTRI PROVVEDIMENTI)\b|\Z)", re.I)
     items = []
     for match in pattern.finditer(text):
         chunk = re.sub(r"\s+", " ", match.group(1)).strip()
         if chunk:
-            parts = [item.strip(" •") for item in re.split(r"\s+•\s+", chunk) if item.strip(" •")]
+            parts = [item.strip(" â€¢") for item in re.split(r"\s+â€¢\s+", chunk) if item.strip(" â€¢")]
             items.extend(parts)
     return items
 
@@ -185,7 +241,7 @@ def build_focus(text: str) -> None:
         ("Riunione, informazione, formazione", ["35", "36", "37"]),
         ("RLS", ["47", "48", "49", "50"]),
         ("Sanzioni principali", ["55", "56", "59"]),
-        ("Responsabilità di fatto", ["299"]),
+        ("ResponsabilitÃ  di fatto", ["299"]),
     ]
     chunks = [
         "# Sicurezza 81/08 - Blocco operativo RSU/RLS\n",
@@ -204,15 +260,37 @@ def starts_new_block(line: str) -> bool:
     return bool(re.match(r"^(TITOLO|CAPO|SEZIONE|Articolo|ALLEGATO)\b", line, re.I))
 
 
+def is_side_content(line: str) -> bool:
+    return bool(re.match(r"^(Note all|Note alle|Richiami all|Sanzioni|DECRETI ATTUATIVI|DECRETI COLLEGATI|CIRCOLARI|LETTERE CIRCOLARI|INTERPELLI|ALTRI PROVVEDIMENTI)\b", line, re.I))
+
+
+def remove_side_sections(lines: list[str]) -> list[str]:
+    cleaned = []
+    skipping = False
+    for line in lines:
+        if is_side_content(line):
+            skipping = True
+            continue
+        if skipping and starts_new_block(line):
+            skipping = False
+        if not skipping:
+            cleaned.append(line)
+    return cleaned
+
+
 def build() -> None:
     raw = SOURCE.read_text(encoding="utf-8", errors="ignore")
     start = raw.find("Emana il seguente decreto legislativo:")
     if start == -1:
         start = raw.find("TITOLO I - PRINCIPI COMUNI", 4000)
     body = raw[start:]
+    stop = body.find("APPENDICE A: NOTE")
+    if stop != -1:
+        body = body[:stop]
 
     lines = [clean_line(line) for line in body.splitlines()]
     lines = [line for line in lines if not is_noise(line)]
+    lines = remove_side_sections(lines)
 
     merged: list[str] = []
     index = 0
@@ -236,7 +314,7 @@ def build() -> None:
             previous = merged[-1]
             if (
                 not starts_new_block(previous)
-                and not previous.endswith((".", ";", ":", "!", "?", "»"))
+                and not previous.endswith((".", ";", ":", "!", "?", "Â»"))
                 and not re.match(r"^[a-z]\)|^[0-9]+\.", line)
             ):
                 merged[-1] = previous + " " + line

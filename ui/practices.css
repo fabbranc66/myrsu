@@ -94,10 +94,25 @@
 .ccnl-result-card:hover { border-color: #2563eb; background: #eff6ff; }
 .ccnl-result-card strong { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .ccnl-result-card small { display: -webkit-box; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: #475569; }
-.ccnl-section-view { max-height: 430px; overflow: auto; padding: 14px; border: 1px solid #d7dde5; border-radius: 12px; background: #f8fafc; }
+.ccnl-nested-results { display: grid; gap: 8px; margin-top: 8px; }
+.ccnl-nested-result-card { width: 100%; padding: 10px; border: 1px solid #dbe4ef; border-radius: 10px; background: #f8fafc; text-align: left; }
+.ccnl-nested-result-card:hover { border-color: #2563eb; background: #eff6ff; }
+.ccnl-nested-result-card strong,
+.ccnl-nested-result-card small { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; }
+.ccnl-nested-result-card strong { -webkit-line-clamp: 1; font-weight: 800; }
+.ccnl-nested-result-card small { -webkit-line-clamp: 2; color: #475569; }
+.ccnl-section-view { min-width: 0; max-height: 430px; overflow: auto; overflow-wrap: anywhere; padding: 14px; border: 1px solid #d7dde5; border-radius: 12px; background: #f8fafc; }
 .ccnl-close-reading { display: none; }
 .ccnl-section-view table { width: 100%; border-collapse: collapse; }
 .ccnl-section-view td { padding: 8px; border-bottom: 1px solid #d7dde5; }
+.ccnl-section-view .normativa-data-table { display: block; width: 100%; max-width: 100%; overflow-x: auto; margin: 12px 0; border: 1px solid #cbd5e1; border-radius: 12px; background: #fff; }
+.ccnl-section-view .normativa-data-table thead { background: #e2e8f0; }
+.ccnl-section-view .normativa-data-table th,
+.ccnl-section-view .normativa-data-table td { min-width: 110px; padding: 9px 10px; border-bottom: 1px solid #d7dde5; text-align: left; white-space: normal; overflow-wrap: anywhere; vertical-align: top; }
+.ccnl-section-view .normativa-data-table th:first-child,
+.ccnl-section-view .normativa-data-table td:first-child { min-width: 76px; text-align: left; font-weight: 700; }
+.ccnl-section-view .normativa-data-table th:nth-child(2),
+.ccnl-section-view .normativa-data-table td:nth-child(2) { max-width: 240px; }
 .ccnl-link-action { margin-bottom: 12px; }
 .ccnl-link-bar { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 12px; padding: 8px 0; background: #f8fafc; }
 .ccnl-link-bar small { color: #334155; }
@@ -297,3 +312,5 @@
     font-size: 13px;
   }
 }
+
+.normativa-hierarchy { margin: 0 0 12px; padding: 10px 12px; border-radius: 10px; background: #e0f2fe; color: #075985; font-weight: 800; }

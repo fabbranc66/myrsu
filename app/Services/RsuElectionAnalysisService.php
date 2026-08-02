@@ -52,17 +52,11 @@ final class RsuElectionAnalysisService
         }
         unset($list);
 
-        usort($lists, static fn (array $a, array $b): int => [$b['remainder'], $b['votes'], $a['presentation_order']] <=> [$a['remainder'], $a['votes'], $b['presentation_order']]);
         $remainingSeats = $seats - $assigned;
-        for ($index = 0; $index < $remainingSeats && isset($lists[$index]); $index++) {
-            $next = $lists[$index + 1] ?? null;
-            $tied = $next !== null
-                && abs($lists[$index]['remainder'] - $next['remainder']) < 0.000001
-                && $lists[$index]['votes'] === $next['votes'];
-            $lists[$index]['assignment_note'] = $tied
-                ? 'Seggio assegnato per priorita di presentazione lista.'
-                : 'Seggio assegnato con maggior resto.';
-            $lists[$index]['seats']++;
+        for ($seat = 0; $seat < $remainingSeats; $seat++) {
+            $winnerIndex = $this->nextRemainderWinner($lists);
+            if ($winnerIndex === null) break;
+            $lists[$winnerIndex]['seats']++;
         }
 
         foreach ($lists as &$list) {
@@ -73,6 +67,28 @@ final class RsuElectionAnalysisService
 
         usort($lists, static fn (array $a, array $b): int => [$b['seats'], $b['votes'], $a['name']] <=> [$a['seats'], $a['votes'], $b['name']]);
         return $lists;
+    }
+
+    private function nextRemainderWinner(array &$lists): ?int
+    {
+        $maxRemainder = max(array_column($lists, 'remainder'));
+        $candidates = array_keys(array_filter($lists, static fn (array $list): bool => abs($list['remainder'] - $maxRemainder) < 0.000001));
+        if ($candidates === []) return null;
+
+        $withoutSeats = array_values(array_filter($candidates, static fn (int $index): bool => $lists[$index]['seats'] === 0));
+        if (count($withoutSeats) === 1) {
+            $lists[$withoutSeats[0]]['assignment_note'] = 'Seggio assegnato a parità di resti alla lista senza seggi.';
+            return $withoutSeats[0];
+        }
+
+        if (count($candidates) === 1) {
+            $lists[$candidates[0]]['assignment_note'] = 'Seggio assegnato con maggior resto.';
+            return $candidates[0];
+        }
+
+        usort($candidates, static fn (int $a, int $b): int => $lists[$a]['presentation_order'] <=> $lists[$b]['presentation_order']);
+        $lists[$candidates[0]]['assignment_note'] = 'Parità di resti tra liste con seggi: serve sorteggio. Provvisoriamente ordinata per presentazione.';
+        return $candidates[0];
     }
 
     private function lists(mixed $rows): array
