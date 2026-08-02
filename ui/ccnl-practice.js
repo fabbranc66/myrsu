@@ -60,6 +60,7 @@ const ccnlInput = document.querySelector('#ccnlSearchInput');
 const ccnlResults = document.querySelector('#ccnlResults');
 const ccnlSectionView = document.querySelector('#ccnlSectionView');
 const ccnlHeaderLink = document.querySelector('#ccnlHeaderLink');
+const ccnlSelectionCount = document.querySelector('#ccnlSelectionCount');
 const ccnlEditForm = document.querySelector('#ccnlEditForm');
 const ccnlCancelEdit = document.querySelector('#ccnlCancelEdit');
 const ccnlResetVocabulary = document.querySelector('#ccnlResetVocabulary');
@@ -390,11 +391,11 @@ async function ccnlOpenSection(blockCode, sectionIndex, bookmark = '') {
   ccnlActiveBlock = block;
   ccnlActiveSection = section;
   ccnlHeaderLink.hidden = false;
+  ccnlUpdateSelectionCount(0);
   ccnlSectionView.innerHTML = `
     <div class="ccnl-link-bar">
       <button class="ccnl-link-action" type="button" data-ccnl-edit>Modifica testo</button>
       <button class="ccnl-close-reading" type="button" data-ccnl-close-reading>Chiudi lettura</button>
-      <small id="ccnlSelectionStatus">Nessuna selezione: verrà collegata tutta la sezione.</small>
     </div>
     <div id="ccnlReadableText">${ccnlHighlight(ccnlRender(ccnlBodyText(section.text)), bookmark || ccnlInput.value.trim())}</div>
   `;
@@ -419,10 +420,10 @@ async function ccnlOpenDbUnit(unitId, bookmark = '') {
   ccnlActiveBlock = block;
   ccnlActiveSection = section;
   ccnlHeaderLink.hidden = false;
+  ccnlUpdateSelectionCount(0);
   ccnlSectionView.innerHTML = `
     <div class="ccnl-link-bar">
       <button class="ccnl-close-reading" type="button" data-ccnl-close-reading>Chiudi lettura</button>
-      <small id="ccnlSelectionStatus">Nessuna selezione: verrà collegato tutto il riferimento.</small>
     </div>
     <div id="ccnlReadableText">${hierarchy}${ccnlHighlight(ccnlRender(ccnlBodyText(section.text)), bookmark || ccnlInput.value.trim())}</div>
   `;
@@ -549,8 +550,13 @@ function ccnlRangeFromPoint(event) {
 
 function ccnlSetSelectedText(text) {
   ccnlLastSelectedText = ccnlCleanSelection(text);
-  const status = document.querySelector('#ccnlSelectionStatus');
-  if (status) status.textContent = `Selezione pronta: ${ccnlLastSelectedText.length} caratteri.`;
+  ccnlUpdateSelectionCount(ccnlLastSelectedText.length);
+}
+
+function ccnlUpdateSelectionCount(length) {
+  if (!ccnlSelectionCount) return;
+  ccnlSelectionCount.hidden = ccnlHeaderLink.hidden;
+  ccnlSelectionCount.textContent = `${length} caratteri`;
 }
 
 function ccnlHighlight(html, term) {
@@ -588,7 +594,10 @@ ccnlHeaderLink.addEventListener('pointerdown', ccnlPrepareLinkClick);
 ccnlHeaderLink.addEventListener('mousedown', ccnlPrepareLinkClick);
 ccnlHeaderLink.addEventListener('touchstart', ccnlPrepareLinkClick);
 ccnlHeaderLink.addEventListener('click', () => ccnlLink(ccnlActiveBlock, ccnlActiveSection));
-ccnlModal.addEventListener('close', () => { ccnlHeaderLink.hidden = true; });
+ccnlModal.addEventListener('close', () => {
+  ccnlHeaderLink.hidden = true;
+  ccnlSelectionCount.hidden = true;
+});
 document.querySelector('#ccnlClearSearch').addEventListener('click', () => { ccnlInput.value = ''; ccnlResults.innerHTML = ''; ccnlSectionView.innerHTML = ''; });
 ccnlResetVocabulary?.addEventListener('click', () => {
   window.MyRsuNormativaVocabulary?.reset();

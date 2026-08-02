@@ -68,10 +68,11 @@
 .practice-tools { margin-top: 14px; }
 .ccnl-practice-modal { width: min(1100px, 94vw); height: min(820px, 90vh); }
 .ccnl-practice-modal::backdrop { background: rgba(15, 23, 42, .55); }
-.ccnl-search-row { display: flex; gap: 10px; margin-bottom: 12px; }
+.ccnl-search-toolbar { display: flex; align-items: end; gap: 10px; margin-bottom: 12px; }
+.ccnl-search-row { display: flex; flex: 1; gap: 10px; margin: 0; }
 .ccnl-search-row input { flex: 1; min-width: 0; }
 .ccnl-ai-hint { margin: -4px 0 10px; color: #475569; font-size: 12px; }
-.ccnl-scope-row { display: block; margin-bottom: 10px; color: #0f172a; font-weight: 700; }
+.ccnl-scope-row { display: block; min-width: 230px; margin: 0; color: #0f172a; font-weight: 700; }
 .ccnl-scope-row select { width: 100%; margin-top: 5px; color: #0f172a; background: #fff; border: 1px solid #cbd5e1; border-radius: 10px; }
 .ccnl-practice-modal,
 .ccnl-practice-modal input,
@@ -116,6 +117,16 @@
 .ccnl-link-action { margin-bottom: 12px; }
 .ccnl-link-bar { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 12px; padding: 8px 0; background: #f8fafc; }
 .ccnl-link-bar small { color: #334155; }
+.ccnl-selection-count {
+  padding: 7px 10px;
+  border: 1px solid #93c5fd;
+  border-radius: 9px;
+  color: #1e3a8a;
+  background: #eff6ff;
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
 .ccnl-question-form,
 .ccnl-question-answer { margin: 10px 0; padding: 12px; border: 1px solid #d7dde5; border-radius: 12px; background: #f8fafc; }
 .ccnl-question-form textarea { width: 100%; }
@@ -214,6 +225,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
+  }
+  .ccnl-search-toolbar {
+    display: grid;
+    gap: 8px;
+  }
+  .ccnl-scope-row {
+    min-width: 0;
   }
   .ccnl-search-row input {
     grid-column: 1 / -1;

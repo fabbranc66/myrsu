@@ -8,6 +8,7 @@ const reader = document.querySelector('#normativaReader');
 const content = document.querySelector('#normativaContent');
 const shareButton = document.querySelector('#shareNormativa');
 const selectionLabel = document.querySelector('#normativaSelection');
+const closeReaderButton = document.querySelector('#closeNormativaReader');
 let currentUnitId = null;
 let savedSelection = '';
 let query = '';
@@ -15,7 +16,7 @@ let dragStartRange = null;
 
 document.querySelector('#openNormativa').addEventListener('click', () => modal.showModal());
 document.querySelector('#closeNormativa').addEventListener('click', () => modal.close());
-document.querySelector('#closeNormativaReader').addEventListener('click', closeReader);
+closeReaderButton.addEventListener('click', closeReader);
 document.querySelector('#clearNormativa').addEventListener('click', () => {
   form.reset();
   results.innerHTML = '';
@@ -53,7 +54,9 @@ results.addEventListener('click', async (event) => {
     document.querySelector('#normativaTitle').textContent = title;
     document.querySelector('#normativaHierarchy').textContent = unit.hierarchy_label || unit.document_title || '';
     content.innerHTML = highlight(renderText(bodyText(unit.testo || '', title)));
-    selectionLabel.textContent = 'Nessuna selezione: sarà condiviso tutto il riferimento.';
+    selectionLabel.textContent = '0 caratteri';
+    selectionLabel.hidden = false;
+    closeReaderButton.hidden = false;
     reader.classList.remove('hidden');
     body.classList.add('reading');
     shareButton.hidden = false;
@@ -67,7 +70,7 @@ function rememberSelection() {
   const selected = selectedText();
   if (!selected) return;
   savedSelection = selected;
-  selectionLabel.textContent = `Selezione pronta: ${selected.length} caratteri.`;
+  selectionLabel.textContent = `${selected.length} caratteri`;
 }
 
 document.addEventListener('selectionchange', rememberSelection);
@@ -86,15 +89,12 @@ shareButton.addEventListener('click', async () => {
   if (!currentUnitId) return;
   rememberSelection();
   shareButton.disabled = true;
-  selectionLabel.textContent = savedSelection
-    ? `Condivisione selezione: ${savedSelection.length} caratteri…`
-    : 'Condivisione riferimento completo…';
   try {
     await api(`/room-access/normativa/unita/${currentUnitId}/share`, {method: 'POST', body: JSON.stringify({selection: savedSelection})});
     await refreshRoomTimeline();
     modal.close();
   } catch (error) {
-    selectionLabel.textContent = error.message;
+    window.alert(error.message);
   } finally {
     shareButton.disabled = false;
   }
@@ -144,7 +144,7 @@ function endCustomSelection(event) {
   const selected = range.toString().trim();
   if (selected) {
     savedSelection = selected;
-    selectionLabel.textContent = `Selezione pronta: ${selected.length} caratteri.`;
+    selectionLabel.textContent = `${selected.length} caratteri`;
   }
   dragStartRange = null;
 }
@@ -165,6 +165,8 @@ function closeReader() {
   reader.classList.add('hidden');
   body.classList.remove('reading');
   shareButton.hidden = true;
+  selectionLabel.hidden = true;
+  closeReaderButton.hidden = true;
   currentUnitId = null;
   savedSelection = '';
 }

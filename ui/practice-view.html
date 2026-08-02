@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Scheda pratica</title>
-  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10"><link rel="stylesheet" href="users.css?v=20260802-pdf-verify-button-1"><link rel="stylesheet" href="practices.css?v=20260802-pdf-mobile-1">
+  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10"><link rel="stylesheet" href="users.css?v=20260802-pdf-verify-button-1"><link rel="stylesheet" href="practices.css?v=20260802-search-toolbar-1">
 </head>
 <body>
   <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Scheda pratica</h1></div><nav class="app-nav"></nav></header>
@@ -39,21 +39,23 @@
       <iframe id="verifyFrame" title="Verifica autenticità"></iframe>
     </dialog>
     <dialog id="ccnlModal" class="preview-modal ccnl-practice-modal">
-      <header><h2>Normativa rapida</h2><div class="modal-actions"><button id="ccnlHeaderLink" type="button" hidden>Collega alla pratica</button><button id="closeCcnlModal" type="button">Chiudi</button></div></header>
-      <label class="ccnl-scope-row">Ambito ricerca
-        <select id="ccnlScopeSelect">
-          <option value="all">Tutte le normative</option>
-          <option value="ccnl">CCNL</option>
-          <option value="representation">Testo Unico Rappresentanza</option>
-          <option value="safety">Sicurezza 81/08</option>
-        </select>
-      </label>
+      <header><h2>Normativa rapida</h2><div class="modal-actions"><span id="ccnlSelectionCount" class="ccnl-selection-count" hidden>0 caratteri</span><button id="ccnlHeaderLink" type="button" hidden>Collega alla pratica</button><button id="closeCcnlModal" type="button">Chiudi</button></div></header>
+      <div class="ccnl-search-toolbar">
+        <label class="ccnl-scope-row">Ambito ricerca
+          <select id="ccnlScopeSelect">
+            <option value="all">Tutte le normative</option>
+            <option value="ccnl">CCNL</option>
+            <option value="representation">Testo Unico Rappresentanza</option>
+            <option value="safety">Sicurezza 81/08</option>
+          </select>
+        </label>
         <div class="ccnl-search-row">
           <input id="ccnlSearchInput" placeholder="Cerca nel CCNL">
           <button id="ccnlQuestionToggle" class="hidden" type="button">Domanda Codex</button>
           <button id="ccnlResetVocabulary" type="button">Reset termini</button>
           <button id="ccnlClearSearch" type="button">Pulisci</button>
         </div>
+      </div>
       <form id="ccnlQuestionForm" class="ccnl-question-form hidden">
         <label>Domanda<textarea name="question" rows="3" placeholder="Es. Il RLS può chiedere copia del DVR?"></textarea></label>
         <button type="submit">Cerca risposta</button>
@@ -73,7 +75,7 @@
     </dialog>
     <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
   </section></main>
-  <script src="icons.js?v=20260719-icons-1"></script><script src="practice-options.js?v=20260628-1"></script><script src="practice-view.js?v=20260802-practice-verify-button-1"></script><script src="normativa-vocabulary.js?v=20260731-normativa-2"></script><script src="ccnl-practice.js?v=20260802-header-link-1"></script><script src="ccnl-question.js?v=20260731-normativa-2"></script><script src="auth-menu.js?v=20260730-normativa-1"></script>
+  <script src="icons.js?v=20260719-icons-1"></script><script src="practice-options.js?v=20260628-1"></script><script src="practice-view.js?v=20260802-practice-verify-button-1"></script><script src="normativa-vocabulary.js?v=20260731-normativa-2"></script><script src="ccnl-practice.js?v=20260802-selection-count-2"></script><script src="ccnl-question.js?v=20260731-normativa-2"></script><script src="auth-menu.js?v=20260730-normativa-1"></script>
 </body>
 </html>
 

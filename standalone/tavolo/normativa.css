@@ -211,6 +211,17 @@
   gap: 10px;
 }
 
+.normativa-selection-count {
+  padding: 7px 10px;
+  border: 1px solid #93c5fd;
+  border-radius: 9px;
+  color: #1e3a8a;
+  background: #eff6ff;
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
 .normativa-modal > header {
   position: relative;
   z-index: 20;
@@ -233,9 +244,17 @@
   padding: 12px;
 }
 
+.normativa-search-toolbar {
+  display: grid;
+  grid-template-columns: minmax(120px, .8fr) minmax(0, 1.2fr);
+  align-items: end;
+  gap: 8px;
+}
+
 .normativa-scope {
   display: block;
-  margin-bottom: 10px;
+  min-width: 0;
+  margin: 0;
   font-weight: 700;
 }
 
@@ -417,5 +436,20 @@
   .normativa-link-bar {
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 761px) {
+  .normativa-search-toolbar {
+    display: flex;
+    gap: 10px;
+  }
+
+  .normativa-scope {
+    min-width: 230px;
+  }
+
+  .normativa-search-row {
+    flex: 1;
   }
 }
