@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU</title>
   <link rel="stylesheet" href="../menu.css?v=20260719-mobile-menu-10">
-  <link rel="stylesheet" href="css/layout.css?v=20260719-dashboard-3">
+  <link rel="stylesheet" href="css/layout.css?v=20260802-dashboard-qr-1">
   <link rel="stylesheet" href="css/auth.css">
 </head>
 <body>
@@ -106,6 +106,7 @@
             <button id="closeDocumentModalGuest" type="button">&times;</button>
           </header>
           <iframe id="documentModalFrameGuest" title="Anteprima documento"></iframe>
+          <div id="documentModalPdfGuest" class="dashboard-pdf-viewer hidden"></div>
           <div class="comments-box" id="documentCommentsGuest"></div>
         </div>
       </div>
@@ -193,17 +194,28 @@
             <button id="closeDocumentModalUser" type="button">&times;</button>
           </header>
           <iframe id="documentModalFrameUser" title="Anteprima documento"></iframe>
+          <div id="documentModalPdfUser" class="dashboard-pdf-viewer hidden"></div>
           <div class="comments-box" id="documentCommentsUser"></div>
         </div>
       </div>
     </section>
+
+    <div id="dashboardVerifyModal" class="document-modal hidden">
+      <div class="document-modal-content file-modal verify-modal-content">
+        <header>
+          <h2>Verifica autenticità</h2>
+          <button id="closeDashboardVerifyModal" type="button">Chiudi</button>
+        </header>
+        <iframe id="dashboardVerifyFrame" title="Verifica autenticità"></iframe>
+      </div>
+    </div>
 
     <pre id="message" class="message"></pre>
   </main>
 
   <script src="js/api.js?v=20260727-token-1"></script>
   <script src="js/auth.js?v=20260727-token-1"></script>
-  <script src="js/app.js?v=20260728-reminder-warning-1"></script>
+  <script src="js/app.js?v=20260802-dashboard-qr-1"></script>
 </body>
 </html>
 

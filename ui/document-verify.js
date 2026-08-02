@@ -5,6 +5,10 @@ const jsonOutput = document.getElementById('jsonOutput');
 const verifyModal = document.getElementById('verifyModal');
 const closeVerifyModal = document.getElementById('closeVerifyModal');
 
+if (window.self !== window.top) {
+  closeVerifyModal.hidden = true;
+}
+
 const params = new URLSearchParams(window.location.search);
 document.getElementById('documentId').value = params.get('id') || '';
 document.getElementById('signature').value = params.get('sig') || '';
@@ -18,11 +22,24 @@ if (window.self !== window.top && window.parent && window.frameElement?.id !== '
 
 verifyModal.showModal();
 closeVerifyModal.addEventListener('click', () => {
-  if (window.self === window.top && history.length > 1) {
+  if (window.self !== window.top) {
+    window.parent.postMessage({ type: 'myrsu:close-verify-modal' }, window.location.origin);
+    return;
+  }
+  if (window.opener && !window.opener.closed) {
+    window.close();
+    return;
+  }
+  const returnUrl = localStorage.getItem('myrsu_verify_return_url');
+  if (returnUrl) {
+    window.location.replace(returnUrl);
+    return;
+  }
+  if (history.length > 1) {
     history.back();
     return;
   }
-  verifyModal.close();
+  window.location.href = 'app/index.html';
 });
 
 async function verifyServerFile() {

@@ -10,6 +10,9 @@ const pdfCanvasViewer = document.querySelector('#pdfCanvasViewer');
 const pdfToolbar = document.querySelector('#pdfToolbar');
 const pdfZoomValue = document.querySelector('#pdfZoomValue');
 const closeDocumentModal = document.querySelector('#closeDocumentModal');
+const verifyFrameModal = document.querySelector('#verifyFrameModal');
+const verifyFrame = document.querySelector('#verifyFrame');
+const closeVerifyFrameModal = document.querySelector('#closeVerifyFrameModal');
 const ccnlViewModal = document.querySelector('#ccnlViewModal');
 const ccnlLinkedView = document.querySelector('#ccnlLinkedView');
 const closeCcnlViewModal = document.querySelector('#closeCcnlViewModal');
@@ -19,6 +22,7 @@ let assignees = [];
 let documentPreviewUrl = null;
 let pdfjsLib = null;
 let activePdfUrl = null;
+let activeVerifyUrl = null;
 let activePdf = null;
 let pdfScale = 1;
 let pinchStartDistance = 0;
@@ -92,7 +96,11 @@ timeline.addEventListener('touchend', async (event) => {
 async function handleTimelineAction(event) {
   const button = event.target.closest('[data-document-id]');
   if (button) {
-    await showDocument(button.dataset.documentId);
+    try {
+      await showDocument(button.dataset.documentId);
+    } catch (error) {
+      message.textContent = error.message;
+    }
     return;
   }
 
@@ -112,29 +120,54 @@ async function handleTimelineAction(event) {
 async function showDocument(id) {
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
   documentPreviewUrl = null;
-  const previewUrl = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token || '')}`;
-  if (isMobileViewport()) {
-    documentPreview.src = '';
-    documentPreview.classList.add('hidden');
+  documentPreview.src = '';
+  documentPreview.classList.add('hidden');
+  pdfCanvasViewer.classList.remove('hidden');
+  pdfToolbar.classList.remove('hidden');
+  pdfCanvasViewer.innerHTML = '<p class="muted">Caricamento PDF...</p>';
+  if (!documentModal.open) documentModal.showModal();
+
+  let previewUrl;
+  try {
+    const [loadedPreviewUrl, documentData] = await Promise.all([
+      fetchDocumentPreview(id),
+      api(`/documents/${id}`),
+    ]);
+    previewUrl = loadedPreviewUrl;
+    activeVerifyUrl = documentData.signature
+      ? `document-verify.html?id=${encodeURIComponent(id)}&sig=${encodeURIComponent(documentData.signature)}`
+      : null;
+    const returnUrl = new URL(window.location.href);
+    returnUrl.searchParams.set('preview_document', String(id));
+    localStorage.setItem('myrsu_verify_return_url', returnUrl.toString());
+  } catch (error) {
     pdfCanvasViewer.classList.remove('hidden');
-    pdfToolbar.classList.remove('hidden');
-    activePdfUrl = previewUrl;
-    activePdf = null;
-    pdfScale = 1;
-    await renderPdfCanvas();
-  } else {
-    pdfCanvasViewer.classList.add('hidden');
-    pdfToolbar.classList.add('hidden');
-    documentPreview.src = previewUrl;
-    documentPreview.classList.remove('hidden');
+    pdfCanvasViewer.textContent = error.message;
+    throw error;
   }
-  documentModal.showModal();
+  activePdfUrl = previewUrl;
+  activePdf = null;
+  pdfScale = 1;
+  await renderPdfCanvas();
+}
+
+async function fetchDocumentPreview(id) {
+  const response = await fetch(`${apiBase}/documents/${id}/preview`, {
+    headers: { Authorization: `Bearer ${token || ''}` },
+  });
+  if (!response.ok) {
+    const payload = await response.json().catch(() => ({}));
+    throw new Error(payload.error?.message || 'Anteprima documento non disponibile.');
+  }
+  documentPreviewUrl = URL.createObjectURL(await response.blob());
+  return documentPreviewUrl;
 }
 
 closeDocumentModal.addEventListener('click', () => {
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
   documentPreviewUrl = null;
   activePdfUrl = null;
+  activeVerifyUrl = null;
   activePdf = null;
   pdfCanvasViewer.innerHTML = '';
   pdfCanvasViewer.classList.add('hidden');
@@ -171,33 +204,79 @@ async function renderPdfCanvas() {
       pageWrap.style.width = `${canvas.width}px`;
       pageWrap.style.height = `${canvas.height}px`;
       pageWrap.appendChild(canvas);
-      await addPdfLinks(page, viewport, pageWrap);
+      await addPdfLinks(page, viewport, pageWrap, pageNumber);
       pdfCanvasViewer.appendChild(pageWrap);
     }
-  } catch {
-    pdfCanvasViewer.classList.add('hidden');
-    pdfToolbar.classList.add('hidden');
-    documentPreview.src = activePdfUrl;
-    documentPreview.classList.remove('hidden');
+  } catch (error) {
+    pdfCanvasViewer.classList.remove('hidden');
+    pdfCanvasViewer.textContent = error.message || 'Anteprima PDF non disponibile.';
   }
 }
 
-async function addPdfLinks(page, viewport, pageWrap) {
+async function addPdfLinks(page, viewport, pageWrap, pageNumber) {
   const annotations = await page.getAnnotations({ intent: 'display' });
   annotations.filter((item) => (item.url || item.unsafeUrl) && item.rect).forEach((item) => {
-    const [x1, y1, x2, y2] = viewport.convertToViewportRectangle(item.rect);
-    const link = document.createElement('a');
-    link.href = item.url || item.unsafeUrl;
+    addPdfLink(pageWrap, viewport, item.rect, item.url || item.unsafeUrl);
+  });
+  if (pageNumber === 1 && activeVerifyUrl) addPdfLink(pageWrap, viewport, [502, 728, 554, 780], activeVerifyUrl);
+}
+
+function addPdfLink(pageWrap, viewport, rect, url) {
+  const [x1, y1, x2, y2] = viewport.convertToViewportRectangle(rect);
+  const isVerification = url.includes('document-verify.html');
+  const link = document.createElement(isVerification ? 'button' : 'a');
+  if (!isVerification) {
+    link.href = url;
     link.target = '_blank';
     link.rel = 'noopener';
-    link.className = 'pdf-page-link';
-    link.style.left = `${Math.min(x1, x2)}px`;
-    link.style.top = `${Math.min(y1, y2)}px`;
-    link.style.width = `${Math.abs(x2 - x1)}px`;
-    link.style.height = `${Math.abs(y2 - y1)}px`;
-    pageWrap.appendChild(link);
-  });
+  } else {
+    link.type = 'button';
+    link.setAttribute('aria-label', 'Verifica autenticità documento');
+  }
+  link.dataset.pdfLink = url;
+  link.className = 'pdf-page-link';
+  link.style.left = `${Math.min(x1, x2)}px`;
+  link.style.top = `${Math.min(y1, y2)}px`;
+  link.style.width = `${Math.abs(x2 - x1)}px`;
+  link.style.height = `${Math.abs(y2 - y1)}px`;
+  pageWrap.appendChild(link);
 }
+
+pdfCanvasViewer.addEventListener('click', (event) => {
+  const link = event.target.closest('.pdf-page-link');
+  if (link) openPdfVerification(event, link);
+});
+
+pdfCanvasViewer.addEventListener('pointerup', (event) => {
+  const link = event.target.closest('.pdf-page-link');
+  if (link) openPdfVerification(event, link);
+});
+
+function openPdfVerification(event, link) {
+  const url = link.dataset.pdfLink || link.href;
+  if (!url.includes('document-verify.html')) return;
+  event.preventDefault();
+  event.stopPropagation();
+  verifyFrame.src = url;
+  if (!verifyFrameModal.open) verifyFrameModal.showModal();
+}
+
+window.addEventListener('message', (event) => {
+  if (event.origin !== window.location.origin || typeof event.data !== 'object') return;
+  if (event.data?.type === 'myrsu:close-verify-modal') {
+    verifyFrame.src = '';
+    if (verifyFrameModal.open) verifyFrameModal.close();
+    return;
+  }
+  if (event.data?.type !== 'myrsu:verify-modal') return;
+  verifyFrame.src = event.data.url;
+  if (!verifyFrameModal.open) verifyFrameModal.showModal();
+});
+
+closeVerifyFrameModal.addEventListener('click', () => {
+  verifyFrame.src = '';
+  verifyFrameModal.close();
+});
 
 function pageScale(page) {
   const viewport = page.getViewport({ scale: 1 });
@@ -206,7 +285,7 @@ function pageScale(page) {
 }
 
 function isMobileViewport() {
-  return window.matchMedia('(max-width: 760px)').matches;
+  return window.matchMedia('(max-width: 900px), (pointer: coarse)').matches;
 }
 
 function pinchDistance(touches) {
@@ -317,4 +396,14 @@ async function unlinkCcnlLink(linkId) {
   await load();
 }
 
-load().catch((error) => { message.textContent = error.message; });
+async function initializePractice() {
+  await load();
+  const url = new URL(window.location.href);
+  const returnDocumentId = Number(url.searchParams.get('preview_document'));
+  if (!returnDocumentId) return;
+  url.searchParams.delete('preview_document');
+  history.replaceState({}, '', url);
+  await showDocument(returnDocumentId);
+}
+
+initializePractice().catch((error) => { message.textContent = error.message; });

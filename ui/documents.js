@@ -268,23 +268,39 @@ documentsTable.addEventListener('click', async (event) => {
 async function showDocument(id) {
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
   documentPreviewUrl = null;
-  const token = authToken();
-  const previewUrl = `${apiBase}/documents/${id}/preview?token=${encodeURIComponent(token || '')}`;
   const documentRow = documents.find((item) => Number(item.id) === Number(id));
   activeVerifyUrl = documentRow?.signature
     ? `document-verify.html?id=${encodeURIComponent(id)}&sig=${encodeURIComponent(documentRow.signature)}`
     : null;
-  if (isMobileViewport()) {
+  localStorage.setItem('myrsu_verify_return_url', window.location.href);
+  const mobile = isMobileViewport();
+  documentPreview.src = '';
+  documentPreview.classList.toggle('hidden', mobile);
+  pdfCanvasViewer.classList.toggle('hidden', !mobile);
+  pdfToolbar.classList.toggle('hidden', !mobile);
+  if (mobile) pdfCanvasViewer.innerHTML = '<p class="muted">Caricamento PDF...</p>';
+  if (!documentModal.open) documentModal.showModal();
+
+  let previewUrl;
+  try {
+    previewUrl = await fetchDocumentPreview(id);
+  } catch (error) {
+    pdfCanvasViewer.classList.remove('hidden');
+    pdfCanvasViewer.textContent = error.message;
+    throw error;
+  }
+  if (mobile) {
     documentMobilePreview.src = '';
     documentMobilePreview.classList.add('hidden');
-    documentPreview.src = '';
-    documentPreview.classList.add('hidden');
-    pdfCanvasViewer.classList.remove('hidden');
-    pdfToolbar.classList.remove('hidden');
     activePdfUrl = previewUrl;
     activePdf = null;
     pdfScale = 1;
-    await renderPdfCanvas();
+    try {
+      await renderPdfCanvas();
+    } catch (error) {
+      pdfCanvasViewer.textContent = error.message;
+      throw error;
+    }
   } else {
     pdfCanvasViewer.classList.add('hidden');
     pdfToolbar.classList.add('hidden');
@@ -293,7 +309,18 @@ async function showDocument(id) {
     documentPreview.src = previewUrl;
     documentPreview.classList.remove('hidden');
   }
-  documentModal.showModal();
+}
+
+async function fetchDocumentPreview(id) {
+  const response = await fetch(`${apiBase}/documents/${id}/preview`, {
+    headers: { Authorization: `Bearer ${authToken() || ''}` },
+  });
+  if (!response.ok) {
+    const payload = await response.json().catch(() => ({}));
+    throw new Error(payload.error?.message || 'Anteprima documento non disponibile.');
+  }
+  documentPreviewUrl = URL.createObjectURL(await response.blob());
+  return documentPreviewUrl;
 }
 
 async function renderPdfCanvas() {
@@ -364,11 +391,17 @@ function pinchDistance(touches) {
 }
 
 function isMobileViewport() {
-  return window.matchMedia('(max-width: 760px)').matches;
+  return window.matchMedia('(max-width: 900px), (pointer: coarse)').matches;
 }
 
 window.addEventListener('message', (event) => {
-  if (typeof event.data !== 'object' || event.data?.type !== 'myrsu:verify-modal') return;
+  if (event.origin !== window.location.origin || typeof event.data !== 'object') return;
+  if (event.data?.type === 'myrsu:close-verify-modal') {
+    verifyFrame.src = '';
+    if (verifyFrameModal.open) verifyFrameModal.close();
+    return;
+  }
+  if (event.data?.type !== 'myrsu:verify-modal') return;
   if (verifyFrame.src === event.data.url) return;
   verifyFrame.src = event.data.url;
   verifyFrameModal.showModal();

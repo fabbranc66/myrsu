@@ -829,6 +829,11 @@ dialog {
   position: absolute;
   display: block;
   z-index: 2;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
   pointer-events: auto;
   touch-action: manipulation;
 }
@@ -1267,6 +1272,38 @@ dialog {
   .topbar {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  #documentModal {
+    width: calc(100vw - 12px);
+    max-width: none;
+    padding: 6px;
+  }
+
+  #documentModal > header {
+    min-height: 36px;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 6px;
+  }
+
+  #documentModal > header h2 {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1;
+  }
+
+  #documentModal > header button {
+    width: auto;
+    min-height: 34px;
+    padding: 5px 9px;
+  }
+
+  #documentModal .pdf-canvas-viewer,
+  #documentModal #documentPreview {
+    height: calc(100vh - 64px);
+    min-height: 0;
   }
 
   .grid {

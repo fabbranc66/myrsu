@@ -26,6 +26,9 @@ const votingsCard = document.querySelector('#votingsCard');
 const privateDocumentsLink = document.querySelector('#privateDocumentsLink');
 const publicBoardGuest = document.querySelector('#publicBoardGuestContent');
 const publicBoardUser = document.querySelector('#publicBoardUserContent');
+const dashboardVerifyModal = document.querySelector('#dashboardVerifyModal');
+const dashboardVerifyFrame = document.querySelector('#dashboardVerifyFrame');
+const closeDashboardVerifyModal = document.querySelector('#closeDashboardVerifyModal');
 const appRoot = window.location.pathname.split('/ui/')[0];
 const publicComunicati = new Map();
 const publicDocuments = new Map();
@@ -90,6 +93,9 @@ function publicDocumentRow(document) {
   publicDocuments.set(String(document.id), {
     title: document.original_name,
     url: `${appRoot}/api/v1/documents/${document.id}/preview`,
+    verifyUrl: document.signature
+      ? `${appRoot}/ui/document-verify.html?id=${encodeURIComponent(document.id)}&sig=${encodeURIComponent(document.signature)}`
+      : '',
   });
 
   return `<button class="board-document board-file" type="button" data-document="${document.id}">
@@ -357,10 +363,100 @@ document.addEventListener('click', (event) => {
   const suffix = appView.classList.contains('hidden') ? 'Guest' : 'User';
   const modal = document.querySelector(`#documentModal${suffix}`);
   const frame = document.querySelector(`#documentModalFrame${suffix}`);
+  const pdfViewer = document.querySelector(`#documentModalPdf${suffix}`);
   document.querySelector(`#documentModalTitle${suffix}`).textContent = item?.title || '';
-  frame.src = item?.url || '';
   modal.classList.remove('hidden');
+  if (isMobileDashboard()) {
+    frame.src = '';
+    frame.classList.add('hidden');
+    pdfViewer.classList.remove('hidden');
+    renderDashboardPdf(item || {}, pdfViewer);
+  } else {
+    pdfViewer.classList.add('hidden');
+    pdfViewer.innerHTML = '';
+    frame.src = item?.url || '';
+    frame.classList.remove('hidden');
+  }
   loadComments(button.dataset.document, `#documentComments${suffix}`);
+});
+
+function isMobileDashboard() {
+  return window.matchMedia('(max-width: 900px), (pointer: coarse)').matches;
+}
+
+async function renderDashboardPdf(item, viewer) {
+  viewer.innerHTML = '<p class="muted">Caricamento documento...</p>';
+  try {
+    const pdfjsLib = await import('../../vendor/pdfjs/pdf.mjs');
+    pdfjsLib.GlobalWorkerOptions.workerSrc = '../../vendor/pdfjs/pdf.worker.mjs';
+    const response = await fetch(item.url || '', { cache: 'no-store' });
+    if (!response.ok) throw new Error('Documento non disponibile.');
+    const pdf = await pdfjsLib.getDocument({
+      data: await response.arrayBuffer(),
+      cMapUrl: '../../vendor/pdfjs/cmaps/',
+      cMapPacked: true,
+      standardFontDataUrl: '../../vendor/pdfjs/standard_fonts/',
+      wasmUrl: '../../vendor/pdfjs/wasm/',
+    }).promise;
+    viewer.innerHTML = '';
+    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+      const page = await pdf.getPage(pageNumber);
+      const baseViewport = page.getViewport({ scale: 1 });
+      const availableWidth = Math.max(280, viewer.clientWidth - 16);
+      const viewport = page.getViewport({ scale: availableWidth / baseViewport.width });
+      const canvas = document.createElement('canvas');
+      const pageWrap = document.createElement('div');
+      canvas.width = Math.ceil(viewport.width);
+      canvas.height = Math.ceil(viewport.height);
+      canvas.className = 'dashboard-pdf-page';
+      pageWrap.className = 'dashboard-pdf-page-wrap';
+      pageWrap.style.width = `${canvas.width}px`;
+      pageWrap.style.height = `${canvas.height}px`;
+      pageWrap.appendChild(canvas);
+      viewer.appendChild(pageWrap);
+      await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+      const annotations = await page.getAnnotations({ intent: 'display' });
+      annotations.filter((annotation) => (annotation.url || annotation.unsafeUrl) && annotation.rect)
+        .forEach((annotation) => addDashboardPdfLink(
+          pageWrap,
+          viewport,
+          annotation.rect,
+          annotation.url || annotation.unsafeUrl,
+        ));
+      if (pageNumber === 1 && item.verifyUrl) {
+        addDashboardPdfLink(pageWrap, viewport, [502, 728, 554, 780], item.verifyUrl);
+      }
+    }
+  } catch (error) {
+    viewer.textContent = error.message || 'Anteprima non disponibile.';
+  }
+}
+
+function addDashboardPdfLink(pageWrap, viewport, rect, url) {
+  const [x1, y1, x2, y2] = viewport.convertToViewportRectangle(rect);
+  const link = document.createElement('a');
+  link.href = url;
+  link.className = 'dashboard-pdf-link';
+  link.dataset.pdfLink = url;
+  link.setAttribute('aria-label', 'Verifica autenticità');
+  link.style.left = `${Math.min(x1, x2)}px`;
+  link.style.top = `${Math.min(y1, y2)}px`;
+  link.style.width = `${Math.abs(x2 - x1)}px`;
+  link.style.height = `${Math.abs(y2 - y1)}px`;
+  pageWrap.appendChild(link);
+}
+
+document.addEventListener('click', (event) => {
+  const link = event.target.closest('.dashboard-pdf-link');
+  if (!link) return;
+  event.preventDefault();
+  dashboardVerifyFrame.src = link.dataset.pdfLink || link.href;
+  dashboardVerifyModal.classList.remove('hidden');
+});
+
+if (closeDashboardVerifyModal) closeDashboardVerifyModal.addEventListener('click', () => {
+  dashboardVerifyFrame.src = '';
+  dashboardVerifyModal.classList.add('hidden');
 });
 
 async function loadComments(documentId, targetSelector) {
@@ -388,7 +484,10 @@ function commentsHtml(documentId, comments) {
     <input name="antibot_b" type="hidden" value="${antibot.b}">
     <input name="antibot_answer" inputmode="numeric" placeholder="Quanto fa ${antibot.a} + ${antibot.b}?" required>
     <input name="antibot_errors" type="hidden" value="0">
-    <button type="submit">Invia commento</button>
+    <button class="comment-submit" type="submit" title="Invia commento" aria-label="Invia commento">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 21 3l-8.5 18-2.2-7.3L3 11.5Z"></path><path d="m10.3 13.7 4.4-4.4"></path></svg>
+      <span>Invia</span>
+    </button>
   </form>`;
 }
 
@@ -462,14 +561,17 @@ function closeParentModal(element) {
   const closeButton = document.querySelector(`#closeDocumentModal${suffix}`);
   const modal = document.querySelector(`#documentModal${suffix}`);
   const frame = document.querySelector(`#documentModalFrame${suffix}`);
+  const pdfViewer = document.querySelector(`#documentModalPdf${suffix}`);
   if (closeButton && modal) closeButton.addEventListener('click', () => {
     modal.classList.add('hidden');
     if (frame) frame.src = '';
+    if (pdfViewer) pdfViewer.innerHTML = '';
   });
   if (modal) modal.addEventListener('click', (event) => {
     if (event.target === modal) {
       modal.classList.add('hidden');
       if (frame) frame.src = '';
+      if (pdfViewer) pdfViewer.innerHTML = '';
     }
   });
 });
