@@ -20,6 +20,8 @@ final class NormativaTextCleaner
             'cantier i' => 'cantieri', 'organizz azioni' => 'organizzazioni',
             'traspor ti' => 'trasporti', 'rappresentat ive' => 'rappresentative',
             'del la legge' => 'della legge', 'mo dalità' => 'modalità', 'pu ò' => 'può',
+            'puà²' => 'può', 'pià¹' => 'più', 'nà©' => 'né', 'altresà¬' => 'altresì',
+            'Â½' => '½', '1Â°' => '1°',
         ]);
         $text = preg_replace('/\bR\.\s*s\.\s*u\.?/iu', 'RSU', $text) ?? $text;
         $text = preg_replace('/\b[Nn]\s*[°º]\s*/u', 'N. ', $text) ?? $text;
@@ -33,6 +35,18 @@ final class NormativaTextCleaner
             $text
         ) ?? $text;
         $text = preg_replace('/elezioni della RSU\R\s*di cui/iu', 'elezioni della RSU di cui', $text) ?? $text;
+        $text = preg_replace(
+            '/(?:^|\R)4?Livello Durata ordinaria Durata ridotta\R'
+            . 'D1, D2 e C1 1 mese e ½ 1 mese\R'
+            . 'C2, C3 e B1 3 mesi 2 mesi\R'
+            . 'B2, B3 e A1 6 mesi 3 mesi/u',
+            "\n| Livello | Durata ordinaria | Durata ridotta |\n"
+            . "|---|---:|---:|\n"
+            . "| D1, D2 e C1 | 1 mese e ½ | 1 mese |\n"
+            . "| C2, C3 e B1 | 3 mesi | 2 mesi |\n"
+            . "| B2, B3 e A1 | 6 mesi | 3 mesi |",
+            $text
+        ) ?? $text;
         $text = preg_replace('/(?<!\n)(ESEMPLIFICAZIONE PROFILI DI AREA FUNZIONALE)/u', "\n$1", $text) ?? $text;
         $text = preg_replace_callback('/([\p{L}]+)-\R([\p{Ll}]+)/u', static function (array $matches): string {
             return in_array(mb_strtolower($matches[1], 'UTF-8'), ['decreto'], true)

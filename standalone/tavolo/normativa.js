@@ -1,6 +1,7 @@
 import { api, escapeHtml, refreshRoomTimeline } from './app.js?v=20260802-room-1';
 
 const modal = document.querySelector('#normativaModal');
+const body = document.querySelector('.normativa-body');
 const form = document.querySelector('#normativaSearch');
 const results = document.querySelector('#normativaResults');
 const reader = document.querySelector('#normativaReader');
@@ -48,11 +49,13 @@ results.addEventListener('click', async (event) => {
     const unit = await api(`/room-access/normativa/unita/${button.dataset.unit}`);
     currentUnitId = Number(button.dataset.unit);
     savedSelection = '';
-    document.querySelector('#normativaTitle').textContent = unit.rubrica || unit.etichetta || 'Riferimento normativa';
+    const title = unit.rubrica || unit.etichetta || 'Riferimento normativa';
+    document.querySelector('#normativaTitle').textContent = title;
     document.querySelector('#normativaHierarchy').textContent = unit.hierarchy_label || unit.document_title || '';
-    content.innerHTML = highlight(renderText(unit.testo || ''));
+    content.innerHTML = highlight(renderText(bodyText(unit.testo || '', title)));
     selectionLabel.textContent = 'Nessuna selezione: sarà condiviso tutto il riferimento.';
     reader.classList.remove('hidden');
+    body.classList.add('reading');
     shareButton.hidden = false;
     reader.scrollIntoView({block: 'start'});
   } catch (error) {
@@ -101,9 +104,17 @@ function selectedText() {
   if (!modal.open) return '';
   const selection = window.getSelection();
   if (!selection || selection.isCollapsed || selection.rangeCount === 0) return '';
-  const range = selection.getRangeAt(0);
+  const range = selection.getRangeAt(0).cloneRange();
+  const contentRange = document.createRange();
+  contentRange.selectNodeContents(content);
   if (!range.intersectsNode(content)) return '';
-  return selection.toString().trim();
+  if (range.compareBoundaryPoints(Range.START_TO_START, contentRange) < 0) {
+    range.setStart(contentRange.startContainer, contentRange.startOffset);
+  }
+  if (range.compareBoundaryPoints(Range.END_TO_END, contentRange) > 0) {
+    range.setEnd(contentRange.endContainer, contentRange.endOffset);
+  }
+  return range.toString().trim();
 }
 
 function prepareShare() {
@@ -152,13 +163,41 @@ function rangeFromPoint(event) {
 
 function closeReader() {
   reader.classList.add('hidden');
+  body.classList.remove('reading');
   shareButton.hidden = true;
   currentUnitId = null;
   savedSelection = '';
 }
 
 function renderText(text) {
-  return String(text).split('\n').map((line) => line.trim() ? `<p>${escapeHtml(line)}</p>` : '').join('');
+  const lines = String(text).split('\n');
+  const html = [];
+  for (let index = 0; index < lines.length; index++) {
+    if (!lines[index].trim().startsWith('|')) {
+      if (lines[index].trim()) html.push(`<p>${escapeHtml(lines[index].trim())}</p>`);
+      continue;
+    }
+    const rows = [];
+    while (index < lines.length && lines[index].trim().startsWith('|')) {
+      rows.push(lines[index].trim().split('|').slice(1, -1).map((cell) => cell.trim()));
+      index++;
+    }
+    index--;
+    const dataRows = rows.filter((row) => !row.every((cell) => /^:?-+:?$/.test(cell)));
+    const header = dataRows.shift() || [];
+    html.push(`<div class="normativa-data-table"><table><thead><tr>${header.map((cell) => `<th>${escapeHtml(cell)}</th>`).join('')}</tr></thead><tbody>${dataRows.map((row) => `<tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
+  }
+  return html.join('');
+}
+
+function bodyText(text, title) {
+  const lines = String(text).split('\n');
+  const firstContent = lines.findIndex((line) => line.trim());
+  if (firstContent >= 0) {
+    const heading = lines[firstContent].trim().replace(/^#{1,6}\s*/, '').trim().toLowerCase();
+    if (heading === String(title).trim().toLowerCase()) lines.splice(firstContent, 1);
+  }
+  return lines.join('\n').trim();
 }
 
 function highlight(html) {

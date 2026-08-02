@@ -41,7 +41,6 @@ final class NormativaController
 
     public function search(Request $request): Response
     {
-        $this->app->auth->requireUser($request);
         $query = trim((string)$request->query('q', ''));
         $scope = trim((string)$request->query('scope', 'ccnl')) ?: 'ccnl';
         $limit = (int)$request->query('limit', 20);
@@ -67,7 +66,6 @@ final class NormativaController
 
     public function unit(Request $request, array $params): Response
     {
-        $this->app->auth->requireUser($request);
         $unit = $this->app->normativa->unit((int)$params['id']);
         if ($unit === []) {
             throw new HttpException(404, 'Riferimento normativa non trovato.');

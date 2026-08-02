@@ -53,13 +53,13 @@ final class RoomNormativaController
 
         $unit = $this->app->normativa->unit((int)$params['id']);
         if ($unit === []) throw new HttpException(404, 'Riferimento normativa non trovato.');
-        $fullText = trim((string)($unit['testo'] ?? ''));
+        $title = trim((string)(($unit['rubrica'] ?? '') ?: ($unit['titolo'] ?? '') ?: ($unit['document_title'] ?? 'Normativa')));
+        $fullText = $this->bodyText((string)($unit['testo'] ?? ''), $title);
         $selection = trim((string)$request->input('selection', ''));
         $sharedText = $selection !== '' ? $selection : $fullText;
         if (mb_strlen($sharedText) > 30000) {
             throw new HttpException(422, 'Testo troppo lungo: seleziona il passaggio da condividere.');
         }
-        $title = trim((string)(($unit['rubrica'] ?? '') ?: ($unit['titolo'] ?? '') ?: ($unit['document_title'] ?? 'Normativa')));
         $content = "Riferimento normativo: {$title}\n\n{$sharedText}";
         $message = (string)$access['access_type'] === 'internal'
             ? $this->app->roomTimeline->createMessage((int)$access['room_id'], (int)$access['user_id'], [
@@ -75,5 +75,17 @@ final class RoomNormativaController
             ]
         );
         return Response::json(['data' => $message], 201);
+    }
+
+    private function bodyText(string $text, string $title): string
+    {
+        $lines = preg_split('/\R/u', trim($text)) ?: [];
+        foreach ($lines as $index => $line) {
+            if (trim($line) === '') continue;
+            $heading = trim((string)preg_replace('/^#{1,6}\s*/u', '', trim($line)));
+            if (mb_strtolower($heading) === mb_strtolower($title)) unset($lines[$index]);
+            break;
+        }
+        return trim(implode("\n", $lines));
     }
 }
