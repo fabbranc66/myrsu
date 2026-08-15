@@ -41,12 +41,19 @@ final class EmailImapSyncService
         sort($messages);
         foreach ($messages as $messageNo) {
             $externalId = $this->externalId($imap, (int)$messageNo);
-            if ($this->emails->externalExists($externalId)) {
+            $existing = $this->emails->findByExternalId($externalId);
+            if ($existing !== null && mb_strlen(trim((string)$existing['body'])) >= 200) {
                 continue;
             }
 
             $header = imap_headerinfo($imap, (int)$messageNo);
             $parts = $this->parts($imap, (int)$messageNo, imap_fetchstructure($imap, (int)$messageNo));
+            if ($existing !== null) {
+                if (mb_strlen($parts['body']) > mb_strlen(trim((string)$existing['body']))) {
+                    $this->emails->updateImportedBody((int)$existing['id'], $parts['body']);
+                }
+                continue;
+            }
             $from = $header->from[0] ?? null;
             $email = $this->emails->create([
                 'external_id' => $externalId,
@@ -99,10 +106,31 @@ final class EmailImapSyncService
             }
         }
 
+        $plainText = trim($plain);
+        $htmlText = $this->htmlToText($html);
+
         return [
-            'body' => trim($plain) ?: trim(html_entity_decode(strip_tags($html), ENT_QUOTES | ENT_HTML5, 'UTF-8')),
+            'body' => $this->preferredBody($plainText, $htmlText),
             'attachments' => $attachments,
         ];
+    }
+
+    private function preferredBody(string $plain, string $html): string
+    {
+        if ($plain === '') return $html;
+        if ($html === '') return $plain;
+        return mb_strlen($html) > mb_strlen($plain) + 120 ? $html : $plain;
+    }
+
+    private function htmlToText(string $html): string
+    {
+        if (trim($html) === '') return '';
+        $html = preg_replace('/<(script|style)\b[^>]*>.*?<\/\1>/is', '', $html) ?? $html;
+        $html = preg_replace('/<br\s*\/?>|<\/(p|div|li|tr|h[1-6])>/i', "\n", $html) ?? $html;
+        $text = html_entity_decode(strip_tags($html), ENT_QUOTES | ENT_HTML5, 'UTF-8');
+        $text = preg_replace('/[ \t]+/', ' ', $text) ?? $text;
+        $text = preg_replace('/\R{3,}/', "\n\n", $text) ?? $text;
+        return trim($text);
     }
 
     private function flattenParts(object $structure, string $prefix = ''): array

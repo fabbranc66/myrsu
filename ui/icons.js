@@ -1,6 +1,7 @@
 window.MyRsuIcons = (() => {
   const icons = {
     active: '<svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-5"/><circle cx="12" cy="12" r="9"/></svg>',
+    attachment: '<svg viewBox="0 0 24 24"><path d="M8 12.5l6.8-6.8a4 4 0 0 1 5.7 5.7l-8.9 8.9a6 6 0 0 1-8.5-8.5l8.2-8.2"/><path d="M6 14.5l8.2-8.2a2 2 0 0 1 2.8 2.8l-8.2 8.2a2 2 0 0 1-2.8-2.8z"/></svg>',
     call: '<svg viewBox="0 0 24 24"><path d="M6 4h4l2 5-2 2a14 14 0 0 0 5 5l2-2 5 2v4a2 2 0 0 1-2 2C11 22 2 13 2 6a2 2 0 0 1 2-2z"/></svg>',
     document: '<svg viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg>',
     download: '<svg viewBox="0 0 24 24"><path d="M12 4v10"/><path d="M8 10l4 4 4-4"/><path d="M5 19h14"/></svg>',

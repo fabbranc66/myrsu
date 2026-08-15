@@ -34,10 +34,22 @@ final class MeetingProjectionRepository
 
     public function create(int $meetingId, int $userId, string $publicToken, string $controlToken): array
     {
+        $singleton = $this->singleton();
+        if ($singleton !== null) {
+            $stmt = $this->pdo->prepare(
+                "UPDATE meeting_projection_sessions
+                 SET meeting_id = ?, status = 'active', active_slot = 1, current_document_id = NULL,
+                     scroll_ratio = 0, revision = revision + 1, created_by = ?, closed_at = NULL, updated_at = NOW()
+                 WHERE id = ?"
+            );
+            $stmt->execute([$meetingId, $userId, $singleton['id']]);
+            return $this->active();
+        }
+
         $stmt = $this->pdo->prepare(
             "INSERT INTO meeting_projection_sessions
-             (meeting_id, public_token, control_token, status, active_slot, created_by, created_at, updated_at)
-             VALUES (?, ?, ?, 'active', 1, ?, NOW(), NOW())"
+             (singleton_key, meeting_id, public_token, control_token, status, active_slot, created_by, created_at, updated_at)
+             VALUES (1, ?, ?, ?, 'active', 1, ?, NOW(), NOW())"
         );
         $stmt->execute([$meetingId, $publicToken, $controlToken, $userId]);
         return $this->active();
@@ -47,7 +59,7 @@ final class MeetingProjectionRepository
     {
         $stmt = $this->pdo->prepare(
             "UPDATE meeting_projection_sessions
-             SET status = 'closed', active_slot = NULL, current_document_id = NULL,
+             SET status = 'inactive', active_slot = NULL, current_document_id = NULL,
                  revision = revision + 1, closed_at = NOW(), updated_at = NOW()
              WHERE id = ? AND active_slot = 1"
         );
@@ -80,7 +92,13 @@ final class MeetingProjectionRepository
     {
         return "SELECT s.*, m.title AS meeting_title, d.original_name AS document_name
                 FROM meeting_projection_sessions s
-                JOIN union_meetings m ON m.id = s.meeting_id
+                LEFT JOIN union_meetings m ON m.id = s.meeting_id
                 LEFT JOIN documents d ON d.id = s.current_document_id";
+    }
+
+    private function singleton(): ?array
+    {
+        $row = $this->pdo->query($this->selectSql() . ' WHERE s.singleton_key = 1 LIMIT 1')->fetch();
+        return $row ?: null;
     }
 }

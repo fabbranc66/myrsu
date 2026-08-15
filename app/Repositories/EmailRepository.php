@@ -23,7 +23,8 @@ final class EmailRepository
             }
         }
 
-        $sql = 'SELECT e.*, p.title practice_title, u.name managed_by_name
+        $sql = 'SELECT e.*, p.title practice_title, u.name managed_by_name,
+                       (SELECT COUNT(*) FROM email_attachments ea WHERE ea.email_id = e.id) attachment_count
                 FROM emails e
                 LEFT JOIN practices p ON p.id = e.practice_id
                 LEFT JOIN users u ON u.id = e.managed_by';
@@ -57,6 +58,20 @@ final class EmailRepository
         $stmt->execute([$externalId]);
 
         return (int)$stmt->fetchColumn() > 0;
+    }
+
+    public function findByExternalId(string $externalId): ?array
+    {
+        $stmt = $this->pdo->prepare('SELECT * FROM emails WHERE external_id = ? LIMIT 1');
+        $stmt->execute([$externalId]);
+
+        return $stmt->fetch() ?: null;
+    }
+
+    public function updateImportedBody(int $id, string $body): void
+    {
+        $stmt = $this->pdo->prepare('UPDATE emails SET body = ?, updated_at = NOW() WHERE id = ?');
+        $stmt->execute([$body, $id]);
     }
 
     public function create(array $data): array

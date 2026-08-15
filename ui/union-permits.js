@@ -7,7 +7,11 @@ const allocationsTable = document.querySelector('#allocationsTable');
 const result = document.querySelector('#result');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
+const allocationModal = document.querySelector('#allocationModal');
+const allocationDetail = document.querySelector('#allocationDetail');
+const closeAllocationModal = document.querySelector('#closeAllocationModal');
 let currentCalculation = null;
+let currentAllocations = [];
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -133,6 +137,7 @@ async function saveAllocation(base, roles) {
 
 async function loadAllocations() {
   const rows = await api('/union-permits/allocations');
+  currentAllocations = rows;
   allocationsTable.innerHTML = rows.map((row) => {
     const remaining = Number(row.annual_hours) - Number(row.used_hours);
     return `<tr>
@@ -142,6 +147,41 @@ async function loadAllocations() {
       <td data-label="Annue">${row.annual_hours}</td>
       <td data-label="Usate">${row.used_hours}</td>
       <td data-label="Residue">${remaining.toFixed(2)}</td>
+      <td data-label="Azioni" class="actions-cell">
+        <button class="icon-action" data-view="${row.id}" type="button" title="Visualizza">${MyRsuIcons.get('eye')}</button>
+        <button class="icon-action danger" data-delete="${row.id}" type="button" title="Cancella">${MyRsuIcons.get('trash')}</button>
+      </td>
     </tr>`;
   }).join('');
 }
+
+allocationsTable.addEventListener('click', async (event) => {
+  const button = event.target.closest('button');
+  if (!button) return;
+  const row = currentAllocations.find((item) => String(item.id) === String(button.dataset.view || button.dataset.delete));
+  if (!row) return;
+  if (button.dataset.view) {
+    const remaining = Number(row.annual_hours) - Number(row.used_hours);
+    allocationDetail.innerHTML = `<dl>
+      <dt>Utente</dt><dd>${escapeHtml(row.user_name)}</dd>
+      <dt>Email</dt><dd>${escapeHtml(row.user_email)}</dd>
+      <dt>Anno</dt><dd>${row.year}</dd>
+      <dt>Tipo</dt><dd>${permitLabel(row.permit_type)}</dd>
+      <dt>Ore annue</dt><dd>${row.annual_hours}</dd>
+      <dt>Ore usate</dt><dd>${row.used_hours}</dd>
+      <dt>Ore residue</dt><dd>${remaining.toFixed(2)}</dd>
+    </dl>`;
+    allocationModal.showModal();
+  }
+  if (button.dataset.delete && confirm('Cancellare questo monte ore?')) {
+    try {
+      await api(`/union-permits/allocations/${row.id}`, { method: 'DELETE' });
+      message.textContent = 'Monte ore cancellato.';
+      await loadAllocations();
+    } catch (error) {
+      message.textContent = error.message;
+    }
+  }
+});
+
+closeAllocationModal.addEventListener('click', () => allocationModal.close());

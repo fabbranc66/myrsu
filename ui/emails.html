@@ -6,7 +6,7 @@
   <title>E-mail - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
   <link rel="stylesheet" href="users.css?v=20260728-mobile-actions-3">
-  <link rel="stylesheet" href="emails.css?v=20260728-practice-select-1">
+  <link rel="stylesheet" href="emails.css?v=20260815-attachments-3">
 </head>
 <body>
   <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>E-mail</h1></div><nav class="app-nav"></nav></header>
@@ -65,7 +65,7 @@
       </div>
 
       <table class="mobile-card-table emails-mobile-table">
-        <thead><tr><th>Data</th><th>Tipo</th><th>Oggetto</th><th>Contatto</th><th>Pratica</th><th>Stato</th><th>Azioni</th></tr></thead>
+        <thead><tr><th>Data</th><th>Tipo</th><th>Oggetto</th><th>Contatto</th><th>Stato</th><th>Azioni</th></tr></thead>
         <tbody id="emailsTable"></tbody>
       </table>
 
@@ -80,6 +80,10 @@
       <dialog id="attachmentModal" class="email-modal">
         <header><h2 id="attachmentTitle">Allegato</h2><button id="closeAttachmentModal" type="button">Chiudi</button></header>
         <iframe id="attachmentFrame" title="Anteprima allegato"></iframe>
+      </dialog>
+      <dialog id="emailAttachmentsModal" class="email-modal">
+        <header><h2>Allegati e-mail</h2><button id="closeEmailAttachmentsModal" type="button">Chiudi</button></header>
+        <div id="emailAttachmentsBody"></div>
       </dialog>
       <dialog id="reminderModal" class="email-modal">
         <header><h2>Crea reminder</h2><button id="closeReminderModal" type="button">Chiudi</button></header>
@@ -109,8 +113,8 @@
       <pre id="message"></pre><pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="emails.js?v=20260728-reminders-1"></script>
+  <script src="icons.js?v=20260815-email-attachments-1"></script>
+  <script src="emails.js?v=20260815-attachments-3"></script>
   <script src="auth-menu.js?v=20260730-normativa-1"></script>
 </body>
 </html>

@@ -92,6 +92,29 @@ final class UnionPermitRequestController
         ]]);
     }
 
+    public function deleteAllocation(Request $request, array $params): Response
+    {
+        $admin = $this->requireAdmin($request);
+        $allocation = $this->app->unionPermits->findAllocationById((int)$params['id']);
+        if ($allocation === null) {
+            throw new HttpException(404, 'Monte ore non trovato.');
+        }
+        if (!$this->app->unionPermits->deleteAllocation((int)$allocation['id'])) {
+            throw new HttpException(422, 'Monte ore collegato a richieste: cancellazione non consentita.');
+        }
+
+        $this->app->activityLogs->write((int)$admin['id'], 'union_permits.allocation_delete', [
+            'section' => 'permessi sindacali',
+            'where' => 'utente',
+            'user_id' => $allocation['user_id'],
+            'year' => $allocation['year'],
+            'permit_type' => $allocation['permit_type'],
+            'annual_hours' => $allocation['annual_hours'],
+        ]);
+
+        return Response::json(['data' => ['deleted' => true]]);
+    }
+
     public function requests(Request $request): Response
     {
         $user = $this->requireOperator($request);

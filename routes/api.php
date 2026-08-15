@@ -240,6 +240,7 @@ $app->router->post('/api/v1/rsu-elections/analyze', [$rsuElections, 'analyze']);
 $app->router->post('/api/v1/union-permits/analyze', [$unionPermits, 'analyze']);
 $app->router->get('/api/v1/union-permits/allocations', [$unionPermitRequests, 'allocations']);
 $app->router->post('/api/v1/union-permits/allocations', [$unionPermitRequests, 'saveAllocation']);
+$app->router->delete('/api/v1/union-permits/allocations/{id}', [$unionPermitRequests, 'deleteAllocation']);
 $app->router->get('/api/v1/union-permits/delegates', [$unionPermitRequests, 'delegates']);
 $app->router->get('/api/v1/union-permits/requests', [$unionPermitRequests, 'requests']);
 $app->router->post('/api/v1/union-permits/requests', [$unionPermitRequests, 'issue']);

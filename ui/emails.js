@@ -26,6 +26,8 @@ const modalBody = document.querySelector('#emailModalBody');
 const attachmentModal = document.querySelector('#attachmentModal');
 const attachmentTitle = document.querySelector('#attachmentTitle');
 const attachmentFrame = document.querySelector('#attachmentFrame');
+const emailAttachmentsModal = document.querySelector('#emailAttachmentsModal');
+const emailAttachmentsBody = document.querySelector('#emailAttachmentsBody');
 const noteForm = document.querySelector('#emailNoteForm');
 const reminderModal = document.querySelector('#reminderModal');
 const reminderForm = document.querySelector('#reminderForm');
@@ -117,10 +119,10 @@ function render() {
     <td data-label="Tipo">${directionLabel(email.direction)}</td>
     <td data-label="Oggetto"><span class="truncate-title" title="${escapeHtml(email.subject)}">${escapeHtml(email.subject)}</span></td>
     <td data-label="Contatto"><span class="truncate-title" title="${escapeHtml(email.from_name || email.from_email || email.to_emails || '-')}">${escapeHtml(email.from_name || email.from_email || email.to_emails || '-')}</span></td>
-    <td data-label="Pratica"><span class="truncate-title" title="${escapeHtml(email.practice_title || '-')}">${escapeHtml(email.practice_title || '-')}</span></td>
     <td data-label="Stato">${statusLabel(email.handling_status)}</td>
     <td data-label="Azioni" class="actions-cell">
       <button class="icon-action" data-view="${email.id}" title="Visualizza">${MyRsuIcons.get('eye')}</button>
+      <button class="icon-action attachment-action${Number(email.attachment_count) > 0 ? ' active' : ''}" data-email-attachments="${email.id}" title="${Number(email.attachment_count) > 0 ? `Visualizza ${email.attachment_count} allegati` : 'Nessun allegato'}"${Number(email.attachment_count) > 0 ? '' : ' disabled'}>${MyRsuIcons.get('attachment')}</button>
       <button class="icon-action" data-reminder="${email.id}" data-reminder-title="${escapeHtml(email.subject)}" title="Reminder">${MyRsuIcons.get('reminder')}</button>
       <button class="icon-action" data-edit="${email.id}" title="Modifica">${MyRsuIcons.get('edit')}</button>
       <button class="icon-action" data-download="${email.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
@@ -128,7 +130,7 @@ function render() {
       <button class="icon-action" data-managed="${email.id}" title="Marca gestita">${MyRsuIcons.get('active')}</button>
       <button class="icon-action danger" data-delete="${email.id}" title="Cancella">${MyRsuIcons.get('trash')}</button>
     </td>
-  </tr>`).join('') || '<tr><td colspan="7">Nessuna e-mail.</td></tr>';
+  </tr>`).join('') || '<tr><td colspan="6">Nessuna e-mail.</td></tr>';
 }
 
 function practiceDropdown(email) {
@@ -285,12 +287,14 @@ document.querySelector('#closeContactModal').addEventListener('click', () => con
 
 table.addEventListener('click', async (event) => {
   const view = event.target.closest('[data-view]');
+  const attachments = event.target.closest('[data-email-attachments]');
   const edit = event.target.closest('[data-edit]');
   const download = event.target.closest('[data-download]');
   const reminder = event.target.closest('[data-reminder]');
   const managed = event.target.closest('[data-managed]');
   const remove = event.target.closest('[data-delete]');
   if (view) return openEmail(view.dataset.view);
+  if (attachments) return openEmailAttachments(attachments.dataset.emailAttachments);
   if (reminder) return openReminder(reminder.dataset.reminder, reminder.dataset.reminderTitle || '');
   if (edit) return fillEdit(edit.dataset.edit);
   if (download) return downloadEmail(download.dataset.download);
@@ -365,6 +369,12 @@ async function openEmail(id) {
   }
 }
 
+async function openEmailAttachments(id) {
+  const data = await api(`/emails/${id}`);
+  emailAttachmentsBody.innerHTML = attachmentsHtml(data.attachments || []) || '<p class="muted">Nessun allegato.</p>';
+  emailAttachmentsModal.showModal();
+}
+
 function fillEdit(id) {
   const email = emails.find((item) => Number(item.id) === Number(id));
   Object.keys(email || {}).forEach((key) => {
@@ -386,6 +396,7 @@ document.querySelector('#closeAttachmentModal').addEventListener('click', () => 
   attachmentFrame.src = '';
   attachmentModal.close();
 });
+document.querySelector('#closeEmailAttachmentsModal').addEventListener('click', () => emailAttachmentsModal.close());
 document.querySelector('#closeReminderModal').addEventListener('click', () => reminderModal.close());
 
 function openReminder(id, title) {
@@ -401,13 +412,15 @@ reminderForm.addEventListener('submit', async (event) => {
   reminderModal.close();
   message.textContent = 'Reminder creato';
 });
-modalBody.addEventListener('click', (event) => {
+function openAttachmentPreview(event) {
   const button = event.target.closest('[data-attachment]');
   if (!button) return;
   attachmentTitle.textContent = button.dataset.name || 'Allegato';
   attachmentFrame.src = `${apiBase}/emails/attachments/${button.dataset.attachment}/preview?token=${encodeURIComponent(token || '')}`;
   attachmentModal.showModal();
-});
+}
+modalBody.addEventListener('click', openAttachmentPreview);
+emailAttachmentsBody.addEventListener('click', openAttachmentPreview);
 document.querySelector('#resetEmail').addEventListener('click', () => form.reset());
 directionFilter.addEventListener('change', load);
 statusFilter.addEventListener('change', load);

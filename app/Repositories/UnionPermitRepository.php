@@ -71,6 +71,29 @@ final class UnionPermitRepository
         return $stmt->fetch() ?: null;
     }
 
+    public function findAllocationById(int $id): ?array
+    {
+        $stmt = $this->pdo->prepare(
+            'SELECT a.*, u.name AS user_name, u.email AS user_email
+             FROM union_permit_allocations a
+             INNER JOIN users u ON u.id = a.user_id
+             WHERE a.id = ? LIMIT 1'
+        );
+        $stmt->execute([$id]);
+        return $stmt->fetch() ?: null;
+    }
+
+    public function deleteAllocation(int $id): bool
+    {
+        $stmt = $this->pdo->prepare(
+            'DELETE FROM union_permit_allocations
+             WHERE id = ?
+               AND NOT EXISTS (SELECT 1 FROM union_permit_requests WHERE allocation_id = ?)'
+        );
+        $stmt->execute([$id, $id]);
+        return $stmt->rowCount() === 1;
+    }
+
     public function requests(?int $userId = null): array
     {
         $sql = "SELECT r.*, u.name AS user_name, d.pdf_public_path, d.signature,

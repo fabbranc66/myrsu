@@ -5,8 +5,8 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = '/myrsu/ui/vendor/pdfjs/pdf.worker.mjs'
 const apiBase = `${location.origin}/myrsu/api/v1`;
 const params = new URLSearchParams(location.search);
 const publicToken = params.get('token') || '';
-const operator = params.get('operator') === '1';
-const controlToken = params.get('control') || '';
+let operator = params.get('operator') === '1';
+let controlToken = params.get('control') || '';
 const viewer = document.querySelector('#pdfViewer');
 const emptyState = document.querySelector('#emptyState');
 const meetingTitle = document.querySelector('#meetingTitle');
@@ -23,19 +23,17 @@ let pinchStartDistance = 0;
 let pinchStartZoom = 1;
 let activePdf = null;
 
-if (operator) {
-  document.body.classList.add('operator');
-  operatorPanel.classList.remove('hidden');
-}
-
 document.querySelector('#copyLink').addEventListener('click', async () => {
   await navigator.clipboard.writeText(document.querySelector('#publicLink').href);
 });
 
 viewer.addEventListener('scroll', () => {
   if (!operator || suppressScroll || !controlToken) return;
-  clearTimeout(positionTimer);
-  positionTimer = setTimeout(updatePosition, 160);
+  if (positionTimer !== null) return;
+  positionTimer = setTimeout(() => {
+    positionTimer = null;
+    updatePosition().catch((error) => showJson({error: {message: error.message}}));
+  }, 100);
 });
 
 viewer.addEventListener('touchstart', startPinch, {passive: true});
@@ -49,7 +47,7 @@ async function poll() {
     showJson(payload);
     if (!response.ok) throw new Error(payload.error?.message || 'Proiezione non disponibile.');
     const state = payload.data;
-    connectionState.textContent = 'Attiva';
+    connectionState.textContent = operator ? 'Regia' : 'Ospite';
     meetingTitle.textContent = state.meeting_title;
     if (operator && state.qr_data_url) showOperatorData(state);
     if (state.document_id !== currentDocumentId) await loadDocument(state);
@@ -61,9 +59,9 @@ async function poll() {
     documentTitle.textContent = error.message;
     viewer.innerHTML = '';
     emptyState.classList.remove('hidden');
-    return;
+  } finally {
+    setTimeout(poll, 200);
   }
-  setTimeout(poll, 650);
 }
 
 async function loadDocument(state) {
@@ -128,11 +126,17 @@ function alignScroll(ratio) {
 
 async function updatePosition() {
   const available = Math.max(1, viewer.scrollHeight - viewer.clientHeight);
-  await fetch(`${apiBase}/projection-session/position`, {
+  const response = await fetch(`${apiBase}/projection-session/position`, {
     method: 'PATCH',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({scroll_ratio: viewer.scrollTop / available, control_token: controlToken}),
   });
+  const payload = await response.json();
+  showJson(payload);
+  if (!response.ok) {
+    connectionState.textContent = 'Errore sincronizzazione';
+    throw new Error(payload.error?.message || 'Sincronizzazione scroll fallita.');
+  }
 }
 
 function showOperatorData(data) {
@@ -182,4 +186,36 @@ function showJson(payload) {
   jsonOutput.textContent = JSON.stringify(payload, null, 2);
 }
 
-poll();
+async function initialize() {
+  await detectOperator();
+  if (operator) {
+    document.body.classList.add('operator');
+    operatorPanel.classList.remove('hidden');
+    connectionState.textContent = 'Regia';
+  }
+  poll();
+}
+
+async function detectOperator() {
+  if (operator && controlToken) return;
+  const authToken = sessionStorage.getItem('token') || localStorage.getItem('token');
+  if (!authToken) return;
+  try {
+    const response = await fetch(`${apiBase}/projection-session`, {
+      headers: {Authorization: `Bearer ${authToken}`},
+      cache: 'no-store',
+    });
+    if (!response.ok) return;
+    const payload = await response.json();
+    const operatorUrl = payload.data?.operator_url;
+    if (!operatorUrl) return;
+    const url = new URL(operatorUrl);
+    if (url.searchParams.get('token') !== publicToken) return;
+    controlToken = url.searchParams.get('control') || '';
+    operator = controlToken !== '';
+  } catch {
+    operator = false;
+  }
+}
+
+initialize();

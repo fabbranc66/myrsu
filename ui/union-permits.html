@@ -43,14 +43,19 @@
         <button type="submit">Salva monte ore calcolato</button>
       </form>
       <table class="mobile-card-table permits-mobile-table">
-        <thead><tr><th>Utente</th><th>Anno</th><th>Tipo</th><th>Annue</th><th>Usate</th><th>Residue</th></tr></thead>
+        <thead><tr><th>Utente</th><th>Anno</th><th>Tipo</th><th>Annue</th><th>Usate</th><th>Residue</th><th>Azioni</th></tr></thead>
         <tbody id="allocationsTable"></tbody>
       </table>
+      <dialog id="allocationModal">
+        <header><h2>Dettaglio permesso</h2><button id="closeAllocationModal" type="button">Chiudi</button></header>
+        <div id="allocationDetail"></div>
+      </dialog>
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="union-permits.js?v=20260728-mobile-permits-1"></script>
+  <script src="icons.js?v=20260719-icons-1"></script>
+  <script src="union-permits.js?v=20260812-actions-1"></script>
   <script src="auth-menu.js?v=20260730-normativa-1"></script>
 </body>
 </html>
