@@ -400,28 +400,34 @@ async function renderPdfCanvas() {
     pageWrap.style.width = `${canvas.width}px`;
     pageWrap.style.height = `${canvas.height}px`;
     pageWrap.appendChild(canvas);
-    await addPdfLinks(page, viewport, pageWrap, pageNumber);
+    await addPdfLinks(page, viewport, pageWrap);
     pdfCanvasViewer.appendChild(pageWrap);
   }
 }
 
-async function addPdfLinks(page, viewport, pageWrap, pageNumber) {
+async function addPdfLinks(page, viewport, pageWrap) {
   const annotations = await page.getAnnotations({ intent: 'display' });
   annotations.filter((item) => (item.url || item.unsafeUrl) && item.rect).forEach((item) => {
     addPdfLink(pageWrap, viewport, item.rect, item.url || item.unsafeUrl);
   });
-  if (pageNumber === 1 && activeVerifyUrl) {
+  if (activeVerifyUrl) {
     addPdfLink(pageWrap, viewport, [502, 728, 554, 780], activeVerifyUrl);
   }
 }
 
 function addPdfLink(pageWrap, viewport, rect, url) {
   const [x1, y1, x2, y2] = viewport.convertToViewportRectangle(rect);
-  const link = document.createElement('a');
-  link.href = url;
-  link.dataset.pdfLink = url;
-  link.target = '_blank';
-  link.rel = 'noopener';
+  const isVerification = url.includes('document-verify.html');
+  const link = document.createElement(isVerification ? 'button' : 'a');
+  if (isVerification) {
+    link.type = 'button';
+    link.setAttribute('aria-label', 'Verifica autenticità documento');
+  } else {
+    link.href = url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+  }
+  link.dataset.pdfLink = isVerification && activeVerifyUrl ? activeVerifyUrl : url;
   link.className = 'pdf-page-link';
   link.style.left = `${Math.min(x1, x2)}px`;
   link.style.top = `${Math.min(y1, y2)}px`;
@@ -518,15 +524,16 @@ function openVerifyModal(event, url = activeVerifyUrl) {
   if (!url) return;
   event.preventDefault();
   event.stopPropagation();
-  verifyFrame.src = url;
-  verifyFrameModal.showModal();
+  const verificationUrl = new URL(url, window.location.href).href;
+  if (verifyFrame.src !== verificationUrl) verifyFrame.src = verificationUrl;
+  if (!verifyFrameModal.open) verifyFrameModal.showModal();
 }
 
 function isQrTap(event) {
   if (!activeVerifyUrl) return false;
-  const firstPage = pdfCanvasViewer.querySelector('.pdf-page-wrap');
-  if (!firstPage || !firstPage.contains(event.target)) return false;
-  const rect = firstPage.getBoundingClientRect();
+  const page = event.target.closest('.pdf-page-wrap');
+  if (!page || !pdfCanvasViewer.contains(page)) return false;
+  const rect = page.getBoundingClientRect();
   const x = event.clientX - rect.left;
   const y = event.clientY - rect.top;
   return x > rect.width * 0.76 && y < rect.height * 0.18;
