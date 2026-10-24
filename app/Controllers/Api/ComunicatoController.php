@@ -55,6 +55,7 @@ final class ComunicatoController
         if ($document === null || (string)$document['category'] !== 'comunicati') {
             throw new HttpException(404, 'Comunicato non trovato.');
         }
+        $this->app->documentFolderAccess->assertDocument($document, $user, true);
         if ((string)$document['conversion_status'] !== 'pending') {
             throw new HttpException(422, 'Documento ufficiale gia generato.');
         }

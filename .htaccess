@@ -2,6 +2,9 @@ RewriteEngine On
 
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
+RewriteRule ^storage/private/ - [F,L]
+RewriteRule ^public/documents/[^/]+/[^/]+$ index.php [QSA,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [QSA,L]

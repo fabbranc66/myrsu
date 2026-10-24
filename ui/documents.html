@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
   <link rel="stylesheet" href="users.css?v=20260802-projection-1">
   <link rel="stylesheet" href="document-comments.css?v=20260628-1">
+  <link rel="stylesheet" href="document-archive.css?v=20261024-folders-1">
 </head>
 <body>
   <header class="app-header">
@@ -63,6 +64,8 @@
         <button type="submit">Carica</button>
       </form>
 
+      <p id="documentUploadDestination" class="document-archive-note" role="status" aria-live="polite" hidden></p>
+
       <div id="uploadProgress" class="upload-progress hidden">
         <div class="upload-progress-bar">
           <div id="uploadProgressFill" class="upload-progress-fill"></div>
@@ -70,7 +73,10 @@
         <div id="uploadProgressText" class="upload-progress-text">0%</div>
       </div>
 
+      <section id="documentArchive" class="document-archive" aria-label="Percorso cartelle documenti" hidden></section>
+
       <table class="mobile-card-table documents-mobile-table">
+        <caption id="documentArchiveListingTitle" class="document-archive-list-title">Documenti</caption>
         <thead>
           <tr>
             <th>Nome</th>
@@ -83,6 +89,29 @@
         </thead>
         <tbody id="documentsTable"></tbody>
       </table>
+      <p id="documentArchiveEmpty" class="document-archive-empty" role="status" aria-live="polite" hidden></p>
+
+      <dialog id="documentFolderDialog" class="document-folder-dialog">
+        <form id="documentFolderForm">
+          <h2 id="documentFolderTitle">Nuova cartella</h2>
+          <p id="documentFolderContext"></p>
+          <label id="documentFolderNameField">Nome cartella<input name="name" maxlength="150" required autocomplete="off"></label>
+          <label id="documentFolderDestinationField" hidden>Destinazione<select name="destination" disabled></select></label>
+          <div class="document-folder-buttons"><button type="submit">Salva</button><button id="cancelDocumentFolder" type="button">Annulla</button></div>
+        </form>
+      </dialog>
+
+      <dialog id="documentFolderPermissionsDialog" class="document-folder-dialog">
+        <form id="documentFolderPermissionsForm">
+          <h2 id="documentFolderPermissionsTitle">Permessi cartella</h2>
+          <label class="document-folder-inherit"><input name="inherit_permissions" type="checkbox" checked> Eredita gli accessi della cartella superiore (alla radice: accessi MyRSU esistenti)</label>
+          <div id="documentFolderRoles"></div>
+          <p>Lettura: cartella e documenti. Gestione: anche creazione di sottocartelle e spostamento dei documenti. Non sostituisce i permessi MyRSU esistenti.</p>
+          <p>I vincoli delle cartelle superiori restano validi. Gli amministratori mantengono l’accesso; le assegnazioni sono modificabili da chi già gestisce i ruoli MyRSU.</p>
+          <p id="documentFolderPermissionsError" role="alert"></p>
+          <div class="document-folder-buttons"><button type="submit">Salva permessi</button><button id="cancelDocumentFolderPermissions" type="button">Annulla</button></div>
+        </form>
+      </dialog>
 
       <dialog id="documentModal">
         <header>
@@ -143,8 +172,8 @@
   </main>
   <script src="vendor/jspdf/jspdf.umd.min.js"></script>
   <script src="pdf-rasterizer.js?v=20260627-1"></script>
-  <script src="icons.js?v=20260802-projection-1"></script>
-  <script type="module" src="documents.js?v=20260803-projection-2"></script>
+  <script src="icons.js?v=20261024-archive-1"></script>
+  <script type="module" src="documents.js?v=20261024-practice-permissions-1"></script>
   <script src="document-comments.js?v=20260628-1"></script>
   <script src="auth-menu.js?v=20260730-normativa-1"></script>
 </body>

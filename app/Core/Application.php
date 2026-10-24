@@ -7,6 +7,7 @@ namespace App\Core;
 use App\Repositories\ActivityLogRepository;
 use App\Repositories\CallRepository;
 use App\Repositories\DocumentRepository;
+use App\Repositories\DocumentFolderRepository;
 use App\Repositories\DocumentCommentRepository;
 use App\Repositories\EmailRepository;
 use App\Repositories\FundRepository;
@@ -51,6 +52,8 @@ use App\Services\AntiBotService;
 use App\Services\ComunicatoPdfService;
 use App\Services\ComunicatoDirectPdfService;
 use App\Services\DocumentSignatureService;
+use App\Services\DocumentFolderAccessService;
+use App\Services\DocumentFolderService;
 use App\Services\DocumentStorageService;
 use App\Services\DocumentThumbnailService;
 use App\Services\DocumentVerificationMetadataService;
@@ -100,6 +103,9 @@ final class Application
     public readonly RolePermissionRepository $roles;
     public readonly CallRepository $calls;
     public readonly DocumentRepository $documents;
+    public readonly DocumentFolderRepository $documentFolders;
+    public readonly DocumentFolderAccessService $documentFolderAccess;
+    public readonly DocumentFolderService $documentFolderService;
     public readonly DocumentCommentRepository $documentComments;
     public readonly EmailRepository $emails;
     public readonly FundRepository $funds;
@@ -233,6 +239,9 @@ final class Application
         $this->roles = new RolePermissionRepository($pdo);
         $this->calls = new CallRepository($pdo);
         $this->documents = new DocumentRepository($pdo);
+        $this->documentFolders = new DocumentFolderRepository($pdo);
+        $this->documentFolderAccess = new DocumentFolderAccessService($this->documentFolders, $this->roles, $this->basePath);
+        $this->documentFolderService = new DocumentFolderService($this->documentFolders, $this->documents, $this->roles, $this->documentFolderAccess);
         $this->documentComments = new DocumentCommentRepository($pdo);
         $this->emails = new EmailRepository($pdo);
         $this->funds = new FundRepository($pdo);
@@ -299,7 +308,6 @@ final class Application
 
             if (
                 !in_array($request->path(), ['/api/v1/health', '/api/v1/hosting/documents'], true)
-                && !preg_match('#^/api/v1/documents/[0-9]+/verify(-file)?$#', $request->path())
             ) {
                 $this->bootDatabase();
             }
@@ -307,6 +315,9 @@ final class Application
             require $this->basePath . '/routes/api.php';
 
             $response = $this->router->dispatch($request);
+            if ($response instanceof FileResponse) {
+                $this->documentFolderAccess->assertFile($response->path(), $this->auth->user($request));
+            }
             $response->send();
         } catch (HttpException $exception) {
             $error = ['message' => $exception->getMessage()];

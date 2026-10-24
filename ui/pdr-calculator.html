@@ -6,16 +6,105 @@
   <title>Calcolo PDR - MyRSU</title>
   <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
   <link rel="stylesheet" href="users.css?v=20260728-mobile-permits-1">
-  <link rel="stylesheet" href="pdr-calculator.css?v=20260728-mobile-1">
+  <link rel="stylesheet" href="pdr-calculator.css?v=20261008-canegrate-1">
+  <link rel="stylesheet" href="pdr-canegrate.css?v=20261016-guest-kpi-status-1">
 </head>
 <body>
-  <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Calcolo PDR</h1></div><nav class="app-nav"></nav></header>
+  <header class="app-header pdr-page-app-header"><div><a class="pdr-dashboard-logo" href="app/index.html" aria-label="Torna alla dashboard MyRSU"><img src="assets/myrsu-logo.png" alt="MyRSU" width="48" height="48"></a><p class="eyebrow">MyRSU</p><h1>Calcolo PDR</h1></div><nav class="app-nav pdr-public-nav" aria-label="Accesso MyRSU"><a id="pdrAccountLink" href="login.html">Accedi a MyRSU</a></nav></header>
   <main>
     <section class="panel">
-      <header><div><h1>Premio di risultato</h1><p class="muted">Simulazione su PDR base e massimo 5 obiettivi.</p></div></header>
+      <header class="pdr-page-header">
+        <div><h1>Premio di risultato</h1><p class="muted">Simulazione lorda del premio e delle quote individuali. Per gli ospiti le modifiche valgono solo nella sessione locale della scheda; gli utenti autenticati mantengono il salvataggio abituale.</p></div>
+        <a id="pdrFinancialsLink" class="pdr-sheet-link" href="pdr-sitem-financials.html" hidden>Dati economici Sitem</a>
+      </header>
+      <label id="pdrProfileField" class="pdr-profile-picker" hidden>Profilo di calcolo
+        <select id="pdrCalculatorProfile" disabled>
+          <option value="canegrate">Bozza Canegrate 2026–2028 · 8 ottobre 2026</option>
+          <option value="custom">Simulazione configurabile precedente</option>
+        </select>
+      </label>
+      <p id="pdrProfileMessage" class="muted" role="status"></p>
+      <section id="pdrAgreementProfile" class="pdr-agreement">
+        <p class="pdr-agreement-formula">PDR = (P1 + P2 + Qi1 + Qi2 + Qe1 + Qe2 + TAC) × Ai</p>
+        <form id="pdrAgreementForm">
+          <div class="pdr-agreement-controls">
+            <label id="pdrAnnualPrizeField" hidden>Premio annuo €<input name="annualPrize" type="number" value="1600" readonly disabled></label>
+            <div id="pdrAnnualPrizeGuest" class="pdr-agreement-annual-prize"><span>Premio annuo</span><strong id="pdrAnnualPrizeAmount">1.600,00 €</strong></div>
+            <label>Anno di competenza<select name="year"><option>2026</option><option>2027</option><option>2028</option></select></label>
+            <label id="pdrProfitabilityField" hidden>Redditività società € (EBTDA nella bozza)<input name="profitability" type="number" step="0.01" placeholder="Inserisci il valore" required disabled></label>
+            <label>Certificati di malattia<input name="events" type="number" min="0" step="1" required></label>
+            <label id="pdrMonthsField" hidden><span id="pdrMonthsLabel">Mesi utili luglio–dicembre</span><input name="months" type="number" min="0" max="6" step="1" required disabled></label>
+            <label id="pdrPartTimeField" hidden>Orario contrattuale %<input name="partTime" type="number" min="0" max="100" step="0.01" required disabled></label>
+            <label id="pdrWelfareField" hidden>Conversione welfare %<input name="welfare" type="number" min="0" max="100" step="0.01" required disabled></label>
+            <div id="pdrWelfareGuest" class="pdr-agreement-welfare">
+              <span id="pdrWelfareLabel">Conversione welfare</span>
+              <div class="pdr-agreement-welfare-buttons" role="group" aria-labelledby="pdrWelfareLabel">
+                <button type="button" data-guest-welfare="100" aria-pressed="false">Sì · 100%</button>
+                <button type="button" data-guest-welfare="0" aria-pressed="true">No · 0%</button>
+              </div>
+            </div>
+          </div>
+          <div id="pdrEligibilityFields" class="pdr-agreement-eligibility" hidden>
+            <label><input name="inForce" type="checkbox">In forza / in missione alla data di erogazione</label>
+            <label><input name="excluded" type="checkbox">Dirigente o destinatario di premio individuale MBO</label>
+          </div>
+          <p id="pdrAgreementPeriod" class="muted"></p>
+          <p class="muted">Mesi utili: la frazione superiore a 15 giorni conta come mese intero. Per il 2026 contano solo luglio–dicembre. Il correttivo Ai considera gli eventi di malattia nell'anno, escluse le continuazioni.</p>
+          <div class="pdr-agreement-presets" aria-label="Simulazioni della bozza">
+            <button type="button" data-agreement-preset="baseline">RIFERIMENTI 1° SEM.</button>
+            <button type="button" data-agreement-preset="minimum" title="Un obiettivo alla quota minima positiva più bassa">MINIMO</button>
+            <button type="button" data-agreement-preset="intermediate-2">INTERMEDIO 2</button>
+            <button type="button" data-agreement-preset="intermediate-3">INTERMEDIO 3</button>
+            <button type="button" data-agreement-preset="intermediate-4">INTERMEDIO 4</button>
+            <button type="button" data-agreement-preset="intermediate-5">INTERMEDIO 5</button>
+            <button type="button" data-agreement-preset="intermediate-6">INTERMEDIO 6</button>
+            <button type="button" data-agreement-preset="intermediate-7">INTERMEDIO 7</button>
+            <button type="button" data-agreement-preset="maximum">MAX</button>
+            <button type="button" data-agreement-preset="closed">CANCELLO OFF</button>
+          </div>
+          <p class="muted">I pulsanti impostano casi dimostrativi: redditività +1 € con cancello aperto, 0 € con cancello chiuso. MINIMO e INTERMEDIO 2–7 maturano rispettivamente da 1 a 7 obiettivi alla quota minima positiva, partendo dalle quote più basse; gli altri restano a zero. Ai minimo, tempo pieno e intero periodo.</p>
+          <fieldset id="pdrAgreementConfiguration" class="pdr-agreement-configuration" aria-label="Dettaglio e configurazione KPI" hidden disabled>
+            <div id="pdrAgreementKpis" class="pdr-agreement-kpis"></div>
+            <details class="pdr-agreement-tables" open>
+              <summary>Tabelle dell'allegato 1 · importi annui modificabili</summary>
+              <p class="muted">Le soglie sono quelle pubblicate nella bozza, estremi inclusi o esclusi come indicato. Un valore non coperto non viene assegnato a un altro scaglione. Le modifiche si salvano localmente con ricalcolo immediato.</p>
+              <div id="pdrAgreementTables" class="pdr-agreement-tables-grid"></div>
+            </details>
+          </fieldset>
+          <div class="pdr-agreement-actions"><button type="submit">Calcola</button><button id="pdrAgreementReset" type="button">Ripristina dati della bozza</button></div>
+        </form>
+        <p id="pdrAgreementMessage" class="pdr-agreement-message" role="status" aria-live="polite"></p>
+        <div id="pdrAgreementResult" class="pdr-result"></div>
+        <details class="pdr-agreement-notes" hidden>
+          <summary>Riferimenti e condizioni della bozza</summary>
+          <ul>
+            <li>Cancello aperto solo con redditività della società di segno positivo. La bozza non prevede maggiorazioni del cancello né un minimo garantito di 485 €.</li>
+            <li>Premio pattuito annuo: 1.600 €. Solo il calcolo relativo al 2026 viene dimezzato. Il calcolo applica la formula e le tabelle senza un taglio automatico del risultato.</li>
+            <li>P1: kg prodotti / ore lavorate del personale del reparto, diretto e indiretto, operai e impiegati. P2: stampate / h uomo solo nel 2026; dal 2027 kg / h uomo, con tabella da emendare secondo l'art. 2.2.</li>
+            <li>Qi1: il testo usa kg scartati / kg prodotti; la tabella riporta pezzi scartati / pezzi prodotti. Qi2: pezzi scartati / pezzi prodotti. Qe1 e Qe2: numero di reclami, non PPM.</li>
+            <li>TAC: ore di malattia, esclusi eventi ospedalizzati, e permessi/assenze non retribuiti, divise per le ore lavorabili del personale in forza.</li>
+            <li>I riferimenti iniziali sono quelli dell'art. 3, primo semestre 2026. Il miglioramento di almeno un indicatore è mostrato come confronto numerico; non certifica il diritto alla detassazione.</li>
+            <li>Pagamento a maggio dell'anno successivo, prima erogazione maggio 2027. Welfare: incentivo del 12% solo con conversione integrale, subordinato ai presupposti previsti dall'accordo; per i somministrati serve la piattaforma dell'agenzia.</li>
+          </ul>
+        </details>
+        <details class="pdr-agreement-json" hidden><summary>Risposta JSON della simulazione</summary><pre id="pdrAgreementJson" class="json-output"></pre></details>
+      </section>
+      <div id="pdrCustomProfile" hidden>
       <form id="pdrForm" class="pdr-form">
-        <label>PDR base €<input name="base" type="number" min="0" step="0.01" value="1220" required></label>
+        <div class="pdr-base-row wide">
+          <label>PDR base €<input name="base" type="number" min="0" step="0.01" value="1220" required></label>
+          <div class="pdr-demo-presets" aria-label="Casistiche dimostrative">
+            <button type="button" data-demo-preset="max-plus">MAX+</button>
+            <button type="button" data-demo-preset="max">MAX</button>
+            <button type="button" data-demo-preset="target">100%</button>
+            <button type="button" data-demo-preset="intermediate-max">INTERMEDIE MAX</button>
+            <button type="button" data-demo-preset="intermediate-min">INTERMEDIE MIN</button>
+            <button type="button" data-demo-preset="min-plus">MIN+</button>
+            <button type="button" data-demo-preset="minimum">MINIMO</button>
+          </div>
+        </div>
         <div id="objectives" class="wide"></div>
+        <button id="addObjective" class="wide" type="button">+ Aggiungi obiettivo</button>
         <section class="pdr-legend wide">
           <h2>Tabelle scaglioni</h2>
           <p>I titoli seguono i nomi degli obiettivi. Nel campo valore inserisci il KPI da verificare.</p>
@@ -27,10 +116,11 @@
       <div id="pdrResult" class="pdr-result"></div>
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
+      </div>
     </section>
   </main>
-  <script src="pdr-calculator.js?v=20260728-scale-limits-1"></script>
-  <script src="auth-menu.js?v=20260730-normativa-1"></script>
+  <script src="pdr-canegrate-model.js?v=20261008-canegrate-3"></script>
+  <script src="pdr-canegrate.js?v=20261016-labels-1"></script>
 </body>
 </html>
 

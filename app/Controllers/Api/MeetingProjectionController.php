@@ -65,6 +65,8 @@ final class MeetingProjectionController
         if ($document === null || (string)$document['conversion_status'] !== 'ready') {
             throw new HttpException(404, 'Documento non disponibile.');
         }
+        $this->app->documentFolderAccess->assertDocument($document, $user);
+        $this->app->documentFolderAccess->assertDocument($document, null);
         $session = $this->app->meetingProjections->publish((int)$active['id'], (int)$document['id']);
         $this->app->activityLogs->write((int)$user['id'], 'meetings.projection_document', [
             'section' => 'meetings', 'meeting_id' => $active['meeting_id'], 'document_id' => $document['id'],

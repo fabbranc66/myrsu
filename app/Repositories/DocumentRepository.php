@@ -92,6 +92,13 @@ final class DocumentRepository
         return $stmt->fetch() ?: null;
     }
 
+    public function findByPublicPath(string $path): ?array
+    {
+        $statement = $this->pdo->prepare('SELECT * FROM documents WHERE pdf_public_path = ? LIMIT 1');
+        $statement->execute([$path]);
+        return $statement->fetch() ?: null;
+    }
+
     public function create(array $data): array
     {
         $stmt = $this->pdo->prepare(

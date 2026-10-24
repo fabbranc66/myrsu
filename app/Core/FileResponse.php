@@ -14,6 +14,11 @@ final class FileResponse
     ) {
     }
 
+    public function path(): string
+    {
+        return $this->path;
+    }
+
     public function send(): void
     {
         header('Content-Type: ' . $this->mimeType);

@@ -1,10 +1,15 @@
 import * as pdfjsLib from './vendor/pdfjs/pdf.mjs';
+import { createDocumentArchive } from './document-archive.js?v=20261024-practice-permissions-1';
+import { createDocumentFolderActions } from './document-folder-actions.js?v=20261024-practice-permissions-1';
+import { createDocumentFolderPermissions } from './document-folder-permissions.js?v=20261024-folders-1';
+import { documentPracticeIds, isOpenPractice } from './document-archive-model.js?v=20261024-practice-permissions-1';
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = './vendor/pdfjs/pdf.worker.mjs';
 
 const apiBase = '../api/v1';
 
 const uploadForm = document.querySelector('#uploadForm');
+const uploadDestinationLabel = document.querySelector('#documentUploadDestination');
 const documentsTable = document.querySelector('#documentsTable');
 const message = document.querySelector('#message');
 const jsonOutput = document.querySelector('#jsonOutput');
@@ -37,8 +42,36 @@ let pdfScale = 1;
 let pinchStartDistance = 0;
 let pinchStartScale = 1;
 
+const documentArchive = createDocumentArchive({
+  element: document.querySelector('#documentArchive'),
+  listing: documentsTable,
+  listingTitle: document.querySelector('#documentArchiveListingTitle'),
+  emptyMessage: document.querySelector('#documentArchiveEmpty'),
+  onRows(rows, folderRows) {
+    documentsTable.innerHTML = folderRows + rows.map(row).join('');
+    documentsTable.closest('table').hidden = !folderRows && rows.length === 0;
+    updateUploadDestination();
+  },
+});
+
+const folderOptions = { element: document.querySelector('#documentArchive'), listing: documentsTable, api, reload: loadDocuments, message };
+const folderActions = createDocumentFolderActions({ ...folderOptions, archive: documentArchive });
+const folderPermissions = createDocumentFolderPermissions(folderOptions);
+
 function authToken() {
   return sessionStorage.getItem('token') || localStorage.getItem('token');
+}
+
+function updateUploadDestination() {
+  const button = uploadForm.querySelector('button[type="submit"]');
+  try {
+    uploadDestinationLabel.textContent = `Caricamento in: ${folderActions.uploadDestination().label}`;
+    button.disabled = false;
+  } catch (error) {
+    uploadDestinationLabel.textContent = error.message;
+    button.disabled = true;
+  }
+  uploadDestinationLabel.hidden = false;
 }
 
 async function api(path, options = {}) {
@@ -100,16 +133,18 @@ function uploadDocument(formData, startProgress = 0) {
 }
 
 async function loadDocuments() {
-  const [documentRows, practiceRows] = await Promise.all([api('/documents'), loadPractices()]);
+  const [documentRows, practiceRows, folderData] = await Promise.all([api('/documents'), loadPractices(), api('/document-folders')]);
   documents = documentRows;
-  practices = practiceRows;
+  practices = practiceRows.filter(isOpenPractice);
   uploadForm.classList.remove('hidden');
-  documentsTable.innerHTML = documentRows.filter((document) => document.category !== 'comunicati').map(row).join('');
+  folderActions.setData(folderData, documentRows);
+  folderPermissions.setData(folderData);
+  documentArchive.setData(documentRows, practiceRows, folderData);
 }
 
 async function loadPractices() {
   try {
-    return await api('/practices');
+    return await api('/practices?scope=all');
   } catch {
     return [];
   }
@@ -118,7 +153,7 @@ async function loadPractices() {
 function row(document) {
   if (isDraftComunicato(document)) {
     return `
-      <tr>
+      <tr data-document-id="${document.id}" draggable="${folderActions.canMove(document.id)}">
         <td data-label="Nome"><span class="table-value-title"><span class="doc-type-tag draft">DRAFT</span><span class="truncate-title" title="${escapeHtml(document.original_name)}">${escapeHtml(document.original_name)}</span></span></td>
         <td data-label="Categoria">${document.category || '-'}</td>
         <td data-label="Visibilita">${translateVisibility(document.visibility)}</td>
@@ -127,13 +162,14 @@ function row(document) {
         <td data-label="Azioni" class="actions-cell">
           <a class="icon-action" href="comunicati-editor.html?id=${document.id}" title="Modifica bozza">${MyRsuIcons.get('edit')}</a>
           <button class="draft-generate-button" data-generate="${document.id}" title="Genera documento ufficiale">${MyRsuIcons.get('document')} Genera ufficiale</button>
+          ${folderActions.moveButton(document.id)}
           <button class="icon-action danger" data-delete="${document.id}" title="Elimina">${MyRsuIcons.get('trash')}</button>
         </td>
       </tr>`;
   }
 
   return `
-    <tr>
+    <tr data-document-id="${document.id}" draggable="${folderActions.canMove(document.id)}">
       <td data-label="Nome"><span class="table-value-title"><span class="doc-type-tag">${documentsSystemType(document)}</span><span class="truncate-title" title="${escapeHtml(document.original_name)}">${escapeHtml(document.original_name)}</span></span></td>
       <td data-label="Categoria">${document.category || '-'}</td>
       <td data-label="Visibilita">${translateVisibility(document.visibility)}</td>
@@ -144,6 +180,7 @@ function row(document) {
         <button class="icon-action document-comments-icon ${Number(document.approved_comments_count || 0) > 0 ? 'has-comments' : 'no-comments'}" data-comments="${document.id}" title="${Number(document.approved_comments_count || 0)} commenti approvati" ${Number(document.approved_comments_count || 0) === 0 ? 'disabled' : ''}>${MyRsuIcons.get('note')}</button>
         <a class="icon-action" href="document-edit.html?id=${document.id}" title="${document.category === 'comunicati' ? 'Modifica comunicato e rigenera PDF' : 'Modifica'}">${MyRsuIcons.get('edit')}</a>
         <button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
+        ${folderActions.moveButton(document.id)}
         <button class="icon-action" data-projection="${document.id}" title="Proietta sul video esterno">${MyRsuIcons.get('projection')}</button>
         <button class="icon-action" data-practice-link="${document.id}" title="Collega a pratica">${MyRsuIcons.get('link')}</button>
         <button class="icon-action danger" data-practice-unlink="${document.id}" title="Scollega da pratica">${MyRsuIcons.get('link')}</button>
@@ -194,7 +231,9 @@ uploadForm.addEventListener('submit', async (event) => {
   }
   setUploadProgress(0);
   try {
+    const destination = folderActions.uploadDestination();
     const formData = new FormData(uploadForm);
+    formData.set('folder_id', destination.folderId === null ? '' : String(destination.folderId));
     const file = formData.get('file');
     let startProgress = 0;
     if (file instanceof File && file.type === 'application/pdf') {
@@ -207,7 +246,7 @@ uploadForm.addEventListener('submit', async (event) => {
     await uploadDocument(formData, startProgress);
     setUploadProgress(100);
     await new Promise((resolve) => window.setTimeout(resolve, 250));
-    message.textContent = 'Documento caricato';
+    message.textContent = `Documento caricato in: ${destination.label}`;
     uploadForm.reset();
     await loadDocuments();
   } catch (error) {
@@ -219,7 +258,7 @@ uploadForm.addEventListener('submit', async (event) => {
 
 documentsTable.addEventListener('click', async (event) => {
   const button = event.target.closest('button');
-  if (!button) return;
+  if (!button || button.dataset.archiveView || button.dataset.folderMove || button.dataset.folderPermissions) return;
 
   if (button.dataset.comments) return;
 
@@ -608,10 +647,7 @@ async function unlinkPractice(documentId, practiceId) {
 }
 
 function practiceIds(document) {
-  return String(document?.practice_ids || '')
-    .split(',')
-    .map((id) => Number(id))
-    .filter(Boolean);
+  return documentPracticeIds(document);
 }
 
 function escapeHtml(value) {

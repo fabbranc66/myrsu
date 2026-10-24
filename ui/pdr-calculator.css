@@ -1,10 +1,19 @@
 .pdr-form { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.pdr-page-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.pdr-sheet-link { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; padding: 8px 14px; border-radius: 8px; background: #0f2742; color: #fff; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.pdr-sheet-link:hover { background: #173b60; }
 .pdr-form .wide { grid-column: auto; }
 .pdr-form label { min-width: 0; }
 .pdr-form input, .pdr-form select { width: 100%; min-width: 0; }
-.pdr-objective { display: grid; grid-template-columns: 1fr 72px 1fr 86px; gap: 8px; margin-bottom: 8px; padding: 10px; border: 1px solid #d7dde5; border-radius: 10px; background: #f8fafc; }
+.pdr-base-row { display: flex; align-items: end; gap: 10px; }
+.pdr-base-row > label { flex: 0 1 220px; }
+.pdr-demo-presets { display: flex; flex: 1 1 auto; gap: 6px; }
+.pdr-demo-presets button { width: auto; min-height: 38px; padding: 7px 14px; }
+.pdr-objective { display: grid; grid-template-columns: 1fr 72px 1fr 86px 86px 110px; gap: 8px; margin-bottom: 8px; padding: 10px; border: 1px solid #d7dde5; border-radius: 10px; background: #f8fafc; }
 .pdr-objective label { font-size: .82rem; }
 .pdr-objective input, .pdr-objective select { padding: 7px; font-size: .88rem; }
+.pdr-secondary-fields { display: contents; }
+.pdr-secondary-fields[hidden] { display: none; }
 .pdr-legend { padding: 10px; border: 1px solid #d7dde5; border-radius: 12px; background: #f8fafc; }
 .pdr-legend h2 { margin: 0 0 4px; font-size: .98rem; }
 .pdr-legend p { margin: 0 0 10px; color: #64748b; font-size: .86rem; }
@@ -24,13 +33,18 @@
   main { padding: 8px; }
   .panel { padding: 10px; }
   .pdr-objective { grid-template-columns: 1fr 68px; }
-  .pdr-objective label:nth-child(3) { grid-column: 1 / -1; }
+  .pdr-objective label:first-child { grid-column: 1 / -1; }
   .pdr-form button { width: 100%; }
+  .pdr-base-row { align-items: stretch; flex-direction: column; }
+  .pdr-base-row > label { flex-basis: auto; }
+  .pdr-demo-presets { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pdr-page-header { align-items: stretch; flex-direction: column; }
+  .pdr-sheet-link { width: 100%; }
 }
 
 @media (min-width: 900px) {
   .pdr-form { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
   .pdr-form .wide { grid-column: 1 / -1; }
-  .pdr-objective { grid-template-columns: 1.4fr .6fr .8fr .8fr; }
+  .pdr-objective { grid-template-columns: 1.4fr .45fr .65fr .65fr .65fr .8fr; }
   .pdr-scales { grid-template-columns: repeat(3, minmax(180px, 1fr)); }
 }

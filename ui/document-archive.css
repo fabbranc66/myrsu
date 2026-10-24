@@ -1,0 +1,35 @@
+#documentArchive[hidden], #documentArchiveEmpty[hidden], .documents-mobile-table[hidden] { display: none; }
+.document-archive { min-width: 0; margin: 12px 0 18px; }
+.document-archive-breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 12px; padding: 4px 8px; border: 1px solid #d8e0ec; border-radius: 6px; background: #f8fafc; }
+.document-archive-breadcrumb button { min-height: 44px; padding: 7px 10px; background: #fff; color: #1e40af; font-size: .85rem; }
+.document-archive-breadcrumb span { min-width: 0; overflow-wrap: anywhere; font-size: .85rem; }
+.document-archive-breadcrumb [aria-current="page"] { color: #172033; font-weight: 700; }
+.document-archive-folder-row:hover { background: #eff6ff; }
+.document-archive-folder { display: flex; align-items: center; gap: 8px; width: 100%; min-width: 0; min-height: 36px; padding: 4px 0; border: 1px solid transparent; border-radius: 4px; background: transparent; color: #172033; text-align: left; }
+.document-archive-folder:hover { background: #eff6ff; }
+.document-archive-folder:active { border-color: #93c5fd; background: #dbeafe; }
+.document-archive-folder:focus-visible, .document-archive-breadcrumb button:focus-visible, .document-archive-breadcrumb [aria-current="page"]:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
+.document-archive-icon { display: grid; place-items: center; flex: 0 0 26px; width: 26px; height: 24px; color: #d49b22; }
+.document-archive-icon svg { width: 26px; height: 24px; fill: #f5c54b; stroke: currentColor; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; }
+.document-archive-folder-label { display: grid; gap: 3px; width: 100%; min-width: 0; }
+.document-archive-folder-label strong { overflow-wrap: anywhere; white-space: normal; font-size: .85rem; line-height: 1.3; font-weight: 500; }
+.document-archive-folder-label small { overflow-wrap: anywhere; color: #64748b; font-size: .74rem; line-height: 1.3; }
+.document-archive-note { margin: 10px 0 0; color: #64748b; font-size: .82rem; line-height: 1.45; }
+.document-archive-list-title { padding: 10px 0; caption-side: top; text-align: left; color: #172033; font-size: .9rem; font-weight: 700; }
+.document-archive-empty { padding: 16px; border: 1px dashed #cbd5e1; border-radius: 10px; background: #f8fafc; color: #64748b; font-size: .9rem; }
+.document-archive-toolbar { display: flex; gap: 8px; flex-wrap: wrap; }
+.document-drop-target { outline: 2px dashed #2563eb; outline-offset: -2px; background: #dbeafe; }
+.documents-mobile-table tr[draggable="true"] td[data-label="Nome"] { cursor: grab; }
+.document-folder-dialog { width: min(94vw, 540px); max-height: 90vh; overflow-y: auto; }
+.document-folder-dialog form, #documentFolderRoles { display: grid; gap: 12px; }
+.document-folder-dialog label { display: grid; gap: 5px; min-width: 0; }
+.document-folder-dialog input, .document-folder-dialog select { width: 100%; min-width: 0; }
+.document-folder-dialog [hidden] { display: none; }
+.document-folder-dialog p { font-size: .85rem; color: #64748b; overflow-wrap: anywhere; margin: 0; }
+.document-folder-dialog .document-folder-inherit { display: flex; align-items: flex-start; gap: 8px; font-size: .9rem; }
+.document-folder-inherit input { width: auto; flex-shrink: 0; min-height: 0; }
+.document-folder-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+#documentFolderPermissionsError { color: #b91c1c; }
+@media (max-width: 760px) {
+  .document-archive-folder { min-height: 44px; }
+}

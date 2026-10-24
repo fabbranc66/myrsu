@@ -20,6 +20,7 @@ final class DocumentVerificationController
     {
         $signature = (string)$request->query('sig', '');
         $document = $this->findDocument((int)$params['id']);
+        if ($document !== null) $this->app->documentFolderAccess->assertDocument($document, $this->app->auth->user($request));
 
         if ($document === null) {
             throw new HttpException(404, 'Documento non trovato.');
@@ -48,6 +49,7 @@ final class DocumentVerificationController
     {
         $signature = (string)($_POST['sig'] ?? '');
         $document = $this->findDocument((int)$params['id']);
+        if ($document !== null) $this->app->documentFolderAccess->assertDocument($document, $this->app->auth->user($request));
 
         if ($document === null) {
             throw new HttpException(404, 'Documento non trovato.');

@@ -53,11 +53,12 @@ final class EmailController
     {
         $user = $this->requireOperator($request);
         $data = $this->validatedSend($request->all(), $user);
+        $documentAttachments = $this->documentAttachments($request->all(), $user);
         $email = $this->app->emails->create($data + ['created_by' => (int)$user['id']]);
         $this->app->emailContacts->storeMissing($email, (int)$user['id']);
         $attachments = array_merge(
             $this->storeUploadedAttachments((int)$email['id']),
-            $this->storeDocumentAttachments((int)$email['id'], $request->all())
+            $this->storeDocumentAttachments((int)$email['id'], $documentAttachments)
         );
         $this->app->emailSmtp->send($email, array_map(fn (array $item): array => [
             'path' => $this->attachmentPath($item),
@@ -260,11 +261,11 @@ final class EmailController
         return $saved;
     }
 
-    private function storeDocumentAttachments(int $emailId, array $data): array
+    private function documentAttachments(array $data, array $user): array
     {
         $ids = $data['document_ids'] ?? [];
         if (!is_array($ids)) $ids = preg_split('/[,;]/', (string)$ids) ?: [];
-        $saved = [];
+        $documents = [];
         foreach (array_unique(array_map('intval', $ids)) as $id) {
             if ($id <= 0) continue;
             $document = $this->app->documents->findById($id);
@@ -273,6 +274,16 @@ final class EmailController
                 || (string)$document['category'] !== 'documenti'
                 || (string)$document['conversion_status'] !== 'ready'
             ) continue;
+            $this->app->documentFolderAccess->assertDocument($document, $user);
+            $documents[] = $document;
+        }
+        return $documents;
+    }
+
+    private function storeDocumentAttachments(int $emailId, array $documents): array
+    {
+        $saved = [];
+        foreach ($documents as $document) {
             $path = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
             if (!is_file($path)) continue;
             $saved[] = $this->saveAttachmentFile($emailId, basename((string)$document['pdf_public_path']), $path, false);

@@ -42,6 +42,11 @@ closeVerifyModal.addEventListener('click', () => {
   window.location.href = 'app/index.html';
 });
 
+function authHeaders() {
+  const token = sessionStorage.getItem('token') || localStorage.getItem('token');
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
+
 async function verifyServerFile() {
   const id = document.getElementById('documentId').value;
   const signature = document.getElementById('signature').value;
@@ -50,9 +55,14 @@ async function verifyServerFile() {
     return;
   }
 
-  const response = await fetch(`../api/v1/documents/${id}/verify?sig=${encodeURIComponent(signature)}`);
+  const response = await fetch(`../api/v1/documents/${id}/verify?sig=${encodeURIComponent(signature)}`, { headers: authHeaders() });
   const data = await response.json();
   jsonOutput.textContent = JSON.stringify(data, null, 2);
+  if (!response.ok) {
+    serverResult.textContent = data.error?.message || 'Verifica non autorizzata.';
+    serverResult.className = 'alert danger';
+    return;
+  }
 
   const valid = Boolean(data.data?.valid);
   serverResult.textContent = valid
@@ -76,6 +86,7 @@ form.addEventListener('submit', async (event) => {
 
   const response = await fetch(`../api/v1/documents/${id}/verify-file`, {
     method: 'POST',
+    headers: authHeaders(),
     body,
   });
 
@@ -83,6 +94,6 @@ form.addEventListener('submit', async (event) => {
   jsonOutput.textContent = JSON.stringify(data, null, 2);
 
   const valid = Boolean(data.data?.valid);
-  result.textContent = valid ? 'Copia PDF valida' : 'Copia PDF NON valida';
+  result.textContent = !response.ok ? (data.error?.message || 'Verifica non autorizzata.') : valid ? 'Copia PDF valida' : 'Copia PDF NON valida';
   result.className = valid ? 'alert success' : 'alert danger';
 });

@@ -19,15 +19,18 @@ final class DocumentController
 
     public function index(Request $request): Response
     {
-        $this->requireDocumentViewer($request);
+        $user = $this->requireDocumentViewer($request);
 
-        return Response::json(['data' => array_map([$this, 'withFileState'], $this->app->documents->all())]);
+        $documents = $this->app->documentFolderAccess->filterDocuments($this->app->documents->all(), $user);
+        return Response::json(['data' => array_map([$this, 'withFileState'], $documents)]);
     }
 
     public function publicIndex(Request $request): Response
     {
         $sections = [];
+        $user = $this->app->auth->user($request);
         foreach ($this->app->documents->publicReady() as $document) {
+            if (!$this->app->documentFolderAccess->allowsDocument($document, $user)) continue;
             if (!is_file($this->app->documentStorage->pdfPath((string)$document['pdf_public_path']))) {
                 continue;
             }
@@ -205,6 +208,7 @@ final class DocumentController
     public function store(Request $request): Response
     {
         $user = $this->app->auth->requirePermission($request, 'documents.upload');
+        $folderId = $this->app->documentFolderService->uploadDestination($_POST['folder_id'] ?? null, $user);
         $visibility = (string)($_POST['visibility'] ?? 'rsu');
         $category = (string)($_POST['category'] ?? 'documenti');
         if (!in_array($category, ['documenti', 'comunicati'], true)) {
@@ -221,10 +225,22 @@ final class DocumentController
         $stored = $pendingOffice
             ? $this->app->documentStorage->storePendingUpload($file, $category)
             : $this->app->documentStorage->store($file, $category);
-        $document = $this->app->documents->create($stored + [
-            'visibility' => $visibility,
-            'uploaded_by' => (int)$user['id'],
-        ]);
+        $pdo = $this->app->database->pdo();
+        $pdo->beginTransaction();
+        try {
+            $document = $this->app->documents->create($stored + [
+                'visibility' => $visibility,
+                'uploaded_by' => (int)$user['id'],
+            ]);
+            if ($folderId !== null) {
+                $this->app->documentFolders->place((int)$document['id'], $folderId, (int)$user['id']);
+            }
+            $pdo->commit();
+        } catch (\Throwable $exception) {
+            $pdo->rollBack();
+            throw $exception;
+        }
+        $this->app->documentFolderAccess->refresh();
         if ($pendingOffice) {
             $this->app->activityLogs->write((int)$user['id'], 'documents.office_pending', [
                 'section' => 'documents',
@@ -326,6 +342,23 @@ final class DocumentController
         return new FileResponse($thumbnailPath, 'document-' . (int)$document['id'] . '.png', 'image/png', true);
     }
 
+    public function storedFile(Request $request, array $params): FileResponse
+    {
+        $category = rawurldecode($params['category']);
+        $file = rawurldecode($params['file']);
+        if (preg_match('~[/\\\\\x00]~', $category . $file) || in_array($category, ['.', '..'], true) || in_array($file, ['.', '..'], true)) {
+            throw new HttpException(404, 'File non trovato.');
+        }
+        $document = $this->app->documents->findByPublicPath('public/documents/' . $category . '/' . $file);
+        if ($document === null) throw new HttpException(404, 'Documento non trovato.');
+        if (!$this->app->documentFolderAccess->allowsDocument($document, null)) {
+            $this->authorizePublicOrDownload($request, $document);
+        }
+        $path = $this->app->documentStorage->pdfPath((string)$document['pdf_public_path']);
+        if (!is_file($path)) throw new HttpException(404, 'File non trovato.');
+        return new FileResponse($path, basename($path), 'application/pdf', true);
+    }
+
     public function privatePreview(Request $request, array $params): FileResponse
     {
         return $this->privateOriginal($request, (int)$params['id'], true);
@@ -341,6 +374,7 @@ final class DocumentController
         $user = $this->app->auth->requirePermission($request, 'documents.delete');
         $document = $this->findDocument((int)$params['id']);
 
+        $this->app->documentFolderAccess->assertDocument($document, $user, true);
         $this->app->documentStorage->delete($document);
         $this->app->documents->delete((int)$document['id']);
         $this->app->activityLogs->write((int)$user['id'], 'documents.delete', [
@@ -407,6 +441,7 @@ final class DocumentController
     private function authorizeDocumentAccess(Request $request, array $document, string $permission): void
     {
         $user = $this->app->auth->requireUser($request);
+        $this->app->documentFolderAccess->assertDocument($document, $user, !in_array($permission, ['documents.view', 'documents.download'], true));
 
         if ($this->app->roles->userHasPermission((int)$user['id'], $permission)) {
             return;
@@ -430,6 +465,7 @@ final class DocumentController
     private function authorizePublicOrDownload(Request $request, array $document): ?array
     {
         $user = $this->app->auth->user($request);
+        $this->app->documentFolderAccess->assertDocument($document, $user);
         $isPublicBoardDocument = (string)$document['visibility'] === 'public'
             && in_array((string)$document['category'], ['documenti', 'comunicati'], true);
         if (!$isPublicBoardDocument) {

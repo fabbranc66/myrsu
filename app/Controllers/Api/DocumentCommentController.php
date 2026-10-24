@@ -18,13 +18,17 @@ final class DocumentCommentController
 
     public function index(Request $request): Response
     {
-        $this->app->auth->requirePermission($request, 'comments.moderate');
+        $user = $this->app->auth->requirePermission($request, 'comments.moderate');
         $status = (string)$request->query('status', 'pending');
         if (!in_array($status, ['pending', 'approved', 'rejected', 'all'], true)) {
             throw new HttpException(422, 'Stato non valido.');
         }
 
-        return Response::json(['data' => $this->app->documentComments->grouped($status)]);
+        $groups = array_values(array_filter(
+            $this->app->documentComments->grouped($status),
+            fn (array $group): bool => $this->app->documentFolderAccess->allowsDocument(['id' => $group['document_id']], $user)
+        ));
+        return Response::json(['data' => $groups]);
     }
 
     public function stats(Request $request): Response
@@ -36,8 +40,9 @@ final class DocumentCommentController
 
     public function approvedByDocument(Request $request, array $params): Response
     {
-        $this->app->auth->requirePermission($request, 'comments.moderate');
+        $user = $this->app->auth->requirePermission($request, 'comments.moderate');
         $documentId = (int)$params['id'];
+        $this->app->documentFolderAccess->assertDocument(['id' => $documentId], $user);
         if ($this->app->documents->findById($documentId) === null) {
             throw new HttpException(404, 'Documento non trovato.');
         }
@@ -47,14 +52,14 @@ final class DocumentCommentController
 
     public function publicIndex(Request $request, array $params): Response
     {
-        $document = $this->publicDocument((int)$params['id']);
+        $document = $this->publicDocument($request, (int)$params['id']);
 
         return Response::json(['data' => $this->app->documentComments->publicForDocument((int)$document['id'])]);
     }
 
     public function store(Request $request, array $params): Response
     {
-        $document = $this->publicDocument((int)$params['id']);
+        $document = $this->publicDocument($request, (int)$params['id']);
         $data = $request->all();
         Validator::required($data, ['message']);
         $this->app->antiBot->validate($data);
@@ -89,6 +94,7 @@ final class DocumentCommentController
         }
 
         $comment = $this->findComment((int)$params['id']);
+        $this->app->documentFolderAccess->assertDocument(['id' => $comment['document_id']], $user, true);
         $reply = trim((string)($data['reply'] ?? ''));
         $updated = $this->app->documentComments->moderate((int)$comment['id'], $status, $reply);
         $this->app->activityLogs->write((int)$user['id'], 'comments.moderate', [
@@ -103,13 +109,14 @@ final class DocumentCommentController
         return Response::json(['data' => ['comment' => $updated]]);
     }
 
-    private function publicDocument(int $id): array
+    private function publicDocument(Request $request, int $id): array
     {
         $document = $this->app->documents->findById($id);
         if ($document === null || (string)$document['visibility'] !== 'public' || !in_array((string)$document['category'], ['documenti', 'comunicati'], true)) {
             throw new HttpException(404, 'Documento non trovato.');
         }
 
+        $this->app->documentFolderAccess->assertDocument($document, $this->app->auth->user($request));
         return $document;
     }
 
