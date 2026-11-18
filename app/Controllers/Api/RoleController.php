@@ -32,6 +32,7 @@ final class RoleController
 
     public function replaceUserRoles(Request $request, array $params): Response
     {
+        $this->app->auth->requireAdmin($request);
         $actor = $this->app->auth->requirePermission($request, 'roles.manage');
         $data = $request->all();
 
@@ -48,7 +49,7 @@ final class RoleController
         }
 
         $userId = (int)$params['id'];
-        $this->app->roles->replaceUserRoles($userId, $data['roles']);
+        $sessionsRevoked = $this->app->roles->replaceUserRoles($userId, $data['roles']);
         if (!array_intersect($data['roles'], ['delegato', 'rls'])) {
             $this->app->users->clearUnionCode($userId);
         }
@@ -62,6 +63,7 @@ final class RoleController
             'data' => [
                 'user_id' => $userId,
                 'roles' => $this->app->roles->rolesForUser($userId),
+                'sessions_revoked' => $sessionsRevoked,
             ],
         ]);
     }

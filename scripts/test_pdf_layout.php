@@ -28,7 +28,7 @@ if (!is_dir($targetDir)) {
 $layout = new App\Services\PdfLayoutService();
 $qr = new App\Services\PdfQrService();
 $writer = new App\Services\PdfWriterService();
-$verifyUrl = 'https://www.kr-solutions.it/myrsu/ui/document-verify.html?id=1&sig=TEST';
+$verifyUrl = 'https://www.kr-solutions.it/miodel/ui/document-verify.html?id=1&sig=TEST';
 $text = $layout->text(42, 680, 15, App\Services\PdfLayoutService::FONT_BOLD, 'Test standard PDF unico');
 $text .= $layout->wrappedText(
     42,

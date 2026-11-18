@@ -10,6 +10,7 @@ use App\Core\HttpException;
 use App\Core\Request;
 use App\Core\Response;
 use App\Core\Validator;
+use App\Services\DocumentVisibilityService;
 
 final class DocumentController
 {
@@ -22,6 +23,14 @@ final class DocumentController
         $user = $this->requireDocumentViewer($request);
 
         $documents = $this->app->documentFolderAccess->filterDocuments($this->app->documents->all(), $user);
+        $visiblePractices = array_column($this->app->practiceAccess->filter($this->app->practices->all(), $user), null, 'id');
+        foreach ($documents as &$document) {
+            $ids = array_filter(explode(',', (string)($document['practice_ids'] ?? '')), static fn (string $id): bool => isset($visiblePractices[(int)$id]));
+            $document['practice_ids'] = implode(',', $ids);
+            $document['practice_titles'] = implode(', ', array_map(static fn (string $id): string => $visiblePractices[(int)$id]['title'], array_values($ids)));
+            $document += $this->app->documentFolderAccess->describe($document, $user);
+        }
+        unset($document);
         return Response::json(['data' => array_map([$this, 'withFileState'], $documents)]);
     }
 
@@ -37,7 +46,7 @@ final class DocumentController
             if ((string)$document['category'] === 'comunicati') {
                 $document['comunicato'] = $this->comunicatoContent($document);
             }
-            unset($document['original_stored_name'], $document['pdf_public_path']);
+            unset($document['original_stored_name'], $document['pdf_public_path'], $document['uploaded_by'], $document['visibility']);
             $sections[(string)$document['category']][] = $document;
         }
 
@@ -58,6 +67,7 @@ final class DocumentController
     {
         $document = $this->findDocument((int)$params['id']);
         $this->authorizeDocumentAccess($request, $document, 'documents.view');
+        $document += $this->app->documentFolderAccess->describe($document, $this->app->auth->user($request));
         if ((string)$document['category'] === 'comunicati') {
             $document['comunicato'] = $this->comunicatoContent($document);
         }
@@ -76,8 +86,12 @@ final class DocumentController
             $visibility = 'rsu';
         }
 
-        if (!in_array($visibility, ['public', 'members', 'rsu'], true)) {
+        if (!in_array($visibility, DocumentVisibilityService::VALUES, true)) {
             throw new HttpException(422, 'Visibility non valida.');
+        }
+
+        if ($visibility !== (string)$document['visibility'] && !$this->app->documentFolderAccess->canSetVisibility($document, $user)) {
+            throw new HttpException(403, 'Solo gli amministratori e il creatore possono modificare la visibilità del documento.');
         }
 
         if ((string)$document['category'] === 'comunicati' && isset($data['title'], $data['body'])) {
@@ -202,20 +216,24 @@ final class DocumentController
             return $scheme . '://' . $host . ($dir === '' ? '' : $dir);
         }
 
-        return rtrim((string)env_value('APP_URL', 'http://localhost/myrsu'), '/');
+        return rtrim((string)env_value('APP_URL', 'http://localhost/miodel'), '/');
     }
 
     public function store(Request $request): Response
     {
         $user = $this->app->auth->requirePermission($request, 'documents.upload');
         $folderId = $this->app->documentFolderService->uploadDestination($_POST['folder_id'] ?? null, $user);
+        $practiceId = $this->app->documentFolderService->uploadPracticeDestination($_POST['practice_id'] ?? null, $user);
+        if ($folderId !== null && $practiceId !== null) {
+            throw new HttpException(422, 'Scegliere una sola cartella di destinazione.');
+        }
         $visibility = (string)($_POST['visibility'] ?? 'rsu');
         $category = (string)($_POST['category'] ?? 'documenti');
         if (!in_array($category, ['documenti', 'comunicati'], true)) {
             $visibility = 'rsu';
         }
 
-        if (!in_array($visibility, ['public', 'members', 'rsu'], true)) {
+        if (!in_array($visibility, DocumentVisibilityService::VALUES, true)) {
             throw new HttpException(422, 'Visibility non valida.');
         }
 
@@ -235,12 +253,23 @@ final class DocumentController
             if ($folderId !== null) {
                 $this->app->documentFolders->place((int)$document['id'], $folderId, (int)$user['id']);
             }
+            if ($practiceId !== null) {
+                $this->app->practiceLinks->link($practiceId, 'document', (int)$document['id'], (int)$user['id']);
+            }
             $pdo->commit();
         } catch (\Throwable $exception) {
             $pdo->rollBack();
             throw $exception;
         }
         $this->app->documentFolderAccess->refresh();
+        if ($practiceId !== null) {
+            $this->app->activityLogs->write((int)$user['id'], 'practices.link', [
+                'section' => 'practices',
+                'practice_id' => $practiceId,
+                'entity_type' => 'document',
+                'entity_id' => (int)$document['id'],
+            ]);
+        }
         if ($pendingOffice) {
             $this->app->activityLogs->write((int)$user['id'], 'documents.office_pending', [
                 'section' => 'documents',
@@ -443,6 +472,10 @@ final class DocumentController
         $user = $this->app->auth->requireUser($request);
         $this->app->documentFolderAccess->assertDocument($document, $user, !in_array($permission, ['documents.view', 'documents.download'], true));
 
+        if (in_array($permission, ['documents.view', 'documents.download'], true)
+            || (int)$document['uploaded_by'] === (int)$user['id']
+            || in_array('admin', $this->app->roles->rolesForUser((int)$user['id']), true)) return;
+
         if ($this->app->roles->userHasPermission((int)$user['id'], $permission)) {
             return;
         }
@@ -465,24 +498,14 @@ final class DocumentController
     private function authorizePublicOrDownload(Request $request, array $document): ?array
     {
         $user = $this->app->auth->user($request);
+        if ($user === null && !$this->app->documentFolderAccess->allowsDocument($document, null)) throw new HttpException(401, 'Autenticazione richiesta.');
         $this->app->documentFolderAccess->assertDocument($document, $user);
-        $isPublicBoardDocument = (string)$document['visibility'] === 'public'
-            && in_array((string)$document['category'], ['documenti', 'comunicati'], true);
-        if (!$isPublicBoardDocument) {
-            $this->authorizeDocumentAccess($request, $document, 'documents.download');
-        }
 
         return $user;
     }
 
     private function requireDocumentViewer(Request $request): array
     {
-        $user = $this->app->auth->requireUser($request);
-        $roles = $this->app->roles->rolesForUser((int)$user['id']);
-        if (!$this->app->roles->userHasPermission((int)$user['id'], 'documents.view') && !array_intersect($roles, ['admin', 'delegato', 'rls'])) {
-            throw new HttpException(403, 'Permesso insufficiente.');
-        }
-
-        return $user;
+        return $this->app->auth->requireUser($request);
     }
 }

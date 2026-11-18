@@ -415,6 +415,6 @@ final class UnionPermitRequestController
 
     private function baseUrl(): string
     {
-        return rtrim((string)env_value('APP_URL', 'http://localhost/myrsu'), '/');
+        return rtrim((string)env_value('APP_URL', 'http://localhost/miodel'), '/');
     }
 }

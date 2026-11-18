@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Elezioni RSU - MyRSU</title>
-  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="menu.css?v=20261114-miodelegato-logo-1">
   <link rel="stylesheet" href="users.css?v=20260719-mobile-11">
 </head>
 <body>
@@ -15,6 +15,7 @@
   <main>
     <section class="panel">
       <header class="topbar"><div><p class="eyebrow">Solo admin</p><h1>Verifica risultati RSU</h1></div></header>
+      <p id="draftStatus" role="status" aria-live="polite">Caricamento dei dati personali...</p>
       <form id="electionForm" class="grid">
         <label>Aventi diritto<input name="electors" type="number" min="0" required></label>
         <label>Votanti<input name="voters" type="number" min="0" required></label>
@@ -30,7 +31,7 @@
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
-  <script src="rsu-elections.js?v=20260720-1"></script>
+  <script src="rsu-elections.js?v=20261105-personal-draft-1"></script>
   <script src="auth-menu.js?v=20260730-normativa-1"></script>
 </body>
 </html>

@@ -1,8 +1,8 @@
 import * as pdfjsLib from './vendor/pdfjs/pdf.mjs';
-import { createDocumentArchive } from './document-archive.js?v=20261024-practice-permissions-1';
-import { createDocumentFolderActions } from './document-folder-actions.js?v=20261024-practice-permissions-1';
-import { createDocumentFolderPermissions } from './document-folder-permissions.js?v=20261024-folders-1';
-import { documentPracticeIds, isOpenPractice } from './document-archive-model.js?v=20261024-practice-permissions-1';
+import { createDocumentArchive } from './document-archive.js?v=20261116-practice-upload-1';
+import { createDocumentFolderActions } from './document-folder-actions.js?v=20261116-practice-upload-1';
+import { createDocumentFolderPermissions } from './document-folder-permissions.js?v=20261025-document-visibility-1';
+import { documentPracticeIds, isOpenPractice } from './document-archive-model.js?v=20261025-document-visibility-2';
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = './vendor/pdfjs/pdf.worker.mjs';
 
@@ -84,7 +84,12 @@ async function api(path, options = {}) {
   const payload = text ? JSON.parse(text) : {};
   jsonOutput.textContent = JSON.stringify(payload, null, 2);
 
-  if (!response.ok) throw new Error(payload.error?.message || 'Request failed');
+  if (!response.ok) {
+    const error = new Error(payload.error?.message || 'Request failed');
+    error.status = response.status;
+    error.code = payload.error?.code;
+    throw error;
+  }
   return payload.data;
 }
 
@@ -155,8 +160,9 @@ function row(document) {
     return `
       <tr data-document-id="${document.id}" draggable="${folderActions.canMove(document.id)}">
         <td data-label="Nome"><span class="table-value-title"><span class="doc-type-tag draft">DRAFT</span><span class="truncate-title" title="${escapeHtml(document.original_name)}">${escapeHtml(document.original_name)}</span></span></td>
+        <td data-label="Autore">${escapeHtml(document.author_name || '-')}</td>
         <td data-label="Categoria">${document.category || '-'}</td>
-        <td data-label="Visibilita">${translateVisibility(document.visibility)}</td>
+        <td data-label="Visibilita" title="Visibilità propria: ${translateVisibility(document.visibility)}">${documentVisibilityLabel(document)}</td>
         <td data-label="Stato"><span class="doc-origin-tag draft">Bozza - documento non generato</span></td>
         <td data-label="Dimensione">-</td>
         <td data-label="Azioni" class="actions-cell">
@@ -171,14 +177,15 @@ function row(document) {
   return `
     <tr data-document-id="${document.id}" draggable="${folderActions.canMove(document.id)}">
       <td data-label="Nome"><span class="table-value-title"><span class="doc-type-tag">${documentsSystemType(document)}</span><span class="truncate-title" title="${escapeHtml(document.original_name)}">${escapeHtml(document.original_name)}</span></span></td>
+      <td data-label="Autore">${escapeHtml(document.author_name || '-')}</td>
       <td data-label="Categoria">${document.category || '-'}</td>
-      <td data-label="Visibilita">${translateVisibility(document.visibility)}</td>
+      <td data-label="Visibilita" title="Visibilità propria: ${translateVisibility(document.visibility)}">${documentVisibilityLabel(document)}</td>
       <td data-label="Stato">${translateStatus(document.conversion_status)}</td>
       <td data-label="Dimensione">${document.pdf_size_bytes || document.size_bytes}</td>
       <td data-label="Azioni" class="actions-cell">
         <button class="icon-action" data-view="${document.id}" title="Anteprima">${MyRsuIcons.get('eye')}</button>
         <button class="icon-action document-comments-icon ${Number(document.approved_comments_count || 0) > 0 ? 'has-comments' : 'no-comments'}" data-comments="${document.id}" title="${Number(document.approved_comments_count || 0)} commenti approvati" ${Number(document.approved_comments_count || 0) === 0 ? 'disabled' : ''}>${MyRsuIcons.get('note')}</button>
-        <a class="icon-action" href="document-edit.html?id=${document.id}" title="${document.category === 'comunicati' ? 'Modifica comunicato e rigenera PDF' : 'Modifica'}">${MyRsuIcons.get('edit')}</a>
+        ${document.can_set_visibility === true || document.category === 'comunicati' ? `<a class="icon-action" href="document-edit.html?id=${document.id}" title="${document.category === 'comunicati' ? 'Modifica comunicato e rigenera PDF' : 'Modifica'}">${MyRsuIcons.get('edit')}</a>` : ''}
         <button class="icon-action" data-download="${document.id}" title="Scarica">${MyRsuIcons.get('download')}</button>
         ${folderActions.moveButton(document.id)}
         <button class="icon-action" data-projection="${document.id}" title="Proietta sul video esterno">${MyRsuIcons.get('projection')}</button>
@@ -214,8 +221,12 @@ function originalType(document) {
 
 
 function translateVisibility(value) {
-  const map = { public: 'pubblico', members: 'membri', rsu: 'rsu' };
+  const map = { creator: 'Creatore', rsu: 'Delegati', members: 'Membri', public: 'Ospiti', custom: 'Personalizzati' };
   return map[value] || value || '-';
+}
+
+function documentVisibilityLabel(document) {
+  return `${translateVisibility(document.effective_visibility || document.visibility)}${document.visibility_inherited ? ' (cartella)' : ''}`;
 }
 
 function translateStatus(value) {
@@ -234,6 +245,7 @@ uploadForm.addEventListener('submit', async (event) => {
     const destination = folderActions.uploadDestination();
     const formData = new FormData(uploadForm);
     formData.set('folder_id', destination.folderId === null ? '' : String(destination.folderId));
+    formData.set('practice_id', destination.practiceId === null ? '' : String(destination.practiceId));
     const file = formData.get('file');
     let startProgress = 0;
     if (file instanceof File && file.type === 'application/pdf') {
@@ -269,7 +281,11 @@ documentsTable.addEventListener('click', async (event) => {
 
   if (button.dataset.projection) {
     try {
-      const session = await api(`/documents/${button.dataset.projection}/projection`, { method: 'POST' });
+      const session = await window.MyRsuProjection.publish(api, button.dataset.projection);
+      if (!session) {
+        message.textContent = 'Proiezione annullata.';
+        return;
+      }
       message.textContent = `Documento proiettato: ${session.document_name}`;
       window.alert(`Documento inviato alla proiezione: ${session.document_name}`);
     } catch (error) {
@@ -390,15 +406,27 @@ async function renderPdfCanvas() {
   for (let pageNumber = 1; pageNumber <= activePdf.numPages; pageNumber += 1) {
     const page = await activePdf.getPage(pageNumber);
     const viewport = page.getViewport({ scale: pageScale(page) * pdfScale });
+    const outputScale = Math.min(
+      Math.max(1, window.devicePixelRatio || 1),
+      3,
+      Math.sqrt(8_388_608 / (viewport.width * viewport.height)),
+      8192 / Math.max(viewport.width, viewport.height)
+    );
     const canvas = document.createElement('canvas');
     const pageWrap = document.createElement('div');
-    canvas.width = Math.floor(viewport.width);
-    canvas.height = Math.floor(viewport.height);
+    canvas.width = Math.ceil(viewport.width * outputScale);
+    canvas.height = Math.ceil(viewport.height * outputScale);
+    canvas.style.width = `${viewport.width}px`;
+    canvas.style.height = `${viewport.height}px`;
     canvas.className = 'pdf-page-canvas';
-    await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+    await page.render({
+      canvasContext: canvas.getContext('2d'),
+      viewport,
+      transform: [outputScale, 0, 0, outputScale, 0, 0],
+    }).promise;
     pageWrap.className = 'pdf-page-wrap';
-    pageWrap.style.width = `${canvas.width}px`;
-    pageWrap.style.height = `${canvas.height}px`;
+    pageWrap.style.width = `${viewport.width}px`;
+    pageWrap.style.height = `${viewport.height}px`;
     pageWrap.appendChild(canvas);
     await addPdfLinks(page, viewport, pageWrap);
     pdfCanvasViewer.appendChild(pageWrap);

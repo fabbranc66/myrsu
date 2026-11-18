@@ -39,7 +39,7 @@ $layout = new App\Services\PdfLayoutService();
 $fit = new App\Services\PdfImageFitService();
 $qr = new App\Services\PdfQrService();
 $writer = new App\Services\PdfWriterService();
-$verifyUrl = 'https://www.kr-solutions.it/myrsu/ui/document-verify.html?id=2&sig=TEST';
+$verifyUrl = 'https://www.kr-solutions.it/miodel/ui/document-verify.html?id=2&sig=TEST';
 $body = $layout->text(42, 680, 15, App\Services\PdfLayoutService::FONT_BOLD, 'Test immagine');
 $body .= $layout->text(42, 660, 10, App\Services\PdfLayoutService::FONT_REGULAR, 'Immagine adattata a pagina, watermark in overlay.');
 $page = $layout->page($body, [

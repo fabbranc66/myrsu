@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Configurazioni salvate - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20261114-miodelegato-logo-1">
+  <link rel="stylesheet" href="users.css?v=20260802-projection-1">
+  <link rel="stylesheet" href="configurations.css?v=20261024-1">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU · amministrazione</p><h1>Configurazioni salvate</h1></div><nav class="app-nav"></nav></header>
+  <main id="configurationPanel" hidden>
+    <section class="panel">
+      <h2>Situazione corrente: <span id="configurationCurrent"></span></h2>
+      <p>Ogni configurazione contiene dati e file separati. Le pratiche mantengono il proprio stato. Utenti, permessi, consensi, contatti istituzionali e normativa sono comuni.</p>
+      <p><a href="archive.html">Archivio generale e condivisioni</a>: rendi disponibili pratiche e documenti di altre configurazioni, senza copiarli.</p>
+      <p>Le normali modifiche si salvano nella configurazione aperta. Il pulsante seguente aggiorna il nome e il riferimento di salvataggio, senza generare copie.</p>
+      <form id="configurationSaveForm" class="configuration-form">
+        <label>Nome configurazione<input name="name" maxlength="120" required></label>
+        <button type="submit">Salva configurazione corrente</button>
+      </form>
+    </section>
+    <section class="panel">
+      <h2>Nuova configurazione</h2>
+      <form id="configurationCreateForm" class="configuration-form">
+        <label>Nome<input name="name" maxlength="120" required placeholder="Es. Operativo"></label>
+        <label>Contenuto iniziale<select name="mode"><option value="empty">Vuota · nuova fase operativa</option><option value="copy">Copia della situazione corrente, inclusi i file</option></select></label>
+        <button type="submit">Crea configurazione</button>
+      </form>
+      <p>Per passare dal demo al reale: salva la situazione corrente come “Demo”, crea “Operativo” vuota, poi scegli “Rendi operativa”. Nessun dato demo viene cancellato.</p>
+    </section>
+    <section class="panel">
+      <header class="configuration-list-header"><h2>Situazioni disponibili</h2><button id="configurationReturn" type="button">Torna all’Operativo</button></header>
+      <p>“Apri” cambia solo la tua sessione admin. “Rendi operativa” sceglie invece la situazione predefinita per gli utenti e i visitatori e richiede conferma.</p>
+      <div class="configuration-table-wrap"><table><thead><tr><th>Nome</th><th>Utilizzo</th><th>Ultimo salvataggio</th><th>Azioni</th></tr></thead><tbody id="configurationRows"></tbody></table></div>
+    </section>
+  </main>
+  <p id="configurationMessage" role="status" aria-live="polite"></p>
+  <details class="panel"><summary>Risposta JSON</summary><pre id="configurationJson">{}</pre></details>
+  <script src="configuration-context.js?v=20261024-archive-1"></script>
+  <script src="configurations.js?v=20261024-1"></script>
+  <script src="auth-menu.js?v=20261024-archive-1"></script>
+</body>
+</html>

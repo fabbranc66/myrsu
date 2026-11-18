@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Controllers\Api;
 
+use App\Core\ApiErrorHandler;
 use App\Core\Application;
 use App\Core\HttpException;
 use App\Core\Request;
@@ -198,7 +199,8 @@ final class FundController
         try {
             return [$this->app->fundProtocol->contract($contract, $userId), null];
         } catch (Throwable $exception) {
-            return [null, $exception->getMessage()];
+            $error = ApiErrorHandler::publicError($exception);
+            return [null, $error['message'] . (isset($error['error_id']) ? ' Codice errore: ' . $error['error_id'] : '')];
         }
     }
 

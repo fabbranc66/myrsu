@@ -1,55 +1,55 @@
 const blocks = {
   ccnl: [
-    ['01', 'Economico, trasferta, reperibilità', '../myrsu/docs/ccnl_work/clean/01_blocco_economico_trasferta_reperibilita_luglio_2026.md'],
-    ['02', 'Welfare, flexible benefits, PDR', '../myrsu/docs/ccnl_work/clean/02_blocco_welfare_flexible_benefits_pdr_luglio_2026.md'],
-    ['03', 'Salute, sicurezza, RLS', '../myrsu/docs/ccnl_work/clean/03_blocco_salute_sicurezza_rls_luglio_2026.md'],
-    ['04', 'Tipologie contrattuali', '../myrsu/docs/ccnl_work/clean/04_blocco_tipologie_contrattuali_luglio_2026.md'],
-    ['05', 'Formazione, MetApprendo, apprendistato', '../myrsu/docs/ccnl_work/clean/05_blocco_formazione_metapprendo_apprendistato_luglio_2026.md'],
-    ['06', 'Orario, PAR, conto ore, straordinario', '../myrsu/docs/ccnl_work/clean/06_blocco_orario_par_conto_ore_straordinario_luglio_2026.md'],
-    ['07', 'Malattia, infortunio, congedi', '../myrsu/docs/ccnl_work/clean/07_blocco_malattia_infortunio_congedi_tutele_luglio_2026.md'],
-    ['08', 'Classificazione e inquadramento', '../myrsu/docs/ccnl_work/clean/08_blocco_classificazione_inquadramento_professionalita_luglio_2026.md'],
-    ['09', 'Ferie e permessi specifici', '../myrsu/docs/ccnl_work/clean/09_blocco_ferie_permessi_specifici_luglio_2026.md'],
-    ['10', 'Pari opportunità e molestie', '../myrsu/docs/ccnl_work/clean/10_blocco_pari_opportunita_inclusivita_molestie_luglio_2026.md'],
-    ['11', 'Informazione e consultazione', '../myrsu/docs/ccnl_work/clean/11_blocco_informazione_consultazione_aziendale_luglio_2026.md'],
-    ['12', 'Appalti e cambio appalto', '../myrsu/docs/ccnl_work/clean/12_blocco_appalti_cambio_appalto_luglio_2026.md'],
-    ['13', 'Contributi e deleghe sindacali', '../myrsu/docs/ccnl_work/clean/13_blocco_contributi_deleghe_sindacali_luglio_2026.md'],
-    ['14', 'Campo applicazione e partecipazione', '../myrsu/docs/ccnl_work/clean/14_blocco_campo_applicazione_osservatorio_partecipazione_luglio_2026.md'],
-    ['15', 'Decorrenza, una tantum, commissioni', '../myrsu/docs/ccnl_work/clean/15_blocco_decorrenza_distribuzione_una_tantum_commissioni_luglio_2026.md'],
-    ['16', 'Sospensioni, CIG, disciplina', '../myrsu/docs/ccnl_work/clean/16_blocco_sospensioni_cig_provvedimenti_disciplinari_luglio_2026.md'],
-    ['18', 'Diritti sindacali e permessi RSU', '../myrsu/docs/ccnl_work/clean/18_blocco_diritti_sindacali_assemblea_permessi_rsu_luglio_2026.md'],
-    ['19', 'Assunzione, prova, trasferimenti', '../myrsu/docs/ccnl_work/clean/19_blocco_assunzione_prova_documenti_trasferimenti_luglio_2026.md'],
-    ['20', 'Retribuzione e indennità', '../myrsu/docs/ccnl_work/clean/20_blocco_retribuzione_mensilizzazione_scatti_indennita_luglio_2026.md'],
-    ['21', 'Previdenza, sanità, welfare', '../myrsu/docs/ccnl_work/clean/21_blocco_previdenza_sanita_welfare_elemento_perequativo_luglio_2026.md'],
-    ['22', 'Assenze, studio, aspettative', '../myrsu/docs/ccnl_work/clean/22_blocco_assenze_permessi_studio_aspettative_luglio_2026.md'],
-    ['23', 'Rapporti azienda, reclami, privacy', '../myrsu/docs/ccnl_work/clean/23_blocco_rapporti_azienda_reclami_privacy_controlli_luglio_2026.md'],
-    ['24', 'Risoluzione, preavviso, TFR', '../myrsu/docs/ccnl_work/clean/24_blocco_risoluzione_rapporto_preavviso_tfr_documenti_luglio_2026.md'],
-    ['25', 'Banca ore solidale', '../myrsu/docs/ccnl_work/clean/25_blocco_banca_ore_solidale_par_ferie_residue_luglio_2026.md'],
-    ['26', 'Siderurgia e mansioni discontinue', '../myrsu/docs/ccnl_work/clean/26_blocco_siderurgia_mansioni_discontinue_squadre_luglio_2026.md'],
-    ['27', 'Allegati RSU, RLS, PDR', '../myrsu/docs/ccnl_work/clean/27_blocco_allegati_rsu_rls_pdr_scioperi_luglio_2026.md'],
-    ['28', 'Apprendistato completo', '../myrsu/docs/ccnl_work/clean/28_blocco_apprendistato_completo_luglio_2026.md'],
-    ['99', 'Testo completo CCNL 2021', '../myrsu/docs/ccnl_work/clean/ccnl_2021_testo_completo_ricercabile.md'],
+    ['01', 'Economico, trasferta, reperibilità', '/miodel/docs/ccnl_work/clean/01_blocco_economico_trasferta_reperibilita_luglio_2026.md'],
+    ['02', 'Welfare, flexible benefits, PDR', '/miodel/docs/ccnl_work/clean/02_blocco_welfare_flexible_benefits_pdr_luglio_2026.md'],
+    ['03', 'Salute, sicurezza, RLS', '/miodel/docs/ccnl_work/clean/03_blocco_salute_sicurezza_rls_luglio_2026.md'],
+    ['04', 'Tipologie contrattuali', '/miodel/docs/ccnl_work/clean/04_blocco_tipologie_contrattuali_luglio_2026.md'],
+    ['05', 'Formazione, MetApprendo, apprendistato', '/miodel/docs/ccnl_work/clean/05_blocco_formazione_metapprendo_apprendistato_luglio_2026.md'],
+    ['06', 'Orario, PAR, conto ore, straordinario', '/miodel/docs/ccnl_work/clean/06_blocco_orario_par_conto_ore_straordinario_luglio_2026.md'],
+    ['07', 'Malattia, infortunio, congedi', '/miodel/docs/ccnl_work/clean/07_blocco_malattia_infortunio_congedi_tutele_luglio_2026.md'],
+    ['08', 'Classificazione e inquadramento', '/miodel/docs/ccnl_work/clean/08_blocco_classificazione_inquadramento_professionalita_luglio_2026.md'],
+    ['09', 'Ferie e permessi specifici', '/miodel/docs/ccnl_work/clean/09_blocco_ferie_permessi_specifici_luglio_2026.md'],
+    ['10', 'Pari opportunità e molestie', '/miodel/docs/ccnl_work/clean/10_blocco_pari_opportunita_inclusivita_molestie_luglio_2026.md'],
+    ['11', 'Informazione e consultazione', '/miodel/docs/ccnl_work/clean/11_blocco_informazione_consultazione_aziendale_luglio_2026.md'],
+    ['12', 'Appalti e cambio appalto', '/miodel/docs/ccnl_work/clean/12_blocco_appalti_cambio_appalto_luglio_2026.md'],
+    ['13', 'Contributi e deleghe sindacali', '/miodel/docs/ccnl_work/clean/13_blocco_contributi_deleghe_sindacali_luglio_2026.md'],
+    ['14', 'Campo applicazione e partecipazione', '/miodel/docs/ccnl_work/clean/14_blocco_campo_applicazione_osservatorio_partecipazione_luglio_2026.md'],
+    ['15', 'Decorrenza, una tantum, commissioni', '/miodel/docs/ccnl_work/clean/15_blocco_decorrenza_distribuzione_una_tantum_commissioni_luglio_2026.md'],
+    ['16', 'Sospensioni, CIG, disciplina', '/miodel/docs/ccnl_work/clean/16_blocco_sospensioni_cig_provvedimenti_disciplinari_luglio_2026.md'],
+    ['18', 'Diritti sindacali e permessi RSU', '/miodel/docs/ccnl_work/clean/18_blocco_diritti_sindacali_assemblea_permessi_rsu_luglio_2026.md'],
+    ['19', 'Assunzione, prova, trasferimenti', '/miodel/docs/ccnl_work/clean/19_blocco_assunzione_prova_documenti_trasferimenti_luglio_2026.md'],
+    ['20', 'Retribuzione e indennità', '/miodel/docs/ccnl_work/clean/20_blocco_retribuzione_mensilizzazione_scatti_indennita_luglio_2026.md'],
+    ['21', 'Previdenza, sanità, welfare', '/miodel/docs/ccnl_work/clean/21_blocco_previdenza_sanita_welfare_elemento_perequativo_luglio_2026.md'],
+    ['22', 'Assenze, studio, aspettative', '/miodel/docs/ccnl_work/clean/22_blocco_assenze_permessi_studio_aspettative_luglio_2026.md'],
+    ['23', 'Rapporti azienda, reclami, privacy', '/miodel/docs/ccnl_work/clean/23_blocco_rapporti_azienda_reclami_privacy_controlli_luglio_2026.md'],
+    ['24', 'Risoluzione, preavviso, TFR', '/miodel/docs/ccnl_work/clean/24_blocco_risoluzione_rapporto_preavviso_tfr_documenti_luglio_2026.md'],
+    ['25', 'Banca ore solidale', '/miodel/docs/ccnl_work/clean/25_blocco_banca_ore_solidale_par_ferie_residue_luglio_2026.md'],
+    ['26', 'Siderurgia e mansioni discontinue', '/miodel/docs/ccnl_work/clean/26_blocco_siderurgia_mansioni_discontinue_squadre_luglio_2026.md'],
+    ['27', 'Allegati RSU, RLS, PDR', '/miodel/docs/ccnl_work/clean/27_blocco_allegati_rsu_rls_pdr_scioperi_luglio_2026.md'],
+    ['28', 'Apprendistato completo', '/miodel/docs/ccnl_work/clean/28_blocco_apprendistato_completo_luglio_2026.md'],
+    ['99', 'Testo completo CCNL 2021', '/miodel/docs/ccnl_work/clean/ccnl_2021_testo_completo_ricercabile.md'],
   ],
   representation: [
-    ['R02', 'Allegato 3 RSU Metalmeccanici 2017 - testo originale', '../myrsu/docs/representation_work/clean/02_ALLEGATO_3_RSU_METALMECCANICI_2017.md'],
-    ['R01', 'Testo coordinato rappresentanza', '../myrsu/docs/representation_work/clean/01_TESTO_COORDINATO_OPERATIVO_RAPPRESENTANZA_LUGLIO_2026.md'],
+    ['R02', 'Allegato 3 RSU Metalmeccanici 2017 - testo originale', '/miodel/docs/representation_work/clean/02_ALLEGATO_3_RSU_METALMECCANICI_2017.md'],
+    ['R01', 'Testo coordinato rappresentanza', '/miodel/docs/representation_work/clean/01_TESTO_COORDINATO_OPERATIVO_RAPPRESENTANZA_LUGLIO_2026.md'],
   ],
   safety: [
-    ['S00', 'Indice sicurezza 81/08', '../myrsu/docs/safety_work/clean/00_INDICE_SICUREZZA_81_08.md'],
-    ['S03', 'Blocco operativo RSU/RLS sicurezza 81/08', '../myrsu/docs/safety_work/clean/03_BLOCCO_OPERATIVO_RSU_RLS_SICUREZZA_81_08.md'],
-    ['S04', 'Mappa articoli e temi sicurezza 81/08', '../myrsu/docs/safety_work/clean/04_MAPPA_ARTICOLI_TEMI_SICUREZZA_81_08.md'],
-    ['S05', 'RLS, consultazione e accesso documenti', '../myrsu/docs/safety_work/clean/05_BLOCCO_RLS_CONSULTAZIONE_ACCESSO_DOCUMENTI.md'],
-    ['S06', 'DVR e valutazione dei rischi', '../myrsu/docs/safety_work/clean/06_BLOCCO_DVR_VALUTAZIONE_RISCHI.md'],
-    ['S07', 'Formazione, informazione e addestramento', '../myrsu/docs/safety_work/clean/07_BLOCCO_FORMAZIONE_INFORMAZIONE_ADDESTRAMENTO.md'],
-    ['S08', 'Preposto, obblighi e responsabilità', '../myrsu/docs/safety_work/clean/08_BLOCCO_PREPOSTO_OBBLIGHI_RESPONSABILITA.md'],
-    ['S09', 'Appalti, DUVRI e interferenze', '../myrsu/docs/safety_work/clean/09_BLOCCO_APPALTI_DUVRI_INTERFERENZE.md'],
-    ['S10', 'Sorveglianza sanitaria e medico competente', '../myrsu/docs/safety_work/clean/10_BLOCCO_SORVEGLIANZA_SANITARIA_MEDICO_COMPETENTE.md'],
-    ['S11', 'Vigilanza, sospensione e organi di controllo', '../myrsu/docs/safety_work/clean/11_BLOCCO_VIGILANZA_SOSPENSIONE_ORGANI_CONTROLLO.md'],
-    ['S12', 'Emergenze, antincendio e primo soccorso', '../myrsu/docs/safety_work/clean/12_BLOCCO_EMERGENZE_ANTINCENDIO_PRIMO_SOCCORSO.md'],
-    ['S14', 'Contenuti collegati 81/08: accordi, interpelli, circolari', '../myrsu/docs/safety_work/clean/14_CONTENUTI_COLLEGATI_81_08_ACCORDI_INTERPELLI_CIRCOLARI.md'],
-    ['S15', 'ISO 45001 - sicurezza lavoro', '../myrsu/docs/safety_work/clean/15_ISO_45001_SICUREZZA_LAVORO.md'],
-    ['S16', 'ISO 14001 - ambiente RSU', '../myrsu/docs/safety_work/clean/16_ISO_14001_AMBIENTE_RSU.md'],
-    ['S17', 'Mappa ISO - 81/08', '../myrsu/docs/safety_work/clean/17_MAPPA_ISO_81_08.md'],
-    ['S01', 'D.Lgs. 81/2008 - testo vigente pulito', '../myrsu/docs/safety_work/clean/01_D_LGS_81_2008_TESTO_VIGENTE_PULITO.md'],
+    ['S00', 'Indice sicurezza 81/08', '/miodel/docs/safety_work/clean/00_INDICE_SICUREZZA_81_08.md'],
+    ['S03', 'Blocco operativo RSU/RLS sicurezza 81/08', '/miodel/docs/safety_work/clean/03_BLOCCO_OPERATIVO_RSU_RLS_SICUREZZA_81_08.md'],
+    ['S04', 'Mappa articoli e temi sicurezza 81/08', '/miodel/docs/safety_work/clean/04_MAPPA_ARTICOLI_TEMI_SICUREZZA_81_08.md'],
+    ['S05', 'RLS, consultazione e accesso documenti', '/miodel/docs/safety_work/clean/05_BLOCCO_RLS_CONSULTAZIONE_ACCESSO_DOCUMENTI.md'],
+    ['S06', 'DVR e valutazione dei rischi', '/miodel/docs/safety_work/clean/06_BLOCCO_DVR_VALUTAZIONE_RISCHI.md'],
+    ['S07', 'Formazione, informazione e addestramento', '/miodel/docs/safety_work/clean/07_BLOCCO_FORMAZIONE_INFORMAZIONE_ADDESTRAMENTO.md'],
+    ['S08', 'Preposto, obblighi e responsabilità', '/miodel/docs/safety_work/clean/08_BLOCCO_PREPOSTO_OBBLIGHI_RESPONSABILITA.md'],
+    ['S09', 'Appalti, DUVRI e interferenze', '/miodel/docs/safety_work/clean/09_BLOCCO_APPALTI_DUVRI_INTERFERENZE.md'],
+    ['S10', 'Sorveglianza sanitaria e medico competente', '/miodel/docs/safety_work/clean/10_BLOCCO_SORVEGLIANZA_SANITARIA_MEDICO_COMPETENTE.md'],
+    ['S11', 'Vigilanza, sospensione e organi di controllo', '/miodel/docs/safety_work/clean/11_BLOCCO_VIGILANZA_SOSPENSIONE_ORGANI_CONTROLLO.md'],
+    ['S12', 'Emergenze, antincendio e primo soccorso', '/miodel/docs/safety_work/clean/12_BLOCCO_EMERGENZE_ANTINCENDIO_PRIMO_SOCCORSO.md'],
+    ['S14', 'Contenuti collegati 81/08: accordi, interpelli, circolari', '/miodel/docs/safety_work/clean/14_CONTENUTI_COLLEGATI_81_08_ACCORDI_INTERPELLI_CIRCOLARI.md'],
+    ['S15', 'ISO 45001 - sicurezza lavoro', '/miodel/docs/safety_work/clean/15_ISO_45001_SICUREZZA_LAVORO.md'],
+    ['S16', 'ISO 14001 - ambiente RSU', '/miodel/docs/safety_work/clean/16_ISO_14001_AMBIENTE_RSU.md'],
+    ['S17', 'Mappa ISO - 81/08', '/miodel/docs/safety_work/clean/17_MAPPA_ISO_81_08.md'],
+    ['S01', 'D.Lgs. 81/2008 - testo vigente pulito', '/miodel/docs/safety_work/clean/01_D_LGS_81_2008_TESTO_VIGENTE_PULITO.md'],
   ],
 };
 
@@ -223,7 +223,7 @@ async function search() {
     return;
   }
   if (!vocabularyLoaded) {
-    await window.MyRsuNormativaVocabulary?.load('../myrsu/docs/normativa_vocabulary.json');
+    await window.MyRsuNormativaVocabulary?.load('/miodel/docs/normativa_vocabulary.json');
     vocabularyLoaded = true;
   }
   const found = await findResults();
@@ -254,7 +254,7 @@ async function findResults() {
 
 async function api(path) {
   const token = sessionStorage.getItem('token') || localStorage.getItem('token');
-  const response = await fetch(`../myrsu/api/v1${path}`, {
+  const response = await fetch(`/miodel/api/v1${path}`, {
     headers: token ? { Authorization: `Bearer ${token}` } : {},
   });
   const payload = await response.json();
@@ -496,7 +496,7 @@ async function isMyrsuAdmin() {
   const token = sessionStorage.getItem('token') || localStorage.getItem('token');
   if (!token) return false;
   try {
-    const response = await fetch('../myrsu/api/v1/me', { headers: { Authorization: `Bearer ${token}` } });
+    const response = await fetch('/miodel/api/v1/me', { headers: { Authorization: `Bearer ${token}` } });
     const payload = await response.json();
     showJson(payload);
     return response.ok && (payload.data?.roles || []).includes('admin');
@@ -514,7 +514,7 @@ async function askCodex(event) {
   const question = new FormData(codexQuestionForm).get('question').toString().trim();
   if (question.length < 3) return;
   query.value = question;
-  await window.MyRsuNormativaVocabulary?.load('../myrsu/docs/normativa_vocabulary.json');
+  await window.MyRsuNormativaVocabulary?.load('/miodel/docs/normativa_vocabulary.json');
   const detectedScope = questionScope(question);
   const found = (await findResults()).slice(0, 6);
   showJson({ data: { scope: detectedScope, question, count: found.length, items: found } });

@@ -22,7 +22,7 @@ final class ComunicatoController
         Validator::required($request->all(), ['title', 'body', 'visibility']);
 
         $data = $request->all();
-        if (!in_array((string)$data['visibility'], ['public', 'members', 'rsu'], true)) {
+        if (!in_array((string)$data['visibility'], \App\Services\DocumentVisibilityService::VALUES, true)) {
             throw new HttpException(422, 'Visibility non valida.');
         }
 
@@ -119,7 +119,7 @@ final class ComunicatoController
             return $scheme . '://' . $host . ($dir === '' ? '' : $dir);
         }
 
-        return rtrim((string)env_value('APP_URL', 'http://localhost/myrsu'), '/');
+        return rtrim((string)env_value('APP_URL', 'http://localhost/miodel'), '/');
     }
 
 }

@@ -125,8 +125,8 @@ final class RsuElectionAnalysisService
             'name' => trim((string)($row['name'] ?? '')),
             'preferences' => max(0, (int)($row['preferences'] ?? 0)),
         ], $rows), static fn (array $row): bool => $row['name'] !== ''));
-        if (count($candidates) > 3) {
-            throw new HttpException(422, 'Massimo 3 candidati per lista.');
+        if (count($candidates) > 5) {
+            throw new HttpException(422, 'Massimo 5 candidati per lista.');
         }
 
         return $candidates;

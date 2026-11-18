@@ -18,19 +18,19 @@ final class EmailController
 
     public function index(Request $request): Response
     {
-        $this->requireOperator($request);
-        return Response::json(['data' => $this->app->emails->all([
+        $user = $this->requireOperator($request);
+        return Response::json(['data' => $this->app->practiceAccess->filterLinked($this->app->emails->all([
             'direction' => (string)($request->query('direction') ?? ''),
             'read_status' => (string)($request->query('read_status') ?? ''),
             'handling_status' => (string)($request->query('handling_status') ?? ''),
             'practice_id' => (string)($request->query('practice_id') ?? ''),
-        ])]);
+        ]), $user, $this->app->practices)]);
     }
 
     public function show(Request $request, array $params): Response
     {
-        $this->requireOperator($request);
-        $email = $this->findEmail((int)$params['id']);
+        $user = $this->requireOperator($request);
+        $email = $this->findEmail((int)$params['id'], $user);
 
         return Response::json(['data' => [
             'email' => $email,
@@ -42,7 +42,9 @@ final class EmailController
     public function store(Request $request): Response
     {
         $user = $this->requireOperator($request);
-        $email = $this->app->emails->create($this->validated($request->all()) + ['created_by' => (int)$user['id']]);
+        $data = $this->validated($request->all());
+        $this->app->practiceAccess->assertLinked($data, $user, $this->app->practices);
+        $email = $this->app->emails->create($data + ['created_by' => (int)$user['id']]);
         $this->app->emailContacts->storeMissing($email, (int)$user['id']);
         $this->log((int)$user['id'], 'emails.create', $email);
 
@@ -53,6 +55,7 @@ final class EmailController
     {
         $user = $this->requireOperator($request);
         $data = $this->validatedSend($request->all(), $user);
+        $this->app->practiceAccess->assertLinked($data, $user, $this->app->practices);
         $documentAttachments = $this->documentAttachments($request->all(), $user);
         $email = $this->app->emails->create($data + ['created_by' => (int)$user['id']]);
         $this->app->emailContacts->storeMissing($email, (int)$user['id']);
@@ -86,8 +89,10 @@ final class EmailController
     public function update(Request $request, array $params): Response
     {
         $user = $this->requireOperator($request);
-        $this->findEmail((int)$params['id']);
-        $email = $this->app->emails->update((int)$params['id'], $this->validated($request->all()));
+        $this->findEmail((int)$params['id'], $user);
+        $data = $this->validated($request->all());
+        $this->app->practiceAccess->assertLinked($data, $user, $this->app->practices);
+        $email = $this->app->emails->update((int)$params['id'], $data);
         $this->app->emailContacts->storeMissing($email ?? [], (int)$user['id']);
         $this->log((int)$user['id'], 'emails.update', $email);
 
@@ -97,7 +102,7 @@ final class EmailController
     public function manage(Request $request, array $params): Response
     {
         $user = $this->requireOperator($request);
-        $this->findEmail((int)$params['id']);
+        $this->findEmail((int)$params['id'], $user);
         $email = $this->app->emails->manage((int)$params['id'], (int)$user['id']);
         $this->log((int)$user['id'], 'emails.manage', $email);
 
@@ -109,9 +114,10 @@ final class EmailController
         $user = $this->requireOperator($request);
         $data = $request->all();
         Validator::required($data, ['practice_id']);
-        $email = $this->findEmail((int)$params['id']);
+        $email = $this->findEmail((int)$params['id'], $user);
         $practice = $this->app->practices->findById((int)$data['practice_id']);
         if ($practice === null) throw new HttpException(404, 'Pratica non trovata.');
+        $this->app->practiceAccess->assert($practice, $user);
         $updated = $this->app->emails->linkPractice((int)$email['id'], (int)$practice['id']);
         $this->log((int)$user['id'], 'emails.link_practice', $updated);
 
@@ -121,7 +127,7 @@ final class EmailController
     public function unlinkPractice(Request $request, array $params): Response
     {
         $user = $this->requireOperator($request);
-        $email = $this->findEmail((int)$params['id']);
+        $email = $this->findEmail((int)$params['id'], $user);
         $updated = $this->app->emails->linkPractice((int)$email['id'], null);
         $this->log((int)$user['id'], 'emails.unlink_practice', $updated);
 
@@ -131,7 +137,7 @@ final class EmailController
     public function addNote(Request $request, array $params): Response
     {
         $user = $this->requireOperator($request);
-        $email = $this->findEmail((int)$params['id']);
+        $email = $this->findEmail((int)$params['id'], $user);
         $data = $request->all();
         Validator::required($data, ['body']);
         $body = trim((string)$data['body']);
@@ -145,7 +151,7 @@ final class EmailController
     public function destroy(Request $request, array $params): Response
     {
         $user = $this->requireOperator($request);
-        $email = $this->findEmail((int)$params['id']);
+        $email = $this->findEmail((int)$params['id'], $user);
         $this->deleteAttachmentFiles((int)$email['id']);
         $this->app->emails->delete((int)$email['id']);
         $this->log((int)$user['id'], 'emails.delete', $email);
@@ -165,11 +171,12 @@ final class EmailController
 
     private function streamAttachment(Request $request, array $params, bool $download): Response
     {
-        $this->requireOperator($request);
+        $user = $this->requireOperator($request);
         $attachment = $this->app->emails->findAttachment((int)$params['id']);
         if ($attachment === null) throw new HttpException(404, 'Allegato non trovato.');
+        $this->findEmail((int)$attachment['email_id'], $user);
 
-        $basePath = realpath(dirname(__DIR__, 3));
+        $basePath = realpath($this->app->dataPath());
         $path = realpath($basePath . '/' . $attachment['storage_path'] . '/' . $attachment['stored_name']);
         $root = realpath($basePath . '/storage/private/email-attachments');
         if ($path === false || $root === false || !str_starts_with($path, $root) || !is_file($path)) {
@@ -293,7 +300,7 @@ final class EmailController
 
     private function saveAttachmentFile(int $emailId, string $originalName, string $sourcePath, bool $uploaded): array
     {
-        $basePath = realpath(dirname(__DIR__, 3)) ?: dirname(__DIR__, 3);
+        $basePath = realpath($this->app->dataPath()) ?: $this->app->dataPath();
         $storagePath = 'storage/private/email-attachments/' . $emailId;
         $dir = $basePath . '/' . $storagePath;
         if (!is_dir($dir)) mkdir($dir, 0775, true);
@@ -330,13 +337,13 @@ final class EmailController
 
     private function attachmentPath(array $attachment): string
     {
-        $basePath = realpath(dirname(__DIR__, 3)) ?: dirname(__DIR__, 3);
+        $basePath = realpath($this->app->dataPath()) ?: $this->app->dataPath();
         return $basePath . '/' . $attachment['storage_path'] . '/' . $attachment['stored_name'];
     }
 
     private function deleteAttachmentFiles(int $emailId): void
     {
-        $basePath = realpath(dirname(__DIR__, 3));
+        $basePath = realpath($this->app->dataPath());
         $dir = realpath($basePath . '/storage/private/email-attachments/' . $emailId);
         $root = realpath($basePath . '/storage/private/email-attachments');
         if ($dir === false || $root === false || !str_starts_with($dir, $root) || !is_dir($dir)) {
@@ -357,10 +364,11 @@ final class EmailController
         return $user;
     }
 
-    private function findEmail(int $id): array
+    private function findEmail(int $id, array $user): array
     {
         $email = $this->app->emails->find($id);
         if ($email === null) throw new HttpException(404, 'E-mail non trovata.');
+        $this->app->practiceAccess->assertLinked($email, $user, $this->app->practices);
         return $email;
     }
 

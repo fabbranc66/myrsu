@@ -9,6 +9,8 @@ use App\Core\HttpException;
 use App\Core\Request;
 use App\Core\Response;
 use App\Services\RsuElectionAnalysisService;
+use App\Services\RsuElectionDraftService;
+use App\Repositories\RsuElectionDraftRepository;
 
 final class RsuElectionController
 {
@@ -24,5 +26,22 @@ final class RsuElectionController
         }
 
         return Response::json(['data' => (new RsuElectionAnalysisService())->analyze($request->all())]);
+    }
+
+    public function draft(Request $request): Response
+    {
+        $user = $this->app->auth->requireAdmin($request);
+        return Response::json(['data' => $this->draftService()->load((int)$user['id'])]);
+    }
+
+    public function saveDraft(Request $request): Response
+    {
+        $user = $this->app->auth->requireAdmin($request);
+        return Response::json(['data' => $this->draftService()->save((int)$user['id'], $request->all())]);
+    }
+
+    private function draftService(): RsuElectionDraftService
+    {
+        return new RsuElectionDraftService(new RsuElectionDraftRepository($this->app->database->pdo()));
     }
 }

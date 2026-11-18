@@ -14,7 +14,7 @@ final class PracticeService
     private const TYPES = ['collective', 'personal', 'personal_restricted'];
     private const PRIORITIES = ['low', 'medium', 'high', 'urgent'];
     private const SOURCES = ['manual', 'anonymous_report', 'mail', 'member', 'delegate', 'document', 'communication', 'meeting'];
-    private const VISIBILITIES = ['operators', 'authorized', 'public_summary'];
+    private const VISIBILITIES = ['operators', 'authorized'];
 
     public function __construct(
         private readonly PracticeRepository $practices,

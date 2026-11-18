@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace App\Repositories;
 
+use App\Core\HttpException;
 use PDO;
+use PDOException;
 
 final class UserRepository
 {
@@ -115,7 +117,8 @@ final class UserRepository
             }
         }
 
-        if (array_key_exists('password', $data) && trim((string)$data['password']) !== '') {
+        $changesPassword = array_key_exists('password', $data) && trim((string)$data['password']) !== '';
+        if ($changesPassword) {
             $fields[] = 'password_hash = ?';
             $values[] = password_hash((string)$data['password'], PASSWORD_DEFAULT);
         }
@@ -127,16 +130,42 @@ final class UserRepository
         $fields[] = 'updated_at = NOW()';
         $values[] = $id;
 
-        $stmt = $this->pdo->prepare('UPDATE users SET ' . implode(', ', $fields) . ' WHERE id = ?');
-        $stmt->execute($values);
+        $operation = function () use ($id, $fields, $values, $data, $changesPassword): ?array {
+            $revokeSessions = $changesPassword;
+            if (array_key_exists('status', $data)) {
+                $current = $this->pdo->prepare('SELECT status FROM users WHERE id = ? FOR UPDATE');
+                $current->execute([$id]);
+                $currentStatus = $current->fetchColumn();
+                $revokeSessions = $revokeSessions || $data['status'] === 'suspended'
+                    || ($data['status'] === 'active' && $currentStatus === 'suspended');
+            }
+            $stmt = $this->pdo->prepare('UPDATE users SET ' . implode(', ', $fields) . ' WHERE id = ?');
+            $stmt->execute($values);
+            if ($revokeSessions) {
+                (new TokenRepository($this->pdo))->revokeForUser($id);
+            }
+            return $this->findById($id);
+        };
 
-        return $this->findById($id);
+        if (array_key_exists('status', $data) || $changesPassword) {
+            return (new AdminAccountProtectionRepository($this->pdo))->run($id, array_key_exists('status', $data) && $data['status'] !== 'active', $operation);
+        }
+        return $operation();
     }
 
     public function delete(int $id): void
     {
-        $stmt = $this->pdo->prepare('DELETE FROM users WHERE id = ?');
-        $stmt->execute([$id]);
+        (new AdminAccountProtectionRepository($this->pdo))->run($id, true, function () use ($id): void {
+            $stmt = $this->pdo->prepare('DELETE FROM users WHERE id = ?');
+            try {
+                $stmt->execute([$id]);
+            } catch (PDOException $exception) {
+                if ((int)($exception->errorInfo[1] ?? 0) === 1451) {
+                    throw new HttpException(409, 'Utente collegato a dati o attività, anche negli archivi salvati: non può essere eliminato. Per impedirne l’accesso, imposta lo stato su sospeso.');
+                }
+                throw $exception;
+            }
+        });
     }
 
     public function clearUnionCode(int $id): void

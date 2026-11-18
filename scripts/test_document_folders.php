@@ -24,6 +24,7 @@ if (!in_array($config['host'], ['127.0.0.1', 'localhost'], true) || $config['dat
 }
 $app = new Application($basePath);
 $app->bootDatabase();
+$dataPath = $app->dataPath();
 $pdo = $app->database->pdo();
 $prefix = '__folder_test_' . bin2hex(random_bytes(6));
 $folderIds = [];
@@ -114,7 +115,8 @@ try {
     $publicPath = 'public/documents/documenti/' . $prefix . '.pdf';
     $originalName = $prefix . '-original.pdf';
     foreach ([$publicPath, 'storage/private/originals/' . $originalName] as $relative) {
-        $path = $basePath . '/' . $relative;
+        $path = $dataPath . '/' . $relative;
+        if (!is_dir(dirname($path))) mkdir(dirname($path), 0775, true);
         check(!file_exists($path) && is_dir(dirname($path)), 'Percorso fixture disponibile');
         check(file_put_contents($path, $bytes) === strlen($bytes), 'Scrittura fixture');
         $paths[] = $path;
@@ -231,7 +233,7 @@ try {
     $statement->execute([$logStart, $documentId, $folderIds[0] ?? null, $folderIds[1] ?? null]);
     foreach ($paths as $path) {
         $resolved = realpath($path);
-        check($resolved !== false && str_starts_with(str_replace('\\', '/', $resolved), str_replace('\\', '/', realpath($basePath)) . '/')
+        check($resolved !== false && str_starts_with(str_replace('\\', '/', $resolved), str_replace('\\', '/', realpath($dataPath)) . '/')
             && str_contains(basename($resolved), $prefix), 'Pulizia limitata alle fixture del test');
         unlink($resolved);
     }

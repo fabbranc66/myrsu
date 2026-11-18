@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+ini_set('display_errors', '0');
+ini_set('display_startup_errors', '0');
+ini_set('log_errors', '1');
+
 define('BASE_PATH', __DIR__);
 
 spl_autoload_register(static function (string $class): void {
@@ -17,6 +21,10 @@ spl_autoload_register(static function (string $class): void {
     if (is_file($path)) {
         require $path;
     }
+});
+
+set_exception_handler(static function (Throwable $exception): void {
+    App\Core\ApiErrorHandler::response($exception)->send();
 });
 
 require BASE_PATH . '/app/Core/helpers.php';

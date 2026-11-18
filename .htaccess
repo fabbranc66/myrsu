@@ -2,7 +2,11 @@ RewriteEngine On
 
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
-RewriteRule ^storage/private/ - [F,L]
+RewriteRule (^|/)\.(?!well-known(?:/|$)) - [F,L,NC]
+RewriteRule ^(?:app|config|database|docs|routes|scripts|vendor|artifacts)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:AGENTS\.md|README\.md|DEVELOPMENT_RULES\.md|composer\.(?:json|lock)|package(?:-lock)?\.json)$ - [F,L,NC]
+RewriteRule (?:\.(?:sql|log|bak|old|orig|swp)|~)(?:$|/) - [F,L,NC]
+RewriteRule ^storage/private(?:/|$) - [F,L,NC]
 RewriteRule ^public/documents/[^/]+/[^/]+$ index.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f

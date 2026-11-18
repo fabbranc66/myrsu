@@ -1,4 +1,4 @@
-import { buildDocumentArchive, folderTrail } from './document-archive-model.js?v=20261024-practice-permissions-1';
+import { buildDocumentArchive, folderTrail } from './document-archive-model.js?v=20261025-document-visibility-2';
 
 export function createDocumentArchive({ element, listing, listingTitle, emptyMessage, onRows }) {
   let archive = buildDocumentArchive([], []);
@@ -21,6 +21,7 @@ export function createDocumentArchive({ element, listing, listingTitle, emptyMes
         <span class="document-archive-icon" aria-hidden="true">${window.MyRsuIcons.get('folder')}</span>
         <span class="document-archive-folder-label"><strong>${escape(title)}</strong>${code ? `<small>${escape(code)}</small>` : ''}</span>
       </button></td>
+      <td data-label="Autore">-</td>
       <td data-label="Categoria">Cartella</td>
       <td data-label="Visibilita">-</td>
       <td data-label="Stato">${documents.length} ${documents.length === 1 ? 'documento' : 'documenti'}${childCount ? ` · ${childCount} sottocartelle` : ''}</td>
@@ -87,7 +88,7 @@ export function createDocumentArchive({ element, listing, listingTitle, emptyMes
     } else {
       rows = selected.documents;
       title = `Documenti · ${selected.code || selected.title}`;
-      note = 'La cartella si aggiorna usando i collegamenti alla pratica. Per aggiungere o rimuovere documenti usa Collega a pratica o Scollega da pratica.';
+      note = 'I documenti caricati qui vengono collegati automaticamente alla pratica. Per i documenti già presenti usa Collega a pratica o Scollega da pratica.';
     }
     const focused = element.contains(document.activeElement) || listing.contains(document.activeElement);
     const canCreate = manual.can_manage && (view === 'root' || (view === 'custom' && custom.can_manage));
@@ -130,7 +131,7 @@ export function createDocumentArchive({ element, listing, listingTitle, emptyMes
       render();
     },
     getContext() {
-      return { view, folderId: view === 'custom' ? customId : null };
+      return { view, folderId: view === 'custom' ? customId : null, practiceId: view === 'practice' ? practiceId : null };
     },
     openRoot() {
       view = 'root';

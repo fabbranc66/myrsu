@@ -72,7 +72,7 @@ final class ComunicatoDirectPdfService
         $y -= 10;
         $content .= $this->layout->text(self::BODY_LEFT, $y, 11, PdfLayoutService::FONT_BOLD, 'Cordiali saluti.');
         $y -= 22;
-        $content .= $this->layout->text(self::BODY_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, 'RSU');
+        $content .= $this->layout->text(self::BODY_LEFT, $y, 11, PdfLayoutService::FONT_REGULAR, PdfBrandingService::CAPTION);
         $pages[] = $this->page($content, $protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $revisionAt, $creator);
         if ($signature !== null && $signature !== '') {
             $pages[] = $this->verificationPage($protocolNumber, $createdAt, $documentNumber, count($pages) + 1, $verifyUrl, $signature, $revisionAt, $creator);
@@ -123,7 +123,7 @@ final class ComunicatoDirectPdfService
     private function withoutClosing(string $body): string
     {
         return trim((string)preg_replace(
-            '/\R*Cordiali saluti\.\R+RSU(?:\s+Canegrate)?\s*$/i',
+            '/\R*Cordiali saluti\.\R+(?:RSU(?:\s+Canegrate)?|Del\. FIM-CISL)\s*$/i',
             '',
             trim($body)
         ));

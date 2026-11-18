@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archivio generale e condivisioni - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20261114-miodelegato-logo-1"><link rel="stylesheet" href="users.css?v=20260802-projection-1"><link rel="stylesheet" href="archive.css?v=20261025-direct-move-1">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU · solo admin</p><h1>Archivio generale e condivisioni</h1></div><nav class="app-nav"></nav></header>
+  <main id="archivePanel" hidden>
+    <section class="panel">
+      <h2>Disponibilità in: <span id="archiveTarget"></span></h2>
+      <p>Pratiche e documenti di tutti gli archivi, aperti o chiusi. Il flag li rende disponibili nella configurazione attiva senza copiarli, spostarli o modificarne lo stato.</p>
+      <form id="archiveSearch" class="archive-filters">
+        <label>Contenuto<select name="type"><option value="practice">Pratiche</option><option value="document">Documenti</option></select></label>
+        <label>Archivio d’origine<select name="source"><option value="0">Tutti gli archivi</option></select></label>
+        <label>Ricerca<input name="q" maxlength="150" placeholder="Nome, titolo o codice"></label>
+        <button type="submit">Cerca</button>
+      </form>
+      <p>Condividendo una pratica si rendono consultabili anche i documenti collegati, nei limiti dei permessi originali. Condividere un documento non rende visibile la pratica d’origine.</p>
+      <p>Per trasferire una pratica, premi <strong>Sposta qui</strong> sulla sua riga: non serve attivare il flag di condivisione né aprire la scheda. Documenti e fascicolo precedente restano collegati agli originali.</p>
+      <p id="archiveWarnings" role="status"></p>
+      <div class="archive-table-wrap"><table class="archive-table"><thead><tr><th>Disponibile qui</th><th>Codice / nome</th><th>Origine</th><th>Stato</th><th></th></tr></thead><tbody id="archiveRows"></tbody></table></div>
+      <div class="archive-pagination"><button id="archivePrevious" type="button">Precedenti</button><span id="archivePage"></span><button id="archiveNext" type="button">Successivi</button></div>
+    </section>
+  </main>
+  <p id="archiveMessage" role="status" aria-live="polite"></p>
+  <details class="panel"><summary>Risposta JSON</summary><pre id="archiveJson">{}</pre></details>
+  <script src="configuration-context.js?v=20261024-archive-1"></script>
+  <script src="practice-options.js?v=20261025-visibility-1"></script>
+  <script type="module" src="archive.js?v=20261025-direct-move-1"></script>
+  <script src="auth-menu.js?v=20261024-archive-1"></script>
+</body>
+</html>

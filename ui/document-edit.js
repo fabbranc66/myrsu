@@ -10,6 +10,7 @@ const saveButton = document.querySelector('#saveButton');
 const previewButton = document.querySelector('#previewButton');
 let isComunicato = false;
 let isDraft = false;
+let canSetVisibility = false;
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -25,6 +26,13 @@ api(`/documents/${id}`).then((document) => {
   editForm.original_name.value = document.original_name;
   editForm.category.value = document.category || '';
   editForm.visibility.value = document.visibility;
+  canSetVisibility = document.can_set_visibility === true;
+  editForm.visibility.disabled = !canSetVisibility;
+  saveButton.hidden = !canSetVisibility && document.category !== 'comunicati';
+  const labels = { creator: 'Creatore', rsu: 'Delegati', members: 'Membri', public: 'Ospiti', custom: 'Personalizzati' };
+  window.document.querySelector('#documentVisibilityHint').textContent = document.visibility_inherited
+    ? `Visibilità effettiva: ${labels[document.effective_visibility] || document.effective_visibility}, ereditata da ${(document.visibility_folders || []).join(', ')}. Il campo salva la visibilità propria del documento.`
+    : 'Visibilità propria del documento. Admin e creatore mantengono l’accesso.';
   if (document.category === 'comunicati' && document.conversion_status === 'pending') {
     window.location.href = `comunicati-editor.html?id=${id}`;
     return;
@@ -57,6 +65,7 @@ previewButton.addEventListener('click', async () => {
 
 editForm.addEventListener('submit', async (event) => {
   event.preventDefault();
+  if (!canSetVisibility && !isComunicato) return;
   const form = new FormData(editForm);
   saveButton.disabled = true;
   saveButton.textContent = isDraft ? 'Salvataggio bozza...' : (isComunicato ? 'Rigenerazione in corso...' : 'Salvataggio...');
@@ -67,7 +76,7 @@ editForm.addEventListener('submit', async (event) => {
     await api(`/documents/${id}`, {
       method: 'PATCH',
       body: JSON.stringify({
-        visibility: form.get('visibility'),
+        ...(canSetVisibility ? { visibility: form.get('visibility') } : {}),
         title: form.get('title'),
         body: form.get('body'),
       }),

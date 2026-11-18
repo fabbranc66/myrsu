@@ -39,7 +39,9 @@ final class MeetingProjectionRepository
             $stmt = $this->pdo->prepare(
                 "UPDATE meeting_projection_sessions
                  SET meeting_id = ?, status = 'active', active_slot = 1, current_document_id = NULL,
-                     scroll_ratio = 0, revision = revision + 1, created_by = ?, closed_at = NULL, updated_at = NOW()
+                     scroll_ratio = 0, pointer_page = 1, pointer_x = 0.5, pointer_y = 0.1,
+                     highlight_x = NULL, highlight_y = NULL, highlight_page = NULL, highlight_end_x = NULL, highlight_end_y = NULL,
+                     revision = revision + 1, created_by = ?, closed_at = NULL, updated_at = NOW()
                  WHERE id = ?"
             );
             $stmt->execute([$meetingId, $userId, $singleton['id']]);
@@ -60,6 +62,7 @@ final class MeetingProjectionRepository
         $stmt = $this->pdo->prepare(
             "UPDATE meeting_projection_sessions
              SET status = 'inactive', active_slot = NULL, current_document_id = NULL,
+                 highlight_x = NULL, highlight_y = NULL, highlight_page = NULL, highlight_end_x = NULL, highlight_end_y = NULL,
                  revision = revision + 1, closed_at = NOW(), updated_at = NOW()
              WHERE id = ? AND active_slot = 1"
         );
@@ -70,21 +73,36 @@ final class MeetingProjectionRepository
     {
         $stmt = $this->pdo->prepare(
             'UPDATE meeting_projection_sessions
-             SET current_document_id = ?, scroll_ratio = 0, revision = revision + 1, updated_at = NOW()
+             SET current_document_id = ?, scroll_ratio = 0, pointer_page = 1, pointer_x = 0.5, pointer_y = 0.1,
+                 highlight_x = NULL, highlight_y = NULL, highlight_page = NULL, highlight_end_x = NULL, highlight_end_y = NULL,
+                 revision = revision + 1, updated_at = NOW()
              WHERE id = ? AND active_slot = 1'
         );
         $stmt->execute([$documentId, $id]);
         return $this->active();
     }
 
-    public function position(int $id, float $ratio): array
+    public function position(int $id, float $ratio, ?array $pointer = null, ?int $documentId = null): array
     {
+        $assignments = 'scroll_ratio = ?';
+        $values = [$ratio];
+        if ($pointer !== null) {
+            $assignments .= ', pointer_page = ?, pointer_x = ?, pointer_y = ?, highlight_x = ?, highlight_y = ?, highlight_page = ?, highlight_end_x = ?, highlight_end_y = ?';
+            array_push($values, $pointer['pointer_page'], $pointer['pointer_x'], $pointer['pointer_y'],
+                $pointer['highlight_x'] ?? null, $pointer['highlight_y'] ?? null,
+                $pointer['highlight_page'] ?? null, $pointer['highlight_end_x'] ?? null, $pointer['highlight_end_y'] ?? null);
+        }
+        $condition = 'id = ? AND active_slot = 1';
+        $values[] = $id;
+        if ($documentId !== null) {
+            $condition .= ' AND current_document_id = ?';
+            $values[] = $documentId;
+        }
         $stmt = $this->pdo->prepare(
-            'UPDATE meeting_projection_sessions
-             SET scroll_ratio = ?, revision = revision + 1, updated_at = NOW()
-             WHERE id = ? AND active_slot = 1'
+            'UPDATE meeting_projection_sessions SET ' . $assignments
+            . ', revision = revision + 1, updated_at = NOW() WHERE ' . $condition
         );
-        $stmt->execute([$ratio, $id]);
+        $stmt->execute($values);
         return $this->active();
     }
 

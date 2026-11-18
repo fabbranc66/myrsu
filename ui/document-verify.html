@@ -2,7 +2,8 @@
 <html lang="it">
 <head>
   <meta charset="utf-8">
-  <title>MyRSU - Verify document file</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MioDelegato - Verifica documento</title>
   <link rel="stylesheet" href="users.css?v=20260718-2">
   <style>
     body.verify-page{min-height:100vh;margin:0;background:rgba(15,23,42,.78)}
@@ -12,6 +13,10 @@
     .verify-modal header{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:14px}
     .verify-modal form{display:grid;gap:12px}
     .verify-modal label{display:grid;gap:6px}
+    .verify-modal input{width:100%;min-width:0;box-sizing:border-box}
+    .verify-modal header>div{min-width:0}
+    .verify-modal header button{flex-shrink:0}
+    @media(max-width:480px){.verify-modal{padding:16px}.verify-modal header{gap:10px}.verify-modal h1{font-size:24px}.verify-modal .eyebrow{overflow-wrap:anywhere}}
   </style>
 </head>
 <body class="verify-page">
@@ -19,13 +24,14 @@
     <dialog id="verifyModal" class="verify-modal">
       <header>
         <div>
-          <p class="eyebrow">MyRSU</p>
+          <p class="eyebrow">MioDelegato · Del. FIM-CISL</p>
           <h1>Verifica documento</h1>
         </div>
         <button id="closeVerifyModal" type="button">Chiudi</button>
       </header>
 
       <p>Verifica QR e, se vuoi, carica la copia PDF da controllare byte per byte.</p>
+      <p>Copia digitale diffusa dal delegato RSU FIM-CISL, non dall’intera RSU. La verifica riguarda il codice e l’integrità del file conservato; non è una firma digitale qualificata.</p>
 
       <div id="serverResult"></div>
 
@@ -53,6 +59,6 @@
     </dialog>
   </main>
 
-  <script src="document-verify.js?v=20261024-folders-1"></script>
+  <script src="document-verify.js?v=20261114-miodelegato-1"></script>
 </body>
 </html>

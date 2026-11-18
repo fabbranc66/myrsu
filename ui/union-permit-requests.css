@@ -1,0 +1,160 @@
+.permit-requests-page {
+  display: grid;
+  gap: 16px;
+  margin: 20px auto;
+  padding: 0 12px;
+}
+
+.permit-requests-page .panel {
+  min-width: 0;
+  padding: 16px;
+}
+
+.permit-section-heading {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.permit-section-heading h2 {
+  margin: 0;
+  font-size: 19px;
+}
+
+.permit-delegate-grid,
+.permit-balances,
+.permit-request-form,
+.permit-form-grid,
+.permit-form-actions {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.permit-requests-page label {
+  min-width: 0;
+  gap: 6px;
+}
+
+.permit-requests-page input,
+.permit-requests-page select,
+.permit-requests-page textarea {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 44px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 16px;
+}
+
+.permit-requests-page textarea {
+  min-height: 80px;
+}
+
+.permit-requests-page .stat-card {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #d8dee9;
+  border-radius: 8px;
+  background: #f8fafc;
+  overflow-wrap: anywhere;
+}
+
+.permit-requests-page .stat-card span {
+  color: #475569;
+  font-size: 14px;
+}
+
+.permit-balance-title {
+  margin: 16px 0 10px;
+  font-size: 14px;
+  color: #475569;
+}
+
+.permit-request-form fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 14px;
+  border: 1px solid #d8dee9;
+  border-radius: 8px;
+}
+
+.permit-request-form legend {
+  padding: 0 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.permit-full-width {
+  grid-column: 1 / -1;
+}
+
+.permit-form-actions button {
+  min-height: 44px;
+}
+
+.permit-form-actions .permit-reset-button {
+  color: #1f2937;
+  background: #fff;
+}
+
+.permit-request-message {
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: inherit;
+}
+
+.permit-request-message:empty {
+  display: none;
+}
+
+.permit-history-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.permit-request-debug summary {
+  cursor: pointer;
+  font-size: 14px;
+  color: #475569;
+}
+
+@media (min-width: 600px) {
+  .permit-delegate-grid,
+  .permit-balances,
+  .permit-form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .permit-form-actions {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 900px) {
+  .permit-requests-page {
+    margin: 28px auto;
+    padding: 0 16px;
+  }
+
+  .permit-requests-page .panel {
+    padding: 20px;
+  }
+
+  .permit-period-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .permit-requests-page input,
+  .permit-requests-page select,
+  .permit-requests-page textarea {
+    font-size: 14px;
+  }
+}

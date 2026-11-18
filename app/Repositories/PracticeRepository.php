@@ -8,17 +8,17 @@ use PDO;
 
 final class PracticeRepository
 {
-    public function __construct(private readonly PDO $pdo)
+    public function __construct(private readonly PDO $pdo, private readonly ?int $configurationId = null)
     {
     }
 
     public function allOpen(): array
     {
         return $this->pdo->query(
-            "SELECT id, code, title, status
+            "SELECT id, code, title, status, visibility, assigned_user_id
              FROM practices
              WHERE status NOT IN ('resolved', 'closed', 'archived', 'closed_positive', 'closed_negative')
-             ORDER BY title ASC"
+             AND " . $this->activeFilter('practices') . " ORDER BY title ASC"
         )->fetchAll();
     }
 
@@ -34,7 +34,7 @@ final class PracticeRepository
                     ) last_activity_at
              FROM practices p
              LEFT JOIN users u ON u.id = p.assigned_user_id
-             ORDER BY last_activity_at DESC, p.id DESC"
+             WHERE " . $this->activeFilter('p') . " ORDER BY last_activity_at DESC, p.id DESC"
         )->fetchAll();
     }
 
@@ -45,7 +45,7 @@ final class PracticeRepository
              FROM practices p
              LEFT JOIN users u ON u.id = p.assigned_user_id
              LEFT JOIN users creator ON creator.id = p.created_by
-             WHERE p.id = ? LIMIT 1'
+             WHERE p.id = ? AND ' . $this->activeFilter('p') . ' LIMIT 1'
         );
         $stmt->execute([$id]);
 
@@ -92,7 +92,7 @@ final class PracticeRepository
             "UPDATE practices SET title = ?, summary = ?, type = ?, status = ?, priority = ?,
                     source_type = ?, assigned_user_id = ?, visibility = ?, due_date = ?,
                     closed_at = {$closedAt}, updated_at = NOW()
-             WHERE id = ?"
+             WHERE id = ? AND " . $this->activeFilter('practices')
         );
         $stmt->execute([
             $data['title'], $data['summary'], $data['type'], $data['status'], $data['priority'],
@@ -100,5 +100,11 @@ final class PracticeRepository
         ]);
 
         return $this->findById($id);
+    }
+
+    private function activeFilter(string $alias): string
+    {
+        if ($this->configurationId === null || !(new PracticeArchiveRepository($this->pdo))->installed()) return '1 = 1';
+        return 'NOT EXISTS (SELECT 1 FROM practice_transfers moved WHERE moved.source_configuration_id = ' . $this->configurationId . ' AND moved.source_practice_id = ' . $alias . '.id)';
     }
 }

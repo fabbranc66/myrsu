@@ -4,15 +4,24 @@ declare(strict_types=1);
 
 namespace App\Services;
 
+use RuntimeException;
+
 final class DocumentSignatureService
 {
-    public function __construct(private readonly array $config)
+    private readonly string $secret;
+
+    public function __construct(array $config)
     {
+        $secret = trim((string)($config['secret'] ?? ''));
+        if (strlen($secret) < 32 || $secret === hash('sha256', 'MYRSU_DOCUMENT_SIGNATURE_V1')) {
+            throw new RuntimeException('Configurazione firma documenti non valida: impostare MYRSU_SIGNING_SECRET con una chiave privata di almeno 32 caratteri.');
+        }
+        $this->secret = $secret;
     }
 
     public function sign(array $document): string
     {
-        return strtoupper(substr(hash_hmac('sha256', $this->payload($document), $this->secret()), 0, 24));
+        return strtoupper(substr(hash_hmac('sha256', $this->payload($document), $this->secret), 0, 24));
     }
 
     public function valid(array $document, string $signature, ?string $realChecksum): bool
@@ -34,11 +43,5 @@ final class DocumentSignatureService
             (string)$document['visibility'],
             (string)$document['created_at'],
         ]);
-    }
-
-    private function secret(): string
-    {
-        $secret = trim((string)($this->config['secret'] ?? ''));
-        return $secret !== '' ? $secret : hash('sha256', 'MYRSU_DOCUMENT_SIGNATURE_V1');
     }
 }

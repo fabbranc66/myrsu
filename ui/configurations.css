@@ -1,0 +1,10 @@
+#configurationPanel[hidden]{display:none}
+.configuration-form{display:flex;flex-wrap:wrap;gap:12px;align-items:end}
+.configuration-form label{flex:1 1 240px}
+.configuration-form button{flex:0 0 auto}
+.configuration-list-header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+.configuration-table-wrap{overflow-x:auto}
+#configurationRows td{white-space:normal;overflow-wrap:anywhere}
+#configurationRows td:last-child{display:flex;flex-wrap:wrap;gap:8px}
+#configurationMessage{padding:12px}
+@media(max-width:700px){.configuration-form button{width:100%}.configuration-table-wrap table{min-width:580px}}

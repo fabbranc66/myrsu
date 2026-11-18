@@ -18,12 +18,9 @@ final class DocumentFolderController
     public function index(Request $request): Response
     {
         $user = $this->app->auth->requireUser($request);
-        $roles = $this->app->roles->rolesForUser((int)$user['id']);
-        if (!$this->app->roles->userHasPermission((int)$user['id'], 'documents.view') && !array_intersect($roles, ['admin', 'delegato', 'rls'])) {
-            throw new HttpException(403, 'Permesso insufficiente.');
-        }
         $canManage = $this->app->roles->userHasPermission((int)$user['id'], 'documents.update');
-        $canSetPermissions = $canManage && $this->app->roles->userHasPermission((int)$user['id'], 'roles.manage');
+        $canSetPermissions = in_array('admin', $this->app->roles->rolesForUser((int)$user['id']), true)
+            && $canManage && $this->app->roles->userHasPermission((int)$user['id'], 'roles.manage');
         if ($this->app->documentFolders->ensurePracticeFolders()) $this->app->documentFolderAccess->refresh();
         $data = $this->app->documentFolderAccess->data();
         $folders = [];
@@ -37,6 +34,13 @@ final class DocumentFolderController
             $folders[] = $folder;
         }
         $visibleIds = array_map('intval', array_column($folders, 'id'));
+        $byId = array_column($data['folders'], null, 'id');
+        foreach ($folders as &$folder) {
+            while ($folder['parent_id'] !== null && !in_array((int)$folder['parent_id'], $visibleIds, true)) {
+                $folder['parent_id'] = $byId[(int)$folder['parent_id']]['parent_id'] ?? null;
+            }
+        }
+        unset($folder);
         return Response::json(['data' => [
             'folders' => $folders,
             'placements' => array_values(array_filter($data['placements'], fn (array $item): bool => in_array((int)$item['folder_id'], $visibleIds, true))),
@@ -59,16 +63,22 @@ final class DocumentFolderController
     {
         $user = $this->app->auth->requirePermission($request, 'documents.update');
         $placement = $this->app->documentFolderService->move((int)$params['id'], $request->all(), $user);
+        if ($placement['confirmation_required'] ?? false) return Response::json(['error' => ['code' => 'document_visibility_expansion', 'message' => $placement['message']]], 409);
         $this->app->activityLogs->write((int)$user['id'], 'document_folders.document_moved', $placement);
         return Response::json(['data' => $placement]);
     }
 
     public function permissions(Request $request, array $params): Response
     {
+        $user = $this->app->auth->requireUser($request);
+        if (!in_array('admin', $this->app->roles->rolesForUser((int)$user['id']), true)) {
+            throw new HttpException(403, 'Solo gli amministratori possono modificare i permessi delle cartelle.');
+        }
         $user = $this->app->auth->requirePermission($request, 'roles.manage');
         $this->app->auth->requirePermission($request, 'documents.update');
         $this->app->documentFolderAccess->assertFolder((int)$params['id'], $user, true);
-        $this->app->documentFolderService->setPermissions((int)$params['id'], $request->all());
+        $result = $this->app->documentFolderService->setPermissions((int)$params['id'], $request->all());
+        if ($result['confirmation_required'] ?? false) return Response::json(['error' => ['code' => 'document_visibility_expansion', 'message' => $result['message']]], 409);
         $this->app->activityLogs->write((int)$user['id'], 'document_folders.permissions_updated', ['folder_id' => (int)$params['id']]);
         return Response::json(['data' => ['updated' => true]]);
     }

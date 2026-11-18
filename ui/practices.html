@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Pratiche</title>
-  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="menu.css?v=20261114-miodelegato-logo-1">
   <link rel="stylesheet" href="users.css?v=20260728-truncate-3">
   <link rel="stylesheet" href="practices.css?v=20260728-mobile-table-1">
+  <link rel="stylesheet" href="archive.css?v=20261024-1">
 </head>
 <body>
   <header class="app-header"><div><p class="eyebrow">MyRSU</p><h1>Pratiche</h1></div><nav class="app-nav"></nav></header>
@@ -32,6 +33,11 @@
         <thead><tr><th>Tipo</th><th>Codice</th><th>Titolo</th><th>Avanzamento</th><th>Ultimo movimento</th><th>Priorità</th><th>Assegnata a</th><th></th></tr></thead>
         <tbody id="practicesTable"></tbody>
       </table>
+      <section data-archive-shared="practice">
+        <header><h2>Pratiche condivise da altri archivi (<span data-archive-count>0</span>)</h2><a data-archive-manage hidden>Gestisci condivisioni</a></header>
+        <p data-archive-message role="status"></p><div data-archive-list class="archive-table-wrap"></div>
+        <details><summary>Risposta JSON archivio</summary><pre data-archive-json>{}</pre></details>
+      </section>
       <dialog id="practiceDocumentLinkModal">
         <header><h2>Collega documento</h2><button id="closePracticeDocumentLinkModal" type="button">Chiudi</button></header>
         <form id="practiceDocumentLinkForm" class="grid">
@@ -52,9 +58,11 @@
     </section>
   </main>
   <script src="icons.js?v=20260719-icons-1"></script>
-  <script src="practice-options.js?v=20260628-1"></script>
+  <script src="practice-options.js?v=20261025-visibility-1"></script>
   <script src="practices.js?v=20260728-link-docs-1"></script>
-  <script src="auth-menu.js?v=20260730-normativa-1"></script>
+  <script src="configuration-context.js?v=20261024-archive-1"></script>
+  <script type="module" src="archive-shared.js?v=20261025-transfer-1"></script>
+  <script src="auth-menu.js?v=20261024-archive-1"></script>
 </body>
 </html>
 

@@ -25,8 +25,16 @@ final class FpdiUploadedPdfService
             ? $targetPath . '.tmp.pdf'
             : $targetPath;
         $qrPath = $this->qrFile($verifyUrl);
+        $symbolPath = tempnam(sys_get_temp_dir(), 'miodelegato_symbol_');
+        $basePath = tempnam(sys_get_temp_dir(), 'miodelegato_base_');
 
         try {
+            if ($symbolPath === false || file_put_contents($symbolPath, PdfBrandingService::assets()['BrandSymbol']['png']) === false) {
+                throw new HttpException(500, 'Preparazione filigrana fallita.');
+            }
+            if ($basePath === false || file_put_contents($basePath, PdfBrandingService::assets()['BrandSymbolBase']['png']) === false) {
+                throw new HttpException(500, 'Preparazione contrasto filigrana fallita.');
+            }
             $pdf = new MyRsuFpdi('P', 'pt', [PdfLayoutService::PAGE_WIDTH, PdfLayoutService::PAGE_HEIGHT]);
             $pdf->SetAutoPageBreak(false);
             $pageCount = $pdf->setSourceFile($sourcePath);
@@ -38,11 +46,11 @@ final class FpdiUploadedPdfService
                 $pdf->AddPage('P', [PdfLayoutService::PAGE_WIDTH, PdfLayoutService::PAGE_HEIGHT]);
                 $this->header($pdf, $document, $protocol, $documentName, $pageNumber, $verifyUrl, $qrPath);
                 $this->sourcePage($pdf, $template, $templateSize, $pageNumber === 1 ? (string)$document['original_name'] : '');
-                $this->watermark($pdf);
+                $this->watermark($pdf, $symbolPath, $basePath);
                 $this->footer($pdf);
             }
 
-            $this->verificationPage($pdf, $document, $protocol, $documentName, $pageCount + 1, $verifyUrl, $signature, $qrPath);
+            $this->verificationPage($pdf, $document, $protocol, $documentName, $pageCount + 1, $verifyUrl, $signature, $qrPath, $symbolPath, $basePath);
             $pdf->Output('F', $outputPath);
             unset($pdf);
 
@@ -57,6 +65,8 @@ final class FpdiUploadedPdfService
             throw $exception;
         } finally {
             if (is_file($qrPath)) unlink($qrPath);
+            if (is_string($symbolPath) && is_file($symbolPath)) unlink($symbolPath);
+            if (is_string($basePath) && is_file($basePath)) unlink($basePath);
         }
     }
 
@@ -75,10 +85,9 @@ final class FpdiUploadedPdfService
         ];
 
         $pdf->SetTextColor(0);
-        $pdf->SetFont('Helvetica', 'B', 30);
-        $pdf->Text(42, 68, 'RSU');
-        $pdf->SetFont('Helvetica', '', 12);
-        $pdf->Text(44, 87, 'Canegrate');
+        $pdf->Image(PdfBrandingService::logoPath(), 42, PdfLayoutService::PAGE_HEIGHT - 786, 96, 32, 'PNG');
+        $pdf->SetFont('Helvetica', '', 9);
+        $pdf->Text(44, PdfLayoutService::PAGE_HEIGHT - 741, PdfBrandingService::CAPTION);
         foreach ($rows as $index => [$label, $value]) {
             $y = 62 + ($index * 17);
             $pdf->SetFont('Helvetica', 'B', 9);
@@ -110,11 +119,11 @@ final class FpdiUploadedPdfService
         $pdf->useTemplate($template, $x, $y, $width, $height);
     }
 
-    private function verificationPage(MyRsuFpdi $pdf, array $document, ?array $protocol, string $name, int $page, string $url, string $signature, string $qrPath): void
+    private function verificationPage(MyRsuFpdi $pdf, array $document, ?array $protocol, string $name, int $page, string $url, string $signature, string $qrPath, string $symbolPath, string $basePath): void
     {
         $pdf->AddPage('P', [PdfLayoutService::PAGE_WIDTH, PdfLayoutService::PAGE_HEIGHT]);
         $this->header($pdf, $document, $protocol, $name, $page, $url, $qrPath);
-        $this->watermark($pdf);
+        $this->watermark($pdf, $symbolPath, $basePath);
         $pdf->SetFont('Helvetica', 'B', 18);
         $pdf->Text(42, 182, 'Verifica documento');
         $pdf->SetLineWidth(0.45);
@@ -126,27 +135,22 @@ final class FpdiUploadedPdfService
         $pdf->Text(42, 289, 'Checksum verificato sul file PDF conservato dal sistema.');
         $pdf->Text(42, 306, $this->encode('Link verifica: ' . $url));
         $pdf->Link(42, 294, 511, 16, $url);
+        $pdf->SetFont('Helvetica', '', 8);
+        $pdf->Text(42, 327, 'Copia diffusa dal delegato RSU FIM-CISL, non dall\'intera RSU.');
         $this->footer($pdf);
     }
 
-    private function watermark(MyRsuFpdi $pdf): void
+    private function watermark(MyRsuFpdi $pdf, string $symbolPath, string $basePath): void
     {
-        $pdf->setAlpha(0.22);
-        $pdf->SetTextColor(120, 120, 120);
-        $pdf->SetFont('Helvetica', 'B', 94);
-        $pdf->rotatedText(205, 390, 'RSU', 28);
-        $pdf->rotatedText(205, 665, 'RSU', 28);
-        $pdf->SetFont('Helvetica', 'B', 24);
-        $pdf->rotatedText(245, 448, 'Sitem Canegrate', 28);
-        $pdf->rotatedText(245, 723, 'Sitem Canegrate', 28);
-        $pdf->setAlpha(1);
-        $pdf->SetTextColor(0);
+        $symbol = PdfBrandingService::assets()['BrandSymbol'];
+        $height = 170 * $symbol['height'] / $symbol['width'];
+        foreach (PdfBrandingService::CENTERS as $center) $pdf->brandingWatermark($symbolPath, $height, $center, $basePath);
     }
 
     private function footer(MyRsuFpdi $pdf): void
     {
         $pdf->SetFont('Helvetica', '', 8);
-        $pdf->Text(42, 806, 'RSU Sitem Canegrate');
+        $pdf->Text(42, 806, PdfBrandingService::FOOTER);
     }
 
     private function qrFile(string $url): string

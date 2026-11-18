@@ -13,6 +13,10 @@ export function createDocumentFolderPermissions({ element, listing, api, reload,
   }
 
   function updateInputs() {
+    const visibility = form.elements.visibility;
+    if (visibility) visibility.disabled = form.elements.inherit_permissions.checked;
+    const custom = !visibility || visibility.value === '';
+    roleList.hidden = form.elements.inherit_permissions.checked || !custom;
     for (const select of roleList.querySelectorAll('select')) {
       select.disabled = form.elements.inherit_permissions.checked || select.dataset.admin === 'true';
     }
@@ -27,6 +31,7 @@ export function createDocumentFolderPermissions({ element, listing, api, reload,
     title.textContent = `Permessi · ${folder.name}`;
     errorMessage.textContent = '';
     form.elements.inherit_permissions.checked = Boolean(Number(folder.inherit_permissions));
+    if (form.elements.visibility) form.elements.visibility.value = folder.visibility ?? (Boolean(Number(folder.inherit_permissions)) ? 'document' : '');
     roleList.innerHTML = data.roles.map((role) => {
       const current = role.name === 'admin' ? 'manage'
         : data.permissions.find((item) => Number(item.folder_id) === folderId && Number(item.role_id) === Number(role.id))?.access_level || '';
@@ -43,6 +48,7 @@ export function createDocumentFolderPermissions({ element, listing, api, reload,
   element.addEventListener('click', open);
   listing.addEventListener('click', open);
   form.elements.inherit_permissions.addEventListener('change', updateInputs);
+  form.elements.visibility?.addEventListener('change', updateInputs);
   document.querySelector('#cancelDocumentFolderPermissions').addEventListener('click', () => dialog.close());
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
@@ -51,13 +57,21 @@ export function createDocumentFolderPermissions({ element, listing, api, reload,
     try {
       const permissions = [...roleList.querySelectorAll('select')].filter((select) => select.value !== '')
         .map((select) => ({ role_id: Number(select.dataset.roleId), access_level: select.value }));
-      await api(`/document-folders/${folderId}/permissions`, {
+      const body = { inherit_permissions: form.elements.inherit_permissions.checked, ...(form.elements.visibility ? { visibility: form.elements.visibility.value || null } : {}), permissions };
+      const request = (confirmed = false) => api(`/document-folders/${folderId}/permissions`, {
         method: 'PATCH', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ inherit_permissions: form.elements.inherit_permissions.checked, permissions }),
+        body: JSON.stringify({ ...body, ...(confirmed ? { confirm_visibility_change: true } : {}) }),
       });
+      try {
+        await request();
+      } catch (error) {
+        if (error.code !== 'document_visibility_expansion') throw error;
+        if (!window.confirm(error.message)) { errorMessage.textContent = 'Modifica annullata.'; return; }
+        await request(true);
+      }
       await reload();
       dialog.close();
-      message.textContent = 'Permessi cartella aggiornati. Restano validi anche i permessi originari dei documenti.';
+      message.textContent = 'Permessi effettivi aggiornati. La visibilità propria dei documenti resta memorizzata.';
     } catch (error) {
       errorMessage.textContent = error.message;
     } finally {

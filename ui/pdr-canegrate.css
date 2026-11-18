@@ -1,13 +1,11 @@
 .pdr-profile-picker { max-width: 540px; margin: 14px 0; }
 .pdr-page-app-header > div:first-child::before { display: none; }
-.pdr-dashboard-logo { position: absolute; left: clamp(20px, 4vw, 52px); display: grid; place-items: center; width: 48px; height: 48px; border-radius: 6px; }
+.pdr-dashboard-logo { position: absolute; top: 50%; left: 0; display: grid; place-items: center; width: var(--brand-logo-width); height: var(--brand-logo-height); transform: translateY(-50%); }
 .pdr-dashboard-logo img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .pdr-dashboard-logo:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
-@media (max-width: 980px) {
-  .pdr-dashboard-logo { left: 20px; }
-}
 @media (max-width: 760px) {
-  .pdr-dashboard-logo { left: 12px; width: 40px; height: 40px; }
+  .pdr-dashboard-logo { position: static; width: 168px; max-width: 100%; height: 56px; transform: none; }
+  .pdr-public-nav { max-width: 110px; }
 }
 .pdr-agreement { min-width: 0; }
 .pdr-agreement-configuration { min-width: 0; margin: 0; padding: 0; border: 0; }

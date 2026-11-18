@@ -20,7 +20,7 @@ final class PdfLayoutService
     public const FONT_BOLD = 'F2';
     public const VERIFY_LINK_RECT = [260, 706, 490, 720];
 
-    public function page(string $body, array $header = [], string $footer = 'RSU Sitem Canegrate'): array
+    public function page(string $body, array $header = [], string $footer = PdfBrandingService::FOOTER): array
     {
         return [
             'content' => $this->watermark() . $this->header($header) . $body . $this->footer($footer),
@@ -36,8 +36,7 @@ final class PdfLayoutService
             $brandSubtitle = array_key_exists('brand_subtitle', $data) ? trim((string)$data['brand_subtitle']) : 'Canegrate';
             $date = (string)($data['date'] ?? date('Y-m-d'));
             $content = "q 0 g\n";
-            $content .= $this->text(42, 774, 30, self::FONT_BOLD, substr($brand, 0, 18));
-            $content .= $this->text(44, 755, 12, self::FONT_REGULAR, substr($brandSubtitle, 0, 28));
+            $content .= $this->brandHeader($brand, $brandSubtitle);
             $content .= $this->text(430, 774, 10, self::FONT_REGULAR, 'Data: ' . substr($date, 0, 10));
             $content .= "0 G 0.8 w 42 688 m 553 688 l S\n";
             return $content . "Q\n";
@@ -53,8 +52,7 @@ final class PdfLayoutService
         $brandSubtitle = array_key_exists('brand_subtitle', $data) ? trim((string)$data['brand_subtitle']) : 'Canegrate';
 
         $content = "q 0 g\n";
-        $content .= $this->text(42, 774, 30, self::FONT_BOLD, substr($brand, 0, 14));
-        $content .= $this->text(44, 755, 12, self::FONT_REGULAR, substr($brandSubtitle, 0, 24));
+        $content .= $this->brandHeader($brand, $brandSubtitle);
         $content .= $this->text(150, 780, 9, self::FONT_BOLD, 'Doc/n pag');
         $content .= $this->text(260, 780, 9, self::FONT_REGULAR, $number);
         $content .= $this->text(150, 762, 9, self::FONT_BOLD, 'Prot');
@@ -100,15 +98,21 @@ final class PdfLayoutService
         }
 
         $content .= $this->text(42, $y, 8, self::FONT_REGULAR, 'La verifica conferma firma e integrita della copia digitale conservata.');
+        $y -= 15;
+        $content .= $this->text(42, $y, 8, self::FONT_REGULAR, 'Copia diffusa dal delegato RSU FIM-CISL, non dall\'intera RSU.');
         return ['content' => $content, 'links' => $links, 'y' => $y - 18];
     }
 
     public function watermark(): string
     {
-        return "q /GS1 gs 0.72 g 0.8829 0.4695 -0.4695 0.8829 298 625 cm "
-            . "BT /F2 105 Tf -98 18 Td (RSU) Tj ET BT /F2 28 Tf -120 -36 Td (Sitem Canegrate) Tj ET Q\n"
-            . "q /GS1 gs 0.72 g 0.8829 0.4695 -0.4695 0.8829 298 310 cm "
-            . "BT /F2 105 Tf -98 18 Td (RSU) Tj ET BT /F2 28 Tf -120 -36 Td (Sitem Canegrate) Tj ET Q\n";
+        return PdfBrandingService::watermark();
+    }
+
+    private function brandHeader(string $brand, string $subtitle): string
+    {
+        if ($brand === 'RSU' && $subtitle === 'Canegrate') return PdfBrandingService::header();
+        return $this->text(42, 774, 30, self::FONT_BOLD, substr($brand, 0, 18))
+            . $this->text(44, 755, 12, self::FONT_REGULAR, substr($subtitle, 0, 28));
     }
 
     public function text(float $x, float $y, int $size, string $font, string $text): string

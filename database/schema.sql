@@ -62,6 +62,14 @@ CREATE TABLE api_tokens (
   CONSTRAINT api_tokens_user_id_fk FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+CREATE TABLE IF NOT EXISTS rsu_election_drafts (
+  user_id BIGINT UNSIGNED NOT NULL PRIMARY KEY,
+  payload_json LONGTEXT NOT NULL,
+  created_at DATETIME NOT NULL,
+  updated_at DATETIME NOT NULL,
+  CONSTRAINT rsu_election_drafts_user_fk FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 CREATE TABLE gdpr_consents (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   user_id BIGINT UNSIGNED NOT NULL,
@@ -92,7 +100,7 @@ CREATE TABLE documents (
   conversion_status ENUM('ready', 'pending', 'failed') NOT NULL DEFAULT 'ready',
   signature CHAR(24) NULL,
   signed_at DATETIME NULL,
-  visibility ENUM('public', 'members', 'rsu') NOT NULL DEFAULT 'rsu',
+  visibility ENUM('public', 'members', 'rsu', 'creator') NOT NULL DEFAULT 'rsu',
   uploaded_by BIGINT UNSIGNED NOT NULL,
   created_at DATETIME NOT NULL,
   CONSTRAINT documents_uploaded_by_fk FOREIGN KEY (uploaded_by) REFERENCES users(id)
@@ -105,6 +113,7 @@ CREATE TABLE IF NOT EXISTS document_folders (
   name VARCHAR(150) NOT NULL,
   system_key VARCHAR(64) NULL,
   inherit_permissions TINYINT(1) NOT NULL DEFAULT 1,
+  visibility ENUM('document', 'creator', 'rsu', 'members', 'public') NULL,
   created_by BIGINT UNSIGNED NULL,
   created_at DATETIME NOT NULL,
   updated_at DATETIME NOT NULL,
@@ -140,6 +149,47 @@ WHERE NOT EXISTS (SELECT 1 FROM document_folders WHERE parent_id IS NULL AND nam
 
 INSERT INTO document_folders (parent_id, name, system_key, created_at, updated_at)
 VALUES (NULL, 'Documenti pratiche', 'practices', NOW(), NOW());
+
+CREATE TABLE IF NOT EXISTS saved_configurations (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(120) NOT NULL UNIQUE,
+  table_prefix VARCHAR(24) NOT NULL UNIQUE,
+  tables_json LONGTEXT NULL,
+  state ENUM('building', 'ready') NOT NULL DEFAULT 'ready',
+  operational_key TINYINT UNSIGNED NULL UNIQUE,
+  created_by BIGINT UNSIGNED NULL,
+  updated_by BIGINT UNSIGNED NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT saved_configurations_creator_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL,
+  CONSTRAINT saved_configurations_updater_fk FOREIGN KEY (updated_by) REFERENCES users(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT IGNORE INTO saved_configurations (name, table_prefix, operational_key)
+VALUES ('Situazione iniziale', '', 1);
+
+CREATE TABLE IF NOT EXISTS configuration_sessions (
+  token_id BIGINT UNSIGNED PRIMARY KEY,
+  configuration_id BIGINT UNSIGNED NOT NULL,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT configuration_sessions_token_fk FOREIGN KEY (token_id) REFERENCES api_tokens(id) ON DELETE CASCADE,
+  CONSTRAINT configuration_sessions_configuration_fk FOREIGN KEY (configuration_id) REFERENCES saved_configurations(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS archive_shares (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  target_configuration_id BIGINT UNSIGNED NOT NULL,
+  source_configuration_id BIGINT UNSIGNED NOT NULL,
+  entity_type ENUM('practice', 'document') NOT NULL,
+  entity_id BIGINT UNSIGNED NOT NULL,
+  created_by BIGINT UNSIGNED NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY archive_shares_unique (target_configuration_id, source_configuration_id, entity_type, entity_id),
+  INDEX archive_shares_source_idx (source_configuration_id, entity_type, entity_id),
+  CONSTRAINT archive_shares_target_fk FOREIGN KEY (target_configuration_id) REFERENCES saved_configurations(id) ON DELETE CASCADE,
+  CONSTRAINT archive_shares_source_fk FOREIGN KEY (source_configuration_id) REFERENCES saved_configurations(id) ON DELETE CASCADE,
+  CONSTRAINT archive_shares_creator_fk FOREIGN KEY (created_by) REFERENCES users(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE practices (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -939,6 +989,14 @@ CREATE TABLE meeting_projection_sessions (
   active_slot TINYINT UNSIGNED NULL UNIQUE,
   current_document_id BIGINT UNSIGNED NULL,
   scroll_ratio DECIMAL(8,6) NOT NULL DEFAULT 0,
+  pointer_page SMALLINT UNSIGNED NOT NULL DEFAULT 1,
+  pointer_x DECIMAL(8,6) NOT NULL DEFAULT 0.500000,
+  pointer_y DECIMAL(8,6) NOT NULL DEFAULT 0.100000,
+  highlight_x DECIMAL(8,6) NULL DEFAULT NULL,
+  highlight_y DECIMAL(8,6) NULL DEFAULT NULL,
+  highlight_page SMALLINT UNSIGNED NULL DEFAULT NULL,
+  highlight_end_x DECIMAL(8,6) NULL DEFAULT NULL,
+  highlight_end_y DECIMAL(8,6) NULL DEFAULT NULL,
   revision BIGINT UNSIGNED NOT NULL DEFAULT 1,
   created_by BIGINT UNSIGNED NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -948,3 +1006,31 @@ CREATE TABLE meeting_projection_sessions (
   CONSTRAINT meeting_projection_document_fk FOREIGN KEY (current_document_id) REFERENCES documents(id) ON DELETE SET NULL,
   CONSTRAINT meeting_projection_user_fk FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE RESTRICT
 );
+
+CREATE TABLE IF NOT EXISTS practice_transfers (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  source_configuration_id BIGINT UNSIGNED NOT NULL,
+  source_practice_id BIGINT UNSIGNED NOT NULL,
+  target_configuration_id BIGINT UNSIGNED NOT NULL,
+  target_practice_id BIGINT UNSIGNED NOT NULL,
+  source_code VARCHAR(30) NOT NULL,
+  target_code VARCHAR(30) NOT NULL,
+  moved_by BIGINT UNSIGNED NOT NULL,
+  backup_name VARCHAR(160) NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY practice_transfers_source (source_configuration_id, source_practice_id),
+  CONSTRAINT practice_transfers_source_fk FOREIGN KEY (source_configuration_id) REFERENCES saved_configurations(id),
+  CONSTRAINT practice_transfers_target_fk FOREIGN KEY (target_configuration_id) REFERENCES saved_configurations(id),
+  CONSTRAINT practice_transfers_user_fk FOREIGN KEY (moved_by) REFERENCES users(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS practice_archive_links (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  configuration_id BIGINT UNSIGNED NOT NULL,
+  practice_id BIGINT UNSIGNED NOT NULL,
+  source_configuration_id BIGINT UNSIGNED NOT NULL,
+  source_practice_id BIGINT UNSIGNED NOT NULL,
+  UNIQUE KEY practice_archive_links_unique (configuration_id, practice_id, source_configuration_id, source_practice_id),
+  CONSTRAINT practice_archive_links_owner_fk FOREIGN KEY (configuration_id) REFERENCES saved_configurations(id) ON DELETE CASCADE,
+  CONSTRAINT practice_archive_links_source_fk FOREIGN KEY (source_configuration_id) REFERENCES saved_configurations(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Documents Test</title>
-  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="menu.css?v=20261114-miodelegato-logo-1">
   <link rel="stylesheet" href="users.css?v=20260802-projection-1">
   <link rel="stylesheet" href="document-comments.css?v=20260628-1">
   <link rel="stylesheet" href="document-archive.css?v=20261024-folders-1">
+  <link rel="stylesheet" href="archive.css?v=20261024-1">
 </head>
 <body>
   <header class="app-header">
@@ -57,9 +58,10 @@
           <option value="segnalazioni">segnalazioni</option>
         </select>
         <select name="visibility">
-          <option value="rsu">rsu</option>
-          <option value="members">membri</option>
-          <option value="public">pubblico</option>
+          <option value="creator">Creatore</option>
+          <option value="rsu">Delegati</option>
+          <option value="members">Membri</option>
+          <option value="public">Ospiti</option>
         </select>
         <button type="submit">Carica</button>
       </form>
@@ -80,6 +82,7 @@
         <thead>
           <tr>
             <th>Nome</th>
+            <th>Autore</th>
             <th>Categoria</th>
             <th>Visibilita</th>
             <th>Stato</th>
@@ -91,6 +94,11 @@
       </table>
       <p id="documentArchiveEmpty" class="document-archive-empty" role="status" aria-live="polite" hidden></p>
 
+      <section data-archive-shared="document">
+        <header><h2>Documenti condivisi da altri archivi (<span data-archive-count>0</span>)</h2><a data-archive-manage hidden>Gestisci condivisioni</a></header>
+        <p data-archive-message role="status"></p><div data-archive-list class="archive-table-wrap"></div>
+        <details><summary>Risposta JSON archivio</summary><pre data-archive-json>{}</pre></details>
+      </section>
       <dialog id="documentFolderDialog" class="document-folder-dialog">
         <form id="documentFolderForm">
           <h2 id="documentFolderTitle">Nuova cartella</h2>
@@ -104,10 +112,18 @@
       <dialog id="documentFolderPermissionsDialog" class="document-folder-dialog">
         <form id="documentFolderPermissionsForm">
           <h2 id="documentFolderPermissionsTitle">Permessi cartella</h2>
-          <label class="document-folder-inherit"><input name="inherit_permissions" type="checkbox" checked> Eredita gli accessi della cartella superiore (alla radice: accessi MyRSU esistenti)</label>
+          <label class="document-folder-inherit"><input name="inherit_permissions" type="checkbox" checked> Eredita dalla cartella superiore (alla radice: visibilità propria dei documenti)</label>
+          <label>Visibilità della cartella<select name="visibility">
+            <option value="document">Mantieni la visibilità di ogni documento</option>
+            <option value="creator">Creatore del documento</option>
+            <option value="rsu">Delegati</option>
+            <option value="members">Membri</option>
+            <option value="public">Ospiti</option>
+            <option value="">Permessi personalizzati per ruolo</option>
+          </select></label>
           <div id="documentFolderRoles"></div>
-          <p>Lettura: cartella e documenti. Gestione: anche creazione di sottocartelle e spostamento dei documenti. Non sostituisce i permessi MyRSU esistenti.</p>
-          <p>I vincoli delle cartelle superiori restano validi. Gli amministratori mantengono l’accesso; le assegnazioni sono modificabili da chi già gestisce i ruoli MyRSU.</p>
+          <p>I documenti ereditano dinamicamente la visibilità impostata nella cartella. La loro visibilità propria resta memorizzata e torna valida quando non si applicano permessi di cartella.</p>
+          <p>Le sottocartelle ereditano dal genitore, salvo una scelta esplicita diversa. Admin e creatore del documento mantengono l’accesso. Le modifiche che ampliano l’accesso richiedono conferma.</p>
           <p id="documentFolderPermissionsError" role="alert"></p>
           <div class="document-folder-buttons"><button type="submit">Salva permessi</button><button id="cancelDocumentFolderPermissions" type="button">Annulla</button></div>
         </form>
@@ -173,9 +189,12 @@
   <script src="vendor/jspdf/jspdf.umd.min.js"></script>
   <script src="pdf-rasterizer.js?v=20260627-1"></script>
   <script src="icons.js?v=20261024-archive-1"></script>
-  <script type="module" src="documents.js?v=20261024-mobile-qr-2"></script>
+  <script src="projection-actions.js?v=20261118-projection-confirm-1"></script>
+  <script type="module" src="documents.js?v=20261118-projection-confirm-1"></script>
   <script src="document-comments.js?v=20260628-1"></script>
-  <script src="auth-menu.js?v=20260730-normativa-1"></script>
+  <script src="configuration-context.js?v=20261024-archive-1"></script>
+  <script type="module" src="archive-shared.js?v=20261025-transfer-1"></script>
+  <script src="auth-menu.js?v=20261024-archive-1"></script>
 </body>
 </html>
 

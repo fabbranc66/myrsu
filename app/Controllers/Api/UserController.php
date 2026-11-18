@@ -57,6 +57,7 @@ final class UserController
 
     public function store(Request $request): Response
     {
+        $this->app->auth->requireAdmin($request);
         $actor = $this->app->auth->requirePermission($request, 'users.create');
         $data = $request->all();
 
@@ -92,6 +93,7 @@ final class UserController
 
     public function update(Request $request, array $params): Response
     {
+        $this->app->auth->requireAdmin($request);
         $actor = $this->app->auth->requirePermission($request, 'users.update');
         $userId = (int)$params['id'];
         $data = $request->all();
@@ -141,6 +143,7 @@ final class UserController
 
     public function destroy(Request $request, array $params): Response
     {
+        $this->app->auth->requireAdmin($request);
         $actor = $this->app->auth->requirePermission($request, 'users.delete');
         $userId = (int)$params['id'];
 
@@ -163,6 +166,7 @@ final class UserController
 
     public function unionLogo(Request $request, array $params): Response
     {
+        $this->app->auth->requireAdmin($request);
         $actor = $this->app->auth->requirePermission($request, 'users.update');
         $userId = (int)$params['id'];
         $user = $this->app->users->findById($userId);

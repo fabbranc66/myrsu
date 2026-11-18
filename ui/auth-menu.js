@@ -5,6 +5,12 @@
   const token = sessionStorage.getItem('token') || localStorage.getItem('token');
   const appRoot = window.location.pathname.split('/ui/')[0];
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  if (!window.MyRsuConfiguration && !document.querySelector('script[data-configuration-context]')) {
+    const script = document.createElement('script');
+    script.dataset.configurationContext = 'true';
+    script.src = `${appRoot}/ui/configuration-context.js?v=20261024-archive-1`;
+    document.head.appendChild(script);
+  }
   const sections = [
     {
       label: 'Comunicazioni',
@@ -25,7 +31,7 @@
         ['union-meetings.html', 'Incontri sindacali', ['admin', 'delegato', 'rls']],
         ['workers-assemblies.html', 'Assemblee lavoratori', ['admin', 'delegato', 'rls']],
         ['votings.html', 'Votazioni', ['admin', 'delegato', 'rls']],
-        ['rooms.html', 'Tavoli', ['admin', 'delegato', 'rls', 'membro']],
+        ['rooms.html', 'Tavoli', ['admin', 'delegato', 'rls']],
       ],
       match: ['union-meetings.html', 'union-meeting-editor.html', 'union-meeting-operational.html', 'workers-assemblies.html', 'workers-assembly-editor.html', 'workers-assembly-operational.html', 'votings.html', 'rooms.html', 'room-view.html'],
     },
@@ -57,6 +63,8 @@
       label: 'Amministrazione',
       pages: [
         ['users.html', 'Utenti', ['admin']],
+        ['configurations.html', 'Configurazioni salvate', ['admin']],
+        ['archive.html', 'Archivio e condivisioni', ['admin']],
         ['profile.html', 'Profilo', ['admin', 'delegato', 'rls', 'membro']],
         ['contacts.html', 'Contatti', ['admin', 'delegato', 'rls']],
         ['funds.html', 'Fondi', ['admin', 'delegato', 'rls']],

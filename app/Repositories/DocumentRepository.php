@@ -15,7 +15,7 @@ final class DocumentRepository
     public function all(): array
     {
         return $this->pdo->query(
-            "SELECT d.*, pe.protocol_number, pe.subject AS protocol_subject,
+            "SELECT d.*, u.name AS author_name, pe.protocol_number, pe.subject AS protocol_subject,
                     (
                         SELECT GROUP_CONCAT(pl.practice_id ORDER BY pl.practice_id)
                         FROM practice_links pl
@@ -30,6 +30,7 @@ final class DocumentRepository
                     (SELECT COUNT(*) FROM document_comments c
                      WHERE c.document_id = d.id AND c.status = 'approved') AS approved_comments_count
              FROM documents d
+             LEFT JOIN users u ON u.id = d.uploaded_by
              LEFT JOIN protocol_entries pe ON pe.document_id = d.id AND pe.canceled_at IS NULL
              ORDER BY d.id DESC"
         )->fetchAll();
@@ -40,11 +41,11 @@ final class DocumentRepository
         return $this->pdo
             ->query(
                 "SELECT d.id, d.original_name, d.original_stored_name, d.category, d.pdf_public_path,
-                        d.pdf_size_bytes, d.created_at, pe_active.subject AS protocol_subject
+                        d.pdf_size_bytes, d.created_at, d.visibility, d.uploaded_by, pe_active.subject AS protocol_subject
                  FROM documents d
                  LEFT JOIN protocol_entries pe_active
                    ON pe_active.document_id = d.id AND pe_active.canceled_at IS NULL
-                 WHERE visibility = 'public' AND conversion_status = 'ready'
+                 WHERE conversion_status = 'ready'
                    AND category IN ('documenti', 'comunicati')
                    AND (
                      NOT EXISTS (

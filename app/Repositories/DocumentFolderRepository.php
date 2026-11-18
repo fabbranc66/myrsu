@@ -17,7 +17,8 @@ final class DocumentFolderRepository
     {
         return [
             'folders' => $this->pdo->query(
-                "SELECT f.*, p.id AS practice_id, p.code AS practice_code, p.title AS practice_title
+                "SELECT f.*, p.id AS practice_id, p.code AS practice_code, p.title AS practice_title,
+                        p.visibility AS practice_visibility, p.assigned_user_id AS practice_assigned_user_id
                  FROM document_folders f
                  LEFT JOIN practices p ON f.system_key = CONCAT('practice:', p.id)
                  WHERE f.system_key IS NULL OR f.system_key = 'practices' OR p.id IS NOT NULL
@@ -25,7 +26,7 @@ final class DocumentFolderRepository
             )->fetchAll(),
             'placements' => $this->pdo->query('SELECT document_id, folder_id FROM document_folder_items')->fetchAll(),
             'permissions' => $this->pdo->query('SELECT * FROM document_folder_permissions')->fetchAll(),
-            'practice_links' => $this->pdo->query("SELECT practice_id, entity_id AS document_id FROM practice_links WHERE entity_type = 'document'")->fetchAll(),
+            'practice_links' => $this->pdo->query("SELECT pl.practice_id, pl.entity_id AS document_id, p.visibility, p.assigned_user_id FROM practice_links pl JOIN practices p ON p.id = pl.practice_id WHERE pl.entity_type = 'document' UNION SELECT pl.practice_id, pe.document_id, p.visibility, p.assigned_user_id FROM practice_links pl JOIN practices p ON p.id = pl.practice_id JOIN protocol_entries pe ON pe.id = pl.entity_id WHERE pl.entity_type = 'protocol' AND pe.document_id IS NOT NULL")->fetchAll(),
         ];
     }
 
@@ -93,13 +94,13 @@ final class DocumentFolderRepository
         $statement->execute([$documentId, $folderId, $userId]);
     }
 
-    public function setPermissions(int $folderId, bool $inherit, array $permissions): void
+    public function setPermissions(int $folderId, bool $inherit, array $permissions, ?string $visibility = null): void
     {
         $ownsTransaction = !$this->pdo->inTransaction();
         if ($ownsTransaction) $this->pdo->beginTransaction();
         try {
-            $this->pdo->prepare('UPDATE document_folders SET inherit_permissions = ?, updated_at = NOW() WHERE id = ?')
-                ->execute([(int)$inherit, $folderId]);
+            $this->pdo->prepare('UPDATE document_folders SET inherit_permissions = ?, visibility = ?, updated_at = NOW() WHERE id = ?')
+                ->execute([(int)$inherit, $inherit ? null : $visibility, $folderId]);
             $this->pdo->prepare('DELETE FROM document_folder_permissions WHERE folder_id = ?')->execute([$folderId]);
             $statement = $this->pdo->prepare(
                 'INSERT INTO document_folder_permissions (folder_id, role_id, access_level) VALUES (?, ?, ?)'
@@ -117,14 +118,21 @@ final class DocumentFolderRepository
     public function documentsForFile(string $relativePath): array
     {
         if (str_starts_with($relativePath, 'public/documents/')) {
-            $statement = $this->pdo->prepare('SELECT id FROM documents WHERE pdf_public_path = ?');
+            $statement = $this->pdo->prepare('SELECT * FROM documents WHERE pdf_public_path = ?');
             $statement->execute([$relativePath]);
         } elseif (str_starts_with($relativePath, 'storage/private/originals/')) {
-            $statement = $this->pdo->prepare('SELECT id FROM documents WHERE original_stored_name = ?');
+            $statement = $this->pdo->prepare('SELECT * FROM documents WHERE original_stored_name = ?');
             $statement->execute([basename($relativePath)]);
         } else {
             return [];
         }
         return $statement->fetchAll();
+    }
+
+    public function document(int $id): ?array
+    {
+        $statement = $this->pdo->prepare('SELECT * FROM documents WHERE id = ? LIMIT 1');
+        $statement->execute([$id]);
+        return $statement->fetch() ?: null;
     }
 }

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Modifica documento - MyRSU</title>
-  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="menu.css?v=20261114-miodelegato-logo-1">
   <link rel="stylesheet" href="users.css?v=20260627-2">
 </head>
 <body>
@@ -32,21 +32,23 @@
       <form id="editForm" class="grid">
         <input name="original_name" readonly>
         <input name="category" readonly>
-        <select name="visibility">
-          <option value="rsu">rsu</option>
-          <option value="members">members</option>
-          <option value="public">public</option>
+        <select name="visibility" disabled>
+          <option value="creator">Creatore</option>
+          <option value="rsu">Delegati</option>
+          <option value="members">Membri</option>
+          <option value="public">Ospiti</option>
         </select>
+        <p id="documentVisibilityHint" class="muted"></p>
         <textarea name="title" id="titleField" class="hidden" placeholder="Oggetto" style="min-height:120px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
         <textarea name="body" id="bodyField" class="hidden" placeholder="Contenuto" style="min-height:320px;grid-column:1/-1;padding:12px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;resize:vertical;"></textarea>
-        <button id="saveButton" type="submit">Salva</button>
+        <button id="saveButton" type="submit" hidden>Salva</button>
       </form>
       <pre id="message"></pre>
       <pre id="jsonOutput" class="json-output"></pre>
     </section>
   </main>
   <script src="auth-menu.js?v=20260730-normativa-1"></script>
-  <script src="document-edit.js?v=20260718-1"></script>
+  <script src="document-edit.js?v=20261025-file-visibility-1"></script>
 </body>
 </html>
 

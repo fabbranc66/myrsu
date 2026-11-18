@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MyRSU Protocol Test</title>
-  <link rel="stylesheet" href="menu.css?v=20260719-mobile-menu-10">
+  <link rel="stylesheet" href="menu.css?v=20261114-miodelegato-logo-1">
   <link rel="stylesheet" href="users.css">
+  <link rel="stylesheet" href="archive.css?v=20261024-1">
 </head>
 <body>
   <header class="app-header">
@@ -66,6 +67,12 @@
 
       <div id="protocolTable" class="register-list"></div>
 
+      <section data-archive-shared="protocol">
+        <header><h2>Riferimenti protocollati condivisi (<span data-archive-count>0</span>)</h2><a data-archive-manage hidden>Gestisci condivisioni</a></header>
+        <p data-archive-message role="status"></p><div data-archive-list class="archive-table-wrap"></div>
+        <details><summary>Risposta JSON archivio</summary><pre data-archive-json>{}</pre></details>
+      </section>
+
       <dialog id="documentModal">
         <header>
           <h2>Documento</h2>
@@ -99,7 +106,9 @@
   </main>
   <script src="icons.js?v=20260719-icons-1"></script>
   <script src="protocol.js?v=20260721-mobile-pdf-1"></script>
-  <script src="auth-menu.js?v=20260730-normativa-1"></script>
+  <script src="configuration-context.js?v=20261024-archive-1"></script>
+  <script type="module" src="archive-shared.js?v=20261025-transfer-1"></script>
+  <script src="auth-menu.js?v=20261024-archive-1"></script>
 </body>
 </html>
 

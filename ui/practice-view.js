@@ -87,7 +87,7 @@ timeline.addEventListener('click', async (event) => {
 });
 
 timeline.addEventListener('touchend', async (event) => {
-  const target = event.target.closest('.icon-action');
+  const target = event.target.closest('[data-document-id], [data-unlink-document], [data-unlink-email], [data-ccnl-id], [data-unlink-ccnl]');
   if (!target) return;
   event.preventDefault();
   await handleTimelineAction(event);
@@ -97,7 +97,7 @@ async function handleTimelineAction(event) {
   const button = event.target.closest('[data-document-id]');
   if (button) {
     try {
-      await showDocument(button.dataset.documentId);
+      await showDocument(button.dataset.documentId, button.dataset.documentSource || null);
     } catch (error) {
       message.textContent = error.message;
     }
@@ -117,9 +117,21 @@ async function handleTimelineAction(event) {
   if (unlinkCcnlButton) return unlinkCcnlLink(unlinkCcnlButton.dataset.unlinkCcnl);
 }
 
-async function showDocument(id) {
+function documentPaths(id, source = null) {
+  const documentId = encodeURIComponent(id);
+  if (source === null || source === '') return { metadata: `/documents/${documentId}`, file: `/documents/${documentId}/preview`, source: null };
+  if (!/^[1-9][0-9]*$/.test(String(source))) throw new Error('Origine del documento non valida.');
+  const origin = encodeURIComponent(source);
+  return { metadata: `/archive/sources/${origin}/document/${documentId}`, file: `/archive/sources/${origin}/documents/${documentId}/file`, source: String(source) };
+}
+
+async function showDocument(id, source = null) {
+  const paths = documentPaths(id, source);
   if (documentPreviewUrl) URL.revokeObjectURL(documentPreviewUrl);
   documentPreviewUrl = null;
+  activePdfUrl = null;
+  activeVerifyUrl = null;
+  activePdf = null;
   documentPreview.src = '';
   documentPreview.classList.add('hidden');
   pdfCanvasViewer.classList.remove('hidden');
@@ -130,15 +142,18 @@ async function showDocument(id) {
   let previewUrl;
   try {
     const [loadedPreviewUrl, documentData] = await Promise.all([
-      fetchDocumentPreview(id),
-      api(`/documents/${id}`),
+      fetchDocumentPreview(id, source),
+      api(paths.metadata),
     ]);
     previewUrl = loadedPreviewUrl;
-    activeVerifyUrl = documentData.signature
-      ? `document-verify.html?id=${encodeURIComponent(id)}&sig=${encodeURIComponent(documentData.signature)}`
+    const metadata = paths.source ? documentData.document : documentData;
+    activeVerifyUrl = metadata.signature
+      ? `document-verify.html?id=${encodeURIComponent(id)}&sig=${encodeURIComponent(metadata.signature)}${paths.source ? `&source=${encodeURIComponent(paths.source)}` : ''}`
       : null;
     const returnUrl = new URL(window.location.href);
     returnUrl.searchParams.set('preview_document', String(id));
+    if (paths.source) returnUrl.searchParams.set('preview_source', paths.source);
+    else returnUrl.searchParams.delete('preview_source');
     localStorage.setItem('myrsu_verify_return_url', returnUrl.toString());
   } catch (error) {
     pdfCanvasViewer.classList.remove('hidden');
@@ -151,8 +166,8 @@ async function showDocument(id) {
   await renderPdfCanvas();
 }
 
-async function fetchDocumentPreview(id) {
-  const response = await fetch(`${apiBase}/documents/${id}/preview`, {
+async function fetchDocumentPreview(id, source = null) {
+  const response = await fetch(`${apiBase}${documentPaths(id, source).file}`, {
     headers: { Authorization: `Bearer ${token || ''}` },
   });
   if (!response.ok) {
@@ -218,7 +233,7 @@ async function addPdfLinks(page, viewport, pageWrap, pageNumber) {
   annotations.filter((item) => (item.url || item.unsafeUrl) && item.rect).forEach((item) => {
     addPdfLink(pageWrap, viewport, item.rect, item.url || item.unsafeUrl);
   });
-  if (pageNumber === 1 && activeVerifyUrl) addPdfLink(pageWrap, viewport, [502, 728, 554, 780], activeVerifyUrl);
+  if (activeVerifyUrl) addPdfLink(pageWrap, viewport, [502, 728, 554, 780], activeVerifyUrl);
 }
 
 function addPdfLink(pageWrap, viewport, rect, url) {
@@ -233,7 +248,7 @@ function addPdfLink(pageWrap, viewport, rect, url) {
     link.type = 'button';
     link.setAttribute('aria-label', 'Verifica autenticità documento');
   }
-  link.dataset.pdfLink = url;
+  link.dataset.pdfLink = isVerification && activeVerifyUrl ? activeVerifyUrl : url;
   link.className = 'pdf-page-link';
   link.style.left = `${Math.min(x1, x2)}px`;
   link.style.top = `${Math.min(y1, y2)}px`;
@@ -333,6 +348,18 @@ function meta(name, value) { return `<div><span class="muted">${name}</span><str
 function label(group, value) { return MyRsuPracticeOptions.label(MyRsuPracticeOptions[group], value); }
 function typeLabel(type) { return { document: 'documento', report: 'segnalazione', comment: 'commento', protocol: 'protocollo', attachment: 'allegato', meeting: 'incontro', call: 'telefonata', email: 'e-mail', note: 'nota operativa', ccnl: 'riferimento normativo' }[type] || type; }
 function itemAction(item) {
+  if (item.archive_source_configuration_id) {
+    const source = Number(item.archive_source_configuration_id);
+    let actions = '';
+    if (item.document_id) {
+      actions += `<span class="actions-cell"><button type="button" class="icon-action" data-document-id="${Number(item.document_id)}" data-document-source="${source}" title="Apri">${MyRsuIcons.get('eye')}</button>`;
+      if (item.archive_origin_editable) actions += `<button type="button" class="icon-action" data-archive-origin="${source}" data-archive-type="document" data-archive-id="${Number(item.document_id)}" title="Modifica">${MyRsuIcons.get('edit')}</button>`;
+      actions += '</span> ';
+    }
+    for (const attachment of item.archive_attachments || []) actions += `<button type="button" data-archive-download="${Number(attachment.id)}" data-archive-source="${source}" data-archive-filename="${escapeHtml(attachment.original_name)}">Scarica ${escapeHtml(attachment.original_name)}</button> `;
+    if (item.archive_origin_editable && ['report', 'comment', 'protocol', 'meeting', 'assembly', 'call', 'email'].includes(item.type)) actions += `<button type="button" data-archive-origin="${source}" data-archive-type="${escapeHtml(item.type)}">Apri origine per modificare</button>`;
+    return actions;
+  }
   if (item.document_id) {
     return `<span class="actions-cell">
       <button type="button" class="icon-action" data-document-id="${item.document_id}" title="Apri">${MyRsuIcons.get('eye')}</button>
@@ -400,10 +427,12 @@ async function initializePractice() {
   await load();
   const url = new URL(window.location.href);
   const returnDocumentId = Number(url.searchParams.get('preview_document'));
+  const returnSource = url.searchParams.get('preview_source');
   if (!returnDocumentId) return;
   url.searchParams.delete('preview_document');
+  url.searchParams.delete('preview_source');
   history.replaceState({}, '', url);
-  await showDocument(returnDocumentId);
+  await showDocument(returnDocumentId, returnSource);
 }
 
 initializePractice().catch((error) => { message.textContent = error.message; });

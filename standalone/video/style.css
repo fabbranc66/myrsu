@@ -3,7 +3,8 @@ html, body { height: 100%; }
 body { display: flex; flex-direction: column; margin: 0; overflow: hidden; background: #e5e7eb; color: #0f172a; font-family: Arial, sans-serif; }
 .projection-header { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 58px; padding: 8px 12px; background: #0f172a; color: #fff; }
 .projection-header small { color: #93c5fd; font-weight: 800; }
-.projection-header h1 { max-width: 70vw; margin: 2px 0 0; overflow: hidden; font-size: 16px; text-overflow: ellipsis; white-space: nowrap; }
+.projection-header > div { flex: 1; min-width: 0; }
+.projection-header h1 { max-width: 100%; margin: 2px 0 0; overflow: hidden; font-size: 16px; text-overflow: ellipsis; white-space: nowrap; }
 .projection-header span { padding: 6px 8px; border-radius: 999px; background: #1e293b; font-size: 11px; white-space: nowrap; }
 .operator-panel { display: grid; grid-template-columns: 54px minmax(0, 1fr) auto; align-items: center; gap: 8px; padding: 8px 12px; border-bottom: 1px solid #cbd5e1; background: #fff; }
 .operator-panel.hidden { display: none; }
@@ -14,8 +15,15 @@ body { display: flex; flex-direction: column; margin: 0; overflow: hidden; backg
 .operator-panel button { padding: 8px; border: 0; border-radius: 8px; background: #1d4ed8; color: #fff; font-weight: 700; }
 main { position: relative; display: flex; flex: 1; flex-direction: column; min-height: 0; overflow: hidden; }
 .document-title { flex: 0 0 34px; height: 34px; margin: 0; padding: 8px 12px; overflow: hidden; background: #fff; font-size: 13px; font-weight: 800; text-overflow: ellipsis; white-space: nowrap; }
-.pdf-viewer { flex: 1; min-height: 0; overflow-x: auto; overflow-y: scroll; padding: 8px; overscroll-behavior: contain; touch-action: pan-x pan-y; -webkit-overflow-scrolling: touch; }
-.pdf-page { display: block; max-width: none; height: auto; margin: 0 auto 8px; background: #fff; box-shadow: 0 2px 8px rgba(15, 23, 42, .18); }
+.pdf-viewer { position: relative; flex: 1; min-height: 0; overflow-x: auto; overflow-y: scroll; padding: 8px; overscroll-behavior: contain; touch-action: pan-x pan-y; -webkit-overflow-scrolling: touch; }
+.pdf-page { position: relative; display: block; max-width: none; margin: 0 auto 8px; overflow: hidden; background: #fff; box-shadow: 0 2px 8px rgba(15, 23, 42, .18); }
+.pdf-page-surface { position: absolute; display: block; max-width: none; }
+.pdf-page-surface[hidden] { display: none; }
+.operator .pdf-page { cursor: none; }
+.projection-pointer { position: absolute; z-index: 5; width: 20px; height: 20px; border: 2px solid #fff; border-radius: 50%; background: #ef233c; box-shadow: 0 0 0 2px rgba(15, 23, 42, .7), 0 0 12px rgba(239, 35, 60, .8); transform: translate(-50%, -50%); pointer-events: none; }
+.projection-pointer[hidden] { display: none; }
+.projection-highlight { position: absolute; z-index: 4; border: 1px solid #d49b00; background: rgba(255, 221, 0, .4); pointer-events: none; }
+.projection-highlight[hidden] { display: none; }
 .empty-state { position: absolute; inset: 34px 0 0; display: grid; place-items: center; padding: 24px; color: #475569; text-align: center; }
 .empty-state.hidden { display: none; }
 .json-panel { position: fixed; right: 8px; bottom: 8px; z-index: 20; width: min(420px, calc(100vw - 16px)); border: 1px solid #94a3b8; border-radius: 10px; background: #fff; box-shadow: 0 8px 28px rgba(15, 23, 42, .22); }

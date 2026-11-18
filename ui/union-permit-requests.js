@@ -65,10 +65,11 @@ async function loadDelegate() {
   currentRequests = requests;
   form.union_name.value = delegate.union_code || 'RSU';
   delegateInfo.innerHTML = `<strong>${escapeHtml(delegate.name)}</strong><span>${escapeHtml(delegate.email)} | ${escapeHtml(delegate.mobile || delegate.phone || '-')} | ${escapeHtml(delegate.roles)}</span>`;
-  balances.innerHTML = allocations.map((row) => {
+  const currentYear = new Date().getFullYear();
+  balances.innerHTML = allocations.filter((row) => Number(row.year) === currentYear).map((row) => {
     const remaining = Number(row.annual_hours) - Number(row.used_hours);
     return `<div class="stat-card"><strong>${permitLabel(row.permit_type)} ${row.year}</strong><span>${remaining.toFixed(2)} ore residue</span></div>`;
-  }).join('') || '<p>Nessun monte ore assegnato.</p>';
+  }).join('') || `<p>Nessun monte ore assegnato per il ${currentYear}.</p>`;
   requestsTable.innerHTML = requests.map((row) => `<tr>
     <td data-label="Protocollo">${escapeHtml(row.protocol_number || '-')}</td>
     <td data-label="Data">${escapeHtml(row.request_date)}</td>

@@ -47,7 +47,14 @@ export function createDocumentFolderActions({ element, listing, api, reload, mes
     }
     busy = true;
     try {
-      await api(`/documents/${identifier}/folder`, { ...jsonOptions({ folder_id: destination }), method: 'PATCH' });
+      const request = (confirmed = false) => api(`/documents/${identifier}/folder`, { ...jsonOptions({ folder_id: destination, ...(confirmed ? { confirm_visibility_change: true } : {}) }), method: 'PATCH' });
+      try {
+        await request();
+      } catch (error) {
+        if (error.code !== 'document_visibility_expansion') throw error;
+        if (!window.confirm(error.message)) { message.textContent = 'Spostamento annullato.'; return; }
+        await request(true);
+      }
       await reload();
       message.textContent = 'Destinazione aggiornata. File originale e collegamenti alle pratiche invariati.';
     } finally {
@@ -188,13 +195,20 @@ export function createDocumentFolderActions({ element, listing, api, reload, mes
     canMove,
     uploadDestination() {
       const current = archive.getContext();
+      if (current.view === 'practice') {
+        const folder = data.folders.find((item) => Number(item.practice_id) === current.practiceId && item.system_key === `practice:${current.practiceId}`);
+        if (!data.can_manage || !folder?.can_manage) {
+          throw new Error('Questa cartella è in sola lettura: caricamento non consentito.');
+        }
+        return { folderId: null, practiceId: current.practiceId, label: `Archivio documenti / Documenti pratiche / ${folder.name}` };
+      }
       if (!['root', 'custom'].includes(current.view)) {
-        throw new Error('Cartella automatica delle pratiche: carica in Archivio documenti o in una cartella manuale e usa il collegamento alla pratica.');
+        throw new Error('Apri la cartella della singola pratica per caricare un documento.');
       }
       if (current.folderId !== null && (!data.can_manage || !data.folders.find((folder) => Number(folder.id) === current.folderId)?.can_manage)) {
         throw new Error('Questa cartella è in sola lettura: caricamento non consentito.');
       }
-      return { folderId: current.folderId, label: folderPath(current.folderId) };
+      return { folderId: current.folderId, practiceId: null, label: folderPath(current.folderId) };
     },
     moveButton(identifier) {
       return canMove(identifier) ? `<button type="button" class="icon-action" data-folder-move="${identifier}" title="Sposta in cartella" aria-label="Sposta in cartella">${window.MyRsuIcons.get('folder')}</button>` : '';

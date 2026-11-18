@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contenuto originale condiviso - MyRSU</title>
+  <link rel="stylesheet" href="menu.css?v=20261114-miodelegato-logo-1"><link rel="stylesheet" href="users.css?v=20260802-projection-1"><link rel="stylesheet" href="archive.css?v=20261025-transfer-1">
+</head>
+<body>
+  <header class="app-header"><div><p class="eyebrow">MyRSU · archivio</p><h1>Contenuto originale</h1></div><nav class="app-nav"></nav></header>
+  <main id="archiveItemPanel" hidden>
+    <section class="panel">
+      <h2 id="archiveItemTitle"></h2><p id="archiveItemOrigin"></p><p id="archiveItemStatus"></p>
+      <p>Consultazione dell’unico originale: nessuna copia nella configurazione attiva. Per modificarlo, l’admin può aprire la configurazione d’origine.</p>
+      <button id="archiveOpenOrigin" type="button" hidden>Apri originale per modificare</button>
+      <button id="archiveMovePractice" type="button" hidden>Sposta pratica nella configurazione attiva</button>
+      <p id="archiveItemSummary" class="archive-item-summary"></p>
+      <div id="archiveItemDocuments"></div>
+      <div id="archiveItemProtocols"></div>
+      <div id="archiveItemNotes"></div>
+      <div id="archiveItemHistory"></div>
+      <div id="archivePdfActions" class="archive-item-actions" hidden><button id="archiveDownload" type="button">Scarica PDF originale</button><button id="archiveVerify" type="button">Verifica originale</button></div>
+      <p id="archiveVerification" role="status"></p>
+      <div id="archivePdfViewer" class="archive-pdf-viewer" hidden></div>
+    </section>
+  </main>
+  <p id="archiveItemMessage" role="status" aria-live="polite"></p>
+  <details class="panel"><summary>Risposta JSON</summary><pre id="archiveItemJson">{}</pre></details>
+  <script src="configuration-context.js?v=20261024-archive-1"></script>
+  <script src="practice-options.js?v=20261025-visibility-1"></script>
+  <script type="module" src="archive-item.js?v=20261025-transfer-1"></script>
+  <script src="auth-menu.js?v=20261024-archive-1"></script>
+</body>
+</html>

@@ -69,7 +69,11 @@ passwordForm.addEventListener('submit', async (event) => {
     body: JSON.stringify({ password: form.get('password') }),
   });
   passwordForm.reset();
-  setMessage('Password salvata');
+  sessionStorage.removeItem('token');
+  localStorage.removeItem('token');
+  token = null;
+  setMessage('Password salvata. Accedi nuovamente.');
+  window.location.href = 'login.html';
 });
 
 acceptGdpr.addEventListener('click', async () => {

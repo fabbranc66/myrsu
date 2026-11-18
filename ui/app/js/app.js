@@ -16,6 +16,9 @@ const administrationMenu = document.querySelector('#administrationMenu');
 const profileMenuLink = document.querySelector('#profileMenuLink');
 const contactsMenuLink = document.querySelector('#contactsMenuLink');
 const usersMenuLink = document.querySelector('#usersMenuLink');
+const fundsMenuLink = document.querySelector('#fundsMenuLink');
+const pdrMenuLink = document.querySelector('#pdrMenuLink');
+const normativaMenuLink = document.querySelector('#normativaMenuLink');
 const reportsCard = document.querySelector('#reportsCard');
 const reportsPendingCount = document.querySelector('#reportsPendingCount');
 const commentsCard = document.querySelector('#commentsCard');
@@ -36,6 +39,7 @@ const closeDashboardVerifyModal = document.querySelector('#closeDashboardVerifyM
 const appRoot = window.location.pathname.split('/ui/')[0];
 const publicComunicati = new Map();
 const publicDocuments = new Map();
+const dashboardPdfPreviews = new WeakMap();
 
 function authToken() {
   return sessionStorage.getItem('token') || localStorage.getItem('token');
@@ -64,6 +68,7 @@ async function loadPublicBoard(target) {
   publicDocuments.clear();
   const response = await fetch(`${appRoot}/api/v1/public/documents?_=${Date.now()}`, {
     cache: 'no-store',
+    headers: authToken() ? { Authorization: `Bearer ${authToken()}` } : {},
   });
   const payload = await response.json();
   if (!response.ok) throw new Error(payload.error?.message || 'Errore bacheca');
@@ -83,6 +88,7 @@ function publicBoardHtml(sections) {
 }
 
 function publicDocumentRow(document) {
+  const tokenQuery = authToken() ? `?token=${encodeURIComponent(authToken())}` : '';
   if (document.category === 'comunicati') {
     const title = cleanText(document.comunicato?.title || document.original_name);
     const body = cleanText(document.comunicato?.body || '');
@@ -96,7 +102,7 @@ function publicDocumentRow(document) {
 
   publicDocuments.set(String(document.id), {
     title: document.original_name,
-    url: `${appRoot}/api/v1/documents/${document.id}/preview`,
+    url: `${appRoot}/api/v1/documents/${document.id}/preview${tokenQuery}`,
     verifyUrl: document.signature
       ? `${appRoot}/ui/document-verify.html?id=${encodeURIComponent(document.id)}&sig=${encodeURIComponent(document.signature)}`
       : '',
@@ -104,7 +110,7 @@ function publicDocumentRow(document) {
 
   return `<button class="board-document board-file" type="button" data-document="${document.id}">
     <strong>${escapeHtml(document.original_name)}</strong>
-    <img class="board-file-preview" src="${appRoot}/api/v1/documents/${document.id}/thumbnail" alt="Anteprima ${escapeHtml(document.original_name)}">
+    <img class="board-file-preview" src="${appRoot}/api/v1/documents/${document.id}/thumbnail${tokenQuery}" alt="Anteprima ${escapeHtml(document.original_name)}">
     <small>${escapeHtml(document.created_at || '')}</small>
   </button>`;
 }
@@ -260,13 +266,14 @@ function toggleRoleMenus(user) {
   const profileEnabled = operationalEnabled || roles.includes('membro');
   setMenuVisibility({
     communications: operationalEnabled,
-    meetings: profileEnabled,
+    meetings: operationalEnabled,
     meetingOperations: operationalEnabled,
-    rooms: profileEnabled,
+    rooms: operationalEnabled,
     practices: operationalEnabled,
     documents: operationalEnabled,
     rsu: operationalEnabled || adminEnabled,
     administration: profileEnabled,
+    administrationOperations: operationalEnabled,
     users: adminEnabled,
     profile: profileEnabled,
     contacts: operationalEnabled,
@@ -289,6 +296,9 @@ function setMenuVisibility(permissions) {
     [usersMenuLink, permissions.users],
     [profileMenuLink, permissions.profile],
     [contactsMenuLink, permissions.contacts],
+    [fundsMenuLink, permissions.administrationOperations],
+    [pdrMenuLink, permissions.administrationOperations],
+    [normativaMenuLink, permissions.administrationOperations],
     [privateDocumentsLink, permissions.privateDocuments],
   ].forEach(([element, visible]) => element?.classList.toggle('hidden', !visible));
 }
@@ -383,7 +393,7 @@ document.addEventListener('click', (event) => {
     renderDashboardPdf(item || {}, pdfViewer);
   } else {
     pdfViewer.classList.add('hidden');
-    pdfViewer.innerHTML = '';
+    clearDashboardPdf(pdfViewer);
     frame.src = item?.url || '';
     frame.classList.remove('hidden');
   }
@@ -395,51 +405,23 @@ function isMobileDashboard() {
 }
 
 async function renderDashboardPdf(item, viewer) {
+  clearDashboardPdf(viewer);
+  const controller = new AbortController();
+  dashboardPdfPreviews.set(viewer, controller);
   viewer.innerHTML = '<p class="muted">Caricamento documento...</p>';
   try {
-    const pdfjsLib = await import('../../vendor/pdfjs/pdf.mjs');
-    pdfjsLib.GlobalWorkerOptions.workerSrc = '../../vendor/pdfjs/pdf.worker.mjs';
-    const response = await fetch(item.url || '', { cache: 'no-store' });
-    if (!response.ok) throw new Error('Documento non disponibile.');
-    const pdf = await pdfjsLib.getDocument({
-      data: await response.arrayBuffer(),
-      cMapUrl: '../../vendor/pdfjs/cmaps/',
-      cMapPacked: true,
-      standardFontDataUrl: '../../vendor/pdfjs/standard_fonts/',
-      wasmUrl: '../../vendor/pdfjs/wasm/',
-    }).promise;
-    viewer.innerHTML = '';
-    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
-      const page = await pdf.getPage(pageNumber);
-      const baseViewport = page.getViewport({ scale: 1 });
-      const availableWidth = Math.max(280, viewer.clientWidth - 16);
-      const viewport = page.getViewport({ scale: availableWidth / baseViewport.width });
-      const canvas = document.createElement('canvas');
-      const pageWrap = document.createElement('div');
-      canvas.width = Math.ceil(viewport.width);
-      canvas.height = Math.ceil(viewport.height);
-      canvas.className = 'dashboard-pdf-page';
-      pageWrap.className = 'dashboard-pdf-page-wrap';
-      pageWrap.style.width = `${canvas.width}px`;
-      pageWrap.style.height = `${canvas.height}px`;
-      pageWrap.appendChild(canvas);
-      viewer.appendChild(pageWrap);
-      await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
-      const annotations = await page.getAnnotations({ intent: 'display' });
-      annotations.filter((annotation) => (annotation.url || annotation.unsafeUrl) && annotation.rect)
-        .forEach((annotation) => addDashboardPdfLink(
-          pageWrap,
-          viewport,
-          annotation.rect,
-          annotation.url || annotation.unsafeUrl,
-        ));
-      if (pageNumber === 1 && item.verifyUrl) {
-        addDashboardPdfLink(pageWrap, viewport, [502, 728, 554, 780], item.verifyUrl);
-      }
-    }
+    const renderer = await import('./dashboard-pdf-viewer.js?v=20261114-mobile-zoom-1');
+    if (!controller.signal.aborted) await renderer.renderDashboardPdfDocument(item, viewer, addDashboardPdfLink, controller.signal);
   } catch (error) {
-    viewer.textContent = error.message || 'Anteprima non disponibile.';
+    if (!controller.signal.aborted) viewer.textContent = error.message || 'Anteprima non disponibile.';
   }
+}
+
+function clearDashboardPdf(viewer) {
+  if (!viewer) return;
+  dashboardPdfPreviews.get(viewer)?.abort();
+  dashboardPdfPreviews.delete(viewer);
+  viewer.innerHTML = '';
 }
 
 function addDashboardPdfLink(pageWrap, viewport, rect, url) {
@@ -472,7 +454,7 @@ if (closeDashboardVerifyModal) closeDashboardVerifyModal.addEventListener('click
 async function loadComments(documentId, targetSelector) {
   const target = document.querySelector(targetSelector);
   if (!target) return;
-  const response = await fetch(`${appRoot}/api/v1/documents/${documentId}/comments`);
+  const response = await fetch(`${appRoot}/api/v1/documents/${documentId}/comments`, { headers: authToken() ? { Authorization: `Bearer ${authToken()}` } : {} });
   const payload = await response.json();
   target.innerHTML = commentsHtml(documentId, response.ok ? payload.data : []);
 }
@@ -555,6 +537,7 @@ function closeParentModal(element) {
     modal.classList.add('hidden');
     const frame = modal.querySelector('iframe');
     if (frame) frame.src = '';
+    clearDashboardPdf(modal.querySelector('.dashboard-pdf-viewer'));
   }
 }
 
@@ -575,13 +558,13 @@ function closeParentModal(element) {
   if (closeButton && modal) closeButton.addEventListener('click', () => {
     modal.classList.add('hidden');
     if (frame) frame.src = '';
-    if (pdfViewer) pdfViewer.innerHTML = '';
+    clearDashboardPdf(pdfViewer);
   });
   if (modal) modal.addEventListener('click', (event) => {
     if (event.target === modal) {
       modal.classList.add('hidden');
       if (frame) frame.src = '';
-      if (pdfViewer) pdfViewer.innerHTML = '';
+      clearDashboardPdf(pdfViewer);
     }
   });
 });

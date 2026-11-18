@@ -9,7 +9,7 @@ const MyRsuPracticeOptions = (() => {
   const types = [['collective', 'collettiva RSU'], ['personal', 'personale'], ['personal_restricted', 'personale riservata']];
   const priorities = [['low', 'bassa'], ['medium', 'media'], ['high', 'alta'], ['urgent', 'urgente']];
   const sources = [['manual', 'manuale'], ['anonymous_report', 'segnalazione anonima'], ['mail', 'mail'], ['member', 'membro'], ['delegate', 'delegato'], ['document', 'documento'], ['communication', 'comunicato'], ['meeting', 'incontro']];
-  const visibilities = [['operators', 'solo operatori'], ['authorized', 'interni autorizzati'], ['public_summary', 'sintesi pubblicabile']];
+  const visibilities = [['authorized', 'Solo assegnatario'], ['operators', 'Delegati']];
 
   function options(items, selected = '') {
     return items.map(([value, label]) => `<option value="${value}"${value === selected ? ' selected' : ''}>${label}</option>`).join('');

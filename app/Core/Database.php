@@ -10,7 +10,7 @@ final class Database
 {
     private PDO $pdo;
 
-    public function __construct(array $config)
+    public function __construct(array $config, array $tables = [], string $prefix = '')
     {
         $dsn = sprintf(
             'mysql:host=%s;dbname=%s;charset=%s',
@@ -19,11 +19,14 @@ final class Database
             $config['charset']
         );
 
-        $this->pdo = new PDO($dsn, $config['username'], $config['password'], [
+        $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
             PDO::ATTR_EMULATE_PREPARES => false,
-        ]);
+        ];
+        $this->pdo = $prefix === ''
+            ? new PDO($dsn, $config['username'], $config['password'], $options)
+            : new ConfigurationPdo($dsn, $config['username'], $config['password'], $options, $tables, $prefix);
     }
 
     public function pdo(): PDO

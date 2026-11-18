@@ -51,6 +51,7 @@ final class AuthController
                 'user' => $user,
                 'roles' => $this->app->roles->rolesForUser((int)$user['id']),
                 'permissions' => $this->app->roles->permissionsForUser((int)$user['id']),
+                'configuration' => in_array('admin', $this->app->roles->rolesForUser((int)$user['id']), true) ? $this->app->configurationContext->summary() : null,
             ],
         ]);
     }

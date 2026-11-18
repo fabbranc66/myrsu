@@ -47,6 +47,7 @@ async function loadDraft() {
   form.title.value = document.comunicato?.title || '';
   form.body.value = document.comunicato?.body || '';
   form.visibility.value = document.visibility || 'public';
+  form.visibility.disabled = document.can_set_visibility !== true;
   draftActions.classList.remove('hidden');
   message.textContent = 'Bozza caricata.';
 }

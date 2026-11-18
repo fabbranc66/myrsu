@@ -31,6 +31,7 @@ use App\Repositories\RoomParticipantRepository;
 use App\Repositories\RoomRepository;
 use App\Repositories\RoomTimelineRepository;
 use App\Repositories\RolePermissionRepository;
+use App\Repositories\SavedConfigurationRepository;
 use App\Repositories\TokenRepository;
 use App\Repositories\UnionMeetingRepository;
 use App\Repositories\UnionMeetingNoteRepository;
@@ -54,6 +55,9 @@ use App\Services\ComunicatoDirectPdfService;
 use App\Services\DocumentSignatureService;
 use App\Services\DocumentFolderAccessService;
 use App\Services\DocumentFolderService;
+use App\Services\ConfigurationContextService;
+use App\Services\ConfigurationCatalogService;
+use App\Services\ConfigurationFilesService;
 use App\Services\DocumentStorageService;
 use App\Services\DocumentThumbnailService;
 use App\Services\DocumentVerificationMetadataService;
@@ -69,6 +73,7 @@ use App\Services\OfficeFileService;
 use App\Services\NormativaFileService;
 use App\Services\ProtocolDocumentNameService;
 use App\Services\PracticeService;
+use App\Services\PracticeAccessService;
 use App\Services\PdfConversionService;
 use App\Services\PdfLayoutService;
 use App\Services\PdfImageFitService;
@@ -94,10 +99,12 @@ final class Application
     private array $hostingConfig;
     private array $signingConfig;
     private bool $databaseReady = false;
+    private string $dataPath;
 
     public readonly Router $router;
     public readonly Database $database;
     public readonly Auth $auth;
+    public readonly ConfigurationContextService $configurationContext;
     public readonly UserRepository $users;
     public readonly TokenRepository $tokens;
     public readonly RolePermissionRepository $roles;
@@ -119,6 +126,7 @@ final class Application
     public readonly PracticeRepository $practices;
     public readonly PracticeTimelineRepository $practiceTimeline;
     public readonly PracticeService $practiceService;
+    public readonly PracticeAccessService $practiceAccess;
     public readonly ReportRepository $reports;
     public readonly ReportAttachmentRepository $reportAttachments;
     public readonly ReminderRepository $reminders;
@@ -181,6 +189,7 @@ final class Application
 
     public function __construct(private readonly string $basePath)
     {
+        $this->dataPath = $basePath;
         $this->databaseConfig = require $this->basePath . '/config/database.php';
         $this->hostingConfig = require $this->basePath . '/config/hosting.php';
         $this->signingConfig = require $this->basePath . '/config/signing.php';
@@ -189,20 +198,11 @@ final class Application
         $this->antiBot = new AntiBotService();
         $this->comunicatoPdf = new ComunicatoPdfService();
         $this->reportService = new ReportService();
-        $this->reportAttachmentStorage = new ReportAttachmentStorageService($this->basePath);
-        $this->roomAttachmentStorage = new RoomAttachmentStorageService($this->basePath, new MediaDurationService());
         $this->renderedPdfUpload = new RenderedPdfUploadService();
         $this->documentSignature = new DocumentSignatureService($this->signingConfig);
-        $this->documentThumbnail = new DocumentThumbnailService($this->basePath);
-        $this->documentVerificationMetadata = new DocumentVerificationMetadataService($this->basePath);
         $this->officeFiles = new OfficeFileService();
         $this->normativaFiles = new NormativaFileService($this->basePath);
         $this->pdfConversion = new PdfConversionService();
-        $this->documentStorage = new DocumentStorageService(
-            $this->basePath,
-            $this->pdfConversion,
-            new HostingDocumentUploadService($this->hostingConfig)
-        );
         $this->pdfLayout = new PdfLayoutService();
         $this->pdfImageFit = new PdfImageFitService();
         $this->pdfQr = new PdfQrService();
@@ -224,23 +224,57 @@ final class Application
         $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig);
     }
 
-    public function bootDatabase(): void
+    public function basePath(): string
+    {
+        return $this->basePath;
+    }
+
+    public function dataPath(): string
+    {
+        return $this->dataPath;
+    }
+
+    public function configurationConnection(array $configuration): \PDO
+    {
+        $tables = ConfigurationCatalogService::tables($this->configurationContext->repository->pdo);
+        if ($configuration['table_prefix'] !== '' && array_diff($tables, json_decode($configuration['tables_json'] ?? '[]', true) ?: [])) {
+            throw new HttpException(409, 'Schema della configurazione d’origine da aggiornare.');
+        }
+        return (new Database($this->databaseConfig, $tables, $configuration['table_prefix']))->pdo();
+    }
+
+    public function bootDatabase(?Request $request = null): void
     {
         if ($this->databaseReady) {
             return;
         }
 
-        $this->database = new Database($this->databaseConfig);
-
-        $pdo = $this->database->pdo();
-
+        $master = new Database($this->databaseConfig);
+        $pdo = $master->pdo();
         $this->users = new UserRepository($pdo);
         $this->tokens = new TokenRepository($pdo);
         $this->roles = new RolePermissionRepository($pdo);
+        $this->auth = new Auth($this->users, $this->tokens, $this->roles);
+        $this->configurationContext = new ConfigurationContextService(new SavedConfigurationRepository($pdo), $request, $this->auth, $this->roles);
+        $configuration = $this->configurationContext->current;
+        $prefix = $configuration['table_prefix'] ?? '';
+        $tables = $prefix === '' ? [] : ConfigurationCatalogService::tables($pdo);
+        if ($prefix !== '' && array_diff($tables, json_decode($configuration['tables_json'] ?? '[]', true) ?: []) && !str_starts_with($request?->path() ?? '', '/api/v1/admin/configurations')) {
+            throw new HttpException(409, 'Schema della configurazione da aggiornare. Torna all’Operativo dalla pagina Configurazioni.');
+        }
+        $this->database = $prefix === '' ? $master : new Database($this->databaseConfig, $tables, $prefix);
+        $this->dataPath = $configuration === null ? $this->basePath : (new ConfigurationFilesService($this->basePath))->root($configuration);
+        $this->reportAttachmentStorage = new ReportAttachmentStorageService($this->dataPath);
+        $this->roomAttachmentStorage = new RoomAttachmentStorageService($this->dataPath, new MediaDurationService());
+        $this->documentThumbnail = new DocumentThumbnailService($this->dataPath);
+        $this->documentVerificationMetadata = new DocumentVerificationMetadataService($this->dataPath);
+        $this->documentStorage = new DocumentStorageService($this->dataPath, $this->pdfConversion, new HostingDocumentUploadService($this->configurationContext->operational ? $this->hostingConfig : []));
+        $pdo = $this->database->pdo();
         $this->calls = new CallRepository($pdo);
         $this->documents = new DocumentRepository($pdo);
         $this->documentFolders = new DocumentFolderRepository($pdo);
-        $this->documentFolderAccess = new DocumentFolderAccessService($this->documentFolders, $this->roles, $this->basePath);
+        $this->practiceAccess = new PracticeAccessService($this->roles);
+        $this->documentFolderAccess = new DocumentFolderAccessService($this->documentFolders, $this->roles, $this->dataPath);
         $this->documentFolderService = new DocumentFolderService($this->documentFolders, $this->documents, $this->roles, $this->documentFolderAccess);
         $this->documentComments = new DocumentCommentRepository($pdo);
         $this->emails = new EmailRepository($pdo);
@@ -249,12 +283,12 @@ final class Application
         $this->institutionalContacts = new InstitutionalContactRepository($pdo);
         $this->meetingProjections = new MeetingProjectionRepository($pdo);
         $this->emailContacts = new EmailContactService($this->institutionalContacts, $this->users);
-        $this->emailImapSync = new EmailImapSyncService($this->basePath, $this->emails, $this->emailContacts);
+        $this->emailImapSync = new EmailImapSyncService($this->dataPath, $this->emails, $this->emailContacts);
         $this->protocols = new ProtocolRepository($pdo);
         $this->practiceLinks = new PracticeLinkRepository($pdo);
         $this->practiceCcnlLinks = new PracticeCcnlLinkRepository($pdo);
         $this->practiceNotes = new PracticeNoteRepository($pdo);
-        $this->practices = new PracticeRepository($pdo);
+        $this->practices = new PracticeRepository($pdo, isset($configuration['id']) ? (int)$configuration['id'] : null);
         $this->practiceTimeline = new PracticeTimelineRepository($pdo);
         $this->normativa = new NormativaRepository($pdo);
         $this->practiceService = new PracticeService($this->practices, $this->users);
@@ -290,9 +324,8 @@ final class Application
         $this->votingTokens = new VotingTokenRepository($pdo);
         $this->votingBallots = new VotingBallotRepository($pdo);
         $this->activityLogs = new ActivityLogRepository($pdo);
-        $this->auth = new Auth($this->users, $this->tokens, $this->roles);
         $this->authService = new AuthService($this->users, $this->tokens, $this->activityLogs);
-        $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->basePath, $this->hostingConfig, $this->documents);
+        $this->hostingDocumentReceive = new HostingDocumentReceiveService($this->dataPath, $this->hostingConfig, $this->documents);
         $this->databaseReady = true;
     }
 
@@ -307,54 +340,38 @@ final class Application
             $request = Request::capture();
 
             if (
-                !in_array($request->path(), ['/api/v1/health', '/api/v1/hosting/documents'], true)
+                $request->path() !== '/api/v1/health'
             ) {
-                $this->bootDatabase();
+                $this->bootDatabase($request);
+                $this->configurationContext->assertLocalAction($request);
+                if ($this->configurationContext->current !== null) header('X-Configuration-Id: ' . $this->configurationContext->current['id']);
             }
 
             require $this->basePath . '/routes/api.php';
 
             $response = $this->router->dispatch($request);
             if ($response instanceof FileResponse) {
-                $this->documentFolderAccess->assertFile($response->path(), $this->auth->user($request));
+                $this->assertFileResponse($response, $request);
             }
             $response->send();
-        } catch (HttpException $exception) {
-            $error = ['message' => $exception->getMessage()];
-            if ($exception->status() >= 500) {
-                $errorId = bin2hex(random_bytes(6));
-                error_log(sprintf(
-                    '[MyRSU %s] %s in %s:%d',
-                    $errorId,
-                    $exception->getMessage(),
-                    $exception->getFile(),
-                    $exception->getLine()
-                ));
-                $error['detail'] = $exception->getMessage();
-                $error['source'] = basename($exception->getFile()) . ':' . $exception->getLine();
-                $error['error_id'] = $errorId;
-            }
-            Response::json([
-                'error' => $error,
-            ], $exception->status())->send();
         } catch (Throwable $exception) {
-            $debug = (bool)getenv('APP_DEBUG');
-            $errorId = bin2hex(random_bytes(6));
-            error_log(sprintf(
-                '[MyRSU %s] %s in %s:%d',
-                $errorId,
-                $exception->getMessage(),
-                $exception->getFile(),
-                $exception->getLine()
-            ));
-            Response::json([
-                'error' => [
-                    'message' => $debug ? $exception->getMessage() : 'Errore interno.',
-                    'detail' => $exception->getMessage(),
-                    'source' => basename($exception->getFile()) . ':' . $exception->getLine(),
-                    'error_id' => $errorId,
-                ],
-            ], 500)->send();
+            ApiErrorHandler::response($exception)->send();
         }
+    }
+
+    private function assertFileResponse(FileResponse $response, Request $request): void
+    {
+        if ($request->path() === '/api/v1/projection-access/document') {
+            $token = trim((string)$request->query('token', ''));
+            $session = $token === '' ? null : $this->meetingProjections->activeByToken($token);
+            $document = ($session['current_document_id'] ?? null) === null
+                ? null : $this->documents->findById((int)$session['current_document_id']);
+            if ($document !== null) {
+                $expected = realpath($this->documentStorage->pdfPath((string)$document['pdf_public_path']));
+                if ($expected !== false && realpath($response->path()) === $expected) return;
+            }
+            throw new HttpException(410, 'Documento non disponibile nella proiezione attiva.');
+        }
+        $this->documentFolderAccess->assertFile($response->path(), $this->auth->user($request));
     }
 }

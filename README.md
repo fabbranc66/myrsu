@@ -1,4 +1,4 @@
-﻿# MyRSU API
+﻿# MioDel - Mio Delegato
 
 Backend API-first custom PHP per gestione RSU.
 
@@ -27,7 +27,7 @@ Backend API-first custom PHP per gestione RSU.
 ## Primo avvio
 
 1. Importa `database/schema.sql`.
-2. Apri `http://localhost/myrsu/api/v1/health`.
+2. Apri `http://localhost/miodel/api/v1/health`.
 3. Login admin:
 
 ```json
@@ -67,7 +67,7 @@ Preserva:
 ## Hosting Upload
 
 ```powershell
-$env:HOSTING_DOCUMENTS_ENDPOINT="https://www.kr-solutions.it/myrsu/api/v1/hosting/documents"
+$env:HOSTING_DOCUMENTS_ENDPOINT="https://www.kr-solutions.it/miodel/api/v1/hosting/documents"
 $env:HOSTING_DOCUMENTS_TOKEN="secret-token"
 $env:MYRSU_SIGNING_SECRET="secret-token"
 ```
@@ -87,11 +87,11 @@ Deploy automatico su `main`: `.github/workflows/deploy-hosting.yml`
 
 ## UI Test
 
-- Users: `http://localhost/myrsu/ui/users.html`
-- User edit: `http://localhost/myrsu/ui/user-edit.html?id=1`
-- Profile: `http://localhost/myrsu/ui/profile-test.html`
-- Protocol: `http://localhost/myrsu/ui/protocol-test.html`
-- Documents: `http://localhost/myrsu/ui/documents-test.html`
+- Users: `http://localhost/miodel/ui/users.html`
+- User edit: `http://localhost/miodel/ui/user-edit.html?id=1`
+- Profile: `http://localhost/miodel/ui/profile-test.html`
+- Protocol: `http://localhost/miodel/ui/protocol-test.html`
+- Documents: `http://localhost/miodel/ui/documents-test.html`
 
 Ogni UI test mostra anche la risposta JSON dell'ultima chiamata API.
 
@@ -198,5 +198,5 @@ Get-ChildItem -Recurse -Filter *.php | ForEach-Object {
 ```powershell
 Invoke-RestMethod `
   -Method Get `
-  -Uri "http://localhost/myrsu/api/v1/health"
+  -Uri "http://localhost/miodel/api/v1/health"
 ```

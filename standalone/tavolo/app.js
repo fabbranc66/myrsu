@@ -1,6 +1,6 @@
-import { closePdf, openPdf } from './pdf.js?v=20260802-room-1';
+import { closePdf, openPdf } from './pdf.js?v=20261118-miodel-path-1';
 
-const apiBase = `${location.origin}/myrsu/api/v1`;
+const apiBase = `${location.origin}/miodel/api/v1`;
 const params = new URLSearchParams(location.search);
 const queryInvite = params.get('invite');
 const queryToken = params.get('token');
@@ -49,7 +49,7 @@ function renderRoom() {
   document.querySelector('#roomTitle').textContent = state.room.title;
   document.querySelector('#roomDescription').textContent = state.room.description || '';
   const external = state.participant.identity_type === 'external';
-  document.querySelector('#identityLabel').textContent = external ? 'Identificativo locale' : 'Identità MyRSU';
+  document.querySelector('#identityLabel').textContent = external ? 'Identificativo locale' : 'Identità Mio Delegato';
   document.querySelector('#localIdentifier').textContent = external ? state.participant.local_identifier : state.participant.name;
   document.querySelector('#documents').innerHTML = state.documents.map((item) => `<button class="document" data-document="${item.document_id}" data-title="${escapeHtml(item.original_name)}"><strong>${escapeHtml(item.original_name)}</strong><small>${escapeHtml(item.shared_at)}</small></button>`).join('') || '<p>Nessun documento condiviso.</p>';
   const writable = ['interact','manage'].includes(state.participant.permission_level) && ['open','in_progress'].includes(state.room.status);

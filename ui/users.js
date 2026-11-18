@@ -1,5 +1,5 @@
 const apiBase = '../api/v1';
-const state = { token: sessionStorage.getItem('token') || localStorage.getItem('token'), roles: [], permissions: [] };
+const state = { token: sessionStorage.getItem('token') || localStorage.getItem('token'), roles: [], permissions: [], isAdmin: false, userId: null };
 
 const userPanel = document.querySelector('#userPanel');
 const createForm = document.querySelector('#createForm');
@@ -28,13 +28,13 @@ async function api(path, options = {}) {
   const response = await fetch(`${apiBase}${path}`, { ...options, headers });
   const text = await response.text();
   const payload = text ? JSON.parse(text) : {};
+  renderJson(payload);
 
   if (!response.ok) {
     const error = new Error(payload.error?.message || 'Request failed');
     error.status = response.status;
     throw error;
   }
-  renderJson(payload);
   return payload.data;
 }
 
@@ -48,7 +48,7 @@ function setAuthView() {
 }
 
 async function loadRoles() {
-  if (!state.permissions.includes('roles.manage')) return;
+  if (!state.isAdmin || !state.permissions.includes('roles.manage')) return;
   state.roles = await api('/roles');
   roleSelect.innerHTML = state.roles
     .map((role) => `<option value="${role.name}">${role.label}</option>`)
@@ -70,9 +70,9 @@ async function checkGdpr() {
 async function loadUsers() {
   const users = await api('/users');
   usersTable.innerHTML = users.map((user) => renderUserRow(user, state.roles, {
-    canUpdate: state.permissions.includes('users.update'),
-    canDelete: state.permissions.includes('users.delete'),
-    canManageRoles: state.permissions.includes('roles.manage'),
+    canUpdate: state.isAdmin && state.permissions.includes('users.update'),
+    canDelete: state.isAdmin && state.permissions.includes('users.delete'),
+    canManageRoles: state.isAdmin && state.permissions.includes('roles.manage'),
     canViewGdpr: state.permissions.includes('gdpr.view_all'),
     canViewActivity: state.permissions.includes('activity.view'),
   })).join('');
@@ -85,17 +85,20 @@ function syncCreateUnionCode() {
 }
 
 function configureAccess(me) {
+  state.userId = me.user?.id ?? null;
   const roles = Array.isArray(me.roles) ? me.roles : [];
   if (!roles.some((role) => ['admin', 'delegato', 'rls'].includes(role))) {
     window.location.replace('app/index.html');
     return;
   }
   state.permissions = Array.isArray(me.permissions) ? me.permissions : [];
-  createForm.classList.toggle('hidden', !state.permissions.includes('users.create'));
+  state.isAdmin = roles.includes('admin');
+  createForm.classList.toggle('hidden', !state.isAdmin || !state.permissions.includes('users.create'));
 }
 
 createForm.addEventListener('submit', async (event) => {
   event.preventDefault();
+  if (!state.isAdmin) return;
   message.textContent = '';
 
   try {
@@ -334,11 +337,11 @@ function renderLogObject(type, data) {
     status: data.status,
     visibility: data.visibility,
   });
-  if (type === 'user') return logEditForm('user', data.user?.id, {
-    name: data.user?.name,
-    email: data.user?.email,
-    status: data.user?.status,
-  }, { Ruoli: (data.roles || []).join(', ') });
+  if (type === 'user') {
+    const fields = { name: data.user?.name, email: data.user?.email, status: data.user?.status };
+    const details = { Ruoli: (data.roles || []).join(', ') };
+    return state.isAdmin ? logEditForm('user', data.user?.id, fields, details) : logDefinitionList({ ...fields, ...details });
+  }
   if (type === 'contacts') return logEditForm('contacts', data.id, {
     type: data.contact_type,
     name: data.label,
@@ -638,6 +641,7 @@ logObjectBody.addEventListener('submit', async (event) => {
 });
 
 async function saveLogObject(type, id, data) {
+  if (type === 'user' && !state.isAdmin) throw new Error('Modifica utenti riservata agli amministratori.');
   if (type === 'document') return api(`/documents/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
   if (type === 'meeting') return api(`/union-meetings/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
   if (type === 'user') return api(`/users/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
@@ -647,14 +651,21 @@ async function saveLogObject(type, id, data) {
 
 usersTable.addEventListener('change', async (event) => {
   const select = event.target.closest('select[data-role]');
-  if (!select) return;
+  if (!select || !state.isAdmin) return;
 
   try {
-    await api(`/users/${select.dataset.role}/roles`, {
+    const result = await api(`/users/${select.dataset.role}/roles`, {
       method: 'POST',
-      body: JSON.stringify({ roles: [select.value] }),
+      body: JSON.stringify({ roles: userRoleNames(select.value) }),
     });
-    showMessage('Ruolo salvato');
+    if (result?.sessions_revoked && String(state.userId) === String(select.dataset.role)) {
+      sessionStorage.removeItem('token');
+      localStorage.removeItem('token');
+      state.token = null;
+      window.location.href = 'login.html';
+      return;
+    }
+    showMessage('Ruoli salvati');
   } catch (error) {
     showError(error);
   }

@@ -54,6 +54,22 @@ final class DocumentFolderService
         return $folderId;
     }
 
+    public function uploadPracticeDestination(mixed $value, array $user): ?int
+    {
+        $practiceId = $this->folderId($value === '' ? null : $value);
+        if ($practiceId === null) return null;
+        if (!$this->roles->userHasPermission((int)$user['id'], 'documents.update')
+            || !array_intersect($this->roles->rolesForUser((int)$user['id']), ['admin', 'delegato', 'rls'])) {
+            throw new HttpException(403, 'Permesso insufficiente per caricare nella pratica.');
+        }
+        foreach ($this->access->data()['folders'] as $folder) {
+            if ((int)($folder['practice_id'] ?? 0) !== $practiceId || $folder['system_key'] !== 'practice:' . $practiceId) continue;
+            $this->access->assertFolder((int)$folder['id'], $user, true);
+            return $practiceId;
+        }
+        throw new HttpException(404, 'Cartella della pratica non trovata.');
+    }
+
     public function move(int $documentId, array $data, array $user): array
     {
         if (!array_key_exists('folder_id', $data)) throw new HttpException(422, 'Indicare la cartella di destinazione.');
@@ -62,17 +78,22 @@ final class DocumentFolderService
         $this->access->assertDocument($document, $user, true);
         $folderId = $this->folderId($data['folder_id']);
         $this->requireFolder($folderId, $user);
+        if ($this->access->moveExpandsAccess($document, $folderId) && ($data['confirm_visibility_change'] ?? false) !== true) {
+            return ['confirmation_required' => true, 'message' => 'Lo spostamento amplia la visibilità del documento. Confermi di renderlo accessibile a più persone?'];
+        }
         $this->folders->place($documentId, $folderId, (int)$user['id']);
         $this->access->refresh();
         return ['document_id' => $documentId, 'folder_id' => $folderId];
     }
 
-    public function setPermissions(int $folderId, array $data): void
+    public function setPermissions(int $folderId, array $data): array
     {
         if ($this->folders->find($folderId) === null) throw new HttpException(404, 'Cartella non trovata.');
         if (!is_bool($data['inherit_permissions'] ?? null) || !is_array($data['permissions'] ?? null)) {
             throw new HttpException(422, 'Specificare ereditarietà e permessi per ruolo.');
         }
+        $visibility = $data['visibility'] ?? null;
+        if ($visibility !== null && !in_array($visibility, ['document', ...DocumentVisibilityService::VALUES], true)) throw new HttpException(422, 'Visibilità cartella non valida.');
         $roles = array_column($this->roles->allRoles(), 'id');
         $permissions = [];
         foreach ($data['permissions'] as $permission) {
@@ -84,8 +105,13 @@ final class DocumentFolderService
             }
             $permissions[$roleId] = ['role_id' => $roleId, 'access_level' => $permission['access_level']];
         }
-        $this->folders->setPermissions($folderId, $data['inherit_permissions'], array_values($permissions));
+        if ($data['inherit_permissions'] || $visibility !== null) $permissions = [];
+        if ($this->access->permissionsExpandAccess($folderId, $data['inherit_permissions'], $visibility, array_values($permissions), $this->documents->all()) && ($data['confirm_visibility_change'] ?? false) !== true) {
+            return ['confirmation_required' => true, 'message' => 'La modifica amplia la visibilità di alcuni documenti nella cartella o nelle sottocartelle. Confermi?'];
+        }
+        $this->folders->setPermissions($folderId, $data['inherit_permissions'], array_values($permissions), $visibility);
         $this->access->refresh();
+        return ['updated' => true];
     }
 
     private function requireFolder(?int $folderId, array $user): void

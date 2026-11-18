@@ -75,6 +75,11 @@ final class RolePermissionRepository
 
     public function assignRole(int $userId, string $roleName): void
     {
+        $this->changeUserRoles($userId, false, fn () => $this->insertRole($userId, $roleName));
+    }
+
+    private function insertRole(int $userId, string $roleName): void
+    {
         $stmt = $this->pdo->prepare(
             'INSERT IGNORE INTO role_user (user_id, role_id)
              SELECT ?, id FROM roles WHERE name = ?'
@@ -82,17 +87,41 @@ final class RolePermissionRepository
         $stmt->execute([$userId, $roleName]);
     }
 
-    public function replaceUserRoles(int $userId, array $roleNames): void
+    public function replaceUserRoles(int $userId, array $roleNames): bool
     {
-        $this->pdo->beginTransaction();
+        return $this->changeUserRoles(
+            $userId,
+            !in_array('admin', $roleNames, true),
+            function () use ($userId, $roleNames): void {
+                $delete = $this->pdo->prepare('DELETE FROM role_user WHERE user_id = ?');
+                $delete->execute([$userId]);
 
-        $delete = $this->pdo->prepare('DELETE FROM role_user WHERE user_id = ?');
-        $delete->execute([$userId]);
+                foreach ($roleNames as $roleName) {
+                    $this->insertRole($userId, (string)$roleName);
+                }
+            }
+        );
+    }
 
-        foreach ($roleNames as $roleName) {
-            $this->assignRole($userId, (string)$roleName);
-        }
+    private function changeUserRoles(int $userId, bool $removesAdmin, callable $operation): bool
+    {
+        return (new AdminAccountProtectionRepository($this->pdo))->run($userId, $removesAdmin, function () use ($userId, $operation): bool {
+            $user = $this->pdo->prepare('SELECT id FROM users WHERE id = ? FOR UPDATE');
+            $user->execute([$userId]);
+            $before = $this->roleIdsForUpdate($userId);
+            $operation();
+            $changed = $before !== $this->roleIdsForUpdate($userId);
+            if ($changed) {
+                (new TokenRepository($this->pdo))->revokeForUser($userId);
+            }
+            return $changed;
+        });
+    }
 
-        $this->pdo->commit();
+    private function roleIdsForUpdate(int $userId): array
+    {
+        $statement = $this->pdo->prepare('SELECT role_id FROM role_user WHERE user_id = ? ORDER BY role_id FOR UPDATE');
+        $statement->execute([$userId]);
+        return array_map('intval', $statement->fetchAll(PDO::FETCH_COLUMN));
     }
 }

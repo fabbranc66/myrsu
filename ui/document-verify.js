@@ -47,6 +47,13 @@ function authHeaders() {
   return token ? { Authorization: `Bearer ${token}` } : {};
 }
 
+function verificationPath(id) {
+  const source = params.get('source');
+  if (source === null) return `../api/v1/documents/${encodeURIComponent(id)}`;
+  if (!/^[1-9][0-9]*$/.test(source)) throw new Error('Origine del documento non valida.');
+  return `../api/v1/archive/sources/${encodeURIComponent(source)}/documents/${encodeURIComponent(id)}`;
+}
+
 async function verifyServerFile() {
   const id = document.getElementById('documentId').value;
   const signature = document.getElementById('signature').value;
@@ -55,7 +62,7 @@ async function verifyServerFile() {
     return;
   }
 
-  const response = await fetch(`../api/v1/documents/${id}/verify?sig=${encodeURIComponent(signature)}`, { headers: authHeaders() });
+  const response = await fetch(`${verificationPath(id)}/verify?sig=${encodeURIComponent(signature)}`, { headers: authHeaders() });
   const data = await response.json();
   jsonOutput.textContent = JSON.stringify(data, null, 2);
   if (!response.ok) {
@@ -66,7 +73,7 @@ async function verifyServerFile() {
 
   const valid = Boolean(data.data?.valid);
   serverResult.textContent = valid
-    ? 'QR valido: documento ufficiale server autentico. Per controllare questa copia PDF, caricala qui sotto.'
+    ? 'Codice valido: copia digitale conservata da MioDelegato per il delegato RSU FIM-CISL. Per verificare anche il tuo PDF, caricalo qui sotto.'
     : 'QR NON valido.';
   serverResult.className = valid ? 'alert success' : 'alert danger';
 }
@@ -84,7 +91,7 @@ form.addEventListener('submit', async (event) => {
   body.append('sig', signature);
   body.append('file', file);
 
-  const response = await fetch(`../api/v1/documents/${id}/verify-file`, {
+  const response = await fetch(`${verificationPath(id)}/verify-file`, {
     method: 'POST',
     headers: authHeaders(),
     body,

@@ -43,6 +43,27 @@ final class MyRsuFpdi extends Fpdi
         $this->_out('Q');
     }
 
+    public function brandingWatermark(string $symbolPath, float $symbolHeight, float $centerY, string $basePath): void
+    {
+        $centerX = PdfLayoutService::PAGE_WIDTH / 2;
+        $top = PdfLayoutService::PAGE_HEIGHT - $centerY;
+        $this->_out(sprintf('q 0.882948 0.469472 -0.469472 0.882948 %.2F %.2F cm 1 0 0 1 %.2F %.2F cm', $centerX, $centerY, -$centerX, -$centerY));
+        $this->setAlpha(0.32);
+        $this->Image($basePath, $centerX - 85, $top - $symbolHeight / 2 - 12, 170, $symbolHeight, 'PNG');
+        $this->setAlpha(0.11);
+        $this->Image($symbolPath, $centerX - 85, $top - $symbolHeight / 2 - 12, 170, $symbolHeight, 'PNG');
+        $this->SetFont('Helvetica', 'B', 16);
+        $this->setAlpha(0.32);
+        $this->SetTextColor(255, 255, 255);
+        $this->Text($centerX - $this->GetStringWidth(PdfBrandingService::CAPTION) / 2, $top + $symbolHeight / 2 + 11, PdfBrandingService::CAPTION);
+        $this->setAlpha(0.19);
+        $this->SetTextColor(100, 116, 139);
+        $this->Text($centerX - $this->GetStringWidth(PdfBrandingService::CAPTION) / 2, $top + $symbolHeight / 2 + 11, PdfBrandingService::CAPTION);
+        $this->_out('Q');
+        $this->setAlpha(1);
+        $this->SetTextColor(0);
+    }
+
     private function addExtGState(array $parameters): int
     {
         $this->extGStates[] = ['parameters' => $parameters, 'object' => 0];

@@ -14,25 +14,38 @@ final class PdfWriterService
         $fontRegular = $next++;
         $fontBold = $next++;
         $extState = $next++;
+        $symbolState = $next++;
+        $captionState = $next++;
+        $underlayState = $next++;
+        $brandRefs = [];
+        foreach (PdfBrandingService::assets() as $name => $image) {
+            $imageId = $next++;
+            $maskId = $next++;
+            $brandRefs[$name] = $imageId;
+            $objects[] = $this->transparentImageObject($imageId, $maskId, $image);
+            $objects[] = "{$maskId} 0 obj\n<< /Type /XObject /Subtype /Image /Width {$image['width']} /Height {$image['height']} /ColorSpace /DeviceGray /BitsPerComponent 8 /Filter /FlateDecode /Length "
+                . strlen($image['alpha']) . " >>\nstream\n{$image['alpha']}\nendstream\nendobj\n";
+        }
 
         foreach ($pages as $page) {
             $pageObject = $next++;
             $contentObject = $next++;
-            $imageRefs = [];
+            $imageRefs = $brandRefs;
             $annotRefs = [];
             foreach (($page['images'] ?? []) as $image) {
                 $imageObject = $next++;
                 $imageRefs[(string)$image['name']] = $imageObject;
                 $objects[] = $this->imageObject($imageObject, $image);
                 [$x, $y, $width, $height] = $image['rect'];
-                $page['content'] = sprintf(
+                $draw = sprintf(
                     "q %.2F 0 0 %.2F %.2F %.2F cm /%s Do Q\n",
                     $width,
                     $height,
                     $x,
                     $y,
                     (string)$image['name']
-                ) . (string)($page['content'] ?? '');
+                );
+                $page['content'] = $draw . (string)($page['content'] ?? '');
             }
             foreach (($page['links'] ?? []) as $link) {
                 $annotObject = $next++;
@@ -49,14 +62,23 @@ final class PdfWriterService
             $annots = $annotRefs === [] ? '' : ' /Annots [' . implode(' ', $annotRefs) . ']';
             $objects[] = "{$pageObject} 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 "
                 . PdfLayoutService::PAGE_WIDTH . ' ' . PdfLayoutService::PAGE_HEIGHT
-                . "]{$annots} /Resources << /XObject << {$xobjects} >> /Font << /F1 {$fontRegular} 0 R /F2 {$fontBold} 0 R >> /ExtGState << /GS1 {$extState} 0 R >> >> /Contents {$contentObject} 0 R >>\nendobj\n";
+                . "]{$annots} /Resources << /XObject << {$xobjects} >> /Font << /F1 {$fontRegular} 0 R /F2 {$fontBold} 0 R >> /ExtGState << /GS1 {$extState} 0 R /BrandSymbolAlpha {$symbolState} 0 R /BrandCaptionAlpha {$captionState} 0 R /BrandUnderlayAlpha {$underlayState} 0 R >> >> /Contents {$contentObject} 0 R >>\nendobj\n";
         }
 
         $objects[] = "2 0 obj\n<< /Type /Pages /Kids [" . implode(' ', $pageRefs) . '] /Count ' . count($pageRefs) . " >>\nendobj\n";
         $objects[] = "{$fontRegular} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>\nendobj\n";
         $objects[] = "{$fontBold} 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>\nendobj\n";
         $objects[] = "{$extState} 0 obj\n<< /Type /ExtGState /ca 0.45 /CA 0.45 >>\nendobj\n";
+        $objects[] = "{$symbolState} 0 obj\n<< /Type /ExtGState /ca 0.11 /CA 0.11 >>\nendobj\n";
+        $objects[] = "{$captionState} 0 obj\n<< /Type /ExtGState /ca 0.19 /CA 0.19 >>\nendobj\n";
+        $objects[] = "{$underlayState} 0 obj\n<< /Type /ExtGState /ca 0.32 /CA 0.32 >>\nendobj\n";
         $this->writeObjects($objects, $targetPath);
+    }
+
+    private function transparentImageObject(int $id, int $maskId, array $image): string
+    {
+        return "{$id} 0 obj\n<< /Type /XObject /Subtype /Image /Width {$image['width']} /Height {$image['height']} /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /SMask {$maskId} 0 R /Length "
+            . strlen($image['data']) . " >>\nstream\n{$image['data']}\nendstream\nendobj\n";
     }
 
     private function imageObject(int $id, array $image): string

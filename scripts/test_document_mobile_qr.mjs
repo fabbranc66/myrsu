@@ -38,7 +38,7 @@ const context = vm.createContext({
 vm.runInContext(['addPdfLinks', 'addPdfLink', 'openPdfLink', 'openVerifyModal', 'isQrTap'].map(functionSource).join('\n'), context);
 const viewport = { convertToViewportRectangle: () => [251, 31, 277, 57] };
 const page = { appendChild(element) { assert.equal(element, createdElement); } };
-context.addPdfLink(page, viewport, [502, 728, 554, 780], 'http://localhost/myrsu/ui/document-verify.html?id=7&sig=SIGNATURE');
+context.addPdfLink(page, viewport, [502, 728, 554, 780], 'http://localhost/miodel/ui/document-verify.html?id=7&sig=SIGNATURE');
 assert.equal(createdElement.tagName, 'button');
 assert.equal(createdElement.type, 'button');
 assert.equal(createdElement['aria-label'], 'Verifica autenticità documento');

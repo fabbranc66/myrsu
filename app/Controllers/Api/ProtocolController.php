@@ -128,7 +128,7 @@ final class ProtocolController
             return $scheme . '://' . $host . ($dir === '' ? '' : $dir);
         }
 
-        return rtrim((string)env_value('APP_URL', 'http://localhost/myrsu'), '/');
+        return rtrim((string)env_value('APP_URL', 'http://localhost/miodel'), '/');
     }
 
     public function destroy(Request $request, array $params): Response

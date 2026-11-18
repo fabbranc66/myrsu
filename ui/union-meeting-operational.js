@@ -23,7 +23,12 @@ async function api(path, options = {}) {
   const text = await response.text();
   const payload = text ? JSON.parse(text) : {};
   jsonOutput.textContent = JSON.stringify(payload, null, 2);
-  if (!response.ok) throw new Error(payload.error?.message || 'Request failed');
+  if (!response.ok) {
+    const error = new Error(payload.error?.message || 'Request failed');
+    error.code = payload.error?.code;
+    error.status = response.status;
+    throw error;
+  }
   return payload.data;
 }
 
@@ -108,8 +113,8 @@ noteForm.addEventListener('submit', async (event) => {
 attachmentsList.addEventListener('click', (event) => {
   const project = event.target.closest('[data-project-document]');
   if (project) {
-    api(`/documents/${project.dataset.projectDocument}/projection`, { method: 'POST' })
-      .then((session) => { message.textContent = `Documento proiettato: ${session.document_name}`; })
+    window.MyRsuProjection.publish(api, project.dataset.projectDocument)
+      .then((session) => { message.textContent = session ? `Documento proiettato: ${session.document_name}` : 'Proiezione annullata.'; })
       .catch((error) => { message.textContent = error.message; });
     return;
   }

@@ -46,7 +46,7 @@ export function buildDocumentArchive(documents, practices, manual = {}) {
     const destination = customById.get(placements.get(Number(document.id)));
     if (destination) destination.documents.push(document);
     const identifiers = documentPracticeIds(document);
-    if (!identifiers.length) {
+    if (!identifiers.some((identifier) => folders.has(identifier))) {
       if (!destination && document.category !== 'comunicati') rootDocuments.push(document);
       continue;
     }

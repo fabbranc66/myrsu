@@ -18,28 +18,30 @@ final class CallController
 
     public function index(Request $request): Response
     {
-        $this->requireOperator($request);
+        $user = $this->requireOperator($request);
         $practiceId = $request->query('practice_id');
 
         return Response::json([
             'data' => array_map(
                 [$this, 'transform'],
-                $this->app->calls->all($practiceId !== null && $practiceId !== '' ? (int)$practiceId : null)
+                $this->app->practiceAccess->filterLinked($this->app->calls->all($practiceId !== null && $practiceId !== '' ? (int)$practiceId : null), $user, $this->app->practices)
             ),
         ]);
     }
 
     public function show(Request $request, array $params): Response
     {
-        $this->requireOperator($request);
+        $user = $this->requireOperator($request);
 
-        return Response::json(['data' => $this->transform($this->findCall((string)$params['id']))]);
+        return Response::json(['data' => $this->transform($this->findCall((string)$params['id'], $user))]);
     }
 
     public function store(Request $request): Response
     {
         $user = $this->requireOperator($request);
-        $call = $this->app->calls->create($this->validated($request->all()) + [
+        $data = $this->validated($request->all());
+        $this->app->practiceAccess->assertLinked($data, $user, $this->app->practices);
+        $call = $this->app->calls->create($data + [
             'id' => $this->uuid(),
             'created_by' => (int)$user['id'],
         ]);
@@ -58,7 +60,7 @@ final class CallController
         $user = $this->requireOperator($request);
         $data = $request->all();
         Validator::required($data, ['practice_id']);
-        $call = $this->findCall((string)$params['id']);
+        $call = $this->findCall((string)$params['id'], $user);
         if ($call['practice_id'] !== null) {
             throw new HttpException(422, 'Telefonata gia collegata a pratica.');
         }
@@ -66,6 +68,7 @@ final class CallController
         if ($practice === null) {
             throw new HttpException(404, 'Pratica non trovata.');
         }
+        $this->app->practiceAccess->assert($practice, $user);
 
         $updated = $this->app->calls->linkPractice((string)$call['id'], (int)$practice['id']);
 
@@ -81,12 +84,14 @@ final class CallController
     public function update(Request $request, array $params): Response
     {
         $user = $this->requireOperator($request);
-        $call = $this->findCall((string)$params['id']);
+        $call = $this->findCall((string)$params['id'], $user);
         if ($call['practice_id'] !== null) {
             throw new HttpException(422, 'Telefonata collegata a pratica: modifica non consentita.');
         }
 
-        $updated = $this->app->calls->update((string)$call['id'], $this->validated($request->all()) + [
+        $data = $this->validated($request->all());
+        $this->app->practiceAccess->assertLinked($data, $user, $this->app->practices);
+        $updated = $this->app->calls->update((string)$call['id'], $data + [
             'practice_id' => null,
         ]);
         $this->app->activityLogs->write((int)$user['id'], 'calls.update', [
@@ -100,7 +105,7 @@ final class CallController
     public function destroy(Request $request, array $params): Response
     {
         $user = $this->requireOperator($request);
-        $call = $this->findCall((string)$params['id']);
+        $call = $this->findCall((string)$params['id'], $user);
         if ($call['practice_id'] !== null) {
             throw new HttpException(422, 'Telefonata collegata a pratica: cancellazione non consentita.');
         }
@@ -159,12 +164,13 @@ final class CallController
         return $user;
     }
 
-    private function findCall(string $id): array
+    private function findCall(string $id, array $user): array
     {
         $call = $this->app->calls->findById($id);
         if ($call === null) {
             throw new HttpException(404, 'Telefonata non trovata.');
         }
+        $this->app->practiceAccess->assertLinked($call, $user, $this->app->practices);
 
         return $call;
     }

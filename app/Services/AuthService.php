@@ -31,7 +31,7 @@ final class AuthService
         }
 
         $plainToken = bin2hex(random_bytes(32));
-        $this->tokens->create((int)$user['id'], $plainToken, $deviceName);
+        $this->tokens->create((int)$user['id'], $plainToken, $deviceName, (string)$user['password_hash']);
         $this->activityLogs->write((int)$user['id'], 'auth.login', ['device_name' => $deviceName]);
 
         unset($user['password_hash']);

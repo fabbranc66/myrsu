@@ -8,6 +8,9 @@ const message = document.querySelector('#message');
 const gdprTable = document.querySelector('#gdprTable');
 const subtitle = document.querySelector('#subtitle');
 const jsonOutput = document.querySelector('#jsonOutput');
+let canManageUsers = false;
+let currentUserId = null;
+let currentRoles = [];
 
 async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
@@ -29,13 +32,17 @@ function renderJson(payload) {
 }
 
 async function load() {
+  const me = await api('/me');
+  currentUserId = me.user?.id ?? null;
+  canManageUsers = Array.isArray(me.roles) && me.roles.includes('admin');
+  editForm.hidden = !canManageUsers;
+  if (!canManageUsers) { message.textContent = 'Modifica utenti riservata agli amministratori.'; return; }
   const roles = await api('/roles');
   const data = await api(`/users/${id}`);
   const consents = await api(`/users/${id}/gdpr/consents`);
+  currentRoles = userRoleNames(data.roles);
 
-  roleSelect.innerHTML = roles
-    .map((role) => `<option value="${role.name}">${role.label}</option>`)
-    .join('');
+  roleSelect.innerHTML = userRoleOptions(roles, data.roles);
 
   editForm.name.value = data.user.name;
   editForm.first_name.value = data.user.first_name || '';
@@ -50,14 +57,14 @@ async function load() {
   editForm.id.value = data.user.id;
   editForm.created_at.value = data.user.created_at;
   editForm.updated_at.value = data.user.updated_at;
-  roleSelect.value = data.roles[0] || '';
+  roleSelect.value = userRoleNames(data.roles).join(',');
   syncUnionCodeField();
   subtitle.textContent = `${data.user.name} - ${data.user.email}`;
   gdprTable.innerHTML = consents.map(consentRow).join('');
 }
 
 function syncUnionCodeField() {
-  const enabled = ['delegato', 'rls'].includes(roleSelect.value);
+  const enabled = userRoleNames(roleSelect.value).some((role) => ['delegato', 'rls'].includes(role));
   editForm.union_code.disabled = !enabled;
   editForm.union_logo.disabled = !enabled;
   if (!enabled) editForm.union_code.value = '';
@@ -79,37 +86,81 @@ function consentRow(consent) {
 
 editForm.addEventListener('submit', async (event) => {
   event.preventDefault();
+  if (!canManageUsers) return;
   const form = new FormData(editForm);
   const body = Object.fromEntries(form.entries());
-  const role = body.role;
+  const roles = userRoleNames(body.role);
+  const unionRole = roles.some((role) => ['delegato', 'rls'].includes(role));
 
   delete body.id;
   delete body.role;
   delete body.created_at;
   delete body.updated_at;
-  if (!['delegato', 'rls'].includes(role)) {
+  if (!unionRole) {
     body.union_code = '';
   }
 
   if (!body.password) {
     delete body.password;
   }
+  const resetsPassword = typeof body.password === 'string' && body.password.trim() !== '';
+  const resetsOwnPassword = resetsPassword && String(currentUserId) === String(id);
+  const changesOwnRoles = String(currentUserId) === String(id) && roles.join(',') !== currentRoles.join(',');
+  const needsNewUnionData = unionRole && !currentRoles.some((role) => ['delegato', 'rls'].includes(role))
+    && (body.union_code || editForm.union_logo.files.length > 0);
+  if (changesOwnRoles && (resetsPassword || body.status !== 'active' || needsNewUnionData)) {
+    message.textContent = 'Modifica il tuo ruolo separatamente da password, sospensione e nuovi dati sindacali: il cambio ruolo richiede un nuovo login.';
+    return;
+  }
 
-  await api(`/users/${id}/roles`, {
-    method: 'POST',
-    body: JSON.stringify({ roles: [role] }),
-  });
+  if (!changesOwnRoles) {
+    await api(`/users/${id}/roles`, {
+      method: 'POST',
+      body: JSON.stringify({ roles }),
+    });
+  }
+
+  if (resetsOwnPassword && editForm.union_logo.files.length > 0 && unionRole) {
+    await uploadUnionLogo(editForm.union_logo.files[0]);
+  }
 
   await api(`/users/${id}`, {
     method: 'PATCH',
     body: JSON.stringify(body),
   });
 
-  if (editForm.union_logo.files.length > 0 && ['delegato', 'rls'].includes(role)) {
+  if (resetsOwnPassword) {
+    sessionStorage.removeItem('token');
+    localStorage.removeItem('token');
+    canManageUsers = false;
+    editForm.hidden = true;
+    editForm.password.value = '';
+    message.textContent = 'Password salvata. Accedi nuovamente.';
+    window.location.href = 'login.html';
+    return;
+  }
+
+  if (editForm.union_logo.files.length > 0 && unionRole) {
     await uploadUnionLogo(editForm.union_logo.files[0]);
   }
 
-  message.textContent = 'Utente salvato';
+  if (changesOwnRoles) {
+    await api(`/users/${id}/roles`, {
+      method: 'POST',
+      body: JSON.stringify({ roles }),
+    });
+    sessionStorage.removeItem('token');
+    localStorage.removeItem('token');
+    canManageUsers = false;
+    editForm.hidden = true;
+    message.textContent = 'Ruoli salvati. Accedi nuovamente.';
+    window.location.href = 'login.html';
+    return;
+  }
+
+  currentRoles = roles;
+  editForm.password.value = '';
+  message.textContent = resetsPassword ? 'Utente salvato. Password reimpostata e sessioni revocate.' : 'Utente salvato';
 });
 
 async function uploadUnionLogo(file) {

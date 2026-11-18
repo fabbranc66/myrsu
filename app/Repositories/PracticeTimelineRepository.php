@@ -32,6 +32,19 @@ final class PracticeTimelineRepository
         return $items;
     }
 
+    public function documentIds(int $practiceId): array
+    {
+        $statement = $this->pdo->prepare(
+            "SELECT entity_id AS document_id FROM practice_links WHERE practice_id = ? AND entity_type = 'document'
+             UNION SELECT pe.document_id FROM practice_links pl JOIN protocol_entries pe ON pe.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'protocol' AND pe.document_id IS NOT NULL
+             UNION SELECT r.document_id FROM practice_links pl JOIN reports r ON r.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'report' AND r.document_id IS NOT NULL
+             UNION SELECT c.document_id FROM practice_links pl JOIN document_comments c ON c.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'comment'
+             UNION SELECT m.public_document_id FROM practice_links pl JOIN union_meetings m ON m.id = pl.entity_id WHERE pl.practice_id = ? AND pl.entity_type = 'meeting' AND m.public_document_id IS NOT NULL"
+        );
+        $statement->execute(array_fill(0, 5, $practiceId));
+        return array_map('intval', $statement->fetchAll(PDO::FETCH_COLUMN));
+    }
+
     private function linked(int $practiceId, string $sql): array
     {
         $stmt = $this->pdo->prepare($sql);

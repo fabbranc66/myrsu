@@ -39,8 +39,15 @@ final class Auth
             return null;
         }
 
-        $this->tokens->touch((int)$token['id']);
-        $this->user = $this->users->findById((int)$token['user_id']);
+        $user = $this->users->findById((int)$token['user_id']);
+        if ($user === null || ($user['status'] ?? '') !== 'active') {
+            return null;
+        }
+
+        if (!$this->tokens->touch((int)$token['id'])) {
+            return null;
+        }
+        $this->user = $user;
 
         return $this->user;
     }
@@ -64,6 +71,15 @@ final class Auth
             throw new HttpException(403, 'Permesso insufficiente.');
         }
 
+        return $user;
+    }
+
+    public function requireAdmin(Request $request): array
+    {
+        $user = $this->requireUser($request);
+        if (!in_array('admin', $this->roles->rolesForUser((int)$user['id']), true)) {
+            throw new HttpException(403, 'Operazione riservata agli amministratori.');
+        }
         return $user;
     }
 }

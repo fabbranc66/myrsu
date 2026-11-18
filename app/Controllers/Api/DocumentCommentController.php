@@ -112,7 +112,7 @@ final class DocumentCommentController
     private function publicDocument(Request $request, int $id): array
     {
         $document = $this->app->documents->findById($id);
-        if ($document === null || (string)$document['visibility'] !== 'public' || !in_array((string)$document['category'], ['documenti', 'comunicati'], true)) {
+        if ($document === null || !in_array((string)$document['category'], ['documenti', 'comunicati'], true)) {
             throw new HttpException(404, 'Documento non trovato.');
         }
 
